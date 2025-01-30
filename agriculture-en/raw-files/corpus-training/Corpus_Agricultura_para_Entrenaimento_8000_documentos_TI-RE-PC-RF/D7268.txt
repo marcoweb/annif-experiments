@@ -1,0 +1,28 @@
+#ITI#Model to assess water movement from a shallow water table to the root zone#FTI#
+#IRE#UPFLOW is a simple software tool developed to estimate with limited data availability and appropriate assumptions the expected upward water movement from a shallow water table to the root zone during a specific period (typically 10-day) in a specific environment. The program contains various sets of soil water retention curves that are considered as representative for various soil classes and indicative values for root water extraction for a number of crops. The environmental conditions are specified in fields of a spreadsheet type Main Menu by specifying: (i) the average evapotranspiration (ET) demand of the atmosphere during the period under consideration, (ii) the expected soil wetness in the topsoil as a result of rain during that period, (iii) the depth of groundwater below the soil surface, (iv) the water extraction pattern of the plant roots, (v) the thickness and characteristics of successive layers of the soil profile and (vi) the salt content of the water table. A steady state upward flow is assumed during the period. The simulations are in line with indicative values presented in literature. Additionally, the software displays the deficient aeration conditions in the root zone and its effect on crop evapotranspiration when the groundwater is close to the soil surface. The model was used to estimate the capillary rise from shallow groundwater (1-1.5 m) to the root zone (0.4-0.6 m) of horticultural crops in loamy sand and sandy loam soils in Belgium. The field measurements confirm that UPFLOW simulates the correct order of magnitude of the capillary rise to the root zone. UPFLOW is public domain software and hence freely available. An installation disk and manual can be downloaded from the web. © 2003 Elsevier Science B.V. All rights reserved.#FRE#
+#IPC#Capillary rise; Groundwater; Soil water balance#FPC#
+#IRF#Abrol I.P., Yadav J.S.P., Massoud P.I., Salt-affected soils and their management, FAO Soils Bulletin No. 39, 39, (1988); 
+Ahuja L.R., Cassel D.K., Bruce R.R., Barnes B.B., Evaluation of spatial distribution of hydraulic conductivity using effective porosity data, Soil Sci. J., 148, 6, pp. 404-411, (1989); 
+Allen R., Pereira L., Raes D., Smith M., Crop evapotranspiration, guidelines for computing crop water requirements, FAO Irrigation and Drainage Paper No. 56, 56, (1998); 
+Belmans C., Wesseling J.G., Feddes R.A., Simulation model of the water balance of a cropped soil: SWATRE, J. Hydrol., 63, pp. 271-286, (1983); 
+De Laat P.J.M., Model for unsaturated flow above a shallow water-table, Applied to a Regional Sub-Surface Flow Problem, (1980); 
+De Laat P.J.M., Design and operation of a subsurface irrigation scheme with MUST, Crop-Water-Simulation Models in Practice, pp. 123-140, (1995); 
+Diels J., A Validation Procedure Accounting for Model Input Uncertainty: Methodology and Application to the SWATRER Model, (1994); 
+Doorenbos J., Pruit W.O., Crop water requirements, FAO Irrigation and Drainage Paper No. 24, 24, (1977); 
+Feddes R.A., Kowalik P.J., Zaradny H., Simulation of Field Water Use and Crop Yield, (1978); 
+Hubrechts L., Van De Moortel R., Feyen J., Berekening van de bodemwaterbalans onder bos voor de proefvlakken van het 'bosbodemmeetnet vlaanderen' (periode 1990-1995), Internal Publication No. 47, 47, (1997); 
+Jackson R.D., On the calculation of hydraulic conductivity, Soil Sci. Am. Proc., 36, pp. 380-382, (1972); 
+Kunze R.J., Uchara G., Graham K., Factors important in the calculation of hydraulic conductivity, Soil Sci. Am. Proc., 32, pp. 760-765, (1968); 
+Mualem Y., A new model for predicting the hydraulic conductivity of unsaturated porous media, Water Resour. Res., 12, pp. 513-522, (1976); 
+Munoz Carpena, Vanclooster R., Villace-Reyes M.E., Evaluation of the wave model, So. Coop. Series Bull. No. 398, 398, (2001); 
+Raes D., UPFLOW - Water Movement in a Soil Profile from a Shallow Water Table to the Topsoil, Reference Manual, (2002); 
+Rawls W.J., Brakensiek D.L., Saxton K.E., Estimation of soil water properties, Trans. ASAE, pp. 1316-1320, (1982); 
+Rijtema P.E., Soil Moisture Forecasting, Nota, 513, (1969); 
+Saxton K.E., Rawls W.J., Romberger J.S., Papendick R.I., Estimating generalized soil-water characteristics from texture, Soil Sci. Soc. Am. J., 50, 4, pp. 1031-1036, (1986); 
+Schaap M.G., Leij F.J., Van Genuchten M.Th., Estimation of the soil hydraulic properties, Vadose Zone - Science and Technology Solutions, pp. 501-509, (1999); 
+Irrigation Water Requirements, National Engineering Handbook, 623, (1993); 
+Simunek J., Sejna M., Van Genuchten M.Th., Hydrus 1D - Software Package for Simulating the One-dimensional Movement of Water, Heat and Multiple Solutes in Variable Saturated-media, (1998); 
+Vanclooster M., Viaene P., Diels J., Christiaens K., WAVE - A Mathematical Model for Simulating Water and Agrochemicals in the Soil and Vadose Environment, Reference and User's Manual, (1994); 
+Van De Moortel R., Deckers J., Feyen J., Groei en Vitaliteit van Wintereik en Zomereik in Relatie tot de Waterhuishouding, (1998); 
+Van Genuchten M.Th., Leij F.J., Yates S.R., The RETC Code for Quantifying the Hydraulic Functions of Unsaturated Soils, (1991); 
+Williams R.D., Ahuja L.R., Using available water content with the one-parameter model to estimate soil water retention, Soil Sci., 156, 6, pp. 380-388, (1993)#FRF#

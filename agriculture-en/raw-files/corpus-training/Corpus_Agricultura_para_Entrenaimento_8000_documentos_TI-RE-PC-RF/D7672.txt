@@ -1,0 +1,51 @@
+#ITI#Data-driven estimation of actual evapotranspiration to support irrigation management: Testing two novel methods based on an unoccupied aerial vehicle and an artificial neural network#FTI#
+#IRE#Recent advances in remote sensing and machine learning show potential for improving irrigation use efficiency. In this study, two independent methods to determine the irrigation dose in processing tomatoes were calibrated, validated, and tested in an irrigation experiment. The first method used multispectral imagery acquired from an unoccupied aerial vehicle (UAV) to estimate the FAO-56 crop coefficient, Kc. The second method used an artificial neural network (ANN) trained on eddy covariance measurements of latent heat flux and meteorological variables from a nearby meteorological station. An irrigation experiment was conducted, where the farmer was instructed through a mobile application with updated irrigation recommendations. Evapotranspiration estimated by the new methods was set as the irrigation dose for the UAV and ANN treatments. The best-practice irrigation, commonly used by the regional farmers, was set as the control treatment (100%), guided by an irrigation expert and soil sensors for feedback. Derivatives of this treatment at 50%, 75%, and 125% of the control irrigation dose were tested. Yield, water use efficiency (WUE), and Brix level were measured and analyzed. Results show that both methods, UAV and ANN, estimated evapotranspiration to derive the irrigation dose at a near-perfect agreement with best-practice irrigation, both in the total amount and irrigation rate. Furthermore, there were no significant differences between the best practice and the experimental treatments in yield (117 ton/ha), water-use efficiency (31.7 kg/m3), and Brix (4.5°Bx). These results demonstrate the potential of advanced machine learning techniques and aerial remote sensing to quantify crop water requirements and support irrigation management. © 2023 The Authors#FRE#
+#IPC#Crop coefficient; Drone; Evapotranspiration; Irrigation; Machine learning; Remote sensing#FPC#
+#IRF#Aasen H., Honkavaara E., Lucieer A., Zarco-Tejada P.J., Quantitative remote sensing at ultra-high resolution with UAV spectroscopy: a review of sensor technology, measurement procedures, and data correction workflows, Remote Sens., 10, 7, (2018); 
+Allen R.G., Pereira L.S., Raes D., Smith M., (1998); 
+Alvarez-Vanhard E., Corpetti T., Houet T., UAV & satellite synergies for optical remote sensing applications: A literature review, Sci. Remote Sens., 3, (2021); 
+Aubinet M., Vesala T., Papale D., (2012); 
+Berger K., Machwitz M., Kycko M., Kefauver S.C., Van Wittenberghe S., Gerhards M., Schlerf M., Multi-sensor spectral synergies for crop stress detection and monitoring in the optical domain: A review, Remote Sens. Environ., 280, (2022); 
+Burba G., (2013); 
+Cui W., Chui T.F.M., Temporal and spatial variations of energy balance closure across FLUXNET research sites, Agric. For. Meteorol., 271, pp. 12-21, (2019); 
+Erlich N., Processing tomatoes in Israel during the season 2016/17: Data and quantities, Sade. Vayerek, 312, pp. 21-29, (2018); 
+(2019); 
+Fine L., Richard A., Tanny J., Pradalier C., Rosa R., Rozenstein O., Introducing state-of-the-art deep learning technique for gap-filling of eddy covariance crop evapotranspiration data, Water, 14, (2022); 
+Foken T., Gockede M., Mauder M., Mahrt L., Amiro B.D., Munger J.W., Post-field data quality control, Handbook of Micrometeorology: A Guide for Surface Flux Measurement and Analysis, pp. 181-208, (2004); 
+Friedman S.P., Is the crop evapotranspiration rate a good surrogate for the recommended irrigation rate?, Irrig. Drain., (2023); 
+Gautam D., Ostendorf B., Pagay V., Estimation of grapevine crop coefficient using a multispectral camera on an unmanned aerial vehicle, Remote Sens., 13, (2021); 
+Hanson B.R., May D.M., New crop coefficients developed for high-yield processing tomatoes, Calif. Agric., 60, (2006); 
+Kaplan G., Rozenstein O., Spaceborne estimation of leaf area index in cotton, tomato, and wheat using sentinel-2, Land, 10, 5, (2021); 
+Kaplan G., Fine L., Lukyanov V., Manivasagam V.S., Malachy N., Tanny J., Rozenstein O., Estimating processing tomato water consumption, leaf area index, and height using sentinel–2 and VENµS imagery, Remote Sens., 13, 6, (2021); 
+Kaplan G., Fine L., Lukyanov V., Manivasagam V.S., Tanny J., Rozenstein O., Normalizing the local incidence angle in Sentinel-1 imagery to improve leaf area index, vegetation height, and crop coefficient estimations, Land, 10, 7, (2021); 
+Kaplan G., Fine L., Lukyanov V., Malachy N., Tanny J., Rozenstein O., Using sentinel-1 and sentinel-2 imagery for estimating cotton crop coefficient, height, and Leaf Area Index, Agric. Water Manag., 276, (2023); 
+Kelley J., Pardyjak E.R., Using neural networks to estimate site-specific crop evapotranspiration with low-cost sensors, Agronomy, 9, (2019); 
+Kingma D., Ba J., (2014); 
+Kljun N., Calanca P., Rotach M., Schmid H., A simple two-dimensional parameterization for Flux Footprint Prediction (FFP). Geoscientific Model, Development, 8, 11, pp. 3695-3713, (2015); 
+Kumar M., Raghuwanshi N.S., Singh R., Artificial neural networks approach in evapotranspiration modeling: a review, Irrig. Sci., 29, 1, pp. 11-25, (2011); 
+Kuscu H., Turhan A., Demir A.O., The response of processing tomato to deficit irrigation at various phenological stages in a sub-humid environment, Agric. Water Manag., 133, pp. 92-103, (2014); 
+Laaboudi A., Mouhouche B., Draoui B., Neural network approach to reference evapotranspiration modeling from limited climatic data in arid regions, Int. J. Biometeorol., 56, pp. 831-841, (2012); 
+Luchinsky U., (1986); 
+Malachy N., Zadak I., Rozenstein O., Comparing methods to extract crop height and estimate crop coefficient from UAV imagery using structure from motion, Remote Sens., 14, 4, (2022); 
+Manivasagam V.S., Rozenstein O., Practices for upscaling crop simulation models from field scale to large regions, Comput. Electron. Agric., 175, (2020); 
+Manivasagam V.S., Kaplan G., Rozenstein O., Developing transformation functions for VENμS and Sentinel-2 surface reflectance over Israel, Remote Sens., 11, 14, (2019); 
+Manivasagam V.S., Sadeh Y., Kaplan G., Bonfil D.J., Rozenstein O., Studying the feasibility of assimilating sentinel-2 and Planetscope Imagery into the SAFY crop model to predict within-field wheat yield, Remote Sens., 13, 12, (2021); 
+(2012); 
+Ohana-Levi N., Bahat I., Peeters A., Shtein A., Netzer Y., Cohen Y., Ben-Gal A., A weighted multivariate spatial clustering model to determine irrigation management zones, Comput. Electron. Agric., 162, pp. 719-731, (2019); 
+Peet M.M., Physiological disorders in tomato fruit development, Int. Symp. Tomato Trop., 821, pp. 151-160, (2008); 
+Pelta R., Beeri O., Tarshish R., Shilo T., Forecasting seasonal plot-specific crop coefficient (Kc) protocol for processing tomato using remote sensing, meteorology, and artificial intelligence, Precis. Agric., 23, 6, pp. 1983-2000, (2022); 
+Reichstein M., Camps-Valls G., Stevens B., Jung M., Denzler J., Carvalhais N., Deep learning and process understanding for data-driven Earth system science, Nature, 566, 7743, pp. 195-204, (2019); 
+Romero M., Luo Y., Su B., Fuentes S., Vineyard water status estimation using multispectral imagery from an UAV platform and machine learning algorithms for irrigation scheduling management, Comput. Electron. Agric., 147, pp. 109-117, (2018); 
+Rozenstein O., Haymann N., Kaplan G., Tanny J., Estimating cotton water consumption using a time series of Sentinel-2 imagery, Agric. Water Manag., 207, pp. 44-52, (2018); 
+Rozenstein O., Haymann N., Kaplan G., Tanny J., Validation of the cotton crop coefficient estimation model based on Sentinel-2 imagery and eddy covariance measurements, Agric. Water Manag., 223, (2019); 
+Segarra J., Buchaillot M.L., Araus J.L., Kefauver S.C., Remote sensing for precision agriculture: Sentinel-2 improved features and applications, Agronomy, 10, 5, (2020); 
+(2013); 
+Shao G., Han W., Zhang H., Liu S., Wang Y., Zhang L., Cui X., Mapping maize crop coefficient Kc using random forest algorithm based on leaf area index and UAV-based multispectral vegetation indices, Agric. Water Manag., 252, (2021); 
+Stow D., Nichol C.J., Wade T., Assmann J.J., Simpson G., Helfter C., Illumination geometry and flying height influence surface reflectance and NDVI derived from multispectral UAS imagery, Drones, 3, 3, (2019); 
+Tang J., Han W., Zhang L., UAV multispectral imagery combined with the FAO-56 dual approach for maize evapotranspiration mapping in the North China Plain, Remote Sens., 11, (2019); 
+Tmusic G., Manfreda S., Aasen H., James M.R., Goncalves G., Ben-Dor E., Brook A., Polinova M., Arranz J.J., Meszaros J., Zhuang R., Johansen K., Malbeteau Y., de Lima I.P., Davids C., Herban S., McCabe M.F., Current practices in UAS-based environmental monitoring, Remote Sens., 12, 6, (2020); 
+Vickers D., Mahrt L., Quality control and flux sampling problems for tower and aircraft data, J. Atmos. Ocean. Technol., 14, 3, pp. 512-526, (1997); 
+Wilson K., Goldstein A., Falge E., Aubinet M., Baldocchi D., Berbigier P., Et al., Energy balance closure at FLUXNET sites, Agric. For. Meteorol., 113, 1-4, pp. 223-243, (2002); 
+Xu B., Wang N., Chen T., Li M., (2015); 
+Yohanani E., Frisch A., Lukyanov V., Cohen S., Teitel M., Tanny J., Estimating evapotranspiration of screenhouse banana plantations using artificial neural network and multiple linear regression models, Water, 14, (2022); 
+Zhang Y., Han W., Niu X., Li G., Maize crop coefficient estimated from uav-measured multispectral vegetation indices, Sensors, 19, 23, (2019)#FRF#

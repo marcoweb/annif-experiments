@@ -1,0 +1,17 @@
+#ITI#Mathematical modeling of open-channel velocity profiles for float method calibration#FTI#
+#IRE#A computational method based on mathematical modeling of steady-state hydraulics is described for improving the accuracy of the float method for estimating open-channel discharge. Both two-dimensional (2-D) and three-dimensional (3-D) velocity distribution model versions were developed for steady-state uniform flow in open channels with rectangular cross-sections. The normal depth of flow was obtained by solving the Chézy equation for uniform flow conditions. Cross-sectional velocity distributions were calculated by solving the Reynolds-averaged Navier-Stokes (RANS) equations and an algebraic model for turbulent stresses, without the use of wall proximity corrections to the pressure strain term. The calculated 3-D velocity coefficients were found to be in the same range as previously published United States Bureau of Reclamation (USBR) coefficients, but the results also indicate that the USBR coefficients, which are based solely on average water depth, can be improved by taking into account other hydraulic parameters such as longitudinal bed slope, channel base width, and wall roughness. The mathematical model exhibited considerable sensitivity to initial conditions, boundary condition parameters, and numerical convergence criteria, also manifesting spikes in the calculated surface velocity coefficients for discrete changes in hydraulic parameters. Finally, it was found that the 2-D version of the model is not appropriate for calculating surface velocity coefficients because it does not account for secondary flow in the channel cross-section, and the calculated surface velocity in the center of the cross-section is overestimated. © 2004 Elsevier B.V. All rights reserved.#FRE#
+#IPC#Discharge coefficients; Discharge measurement; Float method; Navier-Stokes equations; Open-channel flow; Open-channel velocity distribution#FPC#
+#IRF#Benim A.C., Zinser W., Investigation into the finite element analysis of confined flows using the k-ε model of turbulence, Comput. Meth. Appl. Mech. Eng., 51, pp. 507-523, (1985); 
+Foias C., Manley O., Rosa R., Temam R., Ricardo R., Navier-Stokes Equations and Turbulence, (2001); 
+French R.H., Open-Channel Hydraulics, (1985); 
+Jain S.C., Open-Channel Flow, (2001); 
+Launder B.E., Reece G.J., Rodi W., Progress in the development of a Reynolds-stress turbulence closure, J. Fluid Mech., 68, 3, pp. 537-566, (1975); 
+Matlab Version 5.3, (1999); 
+Montes S., Hydraulics of Open-Channel Flow, (1998); 
+Naot D., Rodi W., Calculation of secondary currents in channel flow, J. Hydr. Eng. ASCE, 108, 8, pp. 948-968, (1982); 
+Naot D., Nezu I., Nakagawa H., Hydrodynamic behavior of compound rectangular open channels, J. Hydr. Eng. ASCE, 119, 3, pp. 390-408, (1993); 
+Nikuradse J., Gesetzmässigkeit der turbulenten strömung in glatten rohren, Forschg. Arb. Ing. Wes., (1932); 
+Patankar S.V., Numerical Heat Transfer and Fluid Flow, (1980); 
+Rosten H.I., Worrell J.K., Generalized wall functions for turbulent flow, J. Comp. Fluid Dyn. Appl., Phoenics, 1, pp. 81-109, (1988); 
+Smart G.M., Turbulent velocity profiles and shear in gravel bed rivers, J. Hydr. Eng. ASCE, 125, 2, pp. 106-116, (1999); 
+Water Measurement Manual, (1997)#FRF#

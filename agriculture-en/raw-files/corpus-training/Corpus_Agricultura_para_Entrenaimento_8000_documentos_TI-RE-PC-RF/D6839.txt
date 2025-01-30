@@ -1,0 +1,30 @@
+#ITI#Simulation of furrow irrigation using the Slow-change/slow-flow equation#FTI#
+#IRE#A furrow irrigation model is developed based on the Slow-change/slow-flow routing equation, which is an approximate reduced form of the Saint-Venant equations to a single equation with a single variable, the upstream volume of water. For downstream-propagating disturbances it can be shown that the only approximation is that the rate of change of upstream inflow is small, with no limit on Froude number, so that it can be used for all slopes. It can also be used with all common end conditions. To calculate resistance to flow a composite model in terms of almost any boundary roughness is proposed. Infiltration is assumed to follow the Kostiakov formula. The equation was solved numerically using explicit Euler and implicit Crank-Nicolson schemes. Seven furrow-field data sets were used to verify the model simulation of advance and recession trajectories and runoff. In all cases examined, the model predictions were in good agreement with field data and results from existing software. The proposed model can provide a suitable and simple numerical simulation tool for design and evaluation of furrow irrigation for all bottom slopes and boundary conditions. © 2012 Elsevier B.V.#FRE#
+#IPC#Evaluation; Hydraulic resistance; Infiltration; Numerical model#FPC#
+#IRF#Abbasi F., Adamsen F.J., Hunsaker D.J., Feyen J., Shouse P., van Genuchten M.T., Effects of flow depth on water flow and solute transport in furrow irrigation: field data analysis, Journal of Irrigation and Drainage Engineering, 129, 4, pp. 237-246, (2003); 
+Abbasi F., Taefeh-Rezaie H., Jalini M., The possibility of fertigation in different furrow irrigation regimes, Tech. Rep., No. 523. Agricultural Engineering Research Institute, (2010); 
+Barlow K., Fenton J.D., Nash D., Grayson R., Modelling phosphorus transport in a surface irrigation drain, Advances in Water Resources, 29, 9, pp. 1383-1398, (2006); 
+Bassett D.L., Fitzsimmons D.W., Simulation overland flow in border irrigation, Transactions of the ASAE, 19, 4, pp. 666-671, (1976); 
+Bautista E., Clemmens A.J., Strelkoff T.S., Schlegel J., Modern analysis of surface irrigation systems with WinSRFR, Agricultural Water Management, 96, pp. 1146-1154, (2009); 
+Beirami M.K., Nabavi S.V., Chamani M.R., Free overfall in channels with different cross sections and sub-critical flow, Iranian Journal of Science & Technology, Transaction B, Engineering, 30, B1, pp. 97-105, (2006); 
+Burguete J., Zapata N., Garcia-Navarro P., Maikaka M., Playan E., Murillo J., Fertigation in furrows and level furrow systems. I: model description and numerical tests, Journal of Irrigation and Drainage Engineering, 135, 4, pp. 401-412, (2009); 
+De Boor C., A Practical Guide to Splines, (1978); 
+Elliott R.L., Walker W.R., Skogerboe G.V., Zero-inertia modeling of furrow irrigation advance, Journal of Irrigation and Drainage Engineering - ASCE, 108, 3, pp. 179-195, (1982); 
+Fangmeier D.D., Strelkoff T., Mathematical models and border irrigation design, Transactions of the ASAE, 22, 1, pp. 93-99, (1979); 
+Fenton J.D., Long waves in open channels - their nature, equations, approximations, and numerical simulation, Alternative Hydraulics Report 5., (2012); 
+Fenton J.D., Keller R.J., The calculation of streamflow from measurements of stage, Tech. Rep. 01/6, Cooperative Research Centre for Catchment Hydrology, Melbourne., (2001); 
+Fenton J.D., Oakes A.M., Aughton D.J., On the nature of waves in canals and gate stroking and control, Proceeding Workshop on Modernization of Irrigation Water Delivery Systems, US Committee on Irrigation and Drainage, pp. 343-357, (1999); 
+Guo J., Logarithmic matching and its applications in computational hydraulics and sediment transport, Journal of Hydraulic Research, 40, pp. 555-565, (2002); 
+Kennedy J.F., Macagno E.O., Selected Writings of Hunter Rouse, (1971); 
+Kostiakov A.V., On the dynamics of the coefficient of water percolation in soils and on the necessity for studying it from a dynamics point of view for the purposes of amelioration, Transactions of the 6th Commission of the International Society of Soil Science, America, pp. 17-21, (1932); 
+Merriam J.L., Keller J., Farm Irrigation System Evaluation: A Guide for Management, (1978); 
+Pagliara S., Das R., Carnacina I., Flow resistance in large-scale roughness condition, Canadian Journal of Civil Engineering, 35, 11, pp. 1285-1293, (2008); 
+Sherman B., Singh V.P., A kinematic model for surface irrigation: an extension, Water Resources Research, 18, 3, pp. 659-667, (1982); 
+Strelkoff T.S., Clemmens A.J., Approximating wetted perimeter in power-law cross section, Journal of Irrigation and Drainage Engineering, 126, 2, pp. 98-109, (2000); 
+Strelkoff T.S., Katopodes N.D., Border irrigation hydraulics with zero-inertia, Journal of Irrigation and Drainage Engineering - ASCE, 103, HY3, pp. 325-342, (1977); 
+Strelkoff T.S., Katopodes N.D., End depth under zero-inertia conditions, Journal of the Hydraulics Division, 103, HY7, pp. 699-711, (1977); 
+Thomas L.H., Elliptic problems in linear difference equations over a network, (1949); 
+USDA-ARS (US Department of Agriculture, Agricultural Research Service), WinSRFR Version 3.1 User Manual, (2009); 
+Walker W.R., Humpherys A.S., Kinematic-wave furrow irrigation model, Journal of Irrigation and Drainage Engineering, 109, 4, pp. 377-392, (1983); 
+Walker W.R., Skogerboe G.V., Surface Irrigation: Theory and Practice, (1987); 
+Yen B.C., Hydraulic resistance in open channels, Channel Flow Resistance: Centennial of Manning's Formula, Highlands Ranch, pp. 1-135, (1991)#FRF#
