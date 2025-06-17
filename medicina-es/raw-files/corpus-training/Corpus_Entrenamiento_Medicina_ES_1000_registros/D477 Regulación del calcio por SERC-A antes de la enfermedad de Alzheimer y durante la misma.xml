@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6704</article-id>
+			<article-id pub-id-type="publisher-id">00007</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Ensayo</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Regulación del calcio por SERC-A antes de la enfermedad de Alzheimer y durante la misma</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Calcium regulation by SERC-A before and during Alzheimer disease</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Alwiraikat-Flores</surname>
+						<given-names>Alamira Farah</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Octavio-Aguilar</surname>
+						<given-names>Pablo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original"> Laboratorio de Genética, Área Académica de Biología, Universidad Autónoma del Estado de Hidalgo, Hidalgo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma del Estado de Hidalgo</institution>
+					<institution content-type="orgname">Universidad Autónoma del Estado de Hidalgo</institution>
+					<addr-line>
+						<named-content content-type="city">Hidalgo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+				</aff>
+				<aff id="aff1b">
+					<label>1b</label>
+					<institution content-type="original"> Laboratorio de Genética, Área Académica de Biología, Universidad Autónoma del Estado de Hidalgo, Hidalgo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma del Estado de Hidalgo</institution>
+					<institution content-type="orgname">Universidad Autónoma del Estado de Hidalgo</institution>
+					<addr-line>
+						<named-content content-type="city">Hidalgo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+					<email>pablo_aguilar9900@uaeh.edu.mx</email>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Pablo Octavio-Aguilar, Laboratorio de Genética, Área Académica de Biología, Universidad Autónoma del Estado de Hidalgo, Carretera Pachuca-Tulancingo, km 4.5, Ciudad del Conocimiento, Col. Carboneras, Mineral de la Reforma, Hidalgo, México, C.P. 42184 <email>pablo_aguilar9900@uaeh.edu.mx</email> Teléfono: (+52) (77) 1722 9375</corresp>
+				<fn fn-type="conflict" id="fn5">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declaramos que no existen conflictos de intereses con empresas, instituciones o personas, y que este documento es producto de investigación original sin haber sido enviado previamente a ningún tipo de publicación.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>30</day>
+				<month>03</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+			<pub-date pub-type="epub-ppub">
+				<month>03</month>
+				<year>2023</year>
+			</pub-date>
+			<volume>43</volume>
+			<issue>1</issue>
+			<fpage>51</fpage>
+			<lpage>60</lpage>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>08</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>20</day>
+					<month>02</month>
+					<year>2023</year>
+				</date>
+				<date date-type="pub">
+					<day>06</day>
+					<month>03</month>
+					<year>2023</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<p>Hay muchos factores implicados en la incidencia de la enfermedad de Alzheimer que, en combinación, terminan por impedir o dificultar las funciones neuronales normales. Actualmente, poco se conoce sobre la regulación del calcio, antes de la enfermedad y durante la misma. La inestabilidad interna de los niveles de calcio se asocia a un mayor riesgo vascular, condición prevalente en un gran número de individuos ya comprometidos por la enfermedad de Alzheimer.</p>
+				<p>Esta revisión proporciona una reevaluación de los mecanismos moleculares de la ATPasa dependiente de Ca<sup>2+</sup> del retículo sarcoendoplásmico (SERC-A) en la enfermedad y analiza los aspectos más destacados de la función de los canales de calcio dependientes de voltaje; de esta manera, se podrán abrir nuevas alternativas de tratamiento. Estos mecanismos de regulación son clínicamente relevantes, ya que se ha implicado la función irregular de SERC-A en diversas alteraciones de la función cerebral.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<p>There are many factors involved in the incidence of Alzheimer’s disease that, in combination, impede or hinder normal neuronal functions. Little is currently known about calcium regulation before and during the disease. Internal instability of calcium levels is associated with increased vascular risk, a prevalent condition in a high number of individuals already compromised by Alzheimer’s disease.</p>
+				<p>This review provides a reevaluation of the molecular mechanism of the sarcoendoplasmic reticulum calcium ATPase (SERC-A) in the disease and discusses salient aspects of voltage-gated calcium channel function; in these way new alternatives could be open for its treatment. These regulation mechanisms are clinically relevant since the irregular functions of SERC+A has been implicated in pathologies of brain function.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave</title>
+				<kwd>Enfermedad de Alzheimer</kwd>
+				<kwd>ATPasas transportadoras de calcio</kwd>
+				<kwd>trastornos del metabolismo del calcio</kwd>
+				<kwd>receptor de N-metil-D-aspartato</kwd>
+				<kwd>retículo endoplásmico</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords</title>
+				<kwd>Alzheimer disease</kwd>
+				<kwd>calcium-transporting ATPases</kwd>
+				<kwd>calcium metabolism disorders</kwd>
+				<kwd>N-methyl-D-aspartate receptor</kwd>
+				<kwd>endoplasmic reticulum</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="50"/>
+				<page-count count="10"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La enfermedad de Alzheimer es la causa más común de demencia humana, sobre todo en mayores de 60 años. Actualmente, más de 46 millones de personas en el mundo sufren de enfermedad de Alzheimer y se estima que para el 2050 este número aumente a más de 131 millones <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>Esta enfermedad se debe a la pérdida progresiva de neuronas en diferentes partes del cerebro, lo que causa atrofia neurológica principalmente del hipocampo, estructuras corticales y límbicas, modificaciones patológicas que solo pueden ser evaluadas <italic>post mortem</italic>. Hay muchos factores implicados en la aparición de esta enfermedad, sobre todo si dificultan las funciones neuronales normales, como los accidentes vasculares, las condiciones de estrés prolongado o la falta de estímulos externos de refuerzo en el aprendizaje <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. También, están los factores ambientales que pueden provocar anomalías en el citoesqueleto (colchicina, genotoxicidad por plomo, etc.) o elementos endocrinos asociados con la expresión sexual, puesto que las mujeres presentan una mayor prevalencia <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>; además de la edad, ya que aparece en el 50 % de los casos de personas mayores de 80 años y en el 15 % de aquellos entre los 65 y los 80 años <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+		<p>Por lo tanto, la enfermedad de Alzheimer no es una entidad que se pueda explicar por un único evento anómalo, sino que es el resultado de la conjunción entre factores extrínsecos, como los ya mencionados, y alteraciones intrínsecas de la proteína β-amiloide (Αβ) (no en todos los casos), la acumulación de agregados proteicos sobre vainas de mielina o núcleos nerviosos, los procesos asociados con la cascada inflamatoria, el daño neuronal oxidativo por disfunción mitocondrial, las alteraciones proteicas de la molécula Tau, la formación de ovillos neurofibrilares, el fallo sináptico y el agotamiento de neurotransmisores, así como la herencia autosómica dominante del alelo 4 de la apolipoproteína E (APOEᵋ4) y mutaciones en las proteínas precursora amiloide (PPA) y presenilina-1 y 2; todo se ha correlacionado con casos de enfermedad de Alzheimer precoz familiar <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. En cualquier caso, la manifestación clínica de la enfermedad se asocia con una compleja progresión neurodegenerativa que produce un deterioro de la memoria y la pérdida de otros procesos cognitivos y no cognitivos <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+		<p>En general, varios trastornos neurológicos, incluyendo Parkinson y Alzheimer, se vinculan por incidencia con alteraciones cardiovasculares, pero los elementos moleculares relacionados entre ambos procesos no se han delimitado apropiadamente, aunque se mencionan cambios osmóticos mediados por Ca<sup>2+</sup> posteriores a las alteraciones mencionadas <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. De allí, que la inestabilidad celular de los niveles de calcio se asocie con un mayor riesgo vascular y su regulación abre una amplia gama de tratamientos para enfermedades renales, trasplantes y problemas cardiacos <xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, aunque, actualmente poco se conoce sobre la regulación del calcio antes de la enfermedad de Alzheimer y durante la misma, y si se relaciona con la irrigación vascularización.</p>
+		<p>En este trabajo, se revisan los mecanismos moleculares de la regulación del Ca<sup>2+</sup> durante la enfermedad de Alzheimer, con el fin de establecer si las ATPasas, específicamente la dependiente de Ca<sup>2+</sup> del retículo sarcoendoplásmico (SERC-A), podrían ser un posible blanco terapéutico para el tratamiento.</p>
+		<sec>
+			<title>El calcio como regulador del potencial sináptico</title>
+			<p>La función neuronal parte de emitir y recibir señales que se propagan a través de la membrana celular por cambios en la permeabilidad plasmática. Como consecuencia, se desarrolla un potencial eléctrico que se propaga a lo largo de toda la neurona presináptica hasta la liberación de señales químicas en la hendidura o sinapsis, que permiten la transición de la señal hacia las terminales dendríticas de la neurona postsináptica donde se encuentran los receptores de tales señales <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+			<p>Durante este proceso, la llegada de un potencial de acción al terminal presináptico induce la despolarización de la membrana en esa zona, lo que provoca que se abran los canales de Ca<sup>2+</sup> dependientes de voltaje, receptores de N-metil-D-aspartato (NMDAR) y receptores de acetilcolina nicotínicos Alpha 7 (nAChR); generando que la concentración de Ca<sup>2+</sup> citosólico de las neuronas en reposo, que oscila entre 50 a 300 μM, aumente hasta el orden de μΜ en la zona activa durante algunos microsegundos.</p>
+			<p>Este incremento súbito es necesario para la sincronización en la liberación de neurotransmisores a la hendidura presináptica. Después, para recuperar el potencial de reposo, es necesario reducir el nivel de Ca<sup>2+</sup> citosólico de nuevo, para lo cual se requiere la acción de bombas de Ca<sup>2+</sup> como la bomba Na<sup>+</sup>/Ca<sup>2+</sup> de la membrana plasmática (NCX) y la ATPasa de C<sup>2+</sup> de la membrana plasmática (PMCA). Además, es posible secuestrar el exceso del ion en la luz del retículo endoplásmico mediante bombas que utilizan ATP para capturar el Ca<sup>2+</sup> en estos depósitos intracelulares hasta alcanzar el potencial previo a la liberación (<xref ref-type="fig" rid="f1">figura 1</xref>) <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>El calcio como regulador del potencial sináptico</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-43-01-51-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>Aun cuando las bombas de Ca<sup>2+</sup> tienen una baja concentración en las células nerviosas, desempeñan un papel fundamental en su metabolismo y fisiología, controlando procesos que dependen de la amplitud, la frecuencia y la localización subcelular de las señales de Ca<sup>2+ (</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, como la plasticidad neuronal, el impulso nervioso, el envejecimiento neuronal o la apoptosis <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Numerosas enfermedades neurológicas, entre ellas la enfermedad de Alzheimer, llevan consigo una alteración de la homeostasis del Ca<sup>2+</sup> o deficiencias en el funcionamiento de las bombas <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>ATPasas transportadoras de Ca<sup>2+</sup> y su papel en las neuropatías degenerativas</title>
+			<p>La entrada capacitiva de Ca<sup>2+</sup> es esencial para la homeostasis del Ca<sup>2+</sup>. Mantiene concentraciones adecuadas y funcionales en el retículo endoplásmico; así, este orgánulo es el principal reservorio de calcio celular, el cual posibilita una señalización sostenida por movilización del ion. La entrada capacitiva de Ca<sup>2+</sup> se basa en un mecanismo de retroalimentación activado por la disminución del Ca<sup>2+</sup> en el interior del retículo endoplásmico, la que desencadena su entrada a través de la membrana plasmática <xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+			<p>Las moléculas de interacción del estroma y el producto de expresión del gen <italic>Orai1</italic>, proteína estructural del canal iónico selectivo de calcio activado por la liberación de calcio 1, son los principales actores en la entrada capacitiva de Ca<sup>2+</sup>. Las moléculas de interacción del estroma detectan el contenido de Ca<sup>2+</sup>en el interior del retículo endoplásmico y, cuando disminuye, activa la transcripción de <italic>Orai1</italic>, lo que se traduce en un canal de calcio operado por depósitos intracelulares en la membrana plasmática. El destino final del Ca<sup>2+</sup> que entra no es el citosol, sino el retículo endoplásmico, que se rellena muy eficientemente con él <xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. La ATPasa de Ca<sup>2+</sup> del retículo sarcoendoplásmico (SERC-A) es el tercer elemento de la entrada capacitiva de Ca<sup>2+</sup>, al que está estrechamente acoplado. La estrecha proximidad entre los depósitos intracelulares y la SERC-A favorece el rápido bombeo de Ca<sup>2+</sup> desde los microdominios con abundante Ca<sup>2+</sup> generados en la boca citoplasmática de los depósitos intracelulares hacia el retículo endoplásmico <xref ref-type="bibr" rid="B25"><sup>25</sup></xref> (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+			<p>Las ATPasas transportadoras de Ca<sup>2+</sup> presentan una gran afinidad y son responsables del transporte activo del ion a expensas de la hidrólisis de ATP en distintos tipos de membranas celulares. Se han identificado tres familias: la Ca<sup>2+</sup>-ATPasa de retículo sarcoendoplásmico (SERC-A), la Ca<sup>2+</sup>-ATPasa de membrana plasmática (PMCA) y la Ca<sup>2+</sup>-ATPasa de vías secretoras (SPCA), además de otros miembros de la familia especializados en el intercambio de iones H<sup>+</sup>/K<sup>+</sup>, Na<sup>+</sup>/K<sup>+ (</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>La SERC-A es una proteína anfifílica, integrada en las membranas del retículo sarcoendoplásmico que transporta dos iones Ca<sup>2+</sup> desde el citoplasma a la luz de esos compartimentos, utilizando la energía de hidrólisis del ATP en presencia de Mg<sup>2+ (</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Esta proteína se identificó y purificó por primera vez en retículo sarcoplásmico de músculo esquelético, en donde se encuentra la isoforma SERC-A1; esta constituye el 90 % del total de proteínas de membrana y desempeña un papel muy importante en la contracción o relajación muscular, aunque con el tiempo se han descrito varias otras isoformas en diferentes tejidos <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+			<p>La proteína está constituida por unos 1.000 aminoácidos con un peso molecular de 110 kDa. Presenta los extremos N-terminal y C-terminal hacia el citoplasma (SERC-A1,2a y 3); ocasionalmente, el C-terminal se orienta hacia la luz (SERC-A2b), tiene 10 (SERC-A1,2a y 3) a 11 (SERC-A 2b) dominios transmembranales. Estos dominios transmembranales que también conforman el canal de calcio, presentan una cabeza globular constituida por dos dominios citoplasmáticos, uno de los cuales es el dominio catalítico, donde se encuentra un residuo de ácido aspártico que se fosforila durante la activación y el sitio de unión del ATP (<xref ref-type="fig" rid="f2">figura 2</xref>) <xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>La Ca<sup>2+</sup>-ATPasa de retículo sarcoendoplásmico. A) Representación esquemática de la estructura de SERC-A, que muestra los segmentos transmembranales numerados, el dominio catalítico y los extremos N y C-terminal para las distintas isoformas. B) Modelo tridimensional de la SERC-A1.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-43-01-51-gf2.jpg"/>
+				</fig>
+			</p>
+			<p>Las isoformas 1, 2 y 3 se producen por tres genes muy conservados localizados en diferentes cromosomas que, además, generan diversidad adicional mediante el procesamiento alternativo de los ARN mensajeros a partir de tres dominios localizados en el extremo COOH-terminal <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Hasta la fecha, se han identificado hasta 10 isoformas de SERC-A a nivel de proteína con gran especificidad por tejido y por etapa del desarrollo <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+			<p>La isoforma SERC-A1 es específica de adultos, mientras que la forma B es propia de neonatos; ambas difieren en su región C-terminal <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Son específicas del músculo esquelético de contracción rápida, donde contribuyen al flujo del Ca<sup>2+</sup> implicado en la contracción o relajación muscular; la SERC-A1a conforma el 90 % de la proteína total en el músculo estriado. Estas variantes son codificadas por el gen <italic>ATP2A1</italic> localizado en la región cromosómica 16p12 <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			<p>Las mutaciones autosómicas recesivas en el gen <italic>ATP2A1</italic> se han asociado con la enfermedad de Brody en humanos <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, una miopatía rara y hereditaria caracterizada por un aumento perjudicial de la relajación del músculo esquelético durante el ejercicio, y que produce rigidez y calambres. Llama la atención que la ataxia asociada con la enfermedad de Alzheimer tenga una sintomatología similar.</p>
+			<p>La SERC-A2b es la principal isoforma del tejido nervioso <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>, aunque también se localiza en el músculo liso y en tejidos no musculares como la piel. Las mutaciones autosómicas dominantes están asociadas con la enfermedad de Darier en humanos <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>, una alteración de la piel caracterizada por la pérdida de adhesión entre las células epidérmicas y una queratinización anormal. En algunas familias con esta enfermedad, se han descrito, además, problemas neuropsiquiátricos como epilepsia, esquizofrenia, trastorno bipolar y depresión <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>.</p>
+			<p>Llama la atención que los ARNm generados por recombinación alternativa de intrones para la isoforma SERC-A2a, son mucho menos estables que sus contrapartes del tejido muscular, por lo que se asume que el sistema de transporte del calcio es mucho más sensible en el tejido nervioso <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+			<p>Por otro lado, la disminución en la expresión de este canal induce dolor neuropático. La inhibición del canal causa hiperexcitación neuronal, lesión nerviosa, estrés del retículo endoplásmico, activación de las células gliales satélite y alodinia mecánica (dolor debido a estímulos que normalmente no son dolorosos). Por lo anterior, los activadores de SERC-A2b tienen el potencial para el tratamiento del dolor neuropático.</p>
+			<p>Lo más importante de esta propuesta es que la sobreexpresión de SERC- A-2b después de lesiones por constricción crónica, produce un alivio a largo plazo de la alodinia mecánica y térmica, acompañado de restauración morfológica y funcional del tejido nervioso mediante el alivio del estrés del retículo endoplásmico <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>; por ello, su uso en la enfermedad de Alzheimer permitiría la recuperación neurológica funcional, al menos parcialmente.</p>
+		</sec>
+		<sec>
+			<title>Estrategia terapéutica para la enfermedad de Alzheimer basada en la regulación de SERC-A</title>
+			<p>La disminución de la concentración de Ca<sup>2+</sup> en el retículo endoplásmico se ha establecido como una de las principales causas de la apoptosis inducida por el estrés del retículo endoplásmico <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. Aunque hay varios datos que muestran que la Aβ afecta a la homeostasis del Ca<sup>2+</sup>, los datos emergentes sugieren que los depósitos de Ca<sup>2+</sup> del retículo endoplásmico están significativamente implicados en la producción de Aβ y en la fosforilación de tau durante la enfermedad de Alzheimer.</p>
+			<p>Infortunadamente, hasta el momento no hay cura para la enfermedad de Alzheimer. Los únicos tratamientos aprobados son los moduladores de neurotransmisores, que consisten en inhibidores de la colinesterasa, y el antagonista de los receptores de N-metil-D-aspartato, la memantina. Aunque estos tratamientos se dirigen a los síntomas de la enfermedad de Alzheimer y pueden proporcionar cierto alivio y comodidad a los pacientes, no detienen la progresión de la enfermedad en sí. La única característica que se ha correlacionado sistemáticamente con la progresión de la demencia es la pérdida de neuronas en los cerebros de los pacientes con la enfermedad de Alzheimer <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>.</p>
+			<p>De hecho, los cerebros de las personas con enfermedad de Alzheimer muestran un recuento de neuronas tres veces menor en el hipocampo, en comparación con los cerebros de quienes no presentan esta alteración antes de los cincuenta años <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>.</p>
+			<p>Por lo tanto, existe una clara necesidad de tratamientos que puedan dirigirse a este mecanismo de progresión de la enfermedad de Alzheimer. Recientemente, se ha informado sobre la capacidad del activador alostérico de SERC-A, CDN1163, para aliviar la acinesia parkinsoniana en ratas <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>, y se reporta una eficacia convincente en el modelo de ratón transgénico para el precursor de la proteína amiloide y para la presenilina-1 (APP/PS1), con enfermedad de Alzheimer <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>. Ambas proteínas se encuentran implicadas en la secreción del complejo gamma y la producción de Aβ en respuesta al estrés del retículo endoplásmico que, además, induce una reacción inflamatoria relacionada con la patogénesis de varias enfermedades <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. Recientemente, la administración de terapia génica a la SERC-A ha aliviado el estrés del retículo endoplásmico en varios modelos animales <xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+			<p>El mencionado estrés induce la modificación del plegamiento de varias proteínas que implica tanto reacciones inmediatas en los patrones de fosforilación celular, así como como cambios posteriores en la expresión de cientos de genes diana <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>. El propósito de estos efectos adaptativos es restaurar la homeostasis celular o, al menos, intentarlo. Sin embargo, si el estrés provocado es prolongado, la modificación del plegamiento de varias proteínas puede desencadenar el programa de muerte celular apoptótica dentro de la célula que, en el caso de las neuronas, antecede incluso a la acumulación de Aβ y está directamente relacionado con la señalización proinflamatoria <xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B46"><sup>46</sup></xref>. En todo caso, la vía afectada se inicia con SERC-A y termina con dos vías de muerte neuronal.</p>
+			<p>El aumento de la actividad de la SERC-A mantiene el calcio del retículo endoplásmico y, por tanto, su función, a pesar de los factores de estrés. Además, la activación de la SERC-A puede secuestrar más Ca<sup>2+</sup> citosólico y evitar la apoptosis inducida por la señalización mitocondrial. Todos estos factores apuntan a que la activación farmacológica de la SERC-A tendrá un impacto significativo en el tratamiento de la enfermedad de Alzheimer <xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Esto ya ha sido probado en líneas celulares CSM14.1, obtenidas a partir de neuronas progenitoras estriatales de ratas previamente tratadas con tapsigargina, un inductor conocido de estrés del retículo endoplásmico que descarga los depósitos de la luz en el retículo endoplásmico por inhibición específica de SERC-A <xref ref-type="bibr" rid="B47"><sup>47</sup></xref>. Un pretratamiento con el compuesto de quinolina-amida CDN11163, fármaco inductor de la actividad de SERC-A, demostró la capacidad de rescatar las células del proceso apoptótico al reiniciar la función de la ATPasa.</p>
+			<p>Este resultado se ha obtenido también en células HEK, HeLa y BMGK expuestas a tapsigargina y peróxido de hidrógeno, como inductores de estrés del retículo endoplásmico cuando se usa CDN1163 <xref ref-type="bibr" rid="B47"><sup>47</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B49"><sup>49</sup></xref>. De igual manera, al proporcionar el fármaco a ratas mutantes de SERC-A, que en un principio aceleraron la pérdida de Ca<sup>2+</sup> por excitotoxicidad inducida por glutamato (un neurotransmisor estimulante de los canales NMDA), se logró atenuar el estrés del retículo endoplásmico por agotamiento del ion <xref ref-type="bibr" rid="B50"><sup>50</sup></xref>. Por tanto, la estrategia terapéutica es clara: la activación de la SERC-A con CDN1163 o similares rellenará las reservas de Ca<sup>2+</sup>, aliviando el estrés del retículo endoplásmico, y rescatará eficazmente a las neuronas lesionadas de la apoptosis.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusión</title>
+			<p>El estrés ocasionado por una desregulación de los niveles de Ca<sup>2+</sup> en el retículo endoplásmico de las neuronas, ocasiona su apoptosis, por lo cual es un factor determinante asociado con la enfermedad de Alzheimer. Por lo tanto, la estimulación de la ATPasa dependiente de Ca<sup>2+</sup> del retículo sarcoendoplásmico (SERC-A), podría ser un posible blanco terapéutico en dicha enfermedad, al reducir los niveles de Ca<sup>2+</sup> en el citosol de las neuronas del hipocampo.</p>
+		</sec>
+	</body>
+	<back>
+		<fn-group>
+			<title>Financiación:</title>
+			<fn fn-type="other" id="fn4">
+				<p>Esta investigación fue sustentada en tu totalidad con recursos propios.</p>
+			</fn>
+		</fn-group>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Prince M, Comas-Herrera A, Knapp M, Karagiannidou M. World Alzheimer report 2016: Improving healthcare for people living with dementia. London: Alzheimer’s Disease International; 2016.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prince</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Comas-Herrera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Knapp</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Karagiannidou</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<source>World Alzheimer report 2016: Improving healthcare for people living with dementia</source>
+					<publisher-loc>London</publisher-loc>
+					<publisher-name>Alzheimer’s Disease International</publisher-name>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Bermejo-Pareja F, Gómez de la CA, del Ser T, Contador I, Llamas-Velasco S, López-Arrieta JM, <italic>et al</italic>. The health status: The ignored risk factor in dementia incidences. NEDICES cohort. Aging Clin Exp Res. 2022;34:1275-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s40520-021-02045-0">https://doi.org/10.1007/s40520-021-02045-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bermejo-Pareja</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gómez de la</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>del Ser</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Contador</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Llamas-Velasco</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>López-Arrieta</surname>
+							<given-names>JM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The health status: The ignored risk factor in dementia incidences. NEDICES cohort</article-title>
+					<source>Aging Clin Exp Res</source>
+					<year>2022</year>
+					<volume>34</volume>
+					<fpage>1275</fpage>
+					<lpage>1283</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s40520-021-02045-0">https://doi.org/10.1007/s40520-021-02045-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Delacourte A, Buee L. Tau pathology: A marker of neurodegenerative disorders. Curr Opin Neurol. 2000;13:371-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/00019052-200008000-00002">https://doi.org/10.1097/00019052-200008000-00002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Delacourte</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Buee</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Tau pathology: A marker of neurodegenerative disorders</article-title>
+					<source>Curr Opin Neurol</source>
+					<year>2000</year>
+					<volume>13</volume>
+					<fpage>371</fpage>
+					<lpage>376</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/00019052-200008000-00002">https://doi.org/10.1097/00019052-200008000-00002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Bondi MW, Edmonds EC, Salmon DP. Alzheimer’s disease: Past, present, and future. J Int Neuropsy Soc. 2017;23:818-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S135561771700100X">https://doi.org/10.1017/S135561771700100X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bondi</surname>
+							<given-names>MW</given-names>
+						</name>
+						<name>
+							<surname>Edmonds</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Salmon</surname>
+							<given-names>DP.</given-names>
+						</name>
+					</person-group>
+					<article-title>Alzheimer’s disease: Past, present, and future</article-title>
+					<source>J Int Neuropsy Soc</source>
+					<year>2017</year>
+					<volume>23</volume>
+					<fpage>818</fpage>
+					<lpage>831</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S135561771700100X">https://doi.org/10.1017/S135561771700100X</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Cholerton B, Gleason CE, Baker LD, Asthana S. Estrogens and Alzheimer’s disease: The story so far. Drugs Aging. 2002;19:405-27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2165/00002512-200219060-00002">https://doi.org/10.2165/00002512-200219060-00002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cholerton</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Gleason</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Baker</surname>
+							<given-names>LD</given-names>
+						</name>
+						<name>
+							<surname>Asthana</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<article-title>Estrogens and Alzheimer’s disease: The story so far</article-title>
+					<source>Drugs Aging</source>
+					<year>2002</year>
+					<volume>19</volume>
+					<fpage>405</fpage>
+					<lpage>427</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2165/00002512-200219060-00002">https://doi.org/10.2165/00002512-200219060-00002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Villarroya-Pastor MT. Alzheimer’s disease: The women’s profile. Rev Neuro. 2001;32:1178-81.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villarroya-Pastor</surname>
+							<given-names>MT.</given-names>
+						</name>
+					</person-group>
+					<article-title>Alzheimer’s disease: The women’s profile</article-title>
+					<source>Rev Neuro</source>
+					<year>2001</year>
+					<volume>32</volume>
+					<fpage>1178</fpage>
+					<lpage>1181</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Xu Z, Dong Y, Wang H, Culley DJ, Marcantonio ER, Crosby G, <italic>et al</italic>. Age-dependent postperative cognitive impairment an Alzheimer-related neuropathology in mice. Sci Rep. 2014;4:3766. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/srep03766">https://doi.org/10.1038/srep03766</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Dong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Culley</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Marcantonio</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Crosby</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Age-dependent postperative cognitive impairment an Alzheimer-related neuropathology in mice</article-title>
+					<source>Sci Rep</source>
+					<year>2014</year>
+					<volume>4</volume>
+					<fpage>3766</fpage>
+					<lpage>3766</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/srep03766">https://doi.org/10.1038/srep03766</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Creese B, Ismail Z. Mild behavioral impairment: Measurement and clinical correlates of a novel marker of preclinical Alzheimer’s disease. Alzheimers Res Ther. 2022;14:2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13195-021-00949-7">https://doi.org/10.1186/s13195-021-00949-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Creese</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Ismail</surname>
+							<given-names>Z.</given-names>
+						</name>
+					</person-group>
+					<article-title>Mild behavioral impairment: Measurement and clinical correlates of a novel marker of preclinical Alzheimer’s disease</article-title>
+					<source>Alzheimers Res Ther</source>
+					<year>2022</year>
+					<volume>14</volume>
+					<fpage>2</fpage>
+					<lpage>2</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13195-021-00949-7">https://doi.org/10.1186/s13195-021-00949-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Ugbaja SC, Lawal MM, Kumalo HM. An overview of beta-amyloid cleaving enzyme (BACE1) in Alzheimer’s disease therapy: Elucidating its exosite-binding antibody and allosteric inhibitor. Curr Med Chem. 2022;29:114-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/0929867328666210608145357">https://doi.org/10.2174/0929867328666210608145357</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ugbaja</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Lawal</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Kumalo</surname>
+							<given-names>HM.</given-names>
+						</name>
+					</person-group>
+					<article-title>An overview of beta-amyloid cleaving enzyme (BACE1) in Alzheimer’s disease therapy: Elucidating its exosite-binding antibody and allosteric inhibitor</article-title>
+					<source>Curr Med Chem</source>
+					<year>2022</year>
+					<volume>29</volume>
+					<fpage>114</fpage>
+					<lpage>135</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/0929867328666210608145357">https://doi.org/10.2174/0929867328666210608145357</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Kim H, Fraser S. Neural correlates of dual-task walking in people with central neurological disorders: A systematic review. J Neurol. 2022;269:2378-402 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00415-021-10944-5">https://doi.org/10.1007/s00415-021-10944-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Fraser</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<article-title>Neural correlates of dual-task walking in people with central neurological disorders: A systematic review</article-title>
+					<source>J Neurol</source>
+					<year>2022</year>
+					<volume>269</volume>
+					<fpage>2378</fpage>
+					<lpage>2402</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00415-021-10944-5">https://doi.org/10.1007/s00415-021-10944-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Firoz CK, Jabir NR, Khan MS, Mahmoud M, Shakil S, Damanhouri GA, <italic>et al</italic>. An overview on the correlation of neurological disorders with cardiovascular disease. Saudi J Biol Sci. 2015;22:19-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sjbs.2014.09.003">https://doi.org/10.1016/j.sjbs.2014.09.003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Firoz</surname>
+							<given-names>CK</given-names>
+						</name>
+						<name>
+							<surname>Jabir</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Mahmoud</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shakil</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Damanhouri</surname>
+							<given-names>GA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>An overview on the correlation of neurological disorders with cardiovascular disease</article-title>
+					<source>Saudi J Biol Sci</source>
+					<year>2015</year>
+					<volume>22</volume>
+					<fpage>19</fpage>
+					<lpage>23</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sjbs.2014.09.003">https://doi.org/10.1016/j.sjbs.2014.09.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Akata T. Cellular and molecular mechanism regulating vascular tone. Part 1: basic mechanisms controlling cytosolic Ca<sup>2+</sup> concentration and the Ca<sup>2+</sup>- dependent regulation of vascular tone. J Anesth. 2007;21:220-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00540-006-0487-5">https://doi.org/10.1007/s00540-006-0487-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Akata</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cellular and molecular mechanism regulating vascular tone. Part 1: basic mechanisms controlling cytosolic Ca2+ concentration and the Ca2+- dependent regulation of vascular tone</article-title>
+					<source>J Anesth</source>
+					<year>2007</year>
+					<volume>21</volume>
+					<fpage>220</fpage>
+					<lpage>231</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00540-006-0487-5">https://doi.org/10.1007/s00540-006-0487-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Brandenburg VM, Krammann R, Gottsch C, Kaesler N. Update on cardiovascular calcificacion. Nephrologe. 2017;12:168-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11560-017-0141-2">https://doi.org/10.1007/s11560-017-0141-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brandenburg</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Krammann</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gottsch</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kaesler</surname>
+							<given-names>N.</given-names>
+						</name>
+					</person-group>
+					<article-title>Update on cardiovascular calcificacion</article-title>
+					<source>Nephrologe</source>
+					<year>2017</year>
+					<volume>12</volume>
+					<fpage>168</fpage>
+					<lpage>172</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11560-017-0141-2">https://doi.org/10.1007/s11560-017-0141-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Severi S, Bolasco P, Badiali F, Concas G, Mancini E, Summa A, <italic>et al</italic>. Calcium profiling in hemodiafiltration: A new way to reduce the calcium overload risk without compromising cardiovascular stability. Int J Artif Organs. 2014;37:206-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5301/ijao.5000320">https://doi.org/10.5301/ijao.5000320</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Severi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bolasco</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Badiali</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Concas</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mancini</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Summa</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Calcium profiling in hemodiafiltration: A new way to reduce the calcium overload risk without compromising cardiovascular stability</article-title>
+					<source>Int J Artif Organs</source>
+					<year>2014</year>
+					<volume>37</volume>
+					<fpage>206</fpage>
+					<lpage>214</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5301/ijao.5000320">https://doi.org/10.5301/ijao.5000320</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Haas JS. A new measure for the strength of electrical synapses. Front Cell Neurosci. 2015; 9:378. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fncel.2015.00378">https://doi.org/10.3389/fncel.2015.00378</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Haas</surname>
+							<given-names>JS.</given-names>
+						</name>
+					</person-group>
+					<article-title>A new measure for the strength of electrical synapses</article-title>
+					<source>Front Cell Neurosci</source>
+					<year>2015</year>
+					<volume>9</volume>
+					<fpage>378</fpage>
+					<lpage>378</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fncel.2015.00378">https://doi.org/10.3389/fncel.2015.00378</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Michaelis ML. Ion transport systems and Ca<sup>2+</sup> regulation in aging neurons. Ann N Y Acad Sci. 1994;747:407-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1749-6632.1994.tb44425.x">https://doi.org/10.1111/j.1749-6632.1994.tb44425.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Michaelis</surname>
+							<given-names>ML.</given-names>
+						</name>
+					</person-group>
+					<article-title>Ion transport systems and Ca2+ regulation in aging neurons</article-title>
+					<source>Ann N Y Acad Sci</source>
+					<year>1994</year>
+					<volume>747</volume>
+					<fpage>407</fpage>
+					<lpage>418</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1749-6632.1994.tb44425.x">https://doi.org/10.1111/j.1749-6632.1994.tb44425.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Chami M, Checler F. Alterations of the endoplasmic reticulum (ER) calcium signaling molecular components in Alzheimer’s disease. Cells. 2020;1:2577. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/cells9122577">https://doi.org/10.3390/cells9122577</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chami</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Checler</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Alterations of the endoplasmic reticulum (ER) calcium signaling molecular components in Alzheimer’s disease</article-title>
+					<source>Cells</source>
+					<year>2020</year>
+					<volume>1</volume>
+					<fpage>2577</fpage>
+					<lpage>2577</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/cells9122577">https://doi.org/10.3390/cells9122577</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Berridge MJ. Inositol trisphosphate and calcium signalling. Nature. 1993;361:315-25.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Berridge</surname>
+							<given-names>MJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Inositol trisphosphate and calcium signalling</article-title>
+					<source>Nature</source>
+					<year>1993</year>
+					<volume>361</volume>
+					<fpage>315</fpage>
+					<lpage>325</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Squier TC, Bigelow DJ. Protein oxidation and age-dependent alterations in calcium homeostasis. Front Biosci. 2000;5:D504-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2741/squier">https://doi.org/10.2741/squier</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Squier</surname>
+							<given-names>TC</given-names>
+						</name>
+						<name>
+							<surname>Bigelow</surname>
+							<given-names>DJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Protein oxidation and age-dependent alterations in calcium homeostasis</article-title>
+					<source>Front Biosci</source>
+					<year>2000</year>
+					<volume>5</volume>
+					<fpage>D504</fpage>
+					<lpage>D526</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2741/squier">https://doi.org/10.2741/squier</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Mattson MP, LaFerla FM, Chan SL, Leissring MA, Shepel PN, Geiger JD. Calcium signaling in the ER: Its role in neuronal plasticity and neurodegenerative disorders. Trends Neurosci. 2000;23:222-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0166-2236(00)01548-4">https://doi.org/10.1016/s0166-2236(00)01548-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mattson</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>LaFerla</surname>
+							<given-names>FM</given-names>
+						</name>
+						<name>
+							<surname>Chan</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Leissring</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Shepel</surname>
+							<given-names>PN</given-names>
+						</name>
+						<name>
+							<surname>Geiger</surname>
+							<given-names>JD.</given-names>
+						</name>
+					</person-group>
+					<article-title>Calcium signaling in the ER: Its role in neuronal plasticity and neurodegenerative disorders</article-title>
+					<source>Trends Neurosci</source>
+					<year>2000</year>
+					<volume>23</volume>
+					<fpage>222</fpage>
+					<lpage>229</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0166-2236(00)01548-4">https://doi.org/10.1016/s0166-2236(00)01548-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Pittman JK. Vacuolar Ca<sup>2+</sup> uptake. Cell Calcium. 2011;7:1-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ceca.2011.01.004">https://doi.org/10.1016/j.ceca.2011.01.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pittman</surname>
+							<given-names>JK.</given-names>
+						</name>
+					</person-group>
+					<article-title>Vacuolar Ca2+ uptake</article-title>
+					<source>Cell Calcium</source>
+					<year>2011</year>
+					<volume>7</volume>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ceca.2011.01.004">https://doi.org/10.1016/j.ceca.2011.01.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Inesi G. Sequential mechanism of calcium binding and translocation in sarcoplasmic reticulum adenosine triphosphatase. J Biol Chem. 1987;262:16338-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0021-9258(18)49260-5">https://doi.org/10.1016/S0021-9258(18)49260-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Inesi</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Sequential mechanism of calcium binding and translocation in sarcoplasmic reticulum adenosine triphosphatase</article-title>
+					<source>J Biol Chem</source>
+					<year>1987</year>
+					<volume>262</volume>
+					<fpage>16338</fpage>
+					<lpage>16342</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0021-9258(18)49260-5">https://doi.org/10.1016/S0021-9258(18)49260-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Hasselbach W. Relaxation and the sarcotubular calcium pump. Fed Proc. 1964;23:909-12.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hasselbach</surname>
+							<given-names>W.</given-names>
+						</name>
+					</person-group>
+					<article-title>Relaxation and the sarcotubular calcium pump</article-title>
+					<source>Fed Proc</source>
+					<year>1964</year>
+					<volume>23</volume>
+					<fpage>909</fpage>
+					<lpage>912</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>MacLennan DH. Purification and properties of an adenosine triphosphatase from sarcoplasmic reticulum. J Biol Chem. 1970;245:4508-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0021-9258(19)63820-2">https://doi.org/10.1016/S0021-9258(19)63820-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>MacLennan</surname>
+							<given-names>DH.</given-names>
+						</name>
+					</person-group>
+					<article-title>Purification and properties of an adenosine triphosphatase from sarcoplasmic reticulum</article-title>
+					<source>J Biol Chem</source>
+					<year>1970</year>
+					<volume>245</volume>
+					<fpage>4508</fpage>
+					<lpage>4518</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0021-9258(19)63820-2">https://doi.org/10.1016/S0021-9258(19)63820-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Manjarres IM, Rodríguez-García A, Alonso MT, García-Sancho J. The Sarco/endoplasmic reticulum Ca<sup>2+</sup> ATPase (SERC-A) is the third element in capacitative calcium entry. Cell Calcium . 2010;47:412-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ceca.2010.03.001">https://doi.org/10.1016/j.ceca.2010.03.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Manjarres</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-García</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Alonso</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>García-Sancho</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>The Sarco/endoplasmic reticulum Ca2+ ATPase (SERC-A) is the third element in capacitative calcium entry</article-title>
+					<source>Cell Calcium</source>
+					<year>2010</year>
+					<volume>47</volume>
+					<fpage>412</fpage>
+					<lpage>418</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ceca.2010.03.001">https://doi.org/10.1016/j.ceca.2010.03.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>Sweadner KJ, Donnet C. Structural similarities of Na, k-ATPase and SERC-A, the Ca<sup>2+</sup> ATPase of the sarcoplasmic reticulum. Biochem J. 2001;356:685-704. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/0264-6021:3560685">https://doi.org/10.1042/0264-6021:3560685</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sweadner</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Donnet</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Structural similarities of Na, k-ATPase and SERC-A, the Ca2+ ATPase of the sarcoplasmic reticulum</article-title>
+					<source>Biochem J</source>
+					<year>2001</year>
+					<volume>356</volume>
+					<fpage>685</fpage>
+					<lpage>704</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/0264-6021:3560685">https://doi.org/10.1042/0264-6021:3560685</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Wuytack F, Raeymaekers L, Missiaen L. Molecular physiology of the SERC-A and SPCA pumps. Cell Calcium . 2002;32:279-305. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0143416002001847">https://doi.org/10.1016/S0143416002001847</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wuytack</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Raeymaekers</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Missiaen</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular physiology of the SERC-A and SPCA pumps</article-title>
+					<source>Cell Calcium</source>
+					<year>2002</year>
+					<volume>32</volume>
+					<fpage>279</fpage>
+					<lpage>305</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0143416002001847">https://doi.org/10.1016/S0143416002001847</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Periasamy M, Kalyanasundaram A. SERC-A pump isoforms: Their role in calcium transport and disease. Muscle Nerve. 2007;35:430-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/mus.2074515">https://doi.org/10.1002/mus.2074515</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Periasamy</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kalyanasundaram</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>SERC-A pump isoforms: Their role in calcium transport and disease</article-title>
+					<source>Muscle Nerve</source>
+					<year>2007</year>
+					<volume>35</volume>
+					<fpage>430</fpage>
+					<lpage>442</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/mus.2074515">https://doi.org/10.1002/mus.2074515</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Callen DF, Baker E, Lane S, Nancarrow J, Thompson A, Whitmore S, <italic>et al</italic>. Regional mapping of the Batten disease locus (CLN3) to human chromosome 16p12. Am J Hum Genet. 1991;49:1372-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Callen</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Baker</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Lane</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nancarrow</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Thompson</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Whitmore</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Regional mapping of the Batten disease locus (CLN3) to human chromosome 16p12</article-title>
+					<source>Am J Hum Genet</source>
+					<year>1991</year>
+					<volume>49</volume>
+					<fpage>1372</fpage>
+					<lpage>1377</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Odermatt A, Taschner PE, Khanna VK, Busch HF, Karpati G, Jablecki CK, <italic>et al</italic>. Mutations in the gene-encoding SERC-A1, the fast twitch skeletal muscle sarcoplasmic reticulum Ca<sup>2+</sup> ATPase, are associated with Brody disease. Nat Genet. 1996;14:191-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ng1096-191">https://doi.org/10.1038/ng1096-191</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Odermatt</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Taschner</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Khanna</surname>
+							<given-names>VK</given-names>
+						</name>
+						<name>
+							<surname>Busch</surname>
+							<given-names>HF</given-names>
+						</name>
+						<name>
+							<surname>Karpati</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Jablecki</surname>
+							<given-names>CK</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutations in the gene-encoding SERC-A1, the fast twitch skeletal muscle sarcoplasmic reticulum Ca2+ ATPase, are associated with Brody disease</article-title>
+					<source>Nat Genet</source>
+					<year>1996</year>
+					<volume>14</volume>
+					<fpage>191</fpage>
+					<lpage>194</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ng1096-191">https://doi.org/10.1038/ng1096-191</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Salvador JM, Berengena M, Sepúlveda MR, Mata AM. Distribution of the intracellular Ca<sup>2+</sup>-ATPase isoform 2b in pig brain subcellular fractions and cross-reaction with a monoclonal antibody raised against the enzyme isoform. J Biochem. 2001;129:621-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.jbchem.a002899">https://doi.org/10.1093/oxfordjournals.jbchem.a002899</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salvador</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Berengena</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sepúlveda</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Mata</surname>
+							<given-names>AM.</given-names>
+						</name>
+					</person-group>
+					<article-title>Distribution of the intracellular Ca2+-ATPase isoform 2b in pig brain subcellular fractions and cross-reaction with a monoclonal antibody raised against the enzyme isoform</article-title>
+					<source>J Biochem</source>
+					<year>2001</year>
+					<volume>129</volume>
+					<fpage>621</fpage>
+					<lpage>626</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.jbchem.a002899">https://doi.org/10.1093/oxfordjournals.jbchem.a002899</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Sakuntabhai A, Ruiz-Pérez V, Carter S, Jacobsen N, Burge S, Monk S, <italic>et al</italic>. Mutations in ATP2A2, encoding a Ca<sup>2+</sup> pump, cause Darier disease. Nat Genet. 1999;21:271-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/6784">https://doi.org/10.1038/6784</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sakuntabhai</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Pérez</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Carter</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Jacobsen</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Burge</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Monk</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutations in ATP2A2, encoding a Ca2+ pump, cause Darier disease</article-title>
+					<source>Nat Genet</source>
+					<year>1999</year>
+					<volume>21</volume>
+					<fpage>271</fpage>
+					<lpage>277</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/6784">https://doi.org/10.1038/6784</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>Jones I, Jacobsen N, Green EK, Elvidge GP, Owen MJ, Craddock N. Evidence for familial cosegregation of major affective disorder and genetic markers flanking the gene for Darier’s disease. Mol Psychiatry. 2002;7:424-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.mp.4000989">https://doi.org/10.1038/sj.mp.4000989</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jones</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Jacobsen</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Green</surname>
+							<given-names>EK</given-names>
+						</name>
+						<name>
+							<surname>Elvidge</surname>
+							<given-names>GP</given-names>
+						</name>
+						<name>
+							<surname>Owen</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Craddock</surname>
+							<given-names>N.</given-names>
+						</name>
+					</person-group>
+					<article-title>Evidence for familial cosegregation of major affective disorder and genetic markers flanking the gene for Darier’s disease</article-title>
+					<source>Mol Psychiatry</source>
+					<year>2002</year>
+					<volume>7</volume>
+					<fpage>424</fpage>
+					<lpage>427</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.mp.4000989">https://doi.org/10.1038/sj.mp.4000989</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Misquitta CM, Ghosh P, Mwanjewe J, Grover AK. Role of cis-acting elements in the control of SERC-A2b Ca2+ pump mRNA decay by nuclear proteins. Biochem J. 2005;388:291-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20041568">https://doi.org/10.1042/BJ20041568</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Misquitta</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Ghosh</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Mwanjewe</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Grover</surname>
+							<given-names>AK.</given-names>
+						</name>
+					</person-group>
+					<article-title>Role of cis-acting elements in the control of SERC-A2b Ca2+ pump mRNA decay by nuclear proteins</article-title>
+					<source>Biochem J</source>
+					<year>2005</year>
+					<volume>388</volume>
+					<fpage>291</fpage>
+					<lpage>297</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20041568">https://doi.org/10.1042/BJ20041568</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Li SH, Zhao F, Tang QL, Xi CC, He J, Wang YJ, <italic>et al</italic>. Sarco/endoplasmic reticulum Ca<sup>2+</sup>-ATPase (SERC-A2b) mediates oxidation-induced endoplasmic reticulum stress to regulate neuropathic pain. Br J Pharmacol. 2022;179:2016-36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/bph.15744">https://doi.org/10.1111/bph.15744</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>QL</given-names>
+						</name>
+						<name>
+							<surname>Xi</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sarco/endoplasmic reticulum Ca2+-ATPase (SERC-A2b) mediates oxidation-induced endoplasmic reticulum stress to regulate neuropathic pain</article-title>
+					<source>Br J Pharmacol</source>
+					<year>2022</year>
+					<volume>179</volume>
+					<fpage>2016</fpage>
+					<lpage>2036</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/bph.15744">https://doi.org/10.1111/bph.15744</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Gallego-Sandín S, Alonso MT, García-Sancho J. Calcium homeostasis modulator 1 (CALhM1) reduces the calcium content of the endoplasmic reticulum (ER) and triggers ER stress. Biochem J. 2011;437:469-75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20110479">https://doi.org/10.1042/BJ20110479</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gallego-Sandín</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Alonso</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>García-Sancho</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>Calcium homeostasis modulator 1 (CALhM1) reduces the calcium content of the endoplasmic reticulum (ER) and triggers ER stress</article-title>
+					<source>Biochem J</source>
+					<year>2011</year>
+					<volume>437</volume>
+					<fpage>469</fpage>
+					<lpage>475</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20110479">https://doi.org/10.1042/BJ20110479</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>Taipa R, Pinho J, Melo-Pires M. Clinico-pathological correlations of the most common neurodegenerative dementias. Front Neurol. 2012;3:1-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fneur.2012.00068">https://doi.org/10.3389/fneur.2012.00068</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Taipa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pinho</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Melo-Pires</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinico-pathological correlations of the most common neurodegenerative dementias</article-title>
+					<source>Front Neurol</source>
+					<year>2012</year>
+					<volume>3</volume>
+					<fpage>1</fpage>
+					<lpage>13</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fneur.2012.00068">https://doi.org/10.3389/fneur.2012.00068</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>West MJ, Coleman PD, Flood DG, Troncoso JC. Differences in the pattern of hippocampal neuronal loss in normal ageing and Alzheimer’s disease. Lancet. 1994;344:769-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(94)92338-8">https://doi.org/10.1016/S0140-6736(94)92338-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>West</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Coleman</surname>
+							<given-names>PD</given-names>
+						</name>
+						<name>
+							<surname>Flood</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>JC.</given-names>
+						</name>
+					</person-group>
+					<article-title>Differences in the pattern of hippocampal neuronal loss in normal ageing and Alzheimer’s disease</article-title>
+					<source>Lancet</source>
+					<year>1994</year>
+					<volume>344</volume>
+					<fpage>769</fpage>
+					<lpage>772</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(94)92338-8">https://doi.org/10.1016/S0140-6736(94)92338-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>Dahl R. A new target for Parkinson’s disease: Samll molecule SERCA activator CDN1163 ameliorates dyskinesia in 6-OHDA-lesioned rats. Bioorg Med Chem. 2017;25:53-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bmc.2016.10.008">https://doi.org/10.1016/j.bmc.2016.10.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dahl</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<article-title>A new target for Parkinson’s disease: Samll molecule SERCA activator CDN1163 ameliorates dyskinesia in 6-OHDA-lesioned rats</article-title>
+					<source>Bioorg Med Chem</source>
+					<year>2017</year>
+					<volume>25</volume>
+					<fpage>53</fpage>
+					<lpage>57</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bmc.2016.10.008">https://doi.org/10.1016/j.bmc.2016.10.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>Krajnak K, Dahl R. A new target for Alzheimer’s disease: A small molecule SERC-A activator is neuroprotective in vitro and improves memory and cognition in APP/PS1 mice. Bioorg Med Chem Lett. 2018;28:1591-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bmcl.2018.03.052">https://doi.org/10.1016/j.bmcl.2018.03.052</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Krajnak</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dahl</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<article-title>A new target for Alzheimer’s disease: A small molecule SERC-A activator is neuroprotective in vitro and improves memory and cognition in APP/PS1 mice</article-title>
+					<source>Bioorg Med Chem Lett</source>
+					<year>2018</year>
+					<volume>28</volume>
+					<fpage>1591</fpage>
+					<lpage>1594</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bmcl.2018.03.052">https://doi.org/10.1016/j.bmcl.2018.03.052</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>López OL. The growing burden of Alzheimer’s disease. Am J Manag Care. 2011;17(Suppl.13):S339-45.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López</surname>
+							<given-names>OL.</given-names>
+						</name>
+					</person-group>
+					<article-title>The growing burden of Alzheimer’s disease</article-title>
+					<source>Am J Manag Care</source>
+					<year>2011</year>
+					<volume>17</volume>
+					<supplement>13</supplement>
+					<fpage>S339</fpage>
+					<lpage>S345</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>Park SW, Zhou Y, Lee J, Ozcan U. Sarco(endo)plasmic reticulim Ca<sup>2+</sup>-ATPase 2b is a major regulator of endoplasmic reticulum stress and glucose homeostasis in obesity. Proc Natl Acad Sci USA. 2010;107:19320-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1012044107">https://doi.org/10.1073/pnas.1012044107</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Park</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ozcan</surname>
+							<given-names>U.</given-names>
+						</name>
+					</person-group>
+					<article-title>Sarco(endo)plasmic reticulim Ca2+-ATPase 2b is a major regulator of endoplasmic reticulum stress and glucose homeostasis in obesity</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>2010</year>
+					<volume>107</volume>
+					<fpage>19320</fpage>
+					<lpage>19325</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1012044107">https://doi.org/10.1073/pnas.1012044107</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>Lin JH, Walter P, Yen TSB. Endoplasmic reticulum stress in disease pathogenesis. Ann Rev Pathol. 2008;3:399-425. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.pathmechdis.3.121806.151434">https://doi.org/10.1146/annurev.pathmechdis.3.121806.151434</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lin</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Walter</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Yen</surname>
+							<given-names>TSB.</given-names>
+						</name>
+					</person-group>
+					<article-title>Endoplasmic reticulum stress in disease pathogenesis</article-title>
+					<source>Ann Rev Pathol</source>
+					<year>2008</year>
+					<volume>3</volume>
+					<fpage>399</fpage>
+					<lpage>425</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.pathmechdis.3.121806.151434">https://doi.org/10.1146/annurev.pathmechdis.3.121806.151434</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>Ron D, Walter P. Signal integration in the endoplasmic reticulum unfolded protein response. Nat Rev Mol Cell Biol. 2007;8:519-29. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm2199">https://doi.org/10.1038/nrm2199</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ron</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Walter</surname>
+							<given-names>P.</given-names>
+						</name>
+					</person-group>
+					<article-title>Signal integration in the endoplasmic reticulum unfolded protein response</article-title>
+					<source>Nat Rev Mol Cell Biol</source>
+					<year>2007</year>
+					<volume>8</volume>
+					<fpage>519</fpage>
+					<lpage>529</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm2199">https://doi.org/10.1038/nrm2199</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>Kim I, Xu W, Reed JC. Cell death and endoplasmic reticulum stress: Disease relevance and therapeutic opportunities. Nat Rev Drug Discov. 2008;7:1013-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrd2755">https://doi.org/10.1038/nrd2755</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Reed</surname>
+							<given-names>JC.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cell death and endoplasmic reticulum stress: Disease relevance and therapeutic opportunities</article-title>
+					<source>Nat Rev Drug Discov</source>
+					<year>2008</year>
+					<volume>7</volume>
+					<fpage>1013</fpage>
+					<lpage>1030</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrd2755">https://doi.org/10.1038/nrd2755</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>Zhang K, Kaufman RJ. From endoplasmic-reticulum stress to the inflammatory response. Nature. 2008;454:455-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature07203">https://doi.org/10.1038/nature07203</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Kaufman</surname>
+							<given-names>RJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>From endoplasmic-reticulum stress to the inflammatory response</article-title>
+					<source>Nature</source>
+					<year>2008</year>
+					<volume>454</volume>
+					<fpage>455</fpage>
+					<lpage>462</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature07203">https://doi.org/10.1038/nature07203</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>Thastrup O, Cullen PJ, Drobak BK, Hanley MR, Dawson AP. Thapsigargin, a tumor promoter, discharges intracellular Ca2(+) stores by specific inhibition of the endoplasmic reticulum Ca2(+)-ATPase. Proc Natl Acad Sci USA. 1990;87:2466-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.87.7.2466">https://doi.org/10.1073/pnas.87.7.2466</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thastrup</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Cullen</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Drobak</surname>
+							<given-names>BK</given-names>
+						</name>
+						<name>
+							<surname>Hanley</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Dawson</surname>
+							<given-names>AP.</given-names>
+						</name>
+					</person-group>
+					<article-title>Thapsigargin, a tumor promoter, discharges intracellular Ca2(+) stores by specific inhibition of the endoplasmic reticulum Ca2(+)-ATPase</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>1990</year>
+					<volume>87</volume>
+					<fpage>2466</fpage>
+					<lpage>2470</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.87.7.2466">https://doi.org/10.1073/pnas.87.7.2466</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>Aulestia FJ, Redondo PC, Rodríguez-García A, Rosado JA, Salido GM, Alonso MT, <italic>et al</italic>. Two distinct calcium pools in the endoplasmic reticulum of HEK-293T cells. Biochem J. 2011;435:227-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20101427">https://doi.org/10.1042/BJ20101427</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aulestia</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Redondo</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-García</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rosado</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Salido</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Alonso</surname>
+							<given-names>MT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Two distinct calcium pools in the endoplasmic reticulum of HEK-293T cells</article-title>
+					<source>Biochem J</source>
+					<year>2011</year>
+					<volume>435</volume>
+					<fpage>227</fpage>
+					<lpage>235</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BJ20101427">https://doi.org/10.1042/BJ20101427</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>Sordi G, Goti A, Young HS, Palchetti I, Tadini-Buninsegni F. Stimulation of Ca2+-ATPase transport activity by a small-molecule drug. Chem Med Chem. 2021;16:3293-99. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cmdc.202100350">https://doi.org/10.1002/cmdc.202100350</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sordi</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Goti</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Young</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Palchetti</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Tadini-Buninsegni</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Stimulation of Ca2+-ATPase transport activity by a small-molecule drug</article-title>
+					<source>Chem Med Chem</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<fpage>3293</fpage>
+					<lpage>3299</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cmdc.202100350">https://doi.org/10.1002/cmdc.202100350</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>Zhang W, Ye F, Pang N, Kessi M, Xiong J, Chen S, <italic>et al</italic>. Restoration of Sarco/endoplasmic reticulum Ca2+-ATPase activity functions as a pivotal therapeutic target of anti-glutamateinduced excitotoxicity to attenuate endoplasmic reticulum Ca2+ depletion. Front Pharmacol. 2022;13:877175. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fphar.2022.877175">https://doi.org/10.3389/fphar.2022.877175</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Ye</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Pang</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Kessi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Xiong</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Restoration of Sarco/endoplasmic reticulum Ca2+-ATPase activity functions as a pivotal therapeutic target of anti-glutamateinduced excitotoxicity to attenuate endoplasmic reticulum Ca2+ depletion</article-title>
+					<source>Front Pharmacol.</source>
+					<year>2022</year>
+					<volume>13</volume>
+					<fpage>877175</fpage>
+					<lpage>877175</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fphar.2022.877175">https://doi.org/10.3389/fphar.2022.877175</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label><bold>Citación:</bold></label>
+				<p> Alwiraikat-Flores AF, Octavio-Aguilar P. Regulación del calcio por SERC-A antes de la enfermedad de Alzheimer y durante la misma. Biomédica. 2023;43:51-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6704">https://doi.org/10.7705/biomedica.6704</ext-link>
+				</p>
+				<p></p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label><bold>Contribución de los autores:</bold></label>
+				<p>Alamira Farah Alwiraikat-Flores: investigación documental y redacción del manuscrito</p>
+				<p></p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<p>Pablo Octavio-Aguilar: análisis y redacción del manuscrito</p>
+				<p></p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

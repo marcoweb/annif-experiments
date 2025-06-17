@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">iat</journal-id>
+			<journal-title-group>
+				<journal-title>Iatreia</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Iatreia</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0121-0793</issn>
+			<publisher>
+				<publisher-name>Universidad de Antioquia</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00008</article-id>
+			<article-id pub-id-type="doi">10.17533/udea.iatreia.93</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo de Reflexión</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Diabetes mellitus y COVID-19: fisiopatología y propuesta de tratamiento para el control glucémico en el tiempo de la pandemia<xref ref-type="fn" rid="fn3">**</xref>
+				</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Diabetes mellitus and COVID-19: pathophysiology and treatment proposal for glycemic control at the time of the pandemic</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Román-González</surname>
+						<given-names>Alejandro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff01"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rodríguez</surname>
+						<given-names>Luis Antonio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Builes-Barrera</surname>
+						<given-names>Carlos Alfonso</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Castro</surname>
+						<given-names>Diva Cristina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Builes-Montaño</surname>
+						<given-names>Carlos Esteban</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Arango-Toro</surname>
+						<given-names>Clara María</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gutiérrez-Restrepo</surname>
+						<given-names>Johnayro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gómez</surname>
+						<given-names>Juan David</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff01">
+				<label>1</label>
+				<institution content-type="original">Profesor de Medicina Interna, Universidad de Antioquia. Internista Endocrinólogo, Hospital Universitario San Vicente Fundación, Medellín, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>alejoroman@gmail.com</email>
+			</aff>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Profesor de Medicina Interna, Universidad de Antioquia. Internista Endocrinólogo, Hospital Universitario San Vicente Fundación, Medellín, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Residente de Endocrinología Clínica y Metabolismo, Universidad de Antioquia, Medellín, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Profesor de Medicina Interna, Universidad de Antioquia. Internista Endocrinólogo, Hospital Pablo Tobón Uribe, Medellín, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Profesor de Medicina Interna, Universidad de Antioquia. Internista Endocrinólogo. Clínica Somer, Rionegro, Antioquia, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="state">Antioquia</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Alejandro Román-González; <email>alejoroman@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>CONFLICTOS DE INTERESES</label>
+					<p> Los autores certifican que no tienen afiliaciones o participación en cualquier organización o entidad con las que posean algún interés financiero (como honorarios, becas educativas, participación como oradores, empleo, consultorías, propiedad de accione u otro interés patrimonial) o, no financiero, (como relaciones personales, profesionales, afiliaciones, conocimientos o creencias) sobre el tema o materiales discutidos en este manuscrito. CEBM declara haber recibido honorarios por conferencias de Sanofi, Novo Nordisk, Novartis y por participar en juntas consultivas científicas de Sanofi, Novo Nordisk y Boehringer Ingelheim. ARG declara haber recibido honorarios por conferencias de Sanofi, Novo Nordisk, Novartis, Recordati, Pfizer. Los demás declaran no tener otros conflictos de interés.</p>
+				</fn>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>05</day>
+				<month>04</month>
+				<year>2021</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+			<pub-date pub-type="ppub">
+				<season>Apr-Jun</season>
+				<year>2021</year>
+			</pub-date>
+			<volume>34</volume>
+			<issue>2</issue>
+			<fpage>161</fpage>
+			<lpage>171</lpage>
+			<history>
+				<date date-type="received">
+					<day>20</day>
+					<month>04</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>09</day>
+					<month>09</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>El coronavirus 2 del síndrome respiratorio agudo grave es el tercer betacoronavirus desde el año 2003 capaz de ocasionar una infección del tracto respiratorio inferior, llevando, en casos críticos, al síndrome de dificultad respiratoria aguda y la muerte.</p>
+				<p>La edad avanzada, la hipertensión arterial y la diabetes mellitus son, entre otros, tres factores determinantes en los peores desenlaces clínicos. Múltiples mecanismos pueden explicar la mayor susceptibilidad de las personas diabéticas a las infecciones respiratorias. La hiperglucemia crónica altera tanto a la inmunidad humoral como al celular. Esta enfermedad predispone a la sobreexpresión de la proteína de la membrana celular que sirve como receptora del virus y a una respuesta inflamatoria exacerbada, aumentando el riesgo de una descompensación y de la aparición de crisis hiperglicémicas.</p>
+				<p>Ante la ausencia de un tratamiento efectivo o de una vacuna, todos los esfuerzos deben hacerse para procurar un buen control metabólico de los pacientes con diabetes mellitus con y sin COVID-19.</p>
+				<p>Por lo anterior, se plantean en este artículo de reflexión, diferentes propuestas para el tratamiento de la diabetes mellitus en la unidad de cuidados intensivos, sin descartar la forma ambulatoria, en donde la telemedicina y otras tecnologías permitirán acortar la distancia y mantener las medidas de aislamiento preventivo.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>SUMMARY</title>
+				<p>Severe acute respiratory syndrome coronavirus 2 is the third beta-coronavirus since 2003 capable of causing lower respiratory tract infection, leading to severe cases of acute respiratory distress syndrome and death.</p>
+				<p>Advanced age, high blood pressure and diabetes mellitus are three predictors of worse clinical outcomes. Multiple mechanisms could explain the greater susceptibility of diabetic people to respiratory infections. Chronic hyperglycemia alters both humoral and cellular immunity. This disease predisposes to virus receptor overexpression and an exaggerated inflammatory response, increasing the risk of decompensation and hyperglycemic crises. In the absence of an effective vaccine or treatment for the virus, this vicious circle should be stopped with an emphasis on controlling glucose.</p>
+				<p>This paper presents different proposals for the treatment of diabetes mellitus both on an outpatient basis where telemedicine and other technologies will make it possible to continue adequate ambulatory care to maintain preventive isolation measures up to care in the intensive care unit.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>PALABRAS CLAVE:</title>
+				<kwd>Coronavirus</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Diabetes Mellitus</kwd>
+				<kwd>Glucosa Sanguínea</kwd>
+				<kwd>Virus del SRAS</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>KEY WORDS:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>Coronavirus Infections</kwd>
+				<kwd>Diabetes Mellitus</kwd>
+				<kwd>Blood Glucose</kwd>
+				<kwd>SARS Virus</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="48"/>
+				<page-count count="11"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCCIÓN</title>
+			<p>La diabetes mellitus (DM) es una enfermedad crónica, común y una de las comorbilidades más reportadas en los pacientes con la enfermedad por coronavirus 2019 (COVID-19) <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. La evidencia que existe sobre la prevención o el tratamiento de esta infección en personas con DM es escasa. Los individuos con DM tienen un mayor riesgo de contraer infecciones, incluyendo la neumonía e influenza <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Ya se conocía que la diabetes era una comorbilidad frecuente en otras infecciones respiratorias como la Influenza A (H1N1), causante de la pandemia durante el 2009. También con el síndrome respiratorio grave del adulto (SARS) por coronavirus y el síndrome respiratorio del Oriente Medio, relacionado con el coronavirus (MERS), demostrándose que la diabetes incrementa el riesgo de padecer infecciones respiratorias en un 18 %. En el presente artículo de reflexión se plantean diferentes propuestas para el tratamiento ambulatorio y hospitalario de la DM en los pacientes que desarrollan COVID-19, tanto en las salas generales como en la unidad de cuidados intensivos.</p>
+		</sec>
+		<sec>
+			<title>EPIDEMIOLOGÍA</title>
+			<p>El 26 de Febrero del 2020 en Colombia se habían reportado 2.241.225 casos de COVID-19 y 59396 muertes. Se ha descrito un espectro variable de la enfermedad con algunos casos graves que requieren del ingreso a una UCI y una alta probabilidad de muerte <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Ciertos factores como la hipertensión arterial, la diabetes mellitus y la obesidad se han asociado con un mayor riesgo de padecer una forma grave de COVID-19, requerir ventilación mecánica e incluso morir. <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Adicionalmente, en aquellas personas con COVID-19 se han reportado valores elevados de glucosa sanguínea y hemoglobina glicada (A1C) como marcadores de un mal control glucémico en las personas con DM <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. A continuación, se mencionarán algunos de los estudios epidemiológicos más importantes (<xref ref-type="table" rid="t1">Tabla 1</xref>).</p>
+			<p>Yang <italic>et al</italic>. <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, en un estudio retrospectivo de 52 casos de hospitalización en la UCI con COVID-19, encontró como enfermedades asociadas más comunes en los fallecidos a la DM (22 %) y la enfermedad cardiovascular (22 %). Otro reporte con 1.099 pacientes (también en China) <xref ref-type="bibr" rid="B11"><sup>11</sup></xref> presentó una prevalencia de la DM del 7 %. El desenlace primario compuesto por la admisión a una UCI y el requerimiento de ventilación mecánica o muerte estuvo en 67 pacientes (6,1 %, 5 % estancia en UCI, 2,3 % ventilación mecánica y 1,4 % muerte). De estos, 18 (26, 9 %) tenían DM. La infección fue grave en 173 casos, 28 (16,2 %) eran aquellos con DM.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Prevalencia de la diabetes mellitus reportada en los estudios epidemiológicos de COVID-19</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center">Estudio</th>
+								<th align="center">Referencia</th>
+								<th align="center">N (% hombres)</th>
+								<th align="center">Edad*</th>
+								<th align="center">Sitio</th>
+								<th align="center">Tipo de población</th>
+								<th align="center">pacientes con DM (%)</th>
+								<th align="center">Prevalencia de DM (país)</th>
+								<th align="center">Desenlace</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="justify">CDC</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+								</td>
+								<td align="justify">7.162 (NR)</td>
+								<td align="justify">No reportado</td>
+								<td align="justify">USA</td>
+								<td align="justify">Personas con seguimiento ambulatorio, hospitalizadas y admitidos a la unidad de cuidados intensivos con información disponible</td>
+								<td align="justify">10.9%</td>
+								<td align="justify">13,3 (11,4-15,3)</td>
+								<td align="justify">Comparada con otras enfermedades asociadas de forma individual, la DM fue la más común en quienes requirieron manejo hospitalario dentro y fuera de la UCI</td>
+							</tr>
+							<tr>
+								<td align="justify">Zhou</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+								</td>
+								<td align="justify">191 (62%)</td>
+								<td align="justify">56 (46-67)</td>
+								<td align="justify">China</td>
+								<td align="justify">Personas hospitalizadas </td>
+								<td align="justify">19%</td>
+								<td align="justify">10,9 (10,2-13,7)</td>
+								<td align="justify">En el análisis univariado la DM fue reportado como uno de los factores asociados con un mayor riesgo de muerte intrahospitalaria OR 2·85 (1·35-6·05) y estaba presente en el 19% de las personas que murieron</td>
+							</tr>
+							<tr>
+								<td align="justify">Guo</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+								</td>
+								<td align="justify">174 (43.7%)</td>
+								<td align="justify">59 (49-67)</td>
+								<td align="justify">China</td>
+								<td align="justify">Personas tratadas de forma hospitalaria que hubiesen muerto o egresado del hospital</td>
+								<td align="justify">21.2%</td>
+								<td align="justify"> </td>
+								<td align="justify">Se encontró que en los pacientes con DM tuvieron una mayor probabilidad de morir (16.7% vs 0%), un mayor número de casos de neumonía grave, niveles más altos de reactantes de fase aguda y una mayor gravedad en los hallazgos de los estudios imagenológicos</td>
+							</tr>
+							<tr>
+								<td align="justify">Yang y colaboradores</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+								</td>
+								<td align="justify">52 (67%)</td>
+								<td align="justify">59.7 (13.3)</td>
+								<td align="justify">China </td>
+								<td align="justify">Personas críticamente enfermas admitidas a unidad de cuidados intensivos</td>
+								<td align="justify">17%</td>
+								<td align="justify"> </td>
+								<td align="justify">Los pacientes que no sobrevivieron (n=32) presentaban una mayor frecuencia de comorbilidades (53% vs 20%)</td>
+							</tr>
+							<tr>
+								<td align="justify">Guan</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+								</td>
+								<td align="justify">1099 (58.1%)</td>
+								<td align="justify">47 (35-58) </td>
+								<td align="justify">China</td>
+								<td align="justify">Personas hospitalizadas y en seguimiento ambulatorio con información sobre síntomas y desenlaces</td>
+								<td align="justify">12.7%</td>
+								<td align="justify"> </td>
+								<td align="justify">La DM estaba presente en un 26.9% de las personas que presentaron el desenlace compuesto de admisión a UCI, requerimiento de ventilación mecánica o muerte</td>
+							</tr>
+							<tr>
+								<td align="justify">Zhang</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+								</td>
+								<td align="justify">140 (50.7%)</td>
+								<td align="justify">57 (25-87)</td>
+								<td align="justify">China</td>
+								<td align="justify">Personas hospitalizadas</td>
+								<td align="justify">12.1%</td>
+								<td align="justify"> </td>
+								<td align="justify">Los pacientes con una enfermedad severa (frecuencia respiratoria mayor de 30/min, saturación de oxígeno &lt; 93% en reposo y una PaFi &lt;300) tenían una mayor frecuencia de comorbilidades</td>
+							</tr>
+							<tr>
+								<td align="justify">Zhang</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+								</td>
+								<td align="justify">258 (53.5%)</td>
+								<td align="justify">64 (56-70)</td>
+								<td align="justify">China</td>
+								<td align="justify">Personas hospitalizadas </td>
+								<td align="justify">24.4%</td>
+								<td align="justify"> </td>
+								<td align="justify">La DM se asoció a valores más altos de glucosa, creatinina, recuentos leucocitarios, mayores tasas de complicaciones, requerimientos de ventilación no invasiva o ventilación mecánica, y a mayor mortalidad (11.1 vs 4.1%)</td>
+							</tr>
+							<tr>
+								<td align="justify">RNVE</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>)</sup></td>
+								<td align="justify">83.660 (51.7%)</td>
+								<td align="justify">59 (46-74)</td>
+								<td align="justify">España</td>
+								<td align="justify">Personas con seguimiento ambulatorio, hospitalizadas y admitidos a la unidad de cuidados intensivos con información disponible</td>
+								<td align="justify">17.7%</td>
+								<td align="justify">10,5 (8,4-14,6)</td>
+								<td align="justify">En los casos con neumonía, el 75% de los pacientes tenían al menos una enfermedad o factor de riesgo asociado, el 23% DM. Las personas que requirieron tratamiento en la unidad de cuidados intensivos (28% vs 24%) y murieron (35% vs 16%) la DM fue mucho más frecuente.</td>
+							</tr>
+							<tr>
+								<td align="justify">Grasselli</td>
+								<td align="justify">
+									<xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>)</sup></td>
+								<td align="justify">1591 (82%)</td>
+								<td align="justify">63 (56-70)</td>
+								<td align="justify">Italia (Lombardía)</td>
+								<td align="justify">Personas críticamente enfermas admitidas a unidad de cuidados intensivos</td>
+								<td align="justify">17%</td>
+								<td align="justify">8,3 (7,7-9,4)</td>
+								<td align="justify">68% de los pacientes tenían por lo menos una comorbilidad incluida la DM</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>* Edad en años, mediana (rango intercuartílico), excepto el reporte de Yang et al. <xref ref-type="bibr" rid="B10"><sup>10</sup></xref> que presenta media y desviación estándar.Media (desviación estándar) <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. DM: diabetes mellitus. NR: no reportado. RNVE: Red Nacional de Vigilancia de España. CDC: Centro para el control y prevención de enfermedades de los Estados Unidos</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>En otra publicación reportada por Wuhan Zhang <italic>et al.</italic><xref ref-type="bibr" rid="B12"><sup>12</sup></xref> se reportó 140 casos de COVID-19: 48 tenían una infección grave al ingreso. En 90 personas (63,4 %) se encontraron enfermedades asociadas, (hipertensión en el 30 % de los afectados, seguida de la DM en el 10,9 %). Los pacientes con una enfermedad grave tenían una edad más avanzada (64 vs. 51,5 años), mayor frecuencia de enfermedades asociadas (79,3 % vs. 53,7 %), mayores conteos de leucocitos (5.300 vs. 4.500) y un menor porcentaje de linfocitos respecto a los casos no graves. Gou <italic>et al</italic>. <xref ref-type="bibr" rid="B9"><sup>9</sup></xref> reportaron 174 pacientes con COVID-19 en Wuhan. El 21,2 % de los afectados tenían DM, población que tenía una mayor incidencia de ECV y una menor probabilidad de tener fiebre. Se hizo una comparación entre los individuos que tenían o no DM, excluyendo otras comorbilidades. Se encontró que los pacientes con DM eran mayores (61 vs. 32 años), con más riesgo de morir (16,7 % vs. 0 %) y una mayor posibilidad de presentar una forma grave de la afección pulmonar que requería de ventilación mecánica. Igualmente, presentación de niveles más altos de reactantes de fase aguda (interleuquina 6, proteína C reactiva, ferritina, velocidad de sedimentación), de enzimas que reflejan daño tisular (gamma glutamil transferasa, ALT, deshidrogenasa láctica, alfa hidroxibutirato deshidrogenasa), mayores valores del dímero D y de fibrinógeno, menores concentraciones de albúmina, prealbúmina, proteínas totales y una mayor gravedad en los estudios imagenológicos.</p>
+			<p>Zhou <italic>et al.</italic><xref ref-type="bibr" rid="B8"><sup>8</sup></xref> analizaron los factores de riesgo asociados con la mortalidad en los pacientes hospitalizados por COVID-19, encontraron 191 casos. Las enfermedades con mayor frecuencia de asociación con la COVID-19 fueron la hipertensión (30 %), la DM (19 %) y ECV (8 %). 54 individuos fallecieron, de estos 17 (31 %) tenían DM.</p>
+			<p>Zhang <italic>et al</italic>. <xref ref-type="bibr" rid="B12"><sup>12</sup></xref> en 258 individuos con COVID-19 identificó 63 diabéticos (24,4 %). La DM se asoció con valores más altos de glucosa, creatinina, leucocitos, mayores tasas de complicaciones, requerimientos de ventilación no invasiva o ventilación mecánica y una mayor mortalidad.</p>
+			<p>En los Estados Unidos, hasta marzo 28 del 2020, se había reportado en los Centros para el Control y la Prevención de Enfermedades (CDC) 122.653 casos confirmados de infección por COVID-19 <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, de ellos se conocía la información sobre las enfermedades asociadas y los factores de riesgo para los desenlaces respiratorios severos en 7.162 (5,8 % del total). Las enfermedades más recurrentes fueron la DM (10,9 %), la enfermedad pulmonar crónica (9,2 %) y la ECV (9 %). Se presentaron 184 muertes, de estas, 173 (94 %) tenían al menos una enfermedad de base. Hubo 784 diabéticos, de estos, 331 no fueron hospitalizados, 251 requirieron de tratamiento hospitalario por fuera de las UCI, 148 en UCI y, en 10 casos, no se conoció el sitio de la hospitalización. Comparada con otras enfermedades asociadas de forma individual, la DM fue la más común en quienes requirieron del tratamiento hospitalario <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+			<p>En España, de los 33,089 casos informados a marzo 23 del 2020, se habían reportado 15.875 a través de la plataforma de vigilancia epidemiológica del Sistema de Vigilancia de España. SiViEs <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Las enfermedades asociadas más comunes fueron la ECV (32 %), DM (13 %) y la enfermedad respiratoria crónica (11 %). La DM fue más recurrente en hombres (16 %) que en mujeres (9 %).</p>
+			<p>Un metaanálisis realizado con 1.527 pacientes encontró la DM en el 9,7 % de los casos. La incidencia de ella fue dos veces más en aquellos con casos graves o en UCI comparados con aquellos no graves o sin estancia en UCI <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Otro estudio similar (n = 46.248) evidenció DM en el 8 % de los infectados (IC 95 % 6-11 %) <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Otro estudio importante evaluó como objetivo primario el ingreso a la UCI, la ventilación mecánica o la muerte. Luego de ajustar por edad y la presencia de tabaquismo, la DM incrementó el riesgo de este desenlace compuesto (HR 1,59 IC 95 % 1,03-2,45) <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+			<sec>
+				<title>FISIOPATOLOGÍA</title>
+				<p>La DM se asocia con un mayor riesgo de presentar algunas infecciones comunes, entre ellas las pulmonares inferiores <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Además, suelen ser más graves y el riesgo de muerte es mayor <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Múltiples mecanismos explican esta mayor susceptibilidad. La hiperglucemia crónica altera la inmunidad humoral y celular <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>. Los cambios microangiopáticos de la DM se acompañan de alteraciones en la difusión gaseosa pulmonar, así como una función anormal de las vías aéreas periféricas <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, lo que puede predisponer para el desarrollo de una insuficiencia respiratoria.</p>
+				<p>La infección viral respiratoria más estudiada en la DM es la influenza. Esta se asocia con una mayor posibilidad de tener episodios de infecciones estacionales severos <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. <italic>In vitro</italic>, la elevación de la glucosa favorece la infectividad del virus y su capacidad de replicación en las células epiteliales del tracto respiratorio <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Adicionalmente, la hiperglucemia disminuye la respuesta inmune antiviral <xref ref-type="bibr" rid="B24"><sup>24</sup></xref> e incrementa la capacidad replicativa de las bacterias en el tracto respiratorio <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. De hecho, la mayoría de personas que murieron durante la pandemia de la influenza H1N1 fue por neumonías bacterianas <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title>INFECCIÓN POR CORONAVIRUS Y DIABETES MELLITUS</title>
+				<p>Si bien la DM predispone para desarrollar infecciones respiratorias, parece existir un nexo especial entre esta y las enfermedades causadas por los coronavirus, ya que en los brotes zoonóticos causados por el SARS y el MERS se identificó una alta prevalencia de DM entre los infectados, así como una mayor posibilidad de que estas personas cursaran con formas más graves de la enfermedad <xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. También se ha reportado una alta prevalencia de DM en las personas con infección por coronavirus humanos <xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>En una cohorte de pacientes con SARS, las personas con DM o hiperglucemia tenían tres veces más posibilidad de morir que aquellas sin estas condiciones (OR para DM 3,0, IC 95 % 1,4-6,3 y OR para hiperglucemia 3,3, IC 95 % 1,4-7,7) y, por cada incremento en la glucemia en ayunas de 18 mg/dL, el riesgo de morir aumentaba 8 % (HR 1, 08, IC 95 % 1,03-1,13) <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. La mayor susceptibilidad de las personas con DM a la infección por coronavirus parece explicarse por los siguientes mecanismos:</p>
+				<sec>
+					<title>Mayor afinidad del virus por las célulasdel hospedero</title>
+					<p>Tanto el SARS-CoV como el SARS-CoV2, responsable de la COVID-19, utilizan la enzima convertidora de angiotensina 2 (ECA2) presente en la membrana de las células del epitelio respiratorio como receptor para lograr replicarse, a diferencia del MERS-CoV, que hace uso de la dipeptidil peptidasa 4 (DPP4) <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>.</p>
+					<p>Diferencias en la expresión de la ECA2 pueden explicar la susceptibilidad de las personas con DM a la enfermedad. En el tracto respiratorio la ECA2 transforma la angiotensina 2 a 1-7 angiotensina, sirviendo como un punto crucial para la regulación del sistema renina-angiotensina-aldosterona. En presencia de ECA2 la 1-7 angiotensina tiene un efecto antiinflamatorio y antifibrótico <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>, que puede asociarse con un curso de la COVID-19 menos grave. Al unirse a la ECA2 el SARS-CoV2 es posible que favorezca una regulación a la baja de la ECA2, por ello la angiotensina 2 permanecería intacta, ejerciendo su acción a través de los receptores de angiotensina y produciría un aumento en la permeabilidad vascular, incrementando el riesgo de un síndrome de dificultad respiratoria aguda. En un modelo animal, el tratamiento con proteína S de SARS-CoV produjo una regulación a la baja de la ECA2, acompañado de un incremento en el grado del edema pulmonar, así como en los cambios histológicos relacionados con una injuria pulmonar aguda. Estudios en personas con infección por SARS-CoV sugieren que la unión del virus a la ACE2 produce una regulación a la baja de esta, similar a lo encontrado en los experimentos con modelos animales y podría explicar el síndrome de dificultad respiratoria aguda reportado en estos casos <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. No es claro si este fenómeno ocurre en los pacientes con la COVID-19.</p>
+					<p>La ECA2 también se expresa en los islotes pancreáticos. En un grupo de 39 personas que presentaron infección por SARS-CoV, pero que no presentaron neumonía, que no tenían antecedente de DM y que no fueron tratados con glucocorticoides, el 51 % desarrollaron DM durante la infección y, después de 3 años de seguimiento, el 15 % continuaba con dicha enfermedad. Lo anterior sugiere que los coronavirus que utilizan la ECA2 tienen la capacidad de producir disfunción de las células beta pancreáticas <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. En sujetos con DM y formas leves de la COVID-19 se ha reportado la elevación en los valores de la glucosa durante la enfermedad que se han relacionado con los cambios en la actividad física y los patrones de alimentación <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>, pero también pueden ser explicados por una disfunción transitoria de las células beta.</p>
+					<p>En modelos animales se ha encontrado que ACE2 está sobre expresada en la DM <xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B38"><sup>38</sup></xref>. Esto podría hacer a las personas con DM más susceptible a un compromiso sistémico de la infección por SARS-CoV2. Algunos medicamentos para la DM como las tiazolidinedionas (pioglitazona), los agonistas del receptor de GLP1 (liraglutida) y otros medicamentos frecuentemente utilizados en personas con DM como las estatinas (atorvastatina y los inhibidores de la ECA: enalapril) producen una sobre expresión de la ECA2. Sin embargo, el efecto que pueden tener en la infección por SARS-CoV2 no ha sido estudiado y esta asociación no debe llevar a la suspensión de estos medicamentos sin pruebas de un efecto deletéreo.</p>
+				</sec>
+				<sec>
+					<title>Mayor susceptibilidad a la hiperinflamación</title>
+					<p>El efecto permisivo de la DM en los patógenos intracelulares se ha estudiado principalmente en las bacterias. Se ha propuesto que una combinación del estrés oxidativo y la hiperglucemia producen un estado inflamatorio crónico de bajo grado que reduce la actividad de los neutrófilos y macrófagos, favoreciendo el crecimiento de patógenos intracelulares. Adicionalmente, las personas con DM presentan niveles disminuidos de interferón-γ, junto con el mal control glucémico alteran tanto la proliferación, cómo la respuesta a los antígenos de los linfocitos T CD4 <xref ref-type="bibr" rid="B39"><sup>39</sup></xref> y la glicación de las inmunoglobulinas, afectando la inmunidad adaptativa.</p>
+					<p>Se ha propuesto que un subgrupo de pacientes con COVID-19 que pueden ser identificados mediante mediciones de marcadores de inflamación como los niveles de ferritina o la velocidad de sedimentación, podrían beneficiarse de las intervenciones como los esteroides, la inmunoglobulina, los bloqueadores selectivos de citoquinas o los inhibidores de la Janus quinasa (JAK) <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B40"><sup>40</sup></xref>.</p>
+				</sec>
+				<sec>
+					<title>Menor capacidad de aclaramiento del virus</title>
+					<p>En un estudio de 106 pacientes, el 8,5 % de los cuales tenía DM, los factores que se asociaron con un mayor tiempo hasta lograr tener dos muestras negativas para el RNA del virus en hisopados faríngeos fueron el antecedente de hipertensión arterial, DM, el sexo masculino y ser mayor de 65 años. Los autores proponen diferentes hipótesis para sus hallazgos, como el uso previo de medicamentos antihipertensivos, diferencias en la inmunidad entre los géneros y la edad. Sin embargo, debido al bajo número de pacientes, la incertidumbre en cada una de las variables en el modelo utilizado fue alta. Como en muchas otras enfermedades infecciosas, las formas graves de la COVID-19 son el resultado de una compleja interacción entre los virus, los factores del huésped y el ambiente.</p>
+				</sec>
+			</sec>
+			<sec>
+				<title>PREVENCIÓN</title>
+				<p>Los pacientes diabéticos deben tener un buen control glucémico (HbA1c &lt; 7 %). Esto puede prevenir el riesgo de la infección y la gravedad de la misma. También se recomiendan medidas generales de salud como una buena alimentación, actividad física y actualizar la vacunación contra la influenza y el neumococo. Debe insistirse en un buen lavado de manos con agua y jabón o el uso frecuente de alcohol, también evitar el contacto con la cara y realizarse una higiene respiratoria cubriéndose con el codo la boca y la nariz cuando se tose o estornuda. Se debe minimizar el contacto con otras personas, además de evitar traslados por fuera del domicilio a realizar compras o trámites para la entrega de autorizaciones médicas o de medicamentos, en estos casos se recomienda realizar la asistencia por parte de otros individuos con menor riesgo ante el virus o servicios de domicilio, acogiéndose a los protocolos de desinfección para el ingreso, tanto de personas como de objetos al interior del ambiente donde se encuentre el paciente.</p>
+				<sec>
+					<title>Paciente ambulatorio</title>
+					<p>Los pacientes diabéticos con COVID-19 pueden presentar manifestaciones clínicas diferentes comparados con los no diabéticos <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. Tienen más ECV (32,4 vs. 14,6 %) y menos fiebre. Hay mayor neutrofilia, más anemia, más linfopenia y una mayor elevación de los reactantes de fase aguda <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Por otro lado, pueden requerir de un incremento en la dosis de insulina.</p>
+					<p>El primer artículo que reporta el control de la glucosa en pacientes con COVID 19 fue realizado en Wuhan <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. En este se analizaron 29 individuos diabéticos tipo 2 con COVID-19 admitidos en la unidad de aislamiento. Cada individuo tenía una medición de glucosa diaria mínima. El 56,5 % de las mediciones fueron anormales, 20 de los 29 participantes se consideraron por fuera de las metas glucémicas estándar por las guías ADA y el 10,3 % tuvo un episodio de hipoglucemia.</p>
+					<p>Hasta el momento, la información obtenida de la DM y la COVID 19 proviene de cohortes de pacientes hospitalizados, no hay estudios en individuos ambulatorios. Tampoco se conoce si los antidiabéticos, excepto la insulina, pueden empeorar o mejorar los desenlaces. Basados en la evidencia actual, no es posible hacer recomendaciones para el tratamiento farmacológico ambulatorio de pacientes diabéticos infectados con COVID 19.</p>
+					<p>Las personas con COVID 19 que son tratados ambulatoriamente y que tienen una forma leve de la enfermedad pueden continuar el tratamiento farmacológico con el que venían previamente, algunos requerirán una adición de insulina basal y/o bolos de insulina según lo recomendado por las guías <xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. Sin embargo, si el paciente tiene anorexia o disminución de la ingesta deben suspenderse las sulfonilureas o disminuir la dosis de insulina basal. En cuanto a la continuación de iSGLT2, hay que tener cuidado especial con la hidratación del paciente, si esta es adecuada puede continuarse con estos medicamentos, de lo contrario o, si existen dudas acerca del estado hidroelectrolítico del paciente, deben suspenderse. En caso de una enfermedad moderada, la recomendación es la suspensión de sulfonilureas e iSGLT2, teniendo en cuenta los efectos secundarios de dichos medicamentos que pueden potenciarse ante las enfermedades intercurrentes.</p>
+					<p>Los pacientes con COVID 19 leve deben permanecer aislados, por lo menos por 14 días. Esto implica un reto adicional para el tratamiento, especialmente en aquellos con insulina subcutánea que pueden requerir de un seguimiento más estricto por parte del médico. Se necesitan formas novedosas de brindar atención médica a estos individuos mediante el uso de telemedicina, monitoreo frecuente de glucometrías, uso de servicios de nutrición apropiados para pacientes diabéticos, instrucciones sobre el ejercicio en casa, tratamiento de ansiedad por parte de profesionales y el uso de tecnologías portátiles <xref ref-type="bibr" rid="B43"><sup>43</sup></xref> que permitan la comunicación con el enfermo y la toma de decisiones sobre su tratamiento durante el aislamiento. Además, debe incrementarse el número de glucometrías al día, en particular, si se presenta fiebre. Por otro lado, los sistemas de salud deben establecer un mecanismo para que se mantenga el suministro adecuado de medicamentos e insumos para los diabéticos evitando su exposición. Los diabéticos tipo 1 deben monitorizarse más frecuentemente, además, pueden requerir cambios en la dosis de insulina y en los bolos de corrección <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>.</p>
+				</sec>
+				<sec>
+					<title>Paciente hospitalizado</title>
+					<p>Con la información disponible, la mejor recomendación es que deben seguirse las mismas pautas del tratamiento del diabético hospitalizado. Ninguna guía recomienda el uso de metformina o iSGLT2 en el hospital, dados sus efectos adversos como posible acidosis láctica o infecciones urinarias, respectivamente <xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. Se prefiere el uso de insulina o iDPPIV, o ambas, para el control de la hiperglucemia en el hospital <xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B46"><sup>46</sup></xref>. Los iDPPIV tienen la ventaja de ser orales y algunos han propuestos diversos beneficios teóricos en los pacientes diabéticos con COVID-19 <xref ref-type="bibr" rid="B47"><sup>47</sup></xref>. Antes de la pandemia, Pasquel <italic>et al</italic>. <xref ref-type="bibr" rid="B48"><sup>48</sup></xref> realizaron un ensayo aleatorizado que buscaba comparar la eficacia y seguridad del tratamiento con insulina basal más un iDPPIV frente a la insulina basal-bolo en personas con DM tipo 2 hospitalizadas. Se incluyó un total de 277 personas. En el primer grupo, 138 recibieron Sitagliptina en cualquier momento del día y una dosis de insulina glargina al día, dependiendo de la glucometría (0,15-0,25 U/kg/día). En el segundo grupo a 139 pacientes que se les aplicó un esquema basal-bolo con glargina más lispro o aspartato preprandiales. El promedio de la glucosa con Sitagliptina más insulina basal no fue inferior al grupo de basal-bolo (170 mg/dL vs. 169 mg/dL, p = 0,79). Tampoco hubo diferencias en la hipoglicemia (9 % vs. 12 %, p = 0, 45) o lesión renal aguda (5 % vs. 4 %, p = 0,79). Se registraron diferencias entre el número de inyecciones y las unidades de insulinas aplica-das (24U y 43U, respectivamente, p = 0,0001), siendo menores con la Sitagliptina más la insulina basal. Los iDPPIV, por ser una alternativa oral, son una forma de terapia atractiva, especialmente, si se desea limitar la exposición del personal de salud al paciente.</p>
+				</sec>
+				<sec>
+					<title>Paciente en unidad de cuidados intensivos</title>
+					<p>No existe evidencia clara o protocolos de tratamiento para pacientes diabéticos en UCI con COVID-19. La mayoría de los protocolos de UCI en aquellos propenden por una exposición mínima del trabajador del área de salud con ingresos cada 4 a 12 horas al cubículo del enfermo. Según la institución, existe una imposibilidad practica para usar infusiones de insulina en estos, dado que requieren de glucometrías cada hora o esquemas de monitoreo continuo de glucosa. Por ende, en la medida de lo posible, se prefiere usar un esquema basal de bolo en lugar de la infusión. Para ello, se establece un esquema de medición de glucometrías cada 4 horas. Debe hacerse una medición en hora nocturna, de 12 p.m. hasta las 4 a.m. para hacer el ajuste de la insulina basal. Debe usarse una insulina que tenga duración prolongada (24 horas), como la glargina o degludec. Se recomienda una dosis de insulina basal de 0,25 u/kg/día. Si el paciente presenta un IMC (Peso/Talla2) mayor a 35, se debe iniciar con una dosis de 0,3 u/kg/día y ajustar la calculada a la unidad más cercana. Por ejemplo, un paciente de 70 kilos con un IMC de 28, la dosis de insulina basal es de 17,5 unidades, por ende, se debe redondear a 18 unidades. Adicionalmente hacer ajustes cada 24 horas según la glucometría de 12 p.m. a 4 a.m. o la tendencia en el día. Un protocolo sugerido de ajuste es el siguiente:</p>
+					<p>
+						<list list-type="order">
+							<list-item>
+								<p>Si la glucometría es de 80-180, se debe dejar igual la dosis de insulina.</p>
+							</list-item>
+							<list-item>
+								<p>Si la glucometría es menor a 50-80, disminuir 10 % la dosis de insulina.</p>
+							</list-item>
+							<list-item>
+								<p>Si la glucometría es menor a 50, disminuir 20 % la dosis de insulina basal.</p>
+							</list-item>
+							<list-item>
+								<p>Si la glucometría es &gt; 180, aumentar 20 % la dosis de insulina glargina.</p>
+							</list-item>
+						</list>
+					</p>
+					<p>Adicionalmente, debe usarse una insulina de acción rápida (glulisina, aspartato o lispro), que tiene una duración de actividad promedio de 4 horas en una dosis aproximada de 0,20 u/kg/día, distribuida en 6 momentos del día. Por ejemplo, en un paciente de 70 kilos la dosis sería 2 unidades cada 4 horas (70 kilos por 0,2 = 14 unidades. Divido 6, equivale a 2,3 unidades). Dado que la pluma prellenada de la insulina no permite dosis intermedias, debe aproximarse a la unidad más próxima, es decir 2 unidades. Según la glucometría siguiente, se debe ajustar la dosis de insulina glulisina así:</p>
+					<p>
+						<list list-type="order">
+							<list-item>
+								<p>Glucometría menor a 50:</p>
+							</list-item>
+							<list-item>
+								<p>No aplicar dosis de insulina.</p>
+							</list-item>
+							<list-item>
+								<p>Pasar bolo IV de 250cc de DAD 10 %.</p>
+							</list-item>
+							<list-item>
+								<p>Nueva glucometría al terminar (a los 15 minutos) y verificar qué salió de la hipoglucemia. No aplicar dosis de insulina.</p>
+							</list-item>
+							<list-item>
+								<p>Glucometría de 50 a 110, aplicar la mitad de la dosis de glulisina calculada.</p>
+							</list-item>
+							<list-item>
+								<p>Glucometría de 110 a 180, continuar con la misma dosis de insulina glulisina calculada.</p>
+							</list-item>
+							<list-item>
+								<p>Glucometría &gt; 180 hasta 250, aumentar la dosis de insulina 1 unidad. Ejemplo: dosis calculada 2 unidades, pasar a 3 unidades.</p>
+							</list-item>
+							<list-item>
+								<p>Glucometría mayor a 250, aumentar la dosis de insulina 2 unidades.</p>
+							</list-item>
+						</list>
+					</p>
+				</sec>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONES</title>
+			<p>La DM es la segunda comorbilidad más prevalente en la COVID-19 y, ante la ausencia de terapias efectivas, es importante tener un control metabólico óptimo. A pesar de la limitada evidencia, se realizó una propuesta para orientar de forma homogénea las intervenciones de los pacientes con DM ambulatorios, hospitalizados o en UCI, que tengan infección por este coronavirus.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCIAS BIBLIOGRÁFICAS</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Li B, Yang J, Zhao F, Zhi L, Wang X, Liu L, et al. Pre-valence and impact of cardiovascular metabolic diseases on COVID-19 in China. Clin Res Cardiol. 2020;109:531-38. DOI 10.1007/s00392-020-01626-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Zhi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pre-valence and impact of cardiovascular metabolic diseases on COVID-19 in China</article-title>
+					<source>Clin Res Cardiol.</source>
+					<year>2020</year>
+					<volume>109</volume>
+					<fpage>531</fpage>
+					<lpage>538</lpage>
+					<pub-id pub-id-type="doi">10.1007/s00392-020-01626-9</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Saeedi P, Petersohn I, Salpea P, Malanda B, Karuranga S, Unwin N, et al. Global and regional diabetes prevalence estimates for 2019 and projections for 2030 and 2045: Results from the International Diabetes Federation Diabetes Atlas, 9th ed. Diabetes Res Clin Pract. 2019 Nov;157:107843. DOI 10.1016/j.diabres.2019.107843.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saeedi</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Petersohn</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Salpea</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Malanda</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Karuranga</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Unwin</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Global and regional diabetes prevalence estimates for 2019 and projections for 2030 and 2045: Results from the International Diabetes Federation Diabetes Atlas, 9th ed.</article-title>
+					<source>Diabetes Res Clin Pract.</source>
+					<month>11</month>
+					<year>2019</year>
+					<volume>157</volume>
+					<fpage>107843</fpage>
+					<lpage>107843</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.diabres.2019.107843</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Maddaloni E, Buzzetti R. Covid-19 and diabetes mellitus: unveiling the interaction of two pandemics. Diabetes Metab Res Rev. 2020:e33213321. DOI 10.1002/dmrr.3321.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maddaloni</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Buzzetti</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Covid-19 and diabetes mellitus: unveiling the interaction of two pandemics</article-title>
+					<source>Diabetes Metab Res Rev.</source>
+					<year>2020</year>
+					<elocation-id>e33213321</elocation-id>
+					<pub-id pub-id-type="doi">10.1002/dmrr.3321</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Team CC-R. Preliminary Estimates of the Prevalence of Selected Underlying Health Conditions Among Patients with Coronavirus Disease 2019 - United States, February 12-March 28, 2020. MMWR Morb Mortal Wkly Rep. 2020;69(13):382-6. DOI 10.15585/mmwr.mm6913e2.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Team CC-R</collab>
+					</person-group>
+					<article-title>Preliminary Estimates of the Prevalence of Selected Underlying Health Conditions Among Patients with Coronavirus Disease 2019 - United States, February 12-March 28, 2020</article-title>
+					<source>MMWR Morb Mortal Wkly Rep.</source>
+					<year>2020</year>
+					<volume>69</volume>
+					<issue>13</issue>
+					<fpage>382</fpage>
+					<lpage>386</lpage>
+					<pub-id pub-id-type="doi">10.15585/mmwr.mm6913e2</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Wang A, Zhao W, Xu Z, Gu J. Timely blood glucose management for the outbreak of 2019 novel coronavirus disease (COVID-19) is urgently needed. Diabetes Res Clin Pract. 2020 Apr;162:108118. DOI 10.1016/j.diabres.2020.108118.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Gu</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>Timely blood glucose management for the outbreak of 2019 novel coronavirus disease (COVID-19) is urgently needed</article-title>
+					<source>Diabetes Res Clin Pract.</source>
+					<month>04</month>
+					<year>2020</year>
+					<volume>162</volume>
+					<issue>108118</issue>
+					<pub-id pub-id-type="doi">10.1016/j.diabres.2020.108118</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Yang J, Zheng Y, Gou X, Pu K, Chen Z, Guo Q, et al. Prevalence of comorbidities in the novel Wuhan coronavirus (COVID-19) infection: a systematic review and meta-analysis. Int J Infect Dis. 2020 May;94:91-5. DOI 10.1016/j.ijid.2020.03.017.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zheng</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Gou</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Pu</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>Q</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Prevalence of comorbidities in the novel Wuhan coronavirus (COVID-19) infection: a systematic review and meta-analysis</article-title>
+					<source>Int J Infect Dis.</source>
+					<month>05</month>
+					<year>2020</year>
+					<volume>94</volume>
+					<fpage>91</fpage>
+					<lpage>95</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.ijid.2020.03.017</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Wu C, Chen X, Cai Y, Xia J, Zhou X, Xu S, et al. Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China. JAMA Intern Med. 2020 Jul 1;180(7):934-43. DOI 10.1001/ja-mainternmed.2020.0994.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Cai</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Xia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China</article-title>
+					<source>JAMA Intern Med.</source>
+					<day>01</day>
+					<month>07</month>
+					<year>2020</year>
+					<volume>180</volume>
+					<issue>7</issue>
+					<fpage>934</fpage>
+					<lpage>943</lpage>
+					<pub-id pub-id-type="doi">10.1001/ja-mainternmed.2020.0994</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet. 2020;395(10229):1054-62. DOI 10.1016/S0140-6736(20)30566-3.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhou</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Du</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>395</volume>
+					<issue>10229</issue>
+					<fpage>1054</fpage>
+					<lpage>1062</lpage>
+					<pub-id pub-id-type="doi">10.1016/S0140-6736(20)30566-3</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Guo W, Li M, Dong Y, Zhou H, Zhang Z, Tian C, et al. Diabetes is a risk factor for the progression and prognosis of COVID-19. Diabetes Metab Res Rev. 2020:e3319. DOI 10.1002/dmrr.3319.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guo</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Dong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Tian</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Diabetes is a risk factor for the progression and prognosis of COVID-19</article-title>
+					<source>Diabetes Metab Res Rev.</source>
+					<year>2020</year>
+					<elocation-id>e3319</elocation-id>
+					<pub-id pub-id-type="doi">10.1002/dmrr.3319</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Yang X, Yu Y, Xu J, Shu H, Xia J, Liu H, et al. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. Lancet Respir Med. 2020;(8)5:475-81. DOI 10.1016/S2213-2600(20)30079-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Shu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Xia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study</article-title>
+					<source>Lancet Respir Med.</source>
+					<year>2020</year>
+					<issue>8</issue>
+					<volume>5</volume>
+					<fpage>475</fpage>
+					<lpage>481</lpage>
+					<pub-id pub-id-type="doi">10.1016/S2213-2600(20)30079-5</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Guan WJ, Ni ZY, Hu Y, Liang WH, Ou CQ, He JX, et al. Clinical Characteristics of Coronavirus Disease 2019 in China. N Engl J Med. 2020. DOI 10.1101/2020.02.06.20020974.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guan</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Ni</surname>
+							<given-names>ZY</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Ou</surname>
+							<given-names>CQ</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>JX</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical Characteristics of Coronavirus Disease 2019 in China</article-title>
+					<source>N Engl J Med.</source>
+					<year>2020</year>
+					<pub-id pub-id-type="doi">10.1101/2020.02.06.20020974</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Zhang Y, Yanhui C, Shen M, Jianchu Z, Liu B, Dai M, et al. Comorbid Diabetes Mellitus was Associated with Poorer Prognosis in Patients with COVID-19: A Retrospective Cohort Study. MedRxiv. 2020. DOI 10.1101/2020.03.24.20042358.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yanhui</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Shen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Jianchu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Dai</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Comorbid Diabetes Mellitus was Associated with Poorer Prognosis in Patients with COVID-19: A Retrospective Cohort Study</article-title>
+					<source>MedRxiv.</source>
+					<year>2020</year>
+					<pub-id pub-id-type="doi">10.1101/2020.03.24.20042358</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. RNDV. Informe sobre la situación de COVID-19 en España a 27 de abril de 2020. [internet]. [Consultado 2020 mar 20]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://bit.ly/2GyVYhq">https://bit.ly/2GyVYhq</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>RNDV</collab>
+					</person-group>
+					<source>Informe sobre la situación de COVID-19 en España a 27 de abril de 2020</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-20">2020 mar 20</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://bit.ly/2GyVYhq">https://bit.ly/2GyVYhq</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Grasselli G, Zangrillo A, Zanella A, Antonelli M, Cabrini L, Castelli A, et al. Baseline Characteristics and Outcomes of 1591 Patients Infected With SARS-CoV-2 Admitted to ICUs of the Lombardy Region, Italy. JAMA. 2020;323(16):1574-81. DOI 10.1001/jama.2020.5394.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grasselli</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Zangrillo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zanella</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Antonelli</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cabrini</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Castelli</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Baseline Characteristics and Outcomes of 1591 Patients Infected With SARS-CoV-2 Admitted to ICUs of the Lombardy Region, Italy</article-title>
+					<source>JAMA</source>
+					<year>2020</year>
+					<volume>323</volume>
+					<issue>16</issue>
+					<fpage>1574</fpage>
+					<lpage>1581</lpage>
+					<pub-id pub-id-type="doi">10.1001/jama.2020.5394</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Guan WJ, Liang WH, Zhao Y, Liang HR, Chen ZS, Li YM, et al. Comorbidity and its impact on 1590 patients with Covid-19 in China: A Nationwide Analysis. Eur Respir J. 2020 Jun 11;55(6):2001227. DOI 10.1183/13993003.01227-2020.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guan</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>HR</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>ZS</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>YM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Comorbidity and its impact on 1590 patients with Covid-19 in China: A Nationwide Analysis</article-title>
+					<source>Eur Respir J.</source>
+					<day>11</day>
+					<month>06</month>
+					<year>2020</year>
+					<volume>55</volume>
+					<issue>6</issue>
+					<fpage>2001227</fpage>
+					<lpage>2001227</lpage>
+					<pub-id pub-id-type="doi">10.1183/13993003.01227-2020</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Muller LMAJ, Gorter KJ, Hak E, Goudzwaard WL, Schellevis FG, Hoepelman AIM, et al. Increased Risk of Common Infections in Patients with Type 1 and Type 2 Diabetes Mellitus. Clinical Infectious Diseases. 2005;41(3):281-8. DOI 10.1086/431587.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muller</surname>
+							<given-names>LMAJ</given-names>
+						</name>
+						<name>
+							<surname>Gorter</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Hak</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Goudzwaard</surname>
+							<given-names>WL</given-names>
+						</name>
+						<name>
+							<surname>Schellevis</surname>
+							<given-names>FG</given-names>
+						</name>
+						<name>
+							<surname>Hoepelman</surname>
+							<given-names>AIM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Increased Risk of Common Infections in Patients with Type 1 and Type 2 Diabetes Mellitus</article-title>
+					<source>Clinical Infectious Diseases</source>
+					<year>2005</year>
+					<volume>41</volume>
+					<issue>3</issue>
+					<fpage>281</fpage>
+					<lpage>288</lpage>
+					<pub-id pub-id-type="doi">10.1086/431587</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Abu-Ashour W, Twells LK, Valcour JE, Gamble J-M. Diabetes and the occurrence of infection in primary care: a matched cohort study. BMC Infectious Diseases. 2018;18(1):67. DOI 10.1186/s12879-018-2975-2.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abu-Ashour</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Twells</surname>
+							<given-names>LK</given-names>
+						</name>
+						<name>
+							<surname>Valcour</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Gamble</surname>
+							<given-names>J-M</given-names>
+						</name>
+					</person-group>
+					<article-title>Diabetes and the occurrence of infection in primary care: a matched cohort study</article-title>
+					<source>BMC Infectious Diseases.</source>
+					<year>2018</year>
+					<volume>18</volume>
+					<issue>1</issue>
+					<fpage>67</fpage>
+					<lpage>67</lpage>
+					<pub-id pub-id-type="doi">10.1186/s12879-018-2975-2</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Ahmed MS, Reid E, Khardori N. Respiratory infections in diabetes: Reviewing the risks and challenges. The Journal of Respiratory Diseases. 2008;29(7):285.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ahmed</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Reid</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Khardori</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Respiratory infections in diabetes: Reviewing the risks and challenges</article-title>
+					<source>The Journal of Respiratory Diseases</source>
+					<year>2008</year>
+					<volume>29</volume>
+					<issue>7</issue>
+					<fpage>285</fpage>
+					<lpage>285</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Geerlings SE, Hoepelman AI. Immune dysfunction in patients with diabetes mellitus (DM). FEMS Immunology &amp; Medical Microbiology. 1999;26(3-4):259-65. DOI 10.1111/j.1574-695X.1999.tb01397.x.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Geerlings</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Hoepelman</surname>
+							<given-names>AI</given-names>
+						</name>
+					</person-group>
+					<article-title>Immune dysfunction in patients with diabetes mellitus (DM)</article-title>
+					<source>FEMS Immunology &amp; Medical Microbiology</source>
+					<year>1999</year>
+					<volume>26</volume>
+					<issue>3-4</issue>
+					<fpage>259</fpage>
+					<lpage>265</lpage>
+					<pub-id pub-id-type="doi">10.1111/j.1574-695X.1999.tb01397.x</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Price CL, Hassi HOA, English NR, Blakemore AI, Stagg AJ, Knight SC. Methylglyoxal modulates immune responses: relevance to diabetes. Journal of cellular and molecular medicine. 2010;14(6b):1806-15. DOI 10.1111/j.1582-4934.2009.00803.x.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Price</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Hassi</surname>
+							<given-names>HOA</given-names>
+						</name>
+						<name>
+							<surname>English</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>Blakemore</surname>
+							<given-names>AI</given-names>
+						</name>
+						<name>
+							<surname>Stagg</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Knight</surname>
+							<given-names>SC</given-names>
+						</name>
+					</person-group>
+					<article-title>Methylglyoxal modulates immune responses: relevance to diabetes</article-title>
+					<source>Journal of cellular and molecular medicine</source>
+					<year>2010</year>
+					<volume>14</volume>
+					<issue>6b</issue>
+					<fpage>1806</fpage>
+					<lpage>1815</lpage>
+					<pub-id pub-id-type="doi">10.1111/j.1582-4934.2009.00803.x</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Asanuma Y, Fujiya S, Ide H, Agishi Y. Characteristics of pulmonary function in patients with diabetes mellitus. Diabetes research and clinical practice. 1985;1(2):95-101. DOI 10.1016/S0168-8227(85)80034-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Asanuma</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Fujiya</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ide</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Agishi</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Characteristics of pulmonary function in patients with diabetes mellitus</article-title>
+					<source>Diabetes research and clinical practice</source>
+					<year>1985</year>
+					<volume>1</volume>
+					<issue>2</issue>
+					<fpage>95</fpage>
+					<lpage>101</lpage>
+					<pub-id pub-id-type="doi">10.1016/S0168-8227(85)80034-6</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Hulme KD, Gallo LA, Short KR. Influenza Virus and Glycemic Variability in Diabetes: A Killer Com-bination? Front Microbiol. 2017;8. DOI 10.3389/fmicb.2017.00861.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hulme</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Gallo</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Short</surname>
+							<given-names>KR</given-names>
+						</name>
+					</person-group>
+					<article-title>Influenza Virus and Glycemic Variability in Diabetes: A Killer Com-bination?</article-title>
+					<source>Front Microbiol.</source>
+					<year>2017</year>
+					<volume>8</volume>
+					<pub-id pub-id-type="doi">10.3389/fmicb.2017.00861</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Kohio HP, Adamson AL. Glycolytic control of vacuolar-type ATPase activity: a mechanism to regulate influenza viral infection. Virology. 2013;444(1-2):301-9. DOI 10.1016/j.virol.2013.06.026.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kohio</surname>
+							<given-names>HP</given-names>
+						</name>
+						<name>
+							<surname>Adamson</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<article-title>Glycolytic control of vacuolar-type ATPase activity: a mechanism to regulate influenza viral infection</article-title>
+					<source>Virology</source>
+					<year>2013</year>
+					<volume>444</volume>
+					<issue>1-2</issue>
+					<fpage>301</fpage>
+					<lpage>309</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.virol.2013.06.026</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Reading PC, Allison J, Crouch EC, Anders EM. Increased susceptibility of diabetic mice to influenza virus infection: compromise of collectin-mediated host defense of the lung by glucose? Journal of virology. 1998;72(8):6884-7. DOI 10.1128/JVI.72.8.6884-6887.1998.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reading</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Allison</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Crouch</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Anders</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>Increased susceptibility of diabetic mice to influenza virus infection: compromise of collectin-mediated host defense of the lung by glucose?</article-title>
+					<source>Journal of virology</source>
+					<year>1998</year>
+					<volume>72</volume>
+					<issue>8</issue>
+					<fpage>6884</fpage>
+					<lpage>6887</lpage>
+					<pub-id pub-id-type="doi">10.1128/JVI.72.8.6884-6887.1998</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Garnett JP, Baker EH, Naik S, Lindsay JA, Knight GM, Gill S, et al. Metformin reduces airway glucose permeability and hyperglycaemia-nduced Staphylococcus aureus load independently of effects on blood glucose. Thorax. 2013;68(9):835-45. DOI 10.1136/tho-raxjnl-2012-203178.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garnett</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Baker</surname>
+							<given-names>EH</given-names>
+						</name>
+						<name>
+							<surname>Naik</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lindsay</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Knight</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Gill</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Metformin reduces airway glucose permeability and hyperglycaemia-nduced Staphylococcus aureus load independently of effects on blood glucose</article-title>
+					<source>Thorax.</source>
+					<year>2013</year>
+					<volume>68</volume>
+					<issue>9</issue>
+					<fpage>835</fpage>
+					<lpage>845</lpage>
+					<pub-id pub-id-type="doi">10.1136/tho-raxjnl-2012-203178</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Short KR, Habets MN, Hermans PW, Diavatopoulos DA. Interactions between Streptococcus pneumo-niae and influenza virus: a mutually beneficial relationship? Future microbiology. 2012;7(5):609-24. DOI 10.2217/fmb.12.29.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Short</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Habets</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Hermans</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Diavatopoulos</surname>
+							<given-names>DA</given-names>
+						</name>
+					</person-group>
+					<article-title>Interactions between Streptococcus pneumo-niae and influenza virus: a mutually beneficial relationship?</article-title>
+					<source>Future microbiology.</source>
+					<year>2012</year>
+					<volume>7</volume>
+					<issue>5</issue>
+					<fpage>609</fpage>
+					<lpage>624</lpage>
+					<pub-id pub-id-type="doi">10.2217/fmb.12.29</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Booth CM, Matukas LM, Tomlinson GA, Rachlis AR, Rose DB, Dwosh HA, et al. Clinical features and short-term outcomes of 144 patients with SARS in the greater Toronto area. JAMA . 2003;289(21):2801-9. DOI 10.1001/jama.289.21.JOC30885.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Booth</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Matukas</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Tomlinson</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Rachlis</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Rose</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Dwosh</surname>
+							<given-names>HA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical features and short-term outcomes of 144 patients with SARS in the greater Toronto area</article-title>
+					<source>JAMA</source>
+					<year>2003</year>
+					<volume>289</volume>
+					<issue>21</issue>
+					<fpage>2801</fpage>
+					<lpage>2809</lpage>
+					<pub-id pub-id-type="doi">10.1001/jama.289.21.JOC30885</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Chan JW, Ng CK, Chan YH, Mok TY, Lee S, Chu SY, et al. Short term outcome and risk factors for adverse clinical outcomes in adults with severe acute respiratory syndrome (SARS). Thorax. 2003;58(8):686-9. DOI 10.1136/thorax.58.8.686.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chan</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Ng</surname>
+							<given-names>CK</given-names>
+						</name>
+						<name>
+							<surname>Chan</surname>
+							<given-names>YH</given-names>
+						</name>
+						<name>
+							<surname>Mok</surname>
+							<given-names>TY</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Chu</surname>
+							<given-names>SY</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Short term outcome and risk factors for adverse clinical outcomes in adults with severe acute respiratory syndrome (SARS)</article-title>
+					<source>Thorax.</source>
+					<year>2003</year>
+					<volume>58</volume>
+					<issue>8</issue>
+					<fpage>686</fpage>
+					<lpage>689</lpage>
+					<pub-id pub-id-type="doi">10.1136/thorax.58.8.686</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Badawi A, Ryoo SG. Prevalence of comorbidities in the Middle East respiratory syndrome coronavirus (MERS-CoV): a systematic review and meta-analysis. International Journal of Infectious Diseases. 2016;49:129-33. DOI 10.1016/j.ijid.2016.06.015.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Badawi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ryoo</surname>
+							<given-names>SG</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of comorbidities in the Middle East respiratory syndrome coronavirus (MERS-CoV): a systematic review and meta-analysis</article-title>
+					<source>International Journal of Infectious Diseases</source>
+					<year>2016</year>
+					<volume>49</volume>
+					<issue>129-33</issue>
+					<pub-id pub-id-type="doi">10.1016/j.ijid.2016.06.015</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Reina J, López-Causapé C, Rojo-Molinero E, Rubio R. Clinico-epidemiological characteristics of acute respiratory infections by coronavirus OC43, NL63 and 229E. Revista Clínica Española (English Edition). 2014;214(9):499-504. DOI 10.1016/j.rce.2014.05.020.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reina</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>López-Causapé</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rojo-Molinero</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rubio</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinico-epidemiological characteristics of acute respiratory infections by coronavirus OC43, NL63 and 229E</article-title>
+					<source>Revista Clínica Española (English Edition)</source>
+					<year>2014</year>
+					<volume>214</volume>
+					<issue>9</issue>
+					<fpage>499</fpage>
+					<lpage>504</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.rce.2014.05.020</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Vandroux D, Allou N, Jabot J, Li Pat Yuen G, Brottet E, Roquebert B, et al. Intensive care admission for Coronavirus OC43 respiratory tract infections. Med Mal Infect. 2018;48(2):141-4. DOI 10.1016/j.medmal.2018.01.001.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vandroux</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Allou</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Jabot</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li Pat Yuen</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Brottet</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Roquebert</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Intensive care admission for Coronavirus OC43 respiratory tract infections</article-title>
+					<source>Med Mal Infect.</source>
+					<year>2018</year>
+					<volume>48</volume>
+					<issue>2</issue>
+					<fpage>141</fpage>
+					<lpage>144</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.medmal.2018.01.001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Yang J, Feng Y, Yuan M, Yuan S, Fu H, Wu B, et al. Plasma glucose levels and diabetes are independent predictors for mortality and morbidity in patients with SARS. Diabetic medicine. 2006;23(6):623-8. DOI 10.1111/j.1464-5491.2006.01861.x.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Feng</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yuan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Yuan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Plasma glucose levels and diabetes are independent predictors for mortality and morbidity in patients with SARS</article-title>
+					<source>Diabetic medicine</source>
+					<year>2006</year>
+					<volume>23</volume>
+					<issue>6</issue>
+					<fpage>623</fpage>
+					<lpage>628</lpage>
+					<pub-id pub-id-type="doi">10.1111/j.1464-5491.2006.01861.x</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Hoffmann M, Kleine-Weber H, Schroeder S, Krüger N, Herrler T, Erichsen S, et al. SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor. Cell. 2020 Apr 16;181(2):271-280.e8. DOI 10.1016/j.cell.2020.02.052.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hoffmann</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kleine-Weber</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Schroeder</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Krüger</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Herrler</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Erichsen</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor</article-title>
+					<source>Cell</source>
+					<day>16</day>
+					<month>04</month>
+					<year>2020</year>
+					<volume>181</volume>
+					<issue>2</issue>
+					<elocation-id>e8</elocation-id>
+					<pub-id pub-id-type="doi">10.1016/j.cell.2020.02.052</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Simões e Silva AC, Silveira KD, Ferreira AJ, Teixeira MM. ACE2, angiotensin-(1-7) and Mas receptor axis in inflammation and fibrosis. Br J Pharmacol. 2013 Jun;169(3):477-92. DOI 10.1111/bph.12159.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">Simões<name>
+							<surname>Silva</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Silveira</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>MM</given-names>
+						</name>
+					</person-group>
+					<article-title>ACE2, angiotensin-(1-7) and Mas receptor axis in inflammation and fibrosis</article-title>
+					<source>Br J Pharmacol.</source>
+					<month>06</month>
+					<year>2013</year>
+					<volume>169</volume>
+					<issue>3</issue>
+					<fpage>477</fpage>
+					<lpage>492</lpage>
+					<pub-id pub-id-type="doi">10.1111/bph.12159</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Yang J-K, Lin S-S, Ji X-J, Guo L-M. Binding of SARS coronavirus to its receptor damages islets and causes acute diabetes. Acta diabetologica. 2010;47(3):193-9. DOI 10.1007/s00592-009-0109-4.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>J-K</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>S-S</given-names>
+						</name>
+						<name>
+							<surname>Ji</surname>
+							<given-names>X-J</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>L-M</given-names>
+						</name>
+					</person-group>
+					<article-title>Binding of SARS coronavirus to its receptor damages islets and causes acute diabetes</article-title>
+					<source>Acta diabetologica.</source>
+					<year>2010</year>
+					<volume>47</volume>
+					<issue>3</issue>
+					<fpage>193</fpage>
+					<lpage>199</lpage>
+					<pub-id pub-id-type="doi">10.1007/s00592-009-0109-4</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Xue T, Li Q, Zhang Q, Lin W, Wen J, Li L, et al. Blood glucose levels in elderly subjects with type 2 diabetes during COVID-19 outbreak: a retrospective study in a single center. Med Rxiv. 2020. DOI 10.1101/2020.03.31.20048579.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xue</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Wen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Blood glucose levels in elderly subjects with type 2 diabetes during COVID-19 outbreak: a retrospective study in a single center</article-title>
+					<source>Med Rxiv.</source>
+					<year>2020</year>
+					<pub-id pub-id-type="doi">10.1101/2020.03.31.20048579</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Bindom SM, Lazartigues E. The sweeter side of ACE2: physiological evidence for a role in diabetes. Mol Cell Endocrinol. 2009;302(2):193-202. DOI 10.1016/j.mce.2008.09.020.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bindom</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Lazartigues</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>The sweeter side of ACE2: physiological evidence for a role in diabetes</article-title>
+					<source>Mol Cell Endocrinol.</source>
+					<year>2009</year>
+					<volume>302</volume>
+					<issue>2</issue>
+					<fpage>193</fpage>
+					<lpage>202</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.mce.2008.09.020</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Wysocki J, Ye M, Soler MJ, Gurley SB, Xiao HD, Bernstein KE, et al. ACE and ACE2 Activity in Diabetic Mice. Diabetes. 2006;55(7):2132-9. DOI 10.2337/db06-0033.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wysocki</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ye</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Soler</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Gurley</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Xiao</surname>
+							<given-names>HD</given-names>
+						</name>
+						<name>
+							<surname>Bernstein</surname>
+							<given-names>KE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>ACE and ACE2 Activity in Diabetic Mice</article-title>
+					<source>Diabetes</source>
+					<year>2006</year>
+					<volume>55</volume>
+					<issue>7</issue>
+					<fpage>2132</fpage>
+					<lpage>2139</lpage>
+					<pub-id pub-id-type="doi">10.2337/db06-0033</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Peleg AY, Weerarathna T, McCarthy JS, Davis TM. Common infections in diabetes: pathogenesis, management and relationship to glycaemic control. Diabetes/metabolism research and reviews. 2007;23(1):3-13. DOI 10.1002/dmrr.682.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peleg</surname>
+							<given-names>AY</given-names>
+						</name>
+						<name>
+							<surname>Weerarathna</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>McCarthy</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>TM</given-names>
+						</name>
+					</person-group>
+					<article-title>Common infections in diabetes: pathogenesis, management and relationship to glycaemic control</article-title>
+					<source>Diabetes/metabolism research and reviews</source>
+					<year>2007</year>
+					<volume>23</volume>
+					<issue>1</issue>
+					<fpage>3</fpage>
+					<lpage>13</lpage>
+					<pub-id pub-id-type="doi">10.1002/dmrr.682</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Mehta P, McAuley DF, Brown M, Sanchez E, Tattersall RS, Manson JJ, et al. COVID-19: consider cytokine storm syndromes and immunosuppression. Lancet . 2020;395(10229):1033-4. DOI 10.1016/S0140-6736(20)30628-0.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mehta</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>McAuley</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Brown</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sanchez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tattersall</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Manson</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>COVID-19: consider cytokine storm syndromes and immunosuppression</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>395</volume>
+					<issue>10229</issue>
+					<fpage>1033</fpage>
+					<lpage>1034</lpage>
+					<pub-id pub-id-type="doi">10.1016/S0140-6736(20)30628-0</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Zhou J, Tan J. Diabetes patients with COVID-19 need better care. Metabolism. 2020:154216. DOI 10.1016/j.metabol.2020.154216.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhou</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Tan</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>Diabetes patients with COVID-19 need better care</article-title>
+					<source>Metabolism.</source>
+					<year>2020</year>
+					<fpage>154216</fpage>
+					<lpage>154216</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.metabol.2020.154216</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Association AD. 6. Glycemic Targets: Standards of Medical Care in Diabetes -2020. Diabetes Care. 2020;43(Suppl 1):S66-S76. DOI 10.2337/dc20-S006.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Association</surname>
+							<given-names>AD</given-names>
+						</name>
+					</person-group>
+					<article-title>6. Glycemic Targets: Standards of Medical Care in Diabetes -2020</article-title>
+					<source>Diabetes Care</source>
+					<year>2020</year>
+					<volume>43</volume>
+					<issue>1</issue>
+					<fpage>S66</fpage>
+					<lpage>S76</lpage>
+					<pub-id pub-id-type="doi">10.2337/dc20-S006</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Muniyappa R, Gubbi S. COVID-19 Pandemic, Corona Viruses, and Diabetes Mellitus. Am J Physiol Endocrinol Metab. 2020;318(5):E736-E741. DOI 10.1152/ajpendo.00124.2020.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muniyappa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gubbi</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 Pandemic, Corona Viruses, and Diabetes Mellitus</article-title>
+					<source>Am J Physiol Endocrinol Metab.</source>
+					<year>2020</year>
+					<volume>318</volume>
+					<issue>5</issue>
+					<fpage>E736</fpage>
+					<lpage>E741</lpage>
+					<pub-id pub-id-type="doi">10.1152/ajpendo.00124.2020</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Gupta R, Ghosh A, Singh AK, Misra A. Clinical considerations for patients with diabetes in times of COVID-19 epidemic. Diabetes Metab Syndr. 2020;14(3):211-2. DOI 10.1016/j.dsx.2020.03.002.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gupta</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ghosh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Singh</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Misra</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical considerations for patients with diabetes in times of COVID-19 epidemic</article-title>
+					<source>Diabetes Metab Syndr.</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<issue>3</issue>
+					<fpage>211</fpage>
+					<lpage>212</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.dsx.2020.03.002</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Román-González A, Cardona A, Gutiérrez J, Palacio A. Management of diabetes in hospitals. Rev Fac Med. 2018;66(3):8. DOI 10.15446/revfacmed.v66n3.61890.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Román-González</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cardona</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Palacio</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Management of diabetes in hospitals</article-title>
+					<source>Rev Fac Med.</source>
+					<year>2018</year>
+					<volume>66</volume>
+					<issue>3</issue>
+					<fpage>8</fpage>
+					<lpage>8</lpage>
+					<pub-id pub-id-type="doi">10.15446/revfacmed.v66n3.61890</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Association AD. 15. Diabetes Care in the Hospital: Standards of Medical Care in Diabetes -2020. Diabetes Care. 2020;43(Suppl 1):S193-S202. DOI 10.2337/dc20-S015.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Association AD</collab>
+					</person-group>
+					<article-title>15. Diabetes Care in the Hospital: Standards of Medical Care in Diabetes -2020</article-title>
+					<source>Diabetes Care</source>
+					<year>2020</year>
+					<volume>43</volume>
+					<supplement>1</supplement>
+					<fpage>S193</fpage>
+					<lpage>S202</lpage>
+					<pub-id pub-id-type="doi">10.2337/dc20-S015</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Iacobellis G. COVID-19 andDiabetes : can DPP4 inhibition play a role? Diabetes Res Clin Pract. 2020:108125. DOI 10.1016/j.diabres.2020.108125.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Iacobellis</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 andDiabetes : can DPP4 inhibition play a role?</article-title>
+					<source>Diabetes Res Clin Pract.</source>
+					<year>2020</year>
+					<fpage>108125</fpage>
+					<lpage>108125</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.diabres.2020.108125</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Pasquel FJ, Gianchandani R, Rubin DJ, Dungan KM, Anzola I, Gomez PC, et al. Efficacy of sitagliptin for the hospital management of general medicine and surgery patients with type 2 diabetes (Sita-Hospital): a multicentre, prospective, openlabel, non-inferiority randomised trial. Lancet Diabetes Endocrinol. 2016;5(2):125-33. DOI 10.1016/S2213-8587(16)30402-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pasquel</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Gianchandani</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rubin</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Dungan</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Anzola</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Gomez</surname>
+							<given-names>PC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Efficacy of sitagliptin for the hospital management of general medicine and surgery patients with type 2 diabetes (Sita-Hospital): a multicentre, prospective, openlabel, non-inferiority randomised trial</article-title>
+					<source>Lancet Diabetes Endocrinol</source>
+					<year>2016</year>
+					<volume>5</volume>
+					<issue>2</issue>
+					<fpage>125</fpage>
+					<lpage>133</lpage>
+					<pub-id pub-id-type="doi">10.1016/S2213-8587(16)30402-8</pub-id>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn3">
+				<label>**</label>
+				<p><bold>Cómo citar:</bold> Román-González A, Rodríguez LA, Builes-Barrera CA, Castro DC, Builes-Montaña CE, Arango-Toro CM, et al. Diabetes mellitus y COVID-19: fisiopatología y propuesta de tratamiento para el control glucémico en el tiempo de la pandemia. Iatreia. 2021 Abr-Jun;34(2):161-71. DOI 10.17533/udea.iatreia.93.</p>
+			</fn>
+			<fn fn-type="supported-by" id="fn2">
+				<label>FINANCIACIÓN</label>
+				<p> No se recibió financiación externa.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

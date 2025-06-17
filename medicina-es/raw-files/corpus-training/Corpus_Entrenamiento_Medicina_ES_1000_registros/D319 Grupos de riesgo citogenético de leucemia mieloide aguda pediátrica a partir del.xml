@@ -1,0 +1,2494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.5747</article-id>
+			<article-id pub-id-type="publisher-id">00013</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Grupos de riesgo citogenético de leucemia mieloide aguda pediátrica a partir del análisis de supervivencia en un hospital de referencia para cáncer en Perú</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Cytogenetic risk groups for childhood acute myeloid leukemia based on survival analysis in a cancer referral hospital from Perú</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Llimpe</surname>
+						<given-names>Yésica</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original"> Departamento de Ciencias Dinámicas, Universidad Nacional Mayor de San Marcos, Lima, Perú</institution>
+					<institution content-type="normalized">Universidad Nacional Mayor de San Marcos</institution>
+					<institution content-type="orgdiv1">Departamento de Ciencias Dinámicas</institution>
+					<institution content-type="orgname">Universidad Nacional Mayor de San Marcos</institution>
+					<addr-line>
+						<named-content content-type="city">Lima</named-content>
+					</addr-line>
+					<country country="PE">Peru</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Yésica Llimpe, Departamento de Ciencias Dinámicas, Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Avenida Miguel Grau 755, Lima, Perú Teléfono: (511) 619 7000 <email>yllimpem@unmsm.edu.pe</email>
+				</corresp>
+				<fn fn-type="equal" id="fn2">
+					<label>Contribución de los autores:</label>
+					<p> La autora declara no tener conflictos de intereses de ninguna índole.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses:</label>
+					<p> La autora declara no tener conflictos de intereses de ninguna índole.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>15</day>
+				<month>06</month>
+				<year>2021</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<month>06</month>
+				<year>2021</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<season>Jun</season>
+				<year>2021</year>
+			</pub-date>
+			<volume>41</volume>
+			<issue>2</issue>
+			<fpage>302</fpage>
+			<lpage>313</lpage>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>07</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>19</day>
+					<month>01</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>La leucemia mieloide aguda es una neoplasia heterogénea caracterizada por la proliferación de células mieloides inmaduras. El análisis citogenético ha revelado la presencia de aberraciones cromosómicas de importancia en el pronóstico del paciente.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Determinar los grupos de riesgo citogenético de pacientes pediátricos con leucemia mieloide aguda a partir de la supervivencia global.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Se hizo un estudio observacional de corte transversal. Se incluyeron los registros clínicos de los pacientes pediátricos con diagnóstico de leucemia mieloide aguda <italic>de novo</italic> admitidos en el Instituto Nacional de Enfermedades Neoplásicas entre el 2001 y el 2011 y sometidos a análisis citogenético de médula ósea. Los grupos de riesgo citogenético se establecieron según los criterios del <italic>Medical Research Council</italic>. Las curvas de supervivencia global se elaboraron con el método de Kaplan-Meier y se compararon mediante la prueba de Mantel-Cox y una regresión de Cox, utilizando el programa R, versión 3.3.2.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>Se incluyeron 130 pacientes, 68 varones (52,3%) y 62 mujeres (47,7%), mayoritariamente del subtipo M2 (33%). La edad promedio fue de 7,7 (rango de 0 a 15 años). Se observaron aberraciones cromosómicas en el 60,8% y la más frecuente fue la traslocación t(8;21). Según el análisis de supervivencia global, se observaron dos grupos de riesgo citogenético: favorable y desfavorable.</p>
+				</sec>
+				<sec>
+					<title>Conclusión. </title>
+					<p>Se determinaron dos grupos de riesgo citogenético: alto (o desfavorable) y estándar (o favorable).</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Acute myeloid leukemia is a heterogeneous disorder characterized by immature myeloid cell proliferation. Cytogenetic analysis has revealed the presence of chromosomal aberrations important to patient prognosis.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To determine cytogenetic risk groups of pediatric patients with acute myeloid leukemia according to overall survival.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>In this cross-sectional observational study, the clinical records of pediatric patients diagnosed with <italic>de novo</italic> acute myeloid leukemia admitted to the <italic>Instituto Nacional de Enfermedades Neoplásicas</italic> between 2001 and 2011 with cytogenetic analysis of bone marrow were included. Cytogenetic risk groups were established according to the criteria of the Medical Research Council. Overall survival curves were generated with the Kaplan-Meier method and compared using the Mantel-Cox test and Cox regression with the software R, version 3.3.2.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>A total of 130 patients were included, 68 males (52.3%) and 62 females (47.7%), most of them with subtype M2 (33%). The average age was 7.7 years (range: 0-15 years).</p>
+					<p>Chromosomal aberrations were observed in 60.8% of the patients, the most frequent of which was the translocation t(8;21). According to the overall survival analysis, two cytogenetic risk groups were established: favorable and unfavorable.</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>Two groups of cytogenetic risk were determined: high (or unfavorable) and standard (favorable).</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>leucemia mieloide aguda</kwd>
+				<kwd>análisis citogenético</kwd>
+				<kwd>cariotipo</kwd>
+				<kwd>pediatría</kwd>
+				<kwd>supervivencia</kwd>
+				<kwd>aberraciones cromosómicas</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Leukemia myeloid acute</kwd>
+				<kwd>cytogenetic analysis</kwd>
+				<kwd>karyotype</kwd>
+				<kwd>pediatrics</kwd>
+				<kwd>survival</kwd>
+				<kwd>chromosome aberrations</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="58"/>
+				<page-count count="12"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La denominación <italic>leucemia mieloide aguda</italic> agrupa un conjunto heterogéneo de enfermedades malignas caracterizadas por la proliferación descontrolada de las células progenitoras mieloides de la médula ósea <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, la cual se diagnostica con mayor frecuencia en personas entre los 65 y los 74 años (edad promedio, 68) <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. En los niños tiene una incidencia de 7 casos por cada millón de menores de 15 años <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, siendo más alta entre los 0 y los 4 años <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Esta condición representa del 15 al 25% de las leucemias agudas de la infancia <xref ref-type="bibr" rid="B1"><sup>1</sup></xref> y ya está superando a la leucemia linfoblástica aguda como la causa principal de mortalidad infantil por leucemia <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>La clasificación franco-anglo-estadounidense (<italic>French-American-British</italic>, FAB) de la leucemia mieloide aguda se basó en criterios morfológicos y citoquímicos <xref ref-type="bibr" rid="B7"><sup>7</sup></xref> y estableció ocho subtipos (M0 a M7) <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Posteriormente, la Organización Mundial de la Salud (OMS) estableció una nueva clasificación de las neoplasias mieloides, incorporando las aberraciones cromosómicas recurrentes <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. A partir de dicha clasificación, se han caracterizado traslocaciones cromosómicas como la t(8;21) o la t(15;17), las cuales resultan en la formación de proteínas quiméricas (RUNX1-RUNX1T1 y PML-RARA, respectivamente) que alteran el proceso de la maduración normal de las células precursoras mieloides. Asimismo, se han detectado cambios a nivel molecular implicados en el desarrollo de la leucemia mieloide aguda <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>En el 70 al 80% de los casos de leucemia mieloide aguda en niños, se presentan aberraciones cromosómicas <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Las más frecuentes son la t(8;21)(q22;q22) y la inv(16)(p13q22) que, en conjunto, se denominan <italic>Core Binding Factor AML</italic> (CBF-AML), y además, la t(15;17)(q22;q21) y los reordenamientos de la 11q23/MLL <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>Con base en los hallazgos citogenéticos, se pueden establecer grupos de pronóstico o de riesgo <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Equipos internacionales de investigación como el <italic>Southwest Oncology Group</italic> (SWOG), el <italic>Cancer and Leukemia Group B</italic> (CALGB) y el <italic>Medical Research Council</italic> (MRC), han propuesto una clasificación citogenética orientada al pronóstico. Es importante señalar que las clasificaciones en grupos de riesgo citogenético se basan en los estudios que incluyeron niños y adultos, en los cuales predominaron los menores de 60 años <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Las evidencias actuales sugieren que, aunque la leucemia mieloide aguda de los niños y la de los adultos tienen fenotipos comunes, representarían enfermedades genéticas distintas, con reordenamientos o rearreglos cromosómicos que probablemente constituyen el evento inicial de gran parte del desarrollo de la leucemia infantil <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+		<p>Los datos publicados recientemente por el proyecto <italic>Therapeutically Applicable Research to Generate Effective Treatments</italic> (TARGET), un esfuerzo colaborativo para caracterizar mutaciones y aspectos relacionados a procesos de transcripción y epigenética de la leucemia mieloide aguda pediátrica, han ampliado significativamente la comprensión de su biología y de la forma en que difiere de la de los adultos <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. A diferencia de la acumulación gradual de cambios genéticos de esta condición en los adultos, en los niños, las traslocaciones cromosómicas son a menudo las responsables del desarrollo de la enfermedad. Por sí misma, ya la leucemia mieloide aguda pediátrica comprende una colección de enfermedades molecularmente diversas con fenotipos similares <xref ref-type="bibr" rid="B6"><sup>6</sup></xref> y parece constituir un subgrupo específico con características clínicas y biológicas propias <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, por lo que es probable que ninguna estrategia de tratamiento único sea efectiva para todos los subtipos de la enfermedad <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>El reto de la determinación de blancos terapéuticos en la leucemia mieloide aguda ha sido su heterogénea composición genética y molecular, que frecuentemente evoluciona en variantes génicas que impulsan el inicio y la progresión de la enfermedad <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Aunque ha habido mejoras en su tratamiento, solo alrededor del 60% de los pacientes logra una supervivencia a largo plazo y hasta el 10% de los niños con la enfermedad muere por complicaciones directas del tratamiento <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>En contraste con los avances en la comprensión de los eventos moleculares que ocurren en la leucemia mieloide aguda pediátrica a partir del análisis de la expresión génica <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref> y de la secuenciación <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>, aún no se usan tratamientos específicos, con excepción de los inhibidores de la cinasa de la tirosina activada por FLT3, empleados en el marco de investigaciones <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>A diferencia de los estudios moleculares, el análisis citogenético tiene la ventaja de ofrecer un panorama completo de todo el genoma nuclear y, aunque otros factores, como los de tipo clínico, juegan un papel importante en el tratamiento, los cambios citogenéticos constituyen el factor de pronóstico más sólido para la evaluación de la remisión completa y la supervivencia global en la leucemia mieloide aguda <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>; además, proporcionan un esquema para el tratamiento estratificado según el riesgo <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+		<p>Dicha estrategia debería ser adoptada por todas las instituciones de salud del país a cargo de pacientes con leucemia mieloide aguda e incluirse en sus guías de prácticas clínicas, como lo han hecho el Instituto Nacional de Enfermedades Neoplásicas y el Instituto Regional de Enfermedades Neoplásicas.</p>
+		<p>No se encontraron estudios en Perú que evaluaran los objetivos del presente estudio, es decir, la supervivencia global y los grupos de riesgo a partir de los hallazgos citogenéticos en pacientes pediátricos con leucemia mieloide aguda.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p>Se llevó a cabo un estudio observacional descriptivo en el Laboratorio de Genética del Instituto Nacional de Enfermedades Neoplásicas en pacientes menores de 15 años de edad con diagnóstico de leucemia mieloide aguda <italic>de novo</italic>, admitidos entre el 2001 y el 2011, a quienes se les había hecho el estudio citogenético de médula ósea en el momento del diagnóstico y en las metafases analizables por citogenética convencional. Los cariotipos se revisaron y describieron según la <italic>International System for Human Cytogenetics Nomenclature.</italic> La supervivencia global se consideró como el tiempo desde el ingreso hasta la muerte de los pacientes y, para evaluarla a 5 años, se utilizó el método de Kaplan-Meier <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Los sujetos perdidos durante el seguimiento se censuraron en la fecha del último contacto registrado.</p>
+			<p>Los grupos de riesgo citogenético se establecieron siguiendo los criterios del <italic>Medical Research Council</italic> modificados por Harrison, <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> (<xref ref-type="table" rid="t1">cuadro 1</xref>) en un estudio anterior, en el que incluyeron casos con características semejantes a las del presente estudio. Los grupos de riesgo citogenético establecidos por dicho consejo son: “alto” (o desfavorable), “intermedio” y “bajo” (o favorable). Las curvas de supervivencia se compararon mediante la prueba de Mantel-Cox (<italic>log-rank test</italic>). Según estos hallazgos, se determinaron grupos de riesgo citogenético y se analizaron mediante una regresión de Cox utilizando el programa R, versión 3.3.2.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Clasificación del riesgo citogenético según el <italic>Medical Research Council</italic></title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Grupo de riesgo citogenético</th>
+								<th align="left">Hallazgo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Riesgo bajo</td>
+								<td align="left">inv(16)(p13q22)/t(16;16)/del(16q), t(15;17)(q24;q21), t(8;21) (q22;q22) con aberraciones secundarias o sin ellas</td>
+							</tr>
+							<tr>
+								<td align="left">Riesgo intermedio </td>
+								<td align="left">Aberraciones no clasificadas como de riesgo alto o bajo </td>
+							</tr>
+							<tr>
+								<td align="left">Riesgo alto</td>
+								<td align="left">Aberraciones del 3q [excluyendo t(3;5)(q21~25;q31~35)], inv(3)(q21q26)/t(3;3)(q21;q26), add(5q), del(5q), -5, add(7q)/ del(7q), -7, t(6;11)(q27;q23), t(10;11)(p11~13;q23), t(11q23) [con exclusión de t(9;11)(p21~22;q23) y t(11;19)(q23;p13)], t(9;22)(q34;q11), -17/aberraciones de 17p, cariotipo complejo (≥4 aberraciones no relacionadas)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<sec>
+				<title><italic>Consideraciones éticas</italic></title>
+				<p>En ningún momento hubo intervención en los pacientes. Los datos del análisis citogenético se obtuvieron del registro en las historias clínicas, por lo que no se requirió del consentimiento informado de los pacientes. El proyecto fue revisado y aprobado por el Comité Revisor de Protocolos del Departamento de Investigación del Instituto Nacional de Enfermedades Neoplásicas, código 14-89.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Distribución por subtipo, edad y sexo</italic></title>
+				<p>En el periodo de 10 años -de 2001 a 2011-, se encontraron 328 registros de pacientes pediátricos con diagnóstico de leucemia mieloide aguda, de los cuales 130 cumplían con los criterios de inclusión. Los casos excluidos presentaban datos incompletos en la historia clínica, no tenían estudio citogenético o la morfología cromosómica no era la adecuada para el estudio citogenético.</p>
+				<p>La distribución por sexo fue de 1,1 a 1 (masculino, n=68; femenino, n=62). La edad promedio de los pacientes fue de 7,7 años (rango de 0 a 15), y se observaron dos picos de distribución de casos: entre 1 y 2 años (n=22), y entre 9 y 10 años (n=24). Según la clasificación FAB, los pacientes con leucemia mieloide aguda eran mayoritariamente del subtipo M2 (n=43, 33%), seguidos, en orden, por el M3 (n=8), el M4 (n=5), el M0 (n=3), el M1 (n=3), el M5 (n=3), el M6 (n=3) y el M7 (n=1) (33%), en tanto que 61 casos no se clasificaron en ningún subtipo específico.</p>
+			</sec>
+			<sec>
+				<title><italic>Aberraciones cromosómicas</italic></title>
+				<p>Las metafases se analizaron mediante la técnica de citogenética convencional (bandas G). El 60,8% de los casos incluidos (n=79) presentaba alguna aberración cromosómica numérica o estructural adquirida. Se observó la trisomía 21 (aberración cromosómica constitucional) en cinco pacientes con síndrome Down con edades entre 1 y 9 años, tres de ellos con aberraciones cromosómicas adicionales.</p>
+				<p>La aberración cromosómica adquirida más frecuente fue la traslocación t(8;21)(q22;q22), observada en el 35,4% de los casos analizados (46/130) y en el 58,2% de los casos con aberraciones cromosómicas (46/79). Se encontró también pérdida del cromosoma sexual (-X o -Y) en 23 casos (17,7%), mayoritariamente en aquellos con la traslocación t(8;21).</p>
+				<p>Las aberraciones que siguieron en frecuencia fueron la t(15;17)(q24;q21) (3,1%), la t(9;11)(p22;q23) (1,5%), la inv(16)(q22) (0,8%), la t(6;8)(q25;q22) (0,8%), la t(6;9)(p23;q34) (0,8%) y la t(9;22)(q34;q11) (0,8%). Otras aberraciones cromosómicas incluyeron monosomías, trisomías, deleciones, adiciones, cromosomas marcadores y en anillo (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Aberraciones cromosómicas más frecuentes</title>
+						</caption>
+						<graphic xlink:href="t2.jpg"/>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>*Consideradas a partir de dos casos</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Comparación de las curvas de supervivencia entre los grupos de riesgo citogenético</italic></title>
+				<p>El riesgo no se incrementó al presentarse alguna aberración cromosómica, en comparación con los casos con cariotipo normal (p=0,375). Al clasificar los hallazgos citogenéticos según los criterios del <italic>Medical Research Council</italic> modificados por Harrison, <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, se trazaron tres curvas de supervivencia (<xref ref-type="fig" rid="f1">figura 1a</xref>) que, según la prueba de Mantel-Cox, no mostrarían diferencia significativa (p=0,0562) (<xref ref-type="table" rid="t3">cuadro 3</xref>). A partir de las curvas de supervivencia obtenidas, se propuso la siguiente clasificación de grupos de riesgo citogenético: “estándar” y “alto” (<xref ref-type="fig" rid="f1">figura 1b</xref>), que corresponden a riesgo favorable y desfavorable, respectivamente. La prueba de Mantel-Cox indicó que sí hubo diferencia significativa entre los grupos de riesgo “estándar” y “alto” (p=0,0171) (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Curvas de supervivencia global de los grupos de riesgo citogenético: “alto”, “bajo” e “intermedio” según el <italic>Medical Research Council</italic> modificado por Harrison, <italic>et al</italic>., <bold>(a)</bold> y “alto” y “estándar” (clasificación según la propuesta) <bold>(b)</bold>, a partir de la población de pacientes pediátricos con diagnóstico de leucemia mieloide aguda admitidos en el Instituto Nacional de Enfermedades Neoplásicas durante el periodo 2001-2011</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-41-02-302-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Prueba de Mantel-Cox para grupos de riesgo citogenético según el <italic>Medical Research Council</italic> modificado por Harrison, et al., y según la presente propuesta</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col span="4"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center" colspan="4">Grupos de riesgo citogenético</th>
+								</tr>
+								<tr>
+									<th align="left" colspan="2">MRC modificado </th>
+									<th align="left" colspan="2">Propuesta </th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Bajo</td>
+									<td align="left">n=7</td>
+									<td align="left">Estándar</td>
+									<td align="left">n=13</td>
+								</tr>
+								<tr>
+									<td align="left">Intermedio</td>
+									<td align="left">n=66</td>
+									<td align="left">Alto</td>
+									<td align="left">n=6</td>
+								</tr>
+								<tr>
+									<td align="left">Alto</td>
+									<td align="left">n=6</td>
+									<td align="left"> </td>
+									<td align="left"> </td>
+								</tr>
+								<tr>
+									<td align="left">P=0,0562</td>
+									<td align="left"> </td>
+									<td align="left">P=0,0171</td>
+									<td align="left"> </td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p><italic>MRC: Medical Research Council</italic></p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>El mismo análisis se realizó entre los grupos con t(8;21) y con cariotipo normal (p=0,694) (<xref ref-type="fig" rid="f2">figura 2a</xref>), así como entre los grupos con t(8;21) como anomalía única y con la misma anomalía más aberraciones cromosómicas adicionales (p=0,995) (<xref ref-type="fig" rid="f2">figura 2b</xref>) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Curvas de supervivencia global de los grupos con la traslocación t(8;21) y con cariotipo normal (a) y de los grupos con traslocación t(8;21) como anomalía única más aberraciones cromosómicas adicionales (b); a partir de la población de pacientes pediátricos con diagnóstico de leucemia mieloide aguda admitidos en el Instituto Nacional de Enfermedades Neoplásicas durante el periodo 2001-2011</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-41-02-302-gf2.jpg"/>
+					</fig>
+				</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Prueba de Mantel-Cox para grupos con traslocación t(8;21), con aberraciones cromosómicas adicionales y con cariotipo normal</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col span="4"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center" colspan="4">Grupos de riesgo citogenético</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">t(8;21)</td>
+									<td align="center">n=46</td>
+									<td align="left">t(8;21) como anomalía única</td>
+									<td align="center">n=18</td>
+								</tr>
+								<tr>
+									<td align="left">Cariotipo normal</td>
+									<td align="center">n=51</td>
+									<td align="left">t(8;21) con aberraciones cromosómicas adicionales</td>
+									<td align="center">n=28</td>
+								</tr>
+								<tr>
+									<td align="left">p = 0,694</td>
+									<td align="center"> </td>
+									<td align="center">p = 0,995</td>
+									<td align="center"> </td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Mediante un análisis univariado por regresión de Cox para el factor de grupo de riesgo citogenético según la propuesta, se obtuvo un cociente de riesgo (<italic>hazard ratio,</italic> HR) de 0,1698 (con el grupo “estándar” como referencia), con un valor de p=0,00113 (<xref ref-type="table" rid="t5">cuadro 5</xref>).</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Cuadro 5</label>
+						<caption>
+							<title>Análisis univariado mediante regresión de Cox para el factor grupo de riesgo citogenético</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center"> </th>
+									<th align="center">Hazard ratio</th>
+									<th align="center"> </th>
+									<th align="left">IC95%</th>
+									<th align="center"> </th>
+									<th align="center" rowspan="2">p</th>
+								</tr>
+								<tr>
+									<th align="center"> </th>
+									<th align="center">Exp(coef)</th>
+									<th align="center">Exp(-coef)</th>
+									<th align="center">Inferior</th>
+									<th align="center">Superior</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Grupo de riesgo (estándar)</td>
+									<td align="center">0,1698</td>
+									<td align="center">5,888</td>
+									<td align="center">0,05839</td>
+									<td align="center">0,4939</td>
+									<td align="center">0,00113</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Los estudios genéticos sobre leucemia mieloide aguda generalmente incluyen un número limitado de pacientes pediátricos <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. La mayoría de los estudios sólidos sobre la enfermedad en niños son de tipo multicéntrico <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>, en tanto que el presente estudio incluyó pacientes registrados en una sola institución de referencia especializada en cáncer a nivel nacional en Perú.</p>
+			<sec>
+				<title><italic>Distribución por subtipo, edad y sexo</italic></title>
+				<p>Según la clasificación FAB, el subtipo más frecuente fue el M2, observado igualmente en Brasil <xref ref-type="bibr" rid="B27"><sup>27</sup></xref> y en los Estados Unidos <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>, pero no así en Líbano y en Italia, donde la mayoría fueron del subtipo M3 y M5, respectivamente <xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. En los reportes que incluyen todos los grupos etarios, los subtipos mayoritarios fueron el M2, en los Estados Unidos, Pakistán y Alemania <xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>; el M3 en Sudán y Brasil <xref ref-type="bibr" rid="B35"><sup>35</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref>; el M4 en Pakistán <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>, y el M5 y el M0 en Turquía <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Esto evidencia las diferencias geográficas en la distribución de los subtipos predominantes, posiblemente debidas a factores étnicos y ambientales <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. Lo mismo ocurrió con las distribuciones por edad y sexo.</p>
+			</sec>
+			<sec>
+				<title><italic>Aberraciones cromosómicas</italic></title>
+				<p>Los datos sobre la distribución de los cambios cromosómicos en la leucemia mieloide aguda pediátrica son escasos y provienen fundamentalmente de lo observado en pacientes adultos <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. El presente estudio evidenció que el 60,8% de los pacientes menores de 15 años con la enfermedad presentaba aberraciones cromosómicas; en otros reportes se han encontrado porcentajes mayores en niños y adolescentes, entre el 67 y el 80% <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B38"><sup>38</sup></xref>.</p>
+				<p>Esta discrepancia podría deberse a los diversos grados de experiencia de los analistas, así como al tamaño de las aberraciones cromosómicas, ya que algunas pueden ser sutiles, como la inv(16)(p13q22), la t(15;17) (q24;q21) y la t(11;19)(q23;p13.1) (39). Asimismo, la detección mejora con la utilización conjunta de la citogenética convencional y otras técnicas como la hibridación <italic>in situ</italic> con fluorescencia (<italic>Fluorescent in situ Hybridization,</italic> FISH) y la reacción en cadena de la polimerasa (PCR). Se recomienda que la tamización inicial para la detección de aberraciones cromosómicas asociadas con cáncer se haga con la citogenética convencional para, después, emplear un procedimiento de FISH apropiado <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>. Por otro lado, el uso de la RT-PCR complementa el análisis por FISH en la detección de múltiples genes de fusión asociados con la leucemia mieloide aguda <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>.</p>
+				<p>La t(8;21)(q22;q22) fue la aberración cromosómica adquirida más frecuente, con el 35,4% de los casos analizados. Se han reportado porcentajes menores <xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref> y similares en otros estudios <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>, lo que refleja la heterogeneidad geográfica de las aberraciones cromosómicas en las neoplasias <xref ref-type="bibr" rid="B45"><sup>45</sup></xref>. En el 45,7% de los casos con t(8;21)(21/46), había también pérdida del cromosoma sexual, la mayoría en pacientes de sexo masculino (15/21), semejante a lo observado en pacientes adultos <xref ref-type="bibr" rid="B46"><sup>46</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B47"><sup>47</sup></xref>.</p>
+				<p>Otras aberraciones cromosómicas con pronóstico favorable, como la t(15;17)(q24;q21), solo se observaron en cuatro casos, la inv(16)(p13q22) en un caso, y la t(9;22)(q34;q11) y la t(6;9)(p23;q34) en un caso cada una, ambas con pronóstico no favorable.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis y comparación de las curvas de supervivencia</italic></title>
+				<p>El análisis citogenético se considera uno de los factores pronósticos más valiosos en la leucemia mieloide aguda pediátrica <xref ref-type="bibr" rid="B48"><sup>48</sup></xref>. En este sentido, en este estudio se buscó determinar los grupos de riesgo a partir de los hallazgos citogenéticos, considerando la supervivencia global a los cinco años. Las aberraciones cromosómicas encontradas se agruparon según los criterios del <italic>Medical Research Council</italic> modificados por Harrison, <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, los cuales excluyen los casos de leucemia promielocítica y a los pacientes con síndrome Down; en estos últimos, la trisomía 21 constitucional ha demostrado tener un impacto en el resultado del tratamiento de la leucemia mieloide aguda <xref ref-type="bibr" rid="B49"><sup>49</sup></xref>. Los criterios de dicho consejo están entre los más estandarizados para la clasificación de pacientes en grupos de riesgo citogenético <xref ref-type="bibr" rid="B50"><sup>50</sup></xref> y fueron empleados por Harrison, <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, en uno de los estudios con mayor número de pacientes pediátricos con leucemia mieloide aguda.</p>
+				<p>En el presente estudio, al comparar las curvas de supervivencia global de los pacientes con alteración cromosómica adquirida y aquellos con cariotipo normal, se determinó que la sola presencia de una aberración cromosómica no incrementaba el riesgo en ellos. Al comparar las curvas de los grupos de riesgo citogenético según el <italic>Medical Research Council</italic> modificado por Harrison, <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, tampoco se encontraron diferencias significativas; la gráfica reflejó, más bien, una acentuada diferencia en la curva correspondiente al grupo de “riesgo alto” frente a las otras dos curvas ( <xref ref-type="fig" rid="f1">figura 1a</xref>).</p>
+				<p>A partir de esos hallazgos, se establecieron dos grupos de riesgo citogenético: de “riesgo alto” y de “riesgo estándar”, en tanto que los grupos “intermedio” y “bajo” conformaron un único grupo dado que sus curvas de supervivencia presentaron una superposición muy cercana.</p>
+				<p>Una comprobación de esta propuesta resulta de la comparación de las curvas de supervivencia de los grupos de riesgo conformados por pacientes con cariotipo normal frente a aquellos con la t(8;21). Según los criterios de Harrison, <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, el cariotipo normal se asigna al grupo de “riesgo intermedio” y, la t(8;21), al grupo de “riesgo bajo”. Sin embargo, no se encontró una diferencia significativa al analizar las curvas de supervivencia de los pacientes con cariotipo normal frente a las de quienes presentaron la t(8;21); por lo tanto, los pacientes con la t(8;21) tendrían un pronóstico semejante a aquellos con cariotipo normal y podrían incluirse en el mismo grupo de riesgo citogenético.</p>
+				<p>El valor pronóstico de la t(8;21) fue independiente de la presencia de aberraciones cromosómicas adicionales en la misma clona, ya que al comparar las curvas de supervivencia de pacientes con la t(8;21) como anomalía única y aquellos con la t(8;21) más aberraciones adicionales, no se encontró una diferencia significativa. Se concluyó, por lo tanto, que el cariotipo normal y la t(8;21), acompañada o no de otras aberraciones, tenían el mismo valor pronóstico.</p>
+				<p>Cuando se elaboraron las curvas de supervivencia con los dos grupos de riesgo citogenético propuestos, la prueba de Mantel-Cox evidenció una diferencia significativa entre ambos, en tanto que, en el análisis univariado con la regresión de Cox, se registró un cociente de riesgo de 0,1698, es decir, hubo una diferencia en la supervivencia global entre el grupo de “riesgo alto” y el de “riesgo estándar”.</p>
+				<p>Todos los pacientes del grupo de “riesgo alto” tenían 2 años de edad y presentaban la t(6;9)(p23;q34), la t(9;22)(q34;q11), la del(12)(p11.2), la del(5q), la -7, -10, la t(8;12)(q22;q24), la del(10)(q13.2) y cromosomas marcadores. Las cinco primeras están dentro del grupo de “riesgo alto” según Harrison, <italic>et al</italic>. <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, y se han relacionado con el mal pronóstico en varios estudios <xref ref-type="bibr" rid="B51"><sup>51</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B55"><sup>55</sup></xref>. En cuanto a las aberraciones cromosómicas recurrentes raras, hay poco consenso sobre el pronóstico, además de que su incidencia es menor de 2% y podrían dar cuenta del 10%, aproximadamente, de las leucemias mieloides agudas consideradas como de pronóstico intermedio o adverso <xref ref-type="bibr" rid="B56"><sup>56</sup></xref>. Así, la t(8;12)(q22;q24), clasificada en el grupo de “riesgo alto” es rara, lo mismo que la t(6;8)(q25;q22), la del(11)(q14) y la t(6;13)(q23;q22), cuyo valor pronóstico no se ha podido determinar debido al número reducido de casos.</p>
+				<p>Otra limitación fue el no disponer de la herramienta citogenética molecular, que hubiera permitido el análisis de aquellos casos con metafases de pobre morfología cromosómica, ya se logra la identificación de genes de fusión, incluso en células en interfase. Tampoco se disponía del análisis genético molecular, el cual no se hizo en el momento de la admisión de los pacientes porque su establecimiento como prueba de rutina fue posterior.</p>
+				<p>Los estudios recientes sobre la supervivencia de los pacientes con neoplasias hematológicas incluyen datos de tipo molecular, entre ellos, la identificación de genes de fusión formados a partir de aberraciones cromosómicas recurrentes, además de marcadores moleculares que incorporan mutaciones en los genes <italic>FLT3</italic>, <italic>NPM1</italic>, <italic>WT1</italic>, <italic>PTPN11</italic> y <italic>CEPBA</italic><xref ref-type="bibr" rid="B44"><sup>44</sup></xref>, y que constituyen variables de análisis en la leucemia mieloide aguda pediátrica.</p>
+				<p>Otra variable por considerar es el tipo de tratamiento, pues una aberración que confiere un pronóstico adverso, tratada con un determinado esquema terapéutico, podría cambiar cuando se usa uno distinto <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. En efecto, la optimización de la estrategia de inducción y posterior a la remisión, una mejor terapia de soporte, el amplio uso del trasplante alogénico de células madre hematopoyéticas en pacientes de alto riesgo y la contribución de la estratificación en grupos de terapia dirigida, han aumentado la supervivencia de los pacientes pediátricos con la enfermedad <xref ref-type="bibr" rid="B57"><sup>57</sup></xref>. En el presente estudio, los pacientes recibieron tratamiento según la guía de práctica clínica de leucemia mieloide aguda del Instituto Nacional de Enfermedades Neoplásicas (estudio clínico o combinación de citarabina y antraciclínicos o antracenedionas).</p>
+				<p>Se concluyó que había dos grupos de riesgo citogenético en los pacientes pediátricos analizados: un grupo con reacción favorable al tratamiento (“riesgo estándar”) y otro con reacción desfavorable (“riesgo alto”), hallazgo que simplificaría el manejo clínico de los pacientes. El análisis citogenético convencional, entonces, debe aplicarse como prueba inicial y complementarse con el análisis citogenético molecular o genético molecular. Si bien la proporción de casos de leucemia mieloide aguda es mayor en adultos que en niños, su manejo en ellos se ha basado en los datos obtenidos de pacientes adultos <xref ref-type="bibr" rid="B58"><sup>58</sup></xref>, por lo que deben orientarse esfuerzos hacia este grupo de pacientes cuyo perfil es distinto.</p>
+			</sec>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Al Instituto Nacional de Enfermedades Neoplásicas.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Kömur M, Erbey F, Bayram I, Tanyeli A. Incidence and prognostic importance of molecular genetic defects in children with acute myeloblastic leukemia. Asian Pac J Cancer Prev. 2010;11:1393-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kömur</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Erbey</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bayram</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Tanyeli</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Incidence and prognostic importance of molecular genetic defects in children with acute myeloblastic leukemia</article-title>
+					<source>Asian Pac J Cancer Prev</source>
+					<year>2010</year>
+					<volume>11</volume>
+					<fpage>1393</fpage>
+					<lpage>1395</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>De Kouchkovsky I, Abdul-Hay M. Acute myeloid leukemia: A comprehensive review and 2016 update. Blood Cancer J. 2016;6:e441. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/bcj.2016.50">https://doi.org/10.1038/bcj.2016.50</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Kouchkovsky</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Abdul-Hay</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Acute myeloid leukemia: A comprehensive review and 2016 update</article-title>
+					<source>Blood Cancer J</source>
+					<year>2016</year>
+					<volume>6</volume>
+					<elocation-id>e441</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/bcj.2016.50">https://doi.org/10.1038/bcj.2016.50</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Surveillance, Epidemiology, and End Results Program. Cancer Stat Facts: Leukemia - Acute Myeloid Leukemia (AML). USA; 2020. Fecha de consulta: 8 de abril de 2020. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://seer.cancer.gov/statfacts/html/amyl.html">https://seer.cancer.gov/statfacts/html/amyl.html</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Surveillance, Epidemiology, and End Results Program</collab>
+					</person-group>
+					<source>Cancer Stat Facts: Leukemia - Acute Myeloid Leukemia (AML). USA; 2020</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-08">8 de abril de 2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://seer.cancer.gov/statfacts/html/amyl.html">https://seer.cancer.gov/statfacts/html/amyl.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Creutzig U, Heuvel-Eibrink MM, Gibson B, Dworzak MN, Adachi S, de Bont E, <italic>et al</italic>. Diagnosis and management of acute myeloid leukemia in children and adolescents: Recommendations from an international expert panel. Blood. 2012;120:3187-3205. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2012-03-362608">https://doi.org/10.1182/blood-2012-03-362608</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Creutzig</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Heuvel-Eibrink</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Gibson</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Dworzak</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Adachi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>de Bont</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Diagnosis and management of acute myeloid leukemia in children and adolescents: Recommendations from an international expert panel</article-title>
+					<source>Blood</source>
+					<year>2012</year>
+					<volume>120</volume>
+					<fpage>3187</fpage>
+					<lpage>3205</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2012-03-362608">https://doi.org/10.1182/blood-2012-03-362608</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Chen X, Pan J, Wang S, Hong S, Hong S, He S. The epidemiological trend of acute myeloid leukemia in childhood: A population-based analysis. J Cancer. 2019;10:4824-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7150/jca.32326">https://doi.org/10.7150/jca.32326</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>The epidemiological trend of acute myeloid leukemia in childhood: A population-based analysis</article-title>
+					<source>J Cancer</source>
+					<year>2019</year>
+					<volume>10</volume>
+					<fpage>4824</fpage>
+					<lpage>4835</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7150/jca.32326">https://doi.org/10.7150/jca.32326</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Bolouri H, Farrar JE, Triche T Jr, Ries RE, Lim EL, Alonzon TA, <italic>et al</italic>. The molecular landscape of pediatric acute myeloid leukemia reveals recurrent structural alterations and age-specific mutational interactions. Nat Med. 2018;24:103-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nm.4439">https://doi.org/10.1038/nm.4439</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bolouri</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Farrar</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Triche</surname>
+							<given-names>T</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Ries</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Lim</surname>
+							<given-names>EL</given-names>
+						</name>
+						<name>
+							<surname>Alonzon</surname>
+							<given-names>TA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The molecular landscape of pediatric acute myeloid leukemia reveals recurrent structural alterations and age-specific mutational interactions</article-title>
+					<source>Nat Med</source>
+					<year>2018</year>
+					<volume>24</volume>
+					<fpage>103</fpage>
+					<lpage>112</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nm.4439">https://doi.org/10.1038/nm.4439</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Bennett JM, Catovsky D, Daniel MT, Flandrin G, Galton DA, Gralnick HR, <italic>et al</italic>. Proposals for the classification of the acute leukaemias. French-American-British (FAB) co-operative group. Br J Haematol. 1976;33:451-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2141.1976.tb03563.x">https://doi.org/10.1111/j.1365-2141.1976.tb03563.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bennett</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Catovsky</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Daniel</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Flandrin</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Galton</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Gralnick</surname>
+							<given-names>HR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Proposals for the classification of the acute leukaemias. French-American-British (FAB) co-operative group</article-title>
+					<source>Br J Haematol</source>
+					<year>1976</year>
+					<volume>33</volume>
+					<fpage>451</fpage>
+					<lpage>458</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2141.1976.tb03563.x">https://doi.org/10.1111/j.1365-2141.1976.tb03563.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Vardiman JW, Harris NL, Brunning RD. The World Health Organization (WHO) classification of the myeloid neoplasms. Blood. 2002;100:2292-302. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2002-04-1199">https://doi.org/10.1182/blood-2002-04-1199</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vardiman</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Harris</surname>
+							<given-names>NL</given-names>
+						</name>
+						<name>
+							<surname>Brunning</surname>
+							<given-names>RD</given-names>
+						</name>
+					</person-group>
+					<article-title>The World Health Organization (WHO) classification of the myeloid neoplasms</article-title>
+					<source>Blood</source>
+					<year>2002</year>
+					<volume>100</volume>
+					<fpage>2292</fpage>
+					<lpage>2302</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2002-04-1199">https://doi.org/10.1182/blood-2002-04-1199</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Forestier E, Heim S, Blennow E, Borgström G, Holmgren G, Heinonen K, <italic>et al</italic>. Cytogenetic abnormalities in childhood acute myeloid leukaemia: A Nordic series comprising all children enrolled in the NOPHO-93-AML trial between 1993 and 2001. Br J Haematol. 2003;121:566-77. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2141.2003.04349.x">https://doi.org/10.1046/j.1365-2141.2003.04349.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Forestier</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Heim</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Blennow</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Borgström</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Holmgren</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Heinonen</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cytogenetic abnormalities in childhood acute myeloid leukaemia: A Nordic series comprising all children enrolled in the NOPHO-93-AML trial between 1993 and 2001</article-title>
+					<source>Br J Haematol</source>
+					<year>2003</year>
+					<volume>121</volume>
+					<fpage>566</fpage>
+					<lpage>577</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2141.2003.04349.x">https://doi.org/10.1046/j.1365-2141.2003.04349.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Harrison CJ, Hills RK, Moorman AV, Grimwade DJ, Hann I, Webb DKH, <italic>et al</italic>. Cytogenetics of childhood acute myeloid leukemia: United Kingdom Medical Research Council Treatment Trials AML 10 and 12. J Clin Oncol. 2010;28:2674-81. <ext-link ext-link-type="uri" xlink:href="https://ascopubs.org/doi/10.1200/JCO.2009.24.8997">https://ascopubs.org/doi/10.1200/JCO.2009.24.8997</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harrison</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Hills</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Moorman</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Grimwade</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Hann</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Webb</surname>
+							<given-names>DKH</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cytogenetics of childhood acute myeloid leukemia: United Kingdom Medical Research Council Treatment Trials AML 10 and 12</article-title>
+					<source>J Clin Oncol</source>
+					<year>2010</year>
+					<volume>28</volume>
+					<fpage>2674</fpage>
+					<lpage>2681</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://ascopubs.org/doi/10.1200/JCO.2009.24.8997">https://ascopubs.org/doi/10.1200/JCO.2009.24.8997</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Nunes A, Paes C, Murao M, Viana MB, De Oliveira BM. Cytogenetic abnormalities, WHO classification, and evolution of children and adolescents with acute myeloid leukemia. Hematol Transfus Cell Ther. 2019;41:236-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.htct.2018.09.007">https://doi.org/10.1016/j.htct.2018.09.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Paes</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Murao</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Viana</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>De Oliveira</surname>
+							<given-names>BM</given-names>
+						</name>
+					</person-group>
+					<article-title>Cytogenetic abnormalities, WHO classification, and evolution of children and adolescents with acute myeloid leukemia</article-title>
+					<source>Hematol Transfus Cell Ther</source>
+					<year>2019</year>
+					<volume>41</volume>
+					<fpage>236</fpage>
+					<lpage>243</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.htct.2018.09.007">https://doi.org/10.1016/j.htct.2018.09.007</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Braoudaki M, Tzortzatou-Stathopoulou F. Clinical cytogenetics in pediatric acute leukemia: An update. Clin Lymphoma Myeloma Leuk Clinical. 2012;12:230-37. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.clml.2012.04.004">https://doi.org/10.1016/j.clml.2012.04.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Braoudaki</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tzortzatou-Stathopoulou</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical cytogenetics in pediatric acute leukemia: An update</article-title>
+					<source>Clin Lymphoma Myeloma Leuk Clinical</source>
+					<year>2012</year>
+					<volume>12</volume>
+					<fpage>230</fpage>
+					<lpage>237</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.clml.2012.04.004">https://doi.org/10.1016/j.clml.2012.04.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Lazarević V. Cytogenetics abnormalities in acute myeloid leukemia in Sweden. A population based study. Doctoral Dissertation. Lund: Lund University; 2015.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lazarević</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<source>Cytogenetics abnormalities in acute myeloid leukemia in Sweden. A population based study</source>
+					<comment content-type="degree">Doctoral</comment>
+					<publisher-loc>Lund</publisher-loc>
+					<publisher-name>Lund University</publisher-name>
+					<year>2015</year>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Milan T, Canaj HV, Villeneuve C, Ghosh A, Barabe F, Cellot S, <italic>et al</italic>. Pediatric leukemia: Moving toward more accurate models. Exp Hematol. 2019;74:1-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.exphem.2019.05.003">https://doi.org/10.1016/j.exphem.2019.05.003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Milan</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Canaj</surname>
+							<given-names>HV</given-names>
+						</name>
+						<name>
+							<surname>Villeneuve</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ghosh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Barabe</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Cellot</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pediatric leukemia: Moving toward more accurate models</article-title>
+					<source>Exp Hematol</source>
+					<year>2019</year>
+					<volume>74</volume>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.exphem.2019.05.003">https://doi.org/10.1016/j.exphem.2019.05.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Chen J, Glasser CL. New and emerging targeted therapies for pediatric acute myeloid leukemia (AML). Children (Basel) 2020;10:12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/children7020012">https://doi.org/10.3390/children7020012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Glasser</surname>
+							<given-names>CL</given-names>
+						</name>
+					</person-group>
+					<article-title>New and emerging targeted therapies for pediatric acute myeloid leukemia (AML)</article-title>
+					<source>Children (Basel)</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<fpage>12</fpage>
+					<lpage>12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/children7020012">https://doi.org/10.3390/children7020012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Masetti R, Vendemini F, Zama D, Biagi C, Pession A, Locatelli F. Acute myeloid leukemia in infants: Biology and treatment. Front Pediatr. 2015;3:37. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fped.2015.00037">https://doi.org/10.3389/fped.2015.00037</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Masetti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Vendemini</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Zama</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Biagi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pession</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Locatelli</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Acute myeloid leukemia in infants: Biology and treatment</article-title>
+					<source>Front Pediatr</source>
+					<year>2015</year>
+					<volume>3</volume>
+					<fpage>37</fpage>
+					<lpage>37</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fped.2015.00037">https://doi.org/10.3389/fped.2015.00037</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Ross ME, Mahfouz R, Onciu M, Liu HC, Zhou X, Song G, <italic>et al</italic>. Gene expression profiling of pediatric acute myelogenous leukemia. Blood. 2004;104:3679-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2004-03-1154">https://doi.org/10.1182/blood-2004-03-1154</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ross</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Mahfouz</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Onciu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>HC</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Song</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Gene expression profiling of pediatric acute myelogenous leukemia</article-title>
+					<source>Blood</source>
+					<year>2004</year>
+					<volume>104</volume>
+					<fpage>3679</fpage>
+					<lpage>3687</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2004-03-1154">https://doi.org/10.1182/blood-2004-03-1154</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Oorschot D-v, Kuipers JE, Arentsen-Peters S, Schotte D, de Haas V, Trka J, <italic>et al</italic>. Differentially expressed miRNAs in cytogenetic and molecular subtypes of pediatric acute myeloid leukemia. Pediatr Blood Cancer. 2012;58:715-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pbc.23279">https://doi.org/10.1002/pbc.23279</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oorschot</surname>
+							<given-names>D-v</given-names>
+						</name>
+						<name>
+							<surname>Kuipers</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Arentsen-Peters</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schotte</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>de Haas</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Trka</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Differentially expressed miRNAs in cytogenetic and molecular subtypes of pediatric acute myeloid leukemia</article-title>
+					<source>Pediatr Blood Cancer</source>
+					<year>2012</year>
+					<volume>58</volume>
+					<fpage>715</fpage>
+					<lpage>721</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pbc.23279">https://doi.org/10.1002/pbc.23279</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Meshinchi S, Ries RE, Trevino LR, Hampton OA, Alonzo T, Farrar JE, <italic>et al</italic>. Identification of novel somatic mutations, regions of recurrent loss of heterozygosity (LOH) and significant clonal evolution from diagnosis to relapse in childhood AML determined by exome capture sequencing - an NCI/COG Target AML Study. Blood. 2012;120:123. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V120.21.123.123">https://doi.org/10.1182/blood.V120.21.123.123</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meshinchi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ries</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Trevino</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Hampton</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Alonzo</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Farrar</surname>
+							<given-names>JE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>dentification of novel somatic mutations, regions of recurrent loss of heterozygosity (LOH) and significant clonal evolution from diagnosis to relapse in childhood AML determined by exome capture sequencing - an NCI/COG Target AML Study</article-title>
+					<source>Blood</source>
+					<year>2012</year>
+					<volume>120</volume>
+					<fpage>123</fpage>
+					<lpage>123</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V120.21.123.123">https://doi.org/10.1182/blood.V120.21.123.123</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Dawod M, Hanbali A. Prognosis and survival in acute myelogenous leukemia, myeloid leukemia - Clinical diagnosis and treatment. London: IntechOpen; 2012. Peer-reviewed chapter. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5772/27092">https://doi.org/10.5772/27092</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dawod</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hanbali</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Prognosis and survival in acute myelogenous leukemia, myeloid leukemia - Clinical diagnosis and treatment</source>
+					<publisher-loc>London</publisher-loc>
+					<publisher-name>IntechOpen</publisher-name>
+					<year>2012</year>
+					<comment>Peer-reviewed chapter</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5772/27092">https://doi.org/10.5772/27092</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Kaplan EL, Meier P. Nonparametric estimation from incomplete observations. J Am Stat Assoc. 1958;53:457-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2281868">https://doi.org/10.2307/2281868</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaplan</surname>
+							<given-names>EL</given-names>
+						</name>
+						<name>
+							<surname>Meier</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Nonparametric estimation from incomplete observations</article-title>
+					<source>J Am Stat Assoc</source>
+					<year>1958</year>
+					<volume>53</volume>
+					<fpage>457</fpage>
+					<lpage>481</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2281868">https://doi.org/10.2307/2281868</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Stevenson M. Introduction to survival analysis. Palmerston North. 2007. Fecha de consulta: 16 de mayo de 2015. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.biecek.pl/statystykaMedyczna/Stevenson_survival_analysis_195.721.pdf">http://www.biecek.pl/statystykaMedyczna/Stevenson_survival_analysis_195.721.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stevenson</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Introduction to survival analysis. Palmerston North. 2007</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-05-16">16 de mayo de 2015</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.biecek.pl/statystykaMedyczna/Stevenson_survival_analysis_195.721.pdf">http://www.biecek.pl/statystykaMedyczna/Stevenson_survival_analysis_195.721.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Ahmed ZA, Shaiakh MS, Moatter T, Nasir A. Karyotype complexity and characterization of childhood acute myeloid leukemia (AML) in Pakistan. Ann Oncol. 2018;29(S9):ix88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/annonc/mdy437">https://doi.org/10.1093/annonc/mdy437</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ahmed</surname>
+							<given-names>ZA</given-names>
+						</name>
+						<name>
+							<surname>Shaiakh</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Moatter</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Nasir</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Karyotype complexity and characterization of childhood acute myeloid leukemia (AML) in Pakistan</article-title>
+					<source>Ann Oncol</source>
+					<year>2018</year>
+					<volume>29</volume>
+					<issue>S9</issue>
+					<fpage>ix88</fpage>
+					<lpage>ix88</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/annonc/mdy437">https://doi.org/10.1093/annonc/mdy437</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<mixed-citation>Davis KL, Marina N, Arber DA, Ma L, Cherry A, Dahl GV, <italic>et al</italic>. Pediatric acute myeloid leukemia as classified using 2008 WHO criteria: A single-center experience. Am J Clin Pathol. 2013;139:818-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1309/AJCP59WKRZVNHETN">https://doi.org/10.1309/AJCP59WKRZVNHETN</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Davis</surname>
+							<given-names>KL</given-names>
+						</name>
+						<name>
+							<surname>Marina</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Arber</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Ma</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Cherry</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dahl</surname>
+							<given-names>GV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pediatric acute myeloid leukemia as classified using 2008 WHO criteria: A single-center experience</article-title>
+					<source>Am J Clin Pathol</source>
+					<year>2013</year>
+					<volume>139</volume>
+					<fpage>818</fpage>
+					<lpage>825</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1309/AJCP59WKRZVNHETN">https://doi.org/10.1309/AJCP59WKRZVNHETN</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Balgobind BV, van den Heuvel-Eibrink MM, De Menezes RX, Reinhardt D, Hollink IHIM, Arentsen-Peters STJCM, <italic>et al</italic>. Evaluation of gene expression signatures predictive of cytogenetic and molecular subtypes of pediatric acute myeloid leukemia. Haematologica. 2011;96:221-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3324/haematol.2010.029660">https://doi.org/10.3324/haematol.2010.029660</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Balgobind</surname>
+							<given-names>BV</given-names>
+						</name>
+						<name>
+							<surname>van den Heuvel-Eibrink</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>De Menezes</surname>
+							<given-names>RX</given-names>
+						</name>
+						<name>
+							<surname>Reinhardt</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hollink</surname>
+							<given-names>IHIM</given-names>
+						</name>
+						<name>
+							<surname>Arentsen-Peters</surname>
+							<given-names>STJCM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of gene expression signatures predictive of cytogenetic and molecular subtypes of pediatric acute myeloid leukemia</article-title>
+					<source>Haematologica</source>
+					<year>2011</year>
+					<volume>96</volume>
+					<fpage>221</fpage>
+					<lpage>230</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3324/haematol.2010.029660">https://doi.org/10.3324/haematol.2010.029660</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>Blais S, Boutroux H, Pasquet M, Leblanc T, Fenneteau O, Gandemer V, <italic>et al</italic>. Is acute myeloblastic leukemia in children under 2 years of age a specific entity? A report from the FRENCH ELAM02 Study Group. HemaSphere. 2019;3:6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/HS9.0000000000000316">https://doi.org/10.1097/HS9.0000000000000316</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Blais</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Boutroux</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Pasquet</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Leblanc</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Fenneteau</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Gandemer</surname>
+							<given-names>V</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Is acute myeloblastic leukemia in children under 2 years of age a specific entity? A report from the FRENCH ELAM02 Study Group</article-title>
+					<source>HemaSphere</source>
+					<year>2019</year>
+					<volume>3</volume>
+					<fpage>6</fpage>
+					<lpage>6</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/HS9.0000000000000316">https://doi.org/10.1097/HS9.0000000000000316</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Junior LCB, Levy IE, Frances LTVM, Wanderley AV, Carneiro RM, Bentes AQ. Frequency of acute myeloid leukemia in children attended in Belem, Para from August 2005 to May 2009. J Bras Patol Med. 2015;51:72-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5935/1676-2444.20150013">https://doi.org/10.5935/1676-2444.20150013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Junior</surname>
+							<given-names>LCB</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>IE</given-names>
+						</name>
+						<name>
+							<surname>Frances</surname>
+							<given-names>LTVM</given-names>
+						</name>
+						<name>
+							<surname>Wanderley</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Carneiro</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Bentes</surname>
+							<given-names>AQ</given-names>
+						</name>
+					</person-group>
+					<article-title>Frequency of acute myeloid leukemia in children attended in Belem, Para from August 2005 to May 2009</article-title>
+					<source>J Bras Patol Med</source>
+					<year>2015</year>
+					<volume>51</volume>
+					<fpage>72</fpage>
+					<lpage>76</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5935/1676-2444.20150013">https://doi.org/10.5935/1676-2444.20150013</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Rubnitz JE, Razzouk BI, Lensing S, Pounds S, Pui C-H, Ribeiro RC. Prognostic factors and outcome of recurrence in childhood acute myeloid leukemia. Cancer. 2007;109:157-63. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cncr.22385">https://doi.org/10.1002/cncr.22385</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rubnitz</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Razzouk</surname>
+							<given-names>BI</given-names>
+						</name>
+						<name>
+							<surname>Lensing</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Pounds</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Pui</surname>
+							<given-names>C-H</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>RC</given-names>
+						</name>
+					</person-group>
+					<article-title>Prognostic factors and outcome of recurrence in childhood acute myeloid leukemia</article-title>
+					<source>Cancer</source>
+					<year>2007</year>
+					<volume>109</volume>
+					<fpage>157</fpage>
+					<lpage>163</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cncr.22385">https://doi.org/10.1002/cncr.22385</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Wells RJ, Arthur DC, Srivastava A, Heerema NA, Le Beau M, Alonzo TA, <italic>et al</italic>. Prognostic variables in newly diagnosed children and adolescents with acute myeloid leukemia: Children’s Cancer Group Study 213. Leukemia. 2002;16:601-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.leu.2402390">https://doi.org/10.1038/sj.leu.2402390</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wells</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Arthur</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Srivastava</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Heerema</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Le Beau</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Alonzo</surname>
+							<given-names>TA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Prognostic variables in newly diagnosed children and adolescents with acute myeloid leukemia: Children’s Cancer Group Study 213</article-title>
+					<source>Leukemia</source>
+					<year>2002</year>
+					<volume>16</volume>
+					<fpage>601</fpage>
+					<lpage>607</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.leu.2402390">https://doi.org/10.1038/sj.leu.2402390</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Farah RA, Horkos JG, Bustros YD, Farhat HZ, Abla O. A multicenter experience from Lebanon in childhood and adolescent acute myeloid leukemia: High rate of early death in childhood acute promyelocytic leukemia. Mediterr J Hematol Infect Dis. 2015;7:e2015012. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4084/MJHID.2015.012">https://doi.org/10.4084/MJHID.2015.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Farah</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Horkos</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Bustros</surname>
+							<given-names>YD</given-names>
+						</name>
+						<name>
+							<surname>Farhat</surname>
+							<given-names>HZ</given-names>
+						</name>
+						<name>
+							<surname>Abla</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>A multicenter experience from Lebanon in childhood and adolescent acute myeloid leukemia: High rate of early death in childhood acute promyelocytic leukemia</article-title>
+					<source>Mediterr J Hematol Infect Dis</source>
+					<year>2015</year>
+					<volume>7</volume>
+					<elocation-id>e2015012</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4084/MJHID.2015.012">https://doi.org/10.4084/MJHID.2015.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Pession A, Masetti R, Rizzari C, Putti MC, Casale F, Fagioli F, <italic>et al</italic>. Results of the AIEOP AML 2002/01 multicenter prospective trial for the treatment of children with acute myeloid leukemia. Blood. 2013;122:170-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2013-03-491621">https://doi.org/10.1182/blood-2013-03-491621</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pession</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Masetti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rizzari</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Putti</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Casale</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Fagioli</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Results of the AIEOP AML 2002/01 multicenter prospective trial for the treatment of children with acute myeloid leukemia</article-title>
+					<source>Blood.</source>
+					<year>2013</year>
+					<volume>122</volume>
+					<fpage>170</fpage>
+					<lpage>178</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2013-03-491621">https://doi.org/10.1182/blood-2013-03-491621</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Arber DA, Stein AS, Carter NH, Ikle D, Forman SJ, Slovak ML. Prognostic impact of acute myeloid leukemia classification. Importance of detection of recurring cytogenetic abnormalities and multilineage dysplasia on survival. Am J Clin Pathol. 2003;119:672-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1309/EM7K-CQR4-GLMH-RCX4">https://doi.org/10.1309/EM7K-CQR4-GLMH-RCX4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arber</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Stein</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Carter</surname>
+							<given-names>NH</given-names>
+						</name>
+						<name>
+							<surname>Ikle</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Forman</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Slovak</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Prognostic impact of acute myeloid leukemia classification. Importance of detection of recurring cytogenetic abnormalities and multilineage dysplasia on survival</article-title>
+					<source>Am J Clin Pathol</source>
+					<year>2003</year>
+					<volume>119</volume>
+					<fpage>672</fpage>
+					<lpage>680</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1309/EM7K-CQR4-GLMH-RCX4">https://doi.org/10.1309/EM7K-CQR4-GLMH-RCX4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>Aziz F, Qureshi IZ. Clinical and cytogenetics analysis in Pakistani leukemia patients. Pak J Zool. 2008;40:147-57.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aziz</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Qureshi</surname>
+							<given-names>IZ</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical and cytogenetics analysis in Pakistani leukemia patients</article-title>
+					<source>Pak J Zool</source>
+					<year>2008</year>
+					<volume>40</volume>
+					<fpage>147</fpage>
+					<lpage>157</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Frohling S, Schlenk RF, Kayser S, Morhardt M, Benner A, Dohner K, <italic>et al</italic>. Cytogenetics and age are major determinants of outcome in intensively treated acute myeloid leukemia patients older than 60 years: Results from AMLSG trial AML HD98-B. Blood. 2006;108:3280-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2006-04-014324">https://doi.org/10.1182/blood-2006-04-014324</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Frohling</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schlenk</surname>
+							<given-names>RF</given-names>
+						</name>
+						<name>
+							<surname>Kayser</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Morhardt</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Benner</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dohner</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cytogenetics and age are major determinants of outcome in intensively treated acute myeloid leukemia patients older than 60 years: Results from AMLSG trial AML HD98-B</article-title>
+					<source>Blood</source>
+					<year>2006</year>
+					<volume>108</volume>
+					<fpage>3280</fpage>
+					<lpage>3288</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2006-04-014324">https://doi.org/10.1182/blood-2006-04-014324</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Omer SH, Kordofani AA, Osman IM, Musa OH, Altayb HN, Elamin BK. Prevalence of the different FAB sub type of acute myeloid leukemia related to hematological parameters in Sudanese. J Hematol Blood Disord. 2017;3:1-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15744/2455-7641.3.102">https://doi.org/10.15744/2455-7641.3.102</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Omer</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Kordofani</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Osman</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Musa</surname>
+							<given-names>OH</given-names>
+						</name>
+						<name>
+							<surname>Altayb</surname>
+							<given-names>HN</given-names>
+						</name>
+						<name>
+							<surname>Elamin</surname>
+							<given-names>BK</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of the different FAB sub type of acute myeloid leukemia related to hematological parameters in Sudanese</article-title>
+					<source>J Hematol Blood Disord</source>
+					<year>2017</year>
+					<volume>3</volume>
+					<fpage>1</fpage>
+					<lpage>5</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15744/2455-7641.3.102">https://doi.org/10.15744/2455-7641.3.102</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Lunardon S, dos Santos E, Coriolano M, Ramos N. Acute myeloid leukemia: Survival analysis of patients at a university hospital of Parana. Rev Bras Hematol hemoter. 2015;37(1):21-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2014.11.008">https://doi.org/10.1016/j.bjhh.2014.11.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lunardon</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>dos Santos</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Coriolano</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Acute myeloid leukemia: Survival analysis of patients at a university hospital of Parana</article-title>
+					<source>Rev Bras Hematol hemoter</source>
+					<year>2015</year>
+					<volume>37</volume>
+					<issue>1</issue>
+					<fpage>21</fpage>
+					<lpage>27</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2014.11.008">https://doi.org/10.1016/j.bjhh.2014.11.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>Harani MS, Adil SN, Shaikh MU, Kakepoto GN, Khurshid M. Frequency of fab FAB subtypes in acute myeloid leukemia patients at Aga Khan University Hospital Karachi. J Ayub Med Coll Abbottabad. 2005;17:26-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harani</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Adil</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Shaikh</surname>
+							<given-names>MU</given-names>
+						</name>
+						<name>
+							<surname>Kakepoto</surname>
+							<given-names>GN</given-names>
+						</name>
+						<name>
+							<surname>Khurshid</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Frequency of fab FAB subtypes in acute myeloid leukemia patients at Aga Khan University Hospital Karachi</article-title>
+					<source>J Ayub Med Coll Abbottabad</source>
+					<year>2005</year>
+					<volume>17</volume>
+					<fpage>26</fpage>
+					<lpage>29</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>Kalwinsky DK, Raimondi SC, Schell MJ, Mirro J Jr, Santana VM, Behm F, <italic>et al</italic>. Prognostic importance of cytogenetic subgroups in <italic>de novo</italic> pediatric acute nonlymphocytic leukemia. J Clin Oncol. 1990;8:75-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.1990.8.1.75">https://doi.org/10.1200/JCO.1990.8.1.75</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kalwinsky</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Raimondi</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Schell</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Mirro</surname>
+							<given-names>J</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Santana</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Behm</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Prognostic importance of cytogenetic subgroups in de novo pediatric acute nonlymphocytic leukemia</article-title>
+					<source>J Clin Oncol</source>
+					<year>1990</year>
+					<volume>8</volume>
+					<fpage>75</fpage>
+					<lpage>83</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.1990.8.1.75">https://doi.org/10.1200/JCO.1990.8.1.75</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>Mrozek K, Heinonen K, Bloomfield CD. Prognostic value of cytogenetic findings in adults with acute myeloid leukemia. Int J Hematol. 2000;72:261-71.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mrozek</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Heinonen</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Bloomfield</surname>
+							<given-names>CD</given-names>
+						</name>
+					</person-group>
+					<article-title>Prognostic value of cytogenetic findings in adults with acute myeloid leukemia</article-title>
+					<source>Int J Hematol</source>
+					<year>2000</year>
+					<volume>72</volume>
+					<fpage>261</fpage>
+					<lpage>271</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>Teixeira M. Combined classical and molecular cytogenetic analysis of cancer. Eur J Cancer. 2002;38:1580-84. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0959-8049(02)00117-x">https://doi.org/10.1016/s0959-8049(02)00117-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Combined classical and molecular cytogenetic analysis of cancer</article-title>
+					<source>Eur J Cancer</source>
+					<year>2002</year>
+					<volume>38</volume>
+					<fpage>1580</fpage>
+					<lpage>1584</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0959-8049(02)00117-x">https://doi.org/10.1016/s0959-8049(02)00117-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>Dolz S, Barragan E, Fuster O, Llop M, Cervera J, Such E, <italic>et al</italic>. Novel real-time polymerase chain reaction assay for simultaneous detection of recurrent fusion genes in acute myeloid leukemia. J Mol Diagn. 2013;15:678-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jmoldx.2013.04.003">https://doi.org/10.1016/j.jmoldx.2013.04.003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dolz</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Barragan</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Fuster</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Llop</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cervera</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Such</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Novel real-time polymerase chain reaction assay for simultaneous detection of recurrent fusion genes in acute myeloid leukemia</article-title>
+					<source>J Mol Diagn</source>
+					<year>2013</year>
+					<volume>15</volume>
+					<fpage>678</fpage>
+					<lpage>686</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jmoldx.2013.04.003">https://doi.org/10.1016/j.jmoldx.2013.04.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>Rubnitz JE, Raimondi SC, Halbert AR, Tong X, Srivastava DK, Razzouk BI, <italic>et al</italic>. Characteristics and outcome of t(8;21)-positive childhood acute myeloid leukemia: A single institution’s experience. Leukemia. 2002;16:2072-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.leu.2402633">https://doi.org/10.1038/sj.leu.2402633</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rubnitz</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Raimondi</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Halbert</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Tong</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Srivastava</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Razzouk</surname>
+							<given-names>BI</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Characteristics and outcome of t(8;21)-positive childhood acute myeloid leukemia: A single institution’s experience</article-title>
+					<source>Leukemia</source>
+					<year>2002</year>
+					<volume>16</volume>
+					<fpage>2072</fpage>
+					<lpage>2077</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.leu.2402633">https://doi.org/10.1038/sj.leu.2402633</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>Zidanloo SG, Colaga AH. Geographic heterogeneity of the AML1-ETO fusion gene in Iranian patients with acute myeloid leukemia. Rep Biochem Mol Biol. 2014;3:7-13.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zidanloo</surname>
+							<given-names>SG</given-names>
+						</name>
+						<name>
+							<surname>Colaga</surname>
+							<given-names>AH</given-names>
+						</name>
+					</person-group>
+					<article-title>Geographic heterogeneity of the AML1-ETO fusion gene in Iranian patients with acute myeloid leukemia</article-title>
+					<source>Rep Biochem Mol Biol</source>
+					<year>2014</year>
+					<volume>3</volume>
+					<fpage>7</fpage>
+					<lpage>13</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>Hu S, Gao L, Wang Y, He H, Lu J, Xiao P, <italic>et al</italic>. Analysis of prognostic factors in Chinese pediatric acute myeloid leukemia. Blood. 2016;128:5258. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V128.22.5258.5258">https://doi.org/10.1182/blood.V128.22.5258.5258</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Xiao</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Analysis of prognostic factors in Chinese pediatric acute myeloid leukemia</article-title>
+					<source>Blood</source>
+					<year>2016</year>
+					<volume>128</volume>
+					<fpage>5258</fpage>
+					<lpage>5258</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V128.22.5258.5258">https://doi.org/10.1182/blood.V128.22.5258.5258</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>Johansson B, Mertens F, Mitelman F. Geographic heterogeneity of neoplasia-associated chromosome aberrations. Genes Chromosom Cancer. 1991;3:1-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gcc.2870030102">https://doi.org/10.1002/gcc.2870030102</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Johansson</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Mertens</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Mitelman</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Geographic heterogeneity of neoplasia-associated chromosome aberrations</article-title>
+					<source>Genes Chromosom Cancer</source>
+					<year>1991</year>
+					<volume>3</volume>
+					<fpage>1</fpage>
+					<lpage>7</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gcc.2870030102">https://doi.org/10.1002/gcc.2870030102</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>Kuchenbauer F, Schnittger S, Look T, Gilliland G, Tenen D, Haferlach T, <italic>et al</italic>. Identification of additional cytogenetic and molecular genetic abnormalities in acute myeloid leukaemia with t(8;21)/AML1-ETO. J Haematol. 2006;134:616-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2141.2006.06229.x">https://doi.org/10.1111/j.1365-2141.2006.06229.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kuchenbauer</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Schnittger</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Look</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Gilliland</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Tenen</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Haferlach</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identification of additional cytogenetic and molecular genetic abnormalities in acute myeloid leukaemia with t(8;21)/AML1-ETO</article-title>
+					<source>J Haematol</source>
+					<year>2006</year>
+					<volume>134</volume>
+					<fpage>616</fpage>
+					<lpage>619</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2141.2006.06229.x">https://doi.org/10.1111/j.1365-2141.2006.06229.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>Dong P, Wang Z, Meng F, Luo L, Wei J, Sun H, <italic>et al</italic>. Clinical characteristics of t(8;21) acute myeloid leukemia with AML1/ETO fusion in a single center in China. Int J Clin Exp Med. 2018;11:9312-22.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dong</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Meng</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Luo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical characteristics of t(8;21) acute myeloid leukemia with AML1/ETO fusion in a single center in China</article-title>
+					<source>Int J Clin Exp Med</source>
+					<year>2018</year>
+					<volume>11</volume>
+					<fpage>9312</fpage>
+					<lpage>9322</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>Manola KN. Cytogenetics of pediatric acute myeloid leukemia. Eur J Haematol. 2009;83:391-405. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1600-0609.2009.01308.x">https://doi.org/10.1111/j.1600-0609.2009.01308.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Manola</surname>
+							<given-names>KN</given-names>
+						</name>
+					</person-group>
+					<article-title>Cytogenetics of pediatric acute myeloid leukemia</article-title>
+					<source>Eur J Haematol</source>
+					<year>2009</year>
+					<volume>83</volume>
+					<fpage>391</fpage>
+					<lpage>405</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1600-0609.2009.01308.x">https://doi.org/10.1111/j.1600-0609.2009.01308.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>Meshinchi S, Arceci RJ. Prognostic factors and risk-based therapy in pediatric acute myeloid leukemia. Oncologist. 2007;12:341-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.12-3-341">https://doi.org/10.1634/theoncologist.12-3-341</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meshinchi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Arceci</surname>
+							<given-names>RJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Prognostic factors and risk-based therapy in pediatric acute myeloid leukemia</article-title>
+					<source>Oncologist</source>
+					<year>2007</year>
+					<volume>12</volume>
+					<fpage>341</fpage>
+					<lpage>355</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.12-3-341">https://doi.org/10.1634/theoncologist.12-3-341</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>Martin ML, Lopez M, de la Serna J, Ayala R, Garcia L, Barreiro E. Grupos de riesgo citogenetico en la leucemia mieloide aguda: comparacion de los modelos adoptados por los grupos MRC (Medical Research Council, Reino Unido) y SWOG (South West Oncology Group de EE.UU.). Med Clin (Barc). 2003;121:121-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0025-7753(03)73878-0">https://doi.org/10.1016/S0025-7753(03)73878-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martin</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Lopez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>de la Serna</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ayala</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Barreiro</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Grupos de riesgo citogenetico en la leucemia mieloide aguda: comparacion de los modelos adoptados por los grupos MRC (Medical Research Council, Reino Unido) y SWOG (South West Oncology Group de EE.UU.)</article-title>
+					<source>Med Clin (Barc)</source>
+					<year>2003</year>
+					<volume>121</volume>
+					<fpage>121</fpage>
+					<lpage>125</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0025-7753(03)73878-0">https://doi.org/10.1016/S0025-7753(03)73878-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>Hirsch B, Alonzo TA, Gerbing RB, Kahwash S, Heerema-McKenney A, Aplenc R, <italic>et al</italic>. Abnormalities Of 12p are associated with high-risk acute myeloid leukemia: A Children’s Oncology Group Report. Blood. 2013;122:612. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V122.21.612.612">https://doi.org/10.1182/blood.V122.21.612.612</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hirsch</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Alonzo</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Gerbing</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Kahwash</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Heerema-McKenney</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Aplenc</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Abnormalities Of 12p are associated with high-risk acute myeloid leukemia: A Children’s Oncology Group Report</article-title>
+					<source>Blood</source>
+					<year>2013</year>
+					<volume>122</volume>
+					<fpage>612</fpage>
+					<lpage>612</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V122.21.612.612">https://doi.org/10.1182/blood.V122.21.612.612</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>Soekarman D, von Lindern M, Daenen S, de Jong B, Fonatsch C, Heinze B, <italic>et al</italic>. The translocation (6;9)(p23;q34) shows consistent rearrangement of two genes and defines a myeloproliferative disorder with specific clinical features. Blood. 1992;79:2990-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V79.11.2990.bloodjournal79112990">https://doi.org/10.1182/blood.V79.11.2990.bloodjournal79112990</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soekarman</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>von Lindern</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Daenen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>de Jong</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fonatsch</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Heinze</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>he translocation (6;9)(p23;q34) shows consistent rearrangement of two genes and defines a myeloproliferative disorder with specific clinical features</article-title>
+					<source>Blood</source>
+					<year>1992</year>
+					<volume>79</volume>
+					<fpage>2990</fpage>
+					<lpage>2997</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood.V79.11.2990.bloodjournal79112990">https://doi.org/10.1182/blood.V79.11.2990.bloodjournal79112990</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>Johnston DL, Alonzo TA, Gerbing RB, Hirsch B, Heerema NA, Ravindranath Y, <italic>et al</italic>. Outcome of pediatric patients with acute myeloid leukemia (AML) and -5/5q- abnormalities from five pediatric AML treatment protocols: A report from the Children’s Oncology Group. Pediatr Blood Cancer. 2013;60:2073-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pbc.24573">https://doi.org/10.1002/pbc.24573</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Johnston</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Alonzo</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Gerbing</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Hirsch</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Heerema</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Ravindranath</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Outcome of pediatric patients with acute myeloid leukemia (AML) and -5/5q- abnormalities from five pediatric AML treatment protocols: A report from the Children’s Oncology Group</article-title>
+					<source>Pediatr Blood Cancer</source>
+					<year>2013</year>
+					<volume>60</volume>
+					<fpage>2073</fpage>
+					<lpage>2078</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pbc.24573">https://doi.org/10.1002/pbc.24573</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>Hasle H, Alonzo TA, Auvrignon A, Behar C, Chang M, Creutzig U, <italic>et al</italic>. Monosomy 7 and deletion 7q in children and adolescents with acute myeloid leukemia: An international retrospective study. Blood. 2007;109:4641-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2006-10-051342">https://doi.org/10.1182/blood-2006-10-051342</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hasle</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Alonzo</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Auvrignon</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Behar</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Creutzig</surname>
+							<given-names>U</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Monosomy 7 and deletion 7q in children and adolescents with acute myeloid leukemia: An international retrospective study</article-title>
+					<source>Blood</source>
+					<year>2007</year>
+					<volume>109</volume>
+					<fpage>4641</fpage>
+					<lpage>4647</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2006-10-051342">https://doi.org/10.1182/blood-2006-10-051342</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation>Soupir CP, Vergilio J-A, Cin PD, Muzikansky A, Kantarjian H, Jones D, <italic>et al</italic>. Philadelphia Chromosome-positive acute myeloid leukemia a rare aggressive leukemia with clinicopathologic features distinct from chronic myeloid leukemia in myeloid blast crisis. Am J Clin Pathol. 2007;127:642-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1309/B4NVER1AJJ84CTUU">https://doi.org/10.1309/B4NVER1AJJ84CTUU</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soupir</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Vergilio</surname>
+							<given-names>J-A</given-names>
+						</name>
+						<name>
+							<surname>Cin</surname>
+							<given-names>PD</given-names>
+						</name>
+						<name>
+							<surname>Muzikansky</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kantarjian</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Philadelphia Chromosome-positive acute myeloid leukemia a rare aggressive leukemia with clinicopathologic features distinct from chronic myeloid leukemia in myeloid blast crisis</article-title>
+					<source>Am J Clin Pathol</source>
+					<year>2007</year>
+					<volume>127</volume>
+					<fpage>642</fpage>
+					<lpage>650</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1309/B4NVER1AJJ84CTUU">https://doi.org/10.1309/B4NVER1AJJ84CTUU</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B56">
+				<label>56</label>
+				<mixed-citation>Grimwade D, Hills RK, Moorman AV, Walker H, Chatters S, Goldstone AH, <italic>et al</italic>. Refinement of cytogenetic classification in acute myeloid leukemia: Determination of prognostic significance of rare recurring chromosomal abnormalities among 5876 younger adult patients treated in the United Kingdom Medical Research Council trials. Blood. 2010;116:354-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2009-11-254441">https://doi.org/10.1182/blood-2009-11-254441</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grimwade</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hills</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Moorman</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Walker</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Chatters</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Goldstone</surname>
+							<given-names>AH</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Refinement of cytogenetic classification in acute myeloid leukemia: Determination of prognostic significance of rare recurring chromosomal abnormalities among 5876 younger adult patients treated in the United Kingdom Medical Research Council trials</article-title>
+					<source>Blood</source>
+					<year>2010</year>
+					<volume>116</volume>
+					<fpage>354</fpage>
+					<lpage>365</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2009-11-254441">https://doi.org/10.1182/blood-2009-11-254441</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B57">
+				<label>57</label>
+				<mixed-citation>Pession A, Masetti R, Rizzari C, Putti MC, Casale F, Fagioli F, <italic>et al</italic>. Results of the AIEOP AML 2002/01 multicenter prospective trial for the treatment of children with acute myeloid leukemia. Blood. 2013;122:170-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2013-03-491621">https://doi.org/10.1182/blood-2013-03-491621</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pession</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Masetti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rizzari</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Putti</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Casale</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Fagioli</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Results of the AIEOP AML 2002/01 multicenter prospective trial for the treatment of children with acute myeloid leukemia</article-title>
+					<source>Blood</source>
+					<year>2013</year>
+					<volume>122</volume>
+					<fpage>170</fpage>
+					<lpage>178</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1182/blood-2013-03-491621">https://doi.org/10.1182/blood-2013-03-491621</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B58">
+				<label>58</label>
+				<mixed-citation>Farrar JE, Schuback HL, Ries RE, Wai D, Hampton OA, Trevino LR, <italic>et al</italic>. genomic profiling of pediatric acute myeloid leukemia reveals a changing mutational landscape from disease diagnosis to relapse. Cancer Res. 2016;76:2197-205. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/0008-5472.CAN-15-1015">https://doi.org/10.1158/0008-5472.CAN-15-1015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Farrar</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Schuback</surname>
+							<given-names>HL</given-names>
+						</name>
+						<name>
+							<surname>Ries</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Wai</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hampton</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Trevino</surname>
+							<given-names>LR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>genomic profiling of pediatric acute myeloid leukemia reveals a changing mutational landscape from disease diagnosis to relapse</article-title>
+					<source>Cancer Res</source>
+					<year>2016</year>
+					<volume>76</volume>
+					<fpage>2197</fpage>
+					<lpage>2205</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/0008-5472.CAN-15-1015">https://doi.org/10.1158/0008-5472.CAN-15-1015</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Llimpe Y. Grupos de riesgo citogenético de leucemia mieloide aguda pediátrica a partir del análisis de supervivencia en un hospital de referencia para cáncer en Perú. Biomédica. 2021;41:302-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5747">https://doi.org/10.7705/biomedica.5747</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p>No hubo financiación de ninguna institución o laboratorio</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

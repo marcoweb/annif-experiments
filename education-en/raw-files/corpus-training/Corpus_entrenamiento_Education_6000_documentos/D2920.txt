@@ -1,0 +1,58 @@
+#ITI#Sample size calculation for clinical trials analyzed with the meta-analytic-predictive approach#FTI#
+#IRE# The meta-analytic-predictive (MAP) approach is a Bayesian method to incorporate historical controls in new trials that aims to increase the statistical power and reduce the required sample size. Here we investigate how to calculate the sample size of the new trial when historical data is available, and the MAP approach is used in the analysis. In previous applications of the MAP approach, the prior effective sample size (ESS) acted as a metric to quantify the number of subjects the historical information is worth. However, the validity of using the prior ESS in sample size calculation (i.e., reducing the number of randomized controls by the derived prior ESS) is questionable, because different approaches may yield different values for prior ESS. In this work, we propose a straightforward Monte Carlo approach to calculate the sample size that achieves the desired power in the new trial given available historical controls. To make full use of the available historical information to simulate the new trial data, the control parameters are not taken as a point estimate but sampled from the MAP prior. These sampled control parameters and the MAP prior based on the historical data are then used to derive the statistical power for the treatment effect and the resulting required sample size. The proposed sample size calculation approach is illustrated with real-life data sets with different outcomes from three studies. The results show that this approach to calculating the required sample size for the MAP analysis is straightforward and generic#FRE#
+#IPC# Bayesian statistics; dynamic borrowing; meta-analytic-predictive; sample size calculation#FPC#
+#IRF# Viele K., Berry S., Neuenschwander B., Et al., Use of historical control data for assessing treatment effects in clinical trials, Pharm Stat, 13, 1, pp. 41-54, (2014); 
+van Rosmalen J., Dejardin D., van Norden Y., Lowenberg B., Lesaffre E., Including historical data in the analysis of clinical trials: is it worth the effort?, Stat Methods Med Res, 27, 10, pp. 3167-3182, (2018); 
+Neuenschwander B., Capkun-Niggli G., Branson M., David J.S., Summarizing historical information on controls in clinical trials, Clin Trials, 7, 1, pp. 5-18, (2010); 
+Schmidli H., Gsteiger S., Roychoudhury S., O'Hagan A., Spiegelhalter D., Neuenschwander B., Robust meta-analytic-predictive priors in clinical trials with historical control information, Biometrics, 70, 4, pp. 1023-1032, (2014); 
+Gsteiger S., Neuenschwander B., Mercier F., Schmidli H., Using historical control information for the design and analysis of clinical trials with overdispersed count data, Stat Med, 32, 21, pp. 3609-3622, (2013); 
+Di Scala L., Kerman J., Neuenschwander B., Collection, synthesis, and interpretation of evidence: a proof-of-concept study in COPD, Stat Med, 32, 10, pp. 1621-1634, (2013); 
+Morita S., Thall P.F., Muller P., Determining the effective sample size of a parametric prior, Biometrics, 64, 2, pp. 595-602, (2008); 
+Neuenschwander B., Weber S., Schmidli H., O'Hagan A., Predictively consistent prior effective sample sizes, Biometrics, 76, 2, pp. 578-587, (2020); 
+Chow S.-C., Shao J., Wang H., Lokhnygina Y., Sample Size Calculations in Clinical Research, (2017); 
+Ciarleglio M.M., Arendt C.D., Sample size determination for a binary response in a superiority clinical trial using a hybrid classical and Bayesian procedure, Trials, 18, 1, pp. 1-21, (2017); 
+Sutton A.J., Cooper N.J., Jones D.R., Lambert P.C., Thompson J.R., Abrams K.R., Evidence-based sample size calculations based upon updated meta-analysis, Stat Med, 26, 12, pp. 2479-2500, (2007); 
+Nikolakopoulou A., Mavridis D., Salanti G., Planning future studies based on the precision of network meta-analysis results, Stat Med, 35, 7, pp. 978-1000, (2016); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Pocock S.J., The combination of randomized and historical controls in clinical trials, J Chronic Dis, 29, 3, pp. 175-188, (1976); 
+Hatswell A., Freemantle N., Baio G., Lesaffre E., van Rosmalen J., Summarising salient information on historical controls: a structured assessment of validity and comparability across studies, Clin Trials, 17, 6, pp. 607-616, (2020); 
+Malec D., A closer look at combining data among a small number of binomial experiments, Stat Med, 20, 12, pp. 1811-1824, (2001); 
+Wiesenfarth M., Calderazzo S., Quantification of prior impact in terms of effective current sample size, Biometrics, 76, 1, pp. 326-336, (2020); 
+Biswas A., Angers J.-F., Discussion on “Predictively consistent prior effective sample sizes,” by Beat Neuenschwander, Sebastian Weber, Heinz Schmidli, and Anthony O'Hagan, Biometrics, 76, 2, pp. 591-594, (2020); 
+Landau S., Stahl D., Sample size and power calculations for medical studies by simulation when closed form expressions are not available, Stat Methods Med Res, 22, 3, pp. 324-345, (2013); 
+O'Hagan A., Stevens J.W., Campbell M.J., Assurance in clinical trial design, Pharm Stat, 4, 3, pp. 187-201, (2005); 
+Schmidli H., Neuenschwander B., Friede T., Meta-analytic-predictive use of historical variance data for the design and analysis of clinical trials, Comput Stat Data Anal, 113, pp. 100-110, (2017); 
+Higgins J.P.T., Thomas J., Chandler J., Et al., Cochrane Handbook for Systematic Reviews of Interventions, (2019); 
+Peter B.I., Limitations of meta-analyses of studies with high heterogeneity, JAMA Netw Open, 3, 1, (2020); 
+McGlothlin A.E., Lewis R.J., Minimal clinically important difference: defining what really matters to patients, JAMA, 312, 13, pp. 1342-1343, (2014); 
+Morris T.P., White I.R., Crowther M.J., Using simulation studies to evaluate statistical methods, Stat Med, 38, 11, pp. 2074-2102, (2019); 
+Friede T., Rover C., Wandel S., Neuenschwander B., Meta-analysis of few small studies in orphan diseases, Res Synth Methods, 8, 1, pp. 79-91, (2017); 
+Smith T.C., Spiegelhalter D.J., Thomas A., Bayesian approaches to random-effects meta-analysis: a comparative study, Stat Med, 14, 24, pp. 2685-2699, (1995); 
+Neuenschwander B., From historical data to priors, Proceedings of Biopharmaceutical Section, Joint Statistical Meetings, pp. 3466-3474, (2011); 
+Qi H., Rizopoulos D., van Rosmalen J., Incorporating historical control information in ANCOVA models using the meta-analytic-predictive approach, Res Synth Methods, 13, pp. 681-696, (2022); 
+Geissler E.K., Schlitt H.J., Immunosuppression for liver transplantation, Gut, 58, 3, pp. 452-463, (2009); 
+Crins N.D., Rover C., Goralczyk A.D., Friede T., Interleukin-2 receptor antagonists for pediatric liver transplant recipients: a systematic review and meta-analysis of controlled studies, Pediatr Transplant, 18, 8, pp. 839-850, (2014); 
+Ganschow R., Grabhorn E., Schulz A., Von Hugo A., Rogiers X., Burdelski M., Long-term results of basiliximab induction immunosuppression in pediatric liver transplant recipients, Pediatr Transplant, 9, 6, pp. 741-745, (2005); 
+Heffron T.G., Pillen T., Smallwood G.A., Welch D., Oakley B., Romero R., Pediatric liver transplantation with daclizumab induction, Transplantation, 75, 12, pp. 2040-2043, (2003); 
+Gras J.M., Gerkens S., Beguin C., Et al., Steroid-free, tacrolimus-basiliximab immunosuppression in pediatric liver transplantation: clinical and pharmacoeconomic study in 50 children, Liver Transpl, 14, 4, pp. 469-477, (2008); 
+Spiegelhalter D.J., Abrams K.R., Myles J.P., Bayesian Approaches to Clinical Trials and Health-Care Evaluation, 13, (2004); 
+Gelman A., Rubin D.B., Inference from iterative simulation using multiple sequences, Stat Sci, 7, 4, pp. 457-472, (1992); 
+Weber S., Li Y., Seaman J.W., Kakizume T., Schmidli H., Applying meta-analytic-predictive priors with the R Bayesian evidence synthesis tools, J Stat Softw, 100, 19, pp. 1-32, (2021); 
+Szabo S.M., Hedegaard M., Chan K., Et al., Ranibizumab vs. aflibercept for wet age-related macular degeneration: network meta-analysis to understand the value of reduced frequency dosing, Curr Med Res Opin, 31, 11, pp. 2031-2042, (2015); 
+Martin D.F., Maguire M.G., Ying G.S., Et al., Ranibizumab and bevacizumab for neovascular age-related macular degeneration, N Engl J Med, 364, 20, pp. 1897-1908, (2011); 
+Chakravarthy U., Harding S.P., Rogers C.A., Et al., Ranibizumab versus bevacizumab to treat neovascular age-related macular degeneration: one-year findings from the ivan randomized trial, Ophthalmology, 119, 7, pp. 1399-1411, (2012); 
+Heier J.S., Brown D.M., Chong V., Et al., Intravitreal aflibercept (VEGF trap-eye) in wet age-related macular degeneration, Ophthalmology, 119, 12, pp. 2537-2548, (2012); 
+Busbee B.G., Ho A.C., Brown D.M., Et al., Twelve-month efficacy and safety of 0.5 mg or 2.0 mg ranibizumab in patients with subfoveal neovascular age-related macular degeneration, Ophthalmology, 120, 5, pp. 1046-1056, (2013); 
+Gelman A., Prior distributions for variance parameters in hierarchical models, Bayesian Anal, 1, 3, pp. 515-534, (2006); 
+Cummings J.L., Cole G., Alzheimer disease, JAMA, 287, 18, pp. 2335-2338, (2002); 
+Vaz M., Silvestre S., Alzheimer's disease: recent treatment strategies, Eur J Pharmacol, 887, (2020); 
+Kueper J.K., Speechley M., Montero-Odasso M., The Alzheimer's disease assessment scale–cognitive subscale (ADAS-Cog): modifications and responsiveness in pre-dementia populations. A narrative review, J Alzheimers Dis, 63, 2, pp. 423-444, (2018); 
+Wei Y., Higgins J.P.T., Bayesian multivariate meta-analysis with multiple outcomes, Stat Med, 32, 17, pp. 2911-2934, (2013); 
+Burke D.L., Bujkiewicz S., Riley R.D., Bayesian bivariate meta-analysis of correlated effects: impact of the prior distributions on the between-study correlation, borrowing of strength, and joint inferences, Stat Methods Med Res, 27, 2, pp. 428-450, (2018); 
+Rotondi M.A., Donner A., Koval J.J., Evidence-based sample size estimation based upon an updated meta-regression analysis, Res Synth Methods, 3, 4, pp. 269-284, (2012); 
+Hinchliffe S.R., Crowther M.J., Phillips R.S., Sutton A.J., Using meta-analysis to inform the design of subsequent studies of diagnostic test accuracy, Res Synth Methods, 4, 2, pp. 156-168, (2013); 
+Hobbs B.P., Carlin B.P., Sargent D.J., Adaptive adjustment of the randomization ratio using historical control data, Clin Trials, 10, 3, pp. 430-440, (2013); 
+Wang F., Gelfand A.E., A simulation-based approach to Bayesian sample size determination for performance under a given model and for separating models, Stat Sci, 17, 2, pp. 193-208, (2002); 
+Chen M.-H., Ibrahim J.G., Lam P., Yu A., Zhang Y., Bayesian design of noninferiority trials for medical devices using historical data, Biometrics, 67, 3, pp. 1163-1170, (2011); 
+Psioda M.A., Ibrahim J.G., Bayesian clinical trial design using historical data that inform the treatment effect, Biostatistics, 20, 3, pp. 400-415, (2019); 
+Papadimitropoulou K., Stijnen T., Riley R.D., Dekkers O.M., le Cessie S., Meta-analysis of continuous outcomes: using pseudo IPD created from aggregate data to adjust for baseline imbalance and assess treatment-by-baseline modification, Res Synth Methods, 11, 6, pp. 780-794, (2020)#FRF#

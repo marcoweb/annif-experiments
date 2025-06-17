@@ -1,0 +1,33 @@
+#ITI#DTAmetasa: An R shiny application for meta-analysis of diagnostic test accuracy and sensitivity analysis of publication bias#FTI#
+#IRE# Meta-analysis of diagnostic test accuracy (DTA) is a powerful statistical method for synthesizing and evaluating the diagnostic capacity of medical tests and has been extensively used by clinical physicians and healthcare decision-makers. However, publication bias (PB) threatens the validity of meta-analysis of DTA. Some statistical methods have been developed to deal with PB in meta-analysis of DTA, but implementing these methods requires high-level statistical knowledge and programming skill. To assist non-technical users in running most routines in meta-analysis of DTA and handling with PB, we developed an interactive application, DTAmetasa. DTAmetasa is developed as a web-based graphical user interface based on the R shiny framework. It allows users to upload data and conduct meta-analysis of DTA by “point and click” operations. Moreover, DTAmetasa provides the sensitivity analysis of PB and presents the graphical results to evaluate the magnitude of the PB under various publication mechanisms. In this study, we introduce the functionalities of DTAmetasa and use the real-world meta-analysis to show its capacity for dealing with PB#FRE#
+#IPC# diagnostic test accuracy; meta-analysis; publication bias; R shiny application; sensitivity analysis#FPC#
+#IRF# Rutter C.M., Gatsonis C.A., A hierarchical regression approach to meta-analysis of diagnostic test accuracy evaluations, Stat Med, 20, 19, pp. 2865-2884, (2001); 
+Reitsma J.B., Glas A.S., Rutjes A.W., Scholten R.J., Bossuyt P.M., Zwinderman A.H., Bivariate analysis of sensitivity and specificity produces informative summary measures in diagnostic reviews, J Clin Epidemiol, 58, 10, pp. 982-990, (2005); 
+Chu H., Cole S.R., Bivariate meta-analysis of sensitivity and specificity with sparse data: a generalized linear mixed model approach, J Clin Epidemiol, 59, 12, pp. 1331-1332, (2006); 
+Sutton A.J., Song F., Gilbody S.M., Abrams K.R., Modelling publication bias in meta-analysis: a review, Stat Methods Med Res, 9, 5, pp. 421-445, (2000); 
+Page M.J., Moher D., Bossuyt P.M., Et al., PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews, BMJ, 372, (2021); 
+Takwoingi Y., Dendukuri N., Schiller I., Et al., Undertaking meta-analysis, pp. 249-325, (2023); 
+Macaskill P., Takwoingi Y., Deeks J.J., Gatsonis C., Chapter 9: understanding meta-analysis, Cochrane Handbook for Systematic Reviews of Diagnostic Test Accuracy, pp. 1-46, (2022); 
+Hattori S., Zhou X.H., Sensitivity analysis for publication bias in meta-analysis of diagnostic studies for a continuous biomarker, Stat Med, 37, 3, pp. 327-342, (2018); 
+Copas-like selection model to correct publication bias in systematic review of diagnostic test studies, Stat Methods Med Res, 28, 10-11, pp. 2912-2923, (2019); 
+Li M., Fan Y., Liu Y.Y., Liu Y.Y., Diagnostic test meta-analysis by empirical likelihood under a Copas-like selection model, Metrika, 84, 6, pp. 927-947, (2021); 
+Zhou Y., Huang A., Hattori S., A likelihood-based sensitivity analysis for publication bias on the summary receiver operating characteristic in meta-analysis of diagnostic test accuracy, Stat Med, 1-18, pp. 781-798, (2022); 
+Freeman S.C., Kerby C.R., Patel A., Cooper N.J., Quinn T., Sutton A.J., Development of an interactive web-based tool to conduct and interrogate meta-analysis of diagnostic test accuracy studies: MetaDTA, BMC Med Res Methodol, 19, 1, pp. 1-11, (2019); 
+Patel A., Cooper N., Freeman S., Sutton A., Graphical enhancements to summary receiver operating characteristic plots to facilitate the analysis and reporting of meta-analysis of diagnostic test accuracy data, Res Synth Methods, 12, 1, pp. 34-44, (2021); 
+Cerullo E., Sutton A.J., Jones H.E., Wu O., Quinn T.J., Cooper N.J., MetaBayesDTA: codeless Bayesian meta-analysis of test accuracy, with or without a gold standard, BMC Med Res Methodol, 23, 1, (2023); 
+Zamora J., Abraira V., Muriel A., Khan K., Coomarasamy A., Meta-DiSc: a software for meta-analysis of test accuracy data, BMC Med Res Methodol, 6, 1, (2006); 
+Plana M.N., Arevalo-Rodriguez I., Fernandez-Garcia S., Et al., Meta-DiSc 2.0: a web application for meta-analysis of diagnostic test accuracy data, BMC Med Res Methodol, 22, 1, (2022); 
+Sokouti M., Sadeghi R., Pashazadeh S., Et al., Meta-MUMS DTA: implementation, validation, and application of diagnostic test accuracy software for meta-analysis in radiology, Clin Epidemiol Glob Health, 2021, 9, pp. 310-325, (2020); 
+Copas J., What works?: selectivity models and meta-analysis, J R Stat Soc Ser A Stat Soc, 162, 1, pp. 95-109, (1999); 
+Copas J.B., A likelihood-based sensitivity analysis for publication bias in meta-analysis, J R Stat Soc Ser C Appl Stat, 62, 1, pp. 47-66, (2013); 
+Zhou Y., Leung S.W., Mizutani S., Takagi T., Tian Y.S., MEPHAS: an interactive graphical user interface for medical and pharmaceutical statistical analysis with R and shiny, BMC Bioinformatics, 21, 1, (2020); 
+Chue Hong N.P., Katz D.S., Barker M., Et al., FAIR Principles for Research Software Version 1.0, (2022); 
+Balduzzi S., Rucker G., Schwarzer G., How to perform a meta-analysis with R: a practical tutorial, Evid Based Ment Health, 22, 4, pp. 153-160, (2019); 
+Haitao C., Hongfei G., Yijie Z., Bivariate random effects meta-analysis of diagnostic studies using generalized linear mixed models, Med Decis Making, 30, 4, pp. 499-508, (2010); 
+Reitsma J., Zwinderman A., Response to Chu and Cole: bivariate meta-analysis of sensitivity and specificity with sparse data, J Clin Epidemiol, 59, 12, pp. 1332-1333, (2006); 
+Doebler P., Sousa-Pinto B., Mada: Meta-Analysis of Diagnostic Accuracy, (2022); 
+Bates D., Machler M., Bolker B., Walker S., Fitting linear mixed-effects models using lme4, J Stat Softw, 67, 1, pp. 1-48, (2015); 
+Harbord R.M., Deeks J.J., Egger M., Whiting P., Sterne J.A.C., A unification of models for meta-analysis of diagnostic accuracy studies, Biostatistics, 8, 2, pp. 239-251, (2007); 
+Burkner P.C., Doebler P., Testing for publication bias in diagnostic meta-analysis: a simulation study, Stat Med, 33, 18, pp. 3061-3077, (2014); 
+Ebrahimzadeh S., Islam N., Dawit H., Et al., Thoracic imaging tests for the diagnosis of COVID-19, Cochrane Database Syst Rev, 2022, 5, (2022); 
+Safdar N., Fine J.P., Maki D.G., Meta-analysis: methods for diagnosing intravascular device–related bloodstream infection, Ann Intern Med, 142, 6, pp. 451-466, (2005)#FRF#

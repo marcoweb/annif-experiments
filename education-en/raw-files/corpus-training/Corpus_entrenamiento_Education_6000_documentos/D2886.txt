@@ -1,0 +1,53 @@
+#ITI#On the bias of complete- and shifting-case meta-regressions with missing covariates#FTI#
+#IRE# Missing covariates is a common issue when fitting meta-regression models. Standard practice for handling missing covariates tends to involve one of two approaches. In a complete-case analysis, effect sizes for which relevant covariates are missing are omitted from model estimation. Alternatively, researchers have employed the so-called "shifting units of analysis" wherein complete-case analyses are conducted on only certain subsets of relevant covariates. In this article, we clarify conditions under which these approaches generate unbiased estimates of regression coefficients. We find that unbiased estimates are possible when the probability of observing a covariate is completely independent of effect sizes. When that does not hold, regression coefficient estimates may be biased. We study the potential magnitude of that bias assuming a log-linear model of missingness and find that the bias can be substantial, as large as Cohen's d = 0.4–0.8 depending on the missingness mechanism#FRE#
+#IPC# complete-case analysis; meta-regression; missing data; shifting units of analysis#FPC#
+#IRF# Borenstein M., Introduction to Meta-Analysis, (2009); 
+Tipton E., Pustejovsky J.E., Ahmadi H., A history of meta-regression: technical, conceptual, and practical developments between 1974 and 2018, Res Synth Methods, 10, 2, pp. 161-179, (2019); 
+Berkey C.S., Hoaglin D.C., Mosteller F., Colditz G.A., A random-effects regression model for meta-analysis, Stat Med, 14, 4, pp. 395-411, (1995); 
+Hedges L.V., Combining independent estimators in research synthesis, Br J Math Stat Psychol, 36, 1, pp. 123-131, (1983); 
+Hedges L.V., Tipton E., Johnson M.C., Robust variance estimation in meta-regression with dependent effect size estimates, Res Synth Methods, 1, 1, pp. 39-65, (2010); 
+Konstantopoulos S., Fixed effects and variance components estimation in three-level meta-analysis: three-level meta-analysis, Res Synth Methods, 2, 1, pp. 61-76, (2011); 
+Viechtbauer W., Accounting for heterogeneity via random-effects models and moderator analyses in meta-analysis, J Psychol, 215, 2, pp. 104-121, (2007); 
+Pigott T.D., A review of methods for missing data, Educ Res Eval, 7, 4, pp. 353-383, (2001); 
+Pigott T.D., Missing predictors in models of effect size, Eval Health Prof, 24, 3, pp. 277-307, (2001); 
+Tipton E., Pustejovsky J.E., Ahmadi H., Current practices in meta-regression in psychology, education, and medicine, Res Synth Methods, 10, 2, pp. 180-194, (2019); 
+Pigott T.D., Handling missing data, The Handbook for Research Synthesis and Meta-Analysis, (2019); 
+Cooper H.M., Research Synthesis and Meta-Analysis: A Step-by-Step Approach, (2017); 
+Little R.J.A., Rubin D.B., Statistical Analysis with Missing Data, (2002); 
+Graham J.W., Missing Data, (2012); 
+Tanner-Smith E.E., Steinka-Fry K.T., Kettrey H.H., Lipsey M.W., Adolescent Substance Use Treatment Effectiveness: A Systematic Review and Meta-Analysis, (2016); 
+Schafer J.L., Multiple imputation: a primer, Stat Methods Med Res, 8, 1, pp. 3-15, (1999); 
+Bennett D.A., How can I deal with missing data in my study?, Aust NZ J Public Health, 25, 5, pp. 464-469, (2001); 
+Cooper H.M., Synthesizing Research: A Guide for Literature Reviews, (1998); 
+Cooper H.M., Hedges L.V., Valentine J.C., Handbook of Research Synthesis and Meta-Analysis, (2019); 
+Hedges L.V., Vevea J.L., Fixed- and random-effects models in meta-analysis, Psychol Methods, 3, 4, pp. 486-504, (1998); 
+Hedges L.V., A random effects model for effect sizes, Psychol Bull, 93, 2, pp. 388-395, (1983); 
+Laird N.M., Mosteller F., Some statistical methods for combining experimental results, Int J Technol Assess Health Care, 6, 1, pp. 5-30, (1990); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Stat, 30, 3, pp. 261-293, (2005); 
+Gelman A., Bayesian Data Analysis, (2014); 
+Lipsey M.W., Those confounded moderators in meta-analysis: good, bad, and ugly, Ann Am Acad Pol Soc Sci, 587, 1, pp. 69-81, (2003); 
+Farrar D.E., Glauber R.R., Multicollinearity in regression analysis: the problem revisited, Rev Econ Stat, 49, 1, (1967); 
+Mela C.F., Kopalle P.K., The impact of collinearity on regression analysis: the asymmetric effect of negative and positive correlations, Appl Econ, 34, 6, pp. 667-677, (2002); 
+Angrist J.D., Pischke J.-S., Mostly Harmless Econometrics, (2009); 
+Rubin D.B., Inference and missing data, Biometrika, 63, 3, pp. 581-592, (1976); 
+van Buuren S., Flexible Imputation of Missing Data, (2018); 
+Agresti A., Categorical Data Analysis, (2013); 
+Ibrahim J.G., Incomplete data in generalized linear models, J Am Stat Assoc, 85, 411, pp. 765-769, (1990); 
+Ibrahim J.G., Lipsitz S.R., Chen M.-H., Missing covariates in generalized linear models when the missing data mechanism is non-ignorable, J Royal Statistical Soc B, 61, 1, pp. 173-190, (1999); 
+Lipsitz S., A conditional model for incomplete covariates in parametric regression models, Biometrika, 83, 4, pp. 916-922, (1996); 
+Glynn R.J., Laird N.M., Regression Estimates and Missing Data: Complete Case Analysis, (1986); 
+Little R.J.A., Regression with missing X's: a review, J Am Stat Assoc, 87, 420, pp. 1227-1237, (1992); 
+Hedges L.V., Pigott T.D., The power of statistical tests in meta-analysis, Psychol Methods, 6, 3, pp. 203-217, (2001); 
+Hedges L.V., Pigott T.D., The power of statistical tests for moderators in meta-analysis, Psychol Methods, 9, 4, pp. 426-445, (2004); 
+Hedges L.V., Schauer J.M., Statistical analyses for studying replication: meta-analytic perspectives, Psychol Methods, 24, 5, pp. 557-570, (2019); 
+Cohen J., Statistical Power Analysis for the Behavioral Sciences, (1988); 
+Ferguson C.J., An effect size primer: a guide for clinicians and researchers, Prof Psychol Res Pract, 40, 5, pp. 532-538, (2009); 
+Chen H., Cohen P., Chen S., How big is a big odds ratio? Interpreting the magnitudes of odds ratios in epidemiological studies, Commun Stat Simul Comput, 39, 4, pp. 860-864, (2010); 
+Haddock C.K., Rindskopf D., Shadish W.R., Using odds ratios as effect sizes for meta-analysis of dichotomous data: a primer on methods and issues, Psychol Methods, 3, 3, pp. 339-353, (1998); 
+Hill C.J., Bloom H.S., Black A.R., Lipsey M.W., Empirical benchmarks for interpreting effect sizes in research, Child Dev Perspect, 2, 3, pp. 172-177, (2008); 
+Rubin D.B., Multiple Imputation for Nonresponse in Surveys, (1987); 
+van Buuren S., Groothuis-Oudshoorn K., Mice: multivariate imputation by chained equations in R, J Stat Softw, 45, 3, pp. 1-67, (2011); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Schauer J.M., Diaz K., Pigott T.D., Lee J., Exploratory analyses for missing data in meta-analyses, Alcohol Alcohol, 1-12, pp. 35-46, (2021); 
+Graham J.W., Missing data analysis: making it work in the real world, Annu Rev Psychol, 60, 1, pp. 549-576, (2009); 
+Cheung M.W.-L., Handling missing covariates in mixed-effects meta-analysis with full-information maximum likelihood, (2019)#FRF#

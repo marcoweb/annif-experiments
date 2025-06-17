@@ -1,0 +1,48 @@
+#ITI#The Accuracy of Bayesian Model Fit Indices in Selecting Among Multidimensional Item Response Theory Models#FTI#
+#IRE# Item response theory (IRT) models are often compared with respect to predictive performance to determine the dimensionality of rating scale data. However, such model comparisons could be biased toward nested-dimensionality IRT models (e.g., the bifactor model) when comparing those models with non-nested-dimensionality IRT models (e.g., a unidimensional or a between-item-dimensionality model). The reason is that, compared with non-nested-dimensionality models, nested-dimensionality models could have a greater propensity to fit data that do not represent a specific dimensional structure. However, it is unclear as to what degree model comparison results are biased toward nested-dimensionality IRT models when the data represent specific dimensional structures and when Bayesian estimation and model comparison indices are used. We conducted a simulation study to add clarity to this issue. We examined the accuracy of four Bayesian predictive performance indices at differentiating among non-nested- and nested-dimensionality IRT models. The deviance information criterion (DIC), a commonly used index to compare Bayesian models, was extremely biased toward nested-dimensionality IRT models, favoring them even when non-nested-dimensionality models were the correct models. The Pareto-smoothed importance sampling approximation of the leave-one-out cross-validation was the least biased, with the Watanabe information criterion and the log-predicted marginal likelihood closely following. The findings demonstrate that nested-dimensionality IRT models are not automatically favored when the data represent specific dimensional structures as long as an appropriate predictive performance index is used.#FRE#
+#IPC# Bayesian multidimensional IRT; model comparisons; model fit propensity; predictive performance#FPC#
+#IRF# Adams R.J., Wilson M., Wang W.-C., The multidimensional random coefficients multinomial logit model, Applied Psychological Measurement, 21, 1, pp. 1-23, (1997); 
+Akaike H., Information theory and an extension of the maximum likelihood principle, Selected papers of Hirotugu Akaike, pp. 199-213, (1998); 
+Standards for educational and psychological testing, (2014); 
+Asparouhov T., Muthen B., Nesting and equivalence testing for structural equation models, Structural Equation Modeling: A Multidisciplinary Journal, 26, 2, pp. 302-309, (2019); 
+Bonifay W., Cai L., On the complexity of item response theory models, Multivariate Behavioral Research, 52, 4, pp. 465-484, (2017); 
+Bonifay W., Lane S.P., Reise S.P., Three concerns with applying a bifactor model as a structure of psychopathology, Clinical Psychological Science, 5, 1, pp. 184-186, (2017); 
+Cai L., A two-tier full-information item factor analysis model with applications, Psychometrika, 75, 4, pp. 581-612, (2010); 
+Canivez G.L., Bifactor modeling in construct validation of multifactored tests: Implications for understanding multidimensional constructs and test interpretation, Principles and methods of test construction: Standards and recent advancements, pp. 247-271, (2016); 
+Celeux G., Forbes F., Robert C.P., Titterington D.M., Deviance information criteria for missing data models, Bayesian Analysis, 1, 4, pp. 651-673, (2006); 
+da Silva M.A., BazAan J.L., Huggins-Manley A.C., Sensitivity analysis and choosing between alternative polytomous IRT models using Bayesian model comparison criteria, Communications in Statistics-Simulation and Computation, 48, 2, pp. 601-620, (2019); 
+DeMars C.E., A tutorial on interpreting bifactor model scores, International Journal of Testing, 13, 4, pp. 354-378, (2013); 
+Falk C.F., Muthukrishna M., Parsimony in model selection: Tools for assessing fit propensity, Psychological Methods, 28, 1, pp. 123-136, (2021); 
+Fox J.-P., Bayesian item response modeling: Theory and applications, (2010); 
+Fujimoto K.A., A general Bayesian multilevel multidimensional item response theory model for locally dependent data, British Journal of Mathematical and Statistical Psychology, 71, 3, pp. 536-560, (2018); 
+Fujimoto K.A., The Bayesian multilevel trifactor item response theory model, Educational and Psychological Measurement, 79, 3, pp. 462-494, (2019); 
+Fujimoto K.A., A more ﬂexible multilevel bifactor item response theory model, Journal of Educational Measurement, 57, 2, pp. 255-285, (2020); 
+Fujimoto K.A., Neugebauer S.R., A general Bayesian multidimensional item response theory model for small and large samples, Educational and Psychological Measurement, 80, 4, pp. 665-669, (2020); 
+Gelfand A.E., Model determination using sampling-based methods, Markov chain Monte Carlo in practice, pp. 145-161, (1996); 
+Gelman A.E., Hwang J., Vehtari A., Understanding predictive information criteria for Bayesian models, Statistics and Computing, 24, 6, pp. 997-1016, (2014); 
+Geyer C., Introduction to MCMC, Handbook of Markov Chain Monte Carlo, pp. 3-48, (2011); 
+Gibbons R.D., Hedeker D.R., Full-information item bi-factor analysis, Psychometrika, 57, 3, pp. 423-436, (1992); 
+Greene A.L., Eaton N.R., Li K., Forbes M.K., Krueger R.F., Markon K.E., Kotov R., Are fit indices used to test psychopathology structure biased? A simulation study, Journal of Abnormal Psychology, 128, 7, pp. 740-764, (2019); 
+Hansen M., Cai L., Stucky B.D., Tucker J.S., Shadel W.G., Edelen M.O., Methodology for developing and evaluating the PROMIS® smoking item banks, Nicotine & Tobacco Research, 16, pp. S175-S189, (2014); 
+Holzinger K.J., Swineford F., The bi-factor method, Psychometrika, 2, 1, pp. 41-54, (1937); 
+Kass R.E., Raftery A.E., Bayes factors, Journal of the American Statistical Association, 90, 430, pp. 773-795, (1995); 
+Li Y., Bolt D.M., Fu J., A comparison of alternative models for testlets, Applied Psychological Measurement, 30, 1, pp. 3-21, (2006); 
+Luo Y., Al-Harbi K., Performances of LOO and WAIC as IRT model selection methods, Psychological Test and Assessment Modeling, 59, 2, pp. 183-205, (2017); 
+Markon K.E., Bifactor and hierarchical models: Specification, inference, and interpretation, Annual Review of Clinical Psychology, 15, 1, pp. 51-69, (2019); 
+Merkle E.C., Furr D., Rabe-Hesketh S., Bayesian comparison of latent variable models: Conditional versus marginal likelihoods, Psychometrika, 84, pp. 802-829, (2019); 
+DIC: Deviance information criteria; 
+Muraki E., A generalized partial credit model: Application of an EM algorithm, Applied Psychological Measurement, 16, 2, pp. 159-176, (1992); 
+Plummer M., Penalized loss functions for Bayesian model comparison, Biostatistics, 9, 3, pp. 523-539, (2008); 
+Preacher K.J., Quantifying parsimony in structural equation modeling, Multivariate Behavioral Research, 41, 3, pp. 227-259, (2006); 
+Preacher K.J., Merkle E.C., The problem of model selection uncertainty in structural equation modeling, Psychological Methods, 17, 1, pp. 1-14, (2012); 
+Reise S.P., The rediscovery of bifactor measurement models, Multivariate Behavioral Research, 47, 5, pp. 667-696, (2012); 
+Schwarz G., Estimating the dimension of a model, The Annals of Statistics, 6, 2, pp. 461-464, (1978); 
+Sellbom M., Tellegen A., Factor analysis in psychological assessment research: Common pitfalls and recommendations, Psychological Assessment, 31, 12, pp. 1428-1441, (2019); 
+Spiegelhalter D.J., Best N.G., Carlin B.P., Van Der Linde A., Bayesian measures of model complexity and fit, Journal of the Royal Statistical Society: Series B (Statistical Methodology), 64, 4, pp. 583-639, (2002); 
+Stucky B.D., Edelen M.O., Handbook of item response theory modeling: Applications to typical performance assessment, Markov chain Monte Carlo in practice, pp. 183-206, (2015); 
+Toland M.D., Sulis I., Giambona F., Porcu M., Campbell J.M., Introduction to bifactor polytomous item response theory analysis, Journal of School Psychology, 60, pp. 41-63, (2017); 
+Vehtari A., Gelman A., Gabry J., Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC, Statistics and Computing, 27, 5, pp. 1413-1432, (2017); 
+Vehtari A., Simpson D., Gelman A., Yao Y., Gabry J., Pareto smoothed importance sampling, arXiv preprint arXiv:1507.02646, (2022); 
+Vrieze S.I., Model selection and psychological theory: A discussion of the differences between the Akaike information criterion (AIC) and the Bayesian information criterion (BIC), Psychological Methods, 17, 2, pp. 228-243, (2012); 
+Watanabe S., A widely applicable Bayesian information criterion, Journal of Machine Learning Research, 14, pp. 867-897, (2013); 
+Zhu X., Stone C.A., Bayesian comparison of alternative graded response models for performance assessment applications, Educational and Psychological Measurement, 72, 5, pp. 774-799, (2012)#FRF#

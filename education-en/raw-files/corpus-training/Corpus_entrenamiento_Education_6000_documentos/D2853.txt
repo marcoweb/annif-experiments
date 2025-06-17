@@ -1,0 +1,43 @@
+#ITI#Bayesian meta-analysis using SAS PROC BGLIMM#FTI#
+#IRE# Meta-analysis is commonly used to compare two treatments. Network meta-analysis (NMA) is a powerful extension for comparing and contrasting multiple treatments simultaneously in a systematic review of multiple clinical trials. Although the practical utility of meta-analysis is apparent, it is not always straightforward to implement, especially for those interested in a Bayesian approach. This paper demonstrates that the recently-developed SAS procedure BGLIMM provides an intuitive and computationally efficient means for conducting Bayesian meta-analysis in SAS, using a worked example of a smoking cessation NMA data set. BGLIMM gives practitioners an effective and simple way to implement Bayesian meta-analysis (pairwise and network, either contrast-based or arm-based) without requiring significant background in coding or statistical modeling. Those familiar with generalized linear mixed models, and especially the SAS procedure GLIMMIX, will find this tutorial a useful introduction to Bayesian meta-analysis in SAS#FRE#
+#IPC# Bayesian methods; BGLIMM; multiple treatment comparisons; network meta-analysis; SAS#FPC#
+#IRF# Lee A.W., Review of mixed treatment comparisons in published systematic reviews shows marked increase since 2009, J Clin Epidemiol, 67, 2, pp. 138-143, (2014); 
+Higgins J.P.T., Whitehead A., Borrowing strength from external trials in a meta-analysis, Stat Med, 15, 24, pp. 2733-2749, (1996); 
+Lumley T., Network meta-analysis for indirect treatment comparisons, Stat Med, 21, 16, pp. 2313-2324, (2002); 
+Lu G., Ades A.E., Combination of direct and indirect evidence in mixed treatment comparisons, Stat Med, 23, 20, pp. 3105-3124, (2004); 
+Caldwell D.M., Ades A.E., Higgins J.P.T., Simultaneous comparison of multiple treatments: combining direct and indirect evidence, BMJ, 331, 7521, pp. 897-900, (2005); 
+Hong H., Chu H., Zhang J., Carlin B.P., A Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons, Res Synth Methods, 7, 1, pp. 6-22, (2016); 
+Dias S., Sutton A.J., Ades A.E., Welton N.J., Evidence synthesis for decision making 2: a generalized linear modeling framework for pairwise and network meta-analysis of randomized controlled trials, Med Decis Making, 33, 5, pp. 607-617, (2013); 
+White I.R., Turner R.M., Karahalios A., Salanti G., A comparison of arm-based and contrast-based models for network meta-analysis, Stat Med, 38, 27, pp. 5197-5213, (2019); 
+Lin L., Chu H., Hodges J.S., Sensitivity to excluding treatments in network meta-analysis, Epidemiology, 27, 4, pp. 562-569, (2016); 
+Dias S., Ades A.E., Absolute or relative effects? Arm-based synthesis of trial data, Res Synth Methods, 7, 1, pp. 23-28, (2016); 
+Hong H., Chu H., Jing Z., Carlin B.P., Rejoinder to the discussion of "a Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons," by S. Dias and A. E. Ades, Res Synth Methods, 7, 1, pp. 29-33, (2016); 
+Xu C., Niu Y., Wu J., Gu H., Zhang C., Software and package applicating for network meta-analysis: a usage based comparative study, J Evid Based Med, 11, 3, pp. 176-183, (2018); 
+Neupane B., Richer D., Bonner A.J., Kibret T., Beyene J., Network meta-analysis using R: a review of currently available automated packages, PLos One, 9, 12, (2014); 
+White I.R., Multivariate random-effects meta-regression: updates to mvmeta, Stata J, 11, 2, pp. 255-270, (2011); 
+Van Valkenhoef G., Lu G., de Brock B., Hillege H., Ades A.E., Welton N.J., Automating network meta-analysis, Res Synth Methods, 3, 4, pp. 285-299, (2012); 
+Rucker G., Schwarzer G., Krahn U., Konig J.; 
+Lin L., Zhang J., Hodges J.S., Chu H., Performing arm-based network meta-analysis in R with the pcnetmeta package, J Stat Softw, 80, 5, pp. 1-25, (2017); 
+Jones B., Roger J., Lane P.W., Et al., Statistical approaches for conducting network meta-analysis in drug development, Pharm Stat, 10, 6, pp. 523-531, (2011); 
+Shi A., Chen F., Introducing the BGLIMM procedure for Bayesian generalized linear mixed models. In Proceedings of the SAS Global Forum 2019 Conference. Cary, NC: SAS Institute Inc; 2019.; 
+The BGLIMM procedure, SAS/STAT 15.2 User's Guide, (2019); 
+Hasselblad V., Meta-analysis of multitreatment studies, Med Decis Making, 18, 1, pp. 37-43, (1998); 
+Jackson D., Law M., Stijnen T., Viechtbauer W., White I.R., A comparison of seven random-effects models for meta-analyses that estimate the summary odds ratio, Stat Med, 37, 7, pp. 1059-1085, (2018); 
+Simmonds M.C., Higgins J.P.T., A general framework for the use of logistic regression models in meta-analysis, Stat Methods Med Res, 25, 6, pp. 2858-2877, (2016); 
+Viechtbauer W., Conducting meta-analysis in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Zhang J., Carlin B.P., Neaton J.D., Et al., Network meta-analysis of randomized clinical trials: reporting the proper summaries, Clin Trials, 11, 2, pp. 246-262, (2014); 
+van Houwelingen H.C., Arends L.R., Stijnen T., Advanced methods in meta-analysis: multivariate approach and meta-regression, Stat Med, 21, 4, pp. 589-624, (2002); 
+Chu H., Nie L., Chen Y., Huang Y., Sun W., Bivariate random effects models for meta-analysis of comparative studies with binary outcomes: methods for the absolute risk difference and relative risk, Stat Methods Med Res, 21, 6, pp. 621-633, (2012); 
+Zeger S.L., Liang K.Y., Albert P.S., Models for longitudinal data: a generalized estimating equation approach, Biometrics, 44, 4, pp. 1049-1060, (1988); 
+Kincaid C., Guidelines for selecting the covariance structure in mixed model analysis. Paper presented at: SAS Users Group International 30; April 10-13, 2005; Philadelphia, PA; 
+Barnard J., McCulloch R., Meng X.L., Modeling covariance matrices in terms of standard deviations and correlations, with application to shrinkage, Stat Sin, 10, 4, pp. 1281-1311, (2000); 
+Gelman A., Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper), Bayesian Anal, 1, 3, pp. 515-534, (2006); 
+Gustafson P., Hossain S., MacNab Y.C., Conservative prior distributions for variance parameters in hierarchical models, Can J Stat, 34, 3, pp. 377-390, (2006); 
+Lu G., Ades A.E., Modeling between-trial variance structure in mixed treatment comparisons, Biostatistics, 10, 4, pp. 792-805, (2009); 
+Wang Z., Lin L., Hodges J.S., Chu H., The impact of covariance priors on arm-based Bayesian network meta-analyses with binary outcomes, Stat Med, 39, 22, pp. 2883-2900, (2020); 
+Wang Z., Lin L., Hodges J.S., MacLehose R., Chu H., A variance shrinkage method improves arm-based Bayesian network meta-analysis, Stat Methods Med Res, 30, 1, pp. 151-165, (2021); 
+The KDE procedure, SAS/STAT 13.1 User's Guide, (2013); 
+Kass R.E., Carlin B.P., Gelman A., Neal R.M., Markov chain Monte Carlo in practice: a roundtable discussion, Am Stat, 52, 2, pp. 93-100, (1998); 
+Jones G.L., Haran M., Caffo B.S., Neath R., Fixed-width output analysis for Markov chain Monte Carlo, J Am Stat Assoc, 101, 476, pp. 1537-1547, (2006); 
+Spiegelhalter D.J., Best N.G., Carlin B.P., van der Linde A., Bayesian measures of model complexity and fit, J R Stat Soc Ser B Stat Methodol., 64, 4, pp. 583-639, (2002); 
+Spiegelhalter D.J., Best N.G., Carlin B.P., van der Linde A., The deviance information criterion: 12 years on, J R Stat Soc Ser B Stat Methodol, 76, 3, pp. 485-493, (2014)#FRF#

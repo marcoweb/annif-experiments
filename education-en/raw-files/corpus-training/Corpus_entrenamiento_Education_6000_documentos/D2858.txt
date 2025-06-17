@@ -1,0 +1,56 @@
+#ITI#Meta-regression methods to characterize evidence strength using meaningful-effect percentages conditional on study characteristics#FTI#
+#IRE# Meta-regression analyses usually focus on estimating and testing differences in average effect sizes between individual levels of each meta-regression covariate in turn. These metrics are useful but have limitations: they consider each covariate individually, rather than in combination, and they characterize only the mean of a potentially heterogeneous distribution of effects. We propose additional metrics that address both limitations. Given a chosen threshold representing a meaningfully strong effect size, these metrics address the questions: “For a given joint level of the covariates, what percentage of the population effects are meaningfully strong?” and “For any two joint levels of the covariates, what is the difference between these percentages of meaningfully strong effects?” We provide semiparametric methods for estimation and inference and assess their performance in a simulation study. We apply the proposed methods to meta-regression analyses on memory consolidation and on dietary behavior interventions, illustrating how the methods can provide more information than standard reporting alone. To facilitate implementing the methods in practice, we provide reporting guidelines and simple R code#FRE#
+#IPC# bootstrapping; effect sizes; heterogeneity; meta-analysis; meta-regression; semiparametric#FPC#
+#IRF# Sutton A.J., Abrams K.R., Jones D.R., Sheldon T.A., Song F., Methods for Meta-Analysis in Medical Research, 348, (2000); 
+Hedges L.V., Saul J.A., Cyr C., Et al., Childhood obesity evidence base project: a rationale for taxonomic versus conventional meta-analysis, Childhood Obes, 16, S2, pp. S2-S1, (2020); 
+Mathur M.B., Vander Weele T.J., New metrics for meta-analyses of heterogeneous effects, Stat Med, 38, 8, pp. 1336-1342, (2019); 
+Mathur M.B., VanderWeele T.J., Robust metrics and sensitivity analyses for meta-analyses of heterogeneous effects, Epidemiology, 31, 3, pp. 356-358, (2020); 
+Wang C.-C., Lee W.-C., A simple method to estimate prediction intervals and predictive distributions: summarizing meta-analyses beyond means and confidence intervals, Res Synth Methods, 10, 2, pp. 255-266, (2019); 
+Ludema C., Cole S.R., Poole C., Chu H., Eron J.J., Meta-analysis of randomized trials on the association of prophylactic acyclovir and hiv-1 viral load in individuals coinfected with herpes simplex virus-2, AIDS (London, England), 25, 10, (2011); 
+Mathur M.B., VanderWeele T.J., Finding common ground in meta-analysis wars on violent video games, Persp Psychol Sci, 14, 4, pp. 705-708, (2019); 
+Lewis M., Mathur M.B., VanderWeele T.J., Frank M.C., The puzzling relationship between multi-lab replications and meta-analyses of the published literature. Preprint; 
+Baumeister S.E., Leitzmann M.F., Linseisen J., Schlesinger S., Physical activity and the risk of liver cancer: a systematic review and meta-analysis of prospective studies and a bias analysis, JNCI J Natl Cancer Inst, 111, 11, pp. 1142-1151, (2019); 
+Noetel M., Griffith S., Delaney O., Sanders T., Parker P., del Pozo Cruz B., Lonsdale C., Are you better on YouTube? A systematic review of the effects of video on learning in higher education. Preprint, (2020); 
+Frederick D.E., VanderWeele T.J., Longitudinal meta-analysis of job crafting shows positive association with work engagement, Cogent Psychol, 7, 1, (2020); 
+VanderWeele T.J., Mathur M.B., Chen Y., Media portrayals and public health i mplications for suicide and other behaviors, JAMA Psychiatry, 76, 9, pp. 891-892, (2019); 
+Mathur M.B., Peacock J., Reichling D.B., Et al., Interventions to reduce meat consumption by appealing to animal welfare: meta-analysis and evidence-based recommendations, Appetite, (2021); 
+Hedges L.V., Tipton E., Johnson M.C., Robust variance estimation in meta-regression with dependent effect size estimates, Res Synth Methods, 1, 1, pp. 39-65, (2010); 
+Fisher Z., Tipton E., Robumeta: an R-package for robust variance estimation in meta-analysis. arXiv Preprint arXiv:1503.02220, (2015); 
+Pustejovsky J.E., Tipton E., Meta-analysis with robust variance estimation: expanding the range of working models, Prev Sci, (2020); 
+Hu X., Cheng L.Y., Chiu M.H., Paller K.A., Promoting memory consolidation during sleep: a meta-analysis of targeted memory reactivation, Psychol Bull, 146, 3, (2020); 
+Louis T.A., Estimating a population of parameter values using Bayes and empirical Bayes methods, J Am Stat Assoc, 79, 386, pp. 393-398, (1984); 
+Efron B., Better bootstrap confidence intervals, J Am Stat Assoc, 82, 397, pp. 171-185, (1987); 
+Carpenter J., Bithell J., Bootstrap confidence intervals: when, which, what? A practical guide for medical statisticians, Stat Med, 19, 9, pp. 1141-1164, (2000); 
+Davison A.C., Hinkley D.V., Bootstrap Methods and their Application, (1997); 
+Tipton E., Small sample adjustments for robust variance estimation with meta-regression, Psychol Methods, 20, 3, (2015); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Mathur M.B., VanderWeele T.J., Sensitivity analysis for unmeasured confounding in meta-analyses, J Am Stat Assoc, 115, 529, pp. 163-172, (2020); 
+Spiegelman D., VanderWeele T.J., Evaluating public health interventions: 6. Modeling ratios or differences? Let the data tell us, Am J Public Health, 107, 7, pp. 1087-1091, (2017); 
+VanderWeele T., Explanation in Causal Inference: Methods for Mediation and Interaction, (2015); 
+Greenland S., Schlesselman J.J., Criqui M.H., The fallacy of employing standardized regression coefficients and correlations as measures of effect, Am J Epidemiol, 123, 2, pp. 203-208, (1986); 
+Cummings P., Arguments for and against standardized mean differences (effect sizes), Arch Pediatr Adolesc Med, 165, 7, pp. 592-596, (2011); 
+Shrier I., Christensen R., Juhl C., Beyene J., Meta-analysis on continuous outcomes in minimal important difference units: an application with appropriate variance calculations, J Clin Epidemiol, 80, pp. 57-67, (2016); 
+Mathur and Tyler J VanderWeele. A simple, interpretable conversion from Pearson's correlation to Cohen's d for continuous exposures, Epidemiology, 31, 2, pp. e16-e18, (2020); 
+Cohen J., Statistical Power Analysis for the Behavioral Sciences, (2013); 
+Gross A.L., Parisi J.M., Spira A.P., Et al., Memory training interventions for older adults: a meta-analysis, Aging Mental Health, 16, 6, pp. 722-734, (2012); 
+Donovan J.J., Radosevich D.J., A meta-analytic review of the distribution of practice effect: now you see it, now you don't, J Appl Psychol, 84, 5, (1999); 
+Mathur M.B., Robinson T.N., Reichling D.B., Et al., Reducing meat consumption by appealing to animal welfare: protocol for a meta-analysis and theoretical review, Syst Rev, 9, 1, pp. 1-8, (2020); 
+Rothgerber H., Meat-related cognitive dissonance: a conceptual framework for understanding how meat eaters reduce negative arousal from eating animals, Appetite, 146, (2020); 
+Chapman H.A., Anderson A.K., Things rank and gross in nature: a review and synthesis of moral disgust, Psychol Bull, 139, 2, (2013); 
+Feinberg M., Kovacheff C., Teper R., Inbar Y., Understanding the process of moralization: how eating meat becomes a moral issue, J Pers Soc Psychol, 117, pp. 50-72, (2019); 
+Arno A., Thomas S., The efficacy of nudge theory strategies in influencing adult dietary behaviour: a systematic review and meta-analysis, BMC Public Health, 16, 1, (2016); 
+Brewer N.T., Hall M.G., Noar S.M., Et al., Effect of pictorial cigarette pack warnings on changes in smoking behavior: a randomized clinical trial, JAMA Int Med, 176, 7, pp. 905-912, (2016); 
+VanderWeele T.J., On a square-root transformation of the odds ratio for a common outcome, Epidemiology, 28, 6, pp. e58-e60, (2017); 
+VanderWeele T.J., Optimal approximate conversions of odds ratios and hazard ratios to risk ratios, Biometrics, 76, pp. 746-752, (2019); 
+Mathur M.B., VanderWeele T.J., Estimating publication bias in meta-analyses of peer-reviewed studies: A meta-meta-analysis across disciplines and journal tiers. Preprint, (2020); 
+Higgins P.T., Thompson S.G., Deeks J.J., Altman D.G., Measuring inconsistency in meta-analyses, BMJ, 327, 7414, pp. 557-560, (2003); 
+Valentine J.C., Pigott T.D., Rothstein H.R., How many studies do you need? A primer on statistical power for meta-analysis, J Educ Behav Stat, 35, 2, pp. 215-247, (2010); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Mathur M.B., Wang R., VanderWeele T.J., MetaUtility: utility functions for conducting and interpreting meta-analyses. R Package Version 2.1.0, (2019); 
+Canty A., Ripley B., Boot: Bootstrap Functions. R package version 1.3-27, (2021); 
+Hall P., Wilson S.R., Two guidelines for bootstrap hypothesis testing, Biometrics, 47, 2, pp. 757-762, (1991); 
+Samuels M.L., Statistical reversion toward the mean: more universal than regression toward the mean, Am Stat, 45, 4, pp. 344-346, (1991); 
+Thompson S.G., Higgins J.P.T., How should meta-regression analyses be undertaken and interpreted?, Stat Med, 21, 11, pp. 1559-1573, (2002); 
+VanderWeele T.J., Knol M.J., Interpretation of subgroup analyses in randomized trials: heterogeneity versus secondary interventions, Ann Internal Med, 154, 10, pp. 680-683, (2011); 
+Steele R.J., Schnitzer M.E., Shrier I., Importance of homogeneous effect modification for causal interpretation of meta-analyses, Epidemiology, 31, 3, pp. 353-355, (2020); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synt Methods, 7, 1, pp. 55-79, (2016)#FRF#

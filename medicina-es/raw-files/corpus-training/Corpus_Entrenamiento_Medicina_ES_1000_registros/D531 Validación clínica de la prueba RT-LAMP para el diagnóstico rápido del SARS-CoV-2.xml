@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6523</article-id>
+			<article-id pub-id-type="publisher-id">00007</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Validación clínica de la prueba RT-LAMP para el diagnóstico rápido del SARS-CoV-2</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Clinical validation of the isothermal RT-LAMP test for rapid diagnosis of SARS-CoV-2</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Hurtado</surname>
+						<given-names>Leidy</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Díaz</surname>
+						<given-names>Diana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Escorcia</surname>
+						<given-names>Katherine</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Flórez</surname>
+						<given-names>Laura</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Bello</surname>
+						<given-names>Yesit</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Díaz</surname>
+						<given-names>Yirys</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Navarro</surname>
+						<given-names>Elkin</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Pacheco</surname>
+						<given-names>Leonardo C.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Galán</surname>
+						<given-names>Nataly</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Maestre</surname>
+						<given-names>Ronald</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Acosta</surname>
+						<given-names>Antonio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Pacheco</surname>
+						<given-names>Lisandro A.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff6"><sup>5</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">División Ciencias de la Salud, Universidad del Norte, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad del Norte</institution>
+				<institution content-type="orgname">Universidad del Norte</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Programa de Microbióloga, Universidad Simón Bolívar, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Simón Bolívar</institution>
+				<institution content-type="orgname">Universidad Simón Bolívar</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Unidad de Genética y Biología Molecular, Facultad de Ciencias Básicas y Biomédicas, Universidad Simón Bolívar, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Simón Bolívar</institution>
+				<institution content-type="orgname">Universidad Simón Bolívar</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Centro de Investigaciones en Ciencias de la Vida, Universidad Simón Bolívar, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Simón Bolívar</institution>
+				<institution content-type="orgname">Universidad Simón Bolívar</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Facultad de Ciencias de la Salud, Universidad Simón Bolívar, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Simón Bolívar</institution>
+				<institution content-type="orgname">Universidad Simón Bolívar</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff6">
+				<label>5</label>
+				<institution content-type="original">Facultad de Ciencias de la Salud, Universidad Simón Bolívar, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Simón Bolívar</institution>
+				<institution content-type="orgname">Universidad Simón Bolívar</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>lpacheco28@unisimonbolivar.edu.co</email>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Lisandro Pacheco, Unidad de Genética y Biología Molecular, Facultad de Ciencias Básicas y Biomédicas, Universidad Simón Bolívar, Barranquilla, Colombia <email>lpacheco28@unisimonbolivar.edu.co</email> Teléfono: (57) (301) 571 0104</corresp>
+				<fn fn-type="conflict" id="fn6">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores manifiestan no tener conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>31</day>
+				<month>10</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<month>10</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>42</volume>
+			<issue>Sp. 2</issue>
+			<fpage>59</fpage>
+			<lpage>72</lpage>
+			<history>
+				<date date-type="received">
+					<day>10</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>09</day>
+					<month>09</month>
+					<year>2022</year>
+				</date>
+				<date date-type="pub">
+					<day>14</day>
+					<month>09</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción</title>
+					<p> Desde el primer reporte en la provincia de Wuhan (China) en el año 2019, el SARS-CoV-2 se ha diseminado por todo el mundo, provocando un enorme impacto en la salud pública. Para su diagnóstico, la Organización Mundial de la Salud ha incentivado el desarrollo de pruebas rápidas, de simple ejecución, sensibles y específicas, que complementan la RT-qPCR como prueba de referencia. La prueba RT-LAMP ha mostrado ser una excelente alternativa para la detección del SARS-CoV-2 en diferentes biofluidos. </p>
+				</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p>Validar la técnica RT-LAMP colorimétrica en muestras de hisopado nasofaríngeo previamente confirmadas por RT-qPCR, usando el protocolo Charité, Berlín, Alemania. </p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos</title>
+					<p>Un total de 153 muestras de hisopado nasofaríngeo de individuos con sospecha de COVID-19 se sometieron a RT-qPCR y RT-LAMP, usando un estuche comercial colorimétrico (NEB, Germany). La RT-LAMP se practicó con las muestras de ARN extraídas del hisopado nasofaríngeo y con muestras crudas sin previa extracción de ARN. El resultado fue evaluado por un simple cambio de color en la reacción.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>La sensibilidad y especificidad de la técnica RT-LAMP para detectar el gen <italic>N</italic> del SARS-CoV-2 mediante un set de cebadores previamente reportados (set de Broughton), arrojó valores de 0,97 (0,85-1,00) y 0,81 (0,65-0,92), respectivamente, con un intervalo de confianza del 95%. Otro set de cebadores dirigidos contra otra región del mismo gen (set de Lalli) arrojó valores de sensibilidad y especificidad de 0,96 (0,78-1,00) y 0,77 (0,55-0,92), respectivamente. Sin previa extracción de ARN, se encontró que la sensibilidad fue del 0,95 (0,74-1,00) y la especificidad del 0,88 (0,64-0,99).</p>
+				</sec>
+				<sec>
+					<title>Conclusiones</title>
+					<p>Estos resultados evidencian que la técnica RT-LAMP podría considerarse una prueba diagnóstica rápida, de fácil ejecución, libre de equipos sofisticados, sensible y específica, para el diagnóstico del SARS-CoV-2 en muestras de hisopados nasofaríngeos.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Since the first report in Wuhan (China) in 2019, the SARS-CoV-2 virus has spread throughout the world, with a significant impact in public health. To contain its transmission, the WHO has encouraged the development of rapid, simple, sensitive and specific tests that complement qRT-PCR, as the gold standard. RT-LAMP has shown to be a good alternative to detect SARS-CoV-2 in different fluid samples.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To validate the colorimetric RT-LAMP technique using two sets of primers targeting <italic>N</italic> gene of SARS-CoV-2 in 117 nasopharyngeal swab samples previously confirmed by RT-qPCR, using the Charité/Berlin protocol.</p>
+				</sec>
+				<sec>
+					<title>Material and methods: </title>
+					<p>A total of 153 nasopharyngeal swab samples from individuals with suspected COVID-19 were subjected to qRT-PCR and RT-LAMP using a commercial colorimetric kit (NEB, Germany). RT-LAMP was performed using both extracted RNA samples and raw samples without prior RNA extraction, and the result was assessed by a simple color change in the reaction.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>Sensitivity and specificity for the previously reported RT-LAMP primers (Broughton set) targeting <italic>N</italic> gene of SARS-CoV-2 were 0.97 (0.85-1.00) and 0.81 (0.65-0.92) respectively, with CI95%. The Lalli primers targeting another region of the <italic>N</italic> gene used showed a sensitivity value of 0.96 (0.78-1.00) and a specificity of 0.77 (0.55-0.92). Without RNA extraction we found a sensitivity value of 0.95 (0.74, 1.00) and a specificity of 0.88 (0.64, 0.99). A sensitivity value of 0.95 (0.74-1.00) and a specificity 0.88 (0.64-0.99) were found without prior RNA extraction.</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>Taking together, the results showed that RT-LAMP technique could be considered as a rapid diagnostic test, easy to perform, free of sophisticated equipment, sensitive and specific to diagnose SARS-CoV-2 in nasopharyngeal swabs with and without prior RNA extraction, allowing its implementation in places with scarce resources.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>COVID-19/diagnóstico</kwd>
+				<kwd>técnicas de diagnóstico molecular</kwd>
+				<kwd>sensibilidad y especificidad</kwd>
+				<kwd>pruebas en el punto de atención</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>COVID-19/diagnosis</kwd>
+				<kwd>molecular diagnostic techniques</kwd>
+				<kwd>sensitivity and specificity</kwd>
+				<kwd>point-of-care testing</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="6"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="29"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La aparición de un nuevo síndrome respiratorio agudo y grave (COVID-19), ocasionado por el virus SARS-CoV-2, se ha desarrollado como un evento pandémico que produjo graves problemas de salud pública, con un amplio impacto en la economía global. Desde el inició de la pandemia en diciembre del 2019 hasta agosto del 2022, la COVID-19 ha sido responsable de más de 6,4 millones de muertes y sobrepasa los 600 millones de personas infectadas a nivel mundial desde el primer reporte en la provincia de Wuhan, China <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Es de resaltar que el SARS-CoV-2 es un virus perteneciente a la familia Coronaviridae, género <italic>Betacoronavirus</italic> y subgénero <italic>Sarbecoronavirus</italic> o <italic>Sarbecovirus</italic><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>El diagnóstico molecular del SARS-CoV-2 se basa en la detección de proteínas virales en pruebas serológicas o de antígenos, o a partir del ARN viral en muestras clínicas de individuos con sospecha de COVID-19. Las pruebas de antígenos se consideran como las menos sensibles y con menor especificidad para diagnosticar la enfermedad <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>En la actualidad, la reacción en cadena de la polimerasa en tiempo real con transcriptasa inversa (RT-qPCR) se considera la técnica molecular más sensible y específica para diagnosticar el SARS-CoV-2 <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Sin embargo, la RT-qPCR es una técnica compleja y laboriosa que requiere de equipos eficientes y costosos, y de personal entrenado e infraestructura específica para su ejecución. En concordancia con la aparición de nuevas variantes del virus con un potencial de diseminación mucho mayor a la cepa original del SARS-CoV-2, la Organización Mundial de la Salud (OMS) está incentivando el desarrollo de nuevas herramientas de diagnóstico molecular que soslayen las dificultades antes mencionadas de la RT-qPCR, y que mantengan su buen grado de sensibilidad y especificidad.</p>
+		<p>Algunas metodologías de diagnóstico molecular han surgido en los últimos tiempos, como RT-LAMP, DETECTR y SHERLOCK (basado en el sistema CRISPR/Cas) <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>, y amplificación por polimerasas y recombinasas (RPA), entre otras <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, todas con sensibilidad y especificidad variables. De todas las metodologías anteriormente mencionadas, la técnica RT-LAMP ha demostrado un enorme potencial en el diagnóstico de SARS-CoV-2 y podría ser una metodología útil para complementar el diagnóstico de COVID-19 en centros de salud con bajos recursos.</p>
+		<p>La técnica molecular LAMP (<italic>Loop Mediated Isothermal Amplification</italic>) es una prueba de principio isotérmico; es decir, se ejecuta a una única temperatura. Por lo tanto, las pruebas diagnósticas basadas en ella pueden practicarse en cualquier lugar, inclusive en aquellos con recursos limitados, debido a que solo se requiere un equipo que pueda ser ajustado a una única temperatura. Los abordajes colorimétricos de la LAMP incluyen la detección de la turbidez de la reacción, provocada por la acumulación de pirofosfato de magnesio <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, y también, cambios de color que ocurren cuando colorantes sensibles a cambios de pH o incluso, colorantes interpuestos de ADN, se incorporan en la reacción <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref> (<xref ref-type="fig" rid="f1">figura 1</xref> y <xref ref-type="fig" rid="f2">2</xref>).</p>
+		<p>
+			<fig id="f1">
+				<label>Figura 1</label>
+				<caption>
+					<title>Flujograma conceptual de la prueba LAMP para detectar SARS-CoV-2 en muestras de hisopado nasal. A) La reacción de RT-LAMP a partir de muestras de hisopado nasofaríngeo de individuos con sospecha de Covid-19 se ejecuta a partir de: i) ARN extraído o ii) directamente de las muestras sin extracción de ARN, con un previo paso de inactivación a 95 °C por 5 minutos. B) La RT-LAMP hace uso de 6 cebadores (marcados aquí en colores) que, en presencia del ARN diana (espiral de color rojo), inician la amplificación isotérmica, generando protones que inducen un cambio de pH en la reacción, con la subsecuente virada de color de rosa a amarillo. C) La reacción de amplificación en RT-LAMP genera productos de diferentes masas moleculares en forma de concatámeros que pueden observarse fácilmente en un gel de agarosa.</title>
+				</caption>
+				<graphic xlink:href="2590-7379-bio-42-s2-59-gf1.gif"/>
+				<attrib>Figura creada usando el <italic>software</italic> Biorender.</attrib>
+			</fig>
+		</p>
+		<p>
+			<fig id="f2">
+				<label>Figura 2</label>
+				<caption>
+					<title>Resultado colorimétrico de RT-LAMP. Reacción color rosa: muestra negativa para SARS-CoV-2. Reacción color amarillo: resultado positivo para el gen N del SARS-CoV-2</title>
+				</caption>
+				<graphic xlink:href="2590-7379-bio-42-s2-59-gf2.gif"/>
+			</fig>
+		</p>
+		<p>En la técnica LAMP se emplea una ADN polimerasa termoestable, conocida como Bst, aislada de la bacteria <italic>Bacillus stearothermophilus</italic>, cuya actividad enzimática se da a temperaturas entre 60 y 65 °C, y un conjunto de 4 a 6 cebadores que permite identificar 6 a 8 secuencias distintas en el gen diana de interés; una DNA polimerasa con actividad de desplazamiento de hebra inicia la síntesis y dos de los cebadores forman estructuras en bucle para facilitar las subsecuentes rondas de amplificación <xref ref-type="bibr" rid="B15"><sup>15</sup></xref> (<xref ref-type="fig" rid="f1">figura 1B</xref>).</p>
+		<p>Esta ADN polimerasa tiene actividad helicasa y actividad exonucleasa 3-5' <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, además de ser mucho más robusta que la Taq ADN polimerasa (<italic>Thermus aquaticus</italic>), empleada en la PCR convencional, debido a que la Bst puede actuar normalmente en presencia de inhibidores presentes en muestras biológicas o medios de transporte viral, que habitualmente interfieren con el desempeño de la técnica. Cuando la diana que se quiere amplificar es de ARN, se incorpora una transcriptasa inversa a la reacción, por lo cual se denomina RT-LAMP.</p>
+		<p>En el presente trabajo, se evalúa el desempeño de la prueba isotérmica RT-LAMP a partir de ARN extraído de muestras nasofaríngeas de pacientes con sospecha de COVID-19, remitidas a la Unidad de Genética y Biología Molecular de la Universidad Simón Bolívar de Barranquilla. De igual forma, se reportan los resultados preliminares de la detección del ARN viral por RT- LAMP directamente en hisopados nasofaríngeos sin previa extracción de ARN.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Muestras</italic></title>
+				<p>Se recolectaron 153 muestras de hisopados nasofaríngeos de pacientes con sospecha de COVID-19, en la Unidad de Genética y Biología Molecular de la Universidad Simón Bolívar de Barranquilla, durante el período comprendido entre junio de 2021 y enero de 2022. Las muestras se inactivaron rápidamente en medio de transporte viral y se almacenaron a -80 °C hasta su uso.</p>
+			</sec>
+			<sec>
+				<title><italic>Extracción de ARN</italic></title>
+				<p>De ellas, 117 muestras se sometieron a extracción de ARN a partir de 200 μΙ de hisopado nasofaríngeo contenido en medio de transporte viral, con el kit de extracción Quick-RNA Viral Kit™ (ZYMO Research), que emplea perlas magnéticas de sílice para la purificación del ARN total, siguiendo las recomendaciones del fabricante. En seguida, se adicionaron 400 μΙ de solución tampón de ARN viral a cada 200 μΙ de muestra (2:1) y se mezcló suavemente. Posteriormente, se realizaron lavados sucesivos para, finalmente, eluir el ARN en 15 μl de agua libre de ADNasa/RNasa.</p>
+			</sec>
+			<sec>
+				<title><italic>RT-qPCR</italic></title>
+				<p>Para llevar a cabo la RT-PCR, se utilizó el kit SuperScript III One-Step RT-PCR System with Platinum Taq DNA Polymerase™ (Invitrogen, catálogo: 1257401). Se emplearon 8 μl de solución tampón de reacción 2X que contenía 0,4 mM de cada dNTP, 3,2 mM de MgSO<sub>4</sub>, 0,3 μl de transcriptasa inversa (SuperScript III RT/Platinum Taq Mix), 200 nM de cada cebador dirigido contra el gen <italic>E</italic> del SARS-CoV-2 y 100 nM de sonda TaqMan conjugada al fluoróforo CAL Red 610. Además, se introdujo un control endógeno a la reacción (gen RNase P humano), 100 nM de cada cebador y 100 nM de sonda TaqMan-Hex, para su amplificación. Los cebadores empleados para amplificar un fragmento del gen E que codifica para la envoltura del virus (específico del subgénero <italic>Sarbecovirus</italic>) fueron proporcionados por Biosearch Technologies™, con base en el protocolo descrito por Corman, <italic>et al</italic>. <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Las secuencias se muestran en el <xref ref-type="table" rid="t1">cuadro 1</xref>.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Cebadores utilizados en este trabajo para la detección colorimétrica del gen N de SARS-CoV-2</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col span="2"/>
+								<col/>
+								<col span="2"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="3">Cebadores para amplificación </th>
+									<th align="center" colspan="2" rowspan="3">[ ] Inicial (10X) </th>
+									<th align="center" rowspan="3">[ ] en la LAMP (1X)</th>
+									<th align="center" colspan="2">Set de iniciadores</th>
+								</tr>
+								<tr>
+									<th align="center" colspan="2">Secuencia 5'-3' Gen N SARS-CoV-2</th>
+								</tr>
+								<tr>
+									<th align="center"><bold>Broughton, <italic>et al.</italic>
+</bold><xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+									</th>
+									<th align="center"><bold>Lalli, <italic>et al</italic>.</bold><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Cebadores RT-LAMP</td>
+									<td align="left">F3</td>
+									<td align="left">2 μ M</td>
+									<td align="center">0,2 μ M</td>
+									<td align="left">5'-AACACAAGCTTTCGGCAG-3'</td>
+									<td align="left">5'-TGGCTACTACCGAAGAGCT-3·</td>
+								</tr>
+								<tr>
+									<td align="left">Gen N SARS-CoV-2</td>
+									<td align="left">B3</td>
+									<td align="left">2 μ M</td>
+									<td align="center">0,2 μ M</td>
+									<td align="left">5'-GAAATTTGGATCTTTGTCATCC-3'</td>
+									<td align="left">5'-TGCAGCATTGTTAGCAGGAT-3'</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">BL</td>
+									<td align="left">8 μ M</td>
+									<td align="center">0,8 μ M</td>
+									<td align="left">5'-TTCCTTGTCTGATTAGTTC-3'</td>
+									<td align="left">5'-GGACTGAGATCTTTCATTTTACCGT-3'</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">FL</td>
+									<td align="left">8 μ M</td>
+									<td align="center">0,8 μ M</td>
+									<td align="left">5'-ACCTTCGGGAACGTGGTT-3'</td>
+									<td align="left">5'-ACTGAGGGAGCCTTGAATACA-3'</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">FIP</td>
+									<td align="left">16 μ M</td>
+									<td align="center">1,6 μ M</td>
+									<td align="left">5'-TGCGGCCAATGTTTGTAATCAGC</td>
+									<td align="left">5'-TCTGGCCCAGTTCCTAGGTAGTCCAGAC</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left"> </td>
+									<td align="left"> </td>
+									<td align="center"> </td>
+									<td align="left">CAAGGAAATTTTGGGGAC-3'</td>
+									<td align="left">GAATTCGTGGTGG-3'</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">FIB</td>
+									<td align="left">16 μ M</td>
+									<td align="center">1,6 μ M</td>
+									<td align="left">5'-CGCATTGGCATGGAAGTCACTTT</td>
+									<td align="left">5--AGACGGCATCATATGGGTTGCACGGGTG</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left"> </td>
+									<td align="left"> </td>
+									<td align="left"> </td>
+									<td align="left">GATGGCACCTGTGTAG-3'</td>
+									<td align="left">CCAATGTGATCT-3'</td>
+								</tr>
+								<tr>
+									<td align="left">Cebadores RT-qPCR</td>
+									<td align="left" colspan="3">Cebador delantero-gen E </td>
+									<td align="left">5'ACAGGTACGTTAATAGTTAATAGCGT3</td>
+									<td align="left"> </td>
+								</tr>
+								<tr>
+									<td align="left">Gen E</td>
+									<td align="left" colspan="3">Cebador inverso-gen E </td>
+									<td align="center" colspan="2">5 ́ACAGGTACGTTAATAGTTAATAGCGT3 </td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left" colspan="3">sonda TaqMan CAL FLUOR RED-gen E </td>
+									<td align="center" colspan="2">610-5'ACACTAGCCATCCTTACTGCGCTTCG3'-BBQ-2 </td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left" colspan="3">cebador delantero </td>
+									<td align="center" colspan="2">5 ́-AGATTTGGACCTGCGAGCG-3 ́ </td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left" colspan="3">cebador inverso </td>
+									<td align="center" colspan="2">5 ́-GAGCGGCTGTCTCCACAAGT-3 ́ </td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left" colspan="3">sonda TaqMan </td>
+									<td align="center" colspan="2">HEX-5 ́TTCTGACCT-Nova-GAAGGCTCTGCGCG3 ́-BHQ-1 </td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>La RT-qPCR se practicó con el equipo CFX96™ Bio-Rad, bajo las siguientes condiciones de amplificación: 50 °C por 20 minutos, seguido de 95 °C por 3 minutos, y finalizando con 45 ciclos de 95 °C por 15 s y 58 °C por 30 s.</p>
+			</sec>
+			<sec>
+				<title><italic>RT-LAMP</italic></title>
+				<p>Esta técnica de amplificación isotérmica se preparó con el kit Warmstart colorimetric LAMP 2X Master Mix (DNA &amp; RNA) (NEB), siguiendo las recomendaciones de la casa comercial. En ella, se emplea un conjunto de seis cebadores para lograr la amplificación mediada por lazos. En este estudio de validación clínica, se emplearon los cebadores reportados por Broughton, <italic>et al</italic>. <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, y por Lalli, <italic>et al</italic>. <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>; ambos juegos de cebadores amplifican un segmento del gen <italic>N</italic> del SARS-CoV-2, con 229 pares de bases para el primero y con 217 pares para el segundo. Como control positivo, en las reacciones de RT-LAMP se incluyó un plásmido que tiene clonado un fragmento del gen <italic>N</italic> del SARS-CoV-2, adquirido de la casa comercial New England Biolabs (NEB, Germany). Los cebadores usados en este estudio fueron sintetizados en Macrogen (Korea) (<xref ref-type="table" rid="t1">cuadro 1</xref>) (<xref ref-type="fig" rid="f3">figura 3</xref>).</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Localización de los sets de cebadores en el gen N del SARS-CoV-2. F3: cebador sentido, B3: cebador inverso o antisentido; FIP: cebador sentido interno; BIP: cebador inverso interno; LF: cebador lazo sentido; LB: cebador lazo inverso</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-42-s2-59-gf3.gif"/>
+					</fig>
+				</p>
+				<p>Antes de cada reacción LAMP, se preparó una mezcla 10X de cebadores de único uso y se procedió a realizar una corta incubación a 95 °C por 5 minutos, para eliminar cualquier formación de estructuras secundarias que pudieran afectar el cambio de color de la reacción. La concentración final de los cebadores en la reacción, después de agregar los demás reactivos, fue de 1X (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>La reacción LAMP se preparó empleando 10 μΙ del reactivo colorimétrico Warmstart colorimetric LAMP 2X Master Mix (DNA &amp; RNA), 5 μl de agua, 3 μΙ del ARN previamente extraído y 2 μl de la mezcla maestra 10X del respectivo set de cebadores que anteriormente había sido incubado a 95 °C. La mezcla de cebadores 10X se adicionaba siempre en la tapa del tubo de la reacción, con la finalidad de evitar su degradación, así como amplificaciones inespecíficas que pudiesen empezar antes de la temperatura óptima de amplificación.</p>
+				<p>La reacción se iniciaba con un <italic>spin</italic> de los tubos a 65 °C por 30 minutos, en un termociclador (SimpliAmp Thermal Cycler™, Thermo Fisher Scientific). Transcurrido el tiempo de incubación, se visualizaba el resultado por colorimetría y se registraba fotográficamente con la cámara de un teléfono celular. El cambio de color de rosa a amarillo era indicativo de una reacción positiva, mientras que, si el color rosa se mantenía en la reacción, era señal de un resultado negativo para SARS-CoV-2 (<xref ref-type="fig" rid="f1">figuras 1B</xref> y <xref ref-type="fig" rid="f2">2</xref>).</p>
+				<p>Para practicar la RT-LAMP en 36 muestras sin previa extracción de ARN, el protocolo fue bastante similar, con la siguiente modificación: la muestra provenía directamente del medio de transporte viral con un previo paso de incubación a 95 °C por 5 minutos. De ese volumen inactivado por calor, se utilizaron 3 μl para la reacción de RT-LAMP en lugar de ARN extraído con estuche comercial.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis</italic></title>
+				<p>Para el análisis estadístico de los resultados, se empleó el programa estadístico Rstudio (versión 1.2.50033). La especificidad de la prueba RT- LAMP se calculó de la fracción de muestras con RT-qPCR negativas que también resultaron negativas en las pruebas de RT-LAMP. La sensibilidad Se expresó como la fracción de muestras que resultaron positivas en la qRT- PCR y, también, en la RT-LAMP. Se calcularon el valor predictivo positivo y el negativo, además del índice kappa (κ) para determinar la concordancia de los resultados de la RT-LAMP con los de la RT-qPCR.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En este trabajo se analizaron 153 muestras de individuos con sospecha de COVID-19, que asistieron a la Unidad de Genética y Biología Molecular de la Universidad Simón Bolívar entre los meses de junio de 2021 y enero de 2022. En 117 muestras se extrajo el ARN a partir de hisopados nasofaríngeos. De estas, 60 resultaron negativas, y 57 resultaron positivas para SARS-CoV-2 según la RT-qPCR (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+			<p>Las amplificaciones cuyo umbral de ciclos (<italic>Cycle Threshold</italic>, Ct) estuviera en un rango de 12 a 38, se consideraron positivas para SARS-CoV-2 <xref ref-type="bibr" rid="B20"><sup>(20)</sup></xref>. En estas mismas muestras, la RT-LAMP fue positiva en 58 y negativa en 59 (<xref ref-type="table" rid="t2">cuadro 2</xref>). Finalmente, el rendimiento de la RT-LAMP se evaluó bajo condiciones menos complejas en 36 muestras de hisopado nasofaríngeo, es decir, sin extracción previa de ARN (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2</label>
+					<caption>
+						<title>Comparación del rendimiento de los dos sets de cebadores y muestras sin previa extracción de ARN, para la ejecución de la prueba RT-LAMP y la RT-qPCR</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col span="2"/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="2">Comparación de los resultados RT-qPCR con RT-LAMP</th>
+								<th align="center">Positivo</th>
+								<th align="center">Negativo</th>
+								<th align="center">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Set de Broughton</td>
+								<td align="center">RT-qPCR</td>
+								<td align="center">35</td>
+								<td align="center">37</td>
+								<td align="left">72 117</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="center">RT-LAMP</td>
+								<td align="center">41</td>
+								<td align="center">31</td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left">Set de Lalli</td>
+								<td align="center">RT-qPCR</td>
+								<td align="center">22</td>
+								<td align="center">23</td>
+								<td align="left">45</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="center">RT-LAMP</td>
+								<td align="center">17</td>
+								<td align="center">28</td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left">Sin extracción de ARN</td>
+								<td align="center">RT-qPCR</td>
+								<td align="center">19</td>
+								<td align="center">17</td>
+								<td align="left">46</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="center">RT-LAMP</td>
+								<td align="center">20</td>
+								<td align="center">16</td>
+								<td align="left"> </td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Para validar la prueba RT-LAMP en muestras de hisopado nasofaríngeo, se utilizaron los dos sets ya mencionados, cada uno con seis cebadores y ambos diseñados para amplificar un fragmento del gen <italic>N</italic> del SARS-CoV-2, que en adelante se denominan el “set de Broughton” y el “set de Lalli”. Los cebadores del primero reconocen una porción C-terminal del gen <italic>N</italic><xref ref-type="bibr" rid="B18"><sup>18</sup></xref> y los del segundo set fueron diseñados contra la región N-terminal del gen <italic>N</italic><xref ref-type="bibr" rid="B19"><sup>19</sup></xref> (<xref ref-type="fig" rid="f3">figura 3</xref> y <xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+			<p>Todas las reacciones fueron ejecutadas a una única temperatura de 65 °C por un tiempo de 30 minutos. En seguida, se registraron fotográficamente con la cámara de un teléfono celular (<xref ref-type="fig" rid="f1">figuras 1</xref> y <xref ref-type="fig" rid="f4">4</xref>).</p>
+			<p>
+				<fig id="f4">
+					<label>Figura 4</label>
+					<caption>
+						<title>Detección colorimétrica de SARS-CoV-2 por RT-LAMP; empleando dos sets de cebadores, Broughton (A) y Lalli (B). Se recolectaron 117 muestras de ARN purificado a partir de hisopado nasofaríngeo de individuos sintomáticos para COVID-19. La reacción fue ejecutada a una temperatura de 65 °C durante 30 minutos, usando el estuche comercial Warmstart colorimetric LAMP 2X Master Mix (DNA &amp; RNA) (NEB) en 20 μΙ de volumen final. La reacción de RT-LAMP tenía como diana el gen <italic>N</italic> del SARS-CoV-2. Las muestras negativas para SARS-CoV-2 se muestran en color rosa y las muestras positivas se visualizan por un cambio de color de rosa a amarillo. Los amplicones producto de la reacción de amplificación fueron separados en un gel de agarosa al 2 % y teñidos con SYBR Safe (Invitrogen). El patrón de tipo escalera observado en las muestras positivas, es coherente con una amplificación positiva y el subsecuente viraje de color en las muestras con presencia del SARS-CoV-2, en tanto que los productos de amplificación están ausentes en las muestras negativas. CP: fragmento sintético del gen <italic>N</italic> del SASR-CoV-2. CN: reacciones incubadas con agua de grado para biología molecular en lugar de ARN.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-s2-59-gf4.gif"/>
+				</fig>
+			</p>
+			<p>Una característica de la prueba LAMP, que se sustenta en su propio fundamento, es la generación de productos de diferentes masas moleculares que pueden visualizarse en un gel de agarosa como una escalera, patrón típico de bandeo de la LAMP (<xref ref-type="fig" rid="f1">figura 1C</xref>) <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Las RT-LAMP positivas muestran un patrón de bandeo de diferentes masas moleculares, correspondiente a los diferentes fragmentos obtenidos por amplificación isotérmica mediada por lazos (LAMP) (<xref ref-type="fig" rid="f4">figura 4</xref>). Al contrario, en las muestras negativas no se evidencia ningún patrón de amplificación.</p>
+			<p>De las 117 muestras de ARN extraídas a partir de hisopados nasofaríngeos, los resultados de la RT-LAMP en 17 no correspondieron con los obtenidos por RT-qPCR, pero en las otras 100 muestras, sí lo hicieron (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+			<p>Para determinar su rendimiento de manera individual, se calcularon la sensibilidad y la especificidad de ambos sets de cebadores dirigidos contra el gen <italic>N</italic>. Para la reacción RT-LAMP con el set de Broughton, se incluyeron 72 muestras de ARN, de las cuales 64 fueron concordantes entre RT-LAMP y qRT-PCR, y 8 fueron discordantes. Hubo un falso negativo y 7 falsos positivos, de acuerdo con lo observado en la tabla de contingencia. Para el set de Lalli, se analizaron 45 muestras de ARN: 22 muestras positivas y 23 muestras negativas para RT-qPCR, en seis de las cuales no correspondieron con los resultados de la RT-LAMP (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Cuadro 3</label>
+					<caption>
+						<title>Tabla de contingencia RT-LAMP Vs. RT-qPCR correspondiente a los dos sets de cebadores dirigidos contra el gen <italic>N</italic> del SARS-CoV-2, set de Broughton y set de Lalli, y muestras sin extracción de ARN previa</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col span="5"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center" colspan="5">Tabla de contingencia </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" rowspan="5">Set de Broughton</td>
+								<td align="left" rowspan="2">RT-LAMP</td>
+								<td align="center" colspan="2">RT-qPCR</td>
+								<td align="center">Total</td>
+							</tr>
+							<tr>
+								<td align="left">Positivos </td>
+								<td align="left">Negativos </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left">Positivos</td>
+								<td align="center">34</td>
+								<td align="center">7 </td>
+								<td align="center">41</td>
+							</tr>
+							<tr>
+								<td align="left">Negativos</td>
+								<td align="center">1</td>
+								<td align="center">30 </td>
+								<td align="center">31</td>
+							</tr>
+							<tr>
+								<td align="left">Total</td>
+								<td align="center">35</td>
+								<td align="center">37 </td>
+								<td align="center">72</td>
+							</tr>
+							<tr>
+								<td align="left" rowspan="5">Set de Lalli</td>
+								<td align="left" rowspan="2">RT-LAMP</td>
+								<td align="center" colspan="2">RT-qPCR </td>
+								<td align="center">Total </td>
+							</tr>
+							<tr>
+								<td align="left">Positivos </td>
+								<td align="left">Negativos</td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left">Positivos</td>
+								<td align="center">22</td>
+								<td align="center">5 </td>
+								<td align="center">27</td>
+							</tr>
+							<tr>
+								<td align="left">Negativos</td>
+								<td align="center">1</td>
+								<td align="center">17 </td>
+								<td align="center">18</td>
+							</tr>
+							<tr>
+								<td align="left">Total</td>
+								<td align="center">23</td>
+								<td align="center">22 </td>
+								<td align="center">45</td>
+							</tr>
+							<tr>
+								<td align="left" rowspan="4">Sin extracción de ARN</td>
+								<td align="left">RT-LAMP</td>
+								<td align="center" colspan="2">RT-qPCR</td>
+								<td align="center">Total</td>
+							</tr>
+							<tr>
+								<td align="left">Positivos</td>
+								<td align="center">18</td>
+								<td align="center">2 </td>
+								<td align="center">20</td>
+							</tr>
+							<tr>
+								<td align="left">Negativos</td>
+								<td align="center">1</td>
+								<td align="center">15 </td>
+								<td align="center">16</td>
+							</tr>
+							<tr>
+								<td align="left">Total</td>
+								<td align="center">19</td>
+								<td align="center">17</td>
+								<td align="center">36</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Con base en lo anterior, se encontró que la reacción colorimétrica RT- LAMP, con los cebadores del set de Broughton para detección del SARS- CoV-2, tuvo una sensibilidad de 0,97 y una especificidad del 0,81. El valor predictivo positivo fue de 0,83 y el valor predictivo negativo fue de 0,97. Por otro lado, empleando el set de Lalli para la RT-LAMP, la sensibilidad e de 0,96 y la especificidad fue de 0,77, con un valor predictivo positivo de 0,81 y valor predictivo negativo de 0,94 (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Cuadro 4</label>
+					<caption>
+						<title>Validación de RT-LAMP para diagnóstico del gen N de SARS-CoV-2. Sensibilidad, especificidad; valores predictivos de muestras positivas y negativas; concordancia por conformidad mediante el índice kappa (κ) con intervalo de confianza del 95 %.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center">Set de cebadores</th>
+								<th align="center">Sensibilidad</th>
+								<th align="center">Especificidad</th>
+								<th align="center">Valor predictivo positivo</th>
+								<th align="center">Valor predictivo negativo </th>
+								<th align="center">Índice kappa</th>
+								<th align="center">Po</th>
+								<th align="center">Pe</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Set de Broughton</td>
+								<td align="left">0,97 (0,85-1,00)</td>
+								<td align="left">0,81 (0,65-0,92)</td>
+								<td align="left">0,83 (0,68-0,93)</td>
+								<td align="left">0,97 (0,83-1,00)</td>
+								<td align="left">0,778</td>
+								<td align="left">0,88</td>
+								<td align="left">0,49</td>
+							</tr>
+							<tr>
+								<td align="left">Set de Lalli</td>
+								<td align="left">0,96 (0,78-1,00)</td>
+								<td align="left">0,77 (0,55-0,92)</td>
+								<td align="left">0,81 (0,62-0,94)</td>
+								<td align="left">0,94 (0,73-1,00)</td>
+								<td align="left">0,73</td>
+								<td align="left">0,86</td>
+								<td align="left">0,50</td>
+							</tr>
+							<tr>
+								<td align="left">Sin extracción de ARN</td>
+								<td align="left">0,95 (0,74-1,00)</td>
+								<td align="left">0,88 (0,64-0,99)</td>
+								<td align="left">0,90 (0,68-0,99)</td>
+								<td align="left">0,94 (0,70;-1,00)</td>
+								<td align="left">0,83</td>
+								<td align="left">0,91</td>
+								<td align="left">0,50</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Índice κ: valores de 0&gt;0,2 mínima concordancia, 0,2&gt;0,4 escasa concordancia, 0,4&gt;0,6 moderada, 0,6&gt;0,8 buena concordancia, 0,8&gt;1 muy buena concordancia</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Además, para los dos sets de cebadores evaluados, se analizó la concordancia entre los resultados para la técnica RT-LAMP usando la índice kappa (κ) <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+			<p>El índice κ, para la reacción de RT-LAMP empleando el set de Broughton, fue de 0,76, mientras que, para el set de Lalli fue de 0,73 (<xref ref-type="table" rid="t4">cuadro 4</xref>). Estos valores demuestran que ambos grupos de cebadores le permitieron a la técnica RT-LAMP discriminar entre muestras positivas y negativas para SARS-CoV-2, con una buena concordancia entre los dos métodos diagnósticos, RT- qPCR y RT-LAMP, evidenciando su potencial diagnóstico para el SARS-CoV-2.</p>
+			<p>El desarrollo actual de técnicas de diagnóstico de agentes patógenos apunta a la implementación de técnicas que permitan su utilización a gran escala y en laboratorios con infraestructura limitada, así como, favorecer su uso y utilidad en los puntos de atención primaria. En ese contexto, la prueba RT-LAMP ha demostrado buenos resultados al incluir ácidos nucleicos purificados, así como, muestras directas sin previa extracción de ARN <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+			<p>El siguiente paso en la validación de la técnica de RT-LAMP fue evaluar su rendimiento empleando el set de Broughton en muestras sin previa extracción de ARN. Para ello, se validaron 36 muestras de hisopado nasofaríngeo de individuos sintomáticos con sospecha de COVID-19, a las cuales se les hizo un pretratamiento térmico por 5 minutos a 95 °C, sin ningún tipo de proteasa ni químicos adicionales. Posteriormente, se practicó la RT-LAMP, siguiendo las mismas condiciones descritas anteriormente, para la amplificación del gen <italic>N</italic> del SARS-CoV-2. Los resultados obtenidos arrojaron buenos niveles de sensibilidad y especificidad: 0,94 y 0,88, respectivamente, inclusive con una índice κ superior a los análisis, usando el ARN extraído de las muestras de hisopado nasofaríngeo (<xref ref-type="fig" rid="f5">figura 5</xref> y <xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			<p>
+				<fig id="f5">
+					<label>Figura 5</label>
+					<caption>
+						<title>Detección colorimétrica de SARS-CoV-2 por RT-LAMP en muestras de hisopado nasofaríngeo, sin previa extracción de ARN. Se precalentaron 36 muestras de hisopado nasofaríngeo durante 5 minutos a 95 °C; posteriormente, se agregaron 3 μl de muestra a la reacción RT-LAMP usando el estuche comercial Warmstart colorimetric LAMP 2X Master Mix (DNA &amp; RNA) (NEB) en 20 μl de volumen final. La RT-LAMP tenía como diana el gen N del SASR-CoV-2. Las muestras negativas para este virus se muestran en color rosa y las muestras positivas se visualizan por un cambio de color de rosa a amarillo. Los amplicones producto de la reacción de amplificación fueron resueltos en un gel de agarosa al 2 % y teñidos con SYBR Safe (Invitrogen). Se muestra el patrón típico de amplificación de la técnica RT- LAMP en muestras positivas y el cambio de color en la reacción; en muestras negativas, la mezcla reactiva permanece de color rosa y no se observan bandas en el gel electroforético. CP: fragmento sintético del gen N del SASR-CoV-2. CN: reacciones incubadas con agua de grado para biología molecular en lugar de muestras de hisopado.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-s2-59-gf5.gif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La pandemia de COVID-19 motivó al gobierno nacional a fortalecer las capacidades científicas y tecnológicas de los laboratorios de biología molecular del país, para apoyar el diagnóstico molecular del SARS-CoV-2 y otros agentes patógenos de interés en salud pública. No obstante, en Colombia el diagnóstico molecular de agentes infecciosos sigue siendo centralizado, debido a los pocos laboratorios que cuentan con infraestructura y equipos especializados para realizar dichas pruebas.</p>
+			<p>Los métodos de diagnóstico rápido y a gran escala son necesarios para prevenir y contrarrestar la propagación, no solo del SARS-CoV-2 en esta pandemia, sino también de brotes por otros agentes emergentes y reemergentes. En estos casos, pruebas como la LAMP se convierten en alternativas viables para apoyar el diagnóstico molecular de patógenos en lugares apartados con poco desarrollo, en donde no es posible confirmar el diagnóstico de ciertas enfermedades y las muestras de los pacientes deben enviarse a otros laboratorios, lo cual retrasa la obtención de los resultados y, por consiguiente, el tratamiento del paciente.</p>
+			<p>Debido a su facilidad de ejecución, la RT-LAMP está siendo ampliamente usada para detectar un gran número de agentes patógenos. Algunas de las ventajas inherentes a la técnica, incluyen: a) rapidez de amplificación de ácidos nucleicos, tanto de ADN como de ARN; b) buena especificidad debido al uso de seis cebadores; y c) gran tolerancia a los inhibidores <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. En el caso específico del SARS-CoV-2, se han reportado diversos protocolos en los que se utilizan varios sets de cebadores dirigidos contra diferentes genes del genoma viral, con diversa sensibilidad y especificidad <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Características como velocidad, costo, tiempo de entrega del resultado, y la simplicidad de la ejecución de la prueba y de su lectura colorimétrica hacen de la técnica molecular RT-LAMP una solución efectiva para impulsar la capacidad de testeo, sobre todo en circunstancias como las actuales, en las cuales nuevas variantes virales con gran capacidad de transmisión están sobrepasando la capacidad de los laboratorios de referencia. Además, debido a que esta amplificación no requiere equipos sofisticados ni personal muy entrenado para su ejecución, es una excelente alternativa para implementarla en puntos estratégicos de atención en salud como aeropuertos, centros de salud locales, hospitales y otros.</p>
+			<p>La sensibilidad y especificidad de esta prueba en el diagnóstico del SARS- CoV-2 nos permite sugerirla como una alternativa viable para el diagnóstico rápido de la COVID-19.</p>
+			<p>Con relación al set de Broughton, los autores reportaron valores de sensibilidad y especificidad superiores a los reportados en el presente trabajo. Sin embargo, ellos emplearon una técnica de diagnóstico basado en el sistema CRISPR-Cas12a para detección del SARS-CoV-2. La RT-LAMP solo se usó para la amplificación inicial de la diana; la lectura o análisis de los resultados se hizo por fluorimetría, una metodología mucho más sensible en comparación con la simple inspección visual, lo que podría explicar dichos valores <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. El segundo set de cebadores validado en este estudio fue el reportado por Lalli, <italic>et al</italic>., quienes, además, incluyen un protocolo para detectar el genoma del SARS-CoV-2 directamente en muestras de saliva, sin necesidad de extraer antes ARN <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Se ha demostrado que la saliva es un biofluido mucho mejor que los lavados nasofaríngeos para diagnosticar este virus, probablemente por su estabilidad y la mayor carga viral <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>Una potencial limitación de este trabajo es el uso de ARN como matriz de diagnóstico, lo que no siempre es posible en centros de atención con infraestructura limitada. No obstante, según otros reportes previos, es posible adaptar la extracción de ARN mediante protocolos basados en perlas magnéticas, sin necesidad de centrífugas u otros equipos complejos, lo cual permite practicar a gran escala esta técnica diagnóstica <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			<p>En el presente estudio, se usaron muestras sin previa extracción de ARN viral, las cuales se sometieron a altas temperaturas por un corto período, para evaluar el rendimiento de uno de los sets de cebadores, escogido de forma aleatoria (set de Broughton). El protocolo de la RT-LAMP utilizado directamente en muestras sin previa extracción de ARN, demostraron gran sensibilidad y especificidad, 0,947 y 0,88, respectivamente (<xref ref-type="fig" rid="f5">figura 5</xref>) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			<p>Se evaluó la sensibilidad de la técnica RT-LAMP para la detección del SARS-CoV-2 en relación con el número de copias virales en la muestra. Para ello, los valores CT (umbral de ciclo de amplificación) obtenidos en RT-qPCR se convirtieron a números de copias a partir de una curva de calibración de PCR con el plásmido pUC RdRp-E 3180pb (este plásmido fue donado gentilmente por el Dr. Jaime Castellanos de la Universidad El Bosque, y contiene un inserto con los genes virales E y RdRP de SARS-CoV2). Se realizaron diluciones seriadas en base 10 del plásmido a partir de una concentración inicial de 10 ng/μl, obteniendo por PCR el valor CT. El número de copias inicial del plásmido se halló en función de su longitud en pares de bases (pb), concentración inicial y %G/C (50%) según la fórmula de la <xref ref-type="fig" rid="f6">Figura 6</xref>. De esta manera, se relacionó CT (basado en concentración) con el número de copias. El número de copias se determinó por medio de la ecuación lineal, Y = (-3.120X) + 40.676, donde X es el número de copias y Y el umbral de ciclos de amplificación, para un R<sup>2</sup> = 0,993. El número de copias estará expresado en log<sub>10</sub> por volumen de muestra (<xref ref-type="fig" rid="f6">figura 6</xref>).</p>
+			<p>Respecto a la sensibilidad de la prueba RT-LAMP en relación con la carga viral, se encontró que, para ambos sets de cebadores utilizados, la sensibilidad de la técnica llega a 1 con un umbral de ciclos entre 25 y 35, es decir, en muestras cuya carga viral sea superior a 13 copias/μΙ y alcance las 21.130 copias/μl. Sin embargo, la sensibilidad cae significativamente, a 0,75 en el set Broughton y a 0,50 en el de Lalli, cuando la carga viral es muy inferior a 13 copias/μL o dicho umbral es mayor de 35.</p>
+			<p>Teniendo en cuenta la dinámica de la pandemia y la aparición de variantes con un mayor potencial de diseminación, consideramos que la prueba RT- LAMP reportada en este trabajo se convierte en una excelente alternativa para el diagnóstico del SARS-CoV-2 en Colombia, con la ventaja de poder utilizarse en territorios con escasez de recursos (sin necesidad de equipos sofisticados ni personal entrenado), así como en lugares con grandes tasas de transmisibilidad, como los aeropuertos.</p>
+			<p>Respecto a los costos, la prueba RT-LAMP es significativamente más económica que la RT-qPCR. Por muestra, la RT-LAMP tiene un costo aproximado de USD$ 7,95 si se utiliza el ARN, valor que cae a menos de USD$ 3,85 si se practica directamente sin extracción previa de ARN viral a partir de un hisopado nasofaríngeo. Por el contrario, la reacción de PCR en tiempo real tiene un valor en el mercado que oscila entre USD$ 41 y USD$ 56, un costo considerablemente más elevado que el estimado para la RT-LAMP.</p>
+			<p>Al momento del inicio de la pandemia por Covid-19, muy pocos laboratorios a nivel nacional y local cumplían con las condiciones de infraestructura y equipamiento para detectar este agente patógeno y, claramente, fueron insuficientes en el momento crítico de la pandemia cuando los casos superaban los miles por día. En la actualidad, en el departamento del Atlántico (Colombia), además de los laboratorios clínicos particulares, existen tres laboratorios públicos avalados por el Instituto Nacional de Salud para apoyar el diagnóstico del SARS-CoV-2.</p>
+			<p>El desarrollo de métodos diagnósticos de principio isotérmico sería una alternativa donde la infraestructura y la capacidad de adecuación sean limitadas. Además, pueden servir como prueba de tamizaje molecular, con la ventaja de poder llevarse a sitios con gran flujo de personas e, incluso, adaptarse rápidamente para identificar otros patógenos.</p>
+			<p>
+				<fig id="f6">
+					<label>Figura 6</label>
+					<caption>
+						<title>Curva de calibración número de copias gen E del SARS-CoV-2. Se confirmó el número de copias encontrado a partir de la fórmula: Número de copias (moléculas) = (Xng * 6.0221 * 10<sup>23</sup> moléculas/mol) ^ ((N *660 g/mol) * 1 * 10 <sup>9</sup>ng/g) Donde, X = concentración del amplicón (ng); N = longitud del amplicón dsDNA 660 g/mol = masa media de 1 pb de dsDNA</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-s2-59-gf6.gif"/>
+				</fig>
+			</p>
+			<p>En conclusión, se reporta una metodología isotérmica para la amplificación del genoma del SARS-CoV-2 en muestras de hisopado nasofaríngeo con gran sensibilidad y aceptable especificidad. Esta prueba puede adaptarse y practicarse de forma rápida en instituciones con escasos recursos, para apoyar masivamente en la pandemia actual por COVID-19.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Agradecemos a la Secretaría de Salud del Distrito de Barranquilla, a la Secretaría de Salud del Departamento del Atlántico y al Instituto Nacional de Salud, por el apoyo logístico en relación con las muestras clínicas y su remisión a la Unidad de Genética y Biología Molecular de la Universidad Simón Bolívar. Agradecemos también a Ludis Oliveros, Leonardo Arrieta, Martha Guerra, Janni Gómez, Ibeth Luna, Erika Álvarez, Jhon Amador, Bryan Sarria y Roberto Romero, personal técnico encargado del desembalaje, extracción de ARN, montaje de la PCR en tiempo real y trabajo administrativo.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis. 2020;20:533-4. <ext-link ext-link-type="uri" xlink:href="https://doi.oig/10.1016/S1473-3099(20)30120-1">https://doi.oig/10.1016/S1473-3099(20)30120-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dong</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Du</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gardner</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>An interactive web-based dashboard to track COVID-19 in real time</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2020</year>
+					<volume>20</volume>
+					<fpage>533</fpage>
+					<lpage>534</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.oig/10.1016/S1473-3099(20)30120-1">https://doi.oig/10.1016/S1473-3099(20)30120-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Chiem K, Morales-Vásquez D, Park JG, Platt RN, Anderson T, Walter MR, <italic>et al</italic>. Generation and characterization of recombinant SARS-CoV-2 expressing reporter genes. J Virol. 2021;95:e02209-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.02209-20">https://doi.org/10.1128/JVI.02209-20</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chiem</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Morales-Vásquez</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Platt</surname>
+							<given-names>RN</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Walter</surname>
+							<given-names>MR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Generation and characterization of recombinant SARS-CoV-2 expressing reporter genes</article-title>
+					<source>J Virol</source>
+					<year>2021</year>
+					<volume>95</volume>
+					<elocation-id>e02209-20</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.02209-20">https://doi.org/10.1128/JVI.02209-20</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Jegerlehner S, Suter-Riniker F, Jent P, Bittel P, Nagler M. Diagnostic accuracy of a SARS- CoV-2 rapid antigen test in real-life clinical settings. Int J Infect Dis. 2021;109:118-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2021.07010">https://doi.org/10.1016/j.ijid.2021.07010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jegerlehner</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Suter-Riniker</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Jent</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bittel</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Nagler</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnostic accuracy of a SARS- CoV-2 rapid antigen test in real-life clinical settings</article-title>
+					<source>Int J Infect Dis</source>
+					<year>2021</year>
+					<volume>109</volume>
+					<fpage>118</fpage>
+					<lpage>122</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2021.07010">https://doi.org/10.1016/j.ijid.2021.07010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Maricic T, Nickel O, Aximu-Petri A, Essel E, Gansauge M, Kanis P, <italic>et al</italic>. A direct RT- qPCR approach to test large numbers of individuals for SARS-CoV-2. PLoS ONE. 2020;15:e0244824. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0244824">https://doi.org/10.1371/journal.pone.0244824</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maricic</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Nickel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Aximu-Petri</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Essel</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gansauge</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kanis</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A direct RT- qPCR approach to test large numbers of individuals for SARS-CoV-2</article-title>
+					<source>PLoS ONE</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<elocation-id>e0244824</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0244824">https://doi.org/10.1371/journal.pone.0244824</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Mustafa MI, Makhawi AM. SHERLOCK and DETECTR: CRISPR-Cas systems as potential rapid diagnostic tools for emerging infectious diseases. J Clin Microbiol. 2021;59:e00745-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00745-20">https://doi.org/10.1128/JCM.00745-20</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mustafa</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Makhawi</surname>
+							<given-names>AM.</given-names>
+						</name>
+					</person-group>
+					<article-title>SHERLOCK and DETECTR: CRISPR-Cas systems as potential rapid diagnostic tools for emerging infectious diseases</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2021</year>
+					<volume>59</volume>
+					<elocation-id>e00745-20</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00745-20">https://doi.org/10.1128/JCM.00745-20</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Xiong D, Dai W, Gong J, Li G, Liu N, Wu W, <italic>et al</italic>. Rapid detection of SARS-CoV-2 with CRISPR-Cas12a. PLOS Biol. 2020;18:e3000978. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pbio.3000978">https://doi.org/10.1371/journal.pbio.3000978</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xiong</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dai</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rapid detection of SARS-CoV-2 with CRISPR-Cas12a</article-title>
+					<source>PLOS Biol</source>
+					<year>2020</year>
+					<volume>18</volume>
+					<elocation-id>e3000978</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pbio.3000978">https://doi.org/10.1371/journal.pbio.3000978</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Ghosh P, Chowdhury R, Hossain ME, Hossain F, Miah M, Rashid MdU, <italic>et al</italic>. Evaluation of recombinase-based isothermal amplification assays for point-of-need detection of SARS- CoV-2 in resource-limited settings. Int J Infect Dis.;114:105-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2021.11.007">https://doi.org/10.1016/j.ijid.2021.11.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ghosh</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Chowdhury</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Hossain</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Hossain</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Miah</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>MdU</surname>
+							<given-names>Rashid</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of recombinase-based isothermal amplification assays for point-of-need detection of SARS- CoV-2 in resource-limited settings</article-title>
+					<source>Int J Infect Dis</source>
+					<volume>114</volume>
+					<fpage>105</fpage>
+					<lpage>111</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2021.11.007">https://doi.org/10.1016/j.ijid.2021.11.007</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Liang Y, Lin H, Zou L, Zhao J, Li B, Wang H, <italic>et al</italic>. CRISPR-Cas12a-based detection for the major SARS-CoV-2 variants of concern. Microbiol Spectr. 2021;9:e01017-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/Spectrum.01017-21">https://doi.org/10.1128/Spectrum.01017-21</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zou</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>CRISPR-Cas12a-based detection for the major SARS-CoV-2 variants of concern</article-title>
+					<source>Microbiol Spectr</source>
+					<year>2021</year>
+					<volume>9</volume>
+					<elocation-id>e01017-21</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/Spectrum.01017-21">https://doi.org/10.1128/Spectrum.01017-21</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ma L, Yin L, Li X, Chen S, Peng L, Liu G, <italic>et al</italic>. A smartphone-based visual biosensor for CRISPR-Cas powered SARS-CoV-2 diagnostics. Biosens Bioelectron. 2022;195:113646. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bios.2021.113646">https://doi.org/10.1016/j.bios.2021.113646</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ma</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Yin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A smartphone-based visual biosensor for CRISPR-Cas powered SARS-CoV-2 diagnostics</article-title>
+					<source>Biosens Bioelectron</source>
+					<year>2022</year>
+					<volume>195</volume>
+					<comment>113646</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bios.2021.113646">https://doi.org/10.1016/j.bios.2021.113646</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Nagamine K, Hase T, Notomi T. Accelerated reaction by loop-mediated isothermal amplification using loop primers. Mol Cell Probes. 2002;16:223-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/mcpr.2002.0415">https://doi.org/10.1006/mcpr.2002.0415</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nagamine</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Hase</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Notomi</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>Accelerated reaction by loop-mediated isothermal amplification using loop primers</article-title>
+					<source>Mol Cell Probes</source>
+					<year>2002</year>
+					<volume>16</volume>
+					<fpage>223</fpage>
+					<lpage>229</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/mcpr.2002.0415">https://doi.org/10.1006/mcpr.2002.0415</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Tanner NA, Zhang Y, Evans TC. Visual detection of isothermal nucleic acid amplification using pH-sensitive dyes. BioTechniques. 2015;58:59-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2144/000114253">https://doi.org/10.2144/000114253</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tanner</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Evans</surname>
+							<given-names>TC</given-names>
+						</name>
+					</person-group>
+					<article-title>Visual detection of isothermal nucleic acid amplification using pH-sensitive dyes</article-title>
+					<source>BioTechniques</source>
+					<year>2015</year>
+					<volume>58</volume>
+					<fpage>59</fpage>
+					<lpage>68</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2144/000114253">https://doi.org/10.2144/000114253</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Lamb LE, Bartolone SN, Ward E, Chancellor MB. Rapid detection of novel coronavirus/ Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) by reverse transcriptionloop-mediated isothermal amplification. PLoS ONE. 2020;15:e0234682. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0234682">https://doi.org/10.1371/journal.pone.0234682</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lamb</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Bartolone</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Ward</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chancellor</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>Rapid detection of novel coronavirus/ Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) by reverse transcriptionloop-mediated isothermal amplification</article-title>
+					<source>PLoS ONE</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<elocation-id>e0234682</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0234682">https://doi.org/10.1371/journal.pone.0234682</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Fischbach J, Xander NC, Frohme M, Glõkler JF. Shining a light on LAMP assays. A comparison of LAMP visualization methods including the novel use of berberine. BioTechniques. 2015;58:189-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2144/000114275">https://doi.org/10.2144/000114275</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fischbach</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Xander</surname>
+							<given-names>NC</given-names>
+						</name>
+						<name>
+							<surname>Frohme</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Glõkler</surname>
+							<given-names>JF.</given-names>
+						</name>
+					</person-group>
+					<article-title>Shining a light on LAMP assays. A comparison of LAMP visualization methods including the novel use of berberine</article-title>
+					<source>BioTechniques</source>
+					<year>2015</year>
+					<volume>58</volume>
+					<fpage>189</fpage>
+					<lpage>194</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2144/000114275">https://doi.org/10.2144/000114275</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Park GS, Ku K, Baek SH, Kim SJ, Kim SI, Kim BT, <italic>et al</italic>. Development of reverse transcription loop-mediated isothermal amplification assays targeting severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). J Mol Diagn. 2020;22:729-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jmoldx.2020.03.006">https://doi.org/10.1016/j.jmoldx.2020.03.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Park</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Ku</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Baek</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>SI</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>BT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Development of reverse transcription loop-mediated isothermal amplification assays targeting severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)</article-title>
+					<source>J Mol Diagn</source>
+					<year>2020</year>
+					<volume>22</volume>
+					<fpage>729</fpage>
+					<lpage>735</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jmoldx.2020.03.006">https://doi.org/10.1016/j.jmoldx.2020.03.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Notomi T. Loop-mediated isothermal amplification of DNA. Nucleic Acids Res. 2000;28:63e-63. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/28.12.e63">https://doi.org/10.1093/nar/28.12.e63</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Notomi</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>Loop-mediated isothermal amplification of DNA</article-title>
+					<source>Nucleic Acids Res</source>
+					<year>2000</year>
+					<volume>28</volume>
+					<comment>63e-63</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/28.12.e63">https://doi.org/10.1093/nar/28.12.e63</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Aliotta JM, Pelletier JJ, Ware JL, Moran LS, Benner JS, Kong H. Thermostable Bst DNA polymerase I lacks a 3’--&gt;5’ proofreading exonuclease activity. Genet Anal Biomol Eng. 1996;12:185-95. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1050-3862(96)80005-2">https://doi.org/10.1016/S1050-3862(96)80005-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aliotta</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Pelletier</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Ware</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Moran</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Benner</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Kong</surname>
+							<given-names>H.</given-names>
+						</name>
+					</person-group>
+					<article-title>Thermostable Bst DNA polymerase I lacks a 3’--&gt;5’ proofreading exonuclease activity</article-title>
+					<source>Genet Anal Biomol Eng</source>
+					<year>1996</year>
+					<volume>12</volume>
+					<fpage>185</fpage>
+					<lpage>195</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1050-3862(96)80005-2">https://doi.org/10.1016/S1050-3862(96)80005-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Corman VM, Landt O, Kaiser M, Molenkamp R, Meijer A, Chu DK, <italic>et al</italic>. Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Eurosurveillance. 2020;25:2000045. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917ES.202Q.25.3.2000045">https://doi.org/10.2807/1560-7917ES.202Q.25.3.2000045</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Corman</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Landt</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Kaiser</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Molenkamp</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Meijer</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Chu</surname>
+							<given-names>DK</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR.</article-title>
+					<source>Eurosurveillance</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<comment>2000045</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917ES.202Q.25.3.2000045">https://doi.org/10.2807/1560-7917ES.202Q.25.3.2000045</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Broughton JP, Deng X, YuG, Fasching CL, Servellita V, Singh J, <italic>et al</italic>. CRISPR-Cas12- based detection of SARS-CoV-2. Nat Biotechnol. 2020;38:870-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41587-020-0513-4">https://doi.org/10.1038/s41587-020-0513-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Broughton JP</surname>
+							<given-names>Deng X</given-names>
+						</name>
+						<name>
+							<surname>YuG</surname>
+							<given-names>Fasching CL</given-names>
+						</name>
+						<name>
+							<surname>Servellita V</surname>
+							<given-names>Singh J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>CRISPR-Cas12- based detection of SARS-CoV-2</article-title>
+					<source>Nat Biotechnol</source>
+					<year>2020</year>
+					<volume>38</volume>
+					<fpage>870</fpage>
+					<lpage>874</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41587-020-0513-4">https://doi.org/10.1038/s41587-020-0513-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Lalli MA, Langmade JS, Chen X, Fronick CC, Sawyer CS, Burcea LC, <italic>et al</italic>. Rapid and extraction-free detection of SARS-CoV-2 from saliva by colorimetric reverse-transcription loop-mediated isothermal amplification. Clin Chem. 2021;67:415-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/clinchem/hvaa267">https://doi.org/10.1093/clinchem/hvaa267</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lalli</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Langmade</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Fronick</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Sawyer</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Burcea</surname>
+							<given-names>LC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rapid and extraction-free detection of SARS-CoV-2 from saliva by colorimetric reverse-transcription loop-mediated isothermal amplification</article-title>
+					<source>Clin Chem</source>
+					<year>2021</year>
+					<volume>67</volume>
+					<fpage>415</fpage>
+					<lpage>424</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/clinchem/hvaa267">https://doi.org/10.1093/clinchem/hvaa267</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Aranha C, Patel V, Bhor V, Gogoi D. Cycle threshold values in RT-PCR to determine dynamics of SARS-CoV-2 viral load: An approach to reduce the isolation period for COVID-19 patients. J Med Virol. 2021;93:6794-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.27206">https://doi.org/10.1002/jmv.27206</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aranha</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Bhor</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Gogoi</surname>
+							<given-names>D.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cycle threshold values in RT-PCR to determine dynamics of SARS-CoV-2 viral load: An approach to reduce the isolation period for COVID-19 patients</article-title>
+					<source>J Med Virol</source>
+					<year>2021</year>
+					<volume>93</volume>
+					<fpage>6794</fpage>
+					<lpage>6797</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.27206">https://doi.org/10.1002/jmv.27206</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Soni S, Salhotra A, Suar M. Handbook of research on diverse applications of nanotechnology in biomedicine, chemistry, and engineering. Hershey, PA: Engineering Science Reference; 2015. p. 820.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soni</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Salhotra</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Suar</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<source>Handbook of research on diverse applications of nanotechnology in biomedicine, chemistry, and engineering</source>
+					<publisher-loc>Hershey, PA</publisher-loc>
+					<publisher-name>Engineering Science Reference</publisher-name>
+					<year>2015</year>
+					<fpage>820</fpage>
+					<lpage>820</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Landis JR, Koch GG. The measurement of observer agreement for categorical data. Biometrics. 1977;33:159-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2529310">https://doi.org/10.2307/2529310</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Landis</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Koch</surname>
+							<given-names>GG.</given-names>
+						</name>
+					</person-group>
+					<article-title>The measurement of observer agreement for categorical data</article-title>
+					<source>Biometrics</source>
+					<year>1977</year>
+					<volume>33</volume>
+					<fpage>159</fpage>
+					<lpage>174</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2529310">https://doi.org/10.2307/2529310</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Wei S, Kohl E, Djandji A, Morgan S, Whittier S, Mansukhani M, <italic>et al</italic>. Direct diagnostic testing of SARS-CoV-2 without the need for prior RNA extraction. Sci Rep. 2021;11:2402. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-021-81487-y">https://doi.org/10.1038/s41598-021-81487-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wei</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kohl</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Djandji</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Morgan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Whittier</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mansukhani</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Direct diagnostic testing of SARS-CoV-2 without the need for prior RNA extraction</article-title>
+					<source>Sci Rep</source>
+					<year>2021</year>
+					<volume>11</volume>
+					<comment>2402</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-021-81487-y">https://doi.org/10.1038/s41598-021-81487-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Francois P, Tangomo M, Hibbs J, Bonetti EJ, Boehme CC, Notomi T, <italic>et al</italic>. Robustness of a loop-mediated isothermal amplification reaction for diagnostic applications. FEMS Immunol Med Microbiol. 2011;62:41-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/J.1574-695X.2011.00785.x">https://doi.org/10.1111/J.1574-695X.2011.00785.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Francois</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Tangomo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hibbs</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bonetti</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Boehme</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Notomi</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Robustness of a loop-mediated isothermal amplification reaction for diagnostic applications</article-title>
+					<source>FEMS Immunol Med Microbiol</source>
+					<year>2011</year>
+					<volume>62</volume>
+					<fpage>41</fpage>
+					<lpage>48</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/J.1574-695X.2011.00785.x">https://doi.org/10.1111/J.1574-695X.2011.00785.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Zhang Y, Odiwuor N, Xiong J, Sun L, Nyaruaba RO, Wei H, <italic>et al</italic>. Rapid molecular detection of SARS-CoV-2 (COVID-19) virus RNA using colorimetric LAMP. medRciv. 2020. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.02.26.20028373">https://doi.org/10.1101/2020.02.26.20028373</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Odiwuor</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Xiong</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Nyaruaba</surname>
+							<given-names>RO</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rapid molecular detection of SARS-CoV-2 (COVID-19) virus RNA using colorimetric LAMP</article-title>
+					<source>medRciv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.02.26.20028373">https://doi.org/10.1101/2020.02.26.20028373</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Dao Thi VL, Herbst K, Boerner K, Meurer M, Kremer LP, Kirrmaier D, <italic>et al</italic>. A colorimetric RT- LAMP assay and LAMP-sequencing for detecting SARS-CoV-2 RNA in clinical samples. Sci Transl Med. 2020;12:eabc7075. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/scitranslmed.abc7075">https://doi.org/10.1126/scitranslmed.abc7075</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dao Thi</surname>
+							<given-names>VL</given-names>
+						</name>
+						<name>
+							<surname>Herbst</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Boerner</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Meurer</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kremer</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Kirrmaier</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A colorimetric RT- LAMP assay and LAMP-sequencing for detecting SARS-CoV-2 RNA in clinical samples</article-title>
+					<source>Sci Transl Med</source>
+					<year>2020</year>
+					<volume>12</volume>
+					<elocation-id>eabc7075</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/scitranslmed.abc7075">https://doi.org/10.1126/scitranslmed.abc7075</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Flynn MJ, Snitser O, Flynn J, Green S, Yelin I, Szwarcwort-Cohen M, <italic>et al</italic>. A simple direct RT-LAMP SARS-CoV-2 saliva diagnostic. medRciv. 2020. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.11.19.20234948">https://doi.org/10.1101/2020.11.19.20234948</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Flynn</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Snitser</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Flynn</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Green</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yelin</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Szwarcwort-Cohen</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A simple direct RT-LAMP SARS-CoV-2 saliva diagnostic</article-title>
+					<source>medRciv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.11.19.20234948">https://doi.org/10.1101/2020.11.19.20234948</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Savela ES, Viloria Winnett A, Romano AE, Porter MK, Shelby N, Akana R, <italic>et al</italic>. Quantitative SARS-CoV-2 viral-load curves in paired saliva samples and nasal swabs inform appropriate respiratory sampling site and analytical test sensitivity required for earliest viral detection. J Clin Microbiol. 2022;60:e01785-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/jcm.01785-21">https://doi.org/10.1128/jcm.01785-21</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Savela</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Viloria Winnett</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Romano</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Porter</surname>
+							<given-names>MK</given-names>
+						</name>
+						<name>
+							<surname>Shelby</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Akana</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Quantitative SARS-CoV-2 viral-load curves in paired saliva samples and nasal swabs inform appropriate respiratory sampling site and analytical test sensitivity required for earliest viral detection</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2022</year>
+					<volume>60</volume>
+					<elocation-id>e01785-21</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/jcm.01785-21">https://doi.org/10.1128/jcm.01785-21</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Klein S, Müller TG, Khalid D, Sonntag-Buck V, Heuser AM, Glass B, <italic>et al</italic>. SARS-CoV-2 RNA extraction using magnetic beads for rapid large-scale testing by RT-qPCR and RT-LAMP. Viruses. 2020;12:863. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/v12080863">https://doi.org/10.3390/v12080863</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Klein</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Müller</surname>
+							<given-names>TG</given-names>
+						</name>
+						<name>
+							<surname>Khalid</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sonntag-Buck</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Heuser</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Glass</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 RNA extraction using magnetic beads for rapid large-scale testing by RT-qPCR and RT-LAMP</article-title>
+					<source>Viruses</source>
+					<year>2020</year>
+					<volume>12</volume>
+					<comment>863</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/v12080863">https://doi.org/10.3390/v12080863</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Hurtado L, Díaz D, Escorcia K, Flórez L, Bello Y, Díaz Y, <italic>et al</italic>. Validación clínica de la prueba RT- LAMP para el diagnóstico rápido del SARS-CoV-2. Biomédica. 2022;42(Supl.2):59-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6523">https://doi.org/10.7705/biomedica.6523</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+			<label>Contribución de los autores:</label>
+				<p>Yirys Díaz, Antonio Acosta y Lisandro A. Pacheco:</p>
+				<p> concepción de la propuesta y diseño del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Leidy Hurtado, Diana Díaz, Katherine Escorcia, Laura Flórez, Yesit Bello, Elkin Navarro, Leonardo C. Pacheco, Nataly Galán y Ronald Maestre:</label>
+				<p> adquisición, análisis e interpretación de los datos</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Leidy Hurtado, Diana Díaz, Katherine Escorcia, Laura Flórez, Yesit Bello, Yirys Díaz, Antonio Acosta y Lisandro A. Pacheco:</label>
+				<p> redacción del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn5">
+			<label>Financiación:</label>
+				<p>Este trabajo fue financiado por el Ministerio de Ciencia, Tecnología e Innovación y el Sistema General de Regalías (Proyecto BPIN #2020000100144). Diana Díaz, Katherine Escorcia y Laura Flórez fueron financiadas por un proyecto del Ministerio de Ciencia, Tecnología e Innovación (contrato #462, convocatoria #874).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

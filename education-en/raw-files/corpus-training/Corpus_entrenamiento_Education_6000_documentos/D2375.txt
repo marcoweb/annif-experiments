@@ -1,0 +1,32 @@
+#ITI#Using Multiple Imputation to Account for the Uncertainty Due to Missing Data in the Context of Factor Retention#FTI#
+#IRE# Although parallel analysis has been found to be an accurate method for determining the number of factors in many conditions with complete data, its application under missing data is limited. The existing literature recommends that, after using an appropriate multiple imputation method, researchers either apply parallel analysis to every imputed data set and use the number of factors suggested by most of the data copies or average the correlation matrices across all data copies, followed by applying the parallel analysis to the average correlation matrix. Both approaches for pooling the results provide a single suggested number without reflecting the uncertainty introduced by missing values. The present study proposes the use of an alternative approach, which calculates the proportion of imputed data sets that result in k (k = 1, 2, 3..) factors. This approach will inform applied researchers of the degree of uncertainty due to the missingness. Results from a simulation experiment show that the proposed method can more likely suggest the correct number of factors when missingness contributes to a large amount of uncertainty.#FRE#
+#IPC# factor analysis; missing data; multiple imputation; parallel analysis#FPC#
+#IRF# Asparouhov T., Muthen B., Multiple imputation with Mplus, (2010); 
+Auerswald M., Moshagen M., How to determine the number of factors to retain in exploratory factor analysis: A comparison of extraction methods under realistic conditions, Psychological Methods, 24, 4, pp. 468-491, (2019); 
+Cota A.A., Longman R.S., Holden R.R., Fekken G.C., Xinaris S., Interpolating 95th percentile eigenvalues from random data: An empirical example, Educational and Psychological Measurement, 53, 3, pp. 585-596, (1993); 
+Crawford A., Green S.B., Levy R., Lo W.-J., Scott L., Svetina D.S., Thompson M.S., Evaluation of parallel analysis methods for determining the number of factors, Educational and Psychological Measurement, 70, 6, pp. 885-901, (2010); 
+Enders C.K., Applied missing data analysis, (2022); 
+Fabrigar L.R., Wegener D.T., MacCallum R.C., Strahan E.J., Evaluating the use of exploratory factor analysis in psychological research, Psychological Methods, 4, 3, pp. 272-299, (1999); 
+Goretzko D., Factor retention in exploratory factor analysis with missing data, Educational and Psychological Measurement, 82, 3, pp. 444-464, (2022); 
+Goretzko D., Heumann C., Buhner M., Investigating parallel analysis in the context of missing data: A simulation study comparing six missing data methods, Educational and Psychological Measurement, 80, 4, pp. 756-774, (2020); 
+Gorsuch R.L., Factor analysis, (1983); 
+Green S.B., Levy R., Thompson M.S., Lu M., Lo W.J., A proposed solution to the problem with using completely random data to assess the number of factors with parallel analysis, Educational and Psychological Measurement, 72, 3, pp. 357-374, (2012); 
+Green S.B., Redell N., Thompson M.S., Levy R., Accuracy of revised and traditional parallel analyses for assessing dimensionality with binary data, Educational and Psychological Measurement, 76, 1, pp. 5-21, (2016); 
+Horn J.L., A rationale and test for the number of factors in factor analysis, Psychometrika, 30, 2, pp. 179-185, (1965); 
+Kaiser H.F., The application of electronic computers to factor analysis, Educational and Psychological Measurement, 20, 1, pp. 141-151, (1960); 
+Lawley D.N., The estimation of factor loadings by the method of maximum likelihood, Proceedings of the Royal Society of Edinburgh, 60, pp. 64-82, (1940); 
+Lim S., Jahng S., Determining the number of factors using parallel analysis and its recent variants, Psychological Methods, 24, 4, pp. 452-467, (2019); 
+Little R.J., Rubin D.B., Statistical analysis with missing data, (2019); 
+R: A language and environment for statistical computing, (2023); 
+Revelle W.R., psych: Procedures for psychological, psychometric, and personality research, (2023); 
+Ruscio J., Roche B., Determining the number of factors to retain in an exploratory factor analysis using comparison data of known factorial structure, Psychological Assessment, 24, 2, pp. 282-292, (2012); 
+Schafer J.L., Analysis of incomplete multivariate data, (1997); 
+Schafer J.L., Graham J.W., Missing data: Our view of the state of the art, Psychological Methods, 7, 2, pp. 147-177, (2002); 
+Schafer J.L., Olsen M.K., Multiple imputation for multivariate missing-data problems: A data analyst’s perspective, Multivariate Behavioral Research, 33, 4, pp. 545-571, (1998); 
+Schmitt T.A., Current methodological considerations in exploratory and confirmatory factor analysis, Journal of Psychoeducational Assessment, 29, 4, pp. 304-321, (2011); 
+Timmerman M.E., Lorenzo-Seva U., Dimensionality assessment of ordered polytomous items with parallel analysis, Psychological Methods, 16, 2, pp. 209-220, (2011); 
+Turner N.E., The effect of common variance and structure pattern on random data eigenvalues: Implications for the accuracy of parallel analysis, Educational and Psychological Measurement, 58, 4, pp. 541-568, (1998); 
+Van Buuren S., Groothuis-Oudshoorn K., Mice: Multivariate imputation by chained equations in R, Journal of Statistical Software, 45, 3, pp. 1-67, (2011); 
+Velicer W.F., Determining the number of components from the matrix of partial correlations, Psychometrika, 41, 3, pp. 321-327, (1976); 
+Velicer W.F., Eaton C.A., Fava J.L., Construct explication through factor or component analysis: A review and evaluation of alternative procedures for determining the number of factors or components, Problems and solutions in human assessment: Honoring Douglas Jackson at seventy, pp. 41-71, (2000); 
+Venables W.N., Ripley B.D., Modern applied statistics with S, (2002)#FRF#

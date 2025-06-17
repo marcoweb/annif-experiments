@@ -1,0 +1,56 @@
+#ITI#Selecting relevant moderators with Bayesian regularized meta-regression#FTI#
+#IRE# When meta-analyzing heterogeneous bodies of literature, meta-regression can be used to account for potentially relevant between-studies differences. A key challenge is that the number of candidate moderators is often high relative to the number of studies. This introduces risks of overfitting, spurious results, and model non-convergence. To overcome these challenges, we introduce Bayesian Regularized Meta-Analysis (BRMA), which selects relevant moderators from a larger set of candidates by shrinking small regression coefficients towards zero with regularizing (LASSO or horseshoe) priors. This method is suitable when there are many potential moderators, but it is not known beforehand which of them are relevant. A simulation study compared BRMA against state-of-the-art random effects meta-regression using restricted maximum likelihood (RMA). Results indicated that BRMA outperformed RMA on three metrics: BRMA had superior predictive performance, which means that the results generalized better; BRMA was better at rejecting irrelevant moderators, and worse at detecting true effects of relevant moderators, while the overall proportion of Type I and Type II errors was equivalent to RMA. BRMA regression coefficients were slightly biased towards zero (by design), but its residual heterogeneity estimates were less biased than those of RMA. BRMA performed well with as few as 20 studies, suggesting its suitability as a small sample solution. We present free open source software implementations in the R-package pema (for penalized meta-analysis) and in the stand-alone statistical program JASP. An applied example demonstrates the use of the R-package#FRE#
+#IPC# bayesian; horseshoe; lasso; machine learning; meta-analysis; regularization#FPC#
+#IRF# Lopez-Lopez J.A., Marn-Martnez F., Sanchez-Meca J., Van den Noortgate W., Viechtbauer W., Estimation of the predictive power of the model in mixed-effects meta-regression: a simulation study, British J Math Stat Psychol, 67, 1, pp. 30-48, (2014); 
+Riley R.D., Higgins J.P.T., Deeks J.J., Interpretation of random effects meta-analyses, BMJ., 342, (2011); 
+Hastie T., Tibshirani R., Friedman J., The Elements of Statistical Learning: Data Mining, Inference, and Prediction, (2009); 
+Akaike H., A new look at the statistical model identification, IEEE Transac Autom Control, 19, 6, pp. 716-723, (1974); 
+Thompson S.G., Higgins J.P.T., How should meta-regression analyses be undertaken and interpreted?, Stat Med, 21, 11, pp. 1559-1573, (2002); 
+Jargowsky P.A., The ecological fallacy, The Encyclopedia of Social Measurement, 1, pp. 715-722, (2004); 
+Baker W.L., Michael White C., Cappelleri J.C., Kluger J., Coleman C.I., Understanding heterogeneity in meta-analysis: the role of meta-regression, Int J Clin Practice, 63, 10, pp. 1426-1434, (2009); 
+Schooler J., Unpublished results hide the decline effect, Nature., 470, 7335, (2011); 
+Van Lissa C.J., Small sample meta-analyses: exploring heterogeneity using MetaForest, Small Sample Size Solutions (Open Access): A Guide for Applied Researchers and Practitioners, (2020); 
+Hedges L.V., Vevea J.L., Fixed- and random-effects models in meta-analysis, Psychol Methods, 3, 4, pp. 486-504, (1998); 
+Higgins J.P.T., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc Series A: (Stat Soc)., 172, 1, pp. 137-159, (2009); 
+Patterson H.D., Thompson R., Recovery of inter-block information when block sizes are unequal, Biometrika., 58, 3, pp. 545-554, (1971); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Edu Behav Stat, 30, 3, pp. 261-293, (2005); 
+Panityakul T., Bumrungsup C., Knapp G., On estimating residual heterogeneity in random-effects meta-regression: a comparative study, J Stat Theory Appl, 12, 3, pp. 253-265, (2013); 
+Tibshirani R., Regression shrinkage and selection via the lasso: a retrospective, J R Stat Soc: Series B (Stat Methodol)., 73, 3, pp. 273-282, (2011); 
+Rosettie K.L., Joffe J.N., Sparks G.W., Et al., Cost-effectiveness of HPV vaccination in 195 countries: a meta-regression analysis, PLOS One., 16, 12, (2021); 
+Sebri M., Dachraoui H., Natural resources and income inequality: a meta-analytic review, Resour Policy., 74, (2021); 
+Requia W.J., Adams M.D., Arain A., Papatheodorou S., Koutrakis P., Mahmoud M., Global Association of air Pollution and Cardiorespiratory Diseases: a systematic review, meta-analysis, and investigation of modifier variables, Am J Public Health, 108, S2, pp. S123-S130, (2018); 
+Zhang P., Inference after variable selection in linear regression models, Biometrika., 79, 4, pp. 741-746, (1992); 
+Belloni A., Chernozhukov V., Hansen C., Inference on treatment effects after selection among high-dimensional controls, Rev Econom Studies, 81, 2, pp. 608-650, (2014); 
+McElreath R., Statistical Rethinking: A Bayesian Course with Examples in R and STAN, (2020); 
+van Erp S., Oberski D.L., Mulder J., Shrinkage priors for Bayesian penalized regression, J Math Psychol, 89, pp. 31-50, (2019); 
+Park T., Casella G., The Bayesian lasso, J Am Stat Assoc, 103, 482, pp. 681-686, (2008); 
+Carvalho C.M., Polson N.G., Scott J.G., The horseshoe estimator for sparse signals, Biometrika., 97, 2, pp. 465-480, (2010); 
+Piironen J., Vehtari A., Sparsity information and regularization in the horseshoe and other shrinkage priors, Electr J Stat, 11, 2, pp. 5018-5051, (2017); 
+Rover C., Bender R., Dias S., Et al., On weakly informative prior distributions for the heterogeneity parameter in Bayesian random-effects meta-analysis, Res Synth Methods, 12, 4, pp. 448-474, (2021); 
+Chung Y., Rabe-Hesketh S., Choi I.H., Avoiding zero between-study variance estimates in random-effects meta-analysis, Stat Med, 32, 23, pp. 4071-4089, (2013); 
+Gelman A., Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper), Bayesian Anal, 1, 3, pp. 515-534, (2006); 
+Chung Y., Gelman A., Rabe-Hesketh S., Liu J., Dorie V., Weakly informative prior for point estimation of covariance matrices in hierarchical models, J Edu Behavl Stat, 40, 2, pp. 136-157, (2015); 
+Thompson C.G., Becker B.J., A group-specific prior distribution for effect-size heterogeneity in meta-analysis, Behav Res Methods., 52, 5, pp. 2020-2030, (2020); 
+Rstan: The R interface to stan. Published onlin, (2022); 
+Kruschke J.K., Chapter 12 - Bayesian approaches to testing a point (“null”) hypothesis, Doing Bayesian Data Analysis (Second Edition), pp. 335-358, (2015); 
+Lee S., A note on standardization in penalized regressions, J Korean Data Info Sci Soc, 26, 2, pp. 505-516, (2015); 
+Gelman A., Scaling regression inputs by dividing by two standard deviations, Stat Med, 27, 15, pp. 2865-2873, (2008); 
+Tibshirani R., Regression shrinkage and selection via the lasso, J R Stat Soc: Series B (Methodol)., 58, 1, pp. 267-288, (1996); 
+Alkharusi H., Categorical variables in regression analysis: a comparison of dummy and effect coding, Int J Edu, 4, 2, (2012); 
+Tibshirani R., The lasso method for variable selection in the cox model, Stat Med, 16, 4, pp. 385-395, (1997); 
+Wissmann M., Toutenburg H., Et al., Role of categorical variables in multicollinearity in the linear regression model. Published online, (2007); 
+Chiquet J., Grandvalet Y., Rigaill G., On coding effects in regularized categorical regression, Stat Modell, 16, 3, pp. 228-237, (2016); 
+Detmer F.J., Cebral J., Slawski M., A note on coding and standardization of categorical variables in (sparse) group lasso regression, J Stat Plan Infer, 206, pp. 1-11, (2020); 
+R: a language and environment for statistical computing. Published online, (2022); 
+JASP (version 0.16.4)[computer software]. Published online, (2022); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Software., 36, 3, pp. 1-48, (2010); 
+Piironen J., Vehtari A., Comparison of Bayesian predictive methods for model selection, Stat Comput, 27, 3, pp. 711-735, (2017); 
+Bonapersona V., Kentrop J., Van Lissa C.J., van der Veen R., JoA«ls M., Sarabdjitsingh R.A., The behavioral phenotype of early life adversity: a 3-level meta-analysis of rodent studies, Neurosci Biobehav Rev, 102, pp. 299-307, (2019); 
+Gelman A., Rubin D.B., Inference from iterative simulation using multiple sequences, Stat Sci, 7, 4, pp. 457-472, (1992); 
+van Erp S., Verhagen J., Grasman R.P.P.P., Wagenmakers E.J., Estimates of between-study heterogeneity for 705 meta-analyses reported in psychological bulletin from 1990–2013, J Open Psychol Data, 5, 1, (2017); 
+Hilt D.E., Seegrist D.W., Ridge, a Computer Program for Calculating Ridge Regression Estimates, (1977); 
+Piironen J., Betancourt M., Simpson D., Vehtari A., Contributed comment on article by van der pas, Szabó, and van der Vaart, Bayesian Anal, 12, 4, pp. 1264-1266, (2017); 
+Van Lissa C.J., Complementing preregistered confirmatory analyses with rigorous, reproducible exploration using machine learning, Relig Brain Behav, pp. 1-5, (2022); 
+Higgins J.P.T., Thompson S.G., Quantifying heterogeneity in a meta-analysis, Stat Med, 21, 11, pp. 1539-1558, (2002); 
+Van Lissa C.J., Brandmaier A.M., Brinkman L., Et al., WORCS: a workflow for open reproducible code in science, Data Sci, 4, 1, pp. 29-49, (2021); 
+Kohli N., Hughes J., Wang C., Zopluoglu C., Davison M., Fitting a linear-linear piecewise growth mixture model with unknown knots: a comparison of two common approaches to inference, Psychol Methods, 20, pp. 259-275, (2015)#FRF#

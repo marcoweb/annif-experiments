@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00013</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo de revisión</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Evolución histórica de las técnicas estadísticas y las metodologías para el estudio de la causalidad en ciencias médicas</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Historical changes of the statistical techniques and the methodologies for the study of the causality in medical sciences</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1964-8830</contrib-id>
+					<name>
+						<surname>Sagaró del Campo</surname>
+						<given-names>Nelsa María</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2210-0806</contrib-id>
+					<name>
+						<surname>Zamora Matamoros</surname>
+						<given-names>Larisa</given-names>
+						<prefix>Dra. C</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>nelsa@infomed.sld.cu</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>28</day>
+				<month>06</month>
+				<year>2019</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<month>06</month>
+				<year>2019</year>
+			</pub-date>
+			<volume>23</volume>
+			<issue>3</issue>
+			<fpage>534</fpage>
+			<lpage>556</lpage>
+			<history>
+				<date date-type="received">
+					<day>14</day>
+					<month>01</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>03</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>Las técnicas estadísticas constituyen las herramientas matemáticas que permiten el análisis causal de los problemas de salud; de ahí la importancia de conocer cómo ha sido su desarrollo a lo largo del tiempo, por lo cual el objetivo de este trabajo fue elaborar una síntesis de la evolución histórica de las técnicas y metodologías empleadas en la investigación médica en relación con los modelos de causalidad que han primado en cada momento histórico. A tales efectos, se realizó una amplia revisión documental y, para una mejor comprensión, se dividió la evolución en cinco etapas, según el desarrollo alcanzado en las técnicas estadísticas. Asimismo, se describen los principales hechos y las características fundamentales de cada época y se destaca la regresión logística binaria como la técnica más empleada.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>The statistical techniques constitute the mathematical tools that allow the causal analysis of the health problems; that is why it is import to know about their development through time, reason why the objective of this work was to elaborate a synthesis of the historical course of the techniques and methodologies used in the medical investigation in connection with the causality models that have prevailed in each historical moment. To such effects, a wide documental review was carried out and, for a better understanding, the changes were divided in five stages, according to the development reached in the statistical techniques. Also, the main facts and the fundamental characteristics of each stage are described and the binary logistical regression is highlighted as the most used technique.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>historia de la estadística</kwd>
+				<kwd>causalidad en medicina</kwd>
+				<kwd>modelos de causalidad</kwd>
+				<kwd>técnicas estadísticas</kwd>
+				<kwd>análisis estadístico implicativo</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>history of statistics</kwd>
+				<kwd>causality in medicine</kwd>
+				<kwd>causality models</kwd>
+				<kwd>statistical techniques</kwd>
+				<kwd>statistical implicative analysis</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="50"/>
+				<page-count count="23"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>En las ciencias médicas se explica el llamado proceso salud-enfermedad con el apoyo de los paradigmas de la causalidad. Esta noción ha sido ampliamente abordada, dando explicaciones a los fenómenos de salud y creando diferentes modelos con los que se ha pretendido estructurar lo no observable de acuerdo con los acontecimientos científicos de la época, el contexto y las experiencias de cada autor.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>El concepto de causa tiene un significado especial en las ciencias médicas por su naturaleza probabilística. Es por ello que la inferencia estadística ha desempeñado una función protagónica en las investigaciones en cuanto a la identificación de posibles relaciones causales.</p>
+			<p>Las técnicas estadísticas aplicadas en las ciencias médicas como herramientas matemáticas para el análisis causal han presentado notables cambios con el transcurso del tiempo y el devenir de nuevos adelantos científico-técnicos; por ello, cuando se quiere investigar acerca de estas, constituye una premisa indispensable el estudio de su desarrollo histórico, para una mejor comprensión e interpretación de su esencia como objeto de investigación.</p>
+			<p>La bioestadística, área de la estadística aplicada al análisis de datos provenientes de las ciencias de la vida, brinda no solo las técnicas para el análisis de los datos, sino también la metodología para un buen diseño de la investigación, el tipo de estudio pertinente en cada caso, el diseño de muestreo a emplear, las precauciones para evitar el sesgo y dar mayor validez a los resultados, así como los métodos para interpretar y presentar dichos resultados.</p>
+			<p>De tal manera, los estudios de causalidad en medicina han ido evolucionando y así mismo las técnicas de análisis estadístico asociadas a ellos, desde la simple descripción de las condiciones de salud mediante técnicas univariadas, como las medidas de frecuencia absolutas y relativas, de comparación y de tendencia, y la explicación de las causas de la enfermedad con pruebas de hipótesis bivariadas y multivariadas, como las técnicas de regresión para identificar factores de riesgo o pronósticos; hasta la predicción, con la creación de modelos matemáticos y técnicas de simulación, así como muchas otras técnicas heredadas de la econometría, para ir eliminando posibles sesgos y llegar a resultados válidos.</p>
+			<p>El objetivo de este trabajo fue elaborar una síntesis de la evolución histórica de las técnicas y metodologías que han ido surgiendo y empleándose en la investigación médica en relación con los modelos de causalidad que han primado en cada momento histórico. Para ello, se realizó una amplia revisión documental y luego se determinó y seleccionó la información, teniendo en cuenta la claridad y actualización, así como la unificación y separación de aquella que era reiterada en más de una fuente, de forma interpretativa y evaluativa.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Desarrollo de los métodos y las técnicas estadísticas en investigaciones de causalidad</title>
+			<p>La evolución histórica de las técnicas estadísticas para el estudio de la causalidad en las ciencias médicas se dividió en cinco etapas -a consideración de las autoras-, para que fuesen mejor comprendidas, según el desarrollo alcanzado de las técnicas estadísticas en cada una, aunque no existe un límite exacto en el tiempo que las divida, inclusive existe solapamiento entre ellas, a saber:</p>
+			<p>
+				<list list-type="order">
+					<list-item>
+						<p>La aparición de las técnicas estadísticas</p>
+					</list-item>
+					<list-item>
+						<p>Las técnicas univariadas</p>
+					</list-item>
+					<list-item>
+						<p>Las técnicas bivariadas</p>
+					</list-item>
+					<list-item>
+						<p>Las técnicas multivariadas</p>
+					</list-item>
+					<list-item>
+						<p>Las técnicas avanzadas</p>
+					</list-item>
+				</list>
+			</p>
+			<p>A continuación, se presentan, en apretada síntesis, los hechos y las características principales de cada etapa.</p>
+			<sec>
+				<title>Etapa 1. La aparición de las técnicas estadísticas</title>
+				<p>Desde la era hipocrática hasta el siglo XVII no existían técnicas para el estudio de la causalidad en la medicina. En 1662, John Graunt publicó su estudio con la primera tabla de vida que se conoce, donde recopiló datos de más de 30 años y logró analizar las causas de natalidad y mortalidad y hacer predicciones de estas.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+				</p>
+				<p>En esta época comenzó el desarrollo de la teoría de la probabilidad. En 1713, se propuso el teorema de Bernoulli y la distribución binomial, y entre 1731 y 1736, Thomas Bayes utilizó la probabilidad inductivamente y estableció la base matemática para la inferencia probabilística; además, estudió el problema de la determinación de la probabilidad de las causas a través de los efectos observados, conocido como la probabilidad inversa. Luego, en 1733, De Moivre descubrió la función de densidad de probabilidad normal y, en 1738, propuso un caso particular del teorema central del límite, conocido como el teorema de De Moivre-Laplace, pero no fue hasta finales de ese siglo e inicios del XIX que se empezaron a sentar las bases teóricas de las probabilidades, con los trabajos de Lagrange y Laplace, cuya aplicación se limitó en ese momento a los juegos de azar.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+				</p>
+				<p>También a mediados del siglo XVIII comenzó el auge de la estadística descriptiva en asuntos sociales y económicos; sin embargo, existía una oposición al empleo de procedimientos numéricos para el análisis de datos clínicos, puesto que se consideraba la medicina como una disciplina fundamentada únicamente en la fisiología experimental de cada paciente de modo individual y no podían existir conclusiones generalizables.</p>
+			</sec>
+			<sec>
+				<title>Etapa 2. Las técnicas univariadas</title>
+				<p>Esta etapa se extiende desde comienzos hasta finales del siglo XIX y se caracteriza por el censo exhaustivo de las poblaciones en sus inicios y los estudios parciales a partir de pequeñas muestras a finales de siglo, así como la continuación del desarrollo de la teoría de la probabilidad y la estadística por separado, el surgimiento del primer modelo de causalidad y la introducción de los métodos numérico y científico a la medicina. Hasta este momento la estadística empleada en la medicina era muy elemental; solo en unos pocos estudios a finales de siglo se utilizaron técnicas descriptivas univariadas.</p>
+				<p>Hasta mediados del siglo XIX, para estudiar las causas de las enfermedades o la efectividad de un tratamiento, se empleaban estudios de series de casos con descripciones de cada paciente. A finales de ese siglo surgió la idea de utilizar grupos comparativos en las investigaciones.</p>
+				<p>Aunque ya desde 1546 se había planteado la primera teoría del contagio, que describe tres vías para la trasmisión de una enfermedad,<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>)</sup> no fue hasta la mitad del siglo XIX que comenzaron a desarrollarse teorías relacionadas con la causalidad mediante el modelo de causa única, que trata la causa como necesaria o suficiente y exige la especificidad de la causa y del efecto. La unicausalidad primó durante todo ese mismo siglo, con la teoría del miasma, surgida a mediados del siglo XVIII, y luego, la del germen, con el descubrimiento de los microorganismos y establecimiento de estos como causa de las enfermedades, por Robert Koch, en 1876.</p>
+				<p>Por esta época, con el aumento de la población, los cambios en el medio ambiente y la revolución industrial, se había consolidado el pensamiento epidemiológico y la necesidad de utilizar el método numérico para comprender los problemas de salud en relación con el ambiente. Se cita al médico francés Pierre-Charles Alexandre Louis como el primero en introducir el método numérico a la medicina, con el estudio de la neumonía, alrededor de 1830.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+				</p>
+				<p>En 1837, William Farr generalizó el uso de las tasas de mortalidad, los conceptos de población bajo riesgo, gradiente dosis-respuesta, inmunidad de grupo, direccionalidad de los estudios, valor “año-persona” y letalidad. También descubrió las relaciones entre la prevalencia, la incidencia y la duración de las enfermedades.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+				</p>
+				<p>Asimismo, entre los primeros estudios de causalidad en medicina con el empleo de métodos numéricos, se refieren el de John Snow, en 1855, quien usó un diseño similar al de casos y controles en una investigación sobre cólera, y el de Yule, en 1899, relacionado con las causas de la pobreza, en el cual se aplicaron pruebas de significación estadística rudimentarias.</p>
+				<p>Sin embargo, el mayor representante de los estudios sobre la regularidad estadística en el siglo XIX fue Quételet, quien en 1844 usó los estudios de Poisson y Laplace para identificar los valores promedios de múltiples fenómenos biológicos y sociales, al aplicar, por primera vez, el método científico a estos.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+				</p>
+			</sec>
+			<sec>
+				<title>Etapa 3. Las técnicas bivariadas</title>
+				<p>Esta etapa se enmarca desde finales del siglo XIX, cuando se registraron cambios importantes en la estadística, al fusionarse con la teoría de la probabilidad, hasta la primera mitad del siglo XX, cuando se produjo un desarrollo vertiginoso de las técnicas estadísticas como consecuencia del intercambio entre las escuelas estadísticas de diferentes países.</p>
+				<p>La organización y tabulación de los datos se produjo primeramente en la sociología, sobre 1927, teniendo en cuenta las variables y sus categorías.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+				</p>
+				<p>Con la consolidación axiomática de la teoría de la probabilidad, en 1933, se establecieron las bases actuales de las probabilidades y surgió la era moderna de la estadística con la estadística inferencial.</p>
+				<p>En esta etapa surgieron las técnicas que permiten el estudio de relaciones entre dos variables (la causa y el efecto), como la correlación y la regresión lineal para las variables cuantitativas y la prueba de la Χ<sup>2</sup> para el caso de las variables cualitativas.</p>
+				<p>Las pruebas de hipótesis fueron creadas entre 1915 y 1933 como resultado de dos visiones antagónicas, la de Ronald Fisher y la de Jerzy Neyman con Egon Pearson.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> Dichas pruebas permitieron probar la asociación entre dos variables, al codificar y organizar los datos en una tabla de contingencia de dos filas por dos columnas (2x2), según la presencia o ausencia de ambas variables (la causa y el desenlace).</p>
+				<p>En el <xref ref-type="table" rid="t1">cuadro</xref> se muestran algunos de los aportes trascendentales a la estadística, casi todos los cuales se sucedieron en esta etapa.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+				</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro</label>
+						<caption>
+							<title>Aportes trascendentales a la estadística desde finales del siglo XIX hasta mediados del XX</title>
+						</caption>
+						<alternatives>
+							<graphic xlink:href="t1.jpg"/>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="justify">Investigador</th>
+									<th align="center">Aporte</th>
+									<th align="center">Año</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="justify">Andréi Andréyevich <bold>Márkov</bold> (Rusia, 1856- 1922)</td>
+									<td align="justify">Estudió la serie hipergeométrica y sobre las cadenas, que llevan su nombre, en el ámbito de los procesos estocásticos, así como un método para ajustar modelos lineales.</td>
+									<td align="justify">1886- 1905</td>
+								</tr>
+								<tr>
+									<td align="justify">Francis <bold>Galton</bold> (Inglaterra, 1822-1911)</td>
+									<td align="justify">Motivado por las teorías evolucionistas de la época, inició la aplicación de la estadística a la biología experimental. Sus principales aportes fueron la correlación y la regresión lineal, al comparar la talla de los hijos con la de los padres, e introdujo el concepto de mediana como medida de tendencia central.</td>
+									<td align="justify">1881- 1889</td>
+								</tr>
+								<tr>
+									<td align="justify">Karl <bold>Pearson</bold> (Inglaterra, 1857-1936)</td>
+									<td align="justify">Creó un puente entre la estadística descriptiva de la época y las probabilidades. Fundó la Bioestadística. Introdujo el término de desviación estándar, creó el método de estimación de los momentos y aportó las primeras medidas de asociación y contingencia. Creó la prueba de bondad de ajuste de la Χ<sup>2</sup> y los coeficientes de correlación para variables cuantitativas y de asimetría para distribuciones uniformes, unimodales y moderadamente asimétricas.</td>
+									<td align="justify">1894- 1900</td>
+								</tr>
+								<tr>
+									<td align="justify">Willian Sealy <bold>Gosset</bold> (Inglaterra, 1876-1937)</td>
+									<td align="justify">Dedujo la distribución de la t de Student para el estudio de muestras pequeñas y aplicó por primera vez el método de simulación de Montecarlo.</td>
+									<td align="justify">1908</td>
+								</tr>
+								<tr>
+									<td align="justify">Andrei <bold>Kolmogórov</bold> (Rusia, 1903- 1987)</td>
+									<td align="justify">Definió el álgebra de las probabilidades e ideó asignar un espacio muestral de sucesos observables a cada experimento aleatorio y representarlos como subconjuntos del espacio muestral, dando una interpretación probabilística a las operaciones con sucesos.</td>
+									<td align="justify">1933</td>
+								</tr>
+								<tr>
+									<td align="justify">Ronal Arnold <bold>Fisher</bold> (Inglaterra, 1890- Australia, 1962)</td>
+									<td align="justify">Considerado por muchos como &quot;el Padre de la Estadística moderna&quot;, comenzó a plantear el uso de la Estadística para determinar el efecto causal en problemas agrícolas y luego incursionó en la Genética y la Biología. Ilustró en varias publicaciones la construcción de estimadores, los criterios de eficiencia del estimador, el método de estimación de máxima verosimilitud, los intervalos confidenciales, los contrastes de significación, la noción de grados de libertad, la teoría del diseño de experimentos, el análisis de varianza y covarianza y el análisis discriminante. Su método de aleatorización sirvió de base para realizar inferencias causales.</td>
+									<td align="justify">1922- 1935</td>
+								</tr>
+								<tr>
+									<td align="justify">Walter A. <bold>Shewhart</bold> (Estados Unidos, 1891- 1967)</td>
+									<td align="justify">Delimitó el problema de la calidad en términos de variación de causas asignables y ocasionales e introdujo la gráfica de control como una herramienta para distinguir entre las dos.</td>
+									<td align="justify">1924</td>
+								</tr>
+								<tr>
+									<td align="justify">Harold <bold>Hotelling</bold> (Estados Unidos, 1895- 1973)</td>
+									<td align="justify">Generalizó la prueba de la t de Student a varias dimensiones, desarrolló el análisis de correlaciones canónicas y el análisis de componentes principales, esbozado antes por Pearson.</td>
+									<td align="justify">1933</td>
+								</tr>
+								<tr>
+									<td align="justify">Jerzy <bold>Neyman</bold> (Polonia, 1894- Estados Unidos, 1981)</td>
+									<td align="justify">Comenzó a desarrollar la teoría del muestreo para superar de manera científica la posibilidad de ahorrar recursos al no estudiar la población completa, y formuló los diseños de muestreo estratificado y por conglomerado. Dio un nuevo enfoque a las pruebas de significación, fortaleció la teoría sobre los intervalos de confianza y creó el lema de Neyman-Pearson, base de la teoría de la decisión. Introdujo el análisis causal mediante el concepto de efecto de un tratamiento.</td>
+									<td align="justify">1934</td>
+								</tr>
+								<tr>
+									<td align="justify">Charles <bold>Spearman</bold> (Inglaterra, 1863- 1945)</td>
+									<td align="justify">Desarrolló el análisis factorial exploratorio en el ámbito de la Psicometría para medir variables abstractas no observables (constructos), en especial la inteligencia. También desarrolló el diseño de experimentos factoriales y el coeficiente de correlación de Spearman.</td>
+									<td align="justify">1920-1935</td>
+								</tr>
+								<tr>
+									<td align="justify">Maurice George <bold>Kendall</bold> (Inglaterra, 1907- 1983)</td>
+									<td align="justify">Aplicó el análisis factorial a la productividad de los cultivos. Realizó estudios de series temporales y desarrolló el coeficiente de correlación por rangos de Kendall. </td>
+									<td align="justify">1930- 1972</td>
+								</tr>
+								<tr>
+									<td align="justify">William Gemmell <bold>Cochran</bold> (Escocia, 1909 - 1980)</td>
+									<td align="justify">Realizó contribuciones al diseño de experimentos y a la teoría del muestreo. Desarrolló la prueba Q de Cochran para muestras pareadas.</td>
+									<td align="justify">1934</td>
+								</tr>
+								<tr>
+									<td align="justify">Abraham Wald (Rumanía, 1902- India, 1950)</td>
+									<td align="justify">Fundó la llamada teoría de la decisión para tomar decisiones bajo condiciones de incertidumbre, a diferencia de la escuela inferencista de Fisher. Introdujo las funciones de pérdida, función de riesgo, reglas de decisión admisibles, distribuciones <italic>a priori</italic>, teoría bayesiana de la decisión, y reglas minimax para la toma de decisión.</td>
+									<td align="justify">1939</td>
+								</tr>
+								<tr>
+									<td align="justify">Frank <bold>Yates</bold> (Inglaterra, 1902- 1994)</td>
+									<td align="justify">Trabajó en diseño experimental, realizó contribuciones a la teoría del análisis de la varianza, donde desarrolló los métodos computacionales para el análisis de experimentos a través de mínimos cuadrados de los bloques equilibrados incompletos. También trabajó en la teoría del diseño y análisis de encuestas.</td>
+									<td align="justify">1933-1954</td>
+								</tr>
+								<tr>
+									<td align="justify">Frank <bold>Wilcoxon</bold> (Irlanda, 1892- Estados Unidos, 1965)</td>
+									<td align="justify">Introdujo las pruebas no paramétricas: de suma de rangos para dos muestras independientes y del rango con signo para dos muestras pareadas, alternativas a la prueba paramétrica de la t de Student, y los métodos secuenciales no paramétricos.</td>
+									<td align="justify">1945</td>
+								</tr>
+								<tr>
+									<td align="justify">George Edward Pelham <bold>Box</bold> (Inglaterra, 1919- Estados Unidos, 2013)</td>
+									<td align="justify">Realizó importantes contribuciones en las áreas de control de calidad, análisis de series temporales, donde aportó la metodología Box-Jenkins, el diseño de experimentos y la inferencia bayesiana. Acuñó el término robustez, para designar los métodos estadísticos que procuran asegurar resultados aceptables, cuando no se cumplen los supuestos estándares en que se basan los métodos estadísticos regulares.</td>
+									<td align="justify">1953-1985</td>
+								</tr>
+								<tr>
+									<td align="justify">John Wilder <bold>Tukey</bold> (Estados Unidos, 1905- 2000)</td>
+									<td align="justify">Introdujo mejoras en los procedimientos de los censos de población, el método de remuestreo Jackknife, para la estimación de sesgos y varianzas, y el análisis exploratorio de datos con los diagramas de tallos y hojas, de cajas y bigotes, radigramas y diagramas de ajuste. Introdujo las técnicas para estimar el espectro de las series temporales y el algoritmo de la transformada rápida de Fourier, fundamental para crear el procesamiento digital de datos.</td>
+									<td align="justify">1965- 1977</td>
+								</tr>
+							</tbody>
+						</table>
+					</alternatives>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t1b">
+						<label>Cuadro(Cont.)</label>
+						<caption>
+							<title>Aportes trascendentales a la estadística desde finales del siglo XIX hasta mediados del XX</title>
+						</caption>
+						<alternatives>
+							<graphic xlink:href="t1b.jpg"/>
+						</alternatives>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t1c">
+						<label>Cuadro(Cont.)</label>
+						<caption>
+							<title>Aportes trascendentales a la estadística desde finales del siglo XIX hasta mediados del XX</title>
+						</caption>
+						<alternatives>
+							<graphic xlink:href="t1c.jpg"/>
+						</alternatives>
+					</table-wrap>
+				</p>
+				<p>Entre 1930 y 1940 la estadística había alcanzado un elevado nivel matemático, y comenzaron a formularse las distribuciones de probabilidades multivariadas, debido a los progresos logrados en el cálculo de las probabilidades y la fusión de los trabajos de rusos, franceses, ingleses y americanos; también se iniciaron los primeros trabajos aplicando la estadística bayesiana. Después de la Segunda Guerra Mundial se desarrollaron técnicas, como el análisis de series temporales, la teoría de juegos, la teoría del caos, las redes neuronales; pero pasaron muchos años para que estas técnicas se emplearan en las ciencias médicas. </p>
+			</sec>
+			<sec>
+				<title>Etapa 4. Las técnicas multivariadas</title>
+				<p>Esta época empezó a mediados del siglo XX, cuando se inició la Estadística actual con dos pilares fundamentales: la teoría de la decisión y los métodos bayesianos, y se caracteriza por el establecimiento de los modelos multicausales, la búsqueda de métodos de estimación más eficientes, la aparición de nuevas pruebas no paramétricas y las técnicas multivariadas. Tal desarrollo fue posible por la aparición del computador, que hizo que la metodología estadística se desplazara hacia técnicas aplicadas en grandes masas de datos y procesos iterativos de búsqueda del modelo ideal. En esta etapa se gestó un verdadero cambio en la medicina, donde comenzaron a realizarse estudios de factores de riesgo y ensayos clínicos, con la introducción de técnicas estadísticas avanzadas. </p>
+				<p>Primero surgió la econometría, pionera en el uso de modelos de análisis de dependencia para el reconocimiento de la causalidad en estudios no experimentales, con la formulación del teorema de covariación, la correlación parcial y las ecuaciones estructurales, las cuales constituyen los primeros antecedentes de los modelos matemáticos causales, puesto que estas ecuaciones representan una relación teórica de causa-efecto de la que parten los modelos causales jerárquicos o recursivos y de causación mutua.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+				</p>
+				<p>Entre los años 40 y 50, el reconocimiento de la influencia de varios factores en un desenlace dio paso al modelo multicausal determinista, que se consolidó en el año 1960. Bajo la influencia de los trabajos de Fisher, sobre el diseño de experimentos, comenzó la aplicación de la estadística en la investigación médica, que va adaptando las técnicas existentes para el estudio de la causalidad al contexto biomédico. Alrededor de 1940 se reconoció la bioestadística como parte de la investigación médica para el diseño y análisis en el laboratorio, la epidemiología y los ensayos clínicos. Los estudios de esta época tenían como objetivo representar de manera simplificada las relaciones causales o predecir, en base a lo observado, dentro de ciertos márgenes de error.</p>
+				<p>Las investigaciones sobre factores de riesgo trataban las causas como directas e indirectas y se enmarcaban en el enfoque lineal constante, proporcional y, por tanto, predecible entre dos o más variables (causa y efecto), el cual predominaba en las ciencias naturales. Así, el nexo causa-efecto se analiza, desde entonces, como una relación lineal, no compleja, unívoca y dimensionable. Se empezaron a aplicar la variable dependiente, representada por el desenlace, y tantas covariables como el investigador considerase que pudieran intervenir en dicho desenlace, así como la aleatorización para controlar la variabilidad experimental y eliminar el sesgo. Se desarrollaron con mayor precisión los conceptos de exposición, riesgo, asociación, confusión y sesgo, y se incorporó el uso franco de la teoría de la probabilidad y de un sinnúmero de técnicas estadísticas avanzadas.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+				</p>
+				<p>Doll y Hill incorporaron el método experimental y la asignación aleatoria de individuos en las ciencias médicas. En 1946 se realizó el primer ensayo clínico con la participación de Hilly; en 1950, Doll y Hill publicaron su investigación de casos y controles para el estudio del cáncer de pulmón en relación con el hábito de fumar. En esta época se sucedieron varios estudios prospectivos para la identificación de factores de riesgo, sobre todo de índole laboral.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+				</p>
+				<p>En 1945, Neumann y Morgenstern desarrollaron la teoría probabilística de la utilidad en el ámbito económico y, en 1947, McNemar propuso un test para probar la homogeneidad de proporciones en dos muestras correlacionadas y Yerushalmy introdujo los términos de sensibilidad y especificidad como indicadores para evaluar la eficacia inherente a una prueba diagnóstica.</p>
+				<p>Posteriormente, en 1954, se llevó a cabo el mayor y más costoso estudio para evaluar la eficacia de la vacuna contra la poliomelitis. En 1956, Quenouille aportó técnicas que permiten reducir el sesgo y establecer nuevos entornos para la estimación, y en 1959, Mantel y Haenszel propusieron su técnica para controlar las variables confusoras.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+				</p>
+				<p>A partir de 1960 los científicos se dieron cuenta del peligro de realizar inferencias, cuando en los datos aparecieron valores extraños, y propusieron modelos y estimadores robustos como alternativas para estos casos.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+				</p>
+				<p>Entre las décadas de los 60 y 70, MacMahon propuso los métodos de las redes causales o la tela de araña, como los de la diferencia, la analogía y la concordancia. También introdujo el término de asociación causal. Luego propuso el modelo de las cajas negras o modelo histórico-social y aclaró el concepto de interacción cuando comenzaron las discusiones en torno a la metodología de las investigaciones de causalidad de las enfermedades crónicas.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+				</p>
+				<p>Otra variante del modelo multicausal fue el esquema propuesto por Leavell y Clark, denominado “historia natural de la enfermedad”, donde se distinguen tres períodos: prepatogénico, patogénico y de resultados.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> En 1965, Hill propuso nueve consideraciones para establecer una relación de causalidad a partir de una relación de asociación, las cuales constituyen la primera propuesta teórica para orientar el proceso de inferencia causal, muy empleada hasta hoy, a pesar de las críticas.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> En 1991, Susser propuso tres criterios: asociación, orden temporal y dirección, e introdujo el llamado modelo de las “cajas chinas” o ecoepidemiológico, donde los sistemas se encuentran separados y organizados jerárquicamente.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+				</p>
+				<p>En 1965, Zadeh introdujo la teoría de los conjuntos difusos o borrosos, que ofreció un marco adecuado para tratar con la causalidad imperfecta. Unos 10 años más tarde, Kosko incluyó los mapas cognitivos difusos. Sin embargo, en estos momentos no se visualizaba su utilidad en las ciencias médicas.<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+				</p>
+				<p>En la década de los 70, Rothman elaboró su modelo multicausal determinista modificado, intentando superar los modelos anteriores. En este modelo no solo consideró las múltiples causas, sino también las múltiples vías causales (combinaciones de causas que llevan a un efecto) y trató de determinar la fuerza de las asociaciones causales para conocer la importancia de cada factor causal dentro de esa cadena de multicausalidad. Definió la causa componente y redefinió la causa suficiente; facilitó, además, la explicación de la interacción entre causas, la proporción de enfermedad atribuible a una causa específica y el periodo de inducción.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+				</p>
+				<p>La idea de normalidad y valor medio dieron paso a nuevas concepciones, con las cuales el modelo multicausal determinístico cedió espacio al multicausal probabilístico-estadístico, que emplea la teoría de las probabilidades y las técnicas estadísticas para probar y estimar la magnitud de la relación observada. Debido a la incertidumbre en las relaciones entre variables, se utilizó el término factor de riesgo, en vez de causa, para indicar una variable supuestamente relacionada con la probabilidad de que un individuo desarrollara una enfermedad; también se introdujeron los términos de factor pronóstico y marcadores de riesgo y pronóstico. Se comenzaron a estimar el riesgo relativo y el riesgo atribuible. Asimismo, ya no se hablaba de causalidad, sino de asociaciones causales, y el empleo de los métodos estadísticos permitía, al utilizar variables continuas, describir curvas de dosis-efecto, en las cuales varios niveles del factor de estudio están relacionados con la probabilidad de desarrollar la enfermedad.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+				</p>
+				<p>En 1970, Cox difundió la regresión logística, cuyos antecedentes están en Bartlett, quien en 1937 utilizó la transformación para analizar proporciones. En 1938, Fisher y Yates sugirieron el uso de esa transformación log(y/(1(y)) para analizar datos binarios. En 1944, Berkson introdujo el término <italic>logit</italic> para designar esta transformación y, en 1961, Cornfield utilizó, por primera vez, la regresión logística para conocer el riesgo de padecer una enfermedad coronaria, a través del cálculo de los <italic>odds ratio</italic> como valores aproximados del riesgo relativo en un estudio de casos y controles.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> En 1967, Walter y Duncan crearon el algoritmo para estimar la probabilidad de ocurrencia de un desenlace en función de múltiples variables, con la obtención de los estimadores de máxima verosimilitud; paso crucial para automatizar la técnica de la regresión logística. Gracias al surgimiento de los ordenadores fue posible poner en práctica los algoritmos para la obtención de los estimadores, lo cual propició la aplicación y el desarrollo de dicha técnica, llegando a ser la más empleada hasta la actualidad, puesto que permite al investigador cuantificar el riesgo a partir de múltiples características biológicas o no biológicas y la creación de modelos predictivos de fenómenos complejos, controlando el efecto de posibles variables confusoras y analizando la interacción entre diferentes covariables, siempre que se trate de un desenlace dicotómico.</p>
+				<p>Sobre los años 70 se desarrolló en la sociología, además del modelo <italic>logit</italic>, el modelo multinivel como una variante de este y el <italic>log lineal</italic> para probar asociación entre múltiples variables categóricas.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> En la econometría se creó el análisis factorial confirmatorio y el primer programa estadístico, conocido como <italic>Linear Structural Relations (LISREL</italic>), que permitió estimar y probar los modelos de ecuaciones estructurales.<xref ref-type="bibr" rid="B21"><sup>21</sup></xref>
+				</p>
+				<p>Entre 1974 y 1976, Miettinen introdujo el concepto de modificación del efecto (interacción) y estableció la concepción moderna de los diseños de casos y controles, presentando sus bases teóricas, apoyado en los estudios previos de Cornfield, Mantel y Haenszel.<xref ref-type="bibr" rid="B22"><sup>22</sup></xref> En esta fecha, para incrementar la validez de los estudios observacionales, Rubin formalizó el modelo de respuestas potenciales o contrafactuales, siguiendo las ideas de Neyman. Este modelo, heredado de la econometría, consta de dos elementos fundamentales: las respuestas potenciales (lo que hubiese sucedido en la ausencia del supuesto factor causal) y el mecanismo de asignación del tratamiento.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+				</p>
+			</sec>
+			<sec>
+				<title>Etapa 5. Las técnicas avanzadas</title>
+				<p>Esta época comenzó a finales del siglo XX y se caracteriza por la propuesta de múltiples enfoques, opuestos a la linealidad de pensamiento que reinó en las etapas anteriores. Con los avances en la física cuántica y la genética molecular, surgió el pensamiento de la complejidad como reacción necesaria ante la interpretación determinista y reductora que caracterizó la concepción tradicional de la ciencia hasta esos momentos.</p>
+				<p>Se estudió la distribución poblacional de genes que podrían explicar las variaciones en la presentación de diversos padecimientos, donde se apreció el componente aleatorio y surgió el enfoque de “curso de vida”, que sugiere la participación de modificaciones epigenéticas a lo largo de la vida, determinando la expresión o el silenciamiento de los genes sin que haya cambios en la estructura del genoma, así como la transmisión generacional de las modificaciones del epigenoma, que parecen constituir las bases moleculares de muchas enfermedades. Este modo de pensar conduce al paradigma de la complejidad, que obliga a los investigadores a estudiar el proceso salud-enfermedad a través de modelos complejos, dinámicos, jerárquicos, que tienen en cuenta la función creativa del desorden, de las inestabilidades, del azar, de las asimetrías, de las teorías del caos, los fractales, los conjuntos borrosos y las catástrofes.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>
+				</p>
+				<p>El desarrollo computacional alcanzado después de los 80 permitió un avance extraordinario en los métodos estadísticos, con la aplicación de las técnicas multivariadas esbozadas desde principios del siglo, y en otros algoritmos iterativos complejos, que solo pueden llevarse a cabo con la ayuda del computador, como las técnicas de clasificación de remuestreo: el <italic>bootstrap</italic>, la simulación de Montecarlo y las cadenas de Markov.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+				</p>
+				<p>Otras técnicas desarrolladas fueron la lógica difusa, la estimación autosuficiente, los modelos bayesianos, los métodos basados en la G-estimación, los listados libres (<italic>free-lists</italic>) y las técnicas de la minería de datos (<italic>data mining</italic>), como las reglas de asociación, los árboles de clasificación y las redes neuronales, entre otras.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>
+				</p>
+				<p>En los años 70 cobró auge el uso de las técnicas de supervivencia en la medicina, que tienen sus raíces en la ingeniería, para determinar la duración y fiabilidad de los elementos de las maquinarias. A lo largo de la década de los 80, surgieron los métodos de bondad de ajuste para la regresión logística como el test de Hosmer y Lemeshow, el de Score y, por último, los seudo-R<sup>2</sup> de Cox y Snell.<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>
+				</p>
+				<p>También en los 70 se comenzó a aplicar la curva de características operacionales del receptor (conocida por las siglas ROC del inglés <italic>Receiver Operating Characteristic</italic>) a la evaluación de medios de diagnóstico médico, la cual había sido desarrollada en el contexto de la detección de señales electrónicas en los inicios de la década de los 50 y en 1967, usada por primera vez en el proceso de toma de decisiones médicas por el radiólogo Leo Lusted. De igual forma, las técnicas de inteligencia artificial, como las redes neuronales artificiales, los árboles de decisión y las redes bayesianas, comenzaron a ser empleadas en la investigación médica de causalidad.<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>
+				</p>
+				<p>Regis Gras, en los años 80, utilizó los conceptos de similaridad, cuasi-implicación y cohesión para generar relaciones asimétricas basadas en reglas que conducen a hipótesis de causalidad en el campo de la didáctica de las matemáticas, con lo que apareció una nueva forma de análisis estadístico, llamada análisis estadístico implicativo,<xref ref-type="bibr" rid="B29"><sup>29</sup></xref> que se adaptó al contexto médico y ha sido empleada junto a la regresión logística para identificar factores de riesgo y pronósticos en varios estudios efectuados en Santiago de Cuba.<xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+				</p>
+				<p>Pearl,<xref ref-type="bibr" rid="B34"><sup>34</sup></xref> uno de los primeros en dar un formalismo matemático al fenómeno de la causalidad en las ciencias empíricas, en 1985 propuso las redes de inferencia como una extensión del modelo probabilístico clásico basado en las redes bayesianas y, en 1993, formalizó métodos gráficos como el grafo acíclico dirigido, basado en las probabilidades condicionales, para representar las relaciones causales, y retomó algunos métodos, como las variables instrumentales empleadas desde 1920 en econometría, para controlar el efecto confusor residual, y los índices de susceptibilidad, para lograr la comparabilidad de los grupos en diseños no experimentales.<xref ref-type="bibr" rid="B35"><sup>35</sup></xref>
+				</p>
+				<p>En 1982 se inició la difusión oficial, en la revista JAMA, de un nuevo enfoque para la práctica médica, la medicina basada en la evidencia. Su mayor impulsor fue Archie Cochrane quien, en 1970, reclamó una revisión crítica de los ensayos clínicos, relevantes y periódicos, según la especialidad. Estas revisiones se apoyan en el metaanálisis para resumir los resultados de la literatura en una valoración cuanticualitativa, la cual fue empleada por primera vez por Karl Pearson, en 1904, para superar el problema del reducido poder estadístico de los estudios con pequeños tamaños muestrales. El metaanálisis fue aplicado, inicialmente, en las ciencias sociales y en psicología; a partir de los 80, comenzó a aplicarse de forma creciente en medicina.</p>
+				<p>En 1986, Robins presentó un enfoque gráfico para la identificación y estimación de parámetros causales en estudios de cohorte ocupacional, donde es frecuente el sesgo del trabajador saludable. Luego formalizó su teoría contrafactual, que es una generalización de las anteriores, pero que puede aplicarse a estudios longitudinales con exposiciones cambiantes. El primer producto de su teoría fue la fórmula g, un método causal no paramétrico, la generalización del ajuste por estandarización, en contraste con los métodos tradicionales que ajustan mediante estratificación de la medida de asociación y que permite calcular efectos causales de exposiciones cambiantes, bajo la condición de no confusión residual, incluso en presencia de confusores cambiantes afectados por la exposición. Luego, como la fórmula g requeriría cantidades enormes de datos y tiempo de cálculo, desarrolló dos clases de modelos semiparamétricos: los modelos estructurales marginales y los estructurales anidados.<xref ref-type="bibr" rid="B36"><sup>36</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref>
+				</p>
+				<p>Más adelante, en el 2000, se consolidó el modelo causal estructural, el cual unificó las teorías previas sobre los métodos gráficos, los resultados potenciales o contrafactuales, los confusores, las causas componentes y suficientes, y las ecuaciones estructurales; proporcionando perspectivas complementarias y mejorando las interpretaciones causales de los resultados estadísticos convencionales. Estos constituyen una alternativa a los modelos clásicos de regresión cuando existe una variable confusora dependiente del tiempo. La Escuela de Salud Pública de Harvard trabaja en el perfeccionamiento de estos modelos.<xref ref-type="bibr" rid="B37"><sup>37</sup></xref>
+				</p>
+				<p>Estudios recientes han abordado también métodos para tratar datos perdidos (<italic>missing value</italic>) y los resultados potenciales perdidos, como la imputación múltiple y los g-estimadores paramétricos,<xref ref-type="bibr" rid="B38"><sup>38</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B39"><sup>39</sup></xref> o los diagramas causales canónicos,<xref ref-type="bibr" rid="B40"><sup>40</sup></xref><sup>)</sup> aunque, desde 1978, Rubin había propuesto el método de imputación múltiple de cadenas de Markov Montecarlo, como alternativas ante la ausencia de valores en las bases de datos.<xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+				</p>
+				<p>También se han realizado notables esfuerzos por mejorar el diseño metodológico de estas investigaciones, estableciendo guías (actualizables de manera periódica), donde se pautan los métodos estadísticos y todos los aspectos que avalan la calidad del informe de la investigación.<xref ref-type="bibr" rid="B41"><sup>41</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>
+				</p>
+				<p>Se continúa trabajando en la búsqueda de algoritmos para mejorar la obtención de diagramas causales,<xref ref-type="bibr" rid="B43"><sup>43</sup></xref> de métodos que identifiquen confusores entre los modelos multivariados,<xref ref-type="bibr" rid="B44"><sup>44</sup></xref> técnicas para incrementar la validez de los estudios no experimentales, como la aleatorización mendeliana, creada en el 2013, como un tipo particular de análisis entre las variables instrumentales, con lo cual se busca una aproximación a los estudios experimentales mediante el uso de variantes génicas relacionadas con algún factor de exposición, y además se evita el sesgo de causalidad inversa.<xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B46"><sup>46</sup></xref>
+				</p>
+				<p>El avance en la genética molecular ha llevado a la creación de grandes bases de datos a nivel internacional, con la que se llevan a cabo múltiples investigaciones de causalidad, y se siguen creando herramientas informáticas para el procesamiento de la información genómica, la determinación de modelos y su relación causal con enfermedades comunes, para fomentar la medicina personalizada.<xref ref-type="bibr" rid="B47"><sup>47</sup></xref>
+				</p>
+				<p>El avance en la informática, la nanotecnología y las comunicaciones, también han permitido el empleo de satélites y sensores remotos en el ámbito de la salud. En el estudio de la causalidad medioambiental se entrelazan ciencias que aplican técnicas estadísticas espacio-temporales avanzadas, como la geografía médica, la geología médica, la biometeorología y la ecología sanitario-ambiental.</p>
+				<p>Otros aspectos que se deben considerar son el apoyo de las investigaciones de causalidad cuantitativas con técnicas cualitativas,<xref ref-type="bibr" rid="B48"><sup>48</sup></xref><sup>)</sup> la evaluación indispensable por parte de los comités de ética de la investigación en salud;<xref ref-type="bibr" rid="B49"><sup>49</sup></xref><sup>)</sup> y, dada la premura en conseguir mejores resultados, se sugiere a los autores mostrar a la comunidad científica sus artículos, junto a sus datos, para que se puedan replicar los estudios reutilizando los mismos datos.<xref ref-type="bibr" rid="B50"><sup>50</sup></xref>
+				</p>
+				<p>Para ampliar esta información, se puede consultar a Rodríguez-Villamizar<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> y López-Moreno,<xref ref-type="bibr" rid="B2"><sup>2</sup></xref> quienes exponen detalladamente todos los modelos de causalidad ya referidos, así como Celik<xref ref-type="bibr" rid="B3"><sup>3</sup></xref> y Almenara,<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> que ofrecen los detalles de la evolución de la estadística y la bioestadística, en particular.</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Consideraciones finales</title>
+			<p>En los últimos años el desarrollo de la estadística ha sido acelerado y vertiginoso, tanto que a los especialistas de la rama les cuesta apropiarse de las múltiples técnicas existentes. No obstante esa variedad, desde mediados del siglo XIX, la técnica más empleada para el estudio de la causalidad en las ciencias biomédicas ha sido la regresión logística binaria.</p>
+			<p>Hoy día es preciso aprovechar los descubrimientos científicos, el gran avance en la bioestadística, la computación con los múltiples paquetes de software estadísticos, los sistemas de información, la inteligencia artificial, los procesos de análisis en línea, el acceso y tratamiento de grandes volúmenes de datos de estudios poblacionales de diferentes fuentes, con la identificación de modelos válidos, potencialmente útiles y entendibles, mediante la aplicación de las técnicas de descubrimiento del conocimiento en bases de datos, la colaboración internacional y la transdisciplinariedad, donde confluyen matemáticos, filósofos, cibernéticos, biólogos, epidemiólogos, económicos, sociólogos, geógrafos; a fin de lograr un óptimo aprovechamiento de los saberes con la aplicación de las más disímiles técnicas.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Rodríguez Villamizar L. Inferencia causal en epidemiología. Rev Salud Pública. 2017;19(3):409-15.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Villamizar</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Inferencia causal en epidemiología</article-title>
+					<source>Rev Salud Pública</source>
+					<year>2017</year>
+					<volume>19</volume>
+					<issue>3</issue>
+					<fpage>409</fpage>
+					<lpage>415</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. López Moreno S, Garrido Latorre F, Hernández Avila M. Desarrollo histórico de la epidemiología: su formación como disciplina científica. Salud Pública de México. 2000 [citado 11/09/2018];42(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://saludpublica.mx/index.php/spm/article/viewFile/6221/7398">http://saludpublica.mx/index.php/spm/article/viewFile/6221/7398</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López Moreno</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Garrido Latorre</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Hernández Avila</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Desarrollo histórico de la epidemiología: su formación como disciplina científica</article-title>
+					<source>Salud Pública de México</source>
+					<year>2000</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>42</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://saludpublica.mx/index.php/spm/article/viewFile/6221/7398">http://saludpublica.mx/index.php/spm/article/viewFile/6221/7398</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Celik MY. The Miracle of Biostatistics in Medical Research. International Journal of Basic and Clinical Studies (IJBCS). 2013;2(2):1-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Celik</surname>
+							<given-names>MY</given-names>
+						</name>
+					</person-group>
+					<article-title>The Miracle of Biostatistics in Medical Research</article-title>
+					<source>International Journal of Basic and Clinical Studies (IJBCS)</source>
+					<year>2013</year>
+					<volume>2</volume>
+					<issue>2</issue>
+					<fpage>1</fpage>
+					<lpage>6</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. A Brief History of Statistics (Selected Topics). ALPHA Seminar. 2017, 29 Ago [citado 11/09/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://homepage.divms.uiowa.edu/~dzimmer/alphaseminar/Statistics-history.pdf">http://homepage.divms.uiowa.edu/~dzimmer/alphaseminar/Statistics-history.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>A Brief History of Statistics (Selected Topics). ALPHA Seminar</source>
+					<day>29</day>
+					<month>08</month>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://homepage.divms.uiowa.edu/~dzimmer/alphaseminar/Statistics-history.pdf">http://homepage.divms.uiowa.edu/~dzimmer/alphaseminar/Statistics-history.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Malagón Oviedo R. Epidemiología, saberes y prácticas: un análisis crítico. Rev Salud Pública. 2017 [citado 11/09/2018];19(3):416-22. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/pdf/rsap/v19n3/0124-0064-rsap-19-03-00416.pdf">http://www.scielo.org.co/pdf/rsap/v19n3/0124-0064-rsap-19-03-00416.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malagón Oviedo</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiología, saberes y prácticas: un análisis crítico</article-title>
+					<source>Rev Salud Pública</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>19</volume>
+					<issue>3</issue>
+					<fpage>416</fpage>
+					<lpage>422</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/pdf/rsap/v19n3/0124-0064-rsap-19-03-00416.pdf">http://www.scielo.org.co/pdf/rsap/v19n3/0124-0064-rsap-19-03-00416.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Rosser Matthews J. History of Biostatistics. Medical Writing. 2016 [citado 11/09/2018];25(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://journal.emwa.org/statistics/history-of-biostatistics/">https://journal.emwa.org/statistics/history-of-biostatistics/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosser Matthews</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>History of Biostatistics</article-title>
+					<source>Medical Writing</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>25</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://journal.emwa.org/statistics/history-of-biostatistics/">https://journal.emwa.org/statistics/history-of-biostatistics/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Tanton JS. History of Probability and Statistics. En: Encyclopedia of Mathematics. New York: Facts On File; 2005.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tanton</surname>
+							<given-names>JS</given-names>
+						</name>
+					</person-group>
+					<chapter-title>History of Probability and Statistics</chapter-title>
+					<source>Encyclopedia of Mathematics</source>
+					<year>2005</year>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Facts On File</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Lizón MA. Estadística y causalidad en la sociología empírica del XX. Papers. 2006 [citado 11/09/2018];(80):223-55. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/download/pdf/13270350.pdf">https://core.ac.uk/download/pdf/13270350.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lizón</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Estadística y causalidad en la sociología empírica del XX</article-title>
+					<source>Papers</source>
+					<year>2006</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<issue>80</issue>
+					<fpage>223</fpage>
+					<lpage>255</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/download/pdf/13270350.pdf">https://core.ac.uk/download/pdf/13270350.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Historia de la Estadística. Revista Varianza. 2011 [citado 11/09/2018];(8). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistasbolivianas.org.bo/scielo.php?pid=S9876-67892011000100011&amp;script=sci_arttext&amp;tlng=es">http://www.revistasbolivianas.org.bo/scielo.php?pid=S9876-67892011000100011&amp;script=sci_arttext&amp;tlng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<article-title>Historia de la Estadística</article-title>
+					<source>Revista Varianza</source>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<issue>8</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistasbolivianas.org.bo/scielo.php?pid=S9876-67892011000100011&amp;script=sci_arttext&amp;tlng=es">http://www.revistasbolivianas.org.bo/scielo.php?pid=S9876-67892011000100011&amp;script=sci_arttext&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Rivas MD, Araujo A, Martínez L, Flores P. Historia de la Estadística y la Probabilidad. Ciudad Bolívar: Universidad Pedagógica Experimental Libertador; 2014 [citado 11/09/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.academia.edu/7476667/HISTORIA_DE_LA_ESTADISTICA_Y_LA_PROBABILIDAD">https://www.academia.edu/7476667/HISTORIA_DE_LA_ESTADISTICA_Y_LA_PROBABILIDAD</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rivas</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Araujo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Martínez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Flores</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<source>Historia de la Estadística y la Probabilidad</source>
+					<year>2014</year>
+					<publisher-loc>Ciudad Bolívar</publisher-loc>
+					<publisher-name>Universidad Pedagógica Experimental Libertador</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.academia.edu/7476667/HISTORIA_DE_LA_ESTADISTICA_Y_LA_PROBABILIDAD">https://www.academia.edu/7476667/HISTORIA_DE_LA_ESTADISTICA_Y_LA_PROBABILIDAD</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Almenara Barrios J, Silva Ayçaguer LC, Benavides Rodríguez A, García Ortega C, González Caballero JL. Historia de la Bioestadística, la génesis, la normalidad y la crisis. Rev Esp Salud Pública. 2004 [citado 11/09/2018];78(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272004000100011">http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272004000100011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almenara Barrios</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Silva Ayçaguer</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Benavides Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>García Ortega</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>González Caballero</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<article-title>Historia de la Bioestadística, la génesis, la normalidad y la crisis</article-title>
+					<source>Rev Esp Salud Pública</source>
+					<year>2004</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>78</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272004000100011">http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272004000100011</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Silva Ayçaguer LC. Causalidad y predicción: diferencias y puntos de contacto. Medwave. 2014 [citado 11/09/2018];14(8). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medwave.cl/link.cgi/Medwave/Series/TyC-Estadistica/6016">https://www.medwave.cl/link.cgi/Medwave/Series/TyC-Estadistica/6016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva Ayçaguer</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<article-title>Causalidad y predicción: diferencias y puntos de contacto</article-title>
+					<source>Medwave</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>14</volume>
+					<issue>8</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medwave.cl/link.cgi/Medwave/Series/TyC-Estadistica/6016">https://www.medwave.cl/link.cgi/Medwave/Series/TyC-Estadistica/6016</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Molinero LM. Historia del razonamiento estadístico. Madrid: SEH-LELHA; 2004 [citado 11/09/2018]. Disponible en: https://www.seh-lelha.org/historia-del-razonamiento-estadistico/</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Molinero</surname>
+							<given-names>LM</given-names>
+						</name>
+					</person-group>
+					<source>Historia del razonamiento estadístico</source>
+					<year>2004</year>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>SEH-LELHA</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Parascandola M. Causes, risks and probabilities: probabilistic concepts of causation in chronic disease epidemiology. Prev Med. 2011 [citado 11/09/2018]; 53(4-5):232-4.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Parascandola</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Causes, risks and probabilities: probabilistic concepts of causation in chronic disease epidemiology</article-title>
+					<source>Prev Med</source>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>53</volume>
+					<issue>4-5</issue>
+					<fpage>232</fpage>
+					<lpage>234</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Sánchez Pérez MP, Velasco Benítez CA. El modelo de Leavell y Clark como marco descriptivo dentro de las investigaciones sobre el virus de la hepatitis B en niños con infección por VIH/sida del grupo de investigación Gastrohnup de la Universidad del Valle de Cali, Colombia. Revista Gastrohnup. 2017 [citado 11/09/2018];15(3 Sup. 1):6-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistas.univalle.edu.co/index.php/gastrohnup/article/view/1316/1425">http://revistas.univalle.edu.co/index.php/gastrohnup/article/view/1316/1425</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez Pérez</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Velasco Benítez</surname>
+							<given-names>CA</given-names>
+						</name>
+					</person-group>
+					<article-title>El modelo de Leavell y Clark como marco descriptivo dentro de las investigaciones sobre el virus de la hepatitis B en niños con infección por VIH/sida del grupo de investigación Gastrohnup de la Universidad del Valle de Cali, Colombia</article-title>
+					<source>Revista Gastrohnup</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>15</volume>
+					<issue>3</issue>
+					<supplement>1</supplement>
+					<fpage>6</fpage>
+					<lpage>9</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistas.univalle.edu.co/index.php/gastrohnup/article/view/1316/1425">http://revistas.univalle.edu.co/index.php/gastrohnup/article/view/1316/1425</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Vallverdú J. Causalidad y epidemiología. En: Estany A, Puyol A. Filosofía de la epidemiología social. Madrid: CSIC; 2016.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vallverdú</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Causalidad y epidemiología</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Estany</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Puyol</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Filosofía de la epidemiología social</source>
+					<year>2016</year>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>CSIC</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Leyva Vázquez M, Pérez Teruel K, Febles Estrada A, Gulín González J. Técnicas para la representación del conocimiento causal: un estudio de caso en Informática Médica. Rev Cuba Inf Cienc Salud. 2013 [citado 11/09/2018];24(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132013000100006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132013000100006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leyva Vázquez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pérez Teruel</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Febles Estrada</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gulín González</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Técnicas para la representación del conocimiento causal: un estudio de caso en Informática Médica</article-title>
+					<source>Rev Cuba Inf Cienc Salud</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>24</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132013000100006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132013000100006</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Wensink M, Westendorp RG, Baudisch A. The causal pie model: an epidemiological method applied to evolutionary biology and ecology. Ecol Evol. 2014 [citado 11/09/2018];4(10):1924-30. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4063485/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4063485/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wensink</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Westendorp</surname>
+							<given-names>RG</given-names>
+						</name>
+						<name>
+							<surname>Baudisch</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>The causal pie model: an epidemiological method applied to evolutionary biology and ecology</article-title>
+					<source>Ecol Evol</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>4</volume>
+					<issue>10</issue>
+					<fpage>1924</fpage>
+					<lpage>1930</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4063485/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4063485/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Hakeem Alrawahi A. Classical causation research practices and sufficient-component cause model - Appraisal and pitfalls. Epidemiology Biostatistics and Public Health. 2017 [citado 11/09/2018];14(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ebph.it/article/download/12576/11418">https://ebph.it/article/download/12576/11418</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hakeem Alrawahi</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Classical causation research practices and sufficient-component cause model - Appraisal and pitfalls</article-title>
+					<source>Epidemiology Biostatistics and Public Health</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>14</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ebph.it/article/download/12576/11418">https://ebph.it/article/download/12576/11418</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Rodríguez López JF, Rodríguez González B. Epidemiología: El cambio de paradigmas. Medicent Electrón. 2014 [citado 11/09/2018];18(3):93-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30432014000300002">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30432014000300002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez López</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez González</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiología: El cambio de paradigmas</article-title>
+					<source>Medicent Electrón</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>18</volume>
+					<issue>3</issue>
+					<fpage>93</fpage>
+					<lpage>99</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30432014000300002">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30432014000300002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Manzano Patiño AP. Introducción a los modelos de ecuaciones estructurales. Inv Ed Med. 2017 [citado 11/09/2018];7(25):67-72. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.mx/pdf/iem/v7n25/2007-5057-iem-7-25-67.pdf">http://www.scielo.org.mx/pdf/iem/v7n25/2007-5057-iem-7-25-67.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Manzano Patiño</surname>
+							<given-names>AP</given-names>
+						</name>
+					</person-group>
+					<article-title>Introducción a los modelos de ecuaciones estructurales</article-title>
+					<source>Inv Ed Med</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>7</volume>
+					<issue>25</issue>
+					<fpage>67</fpage>
+					<lpage>72</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.mx/pdf/iem/v7n25/2007-5057-iem-7-25-67.pdf">http://www.scielo.org.mx/pdf/iem/v7n25/2007-5057-iem-7-25-67.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Lazcano Ponce E, Salazar Martínez E, Hernández Avila M. Estudios epidemiológicos de casos y controles. Fundamento teórico, variantes y aplicaciones. Salud Pública Méx. 2001 [citado 11/09/2018];43(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.scielosp.org/article/spm/2001.v43n2/135-150/">https://www.scielosp.org/article/spm/2001.v43n2/135-150/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lazcano Ponce</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Salazar Martínez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hernández Avila</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Estudios epidemiológicos de casos y controles. Fundamento teórico, variantes y aplicaciones</article-title>
+					<source>Salud Pública Méx</source>
+					<year>2001</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>43</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.scielosp.org/article/spm/2001.v43n2/135-150/">https://www.scielosp.org/article/spm/2001.v43n2/135-150/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Bacallao Gallestey J, Alerm González A, Ferrer Arrocha M. Paradigma del curso de la vida. Implicaciones en la clínica, la epidemiología y la salud pública. La Habana: Editorial Ciencias Médicas; 2016.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bacallao Gallestey</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Alerm González</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ferrer Arrocha</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Paradigma del curso de la vida. Implicaciones en la clínica, la epidemiología y la salud pública</source>
+					<year>2016</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Wang H, Tu W. Bootstrap Methods: The Classical Theory and Recent Development. Wiley Online Library, 2018 [citado 11/09/2018]. Disponible en: https://doi.org/10.1002/9781118445112.stat04579.pub2</mixed-citation>
+				<element-citation publication-type="database">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tu</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Bootstrap Methods: The Classical Theory and Recent Development</article-title>
+					<source>Wiley Online Library</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<pub-id pub-id-type="doi">https://doi.org/10.1002/9781118445112.stat04579.pub2</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Idrovo AJ. Determinación social del proceso salud enfermedad: una mirada crítica desde la epidemiología del siglo XXI. Rev Salud Pública. 2017;19(3):404-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Idrovo</surname>
+							<given-names>AJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Determinación social del proceso salud enfermedad: una mirada crítica desde la epidemiología del siglo XXI</article-title>
+					<source>Rev Salud Pública</source>
+					<year>2017</year>
+					<volume>19</volume>
+					<issue>3</issue>
+					<fpage>404</fpage>
+					<lpage>408</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Bacallao Gallestey J. Enfoques modernos del sesgo y la causalidad en la investigación epidemiológica. Rev Cubana Salud Pública. 2012 [citado 11/09/2018];38(Supl. 5). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S086434662012000500003&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S086434662012000500003&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bacallao Gallestey</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfoques modernos del sesgo y la causalidad en la investigación epidemiológica</article-title>
+					<source>Rev Cubana Salud Pública</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<volume>38</volume>
+					<supplement>5</supplement>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S086434662012000500003&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S086434662012000500003&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Iglesias Cabo T, Escabias Macucha M, Aguilera del Pino AM. Métodos de Bondad de Ajuste en Regresión Logística [tesis de maestría]. Universidad de Granada; 2013 [citado 11/09/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://masteres.ugr.es/moea/pages/tfm-1213/tfm_iglesiascabo_tania/">http://masteres.ugr.es/moea/pages/tfm-1213/tfm_iglesiascabo_tania/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Iglesias Cabo</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Escabias Macucha</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Aguilera del Pino</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<source>Métodos de Bondad de Ajuste en Regresión Logística</source>
+					<comment content-type="degree">tesis de maestría</comment>
+					<publisher-name>Universidad de Granada</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-11">11/09/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://masteres.ugr.es/moea/pages/tfm-1213/tfm_iglesiascabo_tania/">http://masteres.ugr.es/moea/pages/tfm-1213/tfm_iglesiascabo_tania/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Monsalve Torra AE, Ruiz Fernández D, Soriano Payá A. Sistema de ayuda a la decisión clínica en enfermedades de diagnóstico complejo [tesis doctoral]. Alicante: Universidad de Alicante; 2017 [citado 21/11/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://rua.ua.es/dspace/bitstream/10045/65334/1/tesis_monsalve_torra.pdf">https://rua.ua.es/dspace/bitstream/10045/65334/1/tesis_monsalve_torra.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monsalve Torra</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Ruiz Fernández</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Soriano Payá</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Sistema de ayuda a la decisión clínica en enfermedades de diagnóstico complejo</source>
+					<year>2017</year>
+					<publisher-loc>Alicante</publisher-loc>
+					<publisher-name>Universidad de Alicante</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://rua.ua.es/dspace/bitstream/10045/65334/1/tesis_monsalve_torra.pdf">https://rua.ua.es/dspace/bitstream/10045/65334/1/tesis_monsalve_torra.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Couturier R, Pazmiño R. Use of Statistical Implicative Analysis in Complement of Item Analysis. International Journal of Information and Education Technology. 2016 [citado 21/11/2018];6(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ijiet.org/vol6/655-DL0026.pdf">http://www.ijiet.org/vol6/655-DL0026.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Couturier</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pazmiño</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of Statistical Implicative Analysis in Complement of Item Analysis</article-title>
+					<source>International Journal of Information and Education Technology</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>6</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ijiet.org/vol6/655-DL0026.pdf">http://www.ijiet.org/vol6/655-DL0026.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. García Mederos Y, Zamora Matamoros L, Sagaró del Campo N. Análisis estadístico implicativo en la identificación de factores de riesgo en pacientes con cáncer de pulmón. MEDISAN. 2015 [citado 21/11/2018];19(8). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192015000800003">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192015000800003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García Mederos</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zamora Matamoros</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sagaró del Campo</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis estadístico implicativo en la identificación de factores de riesgo en pacientes con cáncer de pulmón</article-title>
+					<source>MEDISAN</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>19</volume>
+					<issue>8</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192015000800003">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192015000800003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Moraga Rodríguez A, Zamora Matamoros L, Sagaró del Campo NM, Moraga Rodríguez A, Rodríguez Griñán A. Análisis estadístico implicativo para la identificación de factores pronósticos de la mortalidad por cáncer de pulmón. MEDISAN. 2016 [citado 21/11/2018];20(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192016000300010">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192016000300010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moraga Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zamora Matamoros</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sagaró del Campo</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Moraga Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Griñán</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis estadístico implicativo para la identificación de factores pronósticos de la mortalidad por cáncer de pulmón</article-title>
+					<source>MEDISAN</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>20</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192016000300010">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192016000300010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Moraga Rodríguez A, Zamora Matamoros L, Sagaró del Campo NM, Moraga Rodríguez A, Rodríguez Griñán A. Análisis estadístico implicativo para la identificación de factores pronósticos de la mortalidad por cáncer de mama. MEDISAN. 2017 [citado 21/11/2018];21(4):413. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192017000400003">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192017000400003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moraga Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zamora Matamoros</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sagaró del Campo</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Moraga Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Griñán</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis estadístico implicativo para la identificación de factores pronósticos de la mortalidad por cáncer de mama</article-title>
+					<source>MEDISAN</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>21</volume>
+					<issue>4</issue>
+					<size units="pages">413</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192017000400003">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192017000400003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Paez Candelaria Y, Sagaró del Campo NM Zamora Matamoros L. Análisis estadístico implicativo en la determinación de factores pronósticos del estado nutricional del paciente grave al egreso. MEDISAN 2018 [citado 21/11/2018];22(6):650. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000600007">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000600007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paez Candelaria</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sagaró del Campo NM Zamora Matamoros</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis estadístico implicativo en la determinación de factores pronósticos del estado nutricional del paciente grave al egreso</article-title>
+					<source>MEDISAN</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>22</volume>
+					<issue>6</issue>
+					<size units="pages">650</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000600007">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000600007</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Pearl J. An Introduction to Causal Inference. Int J Biostat. 2010 [citado 21/11/2018];6(2):7. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/pdf/ijb1203.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/pdf/ijb1203.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pearl</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>An Introduction to Causal Inference</article-title>
+					<source>Int J Biostat</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>6</volume>
+					<issue>2</issue>
+					<size units="pages">7</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/pdf/ijb1203.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/pdf/ijb1203.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. An W. Instrumental variables estimates of peer effects in social networks. Social Science Research. 2015;50:382-94.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>An</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Instrumental variables estimates of peer effects in social networks</article-title>
+					<source>Social Science Research</source>
+					<year>2015</year>
+					<volume>50</volume>
+					<fpage>382</fpage>
+					<lpage>394</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Hernán MA. Conocimiento experto, confusión y métodos causales. Gac Sanit. 2001;15(Supl. 4):44-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernán</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Conocimiento experto, confusión y métodos causales</article-title>
+					<source>Gac Sanit</source>
+					<year>2001</year>
+					<volume>15</volume>
+					<supplement>4</supplement>
+					<fpage>44</fpage>
+					<lpage>48</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Hernan MA, Robins JM. Causal inference. Boca Raton: Chapman &amp; Hall; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernan</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Robins</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<source>Causal inference</source>
+					<year>2017</year>
+					<publisher-loc>Boca Raton</publisher-loc>
+					<publisher-name>Chapman &amp; Hall</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Harel O, Mitchell EM, Perkins NJ, Cole SR, Tchetgen EJ, Sun B, Schisterman EF. Multiple Imputation for Incomplete Data in Epidemiologic Studies. Am J Epidemiol. 2018 [citado 21/11/2018];187(3):576-84. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/aje/article-abstract/187/3/576/4642952">https://academic.oup.com/aje/article-abstract/187/3/576/4642952</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Mitchell</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Perkins</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Cole</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Tchetgen</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Schisterman</surname>
+							<given-names>EF</given-names>
+						</name>
+					</person-group>
+					<article-title>Multiple Imputation for Incomplete Data in Epidemiologic Studies</article-title>
+					<source>Am J Epidemiol</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>187</volume>
+					<issue>3</issue>
+					<fpage>576</fpage>
+					<lpage>584</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/aje/article-abstract/187/3/576/4642952">https://academic.oup.com/aje/article-abstract/187/3/576/4642952</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Perkins NJ, Cole SR, Harel O. Principled approaches to missing data in epidemiologic studies. Am J Epidemiol. 2018;187(3):568-75.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Perkins</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Cole</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Harel</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Principled approaches to missing data in epidemiologic studies</article-title>
+					<source>Am J Epidemiol</source>
+					<year>2018</year>
+					<volume>187</volume>
+					<issue>3</issue>
+					<fpage>568</fpage>
+					<lpage>575</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Moreno-Betancur M, Lee KJ, Leacy FP, White IR, Simpson JA, Carlin JB. Canonical Causal Diagrams to Guide the Treatment of Missing Data in Epidemiologic Studies. Am J Epidemiol. 2018; 187(12):2705-15.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreno-Betancur</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Leacy</surname>
+							<given-names>FP</given-names>
+						</name>
+						<name>
+							<surname>White</surname>
+							<given-names>IR</given-names>
+						</name>
+						<name>
+							<surname>Simpson</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Carlin</surname>
+							<given-names>JB</given-names>
+						</name>
+					</person-group>
+					<article-title>Canonical Causal Diagrams to Guide the Treatment of Missing Data in Epidemiologic Studies</article-title>
+					<source>Am J Epidemiol</source>
+					<year>2018</year>
+					<volume>187</volume>
+					<issue>12</issue>
+					<fpage>2705</fpage>
+					<lpage>2715</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Hung M, Bounsanga J, Wright Voss M. Interpretation of correlations in clinical research. Postgrad Med. 2017; 129(8):902-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hung</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bounsanga</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wright Voss</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Interpretation of correlations in clinical research</article-title>
+					<source>Postgrad Med</source>
+					<year>2017</year>
+					<volume>129</volume>
+					<issue>8</issue>
+					<fpage>902</fpage>
+					<lpage>906</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Castellanos-Olivares A, Rojas-Peñaloza J, Vásquez-Márquez PI. ¿Cómo evaluar artículos de riesgo o causalidad en medicina? Revista Mexicana de Anestesiología. 2016;39(Supl. 1):232-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castellanos-Olivares</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rojas-Peñaloza</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vásquez-Márquez</surname>
+							<given-names>PI</given-names>
+						</name>
+					</person-group>
+					<article-title>¿Cómo evaluar artículos de riesgo o causalidad en medicina?</article-title>
+					<source>Revista Mexicana de Anestesiología</source>
+					<year>2016</year>
+					<volume>39</volume>
+					<supplement>1</supplement>
+					<fpage>232</fpage>
+					<lpage>235</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Oates CJ, Kasza J, Simpson JA, Forbes AB. Repair of Partly Misspecified Causal Diagrams. Epidemiology. 2017;28(4):548-52.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oates</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Kasza</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Simpson</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Forbes</surname>
+							<given-names>AB</given-names>
+						</name>
+					</person-group>
+					<article-title>Repair of Partly Misspecified Causal Diagrams</article-title>
+					<source>Epidemiology</source>
+					<year>2017</year>
+					<volume>28</volume>
+					<issue>4</issue>
+					<fpage>548</fpage>
+					<lpage>552</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Janzing D, Schölkopf B. Detecting confounding in multivariate linear models via spectral analysis. Journal of Causal Inference. 2017 [citado 21/11/2018];6(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/1704.01430.pdf">https://arxiv.org/pdf/1704.01430.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Janzing</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Schölkopf</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Detecting confounding in multivariate linear models via spectral analysis</article-title>
+					<source>Journal of Causal Inference</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>6</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/1704.01430.pdf">https://arxiv.org/pdf/1704.01430.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Holmes MV, Lange LA, Palmer T, Lanktree MB, North KE, Almoguera B, et al. Causal effects of body mass index on cardiometabolic traits and events: a Mendelian randomization analysis. Am J Hum Genet. 2014;94:198-208.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Holmes</surname>
+							<given-names>MV</given-names>
+						</name>
+						<name>
+							<surname>Lange</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Palmer</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Lanktree</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>North</surname>
+							<given-names>KE</given-names>
+						</name>
+						<name>
+							<surname>Almoguera</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Causal effects of body mass index on cardiometabolic traits and events a Mendelian randomization analysis</article-title>
+					<source>Am J Hum Genet</source>
+					<year>2014</year>
+					<volume>94</volume>
+					<fpage>198</fpage>
+					<lpage>208</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Iturrieta-Zuazo I, Stefan Walter S. Aleatorización mendeliana: presente y futuro de los estudios epidemiológicos en cardiología. Rev Esp Cardiol. 2015 [citado 21/11/2018];68(2):87-91. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revespcardiol.org/es/aleatorizacion-mendeliana-presente-yfuturo-delosestudios/articulo/90376679/">http://www.revespcardiol.org/es/aleatorizacion-mendeliana-presente-yfuturo-delosestudios/articulo/90376679/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Iturrieta-Zuazo</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Stefan Walter</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Aleatorización mendeliana: presente y futuro de los estudios epidemiológicos en cardiología</article-title>
+					<source>Rev Esp Cardiol</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>68</volume>
+					<issue>2</issue>
+					<fpage>87</fpage>
+					<lpage>91</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revespcardiol.org/es/aleatorizacion-mendeliana-presente-yfuturo-delosestudios/articulo/90376679/">http://www.revespcardiol.org/es/aleatorizacion-mendeliana-presente-yfuturo-delosestudios/articulo/90376679/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Laperle J, Hébert-Deschamps S, Raby J, de Lima Morais DA, Barrette M, Bujold D, et al. The epi Genomic Efficient Correlator (epiGeEC) tool allows fast comparison of user data sets with thousands of public epigenomic datasets. Bioinformatics. 2019;35(4):674-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laperle</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hébert-Deschamps</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Raby</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<collab>de Lima Morais DA.Barrette M.Bujold D</collab>
+					</person-group>
+					<article-title>The epi Genomic Efficient Correlator (epiGeEC) tool allows fast comparison of user data sets with thousands of public epigenomic datasets</article-title>
+					<source>Bioinformatics</source>
+					<year>2019</year>
+					<volume>35</volume>
+					<issue>4</issue>
+					<fpage>674</fpage>
+					<lpage>676</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Palinkas LA. Causality and Causal Inference in Social Work: Quantitative and Qualitative Perspectives. Res Soc Work Pract. 2014;24(5):540-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palinkas</surname>
+							<given-names>LA</given-names>
+						</name>
+					</person-group>
+					<article-title>Causality and Causal Inference in Social Work: Quantitative and Qualitative Perspectives</article-title>
+					<source>Res Soc Work Pract</source>
+					<year>2014</year>
+					<volume>24</volume>
+					<issue>5</issue>
+					<fpage>540</fpage>
+					<lpage>547</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. De Lecuona I. Evaluación de los aspectos metodológicos, éticos, legales y sociales de proyectos de investigación en salud con datos masivos (big data). Gaceta Sanitaria. 2018 [citado 21/11/2018];32(6):576-8. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.gacetasanitaria.org/es-evaluacion-los-aspectos-metodologicos-eticos-articulo-S0213911118300864">http://www.gacetasanitaria.org/es-evaluacion-los-aspectos-metodologicos-eticos-articulo-S0213911118300864</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Lecuona</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluación de los aspectos metodológicos, éticos, legales y sociales de proyectos de investigación en salud con datos masivos (big data)</article-title>
+					<source>Gaceta Sanitaria</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-11-21">21/11/2018</date-in-citation>
+					<volume>32</volume>
+					<issue>6</issue>
+					<fpage>576</fpage>
+					<lpage>578</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.gacetasanitaria.org/es-evaluacion-los-aspectos-metodologicos-eticos-articulo-S0213911118300864">http://www.gacetasanitaria.org/es-evaluacion-los-aspectos-metodologicos-eticos-articulo-S0213911118300864</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Ebrahim S, Ferrie J. E, Smith G. D. The future of epidemiology: methods or matter? International Journal of Epidemiology. 2016;45(6):1699-716.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ebrahim</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ferrie</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>E, Smith G D. The future of epidemiology: methods or matter?</article-title>
+					<source>International Journal of Epidemiology</source>
+					<year>2016</year>
+					<volume>45</volume>
+					<issue>6</issue>
+					<fpage>1699</fpage>
+					<lpage>1716</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

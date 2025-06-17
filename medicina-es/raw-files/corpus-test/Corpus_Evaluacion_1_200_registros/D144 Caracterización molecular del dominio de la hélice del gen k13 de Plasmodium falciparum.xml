@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6849</article-id>
+			<article-id pub-id-type="publisher-id">00006</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización molecular del dominio de la hélice del gen <italic>k13</italic> de <italic>Plasmodium falciparum</italic> en muestras de comunidades nativas de Condorcanqui, Amazonas, Perú</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Molecular characterization of the <italic>Plasmodium falciparum k13</italic> gene helix domain in samples from native communities of Condorcanqui, Amazonas, Perú</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Sandoval-Bances</surname>
+						<given-names>Julio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Saavedra-Samillán</surname>
+						<given-names>Milagros</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Huyhua-Gutiérrez</surname>
+						<given-names>Sonia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rojas</surname>
+						<given-names>Luis M.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Tejada-Muñoz</surname>
+						<given-names>Sonia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Tapia-Limonchi</surname>
+						<given-names>Rafael</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Chenet</surname>
+						<given-names>Stella M.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Instituto de Enfermedades Tropicales, Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas, Triunfo, Chachapoyas, Perú</institution>
+				<institution content-type="normalized">Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas</institution>
+				<institution content-type="orgdiv1">Instituto de Enfermedades Tropicales</institution>
+				<institution content-type="orgname">Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas</institution>
+				<addr-line>
+					<named-content content-type="city">Triunfo, Chachapoyas</named-content>
+				</addr-line>
+				<country country="PE">Peru</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original"> Instituto de Enfermedades Tropicales, Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas, Triunfo, Chachapoyas, Perú</institution>
+				<institution content-type="normalized">Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas</institution>
+				<institution content-type="orgdiv1">Instituto de Enfermedades Tropicales</institution>
+				<institution content-type="orgname">Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas</institution>
+				<addr-line>
+					<named-content content-type="city">Triunfo, Chachapoyas</named-content>
+				</addr-line>
+				<country country="PE">Peru</country>
+				<email>stella.chenet@urp.edu.pe</email>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Dirección Regional de Salud de Amazonas, Chachapoyas, Perú</institution>
+				<institution content-type="normalized">Dirección Regional de Salud de Amazonas</institution>
+				<institution content-type="orgname">Dirección Regional de Salud de Amazonas</institution>
+				<addr-line>
+					<named-content content-type="city">Chachapoyas</named-content>
+				</addr-line>
+				<country country="PE">Perú</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Instituto de Investigaciones en Ciencias Biomédicas, Universidad Ricardo Palma, Lima, Perú</institution>
+				<institution content-type="normalized">Universidad Ricardo Palma</institution>
+				<institution content-type="orgdiv1">Instituto de Investigaciones en Ciencias Biomédicas</institution>
+				<institution content-type="orgname">Universidad Ricardo Palma</institution>
+				<addr-line>
+					<named-content content-type="city">Lima</named-content>
+				</addr-line>
+				<country country="PE">Peru</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label><bold>Correspondencia:</bold> Stella Maris Chenet, Av. Alfredo Benavides 5440, Santiago de Surco 15039, Lima, Perú Teléfono: (+51) (928) 638 490 <email>stella.chenet@urp.edu.pe</email>
+				</corresp>
+				<fn fn-type="equal" id="fn6">
+					<p>Todos los autores leyeron y aprobaron la versión final.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn8">
+					<label>Conflicto de intereses:</label>
+					<p> No hubo ningún conflicto de interés por parte de los investigadores.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>30</day>
+				<month>09</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<month>09</month>
+				<year>2023</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<year>2023</year>
+			</pub-date>
+			<volume>43</volume>
+			<issue>3</issue>
+			<fpage>352</fpage>
+			<lpage>359</lpage>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>01</month>
+					<year>2023</year>
+				</date>
+				<date date-type="accepted">
+					<day>25</day>
+					<month>07</month>
+					<year>2023</year>
+				</date>
+				<date date-type="pub">
+					<day>27</day>
+					<month>07</month>
+					<year>2023</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción</title>
+					<p>La resistencia de <italic>Plasmodium falciparum</italic> a diferentes fármacos antipalúdicos es un obstáculo para eliminar la enfermedad. El genotipo resistente de <italic>P. falciparum</italic> a la artemisinina puede evaluarse examinando los polimorfismos en el dominio de la hélice del gen <italic>Pfk13</italic>. La Organización Mundial de la Salud recomienda utilizar estas mutaciones como marcadores moleculares para detectar la resistencia a la artemisinina en países donde la malaria por <italic>P. falciparum</italic> es endémica.</p>
+				</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p>Identificar mutaciones relacionadas con la resistencia a artemisinina presentes en el dominio de la hélice del gen <italic>k13</italic> de <italic>P. falciparum</italic>.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos</title>
+					<p>Mediante la detección pasiva de casos, se recolectaron 51 muestras positivas por microscopía para <italic>Plasmodium</italic>, provenientes de seis comunidades del distrito de Río Santiago en Condorcanqui, Amazonas. Se realizó la confirmación molecular de la especie mediante PCR en tiempo real y el dominio de la hélice del gen <italic>Pfk13</italic> se amplificó y secuenció por electroforesis capilar. Las secuencias obtenidas se compararon con la cepa de referencia 3D7 de fenotipo silvestre.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>Se confirmó un total de 51 muestras positivas para <italic>P. falciparum,</italic> provenientes de las comunidades de Ayambis, Chapiza, Palometa, Muchinguis, Alianza Progreso y Caterpiza. Después del alineamiento de las secuencias de ADN, se determinó que las muestras no presentaron mutaciones asociadas con resistencia en el gen <italic>K13</italic>.</p>
+				</sec>
+				<sec>
+					<title>Discusión</title>
+					<p>Los resultados obtenidos son coherentes con estudios similares realizados en otros países de Sudamérica, incluyendo Perú. Estos datos proporcionan una línea base para la vigilancia molecular de resistencia a artemisinina en la región Amazonas y refuerzan la eficacia de la terapia combinada con artemisinina en esta área.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction</title>
+					<p>Resistance of <italic>Plasmodium falciparum</italic> to different antimalarial drugs is an obstacle to disease elimination. The artemisinin-resistant genotype of <italic>P. falciparum</italic> can be assessed by examining polymorphisms in the helix domain of the <italic>Pfk13</italic> gene. The World Health Organization recommends these mutations as molecular markers to detect artemisinin-resistant in countries where <italic>P. falciparum</italic> malaria is endemic.</p>
+				</sec>
+				<sec>
+					<title>Objective</title>
+					<p>To identify artemisinin resistance-related mutations present in the helix domain of the <italic>P. falciparum k13</italic> gene.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods</title>
+					<p>We collected a total of 51 samples through passive case detection, positive for <italic>Plasmodium</italic> by microscopy, from six communities in the district of Río Santiago in Condorcanqui, Amazonas. Molecular species confirmation was performed by real-time PCR and <italic>Pfk13</italic> helix domain was amplified and sequenced by capillary electrophoresis. The obtained sequences were compared with the wild type 3D7 reference strain.</p>
+				</sec>
+				<sec>
+					<title>Results</title>
+					<p>A total of 51 positive samples were confirmed for <italic>P. falciparum</italic> from the communities of Ayambis, Chapiza, Palometa, Muchinguis, Alianza Progreso and Caterpiza. DNA sequences alignment showed the absence of resistance-associated mutations in the <italic>k13</italic> gene of the collected samples.</p>
+				</sec>
+				<sec>
+					<title>Discussion</title>
+					<p>The obtained results are consistent with similar studies conducted in other South American countries, including Perú, so these data provide a baseline for artemisinin- resistance molecular surveillance in the Amazon region and reinforce the efficacy of artemisinin-based combination therapy in this area.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Plasmodium falciparum</kwd>
+				<kwd>malaria</kwd>
+				<kwd>resistencia a medicamentos</kwd>
+				<kwd>ecosistema amazónico</kwd>
+				<kwd>Perú</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key word:</title>
+				<kwd>Plasmodium falciparum</kwd>
+				<kwd>malaria</kwd>
+				<kwd>drug resistance</kwd>
+				<kwd>Amazonian ecosystem</kwd>
+				<kwd>Perú</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="23"/>
+				<page-count count="8"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La malaria es una enfermedad parasitaria transmitida por mosquitos hembra del género <italic>Anopheles</italic>. La mayoría de los casos de malaria complicada y muertes reportadas, principalmente en niños menores de cinco años, son causados por la especie <italic>Plasmodium falciparum</italic><xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>En Latinoamérica, el tratamiento actual para la infección por <italic>P. falciparum</italic> es la terapia combinada basada en artemisinina (<italic>Artemisininbased combination therapy</italic>)<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Estas terapias combinan un derivado de la artemisinina y un fármaco asociado, como lumefantrina, mefloquina, amodiaquina, piperaquina o pironaridina. Estos tratamientos han contribuido a reducir la mortalidad y la morbilidad relacionadas con el paludismo <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Sin embargo, históricamente <italic>P. falciparum</italic> ha presentado resistencia a casi todos los antipalúdicos disponibles, por lo cual se requiere conocer adecuadamente la eficacia de los medicamentos antipalúdicos <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>La resistencia de <italic>P. falciparum</italic> a la artemisinina, definida como un retraso en la eliminación de los parásitos del torrente sanguíneo, fue reportada por primera vez en la frontera entre Tailandia y Camboya, y en 10 años, las cepas resistentes a artemisinina se extendieron rápidamente en toda la cuenca del río Mekong, lo que resultó en grandes desafíos para la prevención y el tratamiento de la malaria <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Los estudios de asociación genómica vincularon un locus en el cromosoma 13 de <italic>P. falciparum</italic> con la resistencia a artemisinina, específicamente, el dominio de la hélice del gen que codifica para la proteína Kelch - <italic>Pfk13</italic><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Las mutaciones relacionadas con la resistencia a artemisinina en el dominio de la hélice del gen <italic>Pfk13</italic> son ocho (P441L, F446I, S449A, N458Y, P553L, V568G, P574L y L675V) asociadas con retraso en la eliminación del parásito en sangre, y cinco (Y493H, R539T, I543T, R561H y C580Y) relacionadas con resistencia <italic>in vitro</italic>, <italic>in vivo</italic> o en ambos <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. La Organización Mundial de la Salud (OMS) recomienda utilizar estas mutaciones para detectar la presencia de resistencia a la artemisinina en países donde la malaria por <italic>P. falciparum</italic> es endémica. Asimismo, sugiere realizar la vigilancia molecular de forma regular en lugares donde no se pueden llevar a cabo estudios clínicos por otras causas, como su aislamiento geográfico <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Las mutaciones reportadas del gen <italic>Pfk13</italic> varían en diferentes regiones. Por ejemplo, en Camboya, Vietnam y Laos, la mutación C580Y es dominante ya que tiene la prevalencia más alta, con un 50 %; en la frontera entre Tailandia y Myanmar, se ha reportado resistencia a la artemisinina con un mayor número de mutaciones C580Y y menor número de mutaciones N458Y <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>; y en África, la mutación más común y específica es la A578S <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. En Sudamérica, se han encontrado parásitos mutantes C580Y, reportados en Guyana <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>Las investigaciones han revelado que la mutación C580Y en Guyana no se propagó desde el sudeste asiático, sino que emergió en el Escudo Guyanés de forma independiente <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Es por ello que el sudeste asiático y el Escudo Guyanés son considerados puntos críticos para la resistencia a los medicamentos antipalúdicos, lo que se ha evidenciado anteriormente con la resistencia a cloroquina y sulfadoxina-pirimetamina <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+		<p>La artemisinina y sus derivados se asocian con otros medicamentos antipalúdicos para retrasar el desarrollo de resistencia. Por ello, existe la preocupación de que la reducción de la sensibilidad a la artemisinina conduzca al desarrollo de resistencia de los parásitos a los medicamentos asociados que juegan un papel crucial en la eficacia general de las terapias combinadas de artemisinina <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>Actualmente, los tratamientos combinados son eficaces. Sin embargo, la aparición y expansión de parásitos resistentes a la artemisinina podrían afectar su eficacia general <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>, sobre todo en áreas de poca transmisión, donde la eliminación de la malaria está en curso <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>En Perú, la política de tratamiento contra <italic>P. falciparum</italic> basado en combinaciones con artemisinina se implementó en el 2001 <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. De acuerdo con la norma técnica vigente, el tratamiento de la malaria no complicada por <italic>P. falciparum</italic> consiste en una combinación de mefloquina (12,5 mg/ kg/día durante dos días) más artesunato (4 mg/kg/día durante tres días) y primaquina (10 mg/kg/día para adulto y 0,75 mg/kg/día para niños durante un día) <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. No obstante, en los últimos años no se han realizados estudios clínicos para evaluar la eficacia del tratamiento combinado de mefloquina y artesunato en pacientes con <italic>P. falciparum</italic> en el Amazonas. Este trabajo es el primer reporte sobre vigilancia molecular de la resistencia a artemisinina en el departamento de Amazonas y será útil para orientar los esfuerzos para eliminar la malaria en Perú.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Obtención de muestras y sitio de estudio</italic></title>
+				<p>Las muestras, recolectadas en papel filtro siguiendo los procedimientos estándar de la OMS <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>, fueron proporcionadas por la Dirección Regional de Salud, mediante la detección pasiva de casos durante el periodo 2019-2022. Se obtuvieron muestras positivas para <italic>Plasmodium</italic>, identificadas por microscopía, provenientes de seis comunidades del distrito de Río Santiago, provincia Condorcanqui, departamento del Amazonas (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Mapa de los sitios de recolección en el distrito de Río Santiago, Provincia de Condorcanqui, Amazonas, Perú. Se muestran las comunidades nativas ubicadas a lo largo del río Santiago: Palometa, Ayambis, Chapiza, Alianza Progreso, Muchinguis y Caterpiza.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-43-03-352-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>El sitio de estudio fue el distrito Río Santiago, donde se presenta un clima tropical húmedo con temperaturas que pueden alcanzar los 35 °C, precipitación media anual alrededor de 4.800 mm y humedad relativa superior al 90 %. La temporada de lluvias ocurre entre octubre y diciembre, pero podría durar hasta mayo <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+				<p>Las muestras se recolectaron en las siguientes comunidades: en el 2019, en Ayambis (n = 5); en el 2020, en Ayambis (n=1) y Chapiza (n=13); en el 2021, en Alianza Progreso (n=7), Muchinguis (n=1) y Palometa (n=1); y en el 2022, en Alianza progreso (n=19), Chapiza (n=1) y Caterpiza (n=3).</p>
+			</sec>
+			<sec>
+				<title><italic>Extracción de material genético</italic></title>
+				<p>La extracción de ADN se realizó utilizando el QIAamp DNA Mini Kit (Qiagen, EEUU), según las instrucciones del fabricante. El ADN obtenido se almacenó a -20 <sup>0</sup>C.</p>
+			</sec>
+			<sec>
+				<title><italic>PCR en tiempo real para identificar Plasmodium falciparum</italic></title>
+				<p>Para la detección de <italic>P. falciparum</italic> se empleó la técnica de PCR en tiempo real, según Rougemont <italic>et al.</italic>, 2004. La muestra se consideró positiva mediante la identificación del número del ciclo de amplificación (Ct) en el que se evidenció la emisión de fluorescencia del reportero. Si la señal fluorescente no se detectaba en 40 ciclos (Ct &gt; 40), la muestra se consideraba negativa <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><bold>
+ <italic>Genotipificación del dominio de la hélice del gen Pfk13 mediante PCR</italic> anidada</bold></title>
+				<p>El dominio de la hélice del gen <italic>Pfk13</italic> fue amplificado por PCR anidada en muestras con un ciclo de amplificación inferior a 40, de acuerdo con un protocolo previamente reportado <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Para la primera PCR el volumen fue de 30 μl, usando 4 μl de ADN, solución tampón 1X, 2 mM de MgCl<sub>2</sub>, 0,2 mM de dNTP, 0,5 μM de cada cebador: <italic>forward</italic> (<italic>K13Pf</italic>_F1 5’GCAAATAGTATCTCGAAT-3’) y <italic>reverse</italic> (<italic>K13Pf</italic>_ R1 5CTGGGAACTAATAATAAAGAT-3’) y una unidad de <italic>Platinum Taq polymerase</italic> (Invitrogen); el volumen final se completó con agua libre de nucleasas. Para la segunda PCR, los cebadores utilizados fueron: K13 <italic>Pf</italic> _F2 5’GATAAACAAGGAAGAATATTCT-3‘ y K13 <italic>Pf</italic>_R2 5’CGGAATCTAATATGTTATGTTCA-3’. Se utilizaron las mismas concentraciones de la primera reacción. Las condiciones de corrida fueron las mismas que se indican en el protocolo previamente reportado <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+				<p>La amplificación se realizó con el termociclador SimpliAmpTM Thermal Cycler (Applied Biosystems). Los productos de PCR se visualizaron en geles con agarosa al 2 % y con ayuda de un transiluminador.</p>
+			</sec>
+			<sec>
+				<title><italic>Purificación y secuenciación</italic></title>
+				<p>Los productos de la PCR fueron purificados con el kit Exo-CIP™ (New England Biolabs) y secuenciados con el kit BigDye™ Terminator (Thermo Fisher Scientific). Los cebadores para la secuenciación fueron los mismos que los usados en la segunda PCR. Los productos amplificados se secuenciaron mediante electroforesis capilar en el equipo 3500 Genetic Analyzer (Applied Biosystems™).</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis bioinformático</italic></title>
+				<p>Los electroferogramas fueron analizados en el <italic>software</italic> Geneious Prime v.2022.2.1 (Biomatters Inc, Newark). La secuencia de referencia fue la 3D7 (PF3D7_1343700 K13) obtenida de la base de datos <italic>del National Center for Biotechnology Information</italic> (NCBI).</p>
+			</sec>
+			<sec>
+				<title><italic>Aspectos éticos</italic></title>
+				<p>El estudio fue aprobado por el Comité de Ética de Investigación PI 15-2022 de la Facultad de Medicina “Manuel Huamán Guerrero” de la Universidad Ricardo Palma. Además, se obtuvo el consentimiento informado de cada participante o de sus asesores legales. Los métodos se llevaron a cabo de acuerdo con las directrices y normas pertinentes.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Muestra y amplificación por PCR en tiempo real</italic></title>
+				<p>Desde diciembre del 2019 hasta junio del 2022, se obtuvieron 51 muestras de seis comunidades nativas del distrito de Río Santiago. Las muestras se confirmaron por PCR en tiempo real, siendo todas positivas para <italic>P. falciparum</italic>, con ciclos de amplificación inferiores a 35.</p>
+			</sec>
+			<sec>
+				<title><italic>Amplificación por PCR anidada y secuenciación</italic></title>
+				<p>En todas las muestras se amplific<italic>ó</italic> el dominio de la hélice del gen <italic>Pfk13</italic> por PCR anidada con un tamaño del producto de 700 pares de bases. Los 51 aislamientos se secuenciaron con éxito y se evaluaron los siguientes polimorfismos del gen <italic>Pfk13</italic>: P441L, F446I, N458Y, M476I, Y493H, R539T, I543T, P553L, R561H, V568G, P574L, C580Y y A675V. Todos los aislamientos de <italic>P. falciparum</italic> presentaron el alelo de tipo silvestre 3D7 en el dominio de la hélice del gen <italic>Pfk13</italic>, por lo que no se evidenciaron mutaciones en ninguna de las muestras analizadas (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Ausencia de mutaciones en el dominio de la hélice del gen <italic>K13</italic>, en muestras de las comunidades nativas de Condorcanqui. Se exhibe el alelo de fenotipo silvestre 3D7 para todas las muestras.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col span="2"/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left"> </th>
+									<th align="left"> </th>
+									<th align="left"> </th>
+									<th align="left"> </th>
+									<th align="center" colspan="2">Comunidades </th>
+									<th align="left"> </th>
+									<th align="left"> </th>
+									<th align="left"> </th>
+								</tr>
+								<tr>
+									<th align="left">Posición del codón</th>
+									<th align="center">Aminoácido silvestre / mutado</th>
+									<th align="center">Progreso n<sub>2021=7</sub> n<sub>2022=19</sub></th>
+									<th align="center">Ayambis n<sub>2019=5</sub> n<sub>2020=1</sub></th>
+									<th align="center">Caterpiza n<sub>2022=3</sub></th>
+									<th align="center">Chapiza n<sub>2020=13</sub> n<sub>2022=1</sub></th>
+									<th align="center">Muchinguis n<sub>2021=1</sub></th>
+									<th align="center">Palometa n<sub>2021=1</sub></th>
+									<th align="center">Resultado</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center">441</td>
+									<td align="center">P / L</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">446</td>
+									<td align="center">F / I</td>
+									<td align="center">F</td>
+									<td align="center">F</td>
+									<td align="center">F</td>
+									<td align="center">F</td>
+									<td align="center">F</td>
+									<td align="center">F</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">458</td>
+									<td align="center">N / Y-I</td>
+									<td align="center">N</td>
+									<td align="center">N</td>
+									<td align="center">N</td>
+									<td align="center">N</td>
+									<td align="center">N</td>
+									<td align="center">N</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">476</td>
+									<td align="center">M / I-V</td>
+									<td align="center">M</td>
+									<td align="center">M</td>
+									<td align="center">M</td>
+									<td align="center">M</td>
+									<td align="center">M</td>
+									<td align="center">M</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">493</td>
+									<td align="center">Y / H</td>
+									<td align="center">Y</td>
+									<td align="center">Y</td>
+									<td align="center">Y</td>
+									<td align="center">Y</td>
+									<td align="center">Y</td>
+									<td align="center">Y</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">539</td>
+									<td align="center">R / T</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">543</td>
+									<td align="center">I / T</td>
+									<td align="center">I</td>
+									<td align="center">I</td>
+									<td align="center">I</td>
+									<td align="center">I</td>
+									<td align="center">I</td>
+									<td align="center">I</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">553</td>
+									<td align="center">P / L</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">561</td>
+									<td align="center">R / H</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">R</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">568</td>
+									<td align="center">V / G</td>
+									<td align="center">V</td>
+									<td align="center">V</td>
+									<td align="center">V</td>
+									<td align="center">V</td>
+									<td align="center">V</td>
+									<td align="center">V</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">574</td>
+									<td align="center">P / L</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">P</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">580</td>
+									<td align="center">C / Y</td>
+									<td align="center">C</td>
+									<td align="center">C</td>
+									<td align="center">C</td>
+									<td align="center">C</td>
+									<td align="center">C</td>
+									<td align="center">C</td>
+									<td align="center">WT</td>
+								</tr>
+								<tr>
+									<td align="center">675</td>
+									<td align="center">A / V</td>
+									<td align="center">A</td>
+									<td align="center">A</td>
+									<td align="center">A</td>
+									<td align="center">A</td>
+									<td align="center">A</td>
+									<td align="center">A</td>
+									<td align="center">WT</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>P: prolina, L: leucina, F: fenilalanina, I: isoleucina, N: asparagina, Y: tirosina, M: metionina, V: valina, H: histidina, R: arginina, T: treonina, G: glicina, C: cisteína, A: alanina, N: número de muestras, WT: Wild type (fenotipo silvestre)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La artemisinina es un fármaco antipalúdico que se usa principalmente para el tratamiento contra la malaria en países endémicos. Sin embargo, hay un problema emergente de resistencia a este antimalárico en África y Asia Tropical <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. En Sudamérica se ha reportado un genotipo resistente en el gen <italic>Pfk13</italic> (C580Y) en Guyana <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Sin embargo, aún no se ha extendido a otros países de este continente <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+			<p>La supuesta y relativamente baja exposición de la población brasileña de <italic>P. falciparum</italic> a la artemisinina antes del 2006, probablemente explique la ausencia de polimorfismos en el dominio de la hélice del gen <italic>Pfk</italic>13, incluso después de la introducción del tratamiento combinado como de primera línea en Brasil <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. En un estudio reciente en las cuencas del Amazonas brasileño, se analizaron los polimorfismos en el dominio de la hélice del gen <italic>Pfk13</italic> y se demostró que aún no existe evidencia de polimorfismos asociados con la resistencia a la artemisinina, por lo que continúa el uso del tratamiento combinado de artemisinina en la región de Brasil <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Estos resultados son congruentes con los obtenidos en el presente estudio y permiten ampliar los conocimientos respecto a los parásitos circulantes de <italic>P. falciparum</italic> en Amazonas.</p>
+			<p>En otros estudios recientes con aislamientos brasileños, peruanos y colombianos, se ha evidenciado la ausencia de mutaciones en el <italic>PfK13</italic> y el tratamiento combinado de artemisinina parece ser efectivo en estas regiones <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. En Ecuador, se han realizado análisis génicos de las posiciones 476, 493, 539, 543, 580 para <italic>Pfk13</italic> y se han obtenido genotipos de tipo silvestre <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+			<p>Mientras tanto, en Perú, en el último año se realizó un estudio de secuenciación muy multiplexado (AmpliSeq, Illumina) dirigido a 13 genes de resistencia a los antipalúdicos, incluyendo la longitud completa del gen <italic>K13.</italic> Como resultado de este estudio, se obtuvieron polimorfismos en frecuencias bajas, no asociadas con resistencia, lo que sugiere ausencia de resistencia a la artemisinina en Perú durante los últimos años <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+			<p>En el presente estudio se determinó que no existen mutaciones en <italic>Pfk13</italic> asociadas con resistencia a la artemisinina en las comunidades de R<bold>í</bold>o Santiago, provincia de Condorcanqui. Sin embargo, aunque no se encontraron mutaciones de resistencia a artemisinina en las muestras estudiadas, no se puede descartar la propagación de otras mutaciones relacionadas con la resistencia a este fármaco. En varios estudios independientes sobre la adaptación a fármacos, han conseguido identificar diversos marcadores que están relacionados con la resistencia a la artemisinina en pruebas <italic>in vitro.</italic> Por esto, es probable que no exista un único “marcador universal” para la resistencia a la artemisinina <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Asimismo, se han realizado investigaciones en la población mediante el análisis de genomas y transcriptomas, las cuales han permitido identificar múltiples regiones genómicas y genes con expresión diferencial; estos podrían estar relacionados con resistencia a los derivados de la artemisinina o a los fármacos asociados <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. La plasticidad genómica de <italic>Plasmodium</italic> puede propiciar el desarrollo relativamente rápido de resistencia a los medicamentos antipalúdicos, por lo que es importante implementar plataformas de vigilancia que permitan la detección temprana de resistencia en entornos endémicos <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Además, es importante hacer seguimiento al paciente, pues el resultado de su incumplimiento del tratamiento puede confundirse con una falla terapéutica por resistencia al medicamento.</p>
+			<p>Actualmente, Perú cuenta con el “Plan hacia la eliminación de la malaria 2022-2030”, cuyo objetivo es implementar actividades para erradicar la malaria en el país mediante un plan con enfoque comunitario <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Es por ello que entender y continuar con la vigilancia molecular de antimaláricos dirigidos contra <italic>P. falciparum</italic> es crucial para apoyar este programa y para la generación de estrategias de eliminación.</p>
+			<p>Finalmente, en el presente trabajo se muestra la importancia de los estudios moleculares como herramientas de vigilancia para ayudar al control y la eliminación de la malaria en el país. La detección temprana de la resistencia al tratamiento farmacológico actual utilizado para las infecciones por <italic>P. falciparum</italic>, es esencial para detener los brotes. Nuestros datos proporcionan una línea base para la caracterización del <italic>Pfk13</italic> y refuerzan la eficacia del tratamiento combinado con artemisinina.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>A Lizandro González y a Miguel Bernal de la DIRESA-Amazonas por su apoyo en la ejecución de este estudio; y a los miembros del Instituto de Enfermedades Tropicales de la Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas, por sus aportes en las pruebas de laboratorio y por todo el apoyo durante la ejecución de esta investigación.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Chapadense F, Machado RL, Ventura AMR da S, Áreas A, Machado RB, Viana GR, <italic>et al</italic>. <italic>Plasmodium falciparum</italic> malarial parasites from Brazil lack artemisinin resistance-associated mutations in the kelch13 gene. Soc Bras Med Trop. 2019;52:e20180225. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0037-8682-0225-2018">https://doi.org/10.1590/0037-8682-0225-2018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chapadense</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Ventura AMR da</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Áreas</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Viana</surname>
+							<given-names>GR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Plasmodium falciparum malarial parasites from Brazil lack artemisinin resistance-associated mutations in the kelch13 gene</article-title>
+					<source>Soc Bras Med Trop</source>
+					<year>2019</year>
+					<volume>52</volume>
+					<elocation-id>e20180225</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0037-8682-0225-2018">https://doi.org/10.1590/0037-8682-0225-2018</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Valenzuela G, Castro LE, Valencia-Zamora J, Vera-Arias CA, Rohrbach P, Sáenz FE. Genotypes and phenotypes of resistance in Ecuadorian <italic>Plasmodium falciparum</italic>. Malar J. 2019;18:415. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12936-019-3044-z">https://doi.org/10.1186/s12936-019-3044-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Valenzuela</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Valencia-Zamora</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vera-Arias</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Rohrbach</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sáenz</surname>
+							<given-names>FE.</given-names>
+						</name>
+					</person-group>
+					<article-title>Genotypes and phenotypes of resistance in Ecuadorian Plasmodium falciparum</article-title>
+					<source>Malar J</source>
+					<year>2019</year>
+					<volume>18</volume>
+					<fpage>415</fpage>
+					<lpage>415</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12936-019-3044-z">https://doi.org/10.1186/s12936-019-3044-z</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Mathieu LC, Cox H, Early AM, Mok S, Lazrek Y, Paquet J, <italic>et al</italic>. Local emergence in Amazonia of P<italic>lasmodium falciparum</italic> K13 C580Y mutants associated with <italic>in vitro</italic> artemisinin resistance. eLife. 2020;9:e51015. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7554/eLife.51015">https://doi.org/10.7554/eLife.51015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mathieu</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Cox</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Early</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Mok</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lazrek</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Paquet</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Local emergence in Amazonia of Plasmodium falciparum K13 C580Y mutants associated with in vitro artemisinin resistance</article-title>
+					<source>eLife</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<elocation-id>e51015</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7554/eLife.51015">https://doi.org/10.7554/eLife.51015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Boullé M, Witkowski B, Duru V, Sriprawat K, Nair SK, McDew-White M, <italic>et al</italic>. Artemisininresistant <italic>Plasmodium falciparum</italic> K13 mutant alleles, Thailand-Myanmar border. Emerg Infect Dis. 2016;22:1503-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2208.160004">https://doi.org/10.3201/eid2208.160004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boullé</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Witkowski</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Duru</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Sriprawat</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Nair</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>McDew-White</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Artemisininresistant Plasmodium falciparum K13 mutant alleles, Thailand-Myanmar border</article-title>
+					<source>Emerg Infect Dis</source>
+					<year>2016</year>
+					<volume>22</volume>
+					<fpage>1503</fpage>
+					<lpage>1505</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2208.160004">https://doi.org/10.3201/eid2208.160004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Gomes LR, Lavigne A, Peterka CL, Brasil P, Ménard D, Daniel-Ribeiro CT, <italic>et al</italic>. Absence of K13 polymorphism in <italic>Plasmodium falciparum</italic> from Brazilian areas where the parasite is endemic. Antimicrob Agents Chemother. 2018;62:e00354-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.00354-18">https://doi.org/10.1128/AAC.00354-18</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gomes</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Lavigne</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Peterka</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Brasil</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ménard</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Daniel-Ribeiro</surname>
+							<given-names>CT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Absence of K13 polymorphism in Plasmodium falciparum from Brazilian areas where the parasite is endemic</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2018</year>
+					<volume>62</volume>
+					<elocation-id>e00354-18</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.00354-18">https://doi.org/10.1128/AAC.00354-18</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Ghanchi NK, Qurashi B, Raees H, Beg MA. Molecular surveillance of drug resistance: <italic>Plasmodium falciparum</italic> artemisinin resistance single nucleotide polymorphisms in Kelch protein propeller (K13) domain from Southern Pakistan. Malar J. 2021;20:176. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12936-021-03715-0">https://doi.org/10.1186/s12936-021-03715-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ghanchi</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Qurashi</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Raees</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Beg</surname>
+							<given-names>MA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular surveillance of drug resistance: Plasmodium falciparum artemisinin resistance single nucleotide polymorphisms in Kelch protein propeller (K13) domain from Southern Pakistan</article-title>
+					<source>Malar J</source>
+					<year>2021</year>
+					<volume>20</volume>
+					<fpage>176</fpage>
+					<lpage>176</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12936-021-03715-0">https://doi.org/10.1186/s12936-021-03715-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Kamau E, Campino S, Amenga-Etego L, Drury E, Ishengoma D, Johnson K, <italic>et al</italic>. K13- propeller polymorphisms in <italic>Plasmodium falciparum</italic> parasites from sub-Saharan Africa. J Infect Dis. 2015;211:1352-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiu608">https://doi.org/10.1093/infdis/jiu608</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kamau</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Campino</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Amenga-Etego</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Drury</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ishengoma</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>K13- propeller polymorphisms in Plasmodium falciparum parasites from sub-Saharan Africa</article-title>
+					<source>J Infect Dis</source>
+					<year>2015</year>
+					<volume>211</volume>
+					<fpage>1352</fpage>
+					<lpage>1355</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiu608">https://doi.org/10.1093/infdis/jiu608</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Chenet SM, Akinyi-Okoth S, Huber CS, Chandrabose J, Lucchi NW, Talundzic E, <italic>et al</italic>. Independent emergence of the <italic>Plasmodium falciparum</italic> Kelch propeller domain mutant allele C580Y in Guyana. J Infect Dis. 2016;213:1472-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiv752">https://doi.org/10.1093/infdis/jiv752</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chenet</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Akinyi-Okoth</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Huber</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Chandrabose</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lucchi</surname>
+							<given-names>NW</given-names>
+						</name>
+						<name>
+							<surname>Talundzic</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Independent emergence of the Plasmodium falciparum Kelch propeller domain mutant allele C580Y in Guyana</article-title>
+					<source>J Infect Dis</source>
+					<year>2016</year>
+					<volume>213</volume>
+					<fpage>1472</fpage>
+					<lpage>1475</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiv752">https://doi.org/10.1093/infdis/jiv752</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Arróspide N, Hijar-Guerra G, De Mora D, Díaz-Cortéz CE, Veloz-Pérez R, Gutiérrez S, <italic>et al</italic>. Alelos mutantes asociados a la resistencia a cloroquina y sulfadoxina-pirimetamina en <italic>Plasmodium falciparum</italic> de las fronteras Ecuador-Perú y Ecuador-Colombia. Rev Peru Med Exp Salud Publica. 2014;31:282-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arróspide</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Hijar-Guerra</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>De Mora</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Díaz-Cortéz</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Veloz-Pérez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Alelos mutantes asociados a la resistencia a cloroquina y sulfadoxina-pirimetamina en Plasmodium falciparum de las fronteras Ecuador-Perú y Ecuador-Colombia</article-title>
+					<source>Rev Peru Med Exp Salud Publica</source>
+					<year>2014</year>
+					<volume>31</volume>
+					<fpage>282</fpage>
+					<lpage>287</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Williams HA, Vincent-Mark A, Herrera Y, Chang OJ. A retrospective analysis of the change in anti-malarial treatment policy: Peru. Malar J. 2009;8:85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1475-2875-8-85">https://doi.org/10.1186/1475-2875-8-85</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Williams</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Vincent-Mark</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Herrera</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>OJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>A retrospective analysis of the change in anti-malarial treatment policy: Peru</article-title>
+					<source>Malar J</source>
+					<year>2009</year>
+					<volume>8</volume>
+					<fpage>85</fpage>
+					<lpage>85</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1475-2875-8-85">https://doi.org/10.1186/1475-2875-8-85</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Ministerio de Salud del Perú. Norma técnica de salud para la atención de la malaria y malaria grave en el Perú. Lima: Ministerio de Salud; 2015.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud del Perú</collab>
+					</person-group>
+					<source>Norma técnica de salud para la atención de la malaria y malaria grave en el Perú</source>
+					<publisher-loc>Lima</publisher-loc>
+					<publisher-name>Ministerio de Salud</publisher-name>
+					<year>2015</year>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>World Health Organization. Good manufacturing practices for sterile pharmaceutical products. Ginebra: WHO; 2004. Fecha de consulta: 5 de mayo de 2023. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/es/publications/i/item/HTM-GMP-MM-SOP-10">https://www.who.int/es/publications/i/item/HTM-GMP-MM-SOP-10</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Good manufacturing practices for sterile pharmaceutical products</source>
+					<publisher-loc>Ginebra</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2004</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-05-05">5 de mayo de 2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/es/publications/i/item/HTM-GMP-MM-SOP-10">https://www.who.int/es/publications/i/item/HTM-GMP-MM-SOP-10</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Montenegro CC, Bustamante-Chauca TP, Pajuelo-Reyes C, Bernal M, Gonzales L, Tapia- Limonchi R, <italic>et al</italic>. <italic>Plasmodium falciparum</italic> outbreak in native communities of Condorcanqui, Amazonas, Perú. Malar J. 2021;20:88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12936-021-03608-2">https://doi.org/10.1186/s12936-021-03608-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montenegro</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Bustamante-Chauca</surname>
+							<given-names>TP</given-names>
+						</name>
+						<name>
+							<surname>Pajuelo-Reyes</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bernal</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gonzales</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tapia- Limonchi</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Plasmodium falciparum outbreak in native communities of Condorcanqui, Amazonas, Perú</article-title>
+					<source>Malar J</source>
+					<year>2021</year>
+					<volume>20</volume>
+					<fpage>88</fpage>
+					<lpage>88</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12936-021-03608-2">https://doi.org/10.1186/s12936-021-03608-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Rougemont M, van Saanen M, Sahli R, Hinrikson HP, Bille J, Jaton K. Detection of four <italic>Plasmodium</italic> species in blood from humans by 18S rRNA gene subunit-based and speciesspecific real-time PCR assays. J Clin Microbiol. 2004;42:5636-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.42.12.5636-5643.2004">https://doi.org/10.1128/JCM.42.12.5636-5643.2004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rougemont</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>van Saanen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sahli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Hinrikson</surname>
+							<given-names>HP</given-names>
+						</name>
+						<name>
+							<surname>Bille</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jaton</surname>
+							<given-names>K.</given-names>
+						</name>
+					</person-group>
+					<article-title>Detection of four Plasmodium species in blood from humans by 18S rRNA gene subunit-based and speciesspecific real-time PCR assays</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2004</year>
+					<volume>42</volume>
+					<fpage>5636</fpage>
+					<lpage>5643</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.42.12.5636-5643.2004">https://doi.org/10.1128/JCM.42.12.5636-5643.2004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Yasri S, Wiwanitkit V. Artemisinin resistance: An important emerging clinical problem in tropical medicine. Int J Physiol Pathophysiol Pharmacol. 2021;13:152-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yasri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wiwanitkit</surname>
+							<given-names>V.</given-names>
+						</name>
+					</person-group>
+					<article-title>Artemisinin resistance: An important emerging clinical problem in tropical medicine</article-title>
+					<source>Int J Physiol Pathophysiol Pharmacol</source>
+					<year>2021</year>
+					<volume>13</volume>
+					<fpage>152</fpage>
+					<lpage>157</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Montenegro LM, de Las Salas B, Neal AT, Tobon-Castaño A, Fairhurst RM, Lopera-Mesa TM. State of artemisinin and partner drug susceptibility in <italic>Plasmodium falciparum</italic> clinical isolates from Colombia. Am J Trop Med Hyg. 2021;104:263-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.20-0148">https://doi.org/10.4269/ajtmh.20-0148</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montenegro</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>de Las Salas</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Neal</surname>
+							<given-names>AT</given-names>
+						</name>
+						<name>
+							<surname>Tobon-Castaño</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Fairhurst</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Lopera-Mesa</surname>
+							<given-names>TM.</given-names>
+						</name>
+					</person-group>
+					<article-title>State of artemisinin and partner drug susceptibility in Plasmodium falciparum clinical isolates from Colombia</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2021</year>
+					<volume>104</volume>
+					<fpage>263</fpage>
+					<lpage>270</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.20-0148">https://doi.org/10.4269/ajtmh.20-0148</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Inoue J, Jovel I, Morris U, Aydin-Schmidt B, Islam A, Segurado AC, <italic>et al</italic>. Absence of <italic>Plasmodium falciparum</italic> K13 propeller domain polymorphisms among field isolates collected from the Brazilian Amazon Basin between 1984 and 2011. Am J Trop Med Hyg. 2018;99:1504-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.18-05541504">https://doi.org/10.4269/ajtmh.18-05541504</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Inoue</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jovel</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Aydin-Schmidt</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Islam</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Segurado</surname>
+							<given-names>AC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Absence of Plasmodium falciparum K13 propeller domain polymorphisms among field isolates collected from the Brazilian Amazon Basin between 1984 and 2011</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2018</year>
+					<volume>99</volume>
+					<fpage>1504</fpage>
+					<lpage>1507</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.18-05541504">https://doi.org/10.4269/ajtmh.18-05541504</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Gomes LR, Lavigne A, Peterka CL, Brasil P, Ménard D, Daniel-Ribeiro CT, <italic>et al</italic>. Absence of K13 polymorphism in <italic>Plasmodium falciparum</italic> from Brazilian areas where the parasite is endemic. Antimicrob Agents Chemother. 2018;62:e00354-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.00354-18">https://doi.org/10.1128/AAC.00354-18</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gomes</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Lavigne</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Peterka</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Brasil</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ménard</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Daniel-Ribeiro</surname>
+							<given-names>CT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Absence of K13 polymorphism in Plasmodium falciparum from Brazilian areas where the parasite is endemic</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2018</year>
+					<volume>62</volume>
+					<elocation-id>e00354-18</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.00354-18">https://doi.org/10.1128/AAC.00354-18</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Villena FE, Sánchez JF, Nolasco O, Braga G, Ricopa L, Barazorda K, <italic>et al</italic>. Drug resistance and population structure of <italic>Plasmodium falciparum</italic> and <italic>Plasmodium vivax</italic> in the Peruvian Amazon. Sci Rep. 2022;12:16474. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-022-21028-3">https://doi.org/10.1038/s41598-022-21028-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villena</surname>
+							<given-names>FE</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Nolasco</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Braga</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Ricopa</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Barazorda</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Drug resistance and population structure of Plasmodium falciparum and Plasmodium vivax in the Peruvian Amazon</article-title>
+					<source>Sci Rep</source>
+					<year>2022</year>
+					<volume>12</volume>
+					<fpage>16474</fpage>
+					<lpage>16474</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-022-21028-3">https://doi.org/10.1038/s41598-022-21028-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Kattenberg JH, Fernández-Miñope C, van Dijk NJ, Llacsahuanga-Allcca L, Guetens P, Valdivia HO, <italic>et al</italic>. Malaria molecular surveillance in the Peruvian Amazon with a novel highly multiplexed <italic>Plasmodium falciparum</italic> AmpliSeq assay. Microbiol Spectr. 2023;11:e0096022. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/spectrum.00960-22">https://doi.org/10.1128/spectrum.00960-22</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kattenberg</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Fernández-Miñope</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>van Dijk</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Llacsahuanga-Allcca</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Guetens</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Valdivia</surname>
+							<given-names>HO</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Malaria molecular surveillance in the Peruvian Amazon with a novel highly multiplexed Plasmodium falciparum AmpliSeq assay</article-title>
+					<source>Microbiol Spectr</source>
+					<year>2023</year>
+					<volume>11</volume>
+					<elocation-id>e0096022</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/spectrum.00960-22">https://doi.org/10.1128/spectrum.00960-22</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Rawat M, Kanyal A, Choubey D, Deshmukh B, Malhotra R, Mamatharani DV, <italic>et al</italic>. Identification of co-existing mutations and gene expression trends associated with K13- mediated artemisinin resistance in <italic>Plasmodium falciparum</italic>. Front Genet. 2022;13:824483. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fgene.2022.824483">https://doi.org/10.3389/fgene.2022.824483</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rawat</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kanyal</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Choubey</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Deshmukh</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Malhotra</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mamatharani</surname>
+							<given-names>DV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identification of co-existing mutations and gene expression trends associated with K13- mediated artemisinin resistance in Plasmodium falciparum</article-title>
+					<source>Front Genet</source>
+					<year>2022</year>
+					<volume>13</volume>
+					<fpage>824483</fpage>
+					<lpage>824483</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fgene.2022.824483">https://doi.org/10.3389/fgene.2022.824483</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Oberstaller J, Zoungrana L, Bannerman CD, Jahangiri S, Dwivedi A, Silva JC, <italic>et al</italic>. Integration of population and functional genomics to understand mechanisms of artemisinin resistance in <italic>Plasmodium falciparum</italic>. Int J Parasitol Drugs Drug Resist. 2021;16:119-28. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijpddr.2021.05.006">https://doi.org/10.1016/j.ijpddr.2021.05.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oberstaller</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zoungrana</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bannerman</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Jahangiri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Dwivedi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Integration of population and functional genomics to understand mechanisms of artemisinin resistance in Plasmodium falciparum</article-title>
+					<source>Int J Parasitol Drugs Drug Resist</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<fpage>119</fpage>
+					<lpage>128</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijpddr.2021.05.006">https://doi.org/10.1016/j.ijpddr.2021.05.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Ministerio de Salud del Perú. Plan hacia la eliminación de la Malaria en el Perú 2022-2030. Lima: Ministerio de Salud del Perú; 2022.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud del Perú</collab>
+					</person-group>
+					<source>Plan hacia la eliminación de la Malaria en el Perú 2022-2030</source>
+					<publisher-loc>Lima</publisher-loc>
+					<publisher-name>Ministerio de Salud del Perú</publisher-name>
+					<year>2022</year>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Sandoval-Bances J, Saavedra-Samillán M, Huyhua- Gutiérrez S, Rojas LM, Tejada-Muñoz S, Tapia- Limonchi R, <italic>et al</italic>. Caracterización molecular del dominio de la hélice del gen <italic>k13</italic> de <italic>Plasmodium falciparum</italic> en muestras de comunidades nativas de Condorcanqui, Amazonas, Perú. Biomédica. 2023;43:352-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6849">https://doi.org/10.7705/biomedica.6849</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p>Rafael Tapia-Limonchi y Stella M. Chenet: concepción y diseño del proyecto, obtención del financiamiento y revisión crítica</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Julio Sandoval-Bances y Milagros Saavedra- Samillán:</label>
+				<p> ejecución del proyecto y redacción del artículo</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Julio Sandoval-Bances y Luis M. Rojas:</label>
+				<p> recolección de muestras, análisis e interpretación de datos</p>
+			</fn>
+			<fn fn-type="other" id="fn5">
+				<label>Sonia Huyhua y Sonia Tejada-Muñoz:</label>
+				<p> logística para la obtención de muestras y revisión crítica del artículo </p>
+			</fn>
+			<fn fn-type="other" id="fn7">
+				<label>Financiación:</label>
+				<p>Los autores realizaron sus investigaciones con el apoyo del Instituto de Investigaciones en Ciencias Biomédicas (INICIB) de la Universidad Ricardo Palma y del Instituto de Enfermedades Tropicales de la Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas. Este estudio fue financiado por el contrato No: 050-2021-FONDECYT, en el marco del proyecto “Metagenómica en vectores de la región amazónica: identificando focos potenciales de las enfermedades emergentes y re-emergentes” (METAVEC), y por el proyecto N° 144-2022-FMH-D “Vigilancia molecular de <italic>Plasmodium</italic> en comunidades nativas de la región Condorcanqui, Amazonas”.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00009</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Evaluación de la calidad de los procesos analíticos en un laboratorio clínico mediante el cálculo del error total y la métrica seis sigma</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Evaluation of the analytic processes quality in a clinical laboratory by means of the calculation of the total error and the sigma six metrics</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3522-9425</contrib-id>
+					<name>
+						<surname>Céspedes Quevedo</surname>
+						<given-names>María Cristina</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7987-2981</contrib-id>
+					<name>
+						<surname>Agüero Martén</surname>
+						<given-names>Raiza</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8021-0582</contrib-id>
+					<name>
+						<surname>Roca Serra</surname>
+						<given-names>Lisandra</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cuadra Brown</surname>
+						<given-names>Yolanda</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Hospital Oncológico Docente Provincial Conrado Benítez García, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgdiv1">Hospital Oncológico Docente Provincial Conrado Benítez García</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Hospital Infantil Docente Sur Dr. Antonio María Béguez César, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgdiv1">Hospital Infantil Docente Sur Dr. Antonio María Béguez César</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>mariacespedes@infomed.sld.cu</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>28</day>
+				<month>06</month>
+				<year>2019</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<month>06</month>
+				<year>2019</year>
+			</pub-date>
+			<volume>23</volume>
+			<issue>3</issue>
+			<fpage>495</fpage>
+			<lpage>508</lpage>
+			<history>
+				<date date-type="received">
+					<day>15</day>
+					<month>02</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>28</day>
+					<month>04</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>Se realizó una investigación experimental, retrospectiva y longitudinal en el Laboratorio Clínico del Hospital Oncológico Docente Provincial Conrado Benítez García de Santiago de Cuba, con vistas a evaluar la calidad de los procesos analíticos por medio del cálculo del error total y la métrica seis sigma, para lo cual se tomaron los parámetros de glucemia, colesterol, gammaglutamil transferasa y alanina aminotransferasa, registrados en el control de calidad interno mensual durante el año 2017. La evaluación de cada medición química se había efectuado con dos controladores: Elitrol 1 y Elitrol 2. En más de 90 % de los meses fue aceptable la competencia en la determinación de los analitos controlados, excepto en la glucemia 1; así mismo existió un desempeño aceptable en las mediciones de la gammaglutamil transferasa y la alanina aminotransferasa, mientras que la glucemia y el colesterol mostraron el nivel inferior. Se concluyó que el cálculo del error total y la métrica seis sigma fortalecen el control de la calidad interno, garantizan la calidad de los resultados través del laboratorio clínico y, con ello, la calidad de la asistencia médica a los pacientes.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>An experimental, retrospective and longitudinal investigation was carried out in the Clinical Laboratory of Conrado Benítez García Teaching Provincial Oncological Hospital in Santiago de Cuba, with the aim of evaluating the quality of the analytic processes by means of the total error calculation and the sigma six metrics, for which the glycemia, cholesterol, gammaglutamyl transferase and alanina aminotransferase parameters were used, registered in the monthly internal quality control during the year 2017. The evaluation of each chemical measurement had been carried out with two controllers: Elitrol 1 and Elitrol 2. In more than 90 % of the months, the competence in the determination of the controlled analyte was acceptable, except in the glycemia 1; also an acceptable performance existed in the mensurements of the gammaglutamyl transferase and the alanina aminotransferase, while the glycemia and the cholesterol showed the lower level. It was concluded that the calculation of the total error and the sigma six metrics strengthen the control of the inner quality, they guarantee the quality of the results through the clinical laboratory and, thus, the quality of the medical care to the patients.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>laboratorio clínico</kwd>
+				<kwd>calidad en laboratorio clínico</kwd>
+				<kwd>cálculo del error total</kwd>
+				<kwd>métrica seis sigma</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>clinical laboratory</kwd>
+				<kwd>clinical laboratory quality</kwd>
+				<kwd>total error calculation</kwd>
+				<kwd>sigma six metrics</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="14"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>Los órganos reguladores internacionales y el Centro para el Control Estatal de Medicamentos, Equipos y Dispositivos Médicos del Ministerio de Salud Pública de Cuba, en su Regulación 3/09, plantean que los laboratorios de análisis clínicos tienen la responsabilidad de implementar un sistema de gestión de la calidad con el fin de asegurar que los resultados obtenidos sean confiables para el uso clínico previsto, y así contribuir a adecuados diagnóstico, tratamiento, evolución y rehabilitación del paciente. El aseguramiento de la calidad debe contemplar las etapas preanalítica, analítica y posanalítica para que sus resultados sean sólidos y confiables, en beneficio de los médicos y pacientes.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>El modelo fundamental para un sistema de gestión de la calidad es el ciclo de Deming: “planear-hacer-verificar-actuar”, que incluye los principios de la investigación científica y la toma de decisiones de objetivos.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>El “planear” claramente se alinea con la preparación de la documentación, los reactivos, los equipos, el decidir métodos analíticos; mientras que en el “hacer” se verifican los métodos analíticos, se describen y ejecutan los procedimientos y los procesos para las pruebas de laboratorio. “Verificar” involucra el control de la calidad de los procesos, la competencia y el desempeño en el laboratorio, y, por último, “actuar” se relaciona con las acciones basadas en los resultados, tales como sugerir las reglas de control para decidir el rechazo de la “corrida” analítica, identificar errores y llevar a cabo acciones para mejorar la calidad.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>En la evaluación de la calidad en el laboratorio clínico por medio de su control interno (CCI) se ha ido incrementando la exigencia con el transcurso de los años. Las primeras evidencias fueron la aplicación de las cartas de control por Levey y Jennings, en 1950, que fueron enriquecidas, más tarde, por Henry y Segalove, al ser incluidas las reglas de control ±2s (alerta) y ±3s, en 1952. Más adelante, en 1974, se añadieron otras reglas de control, que fueron organizadas por Westgard, quien inició estudios estadísticos para el cálculo de la probabilidad de rechazos falsos y la probabilidad de detección de error. Posteriormente, el mismo Westgard, junto con otros investigadores, propusieron otras reglas de control para la detección de errores sistemáticos (2<sub>2s</sub>, 4<sub>1s</sub> y 10<sub>x</sub>) y aleatorios (1<sub>3s</sub> y R<sub>4s</sub>); combinación de reglas que hoy se conocen como reglas de Westgard o multirreglas de control de calidad.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Así, el control interno se venía realizando mediante la aplicación de métodos estadísticos con los valores de los controladores, y eran anotados en la carta de control, con lo cual se detectaban los errores sistemáticos y aleatorios. Los primeros, debido a una misma causa que se repite y que desplaza el valor promedio del valor verdadero, y los segundos debido a causas accidentales difíciles de determinar, lo que produce dispersión de los valores. El error sistemático -un indicador de calidad- se cuantifica con el % de sesgo o varianza (V) y causa sesgo o inexactitud; mientras que el error aleatorio, que es otro indicador de calidad, causa imprecisión y se cuantifica con el desvío estándar (DS) o % de coeficiente de variación (% CV).<xref ref-type="bibr" rid="B5"><sup>5</sup></xref> Cabe señalar que el sesgo, o la inexactitud, se debe obtener del resultado de la evaluación externa de la calidad (EEC); en el caso de no llevarse a cabo dicha evaluación se realizará comparando la media de los valores del laboratorio con la media del primer mes o la media del grupo de comparación del CCI o, en última instancia, los valores medios declarados por el fabricante de los controladores utilizados, teniendo en cuenta el fenómeno de “matriz” que pudiera estar presente en ellos y que pudieran falsear los resultados y aumentar el sesgo.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Actualmente la disponibilidad de herramientas que permiten planear y controlar la calidad analítica de los exámenes asegura la liberación de resultados útiles para el diagnóstico clínico. El error total calculado en el laboratorio (ETc) representa la combinación del error aleatorio y el error sistemático de un procedimiento, y permite evaluar la competencia analítica en cada determinación química, al compararlo con el error total aceptable (ETa) establecido en los requisitos de calidad de las especificaciones internacionales disponibles actualmente.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>)</sup></p>
+			<p>Por otra parte, los profesionales del laboratorio, cada vez toman más conciencia sobre el impacto de aplicar guías o directrices, que contribuyan significativamente en disminuir la imprecisión y mejorar la veracidad de los métodos analíticos, en beneficio de disminuir el error total analítico, en comparación con el requerimiento de calidad analítico utilizado.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>La competencia analítica es la capacidad para lograr cumplir, a través de un método, con los requisitos de calidad que están definidos como óptimos. El desempeño analítico evalúa con diferentes categorías el proceso de control de la calidad de los diferentes métodos mediante una ecuación matemática que permite el cálculo del número de sigmas: métrica seis sigma. Al respecto, Westgard establece un nuevo modelo de reglas de control basado en esta estrategia, además de gráficos para mostrar la evaluación de la competencia y el desempeño analíticos.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Estos métodos novedosos de evaluación se aplican solo en algunos laboratorios. El actual trabajo se realizó con el objetivo de mostrar cómo el cálculo del error total y la métrica seis sigma son indicadores de calidad de los procesos analíticos en el laboratorio clínico, que pueden ser adicionados a los ya tradicionales de imprecisión e inexactitud.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se efectuó un estudio experimental, retrospectivo y longitudinal de los parámetros registrados del control de calidad interno mensual durante el año 2017, desarrollado en el Laboratorio Clínico del Hospital Oncológico Docente Provincial Conrado Benítez García de Santiago de Cuba. El universo estuvo constituido por los controladores de dos niveles de concentración: Elitrol 1 de nivel normal y Elitrol 2 de nivel alto, procesados diariamente en cada “corrida” de cada uno de los ensayos analíticos de glucemia, colesterol (método manual), gammaglutamil transferasa (GGT) y alanina aminotransferasa (ALT, método automatizado).</p>
+			<p>Los exámenes de laboratorio se realizaron según los procedimientos normalizados de operación, actualizados, de cada una de las determinaciones químicas que se utilizaba en el Laboratorio Clínico de dicho hospital. Los métodos analíticos usados fueron, para la glucemia, la glucosa oxidasa, para el colesterol, el enzimático-colorimétrico, y para las enzimas, el enzimático-cinético. Los procedimientos manuales se realizaron en un espectrofotómetro ERMA y los automatizados en un autoanalizador Elimat.</p>
+			<p>Entre las variables del estudio estuvieron las siguientes: valores individuales de los analitos procesados con los controladores Elitrol 1 y Elitrol 2, diariamente. Al concluir el mes, los valores medios (), % CV, % sesgo, ETc, valor de la métrica seis sigma (MSS), todos obtenidos con los valores de cada analito. </p>
+			<p>La información obtenida fue procesada mediante el programa MedLabQC, versión 3.21, para hallar la media () y % de CV. El % de sesgo se halló comparando la media del laboratorio () con la media informada por el fabricante (<sub>1</sub>), pues la evaluación externa de la calidad no se efectuó durante esta etapa en el país:</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Cálculo: ((<sub>1</sub>-)/<sub>1</sub>) por 100 </p>
+					</list-item>
+				</list>
+			</p>
+			<p>La aceptabilidad del % de CV para los ensayos analíticos fue la declarada en el inserto del fabricante de los reactivos: para la glucemia y el colesterol menor o igual a 5 % y para la GGT y ALT menor o igual a 7 %.</p>
+			<p>La aceptabilidad del % de sesgo o varianza para los cuatro analitos procesados fue de menos o igual a 2,5 %, por criterio de las autoras. Aunque no se realizó la EEC, la autoras se basaron en el índice de varianza entre 0-50, que evalúa de excelente a un sesgo o V con esa cifra (2,5 %).<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Por su parte, la evaluación de la competencia analítica se realizó comparando el ETc con el Eta,<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>)</sup> declarados en los requisitos de calidad establecidos por la Agencia Gubernamental de EE.UU. en 1988, conocida como <italic>Clinical Laboratory Improvements Amendments</italic> (CLIA’88, por sus siglas en inglés), con el siguiente cálculo: % ETc = % sesgo + (1,65 * CV).</p>
+			<p>Hubo aceptabilidad cuando existió competencia en el ensayo analítico, que se determinó como tal si ETc era menor que Eta; por el contrario, no existió competencia si ETc era mayor que Eta.</p>
+			<p>Según los requisitos de calidad CLIA’88, el ETa para la glucemia y el colesterol es de hasta 10 % y para la GGT y ALT de hasta 20 %.</p>
+			<p>Asimismo, la evaluación del desempeño analítico se realiza con los valores sigma, calculados y luego evaluados según su propia escala:<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Cálculo de sigma: (% ETa - % sesgo)/ % CV</p>
+					</list-item>
+				</list>
+			</p>
+			<p>En la escala de 1 a 6 o mayor de 6, se aceptan los valores igual de 3 o mayores que este. </p>
+			<p>Las categorías establecidas fueron las siguientes: si sigma resultaba menor que 3 el desempeño era pobre e inaceptable, si era de 3 a menos de 4 el desempeño era marginal; de 4 a menos de 5 el desempeño era bueno, de 5 a menos de 6, excelente, y mayor de 6 era un desempeño de “clase mundial”. </p>
+			<p>Para la corrección de errores, se aplicaron las reglas de control de Westgard y las sugerencias que aparecen en la tabla sigma, según la escala de valores, con el fin de mejorar la calidad analítica.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En la <xref ref-type="table" rid="t1">tabla 1</xref> se evidencia que, a excepción de la glucemia 1, todos los analitos controlados mostraron buena precisión, los mejores fueron el colesterol 1, la GGT y la ALT 1, con solo un mes con % CV mayor de 5. El promedio de los % CV del colesterol 1 y 2 fue de 2,6 %. </p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Evaluación de la imprecisión de los analitos mensualmente según % CV en los controladores de dos niveles</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-03-495-gt1.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>% CV aceptable &lt; 5 %</p>
+						</fn>
+						<fn id="TFN2">
+							<p>OK: % de analitos con imprecisiones aceptables en el año</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>El sesgo mostró mayores dificultades que la precisión, solo dos analitos controlados (colesterol 1 y ALT 2) obtuvieron valores aceptables en más de 90 % de los meses durante el año, seguido de la glucemia, el colesterol y la ALT de nivel 2, con 80,0 %. Los controladores de ALT, GGT y glucemia del nivel 1 manifestaron mayores diferencias entre los valores calculados y los declarados por el fabricante (<xref ref-type="table" rid="t2">tabla 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Evaluación del sesgo o veracidad de los analitos mensualmente según % de sesgo en los controladores de dos niveles</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-03-495-gt2.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>% sesgo aceptable &lt; 2,5 %</p>
+						</fn>
+						<fn id="TFN4">
+							<p>*OK: % de analitos con sesgos aceptables en el año</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Se obtuvo muy baja competencia analítica en la determinación de la glucemia 1 durante el año, pues solo en tres meses (enero, noviembre y diciembre) el ET calculado se adaptó al requisito de calidad señalado en CLIA’88 para esa medición química. La ALT 2 durante todos los meses del año mantuvo el ETc con menos del ETa (20,0 %) y fue el analito donde se mostró una mejor competencia. Existió incompetencia analítica en el resto de los controladores en solo 1 mes del año (<xref ref-type="table" rid="t3">tabla 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Evaluación de la competencia analítica mensual 2017 según el % ETc comparados con el % ETa CLIA’88 en los controladores de dos niveles</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-03-495-gt3.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN5">
+							<p>ETa para glucemia y creatinina 10 % y para GGT y ALT 20 % según CLIA’88</p>
+						</fn>
+						<fn id="TFN6">
+							<p>* OK: % de analitos con competencia aceptables en el año</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>En la evaluación del desempeño analítico se encontraron mayores dificultades que en la competencia (<xref ref-type="table" rid="t4">tabla 4</xref>); solo tres controladores presentaron 90 % o más meses del año con sigma igual o mayor que 3. Existió buen desempeño en las determinaciones de GGT y ALT 2, en contraposición al resto de las determinaciones en las que el desempeño fue no aceptable (sigma &lt; 3) en cuatro y más meses en el año, con peores resultados en la medición de la glucemia 1 y la glucemia 2. En general, de los 88 controladores procesados y evaluados cada mes, 31 obtuvieron valores menores de 3 sigma (35,0 %). </p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Evaluación del desempeño analítico mensual 2017 según la métrica seis sigma Westgard en los controladores de dos niveles</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-03-495-gt4.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN7">
+							<p>Sigma &lt;3 pobre e inaceptable, 3 a &lt; 4 marginal, 4 a &lt; 5 bueno, 5 a &lt; 6 excelente y &gt;6 “clase mundial”</p>
+						</fn>
+						<fn id="TFN8">
+							<p>OK: % de analitos con calidad aceptables en el año</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>La <xref ref-type="fig" rid="f1">figura</xref> muestra el número de meses en que los analitos fueron controlados con buena competencia y desempeño, calculados con el % de ET y la métrica sigma, respectivamente. Se observó mayor número de meses con buena competencia que con buen desempeño; en este último indicador de calidad se presentó mayor aceptabilidad en la determinación de las enzimas.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig. Evaluación</label>
+					<caption>
+						<title>de la competencia y el desempeño analíticos según meses del año</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-03-495-gf1.gif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El control de la calidad en el laboratorio clínico tiene la función de detectar errores sistemáticos y aleatorios mediante el cálculo estadístico, así como identificar las posibles fuentes de error y asegurar la utilidad de los resultados, pues la mayor parte de las decisiones clínicas depende de estos. En esta investigación, la pésima precisión que se apreció mediante los valores del CV en la glucemia 1 pudo deberse a los cambios frecuentes de los tecnólogos en esa área de trabajo, unido al rápido deterioro de ese controlador; sin embargo, el resto de los analitos mostraron pocos errores aleatorios, y las enzimas, en su conjunto, comparadas con los metabolitos, fueron más precisas al ser procesadas con métodos automatizados, lo que minimiza los errores analíticos. </p>
+			<p>Se advierte en estos resultados que los indicadores de calidad evaluados fueron mejorando con el transcurso del tiempo como consecuencia de las correcciones que se fueron tomando y la mayor experiencia adquirida en los procesos analíticos. Al respecto, González Cantó <italic>et al</italic>,<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> que evalúan el cumplimiento de diversos indicadores de la calidad mensualmente para diferentes magnitudes biológicas en suero, lograron el cumplimiento del % CV en 97 % de las magnitudes evaluadas; sin embargo, Acosta García <italic>et al</italic>,<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> de una evaluación externa realizada en 22 laboratorios, obtuvieron que en solo tres de estos existió competencia en la determinación de la glucosa y la creatinina. </p>
+			<p>Asimismo, Cruz <italic>et al</italic><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> calcularon la precisión intralaboratorio en el colesterol total (CT) con el % CV, que fue de 4,87 %, mayor que el promedio alcanzado en este trabajo; además, señalaron que solo 15,38 % de los laboratorios evaluados alcanzaron precisión intralaboratorio aceptable en la determinación del CT. </p>
+			<p>Por otra parte, en un estudio retrospectivo<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> realizado en Mar del Plata, sobre el registro de controles de calidad, el CV se cumplió con los criterios en 79 % de los analitos efectuados de forma electiva y en 64 % de los procesados por urgencias médicas. Tales resultados muestran variabilidad en la evaluación de la imprecisión entre laboratorios.</p>
+			<p>Como ya se expuso, el sesgo presentó mayor dificultad que la imprecisión. Llama la atención que la enzima ALT 1 procesada en el autoanalizador fue el analito con mayor diferencia respecto al valor real, seguida de la glucosa procesada por método manual, con lo cual se demostró la presencia de una mayor cantidad de errores sistemáticos en estos procedimientos. </p>
+			<p>Referente a lo anterior, uno de los factores influyentes es que se calculara el sesgo con el valor declarado por el fabricante; práctica que es rechazada por algunos investigadores,<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref> los que sustentan que no debería considerarse como un valor de referencia, pues puede estar presente el efecto “matriz”, por un lado, y, por el otro, la ausencia de calibradores con suficientes garantías en el valor asignado al instrumento utilizado. Igualmente, Acosta García <italic>et al</italic><xref ref-type="bibr" rid="B12"><sup>12</sup></xref> señalan que los mayores sesgos se observan en los laboratorios cuyo procesamiento se realiza manualmente; sin embargo, algunos laboratorios con procesamiento automatizado muestran valores de % de sesgo superiores a lo aceptado, para uno u otro analito evaluado, y en cualquiera de sus niveles ensayados, e incluso en ambos. Los resultados de este estudio coincidieron con los planteamientos precedentes.</p>
+			<p>El resultado muy incompetente en la determinación de la glucemia 1 estuvo relacionado con la mala precisión y veracidad que se obtuvo durante el año; en la medición del resto de los analitos se mostró buena competencia en la mayor parte de los meses, con solo un mes con calidad no aceptable según los requisitos de calidad CLIA’88, a pesar de que el sesgo los afectó en menor o mayor grado. Se destacó la competencia en la determinación de la ALT 2 durante todos los meses, aunque en el mes de octubre el ETc estuvo cerca del valor máximo permisible. El resultado de la métrica seis sigma, que evalúa el desempeño de los procesos y procedimientos se mostró con mayor dificultad que la competencia; en este indicador se exigen con mayor rigor los valores de la imprecisión y el sesgo, no basta con alcanzar un ET adecuado a los requisitos de calidad, sino que los errores aleatorios y sistemáticos tienen que apegarse a 0, para que al minimizar la imprecisión y el sesgo, le confieran resultados aceptables. </p>
+			<p>Del Campillo <italic>et al</italic><xref ref-type="bibr" rid="B8"><sup>8</sup></xref> demostraron que el desempeño sigma y la regla de control de Westgard dependen del requisito de calidad elegido; el valor sigma aumenta o disminuye en dependencia del ETa. Resultados semejantes obtuvieron González Cantó <italic>et al</italic>,<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> pues de las magnitudes evaluadas, 97 % cumplieron lo requerido en el ET, mientras que solo 72 % en los valores sigma. Por otro lado, Porras <italic>et al</italic><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> en 50 analitos de niveles 1 y 2 evaluados en un mes, obtuvieron 38 % con sigma menor de 3. </p>
+			<p>Lo hallado en esta investigación refuerza todo lo expuesto sobre la métrica sigma como un importante evaluador de la calidad y las ventajas de los métodos automatizados. Esto pudiera sugerir que tanto el instrumento utilizado como los problemas de calibración, constituyen factores que inducen a sesgos o desviaciones analíticas en las determinaciones.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Finalmente, pudo afirmarse que el control de la calidad tradicional de las pruebas de laboratorio a través del control interno, no es suficiente para evaluar el desempeño de estas. Por tanto, se deben considerar todas las herramientas estadísticas que están al alcance, como el cálculo del error total y la métrica seis sigma, que fortalecen el control de la calidad interno, puesto que solo a través de un verdadero análisis se garantiza la calidad de los resultados que se entregan a través del laboratorio clínico y, con ello, la calidad de la asistencia médica a los pacientes.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Figueroa Montes LE. Normatividad relacionada al control de calidad analítica en los laboratorios clínicos del Perú. Acta Méd Peru. 2017 [citado 10/01/2019];34(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1728-59172017000300013">http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1728-59172017000300013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Figueroa Montes</surname>
+							<given-names>LE</given-names>
+						</name>
+					</person-group>
+					<article-title>Normatividad relacionada al control de calidad analítica en los laboratorios clínicos del Perú</article-title>
+					<source>Acta Méd Peru</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-10">10/01/2019</date-in-citation>
+					<volume>34</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1728-59172017000300013">http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1728-59172017000300013</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Plebani M. The CCLM contribution to improvements in quality and patient safety. Clin Chem Lab Med. 2013;51(1):39-46.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Plebani</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>The CCLM contribution to improvements in quality and patient safety</article-title>
+					<source>Clin Chem Lab Med</source>
+					<year>2013</year>
+					<volume>51</volume>
+					<issue>1</issue>
+					<fpage>39</fpage>
+					<lpage>46</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Westgard JO. Sistemas de gestión de la calidad para el Laboratorio Clínico. Madison: Edición Wallace Coulter; 2014 [citado 10/01/2019]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ifcc.org/media/433206/SISTEMAS_DE_GESTION_DE_CALIDAD_PARA_EL_LABORATORIO_CLINICO.pdf">http://www.ifcc.org/media/433206/SISTEMAS_DE_GESTION_DE_CALIDAD_PARA_EL_LABORATORIO_CLINICO.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Westgard</surname>
+							<given-names>JO</given-names>
+						</name>
+					</person-group>
+					<source>Sistemas de gestión de la calidad para el Laboratorio Clínico</source>
+					<year>2014</year>
+					<publisher-loc>Madison</publisher-loc>
+					<publisher-name>Edición Wallace Coulter</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-10">10/01/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ifcc.org/media/433206/SISTEMAS_DE_GESTION_DE_CALIDAD_PARA_EL_LABORATORIO_CLINICO.pdf">http://www.ifcc.org/media/433206/SISTEMAS_DE_GESTION_DE_CALIDAD_PARA_EL_LABORATORIO_CLINICO.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Gómez Lagos R, Moscoso Espinoza H, Retamales Castelletto E, Valenzuela Barros C. Guía técnica para control de calidad de mediciones cuantitativas en el laboratorio clínico. Santiago de Chile: Instituto de Salud Pública; 2015 [citado 30/07/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ispch.cl/sites/default/files/Guia_Tecnica_Control_Calidad_Mediciones_Cuantitativas.pdf">http://www.ispch.cl/sites/default/files/Guia_Tecnica_Control_Calidad_Mediciones_Cuantitativas.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez Lagos</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Moscoso Espinoza</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Retamales Castelletto</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Valenzuela Barros</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>Guía técnica para control de calidad de mediciones cuantitativas en el laboratorio clínico</source>
+					<year>2015</year>
+					<publisher-loc>Santiago de Chile</publisher-loc>
+					<publisher-name>Instituto de Salud Pública</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-07-30">30/07/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ispch.cl/sites/default/files/Guia_Tecnica_Control_Calidad_Mediciones_Cuantitativas.pdf">http://www.ispch.cl/sites/default/files/Guia_Tecnica_Control_Calidad_Mediciones_Cuantitativas.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Westgard JO. Prácticas básicas de control de la calidad. Capacitación en Control Estadístico de la Calidad para Laboratorios Clínicos. Madison: Edición Wallace Coulter; 2013 [citado 30/07/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ifcc.org/media/333582/2015%20Pr%C3%A1cticas%20B%C3%A1sicas%20de%20Control%20de%20Calidad.pdf">http://www.ifcc.org/media/333582/2015%20Pr%C3%A1cticas%20B%C3%A1sicas%20de%20Control%20de%20Calidad.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Westgard</surname>
+							<given-names>JO</given-names>
+						</name>
+					</person-group>
+					<source>Prácticas básicas de control de la calidad. Capacitación en Control Estadístico de la Calidad para Laboratorios Clínicos</source>
+					<year>2013</year>
+					<publisher-loc>Madison</publisher-loc>
+					<publisher-name>Edición Wallace Coulter</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-07-30">30/07/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ifcc.org/media/333582/2015%20Pr%C3%A1cticas%20B%C3%A1sicas%20de%20Control%20de%20Calidad.pdf">http://www.ifcc.org/media/333582/2015%20Pr%C3%A1cticas%20B%C3%A1sicas%20de%20Control%20de%20Calidad.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Porras A, De la Hoz D, López AY. Aplicación de six sigma en el Laboratorio Angel-Cali-Colombia. Control de Calidad para el Laboratorio clínico. Bioanálisis. 2009 [citado 16/01/2019];5. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://docplayer.es/4907870-Aplicaciones-de-six-sigma-en-el-laboratorio-angel-cali-colombia.html">https://docplayer.es/4907870-Aplicaciones-de-six-sigma-en-el-laboratorio-angel-cali-colombia.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Porras</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>De la Hoz</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>López</surname>
+							<given-names>AY</given-names>
+						</name>
+					</person-group>
+					<article-title>Aplicación de six sigma en el Laboratorio Angel-Cali-Colombia. Control de Calidad para el Laboratorio clínico</article-title>
+					<source>Bioanálisis</source>
+					<year>2009</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-16">16/01/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://docplayer.es/4907870-Aplicaciones-de-six-sigma-en-el-laboratorio-angel-cali-colombia.html">https://docplayer.es/4907870-Aplicaciones-de-six-sigma-en-el-laboratorio-angel-cali-colombia.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Prada BE, Blazquez CR, Gutiérrez-Bassina G, Morancho J, Jou JM, Ramón F, et al. Control interno de la calidad vs control externo de la calidad. Rev Lab Clin. 2016;9(2):54-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prada</surname>
+							<given-names>BE</given-names>
+						</name>
+						<name>
+							<surname>Blazquez</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez-Bassina</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Morancho</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jou</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Ramón</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Control interno de la calidad vs control externo de la calidad</article-title>
+					<source>Rev Lab Clin</source>
+					<year>2016</year>
+					<volume>9</volume>
+					<issue>2</issue>
+					<fpage>54</fpage>
+					<lpage>59</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Del Campillo S, de Elías R, Kiener G, Kiener O, Barzón S. Especificaciones de calidad en base a error total: ¿Cuál es la mejor elección? Acta Bioquím Clín Latinoam. 2017 [citado 16/01/2019];51(2):227-35. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=53552508008">http://www.redalyc.org/articulo.oa?id=53552508008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Del Campillo</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>de Elías</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Kiener</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Kiener</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Barzón</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Especificaciones de calidad en base a error total: ¿Cuál es la mejor elección?</article-title>
+					<source>Acta Bioquím Clín Latinoam</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-16">16/01/2019</date-in-citation>
+					<volume>51</volume>
+					<issue>2</issue>
+					<fpage>227</fpage>
+					<lpage>235</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=53552508008">http://www.redalyc.org/articulo.oa?id=53552508008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Westgard JO. Validación Básica de Método. Madison: Edición Wallace Coulter; 2013 [citado 16/01/2019]. Disponible en: http://www.ifcc.org/media/333585/2015%20Validaci%C3%B3n%20B%C3%A1sica%20de%20M%C3%A9todo.pdf</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Westgard</surname>
+							<given-names>JO</given-names>
+						</name>
+					</person-group>
+					<source>Validación Básica de Método</source>
+					<year>2013</year>
+					<publisher-loc>Madison</publisher-loc>
+					<publisher-name>Edición Wallace Coulter</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-16">16/01/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ifcc.org/media/333585/2015%20Validaci%C3%B3n%20B%C3%A1sica%20de%20M%C3%A9todo.pdf">http://www.ifcc.org/media/333585/2015%20Validaci%C3%B3n%20B%C3%A1sica%20de%20M%C3%A9todo.pdf </ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Suardíaz Pareras J, Cruz Rodríguez C, Colina Rodríguez A. Laboratorio clínico. La Habana: Editorial Ciencias Médicas; 2004.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Suardíaz Pareras</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cruz Rodríguez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Colina Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Laboratorio clínico</source>
+					<year>2004</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. González Cantó J, Esteve Poblador S, Ortuño Alonso M. Evaluación de los indicadores de la calidad analítica en un laboratorio clínico. Rev Lab Clín. 2017 [citado 16/01/2019];10(4):180-88. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.clinicalkey.es/service/content/pdf/watermarked/1-s2.0-S1888400817300867.pdf?locale=es_ES&amp;searchIndex">https://www.clinicalkey.es/service/content/pdf/watermarked/1-s2.0-S1888400817300867.pdf?locale=es_ES&amp;searchIndex</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Cantó</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Esteve Poblador</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ortuño Alonso</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluación de los indicadores de la calidad analítica en un laboratorio clínico</article-title>
+					<source>Rev Lab Clín</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-16">16/01/2019</date-in-citation>
+					<volume>10</volume>
+					<issue>4</issue>
+					<fpage>180</fpage>
+					<lpage>188</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.clinicalkey.es/service/content/pdf/watermarked/1-s2.0-S1888400817300867.pdf?locale=es_ES&amp;searchIndex">https://www.clinicalkey.es/service/content/pdf/watermarked/1-s2.0-S1888400817300867.pdf?locale=es_ES&amp;searchIndex</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Acosta García EJ, Peñate E, Cruces ME. Análisis de desempeño de laboratorios clínicos en la determinación de glucosa y creatinina. Acta Bioquím Clín Latinoam. 2017 [citado 21/01/2019];51(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/html/535/53550497013/">https://www.redalyc.org/html/535/53550497013/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Acosta García</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Peñate</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Cruces</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis de desempeño de laboratorios clínicos en la determinación de glucosa y creatinina</article-title>
+					<source>Acta Bioquím Clín Latinoam</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-21">21/01/2019</date-in-citation>
+					<volume>51</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/html/535/53550497013/">https://www.redalyc.org/html/535/53550497013/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Cruz SS, Bozo M, Molero T, Gómez M, Zambrano M, Panunzio A. Desempeño analítico en la determinación de colesterol y triglicéridos en laboratorios clínicos de la ciudad de Maracaibo, Venezuela. SABER. 2014 [citado 21/01/2019];26(2):127-35. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=427739467005">http://www.redalyc.org/articulo.oa?id=427739467005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cruz</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Bozo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Molero</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zambrano</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Panunzio</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Desempeño analítico en la determinación de colesterol y triglicéridos en laboratorios clínicos de la ciudad de Maracaibo, Venezuela</article-title>
+					<source>SABER</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-21">21/01/2019</date-in-citation>
+					<volume>26</volume>
+					<issue>2</issue>
+					<fpage>127</fpage>
+					<lpage>135</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=427739467005">http://www.redalyc.org/articulo.oa?id=427739467005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Franco M, Gil P, Ottaviani MA, Belloni JA. Evaluación de los límites analíticos de desempeño del laboratorio del HIGA O. Alende de Mar del Plata*. Acta Bioquím Clín Latinoam. 2017 [citado 21/01/2019];51(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/html/535/53550497014/">https://www.redalyc.org/html/535/53550497014/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Franco</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gil</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ottaviani</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Belloni</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluación de los límites analíticos de desempeño del laboratorio del HIGA O. Alende de Mar del Plata*</article-title>
+					<source>Acta Bioquím Clín Latinoam</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-01-21">21/01/2019</date-in-citation>
+					<volume>51</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/html/535/53550497014/">https://www.redalyc.org/html/535/53550497014/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

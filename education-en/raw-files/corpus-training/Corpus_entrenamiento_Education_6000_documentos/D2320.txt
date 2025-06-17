@@ -1,0 +1,41 @@
+#ITI#Factor Retention in Exploratory Factor Analysis With Missing Data#FTI#
+#IRE# Determining the number of factors in exploratory factor analysis is arguably the most crucial decision a researcher faces when conducting the analysis. While several simulation studies exist that compare various so-called factor retention criteria under different data conditions, little is known about the impact of missing data on this process. Hence, in this study, we evaluated the performance of different factor retention criteria—the Factor Forest, parallel analysis based on a principal component analysis as well as parallel analysis based on the common factor model and the comparison data approach—in combination with different missing data methods, namely an expectation-maximization algorithm called Amelia, predictive mean matching, and random forest imputation within the multiple imputations by chained equations (MICE) framework as well as pairwise deletion with regard to their accuracy in determining the number of factors when data are missing. Data were simulated for different sample sizes, numbers of factors, numbers of manifest variables (indicators), between-factor correlations, missing data mechanisms and proportions of missing values. In the majority of conditions and for all factor retention criteria except the comparison data approach, the missing data mechanism had little impact on the accuracy and pairwise deletion performed comparably well as the more sophisticated imputation methods. In some conditions, especially small-sample cases and when comparison data were used to determine the number of factors, random forest imputation was preferable to other missing data methods, though. Accordingly, depending on data characteristics and the selected factor retention criterion, choosing an appropriate missing data method is crucial to obtain a valid estimate of the number of factors to extract.#FRE#
+#IPC# exploratory factor analysis; factor retention; missing data; multiple imputation#FPC#
+#IRF# Auerswald M., Moshagen M., How to determine the number of factors to retain in exploratory factor analysis: A comparison of extraction methods under realistic conditions, Psychological Methods, 24, 4, pp. 468-491, (2019); 
+Braeken J., Van Assen M.A., An empirical kaiser criterion, Psychological Methods, 22, 3, pp. 450-466, (2017); 
+Brand J.P.L., Development, implementation and evaluation of multiple imputation strategies for the statistical analysis of incomplete data sets, (1999); 
+Breiman L., Random forest, (1999); 
+Cattell R.B., The scree test for the number of factors, Multivariate Behavioral Research, 1, 2, pp. 245-276, (1966); 
+Chen T., Guestrin C., XGBoost: A scalable tree boosting system, Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 785-794, (2016); 
+Dinno A., Exploring the sensitivity of Horn’s parallel analysis to the distributional form of random data, Multivariate Behavioral Research, 44, 3, pp. 362-388, (2009); 
+Dray S., Josse J., Principal component analysis with missing values: A comparative survey of methods, Plant Ecology, 216, 5, pp. 657-667, (2015); 
+Fabrigar L.R., Wegener D.T., MacCallum R.C., Strahan E.J., Evaluating the use of exploratory factor analysis in psychological research, Psychological Methods, 4, 3, pp. 272-299, (1999); 
+Genz A., Bretz F., Miwa T., Mi X., Leisch F., Scheipl F., Hothorn T., mvtnorm: Multivariate normal and t distributions, (2018); 
+Goretzko D., Buhner M., One model to rule them all? Using machine learning algorithms to determine the number of factors in exploratory factor analysis, Psychological Methods, 25, 6, pp. 776-786, (2020); 
+Goretzko D., Heumann C., Buhner M., Investigating parallel analysis in the context of missing data: A simulation study comparing six missing data methods, Educational and Psychological Measurement, 80, 4, pp. 756-774, (2019); 
+Goretzko D., Pham T.T.H., Buhner M., Exploratory factor analysis: Current use, methodological developments and recommendations for good practice, Current Psychology, (2019); 
+Honaker J., King G., What to do about missing values in time-series cross-section data, American Journal of Political Science, 54, 2, pp. 561-581, (2010); 
+Honaker J., King G., Blackwell M., Amelia II: A program for missing data, Journal of Statistical Software, 45, 7, pp. 1-47, (2011); 
+Horn J.L., A rationale and test for the number of factors in factor analysis, Psychometrika, 30, 2, pp. 179-185, (1965); 
+Jochen H., Max H., Tamara B., Wilfried L., Multiple imputation of missing data: A simulation study on a binary response, Open Journal of Statistics, 3, 5, pp. 370-378, (2013); 
+Josse J., Husson F., Selecting the number of components in principal component analysis using cross-validation approximations, Computational Statistics & Data Analysis, 56, 6, pp. 1869-1879, (2012); 
+Josse J., Pages J., Husson F., Multiple imputation in principal component analysis, Advances in Data Analysis and Classification, 5, 3, pp. 231-246, (2011); 
+Kaiser H.F., The application of electronic computers to factor analysis, Educational and Psychological Measurement, 20, 1, pp. 141-151, (1960); 
+Lim S., Jahng S., Determining the number of factors using parallel analysis and its recent variants, Psychological Methods, 24, 4, pp. 452-467, (2019); 
+Little R.J.A., Missing-data adjustments in large surveys, Journal of Business & Economic Statistics, 6, 3, pp. 287-296, (1988); 
+Little R.J.A., Rubin D.B., Statistical analysis with missing data, (2002); 
+Lorenzo-Seva U., Timmerman M.E., Kiers H.A.L., The hull method for selecting the number of common factors, Multivariate Behavioral Research, 46, 2, pp. 340-364, (2011); 
+Lorenzo-Seva U., Van Ginkel J.R., Multiple imputation of missing values in exploratory factor analysis of multidimensional scales: estimating latent trait scores, Anales de Psicologia/Annals of Psychology, 32, 2, pp. 596-608, (2016); 
+McNeish D., Exploratory factor analysis with small samples and missing data, Journal of Personality Assessment, 99, 6, pp. 637-652, (2017); 
+Nassiri V., Lovik A., Molenberghs G., Verbeke G., On using multiple imputation for exploratory factor analysis of incomplete data, Behavior Research Methods, 50, 2, pp. 501-517, (2018); 
+R: A language and environment for statistical computing, (2018); 
+Revelle W., Psych: Procedures for psychological, psychometric, and personality research, (2018); 
+Ruscio J., Kaczetow W., Simulating multivariate nonnormal data using an iterative algorithm, Multivariate Behavioral Research, 43, 3, pp. 355-381, (2008); 
+Ruscio J., Roche B., Determining the number of factors to retain in an exploratory factor analysis using comparison data of known factorial structure, Psychological Assessment, 24, 2, pp. 282-292, (2012); 
+Russell D.W., In search of underlying dimensions: The use (and abuse) of factor analysis, Personality and Social Psychology Bulletin. Personality and Social Psychology Bulletin, 28, 12, pp. 1629-1646, (2002); 
+Schoedel R., Pargent F., Au Q., Volkel S.T., Schuwerk T., Buhner M., Stachl C., To challenge the morning lark and the night owl: Using smartphone sensing data to investigate day–night behaviour patterns, European Journal of Personality, 34, 5, pp. 733-752, (2020); 
+Schouten R.M., Lugtig P., Vink G., Generating missing values for simulation purposes: A multivariate amputation procedure, Journal of Statistical Computation and Simulation, 88, 15, pp. 2909-2930, (2018); 
+Shah A.D., Bartlett J.W., Carpenter J., Nicholas O., Hemingway H., Comparison of random forest and parametric imputation models for imputing missing data using MICE: a CALIBER study, American Journal of Epidemiology, 179, 6, pp. 764-774, (2014); 
+van Buuren S., Brand J.P.L., Groothuis-Oudshoorn C.G.M., Rubin D.B., Fully conditional specification in multivariate imputation, Journal of Statistical Computation and Simulation, 76, 12, pp. 1049-1064, (2006); 
+van Buuren S., Groothuis-Oudshoorn K., mice: Multivariate imputation by chained equations in R, Journal of Statistical Software, 45, 3, pp. 1-67, (2011); 
+West S.G., New approaches to missing data in psychological research: Introduction to the special section, Psychological Methods, 6, 4, pp. 315-316, (2001)#FRF#

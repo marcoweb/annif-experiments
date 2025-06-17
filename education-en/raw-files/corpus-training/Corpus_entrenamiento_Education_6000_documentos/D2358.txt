@@ -1,0 +1,52 @@
+#ITI#The NEAT Equating Via Chaining Random Forests in the Context of Small Sample Sizes: A Machine-Learning Method#FTI#
+#IRE# The part of responses that is absent in the nonequivalent groups with anchor test (NEAT) design can be managed to a planned missing scenario. In the context of small sample sizes, we present a machine learning (ML)-based imputation technique called chaining random forests (CRF) to perform equating tasks within the NEAT design. Specifically, seven CRF-based imputation equating methods are proposed based on different data augmentation methods. The equating performance of the proposed methods is examined through a simulation study. Five factors are considered: (a) test length (20, 30, 40, 50), (b) sample size per test form (50 versus 100), (c) ratio of common/anchor items (0.2 versus 0.3), and (d) equivalent versus nonequivalent groups taking the two forms (no mean difference versus a mean difference of 0.5), and (e) three different types of anchors (random, easy, and hard), resulting in 96 conditions. In addition, five traditional equating methods, (1) Tucker method; (2) Levine observed score method; (3) equipercentile equating method; (4) circle-arc method; and (5) concurrent calibration based on Rasch model, were also considered, plus seven CRF-based imputation equating methods for a total of 12 methods in this study. The findings suggest that benefiting from the advantages of ML techniques, CRF-based methods that incorporate the equating result of the Tucker method, such as IMP_total_Tucker, IMP_pair_Tucker, and IMP_Tucker_cirlce methods, can yield more robust and trustable estimates for the “missingness” in an equating task and therefore result in more accurate equated scores than other counterparts in short-length tests with small samples.#FRE#
+#IPC# chaining random forests; equating; machine learning–based imputation techniques; small samples#FPC#
+#IRF# Albano A.D., Equate: An R package for observed-score linking and equating, Journal of Statistical Software, 74, pp. 1-36, (2016); 
+Arai S., Mayekawa S.I., A comparison of equating methods and linking designs for developing an item pool under item response theory, Behaviormetrika, 38, 1, pp. 1-16, (2011); 
+Athey S., The impact of machine learning on economics, The Economics of Artificial Intelligence: An Agenda, pp. 507-547, (2018); 
+Babcock B., Albano A., Raymond M., Nominal weights mean equating: A method for very small samples, Educational and Psychological Measurement, 72, pp. 608-628, (2012); 
+Babcock B., Hodge K., Rasch versus classical equating in the context of small sample sizes, Educational and Psychological Measurement, 80, 3, pp. 499-521, (2020); 
+Battauz M., equateIRT: An R package for IRT test equating, Journal of Statistical Software, 68, pp. 1-22, (2015); 
+Bezdek J.C., Pattern recognition with fuzzy objective function algorithms, (1981); 
+Birnbaum A.L., Some latent trait models and their use in inferring an examinee’s ability, Statistical Theories of Mental Test Scores, pp. 397-479, (1968); 
+Breiman L., Random forests, Machine Learning, 45, 1, pp. 5-32, (2001); 
+Dimitrov D.M., The delta-scoring method of tests with binary items: A note on true score estimation and equating, Educational and Psychological Measurement, 78, 5, pp. 805-825, (2018); 
+Dwyer A.C., Maintaining equivalent cut scores for small sample test forms, Journal of Educational Measurement, 53, 1, pp. 3-22, (2016); 
+Enders C.K., Applied missing data analysis, (2010); 
+Equihua M., Fuzzy clustering of ecological data, Journal of Ecology, 78, pp. 519-525, (1990); 
+Gonzalez J., SNSequate: Standard and nonstandard statistical models and methods for test equating, Journal of Statistical Software, 59, pp. 1-30, (2014); 
+Hanson B.A., Beguin A.A., Obtaining a common scale for item response theory item parameters using separate versus concurrent estimation in the common-item equating design, Applied Psychological Measurement, 26, 1, pp. 3-24, (2002); 
+Holland P.W., Thayer D.T., Univariate and bivariate loglinear models for discrete test score distributions, Journal of Educational and Behavioral Statistics, 25, pp. 133-183, (2000); 
+Hong S., Sun Y., Li H., Lynn H.S., Influence of parallel computing strategies of iterative imputation of missing data: A case study on missForest, (2020); 
+Hu H., Rogers W.T., Vukmirovic Z., Investigation of irt-based equating methods in the presence of outlier common items, Applied Psychological Measurement, 32, 4, pp. 311-333, (2008); 
+Ij H., Statistics versus machine learning, Nature Methods, 15, 4, pp. 233-234, (2018); 
+Kang T., Petersen N.S., Linking item parameters to a base scale, Asia Pacific Education Review, 13, 2, pp. 311-321, (2012); 
+Kim S.H., Cohen A.S., A comparison of linking and concurrent calibration under item response theory, Applied Psychological Measurement, 22, 2, pp. 131-143, (1998); 
+Kim S.H., Von Davier A.A., Haberman S., Small-sample equating using a synthetic linking function, Journal of Educational Measurement, 45, 4, pp. 325-342, (2008); 
+Kolen M., Brennan R., Test equating, scaling, and linking: Methods and practice, (2004); 
+Lakshminarayan K., Harp S.A., Goldman R.P., Samad T., Imputation of missing data using machine learning techniques, (1996); 
+Lim E., Lee W.-C., Subscore equating and profile reporting, Applied Measurement in Education, 33, (2020); 
+Lin W.C., Tsai C.F., Missing value imputation: A review and analysis of the literature (2006–2017), Artificial Intelligence Review, 53, 2, pp. 1487-1509, (2020); 
+Liou M., Cheng P.E., Equipercentile equating via data-imputation techniques, Psychometrika, 60, 1, pp. 119-136, (1995); 
+Liou M., Cheng P.E., Li M., Estimating comparable scores using surrogate variables, Applied Psychological Measurement, 25, pp. 197-207, (2001); 
+Little R.J., Rubin D.B., Statistical analysis with missing data, (2002); 
+Little R.J., Rubin D.B., Statistical analysis with missing data, 793, (2019); 
+Livingston S.A., Kim S., The circle-arc method for equating in small samples, Journal of Educational Measurement, 46, 3, pp. 330-343, (2009); 
+Maris G., Schmittmann V.D., Borsboom D., Who needs linear equating under the NEAT design?, Measurement: Interdisciplinary Research & Perspective, 8, 1, pp. 11-15, (2010); 
+Mayer M., Mayer M.M., Package “missRanger, (2022); 
+Moses T., Deng W., Zhang Y.L., Two approaches for using multiple anchors in NEAT equating: A description and demonstration, Applied Psychological Measurement, 35, 5, pp. 362-379, (2011); 
+Penone C., Davidson A.D., Shoemaker K.T., Di Marco M., Rondinini C., Brooks T.M., Costa G.C., Imputation of missing data in life-history trait datasets: Which approach performs the best?, Methods in Ecology and Evolution, 5, 9, pp. 961-970, (2014); 
+Perry R.P., Dickens W.J., Perceived control and instruction in the college classroom: Some implications for student achievement, Research in Higher Education, 27, 4, pp. 291-310, (1987); 
+R: A language and environment for statistical computing, (2022); 
+Shah A.D., Bartlett J.W., Carpenter J., Nicholas O., Hemingway H., Comparison of random forest and parametric imputation models for imputing missing data using MICE: A CALIBER study, American Journal of Epidemiology, 179, 6, pp. 764-774, (2014); 
+Sinharay S., Holland P.W., Is it necessary to make anchor tests mini-versions of the tests being equated or can some restrictions be relaxed?, Journal of Educational Measurement, 44, 3, pp. 249-275, (2007); 
+Sinharay S., Holland P.W., The missing data assumptions of the NEAT design and their implications for test equating, Psychometrika, 75, 2, pp. 309-327, (2010); 
+Skaggs G., Accuracy of random groups equating with very small samples, Journal of Educational Measurement, 42, 4, pp. 309-330, (2005); 
+Stekhoven D.J., Buhlmann P., MissForest—non-parametric missing value imputation for mixed-type data, Bioinformatics, 28, 1, pp. 112-118, (2012); 
+Stewart J., Gibson A., Equating classroom pre and post tests under item response theory, Shiken: JALT Testing and Evaluation SIG Newsletter, 14, 2, pp. 11-18, (2010); 
+Von Davier A., Holland P.W., Thayer D.T., The Kernel method of equating, (2004); 
+Wang T., Lee W.C., Brennan R.L., Kolen M.J., A comparison of the frequency estimation and chained equipercentile methods under the common-item nonequivalent groups design, Applied Psychological Measurement, 32, 8, pp. 632-651, (2008); 
+Wolkowitz A.A., Wright K.D., Effectiveness of equating at the passing score for exams with small sample sizes, Journal of Educational Measurement, 56, 2, pp. 361-390, (2019); 
+Wong K.C.Y., Xiang Y., Yin L., So H.C., Uncovering clinical risk factors and predicting severe COVID-19 cases using UK biobank data: Machine learning approach, JMIR Public Health and Surveillance, 7, 9, (2021); 
+Yadav M.L., Roychoudhury B., Handling missing values: A study of popular imputation packages in R, Knowledge-Based Systems, 160, pp. 104-118, (2018); 
+Zeng L., A numerical approach for computing standard errors of linear equating, Applied Psychological Measurement, 17, 2, pp. 177-186, (1993)#FRF#

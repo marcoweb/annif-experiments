@@ -1,0 +1,2389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.4917</article-id>
+			<article-id pub-id-type="publisher-id">00010</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización molecular de las variantes del virus de Epstein-Barr detectadas en la cavidad oral de adolescentes de Cali, Colombia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Molecular characterization of Epstein-Barr virus variants detected in the oral cavity of adolescents in Cali, Colombia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Arturo-Terranova</surname>
+						<given-names>Daniela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Giraldo-Ocampo</surname>
+						<given-names>Sebastián</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2b"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Castillo</surname>
+						<given-names>Andrés</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Departamento de Biología, Facultad de Ciencias Naturales y Exactas, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv2">Departamento de Biología</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Naturales y Exactas</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Departamento de Biología, Facultad de Ciencias Naturales y Exactas, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv2">Departamento de Biología</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Naturales y Exactas</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Posgrado en Ciencias Biomédicas, Escuela de Ciencias Básicas, Facultad de Salud, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv2">Posgrado en Ciencias Biomédicas, Escuela de Ciencias Básicas</institution>
+				<institution content-type="orgdiv1">Facultad de Salud</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+				<aff id="aff2b">
+				<label>2</label>
+				<institution content-type="original">Posgrado en Ciencias Biomédicas, Escuela de Ciencias Básicas, Facultad de Salud, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv2">Posgrado en Ciencias Biomédicas, Escuela de Ciencias Básicas</institution>
+				<institution content-type="orgdiv1">Facultad de Salud</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Daniela Arturo, Carrera 1a D1 A No 56-135, Cali, Colombia Teléfono: (310) 603 2875 <email>daniela.arturo@correounivalle.edu.co</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date pub-type="epub">
+				<day>20</day>
+				<month>08</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date pub-type="collection">-->
+				<pub-date pub-type="epub-ppub">
+				<month>05</month>
+				<year>2020</year>
+			</pub-date>
+			<volume>40</volume>
+			<issue>1</issue>
+			<supplement>Suppl.</supplement>
+			<fpage>76</fpage>
+			<lpage>88</lpage>
+			<history>
+				<date date-type="received">
+					<day>30</day>
+					<month>01</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>20</day>
+					<month>01</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción:</title>
+					<p>El virus de Epstein-Barr (EBV) es un virus ubicuo y oncogénico, asociado con el desarrollo de enfermedades como la mononucleosis infecciosa, el linfoma de Burkitt, el carcinoma nasofaríngeo y otras neoplasias. Actualmente, se reconocen dos subtipos: EBV-1 y EBV- 2, que tienen diferencias genéticas con sus antígenos nucleares (<italic>Epstein-Barr Nuclear Antigens</italic>, EBNA). Debido a la gran heterogeneidad y variabilidad encontradas en la proteína LMP1 del virus, se han descrito variantes asociadas con ciertas enfermedades o con regiones geográficas específicas.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p>Identificar y caracterizar molecularmente las variantes del EBV detectadas en la cavidad oral de 84 adolescentes de Cali, Colombia.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos:</title>
+					<p>Se hizo la amplificación por reacción en cadena de la polimerasa (<italic>Polymerase Chain Reaction</italic>, PCR) convencional, así como la purificación y la secuenciación del gen <italic>EBNA3C</italic> se realizó para subtipificar el virus y del dominio C-ter de la proteína LMP1 para identificar variantes. Además, se llevó a cabo un análisis filogenético y de variantes nucleotídicas de las secuencias obtenidas comparadas con variantes patogénicas y geográficas reportadas en el GenBank (<italic>National Center for Biotechnology Information,</italic> NCBI):</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p>El subtipo viral predominante fue el EBV-1 (79 %); el 72,6 % se agrupó con la variante patogénica Raji, derivada de linfocitos B de un paciente con linfoma de Burkitt; el 13,7 % se relacionó con una variante de origen geográfico del Mediterráneo y otro 13,7 % no se agrupó con ninguna de las variantes de referencia.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p>Este es el primer estudio que reporta variantes del gen <italic>LMP1-EBV</italic> en Cali, Colombia. Se requieren nuevos estudios para caracterizar la variante sin identificar y determinar si es patogénica o si es una variante geográfica presente exclusivamente en la ciudad.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p>The Epstein-Barr virus (EBV) is an ubiquitous and oncogenic virus associated with the development of diseases such as infectious mononucleosis, Burkitt’s lymphoma, nasopharyngeal carcinoma, and other neoplasms. Currently, two types are recognized: EBV-1 and EBV-2, which have genetic differences with their EBNA nuclear antigens. Likewise, due to the high degree of heterogeneity and variability found in the LMP1 protein of the virus, variants associated with pathogenesis or specific geographic regions have been described.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p>To identify and characterize molecularly EBV variants detected in the oral cavity of 84 adolescents in Cali, Colombia.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p>Conventional PCR amplification, purification, and sequencing of the gen <italic>EBNA3C</italic> were carried out to typify the virus and the C-ter domain of the LMP1 protein to identify variants. We also conducted a phylogenetic and nucleotide variant analysis of the obtained sequences <italic>versus</italic> pathogenic or geographic variants reported in GenBank-NCBI.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>The predominant viral subtype was EBV-1 (79%); 72.6% was grouped with the pathogenic variant Raji, derived from B lymphocytes of a patient with Burkitt›s lymphoma, 13.7% was related to a variant of Mediterranean origin, and 13.7% was not grouped with any of the reference variants.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p>This is the first time that variants of LMP1-EBV have been identified in Cali, Colombia. Additional studies are necessary to characterize the unidentified variant and to determine if it is pathogenic or if it is just an isolate present in the city of Cali.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>infecciones por virus de Epstein-Barr</kwd>
+				<kwd>boca</kwd>
+				<kwd>filogenia</kwd>
+				<kwd>adolescente</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Epstein-Barr virus infections</kwd>
+				<kwd>mouth</kwd>
+				<kwd>phylogeny</kwd>
+				<kwd>adolescent</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="54"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El virus de Epstein-Barr fue descrito por primera vez en 1964 por Epstein, Achong y Barr <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Pertenece a la familia Herpesviridae, a la subfamilia de Gammaherpesvirinae, y es el prototipo del género <italic>Lymphocryptovirus</italic><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>El vehículo de trasmisión del EBV es principalmente la saliva <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>, aunque se ha detectado ADN del virus en la leche materna y en algunas secreciones genitales, pero la información sobre esto último es todavía poca <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>La partícula viral del EBV presenta una envoltura que contiene en su interior una nucleocápside conformada por un genoma de ADN de doble cadena de 172 kpb rodeada de una cápside icosaédrica compuesta por 162 capsómeros <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Se han descrito dos subtipos virales del EBV, el EBV de tipo 1 (EBV-1) y el de tipo 2 (EBV-2). Esta clasificación se basa en la presencia de polimorfismos en los genes que codifican los antígenos nucleares EBNA3A, EBNA3B y EBNA3C <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Sin embargo, dado que estos polimorfismos no son suficientes para describir toda la variación natural del EBV, también se han descrito variantes con base en polimorfismos encontrados en otros antígenos virales, como la proteína latente de membrana 1 (LMP1) <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+		<p>Clínicamente, el EBV se caracteriza por infectar persistentemente al 90 % de la población mundial <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>; además, es el agente etiológico de la mononucleosis infecciosa en niños <xref ref-type="bibr" rid="B9"><sup>9</sup></xref> y adolescentes <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, y de la enfermedad linfoproliferativa posterio a trasplante <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Según la <italic>International Agency for Research on Cancer,</italic> (IARC<italic>)</italic>, se clasifica como un carcinógeno del grupo 1 <xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> asociado con tumores como el linfoma de Burkitt, el de Hodking y el no Hodking <xref ref-type="bibr" rid="B14"><sup>14</sup></xref> y el carcinoma nasofaríngeo <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Aún no está totalmente dilucidada la etiopatogenia del EBV para el desarrollo de neoplasias malignas; sin embargo, en algunos estudios se ha propuesto que ciertas proteínas virales, como la proteína LMP1, estarían implicadas en dichas condiciones <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+		<p>La proteína LMP1, codificada por el gen <italic>BNLF1</italic> viral, tiene un peso molecular de 66 kDa; cuando se expresa, se localiza en la membrana plasmática de las células infectadas y desempeña un papel importante en el desarrollo de las neoplasias <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Está conformada por 386 aminoácidos sectorizados en tres dominios: un dominio N-terminal corto de los aminoácidos 1 a 23; seis segmentos hidrofóbicos transmembranales de los aminoácidos 24 a 186, y, por último, un dominio carboxilo terminal (C-ter) de los aminoácidos 187 a 386 <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. El dominio C-ter interactúa con proteínas celulares mediante regiones de activación denominadas CTAR1 y CTAR2, las cuales activan varias vías de señalización celular de la célula infectada <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+		<p>Esta oncoproteína viral puede autorregularse por diferentes vías celulares <xref ref-type="bibr" rid="B20"><sup>20</sup></xref> y posee la capacidad de transformar <italic>in vitro</italic> fibroblastos de roedores <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, y convertirlos en tumorogénicos <italic>in vivo</italic><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Además, puede actuar como el receptor celular CD40 constitutivamente activado, perteneciente a la familia de receptores del factor de necrosis tumoral <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>, para estimular múltiples vías de señalización, de manera independiente del ligando, lo cual promueve el crecimiento, la proliferación celular, la supervivencia y la inhibición de la apoptosis <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+		<p>Dado que las secuencias de los ácidos nucleicos del <italic>BNLF1</italic> viral que codifican la región del dominio C-ter de la proteína LMP1 presentan una gran variabilidad entre los aislamientos con presencia del EBV, varios investigadores han propuesto los análisis filogenéticos de esta región para determinar subtipos o variantes moleculares según su origen geográfico y su asociación patológica <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+		<p>Entre las variantes geográficas descritas, se han identificado las Med81, Med+ y Med- de la región del Mediterráneo; las China 1 y 2 de China; la NC de Carolina del Norte, y la Alaskan de Alaska. Entre las variantes identificadas en líneas celulares patogénicas, se cuentan: la Raji, la AG876 y la MUTU de pacientes africanos con linfoma de Burkitt <xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>; las cepas GD1, GD2, Cao y AKATA de pacientes con este linfoma o con carcinoma nasofaríngeo <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, y la B95.8 de un paciente con mononucleosis infecciosa <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+		<p>En este sentido, las herramientas filogenéticas permiten describir espacial y temporalmente los virus con relación a su huésped, localizar el origen de una enfermedad en particular, determinar qué cepas y variantes poseen mayor posibilidad de propagación en el futuro, y determinar la vulnerabilidad de la población frente a un virus. El reconocimiento de las variantes y su posible asociación con regiones geográficas o diferentes enfermedades, podría contribuir al entendimiento de la enfermedad en la población.</p>
+		<p>En Colombia, los pocos estudios sobre el EBV se han centrado únicamente en determinar la seroprevalencia del virus y su relación con diversas enfermedades, por lo que hay muy poca información sobre sus variantes y su efecto en las personas. Por ello, el objetivo de este trabajo fue identificar y caracterizar molecularmente las variantes del virus de Epstein- Barr detectado en la cavidad oral de adolescentes de Cali.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Tipo de muestra</italic></title>
+				<p>Se analizaron 84 muestras de ADN positivas para EBV, procedentes de un estudio previo <xref ref-type="bibr" rid="B31"><sup>31</sup></xref> aprobado por el Comité de Ética Humana de la Universidad del Valle (Acta N° 008-017). En el estudio citado, se tomaron 374 muestras de enjuague bucal de la cavidad oral de jóvenes adolescentes de Cali. El ADN se extrajo con el estuche PrepMan Ultra Sample Preparation Reagent™ de Applied Biosystems y se almacenó a -20 °C en agua libre de nucleasas hasta el análisis para detectar el EBV. Para la detección del ADN viral, se usaron los cebadores EBV-F; 5’-CCT GGT CAT CCT TTG CCA-3’ y EBV-R; 5’-TGC TTC GTT ATA GCC GTA GT-3’ y la técnica de PCR convencional. La reacción amplificó un fragmento de 95 pb y se logró un porcentaje de detección del 26 % (96/374).</p>
+			</sec>
+			<sec>
+				<title><italic>Determinación de subtipos del EBV</italic></title>
+				<p>Para determinar la presencia de subtipos del EBV, se amplificó el gen viral <italic>EBNA3C</italic> con la pareja de cebadores propuesta por Kingman, <italic>et al.</italic><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>, con los cuales el tamaño del amplicón producto de la PCR varía según el subtipo. Para el subtipo EBV-1, se obtiene un tamaño de 153 pb y, para el EBV-2, uno de 246 bp.</p>
+				<p>Los cebadores utilizados en la reacción de amplificación fueron: EBNA3Cfwd 5'- AGA AGG GGA GCG TGT GTT GT-3' y EBNA3Crev 5'-GGC TCG TTT TTG ACG TCG GC-3'.</p>
+				<p>Las siguientes fueron las condiciones de la PCR: una desnaturalización de cinco minutos a 95 °C; 35 ciclos de amplificación durante 30 segundos a 94 °C, 30 segundos a 60 °C y un minuto a 72 °C, y una extensión final de cinco minutos a 72 °C. El volumen y concentración de los reactivos fue: 4 µl de solución tampón de amplificación 5X (Tris-HCl 10 mM, pH 8,4, en solución tampón de KCl 50 mM), 0,8 µl de MgCl<sub>2</sub> a 50 mM, 0,6 µl de cada cebador a 10 µM; 1,2 µl de dNTP a 5 mM y 0,2 µl de Taq polimerasa 5U. La concentración final de los reactivos fue: solución tampón 1X, MgCl<sub>2</sub> 2 mM, 0,3 µM y 1U cada cebador, respectivamente. Se completó hasta un volumen final de 20 µl con 11,6 µl de agua libre de DNasas y 1 µl de ADN.</p>
+				<p>Como controles positivos, se utilizaron muestras anteriormente determinadas por PCR para cada uno de los subtipos y una positiva para infección viral simultánea; como control negativo, se empleó la mezcla de PCR sin añadir ADN.</p>
+				<p>Los productos de la amplificación se separaron por electroforesis en geles de agarosa al 1,5 % teñidos con bromuro de etidio y se visualizaron en un transiluminador de luz ultravioleta.</p>
+			</sec>
+			<sec>
+				<title><italic>Amplificación y secuenciación del gen BNLF1 del EBV</italic></title>
+				<p>Para determinar la presencia de las variantes del EBV, se amplificó y secuenció un fragmento de 576 pb del dominio carboxilo terminal del gen viral <italic>BNLF1</italic> con la pareja de cebadores propuesta por Zuo, <italic>et al</italic>. <xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>), (</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Las variantes fueron analizadas filogenéticamente y caracterizadas molecularmente.</p>
+				<p>Los cebadores utilizados en la reacción fueron: BNLF1fwd 5'-GTG CGC CTA GGT TTT GAG AG-3' y BNLF1rev 5'-TTC CTT CTC TAA CGC ACT TTC TC -3'.</p>
+				<p>Las siguientes fueron las condiciones de la PCR: una desnaturalización de cinco minutos a 95 °C; 40 ciclos de amplificación de 45 segundos a 94 °C, de 45 segundos a 58 °C y de un minuto a 72 °C, y una extensión final de 10 minutos a 72 °C. El volumen y concentración de los reactivos fue: 4 µl de solución tampón de amplificación 5X (Tris-HCl 10 mM, pH 8,4 en solución tampón de KCl 50 mM), 0,28 µl de MgCl<sub>2</sub> 50 mM, 0,8 µl de cada cebador 10 µM; 1,2 µl de dNTPs 5 mM y 0,2 µl de Taq polimerasa 5U. La concentración final de los reactivos fue: solución tampón 1X, MgCl<sub>2</sub> 0,7 mM, de cada cebador 0,4 µM, DNTPs 0,3 mM y 1U de Taq. Se completó hasta un volumen final de 20 µl con 11,72 µl de agua libre de DNasas y 1 µl de ADN.</p>
+				<p>Los productos de la amplificación se secuenciaron directamente mediante el método de Sanger de la empresa Macrogen, Inc., Corea.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis filogenético</italic></title>
+				<p>Para la construcción del árbol filogenético, se empleó el programa de análisis genético de evolución molecular MEGA, versión 7 <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>, para analizar las secuencias obtenidas de nucleótidos de los fragmentos amplificados de la región carboxilo terminal del gen <italic>BNLF1</italic>, las cuales se compararon con secuencias de referencia de las variantes del EBV almacenadas en la base de datos del GenBank-NCBI con los números de acceso: V01555.2 (B95.8); AY961628.3 (GD1); HQ020558.1 (GD2); KC207813.1 (Akata); X58140.1 (Cao); KF717093.1 (Raji); DQ279927.1 (AG876); AY337723.1 (China 1); AY337724.1 (China 2); AY337722.2 (Med +); AY337721.2 (Med-); AY337726.2 (NC); AY337725.1 (Alaskan); y KF373730.1 (M81).</p>
+				<p>En el análisis, todas las secuencias de nucleótidos se alinearon con el algoritmo Clustal W <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. Posteriormente, utilizando el criterio de inferencia bayesiana y con el paquete Models se seleccionó el modelo evolutivo que mejor se ajustaba a los resultados obtenidos en el alineamiento de las secuencias. Por último, se evaluó el árbol filogenético con el algoritmo de máxima verosimilitud y 100 réplicas de remuestreo.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis de variantes</italic></title>
+				<p>Los cambios de aminoácidos del dominio carboxilo terminal de la proteína LMP1, a partir de las mutaciones no sinónimas del gen <italic>BNLF1</italic>, se determinaron con el programa Blastn, utilizando la opción ‘CDS feature’ y, como referencia de comparación, la secuencia del EBV (número de acceso en el GenBank-NCBI: NC_007605).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Determinación de los subtipos del EBV</italic></title>
+				<p>De las 96 muestras positivas para el EBV, en 84 se logró amplificar el tamaño de los fragmentos para determinar los subtipos, y se obtuvo el subtipo EBV-1 en el 79 % (66/84) de estas muestras y, el subtipo EBV-2 en el 19 % (16/84), en tanto que dos de las muestras presentaron ambos subtipos (<xref ref-type="fig" rid="f1">figura 1</xref> y <xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Tipificación del EBV mediante la amplificación del gen <italic>EBNA3C</italic> por PCR convencional. El subtipo 1 del EBV se caracteriza por presentar un tamaño de fragmento de 153 pb y, el subtipo 2, uno de 246 pb. En los carriles 1 y 2 se observa el EBV del subtipo 1, muestras 1 y 2; en el carril 3, la exposición simultánea a los dos subtipos, muestra 8; en el carril 4, el control negativo; en los carriles 5 y 6, los controles positivos del subtipo 2 y ambos subtipos, respectivamente; y en el carril 7, el peso molecular (PM).</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-s1-76-gf1.png"/>
+					</fig>
+				</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Relación de los aislamientos de adolescentes de Cali, Colombia, usados para identificar variantes con sus respectivas características</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">ID de la muestra</th>
+									<th align="left">Cambios en los aminoácidos en la región C-terminal de la proteína LMP1*</th>
+									<th align="left">Grupo de Variante</th>
+									<th align="left">Característica de la variante</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Cali EBV 1</td>
+									<td align="left">A210N, G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 2</td>
+									<td align="left">G212S, H213N</td>
+									<td align="left">Mediterráneo</td>
+									<td align="left">No patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 3</td>
+									<td align="left">G212S, N218K, G230E</td>
+									<td align="left">Cali</td>
+									<td align="left">Indeterminada</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 4</td>
+									<td align="left">G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 5</td>
+									<td align="left">D210AN, G212S, V228E</td>
+									<td align="left">Mediterráneo</td>
+									<td align="left">No patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 6</td>
+									<td align="left">G212S, N218K, L226H</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 7</td>
+									<td align="left">G212S, H213N, S229T</td>
+									<td align="left">Mediterráneo</td>
+									<td align="left">No patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 8</td>
+									<td align="left">G212S, S229T</td>
+									<td align="left">Mediterráneo</td>
+									<td align="left">No patogénico</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 9</td>
+									<td align="left">G212S, H213N, L226H</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 10</td>
+									<td align="left">N218K, L226H, V228E</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 11</td>
+									<td align="left">G212S, L226H</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 12</td>
+									<td align="left">D210N, G212S, L248Q</td>
+									<td align="left">Cali</td>
+									<td align="left">Indeterminada</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 13</td>
+									<td align="left">L226H, G230E</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 14</td>
+									<td align="left">G212S, H213N, L226H</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 15</td>
+									<td align="left">G12S, S229T, L248Q</td>
+									<td align="left">Cali</td>
+									<td align="left">Indeterminada</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 16</td>
+									<td align="left">D210NA, G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 17</td>
+									<td align="left">A210D, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 18</td>
+									<td align="left">G212S, L226H</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 19</td>
+									<td align="left">G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 20</td>
+									<td align="left">G212S, L226H</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 21</td>
+									<td align="left">G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 22</td>
+									<td align="left">G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 23</td>
+									<td align="left">G212S, H213N, N218K</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 24</td>
+									<td align="left">G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 25</td>
+									<td align="left">Al10D, G212S, H213N, G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 26</td>
+									<td align="left">A210D, G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 27</td>
+									<td align="left">G212S, S229T</td>
+									<td align="left">Cali</td>
+									<td align="left">Indeterminada</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 28</td>
+									<td align="left">D210N, G212S, H213N</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+								<tr>
+									<td align="left">Cali EBV 29</td>
+									<td align="left">G212S, H213N,</td>
+									<td align="left">Raji</td>
+									<td align="left">Patogénica</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>*El cambio de aminoácido fue determinado por comparación con la secuencia de referencia ID: NC_007605</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Determinación de las variantes de EBV</italic></title>
+				<p>En cuanto a la determinación de las variantes del EBV, en 29 de las 96 muestras se logró amplificar y secuenciar un fragmento de 576 pb del gen <italic>BNLF1,</italic> correspondiente a la región que codifica el dominio C-ter de la proteína LMP1 viral (<xref ref-type="fig" rid="f2">figura 2</xref>).</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Amplificación por PCR convencional del fragmento C-terminal del gen <italic>BNLF1</italic> del EBV. En la figura se observa la amplificación de un fragmento de 576 pb que codifica para el dominio C-terminal de la proteína viral LMP1. PM: peso molecular; (-) control negativo; (+) control positivo; muestras 1 a 6</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-s1-76-gf2.png"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis filogenético e identificación de variantes</italic></title>
+				<p>Las variantes de la proteína LMP1 se caracterizaron mediante la reconstrucción filogenética con secuencias prototipo del GenBank. El modelo de evolución para la elaboración de los tres análisis se determinó utilizando el programa MEGA 7, y se halló que el Jukes-Cantor (JC+G) era el más adecuado para el estudio; las tasas de sustitución encontradas para las secuencias fueron [AC]=[CG]=0,166; [AG]=0,083; [AT]=0,083, y [CT]=[GT]=0,166, y las frecuencias de bases, A=0,250; C=0,250; G=0,250; T=0,250, y p-inv=0,5.</p>
+				<p>En la <xref ref-type="fig" rid="f3">figura 3</xref> se muestra la distribución de las secuencias de los EBV detectados en Cali, en relación con las variantes de referencia del virus ligadas a un área geográfica o a alguna de sus manifestaciones clínicas.</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Filogenia de los EBV presentes en Cali, Colombia. Para la construcción del árbol filogenético se amplificó y secuenció un fragmento de 576 pb de la región C-terminal del gen <italic>BNLF1.</italic> En la figura se observan las agrupaciones filogenéticas obtenidas y valores de remuestreo mayores de 60 % obtenidos al realizar 1.000 réplicas. La escala indica el número de sustituciones por sitio y a cada variante se le asignó un color: Mediterráneo, azul; Raji, rojo; Cali, verde; Alaska y Carolina del Norte, amarillo; Daudi y B95.8, violeta.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-s1-76-gf3.png"/>
+					</fig>
+				</p>
+				<p>Las 29 secuencias de los EBV detectados conformaron tres agrupaciones, una con los 21 aislamientos de Cali (72,6 %) relacionados con la línea celular Raji (KF717093.1, identidad del 99 %) con un remuestreo de 74 %; la otra agrupación presentó cuatro aislamientos de Cali (13,7 %) relacionados con el Mediterráneo (AY337722.2, identidad del 98 %) con un remuestreo de 83 % y, por último, cuatro muestras de Cali (13,7 %), con un remuestreo de 81 %, que no se agruparon con ninguna de las líneas celulares ni con las regiones geográficas consideradas en el análisis, por lo que se decidió denominarla como variante Cali (EBV Cali).</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis de las variantes moleculares</italic></title>
+				<p>Al analizar las variantes encontradas en los aislamientos de Cali en relación con el genoma de referencia del EBV, se encontraron 20 mutaciones no sinónimas; la más frecuente fue la Gly212Ser, en 86,20 % de los aislamientos, seguida de la His213Asn, con 58 %, y la Leu226His, con 27 % (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>Los cambios encontrados se relacionaron según las variantes del EBV (<xref ref-type="fig" rid="f4">figura 4</xref>) y se evidenció que aquellos asociados con Raji presentaron la mayor cantidad de mutaciones, seguidos de los asociados con la variante Mediterráneo y la agrupación de Cali. Además, se observó que las mutaciones Ala210Asp (13 %) y Leu226His (27 %) eran exclusivas de los aislamientos relacionados con Raji. No se encontró ningún cambio exclusivo para los aislamientos relacionados con el Mediterráneo o con la agrupación de Cali.</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>Distribución de las variantes moleculares identificadas en la región C-terminal de la proteína LMP1 de los EBV presentes en Cali. Se identificaron 20 mutaciones no sinónimas; la más frecuente fue el cambio de glicina por serina en la posición 212 (Gly212Ser), con un porcentaje del 86,2 %, seguido del cambio de metionina por leucina en la posición 129 e isoleucina por leucina en la posición 151, con un porcentaje de 79 %. En las muestras agrupadas con la variante patogénica Raji, se encontró un mayor número de cambios de aminoácidos, seguidas de aquellas agrupadas con las variantes Mediterráneo y Cali; los cambios de aminoácidos de alanina por ácido aspártico en la posición 210 (Ala210Asp) y de leucina por histidina en la posición 226 (Leu226His), se identificaron exclusivamente en los aislamientos relacionados con la variante Raji, en tanto que el cambio de tirosina por histidina en la posición 125 (Tyr125His) se identificó exclusivamente en los relacionados con la Mediterráneo; el grupo exclusivo de Cali no presentó cambios de aminoácidos no reportados.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-s1-76-gf4.png"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En el presente estudio se reportan por primera vez los subtipos virales del EBV presentes en la cavidad oral de adolescentes de Cali, Colombia. El subtipo 1 se identificó en el 79 % las muestras positivas para EBV, en tanto que el subtipo 2 se identificó en el 19 %. Además, se reportó una exposición simultánea de los subtipos del 2 %.</p>
+			<p>Un mayor porcentaje del subtipo 1 del EBV era lo esperado, ya que es el subtipo predominante a nivel mundial, en tanto que el 2 es más frecuente en la región subsahariana de África.</p>
+			<p>En cuanto al porcentaje de homología del gen <italic>EBNA3</italic> del EBV, se ha reportado que el subtipo 1 difiere del subtipo 2 entre 10 y 20 %, y funcionalmente, el subtipo 1 ha demostrado gran capacidad para inmortalizar las células B en la infección primaria, en comparación con el subtipo 2 <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. La diferencia genómica global entre estos dos subtipos no se ha establecido del todo, puesto que se han secuenciado pocos genomas completos de subtipo 2 <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref>.</p>
+			<p>En los estudios de Chang, <italic>et al</italic>., que combinaron estudios poblacionales de subtipos en la población caucásica, se encontró que el 74 % estaba infectado con el EBV del subtipo 1, 19 % con el del subtipo 2 y el 7 % con ambos subtipos <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. Asimismo, en los estudios realizados en Argentina por Chabay, <italic>et al</italic>., se estableció que el subtipo del EBV predominante era el 1 <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>. Por su parte, Correa, <italic>et al</italic>., reportaron la presencia del subtipo 1 en 75,9 % de pacientes argentinos adultos sanos seropositivos para el EBV, del subtipo 2 en el 17,6 % y en 6,5 % hubo infección simultánea con ambos subtipos <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>.</p>
+			<p>En cuanto al bajo porcentaje de exposición simultánea en el presente trabajo, probablemente se debió a la poca edad de los participantes en el estudio. En los estudios realizados en China, Ai, <italic>et al</italic>., evaluaron 107 pacientes pediátricos con mononucleosis infecciosa y no se detectó la presencia simultánea de los dos subtipos de EBV en los niños, a pesar de haber padecido la enfermedad a temprana edad <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>. En Argentina, Lorenzetti, <italic>et al</italic>., evaluaron 35 pacientes pediátricos con esta enfermedad y tampoco detectaron la presencia simultánea de los dos subtipos <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+			<p>En los estudios recientes de análisis de los genomas completos del EBV, se ha establecido una gran variabilidad en las secuencias nucleotídicas del gen <italic>BNLF1</italic> que codifica para la proteína LMP1; estas variantes incluyen polimorfismos de nucleótidos únicos (<italic>Single Nucleotide Polymorphisms</italic>, SNP), deleciones, inserciones y un número variable de repeticiones en tándem <xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. En este campo, los estudios se han enfocado en la presencia de variantes moleculares en la región C-ter de la proteína LMP1. Según Chang, <italic>et al.</italic>, la presencia de estas variantes podría alterar la señalización intracelular mediada por la proteína viral LMP1, por lo cual el análisis de variantes en esta región podría explicar el potencial patológico de la proteína <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+			<p>En el presente estudio, la reconstrucción filogenética de las variantes de la LMP1 evidenció que ninguno de los EBV detectados en Cali se agrupó con la variante patogénica prototipo B95.8, predominante en población europea <xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref>. Además, se observó que las variantes geográficas China 1, GD2, Cao y Akata se encuentran estrechamente relacionadas entre sí, al igual que las dos variantes geográficas del Mediterráneo, en tanto que las variantes geográficas China 2, NC y Alaskan conforman grupos independientes entre sí y con respecto a las otras variantes. Estos resultados concuerdan con los descritos por Edwards, <italic>et al.</italic><xref ref-type="bibr" rid="B26"><sup>26</sup></xref><italic>,</italic> y más recientemente, por Saechan, <italic>et al</italic>. <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>.</p>
+			<p>En un estudio realizado en Argentina en una cohorte de pacientes con mononucleosis infecciosa y linfomas positivos para EBV, en la secuenciación de la región C-ter de la proteína viral LMP1, la variante geográfica China 1 fue la de mayor frecuencia <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Cuando los investigadores obtuvieron la secuencia completa del gen <italic>BNLF1</italic>, el análisis filogenético evidenció que aquellas variantes previamente clasificadas como China1 tenían una relación más cercana con la variante patogénica de la línea celular Raji <xref ref-type="bibr" rid="B45"><sup>45</sup></xref>, primera línea celular humana de origen hematopoyético obtenida en 1963 de un paciente nigeriano de 11 años con linfoma de Burkitt <xref ref-type="bibr" rid="B46"><sup>46</sup></xref>. En el presente trabajo, no se encontraron variantes de China 1 en los EBV presentes en Cali, sin embargo, se identificaron variantes patogénicas en la línea celular Raji.</p>
+			<p>Además, en los EBV detectados en Cali se identificaron variantes presentes en los aislamientos del EBV de origen en el Mediterráneo. En los estudios de Mei-Liao, <italic>et al</italic>., se determinó una distribución global de las variantes del Mediterráneo, las cuales se identificaron en poblaciones de países con geografías muy diferentes como Ghana, Brasil, Estados Unidos, Kenia, Argentina y Australia. Las variantes del Mediterráneo también se han encontrado en los EBV presentes en pacientes aparentemente sanos sin que se hayan relacionado directamente con enfermedades <xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B47"><sup>47</sup></xref>.</p>
+			<p>Un hallazgo importante del presente estudio fue que 13,7 % de los EBV en Cali presentaron variantes que no se identificaron ni agruparon con las variantes patogénicas de las líneas celulares o las variantes geográficas incluidas en el estudio. Se requerirán estudios adicionales para caracterizar dichas variantes y establecer si se relacionan con alguna enfermedad asociada con el EBV o si se trata de una variante geográfica propia de la ciudad de Cali.</p>
+			<p>Hasta el momento, los estudios de EBV en Colombia se han centrado en la relación del virus con el desarrollo de diferentes enfermedades. En Cali, Carrascal, <italic>et al.,</italic> examinaron 178 casos de carcinoma gástrico y detectaron el EBV en el 13 % de los pacientes, lo que sugiere una relación del virus con neoplasias malignas <xref ref-type="bibr" rid="B48"><sup>48</sup></xref>. Quijano, <italic>et al</italic>., detectaron el virus en el 56,7 % de personas con linfoma de Hodgkin <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. En pacientes pediátricos con trasplante hepático, Mesa, <italic>et al.,</italic> encontraron una relación entre el control de replicación del EBV y el grado de inmunosupresión de los pacientes <xref ref-type="bibr" rid="B49"><sup>49</sup></xref>.</p>
+			<p>El grado de variabilidad del gen <italic>BNLF1</italic> respalda la presencia de variantes moleculares observadas en los EBV aislados en Cali. Una posible explicación es que las proteínas de latencia del EBV, como la LMP1, podrían presentar una tasa de mutación en ciertas regiones de su estructura dependiente de la presión que ejerce el sistema inmunitario del huésped <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+			<p>En un gran porcentaje (86,6 %) de las secuencias obtenidas de la región C-ter, se encontró el cambio de aminoácidos de glicina a serina en la posición 212 (Gly212Ser), cambio que se ha reportado con mucha frecuencia en varias partes del mundo <xref ref-type="bibr" rid="B50"><sup>50</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B51"><sup>51</sup></xref>, con excepción de Rusia, donde hasta el momento no se ha observado esta mutación <xref ref-type="bibr" rid="B52"><sup>52</sup></xref> y sí, en cambio, la sustitución de un ácido glutámico a glutamina en la posición 328 (Glu328Gln) en pacientes y personas sanas, el cual no se ha reportado en otras regiones del mundo <xref ref-type="bibr" rid="B53"><sup>53</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B54"><sup>54</sup></xref>. En el presente análisis, no se encontró el cambio Glu328Gln, por lo que se validó la presencia de variantes del gen de la LMP1 únicas para ciertas regiones del mundo.</p>
+			<p>Una limitación del estudio fue el poco número de muestras del total disponible con EBV, pues se logró amplificar el producto de PCR de 576 pb de la región C-terminal de la LMP1 para la secuenciación en 29 de 84, debido probablemente a la fragmentación del ADN. Cabe anotar que, para la detección inicial del EBV, se amplificó un fragmento de 96 bp. Otra limitación fue el no encontrar estudios en que se hayan determinado subtipos y variantes del EBV en otras ciudades de Colombia, por lo que no fue posible hacer comparaciones.</p>
+			<p>En conclusión, en Cali está presente el subtipo 1 del EBV y las variantes Raji (patogénica) y Mediterráneo (geográfica); además, se detectó una variante que no se pudo agrupar con las variantes reportadas en la literatura especializada.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Epstein MA, Achong BG, Barr YM. Virus particles in cultured lymphoblasts from Burkitt’s lymphoma. Lancet. 1964;1:702-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(64)91524-7">https://doi.org/10.1016/S0140-6736(64)91524-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Epstein</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Achong</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Barr</surname>
+							<given-names>YM</given-names>
+						</name>
+					</person-group>
+					<article-title>Virus particles in cultured lymphoblasts from Burkitt’s lymphoma</article-title>
+					<source>Lancet</source>
+					<year>1964</year>
+					<volume>1</volume>
+					<fpage>702</fpage>
+					<lpage>703</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(64)91524-7">https://doi.org/10.1016/S0140-6736(64)91524-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Rickinson A, Kieff E. Epstein Barr virus. In: Knipe DM, Howley PM, editors. Fields virology. 5th edition. Philadelphia: Lippincott Williams &amp; Wilkins; 2007. p. 2655-700.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rickinson</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kieff</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Epstein Barr virus</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Knipe</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Howley</surname>
+							<given-names>PM</given-names>
+						</name>
+					</person-group>
+					<source>Fields virology</source>
+					<edition>5</edition>
+					<publisher-loc>Philadelphia</publisher-loc>
+					<publisher-name>Lippincott Williams &amp; Wilkins</publisher-name>
+					<year>2007</year>
+					<fpage>2655</fpage>
+					<lpage>2700</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Higgins CD, Swerdlow AJ, Macsween KF, Harrison N, Williamns H, McAulay K, et al. A study of risk factors for acquisition of Epstein-Barr virus and its subtypes. J Infect Dis. 2007;195:474-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/510854">https://doi.org/10.1086/510854</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Higgins</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Swerdlow</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Macsween</surname>
+							<given-names>KF</given-names>
+						</name>
+						<name>
+							<surname>Harrison</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Williamns</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>McAulay</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A study of risk factors for acquisition of Epstein-Barr virus and its subtypes</article-title>
+					<source>J Infect Dis</source>
+					<year>2007</year>
+					<volume>195</volume>
+					<fpage>474</fpage>
+					<lpage>482</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/510854">https://doi.org/10.1086/510854</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Pagano J. Is Epstein-Barr virus transmitted sexually? J Infect Dis. 2007;195:469-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/510861">https://doi.org/10.1086/510861</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pagano</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Is Epstein-Barr virus transmitted sexually?</article-title>
+					<source>J Infect Dis</source>
+					<year>2007</year>
+					<volume>195</volume>
+					<fpage>469</fpage>
+					<lpage>470</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/510861">https://doi.org/10.1086/510861</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Grünewald K, Desai P, Winkler D, Heymann J, Belnap D, Baumeister W, et al. Three- dimensional structure of herpes simplex virus from cryo-electron tomography. Science. 2003;302:1396-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1090284">https://doi.org/10.1126/science.1090284</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grünewald</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Desai</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Winkler</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Heymann</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Belnap</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Baumeister</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Three- dimensional structure of herpes simplex virus from cryo-electron tomography</article-title>
+					<source>Science</source>
+					<year>2003</year>
+					<volume>302</volume>
+					<fpage>1396</fpage>
+					<lpage>1398</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1090284">https://doi.org/10.1126/science.1090284</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Sample J, Young L, Martin B, Chatman T, Kieff E, Rickinson A, et al. Epstein-Barr virus types 1 and 2 differ in their EBNA-3A, EBNA-3B, and EBNA-3C genes. J Virol. 1990;64:4084-92.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sample</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Young</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Martin</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Chatman</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Kieff</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rickinson</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epstein-Barr virus types 1 and 2 differ in their EBNA-3A, EBNA-3B, and EBNA-3C genes</article-title>
+					<source>J Virol</source>
+					<year>1990</year>
+					<volume>64</volume>
+					<fpage>4084</fpage>
+					<lpage>4092</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Chang CM, Yu KJ, Mbulaiteye SM, Hildesheim A, Bhatia K. The extent of genetic diversity of Epstein-Barr virus and its geographic and disease patterns: A need for reappraisal. Virus Res. 2009;143:209-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.virusres.2009.07.005">https://doi.org/10.1016/j.virusres.2009.07.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Mbulaiteye</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Hildesheim</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bhatia</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>The extent of genetic diversity of Epstein-Barr virus and its geographic and disease patterns: A need for reappraisal</article-title>
+					<source>Virus Res</source>
+					<year>2009</year>
+					<volume>143</volume>
+					<fpage>209</fpage>
+					<lpage>221</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.virusres.2009.07.005">https://doi.org/10.1016/j.virusres.2009.07.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Chabay P, Preciado MV. Epidemiology of Epstein-Barr virus-associated pediatric lymphomas from Argentina. Bol Med Hosp Infant Mex. 2016;73:47-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bmhimx.2015.12.002">https://doi.org/10.1016/j.bmhimx.2015.12.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chabay</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Preciado</surname>
+							<given-names>MV</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiology of Epstein-Barr virus-associated pediatric lymphomas from Argentina</article-title>
+					<source>Bol Med Hosp Infant Mex</source>
+					<year>2016</year>
+					<volume>73</volume>
+					<fpage>47</fpage>
+					<lpage>54</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bmhimx.2015.12.002">https://doi.org/10.1016/j.bmhimx.2015.12.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Gallart-Catalá A. Infecciones por el virus de Epstein-Barr: mononucleosis infecciosa. 9ª edición. Madrid: Editorial Tratado de Pediatría; 2006. p. 449-55.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gallart-Catalá</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Infecciones por el virus de Epstein-Barr: mononucleosis infecciosa</source>
+					<edition>9</edition>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Editorial Tratado de Pediatría</publisher-name>
+					<year>2006</year>
+					<fpage>449</fpage>
+					<lpage>455</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Trastoy R, Costa J, Rodríguez J, Navarro D, Barbeito G, Aguilera A. Primoinfección por el virus Epstein-Barr entre los años 2006 a 2015 en el área sanitaria de Santiago de Compostela. Relación con edad y sexo. Rev Esp Quimioter. 2017;30:468-71.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Trastoy</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Navarro</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Barbeito</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Aguilera</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Primoinfección por el virus Epstein-Barr entre los años 2006 a 2015 en el área sanitaria de Santiago de Compostela. Relación con edad y sexo</article-title>
+					<source>Rev Esp Quimioter</source>
+					<year>2017</year>
+					<volume>30</volume>
+					<fpage>468</fpage>
+					<lpage>471</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Young L, Murray P. Epstein-Barr virus and oncogenesis: From latent genes to tumours. Oncogene. 2003;22:5108-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.onc.1206556">https://doi.org/10.1038/sj.onc.1206556</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Young</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Murray</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus and oncogenesis: From latent genes to tumours.</article-title>
+					<source>Oncogene</source>
+					<year>2003</year>
+					<volume>22</volume>
+					<fpage>5108</fpage>
+					<lpage>5121</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.onc.1206556">https://doi.org/10.1038/sj.onc.1206556</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Niedobitek G, Meru N, Delecluse H. Epstein-Barr virus infection and human malignancies. Int J Exp Pathol. 2001;82:149-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2613.2001.iep190.x">https://doi.org/10.1111/j.1365-2613.2001.iep190.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Niedobitek</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Meru</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Delecluse</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus infection and human malignancies</article-title>
+					<source>Int J Exp Pathol</source>
+					<year>2001</year>
+					<volume>82</volume>
+					<fpage>149</fpage>
+					<lpage>170</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2613.2001.iep190.x">https://doi.org/10.1111/j.1365-2613.2001.iep190.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Chang Y, Moore PS, Weiss RA. Human oncogenic viruses: Nature and Discovery. Philos Trans R Soc Lond B Biol Sci. 2017;372:1732-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2016.0264">https://doi.org/10.1098/rstb.2016.0264</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Moore</surname>
+							<given-names>PS</given-names>
+						</name>
+						<name>
+							<surname>Weiss</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>Human oncogenic viruses: Nature and Discovery</article-title>
+					<source>Philos Trans R Soc Lond B Biol Sci</source>
+					<year>2017</year>
+					<volume>372</volume>
+					<fpage>1732</fpage>
+					<lpage>1738</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2016.0264">https://doi.org/10.1098/rstb.2016.0264</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Medina-Ortega A, López-Valencia D, Mosquera-Monje S, Mora-Obando D, Dueñas-Cuéllar A. Virus de Epstein-Barr y su relación con el desarrollo del cáncer. Iatreia. 2017;30:131-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.iatreia.v30n2a03">https://doi.org/10.17533/udea.iatreia.v30n2a03</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Medina-Ortega</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>López-Valencia</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mosquera-Monje</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mora-Obando</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dueñas-Cuéllar</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Virus de Epstein-Barr y su relación con el desarrollo del cáncer</article-title>
+					<source>Iatreia</source>
+					<year>2017</year>
+					<volume>30</volume>
+					<fpage>131</fpage>
+					<lpage>145</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.iatreia.v30n2a03">https://doi.org/10.17533/udea.iatreia.v30n2a03</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Tsao SW, Tsang CM, Lo KW. Epstein-Barr virus infection and nasopharyngeal carcinoma. Philos Trans R Soc Lond B Biol Sci. 2017;19:372. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2016.0270">https://doi.org/10.1098/rstb.2016.0270</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tsao</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Tsang</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Lo</surname>
+							<given-names>KW</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus infection and nasopharyngeal carcinoma</article-title>
+					<source>Philos Trans R Soc Lond B Biol Sci</source>
+					<year>2017</year>
+					<volume>19</volume>
+					<fpage>372</fpage>
+					<lpage>372</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2016.0270">https://doi.org/10.1098/rstb.2016.0270</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Lorenzetti MA, Gantuz M, Altcheh J, De Matteo E, Chabay P, Preciado M. Distinctive Epstein- Barr virus variants associated with benign and malignant pediatric pathologies: LMP1 sequence characterization and linkage with other viral gene polymorphisms. J Clin Microbiol. 2012;50:609-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05778-11">https://doi.org/10.1128/JCM.05778-11</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lorenzetti</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Gantuz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Altcheh</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>De Matteo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chabay</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Preciado</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Distinctive Epstein- Barr virus variants associated with benign and malignant pediatric pathologies: LMP1 sequence characterization and linkage with other viral gene polymorphisms</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2012</year>
+					<volume>50</volume>
+					<fpage>609</fpage>
+					<lpage>618</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05778-11">https://doi.org/10.1128/JCM.05778-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Gantuz M. Identificación y caracterización molecular y funcional de variantes de la proteína latente de membrana 1 del virus de Epstein Barr (tesis). Buenos Aires: Universidad de Buenos Aires; 2016. Fecha de consulta: 20 de septiembre de 2018. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n6055_Gantuz.pdf">https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n6055_Gantuz.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gantuz</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Identificación y caracterización molecular y funcional de variantes de la proteína latente de membrana 1 del virus de Epstein Barr</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Buenos Aires</publisher-loc>
+					<publisher-name>Universidad de Buenos Aires</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-09-20">20 de septiembre de 2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n6055_Gantuz.pdf">https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n6055_Gantuz.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Izumi K, Kaye K, Kieff E. The Epstein-Barr virus LMP1 amino acid sequence that engages tumor necrosis factor receptor associated factors is critical for primary B lymphocyte growth transformation. Proc Natl Acad Sci USA.1997;94:1447-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.94.4.1447">https://doi.org/10.1073/pnas.94.4.1447</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Izumi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Kaye</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Kieff</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>The Epstein-Barr virus LMP1 amino acid sequence that engages tumor necrosis factor receptor associated factors is critical for primary B lymphocyte growth transformation</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>1997</year>
+					<volume>94</volume>
+					<fpage>1447</fpage>
+					<lpage>1452</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.94.4.1447">https://doi.org/10.1073/pnas.94.4.1447</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Young LS, Rickinson AB. Epstein-Barr virus: 40 years on. Nat Rev Cancer. 2004;4:757-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc1452">https://doi.org/10.1038/nrc1452</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Young</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Rickinson</surname>
+							<given-names>AB</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus: 40 years on</article-title>
+					<source>Nat Rev Cancer</source>
+					<year>2004</year>
+					<volume>4</volume>
+					<fpage>757</fpage>
+					<lpage>768</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc1452">https://doi.org/10.1038/nrc1452</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Holthusen K, Talaty P, Everly DN Jr. Regulation of latent membrane protein 1 signaling through interaction with cytoskeletal. J Virol. 2015;89:7277-90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.00321-15">https://doi.org/10.1128/JVI.00321-15</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Holthusen</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Talaty</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Everly</surname>
+							<given-names>DN</given-names>
+							<suffix>Jr</suffix>
+						</name>
+					</person-group>
+					<article-title>Regulation of latent membrane protein 1 signaling through interaction with cytoskeletal</article-title>
+					<source>J Virol</source>
+					<year>2015</year>
+					<volume>89</volume>
+					<fpage>7277</fpage>
+					<lpage>7290</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.00321-15">https://doi.org/10.1128/JVI.00321-15</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Tsao SW, Tramoutanis G, Dawson CW, Lo AK, Huang DP. The significance of LMP1 expression in nasopharyngeal carcinoma. Semin Cancer Biol. 2002;12:473-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s1044579x02000901">https://doi.org/10.1016/s1044579x02000901</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tsao</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Tramoutanis</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Dawson</surname>
+							<given-names>CW</given-names>
+						</name>
+						<name>
+							<surname>Lo</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>DP</given-names>
+						</name>
+					</person-group>
+					<article-title>The significance of LMP1 expression in nasopharyngeal carcinoma</article-title>
+					<source>Semin Cancer Biol</source>
+					<year>2002</year>
+					<volume>12</volume>
+					<fpage>473</fpage>
+					<lpage>487</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s1044579x02000901">https://doi.org/10.1016/s1044579x02000901</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Dawson C, Port R, Young L. The role of the EBV-encoded latent membrane proteins LMP1 and LMP2 in the pathogenesis of nasopharyngeal carcinoma (NPC). Semin Cancer Biol. 2012;22:144-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.semcancer.2012.01.004">https://doi.org/10.1016/j.semcancer.2012.01.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dawson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Port</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Young</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>The role of the EBV-encoded latent membrane proteins LMP1 and LMP2 in the pathogenesis of nasopharyngeal carcinoma (NPC)</article-title>
+					<source>Semin Cancer Biol</source>
+					<year>2012</year>
+					<volume>22</volume>
+					<fpage>144</fpage>
+					<lpage>153</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.semcancer.2012.01.004">https://doi.org/10.1016/j.semcancer.2012.01.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Kieser A, Sterz KR. The latent membrane protein 1 (LMP1). Curr Top Microbiol Immunol. 2015;391:119-49. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-22834-1_4">https://doi.org/10.1007/978-3-319-22834-1_4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kieser</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sterz</surname>
+							<given-names>KR</given-names>
+						</name>
+					</person-group>
+					<article-title>The latent membrane protein 1 (LMP1)</article-title>
+					<source>Curr Top Microbiol Immunol</source>
+					<year>2015</year>
+					<volume>391</volume>
+					<fpage>119</fpage>
+					<lpage>149</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-22834-1_4">https://doi.org/10.1007/978-3-319-22834-1_4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Vaysberg MO, Hatton SL, Lambert AL, Snow B, Wong SM, Krams S, et al. Tumor-derived variants of Epstein-Barr virus latent membrane protein 1 induce sustained Erk activation and c-Fos. J Biol Chem. 2008;283:36573-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M802968200">https://doi.org/10.1074/jbc.M802968200</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vaysberg</surname>
+							<given-names>MO</given-names>
+						</name>
+						<name>
+							<surname>Hatton</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Lambert</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Snow</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Krams</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Tumor-derived variants of Epstein-Barr virus latent membrane protein 1 induce sustained Erk activation and c-Fos</article-title>
+					<source>J Biol Chem</source>
+					<year>2008</year>
+					<volume>283</volume>
+					<fpage>36573</fpage>
+					<lpage>36585</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M802968200">https://doi.org/10.1074/jbc.M802968200</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Tzellos S, Farrell P. Epstein-Barr virus sequence variation - biology and disease. Pathogens. 2012;1:156-174. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/pathogens1020156">https://doi.org/10.3390/pathogens1020156</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tzellos</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Farrell</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus sequence variation - biology and disease</article-title>
+					<source>Pathogens</source>
+					<year>2012</year>
+					<volume>1</volume>
+					<fpage>156</fpage>
+					<lpage>174</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/pathogens1020156">https://doi.org/10.3390/pathogens1020156</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>Edwards RH, Seillier-Moiseiwitsch F, Raab-Traub N. Signature amino acid changes in latent membrane protein 1 distinguish Epstein-Barr virus strains. Virology.1999;261:79-95. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/viro.1999.9855">https://doi.org/10.1006/viro.1999.9855</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Edwards</surname>
+							<given-names>RH</given-names>
+						</name>
+						<name>
+							<surname>Seillier-Moiseiwitsch</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Raab-Traub</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Signature amino acid changes in latent membrane protein 1 distinguish Epstein-Barr virus strains</article-title>
+					<source>Virology</source>
+					<year>1999</year>
+					<volume>261</volume>
+					<fpage>79</fpage>
+					<lpage>95</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/viro.1999.9855">https://doi.org/10.1006/viro.1999.9855</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Hatfull G, Bankier AT, Barrell BG, Farrell PJ. Sequence analysis of Raji Epstein-Barr virus DNA. Virology. 1988;164:334-40.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hatfull</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bankier</surname>
+							<given-names>AT</given-names>
+						</name>
+						<name>
+							<surname>Barrell</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Farrell</surname>
+							<given-names>PJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Sequence analysis of Raji Epstein-Barr virus DNA</article-title>
+					<source>Virology</source>
+					<year>1988</year>
+					<volume>164</volume>
+					<fpage>334</fpage>
+					<lpage>340</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Dolan A, Addison C, Gatherer D, Davison AJ, McGeoch DJ. The genome of Epstein-Barr virus type 2 Strain AG876. Virology. 2006;350:164-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.virol.2006.01.015">https://doi.org/10.1016/j.virol.2006.01.015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dolan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Addison</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gatherer</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Davison</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>McGeoch</surname>
+							<given-names>DJ</given-names>
+						</name>
+					</person-group>
+					<article-title>The genome of Epstein-Barr virus type 2 Strain AG876</article-title>
+					<source>Virology</source>
+					<year>2006</year>
+					<volume>350</volume>
+					<fpage>164</fpage>
+					<lpage>170</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.virol.2006.01.015">https://doi.org/10.1016/j.virol.2006.01.015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Lei H, Li T, Hung G, Li B, Tsai S, Lo S. Identification and characterization of EBV genomes in spontaneously immortalized human peripheral blood B lymphocytes by NGS technology. BMC Genomics. 2013;14:804. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2164-14-804">https://doi.org/10.1186/1471-2164-14-804</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lei</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Hung</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Tsai</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lo</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Identification and characterization of EBV genomes in spontaneously immortalized human peripheral blood B lymphocytes by NGS technology</article-title>
+					<source>BMC Genomics</source>
+					<year>2013</year>
+					<volume>14</volume>
+					<fpage>804</fpage>
+					<lpage>804</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2164-14-804">https://doi.org/10.1186/1471-2164-14-804</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Santpere G, Darre F, Blanco S, Alcami A, Villoslada P, Mar AB, et al. Genome-wide analysis of wild-type Epstein-Barr virus genomes derived from healthy individuals of the 1,000 Genomes Project. Genome Biol Evol. 2014;6:846-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gbe/evu054">https://doi.org/10.1093/gbe/evu054</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santpere</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Darre</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Blanco</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Alcami</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Villoslada</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Mar</surname>
+							<given-names>AB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genome-wide analysis of wild-type Epstein-Barr virus genomes derived from healthy individuals of the 1,000 Genomes Project</article-title>
+					<source>Genome Biol Evol</source>
+					<year>2014</year>
+					<volume>6</volume>
+					<fpage>846</fpage>
+					<lpage>860</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gbe/evu054">https://doi.org/10.1093/gbe/evu054</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Giraldo-Ocampo S, Osorio JC, Fernández A, Castillo A. Detección del virus Epstein Barr en escolares adolescentes en la ciudad de Cali, Colombia. Infectio. 2019;23:175-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22354/in.v23i2.775">https://doi.org/10.22354/in.v23i2.775</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giraldo-Ocampo</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Osorio</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Fernández</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Castillo</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Detección del virus Epstein Barr en escolares adolescentes en la ciudad de Cali, Colombia</article-title>
+					<source>Infectio</source>
+					<year>2019</year>
+					<volume>23</volume>
+					<fpage>175</fpage>
+					<lpage>181</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22354/in.v23i2.775">https://doi.org/10.22354/in.v23i2.775</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Kingman DW, Weiss WB, Jaffe ES, Kumar S, Frekko K, Raffeld M. Epstein-Barr virus latent membrane protein-1 oncogene deletions: Correlations with malignancy in Epstein-Barr virus- associated lymphoproliferative disorders and malignant lymphomas. Blood.1996;88:242-51.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kingman</surname>
+							<given-names>DW</given-names>
+						</name>
+						<name>
+							<surname>Weiss</surname>
+							<given-names>WB</given-names>
+						</name>
+						<name>
+							<surname>Jaffe</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Kumar</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Frekko</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Raffeld</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus latent membrane protein-1 oncogene deletions: Correlations with malignancy in Epstein-Barr virus- associated lymphoproliferative disorders and malignant lymphomas</article-title>
+					<source>Blood</source>
+					<year>1996</year>
+					<volume>88</volume>
+					<fpage>242</fpage>
+					<lpage>251</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>Zuo L, Yu H, Liu L, Tang Y, Wu H, Yang J, et al. The copy number of Epstein-Barr virus latent genome correlates with the oncogenicity by the activation level of LMP1 and NF-kB. Oncotarget. 2015;6:41033-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.5708">https://doi.org/10.18632/oncotarget.5708</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zuo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The copy number of Epstein-Barr virus latent genome correlates with the oncogenicity by the activation level of LMP1 and NF-kB</article-title>
+					<source>Oncotarget</source>
+					<year>2015</year>
+					<volume>6</volume>
+					<fpage>41033</fpage>
+					<lpage>41044</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.5708">https://doi.org/10.18632/oncotarget.5708</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Kumar S, Stecher G, Tamura K. MEGA 7: Molecular Evolutionary Genetics Analysis versión 7.0. Mol Biol Evol. 2016;33:1870-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/molbev/msw054">https://doi.org/10.1093/molbev/msw054</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kumar</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Stecher</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Tamura</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>MEGA 7: Molecular Evolutionary Genetics Analysis versión 7.0</article-title>
+					<source>Mol Biol Evol</source>
+					<year>2016</year>
+					<volume>33</volume>
+					<fpage>1870</fpage>
+					<lpage>1874</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/molbev/msw054">https://doi.org/10.1093/molbev/msw054</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Thompson JD, Higgins DG, Gibson TJ. CLUSTAL W: Improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Res.1994;22:4673-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/22.22.4673">https://doi.org/10.1093/nar/22.22.4673</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thompson</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Higgins</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Gibson</surname>
+							<given-names>TJ</given-names>
+						</name>
+					</person-group>
+					<article-title>CLUSTAL W: Improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice</article-title>
+					<source>Nucleic Acids Res</source>
+					<year>1994</year>
+					<volume>22</volume>
+					<fpage>4673</fpage>
+					<lpage>4680</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/22.22.4673">https://doi.org/10.1093/nar/22.22.4673</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Coleman C, Daud I, Ogolla S, Ritchie J, Smith N, Sumba P, et al. Epstein-Barr virus type 2 infects t cells in healthy Kenyan children. J Infect Dis. 2017;216:670-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jix363">https://doi.org/10.1093/infdis/jix363</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Coleman</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Daud</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Ogolla</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ritchie</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Sumba</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epstein-Barr virus type 2 infects t cells in healthy Kenyan children</article-title>
+					<source>J Infect Dis</source>
+					<year>2017</year>
+					<volume>216</volume>
+					<fpage>670</fpage>
+					<lpage>677</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jix363">https://doi.org/10.1093/infdis/jix363</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>Palser A, Grayson N, White R, Corton C, Correia S, Ba Abdullah M, et al Genome diversity of Epstein-Barr virus from multiple tumour types and normal infection. J Virol. 2015;89:5222-37. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.03614-14">https://doi.org/10.1128/JVI.03614-14</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palser</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Grayson</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>White</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Corton</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Correia</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ba Abdullah</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genome diversity of Epstein-Barr virus from multiple tumour types and normal infection</article-title>
+					<source>J Virol</source>
+					<year>2015</year>
+					<volume>89</volume>
+					<fpage>5222</fpage>
+					<lpage>5237</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.03614-14">https://doi.org/10.1128/JVI.03614-14</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>Chabay P, De Matteo E, Merediz A, Preciado M. High frequency of Epstein Barr virus latent membrane protein-1 30 bp deletion in a series of pediatric malignancies in Argentina. Arch Virol. 2004;149:1515-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00705-004-0311-1">https://doi.org/10.1007/s00705-004-0311-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chabay</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>De Matteo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Merediz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Preciado</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>High frequency of Epstein Barr virus latent membrane protein-1 30 bp deletion in a series of pediatric malignancies in Argentina</article-title>
+					<source>Arch Virol</source>
+					<year>2004</year>
+					<volume>149</volume>
+					<fpage>1515</fpage>
+					<lpage>1526</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00705-004-0311-1">https://doi.org/10.1007/s00705-004-0311-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>Correa R, Fellner M, Alonio L, Durand K, Teyssie A, Picconi M. Epstein-Barr virus (EBV) in healthy carriers: Distribution of genotypes and 30 bp deletion in latent membrane protein-1 (LMP-1) oncogene. J Med Virol. 2004;73:583-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.20129">https://doi.org/10.1002/jmv.20129</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Correa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Fellner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Alonio</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Durand</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Teyssie</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Picconi</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus (EBV) in healthy carriers: Distribution of genotypes and 30 bp deletion in latent membrane protein-1 (LMP-1) oncogene</article-title>
+					<source>J Med Virol</source>
+					<year>2004</year>
+					<volume>73</volume>
+					<fpage>583</fpage>
+					<lpage>588</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.20129">https://doi.org/10.1002/jmv.20129</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>Ai JH, Xie ZD, Liu CY, Gao LW, Yan J. Characteristic of nuclear antigen 1 gene and latent membrane protein 1 gene of Epstein-Barr virus in primary EBV infection in children in Beijin area in 2005-2010. Zhonghua Shi Yan He Lin Chuang Bing Du Xue Za Zhi. 2012;26:352-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ai</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Xie</surname>
+							<given-names>ZD</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>CY</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>LW</given-names>
+						</name>
+						<name>
+							<surname>Yan</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Characteristic of nuclear antigen 1 gene and latent membrane protein 1 gene of Epstein-Barr virus in primary EBV infection in children in Beijin area in 2005-2010</article-title>
+					<source>Zhonghua Shi Yan He Lin Chuang Bing Du Xue Za Zhi</source>
+					<year>2012</year>
+					<volume>26</volume>
+					<fpage>352</fpage>
+					<lpage>355</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>Feederle R, Klinke O, Kutikhin A, Poirey R, Tsai MH, Delecluse HJ. Epstein-Barr virus: From the detection of sequence polymorphisms to the recognition of viral types. Curr Top Microbiol Immunol. 2015;390:119-48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-22822-8_7">https://doi.org/10.1007/978-3-319-22822-8_7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Feederle</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Klinke</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Kutikhin</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Poirey</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Tsai</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Delecluse</surname>
+							<given-names>HJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein-Barr virus: From the detection of sequence polymorphisms to the recognition of viral types</article-title>
+					<source>Curr Top Microbiol Immunol</source>
+					<year>2015</year>
+					<volume>390</volume>
+					<fpage>119</fpage>
+					<lpage>148</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-22822-8_7">https://doi.org/10.1007/978-3-319-22822-8_7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>Chiara M, Manzari C, Lionetti C, Mechelli R, Anastasiadou E, Chiara M. et al. Geographic population structure in Epstein-Barr virus revealed by comparative genomics. Genome Biol Evol. 2016;8:3284-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gbe/evw226">https://doi.org/10.1093/gbe/evw226</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chiara</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Manzari</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lionetti</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Mechelli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Anastasiadou</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chiara</surname>
+							<given-names>M.</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Geographic population structure in Epstein-Barr virus revealed by comparative genomics</article-title>
+					<source>Genome Biol Evol</source>
+					<year>2016</year>
+					<volume>8</volume>
+					<fpage>3284</fpage>
+					<lpage>3291</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gbe/evw226">https://doi.org/10.1093/gbe/evw226</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>Smatti M, Yassine H, AbuOdeh R, AlMarawani A, Taleb S, Althani A, et al. Prevalence and molecular profiling of Epstein Barr virus (EBV) among healthy blood donors from different nationalities in Qatar. PLoS One. 2017;12:e0189033. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0189033">https://doi.org/10.1371/journal.pone.0189033</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Smatti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Yassine</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>AbuOdeh</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>AlMarawani</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Taleb</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Althani</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Prevalence and molecular profiling of Epstein Barr virus (EBV) among healthy blood donors from different nationalities in Qatar</article-title>
+					<source>PLoS One</source>
+					<year>2017</year>
+					<volume>12</volume>
+					<elocation-id>e0189033</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0189033">https://doi.org/10.1371/journal.pone.0189033</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>Saechan V, Settheetham-Ishida W, Kimura R, Tiwawech D, Mitarnun W, Ishida T. Epstein- Barr virus strains defined by the latent membrane protein 1 sequence characterize Thai ethnic groups. J Gen Virol. 2010;9:2054-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1099/vir.0.021105-0">https://doi.org/10.1099/vir.0.021105-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saechan</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Settheetham-Ishida</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Kimura</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Tiwawech</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mitarnun</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Ishida</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Epstein- Barr virus strains defined by the latent membrane protein 1 sequence characterize Thai ethnic groups</article-title>
+					<source>J Gen Virol</source>
+					<year>2010</year>
+					<volume>9</volume>
+					<fpage>2054</fpage>
+					<lpage>2061</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1099/vir.0.021105-0">https://doi.org/10.1099/vir.0.021105-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>Gantuz M, Lorenzetti MA, Chabay PA, Preciado M. A novel recombinant variant of latent membrane protein 1 from Epstein Barr virus in Argentina denotes phylogeographical association. PLoS One. 2017;10:1059-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0174221">https://doi.org/10.1371/journal.pone.0174221</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gantuz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lorenzetti</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Chabay</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Preciado</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>A novel recombinant variant of latent membrane protein 1 from Epstein Barr virus in Argentina denotes phylogeographical association</article-title>
+					<source>PLoS One</source>
+					<year>2017</year>
+					<volume>10</volume>
+					<fpage>1059</fpage>
+					<lpage>1062</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0174221">https://doi.org/10.1371/journal.pone.0174221</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>Karpova M, Schoumans J, Blennow E, Ernberg I, Henter J, Smirnov A, et al. Combined spectral karyotyping, comparative genomic hybridization, and in vitro apoptyping of a panel of Burkitt’s lymphoma-derived B cell lines reveals an unexpected complexity of chromosomal aberrations and a recurrence of specific abnormalities in chemoresistant cell lines. Int J Oncol. 2006;26:605-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892/ijo.28.3.605">https://doi.org/10.3892/ijo.28.3.605</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Karpova</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Schoumans</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Blennow</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ernberg</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Henter</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Smirnov</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Combined spectral karyotyping, comparative genomic hybridization, and in vitro apoptyping of a panel of Burkitt’s lymphoma-derived B cell lines reveals an unexpected complexity of chromosomal aberrations and a recurrence of specific abnormalities in chemoresistant cell lines</article-title>
+					<source>Int J Oncol</source>
+					<year>2006</year>
+					<volume>26</volume>
+					<fpage>605</fpage>
+					<lpage>617</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892/ijo.28.3.605">https://doi.org/10.3892/ijo.28.3.605</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>Liao HM, Liu H, Lei H, Li B, Chin PJ, et al. Frequency of EBV LMP-1 promoter and coding variations in Burkitt lymphoma samples in Africa and South America and peripheral blood in Uganda. Cancers (Basel). 2018;10:177. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/cancers10060177">https://doi.org/10.3390/cancers10060177</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liao</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lei</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Chin</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Frequency of EBV LMP-1 promoter and coding variations in Burkitt lymphoma samples in Africa and South America and peripheral blood in Uganda</article-title>
+					<source>Cancers (Basel)</source>
+					<year>2018</year>
+					<volume>10</volume>
+					<fpage>177</fpage>
+					<lpage>177</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/cancers10060177">https://doi.org/10.3390/cancers10060177</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>Carrascal E, Koriyama C, Akiba S, Tamayo O, Itoh T, Eizuru Y, et al. Epstein-Barr virus- associated gastric carcinoma in Cali, Colombia. Oncol Rep. 2003;10:1059-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892/or.10.4.1059">https://doi.org/10.3892/or.10.4.1059</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carrascal</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Koriyama</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Akiba</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tamayo</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Itoh</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Eizuru</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epstein-Barr virus- associated gastric carcinoma in Cali, Colombia</article-title>
+					<source>Oncol Rep</source>
+					<year>2003</year>
+					<volume>10</volume>
+					<fpage>1059</fpage>
+					<lpage>1062</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892/or.10.4.1059">https://doi.org/10.3892/or.10.4.1059</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>Mesa J, Aristizábal B. Seguimiento con carga viral para virus Epstein-Barr en pacientes pediátricos con trasplante hepático. Médicas UIS. 2015;28:393-401. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18273/revmed.v28n3-2015015">https://doi.org/10.18273/revmed.v28n3-2015015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mesa</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Aristizábal</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Seguimiento con carga viral para virus Epstein-Barr en pacientes pediátricos con trasplante hepático</article-title>
+					<source>Médicas UIS</source>
+					<year>2015</year>
+					<volume>28</volume>
+					<fpage>393</fpage>
+					<lpage>401</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18273/revmed.v28n3-2015015">https://doi.org/10.18273/revmed.v28n3-2015015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>Zuercher E, Butticaz C, Wyniger J, Martínez R, Battegay M, Boffi El, et al. Genetic diversity of EBV-encoded LMP1 in the Swiss HIV cohort study and implication for NF-Kb activation. PloS One. 2012;7:e32168. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0032168">https://doi.org/10.1371/journal.pone.0032168</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zuercher</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Butticaz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Wyniger</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Martínez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Battegay</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>El</surname>
+							<given-names>Boffi</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genetic diversity of EBV-encoded LMP1 in the Swiss HIV cohort study and implication for NF-Kb activation</article-title>
+					<source>PloS One</source>
+					<year>2012</year>
+					<volume>7</volume>
+					<elocation-id>e32168</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0032168">https://doi.org/10.1371/journal.pone.0032168</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>Nagamine M, Takahara M, Kishibe K, Nagat T, Ishii H, Bandoh N et al. Sequence variations of Epstein-Barr virus LMP1 gene in nasal NK/Tcell lymphoma. Virus Genes. 2007;34:47-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11262-006-0008-5">https://doi.org/10.1007/s11262-006-0008-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nagamine</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Takahara</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kishibe</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Nagat</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Ishii</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Bandoh</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sequence variations of Epstein-Barr virus LMP1 gene in nasal NK/Tcell lymphoma</article-title>
+					<source>Virus Genes</source>
+					<year>2007</year>
+					<volume>34</volume>
+					<fpage>47</fpage>
+					<lpage>54</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11262-006-0008-5">https://doi.org/10.1007/s11262-006-0008-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>Senyuta N, Yakovleva L, Goncharova E, Scherback L, Diduk S, Smirnova K, et al. Epstein- Barr virus latent membrane protein 1 polymorphism in nasopharyngeal carcinoma and other oral cavity tumors in Russia. J Med Virol. 2014;86:290-300. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.23729">https://doi.org/10.1002/jmv.23729</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Senyuta</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Yakovleva</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Goncharova</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Scherback</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Diduk</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Smirnova</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epstein- Barr virus latent membrane protein 1 polymorphism in nasopharyngeal carcinoma and other oral cavity tumors in Russia</article-title>
+					<source>J Med Virol</source>
+					<year>2014</year>
+					<volume>86</volume>
+					<fpage>290</fpage>
+					<lpage>300</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.23729">https://doi.org/10.1002/jmv.23729</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>Yakovleva L, Senyuta N, Goncharova E, Scherback L, Smirnova R, Pavlish O, et al. Epstein-Barr virus lmp1 oncogene variants in cell lines of different origin. Mol Biol (Mosk). 2015;49:714-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7868/S0026898415050213">https://doi.org/10.7868/S0026898415050213</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yakovleva</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Senyuta</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Goncharova</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Scherback</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Smirnova</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pavlish</surname>
+							<given-names>O</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epstein-Barr virus lmp1 oncogene variants in cell lines of different origin</article-title>
+					<source>Mol Biol (Mosk)</source>
+					<year>2015</year>
+					<volume>49</volume>
+					<fpage>714</fpage>
+					<lpage>722</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7868/S0026898415050213">https://doi.org/10.7868/S0026898415050213</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>Pavlish OA, Diduk SV, Smirnova KV, Shcherbak LN, Goncharova EV, Shalginskykh NA, et al. Mutations of the Epstein-Barr virus LMP1 gene in Russian patients with lymphoid pathology and healthy individuals. Vopr Virusol. 2008;53:10-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pavlish</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Diduk</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Smirnova</surname>
+							<given-names>KV</given-names>
+						</name>
+						<name>
+							<surname>Shcherbak</surname>
+							<given-names>LN</given-names>
+						</name>
+						<name>
+							<surname>Goncharova</surname>
+							<given-names>EV</given-names>
+						</name>
+						<name>
+							<surname>Shalginskykh</surname>
+							<given-names>NA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutations of the Epstein-Barr virus LMP1 gene in Russian patients with lymphoid pathology and healthy individuals</article-title>
+					<source>Vopr Virusol</source>
+					<year>2008</year>
+					<volume>53</volume>
+					<fpage>10</fpage>
+					<lpage>16</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Arturo-Terranova D, Giraldo-Ocampo S, Castillo A. Caracterización molecular de las variantes del virus de Epstein-Barr detectadas en la cavidad oral de adolescentes de Cali, Colombia. Biomédica. 2020;40(Supl.1):76-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4917">https://doi.org/10.7705/biomedica.4917</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Daniela Arturo: análisis de laboratorio, consolidación y análisis de la información, escritura del artículo Sebastián Giraldo: análisis de laboratorio, consolidación de la información y revisión del artículo Andrés Castillo: diseño de la investigación y revisión del artículo</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p> Vicerrectoría de Investigación de la Universidad del Valle, convocatoria interna 71114.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Conflicto de intereses:</label>
+				<p> Los autores no presentan ningún conflicto de intereses.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,53 @@
+#ITI#Network meta analysis to predict the efficacy of an approved treatment in a new indication#FTI#
+#IRE# Drug repurposing refers to the process of discovering new therapeutic uses for existing medicines. Compared to traditional drug discovery, drug repurposing is attractive for its speed, cost, and reduced risk of failure. However, existing approaches for drug repurposing involve complex, computationally-intensive analytical methods that are not widely used in practice. Instead, repurposing decisions are often based on subjective judgments from limited empirical evidence. In this article, we develop a novel Bayesian network meta-analysis (NMA) framework that can predict the efficacy of an approved treatment in a new indication and thereby identify candidate treatments for repurposing. We obtain predictions using two main steps: first, we use standard NMA modeling to estimate average relative effects from a network comprised of treatments studied in both indications in addition to one treatment studied in only one indication. Then, we model the correlation between relative effects using various strategies that differ in how they model treatments across indications and within the same drug class. We evaluate the predictive performance of each model using a simulation study and find that the model minimizing root mean squared error of the posterior median for the candidate treatment depends on the amount of available data, the level of correlation between indications, and whether treatment effects differ, on average, by drug class. We conclude by discussing an illustrative example in psoriasis and psoriatic arthritis and find that the candidate treatment has a high probability of success in a future trial#FRE#
+#IPC# Bayesian analysis; biopharmaceutical; decision-making; drug repurposing; evidence synthesis; prediction#FPC#
+#IRF# Wang B., Kesselheim A.S., Characteristics of efficacy evidence supporting approval of supplemental indications for prescription drugs in United States, 2005-14: systematic review, BMJ, 351, (2015); 
+Dhodapkar M., Zhang A.D., Puthumana J., Downing N.S., Shah N.D., Ross J.S., Characteristics of clinical studies used for US Food and Drug Administration supplemental indication approvals of drugs and biologics, 2017 to 2019, JAMA Netw Open, 4, 6, (2021); 
+Sahragardjoonegani B., Beall R.F., Kesselheim A.S., Hollis A., Repurposing existing drugs for new uses: a cohort study of the frequency of FDA-granted new indication exclusivities since 1997, J Pharmaceut Policy Pract, 14, 1, (2021); 
+Cather J.C., Young M., Bergman M.J., Psoriasis and psoriatic arthritis, J Clin Aesthet Dermatol, 10, 3, pp. S16-S25, (2017); 
+Jain H., Bhat A.R., Dalvi H., Godugu C., Singh S.B., Srivastava S., Repurposing approved therapeutics for new indication: addressing unmet needs in psoriasis treatment, Curr Res Pharmacol Drug Discov, 2, (2021); 
+Chuang-Stein C., Kirby S., French J., Et al., A quantitative approach for making go/no-go decisions in drug development, Biostatistics, 45, 2, pp. 187-202, (2011); 
+Hong S., Shi L., Predictive power to assist phase 3 go/no go decision based on phase 2 data on a different end point, Stat Med, 31, pp. 831-843, (2012); 
+Chuang-Stein C., Estimation of clinical trial success rates and related parameters, Biostatistics, 20, 2, pp. 273-286, (2006); 
+Lalonde R.L., Peck C.C., Probability of success: a crucial concept to inform decision making in pharmaceutical research and development, Clin Pharmacol Therapeut, 111, 5, pp. 1001-1003, (2022); 
+Wang Y., Fu F., Kulkami P., Kaiser C., Evaluating and utilizing probability of study success in clinical development, Clin Trials, 10, pp. 407-413, (2013); 
+Hampson L.V., Holzhauer B., Bornkamp B., Et al., A new comprehensive approach to assess the probability of success of development programs before pivotal trials, Clin Pharmacol Therapeut, 111, 5, pp. 1050-1060, (2022); 
+Saint-Hilary G., Robert V., Gasparini M., Decision-making in drug development using a composite defintion of success, Pharm Stat, 17, pp. 555-569, (2018); 
+Gysi D.M., Valle A., Zitnik M., Et al., Network medicine framework for identifying drug-repurposing opportunities for COVID-19, Proc Natl Acad Sci, 118, 19, (2021); 
+Cha Y., Erez T., Reynolds I.J., Et al., Drug repurposing from the perspective of pharmaceutical companies, Br J Pharmacol, 175, 2, pp. 168-180, (2018); 
+Jekunen A., Decision-making in product portfolios of pharmaceutical research and development – managing streams of innovation in highly regulated markets, Drug des Devel Ther, 8, pp. 2009-2016, (2014); 
+Salanti G., Higgins J.P., Ades A., Ioannidis J.P., Evaluation of networks of randomized trials, Stat Methods Med Res, 17, 3, pp. 279-301, (2008); 
+Zhang J., Carlin B.P., Neaton J.D., Et al., Network meta-analysis of randomized clinical trials: reporting the proper summaries, Clin Trials, 11, 2, pp. 246-262, (2014); 
+Hong H., Chu H., Zhang J., Carlin B.P., A Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons, Res Synth Methods, 7, 1, pp. 6-22, (2016); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Dias S., Welton N.J., Sutton A.J., Ades A.E., Evidence synthesis for decision making 5: the baseline natural history model, Med Decis Making, 33, 5, pp. 657-670, (2013); 
+Lu G., Ades A.E., Assessing evidence inconsistency in mixed treatment comparisons, J Am Stat Assoc, 101, 474, pp. 447-459, (2006); 
+Lu G., Ades A.E., Combination of direct and indirect evidence in mixed treatment comparisons, Stat Med, 23, 20, pp. 3105-3124, (2004); 
+Mawdsley D., Bennetts M., Dias S., Boucher M., Welton N.J., Model-based network meta-analysis: a framework for evidence synthesis of clinical trial data, CPT Pharmacometrics Syst Pharmacol, 5, 8, pp. 393-401, (2016); 
+Pedder H., Dias S., Bennetts M., Boucher M., Welton N.J., Modelling time-course relationships with multiple treatments: model-based network meta-analysis for continuous summary outcomes, Res Synth Methods, 10, 2, pp. 267-286, (2019); 
+Milligan P.A., Brown M.J., Marchant B., Et al., Model-based drug development: a rational approach to efficiently accelerate drug development, Clin Pharmacol Therapeut, 93, 6, pp. 502-514, (2013); 
+Bujkiewicz S., Jackson D., Thompson J.R., Et al., Bivariate network meta-analysis for surrogate endpoint evaluation, Stat Med, 38, 18, pp. 3322-3341, (2019); 
+Mentor A., Psoriasis and psoriatic arthritis overview, Am J Manag Care, 22, 8, pp. s216-s224, (2016); 
+Dias S., Ades A.E., Absolute or relative effects? Arm-based synthesis of trial data, Res Synth Methods, 7, 1, pp. 23-28, (2016); 
+White I.R., Turner R.M., Karahalios A., Salanti G., A comparison of arm-based and contrast-based models for network meta-analysis, Stat Med, 38, 27, pp. 5197-5213, (2019); 
+Ghosh J., Li Y., Mitra R., On the use of Cauchy prior distributions for Bayesian logistic regression, Bayesian Anal, 13, 2, pp. 359-383, (2018); 
+Gelman A., Jakulin A., Pittau M.G., Su Y.S., A weakly informative default prior distribution for logistic and other regression models, Ann Appl Statist, 2, 4, pp. 1360-1383, (2008); 
+Turner R.M., Jackson D., Wei Y., Thompson S.G., Higgins J.P.T., Predictive distributions for between-study heterogeneity and simple methods for their application in Bayesian meta-analysis, Stat Med, 34, 6, pp. 984-998, (2015); 
+Dias S., Sutton A.J., Ades A.E., Welton N.J., Evidence synthesis for decision making 2, Med Decis Making, 33, 5, pp. 607-617, (2013); 
+Higgins J.P.T., Whitehead A., Borrowing strength from external trials in a meta-analysis, Stat Med, 15, 24, pp. 2733-2749, (1996); 
+Gelman A., Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper), Bayesian Anal, 1, 3, pp. 515-534, (2006); 
+Rosenberger K.J., Xing A., Murad M.H., Chu H., Lin L., Prior choices of between-study heterogeneity in contemporary Bayesian network meta-analyses: an empirical study, J Gen Intern Med, 36, 4, pp. 1049-1057, (2021); 
+Spiegelhalter D., Abrams K., Myles J., Bayesian Approaches to Clinical Trials and Health-Care Evaluation, (2004); 
+Turner R.M., Davey J., Clarke M.J., Thompson S.G., Higgins J.P., Predicting the extent of heterogeneity in meta-analysis, using empirical data from the Cochrane database of systematic reviews, Int J Epidemiol, 41, 3, pp. 818-827, (2012); 
+Freeman S., Fisher D., White I.R., Auperin A., Carpenter J.R., Identifying inconsistency in network meta-analysis: is the net heat plot a reliable method?, Stat Med, 38, 29, pp. 5547-5562, (2019); 
+Veroniki A.A., Vasiliadis H.S., Higgins J.P., Salanti G., Evaluation of inconsistency in networks of interventions, Int J Epidemiol, 42, 1, pp. 332-345, (2013); 
+Higgins J.P.T., Jackson D., Barrett J.K., Lu G., Ades A.E., White I.R., Consistency and inconsistency in network meta-analysis: concepts and models for multi-arm studies, Res Synth Methods, 3, 2, pp. 98-110, (2012); 
+White I.R., Barrett J.K., Jackson D., Higgins J.P.T., Consistency and inconsistency in network meta-analysis: model estimation using multivariate meta-regression, Res Synth Methods, 3, 2, pp. 111-125, (2012); 
+Dias S., Welton N.J., Caldwell D.M., Ades A.E., Checking consistency in mixed treatment comparison meta-analysis, Stat Med, 29, 7-8, pp. 932-944, (2010); 
+Efthimiou O., Mavridis D., Riley R.D., Cipriani A., Salanti G., Joint synthesis of multiple correlated outcomes in networks of interventions, Biostatistics, 16, 1, pp. 84-97, (2015); 
+Jackson D., Bujkiewicz S., Law M., Riley R.D., White I.R., A matrix-based method of moments for fitting multivariate network meta-analysis models with multiple outcomes and random inconsistency effects, Biometrics, 74, 2, pp. 548-556, (2018); 
+Jackson D., Salanti G., Et al., Multivariate and network meta-analysis of multiple outcomes and multiple treatments: rationale, concepts, and examples, BMJ, 358, (2017); 
+Warren F.C., Abrams K.R., Sutton A.J., Hierarchical network meta-analysis models to address sparsity of events and differing treatment classifications with regard to adverse outcomes, Stat Med, 33, 14, pp. 2449-2466, (2014); 
+Dakin H.A., Welton N.J., Ades A., Collins S., Orme M., Kelly S., Mixed treatment comparison of repeated measurements of a continuous endpoint: an example using topical treatments for primary open-angle glaucoma and ocular hypertension, Stat Med, 30, 20, pp. 2511-2535, (2011); 
+Plummer M., rjags: Bayesian Graphical Models using MCMC. 2022. R package version 4–13; 
+Gelman A., Rubin D.B., Inference from iterative simulation using multiple sequences, Stat Sci, 7, 4, pp. 557-611, (1992)#FRF#

@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00011</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización clínica y epidemiológica de pacientes confirmados con la COVID-19 en la provincia de Santiago de Cuba</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Clinical and epidemiological characterization of patients confirmed with COVID-19 in Santiago de Cuba</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8605-4795</contrib-id>
+					<name>
+						<surname>Ferrer Castro</surname>
+						<given-names>Jacno Erik</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6898-9685</contrib-id>
+					<name>
+						<surname>Sánchez Hernández</surname>
+						<given-names>Ernesto</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5213-0320</contrib-id>
+					<name>
+						<surname>Poulout Mendoza</surname>
+						<given-names>Abel</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1c"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9857-9596</contrib-id>
+					<name>
+						<surname>del Río Caballero</surname>
+						<given-names>Germán</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1d"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8821-7738</contrib-id>
+					<name>
+						<surname>Figueredo Sánchez</surname>
+						<given-names>Daicy</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff1c">
+				<label>1</label>
+				<institution content-type="original">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff1d">
+				<label>1</label>
+				<institution content-type="original">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Centro Provincial de Higiene, Epidemiología y Microbiología, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Centro Provincial de Higiene, Epidemiología y Microbiología</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>jacno.erik@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores no declaran conflictos de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn2">
+					<label>Contribución de los autores</label>
+					<p> Dr. Jacno Erik Ferrer Castro: Estadística y confección del informe final (35 %) Dr. Ernesto Sánchez Hernández: Estadística, edición y revisión (25 %) Dra. Abel Poulout Mendoza: Recolección de la información (15 %) Dr. Germán del Río Caballero: Revisión bibliográfica (15 %) Dra. Daicy Figueredo Sánchez: Revisión bibliográfica (10 %)</p>
+				</fn>
+			</author-notes>
+		<!--	<pub-date date-type="pub" publication-format="electronic">
+				<day>12</day>
+				<month>06</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<season>May-Jun</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>24</volume>
+			<issue>3</issue>
+			<fpage>473</fpage>
+			<lpage>485</lpage>
+			<history>
+				<date date-type="received">
+					<day>10</day>
+					<month>02</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>08</day>
+					<month>05</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> El incremento exponencial de casos confirmados con el nuevo coronavirus SARS-CoV-2 obligó a las autoridades de la Organización Mundial de la Salud a declarar como pandemia esta emergencia sanitaria. </p>
+				</sec>
+				<sec>
+					<title>Objetivo: </title>
+					<p>Caracterizar a niños y adultos confirmados con la COVID-19 desde los puntos de vista clínico y epidemiológico.</p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p> Se realizó un estudio observacional, descriptivo y transversal de 74 pacientes confirmados con la COVID-19, quienes estuvieron ingresados en el Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany de Santiago de Cuba, desde marzo hasta mayo de 2020. Los datos se obtuvieron de las historias clínicas de los afectados. Entre las variables analizadas figuraron: edad, sexo, letalidad, estado al egreso, lugar de procedencia de los casos e inicio de síntomas de la COVID-19 antes del ingreso hospitalario.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> Se halló un predominio del sexo masculino (52,7 %). Hubo una tendencia al ingreso hospitalario de pacientes asintomáticos confirmados, de ellos 50,0 % del grupo de 1 a 17 años de edad; 94,5 % de los afectados egresaron vivos de la institución. Ningún niño fue notificado como grave o crítico. La tos (60,0 %), la fiebre (34,5 %) y la falta de aire (21,8 %) fueron las manifestaciones clínicas más referidas.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p>Con un enfoque biosocial se informa una primera experiencia en la atención a pacientes confirmados con la COVID-19 en Santiago de Cuba. El diagnóstico clínico y epidemiológico favoreció a registrar la mayor incidencia de esta enfermedad en adultos jóvenes sintomáticos e identificar otros pacientes que transmitieron el virus sin manifestar síntomas.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The exponential increment of confirmed cases with the new coronavirus SARS-CoV-2 forced the authorities of the Health World Organization to declare as pandemic this health emergency. </p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> to characterize children and adults confirmed with the COVID-19 from the clinical and epidemiological points of view. </p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p>An observational, descriptive and cross-sectional study of 74 patients confirmed with the COVID-19 who were admitted to Dr. Joaquín Castillo Duany Teaching Clinical Surgical Hospital was carried out in Santiago de Cuba, from March to May, 2020. The data were obtained from the medical records of the affected patients. Among the analyzed variables we have: age, sex, lethality, discharge state, place of origin of the cases and beginning of COVID-19 symptoms before admission to hospital. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> A prevalence of the male sex (52.7 %) was found. There was a tendency to the hospital admission of confirmed asymptomatic patients, of them 50.0 % of the 1 to 17 age group; 94.5 % of the affected patients were alive when discharged of the institution. No kids were notified in serious or critical condition. Cough (60.0 %), fever (34.5 %) and breathlessness (21.8 %) were the most referred clinical features. </p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> With a biosocial approach a first experience is informed in the care to confirmed patients with COVID-19 in Santiago de Cuba. The clinical and epidemiological diagnosis favored to register the highest incidence in this disease in symptomatic young adults and to identify other patients that transmitted the virus without manifesting symptoms. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>niño</kwd>
+				<kwd>adulto</kwd>
+				<kwd>coronavirus</kwd>
+				<kwd>pandemia</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>casos asintomáticos</kwd>
+				<kwd>atención secundaria de salud</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>child</kwd>
+				<kwd>adult</kwd>
+				<kwd>coronavirus</kwd>
+				<kwd>pandemic</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>asymptomatic cases</kwd>
+				<kwd>secondary health care</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="5"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="20"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción </title>
+			<p>Debido al incremento exponencial de casos confirmados por el nuevo coronavirus SARS-CoV-2, el 11 de marzo de 2020, las autoridades de la Organización Mundial de la Salud (OMS) declararon como pandemia a esta emergencia sanitaria. La enfermedad fue denominada COVID-19 (<italic>Coronavirus disease 2019</italic>), y los informes médicos advertían de una fuerte afectación respiratoria neumónica entre todos los variados síntomas que presentaban los pacientes.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Se ha observado que el virus afecta con mayor frecuencia a adultos mayores, personas inmunodeprimidas o con comorbilidades, por ejemplo, se citan individuos con hipertensión arterial (23,7 %), diabetes <italic>mellitus</italic> (16,2 %) y cardiopatía isquémica (5,8 %), quienes presentaron formas severas de esta enfermedad.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>)</sup></p>
+			<p>De hecho, se diagnostican las formas más graves de dicha enfermedad en 5,0 % de ellos, al afectar la función respiratoria requerida de ventilación mecánica en un número de pacientes, y el síndrome de respuesta inflamatoria sistémica con probabilidades de aparición de choque séptico con insuficiencia multiorgánica, así como una elevada tasa de mortalidad.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>)</sup> No obstante, Pérez y Gómez<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>)</sup> aseguran que en 80 % de los pacientes aparecen manifestaciones leves y otras personas infectadas cursan como asintomáticas. </p>
+			<p>En el ámbito hospitalario, la atención a pacientes confirmados con la COVID-19 integra invariablemente criterios epidemiológicos y clínicos para su seguimiento evolutivo. La decisión médica del ingreso del sujeto no es aleatoria, pues se sigue un riguroso protocolo de actuación. En áreas de cuidados mínimos, intensivos o progresivos, la accesibilidad a datos, entre los cuales figuran: ubicación geográfica de los pacientes, condición del contacto, manifestaciones clínicas por grupos de edades y antecedentes de la enfermedad, asegura al equipo médico los razonamientos lógicos para decidir el mejor esquema de tratamiento o el egreso hospitalario sin riesgos de positividad activa.</p>
+			<p>La proporción significativa de nuevos casos, leves y graves, genera entre internistas, médicos de terapia intensiva y otros especialistas, múltiples interrogantes sobre esta enfermedad inédita. Según especialistas cubanos, en ocasiones, la definición de un caso clínico se confunde, puesto que los pacientes pueden presentar síntomas comunes a otras infecciones respiratorias agudas (IRA) y, al parecer, la definición de caso que propone la OMS está basada en la prueba específica de la reacción en cadena de polimerasa (PCR).<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Cuba fortalece el sistema de vigilancia para contener a la COVID-19 y dispone de los medios para el diagnóstico de laboratorio, así como de los recursos terapéuticos; sin embargo, ello no es suficiente debido a que los equipos médicos requieren, en cada institución, evidencias clínicas y epidemiológicas propias devenidas en aportes teóricos y prácticos al ejercicio del método clínico. La rápida transmisibilidad y el reto del diagnóstico terapéutico que constituye la pandemia motivaron a los autores para realizar una caracterización clínica y epidemiológica de niños y adultos confirmados con esta enfermedad en Santiago de Cuba.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se efectuó un estudio observacional, descriptivo y transversal de 74 pacientes confirmados con la COVID-19, quienes estuvieron ingresados en el Hospital Clinicoquirúrgico Docente Dr. Joaquín Castillo Duany de Santiago de Cuba, desde marzo hasta mayo de 2020, a fin de caracterizarles desde los puntos de vista clínico y epidemiológico. Se diseñó y empleó una planilla recolectora de datos, los cuales se obtuvieron mediante la revisión de las historias clínicas. Se respetó la integridad y confidencialidad de los pacientes, así como su información personal.</p>
+			<p>Entre las variables analizadas figuraron: edad, sexo, estado al egreso, lugar de procedencia de los pacientes e inicio de síntomas de la COVID-19 antes del ingreso hospitalario.</p>
+			<p>Los datos obtenidos se registraron en una hoja de cálculo del programa Microsoft Excel para luego ser evaluados en el software estadístico SPSS versión 23, lo cual permitió elaborar tablas estadísticas y exponer los hallazgos encontrados durante el proceso investigativo. Se resumieron las variables utilizadas a través de la determinación de las frecuencias absoluta y relativa como medidas de resumen, las cuales sirvieron para el análisis y la presentación de los resultados.</p>
+			<p>Esta investigación se realizó de acuerdo con las normas éticas para el uso de material y datos humanos, establecidas en la Declaración de Helsinki de la Asamblea Médica Mundial, donde se analizan los principios éticos para las investigaciones médicas en seres humanos.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En la serie (<xref ref-type="fig" rid="f1">fig. 1</xref>) predominaron los pacientes del sexo masculino (52,7 %); el grupo etario de 18-34 años registró la mayor población en ambos sexos, con 37,1 % en las féminas y 28,2 % en los varones.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig. 1</label>
+					<caption>
+						<title>Pacientes confirmados con la COVID-19 según edad y sexo</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-03-473-gf1.png"/>
+				</fig>
+			</p>
+			<p>También se observó una tendencia al ingreso hospitalario de pacientes asintomáticos confirmados, de ellos 50,0 % pertenecían al grupo etario de 1 a 17 años y 44,4 % al de 69 años y más. Los afectados con edades entre 18-34 años (41,7 %) y de 31-51 años (36,8 %) fueron hospitalizados con más de 7 días de inicio de los síntomas (<xref ref-type="fig" rid="f2">fig. 2</xref>).</p>
+			<p>
+				<fig id="f2">
+					<label>Fig. 2</label>
+					<caption>
+						<title>Porcentaje de pacientes con inicio de síntomas de la COVID-19 antes del ingreso hospitalario según grupos de edades</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-03-473-gf2.png"/>
+				</fig>
+			</p>
+			<p>En la <xref ref-type="fig" rid="f3">figura 3</xref> se observa que 79,7 % de los pacientes con COVID-19 fueron de transmisión autóctona, siendo la provincia de Santiago de Cuba la que presentó mayor número de casos. Se registró una letalidad de 2,8 % y 94,5 % de los afectados egresaron vivos de la institución.</p>
+			<p>
+				<fig id="f3">
+					<label>Fig. 3</label>
+					<caption>
+						<title>Lugar de procedencia y estado al egreso hospitalario de los casos confirmados</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-03-473-gf3.jpg"/>
+				</fig>
+			</p>
+			<p>Resulta importante señalar que no se notificó ningún niño en la categoría de grave o crítico y 75,0 % fueron varones. Entre los adultos, hubo un predominio de los hombres en el informe de los estados grave (71,4 %) y crítico (66,6 %); en los que se encontraban de cuidado, las mujeres registraron 55,8 % de las observaciones (<xref ref-type="fig" rid="f4">fig. 4</xref>).</p>
+			<p>
+				<fig id="f4">
+					<label>Fig. 4</label>
+					<caption>
+						<title>Pacientes confirmados según estado clínico, grupo poblacional y sexo</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-03-473-gf4.png"/>
+				</fig>
+			</p>
+			<p>En la <xref ref-type="fig" rid="f5">figura 5</xref> se resumen los signos y síntomas de los pacientes donde se refirieron mayoritariamente la tos (60,0 %), la fiebre (34,5 %) y la falta de aire (21,8 %). Cuantitativamente predominaron los síntomas respiratorios, seguidos de las manifestaciones generales, tales como astenia (18,2 %), malestar general (7,3 %) y artromialgias (5,4 %).</p>
+			<p>
+				<fig id="f5">
+					<label>Fig. 5</label>
+					<caption>
+						<title>Manifestaciones clínicas en pacientes confirmados</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-03-473-gf5.png"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Los casos notificados con la COVID-19 varían a escala mundial. En la investigación se evidencia que los adultos jóvenes del sexo masculino fueron los más afectados; sobre este suceso los expertos proponen explicaciones genéticas y hormonales para las diferencias en la susceptibilidad por sexo.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Existen varios informes que justifican la menor susceptibilidad femenina al contagio; desde los inicios de la pandemia se hablaba de la posible resistencia femenina al virus. Se especula que la poca susceptibilidad de las mujeres a las infecciones virales puede deberse a la protección del cromosoma X extra que presentan en comparación con los hombres.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Chen <italic>et al</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> contabilizaron mayor transmisión en los hombres, lo cual coincide con los resultados de la presente serie. Tanto el informe del Centro Nacional de Epidemiología de España<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> como la investigación llevada a cabo por Ruiz<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>)</sup> muestran coincidencias con lo expuesto en este estudio en lo relativo a la preponderancia de la enfermedad en el sexo masculino, aunque en este último se especifica que lo anterior predominó en los inicios de la pandemia para luego variar la proporción a favor de las féminas. No obstante, Smtih<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>)</sup> opina que la escasez de información por género limita teorizar sobre las probabilidades de asociación entre el sexo y la susceptibilidad al virus.</p>
+			<p>En cuanto al porcentaje de casos asintomáticos confirmados, los resultados de la presente investigación describen valores medios (25,7 %) respecto a los notificados en Japón, pero en un universo cerrado (50,0 %).<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>)</sup> Briefing<xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>)</sup> comunica haber encontrado esta condición en niños durante los inicios de la enfermedad, un resultado cercano entre los menores de 17 años de edad en la presente serie. </p>
+			<p>La transmisión silente complejiza cualquier escenario de actuación, pues supone la aplicación de estrategias de pesquisa y contención de contagios más enérgicas, así como mayor aislamiento social entre los ciudadanos. En los centros hospitalarios se intensifica la actuación médica para el diagnóstico clínico, epidemiológico y de laboratorio. El primer caso de transmisión asintomática notificado en Wuhan<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup> contagió a 5 de sus familiares; al respecto, otros informes estiman proporciones muy variables.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>Ahora bien, los pacientes sintomáticos promediaron 6 días antes de su llegada a la institución hospitalaria; cifras superiores hallaron en sus estudios Pan <italic>et al</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>)</sup> y Aragón <italic>et al,</italic><xref ref-type="bibr" rid="B17"><sup>17</sup></xref> quienes registraron una media de 8,1 y 10 días, respectivamente.</p>
+			<p>La experiencia acumulada por los autores del presente estudio permite valorar que la presentación tardía a un centro médico eleva el riesgo de propagación del virus e impacta negativamente en la salud de los determinantes biológicos y las prácticas individuales en la comunidad; en las instituciones hospitalarias pudiera limitar la efectividad de las acciones tempranas para la prevención de complicaciones y aumentar el riesgo de mortalidad.</p>
+			<p>Por cada caso importado fueron confirmados 3,9 nacionales. Ocasionalmente este hecho limitó la realización de la encuesta epidemiológica, pues establecer el nexo directo con viajeros (4,1 %) o extranjeros (16,2 %) procedentes de áreas de riesgo no siempre fue efectivo. Guzmán <italic>et al</italic><xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>)</sup> documentaron en su investigación que la gran mayoría de los pacientes peruanos con la COVID-19 correspondieron a casos importados.</p>
+			<p>Existen evidencias de la evolución de pacientes con la citada enfermedad hacia situaciones de amenaza vital. La población estudiada presentó 13,5 % de los casos en estado grave o crítico. El síndrome de dificultad respirato ria aguda, el tromboembolismo pulmonar y el choque séptico fueron las complicaciones más relevantes en los pacientes con evoluciones tórpidas. Las acciones para sostener la mecánica ventilatoria y la combinación con el tratamiento protocolizado coadyuvaron a la baja letalidad notificada (2,7 %).</p>
+			<p>Resultados similares a estos hallazgos fueron publicados en China, pues 13,8 % de los pacientes adultos tuvieron una evolución clínica grave y 6,1 % presentaron un curso crítico con diferencias tangibles entre los niños, debido a que 2,5 % desarrollaron la enfermedad en sus fases grave o crítica. En España 3,9 % de los afectados requirieron ingresos en unidades de cuidados intensivos.<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>)</sup></p>
+			<p>Los especialistas aseguran que en niños la transmisión del virus a través de sus madres con infección sospechada o confirmada ocurre fácilmente; en ellos se observa una menor severidad y baja mortalidad.<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+			</p>
+			<p>Aunque predominaron las manifestaciones respiratorias (38,9 %), los resultados muestran un espectro clínico muy variado; por tanto, la aproximación al diagnóstico no puede ser exclusivamente clínica y la solución a un contexto de incertidumbre tendrá que incluir necesariamente la información epidemiológica. Existe plena coincidencia de lo encontrado con la opinión de expertos que reafirman la variabilidad en la frecuencia de presentación del cuadro clínico.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+			</p>
+			<p>Se concluye que, desde un enfoque biosocial, se notificó una primera experiencia en la atención a pacientes confirmados con la COVID-19 en Santiago de Cuba. El diagnóstico clínico y epidemiológico favoreció a registrar la mayor incidencia de la enfermedad en adultos jóvenes sintomáticos, identificar otros afectados que transmiten el virus sin manifestar síntomas y la magnitud de la letalidad. Se debe enfatizar en la identificación de casos activos y la remisión para el ingreso hospitalario sin demoras en el proceso.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas </title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Guzmán Del Giudice OE, Lucchesi Vásquez EP, Trelles De Belaúnde M, Pinedo Gonzales RH, Camere Torrealva MA, Daly A, et al. Características clínicas y epidemiológicas de 25 casos de COVID-19 atendidos en la Clínica Delgado de Lima. Rev Soc Peru Med Interna. 2020 [citado 29/04/2020]; 33(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistamedicinainterna.net/index.php/spmi/article/view/506">http://revistamedicinainterna.net/index.php/spmi/article/view/506</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guzmán Del Giudice</surname>
+							<given-names>OE</given-names>
+						</name>
+						<name>
+							<surname>Lucchesi Vásquez</surname>
+							<given-names>EP</given-names>
+						</name>
+						<name>
+							<surname>Trelles De Belaúnde</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pinedo Gonzales</surname>
+							<given-names>RH</given-names>
+						</name>
+						<name>
+							<surname>Camere Torrealva</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Daly</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Características clínicas y epidemiológicas de 25 casos de COVID-19 atendidos en la Clínica Delgado de Lima</article-title>
+					<source>Rev Soc Peru Med Interna</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-29">29/04/2020</date-in-citation>
+					<volume>33</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistamedicinainterna.net/index.php/spmi/article/view/506">http://revistamedicinainterna.net/index.php/spmi/article/view/506</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Pareja Cruz A, Luque Espino JC. Alternativas terapéuticas farmacológicas para COVID-19. Rev Horizonte Médico. 2020 [citado 30/04/2020]; 20(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.horizontemedico.usmp.edu.pe/index.php/horizontemed/article/view/1216/710">http://www.horizontemedico.usmp.edu.pe/index.php/horizontemed/article/view/1216/710</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pareja Cruz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Luque Espino</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Alternativas terapéuticas farmacológicas para COVID-19</article-title>
+					<source>Rev Horizonte Médico</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-30">30/04/2020</date-in-citation>
+					<volume>20</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.horizontemedico.usmp.edu.pe/index.php/horizontemed/article/view/1216/710">http://www.horizontemedico.usmp.edu.pe/index.php/horizontemed/article/view/1216/710</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Giralt Herrera A, Rojas Velázquez JM, Leiva Enríquez J. Relación entre COVID-19 e hipertensión arterial. Revista Habanera de Ciencias Médicas. 2020 [citado 27/05/2020]; 19 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/3246/2547">http://www.revhabanera.sld.cu/index.php/rhab/article/view/3246/2547</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giralt Herrera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rojas Velázquez</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Leiva Enríquez</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Relación entre COVID-19 e hipertensión arterial</article-title>
+					<source>Revista Habanera de Ciencias Médicas</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-27">27/05/2020</date-in-citation>
+					<volume>19</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/3246/2547">http://www.revhabanera.sld.cu/index.php/rhab/article/view/3246/2547</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Sagardia J, Orlandi C, Romero V, San Emeterio J, Lozano J, Bongioanni H, et al. Recomendaciones para el tratamiento del paro cardiorrespiratorio en pacientes adultos con COVID-19. Rev Arg de Ter Int. 2020 [citado 04/05/2020]; S (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revista.sati.org.ar/index.php/MI/article/view/691/798">https://revista.sati.org.ar/index.php/MI/article/view/691/798</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sagardia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Orlandi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Romero</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>San Emeterio</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lozano</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bongioanni</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Recomendaciones para el tratamiento del paro cardiorrespiratorio en pacientes adultos con COVID-19</article-title>
+					<source>Rev Arg de Ter Int</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-04">04/05/2020</date-in-citation>
+					<volume>S</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revista.sati.org.ar/index.php/MI/article/view/691/798">https://revista.sati.org.ar/index.php/MI/article/view/691/798</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Ruíz Bravo A, Jiménez Varela M. SARS-CoV-2 y pandemia de síndrome respiratorio agudo (COVID-19). Rev Universidad de Granada. 2020 [citado 30/04/2020]; 61 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistaseug.ugr.es/index.php/ars/article/view/15177">https://revistaseug.ugr.es/index.php/ars/article/view/15177</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruíz Bravo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jiménez Varela</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2 y pandemia de síndrome respiratorio agudo (COVID-19)</article-title>
+					<source>Rev Universidad de Granada</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-30">30/04/2020</date-in-citation>
+					<volume>61</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistaseug.ugr.es/index.php/ars/article/view/15177">https://revistaseug.ugr.es/index.php/ars/article/view/15177</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Pérez Abreu MR, Gómez Tejeda JJ, Dieguez Guach RA. Características clínico-epidemiológicas de la COVID-19. Rev haban cienc méd. 2020 [citado 30/04/2020]; 19 (2). Disponible en <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/3254/2562">http://www.revhabanera.sld.cu/index.php/rhab/article/view/3254/2562</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez Abreu</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Gómez Tejeda</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Dieguez Guach</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>Características clínico-epidemiológicas de la COVID-19</article-title>
+					<source>Rev haban cienc méd</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-30">30/04/2020</date-in-citation>
+					<volume>19</volume>
+					<issue>2</issue>
+					<comment>Disponible en <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/3254/2562">http://www.revhabanera.sld.cu/index.php/rhab/article/view/3254/2562</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Espinosa Brito A. Reflexiones a propósito de la pandemia de COVID-19: del 18 de marzo al 2 de abril de 2020. Anales de la Academia de Ciencias de Cuba. 2020 [citado 30/04/2020]; 10 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistaccuba.sld.cu/index.php/revacc/article/view/765/797">http://revistaccuba.sld.cu/index.php/revacc/article/view/765/797</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Espinosa Brito</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Reflexiones a propósito de la pandemia de COVID-19: del 18 de marzo al 2 de abril de 2020</article-title>
+					<source>Anales de la Academia de Ciencias de Cuba</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-30">30/04/2020</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistaccuba.sld.cu/index.php/revacc/article/view/765/797">http://revistaccuba.sld.cu/index.php/revacc/article/view/765/797</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Almaguer Mederos LE, Cuello Almarales D, Almaguer Gotay D. Rol de los genes ACE2 y TMPRSS2 en la susceptibilidad o gravedad de la COVID-19. Anales de la Academia de Ciencias de Cuba. 2020 [citado 25/05/2020]; 10 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaccuba.sld.cu/index.php/revacc/article/view/799/860">http://www.revistaccuba.sld.cu/index.php/revacc/article/view/799/860</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almaguer Mederos</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Cuello Almarales</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Almaguer Gotay</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Rol de los genes ACE2 y TMPRSS2 en la susceptibilidad o gravedad de la COVID-19</article-title>
+					<source>Anales de la Academia de Ciencias de Cuba</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-25">25/05/2020</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaccuba.sld.cu/index.php/revacc/article/view/799/860">http://www.revistaccuba.sld.cu/index.php/revacc/article/view/799/860</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Ruiz Cantero MT. Las estadísticas sanitarias y la invisibilidad por sexo y de género durante la epidemia de COVID-19. Gaceta Sanitaria. 2020 [citado 12/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.gacetasanitaria.org/es-las-estadisticas-sanitarias-invisibilidad-por-avance-S0213911120300911">https://www.gacetasanitaria.org/es-las-estadisticas-sanitarias-invisibilidad-por-avance-S0213911120300911</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruiz Cantero</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Las estadísticas sanitarias y la invisibilidad por sexo y de género durante la epidemia de COVID-19</article-title>
+					<source>Gaceta Sanitaria</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-12">12/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.gacetasanitaria.org/es-las-estadisticas-sanitarias-invisibilidad-por-avance-S0213911120300911">https://www.gacetasanitaria.org/es-las-estadisticas-sanitarias-invisibilidad-por-avance-S0213911120300911</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Chen N, Zhou M, Dong X, Qu J, Gong R, Han Y, et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet. 2020 [citado 12/05/2020]; 39 (10223). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(20)30211-7.pdf">https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(20)30211-7.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Dong</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Qu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Han</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-12">12/05/2020</date-in-citation>
+					<volume>39</volume>
+					<issue>10223</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(20)30211-7.pdf">https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(20)30211-7.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Red Nacional de Vigilancia Epidemiológica. Informe sobre la situación de COVID-19 en España. Madrid: Centro Nacional de Epidemiología; 2020. Report No.: 14. [citado 12/05/2020] Disponible en: https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/Informe%20n%C2%BA%2014.%20Situaci%C3%B3n%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2024%20marzo%20de%202020.pdf</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Red Nacional de Vigilancia Epidemiológica</collab>
+					</person-group>
+					<source>Informe sobre la situación de COVID-19 en España</source>
+					<year>2020</year>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Centro Nacional de Epidemiología</publisher-name>
+					<pub-id pub-id-type="other">Report No.: 14</pub-id>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-12">12/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/Informe%20n%C2%BA%2014.%20Situaci%C3%B3n%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2024%20marzo%20de%202020.pdf">https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/Informe%20n%C2%BA%2014.%20Situaci%C3%B3n%20de%20COVID-19%20en%20Espa%C3%B1a%20a%2024%20marzo%20de%202020.pdf </ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Smith J. Overcoming the 'tyranny of the urgent': integrating gender into disease outbreak preparedness and response. Gender &amp;Development. 2019 [citado 12/05/2020]; 27 (2). Disponible en: https://www.tandfonline.com/doi/full/10.1080/13552074.2019.1615288</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Smith</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Overcoming the 'tyranny of the urgent': integrating gender into disease outbreak preparedness and response</article-title>
+					<source>Gender &amp;Development</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-12">12/05/2020</date-in-citation>
+					<volume>27</volume>
+					<issue>2</issue>
+					<fpage>https://www.tandfonline.com/doi/full/10.1080/13552074.2019.1615288</fpage>
+					<lpage>https://www.tandfonline.com/doi/full/10.1080/13552074.2019.1615288</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Mizumoto K, Kagaya K, Zarebski A, Chowell G. Estimating the asymptomatic proportion of coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship, Yokohama, Japan, 2020. Euro Surveill. 2020 [citado 05/05/2020]; 25 (10). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7078829/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7078829/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mizumoto</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Kagaya</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Zarebski</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Chowell</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimating the asymptomatic proportion of coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship, Yokohama, Japan, 2020</article-title>
+					<source>Euro Surveill</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-05">05/05/2020</date-in-citation>
+					<volume>25</volume>
+					<issue>10</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7078829/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7078829/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>National Institute of Infectious Diseases. Field Briefing: Diamond Princess COVID-19 Cases, 20 Feb Update. 2020 [citado 04/03/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.niid.go.jp/niid/en/2019-ncov-e/9407-covid-dp-fe-02.htm">https://www.niid.go.jp/niid/en/2019-ncov-e/9407-covid-dp-fe-02.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>National Institute of Infectious Diseases</collab>
+					</person-group>
+					<source>Field Briefing: Diamond Princess COVID-19 Cases</source>
+					<comment>20 Feb Update</comment>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-04">04/03/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.niid.go.jp/niid/en/2019-ncov-e/9407-covid-dp-fe-02.htm">https://www.niid.go.jp/niid/en/2019-ncov-e/9407-covid-dp-fe-02.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Bai Y, Yao L, Wei T. Presumed asymptomatic carrier transmission of COVID-19. JAMA. 2020 [citado 05/05/2020]; 323 (14). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://jamanetwork.com/journals/jama/fullarticle/2762028">https://jamanetwork.com/journals/jama/fullarticle/2762028</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bai</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yao</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Presumed asymptomatic carrier transmission of COVID-19</article-title>
+					<source>JAMA</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-05">05/05/2020</date-in-citation>
+					<volume>323</volume>
+					<issue>14</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://jamanetwork.com/journals/jama/fullarticle/2762028">https://jamanetwork.com/journals/jama/fullarticle/2762028</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Pan L, Mu M, Yang P, Sun Y, Wang R, Yan J, et al. Clinical characteristics of COVID-19 patient with digestive symptoms in hubei, China: A descriptive, cross sectional, multicenter study. Am J Gastroenterol. 2020 [citado 05/05/2020]; 115 (5). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://europepmc.org/article/pmc/pmc7172492">https://europepmc.org/article/pmc/pmc7172492</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pan</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Yan</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical characteristics of COVID-19 patient with digestive symptoms in hubei, China: A descriptive, cross sectional, multicenter study</article-title>
+					<source>Am J Gastroenterol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-05">05/05/2020</date-in-citation>
+					<volume>115</volume>
+					<issue>5</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://europepmc.org/article/pmc/pmc7172492">https://europepmc.org/article/pmc/pmc7172492</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Aragón Nogales R, Vargas Almanza L, Miranda Novales MG. COVID-19 por SARS-CoV-2: la nueva emergencia de salud. Rev Mex Pediatr. 2019 [citado 05/05/2020]; 86 (6). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medigraphic.com/pdfs/pediat/sp-2019/sp196a.pdf">https://www.medigraphic.com/pdfs/pediat/sp-2019/sp196a.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aragón Nogales</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Vargas Almanza</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Miranda Novales</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 por SARS-CoV-2: la nueva emergencia de salud</article-title>
+					<source>Rev Mex Pediatr</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-05">05/05/2020</date-in-citation>
+					<volume>86</volume>
+					<issue>6</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medigraphic.com/pdfs/pediat/sp-2019/sp196a.pdf">https://www.medigraphic.com/pdfs/pediat/sp-2019/sp196a.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>World health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). 2020 [citado 05/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World health Organization</collab>
+					</person-group>
+					<source>Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-05">05/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Soto Agüero MJ, Ureña Chavarría E. Infección por COVID-19 en niños, ¿Cómo afecta a la población pediátrica? Rev Méd Costa Rica. 2020; 85 (629): 29-36.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soto Agüero</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Ureña Chavarría</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Infección por COVID-19 en niños, ¿Cómo afecta a la población pediátrica?</article-title>
+					<source>Rev Méd Costa Rica</source>
+					<year>2020</year>
+					<volume>85</volume>
+					<issue>629</issue>
+					<fpage>29</fpage>
+					<lpage>36</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Palacios Cruz M, Santos E, Velázquez Cervantes MA, León Juárez M. COVID-19, una emergencia de salud pública mundial. Rev Clin Esp. 2020 [citado 11/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102523/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102523/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palacios Cruz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Velázquez Cervantes</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>León Juárez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19, una emergencia de salud pública mundial</article-title>
+					<source>Rev Clin Esp</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-11">11/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102523/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102523/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

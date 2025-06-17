@@ -1,0 +1,39 @@
+#ITI#Supervised Classes, Unsupervised Mixing Proportions: Detection of Bots in a Likert-Type Questionnaire#FTI#
+#IRE# Administering Likert-type questionnaires to online samples risks contamination of the data by malicious computer-generated random responses, also known as bots. Although nonresponsivity indices (NRIs) such as person-total correlations or Mahalanobis distance have shown great promise to detect bots, universal cutoff values are elusive. An initial calibration sample constructed via stratified sampling of bots and humans—real or simulated under a measurement model—has been used to empirically choose cutoffs with a high nominal specificity. However, a high-specificity cutoff is less accurate when the target sample has a high contamination rate. In the present article, we propose the supervised classes, unsupervised mixing proportions (SCUMP) algorithm that chooses a cutoff to maximize accuracy. SCUMP uses a Gaussian mixture model to estimate, unsupervised, the contamination rate in the sample of interest. A simulation study found that, in the absence of model misspecification on the bots, our cutoffs maintained accuracy across varying contamination rates.#FRE#
+#IPC# aberrant responding; bots; machine learning; Mahalanobis distance; person-total correlation#FPC#
+#IRF# Bajorski P., Statistics for imaging, optics, and photonics, (2012); 
+Bengtsson H., A unifying framework for parallel and distributed processing in R using futures, (2021); 
+Boos D.D., Stefanski L.A., Essential statistical inference: Theory and methods, (2013); 
+Buchanan E.M., Scofield J.E., Methods to detect low quality data and its implication for psychological research, Behavior Research Methods, 50, pp. 2586-2596, (2018); 
+Buhrmester M., Kwang T., Gosling S.D., Amazon’s Mechanical Turk: A new source of inexpensive, but high-quality, data?, Perspectives on Psychological Science, 6, 1, pp. 3-5, (2011); 
+Crede M., Random responding as a threat to the validity of effect size estimates in correlational research, Educational and Psychological Measurement, 70, 4, pp. 596-612, (2010); 
+Curran P.G., Methods for the detection of carelessly invalid responses in survey data, Journal of Experimental Social Psychology, 66, pp. 4-19, (2016); 
+de Ayala R., The theory and practice of item response theory, (2009); 
+Dennis S.A., Goodson B.M., Pearson C.A., Online worker fraud and evolving threats to the integrity of MTurk data: A discussion of virtual private servers and the limitations of IP-based screening procedures, Behavioral Research in Accounting, 32, 1, pp. 119-134, (2020); 
+DeSimone J.A., Harms P.D., Dirty data: The effects of screening respondents who provide low-quality data in survey research, Journal of Business and Psychology, 33, pp. 559-577, (2018); 
+Dupuis M., Meier E., Capel R., Gendre F., Measuring individuals’ response quality in self-administered psychological tests: An introduction to Gendre’s functional method, Frontiers in Psychology, 6, (2015); 
+Dupuis M., Meier E., Cuneo F., Detecting computer-generated random responding in questionnaire-based data: A comparison of seven indices, Behavior Research Methods, 51, pp. 2228-2237, (2019); 
+Dupuis M., Meier E., Gholam-Rezazee M., Gmel G., Strippoli M.P.F., Renaud O., Detecting computer-generated random responding in online questionnaires: An extension of Dupuis, Meier & Cuneo (2019) on dichotomous data, Personality and Individual Differences, 157, (2020); 
+Genz A., Bretz F., Miwa T., Mi X., Leisch F., Scheipl F., Hothorn T., mvtnorm: Multivariate normal and t distributions, (2021); 
+Henrich J., Heine S.J., Norenzayan A., The weirdest people in the world?, Behavioral and Brain Sciences, 33, pp. 61-135, (2010); 
+Hong M.R., Cheng Y., Robust maximum marginal likelihood (RMML) estimation for item response theory models, Behavior Research Methods, 51, pp. 573-588, (2018); 
+Hong M.R., Steedle J.T., Cheng Y., Methods of detecting insufficient effort responding: Comparisons and practical recommendations, Educational and Psychological Measurement, 80, 2, pp. 312-345, (2020); 
+Huang J.L., Curran P.G., Keeney J., Poposki E.M., DeShon R.P., Detecting and deterring insufficient effort responding to surveys, Journal of Business and Psychology, 27, 1, pp. 99-114, (2012); 
+Huang J.L., Liu M., Bowling N., Insufficient effort responding: Examining an insidious confound in survey data, Journal of Applied Psychology, 100, 3, pp. 828-845, (2015); 
+James G., Witten D., Hastie T., Tibshirani R., An introduction to statistical learning: With applications in R, (2013); 
+Kuiper N.A., Humor Styles Questionnaire, Encyclopedia of personality and individual differences, pp. 2087-2090, (2016); 
+Lohr S.L., Sampling: Design and analysis, (2010); 
+Meade A.W., Craig S.B., Identifying careless responses in survey data, Psychological Methods, 17, 3, pp. 437-455, (2012); 
+Meijer R.R., Tendeiro J.N., The use of the l<sub>z</sub> and l<sub>z</sub>* person-fit statistics and problems derived from model misspecification, Journal of Educational and Behavioral Statistics, 37, pp. 758-766, (2012); 
+Niessen A.S.M., Meijer R.R., Tendeiro J.N., Detecting careless respondents in web-based questionnaires: Which method to use?, Journal of Research in Personality, 63, pp. 1-11, (2016); 
+Osborne J.W., Blanchard M.R., Random responding from participants is a threat to the validity of social science research results, Frontiers in Psychology, 1, (2011); 
+Peer E., Brandimarte L., Samat S., Acquisti A., Beyond the Turk: Alternative platforms for crowdsourcing behavioral research, Journal of Experimental Social Psychology, 70, pp. 153-163, (2017); 
+Perkel J.M., Mischief-making bots attacked my scientific survey, Nature, 579, (2020); 
+R: A language and environment for statistical computing, (2021); 
+Simmons J.P., Nelson L.D., Simonsohn U., False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant, Psychological Science, 22, 11, pp. 1359-1366, (2011); 
+Simone M., How to battle the bots wrecking your online study, Behavioral Scientist, (2019); 
+Storozuk A., Ashley M., Delage V., Maloney E.A., Got bots? Practical recommendations to protect online survey data from bot attacks, The Quantitative Methods for Psychology, 16, 5, pp. 472-481, (2020); 
+Teitcher J.E.F., Bockting W.O., Bauermeister J.A., Hoefer C.J., Miner M.H., Klitzman R.L., Detecting, preventing, and responding to “fraudsters” in internet research: Ethics and tradeoffs, The Journal of Law, Medicine, & Ethics, 43, 1, pp. 116-133, (2015); 
+Unal I., Defining an optimal cut-point value in ROC analysis: An alternative approach, Computational and Mathematical Methods in Medicine, 2017, (2017); 
+Vaughan D., Dancho M., furrr: Apply mapping functions in parallel using futures, (2021); 
+Yarkoni T., Westfall J., Choosing prediction over explanation in psychology: Lessons from machine learning, Perspectives in Psychological Science, 12, 6, pp. 1100-1122, (2017)#FRF#

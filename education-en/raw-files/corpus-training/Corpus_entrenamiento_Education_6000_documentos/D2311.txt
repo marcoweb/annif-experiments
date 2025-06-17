@@ -1,0 +1,55 @@
+#ITI#Robustness of Adaptive Measurement of Change to Item Parameter Estimation Error#FTI#
+#IRE# Adaptive measurement of change (AMC) is a psychometric method for measuring intra-individual change on one or more latent traits across testing occasions. Three hypothesis tests—a Z test, likelihood ratio test, and score ratio index—have demonstrated desirable statistical properties in this context, including low false positive rates and high true positive rates. However, the extant AMC research has assumed that the item parameter values in the simulated item banks were devoid of estimation error. This assumption is unrealistic for applied testing settings, where item parameters are estimated from a calibration sample before test administration. Using Monte Carlo simulation, this study evaluated the robustness of the common AMC hypothesis tests to the presence of item parameter estimation error when measuring omnibus change across four testing occasions. Results indicated that item parameter estimation error had at most a small effect on false positive rates and latent trait change recovery, and these effects were largely explained by the computerized adaptive testing item bank information functions. Differences in AMC performance as a function of item parameter estimation error and choice of hypothesis test were generally limited to simulees with particularly low or high latent trait values, where the item bank provided relatively lower information. These simulations highlight how AMC can accurately measure intra-individual change in the presence of item parameter estimation error when paired with an informative item bank. Limitations and future directions for AMC research are discussed.#FRE#
+#IPC# adaptive measurement of change; computerized adaptive testing; item parameter estimation error#FPC#
+#IRF# Agresti A., An introduction to categorical data analysis, (2007); 
+Birnbaum A., Some latent trait models and their use in inferring an examinee’s ability, Statistical theories of mental test scores, pp. 397-479, (1986); 
+Bock R.D., Aitkin M., Marginal maximum likelihood estimation of item parameters: Application of an EM algorithm, Psychometrika, 46, 4, pp. 443-459, (1981); 
+Bradlow E.T., Teacher’s corner: Negative information and the three-parameter logistic model, Journal of Educational and Behavioral Statistics, 21, 2, pp. 179-185, (1996); 
+Chalmers R.P., mirt: A multidimensional item response theory package for the R environment, Journal of Statistical Software, 48, 6, (2012); 
+Cheng Y., Yuan K.-H., The impact of fallible item parameter estimates on latent trait recovery, Psychometrika, 75, 2, pp. 280-291, (2010); 
+Choi S.W., Grady M.W., Dodd B.G., A new stopping rule for computerized adaptive testing, Educational and Psychological Measurement, 71, 1, pp. 37-53, (2011); 
+Crichton L.I., Effect of error in item parameter estimates on adaptive testing, (1981); 
+Cronbach L.J., Furby L., How we should measure “change”: Or should we?, Psychological Bulletin, 74, 1, pp. 68-80, (1970); 
+De Ayala R.J., The theory and practice of item response theory, (2013); 
+Drasgow F., An evaluation of marginal maximum likelihood estimation for the two-parameter logistic model, Applied Psychological Measurement, 13, 1, pp. 77-90, (1989); 
+Embretson S.E., A multidimensional latent trait model for measuring learning and change, Psychometrika, 56, 3, pp. 495-515, (1991); 
+Embretson S.E., Reise S.P., Item response theory for psychologists, (2000); 
+Feuerstahler L.M., Sources of error in IRT trait estimation, Applied Psychological Measurement, 42, 5, pp. 359-375, (2018); 
+Finkelman M.D., Weiss D.J., Kim-Kang G., Item selection and hypothesis testing for the adaptive measurement of change, Applied Psychological Measurement, 34, 4, pp. 238-254, (2010); 
+Hambleton R.K., Jones R.W., Item parameter estimation errors and their influence on test information functions, Applied Measurement in Education, 7, 3, pp. 171-186, (1994); 
+Hambleton R.K., Jones R.W., Rogers H.J., Influence of item parameter estimation errors in test development, Journal of Educational Measurement, 30, 2, pp. 143-155, (1993); 
+Huang H.-Y., Effects of item calibration errors on computerized adaptive testing under cognitive diagnosis models, Journal of Classification, 35, 3, pp. 437-465, (2018); 
+Hulin C.L., Lissak R.I., Drasgow F., Recovery of two- and three-parameter logistic item characteristic curves: A Monte Carlo study, Applied Psychological Measurement, 6, 3, pp. 249-260, (1982); 
+Jacobson N.S., Follette W.C., Revenstorf D., Psychotherapy outcome research: Methods for reporting variability and evaluating clinical significance, Behavior Therapy, 15, 4, pp. 336-352, (1984); 
+Jacobson N.S., Truax P., Clinical significance: A statistical approach to defining meaningful change in psychotherapy research, Journal of Consulting and Clinical Psychology, 59, 1, pp. 12-19, (1991); 
+Kaskowitz G.S., De Ayala R.J., The effect of error in item parameter estimates on the test response function method of linking, Applied Psychological Measurement, 25, 1, pp. 39-52, (2001); 
+Kim-Kang G., Weiss D.J., Comparison of computerized adaptive testing and classical methods for measuring individual change, (2007); 
+Kim-Kang G., Weiss D.J., Adaptive measurement of individual change, Zeitschrift Für Psychologie/Journal of Psychology, 216, 1, pp. 49-58, (2008); 
+Lee J.E., Hypothesis testing for adaptive measurement of individual change, (2015); 
+Li Y.H., Lissitz R.W., Applications of the analytically derived asymptotic standard errors of item response theory item parameter estimates, Journal of Educational Measurement, 41, 2, pp. 85-117, (2004); 
+Lord F.M., An analysis of the verbal scholastic aptitude test using Birnbaum’s three-parameter logistic model, Educational and Psychological Measurement, 28, 4, pp. 989-1020, (1968); 
+Meredith W., Measurement invariance, factor analysis and factorial invariance, Psychometrika, 58, 4, pp. 525-543, (1993); 
+Millsap R.E., Invariance in measurement and prediction: Their relationship in the single-factor case, Psychological Methods, 2, 3, pp. 248-260, (1997); 
+Nydick S., catIrt: An R package for simulating IRT-based computerized adaptive tests, (2014); 
+O'Connor E.F., Extending classical test theory to the measurement of change, Review of Educational Research, 42, 1, pp. 73-97, (1972); 
+Olea J., Barrada J.R., Abad F.J., Ponsoda V., Cuevas L., Computerized adaptive testing: The capitalization on chance problem, Spanish Journal of Psychology, 15, 1, pp. 424-441, (2012); 
+Patton J.M., Cheng Y., Yuan K.-H., Diao Q., The influence of item calibration error on variable-length computerized adaptive testing, Applied Psychological Measurement, 37, 1, pp. 24-40, (2013); 
+Patton J.M., Cheng Y., Yuan K.-H., Diao Q., Bootstrap standard errors for maximum likelihood ability estimates when item parameters are unknown, Educational and Psychological Measurement, 74, 4, pp. 697-712, (2014); 
+Phadke C., Measuring intra-individual change at two or more occasions with hypothesis testing methods, (2017); 
+R: A language and environment for statistical computing, (2021); 
+Reise S.P., Item response theory, Encyclopedia of clinical psychology, pp. 1-10, (2014); 
+Sahin A., Anil D., The effects of test length and sample size on item parameters in item response theory, Educational Sciences: Theory & Practice, 17, 1, pp. 321-335, (2017); 
+Sahin A., Weiss D.J., (2015). Effects of calibration sample size and item bank size on ability estimation in computerized adaptive testing, Educational Sciences: Theory & Practice, 15, 6, pp. 1585-1595; 
+Sun X., Liu Y., Xin T., Song N., The impact of item calibration error on variable-length cognitive diagnostic computerized adaptive testing, 11, (2020); 
+Swaminathan H., Hambleton R.K., Sireci S.G., Xing D., Rizavi S.M., Small sample estimation in dichotomous item response models: Effect of priors based on judgmental information on the accuracy of item parameter estimates, Applied Psychological Measurement, 27, 1, pp. 27-51, (2003); 
+van der Linden W.J., Glas C.A.W., Capitalization on item calibration error in adaptive testing, Applied Measurement in Education, 13, 1, pp. 35-53, (2000); 
+Wang C., Weiss D.J., Multivariate hypothesis testing methods for evaluating significant individual change, Applied Psychological Measurement, 42, 3, pp. 221-239, (2018); 
+Wang C., Weiss D.J., Shang Z., Variable-length stopping rules for multidimensional computerized adaptive testing, Psychometrika, 84, 3, pp. 749-771, (2019); 
+Wang C., Weiss D.J., Suen K.Y., Hypothesis testing methods for multivariate multi-occasion intra-individual change, Multivariate Behavioral Research, (2020); 
+Weiss D.J., Improving measurement quality and efficiency with adaptive testing, Applied Psychological Measurement, 6, 4, pp. 473-492, (1982); 
+Weiss D.J., Computerized adaptive testing for effective and efficient measurement in counseling and education, Measurement and Evaluation in Counseling and Development, 37, 2, pp. 70-84, (2004); 
+Weiss D.J., Kingsbury G.G., Application of computerized adaptive testing to educational problems, Journal of Educational Measurement, 21, 4, pp. 361-375, (1984); 
+Weiss D.J., Von Minden S., A comparison of item parameter estimates from Xcalibre 4.1 and Bilog-MG, (2012); 
+Wickham H., ggplot2: Elegant graphics for data analysis, (2016); 
+Widaman K.F., Reise S.P., Exploring the measurement invariance of psychological instruments: Applications in the substance use domain, The science of prevention: Methodological advances from alcohol and substance abuse research, pp. 281-324, (1997); 
+Yoes M., An updated comparison of micro-computer based item parameter estimation procedures used with the 3-parameter IRT model, (1995)#FRF#

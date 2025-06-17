@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización de pacientes extranjeros confirmados con la COVID-19 en Santiago de Cuba</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Characterization of foreign patients confirmed with the COVID - 19 in Santiago de Cuba</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7826-4132</contrib-id>
+					<name>
+						<surname>Rodríguez Suárez</surname>
+						<given-names>Sirce</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0315-7164</contrib-id>
+					<name>
+						<surname>Kindelán Mercerón</surname>
+						<given-names>Farah María</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3829-2286</contrib-id>
+					<name>
+						<surname>Pérez León</surname>
+						<given-names>Jorge Luis</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3362-5440</contrib-id>
+					<name>
+						<surname>Vázquez Sánchez</surname>
+						<given-names>Monserrat</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2b"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8513-067X</contrib-id>
+					<name>
+						<surname>Maturell Comas</surname>
+						<given-names>Mercedes</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Policlínico Universitario Julián Grimau García. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Policlínico Universitario Julián Grimau García</institution>
+				<institution content-type="orgname">Policlínico Universitario Julián Grimau García</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+				<email>sirce@infomed.sld.cu</email>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Policlínico Universitario Julián Grimau García. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Policlínico Universitario Julián Grimau García</institution>
+				<institution content-type="orgname">Policlínico Universitario Julián Grimau García</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Facultad de Medicina No.1, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina No.1</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2b">
+				<label>2</label>
+				<institution content-type="original">Facultad de Medicina No.1, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina No.1</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Policlínico Porfirio Valiente Bravo, Songo la Maya. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Policlínico Porfirio Valiente Bravo</institution>
+				<institution content-type="orgname">Policlínico Porfirio Valiente Bravo</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia: correo electrónico: <email>sirce@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflictos de intereses</label>
+					<p> Los autores no declaran ningún conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>22</day>
+				<month>09</month>
+				<year>2021</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<season>Sep-Oct</season>
+				<year>2021</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<season>Sep-Oct</season>
+				<year>2021</year>
+			</pub-date>
+			<volume>25</volume>
+			<issue>5</issue>
+			<fpage>1088</fpage>
+			<lpage>1100</lpage>
+			<history>
+				<date date-type="received">
+					<day>30</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>23</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción: </title>
+					<p>La COVID - 19 es una enfermedad emergente, que ha afectado a todo el mundo de forma pandémica, con elevados costos sanitarios, económicos y sociales. </p>
+				</sec>
+				<sec>
+					<title>Objetivo: </title>
+					<p>Caracterizar a los pacientes extranjeros confirmados con la COVID - 19 en Santiago de Cuba, según variables clinicoepidemiológicas seleccionadas. </p>
+				</sec>
+				<sec>
+					<title>Métodos: </title>
+					<p>Se realizó un estudio observacional, descriptivo y transversal de 42 pacientes extranjeros, quienes visitaron la provincia de Santiago de Cuba y resultaron positivos a la COVID - 19, los cuales fueron remitidos a los centros de salud destinados para su atención desde marzo hasta diciembre del 2020. Se analizaron variables, tales como edad, sexo, municipio de residencia, país de procedencia, meses de mayor número de extranjeros que visitaron la provincia y evolución clínica. </p>
+				</sec>
+				<sec>
+					<title>Resultados: </title>
+					<p>El grupo etario de mayor frecuencia fue el de 30 - 44 años (14 pacientes para 33,3 %), seguido de los afectados de 45 - 59 (11 para 26,2 %). El municipio de Santiago de Cuba resultó el de mayor riesgo de incidencia (27 para 64,3 %). La manifestación clínica más común fue el malestar general y el país de procedencia que prevaleció, Estados Unidos (47,6 %). Todos los pacientes fueron importados. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones: </title>
+					<p>Los integrantes de la casuística tuvieron una evolución favorable, lo cual permitió accionar, desde la atención primaria de salud, a fin de prevenir la enfermedad y realizar el control de foco como principal herramienta para cortar la cadena de transmisión. </p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The COVID-19 is an emergent disease that has affected everybody in a pandemic way, with high sanitary, economic and social costs. </p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To characterize foreign patients confirmed with the COVID-19 in Santiago de Cuba, according to selected clinical epidemiological variables. </p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> An observational, descriptive and cross-sectional study of 42 foreign patients who visited Santiago de Cuba province and tested positive to the COVID-19, who were referred to the health centers dedicated for their care was carried out from March to December, 2020. Some variables were analyzed, such as age, sex, residence municipality, origin country, months of more number of foreigners that visited the province and clinical course. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The age group of more frequency was that of 30 - 44 years (14 patients for 33.3 %), followed by those affected of 45 - 59 years (11 for 26.2 %). The municipality of Santiago de Cuba had the higher risk of incidence (27 for 64.3 %). The most common clinical sign was the diffuse discomfort and the origin country that prevailed, United States (47.6 %). All the patients were imported. </p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The members of the case material had a favorable clinical course, that allowed to work, from the primary health care, in order to prevent the disease and to carry out the source of infection control as main tool to stop the transmission chain. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>coronavirus</kwd>
+				<kwd>SARS-CoV-2</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>epidemiología</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>coronavirus</kwd>
+				<kwd>SARS-CoV-2</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>epidemiology</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="16"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>Las enfermedades infecciosas emergentes causan brotes epidémicos de gran impacto en la salud pública, con consecuencias económicas y sociales. En el siglo XXI existen múltiples ejemplos de estas, la mayoría con capacidad pandémica, tales como SARS, influenza H5N1, H1N1pdm09, H7N9, MERS-CoV y, actualmente, la COVID-19. Se suman las infecciones ya conocidas, confinadas a ciertas regiones y que se han diseminado a otras, entre ellas: brotes del ébola o la llegada al continente americano del chikungunya y el zika.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Ahora bien, la COVID - 19 es una enfermedad infecciosa causada por el virus SARS-CoV-2; fue identificada por primera vez en Wuhan, China. También es conocida como el coronavirus y se presenta de forma asintomática en hasta 80 % de los casos a escala mundial. <sup>(</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>La principal vía de transmisión del virus es aérea, a través de pequeñas gotas que se producen cuando una persona infectada exhala, tose o estornuda. También se transmite al tocarse los ojos, la nariz o la boca, tras entrar en contacto con superficies contaminadas. <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Hasta el 30 de abril de 2020, se notificaron en todo el mundo 183 países con casos de COVID - 19, con 3 millones 130 800 pacientes confirmados, 227 051 fallecidos y una letalidad de 7,25 %.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> Los pueblos con mayor número de pacientes confirmados y defunciones fueron Estados Unidos de América, en el cual se confirmaron 1 035 353 casos con 55 337 fallecidos, España con 210 733 afectados y 23 822 defunciones e Italia con 201 505 pacientes y 27 359 decesos.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>En la Región de las Américas se informó un millón 293 607 casos confirmados, 41,32 % del total de los casos notificados en el mundo, con 74 591 fallecidos y una letalidad de 5,7 %, pero el mayor número de pacientes se notificó en los Estados Unidos de América (1 035 353), seguido de Brasil con 78 162 casos y 5 466 fallecidos, así como Canadá con 52 056 pacientes confirmados y 3 082 defunciones.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Hasta la realización de este estudio, en Cuba se encontraban 2 897 pacientes hospitalizados para la vigilancia clinicoepidemiológica. Otras 3 892 personas se vigilaban en sus hogares, desde la atención primaria de salud (APS). Para la COVID - 19 se estudiaron 49 409 muestras y resultaron positivas 1 537 (3,1 %).<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>)</sup> El primer paciente se diagnosticó el 11 de marzo de 2020. El Ministerio de Salud Pública (MINSAP) informó sobre 3 turistas procedentes de Italia, quienes se encontraban en la ciudad de Trinidad y, después de 3 días de estancia en el país, presentaron síntomas respiratorios.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>En tal sentido, fue necesario implementar un protocolo de actuación con alcance nacional, que contribuyera a la prevención, el control y la mejor atención de los pacientes con dicha enfermedad, así como a la protección de los trabajadores de la salud y de la población; para ello, los expertos tomaron como referencia las mejores evidencias científicas existentes.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>De hecho, para la atención primaria de salud y el médico general, el paciente con enfermedades respiratorias agudas (IRA) ha sido siempre motivo de preocupación. En los momentos actuales se precisa de la identificación de los casos positivos al nuevo coronavirus sin que estos puedan estar enmascarados por cuadros de IRA de otras causas. La lucha contra la pandemia se intensifica hoy en todo el mundo y en muchos países se ha logrado una cierta mejoría debido al perfeccionamiento en los protocolos de actuación y las medidas restrictivas de distanciamiento social y confinamiento.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Esta nueva enfermedad se convierte en un desafío para los profesionales de la salud, no solo por las nefastas consecuencias que ha ocasionado en todo el mundo, sino porque aún se encuentran en estudio su origen, periodo de incubación, formas de trasmisión, caracterización clinicoepidemiológica, aspectos radiológicos, protocolos de tratamiento, vacunas, ensayos clínicos y otros.</p>
+			<p>Por ser una enfermedad de transmisión respiratoria, asociada con una alta transmisibilidad y letalidad en el mundo; debido al impacto socioeconómico y para la salud, así como la poca divulgación de estudios similares a escala local y teniendo en cuenta la importancia, novedad y necesidad de actualización del tema, se realizó esta investigación con el objetivo de caracterizar a los pacientes extranjeros confirmados con la COVID - 19, los cuales visitaron la provincia de Santiago de Cuba en el periodo estudiado.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio observacional, descriptivo y transversal de pacientes extranjeros, quienes visitaron la ciudad de Santiago de Cuba y resultaron positivos a la COVID - 19, detectados y remitidos a los centros de salud destinados para su atención, desde marzo hasta diciembre del 2020, con vistas a caracterizarles según variables clinicoepidemiológicas seleccionadas. El universo estuvo conformado por 42 pacientes a quienes se les realizó el RT-PCR (reacción en cadena de polimerasa de transcriptasa reversa en tiempo real), que permitió la confirmación diagnóstica de la enfermedad. </p>
+			<p>Los pacientes se definieron de la manera que sigue:</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Viajero: individuo procedente de una región del país o del extranjero donde estuviera demostrada la transmisión de la enfermedad, durante un periodo de 14 días antes del ingreso.</p>
+					</list-item>
+					<list-item>
+						<p>Caso confirmado: paciente que resultara positivo al estudio virológico para la COVID - 19, con sintomatología o sin ella.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Los pacientes confirmados: </p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>- Caso importado: aquel que arribó al país con la enfermedad o en periodo de incubación de esta (con fuente de infección en el extranjero).</p>
+					</list-item>
+					<list-item>
+						<p>Se analizaron las siguientes variables: edad, sexo, municipio de residencia, país de residencia y evolución clínica. </p>
+					</list-item>
+				</list>
+			</p>
+			<p>Para la obtención de la información se revisaron los registros primarios creados al efecto en el Departamento de Vigilancia de la Dirección Provincial de Salud y los partes nacionales del Ministerio de Salud Pública (MINSAP), así como del Puesto de Mando Provincial de Santiago de Cuba para el enfrentamiento a la COVID - 19. Se confeccionó una base de datos en el sistema operativo Microsoft Excel. Los resultados se mostraron en tablas y se utilizaron técnicas de la estadística descriptiva, tales como determinación de frecuencia absoluta (número de casos) y valor porcentual. Asimismo, se realizó un análisis inductivo y deductivo, que permitió obtener aspectos de interés y establecer comparaciones. </p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En la <xref ref-type="table" rid="t1">tabla 1</xref> se observa un predominio de 14 pacientes confirmados con la COVID - 19, pertenecientes al grupo etario de 30 - 44 años (33,3 %), seguidos por los de 45 - 59 años (26,2 %) y del sexo masculino con 76,2 % de los casos.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Pacientes según edad y sexo</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-25-05-1088-gt1.png"/>
+				</table-wrap>
+			</p>
+			<p>Se muestra (<xref ref-type="table" rid="t2">tabla 2</xref>) una primacía de los pacientes confirmados en el municipio de Santiago de Cuba (27 para 64,3 %), seguidos de Palma Soriano (5 para 11,9 %) y Contramaestre (4 para 9,5 %).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Municipio de residencia de los extranjeros confirmados con la COVID-19</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-25-05-1088-gt2.png"/>
+				</table-wrap>
+			</p>
+			<p>Obsérvese en la <xref ref-type="table" rid="t3">tabla 3</xref> que, según los países de procedencia, hubo un predominio de los pacientes de Estados Unidos (47,6 %), seguido de México (11,9 %) y España (9,5 %).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Países de procedencia de los pacientes extranjeros confirmados con la COVID-19</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-25-05-1088-gt3.png"/>
+				</table-wrap>
+			</p>
+			<p>El mes donde se evidenció mayor circulación de extranjeros y turistas en la provincia de Santiago de Cuba fue diciembre (<xref ref-type="table" rid="t4">tabla 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Número de extranjeros que visitaron la provincia por meses</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-25-05-1088-gt4.png"/>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El mundo vive hoy la consternación del desafío de una de las más graves pandemias enfrentadas a lo largo de la historia de la humanidad, la COVID - 19. Se trata de una enfermedad que, desde su surgimiento a finales de 2019, ha tenido una capacidad de propagación, que ha afectado hasta el día 67 de la pandemia a 185 países, con un acumulado de 4 338 658 casos, de los cuales han muerto 297 119; con una evaluación del nivel global de riesgo muy alto, según la Organización Mundial de la Salud (OMS). Entre los 10 países más afectados del mundo se destacan: EE. UU, Rusia, Reino Unido, España, Italia, Brasil, Francia, Alemania Turquía e Irán. Rusia muestra cifras alarmantes de contagio en las últimas semanas. De igual manera, en la Región de las Américas se destaca Brasil con impresionantes cifras de contaminación<sup>. (</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>Desde que la Organización Mundial de la Salud (OMS) declarara a la COVID - 19 una pandemia, el 11 de marzo de 2020; el nuevo coronavirus se ha convertido en un azote para la humanidad. Durante todo un año se ha batallado contra esta afección.</p>
+			<p>Cabe destacar, que para la realización de este estudio los autores no contaron con investigaciones actualizadas sobre el tema en pacientes extranjeros durante el periodo de rebrote de la enfermedad, en los meses desde Julio hasta diciembre del 2020, por lo que se apoyaron en revisiones de estudios realizados desde marzo hasta junio del 2020. </p>
+			<p>Con respecto a las variables sociodemográficas generales, este estudio mostró un predominio del sexo masculino (76,2 %) y una edad promedio de 30 - 59 años. Los síntomas comunes al inicio de la enfermedad fueron malestar general, fiebre, congestión nasal y tos; sin embargo, algunos pacientes pudieron estar asintomáticos y/o afebriles y aún transmitir la infección. El municipio de Santiago de Cuba fue el más relevante en cuanto a lugar de residencia, seguido de Palma Soriano y Contramaestre, siendo el primero el de mayor índice poblacional de la provincia. </p>
+			<p>Asimismo, resulta llamativo que Estados Unidos fue el país de donde procedieron los extranjeros, quienes visitaron la provincia en el periodo de estudio (47,6 %), dicho país también aportó el mayor número de infectados de la Región de las Américas. A partir del 26 de marzo de 2020, Estados Unidos se convirtió en la nación con más pacientes infectados por la <ext-link ext-link-type="uri" xlink:href="https://es.wikipedia.org/wiki/COVID-19">COVID-19</ext-link> a escala mundial. Posteriormente, el 11 de abril de 2020, se convirtió en el país con más muertes en el mundo.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Llama la atención a pesar de no ser significativo en este estudio, que el grupo etario de 0 -14 años estuvo afectado con 3 niños para 7,1 %. Dicho grupo es vulnerable, por lo que se necesita de la labor preventiva para su cuidado y protección, además de cumplir con todas las medidas higiénico - sanitarias.</p>
+			<p>Resulta importante señalar que todos estos pacientes fueron atendidos en los centros de aislamiento e ingresados en los hospitales Ambrosio Grillo y Joaquín Castillo Duany con una evolución satisfactoria. </p>
+			<p>Estrada <italic>et al</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>)</sup> refieren, que desde el punto de vista clinicoepidemiológico, la enfermedad se manifiesta igual en todas las provincias de la mayor de las antillas. En una investigación realizada en la provincia de Granma expresaron, que desde marzo hasta mayo de 2020 el sexo más afectado por la COVID - 19 fue el masculino (53,8 %) y el grupo de edad con mayor incidencia el de 20 a 49 años; sin embargo, no ocurrió lo mismo con el modo de contagio, pues en la provincia oriental solo 18,0 % correspondió a contactos de casos positivos.</p>
+			<p>En la provincia de Santiago de Cuba, gracias a un estudio ejecutado entre marzo y mayo de 2020 realizado a 74 pacientes confirmados con la COVID - 19 se comprobó, que predominaron los pacientes del sexo masculino (52,7 %). <sup>(</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>)</sup> Esta situación demuestra que, después de 2 meses de ser notificados los primeros casos positivos en Cuba, el entorno resultó afín. Existen varios informes <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, los cuales justifican la menor susceptibilidad femenina al contagio; desde los inicios de la pandemia se hablaba de la posible resistencia femenina al virus. Se especula que la poca susceptibilidad de las mujeres a las infecciones virales puede deberse a la protección del cromosoma X extra que presentan en comparación con los hombres.</p>
+			<p>Son disímiles los factores de riesgo agravantes de la COVID - 19, donde el sexo y la edad juegan un papel importante. Un estudio realizado por Mejía <italic>et al</italic><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> plantea, que la mediana de edad fue de 59 años y la edad de 60 años y más se asocia a 1,90 veces mayor mortalidad; además, refieren que hubo un predominio del sexo masculino, datos que coinciden con esta investigación donde prevaleció el grupo etario de 30-59 años.</p>
+			<p>La sintomatología de los pacientes con la COVID - 19 es inconstante. Las manifestaciones digestivas no estuvieron presentes en los integrantes de la serie, pero pueden aparecer entre los casos con síntomas, tales como pérdida del apetito, diarrea, vómitos y dolor abdominal.<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> Cobas <italic>et al</italic><xref ref-type="bibr" rid="B15"><sup>15</sup></xref> plantean en un artículo publicado en el 2020, que estudios realizados en pacientes fallecidos por la COVID - 19 hallaron afecciones asociadas en 92,9 % de los casos, siendo más frecuente la hipertensión arterial.</p>
+			<p>La provincia de Santiago de Cuba se mantuvo durante 180 días sin casos positivos de COVID - 19 y en noviembre - diciembre del 2020 se normalizó la situación epidemiológica, lo que permitió la entrada de turistas extranjeros a la provincia, así como el reinicio de las actividades escolares, laborales y sociales. Además, diciembre es un mes festivo, que permite el encuentro entre familiares, amigos y vecinos, donde se descuidan los medios de protección y surge el exceso de confianza por haber controlado la epidemia, lo cual trajo como consecuencia un evento de transmisión local en el consejo popular de Altamira, atribuible a la llegada de turistas extranjeros procedentes de Estados Unidos, que marcó la tensión epidemiológica de la provincia en la nueva normalidad pospandemia. Las razones antes expuestas justifican el aumento de casos con la enfermedad durante noviembre y diciembre.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+			</p>
+			<p>Con la nueva normalidad en Cuba y la entrada, tanto de viajeros como de turismo internacional, el peligro de la COVID - 19 aumentó considerablemente, por ello, entre las acciones a implementar en la realidad santiaguera consta el apercibimiento a la familia de los viajeros habituales y titulares de casas de renta, encargados de velar por el cumplimiento de los protocolos establecidos para esos casos. Entre los barrios afectados de la ciudad cabecera se encontraban Altamira, Sueño, Micro 7 del distrito José Martí y Punta Gorda, correspondientes al municipio de Santiago de Cuba, además de las zonas de Dos Ríos y América en los municipios de Palma Soriano y Contramaestre, respectivamente. Se observó una incidencia de casos de rebrote en dichos municipios.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+			</p>
+			<p>Este rebrote de la COVID - 19 en la provincia muestra gran diferencia con la etapa epidémica anterior, según observó la gobernadora Beatriz Johnson Urrutia, quien expuso que los casos existentes en el territorio se relacionaron con los pacientes importados, asintomáticos todos, y en la segunda cadena de transmisión se manifestaron los sintomáticos, con mayor probabilidad de desarrollar las formas graves de la enfermedad.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+			</p>
+			<p>La miembro del Consejo de Estado recalcó la responsabilidad individual de los viajeros en el cumplimiento de la declaración jurada que reciben cuando arriban al país, donde se les advierte la obligatoriedad de la permanencia en sus viviendas hasta después del quinto día de su llegada, cuando se le repite el PCR en tiempo real, e igual conducta deben seguir el resto de las personas que conviven con ellos. También, significó el valor de la atención primaria de salud, donde recae la mayor responsabilidad con la vigilancia en la identificación de las cadenas de transmisión mediante la encuesta epidemiológica y la aplicación de los principios del Comandante en Jefe Fidel Castro Ruz en el enfrentamiento a epidemias: inmediatez, minuciosidad y sinceridad.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+			</p>
+			<p>Se concluye que, todos los pacientes extranjeros con COVID - 19 tuvieron una evolución favorable, lo que permitió accionar desde la atención primaria para prevenir la enfermedad, mediante el equipo básico de salud y el control de foco como principal herramienta para cortar la transmisión.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Contribución de los autores</title>
+			<p>Dra. Sirce Rodríguez: Gestó de la idea, elaboró el diseño, recogió los datos, confeccionó el artículo y aprobó la versión final (35 %). </p>
+			<p>Dra. Farah María Kindelán Mercerón: Gestó la idea, recogió los datos, confeccionó el artículo y buscó la bibliografía (30 %). </p>
+			<p>Dr. Jorge Luis Pérez León: Elaboró el diseño, confeccionó el artículo y aprobó la versión final (15 %). </p>
+			<p>Dra. Monserrat Vázquez Sánchez: Elaboró el diseño, confeccionó el artículo y aprobó la versión final (10 %). </p>
+			<p>Dra. Mercedes Maturell Comas: Elaboró el diseño, confeccionó el artículo y aprobó la versión final (10 %).</p>
+		</ack>
+		<ref-list>
+			<title>Referencias bibliográficas </title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Li JY, You Z, Wang Q, Zhou ZJ, Qiu Y, Luo R, et al. The epidemic of 2019 - novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future. Microbes Infect. 2020 [citado 16/05/2020]; 22 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S1286457920300307">https://www.sciencedirect.com/science/article/abs/pii/S1286457920300307</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>JY</given-names>
+						</name>
+						<name>
+							<surname>You</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>ZJ</given-names>
+						</name>
+						<name>
+							<surname>Qiu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Luo</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The epidemic of 2019 - novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future</article-title>
+					<source>Microbes Infect</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-16">16/05/2020</date-in-citation>
+					<volume>22</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S1286457920300307">https://www.sciencedirect.com/science/article/abs/pii/S1286457920300307</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>World Health Organization. Coronavirus disease (COVID-19) outbreak. Ginebra: WHO; 2020 [citado 16/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Coronavirus disease (COVID-19) outbreak</source>
+					<year>2020</year>
+					<publisher-loc>Ginebra</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-16">16/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Van Doremalen N, Bushmaker T, Morris DH, Holbrook MG, Gamble A, Williamson BN, et al. Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV-1. N Engl J Med. 2020 [citado 17/06/2020]; 382 (16): 1564-7. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32182409/">https://pubmed.ncbi.nlm.nih.gov/32182409/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Van Doremalen</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Bushmaker</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>DH</given-names>
+						</name>
+						<name>
+							<surname>Holbrook</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Gamble</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Williamson</surname>
+							<given-names>BN</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV-1</article-title>
+					<source>N Engl J Med</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-06-17">17/06/2020</date-in-citation>
+					<volume>382</volume>
+					<issue>16</issue>
+					<fpage>1564</fpage>
+					<lpage>1567</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32182409/">https://pubmed.ncbi.nlm.nih.gov/32182409/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Louro González A. Enfermedad por coronavirus 2019 (COVID-19). Información al paciente. La Coruña: Elsevier; 2020.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Louro González</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Enfermedad por coronavirus 2019 (COVID-19). Información al paciente</source>
+					<year>2020</year>
+					<publisher-loc>La Coruña</publisher-loc>
+					<publisher-name>Elsevier</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Espinosa Brito A. Reflexiones a propósito de la pandemia de COVID-19: del 18 de marzo al 2 de abril de 2020. Anales de la Academia de Ciencias de Cuba. 2020 [citado 17/06/2020]; 10 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaccuba.cu/index.php/revacc/article/view/765/797">http://www.revistaccuba.cu/index.php/revacc/article/view/765/797</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Espinosa Brito</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Reflexiones a propósito de la pandemia de COVID-19: del 18 de marzo al 2 de abril de 2020</article-title>
+					<source>Anales de la Academia de Ciencias de Cuba</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-06-17">17/06/2020</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaccuba.cu/index.php/revacc/article/view/765/797">http://www.revistaccuba.cu/index.php/revacc/article/view/765/797</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Sohrabi C, Alsafi Z, O'Neill N, Khan M, Kerwan A, Al Jabir A, et al. World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19). Int J Surg. 2020 [citado 06/05/2020]; 76: 71-6. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32112977/">https://pubmed.ncbi.nlm.nih.gov/32112977/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sohrabi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Alsafi</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>O'Neill</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kerwan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Al Jabir</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)</article-title>
+					<source>Int J Surg</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-06">06/05/2020</date-in-citation>
+					<volume>76</volume>
+					<fpage>71</fpage>
+					<lpage>76</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32112977/">https://pubmed.ncbi.nlm.nih.gov/32112977/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Cui J, Li F, Shi ZL. Origin and evolution of pathogenic coronaviruses. Nat Rev Microbiol. 2019; 17 (3): 181-92.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cui</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Shi</surname>
+							<given-names>ZL</given-names>
+						</name>
+					</person-group>
+					<article-title>Origin and evolution of pathogenic coronaviruses</article-title>
+					<source>Nat Rev Microbiol</source>
+					<year>2019</year>
+					<volume>17</volume>
+					<issue>3</issue>
+					<fpage>181</fpage>
+					<lpage>192</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Sun P, Lu X, Xu C, Sun W, Pan B. Understanding of COVID-19 based on current evidence. J Med Virol. 2020 [citado 06/05/2020]; 92 (6): 548-51. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv. 25722">https://doi.org/10.1002/jmv. 25722</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sun</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Understanding of COVID-19 based on current evidence</article-title>
+					<source>J Med Virol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-06">06/05/2020</date-in-citation>
+					<volume>92</volume>
+					<issue>6</issue>
+					<fpage>548</fpage>
+					<lpage>551</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv. 25722">https://doi.org/10.1002/jmv. 25722</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Organización Mundial de la Salud. COVID-19. Hoja Informativa. 2020 [citado 20/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://files.sld.cu/cpicm-cmw/files/2020/04/Hoja-inf-abril.pdf">https://files.sld.cu/cpicm-cmw/files/2020/04/Hoja-inf-abril.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>COVID-19. Hoja Informativa</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-20">20/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://files.sld.cu/cpicm-cmw/files/2020/04/Hoja-inf-abril.pdf">https://files.sld.cu/cpicm-cmw/files/2020/04/Hoja-inf-abril.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Coronavirus: Estados Unidos supera a Italia y se convierte en el país del mundo con más muertos y casos de COVID-19. BBC News Mundo, 11 de abril de 2020 [citado 11/04/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/mundo/noticias-internacional-52257580">https://www.bbc.com/mundo/noticias-internacional-52257580</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<article-title>Coronavirus: Estados Unidos supera a Italia y se convierte en el país del mundo con más muertos y casos de COVID-19</article-title>
+					<source>BBC News Mundo</source>
+					<day>11</day>
+					<month>04</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-11">11/04/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/mundo/noticias-internacional-52257580">https://www.bbc.com/mundo/noticias-internacional-52257580</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Estrada García CB, Recio Fornaris I, Vega Torres R, Collejo Rosabal YM, Martínez Orozco D. Comportamiento clínico epidemiológico de la COVID-19. Granma, marzo-mayo de 2020. Multimed. 2020 [citado 23/12/2020]; 24 (4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revmultimed.sld.cu/index.php/mtm/article/view/1993">http://www.revmultimed.sld.cu/index.php/mtm/article/view/1993</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Estrada García</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Recio Fornaris</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Vega Torres</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Collejo Rosabal</surname>
+							<given-names>YM</given-names>
+						</name>
+						<name>
+							<surname>Martínez Orozco</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Comportamiento clínico epidemiológico de la COVID-19. Granma, marzo-mayo de 2020</article-title>
+					<source>Multimed</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-12-23">23/12/2020</date-in-citation>
+					<volume>24</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revmultimed.sld.cu/index.php/mtm/article/view/1993">http://www.revmultimed.sld.cu/index.php/mtm/article/view/1993</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Ferrer Castro JE, Sánchez Hernández E, Poulout Mendoza A, Río Caballero G, Figueredo Sánchez D. Caracterización clínica y epidemiológica de pacientes confirmados con la COVID-19 en la provincia de Santiago de Cuba. MEDISAN. 2020 [citado 23/12/2020]; 24 (3). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://medisan.sld.cu/index.php/san/article/view/3145/html">http://medisan.sld.cu/index.php/san/article/view/3145/html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferrer Castro</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Sánchez Hernández</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Poulout Mendoza</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Río Caballero</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Figueredo Sánchez</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Caracterización clínica y epidemiológica de pacientes confirmados con la COVID-19 en la provincia de Santiago de Cuba</article-title>
+					<source>MEDISAN</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-12-23">23/12/2020</date-in-citation>
+					<volume>24</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://medisan.sld.cu/index.php/san/article/view/3145/html">http://medisan.sld.cu/index.php/san/article/view/3145/html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Mejía F, Medina C, Cornejo E, Morello E, Vásquez S, Alave J, et al. Características clínicas y factores asociados a mortalidad en pacientes adultos hospitalizados por COVID-19 en un hospital público de Lima, Perú. 2020 [citado 06/07/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://preprints.scielo.org/index.php/scielo/preprint/view/858">https://preprints.scielo.org/index.php/scielo/preprint/view/858</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mejía</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Medina</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cornejo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Morello</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vásquez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Alave</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Características clínicas y factores asociados a mortalidad en pacientes adultos hospitalizados por COVID-19 en un hospital público de Lima, Perú</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-07-06">06/07/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://preprints.scielo.org/index.php/scielo/preprint/view/858">https://preprints.scielo.org/index.php/scielo/preprint/view/858</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Pan L, Mu M, Yang P, Sun Y, Wang R, Yan J, et al. Clinical characteristics of COVID-19 patients with digestive symptoms in Hubei, China: A descriptive, cross-sectional, multicenter study. Am J Gastroenterol. 2020 [citado 07/07/2020]; 115. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7172492/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7172492/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pan</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Yan</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical characteristics of COVID-19 patients with digestive symptoms in Hubei, China: A descriptive, cross-sectional, multicenter study</article-title>
+					<source>Am J Gastroenterol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-07-07">07/07/2020</date-in-citation>
+					<volume>115</volume>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7172492/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7172492/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Cobas Planchez L, Mezquia de Pedro N, Armenteros Terán SS. Características clínicas de pacientes con sospecha de COVID-19 ingresados en el hospital &quot;Frank País García&quot;, La Habana. Rev. Electrón. Zoilo. 2020 [citado 23/12/2020]; 45 (4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revzoilomarinello.sld.cu/index.php/zmv/article/view/2339">http://revzoilomarinello.sld.cu/index.php/zmv/article/view/2339</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cobas Planchez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mezquia de Pedro</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Armenteros Terán</surname>
+							<given-names>SS</given-names>
+						</name>
+					</person-group>
+					<article-title>Características clínicas de pacientes con sospecha de COVID-19 ingresados en el hospital &quot;Frank País García&quot;, La Habana</article-title>
+					<source>Rev. Electrón. Zoilo</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-12-23">23/12/2020</date-in-citation>
+					<volume>45</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revzoilomarinello.sld.cu/index.php/zmv/article/view/2339">http://revzoilomarinello.sld.cu/index.php/zmv/article/view/2339</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Beatón Ruiz B. Santiago de Cuba: prevención ante el rebrote de la COVID - 19. Periódico Trabajadores, La Habana, 16 Nov 2020 [citado 23/12/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.trabajadores.cu/20201116/santiago-de-cuba-prevencion-ante-el-rebrote-de-la-covid-19/">http://www.trabajadores.cu/20201116/santiago-de-cuba-prevencion-ante-el-rebrote-de-la-covid-19/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="newspaper">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Beatón Ruiz</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Santiago de Cuba: prevención ante el rebrote de la COVID - 19</article-title>
+					<source>Periódico Trabajadores</source>
+					<publisher-loc>La Habana</publisher-loc>
+					<day>16</day>
+					<month>11</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-12-23">23/12/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.trabajadores.cu/20201116/santiago-de-cuba-prevencion-ante-el-rebrote-de-la-covid-19/">http://www.trabajadores.cu/20201116/santiago-de-cuba-prevencion-ante-el-rebrote-de-la-covid-19/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

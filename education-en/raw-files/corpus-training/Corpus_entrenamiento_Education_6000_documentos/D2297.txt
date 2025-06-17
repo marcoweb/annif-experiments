@@ -1,0 +1,37 @@
+#ITI#The Use of Theory of Linear Mixed-Effects Models to Detect Fraudulent Erasures at an Aggregate Level#FTI#
+#IRE# Wollack et al. (2015) suggested the erasure detection index (EDI) for detecting fraudulent erasures for individual examinees. Wollack and Eckerly (2017) and Sinharay (2018) extended the index of Wollack et al. (2015) to suggest three EDIs for detecting fraudulent erasures at the aggregate or group level. This article follows up on the research of Wollack and Eckerly (2017) and Sinharay (2018) and suggests a new aggregate-level EDI by incorporating the empirical best linear unbiased predictor from the literature of linear mixed-effects models (e.g., McCulloch et al., 2008). A simulation study shows that the new EDI has larger power than the indices of Wollack and Eckerly (2017) and Sinharay (2018). In addition, the new index has satisfactory Type I error rates. A real data example is also included.#FRE#
+#IPC# data forensics; empirical best linear unbiased predictor; erasure analysis; linear mixed-effects model; test fraud#FPC#
+#IRF# Agresti A., Foundations of linear and generalized linear models, (2015); 
+Standards for educational and psychological testing, (2014); 
+Bishop N.S., Liassou D., Bulut O., Seo D.G., Bishop K., (2011); 
+Bock R.D., Estimating item parameters and latent ability when responses are scored in two or more nominal categories, Psychometrika, 37, 1, pp. 29-51, (1972); 
+Braun H.I., Empirical Bayes methods: A tool for exploratory analysis, Multilevel analysis of educational data, pp. 19-55, (1989); 
+Cizek G.J., Wollack J.A., Handbook of detecting cheating on tests, (2017); 
+Cochran W.G., The χ2 test of goodness of fit, Annals of Mathematical Statistics, 23, 3, pp. 315-345, (1952); 
+Efron B., Nonparametric estimates of standard error: The jackknife, the bootstrap and other methods, Biometrika, 68, 3, pp. 589-599, (1981); 
+Foster D., Security issues in technology-based testing, Handbook of test security, pp. 299-311, (2013); 
+Ghosh M., Meeden G., Empirical Bayes estimation in finite population sampling, Journal of the American Statistical Association, 81, 396, pp. 1058-1062, (1986); 
+Gonzalez-Manteiga W., Lombardia M.J., Molina I., Morales D., Santamaria L., Bootstrap mean squared error of a small-area EBLUP, Journal of Statistical Computation and Simulation, 78, 5, pp. 443-462, (2008); 
+Harville D.A., That BLUP is a good thing: The estimation of random effects [Comment], Statistical Science, 6, 1, pp. 35-39, (1991); 
+Henderson C.R., Best linear unbiased estimation and prediction under a selection model, Biometrics, 31, 2, pp. 423-447, (1975); 
+Henderson H., Searle S., On deriving the inverse of a sum of matrices, SIAM Review, 23, 1, pp. 53-60, (1981); 
+Jiang J., Lahiri P., Mixed model prediction and small area estimation, Test, 15, (2006); 
+Liu O.L., Bridgeman B., Gu L., Xu J., Kong N., Investigation of response changes in the GRE revised general test, Educational and Psychological Measurement, 75, 6, pp. 1002-1020, (2015); 
+Maynes D., Educator cheating and the statistical detection of group-based test security threats, Handbook of test security, pp. 187-214, (2013); 
+McClintock J.C., Erasure analyses: Reducing the number of false positives, Applied Measurement in Education, 28, 1, pp. 14-32, (2015); 
+McCulloch C.E., Searle S.R., Neuhaus J.M., Generalized, linear, and mixed models, (2008); 
+Molina I., Marhuenda Y., Sae: An R package for small area estimation, R Journal, 7, 1, pp. 81-98, (2015); 
+Partchev I., Maris G., Hattori T., irtoys: A collection of functions related to item response theory (IRT), (2017); 
+Prasad N.N., Rao J.N., The estimation of the mean squared error of small-area estimators, Journal of the American statistical association, 85, 409, pp. 163-171, (1990); 
+R: A language and environment for statistical computing, (2020); 
+Sinharay S., Detection of item preknowledge using likelihood ratio test and score test, Journal of Educational and Behavioral Statistics, 42, 1, pp. 46-68, (2017); 
+Sinharay S., Detecting fraudulent erasures at an aggregate level, Journal of Educational and Behavioral Statistics, 43, 3, pp. 286-315, (2018); 
+Sinharay S., Duong M.Q., Wood S.W., A new statistic for detection of aberrant answer changes, Journal of Educational Measurement, 54, 2, pp. 60-217, (2017); 
+Sinharay S., Jensen J.L., Higher-order asymptotics and its use to test the equality of the examinee ability over two sets of items, Psychometrika, 84, 2, pp. 484-510, (2019); 
+Sinharay S., Johnson M.S., Three new methods for analysis of answer changes, Educational and Psychological Measurement, 77, 1, pp. 54-81, (2017); 
+Warm T.A., Weighted likelihood estimation of ability in item response theory, Psychometrika, 54, 3, pp. 427-450, (1989); 
+Wollack J.A., A nominal response model approach to detect answer copying, Applied Psychological Measurement, 21, 4, pp. 307-320, (1997); 
+Wollack J.A., Cohen A.S., Eckerly C.A., Detecting test tampering using item response theory, Educational and Psychological Measurement, 75, 6, pp. 931-953, (2015); 
+Wollack J.A., Eckerly C., Detecting test tampering at the group level, Handbook of detecting cheating on tests, pp. 214-231, (2017); 
+Wollack J.A., Schoenig R.W., Cheating, The SAGE encyclopedia of educational research, measurement, and evaluation, pp. 260-265, (2018); 
+Zwick R., Thayer D., Lewis C., An empirical Bayes approach to Mantel-Haenszel DIF analysis, Journal of Educational Measurement, 36, 1, pp. 1-28, (1999)#FRF#

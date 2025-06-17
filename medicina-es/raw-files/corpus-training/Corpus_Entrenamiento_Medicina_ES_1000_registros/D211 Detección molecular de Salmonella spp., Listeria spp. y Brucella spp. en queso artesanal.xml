@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v38i3.3677</article-id>
+			<article-id pub-id-type="publisher-id">00006</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>ARTÍCULO ORIGINAL</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Detección molecular de <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp. y <italic>Brucella</italic> spp. en queso artesanal fresco comercializado en Barranquilla: un estudio piloto</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Molecular detection of <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp. and <italic>Brucella</italic> spp. in fresh artisanal cheese marketed in the city of Barranquilla: A pilot study</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Soto Varela</surname>
+						<given-names>Zamira E.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gutiérrez</surname>
+						<given-names>Clara Gilma</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>de Moya</surname>
+						<given-names>Yurina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Mattos</surname>
+						<given-names>Ramón</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Bolívar Anillo</surname>
+						<given-names>Hernando José</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Villarreal</surname>
+						<given-names>José Luis</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Grupo de Investigación en Gestión Ecológica y Agroindustrial, Programa de Microbiología, Facultad de Ciencias Exactas, Universidad Libre, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Libre</institution>
+				<institution content-type="orgdiv2">Programa de Microbiología</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Exactas</institution>
+				<institution content-type="orgname">Universidad Libre</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Grupo de Investigación en Métodos Estadísticos Aplicados, Universidad Libre, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Libre</institution>
+				<institution content-type="orgdiv1">Grupo de Investigación en Métodos Estadísticos Aplicados</institution>
+				<institution content-type="orgname">Universidad Libre</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Grupo de Investigación de Biomembranas, Programa de Medicina, Facultad de Ciencias de la Salud, Universidad Libre, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Libre</institution>
+				<institution content-type="orgdiv2">Programa de Medicina</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias de la Salud</institution>
+				<institution content-type="orgname">Universidad Libre</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Grupo de Investigación en Bioquímica Patológica, Programa de Medicina, Facultad de Ciencias de la Salud, Universidad Libre, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Libre</institution>
+				<institution content-type="orgdiv2">Programa de Medicina</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias de la Salud</institution>
+				<institution content-type="orgname">Universidad Libre</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>1</label>
+				<institution content-type="original"> Grupo de Investigación en Gestión Ecológica y Agroindustrial, Programa de Microbiología, Facultad de Ciencias Exactas, Universidad Libre, Barranquilla, Colombia</institution>
+				<institution content-type="normalized">Universidad Libre</institution>
+				<institution content-type="orgdiv2">Programa de Microbiología</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Exactas</institution>
+				<institution content-type="orgname">Universidad Libre</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>clara_tierra@yahoo.es</email>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label> Correspondencia: Clara Gutiérrez, Grupo de Investigación en Gestión Ecológica y Agroindustrial, Programa de Microbiología, Facultad de Ciencias Exactas, Universidad Libre, km 7 antigua vía Puerto Colombia, Barranquilla, Colombia Teléfono: (300) 621 3019; fax: 359 8567 <email>clarag.gutierrezc@unilibre.edu.co</email>; <email>clara_tierra@yahoo.es</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn2">
+					<label>Conflicto de intereses</label>
+					<p> No existe ninguno</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<month>08</month>
+				<year>2018</year>
+			</pub-date>
+			<volume>38</volume>
+			<issue>2</issue>
+			<supplement>suppl</supplement>
+			<fpage>30</fpage>
+			<lpage>36</lpage>
+			<history>
+				<date date-type="received">
+					<day>21</day>
+					<month>11</month>
+					<year>2016</year>
+				</date>
+				<date date-type="accepted">
+					<day>02</day>
+					<month>11</month>
+					<year>2017</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>Cada año mueren, aproximadamente, tres millones de personas como consecuencia de las enfermedades transmitidas por alimentos. El queso artesanal fresco que se produce y distribuye en la región Caribe colombiana es un producto autóctono de los departamentos de Córdoba, Sucre, Bolívar, Atlántico, Magdalena, Cesar y La Guajira. Su consumo masivo aumenta el riesgo de infección con salmonelosis, listeriosis y brucelosis debido a que es elaborado con una tecnología muy rústica, con leche de vaca no pasteurizada, sin procedimientos estandarizados e higiénicos, y a que su almacenamiento no es adecuado.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Detectar la presencia de <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp. y <italic>Brucella</italic> spp. en muestras de queso artesanal costeño fresco procedente de los departamentos de la región Caribe colombiana.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Mediante reacción en cadena de la polimerasa en tiempo real (qPCR), se analizaron 27 muestras de queso proveniente de cinco departamentos de la región Caribe: Atlántico (n=6), Bolívar (n=2), Córdoba (n=1), Magdalena (n=16) y Sucre (n=2). Del total de las muestras, 17 eran de queso blando, cinco de queso semiduro y cinco de queso duro.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>En el 62,9 % de las muestras se detectó <italic>Salmonella</italic> spp. (17/27), en el 70,4 %, <italic>Listeria</italic> spp. (19/27), y en el 22,2 %, <italic>Brucella</italic> spp. (6/27). Las muestras provenían principalmente del departamento del Magdalena y, en 62,5 % (10/16) de ellas, se encontró <italic>Salmonella</italic> spp. y <italic>Listeria</italic> spp., en tanto que en el 50 % (3/6) de las muestras del departamento del Atlántico se detectó <italic>Brucella</italic> spp.</p>
+				</sec>
+				<sec>
+					<title>Conclusión. </title>
+					<p>Los resultados evidenciaron la presencia de estos microorganismos en todas las muestras de queso costeño blando.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Each year approximately 3 million people die as the result of foodborne diseases. The fresh artisan (handmade) cheese produced and distributed in the Colombian Caribbean region is a native product from the departments of Córdoba, Sucre, Bolívar, Atlántico, Magdalena, Cesar, and La Guajira. Its mass consumption increases the risk of infection with <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp.<italic>,</italic> and <italic>Brucella</italic> spp.<italic>,</italic> as it is made with a very rustic technology, with unpasteurized cow milk, without standardized and hygienic procedures and its storage is inadequate.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To detect the presence of <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp.<italic>,</italic> and <italic>Brucella</italic> spp. in samples of fresh artisan cheese from the Colombian Caribbean region.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>Twenty-seven samples of cheese from five departments of the Caribbean Region (Atlántico (n=6), Bolívar (n=2), Córdoba (n=1), Magdalena (n=16), and Sucre (n=2)) were analyzed by real-time polymerase chain reaction (qPCR). Seventeen of the samples corresponded to soft cheese, five to semi-hard cheese and five to hard cheese.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>In 62.9% (17/27) of the samples we detected <italic>Salmonella</italic> spp., in 70.4% (19/27), <italic>Listeria</italic> spp., and in 22.2% (6/27), <italic>Brucella</italic> spp., mainly from the department of Magdalena. In 62.5% (10/16) of the samples we detected <italic>Salmonella</italic> spp. and <italic>Listeria</italic> spp<italic>.</italic> while in the department of Atlántico, 50% (3/6) of the samples corresponded to <italic>Brucella</italic> spp.</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>The results confirmed the presence of these microorganisms in all the samples of soft cheese from the Colombian Caribbean region.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Salmonella</kwd>
+				<kwd>Listeria</kwd>
+				<kwd>Brucella</kwd>
+				<kwd>enfermedades transmitidas por los alimentos/epidemiología</kwd>
+				<kwd>reacción en cadena de la polimerasa</kwd>
+				<kwd>queso</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Salmonella</kwd>
+				<kwd>Listeria</kwd>
+				<kwd>Brucella</kwd>
+				<kwd>foodborne diseases/epidemiology</kwd>
+				<kwd>polymerase chain reaction</kwd>
+				<kwd>cheese</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="42"/>
+				<page-count count="7"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>A pesar de los estrictos controles que se imponen a la industria alimentaria, cada año mueren, aproximadamente, tres millones de personas como consecuencia de enfermedades transmitidas por alimentos <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, siendo la causa principal el consumo de agua o alimentos contaminados <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Se han descrito más de 250 enfermedades transmitidas por alimentos <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>, lo que exige llevar a cabo controles microbiológicos y sanitarios cada vez más estrictos durante los procesos de producción de alimentos.</p>
+		<p>Según la Norma General del <italic>Codex Alimentarius</italic>, el queso fresco se define como el producto higienizado sin madurar que está listo para el consumo después de su elaboración. El queso se clasifica según su consistencia, es decir, el valor correspondiente al porcentaje de humedad sin materia grasa, en extraduro, duro, firme semiduro y blando <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. El queso que se produce y distribuye en la región Caribe colombiana es un producto autóctono de los departamentos de Córdoba, Sucre, Bolívar, Atlántico, Magdalena, Cesar y La Guajira. Se elabora con leche de vaca no pasteurizada utilizando una tecnología muy rústica y se somete a un periodo de salado de dos horas para prensarlo posteriormente; es de color blanco y no es madurado ni ácido. El procedimiento para su elaboración no está estandarizado ni responde a las normas higiénicas y, además, el almacenamiento del producto no es adecuado <xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+		<p>Dado su consumo masivo, el riesgo de listeriosis, salmonelosis y brucelosis, producidas por <italic>Listeria monocytogenes</italic> y microorganismos de los géneros <italic>Salmonella</italic> spp. y <italic>Brucella</italic> spp., es alto. Dichas infecciones hacen parte de las enfermedades transmitidas por alimentos, cuyo impacto en la salud pública es innegable <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+		<p>La transmisión de <italic>Brucella</italic> spp. puede darse por contacto directo con secreciones de animales infectados <xref ref-type="bibr" rid="B13"><sup>13</sup></xref> o, indirectamente, por el consumo de productos lácteos no pasteurizados <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Sin embargo, los reportes de transmisión de persona a persona de <italic>Brucella</italic> spp. son escasos <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, en tanto que <italic>Salmonella</italic> spp. y <italic>L. monocytogenes</italic> se transmiten principalmente por la ingestión de alimentos contaminados. El desarrollo de estas enfermedades depende de varios factores, como la patogenia del microorganismo, la dosis infecciosa y el estado de salud del consumidor <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+		<p>El objetivo de este trabajo fue detectar mediante qPCR <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp. y <italic>Brucella</italic> spp. en quesos artesanales procedentes de los departamentos de la costa Atlántica colombiana que se distribuyen en expendios de Barranquilla.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title>Tipo de estudio</title>
+				<p>Se hizo un estudio de tipo descriptivo y transversal.</p>
+			</sec>
+			<sec>
+				<title>Origen y características de los quesos</title>
+				<p>Se encontraron 27 expendios en la base de datos de la Secretaría de Salud de Barranquilla. Esta información se complementó buscando en el directorio telefónico y mediante un sondeo directo. Diecisiete de los expendios aceptaron participar. El origen y el tipo de los quesos expendidos en la ciudad, se determinaron entrevistando a los distribuidores mediante una encuesta estructurada en la cual se clasificaba el tipo de queso en blando, semiduro y duro, y se consignaba su procedencia y el volumen de queso acopiado para la venta.</p>
+			</sec>
+			<sec>
+				<title>Muestreo de los quesos frescos</title>
+				<p>Mediante un muestreo no probabilístico entre los meses de enero y mayo del 2013, se recolectaron muestras de queso costeño fresco en 17 expendios mayoristas de Barranquilla, y se tomaron 27 muestras. Los expendios incluidos vendían queso costeño fresco producido en la costa Caribe colombiana y sus distribuidores aceptaron participar libremente en el estudio mediante consentimiento informado. De cada muestra se tomaron 100 g que fueron procesados en el Laboratorio de Investigación de la Universidad Libre de Barranquilla.</p>
+			</sec>
+			<sec>
+				<title>Extracción, purificación y cuantificación del ADN</title>
+				<p>Se pesaron 25 g de cada muestra y se homogenizaron en 225 ml de agua con peptona al 0,1 % en un equipo Stomacker 400 Circulator™ (Seward Ltd.) a 260 rpm durante 30 segundos.</p>
+				<p>Con el propósito de permitir que las partículas sólidas en suspensión se decantaran, los homogenizados permanecieron a temperatura ambiente durante dos horas y, posteriormente, se mezclaron 500 μl del sobrenadante con 200 μl de la solución tampón TE 1X (10 mM Tris-HCl, 1 mM EDTA, pH 8,0). En la lisis celular se emplearon 10 mg/m con pH 8,0 de lisozima A y 0,5 % v/v de dodecilsulfato sódico (SDS). La mezcla se incubó durante 90 minutos a 37 °C.</p>
+				<p>Para eliminar los péptidos y lípidos residuales, se adicionaron 80 μl de una solución de 5 M de cloruro de sodio (NaCl) más 100 μl de 3M de acetato de amonio y se incubó nuevamente durante 10 minutos a 65 °C. La suspensión resultante se trató con una mezcla de fenol, cloroformo y alcohol isoamílico (25:24:1), y el sobrenadante se tomó para una segunda purificación con cloroformo y alcohol isoamílico (24:1).</p>
+				<p>El ADN se sometió a precipitación con isopropanol frío durante 30 minutos y, posteriormente, se lavó con etanol al 70 %. Después de la evaporación del etanol, se hidrató con 20 μl de agua libre de desoxirribonucleasas (DNasa) y ribonucleasas (RNasa). La pureza y concentración del ADN se determinaron en un espectrofotómetro NanoDrop 2000c™ de Thermo Scientific, Waitham, MA, USA (17,18).</p>
+			</sec>
+			<sec>
+				<title>Reacción en cadena de la polimerasa en tiempo real</title>
+				<p>La amplificación mediante qPCR para la detección del género <italic>Salmonella</italic> spp. se realizó con el estuche comercial iQ-Check Bio-Rad Salmonella II™, la del género <italic>Listeria</italic> spp., con el estuche comercial iQ-Check <italic>Listeria</italic> spp.™ (Bio-Rad), siguiendo las instrucciones del fabricante, y la de <italic>Brucella</italic> spp., con el estuche comercial Quantification of <italic>Brucella</italic> genus (all species)™ (PrimerDesign, Ltd.), el cual emplea una sonda TaqMan™ leída en el canal FAM.</p>
+				<p>Se preparó la mezcla de reacción siguiendo las indicaciones del fabricante para un volumen final de 25 μl, con una concentración de ADN de 150 ng. El protocolo de amplificación se llevó a cabo con el estuche CFX96 Touch Real-Time PCR Detection System™ (Bio-Rad, Hercules, California) en un termociclador C-1000™.</p>
+				<p>En todas las muestras se agregó un control interno en el momento de la lisis celular durante la extracción del ADN, el cual se amplificó conjuntamente con el ADN de la muestra utilizando otra sonda TaqMan™ detectada en el canal VIC. En cada ensayo se incluyeron los respectivos controles positivos, negativos y los blancos, según las instrucciones del fabricante.</p>
+			</sec>
+			<sec>
+				<title>Análisis de resultados</title>
+				<p>El porcentaje de muestras positivas para los géneros <italic>Salmonella, Listeria</italic> y <italic>Brucella</italic> se determinó mediante el cociente entre el número de muestras positivas y el número total de muestras multiplicado por 100. El cálculo se hizo considerando como unidad de muestreo el expendio y, como unidad objeto de análisis, el tipo de queso.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title>Origen y características de los quesos</title>
+				<p>Según la encuesta aplicada, el queso distribuido en expendios mayoristas de Barranquilla procedía de 36 municipios y corregimientos de la región Caribe colombiana. El departamento del que provenía la mayor parte (58 %) de este producto fue Magdalena. Los departamentos de Atlántico y Bolívar aportaron 19 y 14 %, respectivamente. Los departamentos con los menores porcentajes fueron Sucre (6 %) y Córdoba (5 %). Los volúmenes distribuidos oscilaban entre 50 y 2.000 kg por día. En cuanto al tipo de queso, el de mayor distribución fue el queso blando (58 %), en tanto que los quesos semiduro y duro registraron un porcentaje de 21 % cada uno.</p>
+			</sec>
+			<sec>
+				<title>Características de los quesos frescos analizados</title>
+				<p>Los porcentajes de muestras positivas para <italic>Salmonella</italic> spp.<italic>, Listeria</italic> spp. y <italic>Brucella</italic> spp. fueron de 63 % (17/27), 70,4 % (19/27) y 22,2 % (6/27), respectivamente. De las 27 muestras recolectadas, 17 (63 %) eran de queso blando, 5 (18,5 %) de queso semiduro y 5 (18,5 %) de queso duro.</p>
+				<p>Once de 17 (64,7 %) muestras de queso blando fueron positivas para <italic>Salmonella</italic> spp.<italic>,</italic> 13 de 17 (76,5 %) lo fueron para <italic>Listeria</italic> spp<italic>.</italic> y 6 de 17 (35,3 %) para <italic>Brucella</italic> spp., es decir, el total de muestras positivas para <italic>Brucella</italic> spp. en este estudio, se encontraron en queso blando. Tres de las muestras fueron positivas simultáneamente para los tres microorganismos. En cuatro de las 27 muestras analizadas, las cuales fueron positivas para <italic>Brucella</italic> spp. (sin determinar), no se logró la amplificación del control interno.</p>
+				<p>Cuatro de 5 (80 %) de las muestras de queso duro fueron positivas para <italic>Salmonella</italic> spp.<italic>,</italic> 3 de 5 (60 %) para <italic>Listeria</italic> spp. y ninguna fue positiva para <italic>Brucella</italic> spp., en tanto que 2 de 5 (40 %) muestras de queso semiduro fueron positivas para <italic>Salmonella</italic> spp.<italic>,</italic> 3 de 5 (60 %) para <italic>Listeria</italic> spp. y ninguna para <italic>Brucella</italic> spp<italic>.</italic></p>
+			</sec>
+			<sec>
+				<title>Porcentaje de muestras positivas para Salmonella spp., Listeria spp. y Brucella spp. por departamento de procedencia del queso</title>
+				<p>De las muestras de quesos procedentes de Atlántico, 3 de 6 (50 %) fueron positivas para <italic>Salmonella</italic> spp., 4 de 6 (66,6 %) para <italic>Listeria</italic> spp. y 3 de 6 (50 %) para <italic>Brucella</italic> spp. De las de quesos procedentes del Magdalena, 10 de 16 (62,5 %) fueron positivas para <italic>Salmonella</italic> spp., 10 de 16 (62,5 %) para <italic>Listeria</italic> spp. y 2 de 16 (12,5 %) para <italic>Brucella</italic> spp. Las dos muestras de quesos procedentes de Bolívar fueron positivas para <italic>Salmonella</italic> spp. y para <italic>Listeria</italic> spp., y una de ellas para <italic>Brucella</italic> spp. </p>
+				<p>En las muestras de los quesos de Córdoba y Sucre, no se encontró <italic>Brucella</italic> spp., pero la única muestra de Córdoba fue positiva para <italic>Salmonella</italic> spp. y <italic>Listeria</italic> spp.; las dos muestras de quesos provenientes de Sucre fueron positivas para <italic>Listeria</italic> spp., pero solo una lo fue para <italic>Salmonella</italic> spp. (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1.</label>
+						<caption>
+							<title>Porcentaje de muestras positivas para <italic>Salmonella</italic> spp.<italic>, Listeria</italic> spp. y <italic>Brucella</italic> spp. por departamento de procedencia del queso</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-38-00024-gt1.gif"/>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En Barranquilla confluyen varias rutas de comercialización del queso costeño proveniente de los departamentos del Caribe colombiano, principalmente de Magdalena, que en este estudio aportó más del 50 % del queso distribuido en la ciudad, en tanto que Sucre y Córdoba tuvieron una participación menor en dicha comercialización, aunque son departamentos con una alta prevalencia de brucelosis en los hatos lecheros <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			<p>En el presente estudio se reporta la presencia de <italic>Brucella</italic> spp. en quesos distribuidos en Barranquilla. Este agente patógeno se ha encontrado previamente en las etapas de producción primaria de leche en otras ciudades de Colombia <xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. En el estudio se reconfirmó, además, la presencia de <italic>Salmonella</italic> spp. <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref> en quesos artesanales distribuidos en el Caribe colombiano y de <italic>Listeria</italic> spp. en queso costeño. Como en el caso de <italic>Brucella</italic> spp., este último patógeno se ha encontrado anteriormente en la materia prima para la elaboración de los quesos <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Puede concluirse, entonces, que en Barranquilla el consumo de queso costeño estaría asociado con el riesgo de contagio por <italic>Salmonella</italic> spp. y <italic>Brucella</italic> spp.</p>
+			<p>Sin embargo, el riesgo también debe asociarse con la viabilidad de las bacterias en el alimento y el tipo de queso costeño consumido. El tiempo de supervivencia de los microorganismos en el queso depende del proceso de elaboración y de factores como la concentración de sal, el pH, las condiciones de maduración y las cepas bacterianas empleadas en la transformación de la leche <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+			<p>En este estudio se encontró ADN de <italic>Salmonella</italic> spp., <italic>Listeria</italic> spp. y <italic>Brucella</italic> spp. simultáneamente en tres muestras de queso fresco costeño blando, lo cual coincide con lo reportado en otros estudios en los cuales se ha demostrado que estos microorganismos sobreviven más tiempo en los quesos blandos que en los duros <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>Por otra parte, la ausencia de <italic>Brucella</italic> spp. en quesos duros con un contenido de sal de alrededor de 3,47 % <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, puede explicarse por la sensibilidad de <italic>Brucella</italic> spp. a las altas concentraciones de sal <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Se ha encontrado que la sal utilizada en los procesos de salmuera o salado directo del queso reducen el crecimiento de los microorganismos patógenos y disminuyen su actividad metabólica (<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>,<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>). Cinco de las muestras de queso blando analizadas fueron positivas tanto para <italic>Brucella</italic> spp. como para <italic>Listeria</italic> spp., 12 fueron positivas para <italic>Salmonella</italic> y <italic>Listeria</italic> spp., y de estas, ocho eran de queso blando, tres de queso duro y una de queso semiduro.</p>
+			<p>Se ha reportado la viabilidad de algunas cepas de <italic>Listeria</italic> spp. aisladas de quesos con altas concentraciones de cloruro de sodio <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, lo cual explicaría el mayor porcentaje de muestras positivas de Listeria spp. frente a los otros microorganismos evaluados en este estudio.</p>
+			<p>Otro factor que se debe tener en cuenta es el crecimiento de microorganismos que hacen parte de la microflora del alimento y que compiten por los nutrientes, hecho que aumenta la probabilidad de reportar falsos negativos atribuibles principalmente al método microbiológico tradicional, el cual determina cualitativamente la presencia o ausencia de microorganismos y, además, emplea medios de cultivo selectivos a lo largo de muchas etapas, como las de caracterización bioquímica y serológica de colonias bacterianas <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>Aunque el método estándar o cultivo microbiológico tradicional tiene un gran valor en los estudios epidemiológicos, su sensibilidad es baja y la confirmación de los resultados tarda entre cuatro y cinco días <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>, por lo tanto, es necesario emplear metodologías más sensibles de diagnóstico, como la qPCR <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Aunque la técnica de qPCR detecta el ADN de los microorganismos y no determina su viabilidad, se pudo confirmar su aplicabilidad para detectar microorganismos de difícil aislamiento por su elevado límite de detección.</p>
+			<p>En diversas investigaciones, se han reportado límites de detección para el ADN de <italic>Brucella</italic> spp. del orden de 16 a 1.600 ng con diferentes protocolos de qPCR <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. En este estudio fue posible la detección con 83,25 ng de ADN total extraído de una muestra positiva, lo que evidencia el aumento de la probabilidad de detección en muestras de alimentos en las cuales estos agentes patógenos se encuentran generalmente en pequeñas cantidades. En un estudio de 30 muestras de queso, realizado en México, no se detectaron bacterias mediante el método microbiológico, lo cual se explicó por el bajo número de microorganismos presente en el alimento <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. En un estudio en Brasil, solo mediante PCR convencional fue posible detectar la bacteria en quesos ilegales <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+			<p>El hecho de que en cuatro de las muestras de queso en este estudio no hubo amplificación del control interno, se explicaría, según estudios previos, por la presencia de inhibidores de la PCR. En tales estudios se han reportado variaciones en la inhibición de polimerasas en diferentes concentraciones de la muestra <xref ref-type="bibr" rid="B36"><sup>36</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. Entre los inhibidores de polimerasas presentes en alimentos como el queso, se han reportado el sodio y el calcio.</p>
+			<p>En este estudio se presentó un mayor porcentaje de inhibición en muestras de queso duro, lo cual se puede asociar a su alto contenido de cloruro de sodio, ya que las polimerasas Ultma, rTth, Taq, HotTub, Tfl y Taq son sensibles a concentraciones mayores de 60 mM de Na<sup>+2</sup>. También, se ha reportado un efecto inhibitorio de la Taq polimerasa con concentraciones mayores de 0,2 mM de Ca<sup>+2</sup>, lo que puede explicar la inhibición en algunas muestras de queso blando, pues se ha demostrado que en productos lácteos el calcio es la mayor fuente de inhibición, aunque también el magnesio utilizado en la reacción de PCR puede tener efecto inhibitorio inverso de los iones calcio <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>.</p>
+			<p>En cuanto a la presencia de bacterias como <italic>Salmonella</italic> spp. y <italic>Listeria</italic> spp., que son de difícil aislamiento, su gran frecuencia sugeriría su presencia a lo largo de toda la cadena de producción del queso, desde la obtención de la leche en las fincas hasta la distribución del producto. La presencia de dichas bacterias en estos productos se ha reportado en otros trabajos en Colombia, en los cuales se ha determinado que el queso fresco es uno de los alimentos con mayor presencia de <italic>L. monocytogenes</italic> entre los de venta callejera en Bogotá <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>, así como en las ciudades de Montería y Cereté, donde se confirmó que los quesos caseros frecuentemente están contaminados con <italic>Listeria</italic> spp. <xref ref-type="bibr" rid="B40"><sup>40</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. A nivel internacional, se han reportado <italic>Salmonella</italic> spp. y <italic>Listeria</italic> spp. en quesos frescos de venta callejera <xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>El presente estudio fue un ensayo piloto en el que se demostró la utilidad de la técnica de qPCR como método alternativo para determinar el estado microbiológico del queso y para el desarrollo de estudios de vigilancia epidemiológica, al demostrar la presencia de microorganismos de difícil aislamiento, como <italic>Brucella</italic> spp.<italic>, Salmonella</italic> spp. y <italic>Listeria</italic> spp., en muestras de queso costeño procedentes de diferentes departamentos de la costa Caribe colombiana.</p>
+			<p>Estos resultados constituyen una alerta de salud pública en torno al queso como producto que puede transmitir estas bacterias, y plantea la necesidad de implementar planes de vigilancia y control.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Los autores expresan sus agradecimientos a la Universidad Libre, seccional Barranquilla, por el financiamiento de este trabajo.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Pui CF, Wong WC, Chai LC, Tunung R, Jeyaletchumi P, Noor Hidayah MN, <italic>et al</italic>. <italic>Salmonella</italic>: A foodborne pathogen. Int Food Res J. 2011;18:465-73.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pui</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>WC</given-names>
+						</name>
+						<name>
+							<surname>Chai</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Tunung</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Jeyaletchumi</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Noor Hidayah</surname>
+							<given-names>MN</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Salmonella: A foodborne pathogen</article-title>
+					<source>Int Food Res J</source>
+					<year>2011</year>
+					<volume>18</volume>
+					<fpage>465</fpage>
+					<lpage>473</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Scallan E, Hoekstra RM, Angulo FJ, Tauxe R V, Widdowson M-A, Roy SL, <italic>et al</italic>. Foodborne illness acquired in the United States-major pathogens. Emerg Infect Dis. 2011;17:7-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid1701.P11101">https://doi.org/10.3201/eid1701.P11101</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scallan</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hoekstra</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Angulo</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Tauxe R</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Widdowson</surname>
+							<given-names>M-A</given-names>
+						</name>
+						<name>
+							<surname>Roy</surname>
+							<given-names>SL</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Foodborne illness acquired in the United States-major pathogens</article-title>
+					<source>Emerg Infect Dis</source>
+					<year>2011</year>
+					<volume>17</volume>
+					<fpage>7</fpage>
+					<lpage>15</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid1701.P11101">https://doi.org/10.3201/eid1701.P11101</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Garrido A, Chapela MJ, Román B, Fajardo P, Lago J, Vieites JM, <italic>et al</italic>. A new multiplex real-time PCR developed method for <italic>Salmonella</italic> spp. and <italic>Listeria monocytogenes</italic> detection in food and environmental samples. Food Control. 2013;30:76-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.foodcont.2012.06.029">https://doi.org/10.1016/j.foodcont.2012.06.029</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garrido</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Chapela</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Román</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fajardo</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lago</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vieites</surname>
+							<given-names>JM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A new multiplex real-time PCR developed method for Salmonella spp. and Listeria monocytogenes detection in food and environmental samples</article-title>
+					<source>Food Control</source>
+					<year>2013</year>
+					<volume>30</volume>
+					<fpage>76</fpage>
+					<lpage>85</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.foodcont.2012.06.029">https://doi.org/10.1016/j.foodcont.2012.06.029</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Organización Mundial de la Salud. Manual sobre las cinco claves para la inocuidad de los alimentos. Fecha de consulta: 26 de febrero de 2016. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/foodsafety/publications/consumer/manual_keys_es.pdf">http://www.who.int/foodsafety/publications/consumer/manual_keys_es.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Manual sobre las cinco claves para la inocuidad de los alimentos</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-02-26">26 de febrero de 2016</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/foodsafety/publications/consumer/manual_keys_es.pdf">http://www.who.int/foodsafety/publications/consumer/manual_keys_es.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Instituto Nacional de Salud. Protocolo de vigilancia en salud pública. Enfermedades Transmitidas por Alimentos. Fecha de consulta: 26 de febrero de 2016. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/lineas-de-accion/Subdireccion-Vigilancia/sivigila/Protocolos%20SIVIGILA/PRO%20Enfermedades%20Trans.%20por%20alimentos.pdf">http://www.ins.gov.co/lineas-de-accion/Subdireccion-Vigilancia/sivigila/Protocolos%20SIVIGILA/PRO%20Enfermedades%20Trans.%20por%20alimentos.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Protocolo de vigilancia en salud pública. Enfermedades Transmitidas por Alimentos</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-02-26">26 de febrero de 2016</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/lineas-de-accion/Subdireccion-Vigilancia/sivigila/Protocolos%20SIVIGILA/PRO%20Enfermedades%20Trans.%20por%20alimentos.pdf">http://www.ins.gov.co/lineas-de-accion/Subdireccion-Vigilancia/sivigila/Protocolos%20SIVIGILA/PRO%20Enfermedades%20Trans.%20por%20alimentos.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Codex Alimentarius. Codex General Standard for Cheese. Fecha de consulta: 26 de febrero de 2016. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/input/download/standards/175/CXS_283e.pdf">http://www.fao.org/input/download/standards/175/CXS_283e.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Codex Alimentarius</collab>
+					</person-group>
+					<source>Codex General Standard for Cheese</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-02-26">26 de febrero de 2016</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/input/download/standards/175/CXS_283e.pdf">http://www.fao.org/input/download/standards/175/CXS_283e.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Ministerio de Salud de Colombia. Resolución número 02310 de febrero 24 de 1986. Por la cual se reglamenta parcialmente el Título V de la Ley 09 de 1979, en lo referente a procesamiento, composición, requisitos, transporte y comercialización de los derivados lácteos. Fecha de consulta: 26 de febrero de 2016. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.invima.gov.co/images/stories/resoluciones/resolucion_02310_1986.pdf">https://www.invima.gov.co/images/stories/resoluciones/resolucion_02310_1986.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud de Colombia</collab>
+					</person-group>
+					<source>Resolución número 02310 de febrero 24 de 1986. Por la cual se reglamenta parcialmente el Título V de la Ley 09 de 1979, en lo referente a procesamiento, composición, requisitos, transporte y comercialización de los derivados lácteos</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-02-26">26 de febrero de 2016</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.invima.gov.co/images/stories/resoluciones/resolucion_02310_1986.pdf">https://www.invima.gov.co/images/stories/resoluciones/resolucion_02310_1986.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Departamento Nacional de Planeación. Estudio para la identificación de los productos potenciales en los sectores agropecuarios, agroindustrial y artesanal, que podrían ser protegidos a través de DENOMINACIONES de origen, marcas colectivas o de certificación. Fecha de consulta: 26 de febrero de 2016. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Empresarial/propiedad_intelectual.pdf">https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Empresarial/propiedad_intelectual.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Departamento Nacional de Planeación</collab>
+					</person-group>
+					<source>Estudio para la identificación de los productos potenciales en los sectores agropecuarios, agroindustrial y artesanal, que podrían ser protegidos a través de DENOMINACIONES de origen, marcas colectivas o de certificación</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-02-26">26 de febrero de 2016</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Empresarial/propiedad_intelectual.pdf">https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Empresarial/propiedad_intelectual.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Oliver SP, Jayarao BM, Almeida RA. Foodborne pathogens in milk and the dairy farm environment: Food safety and public health implications. Foodborne Pathog Dis. 2005;2:115-29. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2005.2.115">https://doi.org/10.1089/fpd.2005.2.115</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliver</surname>
+							<given-names>SP</given-names>
+						</name>
+						<name>
+							<surname>Jayarao</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>Foodborne pathogens in milk and the dairy farm environment: Food safety and public health implications</article-title>
+					<source>Foodborne Pathog Dis</source>
+					<year>2005</year>
+					<volume>2</volume>
+					<fpage>115</fpage>
+					<lpage>129</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2005.2.115">https://doi.org/10.1089/fpd.2005.2.115</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Anderson AM. Notes of a peculiar teat-eruption in a milch cow, coincident with an outbreak of typhoid fever amongst the consumers of the milk. Br Med J. 1889;2:465-71.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anderson</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<article-title>Notes of a peculiar teat-eruption in a milch cow, coincident with an outbreak of typhoid fever amongst the consumers of the milk</article-title>
+					<source>Br Med J</source>
+					<year>1889</year>
+					<volume>2</volume>
+					<fpage>465</fpage>
+					<lpage>471</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Fleming DW, Cochi SL, Macdonald KL, Brondum J, Hayes PS, Plikaytis BD, <italic>et al</italic>. Pasteurized milk as a vehicle of infection in an outbreak of listeriosis. N Engl J Med. 1985;312:404-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJM198502143120704">https://doi.org/10.1056/NEJM198502143120704</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fleming</surname>
+							<given-names>DW</given-names>
+						</name>
+						<name>
+							<surname>Cochi</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Macdonald</surname>
+							<given-names>KL</given-names>
+						</name>
+						<name>
+							<surname>Brondum</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hayes</surname>
+							<given-names>PS</given-names>
+						</name>
+						<name>
+							<surname>Plikaytis</surname>
+							<given-names>BD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pasteurized milk as a vehicle of infection in an outbreak of listeriosis</article-title>
+					<source>N Engl J Med</source>
+					<year>1985</year>
+					<volume>312</volume>
+					<fpage>404</fpage>
+					<lpage>407</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJM198502143120704">https://doi.org/10.1056/NEJM198502143120704</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ebel ED, Williams MS, Tomlinson SM. Estimating herd prevalence of bovine brucellosis in 46 U.S.A. states using slaughter surveillance. Prev Vet Med. 2008;85:295-316. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.prevetmed.2008.02.005">https://doi.org/10.1016/j.prevetmed.2008.02.005</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ebel</surname>
+							<given-names>ED</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Tomlinson</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimating herd prevalence of bovine brucellosis in 46 U.S.A. states using slaughter surveillance</article-title>
+					<source>Prev Vet Med</source>
+					<year>2008</year>
+					<volume>85</volume>
+					<fpage>295</fpage>
+					<lpage>316</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.prevetmed.2008.02.005">https://doi.org/10.1016/j.prevetmed.2008.02.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Claeys WL, Cardoen S, Daube G, De Block J, Dewettinck K, Dierick K, <italic>et al</italic>. Raw or heated cow milk consumption: Review of risks and benefits. Food Control. 2013;31:251-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.foodcont.2012.09.035">https://doi.org/10.1016/j.foodcont.2012.09.035</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Claeys</surname>
+							<given-names>WL</given-names>
+						</name>
+						<name>
+							<surname>Cardoen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Daube</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>De Block</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dewettinck</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dierick</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Raw or heated cow milk consumption: Review of risks and benefits</article-title>
+					<source>Food Control</source>
+					<year>2013</year>
+					<volume>31</volume>
+					<fpage>251</fpage>
+					<lpage>262</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.foodcont.2012.09.035">https://doi.org/10.1016/j.foodcont.2012.09.035</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Dhanashekar R, Akkinepalli S, Nellutla A. Milk-borne infections. An analysis of their potential effect on the milk industry. Germs. 2012;2:101-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11599/germs.2012.1020">https://doi.org/10.11599/germs.2012.1020</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dhanashekar</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Akkinepalli</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nellutla</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Milk-borne infections. An analysis of their potential effect on the milk industry</article-title>
+					<source>Germs</source>
+					<year>2012</year>
+					<volume>2</volume>
+					<fpage>101</fpage>
+					<lpage>109</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11599/germs.2012.1020">https://doi.org/10.11599/germs.2012.1020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Meltzer E, Sidi Y, Smolen G, Banai M, Bardenstein S, Schwartz E. Sexually transmitted brucellosis in humans. Clin Infect Dis. 2010;51:e12-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/653608">https://doi.org/10.1086/653608</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meltzer</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Sidi</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Smolen</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Banai</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bardenstein</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schwartz</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Sexually transmitted brucellosis in humans</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2010</year>
+					<volume>51</volume>
+					<fpage>e12</fpage>
+					<lpage>e15</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/653608">https://doi.org/10.1086/653608</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Wyatt HV. Surgeon Captain Sheldon F Dudley and the person to person spread of brucellosis by inhalation. J R Nav Med Serv. 2010;96:185-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wyatt</surname>
+							<given-names>HV</given-names>
+						</name>
+					</person-group>
+					<article-title>Surgeon Captain Sheldon F Dudley and the person to person spread of brucellosis by inhalation</article-title>
+					<source>J R Nav Med Serv</source>
+					<year>2010</year>
+					<volume>96</volume>
+					<fpage>185</fpage>
+					<lpage>187</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Plommet M, Fensterbank R, Vassal L, Auclair J, Mocquot G, Courault M, <italic>et al</italic>. Survival of <italic>Brucella abortus</italic> in ripened soft cheese made from naturally infected cow’s milk. Lait. 1988;68:115-20.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Plommet</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Fensterbank</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Vassal</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Auclair</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mocquot</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Courault</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Survival of Brucella abortus in ripened soft cheese made from naturally infected cow’s milk</article-title>
+					<source>Lait</source>
+					<year>1988</year>
+					<volume>68</volume>
+					<fpage>115</fpage>
+					<lpage>120</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Sambrook J, Russell D. Molecular cloning: A laboratory manual. Third edition. New York: Cold Spring Harbor Laboratory Press; 2001. p. 2100.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sambrook</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Russell</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<source>Molecular cloning: A laboratory manual</source>
+					<edition>Third edition</edition>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+					<year>2001</year>
+					<fpage>2100</fpage>
+					<lpage>2100</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Osorio FJ, Patiño A, Linares C, Romero LA, Ortiz J, Reina JF, <italic>et al</italic>. Colombia, Sanidad Animal 2012. Fecha de consulta: 26 de febrero de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ica.gov.co/getattachment/bce28fb3-c2c7-4f46-99fc-6bae850353fc/2012.aspx">http://www.ica.gov.co/getattachment/bce28fb3-c2c7-4f46-99fc-6bae850353fc/2012.aspx</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Osorio</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Patiño</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Linares</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Romero</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Ortiz</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Reina</surname>
+							<given-names>JF</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Colombia, Sanidad Animal</source>
+					<year>2012</year>
+					<year>2016</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.ica.gov.co/getattachment/bce28fb3-c2c7-4f46-99fc-6bae850353fc/2012.aspx">http://www.ica.gov.co/getattachment/bce28fb3-c2c7-4f46-99fc-6bae850353fc/2012.aspx</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Vergara D, Torres MF, González F, Lasso N, Ortega C. Prevalencia de brucelosis en la leche cruda de bovinos expendida en el municipio de Popayán, Cauca, septiembre a diciembre de 2006. Biotecnología en el Sector Agropecuario y Agroindustrial. 2008;6:76-85.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vergara</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lasso</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Ortega</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalencia de brucelosis en la leche cruda de bovinos expendida en el municipio de Popayán, Cauca, septiembre a diciembre de 2006</article-title>
+					<source>Biotecnología en el Sector Agropecuario y Agroindustrial</source>
+					<year>2008</year>
+					<volume>6</volume>
+					<fpage>76</fpage>
+					<lpage>85</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Mosquera X, Bernal C, Muskus C, Berdugo J. Detección de <italic>Brucella abortus</italic> por PCR en muestras de sangre y leche de vacunos. Rev MVZ Córdoba. 2008;13:1504-13.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mosquera</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Bernal</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Muskus</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Berdugo</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Detección de Brucella abortus por PCR en muestras de sangre y leche de vacunos</article-title>
+					<source>Rev MVZ Córdoba</source>
+					<year>2008</year>
+					<volume>13</volume>
+					<fpage>1504</fpage>
+					<lpage>1513</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Vásquez E, Máttar S, Mossos N, Mogollón D, Poutou R. Caracterización molecular de cepas colombianas de <italic>Salmonella</italic> spp. a través del RFLP-IS200. Nova. 2005;3:37-45.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vásquez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Máttar</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mossos</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Mogollón</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Poutou</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Caracterización molecular de cepas colombianas de Salmonella spp. a través del RFLP-IS200</article-title>
+					<source>Nova</source>
+					<year>2005</year>
+					<volume>3</volume>
+					<fpage>37</fpage>
+					<lpage>45</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Durango J, Arrieta G, Máttar S. Presencia de <italic>Salmonella</italic> spp. en un área del Caribe colombiano: un riesgo para la salud pública. Biomédica. 2004;24:89-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v24i1.1252">https://doi.org/10.7705/biomedica.v24i1.1252</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Durango</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Arrieta</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Máttar</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Presencia de Salmonella spp. en un área del Caribe colombiano: un riesgo para la salud pública</article-title>
+					<source>Biomédica</source>
+					<year>2004</year>
+					<volume>24</volume>
+					<fpage>89</fpage>
+					<lpage>96</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v24i1.1252">https://doi.org/10.7705/biomedica.v24i1.1252</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Muñoz AI. Distribución de serotipos de <italic>Listeria monocytogenes</italic> aislados de alimentos, Colombia, 2000-2009. Biomédica. 2012;32:408-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica">https://doi.org/10.7705/biomedica</ext-link>. v32i3.709</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muñoz</surname>
+							<given-names>AI</given-names>
+						</name>
+					</person-group>
+					<article-title>Distribución de serotipos de Listeria monocytogenes aislados de alimentos, Colombia, 2000-2009</article-title>
+					<source>Biomédica</source>
+					<year>2012</year>
+					<volume>32</volume>
+					<fpage>408</fpage>
+					<lpage>417</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica">https://doi.org/10.7705/biomedica</ext-link>
+					<volume>v32</volume>
+					<issue>i3</issue>
+					<fpage>709</fpage>
+					<lpage>709</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Gahan CG, O’Driscoll B, Hill C. Acid adaptation of <italic>Listeria monocytogenes</italic> can enhance survival in acidic foods and during milk fermentation. Appl Environ Microbiol. 1996;62:3128-32.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gahan</surname>
+							<given-names>CG</given-names>
+						</name>
+						<name>
+							<surname>O’Driscoll</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Hill</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Acid adaptation of Listeria monocytogenes can enhance survival in acidic foods and during milk fermentation</article-title>
+					<source>Appl Environ Microbiol</source>
+					<year>1996</year>
+					<volume>62</volume>
+					<fpage>3128</fpage>
+					<lpage>3132</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. International Commission on Microbiological Specifications for Foods. Microorganismos de los alimentos: características de los patógenos microbianos. Zaragoza: Acribia; 1998. p. 612.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>International Commission on Microbiological Specifications for Foods</collab>
+					</person-group>
+					<source>Microorganismos de los alimentos: características de los patógenos microbianos</source>
+					<publisher-loc>Zaragoza</publisher-loc>
+					<publisher-name>Acribia</publisher-name>
+					<year>1998</year>
+					<fpage>612</fpage>
+					<lpage>612</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Rodríguez Á, Novoa C. Guía para producir quesos colombianos. Bogotá: Banco Ganadero-Universidad Nacional de Colombia, Instituto de Ciencia y Tecnología de Alimentos; 1994. p. 139.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>Á</given-names>
+						</name>
+						<name>
+							<surname>Novoa</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>Guía para producir quesos colombianos</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Banco Ganadero-Universidad Nacional de Colombia, Instituto de Ciencia y Tecnología de Alimentos</publisher-name>
+					<year>1994</year>
+					<fpage>139</fpage>
+					<lpage>139</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Donnelly CW. Growth and survival of microbial pathogens in cheese. En: Fox P, McSweeney P, Cogan T, Guinee T, editors. Cheese: Chemistry, Physics and Microbiology. Third edición. London: Elsevier Ltd.; 2004. p. 541-59.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Donnelly</surname>
+							<given-names>CW</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Growth and survival of microbial pathogens in cheese</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Fox</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>McSweeney</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Cogan</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Guinee</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>Cheese: Chemistry, Physics and Microbiology</source>
+					<edition>Third edición</edition>
+					<publisher-loc>London</publisher-loc>
+					<publisher-name>Elsevier Ltd</publisher-name>
+					<year>2004</year>
+					<fpage>541</fpage>
+					<lpage>559</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Boons K, van Derlinden E, Mertens L, Peeters V, van Impe JF. Effect of immobilization and salt concentration on the growth dynamics of <italic>Escherichia coli</italic> K12 and <italic>Salmonella typhimurium</italic>. J Food Sci. 2013;78:567-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/1750-3841.12067">https://doi.org/10.1111/1750-3841.12067</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boons</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>van Derlinden</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Mertens</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Peeters</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>van Impe</surname>
+							<given-names>JF</given-names>
+						</name>
+					</person-group>
+					<article-title>Effect of immobilization and salt concentration on the growth dynamics of Escherichia coli K12 and Salmonella typhimurium</article-title>
+					<source>J Food Sci</source>
+					<year>2013</year>
+					<volume>78</volume>
+					<fpage>567</fpage>
+					<lpage>574</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/1750-3841.12067">https://doi.org/10.1111/1750-3841.12067</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Faleiro ML, Andrew PW, Power D. Stress response of <italic>Listeria monocytogenes</italic> isolated from cheese and other foods. Int J Food Microbiol. 2003;84:207-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0168-1605(02)00422-1">https://doi.org/10.1016/S0168-1605(02)00422-1</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Faleiro</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Andrew</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Power</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Stress response of Listeria monocytogenes isolated from cheese and other foods</article-title>
+					<source>Int J Food Microbiol</source>
+					<year>2003</year>
+					<volume>84</volume>
+					<fpage>207</fpage>
+					<lpage>216</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0168-1605(02)00422-1">https://doi.org/10.1016/S0168-1605(02)00422-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Feldsine PT, Lienau AH, Leung SC, Mui LA, Humbert F, Bohnert M, <italic>et al</italic>. Detection of <italic>Salmonella</italic> in fresh cheese, poultry products, and dried egg products by the ISO 6579 <italic>Salmonella</italic> culture procedure and the AOAC official method: Collaborative study. J AOAC Int. 2003;86:275-95.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Feldsine</surname>
+							<given-names>PT</given-names>
+						</name>
+						<name>
+							<surname>Lienau</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Leung</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Mui</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Humbert</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bohnert</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Detection of Salmonella in fresh cheese, poultry products, and dried egg products by the ISO 6579 Salmonella culture procedure and the AOAC official method: Collaborative study</article-title>
+					<source>J AOAC Int</source>
+					<year>2003</year>
+					<volume>86</volume>
+					<fpage>275</fpage>
+					<lpage>295</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Urrutia M, Reyes E, Melo C, Henríquez M, Pineda J, Sakurada A. Estandarización de una técnica para la detección de <italic>Salmonella</italic> spp. útil para manipuladores de alimentos mediante técnica de amplificación molecular. Cienc Trab. 2006;8:164-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Urrutia</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Reyes</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Henríquez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pineda</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sakurada</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Estandarización de una técnica para la detección de Salmonella spp. útil para manipuladores de alimentos mediante técnica de amplificación molecular</article-title>
+					<source>Cienc Trab</source>
+					<year>2006</year>
+					<volume>8</volume>
+					<fpage>164</fpage>
+					<lpage>166</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Al Dahouk S, Nöckler K, Scholz HC, Pfeffer M, Neubauer H, Tomaso H. Evaluation of genus-specific and species specific real-time PCR assays for the identification of <italic>Brucella</italic> spp. Clin Chem Lab Med. 2007;45:1464-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1515/CCLM.2007.305">https://doi.org/10.1515/CCLM.2007.305</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Al Dahouk</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nöckler</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Scholz</surname>
+							<given-names>HC</given-names>
+						</name>
+						<name>
+							<surname>Pfeffer</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Neubauer</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tomaso</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of genus-specific and species specific real-time PCR assays for the identification of Brucella spp</article-title>
+					<source>Clin Chem Lab Med</source>
+					<year>2007</year>
+					<volume>45</volume>
+					<fpage>1464</fpage>
+					<lpage>1470</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1515/CCLM.2007.305">https://doi.org/10.1515/CCLM.2007.305</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Villanueva M. Frecuencia de <italic>Brucella</italic> spp., <italic>Listeria monocytogenes</italic> y <italic>Escherichia coli</italic> O157:H7 en quesos frescos sin pasteurizar colectados en la zona conurbana-Veracruz, Boca del Río (tesis). Veracruz: Universidad Veracruzana; 2010.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villanueva</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Frecuencia de <italic>Brucella</italic> spp., <italic>Listeria monocytogenes</italic> y <italic>Escherichia coli</italic> O157:H7 en quesos frescos sin pasteurizar colectados en la zona conurbana-Veracruz, Boca del Río</source>
+					<publisher-loc>Veracruz</publisher-loc>
+					<publisher-name>Universidad Veracruzana</publisher-name>
+					<year>2010</year>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Miyashiro S, Scarcelli E, Piatti RM, Campos FR, Vialta A, Keid LB, <italic>et al</italic>. Detection of <italic>Brucella abortus</italic> DNA in illegal cheese from São Paulo and Minas Gerais and differentiation of B19 vaccinal strain by means of the polymerase chain reaction (PCR). Brazilian J Microbiol. 2007;38:17-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1517-83822007000100005">https://doi.org/10.1590/S1517-83822007000100005</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miyashiro</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Scarcelli</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Piatti</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Campos</surname>
+							<given-names>FR</given-names>
+						</name>
+						<name>
+							<surname>Vialta</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Keid</surname>
+							<given-names>LB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Detection of Brucella abortus DNA in illegal cheese from São Paulo and Minas Gerais and differentiation of B19 vaccinal strain by means of the polymerase chain reaction (PCR)</article-title>
+					<source>Brazilian J Microbiol</source>
+					<year>2007</year>
+					<volume>38</volume>
+					<fpage>17</fpage>
+					<lpage>22</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1517-83822007000100005">https://doi.org/10.1590/S1517-83822007000100005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Abu Al-Soud W, Rådström P. Capacity of nine thermostable DNA polymerases to mediate DNA amplification in the presence of PCR-inhibiting samples. Appl Environ Microbiol. 1998;64:3748-53.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abu Al-Soud</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Rådström</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Capacity of nine thermostable DNA polymerases to mediate DNA amplification in the presence of PCR-inhibiting samples</article-title>
+					<source>Appl Environ Microbiol</source>
+					<year>1998</year>
+					<volume>64</volume>
+					<fpage>3748</fpage>
+					<lpage>3753</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Rossen L, Nørskov P, Holmstrøm K, Rasmussen OF. Inhibition of PCR by components of food samples, microbial diagnostic assays and DNA-extraction solutions. Int J Food Microbiol. 1992;17:37-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0168-1605(92)90017-W">https://doi.org/10.1016/0168-1605(92)90017-W</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rossen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Nørskov</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Holmstrøm</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Rasmussen</surname>
+							<given-names>OF</given-names>
+						</name>
+					</person-group>
+					<article-title>Inhibition of PCR by components of food samples, microbial diagnostic assays and DNA-extraction solutions</article-title>
+					<source>Int J Food Microbiol</source>
+					<year>1992</year>
+					<volume>17</volume>
+					<fpage>37</fpage>
+					<lpage>45</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0168-1605(92)90017-W">https://doi.org/10.1016/0168-1605(92)90017-W</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Bickley J, Short JK, McDowell DG, Parkes HC. Polymerase chain reaction (PCR) detection of <italic>Listeria monocytogenes</italic> in diluted milk and reversal of PCR inhibition caused by calcium ions. Lett Appl Microbiol. 1996;22:153-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1472-765X.1996.tb01131.x">https://doi.org/10.1111/j.1472-765X.1996.tb01131.x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bickley</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Short</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>McDowell</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Parkes</surname>
+							<given-names>HC</given-names>
+						</name>
+					</person-group>
+					<article-title>Polymerase chain reaction (PCR) detection of Listeria monocytogenes in diluted milk and reversal of PCR inhibition caused by calcium ions</article-title>
+					<source>Lett Appl Microbiol</source>
+					<year>1996</year>
+					<volume>22</volume>
+					<fpage>153</fpage>
+					<lpage>158</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1472-765X.1996.tb01131.x">https://doi.org/10.1111/j.1472-765X.1996.tb01131.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Muñoz AI, Vargas M, Otero L, Díaz G, Guzmán V. Presencia de <italic>Listeria monocytogenes</italic> en alimentos listos para el consumo, procedentes de plazas de mercado y delicatessen de supermercados de cadena, Bogotá, D.C., 2002-2008. Biomédica. 2011;31:428-39. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v31i3.394">https://doi.org/10.7705/biomedica.v31i3.394</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muñoz</surname>
+							<given-names>AI</given-names>
+						</name>
+						<name>
+							<surname>Vargas</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Otero</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Díaz</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Guzmán</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Presencia de Listeria monocytogenes en alimentos listos para el consumo, procedentes de plazas de mercado y delicatessen de supermercados de cadena, Bogotá, D.C., 2002-2008</article-title>
+					<source>Biomédica</source>
+					<year>2011</year>
+					<volume>31</volume>
+					<fpage>428</fpage>
+					<lpage>439</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v31i3.394">https://doi.org/10.7705/biomedica.v31i3.394</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Gallegos J, Arrieta G, Máttar S, Poutou R, Trespalacios A, Carrascal A. Frecuencia de <italic>Listeria</italic> spp. en quesos colombianos costeños. Rev MVZ Córdoba. 2007;12:996-1012.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gallegos</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Arrieta</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Máttar</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Poutou</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Trespalacios</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Carrascal</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Frecuencia de Listeria spp. en quesos colombianos costeños</article-title>
+					<source>Rev MVZ Córdoba</source>
+					<year>2007</year>
+					<volume>12</volume>
+					<fpage>996</fpage>
+					<lpage>1012</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Ministerio de Salud y Protección Social, Instituto Nacional de Salud. Identificación de riesgos biológicos asociados al consumo de leche cruda bovina en Colombia. Fecha de consulta: 26 de febrero de 2016. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/INS/Er-peligros-biologicos-en-leche.pdf">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/INS/Er-peligros-biologicos-en-leche.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Identificación de riesgos biológicos asociados al consumo de leche cruda bovina en Colombia</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-02-26">26 de febrero de 2016</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/INS/Er-peligros-biologicos-en-leche.pdf">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/INS/Er-peligros-biologicos-en-leche.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Alcázar C, Rubio M, Núñez F, Alonso R. Detección de <italic>Salmonella</italic> spp. y <italic>Listeria monocytogenes</italic> en quesos frescos y semimadurados que se expenden en vía pública en la ciudad de México. Vet México. 2006;37:417-29.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alcázar</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rubio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Núñez</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Alonso</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Detección de Salmonella spp. y Listeria monocytogenes en quesos frescos y semimadurados que se expenden en vía pública en la ciudad de México</article-title>
+					<source>Vet México</source>
+					<year>2006</year>
+					<volume>37</volume>
+					<fpage>417</fpage>
+					<lpage>429</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Contribución de los autores:</label>
+				<p> Zamira E. Soto-Varela: desarrollo de protocolos de laboratorio, evaluación de la calidad metodológica, procesamiento y análisis de datos y redacción del artículo Clara Gilma Gutiérrez: búsqueda de la literatura, clasificación y revisión de información y redacción del artículo Yurina de Moya: desarrollo de protocolos de laboratorio y redacción del artículo Hernando José Bolívar-Anillo: toma de muestras, revisión y redacción del artículo Ramón Mattos: evaluación de la calidad metodológica, análisis de datos y apoyo en la discusión José Luis Villarreal: revisión de los protocolos de laboratorio, interpretación de resultados, revisión y redacción del artículo</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación</label>
+				<p> Este trabajo fue financiado por la Universidad Libre, seccional Barranquilla, y el Departamento Administrativo de Ciencia, Tecnología e Innovación, Colciencias (Convenio Universidad Libre - Colciencias No. 116 y PS-2011-000392)</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

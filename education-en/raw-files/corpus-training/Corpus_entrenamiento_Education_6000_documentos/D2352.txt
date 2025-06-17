@@ -1,0 +1,43 @@
+#ITI#Detecting Preknowledge Cheating via Innovative Measures: A Mixture Hierarchical Model for Jointly Modeling Item Responses, Response Times, and Visual Fixation Counts#FTI#
+#IRE# Preknowledge cheating jeopardizes the validity of inferences based on test results. Many methods have been developed to detect preknowledge cheating by jointly analyzing item responses and response times. Gaze fixations, an essential eye-tracker measure, can be utilized to help detect aberrant testing behavior with improved accuracy beyond using product and process data types in isolation. As such, this study proposes a mixture hierarchical model that integrates item responses, response times, and visual fixation counts collected from an eye-tracker (a) to detect aberrant test takers who have different levels of preknowledge and (b) to account for nuances in behavioral patterns between normally-behaved and aberrant examinees. A Bayesian approach to estimating model parameters is carried out via an MCMC algorithm. Finally, the proposed model is applied to experimental data to illustrate how the model can be used to identify test takers having preknowledge on the test items.#FRE#
+#IPC# eye-tracking; gaze-fixation counts; item response theory; joint modeling; response times; technology enhanced assessment#FPC#
+#IRF# Bliss T.J., Statistical Methods to Detect Cheating on Tests: A Review of the Literature (Unpublished doctoral dissertation), (2012); 
+Cho S.-J., Cohen A.S., Kim S.-H., Markov chain Monte Carlo estimation of a mixture item response theory model, Journal of Statistical Computation and Simulation, 83, 2, pp. 278-306, (2013); 
+Cho S.-J., Cohen A.S., Kim S.-H., Bottge B., Latent transition analysis with a mixture item response theory measurement model, Applied Psychological Measurement, 34, 7, pp. 483-504, (2010); 
+Diebolt J., Robert C.P., Estimation of finite mixture distributions through Bayesian sampling, Journal of the Royal Statistical Society: Series B (Methodological), 56, 2, pp. 363-375, (1994); 
+Drasgow F., Levine M.V., Williams E.A., Appropriateness measurement with polychotomous item response models and standardized indices, British Journal of Mathematical and Statistical Psychology, 38, 1, pp. 67-86, (1985); 
+Fox J.-P., Marianti S., Person-fit statistics for joint models for accuracy and speed, Journal of Educational Measurement, 54, 2, pp. 243-262, (2017); 
+Fraley C., Raftery A., Model-based methods of classification: Using the mclust software in chemometrics, Journal of Statistical Software, 18, pp. 1-13, (2007); 
+Fuhl W., Santini T.C., Kubler T., Kasneci E., EISe: Ellipse selection for robust pupil detection in real-world environments, pp. 123-130, (2016); 
+Fuhl W., Tonsen M., Bulling A., Kasneci E., Pupil detection in the wild: An evaluation of the state of the art in mobile head-mounted eye tracking, Machine Vision and Applications, 27, 1, pp. 1275-1288, (2016); 
+Gelman A., Carlin J.B., Stern H.S., Rubin D.B., Bayesian data analysis, (2003); 
+Gelman A., Meng X.L., Stern H., Posterior predictive assessment of model fitness via realized discrepancies, Statistica sinica, pp. 733-760, (1996); 
+Guttman L., A basis for scaling qualitative data, American Sociological Review, 9, pp. 139-150, (1944); 
+Hambleton R.K., Swaminathan H., Rogers H.J., Fundamentals of item response theory, (1991); 
+Lord F.M., A theory of test scores, (1952); 
+Man K., Harring J.R., Negative binomial models for visual fixation counts on test items, Educational and Psychological Measurement, 79, 4, pp. 617-635, (2019); 
+Man K., Harring J.R., Assessing preknowledge cheating via innovative measures: A multiple-group analysis of jointly modeling item responses, response times, and visual fixation counts, Educational and Psychological Measurement, 81, 3, pp. 441-465, (2021); 
+Man K., Harring J.R., Ouyang Y., Thomas S.L., Response time based nonparametric Kullback-Leibler divergence measure for detecting aberrant test-taking behavior, International Journal of Testing, 18, pp. 155-177, (2018); 
+Man K., Harring J.R., Zhan P., Bridging models of biometric and psychometric assessment: A three-way joint modeling approach of item responses, response times, and gaze fixation counts, Applied Psychological Measurement, 46, pp. 361-381, (2022); 
+Marianti S., Fox J.-P., Avetisyan M., Veldkamp B.P., Tijmstra J., Testing for aberrant behavior in response time modeling, Journal of Educational and Behavioral Statistics, 39, 6, pp. 426-451, (2014); 
+McLachlan G., Peel D., Mixtures of factor analyzers, pp. 599-606, (2000); 
+McLeod L., Lewis C., Thissen D., A Bayesian method for the detection of item preknowledge in computerized adaptive testing, Applied Psychological Measurement, 27, 2, pp. 121-137, (2003); 
+Paek I., Cho S.-J., A note on parameter estimate comparability: Across latent classes in mixture IRT modeling, Applied Psychological Measurement, 39, 2, pp. 135-143, (2015); 
+Plummer M., Jags: Just another Gibbs sampler, (2015); 
+Qian H., Staniewska D., Reckase M., Woo A., Using response time to detect item preknowledge in computer-based licensure examinations, Educational Measurement: Issues and Practice, 35, 1, pp. 38-47, (2016); 
+Rasch G., Studies in mathematical psychology: I. Probabilistic models for some intelligence and attainment tests, (1960); 
+Redner R.A., Walker H.F., Mixture densities, maximum likelihood and the Em algorithm, SIAM Review, 26, 2, pp. 195-239, (1984); 
+Sijtsma K., Meijer R.R., A method for investigating the intersection of item response functions in Mokken’s nonparametric IRT model, Applied Psychological Measurement, 16, 2, pp. 149-157, (1992); 
+Sinharay S., A new person-fit statistic for the lognormal model for response times, Journal of Educational Measurement, 55, 4, pp. 457-476, (2018); 
+Sinharay S., Detection of item preknowledge using response times, Applied Psychological Measurement, 45, 5, pp. 376-392, (2020); 
+Sinharay S., Johnson M.S., Stern H.S., Posterior predictive assessment of item response theory models, Applied Psychological Measurement, 30, 4, pp. 298-321, (2006); 
+Smith R.W., Prometric T., The impact of braindump sites on item exposure and item parameter drift, (2004); 
+Stephens M., Dealing with label switching in mixture models, Journal of the Royal Statistical Society: Series B (Statistical Methodology), 62, 4, pp. 795-809, (2000); 
+Su Y.S., Yajima M., Package `R2jags’, (2015); 
+Toton S.L., Maynes D.D., Detecting examinees with pre-knowledge in experimental data using conditional scaling of response times, Frontiers in Education, 4, (2019); 
+Toton S.L., Maynes D.D., Detecting examinees with pre-knowledge in experimental data using conditional scaling of response times, Frontiers in Education, 4, (2019); 
+van der Linden W.J., A lognormal model for response times on test items, Journal of Educational and Behavioral Statistics, 31, pp. 181-204, (2006); 
+van der Linden W.J., A hierarchical framework for modeling speed and accuracy on test items, Psychometrika, 72, pp. 287-308, (2007); 
+van der Linden W.J., Guo F., Bayesian procedures for identifying aberrant response-time patterns in adaptive testing, Psychometrika, 73, pp. 365-384, (2008); 
+Vermunt J.K., Magidson J., Hierarchical mixture models for nested data structures, Classification—The ubiquitous challenge, pp. 240-247, (2005); 
+Wang C., Xu G., A mixture hierarchical model for response times and response accuracy, British Journal of Mathematical and Statistical Psychology, 68, 3, pp. 456-477, (2015)#FRF#

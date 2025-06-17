@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="rapid-communication" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00020</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Actualidad biomédica</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Modelos digitales 3D en el proceso de enseñanza-aprendizaje de las ciencias médicas</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Digital models 3D in the teaching-learning process of the medical sciences</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1159-5233</contrib-id>
+					<name>
+						<surname>Izquierdo Pardo</surname>
+						<given-names>José Manuel</given-names>
+						<prefix>Arq.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2811-8444</contrib-id>
+					<name>
+						<surname>Pardo Gómez</surname>
+						<given-names>María Elena</given-names>
+						<prefix>Dr. C.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8184-4795</contrib-id>
+					<name>
+						<surname>Izquierdo Lao</surname>
+						<given-names>José Manuel</given-names>
+						<prefix>Dr. C.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Universidad de Oriente</institution>
+					<institution content-type="orgname">Universidad de Oriente</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label> Autor para la correspondencia. Correo electrónico: <email>jmip@uo.edu.cu</email>
+				</corresp>
+				<fn fn-type="other" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores declaran que no existen conflictos de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn2">
+					<label>Contribución de los autores</label>
+					<p> Arq. José Manuel izquierdo Pardo: Definió el tema de la investigación; realizó la búsqueda bibliográfica sobre el tema en bases de datos; elaboró el diseño metodológico y aprobó el informe final (40 %). Dra. C. María Elena Pardo Gómez: Organizó y revisó el manuscrito, así como aprobó el informe final (30 %). Dr. C. José Manuel Izquierdo Lao: Definió el tema de la investigación; organizó y acotó las referencias bibliográficas teniendo en cuenta las normas de Vancouver, así como aprobó el informe final (30 %).</p>
+				</fn>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>14</day>
+				<month>09</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+				<pub-date pub-type="epub-ppub">
+				<season>Sep-Oct</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>24</volume>
+			<issue>5</issue>
+			<fpage>1035</fpage>
+			<lpage>1048</lpage>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>05</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>31</day>
+					<month>07</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>En la actualidad, las universidades de ciencias médicas deben adaptarse a los cambios que imponen los adelantos tecnológicos. Los modelos digitales 3D facilitan la impartición de los contenidos relativos a objetos anatómicos, morfológicos y fenómenos médicos que, ocasionalmente, pueden resultar complejos y/o abstractos para los estudiantes. Con este trabajo se pretende analizar las ventajas asociadas al empleo de dichos modelos en el proceso de enseñanza - aprendizaje de las carreras de las ciencias médicas, puesto que existe una insuficiente cultura tecnológica en los profesores de estas carreras en relación con las amplias posibilidades que pueden ofrecer los modelos digitales 3D para apoyar los contenidos específicos de las asignaturas, lo cual limita el desarrollo del proceso de enseñanza-aprendizaje. Dichos modelos pueden ser incorporados como importantes medios didácticos de última generación tendientes a lograr mejores niveles de motivación y comprensión de los contenidos por parte de los estudiantes.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>Medical Sciences universities should adapt to the changes imposed by the technological advances at the present time. Digital models 3D facilitate the delivering of contents related to anatomical, morphological objects and medical phenomena that occasionally, can be complicated and/or abstract for the students. With this work it is intended to analyze the advantages associated with the use of such models in the teaching - learning process of the Medical Sciences careers, since an insufficient technological culture exists in professors of these careers taking into account the wide possibilities that digital models 3D can offer to support the specific contents of subjects, which limits the development of the teaching-learning process. Such models can be incorporate as important didactic means of last generation, which tend to achieve better motivation and understanding levels of the contents on the students. </p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>proceso de enseñanza-aprendizaje</kwd>
+				<kwd>modelos digitales 3D</kwd>
+				<kwd>carreras de las ciencias médicas</kwd>
+				<kwd>medios didácticos</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>teaching-learning process</kwd>
+				<kwd>digital models 3D</kwd>
+				<kwd>Medical Sciences careers</kwd>
+				<kwd>didactic means</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="11"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción </title>
+			<p>La actual llamada sociedad de la información y del conocimiento está marcada por el empleo de las tecnologías de la información y las comunicaciones (TIC), las cuales han cambiado la forma de pensar, así como la manera de trabajar, relacionarse y aprender.</p>
+			<p>De hecho, la introducción de estas tecnologías en la sociedad ha traído como consecuencia un conjunto de transformaciones en todas sus esferas, entre las cuales se encuentra la educación y, en particular, la educación superior; es por ello que las instituciones docentes universitarias se han visto obligadas a replantear sus procesos formativos.</p>
+			<p>Al respecto, las universidades deben promover la autopreparación y adaptación a los cambios que imponen los adelantos tecnológicos, la búsqueda de los conocimientos y la gestión para acceder, controlar, procesar y utilizar las múltiples informaciones que se generan constantemente, así como el desarrollo de capacidades de comunicación. Esto constituye hoy en día, una exigencia primordial para formar profesionales de calidad.</p>
+			<p>En tal sentido, se deben implementar de forma sistemática y efectiva, todos los cambios que sean necesarios en los procesos de formación de los profesionales de las diferentes carreras universitarias, que van desde la propia concepción del proceso, los contenidos que se imparten, los métodos y los medios didácticos que se emplean, así como el cambio de los roles y las actitudes de los participantes en dicho proceso, fundamentalmente de estudiantes y profesores.</p>
+			<p>En la impartición de los contenidos profesionales de las carreras de ciencias médicas han prevalecido como medios didácticos, las representaciones de manera bidimensional o 2D, es decir, fundamentalmente imágenes digitales o impresas, lo cual históricamente ha incidido de manera negativa en los niveles de comprensión de contenidos complejos o abstractos de objetos anatómicos, morfológicos y fenómenos médicos.</p>
+			<p>Fundamentalmente en este siglo XXI, el desarrollo del <italic>hardware</italic> de los equipos de cómputo hizo que surgiera una nueva rama de las artes gráficas, la cual se sustenta en <italic>software</italic> especiales de diseño 3D o tridimensional: los gráficos 3D por computadora (3DCG, por sus siglas en inglés), que brindan la posibilidad de representar en un espacio de trabajo tridimensional cualquier objeto, lo cual conduce a la obtención de un modelo digital 3D.</p>
+			<p> Ahora bien, las posibilidades que ofrecen los modelos digitales 3D han cambiado de forma paulatina la manera convencional de pensar y enseñar de varios profesores universitarios de vanguardia en diferentes partes del mundo, los cuales han incorporado dichos modelos en el proceso de enseñanza-aprendizaje de sus asignaturas como medios didácticos, lo que ha traído aparejado una mejor asimilación de los contenidos profesionales por parte de los estudiantes.</p>
+			<p>Lo anterior adquiere especial importancia para las diferentes carreras de las ciencias médicas, en particular para la Medicina, en la cual se forman profesionales que se relacionan fundamentalmente con la anatomía compleja del cuerpo humano como objeto de estudio y trabajo.</p>
+			<p>No obstante a los avances vertiginosos con relación a los modelos digitales 3D, en la actualidad se ha podido constatar que estos últimos no se han sistematizado en la formación de los profesionales de las ciencias médicas, por lo cual han existido insuficiencias en estudiantes de dichas carreras en cuanto a la comprensión de los contenidos, fundamentalmente aquellos que resultan complejos y/o abstractos.</p>
+			<p>De ahí que el empleo de los modelos digitales 3D como medios didácticos de última generación se convierten en un imperativo para los referidos profesionales como lo demandan los tiempos actuales, en la era digital por la que atraviesa la humanidad.</p>
+			<p>Con este trabajo se pretende analizar las ventajas asociadas al empleo de los modelos digitales 3D en el proceso de enseñanza-aprendizaje de las carreras de ciencias médicas. Se efectúa una fundamentación epistemológica sobre dichos modelos y se analiza el impacto social que estos han tenido, particularmente en el ámbito educativo universitario. Posteriormente se hace un análisis crítico acerca de cómo se han empleado estos modelos en la formación de los profesionales de las ciencias médicas, las deficiencias que en tal sentido se constatan y se reflexiona acerca de cómo debería mejorarse esa situación. </p>
+		</sec>
+		<sec>
+			<title>Impacto de los modelos digitales 3D en el ámbito educativo universitario</title>
+			<p>Los modelos digitales 3D constituyen gráficos 3D generados por computadoras a través del empleo de programas informáticos especiales de trabajo en 3D. Para su obtención se requiere realizar trabajos de artes gráficas en computadoras y el estudio de técnicas y tecnologías relacionadas con estos.</p>
+			<p>El proceso de creación de dichos modelos puede dividirse en 5 fases básicas: concepción, modelado, animación, composición de la escena e interpretación. En dichas fases están presentes las redes informáticas, así como el trabajo colaborativo interdisciplinario entre homólogos virtuales (sujetos con intereses comunes que interactúan a través de la red). </p>
+			<p>Los modelos digitales 3D son creados mediante gran cantidad de herramientas de transformación de objetos, donde el resultado final puede tener varias utilidades en dependencia de las necesidades del hombre, su creatividad o sus fantasías.</p>
+			<p>Estos modelos son resultado del desarrollo científico y tecnológico humano; permiten entender y transformar la realidad; contribuyen a la formación y desarrollo tanto personal como social y poseen un lenguaje propio de conceptos, principios, estrategias y valores que facilitan la construcción de la información, así como su uso por la humanidad.</p>
+			<p>Hasta hace poco, lo convencional en la práctica de la enseñanza de los sistemas de representación consistía en representar las vistas concertadas de los objetos en el sistema bidimensional o 2D, es decir, las proyecciones en el plano y quedaba para el final del proceso la construcción del dibujo en 3D, imagen de comunicación global de la idea volumétrica.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Consecuentemente, el desarrollo del <italic>software</italic> para gráficos digitales propició el surgimiento de programas de diseño tridimensional, los cuales posibilitarían la modelación directa en 3D de la volumetría de un sólido, de manera tal que quedaba el dibujo de las vistas planas o proyecciones para el final del proceso, siendo estas calculadas y dibujadas de forma automática por el <italic>software</italic>. Así, los modelos digitales 3D han cambiado el proceso de diseño en las ramas de arquitectura, ingeniería y diseño industrial en general.</p>
+			<p>La Computación gráfica es una de las áreas de las ciencias de la computación más dependientes de la tecnología y, sin lugar a dudas, en estos últimos años han existido avances increíbles en el campo tecnológico que la afectan directamente, lo que obliga a estructurar sus contenidos y mantener el equilibrio entre los fundamentos y objetivos tradicionales, así como los cambios acelerados que se producen tanto en el contexto académico y cultural en los que se desenvuelve la enseñanza como en la actividad profesional.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Hoy en día, con los grandes avances en las tecnologías de adquisición de información tridimensional, es posible recrear en la memoria de una computadora una representación fiel de un objeto real y conservar la mayor cantidad de características físicas.</p>
+			<p>Destaca, la reconstrucción tridimensional aplicada a un conjunto de piezas precolombinas pertenecientes al museo de la Universidad de Antioquia, Colombia, que constituye uno de los trabajos más representativos desarrollado en el área de preservación cultural, lo cual indica todo lo que se puede desarrollar a partir de la utilización de los modelos digitales 3D.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>El empleo de dichos modelos para la impartición de contenidos en distintas ramas del saber abre amplias posibilidades para el perfeccionamiento del proceso de enseñanza-aprendizaje de las distintas carreras universitarias. Al respecto, se enfatiza en un caso práctico que se refiere al patrimonio fósil marino canario, en España, como importante material didáctico para la enseñanza de la paleontología, en el que se logró la digitalización en 3D de una selección de 18 fósiles.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Los archivos generados de la referida experiencia educativa se pusieron a disposición de los estudiantes en un entorno en línea, que permitió su descarga, visualización e interacción en dispositivos móviles multitáctiles y además brindó la posibilidad de imprimirlos en 3D, si el alumno lo prefería.</p>
+			<p>Otra de las aristas de los modelos digitales 3D lo constituye la llamada realidad virtual, la cual se ha convertido en una importante alternativa didáctica a emplear en el proceso de enseñanza-aprendizaje.</p>
+			<p>De este modo, las aplicaciones virtuales educacionales deben considerar además, los métodos de enseñanza, objetivos, tipos de contenidos y estilos de aprendizaje, de manera tal que se puedan desarrollar aplicaciones centradas en el estudiante y no solo en el contenido.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>La dirección de trabajos de grado bajo la temática de diseño y fabricación digital en la Facultad de Diseño, Imagen y Comunicación de la Universidad El Bosque de Bogotá (UEB), con vistas a consolidar las habilidades del oficio del diseñador industrial en formación, con un fuerte componente tecnológico, fortalece sus habilidades de interacción y comunicación con terceros.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>Lo antes referido sentó las bases para la ejecución de proyectos de diseño interdisciplinarios con otros campos del conocimiento tradicionalmente no explorados, en este caso, para las ciencias médicas, particularmente para el proceso de enseñanza - aprendizaje de Anatomía en sus diferentes ámbitos y particularidades.</p>
+			<p>Se desarrolló el material didáctico físico tridimensional para perfeccionar el proceso de enseñanza-aprendizaje de las clases de Anatomía y Morfología dental de la Facultad de Odontología, que sirvió como escenario de experimentación y desencadenó la puesta en marcha de diversos proyectos similares en diferentes departamentos de la universidad, lo cual pretendía replicar la experiencia.</p>
+			<p>A partir de esta experiencia se pudo garantizar a los estudiantes una formación teórico-práctica a través de herramientas y recursos tridimensionales simuladores de la realidad, que propiciaron una mejor apropiación de los contenidos. </p>
+			<p>Por medio de la planificación de un proyecto de diseño y con impresoras de modelado por deposición fundida (FDM) se pueden crear modelos didácticos complejos. Destacan la dirección de trabajos de grado, con la temática de diseño y fabricación digital y como estrategia para impulsar los resultados de investigaciones doctorales en diseño, fabricación y gestión de proyectos industriales de la Universidad Politécnica de Valencia. (Ávila Forero JS. Implementación de tecnologías de diseño y fabricación digital aplicadas en la enseñanza de Anatomía. Caso estudio: Universidad El Bosque de Bogotá. [Tesis Doctoral]. 2019. Universidad Politécnica de Valencia). </p>
+			<p>Las condiciones esenciales para el desarrollo de la competencia digital de los futuros docentes consisten en proporcionarles situaciones de aprendizaje que permitan ejercitar tales habilidades, conocimientos y actitudes en contextos similares a su futura realidad profesional.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p> Los entornos virtuales 3D, altamente inmersivos e interactivos, son una tecnología prometedora para simular escenarios reales y ofrecer dichas oportunidades de aprendizaje. En tal sentido, se realizó el diseño de un entorno 3D para el desarrollo de la competencia digital docente, centrado en el análisis de la usabilidad tecnológica y gráfica y de la adecuación del contenido de las actividades, así como de la práctica y utilidad pedagógica del entorno. </p>
+			<p>Cabe agregar, que la utilización de herramientas computacionales orientadas hacia el desarrollo de contenidos 3D en una institución de educación superior brasileña, con vistas a utilizar un conjunto de herramientas basadas en <italic>software</italic> libre, contó con un gran potencial para el desarrollo actividades de animaciones y simulaciones donde participaron alumnos interesados en este ámbito profesional, fuesen profesionales actuantes en el área de computación o no.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Actualmente, el rol de los docentes resulta fundamental para la capacitación y el empoderamiento a los estudiantes mediante el uso de todas las potencialidades que ofrecen las tecnologías digitales. Para ello, los docentes necesitan no solo disponer de una alfabetización digital básica, sino que deben ser capaces de integrar las tecnologías a sus prácticas pedagógicas (competencia digital docente) y, sin dudas, su formación inicial resulta clave.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>El verdadero potencial de una nueva tecnología suele tardar toda una generación en desarrollarse. En el caso de los nativos digitales (aquellos individuos que han crecido inmersos en la tecnología digital) todavía atraviesan por ese periodo de transición/adaptación que los lleva a un cambio, tanto en los hábitos como en la forma de pensar, provocados por el empuje de esta generación.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Según ciertos cálculos, dentro de 20 años, ese grupo podría constituir 70,0 % de la población mundial, pero la contradicción está en que los procesos formativos podrían convertirse en un freno para el desarrollo de las potencialidades de dichos individuos, si los docentes que guían estos procesos no promueven la realización de actividades formativas que faciliten las iniciativas y la creatividad de los estudiantes.</p>
+			<p>En el campo educativo, los alumnos de hoy en día no se corresponden con aquellos para cuya enseñanza fueron creados los sistemas educativos tradicionales. De ahí la imperiosa necesidad de explorar qué dirección debería tomar la innovación educativa para adaptarse a las características de esta era digital y, en particular, de la tecnología 3D.</p>
+			<p>Por otro lado, en el ámbito de los modelos digitales 3D, destaca la arista de la realidad aumentada. Se han adoptado alternativas digitales a modelos físicos, mediante las tecnologías de realidad aumentada y las tabletas multitáctiles, con el propósito de ofrecer un entorno de aprendizaje ubicuo (<italic>u-learning</italic>), para estimular la comprensión del espacio tridimensional.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>Lo anterior indica algunas de las múltiples posibilidades que pueden ofrecer las distintas aristas del empleo de los modelos digitales 3D en el ámbito educativo, pero no basta conocer las distintas aplicaciones, sino de lo que realmente se trata es de elevar la cultura tecnológica de los profesores y el cambio de rol de estos para que incorporen las modernas tecnologías con un significado y sentido de transformación en su quehacer docente.</p>
+			<sec>
+				<title>Utilización de los modelos digitales 3D en el proceso de enseñanza-aprendizaje de las carreras de las ciencias médicas </title>
+				<p>La incorporación de los modelos digitales 3D en el proceso de enseñanza-aprendizaje de las carreras de las ciencias médicas, ha tenido un carácter espontáneo y asistemático, a iniciativa de los profesores de distintas especialidades. Por el perfil profesional de dichas carreras, los medios didácticos que tradicionalmente se han empleado han sido modelos 3D tangibles, tales como maquetas a escala de diferentes materiales y estudio de partes anatómicas reales que generalmente se hayan en estado de conservación.</p>
+				<p>Estas muestras anatómicas siempre se encuentran bajo un estado de preservación y control muy restringido, cuya manipulación debe realizarse por personal autorizado, por ejemplo, el profesor, cuando va a impartir una clase de Anatomía o Morfología. Dicha manipulación requiere de cuidados y se limitan solamente al área del laboratorio y el museo, pues las muestras no deben abandonar estos recintos.</p>
+				<p>Otro aspecto son las licencias sanitarias para poder tomar como material didáctico determinadas muestras. En ocasiones, resulta difícil encontrar ejemplares disponibles y otros casos no poseen un buen estado de conservación.</p>
+				<p>Durante las clases, los estudiantes deben de tomar notas y recopilar toda la información necesaria, solo le quedaría para el estudio independiente los textos y las imágenes en 2 dimensiones o 2D de los libros. Estas imágenes no siempre son de buena calidad; además, pueden surgir muchas dudas en los alumnos sobre la interpretación de los gráficos, que por estar en 2D, limitan mucho la visualización y no siempre se establecen relaciones con el objeto real volumétrico apreciado en los encuentros presenciales, lo cual dificulta la sistematización de los contenidos.</p>
+				<p>Aunque estos medios didácticos han sido los empleados históricamente en el proceso de enseñanza-aprendizaje de contenidos vinculados a las carreras de las ciencias médicas, principalmente, Medicina y Estomatología, se impone en dicho proceso el uso de medios de última generación como los que aporta la tecnología digital 3D y en particular los modelos digitales 3D.</p>
+				<p>Estos modelos ofrecen excelentes posibilidades para la docencia; son imperecederos y proporcionan un material de estudio muy apreciado por los estudiantes, quienes pueden tener accesibilidad a ellos en todo momento al poder almacenarlos en su dispositivo móvil o en su computadora personal. Las mayores posibilidades que pueden ofrecer a los estudiantes, los modelos digitales 3D de diferentes objetos de estudio radican en que pueden consultarlos, magnificarlos, rotarlos, descomponerlos para examinarlos, leer contenido adicional que puedan tener embebido o reproducir una animación de su funcionamiento, entre otras opciones.</p>
+				<p>Un elemento muy significativo asociado a los modelos digitales 3D es que pueden existir colecciones de estos en bibliotecas virtuales 3D de las universidades de ciencias médicas, disponibles para todas las personas interesadas. Estas bibliotecas pueden ser enriquecidas en el tiempo con mayor cantidad de contenido que pueda ser subido y creado por equipos multidisciplinarios de profesionales de la salud y del diseño.</p>
+				<p>Dichos modelos pueden emplearse en la generalidad de las carreras de las ciencias médicas, debido a las infinitas posibilidades que poseen para facilitar la motivación y comprensión de contenidos, sobre todo de aquellos que resultan complejos y abstractos para los estudiantes, teniendo en cuenta el tipo de contenido propio de cada carrera (<xref ref-type="fig" rid="f1">figura</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Fig</label>
+						<caption>
+							<title>Ejemplos de modelos digitales 3D para las ciencias médicas</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-24-05-1035-gf1.png"/>
+					</fig>
+				</p>
+				<p>Tomado de: <ext-link ext-link-type="uri" xlink:href="https://www.bendswap.com/">https://www.bendswap.com</ext-link>
+				</p>
+				<p>En general, los estudiantes muestran interés por aprender los contenidos profesionales a partir de las posibilidades que pueden ofrecerles los modelos digitales 3D, pero esto se contradice con la limitada preparación tecnológica de los profesores en relación con dichos modelos para poder emplearlos en el proceso de enseñanza-aprendizaje de sus asignaturas. Además, se aprecia una exigua gestión didáctica por parte de los docentes en la búsqueda de dichos modelos y de colecciones existentes que se encuentran disponibles en Internet, para su empleo en el proceso de enseñanza-aprendizaje.</p>
+				<p>Se ha podido comprobar además en el orden teórico, la carencia de metodologías, estrategias didácticas, acciones didáctico-metodológicas tendientes a la incorporación de los modelos digitales 3D en el proceso de enseñanza-aprendizaje de las referidas carreras, de modo que contribuyan a perfeccionar dicho proceso.</p>
+				<p>De ahí se evidencia la necesidad de perfeccionar la dinámica del proceso de enseñanza-aprendizaje de los contenidos profesionales, a partir del desarrollo de modelos digitales 3D, que tenga en cuenta la relación dialéctica existente entre lo complejo que presupone la interpretación de los objetos o fenómenos de la profesión, sobre todo, cuando esta se muestra en gráficos o fotos 2D y lo concreto de la representación 3D de estos, con lo que se contribuiría a lograr mejores niveles de asimilación de los contenidos profesionales.</p>
+				<p>Por consiguiente, deberá elevarse la cultura tecnológica de los profesores acerca de los modelos digitales 3D, que les permita a estos desarrollar iniciativas didáctico-metodológicas en el proceso de enseñanza-aprendizaje de sus asignaturas, con el empleo de dichos modelos, en respuesta a los actuales retos y exigencias de la era digital.</p>
+				<p>Lo anterior requiere que los profesores desempeñen roles más activos y eleven su creatividad en la búsqueda de ambientes formativos motivadores, a partir de experiencias didácticas que tomen como base la tecnología digital 3D, por las múltiples ventajas que esta ofrece.</p>
+				<p>Por su parte, los estudiantes tienen que cambiar su rol pasivo de meros receptores de la información por roles activos en la búsqueda, con altos niveles de autonomía, de todo lo que necesitan para apropiarse de los contenidos.</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>Los modelos digitales 3D pueden ser incorporados al proceso de enseñanza-aprendizaje de las ciencias médicas como importantes medios didácticos de última generación, tendientes a lograr mejores niveles de motivación y comprensión por parte de los estudiantes, sobre todo de aquellos contenidos que resultan complejos y abstractos. </p>
+			<p>El exiguo empleo de estos modelos en el proceso de enseñanza-aprendizaje de las distintas carreras de las ciencias médicas en Cuba, indicaron la pertinencia y factibilidad de perfeccionar la dinámica de dicho proceso a partir del uso sistemático de los modelos digitales 3D, con vistas a lograr mejores resultados.</p>
+		</sec>
+		<sec>
+			<title>Recomendaciones</title>
+			<p>Elaborar un sistema de procedimientos didácticos que favorezca el empleo sistemático, por los profesores de las carreras de las ciencias médicas, de los modelos digitales 3D en el proceso de enseñanza-aprendizaje de los contenidos de sus asignaturas, con un significado y sentido de transformación.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas </title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Darío Morelli R. Aplicaciones didácticas de modelado de sólidos y vistas automáticas con AutoCAD. Graphica. 2007 [citado 08/12/2019]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.exatas.ufpr.br/portal/docs_degraf/artigos_graphica/APLICACIONES.pdf">http://www.exatas.ufpr.br/portal/docs_degraf/artigos_graphica/APLICACIONES.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Darío Morelli</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Aplicaciones didácticas de modelado de sólidos y vistas automáticas con AutoCAD</article-title>
+					<source>Graphica</source>
+					<year>2007</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-08">08/12/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.exatas.ufpr.br/portal/docs_degraf/artigos_graphica/APLICACIONES.pdf">http://www.exatas.ufpr.br/portal/docs_degraf/artigos_graphica/APLICACIONES.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Castro SM, Delrieux C, Silvetti A. Computación Gráfica en la Universidad Nacional del Sur. La Plata: Universidad Nacional de la Plata; 2001 [citado 08/12/2019]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://sedici.unlp.edu.ar/handle/10915/23559">http://sedici.unlp.edu.ar/handle/10915/23559</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castro</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Delrieux</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Silvetti</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Computación Gráfica en la Universidad Nacional del Sur</source>
+					<year>2001</year>
+					<publisher-loc>La Plata</publisher-loc>
+					<publisher-name>Universidad Nacional de la Plata</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-08">08/12/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://sedici.unlp.edu.ar/handle/10915/23559">http://sedici.unlp.edu.ar/handle/10915/23559</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Mesa Múnera E, Ramírez Salazar JF, Branch Bedoya JW. Construcción de un modelo digital 3D de piezas precolombinas utilizando escaneo láser. Ava Sis Inf. 2010 [citado 08/12/2019]; 7 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.unal.edu.co/index.php/avances/article/view/20611/21637">https://revistas.unal.edu.co/index.php/avances/article/view/20611/21637</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mesa Múnera</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ramírez Salazar</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Branch Bedoya</surname>
+							<given-names>JW</given-names>
+						</name>
+					</person-group>
+					<article-title>Construcción de un modelo digital 3D de piezas precolombinas utilizando escaneo láser</article-title>
+					<source>Ava Sis Inf</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-08">08/12/2019</date-in-citation>
+					<volume>7</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.unal.edu.co/index.php/avances/article/view/20611/21637">https://revistas.unal.edu.co/index.php/avances/article/view/20611/21637</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Saorin JL, de la Torre Cantero J, Melian D, Meier C, Rivero Trujillo D. Blokify: Juego de modelado e impresión 3D en tableta digital para el aprendizaje de vistas normalizadas y perspectiva. Digital Education Review. 2015 [citado 15/01/2020]; (27). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistes.ub.edu/index.php/der/article/view/11651">http://revistes.ub.edu/index.php/der/article/view/11651</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saorin</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>de la Torre Cantero</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Melian</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Meier</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rivero Trujillo</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Blokify: Juego de modelado e impresión 3D en tableta digital para el aprendizaje de vistas normalizadas y perspectiva</article-title>
+					<source>Digital Education Review</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<issue>27</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistes.ub.edu/index.php/der/article/view/11651">http://revistes.ub.edu/index.php/der/article/view/11651</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. De Antonio Jiménez A, Villalobos Abarca M, Luna Ramírez E. Cuándo y cómo usar la realidad virtual en la enseñanza. Revista Iberoamericana de Informática Educativa. 2000 [citado 15/01/2020]; (16). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=4794517">https://dialnet.unirioja.es/servlet/articulo?codigo=4794517</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Antonio Jiménez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Villalobos Abarca</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Luna Ramírez</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Cuándo y cómo usar la realidad virtual en la enseñanza</article-title>
+					<source>Revista Iberoamericana de Informática Educativa</source>
+					<year>2000</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<issue>16</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=4794517">https://dialnet.unirioja.es/servlet/articulo?codigo=4794517</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Ávila Forero JS. Diseño de material didáctico para la enseñanza de anatomía. Editorial Universitat Politècnica de València. 2016 [citado 15/01/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://ocs.editorial.upv.es/index.php/IFDP/IFDP/paper/viewFile/2955/2154">http://ocs.editorial.upv.es/index.php/IFDP/IFDP/paper/viewFile/2955/2154</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ávila Forero</surname>
+							<given-names>JS</given-names>
+						</name>
+					</person-group>
+					<source>Diseño de material didáctico para la enseñanza de anatomía</source>
+					<publisher-name>Editorial Universitat Politècnica de València</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://ocs.editorial.upv.es/index.php/IFDP/IFDP/paper/viewFile/2955/2154">http://ocs.editorial.upv.es/index.php/IFDP/IFDP/paper/viewFile/2955/2154</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Francesc Marc EM, Adell Segura J, Gisbert Cervera M. Diseño de un entorno 3D para el desarrollo de la competencia digital docente en estudiantes universitarios: usabilidad, adecuación y percepción de utilidad. 2014. RELATEC. 2014 [citado 15/01/2020]; 13 (2) (2014): 35­47. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://relatec.unex.es/article/view/1443">https://relatec.unex.es/article/view/1443</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Francesc Marc</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Adell Segura</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gisbert Cervera</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Diseño de un entorno 3D para el desarrollo de la competencia digital docente en estudiantes universitarios: usabilidad, adecuación y percepción de utilidad. 2014</article-title>
+					<source>RELATEC</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<volume>13</volume>
+					<issue>2</issue>
+					<comment>2014</comment>
+					<fpage>35­47</fpage>
+					<lpage>35­47</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://relatec.unex.es/article/view/1443">https://relatec.unex.es/article/view/1443</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Vizconde Veraszto E, Franco de Camargo JT, Barros Filho J, García García F. Estrategias para el desarrollo de contenido educativo 3d. Producción de animaciones modeladas por ordenador utilizando software libre. Icono 14. 2012 [citado 15/01/2020]; 10 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://icono14.net/ojs/index.php/icono14/article/view/26">https://icono14.net/ojs/index.php/icono14/article/view/26</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vizconde Veraszto</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Franco de Camargo</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>J</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>García García</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Estrategias para el desarrollo de contenido educativo 3d. Producción de animaciones modeladas por ordenador utilizando software libre</article-title>
+					<source>Icono 14</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<volume>10</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://icono14.net/ojs/index.php/icono14/article/view/26">https://icono14.net/ojs/index.php/icono14/article/view/26</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Esteve Mon FM. La competencia digital docente. Análisis de la autopercepción y evaluación del desempeño de los estudiantes universitarios de educación por medio de un entorno 3D. Tesis doctoral. Tarragona: Universitat Rovira i Virgili; 2015 [citado 15/01/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/274896917_La_competencia_digital_docente_analisis_de_la_autopercepcion_y_evaluacion_del_desempeno_de_los_estudiantes_universitarios_de_educacion_por_medio_de_un_entorno_3D">https://www.researchgate.net/publication/274896917_La_competencia_digital_docente_analisis_de_la_autopercepcion_y_evaluacion_del_desempeno_de_los_estudiantes_universitarios_de_educacion_por_medio_de_un_entorno_3D</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Esteve Mon</surname>
+							<given-names>FM</given-names>
+						</name>
+					</person-group>
+					<source>La competencia digital docente. Análisis de la autopercepción y evaluación del desempeño de los estudiantes universitarios de educación por medio de un entorno 3D</source>
+					<comment content-type="degree">Tesis doctoral</comment>
+					<publisher-loc>Tarragona</publisher-loc>
+					<publisher-name>Universitat Rovira i Virgili</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/274896917_La_competencia_digital_docente_analisis_de_la_autopercepcion_y_evaluacion_del_desempeno_de_los_estudiantes_universitarios_de_educacion_por_medio_de_un_entorno_3D">https://www.researchgate.net/publication/274896917_La_competencia_digital_docente_analisis_de_la_autopercepcion_y_evaluacion_del_desempeno_de_los_estudiantes_universitarios_de_educacion_por_medio_de_un_entorno_3D</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. García Ramírez GN. Estudio de tecnología de modelado 3D para su aplicación en escultura sustentable. (Tesis de Doctorado). Toluca: Universidad Autónoma del Estado de México; 2017 [citado 15/01/2020] . Disponible en: <ext-link ext-link-type="uri" xlink:href="http://ri.uaemex.mx/bitstream/handle/20.500.11799/66445/Estudio%20de%20tecnolog%c3%ada%20de%20modelado%203D%20para%20su%20aplicaci%c3%b3n%20en%20escultura%20sustentable-split-merge.pdf?sequence=5&amp;isAllowed=y">http://ri.uaemex.mx/bitstream/handle/20.500.11799/66445/Estudio%20de%20tecnolog%c3%ada%20de%20modelado%203D%20para%20su%20aplicaci%c3%b3n%20en%20escultura%20sustentable-split-merge.pdf?sequence=5&amp;isAllowed=y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García Ramírez</surname>
+							<given-names>GN</given-names>
+						</name>
+					</person-group>
+					<source>Estudio de tecnología de modelado 3D para su aplicación en escultura sustentable</source>
+					<comment content-type="degree">Tesis de Doctorado</comment>
+					<publisher-loc>Toluca</publisher-loc>
+					<publisher-name>Universidad Autónoma del Estado de México</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://ri.uaemex.mx/bitstream/handle/20.500.11799/66445/Estudio%20de%20tecnolog%c3%ada%20de%20modelado%203D%20para%20su%20aplicaci%c3%b3n%20en%20escultura%20sustentable-split-merge.pdf?sequence=5&amp;isAllowed=y">http://ri.uaemex.mx/bitstream/handle/20.500.11799/66445/Estudio%20de%20tecnolog%c3%ada%20de%20modelado%203D%20para%20su%20aplicaci%c3%b3n%20en%20escultura%20sustentable-split-merge.pdf?sequence=5&amp;isAllowed=y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. De la Torre Cantero J, Martin Dorta N, Saorín Pérez JL, Carbonell Carrera C, Contero González M. Entorno de aprendizaje ubicuo con realidad aumentada y tabletas para estimular la comprensión del espacio tridimensional. RED. 2013 [citado 15/01/2020] (37). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.um.es/red/article/view/234041/179811">https://revistas.um.es/red/article/view/234041/179811</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De la Torre Cantero</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Martin Dorta</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Saorín Pérez</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Carbonell Carrera</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Contero González</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Entorno de aprendizaje ubicuo con realidad aumentada y tabletas para estimular la comprensión del espacio tridimensional</article-title>
+					<source>RED</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-15">15/01/2020</date-in-citation>
+					<issue>37</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.um.es/red/article/view/234041/179811">https://revistas.um.es/red/article/view/234041/179811</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

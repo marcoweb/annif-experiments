@@ -1,0 +1,48 @@
+#ITI#A non-parametric approach for jointly combining evidence on progression free and overall survival time in network meta-analysis#FTI#
+#IRE# Randomised controlled trials of cancer treatments typically report progression free survival (PFS) and overall survival (OS) outcomes. Existing methods to synthesise evidence on PFS and OS either rely on the proportional hazards assumption or make parametric assumptions which may not capture the diverse survival curve shapes across studies and treatments. Furthermore, PFS and OS are not independent; OS is the sum of PFS and post-progression survival (PPS). Our aim was to develop a non-parametric approach for jointly synthesising evidence from published Kaplan–Meier survival curves of PFS and OS without assuming proportional hazards. Restricted mean survival times (RMST) are estimated by the area under the survival curves (AUCs) up to a restricted follow-up time. The correlation between AUCs due to the constraint that OS > PFS is estimated using bootstrap re-sampling. Network meta-analysis models are given for RMST for PFS and PPS and ensure that OS = PFS + PPS. Both additive and multiplicative network meta-analysis models are presented to obtain relative treatment effects as either differences or ratios of RMST. The methods are illustrated with a network meta-analysis of treatments for stage IIIA-N2 non-small cell lung cancer. The approach has implications for health economic models of cancer treatments, which require estimates of the mean time spent in the PFS and PPS health-states. The methods can be applied to a single time-to-event outcome, and so have wide applicability in any field where time-to-event outcomes are reported, the proportional hazards assumption is in doubt, and survival curve shapes differ across studies and interventions#FRE#
+#IPC# network meta-analysis; oncology; restricted mean survival time; survival analysis; time-to-event outcomes#FPC#
+#IRF# Higgins J.P.T., Whitehead A., Borrowing strength from external trials in a meta-analysis, Stat Med, 15, pp. 2733-2749, (1996); 
+Dias S., Ades A.E., Welton N.J., Jansen J.P., Sutton A.J., Network Meta-Analysis for Decision Making, (2018); 
+Briggs A., Sculpher M., Claxton K., Decision Modelling for Health Economic Evaluation, (2006); 
+Latimer N., (2011); 
+Guyot P., Welton N.J., Ouwens M.J.N.M., Ades A.E., Survival time outcomes in randomised controlled trials and meta-analyses: the parallel universes of efficacy and cost-effectiveness, Value Health, 14, pp. 640-646, (2011); 
+Dias S., Sutton A.J., Ades A.E., Welton N.J., Evidence synthesis for decision making 2: a generalized linear modeling framework for pairwise and network meta-analysis of randomized controlled trials, Med Decis Mak, 33, pp. 607-617, (2013); 
+Collett D., Modelling Survival Data in Medical Research, (2003); 
+Jansen J.P., Network meta-analysis of survival data with fractional polynomials, BMC Med Res Methodol, 11, 1, pp. 1-14, (2011); 
+Jackson C., Stevens J., Ren S., Et al., Extrapolating survival from randomized trials using external data: a review of methods, Med Decis Mak, 37, pp. 377-390, (2017); 
+Guyot P., Ades A.E., Beasley M., Lueza B., Pignon J.P., Welton N.J., Extrapolation of survival curves from cancer trials using external information, Med Decis Mak, 37, pp. 353-366, (2016); 
+Bagust A., Beale S., Survival analysis and extrapolation modeling of time-to-event clinical trial data for economic evaluation: an alternative approach, Med Decis Mak, 34, pp. 343-351, (2014); 
+Barrett J., Farewell V.T., Siannis F., Tierney J., Higgins J.P., Two-stage meta-analysis of survival data from individual participants using percentile ratios, Stat Med, 31, pp. 4296-4308, (2012); 
+Siannis F., Barrett J.K., Farewell V.T., Tierney J.F., One-stage parametric meta-analysis of time-to-event outcomes, Stat Med, 29, pp. 3030-3045, (2010); 
+Welton N.J., Willis S.R., Ades A.E., Synthesis of survival and disease progression outcomes for health technology assessment of cancer therapies, Res Synth Methods, 1, pp. 239-257, (2010); 
+Ouwens M.J.N.M., Philips Z., Jansen J.P., Network meta-analysis of parametric survival curves, Res Synth Methods, 1, pp. 258-271, (2010); 
+Cope S., Chan K., Jansen J., Multivariate network meta-analysis of survival function parameters, Value Health, 20, pp. A401-A402, (2017); 
+Lu G., Ades A.E., Sutton A.J., Cooper N.J., Briggs A.H., Caldwell D.M., Meta-analysis of mixed treatment comparisons at multiple follow-up times, Stat Med, 26, 20, pp. 3681-3699, (2007); 
+Freeman S., Carpenter J., Bayesian one-step IPD network meta-analysis of time-to-event data using Royston-Parmar models, Res Synth Methods, 8, pp. 451-464, (2017); 
+Harris S., Brown J., Lopez J., Yap T.A., Immuno-oncology combinations: raising the tail of the survival curve, Cancer Biol Med, 13, pp. 171-193, (2016); 
+Royston P., Parmar M., The use of restricted mean survival time to estimate the treatment effect in randomized clinical trial when the proportional hazards assumption is in doubt, Stat Med, 30, pp. 2409-2421, (2011); 
+Royston P., Parmar M.K.B., Restricted mean survival time: an alternative to the hazard ratio for the design and analysis of randomized trials with a time-to-event outcome, BMC Med Res Methodol, 13, (2013); 
+Wei Y., Royston P., Tierney J.F., Parmar M.K.B., Meta-analysis of time-to-event outcomes from randomized trials using restricted mean survival time: application to individual participant data, Stat Med, 34, pp. 2881-2898, (2015); 
+Woods B., Sideris E., Palmer S., Latimer N., Soares M., NICE DSU Technical Support Document 19: Partitioned Survival Analysis for Decision Modelling in Health Care: a Critical Review, (2017); 
+Riley R.D., Jackson D., Salanti G., Et al., Multivariate and network meta-analysis of multiple outcomes and multiple treatments: rationale, concepts, and examples, BMJ, 358, (2017); 
+Lung Cancer: Diagnosis and Management, (2019); 
+Guyot P., Ades A.E., Ouwens M.J.N.M., Welton N.J., Enhanced secondary analysis of survival data: reconstructing the data from published Kaplan–Meier survival curves, BMC Med Res Methodol, 12, (2012); 
+Albain K., Swann R.S., Rusch V.W., Et al., Radiotherapy plus chemotherapy with or without surgical resection for stage III non-small-cell lung cancer: a phase III randomised controlled trial, Lancet, 374, pp. 379-386, (2009); 
+Katakami N., Tada H., Mitsudomi T., Et al., A phase 3 study of induction treatment with concurrent chemoradiotherapy versus chemotherapy before surgery in patients with pathologically confirmed N2 stage IIIA nonsmall cell lung cancer (WJTOG9903), Cancer, 118, pp. 6126-6135, (2012); 
+Pless M., Stupp R., Ris H.B., Et al., Induction chemoradiation in stage IIIA/N2 non-small-cell lung cancer: a phase 3 randomised trial, Lancet, 386, pp. 1049-1056, (2015); 
+R: A Language and Environment for Statistical Computing, (2018); 
+Therneau T., A Package for Survival Analysis in R. R package version 3.2-13, (2015); 
+Klein J.P., Moeschberger M.L., Survival Analysis: Techniques for Censored and Truncated Data, (2003); 
+Eberhardt W., Pottgen C., Gauler T.C., Et al., Phase III study of surgery versus definitive concurrent Chemoradiotherapy boost in patients with Resectable stage IIIA(N2) and selected IIIB non-small-cell lung cancer after induction chemotherapy and concurrent Chemoradiotherapy (ESPATUE), J Clin Oncol, 33, pp. 4194-4201, (2015); 
+van Meerbeeck J., Kramer G.W., van Schil P., Et al., Randomized controlled trial of resection versus radiotherapy after induction chemotherapy in stage IIIA-N2 non-small-cell lung cancer, J Natl Cancer Inst, 99, pp. 442-450, (2007); 
+Efron B., Tibshiranie R.J., An Introduction to the Bootstrap, (1993); 
+Spiegelhalter D., Thomas A., Bes N., Lunn D., WinBUGS User Manual Version 1.4 January 2003. Upgraded to Version 1.4.3, (2007); 
+Spiegelhalter D.J., Best N.G., Carlin B.P., van der Linde A., Bayesian measures of model complexity and fit, J R Stat Soc B, 64, 4, pp. 583-616, (2002); 
+Dias S., Welton N.J., Sutton A.J., Caldwell D.M., Lu G., Ades A.E., NICE DSU Technical Support Document 4: Inconsistency in Networks of Evidence Based on Randomised Controlled Trials, (2011); 
+Dias S., Welton N.J., Sutton A.J., Caldwell D.M., Lu G., Ades A.E., Evidence synthesis for decision making 4: inconsistency in networks of evidence based on randomized controlled trials, Med Decis Mak, 33, pp. 641-656, (2013); 
+Spiegelman D., VanderWeele T.J., Evaluating public health interventions: 6. Modeling ratios or differences? Let the data tell us, Am J Public Health, 107, 7, pp. 1087-1091, (2017); 
+Saad E.D., Zalcberg J.R., Peron J., Coart E., Burzykowski T., Buyse M., Understanding and communicating measures of treatment effect on survival: can we do better?, J Natl Cancer Inst, 110, 3, pp. 232-240, (2017); 
+Davis S., Tappenden P., Cantrell A., A Review of Studies Examining the Relationship between Progression-Free Survival and Overall Survival in Advanced or Metastatic Cancer, (2012); 
+Girard N., Mornex F., Douillard J.Y., Et al., Is neoadjuvant chemoradiotherapy a feasible strategy for stage IIIA-N2 non-small cell lung cancer? Mature results of the randomized IFCT-0101 phase II trial, Lung Cancer, 69, pp. 86-93, (2010); 
+Morris T., White I., Crowther M., Using simulation studies to evaluate statistical methods, Stat Med, 38, pp. 2074-2102, (2019); 
+Fuller C.D., Wang S.J., Thomas C.R., Conditional survival in head and neck squamous cell carinoma: results from the SEER dataset 1973–1998, Cancer, 109, pp. 1331-1343, (2007)#FRF#

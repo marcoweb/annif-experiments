@@ -1,0 +1,37 @@
+#ITI#Modeling Misspecification as a Parameter in Bayesian Structural Equation Models#FTI#
+#IRE# Accounting for model misspecification in Bayesian structural equation models is an active area of research. We present a uniquely Bayesian approach to misspecification that models the degree of misspecification as a parameter—a parameter akin to the correlation root mean squared residual. The misspecification parameter can be interpreted on its own terms as a measure of absolute model fit and allows for comparing different models fit to the same data. By estimating the degree of misspecification simultaneously with structural parameters, the uncertainty about structural parameters reflects the degree of model misspecification. This results in a model that produces more reliable inference than extant Bayesian structural equation modeling. In addition, the approach estimates the residual covariance matrix that can be the basis for diagnosing misspecifications and updating a hypothesized model. These features are confirmed using simulation studies. Demonstrations with a variety of real-world examples show additional properties of the approach.#FRE#
+#IPC# Bayesian SEM; CRMR; model misspecification#FPC#
+#IRF# Barnard J., McCulloch R., Meng X.-L., Modeling covariance matrices in terms of standard deviations and correlations, with application to shrinkage, Statistica Sinica, 10, 4, pp. 1281-1311, (2000); 
+Betancourt M., A conceptual introduction to Hamiltonian Monte Carlo, (2017); 
+Bollen K.A., Structural equations with latent variables, (1989); 
+Cain M.K., Zhang Z., Fit for a Bayesian: An evaluation of PPP and DIC for structural equation modeling, Structural Equation Modeling, 26, 1, pp. 39-50, (2019); 
+Carpenter B., Gelman A., Hoffman M.D., Lee D., Goodrich B., Betancourt M., Brubaker M., Guo J., Li P., Riddell A., Stan: A probabilistic programming language, Journal of Statistical Software, 76, 1, pp. 1-32, (2017); 
+Carvalho C.M., Polson N.G., Scott J.G., Handling sparsity via the horseshoe, pp. 73-80, (2009); 
+Chen F., Curran P.J., Bollen K.A., Kirby J., Paxton P., An empirical evaluation of the use of fixed cutoff points in RMSEA test statistic in structural equation models, Sociological Methods & Research, 36, 4, pp. 462-494, (2008); 
+Dunson D.B., Bayesian latent variable models for clustered mixed outcomes, Journal of the Royal Statistical Society: Series B (Statistical Methodology), 62, 2, pp. 355-366, (2000); 
+Garnier-Villarreal M., Jorgensen T.D., Adapting fit indices for Bayesian structural equation modeling: Comparison to maximum likelihood, Psychological Methods, 25, 1, pp. 46-70, (2020); 
+Gelman A., Jakulin A., Pittau M.G., Su Y.-S., A weakly informative default prior distribution for logistic and other regression models, The Annals of Applied Statistics, 2, 4, pp. 1360-1383, (2008); 
+Hoofs H., van de Schoot R., Jansen N.W.H., Kant I., Evaluating model fit in Bayesian confirmatory factor analysis with large samples: Simulation study introducing the BRMSEA, Educational and Psychological Measurement, 78, 4, pp. 537-568, (2018); 
+Lee S.Y., Song X.Y., Tang N.S., Bayesian methods for analyzing structural equation models with covariates, interaction, and quadratic latent variables, Structural Equation Modeling: A Multidisciplinary Journal, 14, 3, pp. 404-434, (2007); 
+Lemoine N.P., Moving beyond noninformative priors: Why and how to choose weakly informative priors in Bayesian analyses, Oikos, 128, 7, pp. 912-928, (2019); 
+Levy R., Bayesian data-model fit assessment for structural equation modeling, Structural Equation Modeling: A Multidisciplinary Journal, 18, 4, pp. 663-685, (2011); 
+Levy R., Mislevy R.J., Bayesian psychometric modeling, (2016); 
+Lewandowski D., Kurowicka D., Joe H., Generating random correlation matrices based on vines and extended onion method, Journal of Multivariate Analysis, 100, 9, pp. 1989-2001, (2009); 
+MacCallum R.C., Tucker L.R., Representing sources of error in the common-factor model: Implications for theory and practice, Psychological Bulletin, 109, pp. 502-511, (1991); 
+Maydeu-Olivares A., Assessing the size of model misfit in structural equation models, Psychometrika, 82, 3, pp. 533-558, (2017); 
+McNeish D., On using Bayesian methods to address small sample problems, Structural Equation Modeling, 23, 5, pp. 750-773, (2016); 
+Merkle E.C., Rosseel Y., blavaan: Bayesian structural equation models via parameter expansion, Journal of Statistical Software, 85, 4, pp. 1-30, (2018); 
+Muthen B.O., Asparouhov T., Bayesian structural equation modeling: A more flexible representation of substantive theory, Psychological Methods, 17, 3, pp. 313-335, (2012); 
+Norton S., Cosco T., Doyle F., Done J., Sacker A., The hospital anxiety and depression scale: A meta confirmatory factor analysis, Journal of Psychosomatic Research, 74, 1, pp. 74-81, (2013); 
+Ogasawara H., Standard errors of fit indices using residuals in structural equation modeling, Psychometrika, 66, 3, pp. 421-436, (2001); 
+Palomo J., Dunson D.B., Bollen K., Bayesian structural equation modeling, Handbook of latent variable and related models, pp. 163-188, (2007); 
+Park T., Casella G., The Bayesian lasso, Journal of the American Statistical Association, 103, 482, pp. 681-686, (2008); 
+Rosseel Y., lavaan: An R package for structural equation modeling, Journal of Statistical Software, 48, 2, pp. 1-20, (2012); 
+Saris W.E., Satorra A., van der Veld W.M., Testing structural equation models or detection of misspecifications?, Structural Equation Modeling: A Multidisciplinary Journal, 16, 4, pp. 561-582, (2009); 
+Savalei V., The relationship between root mean square error of approximation and model misspecification in confirmatory factor analysis models, Educational and Psychological Measurement, 72, 6, pp. 910-932, (2012); 
+Scheines R., Hoijtink H., Boomsma A., Bayesian estimation and testing of structural equation models, Psychometrika, 64, 1, pp. 37-52, (1999); 
+Smid S.C., Winter S.D., Dangers of the defaults: A tutorial on the impact of default priors when using Bayesian SEM with small samples, Frontiers in Psychology, 11, (2020); 
+Song X.Y., Lee S.Y., Basic and advanced Bayesian structural equation modeling, (2012); 
+Vehtari A., Gelman A., Simpson D., Carpenter B., Burkner P.-C., Bayesian Analysis, 16, 2, pp. 667-718, (2021); 
+Wu H., Browne M.W., Quantifying adventitious error in a covariance structure as a random effect, Psychometrika, 80, 3, pp. 571-600, (2015); 
+Zigmond A.S., Snaith R.P., The hospital anxiety and depression scale, Acta Psychiatrica Scandinavica, 67, 6, pp. 361-370, (1983)#FRF#

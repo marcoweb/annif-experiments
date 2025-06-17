@@ -1,0 +1,58 @@
+#ITI#The impact of correction methods on rare-event meta-analysis#FTI#
+#IRE# Meta-analyses have become the gold standard for synthesizing evidence from multiple clinical trials, and they are especially useful when outcomes are rare or adverse since individual trials often lack sufficient power to detect a treatment effect. However, when zero events are observed in one or both treatment arms in a trial, commonly used meta-analysis methods can perform poorly. Continuity corrections (CCs), and numerical adjustments to the data to make computations feasible, have been proposed to ameliorate this issue. While the impact of various CCs on meta-analyses with rare events has been explored, how this impact varies based on the choice of pooling method and heterogeneity variance estimator is not widely understood. We compare several correction methods via a simulation study with a variety of commonly used meta-analysis methods. We consider how these method combinations impact important meta-analysis results, such as the estimated overall treatment effect, 95% confidence interval coverage, and Type I error rate. We also provide a website application of these results to aid researchers in selecting meta-analysis methods for rare-event data sets. Overall, no one-method combination can be consistently recommended, but some general trends are evident. For example, when there is no heterogeneity variance, we find that all pooling methods can perform well when paired with a specific correction method. Additionally, removing studies with zero events can work very well when there is no heterogeneity variance, while excluding single-zero studies results in poorer method performance when there is non-negligible heterogeneity variance and is not recommended#FRE#
+#IPC# adverse event; continuity correction; data generating models; heterogeneity; small sample size; sparsity#FPC#
+#IRF# Deeks J.J., Higgins J.P.T., Altman D.G., Chapter 10: Analyzing data and undertaking meta-analyses, Cochrane Handbook for Systematic Reviews of Interventions Version 6.2, (2021); 
+Piaget-Rossel R., Taffe P., Meta-analysis of rare events under the assumption of a homogeneous treatment effect, Biom J, 61, pp. 1557-1574, (2019); 
+Ren Y., Lin L., Lian Q., Zou H., Chu H., Real-world performance of meta-analysis methods for double-zero-event studies with dichotomous outcomes using the Cochrane database of systematic reviews, J Gen Intern Med, 34, 6, pp. 960-968, (2019); 
+Rucker G., Schwarzer G., Carpenter J., Olkin I., Why add anything to nothing? The arcsine difference as a measure of treatment effect in meta-analyiss with zero cells, Stat Med, 28, pp. 721-738, (2009); 
+Bradburn M.J., Deeks J.J., Berlin J.A., Localio A.R., Much ado about nothing: a comparison of the performance of meta-analytical methods with rare events, Stat Med, 26, 1, pp. 53-77, (2007); 
+Sweeting M., Sutton A., Lambert P., What to add to nothing? Use and avoidance of continuity corrections in meta-analysis of sparse data, Stat Med, 23, 9, pp. 1351-1375, (2004); 
+Holling H., Jansen K., Bohning W., Bohning D., Martin S., Sangnawakij P., Estimation of effect heterogeneity in rare events meta-analysis, Psychometrika, 87, pp. 1081-1102, (2022); 
+Liu D., Liu R., Xie M., Exact inference methods for rare events, Wiley StatsRef: Statistics Reference Online, (2018); 
+Kuss O., Statistical methods for meta-analyses including information from studies without any events—add nothing to nothing and succeed nevertheless, Stat Med, 34, 7, pp. 1097-1116, (2015); 
+Cai T., Parast L., Ryan L., Meta-analysis for rare events, Stat Med, 20, 29, pp. 2078-2089, (2010); 
+Stijnen T., Hamza T.H., Ozdemir P., Random effects meta-analysis of event outcome in the framework of the generalized linear mixed model with applications in sparse data, Stat Med, 29, 29, pp. 3046-3067, (2010); 
+Bakbergenuly I., Hoaglin D.C., Kulinskaya E., Methods for estimating between-study variance and overall effect in meta-analysis of odds ratios, Res Synth Methods, 11, 3, pp. 426-442, (2020); 
+Efthimiou O., Practical guide to the meta-analysis of rare events, Br Med J, 21, 2, pp. 72-76, (2018); 
+Cheng J., Pullenayegum E., Marshall J.K., Iorio A., Thabane L., Impact of including or excluding both-armed zero-event studies on using standard meta-analysis methods for rare event outcome: a simulation study, BMJ Open, 6, 8, (2016); 
+Bohning D., Mylona K., Kimber A., Meta-analysis of clinical trials with rare events, Biom J, 57, 4, pp. 633-648, (2015); 
+Sankey S.S., Weissfeld L.A., Fine M.J., Kapoor W., An assessment of the use of the continuity correction for sparse data in meta-analysis, Commun Stat Simul Comput, 25, 4, pp. 1031-1056, (1996); 
+Bhaumik D.K., Amatya A., Normand S.L.T., Et al., Meta-analysis of rare binary adverse event data, J Am Stat Assoc, 107, 498, pp. 555-567, (2012); 
+Hodkinson A., Kontopantelis E., Applications of simple and accessible methods for meta-analysis involving rare events: a simulation study, Stat Methods Med Res, 30, 7, pp. 1589-1608, (2021); 
+Hong H., Wang C., Rosner G.L., Meta-analysis of rare adverse events in randomized clinical trials: Bayesian and frequentist methods, Clin Trials, 18, 1, pp. 3-16, (2021); 
+Chung Y., Rabe-Hesketh S., Choi I.H., Avoiding zero between-study variance estimates in random-effects meta-analysis, Stat Med, 32, 23, pp. 4071-4089, (2012); 
+Zhang C., Chen M., Wang X., Statistical methods for quantifying between-study heterogeneity in meta-analysis with focus on rare binary events, Stat Interface, 13, pp. 449-464, (2020); 
+Langan D., Higgins J.P., Jackson D., Et al., A comparison of heterogeneity variance estimators in simulated random-effects meta-analyses, Res Synth Methods, 10, 1, pp. 83-98, (2018); 
+Pateras K., Nikolakopoulos S., Mavridis D., Roes K.C., Interval estimation of the overall treatment effect in a meta-analysis of a few small studies with zero events, Contemp Clin Trials Commun, 9, pp. 98-107, (2018); 
+Rao G., Lopez-Jimenez F., Boyd J., Et al., Methodological standards for meta-analyses and qualitative systematic reviews of cardiac prevention and treatment studies: a scientific statement from the American Heart Association, Circulation, 136, 10, pp. e172-e194, (2017); 
+Borenstein M., Hedges L.V., Higgins J.P., Rothstein H.R., A basic introduction to fixed-effect and random-effects models for meta-analysis, Res Synth Methods, 1, 2, pp. 97-111, (2010); 
+Nikolakopoulou A., Mavridis D., Salanti G., Demystifying fixed and random effects meta-analysis, Evid Based Ment Health, 17, 2, pp. 53-57, (2014); 
+Kelley G.A., Statistical models for meta-analysis: a brief tutorial, World J Methodol, 2, 4, pp. 27-32, (2012); 
+Higgins J.P.T., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc A Stat Soc, 172, 1, pp. 137-159, (2009); 
+Petropoulou M., Mavridis D., A comparison of 20 heterogeneity variance estimators in statistical synthesis of results from studies: a simulation study, Stat Med, 36, 27, pp. 4266-4280, (2017); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synth Methods, 7, 1, pp. 55-79, (2016); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Stat, 30, 3, pp. 261-293, (2005); 
+Sidik K., Jonkman J.N., Simple heterogeneity variance estimation for meta-analysis, J R Stat Soc, 54, 2, pp. 367-384, (2005); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Novianti P.W., Roes K.C., van der Tweel I., Estimation of between-trial variance in sequential meta-analyses: a simulation study, Contemp Clin Trials, 37, 1, pp. 129-138, (2014); 
+Bowden J., Tierney J.F., Simmonds M., Copas A.J., Higgins J.P., Individual patient data meta-analysis of time-to-event outcomes: one-stage versus two-stage approaches for estimating the hazard ratio under a random effects model, Res Synth Methods, 2, 3, pp. 150-162, (2011); 
+Sidik K., Jonkman J.N., A comparison of heterogeneity variance estimators in combining results of studies, Stat Med, 26, 9, pp. 1964-1981, (2007); 
+Paule R., Mandel J., Consensus values, regressions, and weighting factors, J Res Natl Bur Stand, 94, 3, pp. 197-203, (1989); 
+DerSimonian R., Kacker R., Random-effects model for meta-analysis of clinical trials: an update, Contemp Clin Trials, 28, 2, pp. 105-114, (2007); 
+Aert V., Jackson D., Multistep estimators of the between-study variance: the relationship with the Paule-Mandel estimator, Stat Med, 37, 17, pp. 2616-2629, (2018); 
+Kontopantelis E., Springate D.A., Reeves D., A Re-analysis of the Cochrane library data: the dangers of unobserved heterogeneity in meta-analyses, PLoS One, 8, 7, (2013); 
+Balduzzi S., Rucker G., Schwarzer G., How to perform a meta-analysis with R: a practical tutorial, Evid Based Ment Health, 22, pp. 153-160, (2019); 
+Shuster J.J., Empirical vs natural weighting in random effects meta-analysis, Stat Med, 29, 12, pp. 1259-1265, (2010); 
+Hunter J., Schmidt F., Methods of Meta-Analysis: Correcting Error and Bias in Research Findings, (1990); 
+Hedges L., Olkin I., Statistical Methods for Meta-Analysis, (1985); 
+Cox D.R., The continuity correction, Biometrika, 57, 1, pp. 217-219, (1970); 
+Warren F.C., Abrams K.R., Golder S., Sutton A.J., Systematic review of methods used in meta-analyses where a primary outcome is an adverse or unintended event, BMC Med Res Methodol, 12, (2012); 
+Gart J.J., Alternative analyses of contingency tables, J R Stat Soc B Methodol, 28, 1, pp. 164-179, (1966); 
+Weber F., Knapp G., Ickstadt K., Kundt G., Glass A., Zero-cell corrections in random-effects meta-analyses, Res Synth Methods, 11, 6, pp. 913-919, (2020); 
+Pateras K., Nikolakopoulos S., Roes K., Data-generating models of dichotomous outcomes: heterogeneity in simulation studies for a random-effects meta-analysis, Stat Med, 37, 7, pp. 1115-1124, (2017); 
+Kulinskaya E., Hoaglin D.C., Bakbergenuly I., Exploring consequences of simulation design for apparent performance of methods of meta-analysis, Stat Methods Med Res, 30, pp. 1667-1690, (2021); 
+Jackson D., Law M., Stijnen T., Viechtbauer W., White I.R., A comparison of seven random-effects models for meta-analysis that estimate the summary odds ratio, Stat Med, 37, pp. 1059-1085, (2018); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Bongartz T., Sutton A.J., Sweeting M.J., Buchan I., Matteson E.L., Montori V., Anti-TNF antibody therapy in rheumatoid arthritis and the risk of serious infections and malignancies: systematic review and meta-analysis of rare harmful effects in randomized controlled trials, JAMA, 295, 19, pp. 2275-2285, (2006); 
+Bakbergenuly I., Kulinskaya E., Meta-analysis of binary outcomes via generalized linear mixed models: a simulation study, BMC Med Res Methodol, 18, 20, (2018); 
+Wei J.J., Lin E.X., Shi J.D., Et al., Meta-analysis with zero-event studies: a comparative study with application to COVID-19 data, Mil Med Res, 8, 41, (2021)#FRF#

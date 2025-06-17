@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es"
+	xmlns:mml="http://www.w3.org/1998/Math/MathML"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">rhcm</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Habanera de Ciencias Médicas</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev haban cienc méd</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1729-519X</issn>
+			<publisher>
+				<publisher-name>Universidad de Ciencias Médicas de La Habana</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00008</article-id>
+			<article-id pub-id-type="other">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Ciencias básicas biomédicas</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Farmacogenómica: principios y aplicaciones en la práctica médica</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Pharmacogenomics: principles and application on medical practice</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3660-954X</contrib-id>
+					<name>
+						<surname>Rodríguez Duque</surname>
+						<given-names>Raisa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2416-2349</contrib-id>
+					<name>
+						<surname>Miguel Soca</surname>
+						<given-names>Pedro Enrique</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Escuela Superior Politécnica de Chimborazo (ESPOCH). Chimborazo, Ecuador.</institution>
+				<institution content-type="orgname">Escuela Superior Politécnica de Chimborazo (ESPOCH)</institution>
+				<institution content-type="normalized">Escuela Superior Politécnica de Chimborazo (ESPOCH)</institution>
+				<addr-line>
+					<named-content content-type="city">Chimborazo</named-content>
+				</addr-line>
+				<country country="EC">Ecuador</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Universidad de Ciencias Médicas de Holguín. Holguín, Cuba. </institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas de Holguín</institution>
+				<institution content-type="normalized">Universidad de Ciencias Médicas de Holguín</institution>
+				<addr-line>
+					<named-content content-type="city">Holguín</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label>Autor para la correspondencia: <email>socahlg@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label><bold>Conflicto de intereses:</bold></label>
+					<p> los autores declaran no tener ningún conflicto de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn4">
+					<label><bold>Contribución de los autores:</bold></label>
+					<p> ambos autores participamos en la discusión de los resultados y hemos leído, revisado y aprobado el texto final del artículo.</p>
+					<p>RRD: concibió la idea original del trabajo, búsqueda, recuperación y selección de la literatura consultada, escribió la primera versión del manuscrito.</p>
+					<p>PEMS: búsqueda, recuperación y selección de la literatura consultada, revisó críticamente el informe final.</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Nov-Dec</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>19</volume>
+			<issue>6</issue>
+			<elocation-id>e3128</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>20</day>
+					<month>01</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>01</day>
+					<month>07</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> La farmacogenómica, como parte de la medicina de precisión, garantiza un tratamiento óptimo de los pacientes basado en su perfil genético.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Describir los principales principios en que se sustenta la farmacogenómica y sus aplicaciones a la práctica clínica diaria.</p>
+				</sec>
+				<sec>
+					<title>Materiales y Métodos:</title>
+					<p> Se realizó una revisión crítica de la farmacogenómica en las bases de datos principales: SciELO, MedLine/PubMed/PMC y Scopus con los descriptores farmacogenómica/<italic>pharmacogenomics</italic>, farmacogenética/<italic>pharmacogenetics</italic>, medicina personalizada/personalized medicine y medicina de precisión/<italic>precision medicine</italic>. También en la biblioteca virtual de salud de Infomed. El periodo de búsqueda y localización de artículos: noviembre 2019-enero 2020. Se seleccionaron artículos publicados entre 2008 y enero de 2020.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> Los principios de la farmacogenómica se basan en el conocimiento del genoma humano que permite determinar el perfil genético de los pacientes y la mejor respuesta al tratamiento medicamentoso con un mínimo de reacciones adversas. Se aplica en diferentes especialidades médicas como oncología, cardiología, medicina interna y endocrinología. Entre los biomarcadores farmacogenéticos estudiados están CACNA1S, RYR1, CYP2D6, SLCO1B1, CYP2C19, F5, CFTR, CYP2C9, CYP4F2, VKORC1, HLA-B, UGT1A1, IFNL3, CYP3A5, TPMT, G6PD, HLA-A, BRCA1, DPYD, RARG, SLC28A3, TPMT y UGT1A6.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> Los biomarcadores farmacogenéticos constituyen valiosas herramientas para la identificación de genes implicados en la respuesta medicamentosa, importantes para aplicar una medicina personalizada que mejore la respuesta a los medicamentos y evite o minimice los efectos adversos, aunque quedan desafíos para convertirla en una herramienta de uso frecuente en la práctica médica.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> Pharmacogenomics, as part of precision medicine, guarantees patients´ optimal treatment based on their genetic profile.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To describe the principles of pharmacogenomics and its application in daily clinical practice.</p>
+				</sec>
+				<sec>
+					<title>Materials and Methods:</title>
+					<p> A critical review of pharmacogenomics was carried out in SciELO, MedLine/PubMed/PMC, Scopus databases and the Cuban Virtual Health Library using Spanish and English descriptors such as: <italic>farmacogenómica</italic>/pharmacogenomics, <italic>farmacogenética</italic>/pharmacogenetics, <italic>medicina personalizada</italic>/personalized medicine and <italic>medicina de precisión</italic>/precision medicine. The articles were searched and located during the period between November 2019 and January 2020. The articles published between 2008 and January 2020 were selected.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The principles of pharmacogenomics are based on the knowledge of the human genome that allows the determination of the genetic profile of patients and the best response to drug treatment with a minimum of adverse reactions. It is applied in different medical specialties such as Oncology, Cardiology, Internal Medicine and Endocrinology. The most studied pharmacogenetic biomarkers include: CACNA1S, RYR1, CYP2D6, SLCO1B1, CYP2C19, F5, CFTR, CYP2C9, CYP4F2, VKORC1, HLA-B, UGT1A1, IFNL3, CYP3A5, TPMT, G6PD, HLA-A, BRCA1, DPYD, RARG, SLC28A3, TPMT and UGT1A6.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> Pharmacogenetic biomarkers are valuable tools for the identification of genes involved in the drug response. They are very important in the application of personalized medicine which is intended to improve the response to drugs and avoid or minimize adverse effects. However, substantial challenges remain in respect of making it a frequently used tool in medical practice.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>farmacogenómica</kwd>
+				<kwd>farmacogenética</kwd>
+				<kwd>medicina de precisión</kwd>
+				<kwd>perfil genético</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>pharmacogenomics</kwd>
+				<kwd>pharmacogenetics</kwd>
+				<kwd>precision medicine</kwd>
+				<kwd>genetic profile</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="55"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>Los pacientes responden de manera diferente a la farmacoterapia y ningún medicamento es eficaz en todos los pacientes debido, en gran medida, a factores genéticos, epigenéticos y ambientales que influyen en la eficacia y la seguridad de los medicamentos.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Las concentraciones plasmáticas de un fármaco pueden variar más de 600 veces entre dos individuos del mismo peso a una dosis igual.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref> Las causas de estas variaciones también radican en la naturaleza y la severidad de la enfermedad tratada, la edad y origen étnico, la función del órgano, la terapia asociada, factores nutricionales, la interacción con otros fármacos y la comorbilidad.</p>
+			<p>Los medicamentos, aun empleados en dosis óptimas, producen reacciones adversas que pueden alcanzar el 5-12 % de los ingresos hospitalarios y provocar daños menores, moderadas, graves y mortales.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref> Esto es causa de fracaso terapéutico por no cumplimiento de la prescripción o la suspensión de los medicamentos.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>La <italic>International Conference on Harmonisation</italic> (ICH), un consorcio mundial de organismos reguladores, ha definido la farmacogenómica como el estudio de las variaciones de las características del ADN y el ARN en relación con la respuesta a las drogas, y la farmacogenética como el estudio de las variaciones de la secuencia del ADN en relación con la respuesta a las drogas.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>)</sup> Estos términos tienden a emplearse indistintamente.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>El principal objetivo de la farmacogenómica es definir un tratamiento farmacológico individualizado basado en el perfil genético de cada paciente, convirtiendo el paradigma clásico de tratamiento centrado en la enfermedad en un nuevo enfoque, la medicina personalizada.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Para la aplicación clínica de la farmacogenómica mediante la identificación de variantes genéticas que predicen la respuesta medicamentosa existen dos planteamientos: el análisis de genes candidatos y los estudios de asociación genómica.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>La farmacogenómica está adquiriendo una gran relevancia por el desarrollo de la biología molecular, las técnicas de ADN recombinante y por la necesidad de encontrar una explicación molecular a las variaciones en la respuesta a los fármacos.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> Su principal propósito es facilitar la toma de decisión a los médicos para la selección de mejores medicamentos y la duración óptima del tratamiento.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>Esta revisión tiene como <bold>objetivo</bold> describir los principales principios en que se sustenta la farmacogenómica y sus aplicaciones a la práctica clínica diaria. Para entender esta disciplina se requieren conocimientos básicos de genética molecular que constituyen sus principios.</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>Material y Métodos</title>
+			<p>Se realizó una revisión bibliográfica de artículos publicados en revistas con revisiones por pares e indexadas en las bases de datos: SciELO, MedLine/PubMed/PMC y Scopus.</p>
+			<p>En <italic>Scientific Electronic Library Online</italic> (SciELO; <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?lng=es">http://scielo.sld.cu/scielo.php?lng=es</ext-link>) con el descriptor farmacogenómica se encontraron 36 referencias bibliográficas; con farmacogenética se localizaron 88 artículos científicos; con medicina personalizada, 73 trabajos y con medicina de precisión, 271 artículos. Con el descriptor en inglés <italic>pharmacogenomics</italic> en SciELO se localizaron 31 trabajos.</p>
+			<p>Con el descriptor <italic>pharmacogenomics</italic> en <italic>National Center for Biotechnology Information</italic> (https://www.ncbi.nlm.nih.gov) se encontraron en PubMed 25 359 artículos y en PubMed Central, 30 775 trabajos.</p>
+			<p>En Scopus a través de la biblioteca virtual de salud de Infomed de Cuba (<ext-link ext-link-type="uri" xlink:href="https://www.scopus.com/">https://www.scopus.com</ext-link>) se localizaron con el descriptor <italic>pharmacogenomics</italic> a texto completo 2 893 documentos con acceso abierto.</p>
+			<p>Según el cuartil en <italic>Scimago Journal &amp; Country Rank</italic> (SJR) de 2018 se consideraron revistas relevantes las que se encontraban en Q1 y Q2 (<ext-link ext-link-type="uri" xlink:href="https://www.scimagojr.com/">https://www.scimagojr.com</ext-link>); las halladas en el Q3 y Q4 se consideraron pertinentes; en este último grupo se agruparon las presentes en SciELO y que no se encuentran en Scopus.</p>
+			<p>Finalmente se acotaron 23 revistas relevantes (Q1=17; Q2=6) y el resto pertinentes (Q3=5, Q4=6), dos páginas web y el resto no aparecían en SJR, para un total de 55 referencias bibliográficas.</p>
+			<p>Para la selección de artículos se tomaron los siguientes criterios:</p>
+			<p>
+				<list list-type="alpha-lower">
+					<list-item>
+						<p>Tipo de estudio: estudios transversales, longitudinales, de casos y controles, ensayos clínicos, revisiones subjetivas, revisiones sistemáticas y meta-análisis. Se excluyeron las cartas al editor o director, artículos breves de opinión, casos clínicos y resúmenes.</p>
+					</list-item>
+					<list-item>
+						<p>Unidad de análisis: personas o animales de laboratorio.</p>
+					</list-item>
+					<list-item>
+						<p>Años de publicación de los artículos: 2008-enero 2020.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Los autores realizaron una revisión crítica de la literatura disponible.</p>
+			<p>El periodo de búsqueda y localización de artículos: noviembre 2019-enero 2020.</p>
+		</sec>
+		<sec>
+			<title>Desarrollo</title>
+			<p>Conceptos básicos de genética</p>
+			<p>La farmacogenómica se desarrolló de los resultados del Proyecto de Genoma Humano (HGP; <ext-link ext-link-type="uri" xlink:href="http://www.genome.gov/">www.genome.gov</ext-link>) comenzado en 1990. El HGP fue un megaproyecto investigativo internacional para dilucidar la estructura de los genes humanos y de otras especies. El secuenciado de los 2,91 millones de pares de bases del ADN se completó en 2003.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Los lectores que deseen ampliar estos conceptos pueden revisar a Orrico<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>)</sup> y el <italic>National Human Genome Research Institute</italic>.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>Biomarcadores farmacogenéticos</p>
+			<p>Los genes que codifican proteínas involucradas en la acción, toxicidad o metabolismo de los medicamentos frecuentemente se nombran como biomarcadores farmacogenómicos o farmacogenéticos.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> La variación en estos genes afecta la eficacia y seguridad medicamentosa y varía ampliamente entre individuos y poblaciones.<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+			</p>
+			<p>La variación genética se debe a diferencias en la estructura de un gen o de porciones reguladoras del genoma causadas por deleciones, inserciones, duplicaciones, inversiones o sustituciones de bases, lo que cambia la secuencia de bases en el ADN y posiblemente la proteína sintetizada.</p>
+			<p>Un polimorfismo de nucleótido simple (SNP) surge cuando una base nitrogenada con su base complementaria pareada se sustituye dentro de la secuencia de nucleótidos.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> Un SNP puede tener consecuencias si afecta el gen o región reguladora y altera la función o síntesis de su proteína codificada. Por ejemplo, en el alelo CYP2C19*2A se sustituye una adenina por una guanina en la posición 681 del exón (681G&gt;A) y se sintetiza una enzima no funcional.</p>
+			<p>La variación del número de copias (CNV) se produce cuando secciones del ADN se repiten varias veces o se eliminan y se vuelven significativas cuando afectan un sector codificante o regulador del gen.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> Cuando la CNV afecta más de dos copias de un gen funcional, la proteína codificada se puede producir en mayores cantidades y la actividad enzimática aumenta. Una CNV que resulta en múltiples copias del gen es un múltiplo, es típicamente anotada como el símbolo del gen seguido por el asterisco y el número del alelo × N (*2×N).</p>
+			<p>Si la proteína es una enzima del metabolismo de los medicamentos como CYP P450, el incremento de la actividad enzimática acelera el metabolismo y altera la farmacocinética. Por el contrario, la CNV también puede llevar a la supresión o el silenciamiento de un gen, dejando a un individuo con menos de dos copias. La falta de una o ambas copias del gen CYP P450 puede producir menos enzima y un metabolismo deficiente del fármaco.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Algunos estudios sobre variantes alélicas o SNP de biomarcadores farmacogenéticos como CYP2C9, CYP2C19, CYP2D6, SLCO1B1, TPMT y VKORC1 demuestran que existen diferentes frecuencias en las poblaciones y los grupos étnicos.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> Un estudio en el Centro Nacional de Genética Médica de La Habana determinó que la frecuencia alélica de CYP2D6*6 resultó igual a 0,008; resultado que no mostró diferencias con la mayoría de las poblaciones europeas (excepto España) y latinoamericanas con las que se comparó.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> Por su parte, Llerena et al.<xref ref-type="bibr" rid="B17"><sup>17</sup></xref> encontraron que el alelo <italic>CYP2D6*10</italic> fue mayor en mestizos nicaragüenses que en cubanos blancos y mestizos. Entre cubanos, el alelo <italic>CYP2D6*17</italic> fue mayor en mestizos, lo que sugiere que la variabilidad en los fenotipos de CYP2D6 se relaciona con diferencias en la frecuencia de los alelos.</p>
+			<p>Diferentes organizaciones como <italic>Pharmacogene Variation Consortium</italic> (PharmVar.org) han identificado variantes de biomarcadores farmacogenéticos, especialmente los alelos de CYP P450.</p>
+			<p>Medicina de precisión o personalizada</p>
+			<p>La medicina personalizada se refiere a la adaptación del tratamiento a las características, necesidades individuales del paciente durante todas las etapas: cuidado, prevención, diagnóstico, tratamiento y seguimiento.<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref> Este concepto no es nuevo, pues la observación de que las personas difieren en su respuesta medicamentosa lo notó Pitágoras en 510 AC cuando apreció una anemia hemolítica en personas que comían frijoles.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> El primero que sugirió que la variación genética modifica la acción de los medicamentos fue Garrod.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>
+			</p>
+			<p>Desde 1959 se acuñó el término de farmacogenética por Vogel para designar el papel que desempeña la variación genética en la respuesta a los medicamentos.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+			</p>
+			<p>Aunque, medicina personalizada o de precisión se empleen como sinónimos y los europeos prefieran el primero, el <italic>National Research Council</italic> recomienda el uso de medicina de precisión en lugar de medicina personalizada porque este último sugiere que las estrategias para el tratamiento y prevención se desarrollan exclusivamente para cada individuo concreto y no como perteneciente a un biotipo, como es el caso de medicina de precisión.<xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>)</sup> En esta revisión se utilizan como sinónimos.</p>
+			<p>En las últimas décadas se ha identificado un gran número de variantes farmacogenómicas con utilidad clínica.<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref> Estas variantes se han incorporado a los prospectos de los medicamentos por <italic>Food and Drugs Administration</italic> (FDA) y en guías clínicas de consenso para facilitar su empleo clínico. Idealmente, las terapias seleccionadas en parte del perfil genético de los pacientes podrían evitar o atenuar las reacciones adversas, maximizar la eficacia medicamentosa y reducir los costos.</p>
+			<p>Farmacogenómica</p>
+			<p>Una terapia medicamentosa produce tres respuestas posibles: el paciente tiene una respuesta normal con la mejoría clínica esperada, el paciente no responde sin efectos dañinos o presenta una respuesta adversa desde ligera hasta la muerte.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>)</sup></p>
+			<p>Un objetivo central de la farmacogenómica es predecir la respuesta esperada, basada en el genoma del paciente;<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> Los que no responden al medicamento se debe a que la droga es incapaz de unirse a su diana por mutaciones en el sitio de fijación del medicamento o que los pacientes sean metabolizadores ultrarrápidos, lo que impide lograr los niveles terapéuticos deseados.</p>
+			<p>Las bacterias y especialmente los virus tienen altas tasas de mutaciones que evaden el sistema inmune. Las mutaciones en los sitios de unión de los medicamentos son más frecuentes con los antibacterianos y antivirales debido a la presión selectiva del fármaco; además, estos microorganismos adquieren genes de resistencia a los antibióticos.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>
+			</p>
+			<p>Una segunda razón para no responder al medicamento es que la concentración esté por debajo de la necesaria para producir eficazmente la inhibición (antagonismo) o activación (agonismo).<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> Por el contrario, frecuentemente las reacciones adversas se producen por una alta concentración.</p>
+			<p>La familia de enzimas hepáticas citocromos P450 (CYP 450) actúan sobre más de 30 clases de medicamentos. Las variaciones en los genes que codifican estas enzimas influyen sobre su capacidad para metabolizar ciertos medicamentos. Las formas menos activas de las enzimas CYP pueden provocar toxicidad farmacológica.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>En función de las combinaciones de los alelos en el genotipo, es posible predecir el fenotipo asociado al metabolismo de fármacos. Las variantes alélicas no solo son resultado de SNP:<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Metabolizador lento: incapaz de procesar los fármacos por carecer de alelos funcionales. Estos individuos necesitan una menor dosis del fármaco debido a la dificultad de metabolizarlo.</p>
+					</list-item>
+					<list-item>
+						<p>Metabolizador normal: es considerado el fenotipo normal, ya que procesa los fármacos en tiempo y forma adecuada.</p>
+					</list-item>
+					<list-item>
+						<p>Metabolizador intermedio: procesa los fármacos un poco más lento que el fenotipo normal.</p>
+					</list-item>
+					<list-item>
+						<p>Metabolizador ultrarrápido: estos individuos transforman los fármacos muy rápidamente. En estos casos la dosis recomendada debería ser más elevada porque el fármaco no tiene tiempo suficiente para actuar.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Debido a la alta complejidad de los loci relacionados con los CYP 450 y la enorme variabilidad genética entre personas es complicado interpretar e inferir el fenotipo resultante.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Proyectos como HapMap (<italic>International HapMap Consortium</italic>, 2003) o el de 1 000 genomas (<italic>1 000 Genomes Projet Consortium</italic>, 2012), pretenden establecer un catálogo de variaciones genéticas comunes en la especie humana y cómo se distribuyen a lo largo del genoma.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Los estudios de asociación de genoma completo representan enfoques prometedores para mapear genes de fenotipos humanos.<xref ref-type="bibr" rid="B28"><sup>28</sup></xref> No obstante, existe alguna limitación para este tipo de estudios, como por ejemplo la necesidad de un tamaño muestral muy grande para extraer conclusiones relevantes.</p>
+			<p>Existen bases de datos como SuperCYP que aportan una amplia gama de información relacionada con enzimas metabolizadoras de la familia de citocromos P450.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Aplicaciones de la farmacogenómica</p>
+			<p>Las aplicaciones de la farmacogenómica se centran en numerosas enfermedades como el cáncer, enfermedades cardiovasculares, depresión, analgesia, desórdenes mentales y neurológicos (esquizofrenia y la enfermedad de Alzheimer), metabolismo de fármacos y en trastornos metabólicos como la diabetes.<xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref> A continuación se expondrán brevemente algunos ejemplos.</p>
+			<p>Oncología</p>
+			<p>El genoma tumoral explica parte de la respuesta heterogénea a la quimioterapia.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> Un ejemplo son las mutaciones somáticas en el dominio tirosina quinasa del gen del receptor del factor de crecimiento epidérmico (<italic>EGFR</italic>) que se correlacionan con la respuesta a gefitinib en el cáncer pulmonar de células no pequeñas.</p>
+			<p>En oncología hay un arsenal de terapias genotipo-dependiente.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref> Por ejemplo, el tamoxifeno está indicado para la prevención de la recurrencia de la enfermedad en los pacientes con cáncer de mama positivo a receptores de estrógenos; uno de sus principales marcadores biofarmacogenéticos es CYP2D6. Así, el riesgo de recurrencia tumoral se reduce 11,8 % y la mortalidad a los 5 años se reduce a 9,2 %.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+			</p>
+			<p>Entre el 5-25 % de los pacientes con cáncer mamario presentan mutación en BRCA. Estos genes participan en la reparación del ADN dañado.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref> El olaparib, fármaco aprobado para el cáncer ovárico, muestra resultados prometedores en el cáncer mamario con mutación de BRCA.<xref ref-type="bibr" rid="B35"><sup>35</sup></xref>
+			</p>
+			<p>La amplificación o sobreexpresión del gen HER2 se presenta en 15-25 % de carcinomas mamarios primarios, asociado a peor pronóstico. La mayoría de los cánceres expresan el receptor de estrógenos α, el receptor de progesterona y el proto-oncogén HER2 (triple positivo) y en estos casos, los inhibidores de estrógenos y agentes diana de HER2 (trastuzumab) incrementan la supervivencia de estos pacientes.<xref ref-type="bibr" rid="B36"><sup>36</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref> En pacientes con cáncer de mama triple negativo y difícil manejo quimioterapéutico deben emplearse terapias basadas en platino y los inhibidores de la PARP (<italic>Poly ADP Ribose Poymerase</italic>), cuyos resultados son prometedores en ensayos clínicos.<xref ref-type="bibr" rid="B38"><sup>38</sup></xref>
+			</p>
+			<p>La administración de un inhibidor competitivo de tirosina quinasa Bcr/Abl - una oncoproteína expresada en 95 % de los pacientes con leucemia mieloide crónica y la molécula diana para esta enfermedad- alcanza una tasa de éxito de 80 % en la respuesta citogenética de pacientes recién diagnosticados.<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>
+			</p>
+			<p>En el cáncer colorrectal, los pacientes que reciben cetuximab y quimioterapia muestran una mejor respuesta terapéutica que aquellos con quimioterapia sola; solo los pacientes con una variación genética (KRAS mutante) no son beneficiados.<xref ref-type="bibr" rid="B36"><sup>36</sup></xref>
+			</p>
+			<p>Enfermedades cardiovasculares</p>
+			<p>Los anticoagulantes orales warfarina y acenocumarol son antagonistas de la vitamina K epóxido reductasa.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref> Aunque el mecanismo de acción de estos fármacos es similar, hay algunas diferencias en su farmacocinética, por ejemplo warfarina presenta menor actividad que acenocumarol y mayores reacciones adversas.</p>
+			<p>La vitamina K epóxido reductasa presenta un SNP, denominado rs9923231 (-1639G A; G3673A), que disminuye la expresión genética y como consecuencia se requieren menores dosis de warfarina.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+			</p>
+			<p>La enzima P450 CYP2C9 metaboliza el enantiómero más potente de S-warfarina y más de 30 variantes alélicas son reconocidas en esta enzima. CYP2C9*2 (rs1799853) y CYP2C9*3 (rs1057910) son las variantes genéticas más frecuentes en caucásicos.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+			</p>
+			<p>CYP2C9*2 y CYP2C9*3 codifican proteínas con actividades enzimáticas reducidas y se asocian con una prolongada vida media de warfarina, lo que requiere reducción de la dosis y para los pacientes con CYP2C9*3 existe un mayor riesgo de hemorragia.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+			</p>
+			<p>Las enzimas involucradas en el metabolismo de acenocumarol son CYP2C9 y CYP1A2. La presencia de un alelo CYP2C9*3 reduce el metabolismo del S-acenocumarol y aumenta la vida media de este enantiómero. Significa que el paciente con este alelo requiere dosis 19-29 % menor que personas con genotipos normales, pero también 13-15 % menor en portadores de un alelo *2. El riesgo de hemorragia grave se incrementa en portadores de la variante *3.<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+			</p>
+			<p>El clopidogrel es una tienopiridina de segunda generación cuyo metabolito activo se une irreversiblemente a los receptores de membrana de plaquetas purinérgicos P2Y12 durante toda la vida de una plaqueta (410 días) y antagoniza la agregación plaquetaria mediada por ADP.<xref ref-type="bibr" rid="B39"><sup>39</sup></xref> Los estudios genéticos muestran que las mutaciones de CYP2C19 tienen el mayor efecto sobre la variabilidad al clopidogrel.<xref ref-type="bibr" rid="B40"><sup>40</sup></xref>
+			</p>
+			<p>Los anticoagulantes directos más prescritos son: dabigatran, rivaroxaban, apixaban y edoxaban.<xref ref-type="bibr" rid="B41"><sup>41</sup></xref> Los SNP de CES1 y ABCB1 son las más frecuentes variantes genéticas que alteran el pico y las concentraciones de dabigatran con impacto clínico. Los SNP de ABCB1 alteran las concentraciones plasmáticas de rivaroxaban y apixaban.</p>
+			<p>El polipéptido transportador de aniones orgánicos 1B1 (OATP1B1) codificado por el gen SLCO1B1 es uno de los transportadores de captación hepática de las estatinas.<xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>)</sup> La importancia de este transportador radica en su capacidad de llevar de manera eficiente las estatinas al hígado, pues de lo contrario estas se acumulan en el cuerpo. Existen SNP del gen SLCO1B1 que reducen la captación de estatinas mediada por OATP1B1, por lo que las variaciones en este gen pueden causar una miopatía inducida por estatinas.<xref ref-type="bibr" rid="B42"><sup>42</sup></xref>
+			</p>
+			<p>Diabetes mellitus</p>
+			<p>Dada la naturaleza multifactorial de los factores genéticos y ambientales que contribuyen a la aparición de la obesidad y la diabetes, es probable que los esfuerzos futuros se dirijan a marcadores genéticos que serán traducidos en terapias más selectivas para los distintos grupos de pacientes que podrán ser tratados de acuerdo con su genotipo.<xref ref-type="bibr" rid="B43"><sup>43</sup></xref>
+			</p>
+			<p>Los estudios genéticos de la intolerancia a la metformina se focalizan en el transporte del medicamento desde el lumen hacia los enterocitos. Los tres principales transportadores de metformina expresados en el intestino son el transportador de cationes orgánicos 1 (del inglés, <italic>cation transporter 1</italic> [OCT1], codificado por SLC22A1), el transportador de monoaminas de membrana plasmática (del inglés<italic>, plasma membrane monoamine transporter</italic> [PMAT], codificado por SLC29A4), y el transportador de serotonina codificado SLC6A4.<xref ref-type="bibr" rid="B44"><sup>44</sup></xref> Algunas variantes genéticas de estos tres transportadores incrementan la intolerancia a la metformina.</p>
+			<p>Los alelos con función reducida de SLC22A1 incrementaron dos veces el riesgo de intolerancia al medicamento; efecto que se incrementa cuatro veces cuando los pacientes recibieron también medicamentos inhibidores de OCT1 como omeprazol, antidepresivos tricíclicos, doxazosina y verapamilo.<xref ref-type="bibr" rid="B44"><sup>44</sup></xref>
+			</p>
+			<p>Los genes que alteran la respuesta glicémica a las sulfonilureas son variantes de ABCC8/KCNJ11 que alteran la función del canal K<sub>ATP</sub> y la variante de riesgo de diabetes en TCF7L2. Las variantes E23K (rs5219) en KCNJ11 y S1369A (rs757110) en ABCC8 están vinculadas con el haplotipo K23/A1369 y el riesgo de diabetes tipo 2.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B44"><sup>44</sup></xref>
+			</p>
+			<p>La proteína de la membrana mitocondrial externa, MFN2, desempeña un papel relevante en el mantenimiento del metabolismo mitocondrial, la señalización de la insulina y en mutaciones que causan enfermedades. Además, la expresión deficiente de MFN2 se produce en trastornos como diabetes mellitus tipo 2 (DM2), resistencia a la insulina, sarcopenia y en los ratones obesos, diabéticos y envejecidos.<xref ref-type="bibr" rid="B45"><sup>45</sup></xref>
+			</p>
+			<p>Una deficiencia en MFN2 produce resistencia a la insulina, uno de los defectos iniciales en el desarrollo de la DM2. Miret Casals, et al, identificaron moléculas que promueven la elongación mitocondrial de manera dependiente de MFN1/MFN2.<xref ref-type="bibr" rid="B45"><sup>45</sup></xref> Estos autores sugieren un vínculo entre la biosíntesis de pirimidinas y la dinámica mitocondrial, que permite la supervivencia celular bajo condiciones de estrés por la pérdida de pirimidinas. Identificaron la leflunomida como un activador de la expresión de MFN2.</p>
+			<p>Hipertensión arterial</p>
+			<p>El gen ADD1 codifica α-adducina, una proteína asociada al citoesqueleto que modula el transporte de iones.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref> Los portadores del alelo triptófano para el polimorfismo Gli460Tri (rs4961) en el gen tienen reducida actividad de renina plasmática y mejor respuesta a hidroclorotiacida al compararlos con los homocigotos Gli/Gli.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref> Sin embargo, existen controversias al respecto.<xref ref-type="bibr" rid="B47"><sup>47</sup></xref>
+			</p>
+			<p>Otro gen evaluado es GNB3, que codifica la subunidad β3 de la proteína G.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref> El alelo T para el polimorfismo C825T (rs5443) en este gen modifica la subunidad β3 y afecta la transducción de señales. Además, el alelo T se asocia a una mejor respuesta anti hipertensiva a la hidroclorotiacida con un efecto dosis-gen.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref> Sin embargo, en otros estudios se encontró asociación entre diferentes polimorfismos genéticos y la respuesta a la hidroclorotiacida y otros antihipertensivos.<xref ref-type="bibr" rid="B48"><sup>48</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B49"><sup>49</sup></xref>
+			</p>
+			<p>En una investigación del polimorfismo I/D en intron 16 del gen ACE se encontró que las personas portadoras del genotipo I/I respondían mejor a la hidroclorotiacida que los portadores del genotipo D/D. Estas asociaciones no se replicaron en hombres finlandeses.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref>
+			</p>
+			<p>El gen NEDD4L codifica una ubiquitina ligasa que degrada el canal de sodio y afecta la reabsorción de sodio en la nefrona distal. Los polimorfismos de este gen afectan la sensibilidad a la sal, las concentraciones plasmáticas de renina y la susceptibilidad a la hipertensión.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref>
+			</p>
+			<p>El <italic>Genetic Epidemiology of Responses to Antihypertensives</italic> (GERA) identificó una región en cromosoma 12q asociado con la respuesta antihipertensiva a la hidroclorotiacida en afroamericanos, pero no en caucásicos. Los autores encontraron que los haplotipos de este cromosoma compuesto por SNP rs317689, rs315135, rs7297610, cerca de lisozima (LYZ), YEATS <italic>domain containing</italic> 4 (YEATS4), y <italic>fibroblast growth receptor substrate 2</italic> (FRS2) se asociaron con la presión diastólica al medicamento. Los haplotipos ATT y ATC compuestos por estos SNP fueron más comunes en malos respondedores.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref> Estos resultados se validaron en otros estudios.<xref ref-type="bibr" rid="B50"><sup>50</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B51"><sup>51</sup></xref>
+			</p>
+			<p>El estudio <italic>Pharmacogenomics Evaluation of Antihypertensive Responses</italic> (PEAR) sugiere que los haplotipos compuestos por SNP rs317689, rs315135 y rs7297610 son potenciales predictores de la respuesta a hidroclorotiacida. Además, el cromosoma 12q se secuenció en participantes en los estudios GERA y PEAR y un nuevo SNP sin sentido, rs61747221, en el gen BEST3 se asoció con las respuestas de la presión arterial al tratamiento con hidroclorotiacida.<xref ref-type="bibr" rid="B46"><sup>46</sup></xref>
+			</p>
+			<p>Un estudio identificó genes relacionados con la hipertensión como FYVE, RhoGEF y <italic>PH Domain Containing 5</italic> (FGD5) y <italic>Solute Carrier Family 4 Member 1</italic> (SLC4A1), aunque se requieren investigaciones posteriores.<xref ref-type="bibr" rid="B52"><sup>52</sup></xref>
+			</p>
+			<p>En la tabla (anexo) se resumen los medicamentos farmacogenómicos y sus biomarcadores farmacogenéticos con recomendaciones clínicas de PharmGKB.<xref ref-type="bibr" rid="B44"><sup>44</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B53"><sup>53</sup></xref>
+			</p>
+			<p>Principales limitaciones de la farmacogenómica</p>
+			<p>A pesar de la enorme información genética y molecular, la aceptación de los estudios farmacogenómicos en la práctica médica ha sido gradual. Varias cuestiones han impedido su rápida aplicación, tales como: a) falta de laboratorios disponibles para realizar estas pruebas de forma rápida y costo-efectiva; b) escasez de profesionales de la salud que puedan interpretar los resultados de las pruebas y la farmacología clínica asociada y c) dudas sobre si las compañías de seguros o sistemas de salud podrán subsidiar estas pruebas.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Otra limitante de los estudios farmacogenómicos es la gran variabilidad genética de las poblaciones, la influencia de factores no genéticos y ambientales sobre los genes y el carácter multigenético de la mayoría de las enfermedades.</p>
+			<p>Existe una escasa información sobre biomarcadores farmacogenéticos en las poblaciones de países en vías de desarrollo como América Latina, lo que dificulta la extrapolación desde estudios clínicos realizados en otros grupos étnicos.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> El desarrollo de guías de práctica clínica de base farmacogenómica puede ayudar a superar las principales limitaciones.</p>
+			<p>Los propósitos de la medicina personalizada no tienen consenso y existen críticas de investigadores y médicos sobre su impacto en la investigación, práctica médica y en los sistemas sanitarios, debido principalmente a su alto costo, por lo que el tema se está debatiendo mucho.<xref ref-type="bibr" rid="B36"><sup>36</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B54"><sup>54</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B55"><sup>55</sup></xref> Esto puede seguir abriendo la brecha entre los países desarrollados y en vías de desarrollo porque solo los países ricos cuentan con la tecnología y el dinero para las investigaciones en este campo.</p>
+			<p>Además, por el alto costo de los medicamentos solo tendrán acceso los pacientes que tengan suficiente dinero para pagar las facturas y esto constituye un desafío para los sistemas sanitarios. Por ejemplo, el costo de los nuevos medicamentos anticancerosos alcanza un costo promedio por paciente &gt;100 000 dólares estadounidenses/año.<xref ref-type="bibr" rid="B36"><sup>36</sup></xref>
+			</p>
+			<p>Otra barrera es trasladar las pruebas genéticas del laboratorio para la prescripción médica rutinaria, lo que requiere la educación de pacientes, de proveedores de salud y farmacólogos, así como los pagos para el uso efectivo de esta herramienta.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> No obstante, pese a los beneficios que implica la incursión de esta nueva ciencia en la práctica clínica, las pruebas de diagnóstico molecular para detectar la susceptibilidad a un fármaco son ofrecidas por un número exclusivo de laboratorios.<xref ref-type="bibr" rid="B39"><sup>39</sup></xref>
+			</p>
+			<p>Por último, no se deben descuidar los principios bioéticos que rigen la investigación en ciencias de la salud, para que la farmacogenómica supere los desafíos actuales y se convierta definitivamente en una herramienta valiosa para el tratamiento habitual de las enfermedades.</p>
+			<p>Esta revisión aporta los conocimientos básicos sobre la farmacogenómica con ejemplos de su aplicación en diferentes especialidades médicas y su principal limitación radica en que no se pudo revisar toda la enorme cantidad de información disponible.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>Los biomarcadores farmacogenéticos constituyen valiosas herramientas para la identificación de genes implicados en la respuesta medicamentosa, importantes para aplicar una medicina personalizada que mejore la respuesta a los medicamentos y evite o minimice los efectos adversos, aunque quedan desafíos para convertirla en una herramienta de uso frecuente en la práctica médica.</p>
+		</sec>
+		<sec>
+			<title>Recomendaciones</title>
+			<p>En el futuro se deberán diseñar meta-análisis y ensayos clínicos sobre la farmacogenómica en nuestro medio.</p>
+		</sec>
+	</body>
+	<back>
+		<app-group>
+			<app id="app1">
+				<label>ANEXO - Biomarcadores farmacogéneticos con recomendaciones clínicas de PharmGKB<sup>(29,45)</sup></label>
+				<graphic xlink:href="1729-519X-rhcm-19-06-e3128-gapp1.jpg"/>
+			</app>
+		</app-group>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Quiñones L, Roco A, Cayún JP, Escalante P, Miranda C, Varela N, <italic>et al</italic>. Farmacogenómica como herramienta fundamental para la medicina personalizada: aplicaciones en la práctica clínica. Rev Med Chile [Internet]. 2017 [Citado 14/01/2020];145:483-500. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4067/S0034-98872017000400009">http://dx.doi.org/10.4067/S0034-98872017000400009</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quiñones</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Roco</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cayún</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Escalante</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Miranda</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Varela</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Farmacogenómica como herramienta fundamental para la medicina personalizada: aplicaciones en la práctica clínica</article-title>
+					<source>Rev Med Chile</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>145</volume>
+					<fpage>483</fpage>
+					<lpage>500</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4067/S0034-98872017000400009">http://dx.doi.org/10.4067/S0034-98872017000400009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Popejoy AB. Diversity In Precision Medicine And Pharmacogenetics: Methodological And Conceptual Considerations For Broadening Participation. Pharmgenomics Pers Med [Internet]. 2019 [Citado 14/01/2020];12:257-71. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6800456/pdf/pgpm-12-257.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6800456/pdf/pgpm-12-257.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Popejoy</surname>
+							<given-names>AB</given-names>
+						</name>
+					</person-group>
+					<article-title>Diversity In Precision Medicine And Pharmacogenetics: Methodological And Conceptual Considerations For Broadening Participation</article-title>
+					<source>Pharmgenomics Pers Med</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>12</volume>
+					<fpage>257</fpage>
+					<lpage>271</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6800456/pdf/pgpm-12-257.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6800456/pdf/pgpm-12-257.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Rico Mata R, Robledo Ortiz CI, Barajas Ornelas R, Soto Arredondo K, Camacho Morales RL, Hernández Cervantes A. Farmacogenómica: Una alternativa para el diseño de nuevos fármacos en diabetes y cáncer de colon. Revista Enlace Químico [Internet]. 2009 [Citado 14/01/2020];2(6):[Aprox. 2p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.naturalezaytecnologia.com/index.php/nyt/article/view/181/pdf1">http://www.naturalezaytecnologia.com/index.php/nyt/article/view/181/pdf1</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rico Mata</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Robledo Ortiz</surname>
+							<given-names>CI</given-names>
+						</name>
+						<name>
+							<surname>Barajas Ornelas</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Soto Arredondo</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Camacho Morales</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Hernández Cervantes</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Farmacogenómica: Una alternativa para el diseño de nuevos fármacos en diabetes y cáncer de colon</article-title>
+					<source>Revista Enlace Químico</source>
+					<year>2009</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>2</volume>
+					<issue>6</issue>
+					<size units="pages">2</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.naturalezaytecnologia.com/index.php/nyt/article/view/181/pdf1">http://www.naturalezaytecnologia.com/index.php/nyt/article/view/181/pdf1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Rodríguez Duque R, Leyva BG, Rodríguez Moldón Y, Díaz Armas MT. Las reacciones adversas como causa de hospitalización. Correo Científico Médico [Internet]. 2018 [citado 2019 Dic 9];23(1):[Aprox. 0 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revcocmed.sld.cu/index.php/cocmed/article/view/2913">http://www.revcocmed.sld.cu/index.php/cocmed/article/view/2913</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Duque</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Leyva</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Moldón</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Díaz Armas</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Las reacciones adversas como causa de hospitalización</article-title>
+					<source>Correo Científico Médico</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-09">2019 Dic 9</date-in-citation>
+					<volume>23</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revcocmed.sld.cu/index.php/cocmed/article/view/2913">http://www.revcocmed.sld.cu/index.php/cocmed/article/view/2913</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Khalil H, Huang C. Adverse drug reactions in primary care: a scoping review. BMC Health Serv Res [Internet]. 2020 [Citado 14/01/2020];20(5):[Aprox. 13 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1186/s12913-019-4651-7">http://doi.org/10.1186/s12913-019-4651-7</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Khalil</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Adverse drug reactions in primary care: a scoping review</article-title>
+					<source>BMC Health Serv Res</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>20</volume>
+					<issue>5</issue>
+					<size units="pages">13</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1186/s12913-019-4651-7">http://doi.org/10.1186/s12913-019-4651-7</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Roden DM, McLeod HL, Relling MV , Williams MS , Mensah GA , Peterson JF, et al. Pharmacogenomics. Lancet [Internet]. 2019 [Citado 14/01/2020];394(10197):521-32. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6707519">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6707519</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roden</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>McLeod</surname>
+							<given-names>HL</given-names>
+						</name>
+						<name>
+							<surname>Relling</surname>
+							<given-names>MV</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Mensah</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Peterson</surname>
+							<given-names>JF</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pharmacogenomics</article-title>
+					<source>Lancet</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>394</volume>
+					<issue>10197</issue>
+					<fpage>521</fpage>
+					<lpage>532</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6707519">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6707519</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Mainet González D. Aspectos bioéticos de la farmacogenómica en la fase clínica de desarrollo de medicamentos. Rev Cubana Invest Bioméd [Internet]. 2016 Mar [Citado 09/12/2019];35(1):[Aprox. 1 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-03002016000100006&amp;lng=es">https://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-03002016000100006&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mainet González</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Aspectos bioéticos de la farmacogenómica en la fase clínica de desarrollo de medicamentos</article-title>
+					<source>Rev Cubana Invest Bioméd</source>
+					<month>03</month>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-09">09/12/2019</date-in-citation>
+					<volume>35</volume>
+					<issue>1</issue>
+					<size units="pages">1</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-03002016000100006&amp;lng=es">https://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-03002016000100006&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>García Acero P, Díaz Gimeno P. Farmacología de sistemas: estudio de las bases moleculares de respuesta a fármacos. Genética Médica y Genómica [Internet]. 2019 [Citado 14/01/2020];3(3):75-89. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://genotipia.com/wp-content/uploads/2019/04/GMG3-75-89-Garc%C3%ADa-web.pdf">http://genotipia.com/wp-content/uploads/2019/04/GMG3-75-89-Garc%C3%ADa-web.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García Acero</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Díaz Gimeno</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Farmacología de sistemas: estudio de las bases moleculares de respuesta a fármacos</article-title>
+					<source>Genética Médica y Genómica</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>3</volume>
+					<issue>3</issue>
+					<fpage>75</fpage>
+					<lpage>89</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://genotipia.com/wp-content/uploads/2019/04/GMG3-75-89-Garc%C3%ADa-web.pdf">http://genotipia.com/wp-content/uploads/2019/04/GMG3-75-89-Garc%C3%ADa-web.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Pierna Álvarez M, Marcos Vadillo E, García Berrocal B, Isidoro García M. Farmacogenómica: la medicina personalizada. Revista del Laboratorio Clínico[Internet]. 2019 [Citado 14/01/2020];12(3):147-54. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.labcli.2018.07.004">https://doi.org/10.1016/j.labcli.2018.07.004</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pierna Álvarez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Marcos Vadillo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>García Berrocal</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Isidoro García</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Farmacogenómica: la medicina personalizada</article-title>
+					<source>Revista del Laboratorio Clínico</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>12</volume>
+					<issue>3</issue>
+					<fpage>147</fpage>
+					<lpage>154</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.labcli.2018.07.004">https://doi.org/10.1016/j.labcli.2018.07.004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Sangkuhl K, Whirl Carrillo M, Whaley RM, Woon M, Lavertu A, Altman RB, <italic>et al</italic>. Pharmacogenomics Clinical Annotation Tool (PharmCAT). Clinical Pharmacology and Therapeutics [Internet]. 2020 [Citado 14/01/2020];107(1):203-10. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1002/cpt.1568">https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1002/cpt.1568</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sangkuhl</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Whirl Carrillo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Whaley</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Woon</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lavertu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Altman</surname>
+							<given-names>RB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pharmacogenomics Clinical Annotation Tool (PharmCAT)</article-title>
+					<source>Clinical Pharmacology and Therapeutics</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>107</volume>
+					<issue>1</issue>
+					<fpage>203</fpage>
+					<lpage>210</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1002/cpt.1568">https://ascpt.onlinelibrary.wiley.com/doi/epdf/10.1002/cpt.1568</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Moen EL, Godley LA, Zhang W, Dolan ME. Pharmacogenomics of chemotherapeutic susceptibility and toxicity. Genome Medicine [Internet]. 2012 [Citado 14/01/2020];4:90. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://genomemedicine.com/content/4/11/90">http://genomemedicine.com/content/4/11/90</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moen</surname>
+							<given-names>EL</given-names>
+						</name>
+						<name>
+							<surname>Godley</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Dolan</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics of chemotherapeutic susceptibility and toxicity</article-title>
+					<source>Genome Medicine</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>4</volume>
+					<size units="pages">90</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://genomemedicine.com/content/4/11/90">http://genomemedicine.com/content/4/11/90</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Orrico KB. Basic Concepts in Genetics and Pharmacogenomics for Pharmacists. Drug Target Insights [Internet]. 2019 [Citado 14/01/2020];13:1-7. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6891005/pdf/10.1177_1177392819886875.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6891005/pdf/10.1177_1177392819886875.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Orrico</surname>
+							<given-names>KB</given-names>
+						</name>
+					</person-group>
+					<article-title>Basic Concepts in Genetics and Pharmacogenomics for Pharmacists</article-title>
+					<source>Drug Target Insights</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>13</volume>
+					<fpage>1</fpage>
+					<lpage>7</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6891005/pdf/10.1177_1177392819886875.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6891005/pdf/10.1177_1177392819886875.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>National Human Genome Research Institute. What is the Human Genome Project? [Internet]. Bethesda: National Human Genome Research Institute; 2020 [Citado 14/01/2020]Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.genome.gov/About-Genomics/Introduction-to-Genomics">https://www.genome.gov/About-Genomics/Introduction-to-Genomics</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>National Human Genome Research Institute</collab>
+					</person-group>
+					<source>What is the Human Genome Project?</source>
+					<publisher-loc>Bethesda</publisher-loc>
+					<publisher-name>National Human Genome Research Institute</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.genome.gov/About-Genomics/Introduction-to-Genomics">https://www.genome.gov/About-Genomics/Introduction-to-Genomics</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Fuselli S. Beyond drugs: the evolution of genes involved in human response to medications. Proc R Soc B [Internet]. 2019 [Citado 14/01/2020];286:1716. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rspb.2019.1716">http://dx.doi.org/10.1098/rspb.2019.1716</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fuselli</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Beyond drugs: the evolution of genes involved in human response to medications</article-title>
+					<source>Proc R Soc B</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>286</volume>
+					<size units="pages">1716</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rspb.2019.1716">http://dx.doi.org/10.1098/rspb.2019.1716</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Alshabeeb MA, Deneer VHM, Khan A, Asselbergs FW. Use of Pharmacogenetic Drugs by the Dutch Population. Front Genet [Internet]. 2019 [Citado 14/01/2020];10:567. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6614185/pdf/fgene-10-00567.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6614185/pdf/fgene-10-00567.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alshabeeb</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Deneer</surname>
+							<given-names>VHM</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Asselbergs</surname>
+							<given-names>FW</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of Pharmacogenetic Drugs by the Dutch Population</article-title>
+					<source>Front Genet</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>10</volume>
+					<size units="pages">567</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6614185/pdf/fgene-10-00567.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6614185/pdf/fgene-10-00567.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Roblejo Balbuena H, Rosado Ruiz Apodaca I, Esperón Álvarez AA, Collazo Mesa T, Fuentes Smith L. Frecuencia de la variante alélica CYP2D6*6 en una muestra de la población cubana. Revista Habanera de Ciencias Médicas [Internet]. 2014 [Citado 11/01/2020];13(6):[Aprox. 0 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.revhabanera.sld.cu/index.php/rhab/article/view/337">https://www.revhabanera.sld.cu/index.php/rhab/article/view/337</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roblejo Balbuena</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Rosado Ruiz Apodaca</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Esperón Álvarez</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Collazo Mesa</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Fuentes Smith</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Frecuencia de la variante alélica CYP2D6*6 en una muestra de la población cubana</article-title>
+					<source>Revista Habanera de Ciencias Médicas</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-11">11/01/2020</date-in-citation>
+					<volume>13</volume>
+					<issue>6</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.revhabanera.sld.cu/index.php/rhab/article/view/337">https://www.revhabanera.sld.cu/index.php/rhab/article/view/337</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>LLerena A, Dorado P, Ramírez R, González I, Peñas LLedó EM, Pérez B, Calzadilla LR. CYP2D6 genotype and debrisoquine hydroxylation phenotype in Cubans and Nicaraguans. Pharmacogenomics J [Internet]. 2012 Apr [Citado 14/01/2020];12(2):176-83. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/tpj201085">http://www.nature.com/articles/tpj201085</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>LLerena</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dorado</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Peñas LLedó</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Pérez</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Calzadilla</surname>
+							<given-names>LR</given-names>
+						</name>
+					</person-group>
+					<article-title>CYP2D6 genotype and debrisoquine hydroxylation phenotype in Cubans and Nicaraguans</article-title>
+					<source>Pharmacogenomics J</source>
+					<month>04</month>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>12</volume>
+					<issue>2</issue>
+					<fpage>176</fpage>
+					<lpage>183</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/tpj201085">http://www.nature.com/articles/tpj201085</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Aronson SJ, Rehm HL. Building the foundation for genomics in precision medicine. Nature [Internet]. 2015 Oct [Citado 14/01/2020];526(7573):336-42. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/nature15816">https://www.nature.com/articles/nature15816</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aronson</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Rehm</surname>
+							<given-names>HL</given-names>
+						</name>
+					</person-group>
+					<article-title>Building the foundation for genomics in precision medicine</article-title>
+					<source>Nature</source>
+					<month>10</month>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>526</volume>
+					<issue>7573</issue>
+					<fpage>336</fpage>
+					<lpage>342</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/nature15816">https://www.nature.com/articles/nature15816</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Litman T. Personalized medicine-concepts, technologies, and applications in inflammatory skin disease. APMIS [Internet]. 2019 [Citado 14/01/2020];127(5):386-424. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/apm.12934">https://doi.org/10.1111/apm.12934</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Litman</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Personalized medicine-concepts, technologies, and applications in inflammatory skin disease</article-title>
+					<source>APMIS</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>127</volume>
+					<issue>5</issue>
+					<fpage>386</fpage>
+					<lpage>424</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/apm.12934">https://doi.org/10.1111/apm.12934</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Díaz Fernández U, Rodríguez Ferreiro AO. Aplicaciones de la biotecnología en el desarrollo de la medicina personalizada. MEDISAN [Internet]. 2016 [Citado 03/11/2019];20(5):[Aprox. 17 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?pid=S1029-30192016000500013&amp;script=sci_arttext&amp;tlng=en">http://scielo.sld.cu/scielo.php?pid=S1029-30192016000500013&amp;script=sci_arttext&amp;tlng=en</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Díaz Fernández</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Ferreiro</surname>
+							<given-names>AO</given-names>
+						</name>
+					</person-group>
+					<article-title>Aplicaciones de la biotecnología en el desarrollo de la medicina personalizada</article-title>
+					<source>MEDISAN</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>20</volume>
+					<issue>5</issue>
+					<size units="pages">17</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?pid=S1029-30192016000500013&amp;script=sci_arttext&amp;tlng=en">http://scielo.sld.cu/scielo.php?pid=S1029-30192016000500013&amp;script=sci_arttext&amp;tlng=en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Espinosa Brito A. La medicina centrada en las personas y la medicina personalizada. Medisur [Internet]. 2015 [Citado 14/12/2019];13(6):[Aprox. 4 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.medisur.sld.cu/index.php/medisur/article/view/3149">http://www.medisur.sld.cu/index.php/medisur/article/view/3149</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Espinosa Brito</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>La medicina centrada en las personas y la medicina personalizada</article-title>
+					<source>Medisur</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-14">14/12/2019</date-in-citation>
+					<volume>13</volume>
+					<issue>6</issue>
+					<size units="pages">4</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.medisur.sld.cu/index.php/medisur/article/view/3149">http://www.medisur.sld.cu/index.php/medisur/article/view/3149</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Aguirre Fernández RE, Serra Valdes MA, Aguirre Posada ME. Visión holística de nuevos desafíos: paradigmas tecnológicos y fundamentos bioéticos en la Medicina futurista. Revista Habanera de Ciencias Médicas [Internet]. 2017 [Citado 14/01/2020];16(5):[Aprox. 10 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/2027">http://www.revhabanera.sld.cu/index.php/rhab/article/view/2027</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aguirre Fernández</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Serra Valdes</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Aguirre Posada</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Visión holística de nuevos desafíos: paradigmas tecnológicos y fundamentos bioéticos en la Medicina futurista</article-title>
+					<source>Revista Habanera de Ciencias Médicas</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>16</volume>
+					<issue>5</issue>
+					<size units="pages">10</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/2027">http://www.revhabanera.sld.cu/index.php/rhab/article/view/2027</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Eissenberg JC, Aurora R. Pharmacogenomics: What the Doctor Ordered?. Mo Med [Internet]. 2019 May-Jun [Citado 14/01/2020];116(3):217-25. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690297/pdf/ms116_p0217.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690297/pdf/ms116_p0217.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Eissenberg</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Aurora</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics: What the Doctor Ordered?</article-title>
+					<source>Mo Med</source>
+					<season>May-Jun</season>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>116</volume>
+					<issue>3</issue>
+					<fpage>217</fpage>
+					<lpage>225</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690297/pdf/ms116_p0217.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690297/pdf/ms116_p0217.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Quiñones L, Roco A, Miranda C. Farmacogenómica: Aplicaciones cardiovasculares. Revista Médica Clínica Las Condes [Internet]. 2015 [Citado 14/01/2020];26(2):198-209. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rmclc.2015.04.008">https://doi.org/10.1016/j.rmclc.2015.04.008</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quiñones</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Roco</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Miranda</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Farmacogenómica: Aplicaciones cardiovasculares</article-title>
+					<source>Revista Médica Clínica Las Condes</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>26</volume>
+					<issue>2</issue>
+					<fpage>198</fpage>
+					<lpage>209</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rmclc.2015.04.008">https://doi.org/10.1016/j.rmclc.2015.04.008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Garrido P, Aldaz A, Calleja MA, Álava E de, Lamas MJ, Martín M, <italic>et al</italic>. Propuesta para la creación de una Estrategia Nacional sobre Medicina de Precisión en Cáncer: posicionamiento de la SEOM, SEAP y SEFH. Farm Hosp [Internet]. 2017 [Citado 03/11/2019];41(6):[Aprox. 11 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1130-63432017000600688&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1130-63432017000600688&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garrido</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Aldaz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Calleja</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Álava</surname>
+							<given-names>E de</given-names>
+						</name>
+						<name>
+							<surname>Lamas</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Martín</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Propuesta para la creación de una Estrategia Nacional sobre Medicina de Precisión en Cáncer: posicionamiento de la SEOM, SEAP y SEFH</article-title>
+					<source>Farm Hosp</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>41</volume>
+					<issue>6</issue>
+					<size units="pages">11</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1130-63432017000600688&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1130-63432017000600688&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>Giri J, Moyer AM, Bielinski SJ, Caraballo PJ. Concepts Driving Pharmacogenomics Implementation Into Everyday Healthcare. Pharmgenomics Pers Med [Internet]. 2019 [Citado 03/11/2019];12:305-18. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6826176/pdf/pgpm-12-305.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6826176/pdf/pgpm-12-305.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giri</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Moyer</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Bielinski</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Caraballo</surname>
+							<given-names>PJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Concepts Driving Pharmacogenomics Implementation Into Everyday Healthcare</article-title>
+					<source>Pharmgenomics Pers Med</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>12</volume>
+					<fpage>305</fpage>
+					<lpage>318</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6826176/pdf/pgpm-12-305.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6826176/pdf/pgpm-12-305.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Legrand J, Gogdemir R, Bousquet C, Dalleau K, Devignes MD, Digan W, <italic>et al</italic>. PGxCorpus, a manually annotated corpus for pharmacogenomics. Scientific data[Internet]. 2020 [Citado 03/11/2019];7(1):3. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41597-019-0342-9">https://doi.org/10.1038/s41597-019-0342-9</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Legrand</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gogdemir</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bousquet</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Dalleau</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Devignes</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Digan</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>PGxCorpus, a manually annotated corpus for pharmacogenomics</article-title>
+					<source>Scientific data</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>7</volume>
+					<issue>1</issue>
+					<size units="pages">3</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41597-019-0342-9">https://doi.org/10.1038/s41597-019-0342-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Daneshjou R, Huddart R, Klein T, Altman R. Pharmacogenomics in Dermatology: Tools for understanding gene-drug associations. Semin Cutan Med Surg[Internet]. 2019 Mar [Citado 03/11/2019];38(1):E19-E24. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681802/pdf/nihms-1040668.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681802/pdf/nihms-1040668.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Daneshjou</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Huddart</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Klein</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Altman</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics in Dermatology: Tools for understanding gene-drug associations</article-title>
+					<source>Semin Cutan Med Surg</source>
+					<month>03</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>38</volume>
+					<issue>1</issue>
+					<fpage>E19</fpage>
+					<lpage>E24</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681802/pdf/nihms-1040668.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681802/pdf/nihms-1040668.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Guio H, Levano KS, Sánchez C, Tarazona D. Rol de la farmacogenómica en el régimen de tratamiento de tuberculosis. Rev Perú Med Exp Salud Publica [Internet]. 2015 Oct [Citado 09/12/2019];32(4):794-800. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1726-46342015000400024&amp;lng=es">http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1726-46342015000400024&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guio</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Levano</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Tarazona</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Rol de la farmacogenómica en el régimen de tratamiento de tuberculosis</article-title>
+					<source>Rev Perú Med Exp Salud Publica</source>
+					<month>10</month>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-09">09/12/2019</date-in-citation>
+					<volume>32</volume>
+					<issue>4</issue>
+					<fpage>794</fpage>
+					<lpage>800</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1726-46342015000400024&amp;lng=es">http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1726-46342015000400024&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Madrazo Moya CF, Cancino Muñoz I, CuevasCórdoba B, González Covarrubias V, Barbosa Amezcua M, Soberón X, <italic>et al</italic>. Whole genomic sequencing as a tool for diagnosis of drug and multidrug-resistance tuberculosis in an endemic region in Mexico. PLoS ONE [Internet]. 2019 [Citado 14/01/2020];14(6):e0213046. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0213046">https://doi.org/10.1371/journal.pone.0213046</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Madrazo Moya</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Cancino Muñoz</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>CuevasCórdoba</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>González Covarrubias</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Barbosa Amezcua</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Soberón</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Whole genomic sequencing as a tool for diagnosis of drug and multidrug-resistance tuberculosis in an endemic region in Mexico</article-title>
+					<source>PLoS ONE</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>14</volume>
+					<issue>6</issue>
+					<elocation-id>e0213046</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0213046">https://doi.org/10.1371/journal.pone.0213046</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Gameiro GR, Sinkunas V, Liguori GR, Auler Júnior JOC. Precision Medicine: Changing the way we think about healthcare. Clinics (Sao Paulo) [Internet]. 2018 [Citado 03/11/2019];73:[Aprox. 15 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251254">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251254</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gameiro</surname>
+							<given-names>GR</given-names>
+						</name>
+						<name>
+							<surname>Sinkunas</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Liguori</surname>
+							<given-names>GR</given-names>
+						</name>
+						<name>
+							<surname>Auler</surname>
+							<given-names>JOC</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+					</person-group>
+					<article-title>Precision Medicine: Changing the way we think about healthcare</article-title>
+					<source>Clinics (Sao Paulo)</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>73</volume>
+					<size units="pages">15</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251254">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251254</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Goodspeed A, Kostman N, Kriete TE, Longtine JW, Smith SM, Marshall P, et al. Leveraging the utility of pharmacogenomics in psychiatry through clinical decision support: a focus group study. Ann Gen Psychiatry [Internet]. 2019 [Citado 14/01/2020];18:13. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6688280/pdf/12991_2019_Article_237.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6688280/pdf/12991_2019_Article_237.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goodspeed</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kostman</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Kriete</surname>
+							<given-names>TE</given-names>
+						</name>
+						<name>
+							<surname>Longtine</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Marshall</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Leveraging the utility of pharmacogenomics in psychiatry through clinical decision support: a focus group study</article-title>
+					<source>Ann Gen Psychiatry</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>18</volume>
+					<size units="pages">13</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6688280/pdf/12991_2019_Article_237.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6688280/pdf/12991_2019_Article_237.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>Maggo SDS, Sycamore KLV, Miller AL, Kennedy MA. The Three Ps: Psychiatry, Pharmacy, and Pharmacogenomics, a Brief Report From New Zealand. Front Psychiatry [Internet]. 2019 [Citado 14/01/2020];10:690. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6764017/pdf/fpsyt-10-00690.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6764017/pdf/fpsyt-10-00690.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maggo</surname>
+							<given-names>SDS</given-names>
+						</name>
+						<name>
+							<surname>Sycamore</surname>
+							<given-names>KLV</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Kennedy</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>The Three Ps: Psychiatry, Pharmacy, and Pharmacogenomics, a Brief Report From New Zealand</article-title>
+					<source>Front Psychiatry</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>10</volume>
+					<size units="pages">690</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6764017/pdf/fpsyt-10-00690.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6764017/pdf/fpsyt-10-00690.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Reis SS, Carvalho AS, Fernandes R. Pharmacogenomics, CYP2D6, and Tamoxifen: A Survey of the Reasons Sustaining European Clinical Practice Paradigms. Medicina (Kaunas) [Internet]. 2019 Jul [Citado 14/01/2020];55(7):344. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681270/pdf/medicina-55-00344.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681270/pdf/medicina-55-00344.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reis</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics, CYP2D6, and Tamoxifen: A Survey of the Reasons Sustaining European Clinical Practice Paradigms</article-title>
+					<source>Medicina (Kaunas)</source>
+					<month>07</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>55</volume>
+					<issue>7</issue>
+					<size units="pages">344</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681270/pdf/medicina-55-00344.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6681270/pdf/medicina-55-00344.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Food and Drug Aadministration. FDA approves first treatment for breast cancer with a certain inherited genetic mutation [Internet].Beltsville: Food and Drug Aadministration; 2018 [Citado 14/12/2019] Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm592347.htm">https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm592347.htm</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Food and Drug Aadministration</collab>
+					</person-group>
+					<source>FDA approves first treatment for breast cancer with a certain inherited genetic mutation</source>
+					<publisher-loc>Beltsville</publisher-loc>
+					<publisher-name>Food and Drug Aadministration</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-14">14/12/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm592347.htm">https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm592347.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Iriart JAB. Medicina de precisión/medicina personalizada: análisis crítico de los movimientos de transformación de la biomedicina a inicios del siglo XXI. Cad Saúde Pública [Internet]. 2019 [Citado 14/12/2019];35(3):e00153118. Available from: <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/0102-311x00153118">http://dx.doi.org/10.1590/0102-311x00153118</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Iriart</surname>
+							<given-names>JAB</given-names>
+						</name>
+					</person-group>
+					<article-title>Medicina de precisión/medicina personalizada: análisis crítico de los movimientos de transformación de la biomedicina a inicios del siglo XXI</article-title>
+					<source>Cad Saúde Pública</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-14">14/12/2019</date-in-citation>
+					<volume>35</volume>
+					<issue>3</issue>
+					<elocation-id>e00153118</elocation-id>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/0102-311x00153118">http://dx.doi.org/10.1590/0102-311x00153118</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>Miguel Soca P, Argüelles González I, Peña González M. Genetic factors for breast carcinogenesis. Rev Finlay [Internet]. 2016 Dic [Citado 15/12/2019]; 6(4):299-316. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2221-24342016000400007&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2221-24342016000400007&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miguel Soca</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Argüelles González</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Peña González</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Genetic factors for breast carcinogenesis</article-title>
+					<source>Rev Finlay</source>
+					<month>12</month>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-15">15/12/2019</date-in-citation>
+					<volume>6</volume>
+					<issue>4</issue>
+					<fpage>299</fpage>
+					<lpage>316</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2221-24342016000400007&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2221-24342016000400007&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>Orozco Hernández JP, Marín Medina DS, Martínez Muñoz MA, Martínez José W. Genes de predisposición al cáncer de mama. Salud, Barranquilla [Internet]. 2018 Dec [Citado 17/01/2020];34(3):766-83. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-55522018000300766&amp;lng=en">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-55522018000300766&amp;lng=en</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Orozco Hernández</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Marín Medina</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Martínez Muñoz</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Martínez José</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Genes de predisposición al cáncer de mama</article-title>
+					<source>Salud, Barranquilla</source>
+					<month>12</month>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-17">17/01/2020</date-in-citation>
+					<volume>34</volume>
+					<issue>3</issue>
+					<fpage>766</fpage>
+					<lpage>783</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-55522018000300766&amp;lng=en">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-55522018000300766&amp;lng=en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>Vélez Gómez S, Torres I, Manrique RD, Duque M, Gallo JE. Aplicación farmacogenómica de los genes CYP2C19, CYP2C9 y VKORC1 implicados en el metabolismo de los fármacos clopidogrel y warfarina. Rev Colomb Cardiol [Internet]. 2018 [Citado 14/01/2020];25(6):396-404. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rccar.2018.05.005">https://doi.org/10.1016/j.rccar.2018.05.005</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vélez Gómez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Manrique</surname>
+							<given-names>RD</given-names>
+						</name>
+						<name>
+							<surname>Duque</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gallo</surname>
+							<given-names>JE</given-names>
+						</name>
+					</person-group>
+					<article-title>Aplicación farmacogenómica de los genes CYP2C19, CYP2C9 y VKORC1 implicados en el metabolismo de los fármacos clopidogrel y warfarina</article-title>
+					<source>Rev Colomb Cardiol</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>25</volume>
+					<issue>6</issue>
+					<fpage>396</fpage>
+					<lpage>404</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rccar.2018.05.005">https://doi.org/10.1016/j.rccar.2018.05.005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>Elewa H, Awaisu A. Pharmacogenomics In Pharmacy Practice: Current Perspectives. Integr Pharm Res Pract [Internet]. 2019 [Citado 14/01/2020];8:97-104. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6850702/pdf/iprp-8-97.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6850702/pdf/iprp-8-97.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Elewa</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Awaisu</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics In Pharmacy Practice: Current Perspectives</article-title>
+					<source>Integr Pharm Res Pract</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>8</volume>
+					<fpage>97</fpage>
+					<lpage>104</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6850702/pdf/iprp-8-97.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6850702/pdf/iprp-8-97.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>Kanuri SH, Kreutz RP. Pharmacogenomics of Novel Direct Oral Anticoagulants: Newly Identified Genes and Genetic Variants. J Pers Med [Internet]. 2019 [Citado 14/01/2020];9(7):[Aprox. 2p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463033/pdf/jpm-09-00007.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463033/pdf/jpm-09-00007.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kanuri</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Kreutz</surname>
+							<given-names>RP</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics of Novel Direct Oral Anticoagulants: Newly Identified Genes and Genetic Variants</article-title>
+					<source>J Pers Med</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>9</volume>
+					<issue>7</issue>
+					<size units="pages">2</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463033/pdf/jpm-09-00007.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463033/pdf/jpm-09-00007.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>Robledo M, Torres I, Manrique RD, Duque M, Gallo JE. Utilidad del gen SLCO1B1 como marcador de interés en la farmacogenómica de las estatinas. Rev Colomb Cardiol [Internet]. 2019 Feb [Citado 09/12/2019];26(1):24-30. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-56332019000100024&amp;lng=en. http://dx.doi.org/10.1016/j.rccar.2018.05.006">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-56332019000100024&amp;lng=en. http://dx.doi.org/10.1016/j.rccar.2018.05.006</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Robledo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Manrique</surname>
+							<given-names>RD</given-names>
+						</name>
+						<name>
+							<surname>Duque</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gallo</surname>
+							<given-names>JE</given-names>
+						</name>
+					</person-group>
+					<article-title>Utilidad del gen SLCO1B1 como marcador de interés en la farmacogenómica de las estatinas</article-title>
+					<source>Rev Colomb Cardiol</source>
+					<month>02</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-12-09">09/12/2019</date-in-citation>
+					<volume>26</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-56332019000100024&amp;lng=en. http://dx.doi.org/10.1016/j.rccar.2018.05.006">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-56332019000100024&amp;lng=en. http://dx.doi.org/10.1016/j.rccar.2018.05.006</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>Hippman C, Nislow C. Pharmacogenomic Testing: Clinical Evidence and Implementation Challenges. J Pers Med [Internet]. 2019 Sep [Citado 14/01/2020];9(3):40. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789586/pdf/jpm-09-00040.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789586/pdf/jpm-09-00040.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hippman</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Nislow</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomic Testing: Clinical Evidence and Implementation Challenges</article-title>
+					<source>J Pers Med</source>
+					<month>09</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>9</volume>
+					<issue>3</issue>
+					<size units="pages">40</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789586/pdf/jpm-09-00040.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789586/pdf/jpm-09-00040.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>Pearson ER. Diabetes: Is There a Future for Pharmacogenomics Guided Treatment? Clin Pharmacol Ther [Internet]. 2019 Aug [Citado 14/01/2020]; 106(2):329-337. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771467/pdf/CPT-106-329.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771467/pdf/CPT-106-329.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pearson</surname>
+							<given-names>ER</given-names>
+						</name>
+					</person-group>
+					<article-title>Diabetes: Is There a Future for Pharmacogenomics Guided Treatment?</article-title>
+					<source>Clin Pharmacol Ther</source>
+					<month>08</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>106</volume>
+					<issue>2</issue>
+					<fpage>329</fpage>
+					<lpage>337</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771467/pdf/CPT-106-329.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771467/pdf/CPT-106-329.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>Miret Casals L, Sebastián D, Brea J, Rico Leo EM, Palacín M, Fernández Salguero PM, <italic>et al</italic>. Identification of New Activators of Mitochondrial Fusion Reveals a Link between Mitochondrial Morphology and Pyrimidine Metabolism. Cell Chemical Biology [Internet]. 2018 [Citado 14/01/2020];25:268-78. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chembiol.2017.12.001">https://doi.org/10.1016/j.chembiol.2017.12.001</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miret Casals</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sebastián</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Brea</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rico Leo</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Palacín</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Fernández Salguero</surname>
+							<given-names>PM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identification of New Activators of Mitochondrial Fusion Reveals a Link between Mitochondrial Morphology and Pyrimidine Metabolism</article-title>
+					<source>Cell Chemical Biology</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>25</volume>
+					<fpage>268</fpage>
+					<lpage>278</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chembiol.2017.12.001">https://doi.org/10.1016/j.chembiol.2017.12.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>Oliveira Paula GH, Pereira SC, Tanus Santos JE, Lacchini R. Pharmacogenomics And Hypertension: Current Insights. Pharmgenomics Pers Med [Internet]. 2019 [Citado 14/01/2020];12:341-359. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6878918/pdf/pgpm-12-341.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6878918/pdf/pgpm-12-341.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira Paula</surname>
+							<given-names>GH</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Tanus Santos</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Lacchini</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics And Hypertension: Current Insights</article-title>
+					<source>Pharmgenomics Pers Med</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>12</volume>
+					<fpage>341</fpage>
+					<lpage>359</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6878918/pdf/pgpm-12-341.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6878918/pdf/pgpm-12-341.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>Turner ST, Boerwinkle E, O’Connell JR, Bailey KR, Gong Y, Arlene B, Chapman AB, et al. Genomic association analysis of common variants influencing antihypertensive response to hydrochlorothiazide. Hypertension [Internet]. 2013 [Citado 14/01/2020];62(2):391-7. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ahajournals.org/doi/epub/10.1161/HYPERTENSIONAHA.111.00436">https://www.ahajournals.org/doi/epub/10.1161/HYPERTENSIONAHA.111.00436</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Turner</surname>
+							<given-names>ST</given-names>
+						</name>
+						<name>
+							<surname>Boerwinkle</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>O’Connell</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Bailey</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Arlene</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>AB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic association analysis of common variants influencing antihypertensive response to hydrochlorothiazide</article-title>
+					<source>Hypertension</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>62</volume>
+					<issue>2</issue>
+					<fpage>391</fpage>
+					<lpage>397</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ahajournals.org/doi/epub/10.1161/HYPERTENSIONAHA.111.00436">https://www.ahajournals.org/doi/epub/10.1161/HYPERTENSIONAHA.111.00436</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>Johnson R, Dludla P, Mabhida S, Benjeddou M, Louw J, February F. Pharmacogenomics of amlodipine and hydrochlorothiazide therapy and the quest for improved control of hypertension: a mini review. Heart Failure Reviews [Internet]. 2019 [Citado 14/01/2020];24:343-57. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10741-018-09765-y">https://doi.org/10.1007/s10741-018-09765-y</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Johnson</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Dludla</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Mabhida</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Benjeddou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Louw</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>February</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmacogenomics of amlodipine and hydrochlorothiazide therapy and the quest for improved control of hypertension: a mini review</article-title>
+					<source>Heart Failure Reviews</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>24</volume>
+					<fpage>343</fpage>
+					<lpage>357</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10741-018-09765-y">https://doi.org/10.1007/s10741-018-09765-y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>Vormfelde S, Brockmöller J. The genetics of loop diuretic effects. Pharmacogenomics J [Internet]. 2012 [Citado 14/01/2020];12:45-53. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/tpj.2010.68">https://doi.org/10.1038/tpj.2010.68</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vormfelde</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Brockmöller</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The genetics of loop diuretic effects</article-title>
+					<source>Pharmacogenomics J</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>12</volume>
+					<fpage>45</fpage>
+					<lpage>53</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/tpj.2010.68">https://doi.org/10.1038/tpj.2010.68</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>Turner ST, Bailey KR, Fridley BL, Chapman AB, Schwartz GL, Chai HS, et al. Genomic association analysis suggests chromosome 12 locus influencing antihypertensive response to thiazide diuretic. Hypertension [Internet]. 2008 [Citado 14/01/2020];52(2):359-65. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ahajournals.org/doi/full/10.1161/hypertensionaha.107.104273">https://www.ahajournals.org/doi/full/10.1161/hypertensionaha.107.104273</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Turner</surname>
+							<given-names>ST</given-names>
+						</name>
+						<name>
+							<surname>Bailey</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Fridley</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Schwartz</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Chai</surname>
+							<given-names>HS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic association analysis suggests chromosome 12 locus influencing antihypertensive response to thiazide diuretic</article-title>
+					<source>Hypertension</source>
+					<year>2008</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>52</volume>
+					<issue>2</issue>
+					<fpage>359</fpage>
+					<lpage>365</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ahajournals.org/doi/full/10.1161/hypertensionaha.107.104273">https://www.ahajournals.org/doi/full/10.1161/hypertensionaha.107.104273</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>Duarte JD, Turner ST, Tran B, Chapman AB, Bailey KR, Gong Y, et al. Association of chromosome 12 locus with antihypertensive response to hydrochlorothiazide may involve differential YEATS4 expression. Pharmacogenomics J [Internet]. 2013 [Citado 14/01/2020];13(3):257-63. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/tpj20124">https://www.nature.com/articles/tpj20124</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Duarte</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Turner</surname>
+							<given-names>ST</given-names>
+						</name>
+						<name>
+							<surname>Tran</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Bailey</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Association of chromosome 12 locus with antihypertensive response to hydrochlorothiazide may involve differential YEATS4 expression</article-title>
+					<source>Pharmacogenomics J</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>13</volume>
+					<issue>3</issue>
+					<fpage>257</fpage>
+					<lpage>263</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/tpj20124">https://www.nature.com/articles/tpj20124</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>Singh S, Rouby NE, McDonough CW, Gong Y, Bailey KR, Boerwinkle E, et al. Genomic Association Analysis Reveals Variants Associated With Blood Pressure Response to Beta‐Blockers in European Americans. Clin Transl Sci [Internet]. 2019 Sep [Citado 14/01/2020];12(5):497-504. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6742943/pdf/CTS-12-497.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6742943/pdf/CTS-12-497.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Singh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rouby</surname>
+							<given-names>NE</given-names>
+						</name>
+						<name>
+							<surname>McDonough</surname>
+							<given-names>CW</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Bailey</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Boerwinkle</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic Association Analysis Reveals Variants Associated With Blood Pressure Response to Beta‐Blockers in European Americans</article-title>
+					<source>Clin Transl Sci</source>
+					<month>09</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>12</volume>
+					<issue>5</issue>
+					<fpage>497</fpage>
+					<lpage>504</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6742943/pdf/CTS-12-497.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6742943/pdf/CTS-12-497.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>Pharm GKB. Clinical Guideline Annotations [Internet]. Stanford: Pharm GKB; 2019 [Citado 14/01/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.pharmgkb.org/guidelineAnnotations">https://www.pharmgkb.org/guidelineAnnotations</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pharm</surname>
+							<given-names>GKB</given-names>
+						</name>
+					</person-group>
+					<source>Clinical Guideline Annotations</source>
+					<publisher-loc>Stanford</publisher-loc>
+					<publisher-name>Pharm GKB</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.pharmgkb.org/guidelineAnnotations">https://www.pharmgkb.org/guidelineAnnotations</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>Rey López JP, de Sá TH , de Rezende LFM . Why precision medicine is not the best route to a healthier world. Rev Saúde Pública [Internet]. 2018 [Citado 03/11/2019];52:[Aprox. 10 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0034-89102018000100600">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0034-89102018000100600</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rey López</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>de Sá</surname>
+							<given-names>TH</given-names>
+						</name>
+						<name>
+							<surname>de Rezende</surname>
+							<given-names>LFM</given-names>
+						</name>
+					</person-group>
+					<article-title>Why precision medicine is not the best route to a healthier world</article-title>
+					<source>Rev Saúde Pública</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>52</volume>
+					<size units="pages">10</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0034-89102018000100600">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0034-89102018000100600</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation>Krebs K, Milani L. Translating pharmacogenomics into clinical decisions: do not let the perfect be the enemy of the good. Hum Genomics [Internet]. 2019 [Citado 14/01/2020];13:39. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6712791/pdf/40246_2019_Article_229.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6712791/pdf/40246_2019_Article_229.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Krebs</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Milani</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Translating pharmacogenomics into clinical decisions: do not let the perfect be the enemy of the good</article-title>
+					<source>Hum Genomics</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-01-14">14/01/2020</date-in-citation>
+					<volume>13</volume>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6712791/pdf/40246_2019_Article_229.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6712791/pdf/40246_2019_Article_229.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

@@ -1,0 +1,42 @@
+#ITI#Machine learning in systematic reviews: Comparing automated text clustering with Lingo3G and human researcher categorization in a rapid review#FTI#
+#IRE# Systematic reviews are resource-intensive. The machine learning tools being developed mostly focus on the study identification process, but tools to assist in analysis and categorization are also needed. One possibility is to use unsupervised automatic text clustering, in which each study is automatically assigned to one or more meaningful clusters. Our main aim was to assess the usefulness of an automated clustering method, Lingo3G, in categorizing studies in a simplified rapid review, then compare performance (precision and recall) of this method compared to manual categorization. We randomly assigned all 128 studies in a review to be coded by a human researcher blinded to cluster assignment (mimicking two independent researchers) or by a human researcher non-blinded to cluster assignment (mimicking one researcher checking another's work). We compared time use, precision and recall of manual categorization versus automated clustering. Automated clustering and manual categorization organized studies by population and intervention/context. Automated clustering failed to identify two manually identified categories but identified one additional category not identified by the human researcher. We estimate that automated clustering has similar precision to both blinded and non-blinded researchers (e.g., 88% vs. 89%), but higher recall (e.g., 89% vs. 84%). Manual categorization required 49% more time than automated clustering. Using a specific clustering algorithm, automated clustering can be helpful with categorization of and identifying patterns across studies in simpler systematic reviews. We found that the clustering was sensitive enough to group studies according to linguistic differences that often corresponded to the manual categories#FRE#
+#IPC# clustering; Lingo3G; machine learning; scoping reviews; systematic review#FPC#
+#IRF# Nussbaumer-Streit B., Ellen M., Klerings I., Et al., Resource use during systematic review production varies widely: a scoping review, J Clin Epidemiol, 139, pp. 287-296, (2021); 
+Borah R., Brown A.W., Capers P.L., Kaiser K.A., Analysis of the time and workers needed to conduct systematic reviews of medical interventions using data from the PROSPERO registry, BMJ Open, 7, 2, (2017); 
+Allen I.E., Olkin I., Estimating time to conduct a meta-analysis from number of citations retrieved, JAMA, 282, 7, pp. 634-635, (1999); 
+Bornmann L., Mutz R., Growth rates of modern science: a bibliometric analysis based on the number of publications and cited references, J Assoc Inf Sci Technol, 66, 11, pp. 2215-2222, (2015); 
+Bastian H., Glasziou P., Chalmers I., Seventy-five trials and eleven systematic reviews a day: how will we ever keep up?, PLoS Med, 7, 9, (2010); 
+Shojania K.G., Sampson M., Ansari M.T., Ji J., Doucette S., Moher D., How quickly do systematic reviews go out of date? A survival analysis, Ann Intern Med, 147, 4, pp. 224-233, (2007); 
+Przybyla P., Brockmeier A.J., Kontonatsios G., Et al., Prioritising references for systematic reviews with RobotAnalyst: a user study, Res Synth Methods, 9, 3, pp. 470-488, (2018); 
+Shemilt I., Simon A., Hollands G.J., Et al., Pinpointing needles in giant haystacks: use of text mining to reduce impractical screening workload in extremely large scoping reviews, Res Synth Methods, 5, 1, pp. 31-49, (2014); 
+Callaghan M.W., Muller-Hansen F., Statistical stopping criteria for automated screening in systematic reviews, Syst Rev, 9, 1, (2020); 
+Armijo-Olivo S., Craig R., Campbell S., Comparing machine and human reviewers to evaluate the risk of bias in randomized controlled trials, Res Synth Methods, 11, 3, pp. 484-493, (2020); 
+Langlois A., Nie J.Y., Thomas J., Hong Q.N., Pluye P., Discriminating between empirical studies and nonempirical works using automated text classification, Res Synth Methods, 9, 4, pp. 587-601, (2018); 
+Marshall I.J., Noel-Storr A., Kuiper J., Thomas J., Wallace B.C., Machine learning for identifying randomized controlled trials: an evaluation and practitioner's guide, Res Synth Methods, 9, 4, pp. 602-614, (2018); 
+Arno A., Elliott J., Wallace B., Turner T., Thomas J., The views of health guideline developers on the use of automation in health evidence synthesis, Syst Rev, 10, 1, (2021); 
+Stansfield C., Thomas J., Kavanagh J., Clustering' documents automatically to support scoping reviews of research: a case study, Res Synth Methods, 4, 3, pp. 230-241, (2013); 
+Mbajl R., Frameworks for scaling up machine learning, Scaling up Machine Learning: Parallel and Distributed Approaches, (2012); 
+Aggarwal C.C., Zhai C., A survey of text clustering algorithms, Mining Text Data, pp. 77-128, (2012); 
+Kozlowski M., Rybinski H., Clustering of semantically enriched short texts, J Intell Inf Syst, 53, 1, pp. 69-92, (2018); 
+Carpineto C., Osinski S., Romano G., Weiss D., A survey of web clustering engines, ACM Comput Surv, 41, 17, pp. 1-38, (2009); 
+Marshall I.J., Wallace B.C., Toward systematic review automation: a practical guide to using machine learning tools in research synthesis, Syst Rev, 8, 1, (2019); 
+Polanin J.R., Pigott T.D., Espelage D.L., Grotpeter J.K., Best practice guidelines for abstract screening large-evidence systematic reviews and meta-analyses, Res Synth Methods, 10, 3, pp. 330-342, (2019); 
+Jonnalagadda S.R., Goyal P., Huffman M.D., Automating data extraction in systematic reviews: a systematic review, Syst Rev, pp. 4-78, (2015); 
+Weisser T., Sassmannshausen T., Ohrndorf D., Burggraf P., Wagner J., A clustering approach for topic filtering within systematic literature reviews, MethodsX, 7, (2020); 
+Muller A.E., Ames H.M.R., Himmels J.P.W., Et al., Implementation of Machine Learning in Evidence Syntheses in the Cluster for Reviews and Health Technology Assessments: Final Report 2020-2021, (2021); 
+Muller A.E., Ames H.M.R., Himmels J.P.W., Et al., Aims and Strategy for the Implementation of Machine Learning in Evidence Synthesis in the Cluster for Reviews and Health Technology Assessments for 2021-2022, (2021); 
+Muller A.E., Jardim P.S.J., Ames H.M.R., Zinocker S., Secure Institutions for Youth: Systematic Literature Search with Categorization, (2020); 
+Handbook of evidence synthesis [Slik oppsummerer vi forskning. Håndbok for Folkehelseinstituttet], (2018); 
+EPPI-reviewer: advanced software for systematic reviews, maps and evidence synthesis, (2020); 
+Osinski S., Stefanowski J., Weiss D., Lingo: search results clustering algorithm based on singular value decomposition, Intell Inf Process Web Min, pp. 359-368, (2004); 
+Osinski S., Weiss D., Carrot2: design of a flexible and efficient web information retrieval framework, (2005); 
+Lingo3G or Carrot2? Updated 01.01.2021; 
+Saito T., Rehmsmeier M., The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets, PLoS One, 10, 3, (2015); 
+Muller A., Jardim P., Ames H., Secure Institutions for Youth: Six Synopses, (2020); 
+Shaw L., Nunns M., Briscoe S., Anderson R., Thompson C.J., A "rapid best-fit" model for framework synthesis: using research objectives to structure analysis within a rapid review of qualitative evidence, Res Synth Methods, (2020); 
+Carroll C., Booth A., Leaviss J., Rick J., “Best fit” framework synthesis: refining the method, BMC Med Res Methodol, 13, 1, (2013); 
+Brown T.B., Mann B., Ryder N., Subbiah M., Kaplan J., Dhariwal P., Neelakantan A., Shyam P., Sastry G., Askell A., Agarwal S., Language models are few-shot learners, (2020); 
+Statement on Algorithmic Transparency and Accountability, (2017); 
+Page M.J., McKenzie J.E., Bossuyt P.M., Et al., The PRISMA 2020 statement: an updated guideline for reporting systematic reviews, BMJ, 372, (2021); 
+Havnes I.A., Muller A.E., Nonprescribed androgen use among women and trans men, Curr Opin Endocrinol Diabetes Obes, 28, 6, pp. 595-603, (2021); 
+Jpw H., Tc B., Kg B., Km G., Covid-19 and Risk Factors for Hospital Admission, Severe Disease and Death–a Rapid Review, 4th Update, (2021)#FRF#

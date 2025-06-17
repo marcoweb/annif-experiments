@@ -1,0 +1,1660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6519</article-id>
+			<article-id pub-id-type="publisher-id">00013</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Perfiles de expresión de los genes <italic>ERG11</italic>, <italic>MDR1 y AFR1</italic> en <italic>Cryptococcus neoformans</italic> var<italic>. grubii</italic> aislados de pacientes con HIV</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Gene expression profiles of <italic>ERG11, MDR1 y AFR1 in Cryptococcus neoformans</italic> var<italic>. grubbi</italic> isolated from HIV patients</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Torres</surname>
+						<given-names>Isaura</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gallo</surname>
+						<given-names>Juan E.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2b"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gómez</surname>
+						<given-names>Óscar Mauricio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rúa-Giraldo</surname>
+						<given-names>Álvaro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3b"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4b"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>McEwen</surname>
+						<given-names>Juan G.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3c"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>García</surname>
+						<given-names>Ana María</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3d"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff6"><sup>6</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Grupo Biociencias, Facultad de Ciencias de la Salud, Institución Universitaria Colegio Mayor de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Institución Universitaria Colegio Mayor de Antioquia</institution>
+				<institution content-type="orgname">Institución Universitaria Colegio Mayor de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>isaurap10@gmail.com</email>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">GenEIA, Facultad de Ciencias de la Vida, Universidad EIA, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad EIA</institution>
+				<institution content-type="orgname">Universidad EIA</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2b">
+				<label>2</label>
+				<institution content-type="original">GenEIA, Facultad de Ciencias de la Vida, Universidad EIA, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad EIA</institution>
+				<institution content-type="orgname">Universidad EIA</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Unidad de Biología Celular y Molecular, Corporación para Investigaciones Biológicas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Corporación para Investiga. Biológicas</institution>
+				<institution content-type="orgname">Corporación para Investigaciones Biológicas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Escuela de Microbiología, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3b">
+				<label>3</label>
+				<institution content-type="original">Unidad de Biología Celular y Molecular, Corporación para Investigaciones Biológicas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Corporación para Investiga. Biológicas</institution>
+				<institution content-type="orgname">Corporación para Investigaciones Biológicas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4b">
+				<label>4</label>
+				<institution content-type="original">Escuela de Microbiología, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3c">
+				<label>3</label>
+				<institution content-type="original">Unidad de Biología Celular y Molecular, Corporación para Investigaciones Biológicas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Corporación para Investiga. Biológicas</institution>
+				<institution content-type="orgname">Corporación para Investigaciones Biológicas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3d">
+				<label>3</label>
+				<institution content-type="original">Unidad de Biología Celular y Molecular, Corporación para Investigaciones Biológicas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Corporación para Investiga. Biológicas</institution>
+				<institution content-type="orgname">Corporación para Investigaciones Biológicas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff6">
+				<label>6</label>
+				<institution content-type="original">Facultad de Ciencias Farmacéuticas y Alimentarias, Departamento de Farmacia, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Isaura Torres, GenEIA, Facultad de Ciencias de la Vida, Universidad EIA, Medellín, Colombia Teléfono: (+57) (300) 775 6303 <email>isaurap10@gmail.com</email>; isaura.torres@eia.edu.co</corresp>
+				<fn fn-type="conflict" id="fn8">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declaran que no existió conflicto de intereses para la realización del estudio.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+			<pub-date pub-type="epub-ppub">
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>42</volume>
+			<issue>4</issue>
+			<fpage>697</fpage>
+			<lpage>706</lpage>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>21</day>
+					<month>07</month>
+					<year>2022</year>
+				</date>
+				<date date-type="pub">
+					<day>29</day>
+					<month>07</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción</title>
+					<p>El fluconazol es el antifúngico más utilizado para la prevención y el tratamiento de infecciones causadas por el género <italic>Cryptococcus</italic>, agente etiológico de la criptococosis. La resistencia al fluconazol en los aislamientos de <italic>Cryptoccocus neoformans</italic> puede hacer fracasar el tratamiento y generar recaídas de la infección.</p>
+				</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p>Evaluar los perfiles de expresión de los genes <italic>AFR1</italic>, <italic>MDR1</italic> y <italic>ERG11</italic> en aislamientos clínicos de <italic>C. neoformans</italic> var<italic>. grubii,</italic> durante la respuesta <italic>in vitro</italic> a la inducción con fluconazol.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos</title>
+					<p> Se estudiaron 14 aislamientos de <italic>C. neoformans</italic> var<italic>. grubii</italic> provenientes de pacientes con HIV, de los cuales 6 eran sensibles al fluconaol y 8 presentaban sensibilidad disminuida. Los niveles de expresión de los genes <italic>ERG11</italic>, <italic>AFR1</italic> y <italic>MDR1</italic> se determinaron mediante PCR en tiempo real.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>Los aislamientos resistentes al fluconazol mostraron sobreexpresión de los genes <italic>AFR1</italic> y <italic>MDR1,</italic> mientras que la expresión de los fenotipos de resistencia evaluados se mantuvo homogénea en <italic>ERG11</italic>, en todos los aislamientos de <italic>C. neoformans var. grubii</italic>. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones</title>
+					<p>La sobreexpresión de los genes <italic>AFR1</italic> y <italic>MDR1</italic> que codifican las bombas de eflujo, contribuye a la resistencia al fluconazol en los aislamientos estudiados. Sin embargo, los patrones de resistencia que se registran en este hongo, sumado a los casos de recaídas en pacientes con HIV, no pueden atribuirse únicamente a los casos de resistencia por exposición al fármaco. Otros mecanismos podrían también estar involucrados en este fenómeno, como la resistencia emergente (resistencia mediante otros genes <italic>ERG</italic>) y la heterorresistencia, los cuales deben ser estudiados en estos aislamientos.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Fluconazole is the most used antifungal drug for prevention and treatment of <italic>Cryptococcus</italic> spp. infections, the etiological agent of cryptococcosis. Resistance to fluconazole among <italic>Cryptococcus neoformans</italic> isolates can lead to treatment failure and generate relapses.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To evaluate the expression profles of the <italic>AFR1</italic>, <italic>MDR1</italic> and <italic>ERG11</italic> genes in <italic>C. neoformans</italic> var. <italic>grubii</italic> clinical isolates during the <italic>in vitro</italic> response to fluconazole induction. </p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>Fourteen <italic>C. neoformans</italic> var<italic>. grubii</italic> isolates recovered from HIV patients were studied, in which 6 showed sensitivities to fluconazole and 8 decreased sensitivity. The expression levels of <italic>ERG11</italic>, <italic>AFR1</italic> and <italic>MDR1</italic> genes were determined by real-time PCR from extracted mRNA.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p><italic>AFR1</italic> and <italic>MDR1</italic> genes from <italic>C. neoformans</italic> var<italic>. grubii</italic> were overexpressed in fluconazole resistant isolates, whereas <italic>ERG11</italic> maintains homogeneous expression in all the evaluated resistance phenotypes of <italic>C. neoformans</italic> var<italic>. grubii</italic> isolates.</p>
+				</sec>
+				<sec>
+					<title>Conclusions: </title>
+					<p>The overexpression of <italic>AFR1</italic> and <italic>MDR1</italic> genes, which codify for efflux pumps, contributes to fluconazole resistance in the studied isolates. However, the resistance patterns in this fungus and the relapse cases in HIV patients cannot be attributed solely to the exposure to the drug. Heteroresistance and the emerging resistance (resistance through other <italic>ERG</italic> genes), might be other mechanisms involved in this phenomenon, which must be studied in these isolations.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Cryptococcus neoformans</kwd>
+				<kwd>criptococosis</kwd>
+				<kwd>fluconazol</kwd>
+				<kwd>azoles</kwd>
+				<kwd>farmacorresistencia microbiana</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Cryptococcus neoformans</kwd>
+				<kwd>cryptococcosis</kwd>
+				<kwd>fluconazole</kwd>
+				<kwd>azoles</kwd>
+				<kwd>drug resistance, microbial</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="31"/>
+				<page-count count="10"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La criptococosis es una enfermedad infecciosa de distribución mundial que abarca un amplio espectro de presentaciones clínicas. Afecta desde el huésped aparentemente inmunocompetente y sin una enfermedad subyacente, hasta los inmunocomprometidos por infección con el virus de la inmunodeficiencia humana [<italic>Human Immunodeficiency Virus</italic> (HIV)] o con sida, trasplante de órganos o tumores malignos.</p>
+		<p>Las manifestaciones clínicas de esta micosis pueden variar desde la colonización asintomática de las vías respiratorias, hasta la diseminación de la infección hacia cualquier parte del cuerpo humano <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Se estima que cada año ocurren 220.000 casos de meningitis criptococócica entre personas con HIV-sida en todo el mundo, lo que resulta en 181.000 muertes, aproximadamente <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. En Colombia, la micosis alcanza una incidencia anual de 0,23 casos por cada 100.000 habitantes y, en los pacientes que padecen sida, se registra un incremento de 1,1 individuos por cada 1.000 <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>; la cripcococosis es una de las principales causas de muerte (15 %) en esta población <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p><italic>Cryptococcus</italic> spp. es el agente etiológico de la criptococosis. Es una levadura del filo Basidiomycota, de la cual se han descrito más de 80 especies que se clasifican como dos complejos de especies que son patógenas para los humanos: el complejo <italic>C. neoformans y</italic> el complejo <italic>C. gattii</italic><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Esta levadura saprófita encapsulada se reproduce en su fase asexual mediante blastoconidias unigemantes o multigemantes asincrónicas que son infecciosas al inhalarse.</p>
+		<p>Se han descrito cinco serotipos nombrados como A, B, C, D y AD, clasificación que se basa en las diferencias estructurales de los polisacáridos de la cápsula. El complejo de especies de <italic>C. neoformans</italic> está, a su vez, subdividida en dos variedades conocidas como <italic>C. neoformans</italic> var. <italic>grubii</italic> (serotipo A) y <italic>C. neoformans</italic> var. <italic>neoformans</italic> (serotipo D y AD). Por otro lado, los serotipos B y C se agrupan en el complejo <italic>C. gattii</italic><xref ref-type="bibr" rid="B1"><sup>1</sup></xref><italic>.</italic> De igual manera, el complejo <italic>C. gattii</italic> ha sido reorganizado en cinco especies: <italic>C. gattii, C. bacillisporus</italic>, <italic>C. deuterogattiii</italic>, <italic>C. tetragattii</italic> y <italic>C. decagattii.</italic> Además, se han reportado otros serotipos generados por híbridos, como el serotipo AB (<italic>C. neoformans x C. gattii hybrid</italic> o <italic>C. neoformans x C. deuterogattii</italic>) y el serotipo DB (<italic>C. deneoformans x C. gattii</italic>) <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><italic>.</italic> La infección con estas especies se ha relacionado con afección pulmonar y daño en el sistema nervioso central <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>La epidemiología de <italic>C. neoformans</italic> está bien caracterizada, afectando huéspedes inmunocomprometidos e inmunocompetentes. Por el contrario, <italic>C. gatiii</italic> se ha considerado históricamente como agente patógeno de huéspedes aparentemente inmunocompetentes <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>En la mayoría de los países en desarrollo, el tratamiento fungicida inicial combinando anfotericina B y 5-fluorocitosina (5-FC) se excluye de los protocolos por su alto costo, disponibilidad y dificultad de administración y seguimiento, a pesar de que es el recomendado por la Organización Mundial para la Salud (OMS) durante la fase de inducción para los casos de criptococosis <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Lamentablemente, la disponibilidad de la 5-FC es limitada en los lugares en donde la carga y la mortalidad de la enfermedad son más altas <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>La monoterapia con fluconazol (200-800 mg/día) es recomendada por la OMS como el tratamiento de elección solo durante la consolidación, el mantenimiento o la profilaxis secundaria <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Sin embargo, en países en desarrollo, suele ser la única opción de tratamiento para todas las fases y etapas de la infección, a pesar de que tome más tiempo lograr la esterilización del líquido cefalorraquídeo <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+		<p>El éxito de la implementación de esta terapia durante la etapa inicial de la micosis, al igual que el tratamiento en la fase de mantenimiento con fluconazol, podría ser riesgosa debido al surgimiento de cepas resistentes, cuya prevalencia es del 20 % en algunas regiones del mundo. Además, son muy frecuentes los aislamientos de este hongo obtenidos de pacientes con recaídas, con cultivo positivo, que muestran disminución de la sensibilidad a la flucitosina <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Las fallas en el tratamiento con fluconazol de la enfermedad criptococócica, no se pueden atribuir únicamente al uso prolongado del fármaco, sino también a la resistencia emergente del agente etiológico. Además, debe considerarse el fenómeno de la heterorresistencia, el cual también ha sido reportado como un mecanismo alternativo con potencial para explicar el comportamiento del hongo ante este antifúngico <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+		<p>El principal mecanismo por el cual los hongos adquieren resistencia contra los azoles, se basa en la sobreexpresión del gen <italic>ERG11,</italic> el cual codifica para la enzima lanosterol 14-a-desmetilasa (Erg11p), blanco de acción de estos antifúngicos. Las mutaciones en <italic>ERG11</italic> disminuyen la sensibilidad de esta enzima Erg11p para ser inhibida por los azoles <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Venkateswarlu, <italic>et al</italic>. (1997), sugirieron la posibilidad de que estas proteínas transportadoras de membrana estuviesen involucradas como mecanismos de resistencia a los azoles en <italic>Cryptococcus</italic>. Estos autores reportaron que los aislamientos clínicos de <italic>C. neoformans</italic> con altos valores de concentración inhibitoria mínima (CIM) mostraban bajas concentraciones intracelulares de fluconazol, en comparación con las cepas con CIM bajas para el fluconazol <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		<p>Es así como en <italic>C. neoformans</italic> se han identificado dos bombas de eflujo en la membrana plasmática. La primera, es codificada por el gen <italic>MDR1</italic>, el cual genera para una proteína de transporte de membrana en eucariotas, relacionada con proteínas de resistencia a múltiples fármacos <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>; y la segunda, codificada por el gen <italic>AFR1</italic>, el cual origina codifica para otro transportador de membrana plasmática (transportador ABC) diferente.</p>
+		<p>Las células del hongo que muestran expresión aumentada de <italic>AFR1</italic>, también tienen altos valores de CIM, en comparación con sus controles silvestres<italic>.</italic> Algunos autores han encontrado que los ratones inoculados con cepas de <italic>C. neoformans</italic> que muestran sobreexpresión de <italic>AFR1</italic>, responden de manera menos favorable al tratamiento con fluconazol, comparados con los controles infectados con la cepa silvestre. Además, la disrupción de este gen causa disminución de los valores de la CIM, y un incremento de la sensibilidad en los ratones tratados con fluconazol <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+		<p>El objetivo de este trabajo fue evaluar los perfiles de expresión de los genes <italic>AFR1</italic>, <italic>MDR1 y ERG11</italic> en aislamientos clínicos de <italic>C. neoformans</italic> var<italic>. grubii</italic> de pacientes con HIV, durante la respuesta <italic>in vitro</italic> a la terapia de inducción con fluconazol.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Aislamientos clínicos</italic></title>
+				<p>Las muestras biológicas (líquido cefalorraquídeo o suero) se sembraron en agar Sabouraud glucosado sin cicloheximida; después de 24 a 48 horas de incubación a 30 °C, se observaron colonias caracterizadas como <italic>Cryptococcus</italic> spp., las cuales fueron replicadas en el mismo medio hasta obtener colonias aisladas. Los aislamientos recuperados durante un periodo de dos años se sometieron a criopreservación a -20 °C en medio de cultivo con agar y leche descremada, en la Unidad de Micología Médica y Experimental de la Corporación para Investigaciones Biológicas de Medellín, Colombia.</p>
+				<p>En total, se seleccionaron 14 aislamientos clínicos de <italic>C. neoformans</italic> var<italic>. grubii</italic> obtenidos a partir de dichas muestras clínicas, todas provenientes de pacientes con HIV (<xref ref-type="table" rid="t1">cuadro 1</xref>). Según la prueba de sensibilidad <italic>in vitro y</italic> de acuerdo con los puntos epidemiológicos de corte, 8 aislamientos mostraron disminución de la sensibilidad al fluconazol y 6 mostraron un fenotipo sensible <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Características de los aislamientos de <italic>Cryptococcus neoformans var. grubii</italic> empleados en el estudio</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center">Identificación del aislamiento*</th>
+									<th align="center">Fenotipo de resistencia</th>
+									<th align="center">CIM* fluconazol (μg/ml)</th>
+									<th align="center">Sub-CIM* (μg/ml)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">64212</td>
+									<td align="left">Resistente</td>
+									<td align="center">&gt;256</td>
+									<td align="center">64</td>
+								</tr>
+								<tr>
+									<td align="left">66992</td>
+									<td align="left">Resistente</td>
+									<td align="center">&gt;256</td>
+									<td align="center">64</td>
+								</tr>
+								<tr>
+									<td align="left">64146</td>
+									<td align="left">Resistente</td>
+									<td align="center">&gt;256</td>
+									<td align="center">64</td>
+								</tr>
+								<tr>
+									<td align="left">57332</td>
+									<td align="left">Resistente</td>
+									<td align="center">&gt;256</td>
+									<td align="center">64</td>
+								</tr>
+								<tr>
+									<td align="left">53687</td>
+									<td align="left">Resistente</td>
+									<td align="center">&gt;165</td>
+									<td align="center">64</td>
+								</tr>
+								<tr>
+									<td align="left">24198</td>
+									<td align="left">Sensible</td>
+									<td align="center">1</td>
+									<td align="center">0,5</td>
+								</tr>
+								<tr>
+									<td align="left">8843</td>
+									<td align="left">Sensible</td>
+									<td align="center">5</td>
+									<td align="center">2</td>
+								</tr>
+								<tr>
+									<td align="left">22602</td>
+									<td align="left">Sensible</td>
+									<td align="center">6</td>
+									<td align="center">2</td>
+								</tr>
+								<tr>
+									<td align="left">24405</td>
+									<td align="left">Sensible</td>
+									<td align="center">1,1</td>
+									<td align="center">0,5</td>
+								</tr>
+								<tr>
+									<td align="left">23849</td>
+									<td align="left">Sensible</td>
+									<td align="center">1,1</td>
+									<td align="center">0,5</td>
+								</tr>
+								<tr>
+									<td align="left">63127</td>
+									<td align="left">Sensible</td>
+									<td align="center">4</td>
+									<td align="center">2</td>
+								</tr>
+								<tr>
+									<td align="left">23433</td>
+									<td align="left">Sensible dosis dependiente</td>
+									<td align="center">32</td>
+									<td align="center">16</td>
+								</tr>
+								<tr>
+									<td align="left">18666</td>
+									<td align="left">Sensible dosis dependiente</td>
+									<td align="center">16</td>
+									<td align="center">8</td>
+								</tr>
+								<tr>
+									<td align="left">52550</td>
+									<td align="left">Sensible dosis dependiente</td>
+									<td align="center">61</td>
+									<td align="center">32</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>* La concentración inhibitoria mínima (CIM) se determinó mediante el método de difusión con discos.</p>
+							</fn>
+							<fn id="TFN2">
+								<p>+ Todos los aislamientos fueron recuperados de pacientes con HIV</p>
+							</fn>
+							<fn id="TFN3">
+								<p>• Concentraciones sub-CIM usadas para el tratamiento de cada uno de los aislamientos estudiados. Los valores se asignaron según el valor de CIM previamente determinado.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Pruebas de sensibilidad</italic></title>
+				<p>Las pruebas de sensibilidad se realizaron mediante el método de difusión con discos de fluconazol de 25 μg (Beckton Dickinson, Spark, MD), siguiendo el protocolo establecido por el <italic>Clinical and Laboratory Standards Institute</italic> (CLSI), en la guía M44 propuesta por el <italic>National Committee for Clinical Laboratory Standards</italic> (NCCLS) <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. La lectura de los halos de inhibición fue documentada en el equipo BIOMIC™.</p>
+				<p>En el caso de <italic>Cryptococcus</italic> spp., aún no se han establecido los puntos de corte clínicos para determinar los fenotipos de sensibilidad al fluconazol, por lo cual se utilizan los puntos de corte epidemiológicos <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>; estos corresponden al valor de la CIM que marca el límite superior de los aislamientos de tipo salvaje (<italic>wild type</italic>). Para <italic>C. neoformans</italic> var. grubii, se definió un punto de corte epidemiológico de 8 pg/ml; por consiguiente, los aislamientos con una CIM mayor de 8 pg/ml se consideraron con sensibilidad disminuida al fluconazol <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis de expresión</italic></title>
+				<p><italic>Purificación del ARN</italic></p>
+				<p>Se recuperó el ARN total de los 14 aislamientos del estudio, después de su crecimiento en el medio de cultivo líquido YPD (<italic>Yeast Peptone Dextrose</italic>) mediante incubación a 30 <sup>o</sup>C y 150 rpm durante 24 horas. Se inoculó 1 ml del cultivo del hongo en fase logarítmica (1 x 106 blastoconidias por ml, contadas en cámara de Neubauer) en dicho medio, con el fin de normalizar las condiciones de todos los aislamientos evaluados.</p>
+				<p>Los cultivos se incubaron a 30 °C y 150 rpm durante 48 horas en ausencia del antifúngico, para luego ser incubados durante 2 horas bajo concentraciones de fluconazol inferiores a la CIM <xref ref-type="bibr" rid="B16"><sup>16</sup></xref> (<xref ref-type="table" rid="t1">cuadro 1</xref>). A continuación, se recolectaron las blastoconidias y se procedió a extraer el ARN total por el método de Trizol™ (Life Technology, USA), junto con un choque térmico, siguiendo las indicaciones del fabricante. El ARN se trató con 1 U/μl de DNase 1 (ThermoFisher, USA).</p>
+				<p>Con el fin de verificar la ausencia de ADN genómico, las muestras de ARN se emplearon en una PCR convencional, utilizando cebadores específicos para el gen de la actina como gen normalizador (<xref ref-type="table" rid="t2">cuadro 2</xref>), en la cual la ausencia de un producto de amplificación garantiza la ausencia de ADN genómico. El ARN purificado fue cuantificado y analizado utilizando un Nanodrop 2000™ (ThermoFisher, USA).</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Cebadores usados en el análisis de la PCR en tiempo real</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center">Gen</th>
+									<th align="center">Cebador</th>
+									<th align="center">Secuencia</th>
+									<th align="center">Tamaño del fragmento de ADN</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center"><italic>ERG11*</italic></td>
+									<td align="center"><italic>Forward</italic>
+ <italic>Reverse</italic></td>
+									<td align="center">5' CCATGTCCGAGCTCATCATTCTT 3' 5' ACTGGGAAGGGGCAAGTTGG 3'</td>
+									<td align="center">150 pb</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>AFR1+</italic></td>
+									<td align="center"><italic>Forward</italic>
+ <italic>Reverse</italic></td>
+									<td align="center">5' CCCACTTTGCCATACTTTTGG 3' 5'AACTGTGGAGACAAGACCACTGATAA 3'</td>
+									<td align="center">85 pb</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>MDR1*</italic></td>
+									<td align="center"><italic>Forward</italic>
+ <italic>Reverse</italic></td>
+									<td align="center">5'ACCCACTCTTTTCGGTAC 3' 5'TACCGCGCTCACCAAC 3'</td>
+									<td align="center">180 pb</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>Actina*</italic></td>
+									<td align="center"><italic>Forward</italic>
+ <italic>Reverse</italic></td>
+									<td align="center">5'CCAAGCAGAACCGAGAGAAGATG 3' 5'GGACAGTGTGGGTGACACCGT 3'</td>
+									<td align="center">156 pb</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN4">
+								<p>* (17)</p>
+							</fn>
+							<fn id="TFN5">
+								<p>+ (18)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p><italic>Síntesis del ADN complementario (ADNc)</italic></p>
+				<p>La cadena complementaria de ADN (ADNc) se sintetizó a partir de los ARN totales extraídos, empleando una concentración 600 ng totales (3 pl de una solución a 200 ng/pl) de ARN, en una reacción de 20 μl de volumen final, usando el juego de reactivos comercial: Maxima H Minus First Strand cDNA Synthesis Kit™ (ThermoFisher, USA), según las instrucciones del fabricante.</p>
+				<p><italic>Reacción en cadena de la polimerasa en tiempo real</italic></p>
+				<p>La PCR en tiempo real se practicó usando el juego de reactivos comerciales Maxima SYBR Green/Fluorescein qPCR Master Mix™ (2X), siguiendo las indicaciones del fabricante (ThermoFisher, USA).</p>
+				<p>La reacción de PCR contenía 2 μl de ADNc, el cual se hallaba a una concentración de 300 ng/μl, 10 μl de SYBR Green Master Mix 2X, y 0,1 mM de cada cebador (<xref ref-type="table" rid="t1">cuadro 1</xref>). Las reacciones tuvieron un volumen final de 20 μl, el cual fue ajustado con agua libre de nucleasas. El equipo empleado para detectar la fluorescencia fue el CFX96 Real-Time PCR Detection System™ (Bio-Rad, Headquarters Hercules, California, USA).</p>
+				<p>Se hizo una desnaturalización inicial a 94 °C durante 5 minutos, seguida de 45 ciclos de PCR, de la siguiente manera: 95 °C durante 50 segundos, 60 °C por 20 segundos, y 72 °C durante 30 segundos. El análisis de las curvas de disociación (<italic>melting curve analysis</italic>) de los productos de PCR, se basó en la aplicación de un gradiente de temperaturas creciente con posterioridad a la PCR, para determinar la temperatura de fusión (Tm), que es la temperatura a la que el 50 % de las moléculas de ADN de doble cadena son desnaturalizadas.</p>
+				<p>Este paso se hizo después de la polimerización para descartar la posibilidad de amplificación no específica o de formación de dímeros de iniciadores. Los niveles de expresión del ARN mensajero (ARNm) se calcularon mediante un método de expresión relativa, usando la fórmula 2<sup>MCT</sup>, donde AACT es la diferencia entre el gen diana y el gen de la actina <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Cada experimento se llevó a cabo en dos réplicas biológicas y cada muestra fue evaluada por triplicado.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Las pruebas de sensibilidad a los antifúngicos permitieron caracterizar los aislamientos según su fenotipo de sensibilidad al fluconazol. Como resultado de esta prueba, 8 aislamientos mostraron una sensibilidad disminuida con CIM mayores que los puntos de corte epidemiológicos (8 μg/ml); de estos 8 aislamientos, 5 obtuvieron valores de CIM mayores de 64 μg/ml y 3 presentaron valores de CIM entre 16 y 61 μg/ml. Además, 6 aislamientos mostraron valores de CMI menores que los puntos de corte epidemiológico (CIM entre 1 y 6 μg/ml) (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+			<sec>
+				<title><italic>Perfiles de expresión de los genes ERG11, AFR1 y MDR1</italic></title>
+				<p>Los controles empleados para verificar la ausencia de ADN en las muestras de ARNm demostraron la ausencia de productos de amplificación, verificándose la pureza del ARN extraído.</p>
+				<p>Los niveles de ARNm de los genes <italic>ERG11</italic>, <italic>AFR1 y MDR1</italic> relativos a la actina (gen constitutivo), se evaluaron en todos los aislamientos registrados en el <xref ref-type="table" rid="t1">cuadro 1</xref>. La proporción de los niveles de ARNm del gen <italic>ERG11</italic> comparados con los del gen constitutivo <italic>(ERG11</italic> /<italic>ACT1</italic>), no fueron significativamente diferentes entre los aislamientos de los dos fenotipos de resistencia evaluados: sensibles, y con sensibilidad disminuida no obstante, en los aislamientos resistentes, la expresión relativa a la actina del gen <italic>AFR1</italic> fue 2,4 veces mayor que en los aislamientos sensibles, y la del gen <italic>MDR1</italic> fue 7,7 veces mayor que en el grupo con valores CIM entre 16 y 61 μg/ml (<xref ref-type="fig" rid="f1">figura 1</xref>). Asimismo, el análisis de las curvas de fusión (<italic>melting curves</italic>), permitió descartar la presencia de productos de amplificación inespecíficos o dímeros entre las parejas de cebadores evaluadas.</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Efecto del fluconazol en la expresión de los genes <italic>ERG11</italic>, <italic>AFR1</italic> y <italic>MDR1</italic>. Los resultados de la expresión relativa de estos genes se calcularon usando la fórmula 2“<sup>CT</sup> relativa al gen de la actina (ACT1), como gen normalizador <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Las cajas representan el rango intercuartil o la media del 50 % de las observaciones.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-42-04-697-gf1.jpg"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El objetivo principal de este estudio fue determinar los perfiles de expresión de los genes <italic>ERG11</italic>, <italic>AFR1 y MDR1.</italic> La sobreexpresión del gen <italic>ERG11</italic>, que codifica para la enzima diana de los azoles (lanosterol 14 α-desmetilasa), constituye uno de los principales mecanismos por medio del cual las levaduras de importancia médica, incluidas las especies de <italic>Cryptococcus</italic>, adquieren resistencia a estos antifúngicos <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Asimismo, la sobreexpresión de los genes <italic>AFR1 y MDR1</italic>, que codifican para las bombas de eflujo son factores importantes que le confieren resistencia a <italic>C. neoformans</italic> contra el fluconazol <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>Los valores de la CIM muestran que existe una gran frecuencia de aislamientos colombianos con sensibilidad disminuida al fluconazol en población con sida (mayor de 50 %), similar a lo reportado por Agudelo, <italic>et al</italic>. (2015), quienes encontraron una tendencia similar utilizando un tamaño de muestra más grande (n=72). Lo anterior demuestra que los aislamientos recuperados de pacientes con sida son menos sensibles al tratamiento con fluconazol <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>, y que se debe profundizar en el estudio de las causas de esta alta frecuencia en la subpoblación colombiana.</p>
+			<p>A pesar de no existir un consenso acerca de los puntos de corte epidemiológicos, los aislamientos de <italic>C. neoformans var. grubii</italic> considerados menos sensibles al fluconazol en este estudio, se categorizarían igual utilizando los puntos de corte reportados en la mayoría de los estudios publicados <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Por tanto, la expresión de los genes <italic>AFR1 y MDR1</italic> podría compararse con la encontrada en otras poblaciones consideradas resistentes.</p>
+			<p>En algunos estudios se ha demostrado que ni el aumento en la magnitud de la expresión de los genes, ni las variaciones en la secuencia codificante del gen <italic>ERG11,</italic> pueden explicar los altos valores de CIM encontrados en aislamientos clínicos de <italic>C. gattii</italic><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Resulta de suma importancia explorar este comportamiento, específicamente en <italic>C. neoformans</italic> var<italic>. grubii</italic>, y correlacionarlo con los hallazgos del presente estudio, pues, en todos los aislamientos evaluados bajo nuestras condiciones experimentales, la magnitud de la expresión registrada para el gen <italic>ERG11</italic> no se correlaciona con los perfiles de resistencias encontrados. Esto indica que es posible que las mutaciones en el <italic>ERG11</italic>, la sobreexpresión de otros genes <italic>ERG</italic> o el aumento de la actividad de las bombas de eflujo, sean responsables de la resistencia en estos aislamientos.</p>
+			<p>Así, las sustituciones de aminoácidos en los genes <italic>ERG</italic> pueden contribuir a producir una baja afinidad entre la enzima lanosterol 14-a-desmetilasa (Erg11p) y el fluconazol, causando la resistencia <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>Por su parte, Florio, <italic>et al.</italic><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>, reportaron un efecto compensatorio de aumento, entre 2,09 y 3,95 veces, de la expresión de ocho genes <italic>ERG</italic> (<italic>ERG1</italic>, <italic>ERG2</italic>, <italic>ERG3</italic>, <italic>ERG5</italic>, <italic>ERG7</italic>, <italic>ERG11</italic>, <italic>ERG13 y ERG25</italic>), bajo inducción con fluconazol durante cortos periodos <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. Esto concuerda con lo hallado en el presente estudio, en el cual, los valores de la expresión de</p>
+			<p><italic>ERG11</italic> fueron similares en los tres grupos de sensibilidad aquí probados. Por tanto, se requieren nuevos estudios en que se evalúen otros genes de tipo <italic>ERG</italic>, con el fin de confirmar este comportamiento en los aislamientos colombianos de <italic>C. neoformans</italic> var. <italic>grubii</italic> obtenidos de pacientes con HIV.</p>
+			<p>A la fecha, <italic>AFR1 y MDR1</italic> son los únicos genes conocidos que codifican para dos bombas de eflujo asociadas con la resistencia de <italic>C. neoformans</italic> a medicamentos antifúngicos <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. Los estudios de bloqueo (<italic>knock out</italic>) de genes revelan que la disrupción del gen <italic>AFR1</italic> resulta en la deleción total del gen, lo cual confiere al mutante receptor total sensibilidad a los azoles y, además, la reintroducción del gen restaura el fenotipo de resistencia.</p>
+			<p>Estos hallazgos indican claramente que la sobreexpresión de <italic>AFR1</italic> es un factor determinante importante en el aumento de la resistencia <italic>in vitro</italic> de <italic>C. neoformans</italic> a los azoles. Sin embargo, es posible que otros mecanismos estén involucrados en este fenómeno <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+			<p>En este mismo sentido, Sionov, <italic>et al</italic>., describen cierto mecanismo de adaptación del hongo como respuesta al antifúngico, denominado heterorresistencia, en el cual se observa que el número de cromosomas disómicos se correlaciona de manera positiva con la duración de la exposición al fluconazol; la duplicación del cromosoma 1 estuvo estrechamente relacionada con dos genes, <italic>ERG11</italic> y <italic>AFR1</italic>. Tal plasticidad genómica hace posible que las células sobrelleven el estrés causado por el efecto del medicamento, lo cual se ha observado en el serotipo A (<italic>C. neoformans</italic> var<italic>. grubii</italic>) y en el D (<italic>C. neoformans</italic>) <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>En resumen, hemos demostrado que los genes <italic>AFR1 y MDR1</italic> de <italic>C. neoformans</italic> var<italic>. grubii</italic> presentan una sobreexpresión en aislamientos resistentes al fluconazol, mientras que el gen <italic>ERG11</italic> mantiene homogénea su expresión en todos los aislamientos de <italic>C. neoformans</italic> var<italic>. grubii,</italic> de los tres fenotipos de resistencia evaluados. Lo anterior sugiere que estas bombas de eflujo contribuyen a la resistencia al fluconazol en este grupo de aislamientos estudiados.</p>
+			<p>No obstante, los patrones de resistencia que se registran en este hongo, sumados a los casos de recaídas en pacientes con HIV, no pueden atribuirse únicamente a casos de resistencia por exposición al fármaco, debido a que la heterorresistencia es un mecanismo alternativo con un gran potencial en este proceso. En el presente estudio, se incluyó únicamente una variante de cada gen evaluado y una muestra de 14 aislamientos. El análisis de los niveles de expresión de otros genes de tipo <italic>ERG</italic>, así como la variante <italic>AFR2 y</italic> la inclusión de un mayor número de aislamientos con el fenotipo de heterorresistencia, permitirán elucidar de manera más clara la función de estos genes en el complejo mecanismo de resistencia a los azoles en <italic>Cryptococcus</italic> patógenos.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Al grupo de Biociencias de la Facultad de Ciencias de la Salud de la Institución Universitaria Colegio Mayor de Antioquia (IUCMA), y al Grupo de Biología Celular y Molecular de la Corporación para Investigaciones Biológicas (CIB) por su apoyo científico para el desarrollo de este trabajo.</p>
+			<p>Agradecemos a Catalina de Bedout por su apoyo durante la clasificación de los aislamientos mediante las pruebas de sensibilidad a los antifúngicos, así como, en el análisis de los resultados, y la revisión del manuscrito.</p>
+			<p>Los autores declaramos que las personas mencionadas en agradecimientos están informadas y de acuerdo con la mención de sus nombres en el presente estudio.</p>
+			<p>Dedicamos este trabajo a la doctora Ángela Restrepo Moreno, a quien debemos nuestra formación como investigadores y toda nuestra inspiración.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1.</label>
+				<mixed-citation>Perfect JR, Dismukes WE, Dromer F, Goldman DL, Graybill JR, Hamill RJ, <italic>et al</italic>. Clinical practice guidelines for the management of cryptococcal disease: 2010 update by the infectious diseases society of America. Clin Infect Dis. 2010;50:291-322. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/649858">https://doi.org/10.1086/649858</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Perfect</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Dismukes</surname>
+							<given-names>WE</given-names>
+						</name>
+						<name>
+							<surname>Dromer</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Goldman</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Graybill</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Hamill</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical practice guidelines for the management of cryptococcal disease: 2010 update by the infectious diseases society of America</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2010</year>
+					<volume>50</volume>
+					<fpage>291</fpage>
+					<lpage>322</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/649858">https://doi.org/10.1086/649858</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2.</label>
+				<mixed-citation>Rajasingham R, Smith RM, Park BJ, Jarvis JN, Govender NP, Chiller TM, <italic>et al</italic>. Global burden of disease of HIV-associated cryptococcal meningitis: An updated analysis. Lancet Infect Dis. 2017;17:873-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(17)30243-8">https://doi.org/10.1016/S1473-3099(17)30243-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rajasingham</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Jarvis</surname>
+							<given-names>JN</given-names>
+						</name>
+						<name>
+							<surname>Govender</surname>
+							<given-names>NP</given-names>
+						</name>
+						<name>
+							<surname>Chiller</surname>
+							<given-names>TM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Global burden of disease of HIV-associated cryptococcal meningitis: An updated analysis</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<fpage>873</fpage>
+					<lpage>881</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(17)30243-8">https://doi.org/10.1016/S1473-3099(17)30243-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3.</label>
+				<mixed-citation>Escandón P, Lizarazo J, Agudelo CI, Castañeda E. Cryptococcosis in Colombia: Compilation and analysis of data from laboratory-based surveillance. J Fungi (Basel). 2018;4(1). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/jof4010032">https://doi.org/10.3390/jof4010032</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Escandón</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lizarazo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Agudelo</surname>
+							<given-names>CI</given-names>
+						</name>
+						<name>
+							<surname>Castañeda</surname>
+							<given-names>E.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cryptococcosis in Colombia: Compilation and analysis of data from laboratory-based surveillance</article-title>
+					<source>J Fungi (Basel)</source>
+					<year>2018</year>
+					<volume>4</volume>
+					<fpage>1</fpage>
+					<lpage>1</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/jof4010032">https://doi.org/10.3390/jof4010032</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4.</label>
+				<mixed-citation>Kwon-Chung KJ, Bennett JE, Wickes BL, Meyer W, Cuomo CA, Wollenburg KR, <italic>et al</italic>. The case for adopting the “Species Complex” nomenclature for the etiologic agents of cryptococcosis. mSphere. 2017;2:e00357-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/mSphere.00357-16">https://doi.org/10.1128/mSphere.00357-16</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kwon-Chung</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Bennett</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Wickes</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Meyer</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Cuomo</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Wollenburg</surname>
+							<given-names>KR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The case for adopting the “Species Complex” nomenclature for the etiologic agents of cryptococcosis</article-title>
+					<source>mSphere</source>
+					<year>2017</year>
+					<volume>2</volume>
+					<elocation-id>e00357-16</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/mSphere.00357-16">https://doi.org/10.1128/mSphere.00357-16</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5.</label>
+				<mixed-citation>Hagen F, Khayhan K, Theelen B, Kolecka A, Polacheck I, Sionov E, <italic>et al</italic>. Recognition of seven species in the Cryptococcus gattii/Cryptococcus neoformans species complex. Fungal Genet Biol. 2015;78:16-48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.fgb.2015.02.009">https://doi.org/10.1016/j.fgb.2015.02.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hagen</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Khayhan</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Theelen</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Kolecka</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Polacheck</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Sionov</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Recognition of seven species in the Cryptococcus gattii/Cryptococcus neoformans species complex</article-title>
+					<source>Fungal Genet Biol</source>
+					<year>2015</year>
+					<volume>78</volume>
+					<fpage>16</fpage>
+					<lpage>48</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.fgb.2015.02.009">https://doi.org/10.1016/j.fgb.2015.02.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6.</label>
+				<mixed-citation>Idnurm A, Lin X. Rising to the challenge of multiple Cryptococcus species and the diseases they cause. Fungal Genet Biol. 2015;78:1-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.fgb.2015.05.002">https://doi.org/10.1016/j.fgb.2015.05.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Idnurm</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>X.</given-names>
+						</name>
+					</person-group>
+					<article-title>Rising to the challenge of multiple Cryptococcus species and the diseases they cause</article-title>
+					<source>Fungal Genet Biol</source>
+					<year>2015</year>
+					<volume>78</volume>
+					<fpage>1</fpage>
+					<lpage>6</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.fgb.2015.05.002">https://doi.org/10.1016/j.fgb.2015.05.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7.</label>
+				<mixed-citation>Serna-Espinosa BN, Guzmán-Sanabria D, Forero-Castro M, Escandón P, SánchezQuitian ZA. Environmental Status of Cryptococcus neoformans and Cryptococcus gattii in Colombia. J Fungi (Basel). 2021;7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/jof7060410">https://doi.org/10.3390/jof7060410</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Serna-Espinosa</surname>
+							<given-names>BN</given-names>
+						</name>
+						<name>
+							<surname>Guzmán-Sanabria</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Forero-Castro</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Escandón</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>SánchezQuitian</surname>
+							<given-names>ZA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Environmental Status of Cryptococcus neoformans and Cryptococcus gattii in Colombia</article-title>
+					<source>J Fungi (Basel)</source>
+					<year>2021</year>
+					<volume>7</volume>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/jof7060410">https://doi.org/10.3390/jof7060410</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8.</label>
+				<mixed-citation>Gushiken AC, Saharia KK, Baddley JW. Cryptococcosis. Infect Dis Clin North Am. 2021;35:493-514. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.idc.2021.03.012">https://doi.org/10.1016/j.idc.2021.03.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gushiken</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Saharia</surname>
+							<given-names>KK</given-names>
+						</name>
+						<name>
+							<surname>Baddley</surname>
+							<given-names>JW.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cryptococcosis</article-title>
+					<source>Infect Dis Clin North Am</source>
+					<year>2021</year>
+					<volume>35</volume>
+					<fpage>493</fpage>
+					<lpage>514</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.idc.2021.03.012">https://doi.org/10.1016/j.idc.2021.03.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9.</label>
+				<mixed-citation>World Health Organization. Guidelines for the diagnosis, prevention and management of cryptococcal disease in HIV-infected adults, adolescents and ahildren: Supplement to the 2016 Consolidated guidelines on the use of antiretroviral drugs for treating and preventing HIV infection. Geneva: World Health Organization; 2018. p. 51.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Guidelines for the diagnosis, prevention and management of cryptococcal disease in HIV-infected adults, adolescents and ahildren: Supplement to the 2016 Consolidated guidelines on the use of antiretroviral drugs for treating and preventing HIV infection</source>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>World Health Organization</publisher-name>
+					<year>2018</year>
+					<fpage>51</fpage>
+					<lpage>51</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10.</label>
+				<mixed-citation>Bicanic T, Harrison T, Niepieklo A, Dyakopu N, Meintjes G. Symptomatic relapse of HIVassociated cryptococcal meningitis after initial ﬂuconazole monotherapy: The role of ﬂuconazole resistance and immune reconstitution. Clin Infect Dis. 2006;43:1069-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/507895">https://doi.org/10.1086/507895</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bicanic</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Harrison</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Niepieklo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dyakopu</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Meintjes</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Symptomatic relapse of HIVassociated cryptococcal meningitis after initial ﬂuconazole monotherapy: The role of ﬂuconazole resistance and immune reconstitution</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2006</year>
+					<volume>43</volume>
+					<fpage>1069</fpage>
+					<lpage>1070</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/507895">https://doi.org/10.1086/507895</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11.</label>
+				<mixed-citation>Maziarz EK, Perfect JR. Cryptococcosis. Infect Dis Clin North Am. 2016;30:179-206. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.idc.2015.10.006">https://doi.org/10.1016/j.idc.2015.10.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maziarz</surname>
+							<given-names>EK</given-names>
+						</name>
+						<name>
+							<surname>Perfect</surname>
+							<given-names>JR.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cryptococcosis</article-title>
+					<source>Infect Dis Clin North Am</source>
+					<year>2016</year>
+					<volume>30</volume>
+					<fpage>179</fpage>
+					<lpage>206</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.idc.2015.10.006">https://doi.org/10.1016/j.idc.2015.10.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12.</label>
+				<mixed-citation>Agudelo CA, Muñoz C, Ramírez A, Tobón AM, de Bedout Bact C, Cano LE, <italic>et al</italic>. Response to therapy in patients with cryptococcosis and AIDS: Association with in vitro susceptibility to ﬂuconazole. Rev Iberoam Micol. 2015;32:214-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.riam.2014.07.006">https://doi.org/10.1016/j.riam.2014.07.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Agudelo</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Muñoz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tobón</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>de Bedout Bact</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cano</surname>
+							<given-names>LE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Response to therapy in patients with cryptococcosis and AIDS: Association with in vitro susceptibility to ﬂuconazole</article-title>
+					<source>Rev Iberoam Micol</source>
+					<year>2015</year>
+					<volume>32</volume>
+					<fpage>214</fpage>
+					<lpage>220</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.riam.2014.07.006">https://doi.org/10.1016/j.riam.2014.07.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13.</label>
+				<mixed-citation>Cheong JWS, McCormack J. Fluconazole resistance in cryptococcal disease: Emerging or intrinsic? Med Mycol. 2013;51:261-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/13693786.2012.715763">https://doi.org/10.3109/13693786.2012.715763</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cheong</surname>
+							<given-names>JWS</given-names>
+						</name>
+						<name>
+							<surname>McCormack</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>Fluconazole resistance in cryptococcal disease: Emerging or intrinsic?</article-title>
+					<source>Med Mycol</source>
+					<year>2013</year>
+					<volume>51</volume>
+					<fpage>261</fpage>
+					<lpage>269</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/13693786.2012.715763">https://doi.org/10.3109/13693786.2012.715763</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14.</label>
+				<mixed-citation>Basso LR, Gast CE, Bruzual I, Wong B. Identifcation and properties of plasma membrane azole efflux pumps from the pathogenic fungi Cryptococcus gattii and Cryptococcus neoformans. J Antimicrob Chemother. 2015;70:1396-407. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jac/dku554">https://doi.org/10.1093/jac/dku554</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Basso</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Gast</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Bruzual</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>B.</given-names>
+						</name>
+					</person-group>
+					<article-title>Identifcation and properties of plasma membrane azole efflux pumps from the pathogenic fungi Cryptococcus gattii and Cryptococcus neoformans</article-title>
+					<source>J Antimicrob Chemother</source>
+					<year>2015</year>
+					<volume>70</volume>
+					<fpage>1396</fpage>
+					<lpage>1407</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jac/dku554">https://doi.org/10.1093/jac/dku554</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15.</label>
+				<mixed-citation>Venkateswarlu K, Taylor M, Manning NJ, Rinaldi MG, Kelly SL. Fluconazole tolerance in clinical isolates of Cryptococcus neoformans. Antimicrob Agents Chemother. 1997;41:748-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.41.4.748">https://doi.org/10.1128/AAC.41.4.748</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Venkateswarlu</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Taylor</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Manning</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Rinaldi</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Kelly</surname>
+							<given-names>SL.</given-names>
+						</name>
+					</person-group>
+					<article-title>Fluconazole tolerance in clinical isolates of Cryptococcus neoformans</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>1997</year>
+					<volume>41</volume>
+					<fpage>748</fpage>
+					<lpage>751</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.41.4.748">https://doi.org/10.1128/AAC.41.4.748</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16.</label>
+				<mixed-citation>Thornewell SJ, Peery RB, Skatrud PL. Cloning and characterization of CneMDR1: A Cryptococcus neoformans gene encoding a protein related to multidrug resistance proteins. Gene. 1997;201:21-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0378-1119(97)00421-6">https://doi.org/10.1016/s0378-1119(97)00421-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thornewell</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Peery</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Skatrud</surname>
+							<given-names>PL.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cloning and characterization of CneMDR1: A Cryptococcus neoformans gene encoding a protein related to multidrug resistance proteins</article-title>
+					<source>Gene</source>
+					<year>1997</year>
+					<volume>201</volume>
+					<fpage>21</fpage>
+					<lpage>29</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0378-1119(97)00421-6">https://doi.org/10.1016/s0378-1119(97)00421-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17.</label>
+				<mixed-citation>Posteraro B, Sanguinetti M, Sanglard D, La Sorda M, Boccia S, Romano L, <italic>et al</italic>. Identifcation and characterization of a Cryptococcus neoformans ATP binding cassette (ABC) transporter-encoding gene, CnAFR1, involved in the resistance to ﬂuconazole. Mol Microbiol. 2003;47:357-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2958.2003.03281.x">https://doi.org/10.1046/j.1365-2958.2003.03281.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Posteraro</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Sanguinetti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sanglard</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>La Sorda</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Boccia</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Romano</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identifcation and characterization of a Cryptococcus neoformans ATP binding cassette (ABC) transporter-encoding gene, CnAFR1, involved in the resistance to ﬂuconazole</article-title>
+					<source>Mol Microbiol</source>
+					<year>2003</year>
+					<volume>47</volume>
+					<fpage>357</fpage>
+					<lpage>371</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2958.2003.03281.x">https://doi.org/10.1046/j.1365-2958.2003.03281.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18.</label>
+				<mixed-citation>Sanguinetti M, Posteraro B, La Sorda M, Torelli R, Fiori B, Santangelo R, <italic>et al</italic>. Role of AFR1, an ABC transporter-encoding gene, in the in vivo response to ﬂuconazole and virulence of Cryptococcus neoformans. Infect Immun. 2006;74:1352-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/IAI.74.2.1352-1359.2006">https://doi.org/10.1128/IAI.74.2.1352-1359.2006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sanguinetti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Posteraro</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>La Sorda</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Torelli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Fiori</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Santangelo</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Role of AFR1, an ABC transporter-encoding gene, in the in vivo response to ﬂuconazole and virulence of Cryptococcus neoformans</article-title>
+					<source>Infect Immun</source>
+					<year>2006</year>
+					<volume>74</volume>
+					<fpage>1352</fpage>
+					<lpage>1359</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/IAI.74.2.1352-1359.2006">https://doi.org/10.1128/IAI.74.2.1352-1359.2006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19.</label>
+				<mixed-citation>Espinel-Ingroff A, Aller AI, Canton E, Castañón-Olivares LR, Chowdhary A, Cordoba S, <italic>et al</italic>. Cryptococcus neoformans-Cryptococcus gattii species complex: An international study of wild-type susceptibility endpoint distributions and epidemiological cutoff values for ﬂuconazole, itraconazole, posaconazole, and voriconazole. Antimicrob Agents Chemother. 2012;56:5898-906. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.01115-12">https://doi.org/10.1128/AAC.01115-12</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Espinel-Ingroff</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Aller</surname>
+							<given-names>AI</given-names>
+						</name>
+						<name>
+							<surname>Canton</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Castañón-Olivares</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Chowdhary</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cordoba</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cryptococcus neoformans-Cryptococcus gattii species complex: An international study of wild-type susceptibility endpoint distributions and epidemiological cutoff values for ﬂuconazole, itraconazole, posaconazole, and voriconazole</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2012</year>
+					<volume>56</volume>
+					<fpage>5898</fpage>
+					<lpage>5906</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.01115-12">https://doi.org/10.1128/AAC.01115-12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20.</label>
+				<mixed-citation>Clinical and Laboratory Standards Institute. Values TDIE. Epidemiological cutoff values for antifungal susceptibility testing. Fecha de consulta: 5 de octubre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://clsi.org/media/1934/m59ed2_sample-updated.pdf">https://clsi.org/media/1934/m59ed2_sample-updated.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Clinical and Laboratory Standards Institute</collab>
+					</person-group>
+					<source>Values TDIE. Epidemiological cutoff values for antifungal susceptibility testing</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-10-05">5 de octubre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://clsi.org/media/1934/m59ed2_sample-updated.pdf">https://clsi.org/media/1934/m59ed2_sample-updated.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21.</label>
+				<mixed-citation>Procop GW, Alexander BD, Dufresne PJ, Fuller J, Ghannoum MA, Hanson KE, <italic>et al</italic>. Method for antifungal disk diffusion susceptibility testing of yeasts. Fecha de consulta: 5 de octubre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://clsi.org/media/2634/m44ed3_sample.pdf">https://clsi.org/media/2634/m44ed3_sample.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Procop</surname>
+							<given-names>GW</given-names>
+						</name>
+						<name>
+							<surname>Alexander</surname>
+							<given-names>BD</given-names>
+						</name>
+						<name>
+							<surname>Dufresne</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Fuller</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ghannoum</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Hanson</surname>
+							<given-names>KE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Method for antifungal disk diffusion susceptibility testing of yeasts</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-10-05">5 de octubre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://clsi.org/media/2634/m44ed3_sample.pdf">https://clsi.org/media/2634/m44ed3_sample.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22.</label>
+				<mixed-citation>Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods. 2001;25:402-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/meth.2001.1262">https://doi.org/10.1006/meth.2001.1262</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Livak</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Schmittgen</surname>
+							<given-names>TD.</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method</article-title>
+					<source>Methods</source>
+					<year>2001</year>
+					<volume>25</volume>
+					<fpage>402</fpage>
+					<lpage>408</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/meth.2001.1262">https://doi.org/10.1006/meth.2001.1262</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23.</label>
+				<mixed-citation>Gast CE, Basso LR, Bruzual I, Wong B. Azole resistance in Cryptococcus gattii from the Pacifc Northwest: Investigation of the role of ERG11. Antimicrob Agents Chemother. 2013;57:5478-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.02287-12">https://doi.org/10.1128/AAC.02287-12</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gast</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Basso</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Bruzual</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>B.</given-names>
+						</name>
+					</person-group>
+					<article-title>Azole resistance in Cryptococcus gattii from the Pacifc Northwest: Investigation of the role of ERG11</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2013</year>
+					<volume>57</volume>
+					<fpage>5478</fpage>
+					<lpage>5485</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.02287-12">https://doi.org/10.1128/AAC.02287-12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24.</label>
+				<mixed-citation>Cannon RD, Lamping E, Holmes AR, Niimi K, Baret PV, Keniya MV, <italic>et al</italic>. Efflux-mediated antifungal drug resistance. Clin Microbiol Rev. 2009;22:291-321. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/CMR.00051-08">https://doi.org/10.1128/CMR.00051-08</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cannon</surname>
+							<given-names>RD</given-names>
+						</name>
+						<name>
+							<surname>Lamping</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Holmes</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Niimi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Baret</surname>
+							<given-names>PV</given-names>
+						</name>
+						<name>
+							<surname>Keniya</surname>
+							<given-names>MV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Efflux-mediated antifungal drug resistance</article-title>
+					<source>Clin Microbiol Rev</source>
+					<year>2009</year>
+					<volume>22</volume>
+					<fpage>291</fpage>
+					<lpage>321</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/CMR.00051-08">https://doi.org/10.1128/CMR.00051-08</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25.</label>
+				<mixed-citation>Li M, Liao Y, Chen M, Pan W, Weng L. Antifungal susceptibilities of Cryptococcus species complex isolates from AIDS and non-AIDS patients in Southeast China. Braz J Infect Dis. 2012;16:175-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s1413-8670(12)70301-x">https://doi.org/10.1016/s1413-8670(12)70301-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Liao</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Weng</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Antifungal susceptibilities of Cryptococcus species complex isolates from AIDS and non-AIDS patients in Southeast China</article-title>
+					<source>Braz J Infect Dis</source>
+					<year>2012</year>
+					<volume>16</volume>
+					<fpage>175</fpage>
+					<lpage>179</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s1413-8670(12)70301-x">https://doi.org/10.1016/s1413-8670(12)70301-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26.</label>
+				<mixed-citation>Wu SY, Kang M, Liu Y, Chen ZX, Xiao YL, He C, <italic>et al</italic>. Molecular epidemiology and antifungal susceptibilities of Cryptococcus species isolates from HIV and non-HIV patients in Southwest China. Eur J Clin Microbiol Infect Dis. 2021;40:287-95. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10096-020-04013-4">https://doi.org/10.1007/s10096-020-04013-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>SY</given-names>
+						</name>
+						<name>
+							<surname>Kang</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>ZX</given-names>
+						</name>
+						<name>
+							<surname>Xiao</surname>
+							<given-names>YL</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular epidemiology and antifungal susceptibilities of Cryptococcus species isolates from HIV and non-HIV patients in Southwest China</article-title>
+					<source>Eur J Clin Microbiol Infect Dis</source>
+					<year>2021</year>
+					<volume>40</volume>
+					<fpage>287</fpage>
+					<lpage>295</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10096-020-04013-4">https://doi.org/10.1007/s10096-020-04013-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27.</label>
+				<mixed-citation>Bongomin F, Oladele RO, Gago S, Moore CB, Richardson MD. A systematic review of ﬂuconazole resistance in clinical isolates of Cryptococcus species. Mycoses. 2018;61:290-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/myc.12747">https://doi.org/10.1111/myc.12747</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bongomin</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Oladele</surname>
+							<given-names>RO</given-names>
+						</name>
+						<name>
+							<surname>Gago</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Moore</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Richardson</surname>
+							<given-names>MD.</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review of ﬂuconazole resistance in clinical isolates of Cryptococcus species</article-title>
+					<source>Mycoses</source>
+					<year>2018</year>
+					<volume>61</volume>
+					<fpage>290</fpage>
+					<lpage>297</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/myc.12747">https://doi.org/10.1111/myc.12747</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28.</label>
+				<mixed-citation>Liu JY, Shi C, Wang Y, Li WJ, Zhao Y, Xiang MJ. Mechanisms of azole resistance in Candida albicans clinical isolates from Shanghai, China. Res Microbiol. 2015;166:153-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.resmic.2015.02.009">https://doi.org/10.1016/j.resmic.2015.02.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>JY</given-names>
+						</name>
+						<name>
+							<surname>Shi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Xiang</surname>
+							<given-names>MJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Mechanisms of azole resistance in Candida albicans clinical isolates from Shanghai, China</article-title>
+					<source>Res Microbiol</source>
+					<year>2015</year>
+					<volume>166</volume>
+					<fpage>153</fpage>
+					<lpage>161</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.resmic.2015.02.009">https://doi.org/10.1016/j.resmic.2015.02.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29.</label>
+				<mixed-citation>Florio AR, Ferrari S, De Carolis E, Torelli R, Fadda G, Sanguinetti M, <italic>et al</italic>. Genome-wide expression profling of the response to short-term exposure to ﬂuconazole in Cryptococcus neoformans serotype A. BMC Microbiol. 2011;11:97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2180-11-97">https://doi.org/10.1186/1471-2180-11-97</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Florio</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Ferrari</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>De Carolis</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Torelli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Fadda</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Sanguinetti</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genome-wide expression profling of the response to short-term exposure to ﬂuconazole in Cryptococcus neoformans serotype A</article-title>
+					<source>BMC Microbiol</source>
+					<year>2011</year>
+					<volume>11</volume>
+					<fpage>97</fpage>
+					<lpage>97</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2180-11-97">https://doi.org/10.1186/1471-2180-11-97</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30.</label>
+				<mixed-citation>Chang M, Sionov E, Khanal LA, Kwon-Chung KJ, Chang YC. Roles of Three Cryptococcus neoformans and Cryptococcus gattii efflux pump-coding genes in response to drug treatment. Antimicrob Agents Chemother. 2018;62:e01751-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.01751-17">https://doi.org/10.1128/AAC.01751-17</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sionov</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Khanal</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Kwon-Chung</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>YC.</given-names>
+						</name>
+					</person-group>
+					<article-title>Roles of Three Cryptococcus neoformans and Cryptococcus gattii efflux pump-coding genes in response to drug treatment</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2018</year>
+					<volume>62</volume>
+					<elocation-id>e01751-17</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.01751-17">https://doi.org/10.1128/AAC.01751-17</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31.</label>
+				<mixed-citation>Sionov E, Chang YC, Garraffo HM, Kwon-Chung KJ. Heteroresistance to ﬂuconazole in Cryptococcus neoformans is intrinsic and associated with virulence. Antimicrob Agents Chemother. 2009;53:2804-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.00295-09">https://doi.org/10.1128/AAC.00295-09</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sionov</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>YC</given-names>
+						</name>
+						<name>
+							<surname>Garraffo</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Kwon-Chung</surname>
+							<given-names>KJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Heteroresistance to ﬂuconazole in Cryptococcus neoformans is intrinsic and associated with virulence</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2009</year>
+					<volume>53</volume>
+					<fpage>2804</fpage>
+					<lpage>2815</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.00295-09">https://doi.org/10.1128/AAC.00295-09</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Torres I, Gallo JE, Gómez OM, Rúa-Giraldo A, McEwen JG, García AM. Perfiles de expresión de los genes <italic>ERG11</italic>, <italic>MDR1 y AFR1</italic> en C<italic>ryptococcus neoformansvar</italic>. <italic>grubii</italic> aislados de pacientes con VIH. Biomédica. 2022;42:697-706. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6519">https://doi.org/10.7705/biomedica.6519</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Isaura Torres:</label>
+				<p> ejecución de los experimentos y escritura del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Juan Gallo:</label>
+				<p> ejecución de experimentos moleculares, análisis de los resultados y escritura del manuscrito Óscar Gómez: análisis de los datos y escritura del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Álvaro Rúa:</label>
+				<p> ejecución de las pruebas de sensibilidad al fluconazol, conservación de las cepas, análisis de los resultados y revisión del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn5">
+				<label>Juan G. McEwen:</label>
+				<p> asesoría metodológica y revisión del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn6">
+				<label>Ana María García:</label>
+				<p> coordinación general de la ejecución de los métodos experimentales, análisis de los resultados y escritura del manuscrito</p>
+			</fn>
+			<fn fn-type="other" id="fn7">
+				<p>Este trabajo fue cofinanciado por la Institución Universitaria Colegio Mayor de Antioquia, por medio de la convocatoria Proyectos de Investigación 2013, y por la Corporación para Investigaciones Biológicas.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

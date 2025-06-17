@@ -1,0 +1,52 @@
+#ITI#Time- and Learner-Dependent Hidden Markov Model for Writing Process Analysis Using Keystroke Log Data#FTI#
+#IRE# Teaching writing strategies based on writing processes has attracted wide attention as a method for developing writing skills. The writing process can be generally defined as a sequence of subtasks, such as planning, formulation, and revision. Therefore, instructor feedback is often given based on sequence patterns of those subtasks. For such feedback, instructors need to analyze sequence patterns for all learners, which becomes problematic as the number of learners increases. To resolve this problem, this study proposes a new machine-learning method that estimates sequence patterns from keystroke log data. Specifically, we propose an extension of the Gaussian hidden Markov model that incorporates parameters representing temporal change in a subtask appearance distribution for each learner. Furthermore, we propose a collapsed Gibbs sampling algorithm as the parameter estimation method for the proposed model. We demonstrate effectiveness of the proposed model by applying it to actual keystroke log datasets#FRE#
+#IPC# Hidden Markov model; Keystroke log; Markov chain Monte Carlo method; Writing process; Writing skills#FPC#
+#IRF# Akaike H., A new look at the statistical model identification, IEEE Transactions on Automatic Control, 19, pp. 716-723, (1974); 
+Ali M.L., Thakur K., Tappert C.C., Qiu M., Keystroke biometric user verification using hidden Markov model, IEEE 3Rd International Conference on Cyber Security and Cloud Computing, pp. 204-209, (2016); 
+Allen J.F., Maintaining knowledge about temporal intervals, Communications of the ACM, 26, 11, pp. 832-843, (1983); 
+Barkaoui K., What and when second-language learners revise when responding to timed writing tasks on the computer: The roles of task type, second language proficiency, and keyboarding skills, The Modern Language Journal, 100, 1, pp. 320-340, (2016); 
+Bayat N., The effect of the process writing approach on writing success and anxiety, Educational Sciences: Theory & Practice, 14, 3, pp. 1133-1141, (2014); 
+Bishop C.M., Pattern Recognition and Machine Learning (Information Science and Statistics), (2006); 
+Brooks S., Gelman A., Jones G., Meng X., Handbook of Markov Chain Monte Carlo, (2011); 
+Chan S., Using keystroke logging to understand writers processes on a reading-into-writing test, Language Testing in Asia, 7, 1, pp. 1-27, (2017); 
+Chen W., Chang W., Applying hidden Markov models to keystroke pattern analysis for password verification, Proceedings of IEEE International Conference on Information Reuse and Integration, pp. 467-474, (2004); 
+Conijn R., van Der Loo J., van Zaanen M., What’s (Not) in a keystroke? automatic discovery of students writing processes using keystroke logging., pp. 1-6, (2018); 
+Deane P., Zhang M., Exploring the Feasibility of Using Writing Process Features to Assess Text Production Skills (Rapport Technique), (2015); 
+Epp C., Lippold M., Mandryk R.L., Identifying emotional states using keystroke dynamics, Proceedings of the Sigchi Conference on Human Factors in Computing Systems, pp. 7150-7724, (2011); 
+Flower S., Hayes R., A cognitive process theory of writing, College Composition and Communication, 32, pp. 365-387, (1981); 
+Fox J.-P., Bayesian Item Response Modeling: Theory and Applications, (2010); 
+Gelman A., Prior distributions for variance parameters in hierarchical models, Bayesian Analysis, 1, 3, pp. 515-534, (2006); 
+Griffiths T.L., Steyvers M., Finding scientific topics, Proc. National Academy of Sciences of the United States of America, pp. 5228-5235, (2004); 
+Griffiths T.L., Steyvers M., Blei D.M., Tenenbaum J.B., Integrating topics and syntax, Proceedings of the 17Th International Conference on Neural Information Processing Systems, pp. 537-544, (2004); 
+Hayes J., Flower L., Identifying the organization of writing processes, Cognitive Processes in Writing, pp. 1-28, (1980); 
+Karnan M., Akila M., Krishnaraj N., Biometric personal authentication using keystroke dynamics: a review, Applied Soft Computing, 11, 2, pp. 1565-1573, (2011); 
+de Larios J.R., Manchon R., Murphy L., Maryn J., The foreign language writer’s strategic behaviour in the allocation of time to writing processes, Journal of Second Language Writing, 17, 1, pp. 30-47, (2008); 
+Leijten M., Waes L.V., Keystroke logging in writing research, Written Communication, 30, 3, pp. 358-392, (2013); 
+Lester F., Witte S., Analyzing revision, College Composition and Communication, 32, 4, pp. 400-414, (1981); 
+Liu L., Cheng L., Liu Y., Jia Y., Rosenblum D., Recognizing Complex Activities by a Probabilistic Interval-Based Model, (2016); 
+Liu L., Wang S., Hu B., Qiong Q., Wen J., Rosenblum D.S., Learning structures of interval-based Bayesian networks in probabilistic generative model for human complex activity recognition, Pattern Recognition, 81, pp. 545-561, (2018); 
+Newton M., Raftery A., Approximate Bayesian inference by the weighted likelihood bootstrap, Journal of the Royal Statistical Society. Series B: Methodological, 56, 1, pp. 3-48, (1994); 
+Paisley J., Carin L., Hidden Markov models with stick-breaking priors, IEEE Transactions on Signal Processing, 57, 10, pp. 3905-3917, (2009); 
+Quraishi S.J., Bedi S., Keystroke dynamics biometrics, a tool for user authentication-review keystroke dynamics biometrics, a tool for user authentication-review, Proceedings of International Conference on System Modeling & Advancement in Research Trends, pp. 248-254, (2018); 
+Rodrigues R.N., Yared G.F.G., Costa N., Do C.R., Yabu-Uti J.B.T., Violaro F., Ling L.L., Biometric access control through numerical keyboards based on keystroke dynamics, Advances in Biometrics, pp. 640-646, (2005); 
+Salmeron-Majadas S., Baker R.S., Santos O.C., Boticario J.G., A machine learning approach to leverage individual keyboard and mouse interaction behavior from multiple users in real-world learning scenarios, IEEE Access, 6, pp. 39154-39179, (2018); 
+Sasaki M., Toward an empirical model of efl writing processes: an exploratory study, Journal of Second Language Writing, 9, 3, pp. 259-291, (2000); 
+Sasaki M., Building an empirically-based model of efl learners’ writing processes, New Directions for Research in L2 Writing, pp. 49-80, (2002); 
+Schwarz G., Estimating the dimensions of a model, Annals of Statistics, 6, pp. 461-464, (1978); 
+Seow A., The writing process and process writing, Methodology in Language Teaching: An Anthology of Current Practice, pp. 315-320, (2002); 
+Southavilay V., Yacef K., Calvo R.A., Analysis of collaborative writing processes using hidden Markov models and semantic heuristics, IEEE International Conference on Data Mining Workshops, pp. 543-548, (2010); 
+Southavilay V., Yacef K., Calvo R.A., Process mining to support students collaborative writing, Proceedings of International Conference on Educational Data Mining, pp. 257-266, (2010); 
+Stevenson M., Schoonen R., de Glopper K., Revising in two languages: a multi-dimensional comparison of online writing revisions in l1 and FL, Journal of Second Language Writing, 15, 3, pp. 201-233, (2006); 
+Taddy M., On estimation and selection for topic models, Proc. International Conference on Artificial Intelligence and Statistics, pp. 1184-1193, (2012); 
+Tanizaki H., A simple Gamma random number generator for arbitrary shape parameters, Economics Bulletin, 3, 7, pp. 1-10, (2008); 
+Teh P.S., Teoh A.B.J., Yue S., A survey of keystroke dynamics biometrics, The Scientific World Journal, 2013, pp. 1-24, (2013); 
+Uto M., Louvigne S., Kato Y., Ishii T., Miyazawa Y., Diverse reports recommendation system based on latent dirichlet allocation, Behaviormetrika, 44, 2, pp. 425-444, (2017); 
+Uto M., Ueno M., Academic writing support system using bayesian networks, Proc. IEEE International Conference on Advanced Learning Technologies, pp. 385-387, (2015); 
+Uto M., Ueno M., Item response theory for peer assessment, IEEE Transactions on Learning Technologies, 9, 2, pp. 157-170, (2016); 
+Uto M., Ueno M., Empirical comparison of item response theory models with rater’s parameters, Heliyon, Elsevier, 4, 5, pp. 1-32, (2018); 
+Wallach H.M., Murray I., Salakhutdinov R., Mimno D., Evaluation methods for topic models, Proc. International Conference on Machine Learning, pp. 1105-1112, (2009); 
+Wang Z., Wang S., Ji Q., Capturing complex spatio-temporal relations among facial muscles for facial expression recognition, IEEE Conference on Computer Vision and Pattern Recognition, pp. 3422-3429, (2013); 
+Watanabe S., Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory, Journal of Machine Learning Research, pp. 3571-3594, (2010); 
+Watanabe S., A widely applicable Bayesian information criterion, Journal of Machine Learning Research, 14, 1, pp. 867-897, (2013); 
+Zhang M., Hao J., Li C., Deane P., Classification of writing patterns using keystroke logs, Quantitative Psychology Research: The 80Th Annual Meeting of The Psychometric Society, pp. 299-314, (2016); 
+Zhang Y., Zhang Y., Swears E., Larios N., Wang Z., Ji Q., Modeling temporal interactions with interval temporal Bayesian networks for complex activity recognition, IEEE Transactions on Pattern Analysis and Machine Intelligence, 35, 10, pp. 2468-2483, (2013)#FRF#

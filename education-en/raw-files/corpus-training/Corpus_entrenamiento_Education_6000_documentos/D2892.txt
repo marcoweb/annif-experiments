@@ -1,0 +1,25 @@
+#ITI#Bayesian approaches to fixed effects meta-analysis#FTI#
+#IRE# Bayesian methods seem a natural choice for combining sources of evidence in meta-analyses. However, in practice, their sensitivity to the choice of prior distribution is much less attractive, particularly for parameters describing heterogeneity. A recent non-Bayesian approach to fixed-effects meta-analysis provides novel ways to think about estimation of an average effect and the variability around this average. In this paper, we describe the Bayesian analogs of those results, showing how Bayesian inference on fixed-effects parameters—properties of the study populations at hand—is more stable and less sensitive than standard random-effects approaches. As well as these practical insights, our development also clarifies different ways in which prior beliefs like homogeneity and correlation can be reflected in prior distributions. We also carefully distinguish how random-effects models can be used to reflect sampling uncertainty versus their use reflecting a priori exchangeability of study-specific effects, and how subsequent inference depends on which motivation is used. With some important theoretical results, illustrated in an applied meta-analysis example, we show the robustness of the fixed effects even for small numbers of studies#FRE#
+#IPC# exchangeability; fixed effects; heterogeneity; meta-analysis; random effects#FPC#
+#IRF# Borenstein M., Hedges L.V., Higgins J., Rothstein H.R., A basic introduction to fixed-effect and random-effects models for meta-analysis, Res Synth Methods, 1, 2, pp. 97-111, (2000); 
+Hedges L.V., Vevea J.L., Fixed-and random-effects models in meta-analysis, Psychol Methods, 3, 4, pp. 486-504, (1998); 
+Konstantopoulos S., Hedges L.V., Analyzing effect sizes: fixed-effects models, The Handbook of Research Synthesis and Meta-Analysis, pp. 279-294, (2009); 
+Higgins J.P., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc Ser A Stat Soc, 172, 1, pp. 137-159, (2009); 
+Goel P.K., Information measures and Bayesian hierarchical models, J Am Stat Assoc, 78, 382, pp. 408-410, (1983); 
+Li Y., Shi L., Roth H.D., The bias of the commonly-used estimate of variance in meta-analysis, Commun Stat Theory Methods, 23, 4, pp. 1063-1085, (1994); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Stat, 30, 3, pp. 261-293, (2005); 
+Lambert P.C., Sutton A.J., Burton P.R., Abrams K.R., Jones D.R., How vague is vague? A simulation study of the impact of the use of vague prior distributions in MCMC using WinBUGS, Stat Med, 24, 15, pp. 2401-2428, (2005); 
+Spiegelhalter D.J., Abrams K.R., Myles J.P., Bayesian Approaches to Clinical Trials and Health-Care Evaluation, (2004); 
+Peto R., Why do we need systematic overviews of randomized trials? (transcript of an oral presentation, modified by the editors), Stat Med, 6, 3, pp. 233-244, (1987); 
+Dominguez Islas C., Rice K.M., Addressing the estimation of standard errors in fixed effects meta-analysis, Stat Med, 37, 11, pp. 1788-1809, (2018); 
+Rice K., Higgins J., Lumley T., A re-evaluation of fixed effect (s) meta-analysis, J R Stat Soc Ser A Stat Soc, 181, 1, pp. 205-227, (2018); 
+Tong Y.L., The role of the covariance matrix in the least-squares estimation for a common mean, Linear Algebra Appl, 264, pp. 313-323, (1997); 
+Gilks W.R., Richardson S., Spiegelhalter D., Markov Chain Monte Carlo in Practice, (1995); 
+Lunn D., Jackson C., Best N., Thomas A., Spiegelhalter D., The BUGS Book: A Practical Introduction to Bayesian Analysis, (2012); 
+Gelman A., Carlin J.B., Stern H.S., Et al., Bayesian data analysis, (2004); 
+Searle S.R., Chapter 2: distributions and quadratic forms, Linear models, pp. 31-74, (1997); 
+Duchesne P., De Micheaux P.L., Computing the distribution of quadratic forms: further comparisons between the Liu-tang-Zhang approximation and exact methods, Comput Stat Data Anal, 54, 4, pp. 858-862, (2010); 
+Singh M., Das R.R., Zinc for the common cold, Cochrane Database Syst Rev, 6, (2013); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Jones H.E., Ades A.E., Sutton A.J., Welton N.J., Use of a random effects meta-analysis in the design and analysis of a new clinical trial, Stat Med, 37, 30, pp. 4665-4679, (2018); 
+Welton N., Ades A.E., Research decisions in the face of heterogeneity: what can a new study tell us?, Health Econ, 21, 10, pp. 1196-1200, (2012)#FRF#

@@ -1,0 +1,52 @@
+#ITI#Bayesian sparse modeling to identify high-risk subgroups in meta-analysis of safety data#FTI#
+#IRE# Meta-analysis allows researchers to combine evidence from multiple studies, making it a powerful tool for synthesizing information on the safety profiles of new medical interventions. There is a critical need to identify subgroups at high risk of experiencing treatment-related toxicities. However, this remains quite challenging from a statistical perspective as there are a variety of clinical risk factors that may be relevant for different types of adverse events, and adverse events of interest may be rare or incompletely reported. We frame this challenge as a variable selection problem and propose a Bayesian hierarchical model which incorporates a horseshoe prior on the interaction terms to identify high-risk groups. Our proposed model is motivated by a meta-analysis of adverse events in cancer immunotherapy, and our results uncover key factors driving the risk of specific types of treatment-related adverse events#FRE#
+#IPC# censored data; horseshoe prior; interaction selection; rare events; subgroup analysis#FPC#
+#IRF# Singh S., Loke Y., Drug safety assessment in clinical trials: methodological challenges and opportunities, Trials, 13, 1, pp. 1-8, (2012); 
+Meta-analyses of randomized controlled clinical trials to evaluate the safety of human drugs or biological products guidance for industry. Draft Guidance Document; 2018; 
+Sutton A., Cooper N., Lambert P., Jones D., Abrams K., Sweeting M., Meta-analysis of rare and adverse event data, Expert Rev Pharmacoecon Outcomes Res, 2, 4, pp. 367-379, (2002); 
+Higgins J., Thomas J., Chandler J., Cumpston M., Li T., Et al., Cochrane Handbook for Systematic Reviews of Interventions, (2019); 
+Evidence Synthesis and Meta-Analysis for Drug Safety: Report of CIOMS Working Group X. CIOMS, (2016); 
+Berlin J., Crowe B., Whalen E., Xia H., Koro C., Kuebler J., Meta-analysis of clinical trial safety data in a drug development program: answers to frequently asked questions, Clin Trials, 10, 1, pp. 20-31, (2013); 
+Stoto M., Drug safety meta-analysis: promises and pitfalls, Drug Saf, 38, 3, pp. 233-243, (2015); 
+Mantel N., Haenszel W., Statistical aspects of the analysis of data from retrospective studies of disease, J Natl Cancer Inst, 22, 4, pp. 719-748, (1959); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Bhaumik D., Amatya A., Normand S., Et al., Meta-analysis of rare binary adverse event data, J Am Stat Assoc, 107, 498, pp. 555-567, (2012); 
+Cai T., Parast L., Ryan L., Meta-analysis for rare events, Stat Med, 29, 20, pp. 2078-2089, (2010); 
+Liu D., Liu R., Xie M., Exact meta-analysis approach for discrete data and its application to 2 × 2 tables with rare events, J am Stat Assoc, 109, 508, pp. 1450-1465, (2014); 
+Smith T., Spiegelhalter D., Thomas A., Bayesian approaches to random-effects meta-analysis: a comparative study, Stat Med, 14, 24, pp. 2685-2699, (1995); 
+Warn D., Thompson S., Spiegelhalter D., Bayesian random effects meta-analysis of trials with binary outcomes: methods for the absolute risk difference and relative risk scales, Stat Med, 21, 11, pp. 1601-1623, (2002); 
+Qi X., Zhou S., Peterson C., Et al., Meta-analysis of censored adverse events, arXiv preprint arXiv:2101.07934, (2021); 
+Abdel-Wahab N., Alshawa A., Suarez-Almazor M., Adverse Events in Cancer Immunotherapy, pp. 155-174, (2017); 
+Wang Y., Zhou S., Yang F., Qi X., Wang X., Et al., Treatment-related adverse events of PD-1 and PD-L1 inhibitors in clinical trials: a systematic review and meta-analysis, JAMA Oncology, 5, 7, pp. 1008-1019, (2019); 
+Berry D., Subgroup analyses, Biometrics, 46, 4, pp. 1227-1230, (1990); 
+Bender R., Bunce C., Clarke M., Et al., Attention should be given to multiplicity issues in systematic reviews, J Clin Epidemiol, 61, 9, pp. 857-865, (2008); 
+Sun X., Ioannidis J., Agoritsas T., Alba A., Guyatt G., How to use a subgroup analysis: users' guide to the medical literature, JAMA, 311, 4, pp. 405-411, (2014); 
+Trostheim M., Eikemo M., Meir R., Hansen I., Paul E., Et al., Assessment of anhedonia in adults with and without mental illness: a systematic review and meta-analysis, JAMA Netw Open, 3, 8, (2020); 
+Polanin J., Pigott T., The use of meta-analytic statistical significance testing, Res Synth Methods, 6, 1, pp. 63-73, (2015); 
+Naing A., Hajjar J., Gulley J., Atkins M., Ciliberto G., Et al., Strategies for improving the management of immune-related adverse events, J Immunotherapy Cancer, 8, 2, (2020); 
+Borenstein M., Hedges L.V., Higgins J.P., Rothstein H.R., A basic introduction to fixed-effect and random-effects models for meta-analysis, Res Synth Methods, 1, 2, pp. 97-111, (2010); 
+Gelman A., Prior distributions for variance parameters in hierarchical models, Bayesian Anal, 1, 3, pp. 515-534, (2006); 
+Carvalho C., Polson N., Scott J., Handling sparsity via the horseshoe. In: Proceedings of the 12th International Conference on Artificial Intelligence and Statistics (AISTATS); 2009:73–80; 
+Carvalho C., Polson N., Scott J., The horseshoe estimator for sparse signals, Biometrika, 97, 2, pp. 465-480, (2010); 
+Datta J., Ghosh J., Asymptotic properties of Bayes risk for the horseshoe prior, Bayesian Anal, 8, 1, pp. 111-132, (2013); 
+Pas V., Kleijn B., Van Der Vaart A., Et al., The horseshoe estimator: posterior concentration around nearly black vectors, Electron J Stat, 8, 2, pp. 2585-2618, (2014); 
+Bhadra A., Datta J., Li Y., Polson N., Horseshoe regularisation for machine learning in complex and deep models, Int Stat Rev, 88, 2, pp. 302-320, (2020); 
+Piironen J., Vehtari A., On the hyperprior choice for the global shrinkage parameter in the horseshoe prior. In: Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (AISTATS); 2017:905–913; 
+Qi X., Zhou S., Plummer M., On Bayesian modeling of censored data in JAGS, BMC Bioinformatics, 23, 1, pp. 1-13, (2022); 
+Plummer M., JAGS: A Program for Analysis of Bayesian Graphical Models Using Gibbs Sampling, pp. 1-10, (2003); 
+Plummer M., JAGS (Just Another Gibbs Sampler), (2010); 
+Friedman J., Hastie T., Tibshirani R., Regularization paths for generalized linear models via coordinate descent, J Stat Softw, 33, 1, pp. 1-22, (2010); 
+Ds P., Szabo B., Da V., Uncertainty quantification for the horseshoe (with discussion), Bayesian Anal, 12, 4, pp. 1221-1274, (2017); 
+R: A Language and Environment for Statistical Computing, (2021); 
+ClinicalTrials.gov results data element definitions for interventional and observational studies, (2021); 
+Brahmer J., Reckamp K.L., Baas P., Et al., Nivolumab versus docetaxel in advanced squamous-cell non–small-cell lung cancer, N Engl J Med, 373, 2, pp. 123-135, (2015); 
+Brooks S., Gelman A., General methods for monitoring convergence of iterative simulations, J Comput Graph Stat, 7, 4, pp. 434-455, (1998); 
+Hua C., Boussemart L., Mateus C., Routier E., Boutros C., Et al., Association of vitiligo with tumor response in patients with metastatic melanoma treated with pembrolizumab, JAMA Dermatol, 152, 1, pp. 45-51, (2016); 
+Delanoy N., Michot J., Comont T., Kramkimel N., Lazarovici J., Et al., Haematological immune-related adverse events induced by anti-PD-1 or anti-PD-L1 immunotherapy: a descriptive observational study, Lancet Haematol, 6, 1, pp. e48-e57, (2019); 
+Apolo A., Infante J., Balmanoukian A., Patel M., Wang D., Et al., Avelumab, an anti–programmed death-ligand 1 antibody, in patients with refractory metastatic urothelial carcinoma: results from a multicenter, phase Ib study, J Clin Oncol, 35, 19, pp. 2117-2124, (2017); 
+Connolly C., Bambhania K., Naidoo J., Immune-related adverse events: a case-based approach, Front Oncol, (2019); 
+Jones H., Ohlssen D., Neuenschwander B., Racine A., Branson M., Bayesian models for subgroup analysis in clinical trials, Clin Trials, 8, 2, pp. 129-143, (2011); 
+Chetverikov D., Liao Z., Chernozhukov V., On cross-validated lasso in high dimensions, arXiv preprint arXiv:1605.02214, (2016); 
+Piironen J., Vehtari A., Sparsity information and regularization in the horseshoe and other shrinkage priors, Electron J Stat, 11, 2, pp. 5018-5051, (2017); 
+Bhadra A., Datta J., Polson N., Willard B., Et al., The horseshoe+ estimator of ultra-sparse signals, Bayesian Anal, 12, 4, pp. 1105-1131, (2017); 
+Chipman H., Bayesian variable selection with related predictors, Canadian J Stat, 24, 1, pp. 17-36, (1996)#FRF#

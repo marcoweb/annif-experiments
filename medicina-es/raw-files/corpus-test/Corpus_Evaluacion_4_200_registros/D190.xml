@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Necesidades de aprendizaje de Bioestadística y Metodología de la Investigación en la formación de posgrado de profesionales de la salud</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Necessities of learning on Biostatistics and Methodology of Investigation in the training of post-graduate health professionals</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Zaldívar Álvarez</surname>
+						<given-names>Elio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Hospital General Docente “Dr. Juan Bruno Zayas Alfonso&quot;, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+					<institution content-type="orgdiv1">Hospital General Docente “Dr. Juan Bruno Zayas Alfonso&quot;</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+					<email>eliozaldivar@infomed.sld.cu</email>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia<bold>.</bold> Correo electrónico: <email>eliozaldivar@infomed.sld.cu</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="epub">
+				<month>12</month>
+				<year>2018</year>
+			</pub-date>
+			<volume>22</volume>
+			<issue>9</issue>
+			<fpage>875</fpage>
+			<lpage>886</lpage>
+			<history>
+				<date date-type="received">
+					<day>28</day>
+					<month>09</month>
+					<year>2018</year>
+				</date>
+				<date date-type="accepted">
+					<day>06</day>
+					<month>11</month>
+					<year>2018</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>Se realizó un estudio pedagógico y descriptivo de 46 residentes que se incorporaron a la formación de posgrado en el Hospital General Docente “Dr. Juan Bruno. Zayas Alfonso” de Santiago de Cuba en el curso escolar 2016-2017, con vistas a identificar las necesidades de aprendizaje de Bioestadística y Metodología de la Investigación en estos profesionales de la salud. Los resultados más importantes fueron la falta de correlación entre necesidades sentidas y reales, con un coeficiente de correlación de Pearson = 0,058; asimismo, ninguno de los evaluados alcanzó 50 % de los puntos del test. Se concluye que los profesionales, al iniciar su formación de posgrado, no tienen los conocimientos necesarios para su desempeño estadístico-investigativo.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>A pedagogical and descriptive study of 46 residents who began the postgraduate training in &quot;Dr. Juan Bruno. Zayas Alfonso&quot; Teaching General Hospital was carried out in Santiago de Cuba in the period 2016-2017, with the aim of identifying the learning necessities of Biostatistics and Methodology of Investigation in these health professionals. The most important results were the lack of correlation between felt and real necessities, with a Pearson correlation coefficient = 0.058; also, none of the evaluated reached 50 % of the test points. It is concluded that the professionals don't have the necessary knowledge for their statistical-investigative acting, when beginning their postgraduate training.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Bioestadística</kwd>
+				<kwd>Metodología de la Investigación</kwd>
+				<kwd>formación de posgrado</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Biostatistics</kwd>
+				<kwd>Methodology of the Investigation</kwd>
+				<kwd>postgraduate training</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="20"/>
+				<page-count count="12"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>La Estadística se ha definido como una serie de métodos y técnicas para la recolección, organización, resumen, análisis y presentación de datos numéricos para hacer inferencias. Los datos son información sobre hechos o características recolectadas a través de mediciones u observaciones efectuadas en las personas u objetos que se pretende estudiar.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>La enseñanza de la Estadística en la universidad médica cubana comienza en 1962 y a partir de ese momento ha sido objeto de varias transformaciones según los distintos planes de estudio aplicados.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>El proceso de la investigación científica es cultural y se sustenta en relaciones sociales entre los sujetos e instituciones, con el propósito de interpretar y transformar la realidad en el designio del desarrollo humano y social mediante la construcción del conocimiento científico (Fuentes H. Lo instructivo, lo educativo y lo desarrollador de la educación en trabajo. Conferencia al claustro del Hospital General Docente “Dr. Juan Bruno Zayas Alfonso”. Santiago de Cuba; 2017). </p>
+			<p>Por otra parte, el posgrado como proceso formativo-investigativo surge desde el mismo momento de la aparición de las universidades, muy circunscrito a las necesidades sociales imperantes. </p>
+			<p>A partir de la última década del pasado siglo, el crecimiento del interés internacional en la superación de posgrado sustenta la necesidad de potenciar reflexiones conceptuales sobre este proceso y su gestión.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>La identificación de necesidades de aprendizaje se concibe como eje del diseño curricular de la superación de posgrado y su consideración como un tipo de investigación educacional, sobre la base de la investigación-acción.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>La determinación de las necesidades de aprendizaje es indispensable para poder garantizar la calidad de los programas de superación profesional en cualquiera de sus variantes: a) necesidades sentidas: son aquellas que un individuo o grupo desean satisfacer conscientemente. Surgen por el autoexamen individual o colectivo frente a una encuesta o indagación; b) necesidades reales: se identifican mediante la exploración de conocimientos por cualquiera de las técnicas existentes con ese fin. <sup>(</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Por tanto, las necesidades de aprendizaje o capacitación resultan de un proceso de comparación entre un patrón de conocimientos o habilidades y la realidad.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Teniendo en cuenta que al iniciar la formación de posgrado los profesionales no tienen la necesaria competencia para la aplicación del método estadístico-metodológico en el contexto clínico hospitalario, se realizó la presente investigación con el objetivo de identificar las necesidades de aprendizaje de ambas disciplinas en estos profesionales de la salud.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó una investigación pedagógica, descriptiva con el propósito de identificar las necesidades de aprendizaje de Bioestadística y Metodología de la Investigación en los profesionales de las ciencias médicas que inician su formación de posgrado.</p>
+			<p>El universo estuvo integrado por 104 residentes que se incorporaron a la formación de posgrado en el Hospital General Docente “Dr. Juan Bruno Zayas Alfonso” de Santiago de Cuba en el curso 2016-2017, de los cuales se escogieron 46 mediante selección aleatoria (sorteo en lista numerada); la fracción de muestreo fue de 44,2 %. </p>
+			<p>Se aplicó una encuesta inicial para identificar las necesidades sentidas de aprendizaje de ambas disciplinas y en un segundo momento un cuestionario para evaluar las necesidades reales de conocimientos. </p>
+			<p>El cuestionario contenía 10 preguntas que fueron calificadas con un valor 10 puntos cada una. Se identificó coeficiente de correlación de Pearson entre necesidades sentidas y reales.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>El tamaño de muestra se estimó mediante el software EPIDAT, versión 3.0. Se seleccionó el tamaño de muestra para la proporción con las especificaciones siguientes: nivel de confianza 0,95; tamaño poblacional 104; proporción esperada: 20 % y precisión 0,05.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>La primera pregunta de la encuesta (pregunta abierta) correspondió a las necesidades o carencias para el desarrollo de investigaciones hasta ese momento. Llama la atención que la primera carencia a la que hicieron alusión los profesionales, por citación espontánea y sin que la respuesta estuviera prediseñada, estuvo relacionada con la metodología para investigar (39,1 %), seguida, en orden de frecuencia, por la necesidad de tener conexión con internet y tiempo para la elaboración de investigaciones, a lo que 21,6 % de los encuestados respondieron que no tenían carencias para el desarrollo de investigaciones científicas, lo cual no estuvo en correspondencia con los resultados de la evaluación de conocimientos.</p>
+			<p>En cuanto a las preguntas de ese cuestionario inicial, que indagaban sobre la realización de investigaciones anteriores y si habían tenido que utilizar los conocimientos adquiridos de Metodología de la Investigación y Bioestadística durante el segundo año de la carrera, 26 respondieron afirmativamente (56,5 %, respectivamente). </p>
+			<p>No obstante lo anterior, la totalidad de los residentes (<xref ref-type="table" rid="t1">tabla 1</xref>) manifestaron necesidades sentidas de conocimientos sobre estas materias, principalmente en cuanto a: pruebas de significación estadística (100,0 %); diseño de investigaciones, así como definir y plantear el problema científico(67,6 %, respectivamente); medidas de mortalidad y morbilidad, para enfrentar la proyección y desarrollo de investigaciones en el contexto clínico-epidemiológico (48,5 %) y medidas de asociación entre variables (39,7 %). </p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Residentes según necesidades sentidas de conocimientos estadístico-metodológicas</title>
+					</caption>
+					<graphic xlink:href="t1.jpg"/>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<td align="justify">Contenidos seleccionados</td>
+								<td align="center">No.</td>
+								<td align="center">% (n = 46)</td>
+							</tr>
+							<tr>
+								<td align="justify">Diseño de investigación</td>
+								<td align="center">31</td>
+								<td align="center">67,6</td>
+							</tr>
+							<tr>
+								<td align="justify">Universo y muestra</td>
+								<td align="center">5</td>
+								<td align="center">27,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Problema científico</td>
+								<td align="center">31</td>
+								<td align="center">67,6</td>
+							</tr>
+							<tr>
+								<td align="justify">Operacionalizar variables</td>
+								<td align="center">5</td>
+								<td align="center">27,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas de mortalidad</td>
+								<td align="center">16</td>
+								<td align="center">48,5</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas de morbilidad</td>
+								<td align="center">16</td>
+								<td align="center">48,5</td>
+							</tr>
+							<tr>
+								<td align="justify">Estimación de intervalos</td>
+								<td align="center">5</td>
+								<td align="center">27,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas resumen de variables</td>
+								<td align="center">5</td>
+								<td align="center">27,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Asociación entre variables</td>
+								<td align="center">11</td>
+								<td align="center">39,7</td>
+							</tr>
+							<tr>
+								<td align="justify">Pruebas estadísticas</td>
+								<td align="center">46</td>
+								<td align="center">100,0</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Con referencia a las necesidades reales de aprendizaje (<xref ref-type="table" rid="t2">tabla 2</xref>), la calificación media más alta fue la correspondiente al contenido de diseño de investigaciones, que estuvo muy cerca de alcanzar la mitad de los puntos (4,9), seguida por la de universo y muestra (4,8), así como por el trabajo con variables y la definición del problema científico (3,6 y 3,5, respectivamente); los 6 contenidos restantes tuvieron un rango entre 0,1 y 2,7 puntos como calificación media. </p>
+			<p>Las 4 preguntas relacionadas con la estadística inferencial no alcanzaron ni un punto sobre 10. En la última fila se presenta la calificación media del grupo sobre la base de cien puntos, la que fue 26, con una desviación estándar de 11,0 y un intervalo de confianza de (23,2; 29,2).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Residentes según calificación media y contenidos evaluados</title>
+					</caption>
+					<graphic xlink:href="t2.jpg"/>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<td align="justify">Contenidos seleccionados</td>
+								<td align="center">Calificación media*</td>
+							</tr>
+							<tr>
+								<td align="justify">Diseño de investigación</td>
+								<td align="center">4,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Universo y muestra</td>
+								<td align="center">4,8</td>
+							</tr>
+							<tr>
+								<td align="justify">Problema científico</td>
+								<td align="center">3,5</td>
+							</tr>
+							<tr>
+								<td align="justify">Operacionalizar variables</td>
+								<td align="center">3,6</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas de mortalidad</td>
+								<td align="center">2,7</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas de morbilidad</td>
+								<td align="center">1,7</td>
+							</tr>
+							<tr>
+								<td align="justify">Estimación de intervalos</td>
+								<td align="center">0,2</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas resumen de variables</td>
+								<td align="center">0,5</td>
+							</tr>
+							<tr>
+								<td align="justify">Asociación entre variables</td>
+								<td align="center">2,4</td>
+							</tr>
+							<tr>
+								<td align="justify">Pruebas estadísticas</td>
+								<td align="center">0,1</td>
+							</tr>
+							<tr>
+								<td align="justify">Calificación media sobre 100</td>
+								<td align="center">26,0</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>*Sobre 10 puntos. Mínimo: 5 Máximo: 49 DE: 11,0 IC: (23,2; 29,2)</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>En la <xref ref-type="fig" rid="f1">figura 1</xref> se muestra la correlación entre las calificaciones obtenidas como resultado de la evaluación de necesidades reales (porcentajes de aprobados en cada contenido) y las necesidades sentidas (porcentajes de profesionales que no dominan ese contenido); si existiera alguna correlación positiva entre ambas necesidades, se observaría alguna confluencia de los puntos cerca de la línea diagonal, pero se aprecia todo lo contrario, es decir, casi una total dispersión, lo cual queda confirmado por un coeficiente de correlación de Pearson r = 0,058.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig.1</label>
+					<caption>
+						<title>Correlación entre las necesidades sentidas y reales de conocimientos</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-22-09-875-gf1.gif"/>
+					<graphic xlink:href="1029-3019-san-22-09-875-gf1.gif"/>
+				</fig>
+			</p>
+			<p>En la <xref ref-type="fig" rid="f2">figura 2</xref> se representa la magnitud de las necesidades reales de aprendizaje; en cada barra se muestra un contenido evaluado y están divididas en 2 secciones: la inferior contiene los conocimientos demostrados según calificación media obtenida y la superior, la necesidad de aprendizaje sobre cada uno de los contenidos evaluados. </p>
+			<p>Los contenidos relacionados con las medidas de mortalidad y morbilidad, aunque se imparten en el penúltimo año de la carrera, previo al inicio del posgrado, también lo reciben en la asignatura Salud Pública con suficientes contenidos de análisis de mortalidad y morbilidad y que incluye la realización y presentación de un análisis de la situación de salud, lo que implica el dominio de esta parte de la estadística, que también se identificó con elevada necesidad de aprendizaje. Los profesionales mostraron menores conocimientos en los contenidos relacionados con el módulo de estadística inferencial. </p>
+			<p>
+				<fig id="f2">
+					<label>Fig. 2</label>
+					<caption>
+						<title>Profesionales según necesidades de aprendizaje y contenido</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-22-09-875-gf2.jpg"> </graphic>
+				</fig>
+			</p>
+			<p>En la <xref ref-type="table" rid="t3">tabla 3</xref> se exponen, no en cifras absolutas sino relativas (porcentajes) la necesidad de aprendizaje correspondiente a cada contenido, como es fácilmente apreciable, en los contenidos relacionados con la estadística inferencial y el resumen de variables las necesidades superan el 90 %.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Profesionales según conocimiento demostrado y necesidad de aprendizaje</title>
+					</caption>
+					<graphic xlink:href="t3.jpg"/>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<td align="justify">Contenidos</td>
+								<td align="justify">Conocimientos demostrados*</td>
+								<td align="justify">Necesidad de aprendizaje**</td>
+							</tr>
+							<tr>
+								<td align="justify">Diseño de investigación</td>
+								<td align="center">41,7</td>
+								<td align="center">58,3</td>
+							</tr>
+							<tr>
+								<td align="justify">Universo y muestra</td>
+								<td align="center">49,1</td>
+								<td align="center">50,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Problema científico</td>
+								<td align="center">43,3</td>
+								<td align="center">56,7</td>
+							</tr>
+							<tr>
+								<td align="justify">Operacionalizar variables</td>
+								<td align="center">38,7</td>
+								<td align="center">61,3</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas de mortalidad</td>
+								<td align="center">30,7</td>
+								<td align="center">69,3</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas de morbilidad</td>
+								<td align="center">22,2</td>
+								<td align="center">77,8</td>
+							</tr>
+							<tr>
+								<td align="justify">Estimación de intervalos</td>
+								<td align="center">9,1</td>
+								<td align="center">90,9</td>
+							</tr>
+							<tr>
+								<td align="justify">Medidas resumen de variables</td>
+								<td align="center">5,2</td>
+								<td align="center">94,8</td>
+							</tr>
+							<tr>
+								<td align="justify">Asociación entre variables</td>
+								<td align="center">15,2</td>
+								<td align="center">84,8</td>
+							</tr>
+							<tr>
+								<td align="justify">Pruebas estadísticas</td>
+								<td align="center">5,2</td>
+								<td align="center">94,8</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>*Calificación media obtenida</p>
+						</fn>
+						<fn id="TFN3">
+							<p>**Diferencia hasta 100</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión </title>
+			<p>Estamos en la era de la medicina basada en la evidencia<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> y es imprescindible que los profesionales de la salud tengan autonomía<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> para tomar decisiones clínicas después de seleccionar, comprender y analizar la información científica que está disponible en sitios tanto de Cuba como de otros países y en instituciones académicas de rigor científico.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+			</p>
+			<p>Los contenidos seleccionados en esta investigación, forman parte de la asignatura Bioestadística, la que se imparte actualmente en el primer año de la carrera,<xref ref-type="bibr" rid="B18"><sup>18</sup></xref> pero no se utiliza más durante los 6 años de pregrado, pues aunque los estudiantes realizan investigaciones no alcanzan el nivel analítico, ya que en su gran mayoría son investigaciones descriptivas o de revisión bibliográfica, en las que no es necesario la utilización de la inferencia estadística, la que va quedando en el olvido y algunos se repiten en el quinto año como parte de la asignatura Salud Pública. </p>
+			<p>Por otra parte, al llegar a la formación de posgrado y no saber reconocer sus necesidades reales, implica que no necesitaron ejercitar esos conocimientos en los años anteriores y que al concluir la asignatura no se utilizaron más.<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+			</p>
+			<p>Muy pocas asignaturas de las llamadas ciencias básicas dan la oportunidad a los estudiantes del ciclo básico de utilizar el método estadístico como fundamento de la obtención de conocimientos.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> La rotación desde el primer año por la signatura Medicina General Integral brinda esa oportunidad, pero también en momentos en los que no se garantiza la continuidad de su utilización.</p>
+			<p>Se concluye que los profesionales de las ciencias médicas, al iniciar su formación de posgrado, no tienen los conocimientos necesarios para aplicar el método científico al diagnóstico y solución de los problemas de salud, la familia y la comunidad, así como a la búsqueda y recolección activa de la información y su análisis estadístico, tanto en el ejercicio cotidiano de la profesión como durante la ejecución de investigaciones biomédicas efectuadas en áreas de trabajo, bien de carácter regional o nacional.</p>
+			<p>Así, en este período decisivo de su formación, se necesita realizar acciones que contribuyan al cambio necesario y a llenar estos vacíos en la cultura científico investigativa.</p>
+			<p>Tomando como base los hallazgos de la presente investigación, se recomienda diseñar una estrategia que ayude a desarrollar sistemáticamente la cultura científico investigativa, con la correcta aplicación del método estadístico durante el proceso de especialización de los profesionales de las ciencias médicas.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Artiles Visbal L, Otero Iglesias L, Barrios Osuna I. Metodología de la investigación. Para las ciencias de la salud. La Habana: Editorial Ciencias Médicas; 2005.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Artiles Visbal</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Otero Iglesias</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Barrios Osuna</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<source>Metodología de la investigación. Para las ciencias de la salud</source>
+					<year>2005</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Torres Delgado JA. Informática Médica. T2. La Habana: Editorial Ciencias Médicas; 2004. p.308.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torres Delgado</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<source>Informática Médica.</source>
+					<year>2004</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Hernández González B, Rubén Quesada M, González Fernández C, Martín Neto I. Perfeccionando la enseñanza de la inferencia estadística en el contexto de las ciencias médicas. Rev Habanera Ciencias Médicas. 2002 [citado 20/12/2017];1(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/587">http://www.revhabanera.sld.cu/index.php/rhab/article/view/587</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernández González</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Rubén Quesada</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>González Fernández</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Martín</surname>
+							<given-names>I</given-names>
+							<suffix>Neto</suffix>
+						</name>
+					</person-group>
+					<article-title>Perfeccionando la enseñanza de la inferencia estadística en el contexto de las ciencias médicas</article-title>
+					<source>Rev Habanera Ciencias Médicas</source>
+					<year>2002</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>1</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revhabanera.sld.cu/index.php/rhab/article/view/587">http://www.revhabanera.sld.cu/index.php/rhab/article/view/587</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Fardales V. Dinámica de la formación estadística del profesional de la Medicina [Tesis presentada en opción al grado científico de Doctor en Ciencias Pedagógicas]. Sancti Spíritus; 2014.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fardales</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<source>Dinámica de la formación estadística del profesional de la Medicina</source>
+					<comment content-type="degree">Tesis presentada en opción al grado científico de Doctor en Ciencias Pedagógicas</comment>
+					<publisher-loc>Sancti Spíritus</publisher-loc>
+					<year>2014</year>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Fuentes González HC. Proceso de la investigación científica orientada a las Ciencias Sociales. Guanujo, Ecuador: Universidad Estatal de Bolívar; 2007.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fuentes González</surname>
+							<given-names>HC</given-names>
+						</name>
+					</person-group>
+					<source>Proceso de la investigación científica orientada a las Ciencias Sociales</source>
+					<year>2007</year>
+					<publisher-loc>Guanujo, Ecuador</publisher-loc>
+					<publisher-name>Universidad Estatal de Bolívar</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Fuentes González HC. Pedagogía y didáctica de la educación superior. Guanujo, Ecuador: Universidad Estatal de Bolívar; 2009.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fuentes González</surname>
+							<given-names>HC</given-names>
+						</name>
+					</person-group>
+					<source>Pedagogía y didáctica de la educación superior</source>
+					<year>2009</year>
+					<publisher-loc>Guanujo, Ecuador</publisher-loc>
+					<publisher-name>Universidad Estatal de Bolívar</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Vidal Ledo M, Nolla Cao NE. Necesidades de aprendizaje. Educ Med Super. 2006 [citado 20/12/2017];20(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_issuetoc&amp;pid=0864-214120060003&amp;lng=es&amp;nrm=iso">http://scielo.sld.cu/scielo.php?script=sci_issuetoc&amp;pid=0864-214120060003&amp;lng=es&amp;nrm=iso</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vidal Ledo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Nolla Cao</surname>
+							<given-names>NE</given-names>
+						</name>
+					</person-group>
+					<article-title>Necesidades de aprendizaje</article-title>
+					<source>Educ Med Super</source>
+					<year>2006</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>20</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_issuetoc&amp;pid=0864-214120060003&amp;lng=es&amp;nrm=iso">http://scielo.sld.cu/scielo.php?script=sci_issuetoc&amp;pid=0864-214120060003&amp;lng=es&amp;nrm=iso</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Salas Perea RS. La identificación de necesidades de aprendizaje. Educ Med Super. 2003 [citado 20/12/2017];17(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://bvs.sld.cu/revistas/ems/vol17_1_03/ems03103.pdf">http://bvs.sld.cu/revistas/ems/vol17_1_03/ems03103.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salas Perea</surname>
+							<given-names>RS</given-names>
+						</name>
+					</person-group>
+					<article-title>La identificación de necesidades de aprendizaje</article-title>
+					<source>Educ Med Super</source>
+					<year>2003</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>17</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://bvs.sld.cu/revistas/ems/vol17_1_03/ems03103.pdf">http://bvs.sld.cu/revistas/ems/vol17_1_03/ems03103.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Urquiza Alvarez J, Álvarez Montero JA, Araujo García M, González Martínez D, Sánchez Rodríguez L, Pérez García DR. Necesidades de aprendizajes sobre el desempeño del tutor de la asignatura Salud Pública. Rev EDUMECENTRO. 2014 [citado 20/02/2018]; 6(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100012">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Urquiza Alvarez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Álvarez Montero</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Araujo García</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>González Martínez</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sánchez Rodríguez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Pérez García</surname>
+							<given-names>DR</given-names>
+						</name>
+					</person-group>
+					<article-title>Necesidades de aprendizajes sobre el desempeño del tutor de la asignatura Salud Pública</article-title>
+					<source>Rev EDUMECENTRO</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-20">20/02/2018</date-in-citation>
+					<volume>6</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100012">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Cruz Varona SV, Más Camacho MR, Santander Pozo E. Identificación de necesidades de aprendizaje sobre el trabajo con bases de datos para tratamiento de información médica. Educ Med Super. 2012 [citado 20/12/2017]; 26(1). Disponible en:<ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412012000100007">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412012000100007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cruz Varona</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Más Camacho</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Santander Pozo</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Identificación de necesidades de aprendizaje sobre el trabajo con bases de datos para tratamiento de información médica</article-title>
+					<source>Educ Med Super</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>26</volume>
+					<issue>1</issue>
+					<comment>Disponible en:<ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412012000100007">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412012000100007</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Santos P, ALves L, Simões JA. (2017) What distinguishes a competent doctor in medical education? Int J Med Educ. 2017 [citado 14/01/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572422/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572422/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>ALves</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Simões</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>(2017) What distinguishes a competent doctor in medical education?</article-title>
+					<source>Int J Med Educ</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-01-14">14/01/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572422/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572422/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Rubio Alonso M, Hernando Jerez A, Mohedano del Pozo R. Aprendizaje integrado de epidemiología y bioestadística en el grado en medicina: valoración de los estudiantes. Rev Invest Educ. 2014 [citado 20/12/2017]; 32 (1):243-53. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistas.um.es/rie/article/view/172601">http://revistas.um.es/rie/article/view/172601</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rubio Alonso</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hernando Jerez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mohedano del Pozo</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Aprendizaje integrado de epidemiología y bioestadística en el grado en medicina: valoración de los estudiantes</article-title>
+					<source>Rev Invest Educ</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>32</volume>
+					<issue>1</issue>
+					<fpage>243</fpage>
+					<lpage>253</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revistas.um.es/rie/article/view/172601">http://revistas.um.es/rie/article/view/172601</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Gea Serrano MM. Investigación didáctica en correlación y regresión. Grupo de investigación Teoría de la Educación Matemática y Educación Estadística de la Universidad de Granada; 2013 [citado 20/12/2017]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ugr.es/~batanero/documentos/Investigacion.pdf">http://www.ugr.es/~batanero/documentos/Investigacion.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gea Serrano</surname>
+							<given-names>MM</given-names>
+						</name>
+					</person-group>
+					<source>Investigación didáctica en correlación y regresión. Grupo de investigación Teoría de la Educación Matemática y Educación Estadística de la Universidad de Granada</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ugr.es/~batanero/documentos/Investigacion.pdf">http://www.ugr.es/~batanero/documentos/Investigacion.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Cruz Cardona V. Tendencias del postgardo en Iberoamérica. Ciencia y Sociedad. 2014 [citado 22/01/2018];39(4):641-63. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.auip.org/images/stories/DATOS/PublicacionesOnLine/Tendencias_Postgrado_Iberoamerica_Victor_Cruz_2014.pdf">https://www.auip.org/images/stories/DATOS/PublicacionesOnLine/Tendencias_Postgrado_Iberoamerica_Victor_Cruz_2014.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cruz Cardona</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Tendencias del postgardo en Iberoamérica</article-title>
+					<source>Ciencia y Sociedad</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-01-22">22/01/2018</date-in-citation>
+					<volume>39</volume>
+					<issue>4</issue>
+					<fpage>641</fpage>
+					<lpage>663</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.auip.org/images/stories/DATOS/PublicacionesOnLine/Tendencias_Postgrado_Iberoamerica_Victor_Cruz_2014.pdf">https://www.auip.org/images/stories/DATOS/PublicacionesOnLine/Tendencias_Postgrado_Iberoamerica_Victor_Cruz_2014.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Kaplan J. Autoformación no es aprender solo, sino de manera autónoma, 2015 [citado 18/01/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://noticias.universia.cl/en-portada/noticia/2014/11/12/1114909/autoformacion-aprender-solo-sino-manera-autonoma.html">http://noticias.universia.cl/en-portada/noticia/2014/11/12/1114909/autoformacion-aprender-solo-sino-manera-autonoma.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaplan</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Autoformación no es aprender solo, sino de manera autónoma</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-01-18">18/01/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://noticias.universia.cl/en-portada/noticia/2014/11/12/1114909/autoformacion-aprender-solo-sino-manera-autonoma.html">http://noticias.universia.cl/en-portada/noticia/2014/11/12/1114909/autoformacion-aprender-solo-sino-manera-autonoma.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Silva Ayçaguer LC. Diseño razonado de muestras y captación de datos para la investigación. Madrid: Díaz de Santos; 2000 [citado 21/01/2018]. Disponible en: https://scielosp.org/article/rpsp/2001.v10n2/143-145/es/</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva Ayçaguer</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<source>Diseño razonado de muestras y captación de datos para la investigación</source>
+					<year>2000</year>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Díaz de Santos</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Casate Fernández R, Senso Ruiz JA. Producción científica cubana en acceso abierto en Scopus en el período 2010-2014. Rev Cubana Inf Cienc Salud. 2017[citado 20/12/2017];28 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132017000100002">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132017000100002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Casate Fernández</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Senso Ruiz</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Producción científica cubana en acceso abierto en Scopus en el período 2010-2014</article-title>
+					<source>Rev Cubana Inf Cienc Salud</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>28</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132017000100002">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132017000100002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Herrera Miranda GL. Concepción pedagógica del proceso de formación de habilidades investigativas. Rev Ciencias Médicas Pinar del Río. 2014 [citado 20/12/2017];18(4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942014000400010">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942014000400010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herrera Miranda</surname>
+							<given-names>GL</given-names>
+						</name>
+					</person-group>
+					<article-title>Concepción pedagógica del proceso de formación de habilidades investigativas</article-title>
+					<source>Rev Ciencias Médicas Pinar del Río</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>18</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942014000400010">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942014000400010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Villa Romero AR, Moreno Altamirano L, García de la Torre GS. Epidemiología y estadística en Salud Pública. [citado 21/01/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://accessmedicina.mhmedical.com/book.aspx?bookID=1464">https://accessmedicina.mhmedical.com/book.aspx?bookID=1464</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villa Romero</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Moreno Altamirano</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>García de la Torre</surname>
+							<given-names>GS</given-names>
+						</name>
+					</person-group>
+					<source>Epidemiología y estadística en Salud Pública</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-01-21">21/01/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://accessmedicina.mhmedical.com/book.aspx?bookID=1464">https://accessmedicina.mhmedical.com/book.aspx?bookID=1464</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. González Rangel MA, Mendoza Taño R, Mendoza Taño R, García Bacallao L, Travieso González Y. Propuesta didáctica para perfeccionar el proceso de enseñanza-aprendizaje de la Matemática, en la formación de residentes en Ciencias Básicas Biomédicas. Educ Med Super. 2016 [citado 20/12/2017];30(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412016000100006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412016000100006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Rangel</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Mendoza Taño</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mendoza Taño</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>García Bacallao</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Travieso González</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Propuesta didáctica para perfeccionar el proceso de enseñanza-aprendizaje de la Matemática, en la formación de residentes en Ciencias Básicas Biomédicas.</article-title>
+					<source>Educ Med Super</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-12-20">20/12/2017</date-in-citation>
+					<volume>30</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412016000100006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412016000100006</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

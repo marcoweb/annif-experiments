@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.9" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00011</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo de revisión</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Variantes genéticas del SARS-CoV-2 y sus implicaciones clínicas</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Genetic variants of SARS-CoV-2 and its clinical implications</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7724-3236</contrib-id>
+					<name>
+						<surname>Expósito Lara</surname>
+						<given-names>Alexander</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1595-8660</contrib-id>
+					<name>
+						<surname>Feria Díaz</surname>
+						<given-names>Gisela Eduarda</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8158-3567</contrib-id>
+					<name>
+						<surname>González Benítez</surname>
+						<given-names>Sonia Noemí</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2416-2349</contrib-id>
+					<name>
+						<surname>Miguel Soca</surname>
+						<given-names>Pedro Enrique</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Escuela Superior Politécnica de Chimborazo. Riobamba, Ecuador.</institution>
+				<institution content-type="normalized">Escuela Superior Politécnica de Chimborazo</institution>
+				<institution content-type="orgname">Escuela Superior Politécnica de Chimborazo</institution>
+				<addr-line>
+					<named-content content-type="city">Riobamba</named-content>
+				</addr-line>
+				<country country="EC">Ecuador</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Universidad de Ciencias Médicas de Holguín. Holguín, Cuba. </institution>
+				<institution content-type="normalized">Facultad de Ciencias Médicas de Holguín</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas de Holguín</institution>
+				<addr-line>
+					<named-content content-type="city">Holguín</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>socahlg@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores no refieren conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>08</day>
+				<month>12</month>
+				<year>2021</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+			<pub-date pub-type="epub-ppub">
+				<season>Nov-Dec</season>
+				<year>2021</year>
+			</pub-date>
+			<volume>25</volume>
+			<issue>6</issue>
+			<fpage>1424</fpage>
+			<lpage>1446</lpage>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>09</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>El SARS-CoV-2, agente causal de la actual pandemia de la COVID-19, va sufriendo mutaciones como consecuencia de su ciclo evolutivo, lo que ha originado diferentes variantes genéticas, que han sido agrupadas en dos categorías: preocupante (alfa o británica, beta o sudafricana, gamma o brasileña y delta o india) y de interés (lamdba, mu, épsilon, eta, iota, kappa, zeta, theta); estas conllevan implicaciones clínicas en la transmisibilidad, virulencia y resistencia del SARS-CoV-2 a la inmunidad natural y adquirida, lo que representa un serio desafío para los servicios de salud en todo el mundo. En este artículo se describen dichas variantes genéticas, con énfasis en su probable impacto clínico, y además se plantea la posibilidad de que aparezcan otras, como fenómeno natural en la evolución de los virus.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>The SARS-CoV-2, causal agent of the COVID-19 current pandemic, is suffering mutations as a consequence of its evolutive cycle, what has originated different genetic variants that have been grouped in two categories: worrying (alpha or British, beta or South African, gamma or Brazilian and delta or Indian) and of interest (lamdba, mu, epsilon, eta, iota, kappa, zed, theta); these categories bear clinical implications in the transmissibility, virulence and resistance from SARS-CoV-2 to the natural and acquired immunity, what represents a serious challenge in health services worldwide. These genetic variants are described in this work, with emphasis in its probable clinical impact, and the possibility that other variants could appear is also explained, as natural phenomenon in the evolution of viruses. </p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>coronavirus</kwd>
+				<kwd>SARS-CoV-2</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>mutación</kwd>
+				<kwd>farmacorresistencia viral</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>coronavirus</kwd>
+				<kwd>SARS-CoV-2</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>mutation</kwd>
+				<kwd>viral pharmaco-resistence</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="43"/>
+				<page-count count="23"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El coronavirus del síndrome respiratorio agudo grave de tipo 2: SARS-CoV-2 (siglas del inglés <italic>severe acute respiratory syndrome coronavirus 2</italic>) ha ocasionado una pandemia mundial, la COVID-19 (<italic>coronavirus disease-2019</italic>), con millones de personas infectadas y fallecidas, además de incalculables pérdidas económicas y sociales.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>)</sup></p>
+			<p>Con vistas a controlar la COVID-19, se han indicado medidas de aislamiento e higienización, así como la administración de diferentes medicamentos y vacunas; sin embargo, la aparición de nuevas variantes del SARS-CoV-2, debido a mutaciones propias de los virus, ha alarmado a la comunidad científica internacional, por la posibilidad de que estas evadan los mecanismos de inmunidad natural y adquirida.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Tal situación podría condicionar negativamente la erradicación de la pandemia y convertir la infección del coronavirus en más contagiosa y peligrosa, con el consecuente incremento de la morbilidad y mortalidad, lo que ya ha sido demostrado en algunas variantes genéticas del SARS-CoV-2 de rápida propagación mundial, a pesar de los aspectos controversiales al respecto.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>Las mutaciones son sucesos frecuentes en el ciclo de vida de los virus; con el incremento de las replicaciones, es probable que aparezcan variantes peligrosas que escapen del sistema inmunitario, sobre todo en regiones con alta densidad poblacional y malos controles de la pandemia por sistemas sanitarios deficientes o mala gestión gubernamental.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Una nueva variante del SARS-CoV-2 presenta mutaciones que la diferencian de la variante predominante que circula en la población. Dichas variaciones genéticas son importantes, pues suelen afectar la estructura y las funciones de las proteínas virales, lo que puede incidir en la capacidad de transmisión de los virus, en la susceptibilidad a los tratamientos y las vacunas, y puede generar una mayor virulencia o cambios en la patogenia.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Las variantes del SARS-CoV-2 se clasifican en variantes preocupantes (VOC, por sus siglas del inglés <italic>variant of concern</italic>) y variantes de interés (VOI, siglas del inglés <italic>variant of interest</italic>).<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> Las VOC descritas son alfa, beta, gamma y delta, mientras que entre las VOI se mencionan épsilon, zeta, eta, theta, iota, kappa, lambda y mu. Todas son investigadas intensamente en el orbe.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+			</p>
+			<p>En esta revisión bibliográfica se describen las características de estas nuevas variantes genéticas del SARS-CoV-2, con énfasis en su probable impacto clínico. Se aclara que existe mucha bibliografía sobre el tema y que es probable que aparezcan nuevas variantes o que las VOI se conviertan en VOC como fenómeno natural en la evolución de los virus. </p>
+		</sec>
+		<sec>
+			<title>Desarrollo</title>
+			<sec>
+				<title>Mutaciones</title>
+				<p>El genoma del SARS-CoV-2 acumula una tasa de mutaciones estimada en aproximadamente 10<sup>−6</sup> ―10<sup>−4</sup> por ciclo replicativo. Ese es el origen de los “mutantes”, que pueden extinguirse si se genera una desventaja adaptativa, o que pueden prosperar si se proveen ventajas adaptativas. Así se originan las “variantes de escape del sistema inmunitario”.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+				</p>
+				<p>A medida que el virus experimenta variaciones genéticas, también puede alterar su manifestación, impactando sobre la transmisibilidad, la gravedad del estado clínico, el diagnóstico de laboratorio, el tratamiento, la eficiencia de las vacunas y las medidas de control. Por ende, resulta importante identificar las alteraciones genómicas que se producen en el SARS-CoV-2.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>
+				</p>
+				<p>El método de referencia para la identificación de las variantes genéticas es la secuenciación del genoma completo, aunque se han desarrollado técnicas de reacción en cadena de la polimerasa (PCR) en tiempo real para la identificación de mutaciones.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref> Esto ha permitido que la secuenciación de genomas del SARS-CoV-2 esté disponible para la comunidad científica. </p>
+				<p>Las mutaciones más importantes del SARS-CoV-2 son las que alteran la proteína S, que tiene una función clave en la entrada del virus a las células. Cuando se incrementa la replicación de los virus, es más probable que aparezcan mutaciones en sus genomas, las cuales pueden alterar la susceptibilidad a la respuesta inmunitaria, la malignidad de la infección y/o la capacidad de transmisión del virus.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+				</p>
+				<p>Aunque los términos “mutante”, “variante” y “cepa” del virus son usados indistintamente en las descripciones epidemiológicas del SARS-CoV-2, no significan lo mismo. Las mutaciones son cambios en la secuencia de nucleótidos del genoma y los virus que las portan son llamados “mutantes”.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> No obstante, en esta revisión se tratarán estos términos como sinónimos.</p>
+			</sec>
+			<sec>
+				<title>SARS-CoV-2</title>
+				<p>El SARS-CoV-2 es un virus de la familia <italic>Coronaviridae</italic>, específicamente del género Betacoronavirus, cuyo genoma contiene una cadena simple de ácido ribonucleico (ARN) de casi 30 000 nucleótidos y genes codificantes de proteínas estructurales y no estructurales. Está organizado en el siguiente orden del extremo 5’ al 3’: marco de lectura abierto (<italic>open reading frame</italic>, ORF) 1ab (réplicas) y las proteínas S, ORF3a, E, M, ORF6, ORF7a, ORF7b, ORF8, N y ORF10.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+				</p>
+				<p>Dos tercios del ARN viral codifican dos grandes y solapadas ORF nombradas ORF1a y ORF1b, o ORF1ab juntas, que producen proteínas no estructurales (nsps). ORF1ab es una gran poliproteína (∼21,291 nucleótidos) que codifica 16 proteínas no estructurales: proteína líder, nsp2, nsp3, nsp4, proteinasa semejante a 3C, nsp6, nsp7, nsp8, nsp9, nsp10, ARN polimerasa dependiente de ácido desoxirribonucleico (RdRp) o Nsp12, helicase, 3’-5’ exonucleasa, endo-ARNsa, 2’-O-ribosa metilltransferasa y nsp11.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>
+				</p>
+				<p>La RdRp es el componente clave que regula la síntesis de ARN viral con la asistencia de Nsp7 y Nsp8. Además, 5 proteínas accesorias son codificadas por los genes ORF3a, ORF6, ORF7a, ORF8 y ORF10.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+				</p>
+				<p>Como se muestra en la <xref ref-type="fig" rid="f1">figura 1</xref> -tomada de Desimmie <italic>et al</italic><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>-, el SARS-CoV-2 tiene una apariencia esférica, con proyecciones externas que le confieren un aspecto de corona; contiene cuatro proteínas estructurales (S, E, M y N) y dieciséis proteínas no estructurales (nsp1-16). La proteína de la membrana (M) le confiere forma y soporte a la partícula del virus e interactúa tanto con la S como con la nucleoproteína (N), que recubre el ARN viral, y la proteína de la envoltura (E), que impulsa el ensamblaje del virión y la formación de brotes y que tiene una actividad de canal iónico relacionada con la patogénesis viral.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>
+				</p>
+				<p>
+					<fig id="f1">
+						<label>Fig. 1</label>
+						<caption>
+							<title>Esquema de la estructura del SARS-CoV-2</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-25-06-1424-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>La proteína S (del inglés <italic>spike</italic>) interviene en la entrada del virus a la célula hospedera al unirse a la enzima convertidora de angiotensina 2 (ACE2) y dirigir la fusión de la membrana viral con la membrana hospedera. Esta fusión depende del clivaje de la proteína S por proteasas de la célula hospedera, lo cual ocurre después de la unión de los viriones a la membrana celular o durante la maduración y salida de los viriones.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>
+				</p>
+				<p>La importancia de la proteína S en la infección del SARS-CoV-2 la convierten en diana terapéutica para fármacos y vacunas anti-COVID-19.<xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref> Al respecto, seguidamente se ofrecen más detalles.</p>
+			</sec>
+			<sec>
+				<title>Proteína S</title>
+				<p>Los coronavirus entran a las células huésped mediante la proteína S, que es transmembranal, formada por trímeros (tres subunidades de 1273 aminoácidos) que protruyen en la superficie viral y dos subunidades funcionales S1 y S2.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+				</p>
+				<p>La subunidad S1 contiene un dominio N terminal (NTD) y un dominio de unión al receptor (RBD). La función de la subunidad S1 es unirse al receptor ACE2 sobre la célula diana mediante RBD.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+				</p>
+				<p>La subunidad S2 contiene el péptido de fusión (FP, siglas del inglés <italic>fusion peptide</italic>), la repetición heptapeptídica 1 (HR1, <italic>heptad repeat 1</italic>), la hélix central (CH, <italic>central helix</italic>), el dominio conector (CD, <italic>connector domain</italic>), la repetición heptapeptídica 2 (HR1, <italic>heptad repeat 2</italic>), el dominio transmembranal (TM, <italic>transmembrane domain</italic>) y la cola citoplasmática (CT, <italic>cytoplasmic tail</italic>).<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+				</p>
+				<p>La función de la subunidad S2 es fusionar las membranas de los virus y las células diana.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> El sitio de escisión entre las subunidades S1 y S2 se llama sitio de clivaje o de escisión de proteasa S1/S2 (S1/S2 <italic>protease cleavage site</italic>). </p>
+				<p>Para todos los coronavirus las proteasas del huésped escinden la proteína S en el sitio de clivaje S2/S1 para activar las proteínas, lo cual es crítico para fusionar las membranas de los virus y las células del huésped. La <xref ref-type="fig" rid="f2">figura 2</xref>, publicada por Wang <italic>et al</italic>,<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> representa a la proteína S. </p>
+				<p>
+					<fig id="f2">
+						<label>Fig. 2</label>
+						<caption>
+							<title>Esquema de la estructura de la proteína S</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-25-06-1424-gf2.jpg"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Nomenclatura</title>
+				<p>Pese a que habitualmente, tras la aparición de mutaciones, los términos cepa y variante se emplean como sinónimos, en sentido puro se debería considerar la inducción de cambios en el virus o no. No obstante, en este texto dichos términos se usarán indistintamente.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+				</p>
+				<p>Existen dos sistemas para la vigilancia epidemiológica: <italic>Phylogenetic Assignment of Named Global Outbreak</italic> (PANGO) y <italic>Nextstrain</italic>. El sistema de linaje PANGO posee un prefijo alfabético y un sufijo que contiene hasta tres números separados por puntos que indican sublinajes. Sin embargo, como el sistema solo permite tres niveles jerárquicos, la introducción de un nuevo sufijo puede dificultar la identificación del linaje ancestral. Además, el linaje de un virus no siempre se corresponde con sus mutaciones, ya que este puede presentar alteraciones adicionales relevantes sin que se le asigne un nuevo linaje.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+				</p>
+				<p>En la nomenclatura de las diferentes variantes del SARS-CoV-2 con frecuencia se hace referencia al país o lugar de detección (por ejemplo: cepa británica). Este sistema múltiple de clasificación usualmente genera confusiones. Por ello, la Organización Mundial de la Salud (OMS) adoptó un sistema más simple sustentado en el uso de letras griegas para denominar a las diversas variantes.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+				</p>
+				<p>Las mutaciones con cambios en los aminoácidos se denominan con una clave alfanumérica que inicia con una letra mayúscula para indicar el código del aminoácido que ha sido sustituido, luego va un número que señala la posición del cambio y, finalmente, otra letra mayúscula correspondiente al código del nuevo aminoácido. Así, por ejemplo, la mutación N501Y indica que el aminoácido asparagina (N) ha sido sustituido por una tirosina (Y) en la posición 501.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+				</p>
+			</sec>
+			<sec>
+				<title>Cepa ‘salvaje’ u original</title>
+				<p>A continuación se describirán las principales variantes del SARS-CoV-2, informadas hasta agosto de 2021. </p>
+				<p>La cepa original que inició la pandemia en diciembre 2019 portaba la mutación 484E en la proteína S, llamada cepa Wuhan-Hu-1. Entre enero y febrero de 2020 emergió una variante con una sustitución D614G [sustitución de aspartato (D) por glicina (G) en la posición 614] en la proteína S. Esta mutación D614G condicionó la pandemia al reemplazar a la detectada inicialmente en China, y ya en junio de 2021 era dominante a nivel mundial. Sin embargo, no se asoció a una mayor gravedad ni a pérdida de rendimiento de las pruebas diagnósticas de laboratorio, tampoco a disminución de la capacidad neutralizante de los anticuerpos ni a menor efectividad terapéutica, aunque era más infecciosa.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>
+				</p>
+				<p>El aumento en la capacidad infectante de la variante D614G no es exclusiva de seres humanos, puesto que también infecta células de otras especies, como las de murciélagos y pangolines, que expresan ACE2.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>
+				</p>
+			</sec>
+			<sec>
+				<title>Variantes preocupantes o de preocupación</title>
+				<p>Las VOC de SARS-CoV-2 se asocian a uno o más de los siguientes cambios en cierto grado de importancia para la salud pública mundial:<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+				</p>
+				<p>
+					<list list-type="bullet">
+						<list-item>
+							<p>Aumento de la transmisibilidad o cambio perjudicial en las características epidemiológicas de la COVID-19.</p>
+						</list-item>
+						<list-item>
+							<p>Aumento de la virulencia o cambio en la presentación clínica de la enfermedad.</p>
+						</list-item>
+						<list-item>
+							<p>Disminución de la eficacia de las medidas sociales y de salud pública o de los diagnósticos, las vacunas y las terapias disponibles. </p>
+						</list-item>
+					</list>
+				</p>
+				<p>Entre las VOC se encuentran la alfa, beta, gamma y delta. Para estas variantes las pruebas confirmatorias sugieren asociación a una virulencia aumentada en términos de transmisibilidad, infectividad, gravedad de la enfermedad, junto con una reducción de la eficacia de los fármacos, de los anticuerpos monoclonales; todo ello generado por una exposición previa a vacunas o por el fracaso de las técnicas diagnósticas disponibles.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>)</sup></p>
+				<p>Estos aspectos aumentan la virulencia, ejerciendo cambios adversos en las características epidemiológicas de la COVID-19.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>
+				</p>
+				<p>Por otro lado, las variantes de alta importancia (VOHC) evidencian claramente que las medidas preventivas y terapéuticas tienen una menor eficacia que las variantes previamente circulantes.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref> Afortunadamente, por el momento no existe ninguna que se corresponda a esta categoría.</p>
+			</sec>
+			<sec>
+				<title>Variantes de interés</title>
+				<p>Se consideran como VOI del SARS-CoV-2 aquellas con las siguientes particularidades:<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+				</p>
+				<p>
+					<list list-type="bullet">
+						<list-item>
+							<p>Con cambios genéticos que se predicen o que afectan las características del virus, como la transmisibilidad, la gravedad de la enfermedad, el escape inmunológico, el diagnóstico o el escape terapéutico. </p>
+						</list-item>
+						<list-item>
+							<p>Las identificadas como causantes de una transmisión comunitaria significativa o de múltiples conglomerados de COVID-19 en varios países, con una prevalencia relativa creciente, junto con un número de casos cada vez mayor a lo largo del tiempo u otros impactos epidemiológicos aparentes que sugieran un riesgo emergente para la salud pública mundial. </p>
+						</list-item>
+					</list>
+				</p>
+				<p>Entre las VOI figuran zeta, eta, theta, iota, kappa, lambda y mu. Con los cambios evolutivos que experimenta el SARS-CoV-2 es probable que las VOI se conviertan en VOC y que aparezcan nuevos mutantes. </p>
+				<sec>
+					<title>Variante británica o alfa</title>
+					<p>La variante británica, alfa, B.1.1.7 o 20I/501Y.V1 o VOC202012/01 se detectó en diciembre de 2020 en el Reino Unido y rápidamente se ha extendido suplantando, en muchas ocasiones, a la cepa original. El 20 de abril de 2021, la OMS comunicó su presencia en más de 130 países. Se ha convertido en la dominante debido a su mayor transmisibilidad.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+					</p>
+					<p>Esta también se asocia a una mayor gravedad y mortalidad en personas adultas. El incremento de la letalidad informado por esta cepa es de 4,1 muertes por 1000 casos detectados (en relación con la de las cepas previamente circulantes estimada en 2,5 por 1000 casos); es decir, un aumento de 35 % del riesgo de muerte.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref> Sin embargo, no parece ser más grave en niños y jóvenes. </p>
+					<p>La variante alfa muestra una relativa resistencia a la neutralización por anticuerpos monoclonales frente al antígeno S, con bajo riesgo de reinfección; pero no es más resistente ante el plasma de individuos expuestos a la infección natural o tras la vacunación.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+					</p>
+					<p>En comparación con los virus ancestrales, alfa acumula 23 mutaciones,<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref> de las cuales 14 son no sinónimas: [T1001 IA1708D y I2230T] en el marco de lectura abierto ORF1ab, [N501Y, A570D, P681H, T716I, S982A y D1118H] en la proteína S, [Q27stop, R52I e Y73C] en el ORF8 y [D3L y S235F] en la proteína de la nucleocápside (N); seis son sinónimos: [C913T, C5986T, C14676T, C15279T y T16176C] en ORF1ab y [T26801C] en el gen M (membrana); y tres son deleciones: [SGF 3675-3677del] en ORF1ab y [H69-V70del e Y144del] en la proteína S. </p>
+					<p>La deleción H69-V70del puede disminuir la sensibilidad diagnóstica de ciertas pruebas de PCR. Sin embargo, dado que la mayoría de las técnicas de PCR combinan múltiples dianas, estos cambios no parecen repercutir sobre el rendimiento de los tests rápidos.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup></p>
+					<p>Respecto a los cambios en la variante alfa, 47 % ocurren en la proteína S, incluido el RBD. Estas mutaciones pueden influir en la interacción con el receptor ACE2, aumentando la tasa de infección, dañando la eficacia de los anticuerpos neutralizantes y de las células T durante la infección o vacunación, o afectando la eficacia del tratamiento.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+				</sec>
+				<sec>
+					<title>Variante sudafricana o beta</title>
+					<p>En diciembre de 2020, se informó en Sudáfrica la variante beta, B.1.351 o 20H/501.V2, que quizá pudo aparecer algunos meses antes y se ha extendido por diversos países. Hasta junio de 2021 representaba más de 50 % de las infecciones en muchas naciones del África.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+					</p>
+					<p>Esta variante posee 12 mutaciones no sinónimas y una deleción, al compararla con la cepa de referencia de Wuhan. Alrededor de 77 % de esas mutaciones se localizan en la proteína S [L18F, D80A, D215G, LAL 242−244 del, R246I, K417N, E484K, N501Y, D614G, y A701V], mientras que las restantes se localizan en las proteínas virales ORF1a [K1655N], la envoltura (E) [P71L] y N [T205I]. A diferencia de la cepa británica, no porta la deleción 69/70. La mutación N501Y de beta, aunque está también presente en la variante británica, parece ser filogenéticamente distinta.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+					<p>La mayoría de las mutaciones se producen en los dominios NTD y RBD de la proteína S, lo que sugiere que podrían escapar de los anticuerpos neutralizantes y dañar la eficacia de las vacunas en mayor cuantía que la variante alfa. Estas mutaciones pueden ayudar al virus a evadir la respuesta inmunitaria desencadenada por la infección viral previa, con riesgo de reinfección. Su rasgo más significativo es su alta tasa de transmisión.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>)</sup></p>
+					<p>De los cinco anticuerpos monoclonales aprobados en EEUU, el bamlanivimab, el etesevimab y el casirivimab son, en gran medida, inactivos contra la variante beta, mientras que el imdevimab y el sotrovimab, que se unen al núcleo del RBD, conservan la actividad neutralizante.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+					</p>
+				</sec>
+				<sec>
+					<title>Variante brasileña o gamma</title>
+					<p>La variante gamma, brasileña, P.1 o B.1.1.28.1 o 20J/501Y.V3 se detectó en Japón en viajeros procedentes de Brasil, el 6 de enero de 2021.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref> El rápido incremento de ingresos hospitalarios fue un problema significativo con esta variante. </p>
+					<p>Según el informe epidemiológico de la OMS, hasta el 20 de abril de 2021 esta variante había sido detectada en 52 países. Para junio de 2021 representaba una alta proporción de infectados en algunos países de América del Sur y el Caribe y 10 % de las infecciones en EE.UU.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+					</p>
+					<p>Esta contiene 17 mutaciones no sinónimas: [L18F, T20N, P26S, D138Y, R190S, K417T, E484K, N501Y, D614G, H655Y, T1027I, and V1176F] en la proteína S, [S1188L, K1795Q, y E5665D] en ORF1ab, [E92K] en ORF8 y [P80K] en la proteína N; una deleción [SGF 3675-3677del] en ORF1ab y 4 mutaciones sinónimas. Gamma posee el mayor número de mutaciones en la proteína S.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+					<p>La mutación N501Y se presenta en las tres variantes, mientras que L18F, K417T, E484K, y D614G están en las variantes beta. Este grupo de 5 mutaciones de S tienen importantes implicaciones para la evasión de la inmunidad mediada por anticuerpos en personas vacunadas y convalecientes. Su perfil de resistencia a los anticuerpos monoclonales aprobados es similar al de la variante beta.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+					<p>Una forma de distinguir la variante sudafricana de la brasileña es que esta última carece de la mutación K417N, lo cual representa una amenaza contra los actuales tratamientos con anticuerpos y, en menor proporción, contra la eficiencia protectora de las vacunas.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup></p>
+				</sec>
+				<sec>
+					<title>Variante india o delta</title>
+					<p>La variante delta o india o B.1.627 se registró primero en el estado de Maharashtra en octubre de 2020; luego se diseminó por la India.<xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref> Las secuencias virales tienen dos sustituciones críticas de aminoácidos (L452R y E484Q) en RDB de la proteína S. Esta tiene 3 sublinajes B.1.617.1, B.1.617.2 y B.1.617.3, caracterizada por la mutación L452R en S, mientras E484Q está en B.1.617.1 y B.1.617.3, pero no en B.1.617.2. La principal variante actual en Reino Unido es B.1.617.2. </p>
+					<p>Dicha cepa se ha denominado como «doble mutante» porque aúna las mutaciones L452R de la cepa de California con la mutación E484Q, aunque este término carece de sentido porque las otras variantes del SARS-CoV-2 también presentan varias mutaciones.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+					</p>
+					<p>El genoma presenta 17 mutaciones,<xref ref-type="bibr" rid="B34"><sup>34</sup></xref> de las cuales la D614G es compartida con otras variantes altamente transmisibles como alfa, beta y gamma, la L452R confiere mayor afinidad de la proteína S por ACE2 y una menor reacción del sistema inmunitario y la P681R puede aumentar la infectividad de la variante. De hecho, Wang <italic>et al</italic><xref ref-type="bibr" rid="B35"><sup>35</sup></xref> encontraron que la infección con esta variante presenta mayor transmisibilidad, carga viral y riesgo de progresión de la enfermedad que la cepa “salvaje”. </p>
+					<p>Cuando la pandemia surgió en la India, dos variantes con un ancestro común: delta (B.1.617.2) y kappa (B.1.617.1), representaron una alta proporción de infecciones;<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> las dos contienen la mutación L452R del RBD, la P681R del sitio de corte de la furina proximal y varias mutaciones dentro de orf3, orf7a y el gen de la nucleocápside. La variante kappa contenía la mutación E484Q, mientras delta contenía la T478K, ambas en RBD.</p>
+					<p>Las dos variantes también contienen diferentes mutaciones dentro de orf1a/b y los dominios NTD y S2 de la proteína S. Aunque E484Q tiene más probabilidades que T478K de evadir la neutralización de los anticuerpos, solo delta es más transmisible y se ha extendido a 54 países, sustituyendo a la variante alfa en el Reino Unido y los Estados Unidos.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+					</p>
+					<p>En el plasma de vacunados con AZD1222 las proporciones más altas mostraron una actividad neutralizante reducida contra esta variante.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> En estudios de casos y controles realizados en el Reino Unido, la vacuna BNT162b fue aproximadamente 85 % efectiva para la variante delta, mientras que la vacuna AZD1222 fue aproximadamente 60 % efectiva. </p>
+					<p>La kappa o B.1.617.1 con las mutaciones en S L452R, E484Q, D614G, P681R, también presenta un impacto en cuanto a neutralización y transmisión.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref> En contraste con delta, no se ha demostrado incremento de la transmisión. Sin embargo, debido a la existencia de las mutaciones L452R y E484Q en RBD, la variante kappa tiene, de alguna manera, mayor capacidad para evadir la inmunidad humoral. </p>
+				</sec>
+				<sec>
+					<title>Variante californiana o épsilon</title>
+					<p>La variante épsilon (B.1.427/B.1.429) fue identificada en EE.UU. en septiembre de 2020, aunque se sugiere que el progenitor de ambos linajes surgió en mayo de 2020 y luego dio lugar a los linajes B.1.427 y B.1.429. En febrero de 2021 representaba 15 % de las infecciones en ese país., pero en junio de 2021 su prevalencia se redujo a menos de 1 % y para mayo se detectó en 34 países adicionales.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+					</p>
+					<p>La variante B.1.429 se ha extendido rápidamente, es más transmisible y menos susceptible a la neutralización por el suero de sujetos convalecientes o vacunados.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref> Estas variantes han sido clasificadas como VOC por los CDC (Center of Disease Control and Prevention), mientras que la OMS las considera solo como VOI.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>)</sup></p>
+					<p>Los dos linajes B.1.427 y B.1.429 poseen las mismas mutaciones en S (S13I en el péptido señal, W152C en el NTD y L452R en el RBD), pero albergan diferentes mutaciones en otros genes del SARS-CoV-2.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> En conjunto, este análisis ilustra el aumento de la incidencia de B.1.427/B.1.429 y su progresiva propagación geográfica desde California hacia otras regiones de los Estados Unidos y otros países. </p>
+					<p>Según los CDC, la VOC denominada épsilon presenta las mutaciones S13I de la proteína S en el péptido señal, W152C en el NTD y L452R en RBD.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> El plasma de personas que recibieron una vacuna basada en el ARNm, aislado de Wuhan-1 o de convalecientes, mostró títulos neutralizantes que se redujeron entre 2 y 3,5 veces contra esta variante en relación con los pseudovirus de tipo “salvaje”. Se estimó que era 20 % más transmisible que los linajes cocirculantes y que se asociaba a niveles del virus dos veces más altos en las vías respiratorias superiores.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>)</sup></p>
+				</sec>
+				<sec>
+					<title>Variante lambda o C.37</title>
+					<p>La variante lambda fue notificada inicialmente en Perú en diciembre de 2020 y presenta una alta prevalencia en algunos países de América del Sur. El secuenciado reveló una deleción (D3675- 3677) en el marco de lectura (ORF1a) de tipo “salvaje”. También tiene una nueva deleción (D246-252) y múltiples mutaciones no sinónimas (G75V, T76I, L452Q, F490S, D614G, y T859N) en la proteína S. Las mutaciones L452Q y F490S están en RBD y la deleción Δ246-252 en NTD.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+					<p>Las mutaciones L452Q y F490S se presentan en RDB de S. La mutación F490S se asocia a disminución de la neutralización por anticuerpos. Esta variante presenta 19 mutaciones que la hacen más transmisible y más resistente a anticuerpos inducidos por la vacunación o por la exposición previa al virus.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>)</sup></p>
+				</sec>
+				<sec>
+					<title>Otras variantes</title>
+					<p>La variante eta (B.1.525) se identificó primero en Nigeria en diciembre de 2020.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref> Sus mutaciones en S incluyen E484K, D614G, Q677H con impacto en la neutralización por anticuerpos y la transmisibilidad. Se encuentra en niveles bajos en muchos países, entre los cuales Nigeria presenta la mayor proporción de infecciones. Se ha estudiado poco la capacidad de los anticuerpos monoclonales, el plasma de convalecientes y el de sujetos vacunados para neutralizar esta variante. </p>
+					<p>La theta o P.3 o B.1.1.28.3, identificada en Filipinas a inicios de 2021, con impacto en la neutralización por anticuerpos y la transmisión.<xref ref-type="bibr" rid="B34"><sup>34</sup></xref> Contiene 13 mutaciones que definen el linaje, incluidas N501Y, E484K, P681H y D614G en S y la deleción de NTD en las posiciones 141-143. </p>
+					<p>La iota o B.1.526 o 20C/S: 484K, identificada primero en el estado de Nueva York, EE.UU., en diciembre de 2020, presenta las mutaciones en S: E484K, D614G, A701V e impacto en la neutralización. En junio de 2021 tenía una prevalencia en esa nación de 5-10 %, aunque es rara en otros países. Contiene la misma deleción nsp6 de las variantes alfa, beta y gamma. El plasma de aproximadamente 40 % de convalecientes y el de 30 % de los individuos vacunados con ARNm muestran una disminución de 3 a 10 veces en la actividad neutralizadora.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+					<p>La zeta o P.2 o B.1.1.28.2, detectada en Brasil en enero de 2021, presenta mutaciones en S: E484K, D614G e impacto en la neutralización. Las variantes iota, eta y zeta se caracterizaron primariamente por la mutación E484K en RBD y no se ha demostrado que ninguna cause una enfermedad más grave. La variante zeta era común en Brasil a finales de 2020 y principios de 2021, pero parece estar disminuyendo su prevalencia.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+					</p>
+				</sec>
+			</sec>
+			<sec>
+				<title>Implicaciones clínicas de las variantes</title>
+				<p>En áreas densamente pobladas con escasas medidas de prevención o protección por falta de servicios básicos de salud o por desinterés gubernamental, el SARS-CoV-2 se difunde libremente y halla nuevos huéspedes donde replicarse.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> Así, aumenta también la probabilidad de generar mutaciones espontáneas, que pasan a ser dominantes si le aportan ventajas “competitivas” al virus. </p>
+				<p>El impacto de estas variantes en los programas globales de vacunación ha suscitado inquietud, por lo que se considera prioritario desarrollar marcadores que correlacionen vacuna y protección. Se ha planteado que las nuevas variantes podrían escapar más fácilmente a la respuesta inmunitaria.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref><sup>)</sup></p>
+				<p>Asimismo, en estudios en animales<xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B38"><sup>38</sup></xref> y seres humanos<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B39"><sup>39</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B40"><sup>40</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B41"><sup>41</sup></xref> se ha obtenido una respuesta neutralizante aceptable o disminuida, inducida por la vacunación o el suero de convalecientes frente a diferentes variantes. </p>
+				<p>Hoffmann <italic>et al</italic><xref ref-type="bibr" rid="B42"><sup>42</sup></xref> demostraron que la entrada celular de todas las variantes se bloquea por los inhibidores camostat, EK-1 y EK-1-C4. En cambio, la entrada de beta y gamma fue parcial (casirivimab) o totalmente (bamlanivimab) resistente a los anticuerpos en el tratamiento contra la COVID-19. </p>
+				<p>Las manifestaciones clínicas de estas variantes del SARS-CoV-2, y de otras que surjan en el futuro, no solo depende de las mutaciones en las proteínas vitales para la replicación viral, sino también de factores ambientales y relacionados con estilos de vida, como la nutrición, las enfermedades asociadas, los hábitos tóxicos, la contaminación ambiental y la higiene personal y comunitaria, además de factores genéticos que pudieran contribuir a la transmisibilidad, virulencia y evasión de la respuesta inmunitaria humoral y celular del SARS-CoV-2. Es difícil desligar estos factores que interactúan estrechamente en una compleja red.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref> En el <xref ref-type="table" rid="t1">cuadro</xref> se resumen las variantes genéticas del SARS-CoV-2.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro. </label>
+						<caption>
+							<title>Variantes genéticas del SARS-CoV-2 hasta agosto de 2021</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-25-06-1424-gt1.png"/>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>Las mutaciones son sucesos comunes en el proceso de replicación de los virus, lo que evidentemente también ocurre en el SARS-CoV-2, que posee nuevas variantes de características epidemiológicas diferentes, que han alarmado a la comunidad científica internacional por la posibilidad de una mayor transmisibilidad y letalidad, además de su evasión a los mecanismos inmunitarios naturales y adquiridos, lo cual puede incrementar el riesgo de reinfección, provocar mayor gravedad de la enfermedad y reducir la eficacia de los medicamentos antivirales y de las vacunas. </p>
+			<p>Entre las estrategias propuestas para combatir las variantes del virus se encuentran el aumento de las dosis y la alternancia de vacunas, así como el desarrollo de vacunas específicas frente a diferentes variantes. </p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Contribución de autoría</title>
+			<p>Alexander Expósito Lara: conceptualización, investigación, metodología, supervisión y redacción.</p>
+			<p>Gisela Eduarda Feria Díaz: investigación, visualización, redacción, revisión y edición.</p>
+			<p>Sonia Noemí González Benítez: investigación, visualización, redacción, revisión y edición.</p>
+			<p>Pedro Enrique Miguel Soca: investigación, visualización, redacción, revisión y edición.</p>
+		</ack>
+		<ack>
+			<title>Financiamiento</title>
+			<p>Ninguno.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Wang MY, Zhao R, Gao LJ, Gao XF, Wang DP, Cao JM. SARS-CoV-2: Structure, Biology, and Structure-Based Therapeutics Development. Front Cell Infect Microbiol. 2020 [citado 10/09/2021];10:587269. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7723891">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7723891</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>MY</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>XF</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2: Structure, Biology, and Structure-Based Therapeutics Development</article-title>
+					<source>Front Cell Infect Microbiol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-09-10">10/09/2021</date-in-citation>
+					<volume>10</volume>
+					<fpage>587269</fpage>
+					<lpage>587269</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7723891">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7723891</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Chadha J, Khullar L, Mittal N. Facing the wrath of enigmatic mutations: a review on the emergence of severe acute respiratory syndrome coronavirus 2 variants amid coronavirus disease-19 pandemic. Environ Microbiol. 2021 [citado 10/08/2021]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441773/pdf/EMI-9999-0.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441773/pdf/EMI-9999-0.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chadha</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Khullar</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mittal</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Facing the wrath of enigmatic mutations: a review on the emergence of severe acute respiratory syndrome coronavirus 2 variants amid coronavirus disease-19 pandemic</article-title>
+					<source>Environ Microbiol</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441773/pdf/EMI-9999-0.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441773/pdf/EMI-9999-0.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Joshi M, Puvar A, Kumar D, Ansari A, Pandya M, Raval J, et al. Genomic Variations in SARS-CoV-2 Genomes From Gujarat: Underlying Role of Variants in Disease Epidemiology. Front Genet. 2021 [citado 10/08/2021];12:586569. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8017293">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8017293</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Joshi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Puvar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kumar</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ansari</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pandya</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Raval</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic Variations in SARS-CoV-2 Genomes From Gujarat: Underlying Role of Variants in Disease Epidemiology</article-title>
+					<source>Front Genet</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>12</volume>
+					<size units="pages">586569</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8017293">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8017293</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Gómez CE, Perdiguero B, Esteban M. Emerging SARS-CoV-2 Variants and Impact inGlobal Vaccination Programs againstSARS-CoV-2/COVID-19. Vaccines. 2021 [citado 10/08/2021];9(3):243. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2076-393X/9/3/243/pdf">http://www.mdpi.com/2076-393X/9/3/243/pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Perdiguero</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Esteban</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Emerging SARS-CoV-2 Variants and Impact inGlobal Vaccination Programs againstSARS-CoV-2/COVID-19</article-title>
+					<source>Vaccines</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>9</volume>
+					<issue>3</issue>
+					<size units="pages">243</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2076-393X/9/3/243/pdf">http://www.mdpi.com/2076-393X/9/3/243/pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Seyed Alinaghi SA, Mirzapour P, Dadras O, Pashaei Z, Karimi A, MohsseniPour M, et al. Characterization of SARS-CoV-2 different variants and related morbidity and mortality: a systematic review. Eur J Med Res. 2021 [citado 10/08/2021];26(1):51. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8185313">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8185313</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seyed Alinaghi</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Mirzapour</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Dadras</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Pashaei</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Karimi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>MohsseniPour</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Characterization of SARS-CoV-2 different variants and related morbidity and mortality: a systematic review</article-title>
+					<source>Eur J Med Res</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>26</volume>
+					<issue>1</issue>
+					<size units="pages">51</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8185313">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8185313</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Kantor IN, Luthy IA, Ritacco GV. Las variantes de SARS-CoV-2 y la llamada resistencia a las vacunas. Medicina (Buenos Aires). 2021 [citado 10/08/2021];81:421-6. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://ri.conicet.gov.ar/bitstream/handle/11336/139805/CONICET_Digital_Nro.73fb5b93-8455-44e3-aea0-f2e12c5872c8_A.pdf?sequence=2&amp;isAllowed=y">http://ri.conicet.gov.ar/bitstream/handle/11336/139805/CONICET_Digital_Nro.73fb5b93-8455-44e3-aea0-f2e12c5872c8_A.pdf?sequence=2&amp;isAllowed=y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kantor</surname>
+							<given-names>IN</given-names>
+						</name>
+						<name>
+							<surname>Luthy</surname>
+							<given-names>IA</given-names>
+						</name>
+						<name>
+							<surname>Ritacco</surname>
+							<given-names>GV</given-names>
+						</name>
+					</person-group>
+					<article-title>Las variantes de SARS-CoV-2 y la llamada resistencia a las vacunas</article-title>
+					<source>Medicina (Buenos Aires)</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>81</volume>
+					<fpage>421</fpage>
+					<lpage>426</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://ri.conicet.gov.ar/bitstream/handle/11336/139805/CONICET_Digital_Nro.73fb5b93-8455-44e3-aea0-f2e12c5872c8_A.pdf?sequence=2&amp;isAllowed=y">http://ri.conicet.gov.ar/bitstream/handle/11336/139805/CONICET_Digital_Nro.73fb5b93-8455-44e3-aea0-f2e12c5872c8_A.pdf?sequence=2&amp;isAllowed=y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Pérez-Abeledo M, Sanz Moreno JC. Variantes de SARS-CoV-2, una historia todavía inacabada. Vacunas. 2021 [citado 10/08/2021];22(3):173-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2445146021000406/pdfft?md5=ec776c9a68f326ae84d245302643db73&amp;pid=1-s2.0-S2445146021000406-main.pdf">http://www.sciencedirect.com/science/article/pii/S2445146021000406/pdfft?md5=ec776c9a68f326ae84d245302643db73&amp;pid=1-s2.0-S2445146021000406-main.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez-Abeledo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sanz Moreno</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Variantes de SARS-CoV-2, una historia todavía inacabada</article-title>
+					<source>Vacunas</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>22</volume>
+					<issue>3</issue>
+					<fpage>173</fpage>
+					<lpage>179</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2445146021000406/pdfft?md5=ec776c9a68f326ae84d245302643db73&amp;pid=1-s2.0-S2445146021000406-main.pdf">http://www.sciencedirect.com/science/article/pii/S2445146021000406/pdfft?md5=ec776c9a68f326ae84d245302643db73&amp;pid=1-s2.0-S2445146021000406-main.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Wang R, Zhang Q, Ge J, Ren W, Zhang R, Lan J, et al. Analysis of SARS-CoV-2 variant mutations reveals neutralization escape mechanisms and the ability to use ACE2 receptors from additional species. Immunity. 2021 [citado 10/08/2021];54(7):1611-21. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S1074761321002478/pdfft?md5=b54b25fb60378ed257dcdf1112249413&amp;pid=1-s2.0-S1074761321002478-main.pdf">http://www.sciencedirect.com/science/article/pii/S1074761321002478/pdfft?md5=b54b25fb60378ed257dcdf1112249413&amp;pid=1-s2.0-S1074761321002478-main.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Ge</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ren</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lan</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Analysis of SARS-CoV-2 variant mutations reveals neutralization escape mechanisms and the ability to use ACE2 receptors from additional species</article-title>
+					<source>Immunity</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>54</volume>
+					<issue>7</issue>
+					<fpage>1611</fpage>
+					<lpage>1621</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S1074761321002478/pdfft?md5=b54b25fb60378ed257dcdf1112249413&amp;pid=1-s2.0-S1074761321002478-main.pdf">http://www.sciencedirect.com/science/article/pii/S1074761321002478/pdfft?md5=b54b25fb60378ed257dcdf1112249413&amp;pid=1-s2.0-S1074761321002478-main.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Fang S, Li K, Shen J, Liu S, Liu J, Yang L, et al. GESS: a database of global evaluation of /hCoV-19 sequences. Nucleic Acids Research. 2021 [citado 12/08/2021];49(D1): D706-D714. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://academic.oup.com/nar/article/49/D1/D706/5921286">http://academic.oup.com/nar/article/49/D1/D706/5921286</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Shen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>GESS: a database of global evaluation of /hCoV-19 sequences</article-title>
+					<source>Nucleic Acids Research</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-12">12/08/2021</date-in-citation>
+					<volume>49</volume>
+					<issue>D1</issue>
+					<fpage>D706</fpage>
+					<lpage>D714</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://academic.oup.com/nar/article/49/D1/D706/5921286">http://academic.oup.com/nar/article/49/D1/D706/5921286</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. World Health Organization. Tracking SARS-CoV-2 variants. Ginebra: WHO; 2021 [citado 12/08/2021]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/en/activities/tracking-SARS-CoV-2-variants">http://www.who.int/en/activities/tracking-SARS-CoV-2-variants</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Tracking SARS-CoV-2 variants</source>
+					<year>2021</year>
+					<publisher-loc>Ginebra</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-12">12/08/2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/en/activities/tracking-SARS-CoV-2-variants">http://www.who.int/en/activities/tracking-SARS-CoV-2-variants</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. McCallum M, Bassi J, De Marco A, Chen A, Walls AC, Di Iulio J, et al. SARS-CoV-2 immune evasion by the B.1.427/B.1.429 variant of concern. Science. 2021 [citado 12/08/2021];373:648-54. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.science.org/doi/epdf/10.1126/science.abi7994">http://www.science.org/doi/epdf/10.1126/science.abi7994</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McCallum</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bassi</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>De Marco</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Walls</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Di Iulio</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 immune evasion by the B.1.427/B.1.429 variant of concern</article-title>
+					<source>Science</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-12">12/08/2021</date-in-citation>
+					<volume>373</volume>
+					<fpage>648</fpage>
+					<lpage>654</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.science.org/doi/epdf/10.1126/science.abi7994">http://www.science.org/doi/epdf/10.1126/science.abi7994</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Resende PC, Delatorre E, Gräf T, Mir D, Coutto Motta F, Reiss Appolinario L, et al. Evolutionary dynamics and dissemination pattern of the SARS-CoV-2 Lineage B.1.1.33 during the early pandemic phase in Brazil. Front Microbiol. 2021 [citado 10/08/2021];11:615280. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7925893/pdf/fmicb-11-615280.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7925893/pdf/fmicb-11-615280.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Resende</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Delatorre</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gräf</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mir</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Coutto Motta</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Reiss Appolinario</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evolutionary dynamics and dissemination pattern of the SARS-CoV-2 Lineage B.1.1.33 during the early pandemic phase in Brazil</article-title>
+					<source>Front Microbiol</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>11</volume>
+					<size units="pages">615280</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7925893/pdf/fmicb-11-615280.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7925893/pdf/fmicb-11-615280.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Tao K, Tzou PL, Nouhin J, Gupta RK, de Oliveira T, Kosakovsky Pond SL, et al. The biological and clinical significance of emerging SARS-CoV-2 variants. Nat Rev Genet. 2021 Sep [citado 10/08/2021]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s41576-021-00408-x.pdf">http://www.nature.com/articles/s41576-021-00408-x.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tao</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Tzou</surname>
+							<given-names>PL</given-names>
+						</name>
+						<name>
+							<surname>Nouhin</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gupta</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>de Oliveira</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Kosakovsky Pond</surname>
+							<given-names>SL</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The biological and clinical significance of emerging SARS-CoV-2 variants</article-title>
+					<source>Nat Rev Genet</source>
+					<month>09</month>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s41576-021-00408-x.pdf">http://www.nature.com/articles/s41576-021-00408-x.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Chakraborty C, Sharma AR, Bhattacharya M, Agoramoorthy G, Lee S-S. Evolution, mode of transmission, andmutational landscape of newly emerging SARS-CoV-2 variants. mBio. 2021 [citado 10/08/2021];12:e01140-21. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://journals.asm.org/doi/full/10.1128/mBio.01140-21">http://journals.asm.org/doi/full/10.1128/mBio.01140-21</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chakraborty</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sharma</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Bhattacharya</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Agoramoorthy</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>S-S</given-names>
+						</name>
+					</person-group>
+					<article-title>Evolution, mode of transmission, andmutational landscape of newly emerging SARS-CoV-2 variants</article-title>
+					<source>mBio</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>12</volume>
+					<fpage>e01121</fpage>
+					<lpage>e01140</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://journals.asm.org/doi/full/10.1128/mBio.01140-21">http://journals.asm.org/doi/full/10.1128/mBio.01140-21</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Renostro Delai R, Ramathan Freitas A, Welker Biondo A. Variantes genéticas del SARS-CoV-2. Revista Clínica Veterinaria. 2021 [citado 10/08/2021];26(152). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaclinicaveterinaria.com/science/edicion-152/variantes-geneticas-del-sars-cov-2/">http://www.revistaclinicaveterinaria.com/science/edicion-152/variantes-geneticas-del-sars-cov-2/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Renostro Delai</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ramathan Freitas</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Welker Biondo</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Variantes genéticas del SARS-CoV-2</article-title>
+					<source>Revista Clínica Veterinaria</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>26</volume>
+					<issue>152</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaclinicaveterinaria.com/science/edicion-152/variantes-geneticas-del-sars-cov-2/">http://www.revistaclinicaveterinaria.com/science/edicion-152/variantes-geneticas-del-sars-cov-2/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Vilar S, Isom DG. One Year of SARS-CoV-2: How Much Has the Virus Changed? Biology. 2021 [citado 10/08/2021];10(2):91. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2079-7737/10/2/91/htm">http://www.mdpi.com/2079-7737/10/2/91/htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vilar</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Isom</surname>
+							<given-names>DG</given-names>
+						</name>
+					</person-group>
+					<article-title>One Year of SARS-CoV-2: How Much Has the Virus Changed?</article-title>
+					<source>Biology</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<size units="pages">91</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2079-7737/10/2/91/htm">http://www.mdpi.com/2079-7737/10/2/91/htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Pandey U, Yee R, Shen L, Judkins AR, Bootwalla M, Ryutov A, et al. High Prevalence of SARS-CoV-2 Genetic Variation and D614G Mutation in Pediatric Patients With COVID-19. Open Forum Infectious Diseases. 2021 [citado 10/08/2021];8(6):551. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://academic.oup.com/ofid/article/8/6/ofaa551/5981353">http://academic.oup.com/ofid/article/8/6/ofaa551/5981353</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pandey</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Yee</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Shen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Judkins</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Bootwalla</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ryutov</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>High Prevalence of SARS-CoV-2 Genetic Variation and D614G Mutation in Pediatric Patients With COVID-19</article-title>
+					<source>Open Forum Infectious Diseases</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>8</volume>
+					<issue>6</issue>
+					<fpage>551</fpage>
+					<lpage>551</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://academic.oup.com/ofid/article/8/6/ofaa551/5981353">http://academic.oup.com/ofid/article/8/6/ofaa551/5981353</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Zhu Z, Liu G, Meng K, Yang L, Liu D, Meng G, Rapid Spread of Mutant Alleles in Worldwide SARS-CoV-2 Strains Revealed by Genome-Wide Single Nucleotide Polymorphism and Variation Analysis. Genome Biology and Evolution. 2021 [citado 10/08/2021];13(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://academic.oup.com/gbe/article/13/2/evab015/6123746">http://academic.oup.com/gbe/article/13/2/evab015/6123746</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Meng</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Meng</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Rapid Spread of Mutant Alleles in Worldwide SARS-CoV-2 Strains Revealed by Genome-Wide Single Nucleotide Polymorphism and Variation Analysis</article-title>
+					<source>Genome Biology and Evolution</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>13</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://academic.oup.com/gbe/article/13/2/evab015/6123746">http://academic.oup.com/gbe/article/13/2/evab015/6123746</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Raman R, Patel KJ, Ranjan K. COVID-19: Unmasking Emerging SARS-CoV-2 Variants, Vaccines and Therapeutic Strategies. Biomolecules. 2021 [citado 10/08/2021];11(7):993. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2218-273X/11/7/993/pdf">http://www.mdpi.com/2218-273X/11/7/993/pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Raman</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Ranjan</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19: Unmasking Emerging SARS-CoV-2 Variants, Vaccines and Therapeutic Strategies</article-title>
+					<source>Biomolecules</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>11</volume>
+					<issue>7</issue>
+					<size units="pages">993</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2218-273X/11/7/993/pdf">http://www.mdpi.com/2218-273X/11/7/993/pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Toyoshima Y, Nemoto K, Matsumoto S, Nakamura Y, Kiyotan K. SARS-CoV-2 genomic variations associated with mortality rate of COVID-19. J Hum Genet. 2020 [citado 10/08/2021];65:1075-82. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s10038-020-0808-9.pdf">http://www.nature.com/articles/s10038-020-0808-9.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Toyoshima</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Nemoto</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Matsumoto</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nakamura</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kiyotan</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2 genomic variations associated with mortality rate of COVID-19</article-title>
+					<source>J Hum Genet</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>65</volume>
+					<fpage>1075</fpage>
+					<lpage>1082</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s10038-020-0808-9.pdf">http://www.nature.com/articles/s10038-020-0808-9.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Antony P, Vijayan R. Role of SARS-CoV-2 and ACE2 variations in COVID-19. Biomed J. 2021 [citado 10/08/2021];44(3):235-44. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2319417021000366/pdfft?md5=cda398ab8200f8bf36e3bad92e2f3b48&amp;pid=1-s2.0-S2319417021000366-main.pdf">http://www.sciencedirect.com/science/article/pii/S2319417021000366/pdfft?md5=cda398ab8200f8bf36e3bad92e2f3b48&amp;pid=1-s2.0-S2319417021000366-main.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Antony</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Vijayan</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Role of SARS-CoV-2 and ACE2 variations in COVID-19</article-title>
+					<source>Biomed J</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>44</volume>
+					<issue>3</issue>
+					<fpage>235</fpage>
+					<lpage>244</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2319417021000366/pdfft?md5=cda398ab8200f8bf36e3bad92e2f3b48&amp;pid=1-s2.0-S2319417021000366-main.pdf">http://www.sciencedirect.com/science/article/pii/S2319417021000366/pdfft?md5=cda398ab8200f8bf36e3bad92e2f3b48&amp;pid=1-s2.0-S2319417021000366-main.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Desimmie BA, Raru, YY, Awadh HM, He P, Teka S, Willenburg, KS. Insights intoSARS-CoV-2 Persistence and Its Relevance. Viruses. 2021 [citado 10/09/2021];13(6):1025. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/pmid/34072390/">http://www.ncbi.nlm.nih.gov/pmc/articles/pmid/34072390/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Desimmie BA</surname>
+							<given-names>Raru</given-names>
+						</name>
+						<name>
+							<surname>YY</surname>
+							<given-names>Awadh HM</given-names>
+						</name>
+						<name>
+							<surname>He P</surname>
+							<given-names>Teka S</given-names>
+						</name>
+						<name>
+							<surname>Willenburg</surname>
+							<given-names>KS</given-names>
+						</name>
+					</person-group>
+					<article-title>Insights intoSARS-CoV-2 Persistence and Its Relevance</article-title>
+					<source>Viruses</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-09-10">10/09/2021</date-in-citation>
+					<volume>13</volume>
+					<issue>6</issue>
+					<size units="pages">1025</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/pmid/34072390/">http://www.ncbi.nlm.nih.gov/pmc/articles/pmid/34072390/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Pohl MO, Busnadiego I, Kufner V, Glas I, Karakus U, Schmutz S, et al. SARS-CoV-2 variants reveal features critical for replication in primary human cells. PLoS Biol. 2021 [citado 10/08/2021];19(3):3001006. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8021179/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8021179/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pohl</surname>
+							<given-names>MO</given-names>
+						</name>
+						<name>
+							<surname>Busnadiego</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Kufner</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Glas</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Karakus</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Schmutz</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 variants reveal features critical for replication in primary human cells</article-title>
+					<source>PLoS Biol</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>19</volume>
+					<issue>3</issue>
+					<size units="pages">3001006</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8021179/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8021179/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Shang J, Wan Y, Luo C, Ye G, Geng Q, Auerbach A, Li F. Cell entry mechanisms of SARS-CoV-2. Proc Natl Acad Sci U.S.A. 2020 [citado 10/08/2021];117(21):11727-34. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Luo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ye</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Geng</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Auerbach</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Cell entry mechanisms of SARS-CoV-2</article-title>
+					<source>Proc Natl Acad Sci U.S.A</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>117</volume>
+					<issue>21</issue>
+					<fpage>11727</fpage>
+					<lpage>11734</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Amanat F, Krammer F. SARS-CoV-2 Vaccines: Status Report. Immunity. 2020 [citado 10/08/2021];52(4):583-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S1074761320301205/pdfft?md5=0afe6c765f14b8bbc390f2b80f3301d0&amp;pid=1-s2.0-S1074761320301205-main.pdf">http://www.sciencedirect.com/science/article/pii/S1074761320301205/pdfft?md5=0afe6c765f14b8bbc390f2b80f3301d0&amp;pid=1-s2.0-S1074761320301205-main.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amanat</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Krammer</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2 Vaccines: Status Report</article-title>
+					<source>Immunity</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>52</volume>
+					<issue>4</issue>
+					<fpage>583</fpage>
+					<lpage>589</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S1074761320301205/pdfft?md5=0afe6c765f14b8bbc390f2b80f3301d0&amp;pid=1-s2.0-S1074761320301205-main.pdf">http://www.sciencedirect.com/science/article/pii/S1074761320301205/pdfft?md5=0afe6c765f14b8bbc390f2b80f3301d0&amp;pid=1-s2.0-S1074761320301205-main.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Krammer F. SARS-CoV-2 vaccines in development. Nature. 2020 [citado 10/08/2021];586:516-27. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Krammer</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2 vaccines in development</article-title>
+					<source>Nature</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>586</volume>
+					<fpage>516</fpage>
+					<lpage>527</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7260975/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Scheid JF, Barnes CO, Eraslan B, Hudak A, Keeffe JR, Cosimi LA, et al. B cell genomics behind cross-neutralization of SARS-CoV-2 variants and SARS-CoV. Cell. 2021 [citado 10/08/2021];184(12):3205-21. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8064835/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8064835/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scheid</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Barnes</surname>
+							<given-names>CO</given-names>
+						</name>
+						<name>
+							<surname>Eraslan</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Hudak</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Keeffe</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Cosimi</surname>
+							<given-names>LA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>B cell genomics behind cross-neutralization of SARS-CoV-2 variants and SARS-CoV</article-title>
+					<source>Cell</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>184</volume>
+					<issue>12</issue>
+					<fpage>3205</fpage>
+					<lpage>3221</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8064835/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8064835/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Puray-Chavez M, LaPak KM, Schrank TP, Elliott JL, Bhatt DP, Agajanian MJ, et al. Systematic analysis of SARS-CoV-2 infection of an ACE2-negative human airway cell. Cell Rep. 2021 [citado 10/08/2021];36(2):109364. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2211124721007622/pdfft?md5=e6eaaa47f96d8cef1e0fa50051f9a8c1&amp;pid=1-s2.0-S2211124721007622-main.pdf">http://www.sciencedirect.com/science/article/pii/S2211124721007622/pdfft?md5=e6eaaa47f96d8cef1e0fa50051f9a8c1&amp;pid=1-s2.0-S2211124721007622-main.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Puray-Chavez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>LaPak</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Schrank</surname>
+							<given-names>TP</given-names>
+						</name>
+						<name>
+							<surname>Elliott</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Bhatt</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Agajanian</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Systematic analysis of SARS-CoV-2 infection of an ACE2-negative human airway cell</article-title>
+					<source>Cell Rep</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>36</volume>
+					<issue>2</issue>
+					<size units="pages">109364</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2211124721007622/pdfft?md5=e6eaaa47f96d8cef1e0fa50051f9a8c1&amp;pid=1-s2.0-S2211124721007622-main.pdf">http://www.sciencedirect.com/science/article/pii/S2211124721007622/pdfft?md5=e6eaaa47f96d8cef1e0fa50051f9a8c1&amp;pid=1-s2.0-S2211124721007622-main.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Creech CB, Walker SC, Samuels RJ. SARS-CoV-2 Vaccines. JAMA. 2021[citado 10/08/2021];325(13):1318-20. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://jamanetwork.com/journals/jama/fullarticle/2777059">http://jamanetwork.com/journals/jama/fullarticle/2777059</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Creech</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Walker</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Samuels</surname>
+							<given-names>RJ</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2 Vaccines</article-title>
+					<source>JAMA</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>325</volume>
+					<issue>13</issue>
+					<fpage>1318</fpage>
+					<lpage>1320</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://jamanetwork.com/journals/jama/fullarticle/2777059">http://jamanetwork.com/journals/jama/fullarticle/2777059</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Hu B, Guo H, Zhou P, Shi ZL. Characteristics of SARS-CoV-2 and COVID-19. Nature Reviews. 2021 [citado 10/08/2021];19:141-54. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s41579-020-00459-7.pdf">http://www.nature.com/articles/s41579-020-00459-7.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hu</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Shi</surname>
+							<given-names>ZL</given-names>
+						</name>
+					</person-group>
+					<article-title>Characteristics of SARS-CoV-2 and COVID-19</article-title>
+					<source>Nature Reviews</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>19</volume>
+					<fpage>141</fpage>
+					<lpage>154</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s41579-020-00459-7.pdf">http://www.nature.com/articles/s41579-020-00459-7.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Colson P, Devaux CA, Lagier JC, Gautret P, Raoult D. A Possible Role of Remdesivir and Plasma Therapy in the Selective Sweep and Emergence of New SARS-CoV-2 Variants. J Clin Med. 2021 [citado 10/08/2021];10(15):3276. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2077-0383/10/15/3276/pdf">http://www.mdpi.com/2077-0383/10/15/3276/pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Colson</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Devaux</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Lagier</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Gautret</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Raoult</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>A Possible Role of Remdesivir and Plasma Therapy in the Selective Sweep and Emergence of New SARS-CoV-2 Variants</article-title>
+					<source>J Clin Med</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>10</volume>
+					<issue>15</issue>
+					<size units="pages">3276</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.mdpi.com/2077-0383/10/15/3276/pdf">http://www.mdpi.com/2077-0383/10/15/3276/pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Fantini J, Yahi N, Azzaz F, Chahinian H. Structural dynamics of SARS-CoV-2 variants: A health monitoring strategy for anticipating Covid-19 outbreaks. J Infect. 2021 [citado 10/08/2021];83(2):197-206. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172274/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172274/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fantini</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yahi</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Azzaz</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Chahinian</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Structural dynamics of SARS-CoV-2 variants: A health monitoring strategy for anticipating Covid-19 outbreaks</article-title>
+					<source>J Infect</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>83</volume>
+					<issue>2</issue>
+					<fpage>197</fpage>
+					<lpage>206</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172274/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172274/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Silva-Ayarza I, Bachelet VC. Lo que sabemos y no sabemos sobre SARS-CoV-2 y COVID-19. Medwave. 2021 [citado 10/08/2021];21(4):8198. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionClinica/8198.act">http://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionClinica/8198.act</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva-Ayarza</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Bachelet</surname>
+							<given-names>VC</given-names>
+						</name>
+					</person-group>
+					<article-title>Lo que sabemos y no sabemos sobre SARS-CoV-2 y COVID-19</article-title>
+					<source>Medwave</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>21</volume>
+					<issue>4</issue>
+					<size units="pages">8198</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionClinica/8198.act">http://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionClinica/8198.act</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Mohammadi M, Shayestehpour M, Mirzaei H. The impact of spike mutated variants of SARS-CoV2 [Alpha, Beta, Gamma, Delta, and Lambda] on the efficacy of subunit recombinant vaccines. Braz J Infect Dis. 2021 [citado 10/08/2021];25(4):101606. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8367756/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8367756/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mohammadi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shayestehpour</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mirzaei</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>The impact of spike mutated variants of SARS-CoV2 [Alpha, Beta, Gamma, Delta, and Lambda] on the efficacy of subunit recombinant vaccines</article-title>
+					<source>Braz J Infect Dis</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>25</volume>
+					<issue>4</issue>
+					<size units="pages">101606</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8367756/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8367756/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Wang Y, Chen R, Hu F, Lan Y, Yang Z, Zhan C, et al. Transmission, viral kinetics and clinical characteristics of the emergent SARS-CoV-2 Delta VOC in Guangzhou, China. EClinical Medicine. 2021 [citado 10/08/2021];40:101129. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.thelancet.com/action/showPdf?pii=S2589-5370%2821%2900409-0">http://www.thelancet.com/action/showPdf?pii=S2589-5370%2821%2900409-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Zhan</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Transmission, viral kinetics and clinical characteristics of the emergent SARS-CoV-2 Delta VOC in Guangzhou, China</article-title>
+					<source>EClinical Medicine</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>40</volume>
+					<size units="pages">101129</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.thelancet.com/action/showPdf?pii=S2589-5370%2821%2900409-0">http://www.thelancet.com/action/showPdf?pii=S2589-5370%2821%2900409-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Alter G, Yu J, Liu J, Chandrashekar A, Borducchi EN, Tostanoski LH, et al. Immunogenicity of Ad26.COV2.S vaccine against SARS-CoV-2 variants in humans. Nature. 2021 [citado 10/08/2021];596(7871):268-72. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s41586-021-03681-2">http://www.nature.com/articles/s41586-021-03681-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alter</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chandrashekar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Borducchi</surname>
+							<given-names>EN</given-names>
+						</name>
+						<name>
+							<surname>Tostanoski</surname>
+							<given-names>LH</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Immunogenicity of Ad26.COV2.S vaccine against SARS-CoV-2 variants in humans</article-title>
+					<source>Nature</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>596</volume>
+					<issue>7871</issue>
+					<fpage>268</fpage>
+					<lpage>272</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/articles/s41586-021-03681-2">http://www.nature.com/articles/s41586-021-03681-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Tostanoski LH, Yu J, Mercado NB, McMahan K, Jacob-Dolan C, Martinot AJ, et al. Immunity elicited by natural infection or Ad26.COV2.S vaccination protects hamsters against SARS-CoV-2 variants of concern. Sci Transl Med. 2021 [citado 10/08/2021];13(618). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.science.org/doi/10.1126/scitranslmed.abj3789">http://www.science.org/doi/10.1126/scitranslmed.abj3789</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tostanoski</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mercado</surname>
+							<given-names>NB</given-names>
+						</name>
+						<name>
+							<surname>McMahan</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Jacob-Dolan</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Martinot</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Immunity elicited by natural infection or Ad26.COV2.S vaccination protects hamsters against SARS-CoV-2 variants of concern</article-title>
+					<source>Sci Transl Med</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>13</volume>
+					<issue>618</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.science.org/doi/10.1126/scitranslmed.abj3789">http://www.science.org/doi/10.1126/scitranslmed.abj3789</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Abdelnabi R, Boudewijns R, Foo CS, Seldeslachts L, Sanchez-Felipe L, Zhang X, et al. Comparing infectivity and virulence of emerging SARS-CoV-2 variants in Syrian hamsters. EBioMedicine. 2021 [citado 10/08/2021];68:103403. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.thelancet.com/action/showPdf?pii=S2352-3964%2821%2900196-1">http://www.thelancet.com/action/showPdf?pii=S2352-3964%2821%2900196-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abdelnabi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Boudewijns</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Foo</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Seldeslachts</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sanchez-Felipe</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Comparing infectivity and virulence of emerging SARS-CoV-2 variants in Syrian hamsters</article-title>
+					<source>EBioMedicine</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>68</volume>
+					<size units="pages">103403</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.thelancet.com/action/showPdf?pii=S2352-3964%2821%2900196-1">http://www.thelancet.com/action/showPdf?pii=S2352-3964%2821%2900196-1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Wu J, Zhang L, Zhang Y, Wang H, Ding R, Nie J, et al. The Antigenicity of Epidemic SARS-CoV-2 Variants in the United Kingdom. Front Immunol. 2021 [citado 10/08/2021];12:687869. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8247764/pdf/fimmu-12-687869.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8247764/pdf/fimmu-12-687869.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Ding</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Nie</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The Antigenicity of Epidemic SARS-CoV-2 Variants in the United Kingdom</article-title>
+					<source>Front Immunol</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>12</volume>
+					<size units="pages">687869</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8247764/pdf/fimmu-12-687869.pdf">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8247764/pdf/fimmu-12-687869.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Kaku Y, Kuwata T, Zahid HM, Hashiguchi T, Noda T, Kuramoto N, et al. Resistance of SARS-CoV-2 variants to neutralization by antibodies induced in convalescent patients with COVID-19. Cell Rep. 2021 [citado 10/08/2021];36(2):109385. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8226103/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8226103/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaku</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kuwata</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Zahid</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Hashiguchi</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Noda</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Kuramoto</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Resistance of SARS-CoV-2 variants to neutralization by antibodies induced in convalescent patients with COVID-19</article-title>
+					<source>Cell Rep</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>36</volume>
+					<issue>2</issue>
+					<size units="pages">109385</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8226103/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8226103/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Zhang H, Deng S, Ren L, Zheng P, Hu X, Jin T, et al. Profiling CD8+ T cell epitopes of COVID-19 convalescents reveals reduced cellular immune responses to SARS-CoV-2 variants. Cell Rep. 2021 [citado 10/08/2021];36(11):109708. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2211124721011554/pdfft?md5=220064ff6fedd3ca23b3546a9c79d37a&amp;pid=1-s2.0-S2211124721011554-main.pdf">http://www.sciencedirect.com/science/article/pii/S2211124721011554/pdfft?md5=220064ff6fedd3ca23b3546a9c79d37a&amp;pid=1-s2.0-S2211124721011554-main.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Deng</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ren</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zheng</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Jin</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Profiling CD8+ T cell epitopes of COVID-19 convalescents reveals reduced cellular immune responses to SARS-CoV-2 variants</article-title>
+					<source>Cell Rep</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>36</volume>
+					<issue>11</issue>
+					<size units="pages">109708</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/pii/S2211124721011554/pdfft?md5=220064ff6fedd3ca23b3546a9c79d37a&amp;pid=1-s2.0-S2211124721011554-main.pdf">http://www.sciencedirect.com/science/article/pii/S2211124721011554/pdfft?md5=220064ff6fedd3ca23b3546a9c79d37a&amp;pid=1-s2.0-S2211124721011554-main.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Hoffmann M, Arora P, Groß R, Seidel A, Hörnich BF, Hahn AS, et al. SARS-CoV-2 variants B.1.351 and P.1 escape from neutralizing antibodies. Cell. 2021 [citado 10/08/2021];184(9):2384-93. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7980144/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7980144/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hoffmann</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Arora</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Groß</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Seidel</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hörnich</surname>
+							<given-names>BF</given-names>
+						</name>
+						<name>
+							<surname>Hahn</surname>
+							<given-names>AS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 variants B.1.351 and P.1 escape from neutralizing antibodies</article-title>
+					<source>Cell</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>184</volume>
+					<issue>9</issue>
+					<fpage>2384</fpage>
+					<lpage>2393</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7980144/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7980144/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Vasireddy D, Vanaparthy R, Mohan G, Malayala SV, Atluri P. Review of COVID-19 Variants and COVID-19 Vaccine Efficacy: What the Clinician Should Know? J Clin Med Res. 2021 [citado 10/08/2021];13(6):317-25. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8256910/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8256910/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vasireddy</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Vanaparthy</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mohan</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Malayala</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Atluri</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Review of COVID-19 Variants and COVID-19 Vaccine Efficacy: What the Clinician Should Know?</article-title>
+					<source>J Clin Med Res</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10/08/2021</date-in-citation>
+					<volume>13</volume>
+					<issue>6</issue>
+					<fpage>317</fpage>
+					<lpage>325</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8256910/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8256910/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

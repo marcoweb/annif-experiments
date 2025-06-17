@@ -1,0 +1,51 @@
+#ITI#Evaluating Close Fit in Ordinal Factor Analysis Models With Multiply Imputed Data#FTI#
+#IRE# Multiple imputation (MI) is one of the recommended techniques for handling missing data in ordinal factor analysis models. However, methods for computing MI-based fit indices under ordinal factor analysis models have yet to be developed. In this short note, we introduced the methods of using the standardized root mean squared residual (SRMR) and the root mean square error of approximation (RMSEA) to assess the fit of ordinal factor analysis models with multiply imputed data. Specifically, we described the procedure for computing the MI-based sample estimates and constructing the confidence intervals. Simulation results showed that the proposed methods could yield sufficiently accurate point and interval estimates for both SRMR and RMSEA, especially in conditions with larger sample sizes, less missing data, more response categories, and higher degrees of misfit. Based on the findings, implications and recommendations were discussed.#FRE#
+#IPC# missing data; model fit; multiple imputation; ordinal factor analysis model; RMSEA; SRMR#FPC#
+#IRF# Allison P.D., Estimation of linear models with incomplete data, Sociological Methodology, 17, 1, pp. 71-103, (1987); 
+Arbuckle J.L., Full information estimation in the presence of incomplete data, Advanced structural equation modeling, pp. 243-277, (1996); 
+Asparouhov T., Muthen B., Multiple imputation with Mplus: Technical implementation, (2010); 
+Asparouhov T., Muthen B., Weighted least squares estimation with missing data: Technical implementation, (2010); 
+Baker F.B., Kim S.H., Item response theory: Parameter estimation techniques, (2004); 
+Bentler P.M., Comparative fit indexes in structural models, Psychological Bulletin, 107, 2, pp. 238-246, (1990); 
+Bentler P.M., Bonett D.G., Significance tests and goodness of fit in the analysis of covariance structures, Psychological Bulletin, 88, 3, pp. 588-606, (1980); 
+Brosseau-Liard P.E., Savalei V., Adjusting incremental fit indices for nonnormality, Multivariate Behavioral Research, 49, 5, pp. 460-470, (2014); 
+Enders C.K., Applied missing data analysis, (2010); 
+Finkbeiner C., Estimation for the multiple factor model when data are missing, Psychometrika, 44, 4, pp. 409-420, (1979); 
+Forero C.G., Maydeu-Olivares A., Estimation of IRT graded response models: Limited versus full information methods, Psychological Methods, 14, 3, pp. 275-299, (2009); 
+Forero C.G., Maydeu-Olivares A., Gallardo-Pujol D., Factor analysis with ordinal indicators: A Monte Carlo study comparing DWLS and ULS estimation, Structural Equation Modeling, 16, 4, pp. 625-641, (2009); 
+Hu L.T., Bentler P.M., Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives, Structural Equation Modeling, 6, 1, pp. 1-55, (1999); 
+Jia F., Methods for handling missing non-normal data in structural equation modeling, (2016); 
+Jia F., Wu W., Evaluating methods for handling missing ordinal data in structural equation modeling, Behavior Research Methods, 51, 5, pp. 2337-2355, (2019); 
+Joreskog K.G., A general approach to confirmatory maximum likelihood factor analysis, Psychometrika, pp. 183-202, (1969); 
+Joreskog K.G., Sorbom D., LISREL 7. A guide to the program and applications, (1988); 
+Kamata A., Bauer D.J., A note on the relation between factor analytic and item response theory models, Structural Equation Modeling, 15, 1, pp. 136-153, (2008); 
+Lai K., Correct point estimator and confidence interval for RMSEA given categorical data, Structural Equation Modeling, 27, 5, pp. 678-695, (2020); 
+Likert R., A technique for the measurement of attitudes, Archives of Psychology, 140, pp. 44-53, (1932); 
+Marsh H.W., Hau K.T., Wen Z., In search of golden rules: Comment on hypothesis-testing approaches to setting cutoff values for fit indexes and dangers in overgeneralizing Hu and Bentler’s (1999) findings, Structural Equation Modeling, 11, 3, pp. 320-341, (2004); 
+Maydeu-Olivares A., Assessing the size of model misfit in structural equation models, Psychometrika, 82, 3, pp. 533-558, (2017); 
+Maydeu-Olivares A., Maximum likelihood estimation of structural equation models for continuous data: Standard errors and goodness of fit, Structural Equation Modeling, 24, 3, pp. 383-394, (2017); 
+Maydeu-Olivares A., Joe H., Limited-and full-information estimation and goodness-of-fit testing in 2n contingency tables: A unified framework, Journal of the American Statistical Association, 100, 471, pp. 1009-1020, (2005); 
+Muthen B., Goodness of fit with categorical and other nonnormal variables, Testing structural equation models, pp. 205-234, (1993); 
+Muthen B.O., du Toit S.H.C., Spisic D., Robust inference using weighted least squares and quadratic estimating equations in latent variable modeling with categorical and continuous outcomes, (1997); 
+Muthen L.K., Muthen B.O., Mplus user’s guide, (1998); 
+Peng C.Y.J., Harwell M., Liou S.M., Ehman L.H., Advances in missing data methods and implications for educational research, Real data analysis, pp. 31-78, (2006); 
+R: A language and environment for statistical computing, (2020); 
+Radloff L.S., The CES-D scale: A self-report depression scale for research in the general population, Applied Psychological Measurement, 1, 3, pp. 385-401, (1977); 
+Rhemtulla M., Brosseau-Liard P.E.E., Savalei V., When can categorical variables be treated as continuous? A comparison of robust continuous and categorical SEM estimation methods under suboptimal conditions, Psychological Methods, 17, 3, pp. 354-373, (2012); 
+Rosseel Y., lavaan: An R package for structural equation modeling, Journal of Statistical Software, 48, 2, pp. 1-36, (2012); 
+Rubin D.B., Inference and missing data, Biometrika, 63, 3, pp. 581-592, (1976); 
+Rubin D.B., Multiple imputation for nonresponse in surveys, (1987); 
+Saris W.E., Satorra A., van der Veld W.M., Testing structural equation models or detection of misspecifications?, Structural Equation Modeling, 16, 4, pp. 561-582, (2009); 
+Savalei V., (2017); 
+Savalei V., Improving fit indices in structural equation modeling with categorical data, Multivariate Behavioral Research, 56, 3, pp. 390-407, (2021); 
+Shi D., DiStefano C., Zheng X., Liu R., Jiang Z., Fitting latent growth models with small sample sizes and non-normal missing data, International Journal of Behavioral Development, 45, 2, pp. 179-192, (2021); 
+Shi D., Lee T., Fairchild A.J., Maydeu-Olivares A., Fitting ordinal factor analysis models with missing data: A comparison between pairwise deletion and multiple imputation, Educational and Psychological Measurement, 80, 1, pp. 41-66, (2020); 
+Shi D., Maydeu-Olivares A., The effect of estimation methods on SEM fit indices, Educational and Psychological Measurement, 80, 3, pp. 421-445, (2020); 
+Shi D., Maydeu-Olivares A., Rosseel Y., Assessing fit in ordinal factor analysis models: SRMR vs. RMSEA, Structural Equation Modeling, 27, pp. 1-15, (2020); 
+Steiger J., Lind J.C., Statistically based tests for the number of common factors, (1980); 
+Tucker L.R., Lewis C., A reliability coefficient for maximum likelihood factor analysis, Psychometrika, 38, 1, pp. 1-10, (1973); 
+Children of the NLSY79, 1979-2016, (2019); 
+Xia Y., Investigating the chi-square-based model-fit indexes for WLSMV and ULSMV estimators, (2016); 
+Xia Y., Yang Y., RMSEA, CFI, and TLI in structural equation modeling with ordered categorical data: The story they tell depends on the estimation methods, Behavior Research Methods, 51, 1, pp. 409-428, (2019); 
+Zhang Z., Wang L., Methods for mediation analysis with missing data, Psychometrika, 78, 1, pp. 154-184, (2013); 
+Zyphur M.J., Bonner C.V., Tay L., Structural equation modeling in organizational research: The state of our science and some proposals for its future, Annual Review of Organizational Psychology and Organizational Behavior, 10, pp. 495-517, (2023)#FRF#

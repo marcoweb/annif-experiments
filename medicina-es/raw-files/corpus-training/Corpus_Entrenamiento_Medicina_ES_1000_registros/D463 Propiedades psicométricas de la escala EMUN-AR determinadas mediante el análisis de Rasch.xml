@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v39i1.4103</article-id>
+			<article-id pub-id-type="publisher-id">00012</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículos originales</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Propiedades psicométricas de la escala EMUN-AR determinadas mediante el análisis de Rasch</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Psychometric variables of the EMUN-AR scale using Rasch analysis</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rivera</surname>
+						<given-names>Mauricio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cano</surname>
+						<given-names>Óscar</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rodríguez-Losada</surname>
+						<given-names>Jorge</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2">2</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Sánchez</surname>
+						<given-names>Ricardo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2">2</xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Facultad de Medicina, posgrado de Psiquiatría, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgdiv2">Facultad de Medicina</institution>
+				<institution content-type="orgdiv1">posgrado de Psiquiatría</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Departamento de Psiquiatría, Facultad de Medicina, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgdiv2">Departamento de Psiquiatría</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Ricardo Sánchez, Carrera 65 No 22A-43, apartamento 502, torre 7, Bogotá, D.C., Colombia Teléfono: (313) 419 0729 <email>rsanchezpe@unal.edu.co</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declaramos que no tenemos conflictos de intereses personales ni financieros, ni ningún acuerdo que pudiera representar un conflicto con el contenido del manuscrito.</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jan-Mar</season>
+				<year>2019</year>
+			</pub-date>
+			<volume>39</volume>
+			<issue>1</issue>
+			<fpage>113</fpage>
+			<lpage>131</lpage>
+			<history>
+				<date date-type="received">
+					<day>28</day>
+					<month>09</month>
+					<year>2017</year>
+				</date>
+				<date date-type="accepted">
+					<day>09</day>
+					<month>08</month>
+					<year>2018</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>Las escalas de autorreporte se han considerado útiles para evaluar y vigilar los síntomas de la enfermedad maníaco-depresiva. Uno de estos instrumentos, la escala de medición de la enfermedad maníaco-depresiva mediante autorreporte (EMUN-AR), no se ha validado aún.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Validar la escala EMUN-AR usando el modelo de Rasch.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>La escala EMUN-AR mide 26 ítems que evalúan por dimensiones los síntomas de la enfermedad maníaco-depresiva en tres categorías: frecuencia, intensidad y grado de molestia causada. Para evaluar las propiedades psicométricas de la escala, se efectuaron análisis factoriales exploratorios con el fin de tener una aproximación de su estructura latente, y se usaron modelos de Rasch que incluyeron la 'unidimensionalidad', la confiabilidad, el ajuste de ítems, el ordenamiento de umbrales, y los mapas de personas e ítems.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>Se seleccionó una muestra de 267 pacientes hospitalizados, 204 de los cuales había sufrido un episodio maníaco (76,4 %) y estaba recibiendo tratamiento farmacológico. Se encontró una estructura factorial que puede resumirse en cuatro dominios:</p>
+					<p>activación, inhibición, ideas depresivas e inadaptación. El análisis de Rasch evidenció la unidimensionalidad en los factores, adecuados valores de confiabilidad, buen ajuste de los 26 ítems en general (excepto en el ítem que mide las ideas de muerte o suicidio), un</p>
+					<p>funcionamiento deficiente del sistema de calificación de los ítems y un cubrimiento limitado de los síntomas de la enfermedad correspondientes a las formas atenuadas.</p>
+				</sec>
+				<sec>
+					<title>Conclusión. </title>
+					<p>Se modificó la escala original en dos aspectos: se ajustó un ítem cuyos indicadores marginales tenían mal ajuste y se redujo el número de categorías. En su forma actual, el instrumento es apropiado para medir las formas graves de la enfermedad maníaco-depresiva, mas no así las atenuadas. </p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Self-report scales have been considered to be useful for evaluating and monitoring symptoms of manic-depressive illnesses. The EMUN-AR scale is one of such scales but it has not been validated.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To validate the EMUN-AR scale using Rasch models.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>The EMUN-AR scale measures 26 items to assess comprehensively symptoms of manic-depressive illnesses in three domains: Frequency, severity, and level of disturbance caused by the symptoms. To test the psychometric properties of this scale, we used the exploratory factorial and Rasch analyses. The Rasch analysis included unidimensionality, reliability, item fit, threshold ordering, and person-item maps.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>The study included 267 hospitalized patients, most of them with a manic episode diagnosis (n=204, 76.4%), and receiving pharmacological treatment. The factor structure was summarized in four domains: Activation, inhibition, depressive ideation, and maladaptive behavior. The Rasch analysis supported unidimensionality of the EMUN-AR factors, satisfactory levels of reliability, and appropriate item fit, except for one of the items measuring death or suicidal thoughts. However, the scale did not measure adequately the mild forms of the illness given its redundant and unordered thresholds.</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>The EMUN-AR was modified in two aspects: An item whose marginal indicators were poorly adjusted and the reduction in the number of categories. In its current form, the EMUN-AR is appropriate for measuring severe forms of the illnesses, but it does not adequately measure the mild forms of manic-depressive illnesses.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Psiquiatría;servicio de psiquiatría en hospital</kwd>
+				<kwd>trastorno bipolar</kwd>
+				<kwd>estudios de validación</kwd>
+				<kwd>autoevaluación</kwd>
+				<kwd>autoevaluación diagnóstica</kwd>
+				<kwd>escalas de valoración psiquiátrica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Psychiatry</kwd>
+				<kwd>psychiatric department, hospital</kwd>
+				<kwd>bipolar disorder</kwd>
+				<kwd>validation studies</kwd>
+				<kwd>self-assessment</kwd>
+				<kwd>diagnostic self-evaluation</kwd>
+				<kwd>psychiatric status rating scales</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="8"/>
+				<equation-count count="0"/>
+				<ref-count count="39"/>
+				<page-count count="19"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El trastorno bipolar es una condición relativamente frecuente. Su prevalencia en diversas situaciones de la atención primaria de muchos países (por ejemplo, Estados Unidos, Hungría, Finlandia, España, Bélgica, Canadá, Francia y Brasil) alcanza valores entre 7,6 y 9,8 % <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, y la prevalencia a lo largo de la vida se encuentra entre el 1 y el 2 % en la población mayor de 20 años <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>Es un trastorno mental crónico y grave que se caracteriza por la aparición irregular y frecuentemente alternada de episodios de activación (manía- hipomanía) o inhibición (depresión) entremezclados con períodos de eutimia. La gravedad de dichos episodios varía mucho y pueden verse desde cuadros clínicos con sintomatología leve hasta episodios muy graves que requieren hospitalizaciones prolongadas. Esta variabilidad en la gravedad de los síntomas ha llevado a plantear la existencia de un espectro bipolar <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>, cuya frecuencia en la población general es de hasta 6,5 % <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. El trastorno bipolar es potencialmente letal (el riesgo de suicidio es veinte veces mayor que en la población general) <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, y tiene unas repercusiones sociales y económicas importantes que pueden atenuarse si se hacen un diagnóstico y un tratamiento adecuados.</p>
+		<p>Se ha encontrado que, a menudo, en la evaluación del médico tratante los síntomas hipomaníacos de la enfermedad bipolar pasan desapercibidos y se tiende a subvalorar los síntomas depresivos <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Estos hallazgos han justificado el desarrollo de instrumentos de autorreporte para diagnosticar categorías relacionadas con el espectro bipolar, entre los cuales se encuentran: el cuestionario de depresión bipolar II <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, el cuestionario de autorreporte de síntomas afectivos (MOODS-SR) <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, la lista de chequeo delahipomanía<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>,las escalas análogo-visuales múltiples parabipolaridad, la escala de maníaauto calificada de Altman<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>,el inventario rápido de sintomatología depresiva <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, el inventario de manía por autorreporte <xref ref-type="bibr" rid="B16"><sup>16</sup></xref> y la escala del estado interno<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+		<p>Las medidas de los resultados reportados por los pacientes (<italic>Patient Reported Outcome Measures</italic>, PROM) vienen ganando importancia en la atención en salud <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Aunque habitualmente las PROM se han relacionado con medidas de la calidad de vida, también se incluyen en esta categoría reportes del estado de salud, el autorreporte de disfuncionalidad, el de satisfacción del paciente y la autoevaluación de síntomas, entre otros <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+		<p>Aunque la utilidad de los instrumentos de autoevaluación en pacientes con trastornos del estado de ánimo se ha cuestionado en diferentes estudios <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, algunos autores han encontrado un funcionamiento similar de las escalas de evaluación empleadas por el médico tratante y la autoevaluación de la depresión <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Hay estudios que sugieren que, independientemente de la gravedad de su cuadro clínico, los pacientes con sintomatología maníaca pueden calificar sus síntomas de manera válida y confiable <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>, y que tales instrumentos resultan de utilidad en la práctica <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Además, se ha encontrado que con este tipo de instrumentos se detectan manera adecuada los efectos del tratamiento, por lo cual pueden ser de gran utilidad para vigilar el resultado de las intervenciones terapéuticas <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Otras ventajas de los instrumentos de autoevaluación incluyen la posibilidad de efectuar una medición más frecuente de los síntomas, la utilidad que pueden tener en las intervenciones de psicoeducación y la capacidad de detectar con mayor facilidad cambios rápidos en el cuadro clínico, como sucede en variedades de ciclos rápidos de la enfermedad bipolar <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+		<p>Hasta donde tenemos conocimiento, no existen instrumentos de autoevaluación de los síntomas de la enfermedad bipolar que se hayan desarrollado y validado en poblaciones hispanoamericanas; el único instrumento que encontramos disponible fue la escala de autorreporte para medición de síntomas maniacos en enfermedad maniaco depresiva (EMUN-AR) <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, basada en la escala para manía de la Universidad Nacional de Colombia (EMUN) <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>, cuyas propiedades psicométricas no se han determinado aún. Además, el instrumento no fue diseñado para hacer el diagnóstico sino para evaluar la evolución del trastorno <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+		<p>El objetivo del presente estudio fue validar la escala EMUN-AR para determinar sus propiedades psicométricas. Según la información disponible, este es el primer instrumento desarrollado en una población hispanoparlante, que utiliza la medición de los resultados reportados por los propios pacientes.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p>La escala se validó utilizando la metodología de análisis de Rasch para ítems politómicos mediante modelos de escala de clasificación. Los pacientes se evaluaron entre el 2012 y el 2016, en diferentes servicios de hospitalización de instituciones de atención psiquiátrica en Bogotá (Clínica Fray Bartolomé de las Casas, Clínica Santa Clara, Hospital La Victoria, Clínica Nuestra Señora de la Paz, Hospital Simón Bolívar), en Chía (Hospital San Juan de Dios) y en Manizales (Hospital San Juan de Dios).</p>
+			<p>Se consideraron como elegibles los pacientes con diagnóstico consignado en la historia clínica de trastorno bipolar en episodio maníaco, hipomaníaco mixto, que supieran leer y escribir, y que expresaran su aceptación de participar en el estudio luego de tramitar un consentimiento informado.</p>
+			<p>Los pacientes elegibles fueron evaluados por dos investigadores, psiquiatras con experiencia clínica en el diagnóstico y el tratamiento de la enfermedad bipolar, quienes de manera independiente hicieron una entrevista semiestructurada basada en criterios del DSM-IV, durante el curso de los primeros ocho días a partir del ingreso del paciente.</p>
+			<p>Después de la evaluación, un investigador independiente, también médico psiquiatra, contrastaba el diagnóstico efectuado por cada psiquiatra; en caso de que no hubiera concordancia, se trataba de llegar a un consenso informal con la participación de los dos psiquiatras y el investigador independiente. En la muestra del estudio, se incluyeron solo los pacientes sobre cuyo diagnóstico hubo acuerdo o consenso entre los investigadores.</p>
+			<p>La escala evaluada consta de 26 ítems, cada uno con tres dimensiones calificadas de manera ordinal, mediante los cuales se evalúan los síntomas del trastorno bipolar aparecidos durante la semana anterior a su utilización.</p>
+			<p>Esta escala se desarrolló para medir los síntomas de la enfermedad maníaco-depresiva a partir del reporte del propio paciente y desde una perspectiva dimensional, asumiendo que los síntomas depresivos pueden ser parte constitutiva del síndrome maníaco, por lo que en nueve de los 26 ítems se evalúa la sintomatología depresiva <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. La escala permite evaluar el síndrome maníaco en tres dimensiones: frecuencia, intensidad y grado de inadaptación generado por los síntomas.</p>
+			<p>Los 26 ítems, distribuidos en estas tres dimensiones, se miden en una escala de tipo Likert con diez categorías, que van de “nada” a “muchísimo” para la intensidad y, de “nunca” a “todo el tiempo”, para la frecuencia. Para el grado de inadaptación, la escala tiene cuatro categorías, también en escala ordinal, que van de “ninguna molestia” a “mucha molestia”.</p>
+			<p>El puntaje total de la escala resulta de la suma de los puntos de cada uno de los ítems, de manera que los puntajes más altos reflejan los cuadros clínicos de mayor gravedad. Además, se diseñó un instrumento en el que se registraron variables como el sexo, la edad, los medicamentos que estaba recibiendo el paciente en el momento de la evaluación y el tiempo de evolución de la enfermedad.</p>
+			<sec>
+				<title>Análisis estadístico</title>
+				<p>Se hicieron análisis descriptivos de las variables demográficas, clínicas y de los puntajes de la escala en cada una de sus tres dimensiones. Para resumir las variables continuas, se usaron medias o medianas con sus correspondientes medidas de dispersión: desviación estándar (DE) o rango intercuartílico (RIC). En el caso de las variables categóricas, se reportaron frecuencias y porcentajes.</p>
+				<p>El tamaño de la muestra se ajustó a la recomendación de un mínimo de 200 observaciones como número aceptable para los análisis factoriales <xref ref-type="bibr" rid="B29"><sup>29</sup></xref> y un mínimo de 250 como número adecuado para el análisis con el modelo de Rasch <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+				<p>Se efectuó un análisis factorial exploratorio para hacer una primera aproximación a la estructura de dominios del instrumento en cada una de sus dimensiones. Este análisis preliminar se basó en la recomendación de disponer tempranamente de posibles dimensiones latentes antes del análisis de Rasch<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>Considerando que cada ítem estaba calificado en una escala ordinal, se calcularon matrices de correlación policórica, a partir de las cuales se hicieron pruebas de viabilidad de factorización (la de esfericidad de Bartlett y la de Kaiser-Neyer-Olkin o KMO) <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Para determinar el número de factores, se utilizaron un análisis paralelo <xref ref-type="bibr" rid="B33"><sup>33</sup></xref> y un método de extracción de factores de mínimos cuadrados ponderados y, posteriormente, una rotación ortogonal y una oblicua, para determinar la estructura factorial que permitiera la mejor interpretación. Para estos procedimientos, se utilizó el programa R. Teniendo en cuenta que todos los ítems del instrumento en cada uno de sus tres componentes (intensidad, frecuencia y grado de molestia) se miden en una misma escala ordinal, para el análisis de Rasch se usaron los siguientes procedimientos en un modelo de escala de calificación:</p>
+				<p>
+					<list list-type="order">
+						<list-item>
+							<p>Evaluación de la unidimensionalidad mediante la evaluación de los valores de cuadrado medio de ajuste con información ponderada (<italic>infit</italic>): el rango aceptable está entre 0,6 y 1,5 y los valores correspondientes a la desviación estándar de los coeficientes estandarizados menores de dos. Otra forma de asumir la unidimensionalidad es cuando, en el análisis de componentes principales de residuos, la varianza explicada por la medición es mayor del 40 % y el valor propio de la varianza no explicada en el primer contraste es menor a dos valores propios<sub>
+ <sup>(34)</sup>
+</sub> .</p>
+						</list-item>
+						<list-item>
+							<p>Determinación de los índices de confiabilidad de personas e ítems: se calcularon los coeficientes de confiabilidad usando el análisis de componentes principales de residuos. Como medida adicional de confiabilidad, se estimaron las medidas de separación (número de niveles en los cuales pueden agruparse tanto los ítems como los individuos). Se consideran adecuadas las medidas de separación superiores a dos para las personas y a tres para los ítems <sub>
+ <sup>(35)</sup>
+</sub> .</p>
+						</list-item>
+						<list-item>
+							<p>Examen de la calidad del ajuste de cada uno de los ítems al modelo mediante la estimación del cuadrado medio (<italic>median square</italic>, MSQ) de los parámetros estadísticos de ajuste <italic>infit</italic>, es decir, el ajuste sensible a los casos atípicos (<italic>outliers</italic>) y el ajuste sensible a los patrones internos(<italic>outfit</italic>).</p>
+						</list-item>
+						<list-item>
+							<p>Evaluación de la calidad de las categorías de respuesta de los ítems, para lo cual se evaluó qué tan adecuado era el orden de las categorías en la detección de una mayor intensidad del atributo (mayor gravedad del episodio de la enfermedad maniaco depresiva). Además, se evaluaron las curvas de probabilidades de las categorías.</p>
+						</list-item>
+						<list-item>
+							<p>Evaluación de los mapas de personas e ítems. Estos análisis se hicieron con el programa Winsteps™.</p>
+						</list-item>
+					</list>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Consideraciones éticas</title>
+			<p>El estudio fue aprobado por el Comité de Ética de la Facultad de Medicina de la Universidad Nacional de Colombia.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En el estudio participaron 267 pacientes, de los cuales 114 eran mujeres (42,7 %). La media de edad fue de 40,3 años (DE=12,7 años). La mediana de evolución de la enfermedad fue de 12 años (RIC=16 años).</p>
+			<p>El tipo de episodio más frecuentemente encontrado fue el maniaco (76,4%;n=204), seguido del depresivo, el mixto yel no especificado (6,7% paracada una de estas tres categorías;n=17) y, por último, del hipomaníaco (4,5%;n=12).</p>
+			<p>En total, 251 (94 %) pacientes recibían tratamiento con moduladores del ánimo, 208 (78 %), con antipsicóticos, 163 (61 %), con benzodiacepinas y, 16 (6 %), con antidepresivos.</p>
+			<p>La mediana del puntaje en la dimensión de frecuencia fue de 67 (RIC=71) y, en la de intensidad, de 71 (RIC=78) (en estas dos dimensiones los posibles rangos de los puntajes estuvieron entre 0 y 260).En la dimensión de la molestia, la mediana fue de 18 (RIC=29), dimensión en la que los puntajes estuvieron entre 0 y78.</p>
+			<p>En los componentes de intensidad y frecuencia, los ítems que tuvieron la mayor mediana de puntaje fueron la hiperbulia y la euforia, en tanto que aquellos con las menores medianas fueron los relacionados con los</p>
+			<p>episodios depresivos (<xref ref-type="table" rid="t1">cuadro 1</xref>). En el grado de molestia, las medianas de la puntuación estuvieron por debajo de 2 en todos los ítems.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Estructura factorial de cada una de las dimensiones de la escala EMUN-AR</title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-39-01-00113-gt1.png"/>
+				</table-wrap>
+			</p>
+			<p>En los componentes de frecuencia, intensidad y nivel de molestia, respectivamente, las medianas (RIC) según los diagnósticos fueron las siguientes: episodio maníaco: 64,5 (71,5), 69,5 (78) y 13,5 (25,5); episodio depresivo: 63 (61), 81 (78) y 35 (18); episodio mixto: 100 (39), 105(76) y 39 (22); episodio no especificado: 81 (42), 74 (46) y 24 (15);episodio hipomaníaco: 23 (77), 37,5 (87) y 13,5 (36,5).</p>
+			<sec>
+				<title>Análisis factorial</title>
+				<p>En los análisis de viabilidad de la factorización de las matrices de correlación, se encontraron los siguientes resultados: para la dimensión de intensidad, el KMO fue de 0,91; para la dimensión de frecuencia, de 0,91, y para la de molestia, de 0,93. En las tres dimensiones, el test de esfericidad de Bartlett arrojó un valor de p menor de 0,0001. Según el criterio de análisis paralelo, se sugirieron cuatro factores en las dimensiones de frecuencia y molestia, y cinco en la dimensión de intensidad. Estos factores explicaron el 63 % de la varianza en la dimensión de intensidad, el 60 % en la dimensión de frecuencia y el 51 % en la de molestia.</p>
+				<p>Los resultados del análisis factorial se presentan en el <xref ref-type="table" rid="t1">cuadro 1</xref>. La estructura de dominios fue similar en cada una de las tres dimensiones de la escala, especialmente en las dimensiones de intensidad y frecuencia; esta estructura factorial puede resumirse de la siguiente manera.</p>
+				<p>Factor 1 (F1): representa un síndrome de activación y está compuesto por los síntomas típicos del episodiomaníaco.</p>
+				<p>Factor 2 (F2): corresponde a un síndrome de inhibición en el cual se agrupan los síntomas típicos de un episodiodepresivo.</p>
+				<p>Factor 3 (F3): agrupa síntomas relacionados con las consecuencias sociales del estado de activación oinhibición.</p>
+				<p>Factor4(F4):correspondeaundominiorelacionadoconideasdepresivas.</p>
+				<p>Factor 5 (F5): representa un síndrome de descontrol caracterizado por irritabilidad, hostilidad yagresividad.</p>
+				<p>Los factores 3 y 5 tienden a agruparse en uno solo, cuando los síntomas se miden según su frecuencia o el grado de molestia que generan. Esta agrupación corresponde a un dominio relacionado con los síntomas de inadaptación. </p>
+			</sec>
+			<sec>
+				<title>Análisis de Rasch</title>
+				<p><italic>Unidimensionalidad.</italic> En los cuatro dominios encontrados en el análisis factorial exploratorio, la varianza explicada por la medición superó en todos los casos el 40 %, y el valor propio de la varianza no explicada en el primer contraste fue menor de dos valores propios (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Valores de la varianza de los residuos dentro de cada factor y para cada componente de la escala*</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00113-gt2.png"/>
+					</table-wrap>
+				</p>
+				<p>Para el componente de frecuencia<italic>,</italic> los valores de cuadrado medio del <italic>infit</italic> se ubicaron entre 0,74 para el ítem 6 (<italic>f</italic>uga de ideas) y 1,54 para el ítem 12 (ideación de muerte o suicidio). Para el componente de intensidad, estos valores se encontraron entre 0,71 para el ítem 6 (fuga de ideas)y 1,56 para el ítem 12 (ideación de muerte o suicidio). Para el componente del grado de molestia<italic>,</italic> dichos valores se encontraron entre 0,81 para el ítem 15 (<italic>h</italic>iperactividad) y 1,15 para el 19 (<italic>d</italic>isminución de la necesidad de dormir). Los valores globales de los cuadrados medios del <italic>infit</italic> y el <italic>outfit</italic> estuvieron dentro de los rangos considerados adecuados (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Medidas de ajuste y confiabilidad de los modelos correspondientes a cada componente de la escala</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00113-gt3.png"/>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>MNSQ: cuadrados medios; ZSTD: estandarízación Z</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p><italic>Determinación de los índices de confiabilidad de personas e ítems</italic>. Todos los valores de confiabilidad, tanto para las personas como para los ítems, tuvieron valores superiores a 0,8. Los índices de separación fueron superiores a 2 para las personas y, a 3, para los ítems (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p><italic>Examen de la calidad del ajuste de cada uno de los ítems al modelo</italic>. Para el ítem 12 (ideación de muerte o suicidio)<italic>,</italic> los cuadrados medios (MNSQ) del <italic>infit</italic> arrojaron valores ligeramente superiores a 1,5 en los componentes de intensidad y frecuencia y valores superiores a tres en los resultados estandarizados como un puntaje z <italic>(standardized as a z-score</italic>, ZSTD) de los tres componentes (<xref ref-type="table" rid="t4">cuadro 4</xref>). Esto sugiere que este ítem puede presentar problemas de ajuste dentro de la escala. Para los demás ítems no se encontraron valores anómalos de MNSQ<italic>,</italic> lo cual indica un adecuado ajuste en el modelo de medición. </p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Medidas de ajuste de los ítems para cada uno de los tres componentes de la escala</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00113-gt4.png"/>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>MNSQ: cuadrados medios; ZSTD: estandarízación Z</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<sec>
+					<title>Evaluación de la calidad de las categorías de respuesta de los ítems</title>
+					<p>Las medidas de las categorías de cada componente de la escala, mostraron los siguientes resultados:</p>
+					<p><italic>Frecuencia:</italic> las medidas para cada uno de los diez niveles consecutivos en los que se evalúan los ítems, fueron 0,97; -1,04; 0,46; 0,21; -1,04; 1,63; -0,81; -0,35; 1,46, y -1,49.</p>
+					<p><italic>Intensidad:</italic> las medidas correspondientes a cada uno de los diez niveles fueron 1,04; -0,83; 0,49; 0,23; -1,38; 1,29; -0,78; 0,19; 0,86, y -1,10.</p>
+					<p><italic>Nivel de molestia:</italic> las medidas en cada uno de los cuatro niveles en los que se evalúan los ítems (de 0 a 3), fueron -0,12; -0,17, y 0,9.</p>
+					<p>Como puede verse, no hubo un ordenamiento en las medidas según el nivel. Las curvas de probabilidad evidenciaron que solo tres categorías captaron la variabilidad de la medida de cada componente (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+					<p>
+						<fig id="f1">
+							<label>El componente</label>
+							<caption>
+								<title>de grado de molestia tiene 4 categorías.</title>
+							</caption>
+							<graphic xlink:href="0120-4157-bio-39-01-00113-gf1.png"/>
+						</fig>
+					</p>
+				</sec>
+			</sec>
+			<sec>
+				<title>Evaluación de los mapas de personas e ítems</title>
+				<p>En las dimensiones de intensidad y frecuencia la media de las personas fue cercana a la desviación estándar media por debajo de la media de dificultad de los ítems; en el grado de molestia esta diferencia fue de una desviación estándar. En las tres dimensiones, aproximadamente la mitad de los pacientes con síntomas maníaco-depresivos de menor intensidad no quedó adecuadamente cubierta por los ítems de la escala, lo cual indica que el instrumento mide cuadros graves de la enfermedad.</p>
+				<p>En los componentes de intensidad y frecuencia los ítems 8 (intensidad de voz baja) y 12 (ideación de muerte o suicidio) fueron los mejores indicadores de la gravedad del cuadro. En el componente del nivel de molestia el mejor indicador fue el aumento de sociabilidad.</p>
+				<p>En cuanto la frecuencia e intensidad de los síntomas de manía clásica (urgencia del pensamiento, megalomanía, hiperbulia, aumento de energía y afecto eufórico), estos son síntomas fácilmente reportados que no permiten definir la gravedad del episodio (se presentan, incluso, en cuadros no tan graves). En el grado de molestia, los síntomas depresivos (irritabilidad, aburrimiento y labilidad) fueron los reportados con más facilidad, por lo que no resultan buenos indicadores de la gravedad del episodio (<xref ref-type="fig" rid="f2">figura 2</xref>).</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Mapas de personas e ítems para cada dimensión de la escala EMUN-AR En el lado izquierdo, se representa la distribución de los pacientes. En el lado derecho, se representa la distribución de los ítems de la escala. Para las personas, en la parte superior se ubican los pacientes con mayor intensidad, frecuencia o molestia causada por los síntomas. Para los ítems, en la parte superior se ubican los que recibieron mayor puntaje por parte de los pacientes con episodios de mayor gravedad.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00113-gf2.png"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El presente estudio se hizo en una muestra conformada principalmente por pacientes que habían presentado un episodio maníaco, pero con poca representación de otro tipo de episodios de la enfermedad maniacodepresiva (especialmente, pacientes con episodios hipomaníacos). Los valores encontrados en las medianas de los ítems reflejan esta característica de la muestra: los puntajes más bajos se encontraron en los ítems que miden características depresivas y de inhibición. Los valores bajos en las medianas de los ítems, especialmente en el componente de nivel de molestia, pudieron deberse a que los pacientes estaban recibiendo tratamiento.</p>
+			<p>En cada uno de los tres componentes del instrumento, se detectó una gradación de los síntomas (el episodio mixto fue el más grave, seguido del depresivo o del no especificado, luego del maníaco y, por último, del hipomaníaco). Esta gradación concuerda con la observación clínica (los episodios hipomaníacos son formas menos graves) y con los hallazgos reportados en otros estudios en los que las formas mixtas resultaron ser las más graves <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>.Esto sugiere que la escala detectó adecuadamente diferentes niveles de gravedad de los episodios, independientemente de su tipo; el instrumento no fue diseñado para medir solamente episodios maniacos, sino también episodios de enfermedad maníaco-depresiva, trastorno en el que se considera que la mayoría de episodios tiene características mixtas.</p>
+			<p>Según los resultados del análisis factorial, el instrumento midió un síndrome constituido por cuatro dominios, en los que se destacaron un componente de activación, otro de inhibición y otro de descontrol y desajuste; la proporción de la varianza explicada por los factores en todos los casos, superó el mínimo recomendado <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>.</p>
+			<p>Los resultados del análisis son similares a los reportados en estudios previos en Colombia al utilizar instrumentos de evaluación a cargo del médico tratante <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>, en los que, además del componente de activación, se reconocen componentes depresivos y de agresividad (de forma similar a los de descontrol y desajuste detectados con los instrumentos de autoevaluación).</p>
+			<p>La diferencia que resulta llamativa entre la estructura factorial medida mediante la autoevaluación y la medida mediante el reporte del clínico, es que en la primera se diferencia el síndrome de activación en dos componentes (motor y cognoscitivo), mientras que, en la segunda, es el componente de inhibición el que se descompone (inhibición e ideas depresivas). Esto podría indicar que la medición por parte del médico tratante hace poco énfasis en la sintomatología depresiva cuando se miden los síntomas de la enfermedad maníaco-depresiva. En este sentido, podría decirse que la EMUN-AR tiene una mayor capacidad para detectar la sintomatología mixta que la versión disponible de la escala utilizada por el médico tratante.</p>
+			<p>En cuanto al análisis de Rasch, se encontró que el instrumento tiene una adecuada dimensionalidad de los factores subyacentes, lo cual es de destacar ya que, si hay violaciones al supuesto de unidimensionalidad, las estimaciones de los parámetros de la escala y de los ítems pueden resultar sesgados por una mala especificación del modelo <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>.</p>
+			<p>Los indicadores de confiabilidad del modelo de Rasch resultaron adecuados (se consideran como buenos los valores mayores de 0,8 excelentes, los mayores de 0,9) <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. Además, los índices de separación de ítems fueron adecuados, lo cual indica una correcta jerarquía de ítems y de personas. Se encontró que solamente uno de los ítems (ideación de muerte o suicidio) presentó indicadores marginales de mal funcionamiento, lo que se explicaría por varias razones:</p>
+			<p>
+				<list list-type="order">
+					<list-item>
+						<p>este ítem constituyó un indicador de la gravedad del episodio y la muestra tuvo niveles más bajos del atributo de los que la escala permite detectar; </p>
+					</list-item>
+					<list-item>
+						<p>el ítem tuvo un mal ajuste y debe retirarse del instrumento;</p>
+					</list-item>
+					<list-item>
+						<p>los indicadores marginales de mal ajuste sugieren que este debía evaluarse nuevamente, aplicándolo en una muestra con una variabilidad mayor o incluyendo en la escala ítems adicionales que expandan el espectro depresivo u otros síntomas adicionales,y </p>
+					</list-item>
+					<list-item>
+						<p>el ítem podría dividirse en dos componentes independientes (muerte o suicidio), pues la causa de los parámetros estadísticos de ajuste podría ser una mala formulación del ítem.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Se consideró que esta última razón debía ser evaluada prioritariamente, por la cual se propuso ajustar el instrumento original e introducir esta modificación.</p>
+			<p>El desempeño de la escala de medición de los ítems evidenció que solamente tres de los diez niveles de medición utilizados resultaron adecuado: los pacientes no fueron capaces de discernir entre tantos puntos de medición (pudieron discriminar adecuadamente tres niveles en cada uno de los tres componentes de la escala).</p>
+			<p>El hallazgo de niveles de medición redundantes en los ítems se acompañó de una falta de orden en la detección de diferentes volúmenes de intensidad del atributo, lo que exige reajustar este sistema de medición: con solo tres niveles se podría evaluar adecuadamente cada síntoma en cualquiera de los tres componentes. Este hallazgo podría explicarse por la poca exposición de los pacientes a sistemas de medición de esta complejidad (son los médicos tratantes los que más están habituados a utilizar tales sistemas).</p>
+			<p>En cuanto a los mapas de personas e ítems, se destaca lo siguiente:</p>
+			<p>
+				<list list-type="order">
+					<list-item>
+						<p>la escala EMUN-AR resultó ser más eficaz para medir cuadros graves de la enfermedad bipolar;</p>
+					</list-item>
+					<list-item>
+						<p>los cuadros leves no pudieron medirse adecuadamente;</p>
+					</list-item>
+					<list-item>
+						<p>si el paciente detectaba la baja intensidad de la voz y reportaba ideaciones de muerte o suicidio entre sus síntomas, el cuadro tenía más probabilidad de ser grave, y</p>
+					</list-item>
+					<list-item>
+						<p>si el aumento de sociabilidad era percibido por el paciente como molesto, había mayor probabilidad de que presentara un cuadro grave.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Teniendo en cuenta estos resultados, el diseño de un instrumento que permita medir todo el espectro de episodios de la enfermedad maníaco- depresiva, debe incluir ítems que cubran el espectro de menor gravedad. Dada la deficiente cobertura de síntomas correspondientes a episodios menos graves, la utilidad del instrumento en su versión actual puede ser mayor en servicios de hospitalización; sin embargo, ello no descarta que se pueda utilizar como un instrumento de autoevaluación que permita al paciente detectar la reactivación de episodios graves de la enfermedad.</p>
+			<p>El estudio tuvo las siguientes dos limitaciones. La primera es que la muestra representaba solo de manera parcial a los pacientes con cuadros graves de trastorno bipolar bajo tratamiento farmacológico en el hospital. Es posible que el tratamiento recibido distorsione la calidad de la medición de la autoevaluación. El hecho de que se tratara de pacientes hospitalizados implica que los síntomas iniciales (que no son tanto de inadaptación) no se registraron, lo que es una debilidad del instrumento. La segunda limitación es que no se registró el tiempo de hospitalización y no se puede descartar que, al ser tan prolongados los periodos de evolución de los síntomas, su percepción se atenúe.</p>
+			<p>La disponibilidad de este instrumento de autoevaluación supone continuar la investigación para agregarle nuevos ítems y, así, incorporar la medición de formas atenuadas de la enfermedad. Los estudios adicionales que midan la concordancia entre la evaluación médica y la autoevaluación del paciente, pueden dar información importante sobre puntos que no se hayan tenido en cuenta en la valoración clínica del paciente, lo cual sería útil en estudios de diagnóstico y seguimiento.</p>
+			<p>La escala EMUN-AR tiene una estructura factorial que incorpora diferentes componentes de la enfermedad maníaco-depresiva y no solo síntomas maníacos. El instrumento demostró tener valores adecuados de confiabilidad y, con excepción de un caso, un ajuste apropiado de los ítems. La escala de medición de los ítems evidenció problemas de redundancia y de falta de capacidad para detectar ordenadamente diferentes grados de intensidad del síntoma. Por esta razón, se modificó su estructura y se dejaron solo tres niveles (<xref ref-type="app" rid="app1">Anexo 1</xref>). La medición adecuada de todo el espectro de la enfermedad requerirá la incorporación de ítems adicionales que midan los síntomas de formas atenuadas.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Cerimele JM, Chwastiak LA, Dodson S, Katon WJ. The prevalence of bipolar disorder in general primary care samples: A systematic review. Gen Hosp Psychiatry. 2014;36:19-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.genhosppsych.2013.09.008">https://doi.org/10.1016/j.genhosppsych.2013.09.008 </ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cerimele</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Chwastiak</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Dodson</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Katon</surname>
+							<given-names>WJ</given-names>
+						</name>
+					</person-group>
+					<article-title>The prevalence of bipolar disorder in general primary care samples: A systematic review</article-title>
+					<source>Gen Hosp Psychiatry</source>
+					<year>2014</year>
+					<volume>36</volume>
+					<fpage>19</fpage>
+					<lpage>25</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.genhosppsych.2013.09.008">https://doi.org/10.1016/j.genhosppsych.2013.09.008 </ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Rouillon F, Gasquet I, Garay RP, Lancrenon S. Screening for bipolar disorder in patients consulting general practitioners in France. J Affect Disord. 2011;130:492-5. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1016/j.jad.2010.10.037">https://doi. org/10.1016/j.jad.2010.10.037 </ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rouillon</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gasquet</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Garay</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Lancrenon</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Screening for bipolar disorder in patients consulting general practitioners in France</article-title>
+					<source>J Affect Disord</source>
+					<year>2011</year>
+					<volume>130</volume>
+					<fpage>492</fpage>
+					<lpage>495</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1016/j.jad.2010.10.037">https://doi. org/10.1016/j.jad.2010.10.037 </ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Goodwin FK, Jamison KR, Ghaemi SN. Manic-depressive illness: Bipolar disorders and recurrent depression. Second edition. New York, N.Y.: Oxford University Press; 2007. p. 1262.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goodwin</surname>
+							<given-names>FK</given-names>
+						</name>
+						<name>
+							<surname>Jamison</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Ghaemi</surname>
+							<given-names>SN</given-names>
+						</name>
+					</person-group>
+					<source>Manic-depressive illness: Bipolar disorders and recurrent depression</source>
+					<edition>Second edition</edition>
+					<publisher-loc>New York, N.Y.</publisher-loc>
+					<publisher-name>Oxford University Press</publisher-name>
+					<year>2007</year>
+					<fpage>1262</fpage>
+					<lpage>1262</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Bauer M, Pfennig A. Epidemiology of bipolar disorders. Epilepsia. 2005;46(Suppl.4):8-13.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bauer</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pfennig</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiology of bipolar disorders</article-title>
+					<source>Epilepsia</source>
+					<year>2005</year>
+					<volume>46</volume>
+					<supplement>4</supplement>
+					<fpage>8</fpage>
+					<lpage>13</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Merikangas KR, Akiskal HS, Angst J, Greenberg PE, Hirschfeld RM, Petukhova M, <italic>et al</italic>. Life time and 12-month prevalence of bipolar spectrum disorder in the National Comorbidity Survey replication. Arch Gen Psychiatry. 2007;64:543-52. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1001/archpsyc.64.5.543">https://doi. org/10.1001/archpsyc.64.5.543 </ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Merikangas</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Akiskal</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Angst</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Greenberg</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Hirschfeld</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Petukhova</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Life time and 12-month prevalence of bipolar spectrum disorder in the National Comorbidity Survey replication</article-title>
+					<source>Arch Gen Psychiatry</source>
+					<year>2007</year>
+					<volume>64</volume>
+					<fpage>543</fpage>
+					<lpage>552</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1001/archpsyc.64.5.543">https://doi. org/10.1001/archpsyc.64.5.543 </ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Hirschfeld RM, Williams JB, Spitzer RL, Calabrese JR, Flynn L, Keck PE Jr, <italic>et al</italic>. Development and validation of a screening instrument for bipolar spectrum disorder: The Mood Disorder Questionnaire. Am J Psychiatry. 2000;157:1873-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/ appi.ajp.157.11.1873">https://doi.org/10.1176/ appi.ajp.157.11.1873</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hirschfeld</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Spitzer</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Calabrese</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Flynn</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Keck</surname>
+							<given-names>PE Jr</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Development and validation of a screening instrument for bipolar spectrum disorder: The Mood Disorder Questionnaire</article-title>
+					<source>Am J Psychiatry</source>
+					<year>2000</year>
+					<volume>157</volume>
+					<fpage>1873</fpage>
+					<lpage>1875</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/ appi.ajp.157.11.1873">https://doi.org/10.1176/ appi.ajp.157.11.1873</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Perlis RH. Misdiagnosis of bipolar disorder. Am J Manag Care. 2005;11(Suppl.9):S271-4.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Perlis</surname>
+							<given-names>RH</given-names>
+						</name>
+					</person-group>
+					<article-title>Misdiagnosis of bipolar disorder</article-title>
+					<source>Am J Manag Care</source>
+					<year>2005</year>
+					<volume>11</volume>
+					<supplement>9</supplement>
+					<fpage>S271</fpage>
+					<lpage>S274</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Correa R, Akiskal H, Gilmer W, Nierenberg AA, Trivedi M, Zisook S. Is unrecognized bipolar disorder a frequent contributor to apparent treatment resistant depression? J Affect Disord . 2010;127:10-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2010.06.036">https://doi.org/10.1016/j.jad.2010.06.036</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Correa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Akiskal</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gilmer</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Nierenberg</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Trivedi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zisook</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Is unrecognized bipolar disorder a frequent contributor to apparent treatment resistant depression?</article-title> 
+					<source>J Affect Disord</source>
+					<year>2010</year>
+					<volume>127</volume>
+					<fpage>10</fpage>
+					<lpage>18</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2010.06.036">https://doi.org/10.1016/j.jad.2010.06.036</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Leung CM, Yim CL, Yan CT, Chan CC, Xiang YT, Mak AD, <italic>et al</italic>. The Bipolar II Depression Questionnaire: A self-report tool for detecting bipolar II depression. PLoS One. 2016;11:e0149752. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0149752">https://doi.org/10.1371/journal.pone.0149752</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leung</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Yim</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Yan</surname>
+							<given-names>CT</given-names>
+						</name>
+						<name>
+							<surname>Chan</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Xiang</surname>
+							<given-names>YT</given-names>
+						</name>
+						<name>
+							<surname>Mak</surname>
+							<given-names>AD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The Bipolar II Depression Questionnaire: A self-report tool for detecting bipolar II depression</article-title>
+					<source>PLoS One</source>
+					<year>2016</year>
+					<volume>11</volume>
+					<elocation-id>e0149752</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0149752">https://doi.org/10.1371/journal.pone.0149752</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Rucci P, Maser JD. Instrument development in the Italy-USA Collaborative Spectrum Project. Epidemiol Psichiatr Soc.2000;9:249-56.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rucci</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Maser</surname>
+							<given-names>JD</given-names>
+						</name>
+					</person-group>
+					<article-title>Instrument development in the Italy-USA Collaborative Spectrum Project</article-title>
+					<source>Epidemiol Psichiatr Soc</source>
+					<year>2000</year>
+					<volume>9</volume>
+					<fpage>249</fpage>
+					<lpage>256</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Ioannou M, Dellepiane M, Benvenuti A, Feloukatzis K, Skondra N, Dell’Osso L, <italic>et al</italic>. Swedish version of Mood Spectrum Self-Report Questionnaire: Psychometric properties of lifetime and last-week version. Clin Pract Epidemiol Ment Health. 2016;12:14-23. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.2174/1745017901612010014">https://doi. org/10.2174/1745017901612010014</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ioannou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Dellepiane</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Benvenuti</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Feloukatzis</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Skondra</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Dell’Osso</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Swedish version of Mood Spectrum Self-Report Questionnaire: Psychometric properties of lifetime and last-week version</article-title>
+					<source>Clin Pract Epidemiol Ment Health</source>
+					<year>2016</year>
+					<volume>12</volume>
+					<fpage>14</fpage>
+					<lpage>23</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.2174/1745017901612010014">https://doi. org/10.2174/1745017901612010014</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Meyer TD, Schrader J, Ridley M, Lex C. The Hypomania Checklist (HCL) - systematic review of its propertiesto screen for bipolar disorders.Compr Psychiatry.2014;55:1310-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.comppsych.2014.03.002">https://doi.org/10.1016/j.comppsych.2014.03.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meyer</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Schrader</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ridley</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lex</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>The Hypomania Checklist (HCL) - systematic review of its propertiesto screen for bipolar disorders</article-title>
+					<source>Compr Psychiatry</source>
+					<year>2014</year>
+					<volume>55</volume>
+					<fpage>1310</fpage>
+					<lpage>1321</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.comppsych.2014.03.002">https://doi.org/10.1016/j.comppsych.2014.03.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Ahearn EP, Cassidy F, Kelley L, Weisler RH, Carroll BJ. Dimensions of self-rated mood in depressed, manic, and normal subjects.Compr Psychiatry. 2001;42:196-201. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1053/comp.2001.23125">https://doi. org/10.1053/comp.2001.23125</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ahearn</surname>
+							<given-names>EP</given-names>
+						</name>
+						<name>
+							<surname>Cassidy</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Kelley</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Weisler</surname>
+							<given-names>RH</given-names>
+						</name>
+						<name>
+							<surname>Carroll</surname>
+							<given-names>BJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Dimensions of self-rated mood in depressed, manic, and normal subjects</article-title>
+					<source>Compr Psychiatry</source>
+					<year>2001</year>
+					<volume>42</volume>
+					<fpage>196</fpage>
+					<lpage>201</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1053/comp.2001.23125">https://doi. org/10.1053/comp.2001.23125</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Altman EG, Hedeker D, Peterson JL, Davis JM. The Altman Self-Rating Mania Scale. Biol Psychiatry. 1997;42:948-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0006-3223(96)00548-3">https://doi.org/10.1016/S0006-3223(96)00548-3</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Altman</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Hedeker</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Peterson</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>The Altman Self-Rating Mania Scale</article-title>
+					<source>Biol Psychiatry</source>
+					<year>1997</year>
+					<volume>42</volume>
+					<fpage>948</fpage>
+					<lpage>955</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0006-3223(96)00548-3">https://doi.org/10.1016/S0006-3223(96)00548-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Rush AJ,Gullion CM, Basco MR, Jarrett RB,Trivedi MH.The Inventory of Depressive Symptomatology (IDS): Psychometric properties. Psychol Med.1996;26:477-86.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rush</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Gullion</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Basco</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Jarrett</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Trivedi</surname>
+							<given-names>MH</given-names>
+						</name>
+					</person-group>
+					<article-title>The Inventory of Depressive Symptomatology (IDS): Psychometric properties</article-title>
+					<source>Psychol Med</source>
+					<year>1996</year>
+					<volume>26</volume>
+					<fpage>477</fpage>
+					<lpage>486</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Shugar G, Schertzer S, Toner BB, Di Gasbarro I. Development, use, and factor analysis of a self-report inventory for mania. Compr Psychiatry . 1992;33:325-31. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1016/0010-440X(92)90040-W">https://doi. org/10.1016/0010-440X(92)90040-W</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shugar</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Schertzer</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Toner</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Di Gasbarro</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Development, use, and factor analysis of a self-report inventory for mania</article-title>
+					<source>Compr Psychiatry</source> 
+					<year>1992</year>
+					<volume>33</volume>
+					<fpage>325</fpage>
+					<lpage>331</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1016/0010-440X(92)90040-W">https://doi. org/10.1016/0010-440X(92)90040-W</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Bauer MS, Crits-Christoph P, Ball WA, Dewees E, McAllister T, Alahi P, <italic>et al</italic>. Independent assessment of manic and depressive symptoms by self-rating. Scale characteristics and implications for the study of mania. Arch Gen Psychiatry.1991;48:807- 12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/archpsyc.1991.01810330031005">https://doi.org/10.1001/archpsyc.1991.01810330031005</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bauer</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Crits-Christoph</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ball</surname>
+							<given-names>WA</given-names>
+						</name>
+						<name>
+							<surname>Dewees</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>McAllister</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Alahi</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Independent assessment of manic and depressive symptoms by self-rating. Scale characteristics and implications for the study of mania</article-title>
+					<source>Arch Gen Psychiatry</source>
+					<year>1991</year>
+					<volume>48</volume>
+					<fpage>807</fpage>
+					<lpage> 12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/archpsyc.1991.01810330031005">https://doi.org/10.1001/archpsyc.1991.01810330031005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Rose M, Bezjak A. Logistics of collecting patient-reported outcomes (PROs) in clinical practice: An overview and practical examples. Qual Life Res.2009;18:125-36. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1007/s11136-008-9436-0">https://doi. org/10.1007/s11136-008-9436-0</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rose</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bezjak</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Logistics of collecting patient-reported outcomes (PROs) in clinical practice: An overview and practical examples</article-title>
+					<source>Qual Life Res</source>
+					<year>2009</year>
+					<volume>18</volume>
+					<fpage>125</fpage>
+					<lpage>136</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1007/s11136-008-9436-0">https://doi. org/10.1007/s11136-008-9436-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Lohr KN, Zebrack BJ. Using patient-reported outcomes in clinical practice: Challenges and opportunities.Qual Life Res.2009;18:99-107. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11136-008-9413-7">https://doi.org/10.1007/s11136-008-9413-7</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lohr</surname>
+							<given-names>KN</given-names>
+						</name>
+						<name>
+							<surname>Zebrack</surname>
+							<given-names>BJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Using patient-reported outcomes in clinical practice: Challenges and opportunities</article-title>
+					<source>Qual Life Res</source>
+					<year>2009</year>
+					<volume>18</volume>
+					<fpage>99</fpage>
+					<lpage>107</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11136-008-9413-7">https://doi.org/10.1007/s11136-008-9413-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Greenhalgh J. The applications of PROs in clinical practice: What are they, do they work, andwhy? Qual Life Res .2009;18:115-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11136-008-9430-6">https://doi.org/10.1007/s11136-008-9430-6</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Greenhalgh</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The applications of PROs in clinical practice: What are they, do they work, andwhy?</article-title>
+					<source>Qual Life Res</source>
+					<year>2009</year>
+					<volume>18</volume>
+					<fpage>115</fpage>
+					<lpage>123</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11136-008-9430-6">https://doi.org/10.1007/s11136-008-9430-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Jonsdottir H, Engh JA, Friis S, Birkenaes A, Ringen PA, Vaskinn A, <italic>et al</italic>. Measurement of insightin patients with bipolar disorder: Areself-rated scales developed for patients with schizophrenia applicable? J Nerv Ment Dis. 2008;196:333-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/NMD.0b013e31816a62b2">https://doi.org/10.1097/NMD.0b013e31816a62b2</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jonsdottir</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Engh</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Friis</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Birkenaes</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ringen</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Vaskinn</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Measurement of insightin patients with bipolar disorder: Areself-rated scales developed for patients with schizophrenia applicable?</article-title>
+					<source>J Nerv Ment Dis</source>
+					<year>2008</year>
+					<volume>196</volume>
+					<fpage>333</fpage>
+					<lpage>335</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/NMD.0b013e31816a62b2">https://doi.org/10.1097/NMD.0b013e31816a62b2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Bernstein IH, Rush AJ, Carmody TJ, Woo A,Trivedi MH. Clinical vs.self-report versions of the quick inventory of depressive symptomatology in a public sector sample. J Psychiatr Res. 2007;41:239-46. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpsychires.2006.04.001">https://doi.org/10.1016/j.jpsychires.2006.04.001</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bernstein</surname>
+							<given-names>IH</given-names>
+						</name>
+						<name>
+							<surname>Rush</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Carmody</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Woo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Trivedi</surname>
+							<given-names>MH</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical vs.self-report versions of the quick inventory of depressive symptomatology in a public sector sample</article-title>
+					<source>J Psychiatr Res</source>
+					<year>2007</year>
+					<volume>41</volume>
+					<fpage>239</fpage>
+					<lpage>246</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpsychires.2006.04.001">https://doi.org/10.1016/j.jpsychires.2006.04.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. AltmanE. Rating scales for mania: Isself-rating reliable? J Affect Disord .1998;50:283-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0165-0327(98)00018-4">https://doi.org/10.1016/S0165-0327(98)00018-4</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+					<name>
+						<surname>AltmanE</surname>
+					</name>
+						</person-group>
+					<article-title>Rating scales for mania: Isself-rating reliable?</article-title>
+					<source>J Affect Disord</source>
+					<year>1998</year>
+					<volume>50</volume>
+					<fpage>283</fpage>
+					<lpage>286</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0165-0327(98)00018-4">https://doi.org/10.1016/S0165-0327(98)00018-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Akiskal HS, Hantouche EG, Bourgeois ML, Azorin JM, Sechter D, Allilaire JF, <italic>et al</italic>.Toward a refined phenomenology of mania: Combining clinician-assessment and self-report in the French EPIMAN study. J Affect Disord . 2001;67:89-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0165-0327(01)00441-4">https://doi.org/10.1016/S0165-0327(01)00441-4</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Akiskal</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Hantouche</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Bourgeois</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Azorin</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Sechter</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Allilaire</surname>
+							<given-names>JF</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Toward a refined phenomenology of mania: Combining clinician-assessment and self-report in the French EPIMAN study</article-title>
+					<source>J Affect Disord</source>
+					<year>2001</year>
+					<volume>67</volume>
+					<fpage>89</fpage>
+					<lpage>96</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0165-0327(01)00441-4">https://doi.org/10.1016/S0165-0327(01)00441-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Altman E, Hedeker D, Peterson JL, Davis JM. A comparative evaluation of three self- rating scales for acute mania. Biol Psychiatry . 2001;50:468-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/ S0006-3223(01)01065-4">https://doi.org/10.1016/ S0006-3223(01)01065-4</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Altman</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hedeker</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Peterson</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>A comparative evaluation of three self- rating scales for acute mania</article-title>
+					<source>Biol Psychiatry</source>
+					<year>2001</year>
+					<volume>50</volume>
+					<fpage>468</fpage>
+					<lpage>471</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/ S0006-3223(01)01065-4">https://doi.org/10.1016/ S0006-3223(01)01065-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Picardi A.Rating scales in bipolar disorder.Curr Opin Psychiatry.2009;22:42-9. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1097/YCO.0b013e328315a4d2">https://doi. org/10.1097/YCO.0b013e328315a4d2</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Picardi</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Rating scales in bipolar disorder</article-title>
+					<source>Curr Opin Psychiatry</source>
+					<year>2009</year>
+					<volume>22</volume>
+					<fpage>42</fpage>
+					<lpage>49</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1097/YCO.0b013e328315a4d2">https://doi. org/10.1097/YCO.0b013e328315a4d2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Barrios K, Rodríguez-Losada J, Sánchez R. Desarrollo de una escala de auto-reporte para medición de síntomas maníacos. Revista de la Facultad de Medicina. 2013;61:245-53.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barrios</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Losada</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Desarrollo de una escala de auto-reporte para medición de síntomas maníacos</article-title>
+					<source>Revista de la Facultad de Medicina</source>
+					<year>2013</year>
+					<volume>61</volume>
+					<fpage>245</fpage>
+					<lpage>253</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Sánchez R, Navarro Á, Rueda-Jaimes GE, Gómez-Restrepo C. Desarrollo y validación de la versión II de la escala EMUN. Revista Colombiana de Psiquiatría.2011;40:647-59.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Navarro</surname>
+							<given-names>Á</given-names>
+						</name>
+						<name>
+							<surname>Rueda-Jaimes</surname>
+							<given-names>GE</given-names>
+						</name>
+						<name>
+							<surname>Gómez-Restrepo</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Desarrollo y validación de la versión II de la escala EMUN</article-title>
+					<source>Revista Colombiana de Psiquiatría</source>
+					<year>2011</year>
+					<volume>40</volume>
+					<fpage>647</fpage>
+					<lpage>659</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Tabachnick BG, FidellLS.Using multivariate statistics. Fourth edition. Boston, MA: Allyn and Bacon; 2001. p.966.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tabachnick BG</surname>
+							<given-names>FidellLS</given-names>
+						</name>
+					</person-group>
+					<source>Using multivariate statistics</source>
+					<edition>Fourth edition</edition>
+					<publisher-loc>Boston, MA</publisher-loc>
+					<publisher-name>Allyn and Bacon</publisher-name>
+					<year>2001</year>
+					<fpage>966</fpage>
+					<lpage>966</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. DeMars C. Item response theory. Oxford; New York: Oxford University Press; 2010. p.131.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>DeMars</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>Item response theory</source>
+					<publisher-loc>Oxford; New York</publisher-loc>
+					<publisher-name>Oxford University Press</publisher-name>
+					<year>2010</year>
+					<fpage>131</fpage>
+					<lpage>131</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Smith R. A comparison of methods for determining dimensionality in Rasch measurement. Structural Equation Modeling. 1996;3:25-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10705519609540027">https://doi.org/10.1080/10705519609540027</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Smith</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>A comparison of methods for determining dimensionality in Rasch measurement</article-title>
+					<source>Structural Equation Modeling</source>
+					<year>1996</year>
+					<volume>3</volume>
+					<fpage>25</fpage>
+					<lpage>40</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10705519609540027">https://doi.org/10.1080/10705519609540027</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Cerny BA, Kaiser HF. A study of a measure of sampling adequacy for factor-analytic correlation matrices. Multivariate Behav Res. 1977;12:43-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1207/ s15327906mbr1201_3">https://doi.org/10.1207/ s15327906mbr1201_3</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cerny</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Kaiser</surname>
+							<given-names>HF</given-names>
+						</name>
+					</person-group>
+					<article-title>A study of a measure of sampling adequacy for factor-analytic correlation matrices</article-title>
+					<source>Multivariate Behav Res</source>
+					<year>1977</year>
+					<volume>12</volume>
+					<fpage>43</fpage>
+					<lpage>47</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1207/ s15327906mbr1201_3">https://doi.org/10.1207/ s15327906mbr1201_3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Ruscio J, Roche B. Determining the number of factors to retain in an exploratory factor analysis using comparison data of known factorial structure. Psychol Assess.2012;24:282- 92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/a0025697">https://doi.org/10.1037/a0025697</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruscio</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Roche</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Determining the number of factors to retain in an exploratory factor analysis using comparison data of known factorial structure</article-title>
+					<source>Psychol Assess</source>
+					<year>2012</year>
+					<volume>24</volume>
+					<fpage>282</fpage>
+					<lpage> 92</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/a0025697">https://doi.org/10.1037/a0025697</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Linacre JM. Rasch analysis of rank-ordered data. J Appl Meas. 2006;7:129-39.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Linacre</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>Rasch analysis of rank-ordered data</article-title>
+					<source>J Appl Meas</source>
+					<year>2006</year>
+					<volume>7</volume>
+					<fpage>129</fpage>
+					<lpage>139</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Dimitrov DM,Smith RM. Adjusted Rasch person-fit statistics. J Appl Meas . 2006;7:170-83.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dimitrov</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>RM</given-names>
+						</name>
+					</person-group>
+					<article-title>Adjusted Rasch person-fit statistics</article-title>
+					<source>J Appl Meas</source>
+					<year>2006</year>
+					<volume>7</volume>
+					<fpage>170</fpage>
+					<lpage>183</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Pringuey D, Cherikh F, Giordana B, Fakra E, Dassa D, Cermolacce M, <italic>et al</italic>. Mixed states: Evolution of classifications. Encephale. 2013;39(Suppl.3):S134-8. <ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1016/S0013-7006(13)70111-8">https://doi. org/10.1016/S0013-7006(13)70111-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pringuey</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Cherikh</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Giordana</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fakra</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Dassa</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Cermolacce</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mixed states: Evolution of classifications</article-title>
+					<source>Encephale</source>
+					<year>2013</year>
+					<volume>39</volume>
+					<supplement>3</supplement>
+					<fpage>S134</fpage>
+					<lpage>S138</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi. org/10.1016/S0013-7006(13)70111-8">https://doi. org/10.1016/S0013-7006(13)70111-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Beavers A, Lounsbury J, Richards J, Huck S, Skolits G, Esquivel S. Practical considerations for using exploratory factor analysis in educational research. Practical Assessment, Research &amp; Evaluation.2013;18:13.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Beavers</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lounsbury</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Richards</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Huck</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Skolits</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Esquivel</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Practical considerations for using exploratory factor analysis in educational research</article-title>
+					<source>Practical Assessment, Research &amp; Evaluation</source>
+					<year>2013</year>
+					<volume>18</volume>
+					<fpage>13</fpage>
+					<lpage>13</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Christensen KB, Kreiner S, Mesbah M. Rasch models in health. Hoboken, NJ: John Wiley &amp; Sons; 2013. p.368.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Christensen</surname>
+							<given-names>KB</given-names>
+						</name>
+						<name>
+							<surname>Kreiner</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mesbah</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Rasch models in health</source>
+					<publisher-loc>Hoboken, NJ</publisher-loc>
+					<publisher-name>John Wiley &amp; Sons</publisher-name>
+					<year>2013</year>
+					<fpage>368</fpage>
+					<lpage>368</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Bond TG, Fox CM. Applying the Rasch model: Fundamental measurement in the human sciences. Third edition. New York; London: Routledge, Taylor and Francis Group; 2015. p.383.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bond</surname>
+							<given-names>TG</given-names>
+						</name>
+						<name>
+							<surname>Fox</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<source>Applying the Rasch model: Fundamental measurement in the human sciences</source>
+					<edition>Third edition</edition>
+					<publisher-loc>New York; London</publisher-loc>
+					<publisher-name>Routledge, Taylor and Francis Group</publisher-name>
+					<year>2015</year>
+					<fpage>383</fpage>
+					<lpage>383</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Rivera M, Cano O, Rodríguez-Losada J, Sánchez R. Propiedades psicométricas de la escala EMUN- AR determinadas mediante el análisis de Rasch. Biomédica. 2019;39:113-31 https://doi.org/10.7705/biomedica.v39i1.4103</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Mauricio Rivera y Óscar Cano: recolección de los datos Jorge Rodríguez-Losada y Ricardo Sánchez: concepción del estudio, análisis e interpretación de los datos Todos los autores participaron en el diseño del estudio y en la redacción del manuscrito.</p>
+			</fn>
+			<fn fn-type="supported-by" id="fn3">
+				<label>Financiación:</label>
+				<p> El proyecto en cuyo marco se obtuvieron los resultados presentados, recibió financiación de la Universidad Nacional de Colombia.</p>
+			</fn>
+		</fn-group>
+		<app-group>
+			<app id="app1">
+				<label>Escala EMUN-AR para medición por autoreporte de síntomas maníacos.</label>
+				<p>
+					<table-wrap id="t5">
+						<label>Anexo 1</label>
+						<caption>
+							<title>Esta es una escala para medir algunas características del trastorno bipolar o enfermedad maniacodepresiva. La escala mide 26 síntomas en tres aspectos: intensidad, frecuencia y grado de molestia que le generaron a usted estas manifestaciones de la enfermedad. Para llenar la escala tenga en cuenta lo que ha sentido en la última semana o lo que sintió durante la semana en que estuvo más grave (si no tiene síntomas recientemente, considere solo lo de la semana en que estuvo más grave, no importa cuándo haya sido). Hay una tabla por aparte para calificar cada uno de estos tres componentes (intensidad, frecuencia, grado de molestia). Para calificar cada síntoma marque con una equis sobre el círculo que mejor represente lo que usted sintió durante esa semana<bold>.</bold></title>
+						</caption>
+						<graphic xlink:href="t4.png"/>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t5b">
+						<label>Anexo 1, continuación</label>
+						<caption>
+							<title>Esta es una escala para medir algunas características del trastorno bipolar o enfermedad maniacodepresiva. La escala mide 26 síntomas en tres aspectos: intensidad, frecuencia y grado de molestia que le generaron a usted estas manifestaciones de la enfermedad. Para llenar la escala tenga en cuenta lo que ha sentido en la última semana o lo que sintió durante la semana en que estuvo más grave (si no tiene síntomas recientemente, considere solo lo de la semana en que estuvo más grave, no importa cuándo haya sido). Hay una tabla por aparte para calificar cada uno de estos tres componentes (intensidad, frecuencia, grado de molestia). Para calificar cada síntoma marque con una equis sobre el círculo que mejor represente lo que usted sintió durante esa semana<bold>.</bold></title>
+						</caption>
+						<graphic xlink:href="t4b.png"/>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t5c">
+						<label>Anexo 1, continuación</label>
+						<caption>
+							<title>Esta es una escala para medir algunas características del trastorno bipolar o enfermedad maniacodepresiva. La escala mide 26 síntomas en tres aspectos: intensidad, frecuencia y grado de molestia que le generaron a usted estas manifestaciones de la enfermedad. Para llenar la escala tenga en cuenta lo que ha sentido en la última semana o lo que sintió durante la semana en que estuvo más grave (si no tiene síntomas recientemente, considere solo lo de la semana en que estuvo más grave, no importa cuándo haya sido). Hay una tabla por aparte para calificar cada uno de estos tres componentes (intensidad, frecuencia, grado de molestia). Para calificar cada síntoma marque con una equis sobre el círculo que mejor represente lo que usted sintió durante esa semana<bold>.</bold></title>
+						</caption>
+						<graphic xlink:href="t4c.png"/>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t5d">
+						<label>Anexo 1, continuación</label>
+						<caption>
+							<title>Esta es una escala para medir algunas características del trastorno bipolar o enfermedad maniacodepresiva. La escala mide 26 síntomas en tres aspectos: intensidad, frecuencia y grado de molestia que le generaron a usted estas manifestaciones de la enfermedad. Para llenar la escala tenga en cuenta lo que ha sentido en la última semana o lo que sintió durante la semana en que estuvo más grave (si no tiene síntomas recientemente, considere solo lo de la semana en que estuvo más grave, no importa cuándo haya sido). Hay una tabla por aparte para calificar cada uno de estos tres componentes (intensidad, frecuencia, grado de molestia). Para calificar cada síntoma marque con una equis sobre el círculo que mejor represente lo que usted sintió durante esa semana<bold>.</bold></title>
+						</caption>
+						<graphic xlink:href="t4d.png"/>
+					</table-wrap>
+				</p>
+			</app>
+		</app-group>
+	</back>
+</article>

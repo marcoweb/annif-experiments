@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6850</article-id>
+			<article-id pub-id-type="publisher-id">00021</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Validación de la metodología para cuantificar el fluconazol y sus impurezas orgánicas en materia prima por cromatografía líquida de alta resolución</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Method validation for the quantification of fluconazole and its organic impurities in raw material using high-performance liquid chromatography</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Castillo</surname>
+						<given-names>James Alexander</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Afanasjeva</surname>
+						<given-names>Natalia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Programa de Química, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv1">Programa de Química</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>james.castillo@correounivalle.edu.co</email>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Departamento de Química, Facultad de Ciencias Naturales y Exactas, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv2">Departamento de Química</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Naturales y Exactas</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> James Alexander Castillo, Facultad de Ciencias Naturales y Exactas, Departamento de Química, Universidad del Valle, Calle 13 N°100-00, edificio 320, oficina 2065, Ciudad Universitaria Meléndez, Cali, Colombia Teléfono: (+572) 321 2173 <email>james.castillo@correounivalle.edu.co</email>
+				</corresp>
+				<fn fn-type="other" id="fn4">
+					<p>Ambos autores participaron en la metodología y la escritura del manuscrito.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn6">
+					<label>Conflicto de intereses:</label>
+					<p><bold>	</bold> Los autores declaramos que, durante la ejecución del trabajo y la publicación de este artículo, no hubo conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>31</day>
+				<month>08</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<month>08</month>
+				<year>2023</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<year>2023</year>
+			</pub-date>
+			<volume>43</volume>
+			<supplement>Suppl 1</supplement>
+			<fpage>229</fpage>
+			<lpage>244</lpage>
+			<history>
+				<date date-type="received">
+					<day>13</day>
+					<month>01</month>
+					<year>2023</year>
+				</date>
+				<date date-type="accepted">
+					<day>21</day>
+					<month>07</month>
+					<year>2023</year>
+				</date>
+				<date date-type="pub">
+					<day>24</day>
+					<month>07</month>
+					<year>2023</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción.</title>
+					<p>La eficiencia de una metodología para analizar una sustancia farmacológica puede verse afectada por las condiciones reales del laboratorio de cada país, incluyendo el clima. Por esta razón, se requiere validar el método con las pautas recomendadas para ello y optimizar el proceso, para asegurar el éxito y la confianza en los resultados. </p>
+				</sec>
+				<sec>
+					<title>Objetivo.</title>
+					<p>Validar una metodología para la cuantificación simultánea del fluconazol (materia prima) y sus impurezas orgánicas mediante cromatografía líquida de alta resolución con detector de arreglo de diodos en condiciones de clima tropical y con todos los requisitos normativos.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos.</title>
+					<p>Se hicieron pruebas previas a la validación del método: idoneidad del sistema, estudio de filtros, límite de cuantificación, ausencia del error sistemático, estudios de degradación forzada y estabilidad de las soluciones. Además, se validaron: la especificidad, la linealidad, la exactitud, la precisión y la robustez. </p>
+				</sec>
+				<sec>
+					<title>Resultados.</title>
+					<p>La pureza espectral del método se logró al obtener la separación de los productos de degradación de los picos de los analitos. La estabilidad de las soluciones no se vio afectada, en la frecuencia evaluada de 24 horas, a temperatura ambiente y de refrigeración. Se obtuvo una linealidad con coeficientes de correlación mayores o iguales a 0,999 para la valoración y mayores o iguales a 0,997 para las impurezas. La recuperación estuvo en el rango de 98 a 102,0 % de fluconazol, con una exactitud entre el 80 y el 120 % para las impurezas. El factor de repetibilidad y reproducibilidad no superó la desviación estándar relativa del 2,0 % para la valoración y, la del 5,0 %, para las impurezas, lo cual mostró una solidez adecuada del método. Además, se obtuvo un tiempo corto de ejecución del análisis, lo que permitió la rápida determinación de la calidad de la materia prima. </p>
+				</sec>
+				<sec>
+					<title>Conclusión.</title>
+					<p>Se demostró que el método de cuantificación de fluconazol, validado por cromatografía líquida de alta resolución con detector de arreglo de diodos, es lo suficientemente selectivo, preciso, exacto, lineal y robusto; además, es capaz de generar resultados analíticos veraces en condiciones de uso reales, incluyendo el clima tropical de Colombia.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction.</title>
+					<p>The real laboratory conditions of each country, including climate, can affect the method's efficiency in analyzing a pharmacological substance. Thus, it is necessary to validate the process according to the corresponding guidelines and optimize it to ensure success and confidence in the results.</p>
+				</sec>
+				<sec>
+					<title>Objective.</title>
+					<p>The objective was to validate a methodology for fluconazole and its organic impurities quantification in raw material using high-performance liquid chromatography, with a diode array detector, under tropical climate conditions, and complying with all regulatory requirements.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods.</title>
+					<p>We performed pre-validation tests of the method consisting of system adequacy, filters study, quantification limit, absence of systematic error, forced degradation studies, and solutions stability. In addition, we validated the specificity, linearity, accuracy, precision, and robustness of the system.</p>
+				</sec>
+				<sec>
+					<title>Results.</title>
+					<p>Separation of the degradation products from the analyte peaks allowed the achievement of the method's spectral purity. The solution's stability was not affected during the evaluated time (24 hours) at room temperature and under refrigeration. Linearity resulted in correlation coefficients greater than or equal to 0.999 for the evaluation and greater than or equal to 0.997 for impurities. We obtained a fluconazole recovery varying from 98 to 102% with an accuracy between 80 to 120% for impurities detection. The repeatability and reproducibility factor did not exceed a relative standard deviation of 2.0% for the evaluation and of 5.0% for the impurities, demonstrating the adequate robustness of the method. In addition, a short analysis execution time allowed the quick determination of the raw material quality.</p>
+				</sec>
+				<sec>
+					<title>Conclusion.</title>
+					<p>We demonstrated that the fluconazole quantification method validated by high-performance liquid chromatography is sufficiently selective, precise, exact, linear, and robust to generate accurate analytical results under real conditions, including the tropical climate of Colombia.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Estudios de evaluación como asunto</kwd>
+				<kwd>cromatografía líquida</kwd>
+				<kwd>estudio de validación</kwd>
+				<kwd>fluconazol</kwd>
+				<kwd>contaminación de medicamentos</kwd>
+				<kwd>química analítica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Evaluation studies as topic</kwd>
+				<kwd>chromatography, liquid</kwd>
+				<kwd>validation study</kwd>
+				<kwd>fluconazole</kwd>
+				<kwd>drug contamination</kwd>
+				<kwd>chemistry, analytic</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="22"/>
+				<page-count count="16"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Los medicamentos son sustancias elementales para mejorar la calidad de vida de las personas, por lo que su consumo, dosificación, administración y proceso de fabricación deben ser rigurosamente controlados. Este último requiere de la vigilancia y la supervisión constante, y de un proceso de calidad óptimo desde la adquisición de las materias primas hasta el embalaje del producto final, que cumpla con las pautas establecidas para garantizar la confiabilidad y la seguridad del fármaco para su consumo. La eficiencia de los resultados del método analítico puede afectarse por las condiciones reales de análisis de cada laboratorio farmacológico en un país o una zona climática determinada. En consecuencia, es necesario validar la metodología con las condiciones reales de análisis, para optimizar el proceso y obtener resultados confiables.</p>
+		<p>En este trabajo se desarrolló el método de análisis de la materia prima fluconazol, conocido químicamente como (2-(2,4-difluorofenil)-1,3-bis(1,2,4-triazol-1-il)propan-2-ol) <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Es un ingrediente farmacéutico activo, un antifúngico clasificado en el grupo de los azoles, más específicamente, como un triazol <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Se administra para tratar infecciones producidas por hongos <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref> Es ampliamente usado para tratar casos de infecciones como la candidiasis de las mucosas e infecciones sistémicas, incluidas la candidiasis, la coccidioidomicosis y la criptococosis <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Actúa inhibiendo la desmetilación del citocromo P-450 fúngico (C-14-α-desmetilasa), lo que resulta en la acumulación de 14- α -metil-esteroles fúngicos, la pérdida de los esteroles fúngicos normales y la actividad fungistática. Estos efectos interfieren con la adhesión celular y la biosíntesis del ergosterol, lo cual altera la membrana y el crecimiento de la pared en las células fúngicas <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Una de las técnicas actuales más eficientes para obtener resultados óptimos y confiables, es el análisis por cromatografía líquida de alta resolución <italic>(High Performance Liquid Chromatography,</italic> HPLC), con absorción UV-visible, mediante el uso de espectrómetros de arreglos de diodos (DAD) <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Es una herramienta fundamental para evaluar diversos fármacos y sus validaciones <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Por esto, se desarrolló y validó una metodología para la valoración del ingrediente farmacéutico activo del fluconazol (materia prima) y la cuantificación simultánea de sus impurezas orgánicas por HPLC-DAD en fase inversa.</p>
+		<p>En esta evaluación, se tuvieron en cuenta las condiciones del clima tropical de Colombia, de acuerdo con las pautas establecidas en la monografía de la farmacopea de los Estados Unidos <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, y el ajuste de los parámetros, según lo permitido por la Conferencia Internacional de Armonización <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Esto, con el fin de optimizar el proceso de análisis, y la reducción del tiempo y los costos del proceso, ya que, al fijar unos parámetros específicos, se puede garantizar la eficiencia del análisis y el cumplimiento de sus regulaciones.</p>
+		<p>En este trabajo, se analizaron muestras del ingrediente farmacéutico activo fluconazol y los resultados de la validación del método se utilizaron para estimar la calidad, la confiabilidad y la reproducibilidad del análisis, como un aspecto fundamental de las buenas prácticas de laboratorio <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Equipos, estándares y reactivos</italic></title>
+				<p>Se usó un equipo de cromatografía líquida Vanquish™ Core HPLC (Thermo Scientific), equipado con una bomba cuaternaria C, un automuestreador Split Sampler CT, un detector con arreglo de diodos y un compartimiento de columna C Vanquish™ equipado con un <italic>software</italic> para la recopilación y el procesamiento de los datos cromatográficos, denominado Thermo Scientific Dionex Chromeleon™ 7 Chromatography Data System, versión 7,3. Se utilizó una columna cromatográfica empaquetada de tipo C18 Phenomenex Prodigy™ de 3 µm ODS-3, con un diámetro de partícula de 3 µm, un tamaño de poro de 100 Å, un diámetro interno de 4,6 mm y una longitud de 150 mm. Para la reproducibilidad, se empleó un equipo de cromatografía líquida QSM-R Waters™ Acquity Arc con una bomba cuaternaria, un automuestrador Sample Manager y un detector con arreglo de fotodiodos 2998 con el <italic>software</italic> Empower® 3 Pro Chromatography Data System, versión 7,4. El tratamiento estadístico de los datos y la interpretación de los resultados se llevaron a cabo mediante el <italic>software</italic> MVA™ (NOVIA Gmb), versión 2,1.</p>
+				<p>La fase móvil se filtró con un equipo de filtración al vacío, usando una presión de 0,035 MPa y una membrana hidrofílica de polifluoruro de vinilideno (PVDF) (QLS™) con un tamaño de poro de 0,45 µm. Además, se usaron los siguientes equipos: un baño ultrasónico Cole-Parmer 8894R-DTA, una balanza analítica Sartorius Secura® 225D-1S, unas micropipetas Brand Transferpette® S D-100 (10 µl-1000 µl) y D-1000 (100 µl-1000 µl), una estufa universal Memmert UNB 500, un baño de agua Memmert WNB 14, una cabina con intensidad lumínica entre 2000 lx y 3750 lx (según el Luxómetro Testo 540) y una nevera vertical Refrimag con temperatura de 2 a 8 °C. Se emplearon filtros para jeringa con membrana hidrofílica PVDF de 0,45 µm (QLS™) y material volumétrico en vidrio clase A de 10,0 ml, 20,0 ml, 25,0 ml y 50,0 ml, marca Duran™. Los estándares, los reactivos y las muestras utilizadas en esta validación, se muestran en el <xref ref-type="table" rid="t1">cuadro 1</xref>.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Estándares, reactivos y muestra utilizados en la validación del fluconazol</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="justify">Nombre</th>
+									<th align="justify">Grado</th>
+									<th align="justify">Fabricante</th>
+									<th align="justify">Lote</th>
+									<th align="center">Potencia (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="justify">Fluconazol Supelco®</td>
+									<td align="justify">Secundario</td>
+									<td align="justify">Sigma-Aldrich</td>
+									<td align="justify">LRAC0255</td>
+									<td align="center">99,96</td>
+								</tr>
+								<tr>
+									<td align="justify">Fluconazol - compuesto relacionado A</td>
+									<td align="justify">Primario</td>
+									<td align="justify">USP</td>
+									<td align="justify">R05480</td>
+									<td align="center">100,00</td>
+								</tr>
+								<tr>
+									<td align="justify">Fluconazol - compuesto relacionado B</td>
+									<td align="justify">Primario</td>
+									<td align="justify">USP</td>
+									<td align="justify">R05370</td>
+									<td align="center">97,00</td>
+								</tr>
+								<tr>
+									<td align="justify">Fluconazol - compuesto relacionado C</td>
+									<td align="justify">Primario</td>
+									<td align="justify">USP</td>
+									<td align="justify">R061Y0</td>
+									<td align="center">99,90</td>
+								</tr>
+								<tr>
+									<td align="justify">Acetonitrilo Chromasolv™</td>
+									<td align="justify">HPLC</td>
+									<td align="justify">Honeywell</td>
+									<td align="justify">EC316-CO</td>
+									<td align="center">99,98</td>
+								</tr>
+								<tr>
+									<td align="justify">Agua</td>
+									<td align="justify">HPLC</td>
+									<td align="justify">Laboratorio</td>
+									<td align="justify">N/A</td>
+									<td align="center">N/A</td>
+								</tr>
+								<tr>
+									<td align="justify">Peróxido de hidrógeno Perdrogen™ 30 % (w/w)</td>
+									<td align="justify">RA</td>
+									<td align="justify">Honeywell</td>
+									<td align="justify">J2000</td>
+									<td align="center">30,10</td>
+								</tr>
+								<tr>
+									<td align="justify">Ácido clorhídrico 37 % ExpertQ®</td>
+									<td align="justify">RA</td>
+									<td align="justify">Scharlau</td>
+									<td align="justify">21344209</td>
+									<td align="center">37,98</td>
+								</tr>
+								<tr>
+									<td align="justify">Hidróxido de sodio, pellets Emprove® Essential</td>
+									<td align="justify">RA</td>
+									<td align="justify">Merck®</td>
+									<td align="justify">B1669382</td>
+									<td align="center">99,20</td>
+								</tr>
+								<tr>
+									<td align="justify">Fluconazol</td>
+									<td align="justify">MP</td>
+									<td align="justify">Virupaksha Organics Limited, India</td>
+									<td align="justify">AFLNC0221027(M)</td>
+									<td align="center">100,30</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>HPLC: <italic>High Performancee Liquid Chromatography,</italic> USP: <italic>United States Pharmacopeia,</italic> máximo grado de pureza; N/A: no aplica; RA: reactivo analítico; MP: materia prima</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Pautas base para la validación de la metodología analítica</italic></title>
+				<p>La validación de la metodología se propuso según las pautas establecidas por la Conferencia Internacional de Armonización <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, la guía para la industria de validación de métodos bioanalíticos de la <italic>Food and Drug Administration</italic> de Estados Unidos <xref ref-type="bibr" rid="B16"><sup>16</sup></xref> y el capítulo sobre &quot;Validación de procedimientos compendiales&quot;, teniendo en cuenta los parámetros de desempeño de la categoría I para la valoración, y los de la categoría II para las impurezas <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Para la valoración y la identificación de impurezas orgánicas del fluconazol (materia prima) por HPLC-DAD, se tomó como base la metodología analítica descrita en la farmacopea de Estados Unidos <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Condiciones cromatográficas del método</italic></title>
+				<p>La técnica cromatográfica se validó mediante un sistema en fase inversa y una mezcla isocrática del reactivo acetonitrilo y de agua, de grado HPLC, en una proporción de 20:80 (v/v); con una temperatura de columna de 40 °C, una longitud de onda de 260 nm, un volumen de inyección de 20 µl con flujo de 0,5 ml/minuto y un detector con arreglo de diodos.</p>
+			</sec>
+			<sec>
+				<title><italic>Preparación de la solución blanco, el estándar de impurezas, el estándar de fluconazol y la solución muestra para la valoración y la detección de impurezas</italic></title>
+				<p>Se usó la fase móvil como diluyente y blanco. Se empleó un filtro para jeringa con membrana hidrofílica de PVDF con poro de 0,45 µm y se transfirió a un vial incoloro para HPLC. Para la detección de impurezas, se prepararon soluciones madre de 0,5 mg/ml de cada estándar de referencia (<xref ref-type="table" rid="t1">cuadro 1</xref>) de fluconazol, fluconazol compuesto relacionado A, fluconazol compuesto relacionado B y fluconazol compuesto relacionado C. Estos se disolvieron en acetonitrilo y se llevaron al volumen deseado con la fase móvil filtrada. A partir de estas soluciones madre, se procedió a preparar la solución estándar mixta de impurezas con una concentración final de 10 µg/ml. Para la valoración, se preparó el estándar, a partir del fluconazol de referencia, a una concentración final de 0,5 mg/ml. Las muestras se prepararon con el fluconazol materia prima a una concentración final de 0,5 mg/ml para la valoración y una de 3,0 mg/ml para las impurezas. Todas las soluciones se llevaron a un volumen final de 50 ml con la fase móvil.</p>
+			</sec>
+			<sec>
+				<title><italic>Pruebas de prevalidación (idoneidad del sistema, prueba de filtros, determinación de la estabilidad de las soluciones)</italic></title>
+				<p>Se hicieron pruebas al sistema -instrumentos, analistas, equipos y sustancias de referencia- para verificar su operación con los criterios preestablecidos, que permitieron garantizar la confiabilidad de los resultados de la metodología analítica propuesta <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. En la solución estándar mixta de impurezas, se verificó la correcta elución cromatográfica (<xref ref-type="table" rid="t2">cuadro 2</xref>) de cada pico de impurezas en el fluconazol. Las estructuras químicas de los compuestos evaluados se presentan en la <xref ref-type="fig" rid="f1">figura 1</xref>.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Tiempos de retención relativa, con respectivo orden cromatográfico de elución (13)</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Nombre</th>
+									<th align="center">Tiempo de retención relativa (minutos)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Fluconazol - compuesto relacionado A</td>
+									<td align="center">0,50</td>
+								</tr>
+								<tr>
+									<td align="left">Impureza especifica</td>
+									<td align="center">0,60</td>
+								</tr>
+								<tr>
+									<td align="left">Fluconazol - compuesto relacionado B</td>
+									<td align="center">0,81</td>
+								</tr>
+								<tr>
+									<td align="left">Fluconazol - compuesto relacionado C</td>
+									<td align="center">0,86</td>
+								</tr>
+								<tr>
+									<td align="left">Fluconazol</td>
+									<td align="center">1,00</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>(a) fluconazol (2-(2,4-difluorofenil)-1,3-bis(1,2,4-triazol-1-il)propan-2-ol) (1); (b) fluconazol - compuesto relacionado A (2-[2-fluoro-4-(1H-1,2,4-triazol-1-il)fenil]-1,3-bis(1H-1,2,4-triazol-1-il)-propan-2-ol) <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>; (c) fluconazol - compuesto relacionado B (2-(4-fluorofenil)-1,3-bis(1H-1,2,4-triazol-1-il)propan-2-ol) <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>; (d) fluconazol - compuesto relacionado C (1,3-Di(1H-1,2,4-triazol-1-il)benceno) <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+							</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-43-s1-229-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>En la prueba de filtros, la solución estándar de fluconazol, usada para la valoración, se filtró bajo dos condiciones: en la primera, se descartaron los primeros 0,5 ml y, en la segunda, se descartó el primer mililitro. El volumen descartado se transfirió a tres viales independientes, según la condición.</p>
+				<p>La estabilidad de las soluciones se determinó a partir de la preparación de la solución estándar de impurezas (estándar 1), el estándar 2 de valoración y un conjunto de tres muestras para la valoración. Este análisis se registró como tiempo cero. Se hicieron alícuotas por separado de las soluciones y las muestras, y se almacenaron a temperatura ambiente o se refrigeraron entre 2 y 8 °C. La estabilidad de las soluciones se evaluó nuevamente para las dos condiciones, en un periodo de 24 horas.</p>
+			</sec>
+			<sec>
+				<title><italic>Límite de cuantificación</italic></title>
+				<p>La prueba de límite de cuantificación, en la que cada analito puede cuantificarse confiablemente <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, se practicó a partir de los resultados previos de la solución estándar de impurezas con concentración de 10 µg/ml y se extrapoló la proporción señal/ruido a valores cercanos a 25. De esta manera, la solución para el límite de cuantificación se preparó a partir de las soluciones madre del estándar de impurezas con una concentración de 0,5 mg/ml.</p>
+				<p>Se tomaron alícuotas de 10 µl para preparar el fluconazol compuesto relacionado A; de 220,0 µl para el fluconazol compuesto relacionado B; de 12 µl para el fluconazol compuesto relacionado C, y de 234 µl para el fluconazol ingrediente farmacéutico activo (materia prima). Los compuestos se disolvieron y se llevaron a un volumen final de 20 ml con fase móvil. La concentración final obtenida fue: de 0,25 µg/ml para el fluconazol compuesto relacionado A; de 5,50 µg/ml para el fluconazol compuesto relacionado B; de 0,30 µg/ml para el fluconazol compuesto relacionado C, y de 5,85 µg/ml para el fluconazol ingrediente farmacéutico activo.</p>
+			</sec>
+			<sec>
+				<title><italic>Estudios de degradación forzada en las muestras para determinar su especificidad</italic></title>
+				<p>Para determinar la especificidad de los compuestos, se preparó una solución blanco, una control, dos de hidrólisis ácida (1,0 N y 0,1 N), dos de hidrólisis básica (1,0 N y 0,1 N), una de oxidación, una de termólisis y una solución sometida a fotólisis forzada. Las soluciones se sometieron a diferentes condiciones de degradación con calentamiento en baño de agua a 60 °C, cada una con un tiempo de corrido cromatográfico de 60 minutos.</p>
+				<p><italic>Preparación de la solución blanco y de la solución control.</italic> En un balón volumétrico de 50 ml, que contenía 25 ml de diluyente, se adicionó 1,0 ml de 1,0 N de ácido clorhídrico, 1,0 ml de 1,0 N de hidróxido de sodio y 1,0 ml de peróxido de hidrógeno al 0,3 %. La solución se calentó por 30 minutos, se dejó enfriar a temperatura ambiente y se llevó a volumen con fase móvil. La solución de control se preparó como se indica para la solución muestra de impurezas, a una concentración final de 3,0 mg/ml, sin someterse a ninguna degradación.</p>
+			</sec>
+			<sec>
+				<title><italic>Condiciones de preparación de la solución muestra sometida a degradación</italic></title>
+				<p><italic>Hidrólisis ácida.</italic> En un balón volumétrico de 50 ml, se pesaron 150 mg de muestra de fluconazol, se agregaron 25 ml de diluyente y los compuestos se mezclaron hasta su completa disolución. Luego, se adicionó 1 ml de 1,0 N de ácido clorhídrico, se calentó por 30 minutos, se dejó enfriar a temperatura ambiente y se neutralizó con 1,0 ml de 1,0 N de hidróxido de sodio.</p>
+				<p><italic>Hidrólisis básica.</italic> En un balón volumétrico de 50 ml, se pesaron 150 mg de muestra de fluconazol, se agregaron 25 ml de diluyente y los compuestos se mezclaron hasta su completa disolución. Luego, se adicionó 1,0 ml de 1,0 N de hidróxido de sodio, se calentó por 30 minutos, se dejó enfriar a temperatura ambiente y se neutralizó con 1,0 ml de 1,0 N de ácido clorhídrico.</p>
+				<p><italic>Oxidación.</italic> En un balón volumétrico de 50 ml, se pesaron 150 mg de muestra de fluconazol, se agregaron 25 ml de diluyente y los compuestos se mezclaron hasta su completa disolución. Luego, se adicionó 1,0 ml de 0,3 % de peróxido de hidrógeno, se calentó por 30 minutos y se dejó enfriar.</p>
+				<p><italic>Termólisis.</italic> En un vaso de precipitado, se pesaron 150 mg de muestra de fluconazol y se sometieron a una temperatura de 100 °C en un horno durante 24 horas. Se dejó enfriar y luego se agregaron 20 ml de diluyente. Los compuestos se mezclaron hasta su completa disolución y la mezcla se transfirió a un balón volumétrico de 50,0 ml.</p>
+				<p><italic>Fotólisis.</italic> En un balón volumétrico de 50 ml, se pesaron 150 mg de muestra de fluconazol, que se expusieron durante 24 horas a una luz directa en cabina con una intensidad lumínica entre 2000 y 3750 lx. Luego, se agregaron 25 ml de diluyente y se mezclaron hasta su completa disolución.</p>
+				<p>Todas estas soluciones se llevaron a volumen con fase móvil.</p>
+			</sec>
+			<sec>
+				<title><italic>Linealidad del sistema para valorar la materia prima y detectar impurezas orgánicas del fluconazol</italic></title>
+				<p>Se preparó la linealidad del sistema de fluconazol para su valoración a 0,50 mg/ml (100 %). Se hicieron diluciones por triplicado con concentraciones finales de 0,45 mg/ml (90 %), 0,48 mg/ml (96 %), 0,50 mg/ml (100 %), 0,53 mg/ml (106 %) y 0,55 mg/ml (110 %). De igual modo, para detectar las impurezas de fluconazol (10 µg/ml) en los compuestos relacionados A, B y C, y el fluconazol de grado ingrediente farmacéutico activo, se preparó la linealidad del sistema de impurezas orgánicas, haciendo diluciones por triplicado para obtener un límite de cuantificación de 90 %, 100 %, 110 % y 120 %. La concentración usada del compuesto relacionado A fue 0,25 µg/ml, la del compuesto relacionado B fue 5,50 µg/ml, y la del compuesto relacionado C fue 0,30 µg/ml; las diluciones de la materia prima de fluconazol quedaron a concentraciones finales de 5,85 µg/ml, 9 µg/ml, 10 µg/ml, 11 µg/ml y 12 µg/ml.</p>
+			</sec>
+			<sec>
+				<title><italic>Exactitud para valorar y detectar las impurezas orgánicas de fluconazol</italic></title>
+				<p>Este parámetro se evaluó en el rango de la linealidad. Se analizaron tres puntos (90 %, 100 % y 110 %) para la valoración, y se seleccionaron como limité de cuantificación 100 % y 120 % para las impurezas, a partir de la concentración nominal del método para la valoración del analito y la cuantificación de las impurezas orgánicas.</p>
+			</sec>
+			<sec>
+				<title><italic>Precisión para valoración e impurezas orgánicas de fluconazol</italic></title>
+				<p><italic>Repetibilidad del sistema de fluconazol.</italic> Se determinó a partir de seis inyecciones de la solución estándar de valoración, con la concentración analítica de trabajo del fluconazol que es 0,5 mg/ml; y seis inyecciones de la solución estándar de impurezas con la concentración analítica de trabajo del compuesto relacionado A, B y C, y el fluconazol materia prima de 10 µg/ml.</p>
+				<p><italic>Reproducibilidad del método y precisión intermedia de fluconazol.</italic> Para su determinación, el analista 1 y el analista 2 prepararon dos series (serie 1 y serie 2) de seis muestras, cada una con la concentración analítica de trabajo para la valoración de fluconazol (0,5 mg/ml) y para la detección de impurezas orgánicas a la concentración analítica de trabajo de 10 µg/ml para los compuestos relacionados A, B y C, y fluconazol materia prima.</p>
+				<p><italic>Parámetro de solidez (robustness).</italic> Este parámetro se estimó a partir de las siguientes variaciones: en días diferentes de análisis (día 1 y 2), en equipos diferentes (equipo 1 y 2) y por analistas diferentes (analista 1 y 2), tanto para la valoración como para la detección de impurezas orgánicas del fluconazol.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Idoneidad del sistema</italic></title>
+				<p>En la valoración se encontró que, para el estándar 1 de fluconazol había una simetría menor o igual a 2, con una desviación estándar relativa menor o igual a 2 % (para seis inyecciones consecutivas), mientras que, para el estándar 2 de valoración, se halló una correlación entre 98 y 102 %.</p>
+				<p>En el estándar de impurezas orgánicas se encontró, para todos los picos, una desviación estándar relativa menor o igual a 5 % y una resolución mayor o igual a 1,5 entre el fluconazol y los compuestos relacionados B y C. La desviación estándar relativa calculada para las respuestas de las seis inyecciones de límite de cuantificación fue menor o igual al 10 %. Se calculó una recomendada entre señal y ruido de 20 a 30, considerando la variabilidad de los equipos, aunque una relación entre señal y ruido de 10:1 era aceptable para estimar el límite de cuantificación, de acuerdo con las pautas de cromatografía señaladas por la farmacopea de Estados Unidos <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Estandarización de la metodología</italic></title>
+				<p><italic>Prueba de filtros.</italic> El porcentaje de recuperación para cada muestra estuvo en el rango de 98 a 102%. Las muestras no presentaron señales aportadas por los filtros que pudieran interferir en la identificación o cuantificación del analito de interés. La desviación estándar relativa de las respuestas de tres réplicas fue menor o igual a 2 %; y para las respuestas entre las seis inyecciones repetidas de la solución estándar sin filtrar fue menor o igual a 1 %.</p>
+				<p><italic>Degradaciones forzadas para fluconazol.</italic> En las pruebas de degradación forzada se observó que el fluconazol presentó una alta estabilidad. Se verificó la ausencia de interferencias de los posibles productos de degradación en el método analítico con respecto al tiempo de retención del fluconazol (<xref ref-type="fig" rid="f2">figura 2</xref>, a-f). Las condiciones de estrés no afectaron la estabilidad del fluconazol dado que los porcentajes de degradación fueron muy bajos.</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Las imágenes del lado izquierdo muestran los cromatogramas de fluconazol degradado por diferentes procesos: <bold>(a)</bold> muestra control de fluconazol (ingrediente farmacéutico activo), <bold>(b)</bold> hidrólisis ácida con 1,0 N de ácido clorhídrico, <bold>(c)</bold> hidrólisis básica con 1,0 N de hidróxido de sodio, <bold>(d)</bold> oxidación, <bold>(e)</bold> termólisis, <bold>(f)</bold> fotólisis. En el lado derecho se observan los mismos cromatogramas, pero a escala ampliada.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-43-s1-229-gf2.jpg"/>
+					</fig>
+				</p>
+				<p><italic>Estabilidad de soluciones.</italic> La correlación entre el estándar 1 y el estándar 2 estuvo entre el 99 y el 101 % para las inyecciones iniciales de chequeo. Para las inyecciones intermedias, y al final de la secuencia, la correlación fue del 98 al 102 % con la solución estándar de valoración. La recuperación calculada entre el contenido promedio a las 24 horas respecto al obtenido en el tiempo cero fue del 98 al 102 %, en base seca. La desviación estándar relativa de las recuperaciones en cada tiempo no superó el 2 % (<xref ref-type="table" rid="t3">cuadro 3</xref>), lo que es equivalente a un buen resultado.</p>
+				<p>
+				<table-wrap id="t3">
+				 <label>Cuadro 3</label>
+				   <caption>
+				    <title>3. Resumen de los resultados de estabilidad en la solución estándar de valoración, la solución muestra de valoración y la solución estándar de impurezas orgánicas del fluconazol</title>
+				     </caption>
+				      <graphic xlink:href="T3.jpg"/>
+				      <table-wrap-foot>
+						<fn id="TFN2">
+							<p>RSD: desviación estándar relativa; C.R.: compuesto relacionado</p>
+						</fn>
+					</table-wrap-foot>
+				  </table-wrap>
+			</p>
+				<!--<p>
+					<table-wrap id="t3">
+						<label><bold>Cuadro</bold></label>
+						<caption>
+							<title>3. Resumen de los resultados de estabilidad en la solución estándar de valoración, la solución muestra de valoración y la solución estándar de impurezas orgánicas del fluconazol</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col span="5"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center" colspan="5">Estándar de valoración </th>
+								</tr>
+								<tr>
+									<th align="left" rowspan="2">Criterio de aceptación</th>
+									<th align="center" rowspan="2">Condiciones</th>
+									<th align="center">Correlación (%)</th>
+									<th align="center">Correlación (%)</th>
+									<th align="center">Recobro (%)</th>
+								</tr>
+								<tr>
+									<th align="center">0 horas</th>
+									<th align="center">24 horas</th>
+									<th align="center">24 horas</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">La correlación debe estar entre 98,0 y 102,0 %.</td>
+									<td align="center">Ambiente</td>
+									<td align="center" rowspan="2">100,5</td>
+									<td align="center">100,0</td>
+									<td align="center">99,5</td>
+								</tr>
+								<tr>
+									<td align="left">El recobro calculado entre la correlación promedio de la frecuencia evaluada y la correlación promedio inicial debe estar entre 98,0 y 102,0 %.</td>
+									<td align="center">Refrigeración</td>
+									<td align="center">100,1</td>
+									<td align="center">99,6</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="5">Solución muestra </td>
+								</tr>
+								<tr>
+									<td align="left">Criterio de aceptación</td>
+									<td align="center">Condiciones</td>
+									<td align="center" colspan="3">Contenido inicial Contenido promedio Recobro (% ± RSD) </td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="center"> </td>
+									<td align="center">(% ± RSD)</td>
+									<td align="center">(% ± RSD) 24 horas</td>
+									<td align="center">24 horas</td>
+								</tr>
+								<tr>
+									<td align="left">El RSD de las muestras en cada tiempo no es mayor de 2,0 %.</td>
+									<td align="center">Ambiente</td>
+									<td align="center">101,5 ± 0,1</td>
+									<td align="center">100,9 ± 0,2</td>
+									<td align="center">99,4</td>
+								</tr>
+								<tr>
+									<td align="left">El recobro calculado entre el contenido promedio de la frecuencia evaluada y el contenido promedio inicial debe estar entre 98,0 y 102,0 %.</td>
+									<td align="center">Refrigerado</td>
+									<td align="center"> </td>
+									<td align="center">100,6 ± 0,1</td>
+									<td align="center">99,1</td>
+								</tr>
+								<tr>
+									<th align="center" colspan="5">Estándar de impurezas orgánicas </th>
+								</tr>
+								<tr>
+									<td align="left">Criterio de aceptación</td>
+									<td align="center">Condiciones Compuesto</td>
+									<td align="center">Área</td>
+									<td align="center">Área</td>
+									<td align="center">Recobro (%)</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center"> </td>
+									<td align="center">0 horas</td>
+									<td align="center">24 horas</td>
+									<td align="center">24 horas</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="2">El recobro calculado entre la correlación promedio de la frecuencia evaluada y la correlación promedio inicial debe estar entre 98,0 y 102,0 %.</td>
+									<td align="left">Ambiente</td>
+									<td align="left">
+										<p>
+											<list list-type="simple">
+												<list-item>
+													<p>fluconazol C.R. A</p>
+												</list-item>
+												<list-item>
+													<p>fluconazol C.R. B</p>
+												</list-item>
+												<list-item>
+													<p>fluconazol C.R. C</p>
+												</list-item>
+												<list-item>
+													<p>fluconazol</p>
+												</list-item>
+											</list>
+										</p>
+									</td>
+									<td align="left">
+										<p>
+											<list list-type="simple">
+												<list-item>
+													<p>7,618685</p>
+												</list-item>
+												<list-item>
+													<p>0,590195</p>
+												</list-item>
+												<list-item>
+													<p>12,547291</p>
+												</list-item>
+												<list-item>
+													<p>0,652845</p>
+												</list-item>
+											</list>
+										</p>
+									</td>
+									<td align="left">
+										<p>
+											<list list-type="simple">
+												<list-item>
+													<p>7,632293</p>
+												</list-item>
+												<list-item>
+													<p>0,580262</p>
+												</list-item>
+												<list-item>
+													<p>12,540827</p>
+												</list-item>
+												<list-item>
+													<p>0,647447</p>
+												</list-item>
+											</list>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td align="left">Refrigeración</td>
+									<td align="left">
+										<p>
+											<list list-type="simple">
+												<list-item>
+													<p>fluconazol C.R. A</p>
+												</list-item>
+												<list-item>
+													<p>fluconazol C.R. B</p>
+												</list-item>
+												<list-item>
+													<p>fluconazol C.R. C</p>
+												</list-item>
+												<list-item>
+													<p>fluconazol</p>
+												</list-item>
+											</list>
+										</p>
+									</td>
+									<td align="left">
+										<p>
+											<list list-type="simple">
+												<list-item>
+													<p>7,618685</p>
+												</list-item>
+												<list-item>
+													<p>0,590195</p>
+												</list-item>
+												<list-item>
+													<p>12,547291</p>
+												</list-item>
+												<list-item>
+													<p>0,652845</p>
+												</list-item>
+											</list>
+										</p>
+									</td>
+									<td align="left">
+										<p>
+											<list list-type="simple">
+												<list-item>
+													<p>7,624229</p>
+												</list-item>
+												<list-item>
+													<p>0,587135</p>
+												</list-item>
+												<list-item>
+													<p>12,506710</p>
+												</list-item>
+												<list-item>
+													<p>0,656819</p>
+												</list-item>
+											</list>
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>RSD: desviación estándar relativa; C.R.: compuesto relacionado</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>-->
+			</sec>
+			<sec>
+				<title><italic>Validación de la metodología</italic></title>
+				<p><italic>Especificidad.</italic> Se determinó la metodología analítica empleada para cuantificar impurezas orgánicas presentes en el fluconazol materia prima; no se evidenciaron señales que pudieran interferir en la identificación y cuantificación del analito de interés (<xref ref-type="fig" rid="f3">figura 3</xref>, a-h). La resolución no fue menor de 1,5, lo que indica un buen resultado. La pureza espectral del analito de interés se demostró con un <italic>factor match</italic> cercano a 1.000 para las pruebas realizadas en el <italic>software Chromeleon.</italic></p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Perfiles cromatográficos de: <bold>(a)</bold> solución usada como blanco, <bold>(b)</bold> estándar de impurezas de fluconazol - compuesto relacionado A, <bold>(c)</bold> estándar de impurezas de fluconazol - compuesto relacionado B, <bold>(d)</bold> estándar de impurezas de fluconazol - compuesto relacionado C, <bold>(e)</bold> estándar de impurezas fluconazol, <bold>(f)</bold> muestra de impurezas de fluconazol, <bold>(g)</bold> estándar de valoración de fluconazol, <bold>(h)</bold> muestra de valoración de fluconazol</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-43-s1-229-gf3.jpg"/>
+					</fig>
+				</p>
+				<p><italic>Linealidad del sistema para la valoración y detección de impurezas orgánicas de fluconazol.</italic> El coeficiente de correlación fue mayor de 0,999 para la valoración, y mayor o igual a 0,997 para las impurezas orgánicas. Se confirmó la ausencia de error sistemático, ya que la correlación entre el límite inferior del rango (0,45 mg/ml), la concentración nominal (0,5 mg/ml) y el límite superior del rango (0,55 mg/ml) frente al estándar 1, fue de 98-102 % para la valoración y fue del 80 al 120 % para las impurezas orgánicas. Los resultados de la pendiente de la regresión lineal, el coeficiente de correlación, el gráfico de la suma residual de los cuadrados y la dispersión aleatoria alrededor de la línea del cero, que fue de ± 2 % para la valoración y de ± 10 % para las impurezas orgánicas, confirmaron la linealidad del sistema (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Resumen de los resultados de la linealidad del sistema en la valoración del fluconazol y la detección de sus impurezas orgánicas.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col span="3"/>
+								<col span="4"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="5">Criterio de aceptación</th>
+									<th align="center" colspan="3" rowspan="3">Valoración </th>
+									<th align="center" colspan="4">Impurezas orgánicas</th>
+								</tr>
+								<tr>
+									<th align="center" colspan="4">fluconazol</th>
+								</tr>
+								<tr>
+									<th align="center">C.R. A</th>
+									<th align="center">C.R. B</th>
+									<th align="center">C.R. C</th>
+									<th align="center">API</th>
+								</tr>
+								<tr>
+									<th align="center">Nivel</th>
+									<th align="center">Resultado</th>
+									<th align="center">Nivel</th>
+									<th align="center"> </th>
+									<th align="center" colspan="2">Resultado </th>
+									<th align="center"> </th>
+								</tr>
+								<tr>
+									<th align="center">(%)</th>
+									<th align="center">(%)</th>
+									<th align="center">(%)</th>
+									<th align="center"> </th>
+									<th align="center" colspan="2">(%) </th>
+									<th align="center"> </th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Pendiente</td>
+									<td align="center"> </td>
+									<td align="center">73,601</td>
+									<td align="center"> </td>
+									<td align="center">766,69</td>
+									<td align="center">62,028</td>
+									<td align="center">1262,3</td>
+									<td align="center">69,31!</td>
+								</tr>
+								<tr>
+									<td align="left">r ≥ 0,999</td>
+									<td align="center"> </td>
+									<td align="center">0,99957</td>
+									<td align="center"> </td>
+									<td align="center">0,99991</td>
+									<td align="center">0,99800</td>
+									<td align="center">0,99995</td>
+									<td align="center">0,99712</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="2">Evaluación del intercepto (ausencia de errores sistemáticos):</td>
+									<td align="center">90</td>
+									<td align="center">100,1</td>
+									<td align="center">LQ</td>
+									<td align="center">104,7</td>
+									<td align="center">105,1</td>
+									<td align="center">106,0</td>
+									<td align="center">102,2</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">100,5</td>
+									<td align="center"> </td>
+									<td align="center">105,6</td>
+									<td align="center">104,2</td>
+									<td align="center">109,8</td>
+									<td align="center">100,9</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="7">La correlación entre el estándar y cada una de las inyecciones de los niveles evaluados, debe estar entre 98,0 y 102,0 % para la valoración, y entre 80,0 y 120,0 % para las impurezas orgánicas del fluconazol.</td>
+									<td align="center"> </td>
+									<td align="center">100,1</td>
+									<td align="center"> </td>
+									<td align="center">105,0</td>
+									<td align="center">104,6</td>
+									<td align="center">107,4</td>
+									<td align="center">101,8</td>
+								</tr>
+								<tr>
+									<td align="center">100</td>
+									<td align="center">100,2</td>
+									<td align="center">100</td>
+									<td align="center">102,6</td>
+									<td align="center">102,4</td>
+									<td align="center">105,7</td>
+									<td align="center">98,1</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">100,1</td>
+									<td align="center"> </td>
+									<td align="center">102,7</td>
+									<td align="center">102,5</td>
+									<td align="center">105,6</td>
+									<td align="center">98,4</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">100,1</td>
+									<td align="center"> </td>
+									<td align="center">103,0</td>
+									<td align="center">100,5</td>
+									<td align="center">105,6</td>
+									<td align="center">100,0</td>
+								</tr>
+								<tr>
+									<td align="center">110</td>
+									<td align="center">100,3</td>
+									<td align="center">120</td>
+									<td align="center">101,3</td>
+									<td align="center">104,9</td>
+									<td align="center">104,8</td>
+									<td align="center">102,9</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">100,2</td>
+									<td align="center"> </td>
+									<td align="center">101,5</td>
+									<td align="center">103,2</td>
+									<td align="center">105,4</td>
+									<td align="center">102,8</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">100,1</td>
+									<td align="center"> </td>
+									<td align="center">101,6</td>
+									<td align="center">104,3</td>
+									<td align="center">105,5</td>
+									<td align="center">103,2</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="15">La dispersión aleatoria alrededor de la línea del cero ± 2,0 % para la valoración y ± 10,0 % para las impurezas orgánicas del fluconazol.</td>
+									<td align="center">90</td>
+									<td align="center">-0,3</td>
+									<td align="center">LQ</td>
+									<td align="center">-8,3</td>
+									<td align="center">0,4</td>
+									<td align="center">-3,0</td>
+									<td align="center">1,5</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,1</td>
+									<td align="center"> </td>
+									<td align="center">-7,5</td>
+									<td align="center">-0,4</td>
+									<td align="center">0,4</td>
+									<td align="center">0,1</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,1</td>
+									<td align="center"> </td>
+									<td align="center">-8,0</td>
+									<td align="center">0,0</td>
+									<td align="center">-1,7</td>
+									<td align="center">1,0</td>
+								</tr>
+								<tr>
+									<td align="center">96</td>
+									<td align="center">-0,1</td>
+									<td align="center">90</td>
+									<td align="center">0,6</td>
+									<td align="center">2,1</td>
+									<td align="center">-0,2</td>
+									<td align="center">0,8</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,0</td>
+									<td align="center"> </td>
+									<td align="center">0,2</td>
+									<td align="center">0,9</td>
+									<td align="center">0,1</td>
+									<td align="center">-0,1</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,4</td>
+									<td align="center"> </td>
+									<td align="center">0,8</td>
+									<td align="center">1,0</td>
+									<td align="center">0,2</td>
+									<td align="center">1,6</td>
+								</tr>
+								<tr>
+									<td align="center">100</td>
+									<td align="center">0,0</td>
+									<td align="center">100</td>
+									<td align="center">0,3</td>
+									<td align="center">-1,5</td>
+									<td align="center">0,0</td>
+									<td align="center">-3,8</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">-0,1</td>
+									<td align="center"> </td>
+									<td align="center">0,4</td>
+									<td align="center">-1,5</td>
+									<td align="center">-0,1</td>
+									<td align="center">-3,5</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">-0,1</td>
+									<td align="center"> </td>
+									<td align="center">0,7</td>
+									<td align="center">-3,4</td>
+									<td align="center">0,0</td>
+									<td align="center">-2,0</td>
+								</tr>
+								<tr>
+									<td align="center">106</td>
+									<td align="center">0,0</td>
+									<td align="center">110</td>
+									<td align="center">0,7</td>
+									<td align="center">-0,7</td>
+									<td align="center">1,1</td>
+									<td align="center">0,9</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">-0,5</td>
+									<td align="center"> </td>
+									<td align="center">-0,1</td>
+									<td align="center">2,1</td>
+									<td align="center">0,1</td>
+									<td align="center">1,2</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,1</td>
+									<td align="center"> </td>
+									<td align="center">-0,2</td>
+									<td align="center">0,5</td>
+									<td align="center">0,1</td>
+									<td align="center">0,9</td>
+								</tr>
+								<tr>
+									<td align="center">110</td>
+									<td align="center">0,2</td>
+									<td align="center">120</td>
+									<td align="center">-0,9</td>
+									<td align="center">1,0</td>
+									<td align="center">-0,8</td>
+									<td align="center">0,6</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,1</td>
+									<td align="center"> </td>
+									<td align="center">-0,8</td>
+									<td align="center">-0,7</td>
+									<td align="center">-0,2</td>
+									<td align="center">0,5</td>
+								</tr>
+								<tr>
+									<td align="center"> </td>
+									<td align="center">0,0</td>
+									<td align="center"> </td>
+									<td align="center">-0,6</td>
+									<td align="center">0,4</td>
+									<td align="center">-0,1</td>
+									<td align="center">0,9</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN3">
+								<p>API: ingrediente farmacéutico activo; LQ: límite de cuantificación</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p><italic>Exactitud para la valoración de fluconazol y sus impurezas orgánicas.</italic> El porcentaje de recuperación individual evaluado versus la calibración externa en la valoración para el fluconazol fue del 97 al 103 %, y para la cuantificación de las impurezas orgánicas, fue del 80 al 120 %. El porcentaje de recuperación media de cada nivel y el global versus el de la calibración externa fue del 98 al 102 % para la valoración del fluconazol, y del 80 al 120 % en la cuantificación de las impurezas orgánicas.</p>
+				<p>La desviación estándar relativa de las determinaciones de cada nivel, no fue mayor del 2 % para la valoración, mientras que, para las impurezas orgánicas, se estableció de acuerdo con la relación entre la concentración límite de impurezas y el límite de cuantificación: si la concentración límite de impurezas estaba entre 1 y 2 veces el límite de cuantificación, la desviación estándar relativa era menor o igual a 25 %; entre 2 y 10 veces el límite de cuantificación, la desviación estándar relativa era menor o igual a 15 %; y entre 10 y 20 veces el límite de cuantificación, la desviación estándar relativa era menor o igual a 5 %.</p>
+				<p><italic>Precisión para valorar y detectar impurezas orgánicas de fluconazol (repetibilidad del sistema, del método y precisión intermedia de fluconazol).</italic> La desviación estándar relativa de los resultados obtenidos de las seis réplicas realizadas no fue mayor del 2 % para la valoración y del 5 % para las impurezas orgánicas en la repetibilidad del sistema. En la valoración no se obtuvo una desviación estándar relativa mayor de 2 % entre los datos individuales por serie para la repetibilidad del método. Tampoco fue mayor del 3 % para la precisión intermedia (comparación entre el analista 1 y el analista 2). La diferencia absoluta entre las medias de los dos analistas no fue mayor del 2 % para la prueba de valoración (<xref ref-type="table" rid="t5">cuadro 5</xref>).</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Cuadro 5</label>
+						<caption>
+							<title>Resumen de los resultados de la precisión del sistema en la valoración del fluconazol y la detección de sus impurezas orgánicas</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col span="9"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="4">Criterio de aceptación</th>
+									<th align="left" rowspan="4">Valoración</th>
+									<th align="center" colspan="9">Impurezas orgánicas</th>
+								</tr>
+								<tr>
+									<th align="center" colspan="9">Fluconazol</th>
+								</tr>
+								<tr>
+									<th align="center"> </th>
+									<th align="center">C.R. A</th>
+									<th align="center"> </th>
+									<th align="center">C.R. B</th>
+									<th align="center"> </th>
+									<th align="center">C.R. C</th>
+									<th align="center"> </th>
+									<th align="center">API</th>
+									<th align="center"> </th>
+								</tr>
+								<tr>
+									<th align="center"> </th>
+									<th align="center"> </th>
+									<th align="center">Resultado (%)</th>
+									<th align="center"> </th>
+									<th align="center"> </th>
+									<th align="center"> </th>
+									<th align="center"> </th>
+									<th align="center"> </th>
+									<th align="center"> </th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" rowspan="4">RSD de la reproducibilidad del sistema ≤ 2,0 % para la valoración y ≤ 5,0 % para las impurezas orgánicas del fluconazol</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+								</tr>
+								<tr>
+									<td align="center">0,2</td>
+									<td align="center">0,2</td>
+									<td align="center">0,3</td>
+									<td align="center">1,1</td>
+									<td align="center">3,0</td>
+									<td align="center">3,3</td>
+									<td align="center">0,3</td>
+									<td align="center">0,7</td>
+									<td align="center">3,0</td>
+									<td align="center">3,5</td>
+								</tr>
+								<tr>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+								</tr>
+								<tr>
+									<td align="center">1,9</td>
+									<td align="center">0,1</td>
+									<td align="center">0,2</td>
+									<td align="center">0,6</td>
+									<td align="center">3,2</td>
+									<td align="center">4,9</td>
+									<td align="center">0,6</td>
+									<td align="center">0,9</td>
+									<td align="center">4,2</td>
+									<td align="center">4,8</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="4">RSD de la reproducibilidad del método ≤ 2,0 % para la valoración y ≤ 5,0 % para las impurezas orgánicas del fluconazol (para el fluconazol y el fluconazol C.R. B ≤ 25,0 %)</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+									<td align="center">A1S1</td>
+									<td align="center">A1S2</td>
+								</tr>
+								<tr>
+									<td align="center">0,3</td>
+									<td align="center">0,4</td>
+									<td align="center">0,4</td>
+									<td align="center">0,8</td>
+									<td align="center">1,4</td>
+									<td align="center">1,3</td>
+									<td align="center">0,5</td>
+									<td align="center">1,0</td>
+									<td align="center">1,2</td>
+									<td align="center">0,8</td>
+								</tr>
+								<tr>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+									<td align="center">A2S1</td>
+									<td align="center">A2S2</td>
+								</tr>
+								<tr>
+									<td align="center">0,5</td>
+									<td align="center">0,5</td>
+									<td align="center">0,4</td>
+									<td align="center">0,9</td>
+									<td align="center">0,9</td>
+									<td align="center">1,3</td>
+									<td align="center">4,3</td>
+									<td align="center">1,0</td>
+									<td align="center">1,7</td>
+									<td align="center">1,0</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="center" colspan="10">Promedio A1</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="5">La diferencia absoluta entre las medias de los dos analistas debe ser ≤ 2,0 % para la valoración y ≤ 10,0 % para las impurezas orgánicas del fluconazol.</td>
+									<td align="center">99,7</td>
+									<td align="center"> </td>
+									<td align="center">101,3</td>
+									<td align="center"> </td>
+									<td align="center">100,3</td>
+									<td align="center"> </td>
+									<td align="center">99,9</td>
+									<td align="center"> </td>
+									<td align="center">99,5</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="center" colspan="10">Promedio A2 </td>
+								</tr>
+								<tr>
+									<td align="center">100,9</td>
+									<td align="center"> </td>
+									<td align="center">100,6</td>
+									<td align="center"> </td>
+									<td align="center">102,1</td>
+									<td align="center"> </td>
+									<td align="center">101,5</td>
+									<td align="center"> </td>
+									<td align="center">98,2</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="center" colspan="10">Diferencia absoluta </td>
+								</tr>
+								<tr>
+									<td align="center">1,2</td>
+									<td align="center">0,7</td>
+									<td align="center"> </td>
+									<td align="center">1,8</td>
+									<td align="center"> </td>
+									<td align="center">1,6</td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+									<td align="center">1,3</td>
+									<td align="center"> </td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN4">
+								<p>RSD: desviación estándar relativa; A1: analista 1; A2: analista 2; S1: serie 1; S2: serie 2</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>El coeficiente de variación entre los datos individuales por serie para la repetibilidad del método en las impurezas orgánicas, no fue mayor al establecido de acuerdo con la relación mencionada entre la concentración límite de impurezas y el límite de cuantificación: si la concentración límite de impurezas estaba entre 1 y 2 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 25 %; entre 2 y 10 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 15 %; entre 10 y 20 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 10 %; y si la concentración límite de impurezas superaba más de 20 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 5 %.</p>
+				<p>La precisión intermedia no fue mayor del 3 % (comparación entre el analista 1 y el analista 2). El coeficiente de variación entre series (precisión intermedia) no fue mayor del establecido según la relación entre la concentración límite de impurezas y el límite de cuantificación: si la concentración límite de impurezas estaba entre 1 y 2 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 30 %; entre 2 y 10 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 20 %; entre 10 y 20 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 15 %; y si la concentración límite de impurezas superaba más de 20 veces el límite de cuantificación, la desviación estándar relativa era menor o igual al 10 %. La diferencia absoluta entre las medias de los dos analistas no fue mayor del 10 % para la prueba de impurezas orgánicas (<xref ref-type="table" rid="t5">cuadro 5</xref>).</p>
+				<p><italic>Solidez (robustness).</italic> La precisión intermedia formalmente conocida como solidez <italic>(robustness),</italic> estuvo dentro de los parámetros establecidos para las pruebas de valoración e impurezas orgánicas del fluconazol (<xref ref-type="table" rid="t5">cuadro 5</xref>). Estos parámetros, según indicaciones de la Conferencia Internacional de Armonización, se tomaron en el mismo laboratorio, pero en días, con analistas y con equipos diferentes <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, en búsqueda de la coincidencia de los resultados.</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Las soluciones presentaron estabilidad a temperatura ambiente y de refrigeración a las 24 horas, cumpliendo los parámetros de idoneidad. En la estandarización de la metodología, se obtuvo gran eficiencia del filtro hidrofílico de PVDF de 0,45 µm, ya que este no presentó retención del analito, ni tampoco generó señales adicionales que pudieran interferir al momento de cuantificar e identificar los analitos.</p>
+			<p>De acuerdo con los resultados obtenidos en las pruebas de degradación forzada, se confirmó que el método es específico y selectivo, y por lo tanto, permite la identificación inequívoca de los analitos de interés. Todos los resultados de las degradaciones se encontraron dentro del límite permitido. Además, se confirmó la naturaleza química estable del analito sometido a condiciones de estrés por hidrólisis ácida, hidrólisis básica, oxidación, termólisis y fotólisis, de manera que este parámetro también indica estabilidad de las soluciones.</p>
+			<p>La pureza espectral del analito de interés se demostró en todas las muestras sometidas a degradación forzada, ya que se obtuvieron valores de <italic>factor match (software Chromeleon)</italic> cercanos a 1.000. Asimismo, los reactivos usados para la prueba no interfirieron al momento de emplear el método.</p>
+			<p>La gran estabilidad de la molécula de fluconazol puede deberse a sus propiedades fisicoquímicas: tiene un peso molecular de 306,27 g/mol, una carga formal de cero, un área de superficie polar de 81,6 Å<sup>2</sup> que facilita la permeación de la molécula en las membranas celulares y que actúe sobre los receptores del sistema nervioso central <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>; un punto de ebullición de 579,8 °C, un punto de fusión entre 138 y 140 °C y un pKa igual a 1,76 <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+			<p>La prueba de estabilidad demostró que la solución estándar de valoración, la solución muestra de valoración y la solución estándar de impurezas para los compuestos relacionados A, B y C, y fluconazol (materia prima), son estables a temperatura ambiente y en refrigeración (2-8 °C) durante 24 horas. La recuperación de las soluciones no se vio afectada a las 24 horas, ni el contenido inicial (manteniendo el contenido promedio), al igual que la desviación estándar relativa entre los diferentes contenidos de las muestras (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+			<p>En la validación de la metodología, se demostró la especificidad del método (<xref ref-type="fig" rid="f3">figura 3</xref>, a-h). Ningún pico del diluyente interfirió en la identificación y la cuantificación de los compuestos relacionados A, B y C, y el fluconazol (materia prima). El método es selectivo y los reactivos usados para la prueba no obstaculizan su aplicación. Se demostró la linealidad del sistema para fluconazol en las pruebas de valoración y para los compuestos relacionados A, B y C, y fluconazol (materia prima) en las impurezas orgánicas. Los gráficos de los residuos mostraron una dispersión aleatoria alrededor de la línea cero para la valoración del ingrediente farmacéutico activo y las impurezas orgánicas del fluconazol no mostraron un patrón. La evaluación del intercepto y la ausencia de error sistemático presentaron una correlación entre el estándar y cada una de las inyecciones de los niveles evaluados para la valoración del ingrediente farmacéutico activo y las impurezas orgánicas del fluconazol (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			<p>El método es exacto para el fin propuesto porque los porcentajes de recuperación de la prueba de valoración están dentro del rango establecido, así como aquellos de los compuestos relacionados A, B y C, y el fluconazol (materia prima) obtenidos en la prueba de impurezas orgánicas. La desviación estándar relativa entre los contenidos de las determinaciones de cada nivel fue menor del 2 %, tanto para la valoración como para las impurezas orgánicas.</p>
+			<p>Se demostró la precisión de las pruebas a partir de la repetibilidad y la reproducibilidad del método para la cuantificación del fluconazol -y los compuestos relacionados- en la valoración y en las impurezas orgánicas. La metodología evaluada fue precisa ya que la repetibilidad del sistema no superó una desviación estándar relativa del 2 % en la valoración y del 5 %, en las impurezas orgánicas. En la repetibilidad del método, se obtuvo una desviación estándar relativa inferior al 2 % en la valoración e inferior al 5 % para el compuesto relacionado A y C, mientras que, para el compuesto relacionado B y el fluconazol (materia prima), la repetibilidad del método tuvo una desviación estándar relativa inferior al 25,0 %. En la precisión intermedia, se obtuvo una desviación estándar relativa menor del 3 % en la valoración; y menor del 10 % para los compuestos relacionados A y C, e inferior al 30 % para el fluconazol compuesto relacionado B y el fluconazol (materia prima), en la detección de impurezas.</p>
+			<p>La diferencia absoluta entre las medias de los dos analistas fue menor del 2 % en la valoración y menor del 10 % en las impurezas orgánicas (cuadro 5). La metodología usada es lo suficientemente robusta al no verse afectada por variaciones pequeñas, aunque deliberadas, lo que indica su aptitud en condiciones normales de uso.</p>
+			<p>En este trabajo se desarrolló el método de análisis por HPLC-DAD de la materia prima fluconazol (ingrediente farmacéutico activo). Se estableció un tiempo total de la corrida cromatográfica por inyección de 15 minutos, que es un tiempo de respuesta rápido anclado a una mayor eficiencia de los equipos y un impacto ambiental más bajo al generar menos desechos de reactivos contaminantes. Se establecieron los rangos probables de tiempo de retención para cada uno de los picos de interés del fármaco, así: fluconazol compuesto relacionado A: 5,4 a 5,8 minutos; fluconazol compuesto relacionado B: 8,8 a 9,7 minutos; fluconazol compuesto relacionado C: 9,6 a 10,9 minutos; y fluconazol (materia prima): 10,8 a 12,4 minutos.</p>
+			<p>En la prueba de valoración, fue posible cuantificar fluconazol con precisión en un rango de 0,45 a 0,55 mg/ml, respecto a la concentración analítica de trabajo (0,50 mg/ml), con una exactitud de 100 % ± 2,0 % y una precisión menor o igual al 2 % del valor notificado. En la detección de impurezas orgánicas, se realizó la cuantificación precisa del fluconazol en un rango de 5,85 a 12,0 µg/ml; para el compuesto relacionado A, en un rango de 0,25 a 12,0 µg/ml; para el B, en un rango de 5,50 a 12,0 µg/ml; y para el C, en un rango de 0,30 a 12,0 µg/ml, respecto a la concentración analítica de trabajo (10,0 µg/ml), con una exactitud del 100 % ± 20 % y una precisión menor del 10 % del valor notificado.</p>
+			<p>Se validó la metodología por HPLC-DAD en fase inversa para la valoración, la identificación y la cuantificación de las impurezas orgánicas especificas e inespecíficas del fluconazol en materia prima. Asimismo, se proporcionaron los parámetros por evaluar y los criterios de aceptación, con los cuales se demostró que el método proporciona resultados analíticos veraces en condiciones de uso reales en un clima tropical, y valores exactos y reproducibles dentro del rango determinado. Además, se probó que el método validado es lo suficientemente selectivo y estable en las variaciones propuestas.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>A la empresa privada, la cual apoyó con los recursos técnicos para la realización de este trabajo y a las personas que contribuyeron con su apoyo.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>PubChem. Fluconazole. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/3365">https://pubchem.ncbi.nlm.nih.gov/compound/3365</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>PubChem</collab>
+					</person-group>
+					<source>Fluconazole</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/3365">https://pubchem.ncbi.nlm.nih.gov/compound/3365</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Tapia C. Mechanisms of action, adverse reactions and new antifungal agents. Medwave. 2005;5:e3548 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5867/medwave.2005.04.3548">https://doi.org/10.5867/medwave.2005.04.3548</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tapia</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Mechanisms of action, adverse reactions and new antifungal agents</article-title>
+					<source>Medwave</source>
+					<year>2005</year>
+					<issue>5</issue>
+					<elocation-id>e3548</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5867/medwave.2005.04.3548">https://doi.org/10.5867/medwave.2005.04.3548</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Moncada DC, Montes M, Molina V, Velásquez JB, Gómez CI. Infección orofacial por <italic>Conidiobolus coronatus</italic> reporte de caso. Biomédica. 2016;36:15-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v36i2.2806">https://doi.org/10.7705/biomedica.v36i2.2806</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moncada</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Montes</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Molina</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Velásquez</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>CI</given-names>
+						</name>
+					</person-group>
+					<article-title>Infección orofacial por Conidiobolus coronatus reporte de caso</article-title>
+					<source>Biomédica</source>
+					<year>2016</year>
+					<issue>36</issue>
+					<fpage>15</fpage>
+					<lpage>22</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v36i2.2806">https://doi.org/10.7705/biomedica.v36i2.2806</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Rojas AE, Pérez JE, Hernández JS, Zapata Y. Análisis cuantitativo de la expresión de genes de resistencia a fluconazol en cepas de <italic>Candida albicans</italic> aisladas al ingreso de adultos mayores a una unidad de cuidados intensivos de Manizales, Colombia. Biomédica. 2020;40:153-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4723">https://doi.org/10.7705/biomedica.4723</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rojas</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Pérez</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Hernández</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Zapata</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis cuantitativo de la expresión de genes de resistencia a fluconazol en cepas de Candida albicans aisladas al ingreso de adultos mayores a una unidad de cuidados intensivos de Manizales, Colombia</article-title>
+					<source>Biomédica</source>
+					<year>2020</year>
+					<issue>40</issue>
+					<fpage>153</fpage>
+					<lpage>165</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4723">https://doi.org/10.7705/biomedica.4723</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Cortés JA, Ruiz JF, Melgarejo-Moreno LN, Lemos EV. Candidemia in Colombia. Biomédica . 2020;40:195-207. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4400">https://doi.org/10.7705/biomedica.4400</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cortés</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Ruiz</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Melgarejo-Moreno</surname>
+							<given-names>LN</given-names>
+						</name>
+						<name>
+							<surname>Lemos</surname>
+							<given-names>EV</given-names>
+						</name>
+					</person-group>
+					<article-title>Candidemia in Colombia</article-title>
+					<source>Biomédica</source>
+					<year>2020</year>
+					<issue>40</issue>
+					<fpage>195</fpage>
+					<lpage>207</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4400">https://doi.org/10.7705/biomedica.4400</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Nocua-Báez LC, Uribe-Jerez P, Tarazona-Guaranga L, Robles R, Cortés JA. Azoles de antes y ahora: una revisión. Rev Chil Infectol. 2020;37:219-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/s0716-10182020000300219">https://doi.org/10.4067/s0716-10182020000300219</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nocua-Báez</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Uribe-Jerez</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Tarazona-Guaranga</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Robles</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Cortés</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Azoles de antes y ahora: una revisión</article-title>
+					<source>Rev Chil Infectol</source>
+					<year>2020</year>
+					<issue>37</issue>
+					<fpage>219</fpage>
+					<lpage>230</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/s0716-10182020000300219">https://doi.org/10.4067/s0716-10182020000300219</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Sánchez-Hoyos F, Cárdenas A, Mercado-Camargo J, Domínguez-Moré G, Gómez-Estrada H. Validación de una metodología analítica USP por HPLC para la cuantificación de warfarina sódica en tabletas. Rev Colomb Cienc Quim Farm. 2016;45:470-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/rcciquifa.v45n3.62053">https://doi.org/10.15446/rcciquifa.v45n3.62053</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez-Hoyos</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Cárdenas</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mercado-Camargo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Domínguez-Moré</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Gómez-Estrada</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Validación de una metodología analítica USP por HPLC para la cuantificación de warfarina sódica en tabletas</article-title>
+					<source>Rev Colomb Cienc Quim Farm</source>
+					<year>2016</year>
+					<issue>45</issue>
+					<fpage>470</fpage>
+					<lpage>483</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/rcciquifa.v45n3.62053">https://doi.org/10.15446/rcciquifa.v45n3.62053</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Samaniego JJ, Arias-Arroyo G. Desarrollo y validación de una metodología analítica por HPLC para la cuantificación simultánea de fenilefrina clorhidrato, paracetamol, salicilamida, cafeína y clorfeniramina maleato en tabletas. Rev Soc Quím Perú. 2016;82:196-207. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1810-634X2016000200010&amp;lng=es&amp;tlng=es">http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1810-634X2016000200010&amp;lng=es&amp;tlng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Samaniego</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Arias-Arroyo</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Desarrollo y validación de una metodología analítica por HPLC para la cuantificación simultánea de fenilefrina clorhidrato, paracetamol, salicilamida, cafeína y clorfeniramina maleato en tabletas</article-title>
+					<source>Rev Soc Quím Perú</source>
+					<year>2016</year>
+					<issue>82</issue>
+					<fpage>196</fpage>
+					<lpage>207</lpage>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1810-634X2016000200010&amp;lng=es&amp;tlng=es">http://www.scielo.org.pe/scielo.php?script=sci_arttext&amp;pid=S1810-634X2016000200010&amp;lng=es&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Romero-Díaz JA, Nuva-Paz L, López M, Ferrada C, Carballo C. Validación de una técnica por cromatografía líquida de alta resolución para la determinación del contenido de Mangiferina en hojas de <italic>Mangifera indica</italic> L. Rev Cuba Plantas Med. 2014;19:167-78.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Romero-Díaz</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Nuva-Paz</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>López</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ferrada</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Carballo</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Validación de una técnica por cromatografía líquida de alta resolución para la determinación del contenido de Mangiferina en hojas de Mangifera indica L</article-title>
+					<source>Rev Cuba Plantas Med</source>
+					<year>2014</year>
+					<issue>19</issue>
+					<fpage>167</fpage>
+					<lpage>178</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Ulate-Molina R, Borbón-Alpízar H, Sibaja-Brenes JP, Vega-Guzmán I, Arguedas-González M. Validación de un método de detección mediante cromatografía líquida (HPLC-DAD) para la determinación de aloína en productos alimenticios elaborados a partir de sábila (<italic>Aloe vera</italic>). Uniciencia. 2019;33:13-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15359/ru.33-2.2">https://doi.org/10.15359/ru.33-2.2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ulate-Molina</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Borbón-Alpízar</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Sibaja-Brenes</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Vega-Guzmán</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Arguedas-González</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Validación de un método de detección mediante cromatografía líquida (HPLC-DAD) para la determinación de aloína en productos alimenticios elaborados a partir de sábila (Aloe vera)</article-title>
+					<source>Uniciencia</source>
+					<year>2019</year>
+					<issue>33</issue>
+					<fpage>13</fpage>
+					<lpage>26</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15359/ru.33-2.2">https://doi.org/10.15359/ru.33-2.2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Sarria R, Campo V, Gallo J, Muñoz V. Validación de un método para el análisis de cocaína en muestras de orina empleando extracción en fase sólida (SPE) y cromatografía líquida de alta resolución (HPLC). Rev Cienc. 2018;21:81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.25100/rc.v21i1.6350">https://doi.org/10.25100/rc.v21i1.6350</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sarria</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Campo</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Gallo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Muñoz</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Validación de un método para el análisis de cocaína en muestras de orina empleando extracción en fase sólida (SPE) y cromatografía líquida de alta resolución (HPLC)</article-title>
+					<source>Rev Cienc</source>
+					<year>2018</year>
+					<issue>21</issue>
+					<fpage>81</fpage>
+					<lpage>81</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.25100/rc.v21i1.6350">https://doi.org/10.25100/rc.v21i1.6350</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Bustillo P, Daza ML, Sierra-Martínez N. Validación de una metodología por HPLC en fase inversa para la determinación de Candesartan Cilexetil en tabletas recubiertas. Rev Colomb Cienc Quím Farm. 2014;43:55-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/rcciquifa.v43n1.45464">https://doi.org/10.15446/rcciquifa.v43n1.45464</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bustillo</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Daza</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Sierra-Martínez</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Validación de una metodología por HPLC en fase inversa para la determinación de Candesartan Cilexetil en tabletas recubiertas</article-title>
+					<source>Rev Colomb Cienc Quím Farm</source>
+					<year>2014</year>
+					<issue>43</issue>
+					<fpage>55</fpage>
+					<lpage>68</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/rcciquifa.v43n1.45464">https://doi.org/10.15446/rcciquifa.v43n1.45464</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Unite States Pharmacopeia. USP Monographs, fluconazole. Fecha de consulta: 21 de marzo de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31003/USPNF_M33240_03_01">https://doi.org/10.31003/USPNF_M33240_03_01</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Unite States Pharmacopeia</collab>
+					</person-group>
+					<source>USP Monographs, fluconazole</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">21 de marzo de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31003/USPNF_M33240_03_01">https://doi.org/10.31003/USPNF_M33240_03_01</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use. International conference on harmonisation of technical requirements for registration of pharmaceuticals for human use. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf">https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use</collab>
+					</person-group>
+					<source>International conference on harmonisation of technical requirements for registration of pharmaceuticals for human use</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf">https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Organización Panamericana de la Salud. Buenas prácticas de la OMS para laboratorios de control de calidad de productos farmacéuticos. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.paho.org/es/node/44617">https://www.paho.org/es/node/44617</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Panamericana de la Salud</collab>
+					</person-group>
+					<source>Buenas prácticas de la OMS para laboratorios de control de calidad de productos farmacéuticos</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.paho.org/es/node/44617">https://www.paho.org/es/node/44617</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Unite States Food and Drug Administration. Bioanalytical method validation. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/files/drugs/published/Bioanalytical-Method-Validation-Guidance-for-Industry.pdf">https://www.fda.gov/files/drugs/published/Bioanalytical-Method-Validation-Guidance-for-Industry.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Unite States Food and Drug Administration</collab>
+					</person-group>
+					<source>Bioanalytical method validation</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.fda.gov/files/drugs/published/Bioanalytical-Method-Validation-Guidance-for-Industry.pdf">https://www.fda.gov/files/drugs/published/Bioanalytical-Method-Validation-Guidance-for-Industry.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Unite States Pharmacopeia. U.S. Pharmacopeial Convention. 1225 Validation of compendial procedures. Fecha de consulta: 21 de marzo de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31003/USPNF_M99945_04_01">https://doi.org/10.31003/USPNF_M99945_04_01</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Unite States Pharmacopeia</collab>
+					</person-group>
+					<source>U.S. Pharmacopeial Convention. 1225 Validation of compendial procedures</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">21 de marzo de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31003/USPNF_M99945_04_01">https://doi.org/10.31003/USPNF_M99945_04_01</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>PubChem. 1,3-Di(1H-1,2,4-triazol-1-yl)benzene. Nih.gov. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/1_3-Di_1H-1_2_4-triazol-1-yl_benzene">https://pubchem.ncbi.nlm.nih.gov/compound/1_3-Di_1H-1_2_4-triazol-1-yl_benzene</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>PubChem</collab>
+					</person-group>
+					<source>1,3-Di(1H-1,2,4-triazol-1-yl)benzene. Nih.gov</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/1_3-Di_1H-1_2_4-triazol-1-yl_benzene">https://pubchem.ncbi.nlm.nih.gov/compound/1_3-Di_1H-1_2_4-triazol-1-yl_benzene</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>PubChem. 2-(4-fluorophenyl)-1,3-bis(1H-1,2,4-triazol-1-yl)propan-2-ol. Nih.gov. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/134034">https://pubchem.ncbi.nlm.nih.gov/compound/134034</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>PubChem</collab>
+					</person-group>
+					<source>2-(4-fluorophenyl)-1,3-bis(1H-1,2,4-triazol-1-yl)propan-2-ol. Nih.gov</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/134034">https://pubchem.ncbi.nlm.nih.gov/compound/134034</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>PubChem. 4-Defluoro-4-(1H-1,2,4-triazol-1-yl) fluconazole. Nih.gov. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/11624578">https://pubchem.ncbi.nlm.nih.gov/compound/11624578</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>PubChem</collab>
+					</person-group>
+					<source>4-Defluoro-4-(1H-1,2,4-triazol-1-yl) fluconazole. Nih.gov</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/11624578">https://pubchem.ncbi.nlm.nih.gov/compound/11624578</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>United States Pharmacopeia. U.S. Pharmacopeial Convention. (621) Chromatography. Fecha de consulta: 12 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31003/USPNF_M99380_01_01">https://doi.org/10.31003/USPNF_M99380_01_01</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>United States Pharmacopeia</collab>
+					</person-group>
+					<source>U.S. Pharmacopeial Convention. (621) Chromatography</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">12 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31003/USPNF_M99380_01_01">https://doi.org/10.31003/USPNF_M99380_01_01</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Hitchcock SA, Pennington LD. Structure-brain exposure relationships. J Med Chem. 2006;49:7559-7583. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/jm060642i">https://doi.org/10.1021/jm060642i</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hitchcock</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Pennington</surname>
+							<given-names>LD</given-names>
+						</name>
+					</person-group>
+					<article-title>Structure-brain exposure relationships</article-title>
+					<source>J Med Chem</source>
+					<year>2006</year>
+					<issue>49</issue>
+					<fpage>7559</fpage>
+					<lpage>7583</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/jm060642i">https://doi.org/10.1021/jm060642i</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Castillo JA, Afanasjeva N. Validación de la metodología para cuantificar el fluconazol y sus impurezas orgánicas en materia prima por cromatografía líquida de alta resolución. Biomédica. 2023;43(Supl.1):229-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6850">https://doi.org/10.7705/biomedica.6850</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p>James Alexander Castillo: trabajo experimental, interpretación y análisis de resultados </p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Natalia Afanasjeva: </label>
+				<p>participación en todas las etapas de la validación</p>
+			</fn>
+			<fn fn-type="other" id="fn5">
+				<label>Financiación:</label>
+				<p>El proyecto no tuvo fuente de financiación. La validación se hizo con el apoyo técnico (uso de equipos, reactivos y muestras) de una empresa privada.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

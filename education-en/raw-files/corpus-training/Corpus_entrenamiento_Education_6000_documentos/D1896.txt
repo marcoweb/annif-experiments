@@ -1,0 +1,56 @@
+#ITI#An AI-Based System for Formative and Summative Assessment in Data Science Courses#FTI#
+#IRE# Massive open online courses (MOOCs) provide hundreds of students with teaching materials, assessment tools, and collaborative instruments. The assessment activity, in particular, is demanding in terms of both time and effort; thus, the use of artificial intelligence can be useful to address and reduce the time and effort required. This paper reports on a system and related experiments finalised to improve both the performance and quality of formative and summative assessments in specific data science courses. The system is developed to automatically grade assignments composed of R commands commented with short sentences written in natural language. In our opinion, the use of the system can (i) shorten the correction times and reduce the possibility of errors and (ii) support the students while solving the exercises assigned during the course through automated feedback. To investigate these aims, an ad-hoc experiment was conducted in three courses containing the specific topic of statistical analysis of health data. Our evaluation demonstrated that automated grading has an acceptable correlation with human grading. Furthermore, the students who used the tool did not report usability issues, and those that used it for more than half of the exercises obtained (on average) higher grades in the exam. Finally, the use of the system reduced the correction time and assisted the professor in identifying correction errors#FRE#
+#IPC# Assessment; Automated grading; Embeddings; ML; NLP; SVM#FPC#
+#IRF# Angelone A.M., Vittorini P., A report on the application of adaptive testing in a first year university course, Communications in Computer and Information Science, 1011, pp. 439-449, (2019); 
+Angelone A.M., Menini S., Tonelli S., Vittorini P., Short Sentences on R Analyses in a Health Informatics Subject, (2019); 
+Angelone A.M., Vittorini P., The automated grading of r code snippets: Preliminary results in a course of health informatics, Proceedings of the 9Th International Conference in Methodologies and Intelligent Systems for Technology Enhanced Learning, (2019); 
+Aprosio A.P., Moretti G., Tint 2.0: An All-inclusive Suite for NLP in Italian, In Proceedings of the Fifth Italian Conference on Computational Linguistics (Clic-It 2018), (2018); 
+Balfour S.P., Assessing writing in MOOCs: automated essay scoring and calibrated peer reviewTM, Research &, Practice in Assessment, 8, pp. 40-48, (2013); 
+Bartko J.J., The intraclass correlation coefficient as a measure of reliability, Psychological Reports, 19, 1, pp. 3-11, (1966); 
+Bernardi A., Innamorati C., Padovani C., Romanelli R., Saggino A., Tommasi M., Vittorini P., On the design and development of an assessment system with adaptive capabilities, In Advances in Intelligent Systems and Computing., (2019); 
+Blumenstein M., Green S., Nguyen A., Muthukkumarasamy V., ). GAME: A generic automated marking environment for programming assessment, In International Conference on Information Technology: Coding Computing, ITCC., 1, pp. 212-216, (2004); 
+Bojanowski P., Grave E., Joulin A., Mikolov T., Enriching Word Vectors with Subword Information, (2016); 
+Bojanowski P., Grave E., Joulin A., Mikolov T., Enriching word vectors with subword information, Transactions of the Association for Computational Linguistics, 5, pp. 135-146, (2017); 
+Bowman S.R., Angeli G., Potts C., Manning C.D., A large annotated corpus for learning natural language inference, In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing., pp. 632-642, (2015); 
+Burrows S., Gurevych I., Stein B., The eras and trends of automatic short answer grading, International Journal of Artificial Intelligence in Education, 25, 1, pp. 60-117, (2015); 
+Camus L., Filighera A., Investigating transformers for automatic short answer grading, Artificial Intelligence in Education, pp. 43-48, (2020); 
+Cheang B., Kurnia A., Lim A., Oon W.C., On automated grading of programming assignments in an academic institution, Computers & Education, 41, 2, pp. 121-131, (2003); 
+Cicchetti D.V., Guidelines, criteria, and rules of thumb for evaluating normed and standardized assessment instruments in psychology, Psychological Assessment, 6, 4, pp. 284-290, (1994); 
+Cohen J., A Coefficient of Agreement for Nominal Scales, Educational and Psychological Measurement, 20, 1, pp. 37-46, (1960); 
+Dawson-Howe K.M., Automatic Submission and Administration of Programming Assignments, ACM SIGCSE Bulletin, 27, 4, pp. 51-53, (1995); 
+de Gasperis G., Menini S., Tonelli S., Vittorini P., Automated grading of short text answers: Preliminary results in a course of health informatics, In ICWL 2019: 18Th International Conference on Web-Based Learning. LNCS., Magdeburg: Springer, (2019); 
+Derval G., Gego A., Reinbold P., Frantzen B., van Roy P., Automatic grading of programming exercises in a MOOC using the INGInious platform, European Stakeholder Summit on Experiences and Best Practices in and around Moocs (EMOOCS’15), pp. 86-91, (2015); 
+Devlin J., Chang M.W., Lee K., Toutanova K., BERT: Pre-training of deep bidirectional transformers for language understanding, Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 1, pp. 4171-4186, (2019); 
+Edwards S.H., Perez-Quinones M.A., Web-CAT: Automatically grading programming assignments, Proceedings of the 13Th Annual Conference on Innovation and Technology in Computer Science Education - Iticse ’08, 40, (2008); 
+Fleming W., Redish K., Smyth W., Comparison of manual and automated marking of student programs, Information and Software Technology, 30, 9, pp. 547-552, (1988); 
+Fox A., Patterson D., Joseph S., McCulloch P., MAGIC: Massive Automated Grading in the Cloud, EC-TEL-WS 2015, Trends in Digital Education: Selected Papers from EC-TEL, (2015); 
+Galassi A., Vittorini P., Improved feedback in automated grading of data science assignments, In Advances in Intelligent Systems and Computing, (2021); 
+Georgouli K., Guerreiro P., Incorporating an Automatic Judge into Blended Learning Programming Activities, Advances in Web-Based Learning – ICWL 2010, pp. 81-90, (2010); 
+Gomaa W.H., Fahmy A.A., A survey of text similarity approaches, International Journal of Computer Applications, 68, 13, pp. 13-18, (2013); 
+Grave E., Bojanowski P., Gupta P., Joulin A., Mikolov T., Learning word vectors for 157 languages, . in Proceedings of the International Conference on Language Resources and Evaluation (LREC 2018)., (2018); 
+Harlen W., James M., Assessment and learning: differences and relationships between formative and summative assessment, Assessment in Education: Principles, Policy &, Practice, 4, 3, pp. 365-379, (1997); 
+Hollingsworth J., Automatic graders for programming classes, Communications of the ACM, 3, 10, pp. 528-529, (1960); 
+Hsu C.W., Chang C.C., Lin C.J., A Practical Guide to Support Vector Classification, Tech. Rep. National Taiwan University., (2016); 
+Jackson D., A Semi-Automated Approach to Online Assessment. in Proceedings of the 5Th Annual SIGCSE/SIGCUE Iticseconference on Innovation and Technology in Computer Science Education - Iticse ’00, pp. 164-167, (2000); 
+Kiros J., Chan W., Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, Brussels, pp. 4868-4874, (2018); 
+Kuhn M., Building Predictive Models in R Using the caret Package, Journal of Statistical Software, 28, 5, pp. 1-26, (2008); 
+Kurnia A., Lim A., Cheang B., Online Judge, Computers &, Education, 36, 4, pp. 299-315, (2001); 
+Kusner M., Sun Y., Kolkin N., Weinberger K., From word embeddings to document distances, In International Conference on Machine Learning, pp. 957-966, (2015); 
+Lecounte J.F., Johnson D., The MOOCs: Characteristics, Benefits, and Challenges to Both Industry and Higher Education, Handbook of Research on Innovative Technology Integration in Higher Education, (2015); 
+Levenshtein V.I., Binary codes capable of correcting deletions, insertions and reversals, Soviet Physics Doklady, 10, (1966); 
+Lewis J.R., Psychometric evaluation of an after-scenario questionnaire for computer usability studies, ACM SIGCHI Bulletin, 23, 1, pp. 78-81, (1990); 
+Liu T., Ding W., Wang Z., Tang J., Huang G.Y., Liu Z., Automatic short answer grading via multiway attention networks, In International Conference on Artificial Intelligence in Education, pp. 169-173, (2019); 
+Luck M., Joy M., Automatic submission in an evolutionary approach to computer science teaching, Computers and Education, 25, 3, pp. 105-111, (1995); 
+Magooda A.E., Zahran M., Rashwan M., Raafat H., Fayek M., Vector based techniques for short answer grading, In the Twenty-Ninth International Flairs Conference., (2016); 
+Menini S., Tonelli S., Gasperis G.D., Vittorini P., Automated short answer grading: A simple solution for a difficult task, Proceedings of the Sixth Italian Conference on Computational Linguistics, 2481, (2019); 
+Meyer D., Dimitriadou E., Hornik K., Weingessel A., Leisch F., Misc Functions of the Department of Statistics, Probability Theory Group (Formerly: E1071), TU Wien, (2019); 
+Mohler M., Bunescu R., Mihalcea R., Learning to grade short answer questions using semantic similarity measures and dependency graph alignments, In Proceedings of the 49Th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies - Volume 1, HLT ’11, pp. 752-762, (2011); 
+R: A Language and Environment for Statistical Computing, (2018); 
+Rossi R.J., Mathematical statistics: an introduction to likelihood based inference, (2018); 
+Scholkopf B., Smola A.J., Learning with kernels: support vector machines, regularization, optimization, and beyond, (2001); 
+Souza D.M., Felizardo K.R., Barbosa E.F., A systematic literature review of assessment tools for programming assignments, In 2016 IEEE 29Th International Conference on Software Engineering Education and Training (CSEET)., pp. 147-156, (2016); 
+Sultan M.A., Salazar C., Sumner T., Fast and easy short answer grading with high accuracy, In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 1070-1075, (2016); 
+Sung C., Dhamecha T., Saha S., Ma T., Reddy V., Arora R., Pre-training BERT on domain resources for short answer grading, In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9Th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)., pp. 6071-6075, (2019); 
+Sung C., Dhamecha T.I., Mukhi N., Improving short answer grading using transformer-based pre-training, Artificial Intelligence in Education, pp. 469-481, (2019); 
+Weisberg S., Applied linear regression, (2013); 
+Zhang Z., Wu Y., Li Z., He S., Zhao H., Zhou X., Zhou X., I know what you want: Semantic learning for text comprehension, (2018)#FRF#

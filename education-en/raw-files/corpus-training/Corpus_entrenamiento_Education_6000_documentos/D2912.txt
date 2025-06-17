@@ -1,0 +1,40 @@
+#ITI#metaCOVID: A web-application for living meta-analyses of COVID-19 trials#FTI#
+#IRE# Outputs from living evidence syntheses projects have been used widely during the pandemic by guideline developers to form evidence-based recommendations. However, the needs of different stakeholders cannot be accommodated by solely providing pre-defined non amendable numerical summaries. Stakeholders also need to understand the data and perform their own exploratory analyses. This requires resources, time, statistical expertise, software knowledge as well as relevant clinical expertise to avoid spurious conclusions. To assist them, we created the metaCOVID application which, based on automation processes, facilitates the fast exploration of the data and the conduct of sub-analyses tailored to end-users needs. metaCOVID has been created in R and is freely available as an R-Shiny application. Based on the COVID-NMA platform (https://covid-nma.com/) the application conducts living meta-analyses of randomized controlled trials related to COVID-19 treatments and vaccines for several outcomes. Several options are available for subgroup and sensitivity analyses. The results are presented in downloadable forest plots. We illustrate metaCOVID through three examples involving well-known treatments and vaccines for COVID-19. The application is freely available from https://covid-nma.com/metacovid/#FRE#
+#IPC# data visualization; dynamic evidence synthesis; medical decision making; online software tool#FPC#
+#IRF# Boutron I., Chaimani A., Devane D., Et al., Interventions for the prevention and treatment of COVID-19: a living mapping of research and living network meta-analysis, Cochrane Database Syst Rev, 11, (2020); 
+Boutron I., Chaimani A., Devane D., Et al., Interventions for the treatment of COVID-19: a living network meta-analysis, Cochrane Database Syst Rev, 11, (2020); 
+Boutron I., Chaimani A., Meerpohl J.J., Et al., The COVID-NMA project: building an evidence ecosystem for the COVID-19 pandemic, Ann Intern Med, 173, 12, pp. 1015-1017, (2020); 
+Siemieniuk R.A., Bartoszko J.J., Ge L., Et al., Drug treatments for covid-19: living systematic review and network meta-analysis, BMJ, 370, (2020); 
+Juul S., Nielsen N., Bentzer P., Et al., Interventions for treatment of COVID-19: a protocol for a living systematic review with network meta-analysis including individual patient data (The LIVING Project), Syst Rev, 9, 1, (2020); 
+Malin J.J., Spinner C.D., Janssens U., Et al., Key summary of German national treatment guidance for hospitalized COVID-19 patients: key pharmacologic recommendations from a national German living guideline using an Evidence to Decision Framework (last updated 17.05.2021), Infection, 50, 1, pp. 93-106, (2022); 
+Burke J.F., Sussman J.B., Kent D.M., Hayward R.A., Three simple rules to ensure reasonably credible subgroup analyses, BMJ, 351, (2015); 
+Verdugo-Paiva F., Vergara C., Avila C., Et al., COVID-19 Living Overview of Evidence repository is highly comprehensive and can be used as a single source for COVID-19 studies, J Clin Epidemiol, 149, pp. 195-202, (2022); 
+Sterne J.A.C., Savovic J., Page M.J., Et al., RoB 2: a revised tool for assessing risk of bias in randomised trials, BMJ, 28, 366, (2019); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package. 2010th-08–05 ed, J Stat Softw, 36, (2010); 
+Balduzzi S., Rucker G., Schwarzer G., How to perform a meta-analysis with R: a practical tutorial, Evid Based Ment Health, 22, 4, pp. 153-160, (2019); 
+Deeks J.J., Higgins J.P., Altman D.G., Analysing data and undertaking meta-analyses, Cochrane Handbook for Systematic Reviews of Interventions, pp. 241-284, (2019); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synth Methods, 7, 1, pp. 55-79, (2016); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Stat, 30, 3, pp. 261-293, (2005); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Paule R.C., Mandel J., Consensus values and weighting factors, J Res Natl Bur Stand, 87, 5, pp. 377-385, (1982); 
+Sidik K., Jonkman J.N., Simple heterogeneity variance estimation for meta-analysis, J R Stat Soc Ser C Appl Stat, 54, 2, pp. 367-384, (2005); 
+Morris C.N., Parametric empirical Bayes inference: theory and applications, J Am Stat Assoc, 78, 381, pp. 47-55, (1983); 
+Hardy R.J., Thompson S.G., A likelihood approach to meta-analysis with random effects, Stat Med, 15, 6, pp. 619-629, (1996); 
+Petropoulou M., Mavridis D., A comparison of 20 heterogeneity variance estimators in statistical synthesis of results from studies: a simulation study, Stat Med, 36, 27, pp. 4266-4280, (2017); 
+Higgins J.P., Thompson S.G., Quantifying heterogeneity in a meta-analysis, Stat Med, 21, 11, pp. 1539-1558, (2002); 
+Borenstein M., Higgins J.P., Hedges L.V., Rothstein H.R., Basics of meta-analysis: I2 is not an absolute measure of heterogeneity, Res Synth Methods, 8, 1, pp. 5-18, (2017); 
+Dexamethasone in hospitalized patients with Covid-19, N Engl J Med, 384, pp. 693-704, (2020); 
+Borenstein M., Higgins J.P., Meta-analysis and subgroups, Prev Sci, 14, 2, pp. 134-143, (2013); 
+Mavridis D., White I.R., Dealing with missing outcome data in meta-analysis, Res Synth Methods, 11, 1, pp. 2-13, (2020); 
+Mavridis D., Chaimani A., Efthimiou O., Leucht S., Salanti G., Addressing missing outcome data in meta-analysis, Evid Based Ment Health, 17, 3, pp. 85-89, (2014); 
+Knapp G., Hartung J., Improved tests for a random effects meta-regression with a single covariate, Stat Med, 22, 17, pp. 2693-2710, (2003); 
+IntHout J., Ioannidis J.P., Borm G.F., The Hartung-Knapp-Sidik-Jonkman method for random effects meta-analysis is straightforward and considerably outperforms the standard DerSimonian-Laird method, BMC Med Res Methodol, 14, 1, (2014); 
+Bender R., Friede T., Koch A., Et al., Methods for evidence synthesis in the case of very few studies, Res Synth Methods, 9, 3, pp. 382-392, (2018); 
+Efthimiou O., Practical guide to the meta-analysis of rare events, Evid Based Ment Health, 21, 2, pp. 72-76, (2018); 
+Mantel N., Haenszel W., Statistical aspects of the analysis of data from retrospective studies of disease, J Natl Cancer Inst, 22, 4, pp. 719-748, (1959); 
+Yusuf S., Peto R., Lewis J., Collins R., Sleight P., Beta blockade during and after myocardial infarction: an overview of the randomized trials, Prog Cardiovasc Dis, 27, 5, pp. 335-371, (1985); 
+Evrenoglou T., White I.R., Afach S., Mavridis D., Chaimani A., Network meta-analysis of rare events using penalized likelihood regression, Stat Med, 41, 26, pp. 5203-5219, (2022); 
+Firth D., Bias reduction of maximum likelihood estimates, Biometrika, 80, pp. 27-38, (1993); 
+Ghosn L., Chaimani A., Evrenoglou T., Et al., Interleukin-6 blocking agents for treating COVID-19: a living systematic review, Cochrane Database Syst Rev, (2021); 
+Davidson M., Menon S., Chaimani A., Et al., Interleukin-1 blocking agents for treating COVID-19, Cochrane Database Syst Rev, (2022); 
+Schandelmaier S., Briel M., Varadhan R., Et al., Development of the instrument to assess the credibility of effect modification analyses (ICEMAN) in randomized controlled trials and meta-analyses, Can Med Assoc J, 192, 32, pp. E901-E906, (2020)#FRF#

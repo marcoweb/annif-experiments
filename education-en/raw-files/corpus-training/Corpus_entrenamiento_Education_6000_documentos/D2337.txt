@@ -1,0 +1,34 @@
+#ITI#Assessing Dimensionality of IRT Models Using Traditional and Revised Parallel Analyses#FTI#
+#IRE# Determining the number of dimensions is extremely important in applying item response theory (IRT) models to data. Traditional and revised parallel analyses have been proposed within the factor analysis framework, and both have shown some promise in assessing dimensionality. However, their performance in the IRT framework has not been systematically investigated. Therefore, we evaluated the accuracy of traditional and revised parallel analyses for determining the number of underlying dimensions in the IRT framework by conducting simulation studies. Six data generation factors were manipulated: number of observations, test length, type of generation models, number of dimensions, correlations between dimensions, and item discrimination. Results indicated that (a) when the generated IRT model is unidimensional, across all simulation conditions, traditional parallel analysis using principal component analysis and tetrachoric correlation performs best; (b) when the generated IRT model is multidimensional, traditional parallel analysis using principal component analysis and tetrachoric correlation yields the highest proportion of accurately identified underlying dimensions across all factors, except when the correlation between dimensions is 0.8 or the item discrimination is low; and (c) under a few combinations of simulated factors, none of the eight methods performed well (e.g., when the generation model is three-dimensional 3PL, the item discrimination is low, and the correlation between dimensions is 0.8).#FRE#
+#IPC# dimensionality; item response theory; parallel analysis; revised parallel analysis#FPC#
+#IRF# Ackerman T.A., Using multidimensional item response theory to understand what items and tests are measuring, Applied Measurement in Education, 7, 4, pp. 255-278, (1994); 
+Baker F.B., Kim S.H., The basics of item response theory using R, (2017); 
+Bollen K.A., Barb K.H., Pearson’s R and coarsely categorized data, American Sociological Review, 46, pp. 232-239, (1981); 
+Buja A., Eyuboglu N., Remarks on parallel analysis, Multivariate Behavioral Research, 27, pp. 509-540, (1992); 
+Carroll J.B., The effect of difficulty and chance success on correlations between items or between tests, Psychometrika, 10, 1, pp. 1-19, (1945); 
+Cattell R.B., The scree test for the number of factors, Multivariate Behavioral Research, 1, 2, pp. 245-276, (1966); 
+Chalmers R.P., MIRT: A multidimensional item response theory package for the R environment, Journal of Statistical Software, 48, 6, pp. 1-29, (2012); 
+Cho S.J., Li F., Bandalos D., Accuracy of the parallel analysis procedure with polychoric correlations, Educational and Psychological Measurement, 69, 5, pp. 748-759, (2009); 
+Crawford A., Green S.B., Levy R., Lo W.-J., Scott L., Svetina D.S., Thompson M.S., Evaluation of parallel analysis methods for determining the number of factors, Educational and Psychological Measurement, 70, pp. 885-901, (2010); 
+Debelak R., Tran U.S., Principal component analysis of smoothed tetrachoric correlation matrices as a measure of dimensionality, Educational and Psychological Measurement, 73, 1, pp. 63-77, (2013); 
+Debelak R., Tran U.S., Comparing the effects of different smoothing algorithms on the assessment of dimensionality of ordered categorical items with parallel analysis, PLOS ONE, 11, 2, pp. 1-18, (2016); 
+DeMars C.E., Revised parallel analysis with nonnormal ability and a guessing parameter, Educational and Psychological Measurement, 79, 1, pp. 151-169, (2019); 
+Drasgow F., Lissak R.I., Modified parallel analysis: A procedure for examining the latent dimensionality of dichotomously scored item responses, Journal of Applied Psychology, 68, pp. 363-373, (1983); 
+Embretson S.E., Reise S.P., Item response theory for psychologists, (2000); 
+Fabrigar L.R., Wegener D.T., MacCallum R.C., Strahan E.J., Evaluating the use of exploratory factor analysis in psychological research, Psychological Methods, 4, 3, pp. 272-299, (1999); 
+Finch H., Monahan P., A bootstrap generalization of modified parallel analysis for IRT dimensionality assessment, Applied Measurement in Education, 21, 2, pp. 119-140, (2008); 
+Garrido L.E., Abad F.J., Ponsoda V., A new look at Horn’s parallel analysis with ordinal variables, Psychological Methods, 18, pp. 454-474, (2012); 
+Glorfeld L.W., An improvement on Horn’s parallel analysis methodology for selecting the correct number of factors to retain, Educational and Psychological Measurement, 55, pp. 377-393, (1995); 
+Golino H., Shi D., Christensen A.P., Garrido L.E., Nieto M.D., Sadana R., Thiyagarajan J.A., Martinez-Molina A., Investigating the performance of exploratory graph analysis and traditional techniques to identify the number of latent factors: A simulation and tutorial, Psychological Methods, 25, 3, (2020); 
+Green S.B., Levy R., Thompson M.S., Lu M., Lo W.J., A proposed solution to the problem with using completely random data to assess the number of factors with parallel analysis, Educational and Psychological Measurement, 72, 3, pp. 357-374, (2012); 
+Green S.B., Redell N., Thompson M.S., Levy R., Accuracy of revised and traditional parallel analyses for assessing dimensionality with binary data, Educational and Psychological Measurement, 76, pp. 5-21, (2016); 
+Horn J.L., A rationale and test for the number of factors in factor analysis, Psychometrika, 32, pp. 179-185, (1965); 
+Humphreys L.G., Ilgen D.R., Note on a criterion for the number of common factors, Educational and Psychological Measurement, 29, pp. 571-578, (1969); 
+Hayton J.C., Allen D.G., Scarpello V., Factor retention decisions in exploratory factor analysis: A tutorial on parallel analysis, Organizational research methods, 7, 2, pp. 191-205, (2004); 
+Linn R.L., A Monte Carlo approach to the number of factors problem, Psychometrika, 33, pp. 37-71, (1968); 
+Olsson U., Maximum likelihood estimation of the polychoric correlation coefficient, Psychometrika, 44, pp. 443-460, (1979); 
+Pett M.A., Lackey N.R., Sullivan J.J., Making sense of factor analysis: The use of factor analysis for instrument development in health care research, (2003); 
+Revelle W., psych: Procedures for psychological, psychometric, and personality research, (2022); 
+Takane Y., De Leeuw J., On the relationship between item response theory and factor analysis of discretized variables, Psychometrika, 52, 3, pp. 393-408, (1987); 
+Timmerman M.E., Lorenzo-Seva U., Dimensionality assessment of ordered polytomous items with parallel analysis, Psychological Methods, 16, 2, pp. 209-220, (2011); 
+Tran U.S., Formann A.K., Performance of parallel analysis in retrieving unidimensionality in the presence of binary data, Educational and Psychological Measurement, 69, 1, pp. 50-61, (2009)#FRF#

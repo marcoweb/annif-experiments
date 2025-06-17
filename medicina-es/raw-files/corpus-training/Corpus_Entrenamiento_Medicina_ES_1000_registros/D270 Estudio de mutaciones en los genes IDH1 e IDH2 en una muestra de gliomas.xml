@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.7" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v38i0.3708</article-id>
+			<article-id pub-id-type="publisher-id">00011</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículos orginales</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Estudio de mutaciones en los genes <italic>IDH1</italic> e <italic>IDH2</italic> en una muestra de gliomas de población colombiana</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Study of mutations in <italic>IDH1</italic> and <italic>IDH2</italic> genes in a sample of gliomas from Colombian population</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ricaurte</surname>
+						<given-names>Orlando</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Neita</surname>
+						<given-names>Karina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Valero</surname>
+						<given-names>Danyela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ortega-Rojas</surname>
+						<given-names>Jenny</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Arboleda-Bustos</surname>
+						<given-names>Carlos E.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Zubieta</surname>
+						<given-names>Camilo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Penagos</surname>
+						<given-names>José</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Arboleda</surname>
+						<given-names>Gonzalo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Grupo de Patología Molecular, Facultad de Medicina, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgdiv2">Grupo de Patología Molecular</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá, D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Grupo de Neurociencias y Muerte Celular, Instituto de Genética, Facultad de Medicina, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgdiv2">Instituto de Genética</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá, D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Grupo de Neurocirugía, Instituto Nacional de Cancerología, Bogotá, D.C., Colombia</institution>
+				<institution content-type="orgdiv1">Grupo de Neurocirugía</institution>
+				<institution content-type="orgname">Instituto Nacional de Cancerología</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá, D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Correspondencia: Gonzalo Arboleda, Departamento de Patología, Facultad deMedicina, Universidad Nacional de Colombia, Bogotá, D.C.,Colombia Teléfono: (571) 316 5000, extensión 11617 <email>gharboledab@unal.edu.co</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores declaramos que no existe ningún conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<month>05</month>
+				<year>2018</year>
+			</pub-date>
+			<volume>38</volume>
+			<issue>1</issue>
+			<supplement>suppl</supplement>
+			<fpage>86</fpage>
+			<lpage>92</lpage>
+			<history>
+				<date date-type="received">
+					<day>30</day>
+					<month>11</month>
+					<year>2016</year>
+				</date>
+				<date date-type="accepted">
+					<day>24</day>
+					<month>08</month>
+					<year>2017</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción.</title>
+					<p> Los gliomas son los tumores primarios más comunes del sistema nervioso central y se clasifican de I a IV según su grado de malignidad. En recientes investigaciones se ha encontrado que su aparición está relacionada con mutaciones en el exón 4 de los genes que codifican las deshidrogenasas de isocitrato 1 y 2 (<italic>IDH1</italic>: codón 132; <italic>IDH2</italic>: codón 172).</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Determinar la frecuencia de mutaciones en los genes <italic>IDH1</italic> e <italic>IDH2</italic> en una muestra de gliomas de pacientes colombianos.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos.</title>
+					<p> La extracción de ADN se hizo a partir de tejido tumoral. El exón 4 de los genes <italic>IDH1</italic> e <italic>IDH2</italic> se amplificó mediante PCR utilizando iniciadores específicos y, posteriormente, se secuenciaron. Para la determinación de las mutaciones, se emplearon los programas 4Peaksy MAFFT.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>Se determinó la presencia de mutaciones en el gen <italic>IDH1</italic> en el 34 % de las muestras, con predominio de la mutación no sinónima R132H. En el 7,5 % de los casos se detectaron mutaciones en el gen <italic>IDH2</italic>, principalmente las mutaciones no sinónimas R172K y R172W.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones. </title>
+					<p>La frecuencia de mutaciones en los genes <italic>IDH1</italic> e <italic>IDH2</italic> en la muestra fue similar a la reportada en otros estudios. El análisis de estas mutaciones puede ser importante como factor pronóstico y para su uso como potenciales blancos terapéuticos en gliomas.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Gliomas are the most common primary tumors of the central nervous system and, according to their malignancy, they are graded from I to IV. Recent studies have found that there is an association between gliomas and mutations in exon 4 of genes that codify for isocitrate dehydrogenases 1 and 2 (<italic>IDH1</italic>: codon 132; <italic>IDH2</italic>: codon 172).</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To establish the frequency of mutations in <italic>IDH1</italic> and <italic>IDH2</italic> in a sample of gliomas from Colombian population.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p> DNA was extracted from tumor tissue. The exon 4 of <italic>IDH1</italic> and <italic>IDH2</italic> was amplified by PCR using specific primers and subsequently sequenced. Mutations were determined using the 4Peaks MAFFT programs.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>We found mutations in the <italic>IDH1</italic> gene in 34% of the glioma samples, with a predominance of the nonsynonymous mutation R132H. Mutations in the <italic>IDH2</italic> gene were found in 7.5% of cases, with a predominance of the nonsynonymous R172K and R172W mutations.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The frequency of mutations in the <italic>IDH1</italic> and <italic>IDH2</italic> genes in the sample was similar to that reported in other studies. The analysis of these mutations may be important to establish prognostic factors and for the development of future therapeutic targets in gliomas.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>sistema nervioso central</kwd>
+				<kwd>glioma</kwd>
+				<kwd>ADN de neoplasias</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Central nervous system</kwd>
+				<kwd>glioma</kwd>
+				<kwd>DNA, neoplasm</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="20"/>
+				<page-count count="07"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Los gliomas son los tumores primarios más frecuentes del sistema nervioso central. La Organización Mundial de la Salud (OMS) los clasifica de I a IV según su agresividad. Sin embargo, su comportamiento biológico, el pronóstico y la respuesta al tratamiento varían, incluso, dentro de una misma categoría histológica<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Los recientes avances en el conocimiento de la biología molecular de los gliomas han contribuido a precisar mejor su diagnóstico y su pronóstico, a predecir la respuesta al tratamiento y a desarrollar nuevas estrategias específicas de tratamiento<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. En el glioblastoma múltiple, por ejemplo, el pronóstico, la respuesta al tratamiento y la supervivencia, varían según si se trata de tumores primarios (<italic>de novo</italic>) o secundarios (progresión a partir de un glioma de menor grado), diferencias que se han correlacionado con la frecuencia de las diferentes alteraciones moleculares que estén presentes. Por ejemplo, las mutaciones en el gen supresor tumoral p53 se observan principalmente en glioblastomas múltiples secundarios, en tanto que la sobre expresión del factor de crecimiento epidérmico predomina en los primarios<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. También, se han empleado otros marcadores para mejorar la clasificación histológica y la graduación de los gliomas, pero su utilidad es limitada<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+		<p>Recientemente, se han identificado mutaciones que determinan la pérdida de función de la enzima deshidrogenasa de isocitrato (IDH), una enzima involucrada en el proceso de metabolismo celular y en la respuesta al estrés oxidativo. Estas mutaciones ocurren tanto en la IDH de tipo 1 (IDH1) (citoplásmica y del peroxisoma) como en la IDH de tipo 2 (IDH2) (mitocondrial), y se han descrito principalmente en gliomas de bajo grado (50 a 80 % de los casos) y en glioblastomas múltiples secundarios (75 %), lo cual sugiere su importancia como marcadores en este tipo de tumores<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. En general, las mutaciones en los genes <italic>IDH1</italic> e <italic>IDH2</italic> se han asociado con un mejor pronóstico, una mayor supervivencia global libre de progresión y una mejor respuesta a la quimioterapia<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+		<p>Las IDH son homodímeros que catalizan la descarboxilación oxidativa del isocitrato (IC) a ɑ-ceto-glutarato (ɑ-CG) y a dióxido de carbono con la reducción de la deshidrogenasa de alcohol (NADP+) a fosfato de dinucleótido nicotinamida adenina (NADPH), el cual se utiliza para la generación de glutatión reducido, el principal antioxidante celular que favorece la supervivencia celular y la antiapoptosis. Las mutaciones del<italic>IDH1</italic> (395G→A: residuo Arg 132) y el <italic>IDH2</italic> (515G→A: residuos Arg 172) inhiben su función, dando lugar a la generación de 2 hidroxiglutarato (2-HG), considerado un oncometabolito, y causando una disminución en los niveles de ɑ-CG y un incremento en los niveles de radicales libres.</p>
+		<p>Además de estabilizar al factor inductor de hipoxia-1a (HIF-1a), el 2-HG actúa como inhibidor competitivo de ɑ-CG, interfiriendo con su unión a demetilasas de histonas y, por ende, cambia el perfil de metilación a un fenotipo metilador de islas CpG (G-CIMP), lo cual favorece la inhibición de genes supresores tumorales. Asimismo, altera otra serie de vías, incluido el incremento del número de células madre, el compromiso en la diferenciación celular y la promoción de la transformación, las cuales favorecen el proceso de formación de tumores<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. En general, los mecanismos por los cuales el 2-HG promueve la formación de tumores son variados y contradictorios, y es mucho lo que todavía se desconoce de ellos<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+		<p>Con la incorporación de esta información molecular, la última revisión de la clasificación de tumores del sistema nervioso central de la OMS (2016) incluyó gliomas u oligodendrogliomas difusos con base en parámetros moleculares, entre los cuales la presencia o la ausencia de mutaciones en la IDH aparecen como un factor importante de ayuda en el diagnóstico<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+		<p>El objetivo del presente trabajo fue definir la frecuencia de mutaciones en los genes<italic>IDH1</italic> e <italic>IDH2</italic> en una serie de casos de glioma en Colombia y comparar los resultados con los obtenidos enotros estudios.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title>Pacientes y controles</title>
+				<p>Se analizaron 26 muestras de ADN obtenido de tejido tumoral de pacientes con diagnóstico de glioma (<xref ref-type="table" rid="t1">cuadro 1</xref>). Las muestras se obtuvieron del Grupo de Neurooncología del Instituto Nacional de Cancerología y se almacenaron en el Instituto de Genética de la Universidad Nacional de Colombia. Se analizaron, además, 100 muestras de ADN de individuos sanos sin historia familiar de gliomas, obtenidas del banco de ADN del Instituto de Genética de la Universidad Nacional de Colombia, con el objetivo de determinar la frecuencia poblacional de las mutaciones de interés.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Distribución de los gliomas según su tipo y grado histológico y presencia de mutaciones en el exón 4 de los genes IDH1 e IDH2</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-38-s1-00086-gt1.png"/>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Extracción y amplificación de ADN</title>
+				<p>Para la extracción de ADN a partir de las muestras, se utilizó el estuche GeneJET Genomic DNA Purification Kit™ (Thermo Scientific, USA), siguiendo las especificaciones del fabricante. En la amplificación mediante PCR del exón 4 de los genes <italic>IDH1</italic> e IDH2, se emplearon los iniciadores (5′AAT GAGCTCTATATGCCATCACTG 3′) sentido y (5′TTCATACCTTGCTTAATGGGTGT 3′) antisentido; (5’ AATTTTAGGACCCCCGTCTG 3) sentido y(5’ TGTGGCCTTGTACTGCAGAG3’) antisentido, respectivamente, bajo las siguientes condiciones:95 °C durante 4 minutos, 30 ciclos a 95°Cdurante 30 segundos, a 59 °C durante 30 segundos y a72 °C durante 25 segundos, y un ciclo final a 72 °C durante 5 minutos. </p>
+				<p>Los fragmentos amplificados se comprobaron mediante electroforesis en geles de agarosa al 1,5 % de tampón salino (SB 1X), usando como revelador la <italic>SYBR Safe</italic>DNA Gel Stain™ (Thermo Fisher Scientific, USA). Los fragmentos obtenidos se purificaron con etanol y, posteriormente, se corrieron mediante electroforesis en un gel de agarosa al 1,5 % para evaluar su calidad.</p>
+			</sec>
+			<sec>
+				<title>Secuenciación de ADN</title>
+				<p>Los fragmentos de PCR purificados se secuenciaron con los mismos iniciadores sentido y antisentido usados para la amplificación. Las reacciones de secuencia se hicieron en un volumen total de 5 µl (4,5 µl del fragmento amplificado y 0,5 µl del iniciador) empleando el estuche de secuenciación BigDye Terminator™, 3.1 v. (Applied Biosystems, USA) y se corrieron en el secuenciador automático ABI PRISM 3500™ (Applied Biosystems, USA) del Instituto de Genética de la Universidad Nacional de Colombia.</p>
+			</sec>
+			<sec>
+				<title>Análisis de las secuencias</title>
+				<p>Las secuencias de nucleótidos obtenidas de las 26 muestras de tejido tumoral y de las 100 muestras de la población general, se visualizaron con el programa 4 Peaks (<ext-link ext-link-type="uri" xlink:href="http://nucleobytes.com/index.php/4peaks">http://nucleobytes.com/index.php/4peaks</ext-link>) y se alinearon empleando el programa MAFFT (<ext-link ext-link-type="uri" xlink:href="http://mafft.cbrc.jp/alignment/software/">http://mafft.cbrc.jp/alignment/software/</ext-link>). Las secuencias reportadas en el GenBank del exón 4 de cada gen, se emplearon como referencia (números de acceso: Exón 4 IDH1: NM005896; Exón 4 IDH2: NM002168.2).</p>
+			</sec>
+			<sec>
+				<title>Consideraciones éticas</title>
+				<p>El presente proyecto fue evaluado y avalado por el Comité de Ética de la Facultad de Medicina de la Universidad Nacional de Colombia. </p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Se estudiaron muestras de 26 pacientes con diferentes tipos de gliomas, 17 hombres y 9 mujeres, con un rango de edad entre los 10 y los 58 años (<xref ref-type="table" rid="t1">cuadro 1</xref>). El análisis de las secuencias del exón 4 de los genes<italic>IDH1</italic> e <italic>IDH2</italic> reveló mutaciones en 11 casos (42,3 %): 9 en <italic>IDH1</italic> y 2 en <italic>IDH2</italic> (<xref ref-type="table" rid="t2">cuadro 2</xref>), comparadas con las secuencias de referencia de <italic>IDH1</italic> (<xref ref-type="fig" rid="f1">figura 1</xref>A) e <italic>IDH2</italic> (<xref ref-type="fig" rid="f2">figura 2</xref>A).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Electroferogramas de secuenciación del exón 4 del gen IDH en gliomas. A. Se muestra la secuencia de referencia en la que el codón 132 (CGT) codifica para el aminoácido arginina (R). B. En este codón se determinaron nueve mutaciones: siete casoscon mutación no sinónima heterocigota (G/A) en la segunda posición del codón, en la que se cambia la arginina (R) por histidina (H)(R132H); y, C. dos mutaciones en la primera posición del codón 132: una no sinónima heterocigota (C/A) que genera un cambio de arginina (R) por serina (S) (R132S), y, D. una no sinónima heterocigota (C/G) en la primera posición del codón 132, que produce elcambio de arginina (R) por glicina (G) (R132G).</title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-38-s1-00086-gf1.png"/>
+				</fig>
+			</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Electroferogramas de secuenciación del exón 4 del gen IDH2 en gliomas. A. Se muestra la secuencia de referencia en la que aparece el codón 172 (AGG) que codifica para una arginina (R), en la cual se determinaron dos mutaciones: B. una nosinónima heterocigota (G/A) en la segunda posición, la cual produce el cambio de arginina (R) por lisina (K) (R172K) y, C. una mutación no sinónima heterocigota (A/T) en la primera posición del codón 172, la cual produce un cambio de arginina (R) por triptófano (W) (R172W).</title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-38-s1-00086-gf2.png"/>
+				</fig>
+			</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2</label>
+					<caption>
+						<title>Distribución de la frecuencia y el tipo de mutaciones en IDH1 e IDH2 según el grado histológico</title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-38-s1-00086-gt2.png"/>
+				</table-wrap>
+			</p>
+			<p>En el codón 132 (CGT) del gen <italic>IDH1</italic>, se presentaron siete casos con mutación no sinónima heterocigota (G/A) en la segunda posición del codón, la cual cambia arginina (R) por histidina (H) (R132H) (<xref ref-type="fig" rid="f1">figura 1</xref>B). Dicha mutación se detectó en cinco tumores de alto grado (tres glioblastomas múltiples, un astrocitoma anaplásico de grado III y un oligoastrocitoma de grado III) y en dos tumores de bajo grado (un oligoastrocitoma de grado II y un ganglioglioma de grado II). Además, se detectaron dos mutaciones en la primera posición del codón 132: una no sinónima heterocigota (C/G) en la primera posición del codón 132, la cual produce el cambio de arginina (R) por glicina (G) (R132G), en un astrocitoma anaplásico (grado III) (<xref ref-type="fig" rid="f1">figura 1</xref>C), y una no sinónima heterocigota (C/A) que genera un cambio de arginina (R) por serina (S) (R132S) en un oligoastrocitoma anaplásico (grado III) (<xref ref-type="fig" rid="f1">figura 1</xref>D).</p>
+			<p>Por otro lado, en el análisis de secuencias del exón 4 del gen<italic>IDH2</italic>, se identificó un paciente con oligoastrocitoma anaplásico (grado III) con una mutación no sinónima heterocigota (G/A) en la segunda posición del codón 172 (AGG), la cual produce el cambio de arginina (R) por lisina (K) (R172K) (<xref ref-type="fig" rid="f2">figura 2</xref>B), y una mutación no sinónima heterocigota (A/T) en la primera posición del codón 172, la cual produce un cambio de arginina (R) por triptófano (W) (R172W) en un oligodendroglioma de grado I (<xref ref-type="fig" rid="f2">figura 2</xref>C).</p>
+			<p>En ninguna de las 100 muestras de controles secuenciadas (80 mujeres y 20 hombres, con un rango de edad entre 38 y 89 años), se detectaron mutaciones en el exón 4 de los genes <italic>IDH1</italic> e <italic>IDH2</italic>.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En el presente estudio se determinó la presencia de mutaciones no sinónimas en el exón 4 del gen<italic>IDH1</italic> (codón 132) y del gen<italic>IDH2</italic> (codón 172). Estas mutaciones se detectaron en 11 de los 26 casos con algún tipo de glioma (42,3 %; <italic>IDH1</italic>: 34,6 % e <italic>IDH2</italic>: 7,7 %), y no así en los 100 individuos de la población general, lo cual sugiere que su frecuencia es muy baja en individuos sin gliomas y sin antecedentes familiares de este tipo de cáncer. Debe tenerse en cuenta que en el presente estudio se utilizó la clasificación del 2007, la cual difiere de la reciente clasificación del 2016 que, además de la histología y de la inmunohistoquímica (GFPA, S100, Oligo, Ki- 67, NF, sin aptofisina, etc.), incorpora pruebas moleculares (codeleción 1p19q, p53, ATRX, estado de metilación de MGMT) y la evaluación de las mutaciones de IDH, con lo cual es posible detectar tumores con IDH silvestre o mutada. De esta manera, se facilita su pronóstico y su posible empleo predictivo en un futuro. Cuando no se evalúa la presencia de mutaciones en <italic>IDH1</italic> e <italic>IDH2</italic>, se recomienda usar el término NOS (<italic>Non Other wise Specified</italic>).</p>
+			<p>De las 11 mutaciones encontradas, ocho se presentaron en tumores de alto grado con diferenciación astrocitaria (astrocitoma anaplásico, oligoastrocitoma anaplásico y glioblastoma múltiple) y tres en tumores de bajo grado(ganglioglioma, oligodendroglioma y oligoastrocitoma). Con respecto a los oligoastrocitomas, es importante señalar que esta categoría fue suprimida en la clasificación de la OMS del 2016, pues el uso de las pruebas moleculares ha permitido diferenciar astrocitomas de oligodendrogliomas en casos que presentan aspecto histológico mixto, y solo dejan una mínima proporción de casos con características de diferenciación dual.</p>
+			<p>Teniendo en cuenta los resultados de este y otros estudios, se ha sugerido que las mutaciones en<italic>IDH1</italic> e <italic>IDH2</italic> se presentan desde fases tempranas del proceso carcinogénico, y podrían contribuir a la progresión tumoral, por lo cualse consideran como marcadores de glioblastoma múltiple secundario<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Estos resultados también destacan la importancia de estas mutaciones en los gliomas en Colombia. No obstante, se requieren estudios a mayor escala y un tamaño mayor de la muestra, para determinar con precisión la real contribución de estos cambios genéticos en la carcinogénesis de los gliomas.</p>
+			<p>En estudios previos en otras poblaciones, se ha reportado una frecuencia de mutaciones en el <italic>IDH1</italic> de 71 % en los gliomas de grado II, de 64 % en gliomas de grado III, de 76 % en glioblastomas múltiples secundarios y solo de 6 % en gliomas primarios. La frecuencia de mutaciones en el <italic>IDH2</italic> es de 2,4 % en promedio en gliomas de grado II, de 4 % en gliomas de grado III, y no se ha informado en glioblastomas múltiples<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+			<p>Hay pocos estudios en población latinoamericana. En Brasil se demostró una frecuencia global de 11,8 % (19 de 161 casos) en glioblastomas múltiples: 66,7 % en los secundarios y 9,7 % en los primarios, la cual se asoció con una mayor supervivencia<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Recientemente, en un estudio en población colombiana con gliomas de bajo grado (astrocitomas, oligodendrogliomas y oligoastrocitomas), se reportó una frecuencia de 57,1 % de mutaciones en los genes <italic>IDH1</italic> e <italic>IDH2</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. En el presente estudio, la mutación más frecuentemente observada en el gen <italic>IDH1</italic> fue la R132H, que ha sido reportada con frecuencia hasta en el 90 % en otras series de casos<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>, en tanto que en el gen<italic>IDH2</italic> se encontraron las mutaciones R172K y R172W, informadas previamente<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>De las 11 mutaciones encontradas, ocho se presentaron en tumores de alto grado con diferenciación astrocitaria y de oligodendroglía (astrocitomas y oligoastrocitomas de grado III y glioblastoma múltiple de grado IV), y tres de ellas en tumores de bajo grado con esta misma diferenciación (oligodendroglioma, oligoastrocitoma y un ganglioglioma). No se detectaron mutaciones en un astrocitoma pilocítico (grado I), un astrocitoma subependimario de células gigantes y dos ependimomas (grados II y III).</p>
+			<p>Debido a que el estudio de Cardona, <italic>et al.</italic>, se circunscribió a gliomas de bajo grado en los que se encontró una frecuencia de dichas mutaciones más alta de la reportada aquí<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, nuestros hallazgos refuerzan la importancia del estudio de mutaciones en<italic>IDH1</italic> e <italic>IDH2</italic> en casos de glioblastoma múltiple. Precisamente, en este estudio la presencia de mutaciones en gliomas de alto grado sugiere su progresión a partir de gliomas de bajo grado, lo cual se correlaciona también con la edad de los pacientes analizados.</p>
+			<p>Además de los gliomas, se han identificado mutaciones en el exón 4 de los genes <italic>IDH1</italic> e <italic>IDH2</italic> en otros tumores, como los cartilaginosos (54 % en condrosarcomas esporádicos centrales, 71 % en condrosarcomas parostales y 57 % en condrosarcomas no diferenciados, en leucemia mieloide aguda (15 a 30 %) (<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B13">13</xref>), en colangiocarcinomas intrahepáticos (10-23 %) y en adenocarcinomas prostáticos (2 %)<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Estas mutaciones se asocian a alteraciones metabólicas y epigenéticas de peor pronóstico en estos tumores<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+			<p>Sin embargo, el valor predictivo de las mutaciones en los genes<italic>IDH</italic> no es claro aún, lo cual es particularmente importante cuando se ha empezado a evaluar el uso de inhibidores para revertir su efecto transformador, promover la diferenciación celular<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> y aumentar la sensibilidad a la quimioterapia y a la radioterapia<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>Debido a que las mutaciones del <italic>IDH1</italic> en el laboratorio de patología se exploran mediante el estudio de la expresión de la proteína mutada mediante inmunohistoquímica utilizando el anticuerpo (mIDH1<sup>R132H</sup>) en cortes de tejido incluidos en parafina<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>, y teniendo en cuenta que su valor es limitado, ya que no identifica la expresión de productos de otras mutaciones de<italic>IDH 1</italic> e <italic>IDH2</italic>, se requieren análisis más precisos que identifiquen mutaciones alternativas y relevantes mediante el análisis del ADN<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>. Esto es importante porque, además de su valor como factor pronóstico, se están empezando a evaluar inhibidores de las IDH mutadas y silvestres como alternativas terapéuticas que reversan sus efectos transformadores, promueven la diferenciación celular<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> y aumentan su sensibilidad a la quimioterapia y la radioterapia<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>En conclusión, en el presente trabajo se reporta una frecuencia de mutaciones en<italic>IDH1</italic> e <italic>IDH2</italic> de 42,3 % en una serie de 26 gliomas de pacientes colombianos, frecuencia similar a la encontrada en estudios previos. Teniendo en cuenta la ausencia de estas mutaciones en la población general analizada, su estudio puede ser importante para determinar su valor como factor pronóstico y como potenciales blancos terapéuticos en gliomas.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>A la División de Investigación de la sede Bogotá de la Universidad Nacional de Colombia.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. ChaterCC, AristizábalG, AristizábalJ, RoaCL, AlvaradoH. Características demográficas y patológicas de los tumores del sistema nervioso central estudiados en la clínica El Bosque. Acta Neurol Colomb. 2011;27:106-13.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chater</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Aristizábal</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Aristizábal</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Roa</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Alvarado</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Características demográficas y patológicas de los tumores del sistema nervioso central estudiados en la clínica El Bosque</article-title>
+					<source>Acta Neurol Colomb</source>
+					<year>2011</year>
+					<volume>27</volume>
+					<fpage>106</fpage>
+					<lpage>113</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. WeilerM, WickW.Molecular predictors of outcome in low-grade glioma.Curr Opin Neurol. 2012;25:767-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WCO.0b013e32835a0217">https://doi.org/10.1097/WCO.0b013e32835a0217</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Weiler</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Wick</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular predictors of outcome in low-grade glioma</article-title>
+					<source>Curr Opin Neurol</source>
+					<year>2012</year>
+					<volume>25</volume>
+					<fpage>767</fpage>
+					<lpage>773</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WCO.0b013e32835a0217">https://doi.org/10.1097/WCO.0b013e32835a0217</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Ortega-AznarA, Jiménez-LeónP, MartínezH, Romero-VidalF.Aspectos clinicopatológicos y moleculares de valor diagnóstico y pronóstico en gliomas.Rev Neurol. 2013;56: 161-70.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ortega-Aznar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jiménez-León</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Martínez</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Romero-Vidal</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Aspectos clinicopatológicos y moleculares de valor diagnóstico y pronóstico en gliomas</article-title>
+					<source>Rev Neurol</source>
+					<year>2013</year>
+					<volume>56</volume>
+					<fpage>161</fpage>
+					<lpage>170</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. ThomasL, Di StefanoAL, DucrayF.Predictive bio-markers in adult gliomas: The present and the future.Curr Opin Oncol. 2013;25:689-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/CCO.0000000000000002">https://doi.org/10.1097/CCO.0000000000000002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thomas</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Di Stefano</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Ducray</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Predictive bio-markers in adult gliomas: The present and the future</article-title>
+					<source>Curr Opin Oncol</source>
+					<year>2013</year>
+					<volume>25</volume>
+					<fpage>689</fpage>
+					<lpage>694</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/CCO.0000000000000002">https://doi.org/10.1097/CCO.0000000000000002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. RousseauA, MokhtariK, DuyckaertsC. The 2007 WHO classification of tumors of the central nervous system - what has changed? Curr Opin Neurol. 2008;21:720-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WCO.0b013e328312c3a7">https://doi.org/10.1097/WCO.0b013e328312c3a7</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rousseau</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mokhtari</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Duyckaerts</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>The 2007 WHO classification of tumors of the central nervous system - what has changed?</article-title>
+					<source>Curr Opin Neurol</source>
+					<year>2008</year>
+					<volume>21</volume>
+					<fpage>720</fpage>
+					<lpage>727</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WCO.0b013e328312c3a7">https://doi.org/10.1097/WCO.0b013e328312c3a7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. OhgakiH, KleihuesP. The definition of primary and secondary glioblastoma. Clin Cancer Res. 2013;19:764-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1078-0432.CCR-12-3002">https://doi.org/10.1158/1078-0432.CCR-12-3002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ohgaki</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Kleihues</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>The definition of primary and secondary glioblastoma</article-title>
+					<source>Clin Cancer Res</source>
+					<year>2013</year>
+					<volume>19</volume>
+					<fpage>764</fpage>
+					<lpage>772</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1078-0432.CCR-12-3002">https://doi.org/10.1158/1078-0432.CCR-12-3002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. PrensnerJR, ChinnaiyanAM.Metabolism unhinged: <italic>IDH</italic> mutations in cancer.Nat Med. 2011;17:291-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nm0311-291">https://doi.org/10.1038/nm0311-291</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prensner</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Chinnaiyan</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<article-title>Metabolism unhinged: IDH mutations in cancer</article-title>
+					<source>Nat Med</source>
+					<year>2011</year>
+					<volume>17</volume>
+					<fpage>291</fpage>
+					<lpage>293</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nm0311-291">https://doi.org/10.1038/nm0311-291</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. BorodovskyA, SeltzerMJ, RigginsGJ.Altered cancer cell metabolism in gliomas with mutant <italic>IDH1</italic> or <italic>IDH2</italic>. Curr Opin Oncol. 2012;24:83-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/CCO. 0b013e32834d816a">https://doi.org/10.1097/CCO. 0b013e32834d816a</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Borodovsky</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Seltzer</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Riggins</surname>
+							<given-names>GJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Altered cancer cell metabolism in gliomas with mutant IDH1 or IDH2</article-title>
+					<source>Curr Opin Oncol</source>
+					<year>2012</year>
+					<volume>24</volume>
+					<fpage>83</fpage>
+					<lpage>89</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/CCO. 0b013e32834d816a">https://doi.org/10.1097/CCO. 0b013e32834d816a</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. CairnsRA, MakTW.Oncogenic isocitrate dehydrogenase mutations: Mechanisms, models, and clinical opportunities.Cancer Discov. 2013;3:730-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/2159-8290.CD-13-0083">https://doi.org/10.1158/2159-8290.CD-13-0083</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cairns</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Mak</surname>
+							<given-names>TW</given-names>
+						</name>
+					</person-group>
+					<article-title>Oncogenic isocitrate dehydrogenase mutations: Mechanisms, models, and clinical opportunities</article-title>
+					<source>Cancer Discov</source>
+					<year>2013</year>
+					<volume>3</volume>
+					<fpage>730</fpage>
+					<lpage>741</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/2159-8290.CD-13-0083">https://doi.org/10.1158/2159-8290.CD-13-0083</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. LabussiereM, SansonM, IdbaihA, DelattreJY.<italic>IDH1</italic> gene mutations: A new paradigm in glioma prognosis and therapy?Oncologist. 2010;5:196-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.2009-0218">https://doi.org/10.1634/theoncologist.2009-0218</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Labussiere</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sanson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Idbaih</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Delattre</surname>
+							<given-names>JY</given-names>
+						</name>
+					</person-group>
+					<article-title>IDH1 gene mutations: A new paradigm in glioma prognosis and therapy?</article-title>
+					<source>Oncologist</source>
+					<year>2010</year>
+					<volume>5</volume>
+					<fpage>196</fpage>
+					<lpage>199</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.2009-0218">https://doi.org/10.1634/theoncologist.2009-0218</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. GagneL, BoulayK, TopisirovicI, HuotM-E, MalletteF.Oncogenic activities of <italic>IDH</italic>1/2 mutations; from epigenetics to cellular signaling. Trends Cell Biol. 2017. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tcb.2017.06.002">https://doi.org/10.1016/j.tcb.2017.06.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gagne</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Boulay</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Topisirovic</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Huot</surname>
+							<given-names>M-E</given-names>
+						</name>
+						<name>
+							<surname>Mallette</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Oncogenic activities of IDH1/2 mutations; from epigenetics to cellular signaling</article-title>
+					<source>Trends Cell Biol</source>
+					<year>2017</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tcb.2017.06.002">https://doi.org/10.1016/j.tcb.2017.06.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. LouisDN, PerryA, GuidoR, von DeimlingA, FigarellaBrangerD, CaveneeWK, <italic>et al</italic>.The 2016 World Health Organization classification of tumors of the central nervous system: A summary. Acta Neuropathol. 2016;131: 803-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00401-016-1545-1">https://doi.org/10.1007/s00401-016-1545-1</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Louis</surname>
+							<given-names>DN</given-names>
+						</name>
+						<name>
+							<surname>Perry</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Guido</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>von Deimling</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>FigarellaBranger</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Cavenee</surname>
+							<given-names>WK</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The 2016 World Health Organization classification of tumors of the central nervous system: A summary</article-title>
+					<source>Acta Neuropathol</source>
+					<year>2016</year>
+					<volume>131</volume>
+					<fpage>803</fpage>
+					<lpage>820</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00401-016-1545-1">https://doi.org/10.1007/s00401-016-1545-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. YanH, ParsonsDW, JinG, MclendonR, RasheedBA, YuanW, <italic>et al</italic>.<italic>IDH1</italic> and <italic>IDH2</italic> mutations in gliomas.N Engl J Med. 2009;360:765-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa0808710">https://doi.org/10.1056/NEJMoa0808710</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yan</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Parsons</surname>
+							<given-names>DW</given-names>
+						</name>
+						<name>
+							<surname>Jin</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mclendon</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rasheed</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Yuan</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>IDH1 and IDH2 mutations in gliomas</article-title>
+					<source>N Engl J Med</source>
+					<year>2009</year>
+					<volume>360</volume>
+					<fpage>765</fpage>
+					<lpage>773</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa0808710">https://doi.org/10.1056/NEJMoa0808710</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. KloosterhofNK, BraltenLB, DubbinkHJ, FrenchPJ, van Den BentMJ. Isocitrate dehydrogenase-1 mutations: A fundamentally new understanding of diffuse glioma?Lancet Oncol. 2011;12:83-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045 (10)70053-X">https://doi.org/10.1016/S1470-2045 (10)70053-X</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kloosterhof</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Bralten</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Dubbink</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>French</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>van Den Bent</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Isocitrate dehydrogenase-1 mutations: A fundamentally new understanding of diffuse glioma?</article-title>
+					<source>Lancet Oncol</source>
+					<year>2011</year>
+					<volume>12</volume>
+					<fpage>83</fpage>
+					<lpage>91</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045 (10)70053-X">https://doi.org/10.1016/S1470-2045 (10)70053-X</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. UnoM, Oba-ShinjoSM, SilvaR, MiuraF, ClaraCA, AlmeidaJR, <italic>et al</italic>. <italic>IDH1</italic> mutations in a Brazilian series of glioblastoma.Clinics (Sao Paulo). 2011;66:163-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1807-59322011000100028">https://doi.org/10.1590/S1807-59322011000100028</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Uno</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Oba-Shinjo</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Miura</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Clara</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>JR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>IDH1 mutations in a Brazilian series of glioblastoma</article-title>
+					<source>Clinics (Sao Paulo)</source>
+					<year>2011</year>
+					<volume>66</volume>
+					<fpage>163</fpage>
+					<lpage>165</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1807-59322011000100028">https://doi.org/10.1590/S1807-59322011000100028</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. CardonaAF, RojasL, WillsB, BehaineJ, JiménezE, HakimF, <italic>et al</italic>.Genotyping low-grade gliomas among Hispanics. Neuro-Oncology Practice. 2016;3:164-172. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nop/npv061">https://doi.org/10.1093/nop/npv061</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cardona</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wills</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Behaine</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jiménez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hakim</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genotyping low-grade gliomas among Hispanics</article-title>
+					<source>Neuro-Oncology Practice</source>
+					<year>2016</year>
+					<volume>3</volume>
+					<fpage>164</fpage>
+					<lpage>172</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nop/npv061">https://doi.org/10.1093/nop/npv061</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. SchaapFG, FrenchPJ, BoveeJV.Mutations in the isocitrate dehydrogenase genes <italic>IDH1</italic> and <italic>IDH2</italic> in tumors.Adv Anat Pathol. 2013;20:32-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/PAP. 0b013e31827b654d">https://doi.org/10.1097/PAP. 0b013e31827b654d</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schaap</surname>
+							<given-names>FG</given-names>
+						</name>
+						<name>
+							<surname>French</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Bovee</surname>
+							<given-names>JV</given-names>
+						</name>
+					</person-group>
+					<article-title>Mutations in the isocitrate dehydrogenase genes IDH1 and IDH2 in tumors</article-title>
+					<source>Adv Anat Pathol</source>
+					<year>2013</year>
+					<volume>20</volume>
+					<fpage>32</fpage>
+					<lpage>38</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/PAP. 0b013e31827b654d">https://doi.org/10.1097/PAP. 0b013e31827b654d</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. DangL, JinS, SuSM. <italic>IDH</italic> mutations in glioma and acute myeloid leukemia. Trends Mol Med. 2010;16:387-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molmed.2010.07.002">https://doi.org/10.1016/j.molmed.2010.07.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Jin</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Su</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>IDH mutations in glioma and acute myeloid leukemia</article-title>
+					<source>Trends Mol Med</source>
+					<year>2010</year>
+					<volume>16</volume>
+					<fpage>387</fpage>
+					<lpage>397</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molmed.2010.07.002">https://doi.org/10.1016/j.molmed.2010.07.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. MellaiM, PiazziA, CalderaV, MonzeglioO, CassoniP, ValenteG, <italic>et al</italic>. <italic>IDH1</italic> and <italic>IDH2</italic> mutations, immuno-histochemistry and associationsin a series of brain tumors. J Neurooncol. 2011;105:345-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11060-011-0596-3">https://doi.org/10.1007/s11060-011-0596-3</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mellai</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Piazzi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Caldera</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Monzeglio</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Cassoni</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Valente</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>IDH1 and IDH2 mutations, immuno-histochemistry and associationsin a series of brain tumors</article-title>
+					<source>J Neurooncol</source>
+					<year>2011</year>
+					<volume>105</volume>
+					<fpage>345</fpage>
+					<lpage>357</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11060-011-0596-3">https://doi.org/10.1007/s11060-011-0596-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. PreusserM, BentM. Clinical Neuropathology Practice News 2-2013: Immunohistochemistry pins IDH in glioma - molecular testing procedures under scrutiny. Clin Neuro-pathol. 2013;32:82-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5414/NP300622">https://doi.org/10.5414/NP300622</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Preusser</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bent</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical Neuropathology Practice News 2-2013: Immunohistochemistry pins IDH in glioma - molecular testing procedures under scrutiny</article-title>
+					<source>Clin Neuro-pathol</source>
+					<year>2013</year>
+					<volume>32</volume>
+					<fpage>82</fpage>
+					<lpage>83</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5414/NP300622">https://doi.org/10.5414/NP300622</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn2">
+				<label>Financiación</label>
+				<p> Estudio financiado por la División de Investigación de la sede Bogotá de la Universidad Nacional de Colombia.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Contribución de los autores:</label>
+				<p> Orlando Ricaurte: análisis de los datos y redacción del manuscrito Karina Neita y Danyela Valero: análisis de las mutaciones Jenny Ortega-Rojas y Carlos E. Arboleda-Bustos: análisis de las mutaciones y redacción del manuscrito Camilo Zubieta y José Penagos: recolección de las muestras de los tumores Gonzalo Arboleda: coordinación del proyecto y redacción del manuscrito</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

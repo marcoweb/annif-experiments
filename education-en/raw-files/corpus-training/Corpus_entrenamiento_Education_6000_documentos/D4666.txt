@@ -1,0 +1,41 @@
+#ITI#Applying natural language processing to automatically assess student conceptual understanding from textual responses#FTI#
+#IRE#In this study, we applied natural language processing (NLP) techniques, within an educational environment, to evaluate their usefulness for automated assessment of students’ conceptual understanding from their short answer responses. Assessing understanding provides insight into and feedback on students’ conceptual understanding, which is often overlooked in automated grading. Students and educators benefit from automated formative assessment, especially in online education and large cohorts, by providing insights into conceptual understanding as and when required. We selected the ELECTRA-small, RoBERTa-base, XLNet-base and ALBERT-base-v2 NLP machine learning models to determine the free-text validity of students’ justification and the level of confidence in their responses. These two pieces of information provide key insights into students’ conceptual understanding and the nature of their understanding. We developed a free-text validity ensemble using high performance NLP models to assess the validity of students’ justification with accuracies ranging from 91.46% to 98.66%. In addition, we proposed a general, non-question-specific confidence-in-response model that can categorise a response as high or low confidence with accuracies ranging from 93.07% to 99.46%. With the strong performance of these models being applicable to small data sets, there is a great opportunity for educators to implement these techniques within their own classes. Implications for practice or policy: · Students’ conceptual understanding can be accurately and automatically extracted from their short answer responses using NLP to assess the level and nature of their understanding. Educators and students can receive feedback on conceptual understanding as and when required through the automated assessment of conceptual understanding, without the overhead of traditional formative assessment. Educators can implement accurate automated assessment of conceptual understanding models with fewer than 100 student responses for their short response questions#FRE#
+#IPC#automated assessment of understanding; conceptual understanding; formative assessment; machine learning; mixed methods; Natural language processing (NLP)#FPC#
+#IRF#Agarwal N., Examining the transformer architecture – Part 2: A brief description of how transformers work, (2019); 
+Alammar J., The illustrated word2vec, GitHub, (2019); 
+Allard M., What is a transformer? — Inside machine learning, (2019); 
+Ankit U., Transformer neural network: Step-by-step breakdown of the beast, Towards Data Science, (2020); 
+Barrus T., Pyspellchecker 0.6.2. Python Software Foundation, (2021); 
+Burstein J., Opportunities for natural language processing research in education, Lecture notes in computer science: Vol. 5449. Computational linguistics and intelligent text processing, pp. 6-27, (2009); 
+Chi M., Siler S., Jeong H., Can tutors monitor students’ understanding accurately?, Cognition and Instruction, 22, 3, pp. 363-387, (2004); 
+Cunningham-Nelson S., Enhancing student conceptual understanding and learning experience through automated textual analysis, (2019); 
+D'Avanzo C., Biology concept inventories: Overview, status, and next steps, BioScience, 58, 11, pp. 1079-1085, (2008); 
+Denny J. C., Bastarache L., Sastre E. A., Spickard A., Tracking medical students’ clinical experiences using natural language processing, Journal of Biomedical Informatics, 42, 5, pp. 781-789, (2009); 
+Dodge J., What are formative assessments and why should we use them?; 
+Ganesan K., All you need to know about text preprocessing for NLP and machine learning, (2019); 
+Garbade M. J., A simple introduction to natural language processing, Becoming Human, (2018); 
+Gikandi J., Morrow D., Davis N., Online formative assessment in higher education: A review of the literature, Computers & Education, 57, 4, pp. 2333-2351, (2011); 
+Goncher A. M., Boles W., Enhancing the effectiveness of concept inventories using textual analysis: Investigations in an electrical engineering subject, European Journal of Engineering Education, 44, 1-2, pp. 222-233, (2017); 
+Guerrero T., Wiley J., Using “idealized peers” for automated evaluation of student understanding in an introductory psychology course, Lecture notes in computer science: Vol. 11625. Artificial intelligence in education, pp. 133-143, (2019); 
+Guo Y., The 7 steps of machine learning, Towards Data Science, (2017); 
+Hestenes D., Wells M., Swackhamer G., Force concept inventory, The Physics Teacher, 30, 3, pp. 141-158, (1992); 
+Transformers, (2020); 
+Keeley P., Science formative assessment, (2008); 
+Kerly A., Hall P., Bull S., Bringing chatbots into education: Towards natural language negotiation of open learner models, Knowledge-Based Systems, 20, 2, pp. 177-185, (2007); 
+Kowsari K., Jafari Meimandi K., Heidarysafa M., Mendu S., Barnes L., Brown D., Text classification algorithms: A survey, Information, 10, 4, (2019); 
+Krithika R., Narayanan J., Learning to grade short answers using machine learning techniques, Proceedings of the Third International Symposium on Women in Computing and Informatics, pp. 262-271, (2015); 
+Kumbhar P., Mali M., A survey on feature selection techniques and classification algorithms for efficient text classification, International Journal of Science and Research, 5, 5, pp. 1267-1275, (2016); 
+Lajis A., Aziz N. A., NL scoring technique for the assessment of learners’ understanding, Proceedings of the Second International Conference on Computer Research and Development, pp. 379-383, (2010); 
+List A., Alexander P., Examining response confidence in multiple text tasks, Metacognition and Learning, 10, 3, pp. 407-436, (2015); 
+Madsen A., McKagan S. B., Sayre E. C., Best practices for administering concept inventories, The Physics Teacher, 55, 9, pp. 530-536, (2017); 
+McCarthy J., Enhancing feedback in higher education: Students’ attitudes towards online and in-class formative assessment feedback models, Active Learning in Higher Education, 18, 2, pp. 127-141, (2017); 
+Potamias R. A., Siolas G., Stafylopatis A., A transformer-based approach to irony and sarcasm detection, Neural Computing and Applications, 32, 23, pp. 17309-17320, (2020); 
+Rajapakse T., Simple transformers; 
+Rojarath A., Songpan W., Pong-inwong C., Improved ensemble learning for classification techniques based on majority voting, Proceedings of the 7th IEEE International Conference on Software Engineering and Service Science, pp. 107-110, (2016); 
+Smith G. G., Haworth R., Zitnik S., Computer science meets education: Natural language processing for automatic grading of open-ended questions in ebooks, Journal of Educational Computing Research, 58, 7, pp. 1227-1255, (2020); 
+Sultan M., Salazar C., Sumner T., Fast and easy short answer grading with high accuracy, Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 1070-1075, (2016); 
+Multiple-choice question; 
+Wage K. E., Buck J. R., Wright C. H. G., Welch T. B., The signals and systems concept inventory, IEEE Transactions on Education, 48, 3, pp. 448-461, (2005); 
+Widmann M., Silipo R., Seven techniques for data dimensionality reduction, KNIME, (2015); 
+Wiggins G., McTighe J., Understanding by design, (2005); 
+Wolf T., Debut L., Sanh V., Chaumond J., Delangue C., Moi A., Cistac P., Rault T., Louf R., Funtowicz M., Davison J., Shleifer S., von Platen P., Ma C., Jernite Y., Plu J., Xu C., Scao T. L., Gugger S., Rush A. M., HuggingFace’s transformers: State-of-the-art natural language processing, (2019)#FRF#

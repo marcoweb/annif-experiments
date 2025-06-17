@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">rme</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Médica Electrónica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev.Med.Electrón.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1684-1824</issn>
+			<publisher>
+				<publisher-name>UNIVERSIDAD DE CIENCIAS MÉDICAS DE MATANZAS</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00011</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo de revisión</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Acercamiento a la historia clínica electrónica en el contexto de la informatización en salud</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Approach to electronic clinical record in the context of health informatization</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8453-9673</contrib-id>
+					<name>
+						<surname>Morejón-Palacio</surname>
+						<given-names>José Lázaro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1143-6224</contrib-id>
+					<name>
+						<surname>González-Rodríguez</surname>
+						<given-names>Raidel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1 </label>
+				<institution content-type="original">Universidad de las Ciencias Informáticas. La Habana, Cuba.</institution>
+				<institution content-type="orgname">Universidad de las Ciencias Informáticas</institution>
+				<institution content-type="normalized">Universidad de las Ciencias Informáticas</institution>
+				<addr-line>
+					<named-content content-type="state">La Habana</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+				<email>joseph960518@gmail.com</email>
+			</aff>
+			<aff id="aff2">
+				<label>2 </label>
+				<institution content-type="original">Universidad de Ciencias Médicas de Pinar del Río. Pinar del Río, Cuba.</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas de Pinar del Río</institution>
+				<institution content-type="normalized">Universidad de Ciencias Médicas de Pinar del Río</institution>
+				<addr-line>
+					<named-content content-type="state">Pinar del Río</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia: <email>joseph960518@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<p>Los autores declaran que no existe conflicto de intereses</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<season>Mar-Apr</season>
+				<year>2022</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+			<season>Mar-Apr</season>
+				<year>2022</year>
+			</pub-date>
+			<volume>44</volume>
+			<issue>2</issue>
+			<fpage>173</fpage>
+			<lpage>182</lpage>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>14</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>La historia clínica representa un instrumento cardinal de la atención médica, concebido como guía metodológica para la identificación integral de los problemas sanitarios de cada individuo. Por otra parte, la historia clínica electrónica requiere de un basamento tecnológico apropiado para sus funciones; su información puede obtenerse por diferentes vías a través del método clínico y el trabajo semiológico, y luego vaciarse a soporte digital. Entre sus componentes esenciales destacan: datos generales, anamnesis, examen físico, exámenes complementarios, diagnósticos, tratamiento, además de evolución y procederes. Constituye, además, un documento médico-legal con basamento electrónico, que debe cumplir el secreto médico, confidencialidad e intimidad del trabajo efectuado con el paciente. El objetivo de este trabajo es profundizar en los conocimientos relacionados con la historia clínica electrónica en el contexto de la informatización en salud. Se concluye que la historia clínica electrónica es capaz de reflejar de forma fidedigna las características clínicas del paciente y su evolución periódica bajo un soporte electrónico.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>The clinical record embodies the cardinal instrument of medical care, conceived as a methodological guide for the comprehensive identification of the health problems of each individual. On the other hand, the electronic clinical record requires an appropriate technological basis for its functioning; its information can be obtained by different means through clinical method and semiological work, and emptied later to digital support. Its essential components include: general data, anamnesis, physical examination, complementary tests, diagnosis, treatment, as well as evolution and procedures. Among its main components are: general data, anamnesis, physical examinations, complementary tests, diagnosis, treatment, as well as evolution and procedures. It is also a legal-medical document with electronic basis which must fulfill the principles of medical secrecy, confidentiality and intimacy of the work done with the patient. The aim of this work is to deepen the knowledge related to electronic clinical record in the context of health care informatization. It is concluded that the electronic clinical record is able to accurately reflect the clinical characteristics of the patient and his periodic evolution in an electronic support.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave</title>
+				<kwd>Historia clínica</kwd>
+				<kwd>historia clínica digital</kwd>
+				<kwd>relación médico-paciente</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words</title>
+				<kwd>Clinical record</kwd>
+				<kwd>digital clinical record</kwd>
+				<kwd>doctor-patient relationship</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="24"/>
+				<page-count count="10"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCCIÓN</title>
+			<p>La informatización en salud pública reconoce su importancia mediante el empleo de las tecnologías para el desarrollo científico del sector. Su evolución en las últimas décadas ha propiciado emplearlas como herramientas en medios diagnósticos, estadísticos, imagenológicos, de tratamiento e informacional, garantizando con ello nuevos intercambios, saberes y progreso.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Con su desarrollo surge la historia clínica electrónica en el ejercicio y calidad de la asistencia médica,<xref ref-type="bibr" rid="B2"><sup>2</sup></xref> interrelacionándose entre los diferentes actores y niveles de atención sanitaria. La misma es expresión del uso tecnológico en el trabajo médico-paciente, recogiendo información sanitaria durante la anamnesis, examen físico y de laboratorio, diagnóstico clínico y diferencial, tratamiento, evolución clínica, y como procederes y seguimiento.</p>
+			<p>La historia clínica electrónica refleja el método de un conjunto ordenado de procedimientos para diagnosticar, pronosticar, tratar y evolucionar de forma adecuada a un paciente, mostrando con calidad la información tomada para evitar errores médicos, violación de principios éticos y daños al ser humano.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref> Esto propicia que el documento electrónico deje de ser un registro informacional generado en forma manuscrita entre pacientes y profesionales, para formar parte de una investigación clínica con basamento tecnológico.</p>
+			<p>Para Llanio Navarro et al.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref> la historia clínica representa el instrumento cardinal de la atención médica, concebida como guía metodológica para la identificación integral de los problemas sanitarios en cada individuo, sin descuidar su ámbito social y medio ambiente; resulta vital en la planeación, ejecución y control de acciones que conserven, recuperen y rehabiliten la salud humana.</p>
+			<p>Como funciones de la historia clínica electrónica destacan: docencia e investigación, epidemiología, mejora continua de la calidad, gestión y administración, así como instrumento médico-legal.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref> Las mismas deben ser concebidas y practicadas en el ejercicio profesional, evaluando su correcta ejecución por estudiantes y profesionales del sector.</p>
+			<p>El expediente electrónico no se limita a contener una sencilla narración de hechos: en él se expresan también datos clínicos afines con la situación del paciente, su proceso evolutivo, procedimientos e informaciones. Dichos elementos se encuentran basados en la autonomía, reconocimiento y aceptación del estado de salud para la toma de decisiones.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> Su utilización aporta ventajas al mejoramiento de la calidad de los procesos, optimiza las dificultades espaciales y de duración, e interacciona información por parte de sus actores.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Para que la historia clínica electrónica sea correcta, debe fundarse en un compromiso responsable, leal y auténtico caracterizado por profesionalidad, ayuda a pacientes y licitud.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> En su diseño pueden contemplarse páginas escritas, videos, fotografías, exámenes radiográficos, y accesos a bases de datos informatizadas.</p>
+			<p>Su correcto empleo contribuye al desarrollo, agilidad y calidad de los servicios sanitarios prestados, al tiempo que provee de informaciones en forma permanente para consultoría por profesionales del sector, instituciones o personal autorizado. Sin duda, dichos avances tecnológicos han estado con mayor presencia en los ejercicios y actividades de la salud pública cubana.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>El creciente manejo de la historia clínica electrónica y la necesidad de su empleo en tiempos de digitalización social, motivaron el desarrollo de esta investigación, que tiene como objetivo profundizar en los conocimientos relacionados con la historia clínica electrónica en el contexto de la informatización en salud.</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>MATERIALES Y MÉTODOS</title>
+			<p>Se realizó una revisión bibliográfica de artículos científicos relacionados con la temática publicados en SciELO, Google y Google Schoolar. Se seleccionaron 18 artículos en cualquier idioma, a partir de palabras clave como redes sociales, información, comunicación y mediático.</p>
+			<p>Para su desarrollo fueron usados métodos teóricos (análisis-síntesis, inducción-deducción e histórico-lógico) y empírico (análisis documental), y se cumplió con los principios éticos establecidos para la realización de investigaciones científicas.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSIÓN</title>
+			<p>La historia clínica electrónica y sus componentes</p>
+			<p>La historia clínica electrónica es más que la introducción tecnológica en el registro informacional del paciente y su atención recibida.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> Ella está en dependencia del grado de informatización aplicado en su gestión, recibiendo denominaciones como: <italic>e-medical record</italic>, <italic>e-patient record</italic>, <italic>e-health record</italic>, <italic>computer-stored patient record</italic>, <italic>ambulatory medical record</italic> y <italic>computer based patient record</italic>.</p>
+			<p>Requiere de un basamento tecnológico apropiado para sus funciones, siendo los conocimientos y destrezas del personal informático que diseña y el de salud que ejecuta, quienes suelen ser puestos a prueba. Dichos soportes informáticos son cada vez más utilizados, accesibles y adaptables como herramientas imprescindibles en la actuación médica y entornos amigables para el ejercicio de la salud pública.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>La información contenida en esta puede obtenerse por diferentes vías a través del método clínico y el trabajo semiológico, y luego ser vaciada a soporte digital en pos de mayores y nuevos conocimientos en salud para el ejercicio profesional.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> La anamnesis constituye la recolección informacional de la entrevista médica y la confección de la historia clínica electrónica.</p>
+			<p>Se hace necesario destacar que la historia clínica electrónica no puede descuidar los aspectos psicológicos y sociales del paciente, los cuales quedan incluidos en la definición de entrevista médica. Es fundamental entonces fortalecer nexos con las esferas psicológicas y sociales relacionadas con el paciente, ya que los seres humanos son considerados como seres biopsicosociales y cada indicación o tratamiento médico debe ser individualizado y flexible con cada paciente.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>Se imprime entonces la capacidad del profesional de salud en lograr un adecuado <italic>rapport</italic> con el paciente, para conseguir toda la información necesaria en el llenado de la historia clínica electrónica en cualquier nivel de atención, así como cambios en los estilos de vida. Representa, sobretodo, la integración del pensamiento médico en la atención al paciente.</p>
+			<p>El paciente, por desconocimiento o inseguridad, no brinda siempre toda la información necesaria, y el especialista debe tener la pericia de investigar integralmente cada aspecto contemplado en la historia clínica electrónica. Durante el método clínico, que incluye el examen físico, el especialista debe ser exhaustivo. Los síntomas referidos en la anamnesis se complementan con los signos encontrados al examen y se integran en un pensamiento médico lógico para resolver los problemas de salud, los cuales quedarán descritos en dicho documento.</p>
+			<p>Al concebirse la historia clínica electrónica se ponen a prueba la destreza, los conocimientos y la experiencia del personal médico. Entre sus componentes esenciales destacan:<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Datos generales: donde se recoge información personal, de salud, familiar, ocupacional y aquellos aspectos sociodemográficos relacionados con el individuo.</p>
+					</list-item>
+					<list-item>
+						<p>Anamnesis: información surgida de la entrevista clínica, proporcionada por el paciente y/o familiares, identificándose factores de riesgo, síntomas, manifestaciones clínicas, aspectos psicosociales y otras informaciones aportadas o generadas de la misma.</p>
+					</list-item>
+					<list-item>
+						<p>Examen físico: resultados de la inspección, palpación, percusión, auscultación y maniobras realizadas al paciente.</p>
+					</list-item>
+					<list-item>
+						<p>Exámenes complementarios: describirán sus indicaciones y resultados obtenidos para aclarar mejor los diagnósticos presuntivos.</p>
+					</list-item>
+					<list-item>
+						<p>Diagnóstico(s): formulaciones con basamento clínico-epidemiológico por el personal médico o extraídos de documentos elaborados por este para fundamentar su conducta y tratamiento, así como también para dejar constancia de la evolución de la enfermedad.</p>
+					</list-item>
+					<list-item>
+						<p>Tratamiento: recoge informaciones de los medicamentos, presentación, dosis, vía de administración y duración de los mismos, así como algún proceder usado como alternativa de tratamiento.</p>
+					</list-item>
+					<list-item>
+						<p>Evolución y procederes: contemplará las evoluciones diarias, seguimientos, observaciones, actividades sanitarias, interconsultas, procederes de enfermería o médica, complicaciones, pronóstico, así como otras informaciones necesarias.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Uno de los acápites más importantes del documento electrónico consiste en la valoración evolutiva del proceso patológico del paciente, su evolución, y el tratamiento que se le realice, además del señalamiento al final de cada sesión de lo que se realizará en la próxima visita.</p>
+			<p>Se coincide con González Rodríguez et al.<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> sobre la necesidad de evitar el déficit de equipos informáticos y el acceso limitado a Internet, así como la espera prolongada y los límites de tiempo para el trabajo con plataformas que sustentan las historias clínicas electrónicas. Por ello es importante destacar el diseño previo de una infraestructura digital que propicie su correcto funcionamiento, pues errores u obstáculos conllevarían a graves y fatales consecuencias para la salud del paciente.</p>
+			<p>Características generales de la historia clínica electrónica</p>
+			<p>La historia clínica electrónica constituye un documento médico-legal con basamento electrónico, la cual debe cumplir el secreto médico, confidencialidad e intimidad del trabajo efectuado con el paciente.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> La misma es considerada como un soporte digital biográfico de la asistencia sanitaria y constituye el documento más privado que pueda poseer el médico.</p>
+			<p>El documento electrónico debe estar siempre disponible y facilitarse en los casos legalmente contemplados, siempre resguardando la confidencialidad de los datos reflejados en él. El paciente puede solicitar la comunicación escrita de un resumen y no de su historia clínica. El acceso al expediente electrónico sin autorización, en detrimento de un tercero, está catalogado como delito a la ética en salud.</p>
+			<p>Una historia clínica electrónica es única para cada paciente, por la importancia que declara y los beneficios que ocasiona. Mediante su empleo tecnológico se potencian las capacidades físico-tecnológicas, se amplían las capacidades intelectuales y de aprendizaje, se potencia el desarrollo del sector salud y se ofrecen herramientas de intercambio informacional.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> Cada paciente es sujeto de su propia investigación, la cual comienza con el diagnóstico de su enfermedad.</p>
+			<p>El documento electrónico, para su manejo, requerirá de dedicación, capacidad de observación, juicio clínico, creatividad, capacidad para analizar situaciones nuevas, prudencia y rigor científico, elementos estos a tener en cuenta para su adecuado funcionamiento. Debe observarse como una alternativa enriquecedora y sólida para la docencia médica, así como una herramienta para la enseñanza profesional, además del trabajo en el pregrado y posgrado en las ciencias médicas en función del aprendizaje.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>
+			</p>
+			<p>Muchas veces se produce una sobrevaloración y abuso de los medios tecnológicos, que llevan inevitablemente a un deterioro de la relación médico-paciente. Las historias clínicas electrónicas evidencian la aplicación del método clínico y dejan constancia de la evolución de la enfermedad. Frente al desarrollo profesional y tecnológico, caracterizado por el acceso a una gran cantidad de información, generación de conocimientos e interacciones sociales, se requieren competencias para su uso.<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+			</p>
+			<p>Todo el soporte tecnológico que ha sido puesto en función de la universalización de la historia clínica electrónica debe ser aprovechado por el personal de salud en función de fortalecer la alfabetización informacional,<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> en la cual se encuentran involucrados informáticos, técnicos, profesionales del sector, organismos e instituciones asociadas.</p>
+			<p>La historia clínica electrónica representa una herramienta fundamental en el desarrollo institucional. Es un documento que, además de recoger un informe de salud de una persona, registra el pensamiento médico, las observaciones, diagnósticos e intervenciones que reflejan los problemas detectados.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>Con las historias clínicas electrónicas los profesionales de la salud e instituciones sanitarias han mejorado la relación médico-paciente. Dicha tecnología empleada en el uso de la informatización ofrece beneficios en la reducción del tiempo que se dedica a registrar las informaciones. La implantación de un sistema web para la gestión del control de historiales clínicos surge de la necesidad de disponer de la información del paciente con un fácil acceso, mejorando la atención sanitaria, la eficiencia en el servicio, la disminución del tiempo de respuesta y la mejora de procesos en los servicios de salud.<xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+			</p>
+			<p>De hecho, la historia clínica debe ser un reflejo fidedigno de la evolución de la enfermedad y, por ende, los datos incluidos no pueden ser alterados, falseados o simulados, toda vez que ese acto devendría una violación de la veracidad documental, penada por la legislación vigente.</p>
+			<p>Se concluye que la historia clínica electrónica es capaz de reflejar de forma fidedigna las características clínicas del paciente y su evolución periódica bajo un soporte electrónico. Es importante que los profesionales del sector interioricen la necesidad de mostrar el pensamiento profesional durante la atención al paciente, para lograr una mayor calidad de la misma.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCIAS BIBLIOGRÁFICAS</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>González Rodríguez R, Cardentey García J, González García X. Consideraciones acerca del empleo de las tecnologías de la información en la enseñanza universitaria. Educ Méd Super [Internet]. 2015 [citado 11/01/2022];29(4). Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412015000400017&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412015000400017&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Rodríguez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Cardentey García</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>González García</surname>
+							<given-names>X</given-names>
+						</name>
+					</person-group>
+					<article-title>Consideraciones acerca del empleo de las tecnologías de la información en la enseñanza universitaria</article-title>
+					<source>Educ Méd Super</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-11">11/01/2022</date-in-citation>
+					<volume>29</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412015000400017&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412015000400017&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Vitón Castillo AA, Ceballos Ramos LM, Rodríguez Flores LA, et al. Uso de las tecnologías de la información y las comunicaciones en la carrera de Enfermería. Rev Cienc Méd [Internet]. 2019 Jun [citado 12/01/2022];23(3):446-53. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942019000300446&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942019000300446&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vitón Castillo</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Ceballos Ramos</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Flores</surname>
+							<given-names>LA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Uso de las tecnologías de la información y las comunicaciones en la carrera de Enfermería</article-title>
+					<source>Rev Cienc Méd</source>
+					<month>06</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-12">12/01/2022</date-in-citation>
+					<volume>23</volume>
+					<issue>3</issue>
+					<fpage>446</fpage>
+					<lpage>453</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942019000300446&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942019000300446&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Pérez Bada E, Pedraza-Rodríguez EM, González Velázquez VE. Un llamado a la responsabilidad con la historia clínica en manos de los estudiantes. Rev Cubana Med [Internet]. 2019 Jun [citado 12/01/2022];58(2):e303. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0034-75232019000200001&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0034-75232019000200001&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez Bada</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Pedraza-Rodríguez</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>González Velázquez</surname>
+							<given-names>VE</given-names>
+						</name>
+					</person-group>
+					<article-title>Un llamado a la responsabilidad con la historia clínica en manos de los estudiantes</article-title>
+					<source>Rev Cubana Med</source>
+					<month>06</month>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-12">12/01/2022</date-in-citation>
+					<volume>58</volume>
+					<issue>2</issue>
+					<elocation-id>e303</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0034-75232019000200001&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0034-75232019000200001&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Llanio Navarro R, Perdomo González G, Arús Soler E, et al. Propedéutica Clínica y Semiología Médica [Internet]. 3ra ed. T. 1. La Habana: Editorial Ciencias Médicas; 2003 [citado 12/01/2022]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://bvs.sld.cu/libros_texto/propedeuticatomo1/indice_p.html">http://bvs.sld.cu/libros_texto/propedeuticatomo1/indice_p.html</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Llanio Navarro</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Perdomo González</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Arús Soler</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Propedéutica Clínica y Semiología Médica</source>
+					<edition>3ra ed</edition>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+					<year>2003</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-12">12/01/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://bvs.sld.cu/libros_texto/propedeuticatomo1/indice_p.html">http://bvs.sld.cu/libros_texto/propedeuticatomo1/indice_p.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Facier Torres MA, Dorsant Rodríguez LC, Franklin Santel C, et al. Errores más frecuentes en historias clínicas cometidos por estudiantes de tercer año de Medicina. Rev Inf Científ [Internet]. 2016 [citado 13/01/2022];95(2):234-42. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revinfcientifica.sld.cu/index.php/ric/article/view/103/1452">http://www.revinfcientifica.sld.cu/index.php/ric/article/view/103/1452</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Facier Torres</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Dorsant Rodríguez</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Franklin Santel</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Errores más frecuentes en historias clínicas cometidos por estudiantes de tercer año de Medicina</article-title>
+					<source>Rev Inf Científ</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-13">13/01/2022</date-in-citation>
+					<volume>95</volume>
+					<issue>2</issue>
+					<fpage>234</fpage>
+					<lpage>242</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revinfcientifica.sld.cu/index.php/ric/article/view/103/1452">http://www.revinfcientifica.sld.cu/index.php/ric/article/view/103/1452</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Fonticoba Valdés LM, Viña Camejo J, Tellería Prieto MC, et al. Gestión de la historia clínica electrónica del servicio de Cirugía Refractiva. Rev Cienc Méd [Internet]. 2018 Ago [citado 13/01/2022];22(4):133-41. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942018000400015&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942018000400015&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fonticoba Valdés</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Viña Camejo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Tellería Prieto</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Gestión de la historia clínica electrónica del servicio de Cirugía Refractiva</article-title>
+					<source>Rev Cienc Méd</source>
+					<month>08</month>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-13">13/01/2022</date-in-citation>
+					<volume>22</volume>
+					<issue>4</issue>
+					<fpage>133</fpage>
+					<lpage>141</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942018000400015&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942018000400015&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>González Pérez AD. Las Tecnologías de la Información y las Comunicaciones aplicadas al proceso enseñanza aprendizaje. Rev Cubana Tecnol Sal [Internet]. 2018 [citado 13/01/2022];9(1). Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revtecnologia.sld.cu/index.php/tec/article/view/980">http://www.revtecnologia.sld.cu/index.php/tec/article/view/980</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Pérez</surname>
+							<given-names>AD</given-names>
+						</name>
+					</person-group>
+					<article-title>Las Tecnologías de la Información y las Comunicaciones aplicadas al proceso enseñanza aprendizaje</article-title>
+					<source>Rev Cubana Tecnol Sal</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-13">13/01/2022</date-in-citation>
+					<volume>9</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revtecnologia.sld.cu/index.php/tec/article/view/980">http://www.revtecnologia.sld.cu/index.php/tec/article/view/980</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Alcaraz Agüero M, Nápoles Román Y, Chaveco Guerra I, et al. La historia clínica: un documento básico para el personal médico. Medisan [Internet]. 2010 [citado 13/01/2022];14(7):982-93. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192010000700018">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192010000700018</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alcaraz Agüero</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Nápoles Román</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Chaveco Guerra</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>La historia clínica: un documento básico para el personal médico</article-title>
+					<source>Medisan</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-13">13/01/2022</date-in-citation>
+					<volume>14</volume>
+					<issue>7</issue>
+					<fpage>982</fpage>
+					<lpage>993</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192010000700018">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192010000700018</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Matias de Souza VF, Barbosa Anversa AL, Rinaldi Bisconsini C, et al. The use of tics as facilitator in the process of continued education training of a social sports program. J Phys Educ [Internet]. 2017 [citado 15/01/2022];28:e2851. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S2448-24552017000100149&amp;lng=pt">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S2448-24552017000100149&amp;lng=pt</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matias de Souza</surname>
+							<given-names>VF</given-names>
+						</name>
+						<name>
+							<surname>Barbosa Anversa</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Rinaldi Bisconsini</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The use of tics as facilitator in the process of continued education training of a social sports program</article-title>
+					<source>J Phys Educ</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-15">15/01/2022</date-in-citation>
+					<volume>28</volume>
+					<elocation-id>e2851</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S2448-24552017000100149&amp;lng=pt">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S2448-24552017000100149&amp;lng=pt</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>González-Argote J. La producción científica latinoamericana sobre historia clínica digital: un análisis desde Scopus. Rev Cubana Sal Púb [Internet]. 2019 [citado 15/01/2022];45(3):e1312. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medigraphic.com/pdfs/revcubsalpub/csp-2019/csp193i.pdf">https://www.medigraphic.com/pdfs/revcubsalpub/csp-2019/csp193i.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González-Argote</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>La producción científica latinoamericana sobre historia clínica digital: un análisis desde Scopus</article-title>
+					<source>Rev Cubana Sal Púb</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-15">15/01/2022</date-in-citation>
+					<volume>45</volume>
+					<issue>3</issue>
+					<elocation-id>e1312</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medigraphic.com/pdfs/revcubsalpub/csp-2019/csp193i.pdf">https://www.medigraphic.com/pdfs/revcubsalpub/csp-2019/csp193i.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Palacios Valderrama W, Álvarez Avilés ME, Valle Villamarín ML, et al. Uso de las tecnologías de la información y las comunicaciones por docentes universitarios ecuatorianos. Edumecentro [Internet]. 2018 [citado 16/02/2022];10(3). Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revedumecentro.sld.cu/index.php/edumc/article/view/1222">http://www.revedumecentro.sld.cu/index.php/edumc/article/view/1222</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palacios Valderrama</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Álvarez Avilés</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Valle Villamarín</surname>
+							<given-names>ML</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Uso de las tecnologías de la información y las comunicaciones por docentes universitarios ecuatorianos</article-title>
+					<source>Edumecentro</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-16">16/02/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revedumecentro.sld.cu/index.php/edumc/article/view/1222">http://www.revedumecentro.sld.cu/index.php/edumc/article/view/1222</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Del Castillo Saiz GD, Sanjuán Gómez G, Gómez Martínez M. Tecnologías de la Información y las Comunicaciones: desafío que enfrenta la universidad de ciencias médicas. Edumecentro [Internet]. 2018 Mar [citado 23/01/2022];10(1):168-82. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742018000100011&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742018000100011&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Del Castillo Saiz</surname>
+							<given-names>GD</given-names>
+						</name>
+						<name>
+							<surname>Sanjuán Gómez</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Gómez Martínez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Tecnologías de la Información y las Comunicaciones: desafío que enfrenta la universidad de ciencias médicas</article-title>
+					<source>Edumecentro</source>
+					<month>03</month>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-23">23/01/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>1</issue>
+					<fpage>168</fpage>
+					<lpage>182</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742018000100011&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742018000100011&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Rodríguez Rivera L. La clínica y su método. Reflexiones sobre dos épocas [Internet]. 2da ed. La Habana: Editorial Ciencias Médicas ; 2013 [citado 15/01/2022]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bvs.sld.cu/libros/la_clinica_metodo/pagina_legal.pdf">http://www.bvs.sld.cu/libros/la_clinica_metodo/pagina_legal.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Rivera</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>La clínica y su método. Reflexiones sobre dos épocas</source>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-15">15/01/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bvs.sld.cu/libros/la_clinica_metodo/pagina_legal.pdf">http://www.bvs.sld.cu/libros/la_clinica_metodo/pagina_legal.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>González Rodríguez R, Cardentey García J, Cordero Miranda Y. Motivaciones de residentes de Medicina General Integral por la Biblioteca Virtual en Salud. Rev Méd Electrón [Internet]. 2017 [citado 15/01/2022];39(4):862-70. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18242017000400002&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18242017000400002&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Rodríguez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Cardentey García</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cordero Miranda</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Motivaciones de residentes de Medicina General Integral por la Biblioteca Virtual en Salud</article-title>
+					<source>Rev Méd Electrón</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-15">15/01/2022</date-in-citation>
+					<volume>39</volume>
+					<issue>4</issue>
+					<fpage>862</fpage>
+					<lpage>870</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18242017000400002&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18242017000400002&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Viñals Blanco A, Cuenca Amigo J. El rol del docente en la era digital. Rev Interuniversitaria de Formación del Profesorado [Internet]. 2016 [citado 17/01/2022];30(2). Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=27447325008">http://www.redalyc.org/articulo.oa?id=27447325008</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Viñals Blanco</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cuenca Amigo</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>El rol del docente en la era digital</article-title>
+					<source>Rev Interuniversitaria de Formación del Profesorado</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>30</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=27447325008">http://www.redalyc.org/articulo.oa?id=27447325008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Cala Calviño L, Álvarez González RM, Casas Gross S. La informatización en función del aprendizaje en la universidad médica. Medisan [Internet]. 2018 [citado 17/01/2022];22(3):304-9. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000300012&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000300012&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cala Calviño</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Álvarez González</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Casas Gross</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>La informatización en función del aprendizaje en la universidad médica</article-title>
+					<source>Medisan</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>22</volume>
+					<issue>3</issue>
+					<fpage>304</fpage>
+					<lpage>309</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000300012&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192018000300012&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Macías Macías J. El estudio de la historia del Reino Unido y la tecnología educativa. Transformación [Internet]. 2017 [citado 17/01/2022];13(2):244-54. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-29552017000200009&amp;lng=es&amp;tlng=pt">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-29552017000200009&amp;lng=es&amp;tlng=pt</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Macías Macías</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>El estudio de la historia del Reino Unido y la tecnología educativa</article-title>
+					<source>Transformación</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>13</volume>
+					<issue>2</issue>
+					<fpage>244</fpage>
+					<lpage>254</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-29552017000200009&amp;lng=es&amp;tlng=pt">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-29552017000200009&amp;lng=es&amp;tlng=pt</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Islas Torres C, Delgadillo Franco O. La inclusión de TIC por estudiantes universitarios: una mirada desde el conectivismo. Apertura [Internet]. 2016 [citado 17/01/2022];8(2):116-29. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/articulo.oa?id=68848010008">https://www.redalyc.org/articulo.oa?id=68848010008</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Islas Torres</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Delgadillo Franco</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>La inclusión de TIC por estudiantes universitarios: una mirada desde el conectivismo</article-title>
+					<source>Apertura</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>8</volume>
+					<issue>2</issue>
+					<fpage>116</fpage>
+					<lpage>129</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/articulo.oa?id=68848010008">https://www.redalyc.org/articulo.oa?id=68848010008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Cabero Almarera J. La educación a distancia como estrategia de inclusión social y educativa. Rev Mex Bachillerato a Distancia [Internet]. 2016 [citado 17/01/2022];8(15). Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/11441/34247">http://hdl.handle.net/11441/34247</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cabero Almarera</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>La educación a distancia como estrategia de inclusión social y educativa</article-title>
+					<source>Rev Mex Bachillerato a Distancia</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>8</volume>
+					<issue>15</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/11441/34247">http://hdl.handle.net/11441/34247</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Gómez-Hernández JA, Saorín Pérez T. Tendencias en programas de alfabetización informacional para empoderar a las personas y a las comunidades: tecnologías sociales y nuevas prácticas ciudadanas [Internet]. Localizado en: e-Lis; 2015 [citado 17/01/2022]. 16 p. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://eprints.rclis.org/28990/">http://eprints.rclis.org/28990/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez-Hernández</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Saorín Pérez</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>Tendencias en programas de alfabetización informacional para empoderar a las personas y a las comunidades: tecnologías sociales y nuevas prácticas ciudadanas</source>
+					<publisher-name>e-Lis</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://eprints.rclis.org/28990/">http://eprints.rclis.org/28990/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Piñas Mesa A, Chivato Pérez T. La relación médico-paciente [Internet]. Madrid: Editorial Dykinson; 2018 [citado 17/01/2022]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.dykinson.com/libros/la-relacion-medico-paciente/9788413241203/">https://www.dykinson.com/libros/la-relacion-medico-paciente/9788413241203/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Piñas Mesa</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Chivato Pérez</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>La relación médico-paciente</source>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Editorial Dykinson</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.dykinson.com/libros/la-relacion-medico-paciente/9788413241203/">https://www.dykinson.com/libros/la-relacion-medico-paciente/9788413241203/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Pérez-Santonja T, Gómez-Paredes L, Álvarez-Montero S, et al. Historia clínica electrónica: evolución de la relación médico-paciente en la consulta de Atención Primaria. Semergen [Internet]. 2017 [citado 17/01/2022];43(3):175-81. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S1138359316300120">https://www.sciencedirect.com/science/article/abs/pii/S1138359316300120</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez-Santonja</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Gómez-Paredes</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Álvarez-Montero</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Historia clínica electrónica: evolución de la relación médico-paciente en la consulta de Atención Primaria</article-title>
+					<source>Semergen</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>43</volume>
+					<issue>3</issue>
+					<fpage>175</fpage>
+					<lpage>181</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S1138359316300120">https://www.sciencedirect.com/science/article/abs/pii/S1138359316300120</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Villa LB, Cabezas I, Cruz J. Electronic health record as an eHaaS historia clínica electrónica como servicio de software en la nube. Presentado en: 10th Computing Colombian Conference; 21-25 sept 2015; Bogotá: Sociedad colombiana de Computación; 2015;citado 17/01/2022]. doi: 10.1109/ColumbianCC.2015.7333471.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villa</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Cabezas</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Cruz</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Electronic health record as an eHaaS historia clínica electrónica como servicio de software en la nube. Presentado en: 10th Computing Colombian Conference; 21-25 sept 2015</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Sociedad colombiana de Computación</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Preciado Rodríguez AJ, Valles Coral MA, Lévano Rodríguez D. Importancia del uso de sistemas de información en la automatización de historiales clínicos, una revisión sistemática. Rev Cubana Inform Méd [Internet]. 2021 Jun [citado 17/01/2022];13(1):e417. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592021000100012&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592021000100012&amp;lng=es</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Preciado Rodríguez</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Valles Coral</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Lévano Rodríguez</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Importancia del uso de sistemas de información en la automatización de historiales clínicos, una revisión sistemática</article-title>
+					<source>Rev Cubana Inform Méd</source>
+					<month>06</month>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-17">17/01/2022</date-in-citation>
+					<volume>13</volume>
+					<issue>1</issue>
+					<elocation-id>e417</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592021000100012&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592021000100012&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

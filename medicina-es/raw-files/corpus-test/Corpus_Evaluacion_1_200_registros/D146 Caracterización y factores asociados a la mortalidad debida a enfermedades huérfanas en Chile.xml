@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6281</article-id>
+			<article-id pub-id-type="publisher-id">00011</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización y factores asociados a la mortalidad debida a enfermedades huérfanas en Chile, 2002-2017</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Characteristics and factors associated with mortality due to rare diseases in Chile, 2002-2017</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Avila</surname>
+						<given-names>Jahir Andrés</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Martínez</surname>
+						<given-names>Julio César</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Hospital Base de Valdivia, Unidad de Diálisis, Valdivia los Ríos, Chile</institution>
+				<institution content-type="normalized">Hospital Base de Valdivia</institution>
+				<institution content-type="orgname">Hospital Base de Valdivia</institution>
+				<institution content-type="orgdiv1">Unidad de Diálisis</institution>
+				<addr-line>
+					<named-content content-type="city">Valdivia los Ríos</named-content>
+				</addr-line>
+				<country country="CL">Chile</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Departamento de Salud Pública, Universidad Industrial de Santander, Bucaramanga, Colombia</institution>
+				<institution content-type="normalized">Universidad Industrial de Santander</institution>
+				<institution content-type="orgdiv1">Departamento de Salud Pública</institution>
+				<institution content-type="orgname">Universidad Industrial de Santander</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label><bold>Correspondencia:</bold> Jahir Andrés Avila, Bueras #1003 s/n, Valdivia, Región los Ríos, Chile Teléfono: (56) 9 4890 8748 <email>jahir.andres.avila.gelvez@gmail.com</email>
+				</corresp>
+				<fn fn-type="equal" id="fn3">
+					<p>Ambos autores participaron en la consolidación, el análisis de la información, la síntesis de resultados, y en la escritura y aprobación del manuscrito.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn5">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declaran no tener conflicto de intereses en relación con la preparación y publicación de este trabajo.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>02</day>
+				<month>09</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+			<pub-date pub-type="epub-ppub">	
+				<month>09</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>42</volume>
+			<issue>3</issue>
+			<fpage>508</fpage>
+			<lpage>521</lpage>
+			<history>
+				<date date-type="received">
+					<day>16</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>06</day>
+					<month>06</month>
+					<year>2022</year>
+				</date>
+				<date date-type="pub">
+					<day>13</day>
+					<month>07</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>Las enfermedades huérfanas se caracterizan por su baja prevalencia, comúnmente son de evolución crónica, debilitantes y potencialmente mortales.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Determinar las características y los factores asociados a la mortalidad por enfermedades huérfanas en Chile, entre 2002 y 2017.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Es un estudio transversal y analítico a partir de datos secundarios oficiales del Departamento de Estadística e Información en Salud (DEIS) del Ministerio de Salud de Chile. Se calcularon las tasas de mortalidad específica, y las ajustadas por sexo y edad. Se efectuó un análisis de normalidad mediante la prueba de Kolmogórov-Smirnov. Se aplicaron la prueba de ji al cuadrado de independencia para las asociaciones y el análisis de regresión logística multivariada para determinar la probabilidad de muerte.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>Durante el periodo de estudio, 10.718 defunciones se atribuyeron a enfermedades huérfanas; 53,2 % ocurrieron en mujeres. La tasa media anual de mortalidad fue de 3,9 por 100.000 habitantes: 4,1 en mujeres y 3,8 en hombres. Las principales causas de muerte, en mujeres, fueron enfermedad de Creutzfeldt-Jakob, anencefalia, hepatitis autoinmunitaria y, en hombres, enfermedad de Creutzfeldt-Jakob, distrofia muscular y anencefalia. Las mujeres tienen 1,75 más veces la posibilidad de fallecer por este grupo de enfermedades en comparación con los hombres (OR ajustado=1,75; IC<sub>95%</sub> 1,69-1,82). La mayor probabilidad de morir se presentó en los menores de 0 a 4 años (OR ajustado=15,30; IC<sub>95%</sub> 14,10-19,20).</p>
+				</sec>
+				<sec>
+					<title>Conclusión. </title>
+					<p>En Chile, las mujeres constituyeron el grupo de población de mayor riesgo de morir por enfermedades huérfanas durante los años 2002 y 2017.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Rare diseases are characterized by their low prevalence, chronically debilitating and life-threatening nature.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To determine the characteristics and factors associated with mortality due to rare diseases in Chile from 2002 to 2017.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>We conducted an analytical cross-sectional study based on secondary mortality database from the <italic>Departamento de Estadística e Información en Salud (DEIS), Ministerio de Salud de Chile</italic> (Department of Statistics and Health Information, Chile Ministry of Health) from 2002 to 2017. The specific mortality rates adjusted by age and sex were calculated. A normality analysis was conducted using the Kolmogorov-Smirnov test. In addition, a chi-square test of independence for associations and multivariate logistic regression was applied to determine the probability of death.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>Between 2008 and 2012 there were 10,718 deaths due to rare diseases, 53.2% of them occurred among women. The average annual mortality rate was 3.9 per 100,000 inhabitants: 4.1 in women and 3.8 in men. The main causes of mortality among women were Creutzfeldt-Jakob disease, anencephaly and autoinmune hepatitis, and among men, Creutzfeldt-Jakob disease, muscular dystrophy and anencephaly. Women are 1.75 times more likely to die than men (adjusted Odds Ratio (<sub>a</sub>OR) = 1.75; 95% CI: 1.69 - 1.82). The highest probability of dying occurred among children aged 0-4 years (<sub>a</sub>OR = 15.30; 95% CI: 14.10 - 19.20).</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>Overall, the burden of mortality due to rare disease was higher among women of all ages in Chile between 2002 and 2017.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>enfermedades raras</kwd>
+				<kwd>costo de enfermedad</kwd>
+				<kwd>registros de mortalidad</kwd>
+				<kwd>salud pública</kwd>
+				<kwd>Chile</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Rare diseases</kwd>
+				<kwd>cost of illness</kwd>
+				<kwd>mortality registries</kwd>
+				<kwd>public health</kwd>
+				<kwd>Chile</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="36"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Las enfermedades huérfanas, también denominadas raras o poco frecuentes, constituyen un grupo amplio y variado de trastornos de salud que se caracterizan por su baja prevalencia y las altas tasas de mortalidad prematura <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Se estima que existen de 5.000 a 8.000 enfermedades huérfanas que podrían afectar entre el 6 y el 8 % de la población mundial. El 80 % de ellas son de origen genético, del 20 al 25 % están relacionadas con enfermedades del sistema inmunológico y, en menor proporción, con neoplasias y etiologías infecciosas <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Suelen ser crónicamente debilitantes y muy graves, y comprometen más de un órgano vital con múltiples deficiencias motoras, sensoriales y cognitivas.</p>
+		<p>La expectativa de vida de las personas afectadas varía ampliamente según la gravedad de la enfermedad, pero, en términos generales, es muy reducida. Un porcentaje importante de estos pacientes mueren al nacer y otro grupo de ellos desarrollan enfermedades degenerativas en el trascurso de su ciclo vital <sup>(</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. La prevalencia es mayor en adultos debido al exceso de mortalidad reportado para algunas enfermedades huérfanas en la población pediátrica, principalmente aquellas atribuidas a malformaciones genéticas <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>La definición de las enfermedades huérfanas varía entre países, dependiendo del umbral en el cual una enfermedad se considere poco frecuente. Por ejemplo, la Comunidad Europea establece como enfermedad huérfana toda condición de salud cuya prevalencia sea menor de 5 casos por cada 10.000 habitantes. En Japón, una enfermedad se considera rara cuando existen menos de 50.000 (1 en 2.500) casos, mientras que, en Taiwán, cuando la prevalencia es inferior a un caso por 100.000 personas. En Estados Unidos, se utiliza una cifra menor de 200.000 casos en todo el país para clasificar un trastorno dentro de las enfermedades huérfanas <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. En Colombia, se define como aquellas enfermedades que presentan una prevalencia menor de un caso por cada 5.000 personas <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>Chile no cuenta con una definición propia. Como antecedente normativo, se tiene el proyecto de ley sobre enfermedades poco frecuentes, en el cual el país adopta la clasificación de la Unión Europea y la de Estados Unidos. En ese marco, establece como enfermedades huérfanas a ciertas condiciones que afectan a los seres humanos y que presentan muy baja prevalencia y gran diversidad, en consonancia con las políticas internacionales que promuevan el desarrollo de fármacos para tratarlas <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. En ese mismo horizonte, la Federación Chilena de Enfermedades Raras, FECHER, integrada por pacientes, familiares, profesionales de la salud y personas sensibilizadas por el tema, ha participado activamente en la gestión de la Ley 20.850 de 2015, conocida como “Ley Ricarte Soto”, mediante la cual se reglamenta la atención, el diagnóstico, la cobertura universal y el tratamiento de 14 afecciones específicas de salud asociadas con enfermedades huérfanas <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>Se desconoce el impacto real de la carga de morbilidad, mortalidad, tecnologías diagnósticas y terapéuticas, y las complicaciones relacionadas con la discapacidad de muchas de estas enfermedades. Esto puede deberse en gran medida a su baja prevalencia y, por consiguiente, constituyen eventos de salud nuevos para la comunidad científica de diferentes regiones y contextos. Aunado a lo anterior, se añaden dificultades con la inespecificidad de códigos usados en el sistema vigente de clasificación de enfermedades, puesto que muchas de ellas comparten la misma nomenclatura con otras enfermedades.</p>
+		<p>En ese sentido, los análisis de mortalidad representan una herramienta valiosa. Por un lado, permiten actualizar el conocimiento que se tiene sobre estas enfermedades y, por otro, brindan información pertinente para evaluar de forma indirecta los avances en relación con detección oportuna, atención, manejo y seguimiento de las condiciones de salud asociadas con enfermedades huérfanas. Por lo anterior, el objetivo de este trabajo es determinar las características y los factores asociados a la mortalidad por enfermedades huérfanas en Chile, entre 2002 y 2017.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p>Se realizó un estudio transversal y analítico mediante el cual se caracterizó la mortalidad por enfermedades huérfanas en Chile entre 2002 y 2017, a partir de datos secundarios provenientes de las defunciones individuales registradas en la base oficial del Departamento de Estadística e Información en Salud (DEIS), Ministerio de Salud de Chile, como única fuente secundaria de información.</p>
+			<p>Para determinar la causa de defunción, se consideró el consenso oficial elaborado en un país de la región con base en la Clasificación Internacional de Enfermedades en su décima revisión (CIE-10) y la homologación de códigos provenientes de Orphanet <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>, debido a que Chile hasta el momento no ha definido un listado específico de códigos. Tras el proceso de revisión código a código, se identificaron 389 enfermedades que contaban con CIE-10 y 661 eran códigos inespecíficos. Finalmente, se establecieron 389 que tenían códigos específicos o correspondían con el CIE-10 para hacer la búsqueda en el Departamento de Estadística e Información en Salud.</p>
+			<p>Se excluyeron del análisis 1.185 (0,08 %) defunciones en las cuales no había forma de calcular la edad o no se determinaban las variables de estudio. El análisis univariado se realizó por año de defunción, sexo, grupos de edad según quinquenios, actividad, nivel educativo, región y zona de residencia, y códigos de causa de defunción. Las variables cualitativas se analizaron en función de las frecuencias absolutas y relativas. El tratamiento de las variables cuantitativas se hizo mediante la prueba no paramétrica de Kolmogórov-Smirnov para identificar la normalidad en la distribución de los datos. En correspondencia con lo anterior, se usó la prueba t de Student o la U de Mann-Withney, dependiendo de la distribución observada de los datos de la variable edad <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>Asimismo, se calcularon las tasas de mortalidad específica según sexo y grupos de edad, y se expresaron en muertes por 100.000 personas al año, empleando como denominador las proyecciones de población estimadas por el DEIS correspondientes a los grupos de edad y años de estudio. Se estimaron tasas anuales ajustadas por grupos de edad y, siguiendo el método directo y utilizando como población de referencia la población mundial según la Organización Munial de la Salud (OMS) <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>En el análisis bivariado se buscaron posibles asociaciones entre las características sociodemográficas y la enfermedad huérfana como causa de defunción, considerando este último resultado como como una variable. Para ello, se hizo la prueba de independencia de ji al cuadrado, y un análisis de regresión logística binario para determinar la probabilidad de muerte por esta causa mediante el cálculo de la razón de momios (<italic>Odds Ratio</italic>, OR). El nivel de significación se estableció en menos del 5 %.</p>
+			<p>Por último, se construyó un modelo de regresión logística multivariado cuyo objetivo era estimar la OR ajustada. Se eligieron las variables independientes para ingresarlas al modelo según la prueba de Hosmer- Lemeshow para modelos bivariados , es decir, aquellas que presentaron un valor de p menor de 0,25 <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Para la selección de los diferentes modelos, se utilizó el método de selección por pasos hacia adelante <italic>(forward)</italic>. En el caso de las variables con más de dos categorías, se usó el criterio de crear tantas variables ficticias (<italic>dummy</italic>) como el número total de categorías menos una<italic>.</italic> La pertinencia de cada variable en el modelo se evaluó mediante la prueba paramétrica de Wald, definiendo como variables significativas aquellas que arrojaran un valor de p menor de 0,05 <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+			<p>El procesamiento de los datos y el análisis de la información se realizaron por medio del paquete estadístico R Studio, versión 4.0.3 (2020-10-10), apoyado en las herramientas de Microsoft Office 2019.</p>
+			<sec>
+				<title><italic>Consideraciones éticas</italic></title>
+				<p>En el diseño de este trabajo se contemplaron los aspectos éticos generales establecidos por la OMS para la investigación relacionada con la salud de seres humanos, específicamente, a partir de datos secundarios <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Las bases de datos no contenían información de identificación de los fallecidos; en los procedimientos realizados no se intervinieron personas, ni tampoco se incumplió el derecho a la privacidad y los resultados se presentan de manera global.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En Chile, se registraron alrededor de 1’504.726 defunciones por todas las causas entre los años 2002 y 2017, de las cuales 10.718 se atribuyeron directamente a enfermedades huérfanas, con un promedio de 669,8 muertes anuales. En el 2014, se notificó el mayor número de muertes por esta causa, con un total de 753; mientras que el 2002 fue el año con menor número (618) de decesos. La tendencia global mostró un patrón de ascenso entre el 2003 y el 2016, con una leve reducción en 2017 (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Tendencia de las defunciones por enfermedades en Chile, 2002-2017</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-03-508-gf1.jpg"/>
+					<attrib>Fuente: cálculo a partir de los datos oficiales del Departamento de Estadística e Información en Salud, DEIS, Ministerio de Salud de Chile</attrib>
+				</fig>
+			</p>
+			<p>Al analizar el comportamiento sociodemográfico de las personas fallecidas debida a este grupo de enfermedades, más de la mitad ocurrió en mujeres (5.604) y el 89,6 % (9.600) se clasificaba en la categoría de inactividad (<xref ref-type="table" rid="t1">cuadro 1</xref>). En cuanto al nivel educativo, los decesos se presentaron con mayor frecuencia en la población sin ninguna formación académica, con el 49,3 % (5.287).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro1.</label>
+					<caption>
+						<title>Características sociodemográficas asociadas a las defunciones debidas a enfermedades huérfanas en Chile, 2002-2017</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col span="2"/>
+							<col span="6"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="2" rowspan="3">Variable </th>
+								<th align="center" colspan="6">Defunciones</th>
+							</tr>
+							<tr>
+								<th align="center" colspan="2">Enfermedades huérfanas </th>
+								<th align="center" colspan="2">Otras causas de defunción<sup>†</sup></th>
+								<th align="center">X<sup>2</sup></th>
+								<th align="center">p</th>
+							</tr>
+							<tr>
+								<th align="center">n </th>
+								<th align="center">(%)</th>
+								<th align="center">n </th>
+								<th align="center">(%)</th>
+								<th align="center"> </th>
+								<th align="center"> </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Sexo</td>
+								<td align="left"> </td>
+								<td align="left" colspan="3"></td>
+								<td align="left"></td>
+								<td align="left"></td>
+								<td align="left"></td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left"> Mujer </td>
+								<td align="right">5.604 </td>
+								<td align="right">(0,37)</td>
+								<td align="right">694.312 </td>
+								<td align="right">(46,27)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left"> Hombre </td>
+								<td align="right">5.114 </td>
+								<td align="right">(0,34)</td>
+								<td align="right">795.656 </td>
+								<td align="right">(53,02)</td>
+								<td align="center">138,05</td>
+								<td align="center">0,000</td>
+							</tr>
+							<tr>
+								<td align="left">Actividad productiva</td>
+								<td align="right" colspan="6"> 
+ </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Inactivo</td>
+								<td align="right">9.600 </td>
+								<td align="right">(0,64)</td>
+								<td align="right">1.262.093 </td>
+								<td align="right">(84,10)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Activo</td>
+								<td align="right">1.008 </td>
+								<td align="right">(0,07)</td>
+								<td align="right">207.228 </td>
+								<td align="right">(13,81)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Cesante o desocupado</td>
+								<td align="right">110 </td>
+								<td align="right">(0,01)</td>
+								<td align="right">20.647 </td>
+								<td align="right">(1,38)</td>
+								<td align="center">195,17</td>
+								<td align="center">0,000</td>
+							</tr>
+							<tr>
+								<td align="left">Nivel educativo </td>
+								<td align="left"> </td>
+								<td align="right"/>
+								<td align="right"/>
+								<td align="right"/>
+								<td align="right"/>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Superior </td>
+								<td align="right">490</td>
+								<td align="right">(0,03)</td>
+								<td align="right">74.877</td>
+								<td align="right">(4,99)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Medio</td>
+								<td align="right">1.319 </td>
+								<td align="right">(0,09)</td>
+								<td align="right">151.462 </td>
+								<td align="right">(10,09)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Secundaria</td>
+								<td align="right">881 </td>
+								<td align="right">(0,06)</td>
+								<td align="right">283.908 </td>
+								<td align="right">(18,92)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Básico o primaria</td>
+								<td align="right">2.741 </td>
+								<td align="right">(0,18)</td>
+								<td align="right">798.230 </td>
+								<td align="right">(53,19)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Ninguno</td>
+								<td align="right">5.287 </td>
+								<td align="right">(0,35)</td>
+								<td align="right">181.491 </td>
+								<td align="right">(12,09)</td>
+								<td align="center">14.072</td>
+								<td align="center">0,000</td>
+							</tr>
+							<tr>
+								<td align="left">Grupos de edad (años)</td>
+								<td align="left"> </td>
+								<td align="right" colspan="3"> 
+ </td>
+								<td align="right"> 
+ </td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">0-4</td>
+								<td align="right">4.474 </td>
+								<td align="right">(0,30)</td>
+								<td align="right">30.017</td>
+								<td align="right">(2,00)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">5-9</td>
+								<td align="right">197 </td>
+								<td align="right">(0,01)</td>
+								<td align="right">2.945</td>
+								<td align="right">(0,20)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">10-14</td>
+								<td align="right">234 </td>
+								<td align="right">(0,02)</td>
+								<td align="right">3.812</td>
+								<td align="right">(0,25)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">15-19</td>
+								<td align="right">335 </td>
+								<td align="right">(0,02)</td>
+								<td align="right">10.324</td>
+								<td align="right">(0,69)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">20-24</td>
+								<td align="right">278 </td>
+								<td align="right">(0,02)</td>
+								<td align="right">15.208</td>
+								<td align="right">(1,01)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">25-29</td>
+								<td align="right">184 </td>
+								<td align="right">(0,01)</td>
+								<td align="right">16.448</td>
+								<td align="right">(1,10)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">30-34</td>
+								<td align="right">170 </td>
+								<td align="right">(0,01)</td>
+								<td align="right">18.914</td>
+								<td align="right">(1,26)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">35-39</td>
+								<td align="right">205 </td>
+								<td align="right">(0.01)</td>
+								<td align="right">24.147</td>
+								<td align="right">(1,61)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">40-44</td>
+								<td align="right">246 </td>
+								<td align="right">(0,02)</td>
+								<td align="right">34.188</td>
+								<td align="right">(2,28)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">45-49</td>
+								<td align="right">413 </td>
+								<td align="right">(0,03)</td>
+								<td align="right">47.185</td>
+								<td align="right">(3,14)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">50-54</td>
+								<td align="right">517 </td>
+								<td align="right">(0,03)</td>
+								<td align="right">63.378</td>
+								<td align="right">(4,22)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">55-59</td>
+								<td align="right">623 </td>
+								<td align="right">(0,04)</td>
+								<td align="right">81.920</td>
+								<td align="right">(5,43)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">60-64</td>
+								<td align="right">677 </td>
+								<td align="right">(0,05)</td>
+								<td align="right">81.542</td>
+								<td align="right">(6,96)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">65 y más</td>
+								<td align="right">2.165 </td>
+								<td align="right">(0,14)</td>
+								<td align="right">1’037.355</td>
+								<td align="right">(69,14) </td>
+								<td align="center">80.889</td>
+								<td align="center">0,000</td>
+							</tr>
+							<tr>
+								<td align="left">Zona de residencia</td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left"> Urbana </td>
+								<td align="right">9.509 </td>
+								<td align="right">(0,64)</td>
+								<td align="right">1’286.726</td>
+								<td align="right">(85,74)</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left"> Rural </td>
+								<td align="right">1.209 </td>
+								<td align="right">(0,08)</td>
+								<td align="right">203.242 </td>
+								<td align="right">(13,54)</td>
+								<td align="center">50.004</td>
+								<td align="center">0,000</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Fuente: cálculos a partir de los datos oficiales del Departamento de Estadística e Información, DEIS, Ministerio de Salud de Chile</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>†</sup> No se incluyeron 4.040 registros en los que se determinaron las variables de comparación (sexo, actividad productiva, nivel educativo, edad y zona de residencia).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>En relación con los grupos de edad más afectados, se encontró una mayor proporción entre los menores de 0 a 4 años, con 41,7 % (4.474), seguido por el de adultos mayores de 65 y más años, con 20,2 % (2.165), y el de 60 a 64 años, con 6,3 % (677). Una gran proporción de ellos residían en la zona urbana, con 88,7 % (9.509).</p>
+			<p>En cuanto al diagnóstico específico, las causas de muerte no difirieron notoriamente según el sexo. Entre las primeras causas de defunción en las mujeres, sobresalen: enfermedad de Creutzfeldt-Jakob, anencefalia, hepatitis autoinmunitaria, cirrosis biliar primaria, anomalías cromosómicas no especificadas, hernia diafragmática congénita, distrofia muscular, malformaciones congénitas del corazón especificadas, displasia broncopulmonar originada en el periodo perinatal y síndrome de Guillain-Barré (<xref ref-type="table" rid="t2">cuadro 2</xref>). Mientras que, en la población masculina, se identificaron las siguientes: enfermedad de Creutzfeldt-Jakob, distrofia muscular, anencefalia, hernia diafragmática congénita, anomalías cromosómicas no especificadas, otras malformaciones congénitas del corazón especificadas, displasia broncopulmonar originada en el periodo perinatal, síndrome de Guillain-Barré, trastornos miotónicos y enanismo tanatofórico (<xref ref-type="table" rid="t2">cuadro 2</xref>). La mediana de la edad fue de 21 años (rango intercuartílico=61).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2. </label>
+					<caption>
+						<title>Principales causas de mortalidad por enfermedades huérfanas en hombres y mujeres, Chile, 2002-2017</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col span="3"/>
+							<col span="3"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center" colspan="3">Mujeres</th>
+								<th align="center" colspan="3">Hombres </th>
+							</tr>
+							<tr>
+								<th align="left"> </th>
+								<th align="left">n</th>
+								<th align="left">%</th>
+								<th align="left"> </th>
+								<th align="left">n</th>
+								<th align="left">%</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Enfermedad de Creutzfeldt-Jakob</td>
+								<td align="right">593</td>
+								<td align="left">10,6</td>
+								<td align="left">Enfermedad de Creutzfeldt-Jakob</td>
+								<td align="right">510</td>
+								<td align="left">10,0</td>
+							</tr>
+							<tr>
+								<td align="left">Anencefalia</td>
+								<td align="right">484</td>
+								<td align="left">8,6</td>
+								<td align="left">Anencefalia</td>
+								<td align="right">426</td>
+								<td align="left">8,3</td>
+							</tr>
+							<tr>
+								<td align="left">Hepatitis autoinmunitaria</td>
+								<td align="right">381</td>
+								<td align="left">6,8</td>
+								<td align="left">Distrofia muscular</td>
+								<td align="right">436</td>
+								<td align="left">8,5</td>
+							</tr>
+							<tr>
+								<td align="left">Cirrosis biliar primaria</td>
+								<td align="right">267</td>
+								<td align="left">4,8</td>
+								<td align="left">Hernia diafragmática congénita</td>
+								<td align="right">277</td>
+								<td align="left">5,4</td>
+							</tr>
+							<tr>
+								<td align="left">Anomalía cromosómica, no específica</td>
+								<td align="right">238</td>
+								<td align="left">4,2</td>
+								<td align="left">Anomalía cromosómica, no específica</td>
+								<td align="right">241</td>
+								<td align="left">4,7</td>
+							</tr>
+							<tr>
+								<td align="left">Hernia diafragmática congénita</td>
+								<td align="right">230</td>
+								<td align="left">4,1</td>
+								<td align="left">Otras malformaciones congénitas del corazón, especificadas</td>
+								<td align="right">179</td>
+								<td align="left">3,5</td>
+							</tr>
+							<tr>
+								<td align="left">Distrofia muscular</td>
+								<td align="right">135</td>
+								<td align="left">2,4</td>
+								<td align="left">Displasia broncopulmonar originada en el periodo neonatal</td>
+								<td align="right">178</td>
+								<td align="left">3,5</td>
+							</tr>
+							<tr>
+								<td align="left">Otras malformaciones congénitas del corazón, especificadas</td>
+								<td align="right">130</td>
+								<td align="left">2,3</td>
+								<td align="left">Síndrome de Guillain-Barré</td>
+								<td align="right">171</td>
+								<td align="left">3,3</td>
+							</tr>
+							<tr>
+								<td align="left">Displasia broncopulmonar originada en el periodo neonatal</td>
+								<td align="right">116</td>
+								<td align="left">2,1</td>
+								<td align="left">Hepatitis autoinmunitaria</td>
+								<td align="right">71</td>
+								<td align="left">1,4</td>
+							</tr>
+							<tr>
+								<td align="left">Síndrome de Guillain-Barré</td>
+								<td align="right">110</td>
+								<td align="left">2,0</td>
+								<td align="left">Miastenia gravis</td>
+								<td align="right">63</td>
+								<td align="left">1,2</td>
+							</tr>
+							<tr>
+								<td align="left">Miastenia gravis</td>
+								<td align="right">107</td>
+								<td align="left"> 1,9 </td>
+								<td align="left">Cirrosis biliar primaria</td>
+								<td align="right">20</td>
+								<td align="left">0,4</td>
+							</tr>
+							<tr>
+								<td align="left">Otras enfermedades huérfanas</td>
+								<td align="right">2.813</td>
+								<td align="left">50,2</td>
+								<td align="left">Otras enfermedades huérfanas</td>
+								<td align="right">2.542</td>
+								<td align="left">49,7</td>
+							</tr>
+							<tr>
+								<td align="left">Total</td>
+								<td align="right">5.604</td>
+								<td align="left">100</td>
+								<td align="left">Total</td>
+								<td align="right">5.114</td>
+								<td align="left">100</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>Fuente: cálculo a partir de los datos oficiales del Departamento de Estadística e Información en Salud, DEIS, Ministerio de Salud de Chile</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Dado que los datos correspondientes a la variable edad no provenían de una distribución normal tanto en hombres como en mujeres (p&lt;2.2e-16, prueba Kolmogórov-Smirnov), se encontró que existían diferencias estadísticas (p&lt;2.2e-16, prueba U de Mann-Whitney) en la mediana de la edad en ambos sexos, esa diferencia es positiva a favor de los hombres.</p>
+			<p>La tasa media de mortalidad debida a enfermedades huérfanas en Chile para el periodo fue de 3,9 por 100.000 habitantes: 4,1 en mujeres y 3,8 en hombres. Las tasas más altas se observaron en los menores de 0 a 4 años en ambos casos. En general, las mujeres registraron las mayores tasas, principalmente a partir de los 35 años de edad. En hombres, las tasas fueron más altas a partir del grupo de 5 a 9 años y hasta el de 25 a 29 años respecto de las mujeres (<xref ref-type="fig" rid="f2">figura 2</xref>). Las tasas que predominaron en hombres fueron las que se presentaron a partir del grupo de 45 a 49 años.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Tasa de mortalidad media anual debida a enfermedades huérfanas según sexo y grupos de edad, Chile, 2002-2017</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-03-508-gf2.jpg"/>
+					<attrib>Fuente: cálculo a partir de los datos oficiales del Departamento de Estadística e Información en Salud, DEIS, Ministerio de Salud de Chile</attrib>
+				</fig>
+			</p>
+			<p>Con respecto la región de residencia, los resultados indicaron que las regiones Metropolitana de Santiago (4.174), Valparaíso (1.159), Biobío (1.035), Maule (607) y Araucanía (623), concentraron el 70,8 % de los fallecimientos atribuidos a estas causas.</p>
+			<p>Al ajustar las tasas por sexo y edad, la situación por región varía a través de los años. La región de Tarapacá aportó la tasa media ajustada anual más alta, con 6,5 por 100.000 habitantes por año, observándose un incremento del 2006 al 2013 y del 2015 al 2017 con tasas superiores al promedio nacional, seguido por Antofagasta con 3,3. Las demás regiones, arrojaron tasas iguales y menores de 0,6 muertes por 100.000 habitantes (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Cuadro 3.</label>
+					<caption>
+						<title>Tasa de mortalidad debida a enfermedades huérfanas, ajustadas por edad, según región de residencia, Chile, 2002-2017</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col span="16"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Regiones</th>
+								<th align="center" colspan="16">Tasa ajustada de mortalidad por 100.000 personas/año </th>
+								<th align="center"/>
+							</tr>
+							<tr>
+								<th align="left"> </th>
+								<th align="center">2002</th>
+								<th align="center">2003</th>
+								<th align="center">2004</th>
+								<th align="center">2005</th>
+								<th align="center">2006</th>
+								<th align="center">2007</th>
+								<th align="center">2008</th>
+								<th align="center">2009</th>
+								<th align="center">2010</th>
+								<th align="center">2011</th>
+								<th align="center">2012</th>
+								<th align="center">2013</th>
+								<th align="center">2014</th>
+								<th align="center">2015</th>
+								<th align="center">2016</th>
+								<th align="center">2017</th>
+								<th align="center">Media</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Chile</td>
+								<td align="center">3,9</td>
+								<td align="center">4,1</td>
+								<td align="center">4,1</td>
+								<td align="center">4,3</td>
+								<td align="center">4,1</td>
+								<td align="center">3,8</td>
+								<td align="center">4,0</td>
+								<td align="center">3,7</td>
+								<td align="center">3,8</td>
+								<td align="center">3,7</td>
+								<td align="center">3,9</td>
+								<td align="center">3,8</td>
+								<td align="center">4,2</td>
+								<td align="center">4,1</td>
+								<td align="center">4,0</td>
+								<td align="center">3,5</td>
+								<td align="center">3,9</td>
+							</tr>
+							<tr>
+								<td align="left">Tarapacá</td>
+								<td align="center">4,8</td>
+								<td align="center">5,0</td>
+								<td align="center">4,0</td>
+								<td align="center">2,0</td>
+								<td align="center">5,0</td>
+								<td align="center">8,0</td>
+								<td align="center">8,0</td>
+								<td align="center">8,0</td>
+								<td align="center">4,0</td>
+								<td align="center">9,0</td>
+								<td align="center">10,0</td>
+								<td align="center">10,0</td>
+								<td align="center">4,0</td>
+								<td align="center">10,0</td>
+								<td align="center">7,0</td>
+								<td align="center">6,0</td>
+								<td align="center">6,5</td>
+							</tr>
+							<tr>
+								<td align="left">Antofagasta</td>
+								<td align="center">6,0</td>
+								<td align="center">3,1</td>
+								<td align="center">1,5</td>
+								<td align="center">1,5</td>
+								<td align="center">3,0</td>
+								<td align="center">2,9</td>
+								<td align="center">6,7</td>
+								<td align="center">5,5</td>
+								<td align="center">2,7</td>
+								<td align="center">3,4</td>
+								<td align="center">6,7</td>
+								<td align="center">4,1</td>
+								<td align="center">2,4</td>
+								<td align="center">1,6</td>
+								<td align="center">3,3</td>
+								<td align="center">3,3</td>
+								<td align="center">3,6</td>
+							</tr>
+							<tr>
+								<td align="left">Atacama</td>
+								<td align="center">4,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,3</td>
+							</tr>
+							<tr>
+								<td align="left">Coquimbo</td>
+								<td align="center">4,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,4</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,3</td>
+							</tr>
+							<tr>
+								<td align="left">Valparaiso</td>
+								<td align="center">2,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,7</td>
+								<td align="center">0,7</td>
+								<td align="center">0,7</td>
+								<td align="center">0,7</td>
+								<td align="center">0,3</td>
+							</tr>
+							<tr>
+								<td align="left">Libertador B. O'Higgins</td>
+								<td align="center">2,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,4</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,2</td>
+							</tr>
+							<tr>
+								<td align="left">Maule</td>
+								<td align="center">3,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">1,1</td>
+								<td align="center">1,1</td>
+								<td align="center">0,5</td>
+								<td align="center">0,4</td>
+							</tr>
+							<tr>
+								<td align="left">Biobío</td>
+								<td align="center">3,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,2</td>
+							</tr>
+							<tr>
+								<td align="left">Araucanía</td>
+								<td align="center">3,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,3</td>
+							</tr>
+							<tr>
+								<td align="left">Los Lagos</td>
+								<td align="center">3,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+								<td align="center">0,6</td>
+								<td align="center">1,1</td>
+								<td align="center">0,5</td>
+								<td align="center">1,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,5</td>
+							</tr>
+							<tr>
+								<td align="left">Aisén del Gral. C. Ibáñez del Campo</td>
+								<td align="center">6,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+							</tr>
+							<tr>
+								<td align="left">Magallanes y de la Antártida Chilena</td>
+								<td align="center">8,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,3</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+							</tr>
+							<tr>
+								<td align="left">Metropolitana de Santiago</td>
+								<td align="center">3,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">1,1</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,4</td>
+							</tr>
+							<tr>
+								<td align="left">Los Ríos</td>
+								<td align="center">5,0</td>
+								<td align="center">1,9</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,8</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+							</tr>
+							<tr>
+								<td align="left">Arica y Paniracota</td>
+								<td align="center">4,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">1,8</td>
+								<td align="center">0,8</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,7</td>
+								<td align="center">0,0</td>
+								<td align="center">0,6</td>
+							</tr>
+							<tr>
+								<td align="left">Nuble</td>
+								<td align="center">3,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,9</td>
+								<td align="center">0,5</td>
+								<td align="center">0,0</td>
+								<td align="center">1,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,9</td>
+								<td align="center">0,0</td>
+								<td align="center">0,8</td>
+								<td align="center">0,0</td>
+								<td align="center">0,7</td>
+								<td align="center">0,0</td>
+								<td align="center">0,0</td>
+								<td align="center">0,5</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>Fuente: cálculos a partir de los datos oficiales del Departamento de Estadística e Información, DEIS, Ministerio de Salud de Chile </p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>En el análisis bivariado entre variables cualitativas, se encontró que estuvieron asociados a los fallecimientos por enfermedad huérfana el sexo, la actividad, el nivel educativo, la edad distribuida por grupos y la zona de residencia (<xref ref-type="table" rid="t1">cuadro 1</xref>). Por su parte, la regresión logística bivariada (OR cruda) arrojó un valor estadísticamente significativo para algunas de las características previamente estudiadas, las cuales fueron corroboradas mediante el análisis de regresión logística multivariado (OR ajustado).</p>
+			<p>Al considerar el sexo, se determinó que las mujeres tienen 1,75 más posibilidades de fallecer por enfermedades huérfanas, en comparación con los hombres (OR ajustado=1,75; IC<sub>95%</sub> 1,69-1,82). Las personas en condiciones de inactividad mostraron una probabilidad de morir de 1,32 veces más (<sub>a</sub>OR = 1,32; IC<sub>95%</sub> 1,09-1,59). Con respecto al nivel educativo, se encontró que los individuos sin ningún nivel de formación académica tenían hasta 4,31 veces más probabilidades de fallecer a causa de alguna de estas enfermedades (<sub>a</sub>OR = 4,31; IC<sub>95%</sub> 3,93-4,73).</p>
+			<p>En cuanto a los grupos de edad, se corroboró que la población pediátrica (0 a 4 años) sigue presentando el mayor riesgo de morir (<sub>a</sub>OR = 15,30; IC<sub>95%</sub> 14,10-19,20), en comparación con los de 5 a 9 (<sub>a</sub>OR = 6,91; IC<sub>95%</sub> 6,00-9,05) y de 10 a 14 años (<sub>a</sub>OR = 6,37; IC<sub>95%</sub> 5,51-8,00). De igual manera ocurre con las personas de 15 a 19 y 20 a 24 años, respectivamente (<sub>a</sub>OR = 3,57; IC<sub>95%</sub> 3,40-4,35 <italic>Vs</italic>. <sub>a</sub>OR = 2,6; IC<sub>95%</sub> 1,68-2,48). Además, se observó que los fallecidos que residían en el casco urbano tenían 1,22 veces más probabilidades de morir por estas causas, frente a los que residen en zonas rurales (<sub>a</sub>OR = 1,22; IC<sub>95%</sub> 1,10-1,29) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Cuadro 4</label>
+					<caption>
+						<title>Análisis de regresión logística bivariado y multivariado del riesgo de mortalidad debida a enfermedades huérfanas en Chile, 2002-2017</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col span="2"/>
+							<col span="3"/>
+							<col span="3"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="2">Variables </th>
+								<th align="left" colspan="3">Análisis bivariado </th>
+								<th align="left" colspan="3">Análisis multivariado </th>
+							</tr>
+							<tr>
+								<th align="left"> </th>
+								<th align="left"> </th>
+								<th align="left">OR cruda</th>
+								<th align="left">IC95%</th>
+								<th align="left">p</th>
+								<th align="left">OR ajustado</th>
+								<th align="left">IC95%</th>
+								<th align="left">p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Sexo </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Mujer</td>
+								<td align="right">1,26</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left">1,75</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Hombre*</td>
+								<td align="right">1</td>
+								<td align="center">1,21-1,3</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">1</td>
+								<td align="right">1,69-182</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left">Actividad</td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left"> </td>
+								<td align="right" colspan="2"></td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Cesante o desocupado</td>
+								<td align="right">1</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left">1</td>
+								<td align="right" colspan="2"></td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Inactivo</td>
+								<td align="right">1,43</td>
+								<td align="center">1,18-1,72</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">1,32</td>
+								<td align="right">1,09-1,59</td>
+								<td align="right">0,004</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Activo</td>
+								<td align="right">0,91</td>
+								<td align="center">0,71-1,11</td>
+								<td align="center">0,366</td>
+								<td align="left">0,9</td>
+								<td align="right">0,74-1,09</td>
+								<td align="right">0,287</td>
+							</tr>
+							<tr>
+								<td align="left">Nivel educativo</td>
+								<td align="left"> </td>
+								<td align="right"> 1</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left">1</td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left"> Superior* </td>
+								<td align="right"> 1</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left">1</td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Medio</td>
+								<td align="right">1,33</td>
+								<td align="center">1,2-1,48</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">1,33</td>
+								<td align="right">1,2-1,48</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Secundaria</td>
+								<td align="right">0,47</td>
+								<td align="center">0,42-0,53</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">0,46</td>
+								<td align="right">0,41-0,52</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Básico o primaria</td>
+								<td align="right">0,52</td>
+								<td align="center">0,48-0,58</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">0,51</td>
+								<td align="right">0,46-0,56</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Ninguno</td>
+								<td align="right">4,45</td>
+								<td align="center">4,06-4,89</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">4,31</td>
+								<td align="right">3,93-4,73</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left">Grupos de edad (años) </td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">0-4</td>
+								<td align="right">16,58</td>
+								<td align="center">14,21-19,35</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">15,30</td>
+								<td align="right">14,10-19,20</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">5-9</td>
+								<td align="right">7,44</td>
+								<td align="center">6,04-9,17</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">6,91</td>
+								<td align="right">6,00-9,05</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">10-14</td>
+								<td align="right">6,83</td>
+								<td align="center">5,59-8,35</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">6,37</td>
+								<td align="right">5,51-8,00</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">15-19</td>
+								<td align="right">3,61</td>
+								<td align="center">3,4-4,35</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">3,57</td>
+								<td align="right">3,4-4,35</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">20-24</td>
+								<td align="right">2,03</td>
+								<td align="center">1,68-2,46</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">2,06</td>
+								<td align="right">1,68-2,48</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">25-29</td>
+								<td align="right">1,24</td>
+								<td align="center">1,01-1,53</td>
+								<td align="center">0,041</td>
+								<td align="left">1,26</td>
+								<td align="right">1,05-1,55</td>
+								<td align="right">0,029</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">30-34*</td>
+								<td align="right">1</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">35-39</td>
+								<td align="right">0,94</td>
+								<td align="center">0,77-1,16</td>
+								<td align="center">0,584</td>
+								<td align="left">0,93</td>
+								<td align="right">0,70-1,10</td>
+								<td align="right">0,488</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">40-44</td>
+								<td align="right">0,8</td>
+								<td align="center">0,66-0,97</td>
+								<td align="center">0,026</td>
+								<td align="left">0,8</td>
+								<td align="right">0,66-0,97</td>
+								<td align="right">0,011</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">45-49</td>
+								<td align="right">0,97</td>
+								<td align="center">0,81-1,17</td>
+								<td align="center">0,772</td>
+								<td align="left">0,93</td>
+								<td align="right">0,79-1,15</td>
+								<td align="right">0,452</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">50-54</td>
+								<td align="right">0,91</td>
+								<td align="center">0,76-1,08</td>
+								<td align="center">0,275</td>
+								<td align="left">0,86</td>
+								<td align="right">0,71-1,07</td>
+								<td align="right">0,101</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">55-59</td>
+								<td align="right">0,85</td>
+								<td align="center">0,72-1,01</td>
+								<td align="center">0,062</td>
+								<td align="left">0,81</td>
+								<td align="right">0,70-1,01</td>
+								<td align="right">0,013</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">60-64</td>
+								<td align="right">0,72</td>
+								<td align="center">0,61-0,85</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">0,68</td>
+								<td align="right">0,60-0,81</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">65 y más</td>
+								<td align="right">0,23</td>
+								<td align="center">0,2-0,27</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">0,21</td>
+								<td align="right">0,19-0,27</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+							<tr>
+								<td align="left">Área de residencia </td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Rural*</td>
+								<td align="right">1</td>
+								<td align="center"> </td>
+								<td align="center"> </td>
+								<td align="left"> </td>
+								<td align="right"> </td>
+								<td align="right"> </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Urbana</td>
+								<td align="right">1,24</td>
+								<td align="center">1,17-1,32</td>
+								<td align="center">&lt;0,001</td>
+								<td align="left">1,22</td>
+								<td align="right">1,10-1,29</td>
+								<td align="right">&lt;0,001</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN5">
+							<p>Fuente: cálculos a partir de los datos oficiales del Departamento de Estadística e Información, DEIS, Ministerio de Salud de Chile</p>
+						</fn>
+						<fn id="TFN6">
+							<p>OR: razón cruda de momios; OR ajustado: razón ajustada de momios</p>
+						</fn>
+						<fn id="TFN7">
+							<p><sup>*</sup> Categoría de referencia</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Entre el 2002 y el 2017, se registraron 10.718 defunciones directamente relacionadas con enfermedades huérfanas en Chile. No obstante, estas cifras podrían ser significativamente mayores de lo que muestran los hallazgos presentados en este trabajo, dadas las limitaciones atribuidas a su clasificación en todo el mundo. Esto significa que muchas de ellas puedan ser ignoradas o clasificadas de manera inapropiada en la causa de defunción a partir de las complicaciones derivadas <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+			<p>El análisis de las características sociodemográficas revela varios elementos importantes que ayudan a entender la amplia diversidad de los trastornos raros ya que su comportamiento varía, no solo de enfermedad a enfermedad, sino también, dentro del mismo contexto al que pertenecen las personas afectadas. Según los hallazgos, una proporción representativa (52,3 %) de estas defunciones se presentaron en mujeres. Estos resultados coinciden con los datos oficiales documentados por el Sistema Nacional de Vigilancia en Salud Pública en Colombia cuya tendencia ha mostrado un crecimiento más acentuado en este grupo de población en los últimos cinco años <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+			<p>En parte, esto podría explicarse porque un porcentaje importante de estas afecciones son de origen autoinmunitario y se ha demostrado que las alteraciones del sistema inmunológico predominan en las mujeres <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Sin embargo, en otro estudio en que se analizaron las muertes por estas causas en ese mismo país, se reveló que el 51,4 % (3.468) de ellas ocurrieron en hombres de todas las edades <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. El carácter incapacitante de las enfermedades huérfanas guarda relación, no solamente con su naturaleza crónica, sino también, con el alto grado de discapacidad que generan y, a su vez, con una importante vulnerabilidad económica que coloca a los pacientes y sus familias ante un amplio panorama de necesidades.</p>
+			<p>Esto se refleja de alguna manera en el elevado porcentaje (89,4 %) de fallecidos que se encontraban en condiciones de inactividad, sobre todo en menores de cinco años y en adultos mayores de 65 años, a quienes se les atribuye el 61,9 % (6.639) de las muertes identificadas. Esta tendencia es coherente con lo informado en la literatura científica sobre morbilidad y mortalidad prematura <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Respecto al nivel educativo, la mayor proporción de las muertes se concentró en poblaciones sin ninguna escolaridad.</p>
+			<p>El comportamiento de las enfermedades huérfanas es muy heterogéneo. En el caso de los niños, representa una reducción de sus capacidades físicas, habilidades mentales, y destrezas sensoriales y de comportamiento. La falta de escolarización se podría entender como un factor de riesgo potencial para morbimortalidad <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Las malformaciones congénitas constituyen las primeras causas de muerte en Chile. Este patrón coincide con la situación reportada en la mayoría de los países de Latinoamérica, cuyas muertes en menores de un año tienden a incrementar año tras año, ocupando entre el segundo y el quinto lugar de los fallecimientos; esto equivale al 27 % de la mortalidad en menores de cinco años <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. En otro estudio colombiano, se revelaron cifras cercanas a 22.361 fallecimientos perinatales atribuibles malformaciones congénitas, con tasas que oscilaron entre 205,81 y 74,18 por 10.000 nacidos vivos durante 10 años estudiados <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>En relación con los diagnósticos específicos, la anencefalia constituye la primera causa de muerte en los menores de 0 a 4 años de ambos sexos; este dato concuerda con lo documentado en Irlanda en neonatos de 0 a 28 días, cuyas defunciones aportaron el 51,58 % de la carga de mortalidad infantil de ese país entre 2006 y 2016 <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+			<p>La enfermedad de Creutzfeldt-Jakob se ubicó entre las enfermedades huérfanas de mayor frecuencia en la población de 15 años y en los mayores de 65 años, principalmente mujeres. En los adultos de 65 y más años, la enfermedad puede llegar a volverse más prevalente como causa principal de demencia, incrementándose su gravedad con la edad. En un estudio reciente en Japón, se reveló un incremento significativo en la mortalidad (3,2%; IC<sub>95%</sub> 1,4-5,1) y la incidencia (6,4 %; IC<sub>95%</sub> 4,7-8,1), especialmente entre los adultos mayores de 70 años <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>La distrofia muscular fue una de las enfermedades que más afectó a los hombres de todas las edades en Chile. Existe evidencia, especialmente, de la variante hereditaria de Duchenne, un tipo de enfermedad neuromuscular progresiva que afecta uno de cada 5.000 niños varones nacidos vivos <sub>(</sub><xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sub>)</sub>. Otra enfermedad común en ambos sexos fue la de Guillain-Barré. No fue más frecuente en la población masculina, comportamiento que coincide con lo reportado en otra investigación colombiana <sub>(</sub><xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sub>)</sub>.</p>
+			<p>Los hallazgos en cuanto a edad también difieren de los documentados en Perú, en donde la mediana de la edad fue de 47 años, situación que demuestra que las enfermedades huérfanas constituyen un grupo muy variado y complejo que afecta de forma distinta a las personas que la padecen <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. Se observaron diferencias en las tasas globales de mortalidad según el sexo y los grupos de edad, cuyos resultados concuerdan parcialmente con los reportados en la Comunidad de Madrid, España, entre 1999 y 2003, donde estas enfermedades cobraron más vidas en varones de todos los grupos de edad, mientras que el máximo riesgo de muerte se identificó en los menores de un año <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. La situación de la mortalidad por este grupo de enfermedades reveló, en esa misma comunidad española, una tendencia al incremento en los años 2010 y 2012, hasta alcanzar una tasa media anual de 15,4 por 100.000, con mayor afectación en las mujeres mayores de 75 años, con 170,8 por 100.000, en comparación con los hombres de ese mismo grupo, con 70,4 por 100.000 <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Las mayores tasas en Chile se registraron en las mujeres, particularmente en los extremos de la vida. El riesgo de morir por alguna enfermedad huérfana fue mayor en los primeros años de vida de ambos sexos.</p>
+			<p>El comportamiento de las defunciones mostró diferencias regionales importantes según la región de residencia de los fallecidos: las regiones Metropolitana de Santiago, Valparaíso, Biobío, Maule y Araucanía, concentraron la mayor proporción de las muertes. En parte, este patrón podría explicarse por la limitada disponibilidad de talento humano calificado en salud, la distribución de los laboratorios de diagnóstico y la de los servicios de salud de alta complejidad en el manejo de estas enfermedades en todo el país.</p>
+			<p>Según el Ministerio de Salud, 47 médicos (50 % genetistas clínicos y 40 % neurólogos infantiles) se dedicaban al diagnóstico y al tratamiento de personas con enfermedades huérfanas en Chile en el 2019. El 80 % de los genetistas y la mayoría de los hospitales públicos, centros privados, universidades o institutos especializados, están ubicados en la Región Metropolitana de Valparaíso y Biobío. En contraste, 10 regiones no disponen de esta especialidad médica <xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Las mayores tasas de mortalidad se registraron en Tarapacá y Antofagasta, lo cual es coherente con el efecto de las diferencias en la estructura de la edad por región que influyen en el cálculo del indicador sobre la tendencia nacional y regional.</p>
+			<p>Se encontró una asociación estadísticamente significativa entre las defunciones por enfermedades huérfanas con el sexo, la actividad, el nivel educativo, el grupo de edad y la zona de residencia, resultados que fueron corroborados mediante el análisis de regresión logística multivariada. El análisis de los modelos lineales generalizados mostró que el riesgo de morir por enfermedades huérfanas en las mujeres del grupo de 65 o más años que residían en zonas urbanas, fue 1,75 veces mayor, en comparación con los hombres. Este hallazgo coincide con el reportado en un estudio de base hospitalaria en el norte del Perú (p&lt;0,001; RPa (razón de prevalencia ajustada): 1,76; IC<sub>95%</sub> 1,67-1,86) <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. Mientras que otro análisis en la región de Toscana, en el norte de Italia, hecho entre 2010 y 2018, reveló un incremento significativo en el riesgo de muerte de la población masculina, 1,48 veces mayor que el de las mujeres (<italic>Hazard Ratio</italic>, HR=1,48; IC<sub>95%</sub> 1,38-1,58) <sub>(</sub><xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sub>)</sub>.</p>
+			<p>Se observó un mayor riesgo de muerte en los grupos inactivos, lo cual podría responder entre otras razones, a la naturaleza crónicamente debilitante de estas enfermedades, la cual acarrea discapacidades múltiples y graves. Este hallazgo guarda estrecha relación con el riesgo de morir entre las personas sin ningún grado de escolaridad; en ellas, se incrementa hasta cuatro veces más que en aquellos que tenían algún nivel de escolaridad. Estos resultados difieren notoriamente con lo reportado en Cali (Colombia), cuyos análisis demuestran que el nivel de educativo no presentaba ninguna relación estadísticamente significativa con la mortalidad por estas causas <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>Por otra parte, el riesgo de morir aumenta hasta 15 veces en los infantes en edades entre 0 y 4 años con respecto al resto de la población; esto se atribuye, principalmente, a alteraciones estructurales y fisiológicas muy amplias y complejas asociadas con anomalías genéticas originadas durante las etapas tempranas del desarrollo embrionario <xref ref-type="bibr" rid="B35"><sup>35</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. En el mismo trabajo realizado en Cali (Colombia), el mayor riesgo de mortalidad se presentó en los individuos de 30 a 44 años (p&lt;0,03; RPa: 14,07; IC<sub>95%</sub> 1,23-160,4) <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Estas diferencias reflejan la amplia variabilidad en el perfil de morbilidad y mortalidad de las enfermedades huérfanas entre países, incluso dentro de una misma región. El riesgo de muerte fue significativamente mayor (<sub>a</sub>OR = 1,22; IC<sub>95%</sub> 1,10-1,29) en las personas que habitualmente residían en zonas urbanas, en comparación con aquellas que vivían en áreas más dispersas o rurales. Esto corrobora lo que se conoce sobre las posibilidades de acceso al diagnóstico oportuno y el manejo adecuado en las grandes ciudades capitales del país <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+			<p>Como limitaciones de esta investigación, cabe mencionar que tanto los cálculos del indicador de mortalidad como la medición del riesgo de fallecer por este grupo de enfermedades, se hicieron a partir de información secundaria proveniente de las bases de defunciones oficiales y no se tuvieron en cuenta otras fuentes que ayudaran a contrastar la información entre distintas bases de datos y de esta manera identificar posibles muertes que no se encontraran reportadas en el sistema nacional de estadísticas vitales chileno. El eventual subregistro y la falta de especificidad o uniformidad de los diagnósticos pueden afectar el cálculo final de las tasas de mortalidad, con lo cual podría estar subestimada la magnitud real de los fallecimientos por enfermedades en Chile.</p>
+			<p>Otra limitación para considerar es que, en el análisis multivariado, no se empleó la estrategia metodológica de estratificación para la variable actividad, lo que podría haber sobreestimado el riesgo de morir para esta variable dado el alcance de los datos. De igual manera, no se hizo este procedimiento con las defunciones en menores de 0 a 4 años de edad. Esto significa que el riesgo observado en este grupo de población específica también podría estar arrojando valores más altos, ya que la mortalidad perinatal y la neonatal tardía varían notoriamente entre ellos.</p>
+			<p>Aun con todas estas limitaciones, los resultados presentados en este trabajo muestran un panorama actualizado sobre la situación de la mortalidad por enfermedades huérfanas en su conjunto y las principales causas de muerte en la población atribuidas a diagnósticos específicos relacionados con este grupo de enfermedades. Por lo tanto, se constituyen en un insumo para seguir profundizando en el tema y priorizar intervenciones en aquellas regiones y poblaciones más afectadas, ya que la mayoría de ellas son muertes prematuras o antes de cumplir la esperanza de vida. Además, se podría decir que este análisis es uno de los primeros en este campo que se centra en las muertes debidas a este grupo de enfermedades de forma global y explora los posibles factores asociados a la mortalidad en nuestro medio.</p>
+			<p>Se concluye que la mortalidad por enfermedades huérfanas, en su conjunto, se perfila como problema creciente de salud pública en Chile.</p>
+			<p>Los hallazgos demuestran la importancia de realizar más estudios, pero, sobre todo, de avanzar en la estandarización de un sistema de codificación y clasificación propio, de acuerdo con los perfiles de morbilidad y mortalidad asociados con enfermedades huérfanas en nuestro contexto, que proporcione información oportuna y de calidad para la toma de decisiones y oriente las intervenciones en salud pública.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Al Departamento de Estadística e Información en Salud del Ministerio de Salud de Chile, por proveer las bases de datos con cifras oficiales consolidadas sobre mortalidad para el periodo 2002 a 2017.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Ferreira CR. The burden of rare diseases. Am J Med Genet A. 2019;179:885-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajmg.a.61124">https://doi.org/10.1002/ajmg.a.61124</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>CR.</given-names>
+						</name>
+					</person-group>
+					<article-title>The burden of rare diseases</article-title>
+					<source>Am J Med Genet A</source>
+					<year>2019</year>
+					<volume>179</volume>
+					<fpage>885</fpage>
+					<lpage>892</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajmg.a.61124">https://doi.org/10.1002/ajmg.a.61124</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Mazzucato M, Dalla LV, Minichiello C, Manea S, Barbieri S, Toto E, <italic>et al</italic>. The epidemiology of transition into adulthood of rare diseases patients: Results from a population-based registry. Int J Environ Res Public Health. 2018;15:2212. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph15102212">https://doi.org/10.3390/ijerph15102212</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mazzucato</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Dalla</surname>
+							<given-names>LV</given-names>
+						</name>
+						<name>
+							<surname>Minichiello</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Manea</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Barbieri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Toto</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The epidemiology of transition into adulthood of rare diseases patients: Results from a population-based registry</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2018</year>
+					<volume>15</volume>
+					<fpage>2212</fpage>
+					<lpage>2212</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph15102212">https://doi.org/10.3390/ijerph15102212</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Nguengang S, Lambert DM, Orly A, Rodwell C, Gueydan C, Lanneau V, <italic>et al</italic>. Estimating cumulative point prevalence of rare diseases: Analysis of the Orphanet database. Eur J Hum Genet. 2020;28:165-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41431-019-0508-0">https://doi.org/10.1038/s41431-019-0508-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nguengang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lambert</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Orly</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rodwell</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gueydan</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lanneau</surname>
+							<given-names>V</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Estimating cumulative point prevalence of rare diseases: Analysis of the Orphanet database</article-title>
+					<source>Eur J Hum Genet</source>
+					<year>2020</year>
+					<volume>28</volume>
+					<fpage>165</fpage>
+					<lpage>173</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41431-019-0508-0">https://doi.org/10.1038/s41431-019-0508-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Ministerio de Salud y Protección Social. Enfermedades huérfanas. Fecha de consulta: 10 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PENT/Paginas/enfermedades-huerfanas.aspx">https://www.minsalud.gov.co/salud/publica/PENT/Paginas/enfermedades-huerfanas.aspx</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+					</person-group>
+					<source>Enfermedades huérfanas</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PENT/Paginas/enfermedades-huerfanas.aspx">https://www.minsalud.gov.co/salud/publica/PENT/Paginas/enfermedades-huerfanas.aspx</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Raineri G. Antecedentes legales sobre enfermedades raras. Rev Chil Enferm Respir. 2017;33:12-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0717-73482017000100002">https://doi.org/10.4067/S0717-73482017000100002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Raineri</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Antecedentes legales sobre enfermedades raras</article-title>
+					<source>Rev Chil Enferm Respir</source>
+					<year>2017</year>
+					<volume>33</volume>
+					<fpage>12</fpage>
+					<lpage>13</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0717-73482017000100002">https://doi.org/10.4067/S0717-73482017000100002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>FECHER. Federación Chilena de Enfermedades Raras. Fecha de consulta: 1° de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://fecher.cl/">https://fecher.cl/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>FECHER</collab>
+					</person-group>
+					<source>Federación Chilena de Enfermedades Raras</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-01">1° de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://fecher.cl/">https://fecher.cl/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Ministerio de Salud y Protección Social. Resolución 2048 de 2015 “por la cual se actualiza el listado de las enfermedades huérfanas y se define el número con el cual se identifica cada una de ellas en el sistema de información de pacientes con enfermedades huérfanas” del 9 de junio de 2015. Bogotá: Ministerio de Salud y Protección Social; 2015.</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+					</person-group>
+					<article-title>Resolución 2048 de 2015 “por la cual se actualiza el listado de las enfermedades huérfanas y se define el número con el cual se identifica cada una de ellas en el sistema de información de pacientes con enfermedades huérfanas”</article-title>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-06-09">9 de junio de 2015</date-in-citation>
+					<source>Bogotá: Ministerio de Salud y Protección Social</source>
+					<year>2015</year>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Instituto Nacional de Salud. Protocolo de vigilancia en salud pública de las enfermedades huérfanas-raras. Fecha de consulta: 1° de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ins.gov.co/buscador-eventos/Paginas/Fichas-y-Protocolos.aspx">https://www.ins.gov.co/buscador-eventos/Paginas/Fichas-y-Protocolos.aspx</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Protocolo de vigilancia en salud pública de las enfermedades huérfanas-raras</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-01">1° de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ins.gov.co/buscador-eventos/Paginas/Fichas-y-Protocolos.aspx">https://www.ins.gov.co/buscador-eventos/Paginas/Fichas-y-Protocolos.aspx</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Gómez M, Danglot C, Vega L. Sinopsis de pruebas estadísticas no paramétricas. Cuándo usarlas. Rev Mex Pediatría. 2003;70:91-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Danglot</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Vega</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Sinopsis de pruebas estadísticas no paramétricas. Cuándo usarlas</article-title>
+					<source>Rev Mex Pediatría</source>
+					<year>2003</year>
+					<volume>70</volume>
+					<fpage>91</fpage>
+					<lpage>99</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Organización Panamericana de la Salud. La estandarización: un método epidemiológico clásico para la comparación de tasas. Bol Epidemiol. 2002;23:1-5. Fecha de consulta: 15 de julio de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/32740">https://iris.paho.org/handle/10665.2/32740</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Organización Panamericana de la Salud</collab>
+					</person-group>
+					<article-title>La estandarización: un método epidemiológico clásico para la comparación de tasas</article-title>
+					<source>Bol Epidemiol</source>
+					<year>2002</year>
+					<volume>23</volume>
+					<fpage>1</fpage>
+					<lpage>5</lpage>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-07-15">15 de julio de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/32740">https://iris.paho.org/handle/10665.2/32740</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Hosmer D, Lemeshow S. Applied logistic regression. Second edition. New York: John Wiley &amp; Sons; 2000. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/0471722146">https://doi.org/10.1002/0471722146</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hosmer</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lemeshow</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<source>Applied logistic regression</source>
+					<edition>Second</edition>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>John Wiley &amp; Sons</publisher-name>
+					<year>2000</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/0471722146">https://doi.org/10.1002/0471722146</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Kleinbaum DG, Kupper LL, Muller KE, Nizam A. Applied regression analysis and other multivariable methods. Third edition. Washington, D.C.: Duxbury Press; 2013. p. 386-422.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kleinbaum</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Kupper</surname>
+							<given-names>LL</given-names>
+						</name>
+						<name>
+							<surname>Muller</surname>
+							<given-names>KE</given-names>
+						</name>
+						<name>
+							<surname>Nizam</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<source>Applied regression analysis and other multivariable methods</source>
+					<edition>Third</edition>
+					<publisher-loc>Washington, D.C.</publisher-loc>
+					<publisher-name>Duxbury Press</publisher-name>
+					<year>2013</year>
+					<fpage>386</fpage>
+					<lpage>422</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Organización Panamericana de la Salud, Organizaciones Internacionales de las Ciencias Médicas. Pautas éticas internacionales para la investigación relacionadas con seres humanos 2017. Fecha de consulta: 30 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://bit.ly/PautasEticasInternacionalesCioms">https://bit.ly/PautasEticasInternacionalesCioms</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organización Panamericana de la Salud</collab>
+					</person-group>
+					<source>Organizaciones Internacionales de las Ciencias Médicas. Pautas éticas internacionales para la investigación relacionadas con seres humanos 2017</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-30">30 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://bit.ly/PautasEticasInternacionalesCioms">https://bit.ly/PautasEticasInternacionalesCioms</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Posada M, Martín-Arribas C, Ramírez A, Villaverde A, Abaitua I. Enfermedades raras. Concepto, epidemiología y situación actual en España. An Sist Sanit Navar. 2008;31(Supl.2):9-20.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Posada</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Martín-Arribas</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Villaverde</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Abaitua</surname>
+							<given-names>I.</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfermedades raras. Concepto, epidemiología y situación actual en España</article-title>
+					<source>An Sist Sanit Navar</source>
+					<year>2008</year>
+					<volume>31</volume>
+					<supplement>2</supplement>
+					<fpage>9</fpage>
+					<lpage>20</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Comisión Europea Dirección General de Sanidad y Protección de los Consumidores Comisión Europea. Consulta pública. Las enfermedades raras: un desafío para Europa. 2008. Fecha de consulta: 10 de julio de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/health/archive/ph_threats/non_com/docs/raredis_comm_es.pdf">https://ec.europa.eu/health/archive/ph_threats/non_com/docs/raredis_comm_es.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Comisión Europea Dirección General de Sanidad y Protección de los Consumidores Comisión Europea</collab>
+					</person-group>
+					<source>Consulta pública. Las enfermedades raras: un desafío para Europa</source>
+					<year>2008</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-07-10">10 de julio de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/health/archive/ph_threats/non_com/docs/raredis_comm_es.pdf">https://ec.europa.eu/health/archive/ph_threats/non_com/docs/raredis_comm_es.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Instituto Nacional de Salud. Informe de evento enfermedades huérfanas-raras. Perido epidemiológico XIII, Colombia, 2020. Fecha de consulta: 10 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ins.gov.co/buscador-eventos/Paginas/Info-Evento.aspx">https://www.ins.gov.co/buscador-eventos/Paginas/Info-Evento.aspx</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Informe de evento enfermedades huérfanas-raras. Perido epidemiológico XIII, Colombia, 2020</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-10">10 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ins.gov.co/buscador-eventos/Paginas/Info-Evento.aspx">https://www.ins.gov.co/buscador-eventos/Paginas/Info-Evento.aspx</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Liang Y, Kahlenberg JM, Gudjonsson JE. A vestigial pathway for sex differences in immune regulation. Cell Mol Immunol. 2017;14:578-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/cmi.2017.28">https://doi.org/10.1038/cmi.2017.28</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kahlenberg</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Gudjonsson</surname>
+							<given-names>JE.</given-names>
+						</name>
+					</person-group>
+					<article-title>A vestigial pathway for sex differences in immune regulation</article-title>
+					<source>Cell Mol Immunol</source>
+					<year>2017</year>
+					<volume>14</volume>
+					<fpage>578</fpage>
+					<lpage>580</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/cmi.2017.28">https://doi.org/10.1038/cmi.2017.28</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Martínez JC, Misnaza SP. Mortalidad por enfermedades huérfanas en Colombia, 2008- 2013. Biomédica. 2018;38:198-208. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v38i0.3876">https://doi.org/10.7705/biomedica.v38i0.3876</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martínez</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Misnaza</surname>
+							<given-names>SP.</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidad por enfermedades huérfanas en Colombia, 2008- 2013</article-title>
+					<source>Biomédica</source>
+					<year>2018</year>
+					<volume>38</volume>
+					<fpage>198</fpage>
+					<lpage>208</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v38i0.3876">https://doi.org/10.7705/biomedica.v38i0.3876</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>EURORDIS, European Organisation for Rare Diseases. Rare diseases: Understanding this public health priority. 2005. Fecha de consulta: 1° de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.eurordis.org/IMG/pdf/princeps_document-EN.pdf">https://www.eurordis.org/IMG/pdf/princeps_document-EN.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>EURORDIS, European Organisation for Rare Diseases</collab>
+					</person-group>
+					<source>Rare diseases: Understanding this public health priority. 2005</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-01">1° de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.eurordis.org/IMG/pdf/princeps_document-EN.pdf">https://www.eurordis.org/IMG/pdf/princeps_document-EN.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Lugones M, Ramírez M. Enfermedades raras. Rev Cuba Med Gen Integr. 2012;28:340-50.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lugones</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfermedades raras</article-title>
+					<source>Rev Cuba Med Gen Integr</source>
+					<year>2012</year>
+					<volume>28</volume>
+					<fpage>340</fpage>
+					<lpage>350</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>González D. Una visión general sobre las enfermedades raras. Pediatr Integr. 2014;18:550-63.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González</surname>
+							<given-names>D.</given-names>
+						</name>
+					</person-group>
+					<article-title>Una visión general sobre las enfermedades raras</article-title>
+					<source>Pediatr Integr</source>
+					<year>2014</year>
+					<volume>18</volume>
+					<fpage>550</fpage>
+					<lpage>563</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>González E, Gómez LE, Alcedo MA. Enfermedades raras y discapacidad intelectual: evaluación de la calidad de vida de niños y jóvenes. Siglo cero. 2016;47:7-27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14201/scero2016473727">https://doi.org/10.14201/scero2016473727</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Alcedo</surname>
+							<given-names>MA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfermedades raras y discapacidad intelectual: evaluación de la calidad de vida de niños y jóvenes</article-title>
+					<source>Siglo cero</source>
+					<year>2016</year>
+					<volume>47</volume>
+					<fpage>7</fpage>
+					<lpage>27</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14201/scero2016473727">https://doi.org/10.14201/scero2016473727</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Dipierri JE, Acevedo NE, Bromberg RA. Mortalidad infantil por malformaciones congénitas en Chile: análisis temporal y espacial, 1997-2011. Rev Panam Salud Pública. 2015;38:380-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dipierri</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Acevedo</surname>
+							<given-names>NE</given-names>
+						</name>
+						<name>
+							<surname>Bromberg</surname>
+							<given-names>RA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidad infantil por malformaciones congénitas en Chile: análisis temporal y espacial, 1997-2011</article-title>
+					<source>Rev Panam Salud Pública</source>
+					<year>2015</year>
+					<volume>38</volume>
+					<fpage>380</fpage>
+					<lpage>387</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Misnaza SP, Roncancio CP, Peña IC, Prieto FE. Áreas de alta mortalidad perinatal debida a anomalías congénitas: análisis de estadísticas vitales, Colombia, 1999-2008. Biomédica. 2016;36:359-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v36i3.3619">https://doi.org/10.7705/biomedica.v36i3.3619</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Misnaza</surname>
+							<given-names>SP</given-names>
+						</name>
+						<name>
+							<surname>Roncancio</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Peña</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Prieto</surname>
+							<given-names>FE.</given-names>
+						</name>
+					</person-group>
+					<article-title>Áreas de alta mortalidad perinatal debida a anomalías congénitas: análisis de estadísticas vitales, Colombia, 1999-2008</article-title>
+					<source>Biomédica</source>
+					<year>2016</year>
+					<volume>36</volume>
+					<fpage>359</fpage>
+					<lpage>367</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v36i3.3619">https://doi.org/10.7705/biomedica.v36i3.3619</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Gunne E, McGarvey C, Hamilton K, Treacy E, Lambert D, Lynch SA. retrospective review of the contribution of rare diseases to paediatric mortality in Ireland. Orphanet J Rare Dis. 2020;15:1-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13023-020-01574-7">https://doi.org/10.1186/s13023-020-01574-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gunne</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>McGarvey</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Hamilton</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Treacy</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Lambert</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lynch</surname>
+							<given-names>SA.</given-names>
+						</name>
+					</person-group>
+					<article-title>retrospective review of the contribution of rare diseases to paediatric mortality in Ireland</article-title>
+					<source>Orphanet J Rare Dis</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13023-020-01574-7">https://doi.org/10.1186/s13023-020-01574-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>Nishimura Y, Harada K, Koyama T, Hagiya H, Otsuka F. A nationwide trend analysis in the incidence and mortality of Creutzfeldt-Jakob disease in Japan between 2005 and 2014. Sci Rep. 2020;10:15509. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-020-72519-0">https://doi.org/10.1038/s41598-020-72519-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nishimura</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Harada</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Koyama</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Hagiya</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Otsuka</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>A nationwide trend analysis in the incidence and mortality of Creutzfeldt-Jakob disease in Japan between 2005 and 2014</article-title>
+					<source>Sci Rep</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<fpage>15509</fpage>
+					<lpage>15509</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-020-72519-0">https://doi.org/10.1038/s41598-020-72519-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Waldrop M, Flanigan K. Update in Duchenne and Becker muscular dystrophy. Curr Opin Neuro. 2019;32:722-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WCO.0000000000000739">https://doi.org/10.1097/WCO.0000000000000739</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Waldrop</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Flanigan</surname>
+							<given-names>K.</given-names>
+						</name>
+					</person-group>
+					<article-title>Update in Duchenne and Becker muscular dystrophy</article-title>
+					<source>Curr Opin Neuro</source>
+					<year>2019</year>
+					<volume>32</volume>
+					<fpage>722</fpage>
+					<lpage>727</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WCO.0000000000000739">https://doi.org/10.1097/WCO.0000000000000739</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Ramírez J, Moreno M, Mosquera S, Duque S, Holguín J, Camacho A. Primeros dos años de notificación de las enfermedades huérfanas-raras en Cali e identificación de algunas variables asociadas con la mortalidad. Iatreia. 2020;33:111-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.iatreia.37">https://doi.org/10.17533/udea.iatreia.37</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mosquera</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Duque</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Holguín</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Camacho</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>Primeros dos años de notificación de las enfermedades huérfanas-raras en Cali e identificación de algunas variables asociadas con la mortalidad</article-title>
+					<source>Iatreia</source>
+					<year>2020</year>
+					<volume>33</volume>
+					<fpage>111</fpage>
+					<lpage>122</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.iatreia.37">https://doi.org/10.17533/udea.iatreia.37</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Valladares MJ, Valladares D, Bazán S, Mejia C. Enfermedades raras y catastróficas en un hospital del norte peruano: características y factores asociados a la mortalidad. Salud Uninorte. 2017;33:7-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14482/sun.33.1.10124">https://doi.org/10.14482/sun.33.1.10124</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Valladares</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Valladares</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bazán</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mejia</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfermedades raras y catastróficas en un hospital del norte peruano: características y factores asociados a la mortalidad</article-title>
+					<source>Salud Uninorte</source>
+					<year>2017</year>
+					<volume>33</volume>
+					<fpage>7</fpage>
+					<lpage>15</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14482/sun.33.1.10124">https://doi.org/10.14482/sun.33.1.10124</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Servicio de Epidemiología Comunidad de Madrid. Boletín Epidemiológico Informe 2 de 2008. Mortalidad y años de vida potencialmente perdidos por enfermedades raras en la Comunidad de Madrid en el periodo 1999-2003. Fecha de consulta: 5 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.madrid.org/bvirtual/BVCM020032.pdf">http://www.madrid.org/bvirtual/BVCM020032.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Servicio de Epidemiología Comunidad de Madrid</collab>
+					</person-group>
+					<source>Boletín Epidemiológico Informe 2 de 2008. Mortalidad y años de vida potencialmente perdidos por enfermedades raras en la Comunidad de Madrid en el periodo 1999-2003</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-05">5 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.madrid.org/bvirtual/BVCM020032.pdf">http://www.madrid.org/bvirtual/BVCM020032.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Dirección General de Atención Primaria de Madrid. Enfermedades raras en la comunidad de Madrid, 2010-2012. Fecha de consulta: 5 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.informesdesalud.sanidadmadrid.org/docs/ER20102012.pdf">http://www.informesdesalud.sanidadmadrid.org/docs/ER20102012.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Dirección General de Atención Primaria de Madrid</collab>
+					</person-group>
+					<source>Enfermedades raras en la comunidad de Madrid, 2010-2012</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-05">5 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.informesdesalud.sanidadmadrid.org/docs/ER20102012.pdf">http://www.informesdesalud.sanidadmadrid.org/docs/ER20102012.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Comisión interdisciplinaria de trabajo del Senado de la República Propuesta de Plan Nacional de enfermedades raras, huérfanas o poco frecuentes. 2020. Fecha de consulta: 5 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://media.elmostrador.cl/2021/04/PLAN-NACIONALDE-ENFERMEDADES-RARAS-HUERFANAS-O-POCO-FRECUENTES.pdf">https://media.elmostrador.cl/2021/04/PLAN-NACIONALDE-ENFERMEDADES-RARAS-HUERFANAS-O-POCO-FRECUENTES.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Comisión interdisciplinaria de trabajo del Senado de la República</collab>
+					</person-group>
+					<source>Propuesta de Plan Nacional de enfermedades raras, huérfanas o poco frecuentes</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-05">5 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://media.elmostrador.cl/2021/04/PLAN-NACIONALDE-ENFERMEDADES-RARAS-HUERFANAS-O-POCO-FRECUENTES.pdf">https://media.elmostrador.cl/2021/04/PLAN-NACIONALDE-ENFERMEDADES-RARAS-HUERFANAS-O-POCO-FRECUENTES.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>Encina G, Castillo-Laborde C, Lecaros JA, Dubois-Camacho K, Calderón JF, Aguilera X, et al. Rare diseases in Chile: Challenges and recommendations in universal health coverage context. Orphanet J Rare Dis. 2019;14:1-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13023-019-1261-8">https://doi.org/10.1186/s13023-019-1261-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Encina</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Castillo-Laborde</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lecaros</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Dubois-Camacho</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Calderón</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Aguilera</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rare diseases in Chile: Challenges and recommendations in universal health coverage context</article-title>
+					<source>Orphanet J Rare Dis</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13023-019-1261-8">https://doi.org/10.1186/s13023-019-1261-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Gorini F, Coi A, Mezzasalma L, Baldacci S, Pierini A, Santoro M. Survival of patients with rare diseases: A population‑based study in Tuscany (Italy). Orphanet J Rare Dis. 2021;16:1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13023-021-01907-0">https://doi.org/10.1186/s13023-021-01907-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gorini</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Coi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mezzasalma</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Baldacci</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Pierini</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Santoro</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Survival of patients with rare diseases: A population‑based study in Tuscany (Italy)</article-title>
+					<source>Orphanet J Rare Dis</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13023-021-01907-0">https://doi.org/10.1186/s13023-021-01907-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Unicef, World Health Organisation, World Bank, Nations Group and United Nations. Levels and trends in child mortality, estimates developed by the United Nations Inter-agency Group for Child Mortality Estimation Report 2020. Fecha de consulta: 13 de agosto de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd_2020_levels-and-trends-in-child-mortality-igme-.pdf">https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd_2020_levels-and-trends-in-child-mortality-igme-.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Unicef, World Health Organisation, World Bank, Nations Group and United Nations</collab>
+					</person-group>
+					<source>Levels and trends in child mortality, estimates developed by the United Nations Inter-agency Group for Child Mortality Estimation Report 2020</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-13">13 de agosto de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd_2020_levels-and-trends-in-child-mortality-igme-.pdf">https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd_2020_levels-and-trends-in-child-mortality-igme-.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Wright CF, Fitzpatrick DR, Firth HV. Paediatric genomics: Diagnosing rare disease in children. Nat Rev Genet. 2018;19:253-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrg.2017.116">https://doi.org/10.1038/nrg.2017.116</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wright</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Fitzpatrick</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Firth</surname>
+							<given-names>HV.</given-names>
+						</name>
+					</person-group>
+					<article-title>Paediatric genomics: Diagnosing rare disease in children</article-title>
+					<source>Nat Rev Genet</source>
+					<year>2018</year>
+					<volume>19</volume>
+					<fpage>253</fpage>
+					<lpage>268</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrg.2017.116">https://doi.org/10.1038/nrg.2017.116</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Avila JA, Martínez JC. Caracterización y factores asociados a la mortalidad debida a enfermedades huérfanas en Chile, 2002-2017.Biomédica. 2022;42:508-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6281">https://doi.org/10.7705/biomedica.6281</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Jahir Andrés Avila:</label>
+				<p> solicitud de la información ante la entidad correspondiente.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<p>No se recibió financiación para la elaboración de este artículo.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

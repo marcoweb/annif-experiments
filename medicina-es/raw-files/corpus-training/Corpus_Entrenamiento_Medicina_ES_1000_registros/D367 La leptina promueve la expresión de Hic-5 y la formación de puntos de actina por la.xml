@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.4313</article-id>
+			<article-id pub-id-type="publisher-id">00012</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>La leptina promueve la expresión de Hic-5 y la formación de puntos de actina por la vía dependiente de FAK-Src en células epiteliales mamarias MCF10A</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Leptin induced Hic-5 expression and actin puncta formation by the FAK/Src-dependent pathway in MCF10A mammary epithelial cells</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Isaías-Tizapa</surname>
+						<given-names>Raúl</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Acosta</surname>
+						<given-names>Erika</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Tacuba-Saavedra</surname>
+						<given-names>Arvey</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1c"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Mendoza-Catalán</surname>
+						<given-names>Miguel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1d"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Navarro-Tito</surname>
+						<given-names>Napoleón</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1e"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Facultad de Ciencias Químico-Biológicas, Universidad Autónoma de Guerrero, Chilpancingo de los Bravo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma de Guerrero</institution>
+					<institution content-type="orgdiv1">Facultad de Ciencias Químico-Biológicas</institution>
+					<institution content-type="orgname">Universidad Autónoma de Guerrero</institution>
+					<addr-line>
+						<named-content content-type="city">Chilpancingo de los Bravo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+				</aff>
+				<aff id="aff1b">
+					<label>1</label>
+					<institution content-type="original">Facultad de Ciencias Químico-Biológicas, Universidad Autónoma de Guerrero, Chilpancingo de los Bravo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma de Guerrero</institution>
+					<institution content-type="orgdiv1">Facultad de Ciencias Químico-Biológicas</institution>
+					<institution content-type="orgname">Universidad Autónoma de Guerrero</institution>
+					<addr-line>
+						<named-content content-type="city">Chilpancingo de los Bravo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+				</aff>
+				<aff id="aff1c">
+					<label>1</label>
+					<institution content-type="original">Facultad de Ciencias Químico-Biológicas, Universidad Autónoma de Guerrero, Chilpancingo de los Bravo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma de Guerrero</institution>
+					<institution content-type="orgdiv1">Facultad de Ciencias Químico-Biológicas</institution>
+					<institution content-type="orgname">Universidad Autónoma de Guerrero</institution>
+					<addr-line>
+						<named-content content-type="city">Chilpancingo de los Bravo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+				</aff>
+				<aff id="aff1d">
+					<label>1</label>
+					<institution content-type="original">Facultad de Ciencias Químico-Biológicas, Universidad Autónoma de Guerrero, Chilpancingo de los Bravo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma de Guerrero</institution>
+					<institution content-type="orgdiv1">Facultad de Ciencias Químico-Biológicas</institution>
+					<institution content-type="orgname">Universidad Autónoma de Guerrero</institution>
+					<addr-line>
+						<named-content content-type="city">Chilpancingo de los Bravo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+				</aff>
+				<aff id="aff1e">
+					<label>1</label>
+					<institution content-type="original">Facultad de Ciencias Químico-Biológicas, Universidad Autónoma de Guerrero, Chilpancingo de los Bravo, México</institution>
+					<institution content-type="normalized">Universidad Autónoma de Guerrero</institution>
+					<institution content-type="orgdiv1">Facultad de Ciencias Químico-Biológicas</institution>
+					<institution content-type="orgname">Universidad Autónoma de Guerrero</institution>
+					<addr-line>
+						<named-content content-type="city">Chilpancingo de los Bravo</named-content>
+					</addr-line>
+					<country country="MX">Mexico</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Napoleón Navarro-Tito, Laboratorio de Biología Celular del Cáncer, Facultad de Ciencias Químico- Biológicas, Universidad Autónoma de Guerrero, Avenida Lázaro Cárdenas s/n, Chilpancingo, Guerrero, 39090, México Teléfono: (747) 472 5503; fax: (747) 472 5503</corresp>
+				<fn fn-type="equal" id="fn2">
+					<label>Contribución de los autores:</label>
+					<p> Raúl Isaías-Tizapa, Erika Acosta y Arvey Tacuba- Saavedra: experimentos, análisis de resultados y escritura del manuscrito Miguel Mendoza-Catalán: análisis e interpretación de resultados y escritura del manuscrito Napoleón Navarro-Tito: concepción del estudio y escritura del manuscrito</p>
+				</fn>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declaran que durante este trabajo no tuvieron conflicto de intereses alguno.</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jul-Sep</season>
+				<year>2019</year>
+			</pub-date>
+			<volume>39</volume>
+			<issue>3</issue>
+			<fpage>547</fpage>
+			<lpage>560</lpage>
+			<history>
+				<date date-type="received">
+					<day>13</day>
+					<month>02</month>
+					<year>2018</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>01</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción</title>
+					<p>La leptina es una hormona secretada por los adipocitos que se ha relacionado con el proceso de la transición de epitelio a mesénquima (<italic>Epithelial- Mesenchymal Transition</italic>, EMT). Promueve la migración e invasión de las células del epitelio mamario mediante la activación de las cinasas FAK y Src, un complejo regulador de vías de señalización que favorecen la expresión de las proteínas relacionadas con la formación de estructuras proteolíticas implicadas en la invasión y progresión del cáncer. Recientemente, se ha descrito que la sobreexpresión y activación de la proteína Hic-5 durante el mencionado proceso de transición, favorece la formación de los puntos de actina (indicativa de la formación y funcionalidad de los invadopodios), lo cual promueve la degradación local de los componentes de la matriz extracelular y la metástasis del cáncer.</p>
+				</sec>
+				<sec>
+					<title>Objetivos</title>
+					<p>Evaluar el papel de las cinasas FAK y Src sobre la expresión y localización subcelular de Hic-5 y la formación de puntos de actina inducida por la leptina en la línea celular MCF10A de epitelio mamario no tumoral.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos</title>
+					<p>Se utilizaron los inhibidores específicos de la FAK (PF-573228) y la Src (PP2) para evaluar el papel de ambas cinasas en los niveles de expresión y localización subcelular de la proteína Hic-5 mediante <italic>Western blot</italic> e inmunofluorescencia, así como la formación de puntos de actina mediante la tinción con faloidina-TRITC en células MCF10A estimuladas con leptina.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>La leptina indujo el incremento en la expresión de Hic-5 y la formación de puntos de actina. El tratamiento previo con los inhibidores de las cinasas FAK (PF-573228) y Src (PP2), promovió la disminución en la expresión de Hic-5 y de los puntos de actina en la línea celular MCF10A de epitelio mamario no tumoral.</p>
+				</sec>
+				<sec>
+					<title>Conclusión</title>
+					<p>La leptina indujo la expresión y la localización perinuclear de Hic-5 y la formación de puntos de actina mediante un mecanismo dependiente de la actividad de las cinasas FAK y Src en las células MCF10A.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p>Leptin is a hormone secreted by adipocytes that has been associated with the epithelial-mesenchymal transition (EMT). Additionally, leptin promotes the migration and invasion of mammary epithelial cells through the activation of FAK and Src kinases, which are part of a regulatory complex of signaling pathways that promotes the expression of proteins related to the formation of proteolytic structures involved in the invasion and progression of cancer. Recently, overexpression and activation of Hic-5 during the EMT have been shown to induce the formation of actin puncta; these structures are indicative of the formation and functionality of invadopodia, which promote the local degradation of extracellular matrix components and cancer metastasis.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p>To evaluate the role of FAK and Src kinases in the expression of Hic-5 during the epithelial-mesenchymal transition induced by leptin in MCF10A cells.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p>We used specific inhibitors of FAK (PF-573228) and Src (PP2) to evaluate Hic-5 expression and subcellular localization by Western blot and immunofluorescence assays and to investigate the formation of actin puncta by epifluorescence in MCF10A cells stimulated with leptin.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>Leptin induced an increase in Hic-5 expression and the formation of actin puncta. Pretreatment with inhibitors of FAK (PF-573228) and Src (PP2) promoted a decrease in Hic-5 expression and actin puncta formation in the non-tumorigenic mammary epithelial cell line MCF10A.</p>
+				</sec>
+				<sec>
+					<title>Conclusion:</title>
+					<p>In MCF10A cells, leptin-induced Hic-5 expression and perinuclear localization, as well as the formation of actin puncta through a mechanism dependent on the kinase activity of FAK and Src.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>leptina</kwd>
+				<kwd>neoplasias</kwd>
+				<kwd>metástasis de la neoplasia</kwd>
+				<kwd>actinas</kwd>
+				<kwd>transición de epitelio a mesénquima</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Leptin</kwd>
+				<kwd>neoplasms</kwd>
+				<kwd>neoplasm metastasis</kwd>
+				<kwd>actins</kwd>
+				<kwd>epithelial-mesenchymal transition</kwd>
+			</kwd-group>
+			 <funding-group>
+            <award-group>
+                <funding-source>SEP/Conacyt</funding-source>
+                <award-id> CB-2014-01-239870</award-id>
+            </award-group>
+            <funding-statement>El presente trabajo fue financiado por el proyecto SEP/Conacyt, clave CB-2014-01-239870</funding-statement>
+        </funding-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="47"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La leptina es una hormona codificada por el gen <italic>LEP</italic> en humanos y es secretada en la placenta y los ovarios. Su función primordial en el tejido adiposo es regular la saciedad y el gasto energético, actuando directamente en el hipotálamo <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Los niveles séricos de leptina en personas con peso normal (índice de masa corporal, IMC, de 18,5 a 24,9 kg/m2) se encuentran en un rango entre 5 y 50 ng/ml, en tanto que, en personas obesas, los niveles superan los 100 ng/ml <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>La leptina está implicada en la regulación de procesos fisiológicos y, recientemente, se la ha asociado con la progresión tumoral del cáncer de mama, la cual se caracteriza por la proliferación acelerada y descontrolada de las células del epitelio glandular mamario <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Este tipo de cáncer es el más común entre las mujeres a nivel mundial. En Latinoamérica, la tasa de incidencia del cáncer de mama es de 100.000 casos anuales, aproximadamente, siendo la causa de muerte más importante por tumores malignos en las mujeres, incluso, más que el cáncer de cuello uterino, con una tasa de mortalidad del 18 % del total de las defunciones por tumores malignos y del 3 % del total de las muertes en mujeres <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>Yuan, <italic>et al.,</italic> han reportado que la leptina indujo la proliferación y la migración de la línea celular MCF-7 de cáncer mamario y han sugerido que es una hormona capaz de inducir cambios en la proliferación, la supervivencia y el crecimiento, y que promueve la invasión y la metástasis de las células tumorales <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. Por otra parte, estos autores describieron cómo el tratamiento con leptina en líneas celulares de cáncer de mama indujo el proceso de transición de epitelio a mesénquima (<italic>Epithelial-Mesenchymal Transition</italic>, EMT), proceso biológico relacionado con la progresión tumoral, y con un fenotipo invasivo y metastásico <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>La transición de epitelio a mesénquima ocurre cuando las células epiteliales pierden su polaridad apical-basolateral, presentan una disminución en las uniones adherentes entre las células y entre estas y la matriz extracelular (transición e epitelio a mesénquima), adquiriendo características mesenquimatosas, entre estas, una morfología similar a los fibroblastos, resistencia a la apoptosis y mayor capacidad migratoria e invasiva <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+		<p>A nivel molecular, se ha registrado disminución en la expresión de los marcadores epiteliales, como las proteínas cadherina-E, citoqueratinas y ocludinas, así como aumento en la expresión de marcadores mesenquimatosos como cadherina-N, vimentina y fibronectina.</p>
+		<p>Inicialmente, la transición de epitelio a mesénquima se asoció con procesos no patológicos, como la embriogénesis y la regeneración de tejidos; sin embargo, también puede ocurrir en eventos patológicos como la progresión tumoral <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Se han descrito diversos inductores de dicha transición, entre ellos, el factor transformador de crecimiento β (<italic>Transforming Growth Factor</italic>, TGF-β), el factor de crecimiento epidérmico (<italic>Epidermal Growth Factor</italic>, EGF) y factores de transcripción como el Snail, el Slug y el Twist; recientemente, la leptina también se ha asociado como inductora de este programa <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+		<p>Se ha establecido que la leptina ejerce su acción biológica mediante la unión a su receptor ObR, al promover la activación de diversas vías de señalización, como la vía PI-3K/Akt, que se asocia con el crecimiento y la supervivencia celular; la vía JAK/STAT3, que participa en la transcripción del gen del factor de crecimiento del endotelio vascular (<italic>Vascular Endothelial Growth Factor</italic>, VEGF) favorecedor de la angiogénesis; la vía MAPK (<italic>Mitogen-Activated Protein Kinase</italic>), que promueve la proliferación celular mediante la inactivación del inhibidor del ciclo celular pRb, y la vía PI-3K/Rac, la cual está implicada en la migración e invasión celular y, en consecuencia, en la progresión del cáncer <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		<p>Uno de los eventos asociados con la invasión celular es la formación de ‘invadopodios’, pequeñas protuberancias ricas en actina F organizadas en forma de puntos, las cuales se localizan en el frente invasivo de las células tumorales que degradan los componentes de la matriz extracelular de manera local. La formación de invadopodios se caracteriza por el reclutamiento y la activación de múltiples proteínas que regulan la polimerización de la actina, como la N-WASP, la Arp 2/3 y la cortactina, proteínas de señalización como la FAK y la Src, y proteínas adaptadoras, como la Hic-5, que tiene un peso molecular de 55 kDa y es codificada por el gen <italic>TGFB1I1</italic>.</p>
+		<p>En los estudios recientes se ha evidenciado la sobreexpresión y la activación de la Hic-5 durante la formación de los puntos de actina como parte de la formación de los invadopodios <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. La Hic-5 está constituida por un dominio N-terminal que contiene cuatro regiones ricas en leucina y aspartato (LD 1-4), y el dominio C-terminal, con cuatro regiones ricas en cisteína (LIM 1-4) <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Los dominios LD y LIM regulan la interacción entre proteínas con diversas moléculas de señalización, como la FAK, promoviendo la formación de las adhesiones focales <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+		<p>La FAK es una cinasa de tirosina con un peso molecular de 125 kDa que se activa mediante interacciones con las integrinas, los receptores de cinasa de tirosina, los receptores de citocinas y los receptores acoplados a proteínas G <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. La activación de la FAK se inicia con la autofosforilación en la tirosina 397, creando un sitio de unión para el dominio SH2 de la cinasa Src al promover su autofosforilación en la tirosina 419 y, en consecuencia, su activación.</p>
+		<p>La interacción entre la FAK y la Src permite que esta última fosforile las tirosinas 576 y 577 localizadas en el dominio cinasa de la FAK y promueva su máxima actividad catalítica. El complejo de cinasas FAK-Src regula importantes procesos celulares, como la adhesión, la motilidad, la proliferación y la supervivencia celular <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+		<p>Recientemente, se ha reportado en modelos <italic>in vitro</italic> que la sobreexpresión, la localización subcelular y la activación de la proteína Hic-5 dependen de la actividad de las cinasas FAK y Src. Este evento es necesario para la formación y la funcionalidad de los invadopodios, los cuales están asociados con procesos invasivos durante la transición de epitelio a mesénquima inducida por el TGF-β en las células MCF10A <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+		<p>En un estudio anterior, se reportó que la leptina inducía la activación de las cinasas FAK y Src en células MFC10A y en células cancerosas mamarias (Juárez-Cruz JC, García-Rodríguez E, Castañeda-Saucedo E, Mendoza- Catalán MA, Villegas S, <italic>et al.</italic> Leptin induces cell migration, gelatinases secretion and invasion in a FAK-Src dependent pathway in breast cancer cell. 2018. En prensa) <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Sin embargo, no se ha estudiado la asociación existente entre la actividad de las cinasas FAK y Src y la expresión y la localización subcelular de la Hic-5 y la participación de esta en la formación de puntos de actina durante la transición de epitelio a mesénquima inducida por la leptina en células MCF10A del epitelio mamario no tumoral.</p>
+		<p>En este trabajo se evaluaron el efecto directo de la leptina y el papel de las cinasas FAK y Src sobre los niveles de expresión de la Hic-5 y la formación de estructuras de invasión local en células epiteliales mamarias MCF10A no tumorales.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title>Anticuerpos y reactivos</title>
+				<p>La leptina recombinante humana, el EGF, la hidrocortisona, el medio DMEM/F12, el Fluoroshield/DAPI™, los inhibidores de FAK (PF-573228) y el inhibidor de Src (PP2), se obtuvieron de Sigma-Aldrich (Saint Louis, MO, USA). Los anticuerpos primarios anti-Hic-5, anti-actina β y los anticuerpos secundarios antirratón y anticonejo, se obtuvieron de Santa Cruz Biotechnology, Inc. (Santa Cruz, CA). El anticuerpo secundario Alexa Flour 488™ se obtuvo de Molecular Probes by Life Technologies (Eugene, Oregon, USA), la faloidina-TRITC™, de Thermo Fisher (Waltham, MA), el anticuerpo anti-GAPDH™, de Cell Signaling Technology (Danvers, MA), la insulina, de Humulin, y el suero fetal bovino (SFB), de By Productos (Guadalajara, MX).</p>
+			</sec>
+			<sec>
+				<title>Cultivo celular</title>
+				<p>Las líneas celulares MCF10A y MDA-MB-231 se obtuvieron de la <italic>American Type Culture Collection</italic>, ATCC. La línea celular MCF10A derivada de epitelio mamario no tumoral, se cultivó en medio DMEM/ F12 con suplemento de 10 % de SFB, 10 µg/ml de insulina, 0,5 µg/ml de hidrocortisona, 20 ng/ml de EGF y 1 % de antibióticos (penicilina G y estreptomicina), en una atmósfera humidificada con 5 % de CO2 a temperatura constante de 37 °C.</p>
+				<p>Para los fines experimentales, en los cultivos confluentes se suprimieron el SFB y los utilizados durante cuatro horas antes del tratamiento con leptina y con los suplementos químicos de la FAK y la Src. La línea celular MDA- MB-231 se sembró en cubreobjetos y se mantuvo con medio DMEM/F12 y suero fetal bovino al 5 % hasta el momento de la inmunofluorescencia.</p>
+			</sec>
+			<sec>
+				<title>Protocolo de estimulación</title>
+				<p>Para la técnica de inmunofluorescencia, los cultivos celulares se sembraron sobre cubreobjetos en placas de 24 pozos hasta adquirir el 60 % de confluencia y, para la técnica <italic>Western blot</italic>, los cultivos se mantuvieron en cajas de 60 mm hasta adquirir una confluencia del 80 al 90 %. En los cultivos celulares se suprimió el SFB con medio basal (DMEM/F12) durante cuatro horas y luego se trataron con los inhibidores selectivos de la FAK (PF-573228, 10 µM) y de la Src (PP2, 10 µM), ambos disueltos en DMSO, 30 minutos antes del estímulo durante 24 horas con leptina (400 ng/ml); la estimulación celular se concluyó con la remoción del medio. Los controles se trataron con el vehículo de leptina (Tris-HCl, pH 7,4).</p>
+				<p>Para los ensayos de formación de puntos de actina, se hizo la supresión en los cultivos confluentes y, luego, se estimularon y se cosecharon; posteriormente, las células se sembraron durante seis horas en cubreobjetos recubiertos con una matriz de gelatina bovina. Todos los experimentos se hicieron por triplicado y en momentos independientes.</p>
+			</sec>
+			<sec>
+				<title>Western blot</title>
+				<p>Para la extracción de las proteínas totales, las células se diluyeron en 0,5 ml de solución tampón RIPA, con 50 mM de HEPES (Sigma-Aldrich), pH 7,4, 150 mM de NaCl, 1 mM de ácido egtázico (EGTA, Sigma-Aldrich), 1 mM de ortovanadato de sodio, 100 mM de NaF, 10 mM de pirofosfato de sodio, 10 % de glicerol, 1 % de tritón X-100, 1 % de deoxicolato de sodio, 1,5 Mm de MgCl2, 0,1 % de dodecilsulfato sódico (SDS), y 1 mM de fluoruro de fenilmetilsulfonilo (PMSF).</p>
+				<p>Se colocaron 20 µg de proteínas totales de cada condición y se separaron mediante electroforesis en gel de poliacrilamida con dodecil sulfato de sodio (<italic>Sodium Dodecyl Sulfate Polyacrylamide Gel Electrophoresis,</italic> SDS-PAGE) para, después, transferirlas a una membrana de nitrocelulosa.</p>
+				<p>La expresión de la proteína Hic-5 se determinó incubando la membrana con el anticuerpo primario anti-Hic-5 (dilución 1:500) y usando como controles de carga la actina β (dilución de 1:1000), incubada durante toda la noche a 4 °C, y la gliceraldehído-3-fosfato deshidrogenasa (GAPDH) en dilución de 1:500, durante cuatro horas a temperatura ambiente. Terminado el tiempo de incubación, las membranas se lavaron y se incubaron con el anticuerpo secundario anticonejo y antirratón durante dos horas a temperatura ambiente.</p>
+				<p>Por último, la inmunodetección se hizo con el kit Immun-Star WesternC™ (BIO-RAD) y placas autorradiográficas. La intensidad relativa se determinó mediante un análisis densitométrico de las bandas con el programa Image J, versión 1,44p.</p>
+			</sec>
+			<sec>
+				<title>Inmunofluorescencia</title>
+				<p>Los cubreobjetos se dejaron toda la noche en ácido sulfúrico al 20 %; después, se esterilizaron con etanol al 96 % por dos horas. Posteriormente, los cultivos de las células MCF10A se sembraron sobre los cubreobjetos durante 48 horas hasta alcanzar una confluencia del 60 % y, enseguida, se aplicó el protocolo de estimulación durante 24 horas con las diferentes condiciones experimentales.</p>
+				<p>Al finalizar el tratamiento de las células MCF10A y las células MDA- MB-231 de cáncer de mama sin tratar, estas se fijaron y permeabilizaron con formaldehído al 4 % y tritón X-100 al 0,5 % en PBS y se bloquearon con albúmina de suero bovino (<italic>Bovine Serum Albumin,</italic> BSA) al 3 %. Se incubaron con el anticuerpo primario anti-Hic-5 en una dilución de 1:100 durante dos horas a temperatura ambiente y el anticuerpo secundario antirratón marcado con Alexa Fluor 488™ en una dilución de 1:400 durante 30 minutos a 37 oC, se montaron en los cubreobjetos en Fluoroshield™/DAPI y, por último, se observaron bajo el microscopio de epifluorescencia Olympus BX43™ con el objetivo de 100X.</p>
+				<p><bold>Ensayo de formación de puntos de actina</bold></p>
+				<p>Los cultivos confluentes fueron estimulados bajo las condiciones experimentales descritas en el protocolo de estimulación; al terminar, se cosecharon, se sembraron durante seis horas sobre una matriz de gelatina bovina no fluorescente. A las 6 horas, las células se fijaron y permeabilizaron con formaldehído al 4 % y tritón X-100 al 0,5 % en PBS, y se bloquearon con BSA al 3 %. Se incubaron con faloidina-TRITC 1:500 durante 30 minutos a 37 oC, se montaron en los cubreobjetos en Fluoroshield™/DAPI y, finalmente, se observaron bajo el microscopio de epifluorescencia Olympus BX43™ utilizando el objetivo de 100X.</p>
+			</sec>
+			<sec>
+				<title>Análisis estadístico</title>
+				<p>Los datos se examinaron mediante la prueba t de Student y el análisis de varianza (ANOVA) de una vía con la prueba de comparación múltiple de Newman-Keuls, y los resultados se expresaron como media ± desviación estándar (DE), tomando como estadísticamente significativo un valor de p&lt;0,05. Por último, los resultados de los ensayos se graficaron con el programa estadístico GraphPad Prism 5,0.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p><bold>La leptina promovió la expresión de la Hic-5 en la línea celular MCF10A<italic>.</italic>
+</bold> </p>
+			<p>Para determinar el efecto de la leptina en la expresión de la proteína Hic- 5, se utilizó la prueba <italic>Western blot</italic> a partir de los extractos de proteínas de cultivos de células MCF10A estimuladas con 400 ng/ml de leptina durante 24 horas, y se utilizó como control el vehículo de leptina (Tris-HCl).</p>
+			<p>
+				<inline-graphic xlink:href="0120-4157-bio-39-03-00547-i002.gif"/>Los resultados demostraron que la leptina indujo un incremento de la expresión de la Hic-5 en la línea celular MCF10A de epitelio mamario no tumoral, comparada con el control (<xref ref-type="fig" rid="f1">figura 1</xref> A y B). La localización subcelular de la Hic-5 se evaluó mediante inmunofluorescencia, y se observó una mayor expresión y distribución perinuclear de la Hic-5 en los cultivos estimulados con leptina que en las células no estimuladas. Como control positivo de la expresión de la Hic-5, se emplearon cultivos de células MDA-MB-231 de cáncer mamario (<xref ref-type="fig" rid="f1">figura 1</xref>C).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Expresión y localización subcelular de la proteína Hic-5 en cultivos de la línea celular MCF10A estimulados con 400 ng/ml de leptina durante 24 horas. <bold>A)</bold> 
+ <italic>Western blot</italic> de la expresión de la Hic-5, se utilizaron anticuerpos anti-actina β y GAPDH como controles de carga. <bold>B)</bold> Gráfica correspondiente al análisis densitométrico y estadístico mediante la prueba t de Student. <bold>C)</bold> Localización subcelular de la Hic-5 por inmunofluorescencia; la línea celular MDA-MB-231 se utilizó como control positivo de la expresión de la Hic-5. Las imágenes fueron procesadas empleando el programa Image J y son representativas de un experimento realizado por triplicado de manera independiente. </title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-39-03-00547-gf1.gif"/>
+				</fig>
+			</p>
+			<sec>
+				<title>La leptina indujo la expresión de la Hic-5 mediante la actividad cinasa de la FAK en la línea celular MCF10A.</title>
+				<p>Para determinar si la leptina inducía la expresión de la proteína Hic- 5 mediante la actividad cinasa de la FAK en la línea celular MCF10A, los cultivos celulares se sometieron a supresión con medio basal durante cuatro horas y se trataron con el inhibidor de la FAK (PF-573228) 30 minutos antes de estimularlos con 400 ng/ml de leptina durante 24 horas.</p>
+				<p>Se extrajeron las proteínas totales y se hicieron las pruebas <italic>Western blot</italic> utilizando un anticuerpo específico para la Hic-5. En este modelo experimental, los resultados mostraron una mayor expresión de la Hic-5 con leptina comparada con el control; sin embargo, al agregar el tratamiento previo con el inhibidor de FAK más leptina, la expresión de la Hic-5 disminuyó, comparada con la leptina sola (<xref ref-type="fig" rid="f2">figura 2</xref> A, B).</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>La leptina indujo la expresión y la localización subcelular de la proteína Hic-5 dependiente de la actividad de la cinasa FAK en la línea celular MCF10A. Los cultivos celulares se estimularon con 400 ng/ml de leptina durante 24 horas, y se empleó el inhibidor de la cinasa FAK (PF-573228). Condiciones experimentales: control, leptina, leptina + PF y PF-573228. <bold>A)</bold> 
+ <italic>
+ <bold>
+ <italic>Western blot</italic> 
+</bold> 
+</italic> de la expresión de la Hic-5, actina β y GAPDH como controles de carga. <bold>B)</bold> Gráfica correspondiente al análisis densitométrico y estadístico mediante ANOVA de una vía, empleando una prueba de comparación múltiple de Newman-Keuls. Significación estadística: *p&lt;0,05. <bold>C)</bold> Localización subcelular de la Hic-5 por inmunofluorescencia. Las imágenes se procesaron empleando el programa Image J y son representativas de un experimento realizado por triplicado de manera independiente.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-03-00547-gf2.jpg"/>
+					</fig>
+				</p>
+				<p>Además, en este estudio se observó una mayor expresión y localización perinuclear de la Hic-5 bajo el estímulo con leptina que con el control. Sin embargo, con el inhibidor de la FAK y el estímulo con leptina, la expresión de la Hic-5 disminuyó en comparación con el estímulo de la leptina únicamente (<xref ref-type="fig" rid="f2">figura 2</xref> C). Estos resultados reflejan que la expresión y la localización perinuclear de la Hic-5 ocurren mediante un mecanismo que depende de la actividad cinasa de la FAK.</p>
+			</sec>
+			<sec>
+				<title>La leptina indujo la expresión de la Hic-5 mediante la actividad cinasa de la Src en la línea celular MCF10A.</title>
+				<p>En cuanto al papel de la cinasa Src en la expresión y localización celular de la Hic-5, se observó un incremento en la expresión de esta proteína al emplear leptina comparada con el control; sin embargo, al agregar el tratamiento previo con el inhibidor de la Src y el estímulo con leptina, la expresión de la Hic-5 disminuyó en comparación con el estímulo de leptina únicamente (<xref ref-type="fig" rid="f3">figura 3</xref>A, B).</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>La leptina indujo la expresión y la localización subcelular de la proteína Hic-5 dependiente de la actividad de la cinasa Src en la línea celular MCF10A. Los cultivos celulares se estimularon con 400 ng/ml de leptina durante 24 horas, y se empleó el inhibidor de la cinasa Src (PP2). Condiciones experimentales: control, leptina, leptina+PP2 y PP2. <bold>A)</bold> 
+ <italic>Western blot</italic> de la expresión de Hic-5, actina β y GAPDH como controles de carga. <bold>B)</bold> Gráfica correspondiente al análisis densitométrico y estadístico mediante ANOVA de una vía, empleando una prueba de comparación múltiple de Newman-Keuls. Significación estadística: *p&lt;0,05. <bold>C)</bold> Localización subcelular de la Hic-5 por inmunofluorescencia. Las imágenes se procesaron empleando el programa Image J y son representativas de un experimento realizado por triplicado de manera independiente.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-03-00547-gf3.jpg"/>
+					</fig>
+				</p>
+				<p>Tanto en la condición con el inhibidor de la FAK como con el de la Src, con y sin tratamiento con leptina, la expresión y la localización perinuclear de la Hic-5 disminuyeron comparadas con el estímulo con leptina (<xref ref-type="fig" rid="f3">figura 3</xref>C), lo cual sugiere que Hic-5 se produce mediante un mecanismo que depende de la actividad de cinasa de Src y de FAK.</p>
+			</sec>
+			<sec>
+				<title>La leptina indujo la formación de puntos de actina de manera dependiente de la actividad cinasa de la FAK y la Src en la línea celular MCF10A.</title>
+				<p>Para determinar si la leptina promovía la formación de puntos de actina en la línea celular MCF10A, los cultivos celulares se estimularon con 400 ng/ml de leptina durante 24 horas, y posteriormente, se cosecharon y sembraron en una matriz de gelatina bovina no fluorescente durante seis horas, con lo que se observaron estructuras densas de F-actina en forma de puntos, sugestivas de la formación de invadopodios como reacción a la estimulación con leptina.</p>
+				<p>El efecto de la actividad de las cinasas FAK y Src se evaluó mediante cultivos tratados previamente con los inhibidores de la FAK (PF-573228) y la Src (PP2) y posteriormente estimulados con 400 ng/ml de leptina durante 24 horas.</p>
+				<p>Los datos obtenidos evidenciaron que la formación de puntos de actina como reacción a la leptina fue dependiente de la actividad de las cinasas FAK y Src (<xref ref-type="fig" rid="f4">figura 4</xref>). Llamó la atención la formación de fibras de estrés en las células estimuladas con leptina, en comparación con las células estimuladas con el vehículo de leptina. Además, se observó la disminución de estas fibras en presencia de los inhibidores de las cinasas FAK y Src (<xref ref-type="fig" rid="f4">figura 4</xref>).</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>La leptina indujo la formación de puntos de actina dependiente de la actividad de las cinasas FAK y Src en la línea celular MCF10A. Los cultivos celulares se estimularon con 400 ng/ml de leptina durante 24 horas, y se emplearon los inhibidores de las cinasas FAK (PF-573228) y Src (PP2). Condiciones experimentales: control, leptina, PF-573228+leptina, PF-573228, PP2+leptina, PP2. Las células se sembraron sobre una matriz de gelatina bovina para el ensayo de fluorescencia de detección de la actina. Los acercamientos corresponden a los puntos de actina formados como reacción a la leptina. Las imágenes se procesaron empleando el programa Image J y son representativas de un experimento realizado por triplicado de manera independiente.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-03-00547-gf4.jpg"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En diversos estudios clínicos y epidemiológicos, se ha determinado que las altas concentraciones de leptina en el suero se relacionan con un mayor riesgo de desarrollar cáncer de mama en mujeres antes y después de la menopausia <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+			<p>Los datos publicados por Garofalo, <italic>et al.,</italic> demostraron que tanto la leptina como su receptor ObR se encuentran sobreexpresados en el 83 % de los tumores de cáncer mamario en estadio primario y metastásico, comparados con tejido no canceroso <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. En modelos <italic>in vitro</italic> se ha descrito que la leptina actúa como inductor del proceso de la transición de epitelio a mesénquima y la activación de las cinasas FAK y Src (Juárez-Cruz JC, García-Rodríguez E, Castañeda-Saucedo E, Mendoza-Catalán MA, Villegas S, <italic>et al</italic>. Leptin induces cell migration, gelatinases secretion and invasion in a FAK-Src dependent pathway in breast cancer cell. 2018. En prensa) <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Pignatelli, <italic>et al.,</italic> demostraron que la actividad de estas cinasas promueve la activación de la Hic-5, una proteína adaptadora que participa en las adhesiones focales y que en los últimos años se ha asociado con la progresión tumoral <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>En el presente estudio se observó que la leptina promovió la expresión y la localización perinuclear de la Hic-5 en células MCF10A del epitelio mamario no tumoral (<xref ref-type="fig" rid="f1">figura 1</xref>). En este sentido, en estudios de pacientes con cáncer de ovario e hígado, se ha establecido que la Hic-5 se encuentra sobreexpresada en el tejido canceroso en comparación con el tejido sano; además, en líneas celulares de cáncer de mama se ha reportado la sobreexpresión de esta proteína y se ha asociado con procesos que favorecen la progresión del cáncer <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>Los datos publicados por Sheta, <italic>et al.,</italic> demostraron que la Hic-5 regulaba la transición de epitelio a mesénquima mediante un mecanismo independiente del TGFβ1 en células de cáncer de ovario <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. Asimismo, Pignatelli, <italic>et al.,</italic> demostraron que la invasión inducida por el TGFβ en células MCF10A requiere de la activación de la Hic-5 mediante la cinasa Src, y reportaron que la Hic-5 activa participa en la formación de invadopodios, estructuras ricas en actina especializadas en la degradación de los componentes de dicha transición y que promueven la migración y la invasión celulares <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>Se ha reportado que la activación de la FAK regula procesos celulares como la angiogénesis, la transición de epitelio a mesénquima y la metástasis de células cancerosas, al asociarse con la progresión a un fenotipo más agresivo en tumores mamarios <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Además, un análisis con las pruebas de <italic>Northern</italic> y <italic>Western blot</italic> demostró que los niveles del ARNm y la proteína de la FAK se encontraban elevados en las muestras de los tumores de mama invasivos y metastásicos, en comparación con los tejidos normales, lo que sugiere la participación activa de la FAK en la invasión y metástasis en el cáncer de mama <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>.</p>
+			<p>Por este motivo, en el presente estudio se decidió evaluar el papel de la FAK en los niveles de expresión de la Hic-5 en células tratadas con leptina. Los resultados obtenidos demostraron que la leptina promueve la expresión de la Hic-5 y que ello depende de la actividad cinasa de la FAK (<xref ref-type="fig" rid="f2">figura 2</xref>A, B). Los resultados que relacionan la participación del complejo Src-FAK con la expresión de la Hic-5 explicarían la activación de la Src cuando se une a la tirosina 397 fosforilada de la FAK; una vez activa, la Src promueve la fosforilación de la tirosina 925 de la FAK, lo cual genera un sitio de interacción con la proteína adaptadora Grb2 y, subsecuentemente, la activación de la vía de señalización de la MAPK <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+			<p>Por otro lado, se ha reportado que la asociación de la FAK con la Src causa la fosforilación en p130Cas y el reclutamiento de Crk <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. Este complejo permite, a su vez, la activación de la JNK, una proteína relacionada con la activación del factor de transcripción c-Jun que, según observaciones, promueve la expresión de la Hic-5 <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. En este contexto, se ha propuesto la FAK como un importante biomarcador para la carcinogénesis y la progresión del cáncer mamario <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. Asimismo, se ha descrito que la leptina induce la migración celular en dos líneas de cáncer de mama: la MDA-MB-231, con fenotipo invasivo, y la línea no invasiva MCF7 (Juárez-Cruz JC, García- Rodríguez E, Castañeda-Saucedo E, Mendoza-Catalán MA, Villegas S, <italic>et al</italic>. Leptin induces cell migration, gelatinases secretion and invasion in a FAK-Src dependent pathway in breast cancer cell. 2018. En prensa). También, se ha descrito que la leptina promueve la fosforilación y la activación de la FAK y la ERK, proteínas relacionadas con la transición de epitelio a mesénquima en las células MCF10A. Estos datos sugieren que la expresión de la Hic-5 está relacionada con una vía dependiente de las cinasas Src-FAK y ERK en la línea celular MCF10A <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>La Src regula múltiples procesos celulares relacionados con la progresión tumoral, como la angiogénesis, la adhesión, la motilidad, la invasión y la migración celular, lo cual sugiere que la Src tiene un papel importante en el desarrollo del tumor y la metástasis <xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. Verbeek, et <italic>al</italic>., encontraron que en las muestras de tejido de cáncer de mama había un aumento en la expresión y la actividad de la Src, comparadas con las del tejido mamario normal <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>. Además, en los estudios de pacientes con cáncer de mama, se ha descrito que el aumento de la expresión y la actividad de la Src reducía considerablemente su tasa de supervivencia <xref ref-type="bibr" rid="B41"><sup>41</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Por esta razón, en el presente estudio, se evaluó el efecto de la cinasa Src sobre los niveles de expresión de la Hic-5 en células tratadas con leptina. Resultó interesante observar que la expresión de Hic-5 aumentaba con el tratamiento con leptina, sin embargo, disminuyó tras la inhibición química de la Src (<xref ref-type="fig" rid="f3">figura 3</xref>A y 3B).</p>
+			<p>Este evento puede ocurrir por la activación del receptor de la leptina durante el tratamiento, lo que favorece su fosforilación en los sitios de las tirosinas 985, 1077 y 1138 <xref ref-type="bibr" rid="B43"><sup>43</sup></xref>. La Src posee un dominio SH2 en su extremo N-terminal, el cual reconoce tirosinas fosforiladas y puede unirse a la caja 1 del receptor de leptina y, en consecuencia, promover su activación; cuando esto ocurre, se puede inducir la activación de la cinasa FAK fosforilando los residuos de las tirosinas 576 y 577 localizados en el dominio cinasa de esta proteína y ocasionando su máxima actividad catalítica <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>. Cuando la Src no se activa se interrumpen todos los eventos moleculares regulados por dicha activación, en este caso particular, la expresión de la Hic-5 inducida por la leptina en las células MCF10A del epitelio mamario.</p>
+			<p>La función de las proteínas en las células se relaciona, en parte, con su localización subcelular. Para determinar la localización subcelular de la Hic-5, en el presente estudio se hicieron pruebas de inmunofluorescencia cuyos resultados evidenciaron una mayor expresión bajo el estímulo con leptina y una distribución perinuclear de esta proteína. En la figura 2C se observa una mayor expresión y localización perinuclear de la Hic-5 con leptina, en comparación con el control; sin embargo, con el inhibidor de la FAK y el estímulo con leptina, la expresión y la localización perinuclear de la Hic-5 disminuyeron en comparación con lo que sucede con el estímulo con leptina. Además, con el inhibidor de la Src más el estímulo con leptina, la expresión y la localización perinuclear de la Hic-5 disminuyeron en comparación lo que sucede con el estímulo con leptina (<xref ref-type="fig" rid="f3">figura 3</xref>C).</p>
+			<p>Cabe resaltar que la localización perinuclear de la Hic-5 podría estar relacionada con un marcador de la transición de epitelio a mesénquima y la formación de invadopodios. Pignatelli, <italic>et al.,</italic> demostraron que el TGF-β promueve la formación de invadopodios y un aumento en la expresión de la Hic-5 <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Curiosamente, la inhibición de la expresión de la Hic-5 disminuyó la degradación de la matriz extracelular, lo que sugiere que es responsable de la degradación de la transición de epitelio a mesénquima inducida por el TGF-β.</p>
+			<p>Por otro lado, se ha determinado que la FAK se encuentra activa en los invadopodios y que su sobreexpresión promueve la degradación de la matriz extracelular. Asimismo, la actividad de la Src es necesaria para la formación de invadopodios. Estos datos sugieren que la leptina promueve la expresión y la localización perinuclear de la Hic-5 y que ello podría relacionarse con un evento crucial durante la transición de epitelio a mesénquima consistente en la invasión local o formación de invadopodios <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>En experimentos <italic>in vitro</italic> se ha demostrado que la forma activa de la FAK y la Src promueve la polimerización y reorganización de la actina, generando diferentes estructuras, incluidos los lamelopodios, las fibras de estrés y los puntos de actina, necesarios para la movilidad e invasión local de las células. Asimismo, Yamaguchi, <italic>et al.,</italic> asociaron la formación de estos puntos de actina con etapas iniciales de la formación de los invadopodios en células tumorales, lo que promueve la degradación de la matriz extracelular <xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B47"><sup>47</sup></xref>.</p>
+			<p>En el presente estudio, se confirmó que la leptina promueve la formación de puntos de actina por una vía dependiente de la FAK y la Src en células MCF10A, un evento biológico que permite la formación y la maduración de los invadopodios y, en consecuencia, la metástasis del cáncer (<xref ref-type="fig" rid="f4">figura 4</xref>).</p>
+			<p>Al observar que la expresión de la Hic-5 inducida por la leptina se da parcialmente mediante un mecanismo dependiente del complejo de las cinasas FAK y Src, se propone que dicha expresión ocurre, en parte, mediante ambas cinasas y que otros mecanismos de señalización están involucrados con esta expresión. Además, se sugiere que la expresión de la Hic-5 se relaciona con procesos invasivos, como la formación de invadopodios y la posterior degradación de la matriz extracelular.</p>
+			<p>Los datos obtenidos en este estudio podrían estar relacionados con un evento biológico <italic>in vivo</italic> en el que el microambiente tumoral, específicamente la abundancia de leptina y su receptor, participan activamente en eventos relacionados con la transición de epitelio a mesénquima y, en consecuencia, con la invasión y metástasis de células tumorales en pacientes que presentan tanto obesidad como cáncer de mama.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>A la Universidad Autónoma de Guerrero y al SEP/Conacyt, por el apoyo en el financiamiento de esta investigación. </p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Friedman J, Halaas J. Leptin and the regulation of body weight in mammals. Nature. 1998;395:763-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/27376">https://doi.org/10.1038/27376</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Friedman</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Halaas</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptin and the regulation of body weight in mammals</article-title>
+					<source>Nature</source>
+					<year>1998</year>
+					<volume>395</volume>
+					<fpage>763</fpage>
+					<lpage>770</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/27376">https://doi.org/10.1038/27376</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Sánchez JC. Perfil fisiológico de la leptina. Colombia Med. 2005;36:50-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Perfil fisiológico de la leptina</article-title>
+					<source>Colombia Med</source>
+					<year>2005</year>
+					<volume>36</volume>
+					<fpage>50</fpage>
+					<lpage>59</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Grossmann M, Ray A, Nkhata K, Malakhov D, Regozina O, Dogan S, <italic>et al</italic>. Obesity and breast cancer: Status of leptin and adiponectin in pathological processes. Cancer Metastasis Rev. 2010;29:641-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10555-010-9252-1">https://doi.org/10.1007/s10555-010-9252-1</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grossmann</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ray</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nkhata</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Malakhov</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Regozina</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Dogan</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Obesity and breast cancer: Status of leptin and adiponectin in pathological processes</article-title>
+					<source>Cancer Metastasis Rev</source>
+					<year>2010</year>
+					<volume>29</volume>
+					<fpage>641</fpage>
+					<lpage>653</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10555-010-9252-1">https://doi.org/10.1007/s10555-010-9252-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. González-Fernández J, Ugalde-Ovares CE. La glándula mamaria, embriología, histología, anatomía y una de sus principales patologías, el cáncer de mama. Revista Médica de Costa Rica y Centroamérica. 2012;602:317-20.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González-Fernández</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ugalde-Ovares</surname>
+							<given-names>CE</given-names>
+						</name>
+					</person-group>
+					<article-title>La glándula mamaria, embriología, histología, anatomía y una de sus principales patologías, el cáncer de mama</article-title>
+					<source>Revista Médica de Costa Rica y Centroamérica</source>
+					<year>2012</year>
+					<volume>602</volume>
+					<fpage>317</fpage>
+					<lpage>320</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. DeSantis CE, Lin CC, Mariotto AB, Siegel RL, Stein KD, Kramer JL, <italic>et al</italic>. Cancer treatment and survivorship statistics. CA Cancer J Clin. 2014;64:252-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3322/caac.21235">https://doi.org/10.3322/caac.21235</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>DeSantis</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Mariotto</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Siegel</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Stein</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Kramer</surname>
+							<given-names>JL</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cancer treatment and survivorship statistics</article-title>
+					<source>CA Cancer J Clin</source>
+					<year>2014</year>
+					<volume>64</volume>
+					<fpage>252</fpage>
+					<lpage>271</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3322/caac.21235">https://doi.org/10.3322/caac.21235</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Lozano-Ascencio R, Gómez-Dantés H, Lewis S, Torres-Sánchez L, López-Carrillo L. Tendencias del cáncer de mama en América Latina y El Caribe. Salud Pública Mex. 2009;51:147-56.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lozano-Ascencio</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gómez-Dantés</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lewis</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Torres-Sánchez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>López-Carrillo</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Tendencias del cáncer de mama en América Latina y El Caribe</article-title>
+					<source>Salud Pública Mex</source>
+					<year>2009</year>
+					<volume>51</volume>
+					<fpage>147</fpage>
+					<lpage>156</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Yuan HJ, Sun KW, Yu K. Leptin promotes the proliferation and migration of human breast cancer through the extracellular-signal regulated kinase pathway. Mol Med Rep. 2014;9:350-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892mmr.2013.1786">https://doi.org/10.3892mmr.2013.1786 </ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yuan</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>KW</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptin promotes the proliferation and migration of human breast cancer through the extracellular-signal regulated kinase pathway</article-title>
+					<source>Mol Med Rep</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<fpage>350</fpage>
+					<lpage>354</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892mmr.2013.1786">https://doi.org/10.3892mmr.2013.1786 </ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Yan D, Avtanski D, Saxena NK, Sharma D. Leptin-induced epithelial-mesenchymal transition in breast cancer cells requires β-catenin activation via Akt/GSK3- and MTA1/Wnt1 protein-dependent pathways. J Biol Chem. 2012;287:8598-612. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M111.322800">https://doi.org/10.1074/jbc.M111.322800</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Avtanski</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Saxena</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Sharma</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptin-induced epithelial-mesenchymal transition in breast cancer cells requires β-catenin activation via Akt/GSK3- and MTA1/Wnt1 protein-dependent pathways</article-title>
+					<source>J Biol Chem</source>
+					<year>2012</year>
+					<volume>287</volume>
+					<fpage>8598</fpage>
+					<lpage>8612</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M111.322800">https://doi.org/10.1074/jbc.M111.322800</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Kalluri R, Weinberg RA. The basics of epithelial-mesenchymal transition. J Clin Invest. 2009;119:1420-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1172/JCI39104">https://doi.org/10.1172/JCI39104</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kalluri</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Weinberg</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>The basics of epithelial-mesenchymal transition</article-title>
+					<source>J Clin Invest</source>
+					<year>2009</year>
+					<volume>119</volume>
+					<fpage>1420</fpage>
+					<lpage>1428</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1172/JCI39104">https://doi.org/10.1172/JCI39104</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Maier HJ, Wirth T, Beug H. Epithelial-mesenchymal transition in pancreatic carcinoma. Cancers. 2010;2:2058-83. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/cancers2042058">http://dx.doi.org/10.3390/cancers2042058</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maier</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>Wirth</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Beug</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Epithelial-mesenchymal transition in pancreatic carcinoma</article-title>
+					<source>Cancers</source>
+					<year>2010</year>
+					<volume>2</volume>
+					<fpage>2058</fpage>
+					<lpage>2083</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/cancers2042058">http://dx.doi.org/10.3390/cancers2042058</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Foroni C, Broggini M, Generali D, Damia G. Epithelial-mesenchymal transition and breast cancer: Role, molecular mechanisms and clinical impact. Cancer Treat Rev. 2012;38:689- 97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ctrv.2011.11.001">https://doi.org/10.1016/j.ctrv.2011.11.001</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Foroni</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Broggini</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Generali</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Damia</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Epithelial-mesenchymal transition and breast cancer: Role, molecular mechanisms and clinical impact</article-title>
+					<source>Cancer Treat Rev</source>
+					<year>2012</year>
+					<volume>38</volume>
+					<fpage>689</fpage>
+					<lpage> 97</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ctrv.2011.11.001">https://doi.org/10.1016/j.ctrv.2011.11.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Nantajit D, Lin D, Li JJ. The network of epithelial-mesenchymal transition: Potential new targets for tumor resistance. J Cancer Res Clin Oncol. 2014;141:1697-713. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00432-014-1840-y">https://doi.org/10.1007/s00432-014-1840-y</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nantajit</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<article-title>The network of epithelial-mesenchymal transition: Potential new targets for tumor resistance</article-title>
+					<source>J Cancer Res Clin Oncol</source>
+					<year>2014</year>
+					<volume>141</volume>
+					<fpage>1697</fpage>
+					<lpage>1713</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00432-014-1840-y">https://doi.org/10.1007/s00432-014-1840-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Avtanski DB, Nagalingam A, Bonner MY, Arbiser JL, Saxena NK, Sharma D. Honokiol activates LKB1-miR-34a axis and antagonizes the oncogenic actions of leptin in breast cancer. Oncotarget. 2015;6:29947-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.4937">https://doi.org/10.18632/oncotarget.4937</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Avtanski</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Nagalingam</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bonner</surname>
+							<given-names>MY</given-names>
+						</name>
+						<name>
+							<surname>Arbiser</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Saxena</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Sharma</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Honokiol activates LKB1-miR-34a axis and antagonizes the oncogenic actions of leptin in breast cancer</article-title>
+					<source>Oncotarget</source>
+					<year>2015</year>
+					<volume>6</volume>
+					<fpage>29947</fpage>
+					<lpage>29962</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.4937">https://doi.org/10.18632/oncotarget.4937</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Garofalo C, Surmacz E. Leptin and cancer. J Cell Physiol. 2006;207:12-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jcp.20472">https://doi.org/10.1002/jcp.20472</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garofalo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Surmacz</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptin and cancer</article-title>
+					<source>J Cell Physiol</source>
+					<year>2006</year>
+					<volume>207</volume>
+					<fpage>12</fpage>
+					<lpage>22</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jcp.20472">https://doi.org/10.1002/jcp.20472</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Wang L, Tang C, Cao H, Li K, Pang X, Zhong L, <italic>et al</italic>. Activation of IL-8 via PI3K/Akt- dependent pathway is involved in leptin-mediated epithelial-mesenchymal transition in human breast cancer cells. Cancer Biol Ther. 2015;16:1220-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/15384047.2015.1056409">https://doi.org/10.1080/15384047.2015.1056409</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Pang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Zhong</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Activation of IL-8 via PI3K/Akt- dependent pathway is involved in leptin-mediated epithelial-mesenchymal transition in human breast cancer cells</article-title>
+					<source>Cancer Biol Ther</source>
+					<year>2015</year>
+					<volume>16</volume>
+					<fpage>1220</fpage>
+					<lpage>1230</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/15384047.2015.1056409">https://doi.org/10.1080/15384047.2015.1056409</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Beaty B, Condeelis J. Digging a little deeper: The stages of invadopodium formation and maturation. Eur J Cell Biol. 2014;93:438-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/ 10.1016/j.ejcb.2014.07.003">https://doi.org/ 10.1016/j.ejcb.2014.07.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Beaty</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Condeelis</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Digging a little deeper: The stages of invadopodium formation and maturation</article-title>
+					<source>Eur J Cell Biol</source>
+					<year>2014</year>
+					<volume>93</volume>
+					<fpage>438</fpage>
+					<lpage>444</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/ 10.1016/j.ejcb.2014.07.003">https://doi.org/ 10.1016/j.ejcb.2014.07.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Pignatelli J, Tumbarello DA, Schmidt RP, Turner CE. Hic-5 promotes invadopodia formation and invasion during TGF-β-induced epithelial-mesenchymal transition. J Cell Biol. 2012;197:421-37. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1083/jcb.201108143">https://doi.org/10.1083/jcb.201108143</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pignatelli</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Tumbarello</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Schmidt</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Turner</surname>
+							<given-names>CE</given-names>
+						</name>
+					</person-group>
+					<article-title>Hic-5 promotes invadopodia formation and invasion during TGF-β-induced epithelial-mesenchymal transition</article-title>
+					<source>J Cell Biol</source>
+					<year>2012</year>
+					<volume>197</volume>
+					<fpage>421</fpage>
+					<lpage>437</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1083/jcb.201108143">https://doi.org/10.1083/jcb.201108143</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Shibanuma M, Mochizuki E, Maniwa R, Mashimo J, Nishiya N, Imai S, <italic>et al</italic>. Induction of senescence-like phenotypes by forced expression of hic-5, which encodes a novel LIM motif protein, in immortalized human fibroblasts. Mol Cell Biol. 1997;17:1224-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MCB.17.3.1224">https://doi.org/10.1128/MCB.17.3.1224</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shibanuma</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mochizuki</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Maniwa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mashimo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Nishiya</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Imai</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Induction of senescence-like phenotypes by forced expression of hic-5, which encodes a novel LIM motif protein, in immortalized human fibroblasts</article-title>
+					<source>Mol Cell Biol</source>
+					<year>1997</year>
+					<volume>17</volume>
+					<fpage>1224</fpage>
+					<lpage>1235</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MCB.17.3.1224">https://doi.org/10.1128/MCB.17.3.1224</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Thomas SM, Hagel M, Turner CE. Characterization of a focal adhesion protein, Hic-5, that shares extensive homology with paxillin. J Cell Sci. 1999;112:181-90.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thomas</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Hagel</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Turner</surname>
+							<given-names>CE</given-names>
+						</name>
+					</person-group>
+					<article-title>Characterization of a focal adhesion protein, Hic-5, that shares extensive homology with paxillin</article-title>
+					<source>J Cell Sci</source>
+					<year>1999</year>
+					<volume>112</volume>
+					<fpage>181</fpage>
+					<lpage>190</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Varney SD, Betts CB, Zheng R, Wu L, Hinz B, Zhou J, <italic>et al</italic>. Hic-5 is required for myofibroblast differentiation by regulating mechanically dependent MRTF-A nuclear accumulation. J Cell Sci. 2016;129:774-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1242/jcs.170589">https://doi.org/10.1242/jcs.170589</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Varney</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Betts</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Zheng</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Hinz</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Hic-5 is required for myofibroblast differentiation by regulating mechanically dependent MRTF-A nuclear accumulation</article-title>
+					<source>J Cell Sci</source>
+					<year>2016</year>
+					<volume>129</volume>
+					<fpage>774</fpage>
+					<lpage>787</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1242/jcs.170589">https://doi.org/10.1242/jcs.170589</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Mitra SK, Hanson DA, Schlaepfer DD. Focal adhesion kinase: In command and control of cell motility. Nat Rev Mol Cell Biol. 2005;6:56-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm1549">https://doi.org/10.1038/nrm1549</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mitra</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Hanson</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Schlaepfer</surname>
+							<given-names>DD</given-names>
+						</name>
+					</person-group>
+					<article-title>Focal adhesion kinase: In command and control of cell motility</article-title>
+					<source>Nat Rev Mol Cell Biol</source>
+					<year>2005</year>
+					<volume>6</volume>
+					<fpage>56</fpage>
+					<lpage>68</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm1549">https://doi.org/10.1038/nrm1549</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Alexander NR, Branch KM, Parekh A, Clark ES, Iwueke CI, Guelcher SA, <italic>et al</italic>. Extracellular matrix rigidity promotes invadopodia activity. Curr Biol. 2008;18: 1295-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cub.2008.07.090">https://doi.org/10.1016/j.cub.2008.07.090</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alexander</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>Branch</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Parekh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Clark</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Iwueke</surname>
+							<given-names>CI</given-names>
+						</name>
+						<name>
+							<surname>Guelcher</surname>
+							<given-names>SA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Extracellular matrix rigidity promotes invadopodia activity</article-title>
+					<source>Curr Biol</source>
+					<year>2008</year>
+					<volume>18</volume>
+					<fpage>1295</fpage>
+					<lpage>1299</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cub.2008.07.090">https://doi.org/10.1016/j.cub.2008.07.090</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Calalb MB, Polte TR, Hanks SK. Tyrosine phosphorylation of focal adhesion kinase at sites in the catalytic domain regulates kinase activity: A role for Src family kinases. Mol Cell Biol. 1995;15:954-63.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Calalb</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Polte</surname>
+							<given-names>TR</given-names>
+						</name>
+						<name>
+							<surname>Hanks</surname>
+							<given-names>SK</given-names>
+						</name>
+					</person-group>
+					<article-title>Tyrosine phosphorylation of focal adhesion kinase at sites in the catalytic domain regulates kinase activity: A role for Src family kinases</article-title>
+					<source>Mol Cell Biol</source>
+					<year>1995</year>
+					<volume>15</volume>
+					<fpage>954</fpage>
+					<lpage>963</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Parekh A, Weaver AM. Regulation of cancer invasiveness by the physical extracellular matrix environment. Cell Adh Migr. 2009;3:288-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4161/cam.3.3.8888">https://doi.org/10.4161/cam.3.3.8888</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Parekh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Weaver</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<article-title>Regulation of cancer invasiveness by the physical extracellular matrix environment</article-title>
+					<source>Cell Adh Migr</source>
+					<year>2009</year>
+					<volume>3</volume>
+					<fpage>288</fpage>
+					<lpage>292</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4161/cam.3.3.8888">https://doi.org/10.4161/cam.3.3.8888</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Destaing O, Block MR, Planus E, Albiges-Rizo C. Invadosome regulation by adhesion signaling. Curr Opin Cell Biol. 2011;23:597-606. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ceb.2011.04.002">https://doi.org/10.1016/j.ceb.2011.04.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Destaing</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Block</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Planus</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Albiges-Rizo</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Invadosome regulation by adhesion signaling</article-title>
+					<source>Curr Opin Cell Biol</source>
+					<year>2011</year>
+					<volume>23</volume>
+					<fpage>597</fpage>
+					<lpage>606</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ceb.2011.04.002">https://doi.org/10.1016/j.ceb.2011.04.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Villanueva-Duque A, Zúñiga-Eulogio MD, Dena-Beltrán J, Castañeda-Saucedo E, Calixto- Gálvez M, Mendoza-Catalán M, <italic>et al</italic>. Leptin induces partial epithelial-mesenchymal transition in a FAK-ERK dependent pathway in MCF10A mammary non-tumorigenic cells. Int J Clin Exp Pathol. 2017;10:10334-42.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villanueva-Duque</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zúñiga-Eulogio</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Dena-Beltrán</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Castañeda-Saucedo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Calixto- Gálvez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mendoza-Catalán</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Leptin induces partial epithelial-mesenchymal transition in a FAK-ERK dependent pathway in MCF10A mammary non-tumorigenic cells</article-title>
+					<source>Int J Clin Exp Pathol</source>
+					<year>2017</year>
+					<volume>10</volume>
+					<fpage>10334</fpage>
+					<lpage>10342</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Wu MH, Chou YC, Chou WY, Hsu GC, Chu CH, Yu CP, <italic>et al</italic>. Circulating levels of leptin, adiposity and breast cancer risk. Br J Cancer. 2009;100:578-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.bjc.6604913">https://doi.org/10.1038/sj.bjc.6604913</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Chou</surname>
+							<given-names>YC</given-names>
+						</name>
+						<name>
+							<surname>Chou</surname>
+							<given-names>WY</given-names>
+						</name>
+						<name>
+							<surname>Hsu</surname>
+							<given-names>GC</given-names>
+						</name>
+						<name>
+							<surname>Chu</surname>
+							<given-names>CH</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>CP</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Circulating levels of leptin, adiposity and breast cancer risk</article-title>
+					<source>Br J Cancer</source>
+					<year>2009</year>
+					<volume>100</volume>
+					<fpage>578</fpage>
+					<lpage>582</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.bjc.6604913">https://doi.org/10.1038/sj.bjc.6604913</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Garofalo C, Koda M, Cascio S, Sulkowska M, Kanczuga-Koda L, Golaszewska J, <italic>et al</italic>. Increased expression of leptin and the leptin receptor as a marker of breast cancer progression: Possible role of obesity-related stimuli. Clin Cancer Res. 2006;12:1447-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1078-0432.CCR-05-1913">https://doi.org/10.1158/1078-0432.CCR-05-1913</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garofalo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Koda</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cascio</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Sulkowska</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kanczuga-Koda</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Golaszewska</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Increased expression of leptin and the leptin receptor as a marker of breast cancer progression: Possible role of obesity-related stimuli</article-title>
+					<source>Clin Cancer Res</source>
+					<year>2006</year>
+					<volume>12</volume>
+					<fpage>1447</fpage>
+					<lpage>1453</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1078-0432.CCR-05-1913">https://doi.org/10.1158/1078-0432.CCR-05-1913</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Deakin NO, Turner CE. Distinct roles for paxillin and Hic-5 in regulating breast cancer cell morphology, invasion, and metastasis. Mol Biol Cell. 2010;22:327-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1091/mbc.E10-09-0790">https://doi.org/10.1091/mbc.E10-09-0790</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Deakin</surname>
+							<given-names>NO</given-names>
+						</name>
+						<name>
+							<surname>Turner</surname>
+							<given-names>CE</given-names>
+						</name>
+					</person-group>
+					<article-title>Distinct roles for paxillin and Hic-5 in regulating breast cancer cell morphology, invasion, and metastasis</article-title>
+					<source>Mol Biol Cell</source>
+					<year>2010</year>
+					<volume>22</volume>
+					<fpage>327</fpage>
+					<lpage>341</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1091/mbc.E10-09-0790">https://doi.org/10.1091/mbc.E10-09-0790</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Sheta R, Wang ZQ, Bachvarova M, Plante M, Gregoire J, Renaud MC, <italic>et al</italic>. Hic-5 regulates epithelial to mesenchymal transition in ovarian cancer cells in a TGFβ1-independent manner. Oncotarget. 2017;8:82506-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.19714">https://doi.org/10.18632/oncotarget.19714</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sheta</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>ZQ</given-names>
+						</name>
+						<name>
+							<surname>Bachvarova</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Plante</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gregoire</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Renaud</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Hic-5 regulates epithelial to mesenchymal transition in ovarian cancer cells in a TGFβ1-independent manner</article-title>
+					<source>Oncotarget</source>
+					<year>2017</year>
+					<volume>8</volume>
+					<fpage>82506</fpage>
+					<lpage>82530</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.19714">https://doi.org/10.18632/oncotarget.19714</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Wu JR, Hu CT, You RI, Pan SM, Cheng CC, Lee MC, <italic>et al</italic>. Hydrogen peroxide inducible clone-5 mediates reactive oxygen species signaling for hepatocellular carcinoma progression. Oncotarget. 2015;6:32526-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.5322">https://doi.org/10.18632/oncotarget.5322</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>CT</given-names>
+						</name>
+						<name>
+							<surname>You</surname>
+							<given-names>RI</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Cheng</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Hydrogen peroxide inducible clone-5 mediates reactive oxygen species signaling for hepatocellular carcinoma progression</article-title>
+					<source>Oncotarget</source>
+					<year>2015</year>
+					<volume>6</volume>
+					<fpage>32526</fpage>
+					<lpage>32544</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/oncotarget.5322">https://doi.org/10.18632/oncotarget.5322</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Frame MC, Patel H, Serrels B, Lietha D, Eck MJ. The FERM domain: Organizing the structure and function of FAK. Nat Rev Mol Cell Biol. 2010;11:802-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm2996">https://doi.org/10.1038/nrm2996</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Frame</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Serrels</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lietha</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Eck</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>The FERM domain: Organizing the structure and function of FAK</article-title>
+					<source>Nat Rev Mol Cell Biol</source>
+					<year>2010</year>
+					<volume>11</volume>
+					<fpage>802</fpage>
+					<lpage>814</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm2996">https://doi.org/10.1038/nrm2996</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Owens LV, Xu L, Craven RJ, Dent GA, Weiner TM, Kornberg L, <italic>et al</italic>. Overexpression of the focal adhesion kinase (p125 FAK) in invasive human tumors. Cancer Res. 1995;55:2752-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Owens</surname>
+							<given-names>LV</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Craven</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Dent</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Weiner</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Kornberg</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Overexpression of the focal adhesion kinase (p125 FAK) in invasive human tumors</article-title>
+					<source>Cancer Res</source>
+					<year>1995</year>
+					<volume>55</volume>
+					<fpage>2752</fpage>
+					<lpage>2756</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Schlaepfer DD, Hanks SK, Hunter T, van der Geer P. Integrin-mediated signal transduction linked to RAS pathway by GRB2 binding to focal adhesion kinase. Nature. 1994;372:786-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/372786a0">https://doi.org/10.1038/372786a0</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schlaepfer</surname>
+							<given-names>DD</given-names>
+						</name>
+						<name>
+							<surname>Hanks</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Hunter</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>van der Geer</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Integrin-mediated signal transduction linked to RAS pathway by GRB2 binding to focal adhesion kinase</article-title>
+					<source>Nature</source>
+					<year>1994</year>
+					<volume>372</volume>
+					<fpage>786</fpage>
+					<lpage>791</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/372786a0">https://doi.org/10.1038/372786a0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Nishiya N, Tachibana K, Shibanuma M, Mashimo JI, Nose K. Hic-5-reduced cell spreading on fibronectin: Competitive effects between paxillin and hic-5 through interaction with focal adhesion kinase. Mol Cell Biol. 2001;21:5332-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MCB.21.16.5332-5345.2001">https://doi.org/10.1128/MCB.21.16.5332-5345.2001</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nishiya</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Tachibana</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Shibanuma</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mashimo</surname>
+							<given-names>JI</given-names>
+						</name>
+						<name>
+							<surname>Nose</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Hic-5-reduced cell spreading on fibronectin: Competitive effects between paxillin and hic-5 through interaction with focal adhesion kinase</article-title>
+					<source>Mol Cell Biol</source>
+					<year>2001</year>
+					<volume>21</volume>
+					<fpage>5332</fpage>
+					<lpage>5345</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MCB.21.16.5332-5345.2001">https://doi.org/10.1128/MCB.21.16.5332-5345.2001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Ligthfoot HM, Lark A, Livasy CA, Moore DT, Cowan D, Dressler L, <italic>et al</italic>. Upregulation of focal adhesion kinase (FAK) expression in ductal carcinoma in situ (DCIS) is an early event in breast tumorigenesis. Breast Cancer Res Treat. 2004;88:109-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10549-004-1022-8">https://doi.org/10.1007/s10549-004-1022-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ligthfoot</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Lark</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Livasy</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Moore</surname>
+							<given-names>DT</given-names>
+						</name>
+						<name>
+							<surname>Cowan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dressler</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Upregulation of focal adhesion kinase (FAK) expression in ductal carcinoma in situ (DCIS) is an early event in breast tumorigenesis</article-title>
+					<source>Breast Cancer Res Treat</source>
+					<year>2004</year>
+					<volume>88</volume>
+					<fpage>109</fpage>
+					<lpage>116</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10549-004-1022-8">https://doi.org/10.1007/s10549-004-1022-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Chambers AF, Groom AC, Macdonald IC. Dissemination and growth of cancer cells in metastatic sites. Nat Rev Cancer. 2002;2:563-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc865">https://doi.org/10.1038/nrc865</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chambers</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Groom</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Macdonald</surname>
+							<given-names>IC</given-names>
+						</name>
+					</person-group>
+					<article-title>Dissemination and growth of cancer cells in metastatic sites</article-title>
+					<source>Nat Rev Cancer</source>
+					<year>2002</year>
+					<volume>2</volume>
+					<fpage>563</fpage>
+					<lpage>572</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc865">https://doi.org/10.1038/nrc865</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Frame MC, Fincham VJ, Carragher NO, Wyke JA. v-Src’s hold over actin and cell adhesion. Nat Rev Mol Cell Biol. 2002;3:233-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm779">https://doi.org/10.1038/nrm779</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Frame</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Fincham</surname>
+							<given-names>VJ</given-names>
+						</name>
+						<name>
+							<surname>Carragher</surname>
+							<given-names>NO</given-names>
+						</name>
+						<name>
+							<surname>Wyke</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>v-Src’s hold over actin and cell adhesion</article-title>
+					<source>Nat Rev Mol Cell Biol</source>
+					<year>2002</year>
+					<volume>3</volume>
+					<fpage>233</fpage>
+					<lpage>245</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrm779">https://doi.org/10.1038/nrm779</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Yeatman TJ. A renaissance for Src. Nat Rev Cancer. 2004;4:470-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc1366">https://doi.org/10.1038/nrc1366</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yeatman</surname>
+							<given-names>TJ</given-names>
+						</name>
+					</person-group>
+					<article-title>A renaissance for Src</article-title>
+					<source>Nat Rev Cancer</source>
+					<year>2004</year>
+					<volume>4</volume>
+					<fpage>470</fpage>
+					<lpage>480</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc1366">https://doi.org/10.1038/nrc1366</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Verbeek BS, Vroom TM, Adriaansen-Slot SS, Ottenhoff-Kalff AE, Geertzema JG, Hennipman A, <italic>et al</italic>. c-Src protein expression is increased in human breast cancer. An immunohistochemical and biochemical analysis. J Pathol. 1996;180:383-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1096-9896(199612)180:4&lt;383::AID-PATH686&gt;3.0.CO;2-N">https://doi.org/10.1002/(SICI)1096-9896(199612)180:4&lt;383::AID-PATH686&gt;3.0.CO;2-N</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Verbeek</surname>
+							<given-names>BS</given-names>
+						</name>
+						<name>
+							<surname>Vroom</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Adriaansen-Slot</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Ottenhoff-Kalff</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Geertzema</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Hennipman</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>c-Src protein expression is increased in human breast cancer. An immunohistochemical and biochemical analysis</article-title>
+					<source>J Pathol.</source>
+					<year>1996</year>
+					<volume>180</volume>
+					<fpage>383</fpage>
+					<lpage>388</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1096-9896(199612)180:4&lt;383::AID-PATH686&gt;3.0.CO;2-N">https://doi.org/10.1002/(SICI)1096-9896(199612)180:4&lt;383::AID-PATH686&gt;3.0.CO;2-N</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Elsberger B, Fullerton R, Zino S, Jordan F, Mitchell TJ, Brunton VG, <italic>et al</italic>. Breast cancer patients’ clinical outcome measures are associated with Src kinase family member expression. Br J Cancer. 2010;103:899-909. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.bjc.6605829">https://doi.org/10.1038/sj.bjc.6605829</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Elsberger</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fullerton</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Zino</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Jordan</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Mitchell</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Brunton</surname>
+							<given-names>VG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Breast cancer patients’ clinical outcome measures are associated with Src kinase family member expression</article-title>
+					<source>Br J Cancer</source>
+					<year>2010</year>
+					<volume>103</volume>
+					<fpage>899</fpage>
+					<lpage>909</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.bjc.6605829">https://doi.org/10.1038/sj.bjc.6605829</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Kanomata N, Kurebayashi J, Kozuka Y, Sonoo H, Moriya T. Clinicopathological significance of Y416Src and Y527Src expression in breast cancer. J Clin Pathol. 2011;64:578-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jclinpath-2011-200042">https://doi.org/10.1136/jclinpath-2011-200042</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kanomata</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Kurebayashi</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kozuka</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sonoo</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Moriya</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinicopathological significance of Y416Src and Y527Src expression in breast cancer</article-title>
+					<source>J Clin Pathol</source>
+					<year>2011</year>
+					<volume>64</volume>
+					<fpage>578</fpage>
+					<lpage>558</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jclinpath-2011-200042">https://doi.org/10.1136/jclinpath-2011-200042</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Jiang L, Li Z, Rui L. Leptin stimulates both jak2-dependent and jak2-independent signaling pathways. J Biol Chem. 2008;283:28066-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M805545200">https://doi.org/10.1074/jbc.M805545200</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jiang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Rui</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptin stimulates both jak2-dependent and jak2-independent signaling pathways</article-title>
+					<source>J Biol Chem</source>
+					<year>2008</year>
+					<volume>283</volume>
+					<fpage>28066</fpage>
+					<lpage>28073</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1074/jbc.M805545200">https://doi.org/10.1074/jbc.M805545200</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Hanks SK, Ryzhova L, Shin NY, Brábek J. Focal adhesion kinase signaling activities and their implications in the control of cell survival and motility. Front Biosci. 2003;8:982-96.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hanks</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Ryzhova</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Shin</surname>
+							<given-names>NY</given-names>
+						</name>
+						<name>
+							<surname>Brábek</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Focal adhesion kinase signaling activities and their implications in the control of cell survival and motility</article-title>
+					<source>Front Biosci</source>
+					<year>2003</year>
+					<volume>8</volume>
+					<fpage>982</fpage>
+					<lpage>996</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Serrels B, Serrels A, Brunton VG, Holt M, Mclean GW, Gray CH, <italic>et al</italic>. Focal adhesion kinase controls actin assembly via a FERM-mediated interaction with the Arp2/3 complex. Nat Cell Biol. 2007;9:1046-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ncb1626">https://doi.org/10.1038/ncb1626</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Serrels</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Serrels</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Brunton</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Holt</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mclean</surname>
+							<given-names>GW</given-names>
+						</name>
+						<name>
+							<surname>Gray</surname>
+							<given-names>CH</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Focal adhesion kinase controls actin assembly via a FERM-mediated interaction with the Arp2/3 complex</article-title>
+					<source>Nat Cell Biol</source>
+					<year>2007</year>
+					<volume>9</volume>
+					<fpage>1046</fpage>
+					<lpage>1056</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ncb1626">https://doi.org/10.1038/ncb1626</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Tehrani S, Tomasevic N, Weed S, Sakowicz R, Cooper JA. Src phosphorylation of cortactin enhances actin assembly. Proc Natl Acad Sci USA. 2007;104:11933-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.0701077104">https://doi.org/10.1073/pnas.0701077104</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tehrani</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tomasevic</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Weed</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Sakowicz</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Cooper</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Src phosphorylation of cortactin enhances actin assembly</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>2007</year>
+					<volume>104</volume>
+					<fpage>11933</fpage>
+					<lpage>11938</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.0701077104">https://doi.org/10.1073/pnas.0701077104</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Yamaguchi H, Lorenz M, Kempiak S, Sarmiento C, Coniglio S, Symons M, <italic>et al</italic>. Molecular mechanisms of invadopodium formation: The role of the N-WASP-Arp2/3 complex pathway and cofilin. J Cell Biol. 2005;168:441-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1083/jcb.200407076">https://doi.org/10.1083/jcb.200407076</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yamaguchi</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lorenz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kempiak</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Sarmiento</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Coniglio</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Symons</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular mechanisms of invadopodium formation: The role of the N-WASP-Arp2/3 complex pathway and cofilin</article-title>
+					<source>J Cell Biol</source>
+					<year>2005</year>
+					<volume>168</volume>
+					<fpage>441</fpage>
+					<lpage>452</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1083/jcb.200407076">https://doi.org/10.1083/jcb.200407076</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Isaías-Tizapa R, Acosta E, Tacuba-Saavedra A, Mendoza-Catalán M, Navarro-Tito N. La leptina promueve la expresión de Hic-5 y la formación de puntos de actina por la vía dependiente de FAK-Src en células epiteliales mamarias MCF10A. Biomédica. 2019;39:547-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4313">https://doi.org/10.7705/biomedica.4313</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="financial-disclosure" id="fn3">
+				<label>Financiación:</label>
+				<p>El presente trabajo fue financiado por el proyecto SEP/Conacyt, clave CB-2014-01-239870</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

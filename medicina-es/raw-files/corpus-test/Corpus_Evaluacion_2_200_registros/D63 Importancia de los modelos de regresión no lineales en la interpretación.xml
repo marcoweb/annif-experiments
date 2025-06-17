@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">rhcm</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Habanera de Ciencias Médicas</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev haban cienc méd</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1729-519X</issn>
+			<publisher>
+				<publisher-name>Universidad de Ciencias Médicas de La Habana</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00014</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>tecnológicas</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Importancia de los modelos de regresión no lineales en la interpretación de datos de la COVID-19 en Colombia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Importance of nonlinear regression models in the interpretation of data from COVID-19 in Colombia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4283-2871</contrib-id>
+					<name>
+						<surname>Obando Bastidas</surname>
+						<given-names>Jorge Alejandro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9347-4835</contrib-id>
+					<name>
+						<surname>Peña Pita</surname>
+						<given-names>Amalia Priscila</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2785-5493</contrib-id>
+					<name>
+						<surname>Obando Vargas</surname>
+						<given-names>Laura Nathalia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9304-7980</contrib-id>
+					<name>
+						<surname>Franco Montenegro</surname>
+						<given-names>Aldemar</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Universidad Cooperativa de Colombia, Facultad de Ciencias Económicas y Contables. Villavicencio, Colombia.</institution>
+				<institution content-type="normalized">Universidad Cooperativa de Colombia</institution>
+				<institution content-type="orgname">Universidad Cooperativa de Colombia</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Económicas y Contables</institution>
+				<addr-line>
+					<named-content content-type="city">Villavicencio</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Universidad de los Llanos, Facultad de Enfermería. Villavicencio, Colombia.</institution>
+				<institution content-type="normalized">Universidad de los Llanos</institution>
+				<institution content-type="orgname">Universidad de los Llanos</institution>
+				<institution content-type="orgdiv1">Facultad de Enfermería</institution>
+				<addr-line>
+					<named-content content-type="city">Villavicencio</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Universidad Santo Tomás, Facultad de Negocios Internacionales. Villavicencio, Colombia. </institution>
+				<institution content-type="normalized">Universidad Santo Tomás</institution>
+				<institution content-type="orgname">Universidad Santo Tomás</institution>
+				<institution content-type="orgdiv1">Facultad de Negocios Internacionales</institution>
+				<addr-line>
+					<named-content content-type="city">Villavicencio</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label>Autor para la correspondencia: <email>jorge.obandob@campusucc.edu.co</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<p>Los autores declaran no tener ningún conflicto de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn6">
+					<p>Todos los autores participamos en la discusión de los resultados y hemos leído, revisado y aprobado el texto final del artículo.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>06</month>
+				<year>2020</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<year>2020</year>
+			</pub-date>
+			<volume>19</volume>
+			<issue>1</issue>
+			<supplement>Supl.</supplement>
+			<elocation-id>e3309</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>16</day>
+					<month>04</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>18</day>
+					<month>05</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción: </title>
+					<p> Debido a los nocivos efectos económicos y sociales propiciados por el confinamiento de las personas, las entidades gubernamentales de Colombia, planean una cuarentena inteligente, basados en la interpretación del comportamiento de la curva de los datos, de la cual afirman ha presentado un reducción durante los últimos días. </p>
+				</sec>
+				<sec>
+					<title>Objetivo: </title>
+					<p> Destacar la importancia del análisis de los métodos de correlación no lineal y todos sus procedimientos de inferencia estadística para el diseño de un modelo matemático que permita la predicción de los datos basados en las edades de los casos positivos de COVID-19 en Colombia. </p>
+				</sec>
+				<sec>
+					<title>Material y Métodos: </title>
+					<p> Los resultados diarios se basan en el sitio web oficial del Instituto Nacional de Salud de Colombia. Todos los datos se analizan a través del <italic>software libre R-Kward</italic>® (Biblioteca R). El propósito de los análisis es evidenciar el valor de la matriz de correlación, la prueba de hipótesis, r2 y el modelo de correlación ideal, a través del cual se realiza una predicción. </p>
+				</sec>
+				<sec>
+					<title>Resultados: </title>
+					<p> Con un R<sup>2</sup> de 0,9969 muy cercano a 1, y una prueba de hipótesis que garantiza la veracidad de la hipótesis alternativa, el modelo matemático de regresión que más se aproxima al comportamiento real de los datos de crecimiento de la COVID-19 es cuadrático. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones: </title>
+					<p> El modelo cuadrático es positivo y creciente, mientras el número de contagios siga creciendo, por lo tanto, este momento no es ideal de hablar de un aplanamiento de la curva. Si el crecimiento es constante, el modelo podría tener una tendencia exponencial.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction: </title>
+					<p> Due to the harmful economic and social effects caused by the confinement of people, the Colombian government entities have planned an intelligent quarantine based on the interpretation of the behavior in the curve data, from which they affirm that it has shown a reduction during the last days.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To highlight the importance of the analysis of non-linear correlation models and all the statistical inference procedures for the design of a mathematical model that allows the prediction of data based on the age of positive cases of COVID-19 in Colombia. </p>
+				</sec>
+				<sec>
+					<title>Material and Methods: </title>
+					<p> The daily results are based on the information obtained from the official website of the Colombian National Institute of Health. The total data are analyzed through the R-Kward free software (R Library). The aim of the analysis is to show the value of the correlation matrix, hypothesis test, r2 and the ideal correlation model, with which prediction is made. </p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p> With an R2 value of 0.9969 very close to 1 and a hypothesis test that guarantees the veracity of the alternative hypothesis, the ideal mathematical model that aligns the growth data of COVID-19 is quadratic. </p>
+				</sec>
+				<sec>
+					<title>Conclusions: </title>
+					<p> The quadratic model is positive and increasing as long as the number of infections continue to grow; therefore, it is not an ideal moment to speak of a flattening of the curve. If the growth is constant, the model could have an exponential trend.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras claves:</title>
+				<kwd>Predicción</kwd>
+				<kwd>curva de crecimiento</kwd>
+				<kwd>modelos de regresión</kwd>
+				<kwd>número de contagios</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Prediction</kwd>
+				<kwd>growth curve</kwd>
+				<kwd>regression models</kwd>
+				<kwd>number of infections</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="8"/>
+				<equation-count count="0"/>
+				<ref-count count="19"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El mundo se ha quedado frenado y atemorizado a causa de la COVID-19. La organización Mundial de la Salud (OMS) declaró una pandemia dos meses y medio después de presentarse el primer brote de la enfermedad en la ciudad china de Wuhan, provincia de Hubei. Asimismo, recae la importancia que en el proceso de la enfermedad aún no se ha podido determinar la diferencia entre experimentar o no, y en tener o no-tener los síntomas que se generan al inicio de la enfermedad.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>)</sup> Adicionalmente, se ha percibido su alto índice de contagio, ya que se ha expandido de manera acelerada en diferentes países como China, Tailandia, República Sur-coreana, Japón, Estados Unidos, Filipinas y Europa, entre otros, destacándose la importancia de adoptar medidas necesarias para reducir su letalidad.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>A partir de los datos recolectados hasta el momento a nivel mundial, se ha podido determinar que, en promedio, 17,9 % del total de las personas que adquieren el virus son asintomáticos; es decir, son portadores del virus y no presentan síntomas; no obstante, sí pueden contagiar a otras personas. De la población contagiada, 62,1 % presentan síntomas leves sin avanzar a un cuadro crítico si adoptan las medidas de autocuidado recomendadas, entre ellas, el aislamiento seguro. De los contagiados, 20 % requiere atención asistencial y hospitalaria obligatoria por causa de las complicaciones asociadas y 3,4 % restante ha fallecido como consecuencia de estas complicaciones.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Los altos índices de mortalidad están asociados a personas con otras patologías como cáncer, infecciones respiratorias, enfermedades cardiovasculares, diabetes e hipertensión arterial, entre otras. Pero el problema que más sigue preocupando a la sociedad médica mundial alrededor de la COVID-19 es el acelerado número de contagios que se transmite persona-a-persona (Organización Mundial de la Salud, 2019); ya que es una cadena que inicia donde un individuo contagiado no-sintomático, considerado como “no-portador” del virus y quien no ha adoptado las medidas necesarias y obligatorias de aislamiento, inicia el contagio del virus al menos a tres personas más (según los cálculos epidemiológicos observados), y estas tres, cada una a otras tres más y así, sucesivamente, hasta llegar al número actual de contagiados.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Es importante tener en cuenta que el período de incubación de la COVID-19 es de 1 a 14 días aproximadamente; es decir, que desde el momento en que se adquiere el virus hasta presentar algún síntoma (en caso de manifestarse o no) pueden pasar 14 días en los que el portador sigue siendo un transmisor activo del virus (Organización Mundial de la Salud, 2019); se determina así que una persona contagiada puede transmitir el virus durante este período a 10 personas y estas 10 a otras 10 más y así, de manera sucesiva, aumenta el contagio durante los 14 días hasta alcanzar los altos niveles de transmisibilidad que se observan alrededor de todo el mundo. </p>
+			<p>La COVID-19 es una enfermedad que se nombra de manera oficial como Coronavirus Disease-2019 (COVID-19, por la OMS el 11 de febrero de 2020, también llamada Neumonía Severa con Nuevos Patógenos, el 15 de enero de 2019, en los Centros de Control de Enfermedades (CDC) de Taiwán. Es posiblemente una enfermedad zoonótica potencial con tasa de mortalidad estimada entre 2 % a 5 %. El modo de transmisión es de persona-a-persona cuando el portador del virus, con o sin síntomas, al toser o estornudar expulsa partículas de saliva con el virus, el cual, por contacto directo pasa a otras personas al no tener los equipos de protección personal necesarios (guantes y tapabocas).<xref ref-type="bibr" rid="B2"><sup>2</sup></xref> Actualmente no se cuenta con un tratamiento definitivo y efectivo contra la COVID-19.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Para el Ministerio de Salud y Protección Social de Colombia (MinSalud), los Corona-Virus (CoV) aparecen de manera periódica en diferentes partes del mundo y causan Infección Respiratoria Aguda (IRA), comúnmente llamada gripa; la cual se clasifica como leve, moderada y grave. Pero en diciembre de 2019, surge un nuevo coronavirus: COVID-19. Un par de meses después, la OMS determina su presencia y propagación como una Emergencia de Salud Pública en el mundo. En Colombia se reportó el primer caso el día 6 de marzo de 2020 (Ministerio de Salud y Protección Social de Colombia, 2019). Entre los síntomas se destacan temperatura corporal mayor a 37 °C, tos, disnea, fatiga, secreciones nasales y malestar general.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>Para prevenir la propagación de la COVID-19 en Colombia, el Ministerio de Salud determinó algunas medidas de autocuidado. Entre las que se destacan: el lavado de manos frecuente con agua y jabón (al menos cada 3 horas), evitar el acercamiento a personas enfermas, al estornudar cubrirse con la parte interna del codo, al tener algún resfriado quedarse en casa y usar tapabocas, limpiar, lavar desinfectar los elementos y superficies que se tocan con frecuencia y ventilar la casa.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> De igual forma, el Gobierno Nacional inició el control en el avance de la epidemia en el país mediante medidas como limitar la entrada de personas que provienen de países en los que se ha presentado el virus, proteger la población más vulnerable (niños, adolescentes y adultos mayores), suspender clases de colegios y universidades, al igual que limitar el número de personas en eventos públicos. No obstante, es importante saber que la COVID-19 puede afectar a cualquier persona sin tener en cuenta la edad. De manera particular, se han detectado menos casos en niños y se han presentado muertes a causa del virus en adultos mayores que padecían otras patologías como diabetes, asma e hipertensión arterial.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>De igual modo, con respecto a las lecturas de los datos por los principales medios de comunicación como son la prensa, la radio, el Ministerio de Salud Pública de Colombia, 2020, e incluso en las redes sociales hacen lecturas limitándose exclusivamente a la visualización de estos datos, dispuestos en una curva, sin mostrar la significancia estadística ni comprobar desde la inferencia las hipótesis que se plantean alrededor de la observación de estos datos; ignorando de esta manera evaluar críticamente la evidencia publicada y mejora de decisiones complejas en la práctica diaria.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Por ejemplo, proponen que en Colombia y Latinoamérica el crecimiento de contagios es exponencial; con el unido análisis: “Es fácil observarlo en el gráfico logarítmico”, sin argumentos estadísticos y con explicaciones que propician confusión. (<italic>El país.com</italic> “Así evoluciona la curva del coronavirus en México, Colombia, Chile, Argentina y el resto de Latinoamérica”, 7 de abril de 2020). Ante este tipo de lectura se propone en el presente artículo, los elementos de la estadística inferencial, para que, desde los supuestos lógicos de la inferencia de los modelos lineales y no lineales, se proponga una lectura real y contundente que conlleve a la explicación del comportamiento de los datos y una predicción, que evidencie la realidad del problema y mejore las decisiones, con respecto a las medidas requeridas y cuándo lo deben hacer, según el comportamiento de los datos.</p>
+			<p>Por otro lado, los modelos de correlación lineal y no lineal, han sido referenciados ampliamente por diversidad de autores, quienes los han aplicado en diferentes campos del saber. Por ejemplo,<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> hacen uso de modelos no lineales como los de los modelos Brody, Von Bertalanffy, Richards, logístico y Gompertz, denominados modelos de efectos fijos. (<xref ref-type="table" rid="t1">Tabla 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Representación de modelos no lineales, usados en diferentes estudios </title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt1.jpg"> </graphic>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Leyenda: y = Número de días de contagio; x = Número de contagiados;</p>
+						</fn>
+						<fn id="TFN2">
+							<p>a = Estimativo del crecimiento del contagio; b = Parámetro de contagio;</p>
+						</fn>
+						<fn id="TFN3">
+							<p>c = Estimativo de precocidad de contagio diario de COVID-2019</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Se aplica el modelo jerárquico o multinivel <xref ref-type="bibr" rid="B14"><sup>14</sup></xref> para hacer uso de las correlaciones no lineales desde el <italic>software</italic> estadístico SPSS. Estos modelos permiten estudiar la relación entre dos variables. Algunos de estos modelos parten de una estructura matemática polinómica, determinan el grado de relación entre las variables que se modelan y se basan en las estructuras matemáticas establecidas por los polinomios aritméticos</p>
+			<p>
+				<inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3309-i002.gif"/>
+			</p>
+			<p>En el <italic>software R-Kward</italic>, en el cual se simulará el crecimiento de los datos, permite la comparación de estos modelos, y determina con el p-valor y el valor del R<sup>2</sup>, cuál es el modelo que mejor predice. Los modelos que evidencia esta aplicación se observan en la <xref ref-type="table" rid="t2">tabla 2</xref>.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Modelos matemáticos que explican una relaciona en R-Kward</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt2.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Sea cual sea el campo de aplicación, el objetivo es construir un modelo representado en una ecuación matemática que permita la predicción. Dicho modelo requiere de validación previa determinada por coeficiente de correlación R<sup>2</sup> y un P-valor que proponga una relación directa entre las variables que se están relacionando; es decir, que se establezca una hipótesis, la cual tendrá la siguiente estructura.</p>
+			<p>
+				<inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3309-i004.gif"/>
+			</p>
+			<p>O sea, el contraste de regresión, Quedaría de la forma:</p>
+			<p>Hipótesis nula verdadera</p>
+			<p>En este caso se concluye que no hay evidencias de una relación entre las variables y el modelo y, por tanto, no es el modelo apropiado. Puede existir una relación en la población, pero la muestra elegida no la detecta.</p>
+			<p>Hipótesis nula falsa</p>
+			<p>Se concluye que el modelo es apropiado. Puede que exista una relación lineal o no lineal y los datos son también consistentes con el modelo ideal elegido.</p>
+			<p>Si el modelo es ideal, siendo la hipótesis alternativa verdadera y el R<sup>2</sup>, se acerca a100%, entonces, la ecuación matemática que se construye desde la correlación de los datos, predice con certeza el comportamiento de estos.</p>
+			<p>El <bold>objetivo</bold> de esta investigación es destacar la importancia del análisis de los métodos de correlación no lineal y todos sus procedimientos de inferencia estadística para el diseño de un modelo matemático que permita la predicción de los datos basados en las edades de los casos positivos de la COVID-19 en Colombia. Esto permitirá también evidenciar la importancia de reconocer el papel de la estadística en la comprensión de problemas reales.</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>Material y Métodos</title>
+			<p>Se realizó un estudio predictivo a través del diseño de un modelo comprendido entre el 17 de marzo y el 13 de abril; ya que estos estudios predicen, comportamientos controlando intervenciones y analizando resultados en diferentes condiciones con el fin de establecer efectos predecibles que ofrecen elementos para el establecimiento de normas y controles.</p>
+			<p>Los resultados de crecimiento de contagios de la COVID-19 en Colombia se evidencian en la página oficial del Ministerio de Salud, diseñada exclusivamente para realizar informes, sobre el avance de contagios. (<ext-link ext-link-type="uri" xlink:href="https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx">https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx</ext-link>) . En vivo se observa el crecimiento diario, tanto de los nuevos contagios como de los que han superado los efectos del virus y los que han padecido. Los resultados se proponen en simulación, pero también es posible obtenerlos en archivo Excel, donde se discrimina la información, por género, edad, ciudad, fecha de diagnóstico, si es importado o relacionado y el país de procedencia. </p>
+			<p>Al 13 de abril de 2020, en la página se observa que existen 2 776 casos confirmados, 270 recuperados y 109 muertos. Para el análisis de correlación, se toman los datos de las columnas, fecha de diagnóstico, desde el 17 de febrero, primer día en que se identifican contagios hasta el 10 de abril; y el número de contagiados acumulados día a día en las fechas establecidas. Los procedimientos estadísticos se realizan en el <italic>software libre R-Kward</italic><xref ref-type="bibr" rid="B15"><sup>15</sup></xref> y las gráficas que acompañan el proceso se realizaran en Excel.</p>
+			<p>Método Estadístico</p>
+			<p>Se aplica el modelo jerárquico o multinivel, donde se busca el mejor R2 y probar bajo un Pvalor &lt;0,05, cuál es el mejor modelo, con el que se realiza la predicción que permitirá comparar resultados que se ya se han dado y los que se esperan. Los resultados de la predicción se apuntarán en la <xref ref-type="table" rid="t3">tabla 3</xref>.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Resultados de predicción</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt3.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Hipótesis</p>
+			<p>Nula</p>
+			<p>No existe evidencia de una relación entre los datos del crecimiento diario acumulado de los contagiados del COVID-2019 en Colombia y el modelo ideal, por tanto, no es el modelo apropiado. </p>
+			<p>Alternativa</p>
+			<p>Existe evidencia de una relación entre los datos del crecimiento diario acumulado de los contagiados del COVID-2019 en Colombia y el modelo ideal, por tanto, es el modelo apropiado. </p>
+			<p>Haciendo uso del software se obtendrá la siguiente tabla, la cual permitirá escoger cual es el modelo ideal que se ajustan a los datos que correlacionan el crecimiento acumulado con el tiempo que ha transcurrido. (<xref ref-type="table" rid="t4">Tabla 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Comparación de modelos</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt4.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>R al cuadrado (Coeficiente de determinación)</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Los datos simulados y extraídos de la página del Ministerio de Salud Pública de Colombia, tienen el aspecto que se muestra en la <xref ref-type="table" rid="t5">tabla 5</xref>, donde el 27 de febrero es el primer día en el cual se identificó 1 caso positivo, y el 6 de marzo corresponde al día 9, en cual se identificaron 14 casos, y ya se habían acumulado, 38 casos. El ejercicio se realizará desde el día 20 hasta el día 44 que corresponde al 9 de abril en donde se registraron 10 casos y existía un acumulado de 2 831, casos confirmados.</p>
+			<p>
+				<table-wrap id="t5">
+					<label>Tabla 5</label>
+					<caption>
+						<title>Datos simulados y extraídos de la página del Ministerio de Salud Pública de Colombia</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt5.jpg"/>
+				</table-wrap>
+			</p>
+			<p>La integridad de los datos está determinada por la fuente de donde se obtienen; que corresponde a la base de datos abiertos de Colombia y que se predisponen en la plataforma <italic>datos.gov.co.;</italic> de esta base se recogen las edades, sin alterar ninguno, por lo que se garantiza que se cumplieron en todo momento con los principios éticos requeridos para la exposición de este trabajo. la investigación no demandó gastos económicos ni recursos materiales importantes.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Los resultados se mostrarán en el siguiente orden: </p>
+			<p>
+				<list list-type="order">
+					<list-item>
+						<p>Visualización de la nube de puntos, la que permitirá determinar visualmente el tipo de modelo de regresión. </p>
+					</list-item>
+					<list-item>
+						<p>En el <italic>software (R-Kward)</italic> se obtiene la tabla que permite escoger y comparar el modelo ideal, basado en el valor del R<sup>2</sup>. </p>
+					</list-item>
+					<list-item>
+						<p>Teniendo en cuenta los resultados de la tabla anterior, se plantea la hipótesis con el modelo ideal y se decide de acuerdo con el resultado del P-valor.</p>
+					</list-item>
+					<list-item>
+						<p>Estructura matemática del modelo ideal identificado.</p>
+					</list-item>
+					<list-item>
+						<p>Con el modelo ideal se realiza la predicción y se calculan los porcentajes de error.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Exploración de la nube de puntos</p>
+			<p>
+				<fig id="f1">
+					<label>Fig</label>
+					<caption>
+						<title>Nube de puntos de los datos acumulados desde el primer día hasta el día 44.</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gf1.jpg"> </graphic>
+				</fig>
+			</p>
+			<p>Desde la visualización de la <xref ref-type="fig" rid="f1">figura</xref>, se observa claramente que el modelo toma un acercamiento a un modelo de regresión cuadrático, no corresponde a un modelo lineal, tampoco tiene aspecto de un modelo de regresión exponencial </p>
+			<p>Comparación de modelos</p>
+			<p>
+				<table-wrap id="t6">
+					<label>Tabla 6</label>
+					<caption>
+						<title>Comparación de modelos</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt6.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN5">
+							<p>P Valor Se refiere a la probabilidad. La tabla lo presenta en notación científica.</p>
+						</fn>
+						<fn id="TFN6">
+							<p>Puede considerarse p≤0.01, o sea, 1 % de significación.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>La <xref ref-type="table" rid="t6">tabla 6</xref>, determina de acuerdo con el R<sup>2</sup>, que el mejor modelo, es el cuadrático, ya que presena la mejor aproximación a 1, en este caso R<sup>2</sup> = 0,9969, el modelo exponencial, potencial, lineal, presentan un buen R<sup>2</sup>, lo que propondría una tendencia de los datos de acuerdo con el crecimiento o decrecimiento de los casos de contagio. El modelo logarítmico se aleja de la relación entre estas variables, presentan un R<sup>2</sup> un poco menor que los anteriores.</p>
+			<p>Hipótesis con respecto al modelo ideal</p>
+			<p>Nula</p>
+			<p>No existe evidencia de una relación entre los datos del crecimiento diario acumulado de los contagiados de la COVID-19 en Colombia y el modelo cuadrático, por tanto, no es el modelo apropiado. </p>
+			<p>Alternativa</p>
+			<p>Existe evidencia de una relación entre los datos del crecimiento diario acumulado de los contagiados de la COVID-19 en Colombia y el modelo cuadrático, por tanto, es el modelo apropiado. </p>
+			<p>De la observación de la <xref ref-type="table" rid="t6">Tabla 6</xref>, se determinó que el modelo ideal es el cuadrático, de acuerdo con el máximo valor que R<sup>2</sup> presenta. Con respecto a la misma tabla Pvalor = 2.22e<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> &lt; 0,05, lo que evidencia la veracidad de la hipótesis alterna y la negación de la hipótesis nula; luego, si existe evidencia de una relación entre los datos del crecimiento diario acumulado de los contagiados de la COVID-19 en Colombia y el modelo cuadrático, por tanto, de acuerdo con el comportamiento de los datos, es el modelo apropiado.</p>
+			<p>Modelo matemático de la regresión cuadrática de los datos de crecimiento diario COVID-2019 en Colombia</p>
+			<p>Contagios = 115,0317 - 4,0397*Día + 3,8158*Dia<sup>2</sup></p>
+			<p>
+				<table-wrap id="t7">
+					<label>Tabla 7</label>
+					<caption>
+						<title>Coeficientes del Modelo</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt7.jpg"/>
+				</table-wrap>
+			</p>
+			<p>La <xref ref-type="table" rid="t7">tabla 7</xref> verifica la validez significativa de todos los componentes del modelo, el intercepto positivo, evidencia el punto del corte de la gráfica con el eje de las variables dependientes, contagios. Cada pareja de puntos del plano del modelo ideal corresponde a una pareja del tipo (día, contagios). Sobre este modelo ideal, por su significancia y por el valor del coeficiente de correlación R<sup>2</sup>, se posible sobre él hacer predicción, para examinar qué puede pasar en los siguientes días que están por venir.</p>
+			<p>Predicción</p>
+			<p>Teniendo en cuenta todos los supuestos establecidos anteriormente, es posible realizar la predicción, con el modelo cúbico, el cual es el ideal y representativo del modelo de crecimiento de contagios en Colombia.</p>
+			<p>
+				<table-wrap id="t8">
+					<label>Tabla 8</label>
+					<caption>
+						<title>Predicción en los últimos 10 días</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3309-gt8.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Como se observa en la <xref ref-type="table" rid="t8">tabla 8</xref>, la columna de acumulados representa el dato real, a la fecha estipulada en la tabla. La columna de dato predictivo, son los valores validados en la ecuación matemática, representada por el modelo. El modelo tanto matemático como inferencial se realizó desde la fecha en que, en Colombia, se decreta la cuarentena, marzo 17; el ejercicio de predicción se realizó sobre los últimos10 días, donde se ha notado un mayor crecimiento. </p>
+			<p>En la columna de porcentaje de error se pueden observar porcentajes bajos, lo que evidencia lo asertivo del modelo. Al continuar creciendo el número de contagios, el modelo predice que, para el 15 de abril, dato que aún no se conoce, serían 3 428 los contagiados.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Mientras el gobierno busca implementar una serie de protocolos especiales para que algunos sectores de la economía puedan retomar su operación y así garantizar la mayor cantidad de trabajadores en sus funciones posibles, en Colombia el número de casos diarios y acumulados sigue creciendo; eso se evidencia en los resultados de los últimos 10 días. El modelo matemático diseñado y valorado desde los supuestos e inferencias de la estadística, siempre va a predecir un número creciente y en forma cuadrática; es decir, de acuerdo con la estadística, cada día habrá un número mayor de contagios.</p>
+			<p>Dichos resultados llaman la atención, porque no se puede pensar en descuidar la cuarentena, máxime si los expertos afirman que la única vacuna efectiva contra el Coronavirus es el aislamiento social<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> y si el modelo con un coeficiente cuadrático y un término independiente positivo, nunca deja de crecer, por lo que sería contra- dictorio intentar levantar el aislamiento social, cuando está por delante esta realidad develada desde la estadística.</p>
+			<p>Son evidentes las aplicaciones que se dan desde los procesos de implementación de los modelos de correlación no lineal y el propósito es casi similar; por ejemplo, se observa como estos modelos<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>)</sup> se usan para describir y predecir el crecimiento de animales como un objetivo principal; en estos se establecen comparaciones entre modelos, para determinar el ideal y poder evidenciar cómo sería el crecimiento de los animales en condiciones determinadas por el experimento. Aunque en el presente artículo no sea esta la intención, si se busca de la misma manera describir y predecir el comportamiento de los datos de crecimientos de positivos a la COVID-19 en Colombia.</p>
+			<p>Pero la aplicabilidad de estos modelos sobrepasa la observación de experimentos realizados en animales. Otras líneas de las Ciencias Sociales también abordan la correlación no lineal y buscan establecer modelos predictivos que permitan describir las variables y hacer sobre ellos procesos de inferencia, los cuales concluyen en la presencia de un modelo ideal y el uso de este modelo en la predicción. Por ejemplo, se observan trabajos que relacionan la siniestralidad laboral,<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref> cuyas variables parten de datos usualmente recogidos bajo la forma de recuentos de sucesos que ocurren durante un período de tiempo definido y experimentos que permiten una correlación no lineal entre clima organizacional y la calidad en el servicio en una institución educativa.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>El crecimiento de los contagios de la COVID-19 en Colombia, es cuadrático y creciente desde el momento en que la curva se construye, los porcentajes de error no son tan altos, y para algunos casos, es casi perfecto, lo que hace más evidente la eficiencia de la predicción del modelo. </p>
+			<p>La estadística evidencia que no es un crecimiento exponencial, aunque la valoración matemática e inferencial, no lo descartan; el descuido en las medidas de acuartelamiento puede promover que este fenómeno, asuma dicha tendencia. </p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Kim KH. COVID-19. Int Neurourol J. 2020;24(1):1-1.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>KH</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19</article-title>
+					<source>Int Neurourol J</source>
+					<year>2020</year>
+					<volume>24</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>1</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Wu YCh, Chen ChS, Chan YJ. The outbreak of COVID-19: An overview. J Chin Med Assoc. 2020;83(3):217-220.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>YCh</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>ChS</given-names>
+						</name>
+						<name>
+							<surname>Chan</surname>
+							<given-names>YJ</given-names>
+						</name>
+					</person-group>
+					<article-title>The outbreak of COVID-19 An overview</article-title>
+					<source>J Chin Med Assoc</source>
+					<year>2020</year>
+					<volume>83</volume>
+					<issue>3</issue>
+					<fpage>217</fpage>
+					<lpage>220</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Veletti J. Sin duda el mejor video que he encontrado en WhatsApp. [Vídeo]. Facebook. 28 de marzo de 2020. [Citado 30/03/202]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.facebook.com/jveletti/videos/2566827740306690/?t=2">https://www.facebook.com/jveletti/videos/2566827740306690/?t=2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="software">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Veletti</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Sin duda el mejor video que he encontrado en WhatsApp</source>
+					<publisher-name>Facebook</publisher-name>
+					<day>28</day>
+					<month>03</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-30">30/03/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.facebook.com/jveletti/videos/2566827740306690/?t=2">https://www.facebook.com/jveletti/videos/2566827740306690/?t=2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Sun ML, Yang JM, Sun YP, Su GH. Inhibitors of RAS Might Be a Good Choice for the Therapy of COVID-19. Pneumonia. Chinese Journal of Tuberculosis and Respiratory Diseases [Internet]. 2020 Feb [Citado 16/03/2020];43:[aprox. 2 p.]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/32061198">https://www.ncbi.nlm.nih.gov/pubmed/32061198</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sun</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>YP</given-names>
+						</name>
+						<name>
+							<surname>Su</surname>
+							<given-names>GH</given-names>
+						</name>
+					</person-group>
+					<article-title>Inhibitors of RAS Might Be a Good Choice for the Therapy of COVID-19. Pneumonia</article-title>
+					<source>Chinese Journal of Tuberculosis and Respiratory Diseases</source>
+					<month>02</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-16">16/03/2020</date-in-citation>
+					<volume>43</volume>
+					<size units="pages">2</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/32061198">https://www.ncbi.nlm.nih.gov/pubmed/32061198</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Ministerio de Salud y Protección Social. Prevención enfermedades transmisibles CORONAVIRUS (COVID-19) ¿A quiénes afecta y cuáles son sus síntomas. Colombia: Ministerio de Salud y Protección Social; 2020. [Citado 30/03/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+					</person-group>
+					<source>Prevención enfermedades transmisibles CORONAVIRUS (COVID-19) ¿A quiénes afecta y cuáles son sus síntomas</source>
+					<publisher-loc>Colombia</publisher-loc>
+					<publisher-name>Ministerio de Salud y Protección Social</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-30">30/03/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Ministerio de Salud y Protección Social. Prevención enfermedades transmisibles CORONAVIRUS (COVID-19) ¿Cómo prevenirlo?. Colombia: Ministerio de Salud y Protección Social; 2020. [Citado 30/03/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+					</person-group>
+					<source>Prevención enfermedades transmisibles CORONAVIRUS (COVID-19) ¿Cómo prevenirlo?</source>
+					<publisher-loc>Colombia</publisher-loc>
+					<publisher-name>Ministerio de Salud y Protección Social</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-30">30/03/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Santabárbara J, López Antón R. Actitudes hacia la estadística en residentes de medicina que cursan un posgrado de investigación. Revista de la Fundación Educación Médica; 2019;22(2):79-83.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santabárbara</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>López Antón</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Actitudes hacia la estadística en residentes de medicina que cursan un posgrado de investigación</article-title>
+					<source>Revista de la Fundación Educación Médica;</source>
+					<year>2019</year>
+					<volume>22</volume>
+					<issue>2</issue>
+					<fpage>79</fpage>
+					<lpage>83</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Malhado C, Ramos A, Carneiro P, Souza J, Wechsler F, Eler J. Modelos no lineales para describir el crecimiento de bufalinos de la raza Murrah. Archivos de zootecnia. 2008;57(220):497-503.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malhado</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Carneiro</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wechsler</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Eler</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelos no lineales para describir el crecimiento de bufalinos de la raza Murrah</article-title>
+					<source>Archivos de zootecnia</source>
+					<year>2008</year>
+					<volume>57</volume>
+					<issue>220</issue>
+					<fpage>497</fpage>
+					<lpage>503</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Carrero O, Jerez M, Macchiavelli R, Orlandoni G, Stock J. Ajuste de curvas de índice de sitio mediante modelos mixtos para plantaciones de eucalyptus urophylla en Venezuela. Interciencia. 2008;33(4):265-72.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carrero</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Jerez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Macchiavelli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Orlandoni</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Stock</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Ajuste de curvas de índice de sitio mediante modelos mixtos para plantaciones de eucalyptus urophylla en Venezuela</article-title>
+					<source>Interciencia</source>
+					<year>2008</year>
+					<volume>33</volume>
+					<issue>4</issue>
+					<fpage>265</fpage>
+					<lpage>272</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Noguera R, Pereira R y Solarte C. Comparación de modelos no lineales para describir curvas de crecimiento en cuyes (Cavia porcellus) desde el nacimiento hasta la edad de sacrificio. Livestock Research for Rural Development. 2008;20(5):1-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Noguera</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<collab>Pereira R y Solarte C</collab>
+					</person-group>
+					<article-title>Comparación de modelos no lineales para describir curvas de crecimiento en cuyes (Cavia porcellus) desde el nacimiento hasta la edad de sacrificio</article-title>
+					<source>Livestock Research for Rural Development</source>
+					<year>2008</year>
+					<volume>20</volume>
+					<issue>5</issue>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Galeano V, Cerón M. Modelación del crecimiento de pollitas Lohmann LSL con redes neuronales y modelos de regresión no lineal. Revista MVZ Córdoba. 2013;18(13):3861-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galeano</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Cerón</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelación del crecimiento de pollitas Lohmann LSL con redes neuronales y modelos de regresión no lineal</article-title>
+					<source>Revista MVZ Córdoba</source>
+					<year>2013</year>
+					<volume>18</volume>
+					<issue>13</issue>
+					<fpage>3861</fpage>
+					<lpage>3867</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Domínguez V, Ortega G, Rodríguez A, Aguilar P, Santillán M, Callejas J. Ajuste de modelos no lineales para caracterizar el crecimiento de bovinos Hereford y Salers. Revista Científica. 2014;24(5):436-2.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Domínguez</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Ortega</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Aguilar</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Santillán</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Callejas</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Ajuste de modelos no lineales para caracterizar el crecimiento de bovinos Hereford y Salers</article-title>
+					<source>Revista Científica</source>
+					<year>2014</year>
+					<volume>24</volume>
+					<issue>5</issue>
+					<fpage>436</fpage>
+					<lpage>432</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Parés C, Pere M, Kucherova I. Comparación de modelos no lineales para describir curvas de crecimiento en la cabra catalana. Revista de Investigaciones Veterinarias del Perú. 2014;25(3):390-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Parés</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pere</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kucherova</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparación de modelos no lineales para describir curvas de crecimiento en la cabra catalana</article-title>
+					<source>Revista de Investigaciones Veterinarias del Perú</source>
+					<year>2014</year>
+					<volume>25</volume>
+					<issue>3</issue>
+					<fpage>390</fpage>
+					<lpage>398</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Pardo A, Ruiz M, San Martín R. Cómo ajustar e interpretar modelos multinivel con SPSS. Psicothema. 2007;19(2):308-21.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pardo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ruiz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>San Martín</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Cómo ajustar e interpretar modelos multinivel con SPSS</article-title>
+					<source>Psicothema</source>
+					<year>2007</year>
+					<volume>19</volume>
+					<issue>2</issue>
+					<fpage>308</fpage>
+					<lpage>321</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Sánchez Alberca A. rk. Teaching. Software estadístico [sofware]. versión 1.2; 2014. Jekll: Bootstrap [Citado 10/04/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://aprendeconalf.es/rkteaching-version1.2">http://aprendeconalf.es/rkteaching-version1.2</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="software">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez Alberca</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>rk. Teaching. Software estadístico</source>
+					<!--<version>1.2</version>-->
+					<year>2014</year>
+					<comment>Jekll: Bootstrap</comment>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-10">10/04/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://aprendeconalf.es/rkteaching-version1.2">http://aprendeconalf.es/rkteaching-version1.2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Gayol F, Sánchez A, Conde D. Aislamiento social y dependencia en la población anciana de una población rural. RqR Enfermería Comunitaria [Internet]. 2020 [Citado 16/03/2020];8(1):12-22. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.seapaonline.org/revistas/63-rqr-enfermeria-comunitaria-vol-8-n-1-invierno-2020">https://www.seapaonline.org/revistas/63-rqr-enfermeria-comunitaria-vol-8-n-1-invierno-2020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gayol</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Conde</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Aislamiento social y dependencia en la población anciana de una población rural</article-title>
+					<source>RqR Enfermería Comunitaria</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-16">16/03/2020</date-in-citation>
+					<volume>8</volume>
+					<issue>1</issue>
+					<fpage>12</fpage>
+					<lpage>22</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.seapaonline.org/revistas/63-rqr-enfermeria-comunitaria-vol-8-n-1-invierno-2020">https://www.seapaonline.org/revistas/63-rqr-enfermeria-comunitaria-vol-8-n-1-invierno-2020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Torres V, Barbosa I, Meyer R, Noda A, Sarduy L. Criterios de bondad de ajuste en la selección de modelos no lineales en la descripción de comportamientos biológicos. Revista Cubana de Ciencia Agrícola. 2012;46(4):345-50.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torres</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Barbosa</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Meyer</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Noda</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sarduy</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Criterios de bondad de ajuste en la selección de modelos no lineales en la descripción de comportamientos biológicos</article-title>
+					<source>Revista Cubana de Ciencia Agrícola</source>
+					<year>2012</year>
+					<volume>46</volume>
+					<issue>4</issue>
+					<fpage>345</fpage>
+					<lpage>350</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Tomás J, Rodrigo M, Oliver A. Modelos lineales y no lineales en la explicación de la siniestralidad laboral. Psicothema. 2005;7(1):154-63.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tomás</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rodrigo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Oliver</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelos lineales y no lineales en la explicación de la siniestralidad laboral</article-title>
+					<source>Psicothema</source>
+					<year>2005</year>
+					<volume>7</volume>
+					<issue>1</issue>
+					<fpage>154</fpage>
+					<lpage>163</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Sotelo A. El clima organizacional y su correlación con la calidad en el servicio en una institución de educación de nivel medio superior. Revista Iberoamericana para la Investigación y el Desarrollo Educativo.2017;8(15):582-609.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sotelo</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>El clima organizacional y su correlación con la calidad en el servicio en una institución de educación de nivel medio superior</article-title>
+					<source>Revista Iberoamericana para la Investigación y el Desarrollo Educativo</source>
+					<year>2017</year>
+					<volume>8</volume>
+					<issue>15</issue>
+					<fpage>582</fpage>
+					<lpage>609</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<title>Contribución de autoría </title>
+			<fn fn-type="other" id="fn2">
+				<label>2</label>
+				<p>JAOB: Análisis de datos, construcción de modelos, metodología, conclusiones.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>3</label>
+				<p>APPP: Introducción, análisis de variables.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>4</label>
+				<p>LNOV: Traducción, preparación de bases de datos, ajuste a las normas de la revista.</p>
+			</fn>
+			<fn fn-type="other" id="fn5">
+				<label>5</label>
+				<p>AFM: Introducción, conclusiones.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,51 @@
+#ITI#Improving mathematics assessment readability: Do large language models help?#FTI#
+#IRE# Background: Readability metrics provide us with an objective and efficient way to assess the quality of educational texts. We can use the readability measures for finding assessment items that are difficult to read for a given grade level. Hard-to-read math word problems can put some students at a disadvantage if they are behind in their literacy learning. Despite their math abilities, these students can perform poorly on difficult-to-read word problems because of their poor reading skills. Less readable math tests can create equity issues for students who are relatively new to the language of assessment. Less readable test items can also affect the assessment's construct validity by partially measuring reading comprehension. Objectives: This study shows how large language models help us improve the readability of math assessment items. Methods: We analysed 250 test items from grades 3 to 5 of EngageNY, an open-source curriculum. We used the GPT-3 AI system to simplify the text of these math word problems. We used text prompts and the few-shot learning method for the simplification task. Results and Conclusions: On average, GPT-3 AI produced output passages that showed improvements in readability metrics, but the outputs had a large amount of noise and were often unrelated to the input. We used thresholds over text similarity metrics and changes in readability measures to filter out the noise. We found meaningful simplifications that can be given to item authors as suggestions for improvement. Takeaways: GPT-3 AI is capable of simplifying hard-to-read math word problems. The model generates noisy simplifications using text prompts or few-shot learning methods. The noise can be filtered using text similarity and readability measures. The meaningful simplifications AI produces are sound but not ready to be used as a direct replacement for the original items. To improve test quality, simplifications can be suggested to item authors at the time of digital question authoring#FRE#
+#IPC# GPT-3; mathematics assessment; readability; text simplification#FPC#
+#IRF# Al-Thanyyan S.S., Azmi A.M., Automated text simplification: A survey, ACM Computing Surveys (CSUR), 54, 2, pp. 1-36, (2021); 
+Benjamin R.G., Reconstructing readability: Recent developments and recommendations in the analysis of text difficulty, Educational Psychology Review, 24, 1, pp. 63-88, (2012); 
+Bernacki M.L., Walkington C., The role of situational interest in personalized learning, Journal of Educational Psychology, 110, 6, pp. 864-881, (2018); 
+Bertram B., Newman S., Why readability formulas fail (Report No. 28). Illinois University, Urbana: Center for the Study of Reading. (Eric Document Service No. ED205915), (1981); 
+Britton B.K., Gulgoz S., Using Kintsch's computational model to improve instructional text: Effects of repairing inference calls on recall and cognitive structures, Journal of Educational Psychology, 83, 3, pp. 329-345, (1991); 
+Chandrasekar R., Srinivas B., Automatic induction of rules for text simplification, Knowledge-Based Systems, 10, 3, pp. 183-190, (1997); 
+Chen X., Meurers D., CTAP: A web-based tool supporting automatic complexity analysis. Proceedings of the workshop on computational linguistics for linguistic complexity (CL4LC), 113–119, (2016); 
+Corlatescu D.G., Dascalu M., McNamara D.S., Automated model of comprehension V2. 0. International Conference on Artificial Intelligence in Education, 119–123. Springer, Cham, (2021); 
+Crossley S.A., Kyle K., McNamara D.S., The tool for the automatic analysis of text cohesion (TAACO): Automatic assessment of local, global, and text cohesion, Behavior Research Methods, 48, 4, pp. 1227-1237, (2016); 
+Cummins D.D., Kintsch W., Reusser K., Weimer R., The role of understanding in solving word problems, Cognitive Psychology, 20, 4, pp. 405-438, (1988); 
+Dale E., Chall J.S., The concept of readability, Elementary English, 26, 1, pp. 19-26, (1949); 
+Dale R., GPT-3: What's it good for?, Natural Language Engineering, 27, 1, pp. 113-118, (2021); 
+Davidson A., Kantor R.N., On the failure of readability formulas to define readable texts: A case study from adaptations, Reading Research Quarterly, 17, pp. 187-209, (1982); 
+De Belder J., Moens M.F., Text simplification for children. Proceedings of the SIGIR workshop on accessible search systems, 19–26. ACM, New York, (2010); 
+Dempster E.R., Reddy V., Item readability and science achievement in TIMSS 2003 in South Africa, Science Education, 91, 6, pp. 906-925, (2007); 
+Flesch R., A new readability yardstick, Journal of Applied Psychology, 32, 3, pp. 221-233, (1948); 
+Francois T., Fairon C., An “AI readability” formula for French as a foreign language. Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning. 466–477, (2012); 
+Friedrich M.C., Heise E., Does the use of gender-fair language influence the comprehensibility of texts? An experiment using an authentic contract manipulating single role nouns and pronouns, Swiss Journal of Psychology, 78, 1-2, pp. 51-60, (2019); 
+Graesser A.C., McNamara D.S., Louwerse M.M., Cai Z., Coh-Metrix: Analysis of text on cohesion and language, Behavior Research Methods, Instruments, & Computers, 36, 2, pp. 193-202, (2004); 
+Heilman M., Collins-Thompson K., Eskenazi M., An analysis of statistical models and features for reading difficulty prediction. Proceedings of the third workshop on innovative use of NLP for building educational applications, 71–79, (2008); 
+Hwang W., Hajishirzi H., Ostendorf M., Wu W., Aligning sentences from standard wikipedia to simple wikipedia. Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 211–217, (2015); 
+Janfada B., Minaei-Bidgoli B., A review of the most important studies on automated text simplification evaluation metrics. 2020 6th International Conference on Web Research (ICWR), 271–278. IEEE, (2020); 
+King D., Burge B., Readability analysis of PISA 2012 mathematics, science and reading assessments, (2015); 
+Koedinger K.R., Nathan M.J., The real story behind story problems: Effects of representations on quantitative reasoning, The Journal of the Learning Sciences, 13, 2, pp. 129-164, (2004); 
+Kyle K., Crossley S.A., Automatically assessing lexical sophistication: Indices, tools, findings, and application, TESOL Quarterly, 49, 4, pp. 757-786, (2015); 
+Kyle K., Crossley S.A., Jarvis S., Assessing the validity of lexical diversity indices using direct judgements, Language Assessment Quarterly, 18, 2, pp. 154-170, (2021); 
+Lamb J.H., Reading grade levels and mathematics assessment: An analysis of Texas mathematics assessment items and their reading difficulty, The Mathematics Educator, 20, 1, (2010); 
+Loveless T., Williams V., Ball D.L., Hoffer T.B., Venkataraman L., Hedberg E.C., Report of the subcommittee on the national survey of Algebra I teachers. Foundations for success: Report of the national mathematics advisory panel, (2008); 
+McNamara D.S., Kintsch W., Learning from texts: Effects of prior knowledge and text coherence, Discourse Processes, 22, 3, pp. 247-288, (1996); 
+Nandhini K., Balasundaram S.R., Grade level classification of math word problems to improve readability for learning disability. 2012 IEEE International Conference on Technology Enhanced Education (ICTEE), (2012); 
+Nandhini K., Balasundaram S.R., Improving readability through extractive summarization for learners with reading difficulties, Egyptian Informatics Journal, 14, 3, pp. 195-204, (2013); 
+Nelson J., Perfetti C., Liben D., Liben M., Measures of text difficulty: Testing their predictive value for grade levels and student performance, (2012); 
+Noonan J., Readability problems presented by mathematics text, Early Child Development and Care, 54, 1, pp. 57-81, (1990); 
+Examples: Summary for a 2nd grader; 
+Tokenizer; 
+In Revisiting readability: A unified framework for predicting text quality. In Proceedings of the Conference on Empirical Methods in Natural Language Processing - EMNLP '08, (2008); 
+Prins E., Ulijn J., Linguistic and cultural factors in the readability of mathematics texts: The Whorfian hypothesis revisited with evidence from the South African context, Journal of Research in Reading, 21, 2, pp. 139-159, (1998); 
+Rakow S.J., Gee T.C., Test science, not Reading, Science Teacher, 54, 2, pp. 28-31, (1987); 
+Rebello B.M., Santos G.L.D., Avila C.R.B.D., Kida A.D.S.B., Effects of syntactic simplification on reading comprehension of elementary school students, Audiology-Communication Research, 24, (2019); 
+Sadoski M., Goetz E.T., Fritz J.B., Impact of concreteness on comprehensibility, interest, and memory for text: Implications for dual coding theory and text design, Journal of Educational Psychology, 85, 2, pp. 291-304, (1993); 
+Sadoski M., Goetz E.T., Rodriguez M., Engaging texts: Effects of concreteness on comprehensibility, interest, and recall in four text types, Journal of Educational Psychology, 92, 1, pp. 85-95, (2000); 
+Sawilowsky S.S., New effect size rules of thumb, Journal of Modern Applied Statistical Methods, 8, 2, pp. 26-599, (2009); 
+Sawyer M.H., A review of research in revising instructional text, Journal of Reading Behavior, 23, 3, pp. 307-333, (1991); 
+Sweller J., Van Merrienboer J.J., Paas F.G., Cognitive architecture and instructional design, Educational Psychology Review, 10, 3, pp. 251-296, (1998); 
+Walkington C., Clinton V., Shivraj P., How readability factors are differentially associated with performance for students of different backgrounds when solving mathematics word problems, American Educational Research Journal, 55, 2, pp. 362-414, (2018); 
+Walkington C., Clinton V., Sparks A., The effect of language modification of mathematics story problems on problem-solving in online homework, Instructional Science, 47, 5, pp. 499-529, (2019); 
+Walkington C., Sherman M., Howell E., Personalized learning in algebra, The Mathematics Teacher, 108, 4, pp. 272-279, (2014); 
+Zenker F., Kyle K., Investigating minimum text lengths for lexical diversity indices, Assessing Writing, 47, (2021)#FRF#

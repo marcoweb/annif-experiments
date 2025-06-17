@@ -1,0 +1,38 @@
+#ITI#On the Performance of Semi- and Nonparametric Item Response Functions in Computer Adaptive Tests#FTI#
+#IRE# Large-scale assessments often use a computer adaptive test (CAT) for selection of items and for scoring respondents. Such tests often assume a parametric form for the relationship between item responses and the underlying construct. Although semi- and nonparametric response functions could be used, there is scant research on their performance in a CAT. In this work, we compare parametric response functions versus those estimated using kernel smoothing and a logistic function of a monotonic polynomial. Monotonic polynomial items can be used with traditional CAT item selection algorithms that use analytical derivatives. We compared these approaches in CAT simulations with a variety of item selection algorithms. Our simulations also varied the features of the calibration and item pool: sample size, the presence of missing data, and the percentage of nonstandard items. In general, the results support the use of semi- and nonparametric item response functions in a CAT.#FRE#
+#IPC# computer adaptive test; large-scale testing; monotonic polynomial; nonparametric IRT#FPC#
+#IRF# Birnbaum A., Some latent trait models and their use in inferring an examinee’s ability, Statistical theories of mental test scores, pp. 395-479, (1968); 
+Bock R.D., Aitkin M., Marginal maximum likelihood estimation of item parameters: Application of an EM algorithm, Psychometrika, 46, pp. 443-459, (1981); 
+Bock R.D., Mislevy R.J., Adaptive EAP estimation of ability in a microcomputer environment, Applied Psychological Measurement, 6, pp. 431-444, (1982); 
+Chang H.-H., Ying Z., A global information approach to computerized adaptive testing, Applied Psychological Measurement, 20, 3, pp. 213-229, (1996); 
+Chang Y.-P., Chiu C.-Y., Tsai R.-C., Nonparametric CAT for CD in educational settings with small samples, Applied Psychological Measurement, 43, 7, pp. 543-561, (2019); 
+Falk C.F., Model selection for monotonic polynomial item response models, Quantitative psychology, pp. 75-85, (2019); 
+Falk C.F., The monotonic polynomial graded response model: Implementation and a comparative study, Applied Psychological Measurement, 44, 6, pp. 465-481, (2020); 
+Falk C.F., Cai L., Maximum marginal likelihood estimation of a monotonic polynomial generalized partial credit model with applications to multiple group analysis, Psychometrika, 81, 2, pp. 434-460, (2016); 
+Falk C.F., Cai L., Semi-parametric item response functions in the context of guessing, Journal of Educational Measurement, 53, 2, pp. 229-247, (2016); 
+Feuerstahler L.M., Exploring alternate latent trait metrics with the filtered monotonic polynomial IRT model, (2016); 
+Feuerstahler L.M., Metric transformations and the filtered monotonic polynomial item response model, Psychometrika, 84, 1, pp. 105-123, (2019); 
+Lee Y.-S., Applications of isotonic regression in item response theory, (2002); 
+Lee Y.-S., A comparison of methods for nonparametric estimation of item characteristic curves for binary items, Applied Psychological Measurement, 31, 2, pp. 121-134, (2007); 
+Liang L., A semi-parametric approach to estimating item response functions, (2007); 
+Liang L., Browne M.W., A quasi-parametric method for fitting flexible item response functions, Journal of Educational and Behavioral Statistics, 40, 1, pp. 5-34, (2015); 
+Lord F.M., Applications of item response theory to practical testing problems, (1980); 
+Magis D., Raiche G., lavaan: Random generation of response patterns under computerized adaptive testing with the R package catR, Journal of Statistical Software, 48, 8, pp. 1-31, (2012); 
+Mazza A., Punzo A., McGuire B., KernSmoothIRT: An R package for kernel smoothing in item response theory, Journal of Statistical Software, 58, 6, pp. 1-34, (2014); 
+Mislevy R.J., Bayes modal estimation in item response models, Psychometrika, 51, 2, pp. 177-195, (1986); 
+Muraki E., A generalized partial credit model: Application of an EM algorithm, Applied Psychological Measurement, 16, 2, pp. 159-176, (1992); 
+Nadaraya E.A., On estimating regression, Probability Theory and Its Applications, 9, 1, pp. 141-142, (1964); 
+Neale M.C., Hunter M.D., Pritikin J.N., Zahery M., Brick T.R., Kickpatrick R.M., Estabrook R., Bates T.C., Maes H.H., Boker S.M., OpenMx 2.0: Extended structural equation and statistical modeling, Psychometrika, 81, 2, pp. 535-549, (2016); 
+Pritikin J.N., rpf: Response probability functions, (2016); 
+Ramsay J.O., Kernel smoothing approaches to nonparametric item characteristic curve estimation, Psychometrika, 56, 4, pp. 611-630, (1991); 
+Ramsay J.O., TestGraf: A program for the graphical analysis of multiple choice test and questionnaire data, (2000); 
+R: A language and environment for statistical computing, (2017); 
+Shannon C.E., A mathematical theory of communication, Bell System Technical Journal, 27, 3, pp. 379-423, (1948); 
+Silverman B.W., Density estimation for statistics and data analysis, (1986); 
+Smarter Balanced Assessment Consortium: 2016-17 technical report, (2017); 
+Stander J., Silverman B.W., Temperature schedules for simulated annealing, Statistics and Computing, 4, 1, pp. 21-32, (1994); 
+Stout W., Nonparametric item response theory: A maturing and applicable measurement modeling approach, Applied Psychological Measurement, 25, 3, pp. 300-306, (2001); 
+van der Linden W.J., Bayesian item selection criteria for adaptive testing, Psychometrika, 63, 2, pp. 201-216, (1998); 
+Watson G.S., Smooth regression analysis, Series A, 26, 4, pp. 359-372, (1964); 
+Xu X., Douglas J.A., Computerized adaptive testing under nonparametric IRT models, Psychometrika, 71, 1, pp. 121-137, (2006); 
+Yen W.M., Using simulation results to choose a latent trait model, Applied Psychological Measurement, 5, 2, pp. 245-262, (1981)#FRF#

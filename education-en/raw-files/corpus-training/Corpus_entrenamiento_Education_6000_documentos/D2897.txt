@@ -1,0 +1,55 @@
+#ITI#Accounting for time dependency in meta-analyses of concordance probability estimates#FTI#
+#IRE# Recent years have seen the development of many novel scoring tools for disease prognosis and prediction. To become accepted for use in clinical applications, these tools have to be validated on external data. In practice, validation is often hampered by logistical issues, resulting in multiple small-sized validation studies. It is therefore necessary to synthesize the results of these studies using techniques for meta-analysis. Here we consider strategies for meta analyzing the concordance probability for time-to-event data (“C-index”), which has become a popular tool to evaluate the discriminatory power of prediction models with a right-censored outcome. We show that standard meta-analysis of the C-index may lead to biased results, as the magnitude of the concordance probability depends on the length of the time interval used for evaluation (defined e.g., by the follow-up time, which might differ considerably between studies). To address this issue, we propose a set of methods for random-effects meta-regression that incorporate time directly as covariate in the model equation. In addition to analyzing nonlinear time trends via fractional polynomial, spline, and exponential decay models, we provide recommendations on suitable transformations of the C-index before meta-regression. Our results suggest that the C-index is best meta-analyzed using fractional polynomial meta-regression with logit-transformed C-index values. Classical random-effects meta-analysis (not considering time as covariate) is demonstrated to be a suitable alternative when follow-up times are small. Our findings have implications for the reporting of C-index values in future studies, which should include information on the length of the time interval underlying the calculations#FRE#
+#IPC# concordance probability; fractional polynomials; meta-regression; prognostic factor research; restricted cubic splines; time-to-event data#FPC#
+#IRF# Fire M., Guestrin C., Over-optimization of academic publishing metrics: observing Goodhart's law in action, GigaScience, 8, 6, (2019); 
+Landhuis E., Scientific literature: information overload, Nature, 535, pp. 457-458, (2016); 
+Altbach P.G., de Wit H., Too much academic research is being published, Int Higher Educ, 96, pp. 2-3, (2018); 
+Gough D., Davies P., Jamtvedt G., Et al., Evidence synthesis international (ESI): position statement, Syst Rev, 9, (2020); 
+Riley R.D., Moons K.G.M., Snell K.I.E., Et al., A guide to systematic review and meta-analysis of prognostic factor studies, BMJ, 364, (2019); 
+Debray T.P.A., Damen J.A.A.G., Riley R.D., Et al., A framework for meta-analysis of prediction model studies with binary and time-to-event outcomes, Stat Methods Med Res, 28, pp. 2768-2786, (2019); 
+Collins G.S., Reitsma J.B., Altman D.G., Moons K.G., Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement, BMC Med, 13, 1, (2015); 
+Steyerberg E.W., Clinical Prediction Models: A Practical Approach to Development, Validation, and Updating, (2019); 
+Debray T.P.A., Damen J.A.A.G., Snell K.I.E., Et al., A guide to systematic review and meta-analysis of prediction model performance, BMJ, 356, (2017); 
+Harrell F.E., Lee K.L., Califf R.M., Pryor D.B., Rosati R.A., Regression modeling strategies for improved prognostic prediction, Stat Med, 3, pp. 143-152, (1984); 
+Heagerty P.J., Zheng Y., Survival model predictive accuracy and ROC curves, Biometrics, 61, pp. 92-105, (2005); 
+Gerds T.A., Kattan M.W., Schumacher M., Yu C., Estimating a time-dependent concordance index for survival prediction models with covariate dependent censoring, Stat Med, 32, pp. 2173-2184, (2013); 
+Gonen M., Heller G., Concordance probability and discriminatory power in proportional hazards regression, Biometrika, 92, pp. 965-970, (2005); 
+Uno H., Cai T., Pencina M.J., D'Agostino R.B., Wei L.J., On the C-statistics for evaluating overall adequacy of risk prediction procedures with censored survival data, Stat Med, 30, pp. 1105-1117, (2011); 
+Schmid M., Potapov S., A comparison of estimators to evaluate the discriminatory power of time-to-event models, Stat Med, 31, pp. 2588-2609, (2012); 
+Snell K.I.E., Ensor J., Debray T.P.A., Moons K.G.M., Riley R.D., Meta-analysis of prediction model performance across multiple studies: which scale helps ensure between-study normality for the C-statistic and calibration measures?, Stat Methods Med Res, 27, pp. 3505-3522, (2018); 
+van Doorn S., Debray T.P.A., Kaasenbrood F., Et al., Predictive performance of the CHA2DS2-VASc rule in atrial fibrillation: a systematic review and meta-analysis, J Thromb Haemost, 15, pp. 1065-1077, (2017); 
+van den Boorn H.G., Engelhardt E.G., van Kleef J., Et al., Prediction models for patients with esophageal or gastric cancer: a systematic review and meta-analysis, PLoS One, 13, 2, (2018); 
+He Y., Ong Y., Li X., Et al., Performance of prediction models on survival outcomes of colorectal cancer with surgical resection: a systematic review and meta-analysis, Surg Oncol, 29, pp. 196-202, (2019); 
+Buttner S., Galjart B., Beumer B.R., Et al., Quality and performance of validated prognostic models for survival after resection of intrahepatic cholangiocarcinoma: a systematic review and meta-analysis, HPB, 23, pp. 25-36, (2021); 
+Kothari G., Korte J., Lehrer E.J., Et al., A systematic review and meta-analysis of the prognostic value of radiomics based models in non-small cell lung cancer treated with curative radiotherapy, Radiother Oncol, 155, pp. 188-203, (2021); 
+Pennells L., Kaptoge S., White I.R., Thompson S.G., Wood A.M., Emerging risk factors collaboration. Assessing risk prediction models using individual participant data from multiple studies, Am J Epidemiol, 179, pp. 621-632, (2014); 
+Hattori S., Zhou X.H., Summary concordance index for meta-analysis of prognosis studies with a survival outcome, Stat Med, 40, pp. 5218-5236, (2021); 
+Eckardt K.U., Barthlein B., Baid-Agrawal S., Et al., The German chronic kidney disease (GCKD) study: design and methods, Nephrol Dial Transplant, 27, pp. 1454-1460, (2012); 
+Zacharias H.U., Altenbuchinger M., Schultheiss U.T., Et al., A predictive model for progression of CKD to kidney failure based on routine laboratory tests, Am J Kidney Dis, 79, pp. 217-230, (2022); 
+Brentnall A.R., Cuzick J., Use of the concordance index for predictors of censored survival data, Stat Methods Med Res, 27, pp. 2359-2373, (2018); 
+Gerds T.A., pec: Prediction error curves for risk prediction models in survival analysis. R package version 2022.05.04, (2022); 
+Song X., Zhou X.H., A semiparametric approach for the covariate specific ROC curve with survival outcome, Stat Sin, 18, pp. 947-965, (2008); 
+van Geloven N., He Y., Zwinderman A.H., Putter H., Estimation of incident dynamic AUC in practice, Comput Stat Data Anal, 154, (2021); 
+Longato E., Vettoretti M., Camillo B.D., A practical perspective on the concordance index for the evaluation and selection of prognostic time-to-event models, J Biomed Inform, 108, (2020); 
+Sinha B.K., Hartung J., Knapp G., Statistical Meta-Analysis with Applications, (2011); 
+Waldron L., Haibe-Kains B., Culhane A.C., Et al., Comparative meta-analysis of prognostic gene signatures for late-stage ovarian cancer, J Natl Cancer Inst, 106, (2014); 
+van Klaveren D., Steyerberg E.W., Perel P., Vergouwe Y., Assessing discriminative ability of risk models in clustered data, BMC Med Res Methodol, 14, (2014); 
+Schwarzer G., Chemaitelly H., Abu-Raddad L.J., Rucker G., Seriously misleading results using inverse of freeman-Tukey double arcsine transformation in meta-analysis of single proportions, Res Synth Methods, 10, pp. 476-483, (2019); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Harrell F.E., rms: Regression modeling strategies. R package version 6.3-0, (2022); 
+Harrell F.E., Regression Modeling Strategies: with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis, (2015); 
+Royston P., Sauerbrei W., Multivariable Model-Building: A Pragmatic Approach to Regression Anaylsis Based on Fractional Polynomials for Modelling Continuous Variables, (2008); 
+Royston P., Altman D.G., Regression using fractional polynomials of continuous covariates: parsimonious parametric modelling, J R Stat Soc Ser C, 43, pp. 429-453, (1994); 
+Royston P., Model selection for univariable fractional polynomials, Stata J, 17, pp. 619-629, (2017); 
+Balduzzi S., Rucker G., Schwarzer G., How to perform a meta-analysis with R: a practical tutorial, Evid Based Ment Health, 22, pp. 153-160, (2019); 
+Pinheiro J., Bates D., nlme: linear and nonlinear mixed effects models. R package version 3.1-160, (2022); 
+Rover C., Friede T., Double arcsine transform not appropriate for meta-analysis, Res Synth Methods, 13, pp. 645-648, (2022); 
+Franceschini N., Shara N., Wang H., Et al., The association of genetic variants of type 2 diabetes with kidney function, Kidney Int, 82, pp. 220-225, (2012); 
+Beekman M., Blanche H., Perola M., Et al., Genome-wide linkage analysis for human longevity: genetics of healthy ageing study, Aging Cell, 12, pp. 184-193, (2013); 
+Jogi N.O., Kitaba N., Storaas T., Et al., Ascaris exposure and its association with lung function, asthma, and DNA methylation in northern Europe, J Allergy Clin Immunol, 149, pp. 1960-1969, (2022); 
+Collatuzzo G., Visci G., Violante F.S., Et al., Determinants of anti-S immune response at 6 months after COVID-19 vaccination in a multicentric European cohort of healthcareworkers—ORCHESTRA project, Front Immunol, 13, (2022); 
+van Geloven N., Giardiello D., Bonneville E.F., Et al., Validation of prediction models in the presence of competing risks: a guide through modern methods, BMJ, 377, (2022); 
+Rover C., Friede T., Dynamically borrowing strength from another study through shrinkage estimation, Stat Methods Med Res, 29, pp. 293-308, (2020); 
+Sauerbrei W., Abrahamowicz M., Altman D.G., le Cessie S., Carpenter J., Strengthening analytical thinking for observational studies: the STRATOS initiative, Stat Med, 33, pp. 5413-5432, (2014); 
+Reitsma J.B., Glas A.S., Rutjes A.W., Scholten R.J., Bossuyt P.M., Zwinderman A.H., Bivariate analysis of sensitivity and specificity produces informative summary measures in diagnostic reviews, J Clin Epidemiol, 58, pp. 982-990, (2005); 
+Olaciregui-Dague K., Weinhold L., Hoppe C., Schmid M., Surges R., Anti-seizure efficacy and retention rate of carbamazepine is highly variable in randomized controlled trials: a meta-analysis, Epilepsia Open, 7, pp. 556-569, (2022)#FRF#

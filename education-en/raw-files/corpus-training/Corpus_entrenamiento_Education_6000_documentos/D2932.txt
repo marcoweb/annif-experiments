@@ -1,0 +1,45 @@
+#ITI#Combining meta-analysis with multiple imputation for one-step, privacy-protecting estimation of causal treatment effects in multi-site studies#FTI#
+#IRE# Missing data complicates statistical analyses in multi-site studies, especially when it is not feasible to centrally pool individual-level data across sites. We combined meta-analysis with within-site multiple imputation for one-step estimation of the average causal effect (ACE) of a target population comprised of all individuals from all data-contributing sites within a multi-site distributed data network, without the need for sharing individual-level data to handle missing data. We considered two orders of combination and three choices of weights for meta-analysis, resulting in six approaches. The first three approaches, denoted as RR + metaF, RR + metaR and RR + std, first combined results from imputed data sets within each site using Rubin's rules and then meta-analyzed the combined results across sites using fixed-effect, random-effects and sample-standardization weights, respectively. The last three approaches, denoted as metaF + RR, metaR + RR and std + RR, first meta-analyzed results across sites separately for each imputation and then combined the meta-analysis results using Rubin's rules. Simulation results confirmed very good performance of RR + std and std + RR under various missing completely at random and missing at random settings. A direct application of the inverse-variance weighted meta-analysis based on site-specific ACEs can lead to biased results for the targeted network-wide ACE in the presence of treatment effect heterogeneity by site, demonstrating the need to clearly specify the target population and estimand and properly account for potential site heterogeneity in meta-analyses seeking to draw causal interpretations. An illustration using a large administrative claims database is presented#FRE#
+#IPC# causal inference; heterogeneity; meta-analysis; multi-site study; multiple imputation; privacy protection#FPC#
+#IRF# Toh S., Platt R., Steiner J.F., Brown J.S., Comparative-effectiveness research in distributed health data networks, Clin Pharmacol Ther, 90, 6, pp. 883-887, (2011); 
+Platt R.W., Platt R., Brown J.S., Henry D.A., Klungel O.H., Suissa S., How pharmacoepidemiology networks can manage distributed analyses to improve replicability and transparency and minimize bias, Pharmacoepidemiol Drug Saf, 29, S1, pp. 3-7, (2020); 
+Hennessy S., Berlin J.A., Real-world trends in the evaluation of medical products, Am J Epidemiol, 192, 1, pp. 1-5, (2023); 
+Ball R., Robb M., Anderson S.A., Dal Pan G., The FDA's sentinel initiative—a comprehensive approach to medical product surveillance, Clin Pharmacol Ther, 99, 3, pp. 265-268, (2016); 
+Suissa S., Henry D., Caetano P., Et al., CNODES: the Canadian network for observational drug effect studies, Open Med, 6, 4, pp. e134-e140, (2012); 
+The European Health Data & Evidence Network (EHDEN); 
+Sentinel System—Five-Year Strategy 2019–2023; 
+Lunceford J.K., Davidian M., Stratification and weighting via the propensity score in estimation of causal treatment effects: a comparative study, Stat Med, 23, 19, pp. 2937-2960, (2004); 
+Horvitz D.G., Thompson D.J., A generalization of sampling without replacement from a finite universe, J Am Stat Assoc, 47, 260, pp. 663-685, (1952); 
+Rosenbaum P.R., Rubin D.B., The central role of the propensity score in observational studies for causal effects, Biometrika, 70, 1, pp. 41-55, (1983); 
+Rosenbaum P.R., Model-based direct adjustment, J Am Stat Assoc, 82, 398, pp. 387-394, (1987); 
+Seaman S.R., White I.R., Review of inverse probability weighting for dealing with missing data, Stat Methods Med Res, 22, 3, pp. 278-295, (2013); 
+Hernan M.A., Robins J.M., Causal Inference: What If, (2021); 
+Toh S., Analytic and data sharing options in real-world multidatabase studies of comparative effectiveness and safety of medical products, Clin Pharmacol Ther, 107, 4, pp. 834-842, (2020); 
+Hunt N.B., Gardarsdottir H., Bazelier M.T., Klungel O.H., Pajouheshnia R., A systematic review of how missing data are handled and reported in multi-database pharmacoepidemiologic studies, Pharmacoepidemiol Drug Saf, 30, 7, pp. 819-826, (2021); 
+Little R.J.A., Rubin D.B., Statistical Analysis with Missing Data, (2002); 
+Borenstein M., Hedges L.V., Higgins J.P.T., Rothstein H.R., Introduction to Meta-Analysis, (2009); 
+Borenstein M., Hedges L.V., Higgins J.P.T., Rothstein H.R., A basic introduction to fixed-effect and random-effects models for meta-analysis, Res Synth Methods, 1, 2, pp. 97-111, (2010); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Rubin D.B., Multiple Imputation for Nonresponse in Surveys, (1987); 
+White I.R., Royston P., Wood A.M., Multiple imputation using chained equations: issues and guidance for practice, Stat Med, 30, 4, pp. 377-399, (2011); 
+Burgess S., White I.R., Resche-Rigon M., Wood A.M., Combining multiple imputation and meta-analysis with individual participant data, Stat Med, 32, 26, pp. 4499-4514, (2013); 
+Shu D., Webster-Clark M., Platt R.W., Toh S., Meta-analysis with sample-standardization in multi-site studies, Pharmacoepidemiol Drug Saf, 32, 1, pp. 56-59, (2023); 
+MarketScan Research Databases, (2019); 
+Sun J.W., Wang R., Li D., Toh S., Use of linked databases for improved confounding control: considerations for potential selection bias, Am J Epidemiol, 191, 4, pp. 711-723, (2022); 
+Lunceford J.K., Corrections for "stratification and weighting via the propensity score in estimation of causal treatment effects: a comparative study, Stat Med, 36, 14, (2017); 
+Stefanski L.A., Boos D.D., The calculus of M-estimation, Am Stat, 56, 1, pp. 29-38, (2002); 
+Shu D., Yi G.Y., Causal inference with measurement error in outcomes: bias analysis and estimation methods, Stat Methods Med Res, 28, 7, pp. 2049-2068, (2019); 
+Schafer J.L., Multiple imputation: a primer, Stat Methods Med Res, 8, 1, pp. 3-15, (1999); 
+Little R.J.A., Missing-data adjustments in large surveys, J Bus Econ Stat, 6, 3, pp. 287-296, (1988); 
+van Buuren S., Boshuizen H.C., Knook D.L., Multiple imputation of missing blood pressure covariates in survival analysis, Stat Med, 18, 6, pp. 681-694, (1999); 
+Raghunathan T.E., Lepkowski J.M., Van Hoewyk J., Solenberger P., A multivariate technique for multiply imputing missing values using a sequence of regression models, Surv Methodol, 27, 1, pp. 85-95, (2001); 
+van Buuren S., Multiple imputation of discrete and continuous data by fully conditional specification, Stat Methods Med Res, 16, 3, pp. 219-242, (2007); 
+van Buuren S., Groothuis-Oudshoorn K., Mice: multivariate imputation by chained equations in R, J Stat Softw, 45, 3, pp. 1-67, (2011); 
+Seaman S., White I., Inverse probability weighting with missing predictors of treatment assignment or missingness, Commun Stat—Theory Methods, 43, 16, pp. 3499-3515, (2014); 
+Leyrat C., Seaman S.R., White I.R., Et al., Propensity score analysis with partially observed covariates: how should multiple imputation be used?, Stat Methods Med Res, 28, 1, pp. 3-19, (2019); 
+Moons K.G.M., Donders R.A.R.T., Stijnen T., Harrell F.E., Using the outcome for imputation of missing predictor values was preferred, J Clin Epidemiol, 59, 10, pp. 1092-1101, (2006); 
+Higgins J.P.T., Thompson S.G., Deeks J.J., Altman D.G., Measuring inconsistency in meta-analyses, BMJ, 327, 7414, pp. 557-560, (2003); 
+Cole S.R., Stuart E.A., Generalizing evidence from randomized clinical trials to target populations: the ACTG 320 trial, Am J Epidemiol, 172, 1, pp. 107-115, (2010); 
+White I.R., Carlin J.B., Bias and efficiency of multiple imputation compared with complete-case analysis for missing covariate values, Stat Med, 29, 28, pp. 2920-2931, (2010); 
+Carpenter J.R., Kenward M.G., White I.R., Sensitivity analysis after multiple imputation under missing at random: a weighting approach, Stat Methods Med Res, 16, 3, pp. 259-275, (2007); 
+Secrest M.H., Platt R.W., Reynier P., Dormuth C.R., Benedetti A., Filion K.B., Multiple imputation for systematically missing confounders within a distributed data drug safety network: a simulation study and real-world example, Pharmacoepidemiol Drug Saf, 29, S1, pp. 35-44, (2020)#FRF#

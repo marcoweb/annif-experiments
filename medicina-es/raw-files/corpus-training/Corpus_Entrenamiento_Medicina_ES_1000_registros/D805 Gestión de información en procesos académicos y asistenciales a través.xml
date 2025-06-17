@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00011</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Gestión de información en procesos académicos y asistenciales a través de la nube Infomed Santiago</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Information management in academic and assistance processes through the cloud Infomed Santiago</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4564-0020</contrib-id>
+					<name>
+						<surname>Lescay Arias</surname>
+						<given-names>Michel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4404-5844</contrib-id>
+					<name>
+						<surname>Montoya Acosta</surname>
+						<given-names>Luis Alberto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3902-3800</contrib-id>
+					<name>
+						<surname>Zelada Pérez</surname>
+						<given-names>Malena de los Milagros</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4196-6146</contrib-id>
+					<name>
+						<surname>Bell Fernández</surname>
+						<given-names>Noides Manuel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7104-7760</contrib-id>
+					<name>
+						<surname>Ramírez Pedroso</surname>
+						<given-names>Adalberto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Facultad de Enfermería - Tecnología de la Salud. Universidad de Ciencias Médicas. Santiago de Cuba, Cuba. </institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Facultad de Enfermería - Tecnología de la Salud</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Universidad Estatal de Guayaquil. Ecuador.</institution>
+				<institution content-type="normalized">Universidad Estatal de Guayaquil</institution>
+				<institution content-type="orgname">Universidad Estatal de Guayaquil</institution>
+				<country country="EC">Ecuador</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Centro Provincial de Información de Ciencias Médicas. Universidad de Ciencias Médicas. La Habana, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Centro Provincial de Información de Ciencias Médicas</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">La Habana</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Policlínico Docente Camilo Torres Restrepo. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Policlínico Docente Camilo Torres Restrepo</institution>
+				<institution content-type="orgname">Policlínico Docente Camilo Torres Restrepo</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Facultad de Ciencias Médicas No. 1. Universidad de Ciencias Médicas. Santiago de Cuba, Cuba. </institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Médicas No. 1</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. <email>mlescay@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflictos de intereses</label>
+					<p> Los autores no declaran conflictos de intereses.</p>
+				</fn>
+				<fn fn-type="other" id="fn2">
+					<p>Michel Lescay Arias: recolección de los datos, elaboración del artículo, presentación y análisis de los resultados (40 %) </p>
+				</fn>
+				<fn fn-type="other" id="fn3">
+					<p>Luis Alberto Montoya Acosta: revisión y corrección del artículo (20 %)</p>
+				</fn>
+				<fn fn-type="other" id="fn4">
+					<p>Malena Zelada Pérez: revisión y corrección del artículo (15 %) </p>
+				</fn>
+				<fn fn-type="other" id="fn5">
+					<p>Noides Manuel Bell Fernández: revisión y corrección del artículo (15 %)</p>
+				</fn>
+				<fn fn-type="other" id="fn6">
+					<p>Adalberto Ramírez Pedroso: elaboración de las referencias bibliográficas (10%) </p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>29</day>
+				<month>07</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">!-->
+			<pub-date pub-type="epub-ppub">
+				<season>Jul-Aug</season>
+				<year>2022</year>
+			</pub-date>
+			<volume>26</volume>
+			<issue>4</issue>
+			<elocation-id>e4169</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>05</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>12</day>
+					<month>06</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción</title>
+					<p> La gestión de información agiliza los procesos en diferentes ambientes laborales, para lo cual se emplean sistemas capaces de reunir, organizar y vincular la información almacenada. La nube se basa en tecnologías existentes, tales como virtualización y servicios web; constituye un hito informático y se adapta a diversos escenarios y contextos. </p>
+				</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p> Contribuir a la gestión de información relacionada con las bases de datos de la reacción en cadena de la polimerasa y los procesos de acreditación en la Universidad de Ciencias Médicas de Santiago de Cuba a través de la nube Infomed Santiago.</p>
+				</sec>
+				<sec>
+					<title>Métodos</title>
+					<p> Se realizó una investigación aplicada de desarrollo tecnológico en el Centro Provincial de Información de Ciencias Médicas, la Universidad de Ciencias Médicas y el Centro Provincial de Higiene, Epidemiología y Microbiología de Santiago de Cuba, desde junio hasta diciembre del 2021. Se aplicaron encuestas a 19 profesionales del sector, quienes laboraban directamente en la gestión de información relacionada con las bases de datos antes citadas.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p> Los 19 encuestados (100,0 %) afirmaron que utilizaban el correo electrónico, el chat integrado, la nube y otras facilidades que esta herramienta ofrece para almacenar y compartir información.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones</title>
+					<p> La nube permitió la gestión de información relacionada con los procesos asistenciales y académicos durante el periodo más crítico de la COVID-19.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction</title>
+					<p> The information management speeds up the processes in different labor atmospheres, for which systems able to gather, organize and link the stored information are used. The cloud is based on existent technologies, such as virtualization and web services; it constitutes a computer landmark and it is adapted to diverse scenarios and contexts. </p>
+				</sec>
+				<sec>
+					<title>Objective</title>
+					<p> To contribute the information management related to the databases of the polymerase chain reaction and the accreditation processes in the University of Medical Sciences from Santiago de Cuba through the cloud Infomed Santiago. </p>
+				</sec>
+				<sec>
+					<title>Methods</title>
+					<p> An applied investigation of technological development was carried out in the Provincial Information Center of Medical Sciences, the University of Medical Sciences and the Provincial Center of Hygiene, Epidemiology and Microbiology in Santiago de Cuba, from June to December, 2021. Surveys were applied to 19 professionals of the sector who worked directly in the administration of information related to the databases mentioned. </p>
+				</sec>
+				<sec>
+					<title>Results</title>
+					<p> The 19 professionals interviewed (100.0 %) affirmed that they used the electronic mail, the integrated chat, the cloud and other facilities that this tool offers to store and share information. </p>
+				</sec>
+				<sec>
+					<title>Conclusions</title>
+					<p> The cloud allowed the information management related to the assistance and academic processes during the most critical period of COVID-19. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>nube computacional</kwd>
+				<kwd>gestión de información</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>proceso asistencial</kwd>
+				<kwd>proceso académico</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>computing cloud</kwd>
+				<kwd>information management</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>assistance process</kwd>
+				<kwd>academic process</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="11"/>
+				<page-count count="12"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>La información es un recurso que precisa ser gestionado eficazmente, del mismo modo que los recursos financieros y humanos. Su gestión constituye un reto importante no solo en materia de organización, sino también de oportunidad para aumentar la eficiencia, lo cual permite fortalecer la dirección y el control, con vistas al cumplimiento satisfactorio de la planeación estratégica. Su fin es contribuir a una toma de decisiones más certera por parte de los directivos de los diferentes niveles y de cualquier organización.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Para abordar este tema se debe partir necesariamente de la conceptualización de la gestión de información y del conocimiento. En tal sentido, se ha tenido en cuenta lo que ha planteado por Rowley y mencionado por Ponjuán<italic>,</italic><xref ref-type="bibr" rid="B2"><sup>2</sup></xref> donde se expresa que la gestión de información incluye el planeamiento de la política informativa de toda la organización, el desarrollo y el mantenimiento de sistemas y servicios integrados, la optimización de los flujos de información, así como el fortalecimiento de las tecnologías para satisfacer los requerimientos funcionales de los usuarios finales, sin considerar su estado o rol en la organización de origen.</p>
+			<p>De hecho, sus actores principales son los profesionales de la información en estrecha unión con los usuarios. Sus procesos primordiales son la identificación de las necesidades de información, la adquisición de las fuentes informativas, su organización y almacenamiento, el desarrollo de productos y servicios, así como su distribución y uso, que también constituyen la base de la creación del conocimiento durante la existencia productiva de la organización. Por ello, este tipo de gestión ocupa, cada vez más, un mayor espacio en la economía de las organizaciones.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>La gestión de información agiliza los procesos en los diferentes ambientes laborales, pues utiliza sistemas capaces de reunir, organizar y vincular la información almacenada. Lo fundamental es saber cómo controlar y formalizar los datos que se tienen para proporcionar una óptima toma de decisiones y así agilizar los procesos involucrados.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Ahora bien, la implementación de sistemas de gestión de información en una entidad genera grandes ventajas, entre las cuales figuran: incrementar la capacidad de organización de dicha entidad y lograr que los procesos sean más eficientes para alcanzar una verdadera competitividad. Para ello es necesario un sistema eficaz, que ofrezca múltiples posibilidades y permita acceder a los datos relevantes de manera frecuente y oportuna.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>)</sup></p>
+			<p>El avance de internet como red de comunicación global, el surgimiento y desarrollo de la web como servicio imprescindible para compartir información crearon un excelente espacio para la interacción del hombre con la información hipertextual. Además, sentaron las bases para el desarrollo de una herramienta integradora de los servicios existentes en internet.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>Resulta importante señalar, que la red Infomed se distingue por su personal calificado. Cuenta con un grupo técnico de calidad en el nodo provincial para su administración eficiente, que constituye a su vez, un equipo de referencia nacional en lo concerniente a las tecnologías de redes y telecomunicaciones. En Infomed convergen un conjunto de redes, que diseñan y generan servicios y productos de información. Cada una de estas redes aporta contenidos y servicios con alto valor agregado, regidos por estándares de calidad y dirigidos a satisfacer las necesidades de información de los usuarios para los cuales están diseñadas. La red Infomed incluye especialistas de la salud, las tecnologías y las ciencias de la información, los cuales desarrollan funciones asistenciales, investigativas, docentes y gerenciales en las instituciones del sector de la salud en Cuba, así como en el ámbito internacional.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>En este sentido, para enfrentar la carencia de recursos tecnológicos causada por las limitaciones económicas, las organizaciones pueden considerar como una alternativa la utilización de la nube computacional. La red Infomed tiene como visión convertirse en una organización líder en la gestión de la información y el conocimiento, presta servicios de alto valor agregado que garantizan la excelencia en la actividad científico -investigativa, docente y asistencial en el sector de la Salud Pública. Dicho sector en Santiago de Cuba enfrenta, diariamente, procesos asistenciales y académicos que demandan el intercambio, almacenamiento y procesamiento de importantes volúmenes de información. </p>
+			<p>A partir de marzo del 2019 comienzan los primeros casos de COVID-19 en Cuba. La gestión de información relacionada con la prueba diagnóstica de la reacción en cadena de la polimeraza (PCR) en tiempo real y el escenario de restricciones de movimiento, así como de aislamiento afectan los procesos de acreditación de las especialidades (medicina intensiva y emergencia, pediatría, imagenología y gastroenterología) de la Universidad de Ciencias Médicas de Santiago de Cuba. Estos procedimientos se realizan de forma tradicional a través del correo electrónico, los dispositivos externos de almacenamiento (USB) y la presencialidad de los participantes en un escenario de normalidad sin pandemia. A partir de las limitaciones generadas por la COVID-19 se generan retrasos para desarrollar las actividades relacionadas con los partes de PCR, Sistema Ultra Micro Analítico (SUMA) y la información necesaria para la gestión de las acreditaciones de la universidad médica en el territorio. </p>
+			<p>Sobre la base de las consideraciones anteriores los autores decidieron desarrollar la nube Infomed Santiago, para contribuir a la gestión de información relacionada con las bases de datos de PCR y procesos de acreditación en la Universidad de Ciencias Médicas de Santiago de Cuba. </p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó una investigación aplicada de desarrollo tecnológico en el Centro Provincial de Información de Ciencias Médicas, la Universidad de Ciencias Médicas y el Centro Provincial de Higiene, Epidemiología y Microbiología de Santiago de Cuba, desde junio hasta diciembre del 2021, a fin de contribuir a la gestión de información relacionada con las bases de datos de la reacción en cadena de la polimerasa y los procesos de acreditación en la Universidad de Ciencias Médicas de Santiago de Cuba, a través de la nube Infomed Santiago. Se aplicaron encuestas a 19 profesionales del sector, quienes trabajan directamente en la gestión de información relacionada con los procesos antes citados, lo cual permitió recolectar toda la información necesaria para el diseño y desarrollo de dicha nube computacional. </p>
+			<p>En este artículo se describe y evidencia el proceso de creación e implementación de la nube Infomed Santiago sobre la plataforma <italic>nextcloud</italic> 15, sistema de gestión de contenidos (<italic>CMS</italic>) para el almacenamiento de información en internet y los principales elementos para el uso de esta plataforma; los sistemas operativos de código abierto (<italic>Linux</italic>) utilizados con sus respectivos servicios, así como los resultados obtenidos en su implementación. </p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Al analizar el escenario de la gestión de información académica y asistencial antes y después de creada la nube Infomed Santiago se constató que en el indicador gestión de información con el uso de las tecnologías de la información y la comunicación (TIC), 7 profesionales (36,8 %) afirmaron que utilizaban exclusivamente el correo electrónico institucional de Infomed y, en cierta medida, unidades extraíbles de información. Luego de desarrollada la nube Infomed Santiago, los 19 encuestados (100,0 %) aseveraron que utilizaban esta nube, el correo electrónico, el chat integrado en dicha nube y las facilidades que esta herramienta ofrece para almacenar y compartir la información.</p>
+			<p>Respecto al indicador conectividad antes de desarrollada e implementada la nube Infomed Santiago se muestra que 15 profesionales (78,9 %) refirieron que las condiciones de conectividad en cuanto a velocidad y accesibilidad a las redes informáticas (Infomed, intranet) eran buenas, pero persistían problemáticas atribuibles a la inestabilidad en la navegación, lo que dificultaba el acceso al correo electrónico y otras herramientas. A partir de los ajustes realizados en el propio desarrollo de la nube a los servidores del nodo provincial de salud y de las instituciones implicadas en las acreditaciones de especialidades, así como las emisiones de información sobre los resultados de los PCR se observó, que 100,0 % de los encuestados respondieron satisfactoriamente al indicador conectividad luego de implementada esta.</p>
+			<p>En cuanto a la disponibilidad y accesibilidad, 6 de los encuestados (31,5 %) relataron que la información y otros elementos necesarios para desarrollar y cumplir con la actividad que les correspondía solo se encontraban disponibles en los medios extraíbles personales. Luego de la implementación de la nube, 18 profesionales (94,7 %) afirmaron que los elementos mencionados anteriormente se encontraban almacenados de forma segura en la nube Infomed Santiago, así como disponibles y accesibles para los usuarios. </p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Ampliamente se ha difundido una conciencia creciente acerca de la importancia de las TIC como herramientas para el logro de las metas del desarrollo económico y social. Se ha pasado de una idealización de sus ventajas, reflejo de su acelerado crecimiento en la década de los noventa, a una aproximación más equilibrada que destaca el papel fundamental de los recursos humanos en este proceso. En la actualidad se reconoce, que es necesario lograr un adecuado balance entre las políticas públicas, la asignación de recursos y el establecimiento de metas concretas para alcanzar un impacto positivo de estas tecnologías.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>En ese orden de ideas, y teniendo en cuenta los criterios de los especialistas encuestados en esta investigación, se determinó desarrollar el producto tecnológico desde la integración de una arquitectura de <italic>software</italic> y <italic>hardware</italic>, a través de plantillas predeterminadas de <italic>nextcloud</italic> 15 y su adaptación para obtener una interfaz gráfica agradable que dinamizara la experiencia de navegación del usuario (<xref ref-type="fig" rid="f1">fig</xref>). La nube posee como elementos de <italic>hardware</italic>, un centro de datos con 2 servidores profesionales <italic>Dell Power Edge R530</italic> y, como elementos de <italic>software</italic> para el despliegue del producto, sistemas operativos Debian 9 y el sistema de virtualización <italic>proxmox</italic> en clúster, mínimo 2, para obtener migración en caliente y otras características para enfrentar situaciones de fallo del centro de datos y garantizar tanto la seguridad como la disponibilidad de los archivos almacenados. Se encuentra disponible en la dirección web <ext-link ext-link-type="uri" xlink:href="https://nube.scu.sld.cu/">https://nube.scu.sld.cu</ext-link>.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig</label>
+					<caption>
+						<title>Arquitectura de hardware y software</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-04-e4169-gf1.gif"/>
+				</fig>
+			</p>
+			<p>Los profesionales encargados de gestionar la información relacionada con los PCR en tiempo real y la acreditación en la Universidad de Ciencias Médicas de Santiago de Cuba pueden acceder a la plataforma para actualizar contenido, almacenar información, descargarla y compartir con los usuarios (según los roles establecidos), que pueden disponer de estos recursos en cualquier lugar y momento, a través del servicio <italic>web</italic>.</p>
+			<p>Para desarrollar las funcionalidades del producto resultante se utilizaron aplicaciones (apps) de <italic>nextcloud</italic>, las principales que garantizan el propósito de la investigación. Las apps utilizadas fueron las siguientes: <italic>auto mail accounts, ebook reader, gallery, flow upload, mail, orcid, notifications, password policy, registration, quota warning.</italic></p>
+			<p>La nube permite el inicio de sesión con el protocolo de seguridad <italic>SSL</italic>, el cual posibilita la autenticación, encriptación y desencriptación de datos enviados a través de internet. Lo anterior permite proteger la información del producto desarrollado a partir de esta investigación.</p>
+			<p>Cabe destacar que la nube o la computación en nube es uno de los términos tecnológicos que más se repite actualmente. Se basa en tecnologías ya existentes, tales como internet, virtualización y servicios <italic>web</italic>, pero su aparición constituye un hito informático emergente para la prestación de servicios de este tipo y su uso se adapta a diversos escenarios y contextos. Internet ha influido en el nacimiento de nuevas profesiones y, en consecuencia, en la aparición de nuevos perfiles profesionales. Se basa en nuevos conocimientos, habilidades, valores y una serie de principios generados por conocimiento. Asimismo, aporta recursos altamente calificados que requieren el reciclaje y la adaptación de los profesionales de la información, lo que se pone de manifiesto en los sistemas y servicios de salud, que cuentan con una red telemática, la cual soporta los sitios web de las instituciones y los servicios científico-técnicos, así como otros tantos relacionados con la salud pública cubana.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>)</sup></p>
+			<p>Actualmente, la información es uno de los recursos más importantes con que cuenta una organización, puesto que sus actividades e interrelaciones deben tener gran eficiencia para garantizar una mayor calidad en sus resultados. Debido a esto, la informatización de los procesos juega un papel clave y aún más cuando están relacionados con los soportes telemáticos de la red de salud en Cuba, pues optimiza y previene la duplicidad, de manera tal que garantiza el ahorro de tiempo y recursos.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>La gestión del conocimiento requiere implementar tecnologías y sistemas de información que atiendan las necesidades de las iniciativas y prácticas de cada institución. Al respecto, se han desarrollado estudios enfocados en herramientas, redes sociales, prácticas de conocimiento, sistemas de flujo de trabajo o metodologías organizacionales, recursos y marcos para gestionar el conocimiento organizativo y aumentar su difusión y su uso, así como para gestionar la creación y transmisión del conocimiento estructurado y no estructurado, que busca respaldar y mejorar las actividades y los recursos de dicho conocimiento.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>En cuanto a la identificación de factores necesarios para la construcción de modelos de gestión de conocimiento, algunos resultados apuntan a soportar la estructura de estos en páginas <italic>web</italic>, plataformas en línea, tecnologías de información y la utilización de <italic>software,</italic> tales como atom (motor de mapas temáticos de AION), tecnología <italic>web</italic> semántica, métodos apte (aplicación de la ingeniería tecnológica) y fast (técnica del sistema de análisis de funciones).<xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>)</sup></p>
+			<p>Finalmente, la nube Infomed Santiago permitió la gestión de información relacionada con los procesos de acreditación de especialidades durante el periodo más crítico de la COVID-19. El producto resultante fue diseñado además con los estándares de la <italic>web</italic> 3.0 y 4.0 y entre sus funcionalidades se encuentran el almacenamiento, distribución y seguridad de la información relacionada con los PCR realizados en el laboratorio de virología provincial.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas </title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Bouza Betancourt O, Couto Torres D, Sosa Pérez NC. Evaluación del estado de la gestión de la información científica y tecnológica: dimensiones e indicadores. Revista Cubana de Información en Ciencias de la Salud. 2017 [citado 07/12/2021]; 28 (4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.acimed.sld.cu/index.php/acimed/article/view/1108">http://www.acimed.sld.cu/index.php/acimed/article/view/1108</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bouza Betancourt</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Couto Torres</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sosa Pérez</surname>
+							<given-names>NC</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluación del estado de la gestión de la información científica y tecnológica: dimensiones e indicadores</article-title>
+					<source>Revista Cubana de Información en Ciencias de la Salud</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-07">07/12/2021</date-in-citation>
+					<volume>28</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.acimed.sld.cu/index.php/acimed/article/view/1108">http://www.acimed.sld.cu/index.php/acimed/article/view/1108</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Ponjuán Dante G. La gestión de información y sus modelos representativos. Valoraciones. Cienc Inform. 2011 [citado 07/12/2021]; 42(2):11-7. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/pdf/1814/181422294003.pdf">https://www.redalyc.org/pdf/1814/181422294003.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ponjuán Dante</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>La gestión de información y sus modelos representativos. Valoraciones</article-title>
+					<source>Cienc Inform</source>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-07">07/12/2021</date-in-citation>
+					<volume>42</volume>
+					<issue>2</issue>
+					<fpage>11</fpage>
+					<lpage>17</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/pdf/1814/181422294003.pdf">https://www.redalyc.org/pdf/1814/181422294003.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Vidal Ledo MJ, Araña Pérez AB. Gestión de la información y el conocimiento. Revista Cubana de Educación Médica Superior. 2012 [citado 25/10/2021]; 26(3):474-84. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medigraphic.com/pdfs/educacion/cem-2012/cem123m.pdf">https://www.medigraphic.com/pdfs/educacion/cem-2012/cem123m.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vidal Ledo</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Araña Pérez</surname>
+							<given-names>AB</given-names>
+						</name>
+					</person-group>
+					<article-title>Gestión de la información y el conocimiento</article-title>
+					<source>Revista Cubana de Educación Médica Superior</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-10-25">25/10/2021</date-in-citation>
+					<volume>26</volume>
+					<issue>3</issue>
+					<fpage>474</fpage>
+					<lpage>484</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medigraphic.com/pdfs/educacion/cem-2012/cem123m.pdf">https://www.medigraphic.com/pdfs/educacion/cem-2012/cem123m.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Barrientos Rodríguez M, Castro Peraza MA, Zaaca González G, Álvarez Gainza D. Sistema web para la gestión de los programas de maestrías del Instituto &quot;Pedro Kourí&quot;. Rev. cuba. inform. méd. 2022 [citado 20/02/2022]; 14(1):e468. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revinformatica.sld.cu/index.php/rcim/article/view/468/pdf">http://revinformatica.sld.cu/index.php/rcim/article/view/468/pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barrientos Rodríguez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Castro Peraza</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Zaaca González</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Álvarez Gainza</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Sistema web para la gestión de los programas de maestrías del Instituto &quot;Pedro Kourí&quot;</article-title>
+					<source>Rev. cuba. inform. méd</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-20">20/02/2022</date-in-citation>
+					<volume>14</volume>
+					<issue>1</issue>
+					<elocation-id>e468</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revinformatica.sld.cu/index.php/rcim/article/view/468/pdf">http://revinformatica.sld.cu/index.php/rcim/article/view/468/pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Garcés Suárez E, Garcés Suárez E, Alcívar Fajardo O. Las tecnologías de la información en el cambio de la educación superior en el siglo XXI: reflexiones para la práctica. Revista Universidad y Sociedad. 2016 [citado 26/11/2021]; 8(4): 171-7. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://rus.ucf.edu.cu/index.php/rus/article/view/480">https://rus.ucf.edu.cu/index.php/rus/article/view/480</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garcés Suárez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Garcés Suárez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Alcívar Fajardo</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Las tecnologías de la información en el cambio de la educación superior en el siglo XXI: reflexiones para la práctica</article-title>
+					<source>Revista Universidad y Sociedad</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-26">26/11/2021</date-in-citation>
+					<volume>8</volume>
+					<issue>4</issue>
+					<fpage>171</fpage>
+					<lpage>177</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://rus.ucf.edu.cu/index.php/rus/article/view/480">https://rus.ucf.edu.cu/index.php/rus/article/view/480</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>¿Qué es la red Infomed? Infomed. Portal de la Red de Salud de Cuba [citado 23/05/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sld.cu/acerca-de/">https://www.sld.cu/acerca-de/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>¿Qué es la red Infomed? Infomed. Portal de la Red de Salud de Cuba</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-05-23">23/05/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sld.cu/acerca-de/">https://www.sld.cu/acerca-de/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Llanusa Ruiz SB, Rojo Pérez N, Caraballoso Hernández M, Capote Mir R, Pérez Piñero J. Las tecnologías de información y comunicación y la gestión del conocimiento en el sector salud. Rev. cuba. salud pública. 2005 [citado 26/11/2021]; 31(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/articulo.oa?id=21431308">https://www.redalyc.org/articulo.oa?id=21431308</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Llanusa Ruiz</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Rojo Pérez</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Caraballoso Hernández</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Capote Mir</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pérez Piñero</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Las tecnologías de información y comunicación y la gestión del conocimiento en el sector salud</article-title>
+					<source>Rev. cuba. salud pública</source>
+					<year>2005</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-26">26/11/2021</date-in-citation>
+					<volume>31</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/articulo.oa?id=21431308">https://www.redalyc.org/articulo.oa?id=21431308</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Domínguez Alonso E, Zacea E. Sistema de salud de Cuba. Salud pública Méx. 2011 [citado 26/11/2021]; 53 (supl 2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.mx/scielo.php?pid=S0036-36342011000800012&amp;script=sci_arttext">http://www.scielo.org.mx/scielo.php?pid=S0036-36342011000800012&amp;script=sci_arttext</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Domínguez Alonso</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Zacea</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Sistema de salud de Cuba</article-title>
+					<source>Salud pública Méx</source>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-26">26/11/2021</date-in-citation>
+					<volume>53</volume>
+					<supplement>2</supplement>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.mx/scielo.php?pid=S0036-36342011000800012&amp;script=sci_arttext">http://www.scielo.org.mx/scielo.php?pid=S0036-36342011000800012&amp;script=sci_arttext</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Rueda López JJ. La tecnología en la sociedad del siglo XXI: albores de una nueva revolución industrial. Aposta. Revista de Ciencias Sociales. 2007 [citado 25/10/2021]; (32): 1-28. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/pdf/4959/495950225001.pdf">https://www.redalyc.org/pdf/4959/495950225001.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rueda López</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<article-title>La tecnología en la sociedad del siglo XXI: albores de una nueva revolución industrial. Aposta</article-title>
+					<source>Revista de Ciencias Sociales</source>
+					<year>2007</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-10-25">25/10/2021</date-in-citation>
+					<issue>32</issue>
+					<fpage>1</fpage>
+					<lpage>28</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/pdf/4959/495950225001.pdf">https://www.redalyc.org/pdf/4959/495950225001.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Muñoz Cáceres MD, Aguado García D, Lucía B. El largo camino hacia la gestión del conocimiento. Revista de Psicología del Trabajo y de las Organizaciones. 2003 [citado 07/12/2021]; 19 (2): 199-214. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/pdf/2313/231318052005.pdf">https://www.redalyc.org/pdf/2313/231318052005.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muñoz Cáceres</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Aguado García</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lucía</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>El largo camino hacia la gestión del conocimiento</article-title>
+					<source>Revista de Psicología del Trabajo y de las Organizaciones</source>
+					<year>2003</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-07">07/12/2021</date-in-citation>
+					<volume>19</volume>
+					<issue>2</issue>
+					<fpage>199</fpage>
+					<lpage>214</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.redalyc.org/pdf/2313/231318052005.pdf">https://www.redalyc.org/pdf/2313/231318052005.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>García Álvarez MT, Pineiro Villaverde G, Varela Candamio L. Proposal of a Knowledge Management Model and Virtual Educational Environment in the Degree of Law-Business. Advances in Intelligent Systems and Computing. 2018 [citado 25/10/2021]; 746: 1275-86. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/chapter/10.1007/978-3-319-77712-2_122">https://link.springer.com/chapter/10.1007/978-3-319-77712-2_122</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García Álvarez</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Pineiro Villaverde</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Varela Candamio</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Proposal of a Knowledge Management Model and Virtual Educational Environment in the Degree of Law-Business</article-title>
+					<source>Advances in Intelligent Systems and Computing</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-10-25">25/10/2021</date-in-citation>
+					<volume>746</volume>
+					<fpage>1275</fpage>
+					<lpage>1286</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/chapter/10.1007/978-3-319-77712-2_122">https://link.springer.com/chapter/10.1007/978-3-319-77712-2_122</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

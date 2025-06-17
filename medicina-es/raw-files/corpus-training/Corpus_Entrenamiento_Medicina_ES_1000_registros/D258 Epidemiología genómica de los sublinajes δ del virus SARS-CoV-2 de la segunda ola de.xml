@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6862</article-id>
+			<article-id pub-id-type="publisher-id">00006</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Epidemiología genómica de los sublinajes δ del virus SARS-CoV-2 de la segunda ola de COVID en Antioquia en el 2021</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Genomic epidemiology of SARS-CoV-2 δ sublineages of the second wave of 2021 in Antioquia, Colombia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Arbey Velarde</surname>
+						<given-names>Cristian</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Hurtado</surname>
+						<given-names>Uriel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cardona</surname>
+						<given-names>Andrés</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ortiz</surname>
+						<given-names>Celeny</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Betancur</surname>
+						<given-names>Idabely</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Laboratorio Departamental de Salud Pública de Antioquia, Secretaría Seccional de Salud y Protección Social de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Secretaría Seccional de Salud y Protección Social de Antioquia</institution>
+				<institution content-type="orgname">Secretaría Seccional de Salud y Protección Social de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Medellín</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Corporación para Investigaciones Biológicas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Corporación para Investigaciones Biológicas</institution>
+				<institution content-type="orgname">Corporación para Investigaciones Biológicas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Medellín</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Laboratorio Genómico One Health, Universidad Nacional, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional</institution>
+				<institution content-type="orgname">Universidad Nacional</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Medellín</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Dirección de Salud Colectiva, Secretaria de Salud de Antioquia, Secretaría Seccional de Salud de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Secretaría Seccional de Salud de Antioquia</institution>
+				<institution content-type="orgname">Secretaría Seccional de Salud de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Medellín</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Laboratorio Departamental de Salud Pública de Antioquia, Secretaría Seccional de Salud y Protección Social de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Secretaría Seccional de Salud y Protección Social de Antioquia</institution>
+				<institution content-type="orgname">Secretaría Seccional de Salud y Protección Social de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Medellín</country>
+				<email>idabely.betancur@antioquia.gov.co</email>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Idabely Betancur, Área de Genómica, Laboratorio Departamental de Salud Pública de Antioquia, Carrera 72A N°141-78b, Medellín, Colombia Teléfono: +57 (315) 608 0396 <email>idabely.betancur@antioquia.gov.co</email>
+				</corresp>
+				<fn fn-type="equal" id="fn3">
+					<p>Todos los autores participaron en la adquisición, análisis e interpretación de los datos, y la redacción del manuscrito.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn5">
+					<label>Conflicto de intereses:</label>
+					<p> Los investigadores declaran no tener ningún conflicto de interés con la publicación de este artículo.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>31</day>
+				<month>03</month>
+				<year>2024</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<month>03</month>
+				<year>2024</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<year>2024</year>
+			</pub-date>
+			<volume>44</volume>
+			<issue>1</issue>
+			<fpage>54</fpage>
+			<lpage>66</lpage>
+			<history>
+				<date date-type="received">
+					<day>24</day>
+					<month>01</month>
+					<year>2023</year>
+				</date>
+				<date date-type="accepted">
+					<day>07</day>
+					<month>02</month>
+					<year>2024</year>
+				</date>
+				<date date-type="pub">
+					<day>09</day>
+					<month>02</month>
+					<year>2024</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción.</title>
+					<p> Durante el desarrollo de la pandemia por SARS-CoV-2 en Antioquia se presentaron picos epidemiológicos relacionados con las variantes α, ɣ, β, μ, ƛ y δ, donde δ tuvo la mayor incidencia y prevalencia. Este linaje se considera una variante de preocupación dadas las manifestaciones clínicas que desencadena y sus características epidemiológicas. Se han informado 253 sublinajes δ en la base de datos PANGOLIN. La identificación de estos sublinajes mediante análisis genómico ha permitido rastrear su evolución y propagación.</p>
+				</sec>
+				<sec>
+					<title>Objetivo.</title>
+					<p> Caracterizar la diversidad genética de los diferentes sublinajes δ de SARSCoV-2 en Antioquia y determinar su prevalencia.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos.</title>
+					<p> Se recopiló información sociodemográfica de 2.675 muestras y de 1.115 genomas del repositorio GISAID entre el 12 de julio de 2021 y el 18 de enero de 2022. Se seleccionaron 501 por su alto porcentaje de cobertura (&gt;90 %) para realizar análisis filogenéticos e inferencia de frecuencias alélicas de mutaciones de interés.</p>
+				</sec>
+				<sec>
+					<title>Resultados.</title>
+					<p> Se caracterizaron 24 sublinajes donde el más prevalente fue AY.25. En este sublinaje se identificaron mutaciones de interés como L452R, P681R y P681H, que comprendían una frecuencia cercana a 0,99.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones.</title>
+					<p> Este estudio permitió identificar que el sublinaje AY.25 tiene una ventaja de transmisión en comparación con los otros sublinajes δ. Esto puede estar relacionado con la presencia de las mutaciones L452R y P681R que en otros estudios se han visto asociadas con una mayor transmisibilidad, evasión del sistema inmunitario y menor eficacia de los medicamentos contra SARS-CoV-2.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction.</title>
+					<p> During the development of the SARS-CoV-2 pandemic in Antioquia, we experienced epidemiological peaks related to the α, ɣ, β, μ, ƛ, and δ variants. δ had the highest incidence and prevalence. This lineage is of concern due to its clinical manifestations and epidemiological characteristics. A total of 253 δ sublineages have been reported in the PANGOLIN database. The sublineage identification through genomic analysis has made it possible to trace their evolution and propagation.</p>
+				</sec>
+				<sec>
+					<title>Objective.</title>
+					<p> To characterize the genetic diversity of the different SARS-CoV-2 δ sublineages in Antioquia and to describe its prevalence.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods.</title>
+					<p> We collected sociodemographic information from 2,675 samples, and obtained 1,115 genomes from the GISAID database between July 12<sup>th</sup>, 2021, and January 18<sup>th</sup>, 2022. From the analyzed genomes, 515 were selected because of their high coverage values (&gt;90%) to perform phylogenetic analysis and to infer allele frequencies of mutations of interest.</p>
+				</sec>
+				<sec>
+					<title>Results.</title>
+					<p> We characterized 24 sublineages. The most prevalent was AY.25. Mutations of interest as L452R, P681R, and P681H were identified in this sublineage, comprising a frequency close to 0.99.</p>
+				</sec>
+				<sec>
+					<title>Conclusions.</title>
+					<p> This study identified that the AY.25 sublineage has a transmission advantage compared to the other δ sublineages. This attribute may be related to the presence of the L452R and P681R mutations associated in other studies with higher evasion of the immune system and less efficacy of drugs against SARS-CoV-2.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>SARS-CoV-2</kwd>
+				<kwd>secuenciación genómica</kwd>
+				<kwd>secuencia nucleotídica</kwd>
+				<kwd>vigilancia en salud pública</kwd>
+				<kwd>árbol filogenético</kwd>
+				<kwd>mutación</kwd>
+				<kwd>epidemiología</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>SARS-CoV-2</kwd>
+				<kwd>genomic sequencing</kwd>
+				<kwd>nucleotide sequence</kwd>
+				<kwd>public health surveillance</kwd>
+				<kwd>phylogenetic tree</kwd>
+				<kwd>mutation</kwd>
+				<kwd>epidemiology</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="39"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La epidemia de COVID-19 en Colombia estuvo marcada por cuatro olas de contagio que dejaron 6’369.916 de casos confirmados y 142.780 fallecidos <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. En Colombia, el primer caso confirmado de COVID-19 se detectó en Bogotá en un viajero procedente de Milán (Italia) el 6 de marzo del 2020 <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Para el 23 de marzo habían confirmados 314 casos y el 18 de junio el número de contagios detectados y confirmados ascendía a 57.046 con 1.864 muertes <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. En Antioquia, el primer caso confirmado se informó el 9 de marzo del 2020 en Medellín <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Entre el 2020 y el 2021, en Antioquia, se registraron más de 790.000 casos confirmados con la presencia de variantes de SARS-CoV-2 tales como α, β, ɣ, δ y ο, siendo δ la más prevalente entre todas las variantes de preocupación <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>La variante δ de SARS-CoV-2 (linaje B.1.617.2 en el sistema PANGO) se identificó por primera vez en India en octubre del 2020. La Organización Mundial de la Salud (OMS) la clasificó por primera vez como una variante de interés el 4 de abril del 2021 y luego su clasificación cambio a variante de preocupación el 11 de mayo del 2021, dada su alta transmisibilidad y la gravedad de los desenlaces clínicos que demostraba <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. La propagación global, regional y local de la variante δ se aceleró desde su aparición y desplazó rápidamente a todas las demás variantes circulantes de SARS- CoV-2 en el mundo. Esta variante llegó a representar cerca del 99 % de las infecciones por SARS-CoV-2 hasta mediados de noviembre del 2021 cuando apareció la variante ο que desplazó rápidamente a δ <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+		<p>δ fue -entre agosto y diciembre de 2021- la variante responsable del mayor número de casos de COVID-19 a nivel mundial, debido a la presencia de mutaciones como L452R y P681R en la proteína <italic>spike</italic> que le confieren una mayor transmisibilidad respecto a otras variantes de SARS-CoV-2 <xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. En marzo dle 2022, la Red Regional de Vigilancia Genómica de la Organización Panamericana de la Salud (OPS), en colaboración con los estados miembros, reportó 296.729 genomas δ para Latinoaérica y el Caribe en la plataforma GISAID (<italic>Global Initiative on Sharing All Influenza Data</italic>) <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>En Colombia, el Instituto Nacional de Salud, a través del Programa Nacional de Caracterización Genómica del SARS-CoV-2, informó en noviembre del 2021 que la variante δ estaba representada en el 84,35 % de las secuencias del país <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Antioquia es una de las poblaciones de Colombia con más secuencias reportadas en GISAID para enero de 2022 <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+		<p>El <italic>software</italic> de asignación filogenética PANGOLIN (<italic>Phylogenetic Assignment of Named Global Outbreak Lineages</italic>) reporta 253 sublinajes de δ. De estos, la plataforma GISAID reporta 54 sublinajes en Antioquia con distribuciones diferenciales entre las subregiones <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+		<p>La identificación y caracterización de los diferentes sublinajes δ permiten el seguimiento detallado del virus, la diferenciación de los sublinajes, el establecimiento de su origen y evolución, y el rastreo de cadenas de transmisión <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Además, el seguimiento de mutaciones de interés en estos sublinajes -asociados con un mayor número de ingresos a unidades de cuidados intensivos, ventilación mecánica invasiva y muerte- es importante para fortalecer la implementación de las estrategias de control y mitigación que han demostrado disminuir los síntomas clínicos después de una infección por COVID-19 <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+		<p>El presente estudio caracterizó la diversidad intragenómica de la variante δ mediante un análisis descriptivo y filogenético de las cepas virales circundantes a nivel local, regional y global. Se determinó la frecuencia de las mutaciones de interés que previamente se han asociado con infectividad, gravedad clínica y evasión del sistema inmunitario.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Análisis descriptivo del contexto epidemiológico de las variantes de SARS-CoV-2</italic></title>
+				<p>La información empleada para los análisis descriptivos y genómicos para la población de Antioquia hace parte de los muestreos probabilísticos definidos por el Instituto Nacional de Salud y por la vigilancia rutinaria de casos positivos que hacen parte de conglomerados, viajeros procedentes del exterior, hospitalizados, fallecidos y posibles reinfectados. Se recolectaron los datos sociodemográficos de 2.675 casos reportados en el Sistema de Vigilancia en Salud Pública (SIVIGILA) y se descargaron 1.115 genomas del repositorio GISAID <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+				<p>Se empleó un análisis univariado para determinar la proporción de variantes de SARS-CoV-2 en Antioquia, su distribución temporal, proporción de casos fallecidos y hospitalizados, incidencia y tasa de letalidad.</p>
+			</sec>
+			<sec>
+				<title><italic>Secuenciación genómica de muestras de SARS-CoV-2</italic></title>
+				<p>En Antioquia, el Laboratorio Departamental de Salud Pública, la Corporación de Investigaciones Biológicas y el laboratorio <italic>One Health</italic> de la Universidad Nacional de Colombia en Medellín conforman la Red Departamental de Vigilancia Genómica de SARS-CoV-2. Estas instituciones son las encargadas de secuenciar muestras clínicas (hisopado y aspirado nasofaríngeo) de los pacientes positivos.</p>
+				<p>Para la preparación de la librería y la secuenciación se siguió el protocolo <italic>ARTIC network</italic> empleando la tecnología de Oxford Nanopore <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Se utilizó el kit de ligación SQK-LSK109 y para la marcación de las muestras se empleó el kit de códigos de barras EXP-NBD196. La librería fue cargada en una celda de flujo R9.4.1 en un secuenciador MinION Mk1C <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Para este protocolo se empleó la versión 3 del esquema de cebadores (<italic>primers</italic>) para SARS-CoV-2.</p>
+				<p>Todas las secuencias con profundidad promedio mayor de 150 veces y más del 90 % de cobertura se cargaron en la plataforma GISAID. Los genomas de población antioqueña cargados a la plataforma GISAID por la Red de Vigilancia Genómica se descargaron para su posterior análisis con secuencias correspondientes a otras variantes reportadas en Colombia, como α, ɣ, μ y ο.</p>
+			</sec>
+			<sec>
+				<title><italic>Prevalencia de la variante δ y sus sublinajes en Antioquia</italic></title>
+				<p>Para determinar el contexto epidemiológico en el que se identificó la variante δ y sus sublinajes en el departamento de Antioquia, se estimó su prevalencia en función del tiempo (12 de diciembre del 2020 al 31 de enero del 2022) y luego, la prevalencia de cada uno de los sublinajes para determinar cuál era el más representativo. Esto permitió determinar la circulación de los sublinajes δ a nivel regional y su contexto epidemiológico. Para este análisis se utilizó el <italic>software</italic> SPSS®, versión 26.0 <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Selección de genomas y análisis filogenético</italic></title>
+				<p>Se descargaron 1.115 genomas de δ reportados para Antioquia en la base de datos GISAID y se utilizaron para realizar los análisis descriptivos. Para el análisis filogenético se seleccionaron 501 genomas δ que cumplían con los criterios de calidad de cobertura superior al 90 % y profundidad mayor de 150 veces <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+				<p>Las secuencias de los sublinajes δ se evaluaron en el contexto de la diversidad genómica global. Se realizó una comparación entre los genomas de los sublinajes δ con otras variantes de SARS-CoV-2, como α (50 genomas), γ (37 genomas), μ (40 genomas) y ο (45 genomas), descargados de la base de datos GISAID que también cumplieron con los criterios de calidad mencionados. Estos genomas se utilizaron para evaluar la adecuada asignación de sublinajes δ en el árbol filogenético y también para realizar análisis comparativos entre los sublinajes δ y otras variantes de SARS- CoV-2.</p>
+				<p>Se usó el <italic>software</italic> Muscle®, versión 5, para la alineación de todas las secuencias y se usó Wuhan-Hu-1 (GenBank: MN908947.3) como genoma de referencia <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+				<p>Los extremos de las secuencias se eliminaron con el <italic>software</italic> MEGA 11® con el objetivo de que todos los genomas analizados tuvieran la misma longitud. Los <italic>gaps</italic> se eliminaron con Trimal®, versión 1.2 <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+				<p>Las secuencias con valores atípicos en el árbol filogenético se eliminaron porque indicaban una baja calidad de alineación. También se eliminaron las secuencias duplicadas para evitar politomías.</p>
+				<p>La generación de árboles filogenéticos de máxima verosimilitud se estimó utilizando el <italic>software</italic> IQtree®, versión 2.1.1, bajo un modelo de sustitución de nucleótidos GTR + F + I según los criterios de información de Akaike (AICc) y Bayes (BIC) <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Se utilizaron como medidas de soporte <italic>Ultrafast Booptrap Aproximation</italic> (UFB) con 10.000 réplicas y <italic>approximate likelihood ratio test</italic> (aLRT) con 1.000 réplicas. La visualización y edición del árbol se realizó con el programa FigTree®, versión 1.4.3 <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Caracterización de mutaciones en los sublinajes δ</italic></title>
+				<p>La estimación de las frecuencias alélicas para las mutaciones de interés se realizó utilizando Biophyton en un sistema operativo Linux y la generación de las gráficas se realizó en Microsoft<sup>®</sup> Excel <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Contexto epidemiológico de la variante δ</italic></title>
+				<p>Los análisis descriptivos revelaron que, en Antioquia, la variante δ tuvo su primera aparición el 12 de julio del 2021. Para septiembre de ese mismo año se estableció como la variante predominante con 78,11 % de representatividad entre todas las muestras positivas para COVID-19 (<xref ref-type="fig" rid="f1">figura 1</xref>). Para finales de noviembre de ese mismo año, δ estaba presente en más del 90 % de las muestras positivas hasta inicios de diciembre, cuando apareció ο y la desplazó rápidamente (<xref ref-type="fig" rid="f1">figura 1</xref>). También se pudo evidenciar que, a pesar de la reciente aparición de ο, el 10 de diciembre del 2021, para el 31 de diciembre ya estaba presente en el 80,91 % de las muestras secuenciadas (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Porcentaje de linajes de SARS-CoV-2 en Antioquia, 2021-2022. Se observa como las variantes ɣ (naranja) y μ (azul oscuro) fueron las más prevalentes durante la primera mitad del 2021 (tercer pico de la pandemia) hasta la aparición de δ (naranja claro) en la segunda mitad del mismo año. δ desplazó a todas las demás variantes de SARS-CoV-2 y se convirtió en el linaje más representativo de este virus hasta diciembre del 2021 cuando apareció ο (verde oscuro), que desplazó rápidamente a δ durante ese mismo mes.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-44-01-54-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>En el total de genomas analizados (1.115) se observó la existencia de una gran diversidad de sublinajes δ con 54 tipos identificados, el más prevalente de estos fue AY.25 (50,13 %), seguido de B.617.2 (10,49 %) y AY.25.1 (6,73 %) (<xref ref-type="fig" rid="f2">figura 2</xref>). También se observó que entre el 30 de septiembre y el 30 de noviembre del 2021, el sublinaje AY.25 representó en promedio el 53,04 % de todas las secuencias de δ reportadas para ese periodo y que su presencia disminuyó significativamente a partir del 10 de diciembre del 2021 cuando aparece ο (<xref ref-type="fig" rid="f2">figura 2</xref>). A partir del 15 de octubre de 2021, la Red de Vigilancia Genómica, con apoyo del Instituto Nacional de Salud, recibió una dotación de equipos MinION Mk1C para el fortalecimiento de la Red y con ello aumentar el número de muestras por secuenciar, lo que se vio reflejado en el incremento de genomas obtenidos a partir de esa fecha.</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Conteo absoluto de sublinajes δ en Antioquia, 2021-2022. Se descargaron 1.115 genomas de la base de datos GISAID entre el 12 de julio del 2021 y el 18 de enero del 2022 que permitieron identificar 54 sublinajes δ: AY.25 (naranja pastel) fue el más prevalente desde julio hasta diciembre del 2021.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-44-01-54-gf2.jpg"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Indicadores epidemiológicos relacionados con SARS-CoV-2 durante 2021</italic></title>
+				<p>Los indicadores epidemiológicos mostraron que, durante el primer semestre del 2021, específicamente en los meses de marzo y julio, se presentó el tercer pico de la pandemia. En ese momento, los linajes μ y γ representaban el mayor porcentaje de variantes de SARS-CoV-2 entre las muestras positivas (<xref ref-type="table" rid="t1">cuadro 1</xref>). Indicadores como el porcentaje de positividad (23,77 %), la incidencia (5.662,71 por 100.000 habitantes), el número de hospitalizados (22.724), la tasa de mortalidad (139,27 por 100.000 habitantes) y la letalidad (2,46 %) fueron mayores en el segundo semestre del 2021 cuando δ fue la variante de SARS-CoV-2 predominante en la región (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Indicadores epidemiológicos de SARS-CoV-2 por semestre y según linajes con mayor participación, Antioquia, 2021</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col span="2"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Indicadores epidemiológicos</th>
+									<th align="center">Primer semestre Circulación de μ/ɣ </th>
+									<th align="center">Segundo semestre Circulación de sublinajes δ</th>
+									<th align="center" colspan="2">Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Pruebas (n)</td>
+									<td align="center">1’286.428</td>
+									<td align="center">1’615.948</td>
+									<td align="center">2’902.299</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Positividad (%)</td>
+									<td align="right">11,78</td>
+									<td align="right">23,77</td>
+									<td align="right"> </td>
+									<td align="right">18,45</td>
+								</tr>
+								<tr>
+									<td align="left">Casos positivos (n)</td>
+									<td align="center">151.527</td>
+									<td align="center">384.078</td>
+									<td align="center">535.605</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Incidencia por 100.000 habitantes</td>
+									<td align="right">2.234,06</td>
+									<td align="right">5.662,71</td>
+									<td align="right"> </td>
+									<td align="right">7.896,77</td>
+								</tr>
+								<tr>
+									<td align="left">Hospitalizados (n)</td>
+									<td align="center">6.870</td>
+									<td align="center">22.724</td>
+									<td align="center">29.556</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Proporción de casos hospitalizados en sala general</td>
+									<td align="right">65,78</td>
+									<td align="right">68,80</td>
+									<td align="right"> </td>
+									<td align="right">68,06</td>
+								</tr>
+								<tr>
+									<td align="left">Proporción de casos hospitalizados en unidad de cuidados intensivos</td>
+									<td align="right">34,22</td>
+									<td align="right">31,20</td>
+									<td align="right"> </td>
+									<td align="right">31,94</td>
+								</tr>
+								<tr>
+									<td align="left">Fallecidos (n)</td>
+									<td align="center">2.217</td>
+									<td align="center">9.446</td>
+									<td align="center">11.663</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Tasa de mortalidad por cada 100.000 habitantes</td>
+									<td align="right">32,69</td>
+									<td align="right">139,27</td>
+									<td align="right"> </td>
+									<td align="right">171,96</td>
+								</tr>
+								<tr>
+									<td align="left">Tasa de mortalidad</td>
+									<td align="right">1,46</td>
+									<td align="right">2,46</td>
+									<td align="right"> </td>
+									<td align="right">2,18</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis filogenético</italic></title>
+				<p>En los 501 genomas que cumplieron los criterios de calidad para llevar a cabo el análisis filogenético se identificaron 24 sublinajes δ entre los que AY.25 fue el más predominante con el 67,86 %. El resto de los sublinajes no superó el 4 % en la muestra total analizada (<xref ref-type="fig" rid="f3">figura 3</xref>).</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Árbol filogenético con sublinajes delta y otros ciados como ο, α, γ y μ. Se observa la amplia diversidad de sublinajes (n=54) presentes en el linaje δ a partir del análisis de 515 genomas seleccionados según criterios de calidad específicos. Este análisis reveló la gran representatividad del sublinaje AY.25 (50,13 %) (rosado). Se aprecian dos <italic>clusters</italic> según los ancestros comunes de los linajes SARS-CoV-2 que los anteceden. El primero está conformado por los linajes ο, α y γ, y el segundo grupo está definido por los linajes μ y los sublinajes δ.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-44-01-54-gf3.jpg"/>
+					</fig>
+				</p>
+				<p>La topología del árbol filogenético mostró dos grupos: el primero está definido por los linajes ο, α y ɣ; y el segundo, por los linajes μ y los sublinajes δ. Para el primer grupo se evidencia que las medidas de soporte aLRT/UFB de 90,5/95 indican con valores superiores al 90 % que las variantes α, ɣ y ο tienen un grado significativo de similitud genética que los diferencia, en cierto grado, del grupo dos, conformado por μ y los sublinajes de δ. Además, también se observa que, según la topología del árbol y los valores de aLRT/ UFB, el ancestro común de los tres linajes del grupo 1 es el clado 20B (B.1.1), del cual deriva primero la variante α y de ella, ɣ y ο. La separación bipartita que divide a ɣ de ο comprende un aLRT del 79,3 % y un UFB del 94 %. Dado que la métrica de soporte para la división de estas dos variantes comprende un UFB mayor del 90 %, se sustenta que dicha división es confiable. La topología del árbol también es confiable con relación a la separación de μ y los sublinajes δ (aLRT/UFB = 78,1/100), quienes tienen como ancestro común el clado 20A (B.1) (<xref ref-type="fig" rid="f3">figura 3</xref>). Otra particularidad que muestra el árbol es la separación del sublinaje AY.25 (aLRT/UFB = 90,1/80), resaltado en color rojo, del resto de los sublinajes δ: se aprecia que AY.25 es el sublinaje más reciente o de más tardía aparición y además, es el más prevalente de los sublinajes δ (67,86 %) (<xref ref-type="fig" rid="f3">figura 3</xref>).</p>
+			</sec>
+			<sec>
+				<title><italic>Frecuencias alélicas de mutaciones de interés en los linajes de SARS-CoV-2</italic></title>
+				<p>En el análisis de frecuencias alélicas se observaron dos mutaciones en el gen que codifica para la proteína <italic>spike</italic>, L452R y P681R, presentes en el sublinaje AY.25 con una frecuencia de 0,985 y 0,997, respectivamente. L452R y P681R hacen parte de un grupo de mutaciones que definen el linaje δ y, por tanto, no se identificaron en las variantes α, ɣ, μ ni ο.</p>
+				<p>Otras mutaciones de interés epidemiológico asociadas con mayor transmisibilidad, como P681H, K417N, N501Y y E484K, no se encontraron en ninguno de los sublinajes δ, pero sí fueron identificadas en las otras variantes de SARS-CoV-2. P681H fue la única de las cuatro mutaciones que se encontró en α, ɣ, μ y ο, cuya frecuencia alélica fue cercana a 1,0 para todos los clados. Por otro lado, las tres mutaciones restantes se encontraron únicamente en ο en frecuencias de 0,43 para N501Y, 0,50 para E484K y 0,13 para K417N (<xref ref-type="fig" rid="f4">figura 4</xref>).</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>Estimación de las frecuencias alélicas de mutaciones de interés (rectángulo amarillo) y preocupación (rectángulo rojo) en el sublinaje AY.25 (rosado) versus ο (azul claro), γ (rojo), α (amarillo) y μ (morado). Las variantes de preocupación L452 y P681R restringen su presencia a AY.25 y comprenden una frecuencia de 0,99.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-44-01-54-gf4.jpg"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En el primer semestre del 2021 se observó cocirculación de diferentes variantes del virus SARS-CoV-2, en mayor proporción μ y γ, que coincidió con el incremento del número de hospitalizados y fallecidos por COVID-19. Por esta época se observaron dos picos importantes: el primero, entre la semana 14 y 16 con más de 21.000 casos, y el segundo, entre las semanas 24 y 26 con más de 24.000 casos.</p>
+			<p>La variante δ fue reportada por primera vez en una muestra tomada el 12 de julio del 2021 y progresivamente alcanzó una representatividad de más del 90 % entre las muestras secuenciadas para el segundo periodo del 2021. Sin embargo, se observó un descenso importante de δ a mediados de diciembre del mismo año con la aparición de la variante ο, que rápidamente se diseminó en el departamento y con la que aumento el número de casos positivos de COVID-19. En las primeras tres semanas del 2022 se llegaron a reportar 4.289 casos según los datos del Laboratorio Departamental de Salud Pública de Antioquia <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+			<p>Tanto el análisis filogenético como el epidemiológico revelaron gran representatividad y diversidad de sublinajes δ en Antioquia durante el segundo semestre del 2021. Estos datos tienen correspondencia con los reportados en 2023 por Jiménez-Silva y colaboradores, quienes evidenciaron el aumento exponencial de δ durante la segunda mitad del 2021 en algunas localidades de Colombia, como Bogotá, Cali y Córdoba, a partir del análisis de 610 muestras secuenciadas mediante el protocolo de Oxford Nanopore y ARTIC Network <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>En los resultados de este estudio se observa que AY.25 fue el sublinaje de δ más prevalente, hallazgo similar a lo reportado por otros estudios previos como el de Murall <italic>et al</italic>. Los autores analizaron 1,5 millones de genomas δ clasificados por PANGOLIN y encontraron que el sublinaje AY.25 era el más prevalente en las provincias canadienses y presentaba un aumento exponencial en el segundo semestre de 2021, como ocurrió en Antioquia <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Brown y colaboradores demostraron que para octubre del 2021, más del 80 % de los genomas eran AY.25, particularmente en los estados del sur, medio oeste y oeste de los Estados Unidos <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>El análisis filogenético muestra una relación evolutiva entre el linaje μ y los sublinajes δ, concordante con la filogenia informada en las bases de datos de Nextrain. Estos clados tienen a 20A (B.1) como ancestro común y refuerzan su agrupamiento a partir de una consistencia de rama de 78,1/100 (aLRT/UFB), mientras que ο, ɣ y α forman otro grupo que tiene a 20B (B.1.1) como ancestro común <xref ref-type="bibr" rid="B29"><sup>29</sup></xref> con una consistencia de rama de 79,3/94. La relación evolutiva entre δ y μ se sustenta en el grado de similitud genética que comparten entre sus genomas más que en su ancestro común 20A. Esta explicación se basa en varios estudios que han evidenciado la dinámica evolutiva del SARS-CoV-2 como perfiles mutacionales característicos de cada linaje que explican cierto grado de relación entre ellos. Este estudio expone que las mutaciones de μ y δ esclarecen parcialmente la similitud genética entre los linajes y, por ello, se agrupan en el árbol filogenético. No hay reportes que soporten la posibilidad de que δ derive de μ. Sin embargo, como se mencionó, los resultados de esta investigación son congruentes con los datos reportados por Nextrain, que denota el origen de δ y μ en el clado 20A.</p>
+			<p>Mediante la observación de las prevalencias del pool de muestras se pudo evidenciar que AY.25 tiene la mayor representatividad entre los sublinajes δ con el 67,86 %. Esto puede ser un indicador de que AY.25 tiene una ventaja de transmisión en comparación con los otros sublinajes δ, relacionada también con la presencia de mutaciones como L452R y P681R. Estas mutaciones se han asociado con mejor evasión de la respuesta inmunitaria y menor eficacia de los medicamentos. La frecuencia alélica reportada en este estudio para L452R fue del 0,985 y para P681R fue del 0,997. Las dos mutaciones fueron más prevalentes en AY.25 que en cualquiera de los otros sublinajes δ. L452R es una mutación contrasentido (<italic>missense</italic>) que implica el cambio de timina por guanina en la posición 22.917 del gen <italic>spike</italic>. Esta región de <italic>spike</italic> es responsable de codificar la subunidad S1 que forma parte del dominio de unión al receptor ACE2 de las células huésped. Los estudios funcionales han demostrado que esta mutación mejora la afinidad del dominio de unión de <italic>spike</italic> por el receptor ACE2 porque aumenta la expresión de la proteína y le da mayor estabilidad. También se ha demostrado que esta mutación aumenta la infectividad al promover la complementariedad electrostática entre el dominio de unión de la proteína <italic>spike</italic> con el receptor ACE2 y también contribuye a un aumento significativo en la replicación viral <xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Otras investigaciones, como la de Deng <italic>et al</italic>., en el 2021, demostraron a través de estudios <italic>in vitro</italic> -con líneas celulares humanas 293T y organoides pulmonares de las vías respiratorias humanas- que la mutación L452R aumenta significativamente la infectividad hasta 22,5 veces en la línea celular 293T y hasta 14,7 veces en los organoides en comparación con el nivel de infectividad de estas mismas líneas celulares portando la mutación D614G, también relacionada con una mayor infectividad <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>.</p>
+			<p>En el caso de P681R, esta es una mutación sin sentido que comprende el cambio de una citosina por una guanina en la posición 23.604. Se encuentra en el gen spike, en la región que codifica para la subunidad S2 y que permite la fusión de la membrana viral con la membrana de la célula huésped. Específicamente, esta mutación ocurre en el sitio de escisión de furina donde se da la separación de la subunidad S1 y S2 de la spike. Posterior a esto, se lleva a cabo la fusión de la membrana de la célula huésped con la membrana viral. Se ha demostrado que la presencia de P681R aumenta significativamente la replicación del virus <xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+			<p>En el resto de los linajes no se detectó P681R y en su lugar se encuentra en la misma posición (681) una variante que incluye un cambio de aminoácido definido como P681H (prolina por histidina). Esta modificación, al igual que P681R, se encuentra en el sitio de escisión proteolítica de la furina, por lo que también se ha relacionado con la modulación de la división del complejo S1/ S2 y, por lo tanto, aumenta las propiedades infecciosas del virus <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>.</p>
+			<p>Entre otras mutaciones, es importante destacar la N501Y asociada con una mayor resistencia a fármacos, como el bamlanivimab, que proporcionan inmunidad humoral pasiva para reducir la carga viral durante la etapa inicial de la infección <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>.</p>
+			<p>En el caso de la variante ο, se encontró la mutación E484K que restringe su presencia a este clado, sin encontrarla en ninguna de las otras variantes de SARS-CoV-2. Esta mutación está relacionada con la interacción de fármacos cuyo principio activo son anticuerpos monoclonales que inhiben la unión entre el dominio de <italic>spike</italic> y ACE2. El aminoácido E484 (ácido glutámico), presente en el genotipo “silvestre” de <italic>spike</italic> forma tres puentes salinos con las argininas de fármacos como el bamlanivimab dada la carga negativa de este aminoácido y la carga positiva de las argininas. Esto permite la acción del anticuerpo monoclonal que consiste en inhibir la unión del dominio de spike con el receptor ACE2 de la célula huésped. La mutación E484K impide la unión a bamlanivimab ya que la lisina de la posición 484 está cargada positivamente y repele su unión a los residuos de arginina del fármaco. Esto ha permitido que linajes como ο tengan la capacidad de evadir la respuesta inmune y, junto con otras mutaciones presentes como K417N y N501Y, ser más transmisibles <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>. Algunos estudios demuestran que la mutación E484K reduce la unión de anticuerpos policlonales hasta 10 veces <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>.</p>
+			<p>Como conclusión, es posible decir que la rápida y prolongada circulación de linajes del virus SARS-CoV-2 ha favorecido la aparición de nuevas mutaciones en su material genético. Un ejemplo de esto es la amplia diversidad de sublinajes δ presentes en Antioquia. La vigilancia genómica de estas mutaciones y los diferentes linajes que han venido evolucionando es de gran importancia ya que permite identificar y caracterizar brotes, controlar epidemias y tomar las medidas pertinentes de salud pública.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Al Instituto Nacional de Salud que nos apoyó con insumos y equipos para la caracterización de los genomas de SARS-CoV-2. A Juan Pablo Isaza de la Universidad Pontificia Bolivariana por apoyar a la red de vigilancia genómica de Antioquia en la obtención de secuencias que permitieron ampliar el análisis epidemiológico de este artículo, y a la Red Nacional para la Caracterización de SARS-CoV-2 del Instituto Nacional de Salud de Colombia. También agradecemos a los autores del repositorio GISAID por hacer pública la información de los genomas con los cuales se llevó a cabo este estudio.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1.</label>
+				<mixed-citation>Instituto Nacional de Salud. Casos COVID 19. Colombia, 2020 - 2022. Fecha de consulta: 25 de abril de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://app.powerbi.com/view?r=eyJrIjoiMjBjZWNlOGU- tNzc1Yi00NjVkLTkyMjktOTJmMGU3YTU2Nzk4IiwidCI6ImE2MmQ2YzdiLTlmNTktNDQ2O S05MzU5LTM1MzcxNDc1OTRiYiI sImMiOjR9&amp;pageName=ReportSection0c50ea3406a fe44O7370">https://app.powerbi.com/view?r=eyJrIjoiMjBjZWNlOGU- tNzc1Yi00NjVkLTkyMjktOTJmMGU3YTU2Nzk4IiwidCI6ImE2MmQ2YzdiLTlmNTktNDQ2O S05MzU5LTM1MzcxNDc1OTRiYiI sImMiOjR9&amp;pageName=ReportSection0c50ea3406a fe44O7370</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Casos COVID 19. Colombia, 2020 - 2022</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-04-25">25 de abril de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://app.powerbi.com/view?r=eyJrIjoiMjBjZWNlOGU- tNzc1Yi00NjVkLTkyMjktOTJmMGU3YTU2Nzk4IiwidCI6ImE2MmQ2YzdiLTlmNTktNDQ2O S05MzU5LTM1MzcxNDc1OTRiYiI sImMiOjR9&amp;pageName=ReportSection0c50ea3406a fe44O7370">https://app.powerbi.com/view?r=eyJrIjoiMjBjZWNlOGU- tNzc1Yi00NjVkLTkyMjktOTJmMGU3YTU2Nzk4IiwidCI6ImE2MmQ2YzdiLTlmNTktNDQ2O S05MzU5LTM1MzcxNDc1OTRiYiI sImMiOjR9&amp;pageName=ReportSection0c50ea3406a fe44O7370</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2.</label>
+				<mixed-citation>Laiton-Donato K, Villabona-Arenas CJ, Usme-Ciro JA, Franco-Muñoz C, Álvarez-Díaz DA, Villabona-Arenas LS, <italic>et al</italic>. Genomic epidemiology of severe acute respiratory syndrome coronavirus 2, Colombia. Emerg Infect Dis. 2020;26: 2854-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2612.202969">https://doi.org/10.3201/eid2612.202969</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Villabona-Arenas</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Usme-Ciro</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Franco-Muñoz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Álvarez-Díaz</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Villabona-Arenas</surname>
+							<given-names>LS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic epidemiology of severe acute respiratory syndrome coronavirus 2, Colombia</article-title>
+					<source>Emerg Infect Dis</source>
+					<year>2020</year>
+					<volume>26</volume>
+					<fpage>2854</fpage>
+					<lpage>2862</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2612.202969">https://doi.org/10.3201/eid2612.202969</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3.</label>
+				<mixed-citation>Velásquez Cuadros CH, Almanza Payares RE, Silva López YJ. Clinical, epidemiological and virological findings of the first COVID-19 outbreak in Medellín, Antioquia, Colombia. Rev Fac Nac Salud Pública. 2022;40:e344675. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.rfnsp.e344675">https://doi.org/10.17533/udea.rfnsp.e344675</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Velásquez Cuadros</surname>
+							<given-names>CH</given-names>
+						</name>
+						<name>
+							<surname>Almanza Payares</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Silva López</surname>
+							<given-names>YJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical, epidemiological and virological findings of the first COVID-19 outbreak in Medellín, Antioquia, Colombia</article-title>
+					<source>Rev Fac Nac Salud Pública</source>
+					<year>2022</year>
+					<volume>40</volume>
+					<elocation-id>e344675</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.rfnsp.e344675">https://doi.org/10.17533/udea.rfnsp.e344675</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4.</label>
+				<mixed-citation>Betancur I, Velarde CA, Ortiz C. Situación epidemiológica de las variantes de SARS- CoV-2 detectadas en Antioquia desde diciembre 2020 a enero 2022. Fecha de consulta: 25 de abril de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf"> https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf </ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Betancur</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Velarde</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Ortiz</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>Situación epidemiológica de las variantes de SARS- CoV-2 detectadas en Antioquia desde diciembre 2020 a enero 2022</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-04-25">25 de abril de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf"> https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf </ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5.</label>
+				<mixed-citation>Laboratoire National de Référence pour les Infections Respiratoires Aigues. Delta variant B.1.617.2 lineage and AY sublineages. 2021. Fecha de consulta: 19 de octubre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://lns.lu/wp-content/uploads/2021/09/lns-scientific-briefing-delta-sublineages_final_en v20210913.pdf">https://lns.lu/wp-content/uploads/2021/09/lns-scientific-briefing-delta-sublineages_final_en v20210913.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Laboratoire National de Référence pour les Infections Respiratoires Aigues</collab>
+					</person-group>
+					<source>Delta variant B.1.617.2 lineage and AY sublineages</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-01">19 de octubre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://lns.lu/wp-content/uploads/2021/09/lns-scientific-briefing-delta-sublineages_final_en v20210913.pdf">https://lns.lu/wp-content/uploads/2021/09/lns-scientific-briefing-delta-sublineages_final_en v20210913.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6.</label>
+				<mixed-citation>World Health Organization. COVID-19 weekly epidemiological update, 31 August 2021. 2021. Fecha de consulta: 19 de octubre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/344799?locale-attribute=es&amp;">https://apps.who.int/iris/handle/10665/344799?locale-attribute=es&amp;</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>COVID-19 weekly epidemiological update, 31 August 2021</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-10-19">19 de octubre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/344799?locale-attribute=es&amp;">https://apps.who.int/iris/handle/10665/344799?locale-attribute=es&amp;</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7.</label>
+				<mixed-citation>Taboada B, Zárate S, García-López R, Muñoz-Medina JE, Sánchez-Flores A, Herrera- Estrella A, <italic>et al</italic>. Dominance of three sublineages of the SARSCoV-2 delta variant in Mexico. Viruses. 2022;14:1165. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/v14061165">https://doi.org/10.3390/v14061165</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Taboada</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zárate</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>García-López</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Muñoz-Medina</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Sánchez-Flores</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Herrera- Estrella</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Dominance of three sublineages of the SARSCoV-2 delta variant in Mexico</source>
+					<publisher-name>Viruses</publisher-name>
+					<year>2022</year>
+					<volume>14</volume>
+					<fpage>1165</fpage>
+					<lpage>1165</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/v14061165">https://doi.org/10.3390/v14061165</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8.</label>
+				<mixed-citation>Elliott P, Haw D, Wang H, Eales O, Walters CE, Ainslie KEC, <italic>et al</italic>. Exponential growth, high prevalence of SARS-CoV-2, and vaccine effectiveness associated with the delta variant. Science. 2021;374:eabl9551. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.abl9551">https://doi.org/10.1126/science.abl9551</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Elliott</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Haw</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Eales</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Walters</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Ainslie</surname>
+							<given-names>KEC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Exponential growth, high prevalence of SARS-CoV-2, and vaccine effectiveness associated with the delta variant</article-title>
+					<source>Science</source>
+					<year>2021</year>
+					<volume>374</volume>
+					<elocation-id>eabl9551</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.abl9551">https://doi.org/10.1126/science.abl9551</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9.</label>
+				<mixed-citation>Cherian S, Potdar V, Jadhav S, Yadav P, Gupta N, Das M, <italic>et al</italic>. SARSCoV2 spike mutations, l452r, t478k, e484q and p681r, in the second wave of COVID-19 in Maharashtra, India. Microorganisms. 2021;9:1542. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/microorganisms9071542">https://doi.org/10.3390/microorganisms9071542</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cherian</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Potdar</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Jadhav</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yadav</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Gupta</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Das</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>SARSCoV2 spike mutations, l452r, t478k, e484q and p681r, in the second wave of COVID-19 in Maharashtra</source>
+					<publisher-loc>India</publisher-loc>
+					<publisher-name>Microorganisms</publisher-name>
+					<year>2021</year>
+					<volume>9</volume>
+					<fpage>1542</fpage>
+					<lpage>1542</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/microorganisms9071542">https://doi.org/10.3390/microorganisms9071542</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10.</label>
+				<mixed-citation>Instituto Nacional de Salud. Caracterización genómica de SARS-CoV-2 por muestreo probabilístico en Colombia - Tercer muestreo periodo octubre de 2021. Bogotá: Instituto Nacional de Salud; 2021. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/BibliotecaDigital/Tercer-muestreo-Estrategia-caracterizacion-genomica-muestreo-probabilistico-SARS-CoV-2.pdf">http://www.ins.gov.co/BibliotecaDigital/Tercer-muestreo-Estrategia-caracterizacion-genomica-muestreo-probabilistico-SARS-CoV-2.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Caracterización genómica de SARS-CoV-2 por muestreo probabilístico en Colombia - Tercer muestreo periodo octubre de 2021</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Instituto Nacional de Salud</publisher-name>
+					<year>2021</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/BibliotecaDigital/Tercer-muestreo-Estrategia-caracterizacion-genomica-muestreo-probabilistico-SARS-CoV-2.pdf">http://www.ins.gov.co/BibliotecaDigital/Tercer-muestreo-Estrategia-caracterizacion-genomica-muestreo-probabilistico-SARS-CoV-2.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11.</label>
+				<mixed-citation>Betancur I, Velarde CA, Ortiz C. Situación epidemiológica de las variantes de Sars-CoV-2 detectadas en Antioquia desde diciembre 2020 a enero 2022. Boletín Epidemiológico de Antioquia. 2021. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf">https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Betancur</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Velarde</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Ortiz</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Situación epidemiológica de las variantes de Sars-CoV-2 detectadas en Antioquia desde diciembre 2020 a enero 2022</article-title>
+					<source>Boletín Epidemiológico de Antioquia</source>
+					<year>2021</year>
+					<ext-link ext-link-type="uri" xlink:href="https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf">https://www.dssa.gov.co/images/2022/documentos/investigaciones/Epidemiologia_de_SARS_CoV-2_en_Antioquia_2020-2022.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12.</label>
+				<mixed-citation>Rambaut A, Holmes EC, O’Toole Á, Hill V, McCrone JT, Ruis C, <italic>et al</italic>. A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology. Nat Microbiol. 2020;5:1403. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41564-020-0770-5">https://doi.org/10.1038/s41564-020-0770-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rambaut</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Holmes</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>O’Toole</surname>
+							<given-names>Á</given-names>
+						</name>
+						<name>
+							<surname>Hill</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>McCrone</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Ruis</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology</article-title>
+					<source>Nat Microbiol</source>
+					<year>2020</year>
+					<volume>5</volume>
+					<fpage>1403</fpage>
+					<lpage>1403</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41564-020-0770-5">https://doi.org/10.1038/s41564-020-0770-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13.</label>
+				<mixed-citation>Garcia-Beltran WF, St. Denis KJ, Hoelzemer A, Lam EC, Nitido AD, Sheehan ML, <italic>et al</italic>. mRNA-based COVID-19 vaccine boosters induce neutralizing immunity against SARS- CoV-2 ómicron variant. Cell. 2022;185:457. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2021.12.14.21267755">https://doi.org/10.1101/2021.12.14.21267755</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garcia-Beltran</surname>
+							<given-names>WF</given-names>
+						</name>
+						<name>
+							<surname>St. Denis</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Hoelzemer</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lam</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Nitido</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Sheehan</surname>
+							<given-names>ML</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>mRNA-based COVID-19 vaccine boosters induce neutralizing immunity against SARS- CoV-2 ómicron variant</article-title>
+					<source>Cell</source>
+					<year>2022</year>
+					<volume>185</volume>
+					<fpage>457</fpage>
+					<lpage>457</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2021.12.14.21267755">https://doi.org/10.1101/2021.12.14.21267755</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14.</label>
+				<mixed-citation>Modes ME, Directo MP, Melgar M, Johnson LR, Yang H, Chaudhary P, <italic>et al</italic>. Clinical characteristics and outcomes among adults hospitalized with laboratory-confirmed SARS- CoV-2 infection during periods of B.1.617.2 (delta) and B.1.1.529 (ómicron) variant predominance - One Hospital, California, July 15-September 23, 2021, and December 21, 2021-January 27, 2022. MMWR Recomm Reports. 2022;71:217-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7106e2">https://doi.org/10.15585/mmwr.mm7106e2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Modes</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Directo</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Melgar</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Chaudhary</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical characteristics and outcomes among adults hospitalized with laboratory-confirmed SARS- CoV-2 infection during periods of B.1.617.2 (delta) and B.1.1.529 (ómicron) variant predominance - One Hospital, California, July 15-September 23, 2021, and December 21, 2021-January 27, 2022</article-title>
+					<source>MMWR Recomm Reports</source>
+					<year>2022</year>
+					<volume>71</volume>
+					<fpage>217</fpage>
+					<lpage>223</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7106e2">https://doi.org/10.15585/mmwr.mm7106e2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15.</label>
+				<mixed-citation>Shu Y, McCauley J. GISAID: Global initiative on sharing all influenza data - From vision to reality. Euro Surveill. 2017;22:30494. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917.ES.2017.22.13.30494">https://doi.org/10.2807/1560-7917.ES.2017.22.13.30494</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>McCauley</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>GISAID: Global initiative on sharing all influenza data - From vision to reality</article-title>
+					<source>Euro Surveill</source>
+					<year>2017</year>
+					<volume>22</volume>
+					<fpage>30494</fpage>
+					<lpage>30494</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917.ES.2017.22.13.30494">https://doi.org/10.2807/1560-7917.ES.2017.22.13.30494</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16.</label>
+				<mixed-citation>Artic Networ. Artic Network. 2019. Fecha de consulta: 11 de agosto de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://artic.network/ncov-2019/ncov2019-it-setup.html">https://artic.network/ncov-2019/ncov2019-it-setup.html</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Artic Networ</collab>
+					</person-group>
+					<source>Artic Network</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-11">11 de agosto de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://artic.network/ncov-2019/ncov2019-it-setup.html">https://artic.network/ncov-2019/ncov2019-it-setup.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17.</label>
+				<mixed-citation>Quick J. nCoV-2019 sequencing protocol V.1. Protocolo.io. 2021. Fecha de consulta: 19 de octubre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.protocols.io/view/ncov-2019-sequencing-protocol-bp2l6n26rgqe/v1?version_warning=no">https://www.protocols.io/view/ncov-2019-sequencing-protocol-bp2l6n26rgqe/v1?version_warning=no</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quick</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<source>nCoV-2019 sequencing protocol V.1. Protocolo.io</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-10-19">19 de octubre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.protocols.io/view/ncov-2019-sequencing-protocol-bp2l6n26rgqe/v1?version_warning=no">https://www.protocols.io/view/ncov-2019-sequencing-protocol-bp2l6n26rgqe/v1?version_warning=no</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18.</label>
+				<mixed-citation>Márquez S, Prado-Vivar B, Guadalupe JJ, Gutiérrez-Granja B, Jibaja M, Tobar M, <italic>et al</italic>. Genome sequencing of the first SARS-CoV-2 reported from patients with COVID-19 in Ecuador. medRxiv. 2020:2020.06.11.20128330. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.11.20128330">https://doi.org/10.1101/2020.06.11.20128330</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Márquez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Prado-Vivar</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Guadalupe</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez-Granja</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Jibaja</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tobar</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genome sequencing of the first SARS-CoV-2 reported from patients with COVID-19 in Ecuador</article-title>
+					<source>medRxiv</source>
+					<year>2020</year>
+					<comment>2020.06.11.20128330</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.11.20128330">https://doi.org/10.1101/2020.06.11.20128330</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19.</label>
+				<mixed-citation>IBM. SPSS Statistics. Fecha de consulta: 19 de octubre de 2022. Disponible en: https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en_US. 2022 [citado 19 de octubre de 2022]. Disponible en: <comment>Disponible en: https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en_US. 2022 [citado 19 de octubre de 2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en US">https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en US</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>IBM</collab>
+					</person-group>
+					<source>SPSS Statistics</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-10-19">19 de octubre de 2022</date-in-citation>
+					<comment>https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en_US. 2022 [citado 19 de octubre de 2022]</comment>
+					<comment>Disponible en: https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en_US. 2022 [citado 19 de octubre de 2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en US">https://www.ibm.com/mysupport/s/topic/0TO500000001yjtGAA/spss-statistics?language=en US</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20.</label>
+				<mixed-citation>Edgar RC. MUSCLE: A multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics. 2004:5:113. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2105-5-113">https://doi.org/10.1186/1471-2105-5-113</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Edgar</surname>
+							<given-names>RC.</given-names>
+						</name>
+					</person-group>
+					<article-title>MUSCLE: A multiple sequence alignment method with reduced time and space complexity</article-title>
+					<source>BMC Bioinformatics</source>
+					<year>2004</year>
+					<volume>5</volume>
+					<fpage>113</fpage>
+					<lpage>113</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2105-5-113">https://doi.org/10.1186/1471-2105-5-113</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21.</label>
+				<mixed-citation>Capella-Gutiérrez S, Silla-Martínez JM, Gabaldón T. trimAl: A tool for automated alignment trimming in large-scale phylogenetic analyses. Bioinformatics. 2009;25:1972-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp348">https://doi.org/10.1093/bioinformatics/btp348</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Capella-Gutiérrez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Silla-Martínez</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Gabaldón</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>trimAl: A tool for automated alignment trimming in large-scale phylogenetic analyses</article-title>
+					<source>Bioinformatics</source>
+					<year>2009</year>
+					<volume>25</volume>
+					<fpage>1972</fpage>
+					<lpage>1973</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp348">https://doi.org/10.1093/bioinformatics/btp348</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22.</label>
+				<mixed-citation>Tamura K, Stecher G, Kumar S. MEGA11: Molecular evolutionary genetics analysis, version 11. Mol Biol Evol. 2021;38 :3022-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/molbev/msab120">https://doi.org/10.1093/molbev/msab120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tamura</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Stecher</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Kumar</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<article-title>MEGA11: Molecular evolutionary genetics analysis, version 11</article-title>
+					<source>Mol Biol Evol</source>
+					<year>2021</year>
+					<volume>38</volume>
+					<fpage>3022</fpage>
+					<lpage>3027</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/molbev/msab120">https://doi.org/10.1093/molbev/msab120</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23.</label>
+				<mixed-citation>Minh BQ, Schmidt HA, Chernomor O, Schrempf D, Woodhams MD, von Haeseler A, <italic>et al</italic>. IQ-TREE 2: New models and efficient methods for phylogenetic inference in the genomic era. Mol Biol Evol. 2020;37:1530-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/molbev/msaa015">https://doi.org/10.1093/molbev/msaa015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Minh</surname>
+							<given-names>BQ</given-names>
+						</name>
+						<name>
+							<surname>Schmidt</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Chernomor</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Schrempf</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Woodhams</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>von Haeseler</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>IQ-TREE 2: New models and efficient methods for phylogenetic inference in the genomic era</article-title>
+					<source>Mol Biol Evol</source>
+					<year>2020</year>
+					<volume>37</volume>
+					<fpage>1530</fpage>
+					<lpage>1534</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/molbev/msaa015">https://doi.org/10.1093/molbev/msaa015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24.</label>
+				<mixed-citation>Sielemann K, Pucker B, Schmidt N, Viehover P, Weisshaar B, Heitkam T, <italic>et al</italic>. Complete pan-plastome sequences enable high resolution phylogenetic classification of sugar beet and closely related crop wild relatives. BMC Genomics. 2022;23:113. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12864-022-08336-8">https://doi.org/10.1186/s12864-022-08336-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sielemann</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Pucker</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Schmidt</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Viehover</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Weisshaar</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Heitkam</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Complete pan-plastome sequences enable high resolution phylogenetic classification of sugar beet and closely related crop wild relatives</article-title>
+					<source>BMC Genomics</source>
+					<year>2022</year>
+					<volume>23</volume>
+					<fpage>113</fpage>
+					<lpage>113</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12864-022-08336-8">https://doi.org/10.1186/s12864-022-08336-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25.</label>
+				<mixed-citation>Cock PJA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, <italic>et al</italic>. Biopython: Freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics. 2009;25:1422-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp163">https://doi.org/10.1093/bioinformatics/btp163</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cock</surname>
+							<given-names>PJA</given-names>
+						</name>
+						<name>
+							<surname>Antao</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Cox</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Dalke</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Biopython: Freely available Python tools for computational molecular biology and bioinformatics</article-title>
+					<source>Bioinformatics</source>
+					<year>2009</year>
+					<volume>25</volume>
+					<fpage>1422</fpage>
+					<lpage>1423</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp163">https://doi.org/10.1093/bioinformatics/btp163</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26.</label>
+				<mixed-citation>Jiménez-Silva C, Rivero R, Douglas J, Bouckaert R, Villabona-Arenas CJ, Atkins KE, <italic>et al</italic>. Genomic epidemiology of SARS-CoV-2 variants during the first two years of the pandemic in Colombia. Commun Med (Lond). 2023;3:97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s43856-023-00328-3">https://doi.org/10.1038/s43856-023-00328-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jiménez-Silva</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rivero</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Douglas</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bouckaert</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Villabona-Arenas</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Atkins</surname>
+							<given-names>KE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic epidemiology of SARS-CoV-2 variants during the first two years of the pandemic in Colombia</article-title>
+					<source>Commun Med (Lond)</source>
+					<year>2023</year>
+					<volume>3</volume>
+					<fpage>97</fpage>
+					<lpage>97</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s43856-023-00328-3">https://doi.org/10.1038/s43856-023-00328-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27.</label>
+				<mixed-citation>Murall CL, Poujol R, Petkau A, Sobkowiak B, Zetner A, Kraemer SA, <italic>et al</italic>. Monitoring the evolution and spread of delta sublineages AY.25 and AY.27 in Canada. 2021. Fecha de consulta: 19 de octubre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://virological.org/t/monitoring-the- evolution-and-spread-of-delta-sublineages-ay-25-and-ay-27-in-canada/767">https://virological.org/t/monitoring-the- evolution-and-spread-of-delta-sublineages-ay-25-and-ay-27-in-canada/767</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murall</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Poujol</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Petkau</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sobkowiak</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zetner</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kraemer</surname>
+							<given-names>SA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Monitoring the evolution and spread of delta sublineages AY.25 and AY.27 in Canada</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-10-19">19 de octubre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://virological.org/t/monitoring-the- evolution-and-spread-of-delta-sublineages-ay-25-and-ay-27-in-canada/767">https://virological.org/t/monitoring-the- evolution-and-spread-of-delta-sublineages-ay-25-and-ay-27-in-canada/767</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28.</label>
+				<mixed-citation>Brown CM, Vostok J, Johnson H, Burns M, Gharpure R, Sami S, <italic>et al</italic>. Outbreak of SARS- CoV-2 infections, including COVID-19 vaccine breakthrough infections, associated with large public gatherings - Barnstable County, Massachusetts, July 2021. MMWR Morb Mortal Wkly Rep. 2021;70:1059-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7031e2">https://doi.org/10.15585/mmwr.mm7031e2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brown</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Vostok</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Burns</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gharpure</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Sami</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Outbreak of SARS- CoV-2 infections, including COVID-19 vaccine breakthrough infections, associated with large public gatherings - Barnstable County, Massachusetts, July 2021</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>2021</year>
+					<volume>70</volume>
+					<fpage>1059</fpage>
+					<lpage>1062</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7031e2">https://doi.org/10.15585/mmwr.mm7031e2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29.</label>
+				<mixed-citation>Hadfield J, Megill C, Bell SM, Huddleston J, Potter B, Callender C, <italic>et al</italic>. NextStrain: Realtime tracking of pathogen evolution. Bioinformatics. 2018;34:4121-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/bty407">https://doi.org/10.1093/bioinformatics/bty407</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hadfield</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Megill</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bell</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Huddleston</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Potter</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Callender</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>NextStrain: Realtime tracking of pathogen evolution</article-title>
+					<source>Bioinformatics</source>
+					<year>2018</year>
+					<volume>34</volume>
+					<fpage>4121</fpage>
+					<lpage>4123</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/bty407">https://doi.org/10.1093/bioinformatics/bty407</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30.</label>
+				<mixed-citation>Rabi FA, Al Zoubi MS, Al-Nasser AD, Kasasbeh GA, Salameh DM. SARSCoV-2 and coronavirus disease 2019: What we know so far. Pathogens. 2020;9:231. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/pathogens9030231">https://doi.org/10.3390/pathogens9030231</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rabi</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Al Zoubi</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Al-Nasser</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Kasasbeh</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Salameh</surname>
+							<given-names>DM</given-names>
+						</name>
+					</person-group>
+					<article-title>SARSCoV-2 and coronavirus disease 2019: What we know so far</article-title>
+					<source>Pathogens</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<fpage>231</fpage>
+					<lpage>231</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/pathogens9030231">https://doi.org/10.3390/pathogens9030231</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31.</label>
+				<mixed-citation>Motozono C, Toyoda M, Zahradnik J, Saito A, Nasser H, Tan TS, <italic>et al</italic>. SARS-CoV-2 spike L452R variant evades cellular immunity and increases infectivity. Cell Host Microbe. 2021;29:1124-36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chom.2021.06.006">https://doi.org/10.1016/j.chom.2021.06.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Motozono</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Toyoda</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zahradnik</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Saito</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nasser</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tan</surname>
+							<given-names>TS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 spike L452R variant evades cellular immunity and increases infectivity</article-title>
+					<source>Cell Host Microbe</source>
+					<year>2021</year>
+					<volume>29</volume>
+					<fpage>1124</fpage>
+					<lpage>1136</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chom.2021.06.006">https://doi.org/10.1016/j.chom.2021.06.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32.</label>
+				<mixed-citation>Selzer T, Albeck S, Schreiber G. Rational design of faster associating and tighter binding protein complexes. Nat Struct Biol. 2000;7:537-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/76744">https://doi.org/10.1038/76744</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Selzer</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Albeck</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schreiber</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Rational design of faster associating and tighter binding protein complexes</article-title>
+					<source>Nat Struct Biol</source>
+					<year>2000</year>
+					<volume>7</volume>
+					<fpage>537</fpage>
+					<lpage>541</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/76744">https://doi.org/10.1038/76744</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33.</label>
+				<mixed-citation>Deng X, Garcia-Knight MA, Khalid MM, Servellita V, Wang C, Morris MK, <italic>et al</italic>. Transmission, infectivity, and antibody neutralization of an emerging SARS-CoV-2 variant in California carrying a L452R spike protein mutation. medRxiv. 2021:2021.03.07.21252647. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2021.03.07.21252647">https://doi.org/10.1101/2021.03.07.21252647</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Deng</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Garcia-Knight</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Khalid</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Servellita</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>MK</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Transmission, infectivity, and antibody neutralization of an emerging SARS-CoV-2 variant in California carrying a L452R spike protein mutation</article-title>
+					<source>medRxiv</source>
+					<year>2021</year>
+					<comment>2021.03.07.21252647</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2021.03.07.21252647">https://doi.org/10.1101/2021.03.07.21252647</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34.</label>
+				<mixed-citation>Liu Y, Liu J, Johnson BA, Xia H, Ku Z, Schindewolf C, <italic>et al</italic>. Delta spike P681R mutation enhances SARS-CoV-2 fitness over alfa variant. Cell Rep. 2022;39:110829. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.celrep.2022.110829">https://doi.org/10.1016/j.celrep.2022.110829</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Xia</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Ku</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Schindewolf</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Delta spike P681R mutation enhances SARS-CoV-2 fitness over alfa variant</article-title>
+					<source>Cell Rep</source>
+					<year>2022</year>
+					<volume>39</volume>
+					<fpage>110829</fpage>
+					<lpage>110829</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.celrep.2022.110829">https://doi.org/10.1016/j.celrep.2022.110829</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35.</label>
+				<mixed-citation>Pastrian-Soto G, Pastrian-Soto G. Presencia y expresión del receptor ACE2 (Target de SARS-CoV-2) en tejidos humanos y cavidad oral. Posibles rutas de infección en órganos orales. Int J Odontostomatol. 2020;14:501-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0718-381X2020000400501">https://doi.org/10.4067/S0718-381X2020000400501</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pastrian-Soto</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Pastrian-Soto</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Presencia y expresión del receptor ACE2 (Target de SARS-CoV-2) en tejidos humanos y cavidad oral. Posibles rutas de infección en órganos orales</article-title>
+					<source>Int J Odontostomatol</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<fpage>501</fpage>
+					<lpage>507</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0718-381X2020000400501">https://doi.org/10.4067/S0718-381X2020000400501</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36.</label>
+				<mixed-citation>Lubinski B, Fernandes MH V., Frazier L, Tang T, Daniel S, Diel DG, <italic>et al</italic>. Functional evaluation of the P681H mutation on the proteolytic activation the SARS-CoV-2 variant B.1.1.7 (Alfa) spike. iScience. 2022;25:103589. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.isci.2021.103589">https://doi.org/10.1016/j.isci.2021.103589</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lubinski</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fernandes MH</surname>
+							<given-names>V.</given-names>
+						</name>
+						<name>
+							<surname>Frazier</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Daniel</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Diel</surname>
+							<given-names>DG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Functional evaluation of the P681H mutation on the proteolytic activation the SARS-CoV-2 variant B.1.1.7 (Alfa) spike</article-title>
+					<source>iScience</source>
+					<year>2022</year>
+					<volume>25</volume>
+					<fpage>103589</fpage>
+					<lpage>103589</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.isci.2021.103589">https://doi.org/10.1016/j.isci.2021.103589</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37.</label>
+				<mixed-citation>Chen P, Nirula A, Heller B, Gottlieb RL, Boscia J, Morris J, <italic>et al</italic>. SARSCoV2 neutralizing antibody LY-CoV555 in outpatients with COVID19. N Engl J Med. 2021;384:229-37. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa2029849">https://doi.org/10.1056/NEJMoa2029849</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Nirula</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Heller</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Gottlieb</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Boscia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARSCoV2 neutralizing antibody LY-CoV555 in outpatients with COVID19</article-title>
+					<source>N Engl J Med</source>
+					<year>2021</year>
+					<volume>384</volume>
+					<fpage>229</fpage>
+					<lpage>237</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa2029849">https://doi.org/10.1056/NEJMoa2029849</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38.</label>
+				<mixed-citation>Liu H, Wei P, Kappler JW, Marrack P, Zhang G. SARS-CoV-2 Variants of concern and variants of interest receptor binding domain mutations and virus infectivity. Front Immunol. 2022;13:825256. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fimmu.2022.825256">https://doi.org/10.3389/fimmu.2022.825256</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Kappler</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Marrack</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS-CoV-2 Variants of concern and variants of interest receptor binding domain mutations and virus infectivity</article-title>
+					<source>Front Immunol</source>
+					<year>2022</year>
+					<volume>13</volume>
+					<fpage>825256</fpage>
+					<lpage>825256</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fimmu.2022.825256">https://doi.org/10.3389/fimmu.2022.825256</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39.</label>
+				<mixed-citation>Greaney AJ, Starr TN, Gilchuk P, Zost SJ, Binshtein E, Loes AN, <italic>et al</italic>. Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding domain that escape antibody recognition. Cell Host Microbe. 2021;29:44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chom.2020.11.007">https://doi.org/10.1016/j.chom.2020.11.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Greaney</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Starr</surname>
+							<given-names>TN</given-names>
+						</name>
+						<name>
+							<surname>Gilchuk</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Zost</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Binshtein</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Loes</surname>
+							<given-names>AN</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding domain that escape antibody recognition</article-title>
+					<source>Cell Host Microbe</source>
+					<year>2021</year>
+					<volume>29</volume>
+					<fpage>44</fpage>
+					<lpage>44</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chom.2020.11.007">https://doi.org/10.1016/j.chom.2020.11.007</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<title>Contribución de los autores:</title>
+			<fn fn-type="other" id="fn2">
+				<label>Idabely Betancur, Celeny Ortiz, Cristian Arbey Velarde y Uriel Hurtado:</label>
+				<p> concepción de la propuesta y diseño</p>
+			</fn>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Velarde CA, Hurtado U, Cardona A, Ortiz C, Betancur I. Epidemiología genómica de los sublinajes delta del virus SARS-CoV-2 de la segunda ola de COVID en Antioquia en el 2021. Biomédica. 2024;44:54-66. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6862">https://doi.org/10.7705/biomedica.6862</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Financiación:</label>
+				<p>Este artículo fue financiado por la Secretaría Seccional de Salud y Protección Social de Antioquia, quien brindó insumos, reactivos y tiempo a los investigadores para su redacción. El Instituto Nacional de Salud apoyó con insumos y reactivos para la secuenciación de genomas de SARS-CoV-2</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

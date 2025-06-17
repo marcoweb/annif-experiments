@@ -1,0 +1,45 @@
+#ITI#Hierarchical Bayes Approach to Estimate the Treatment Effect for Randomized Controlled Trials#FTI#
+#IRE# One important issue in Bayesian estimation is the determination of an effective informative prior. In hierarchical Bayes models, the uncertainty of hyperparameters in a prior can be further modeled via their own priors, namely, hyper priors. This study introduces a framework to construct hyper priors for both the mean and the variance hyperparameters for estimating the treatment effect in a two-group randomized controlled trial. Assuming a random sample of treatment effect sizes is obtained from past studies, the hyper priors can be constructed based on the sampling distributions of the effect size mean and precision. The performance of the hierarchical Bayes approach was compared with the empirical Bayes approach (hyperparameters are fixed values or point estimates) and the ordinary least squares (OLS) method via simulation. The design factors for data generation included the sample treatment effect size, treatment/control group size ratio, and sample size. Each generated data set was analyzed using the hierarchical Bayes approach with three hyper priors, the empirical Bayes approach with twelve priors (including correct and inaccurate priors), and the OLS method. Results indicated that the proposed hierarchical Bayes approach generally outperformed the empirical Bayes approach and the OLS method, especially with small samples. When more sample effect sizes were available, the treatment effect was estimated more accurately regardless of the sample sizes. Practical implications and future research directions are discussed.#FRE#
+#IPC# empirical Bayes model; hierarchical Bayes model; hyper prior; randomized controlled trial; treatment effect#FPC#
+#IRF# Carlin B.P., Louis T.A., Bayesian methods for data analysis, (2008); 
+Cohen J., Statistical power analysis for the behavioral sciences, (1988); 
+Darnieder W.F., Bayesian methods for data-dependent priors, (2011); 
+Depaoli S., The impact of inaccurate “informative” priors for growth parameters in Bayesian growth mixture modeling, Structural Equation Modeling, 21, 2, pp. 239-252, (2014); 
+Depaoli S., van de Schoot R., Improving transparency and replication in Bayesian statistics: The WAMBS-Checklist, Psychological Methods, 22, 2, pp. 240-261, (2017); 
+Farid A., Abdel-Aty M., Lee J., Eluru N., Application of Bayesian informative priors to enhance the transferability of safety performance functions, Journal of Safety Research, 62, pp. 155-161, (2017); 
+Ferguson C.J., An effect size primer: A guide for clinicians and researchers, Professional Psychology: Research and Practice, 40, 5, pp. 532-538, (2009); 
+Finch W.H., Miller J., The use of incorrect informative priors in the estimation of MIMIC model parameters with small sample sizes, Structural Equation Modeling, 26, 4, pp. 497-508, (2019); 
+Finucane M.M., (2018); 
+Garnier-Villarreal M., Jorgensen T., Adapting fit indices for Bayesian structural equation modeling: Comparison to maximum likelihood, Psychological Methods, 25, 1, pp. 46-70, (2020); 
+Gelman A., Multilevel (hierarchical) modeling: What it can and cannot do, Technometrics, 48, 3, pp. 432-435, (2006); 
+Gelman A., Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper), Bayesian Analysis, 1, 3, pp. 515-534, (2006); 
+Gelman A., Carlin J.B., Stern H.S., Dunson D.B., Vehtari A., Rubin D.B., Bayesian data analysis, (2013); 
+Gelman A., Rubin D.B., Inference from iterative simulation using multiple sequences, Statistical Science, 7, 4, pp. 457-472, (1992); 
+Geman S., Geman D., Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images, IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-6, pp. 721-741, (1984); 
+Heydari S., Miranda-Moreno L.F., Lord D., Fu L., Bayesian methodology to estimate and update safety performance functions under limited data conditions: A sensitivity analysis, Accident Analysis & Prevention, 64, pp. 41-51, (2014); 
+Jacobucci R., Grimm K.J., Comparison of frequentist and Bayesian regularization in structural equation modeling, Structural Equation Modeling, 25, 4, pp. 639-649, (2018); 
+Lee S.Y., Bayesian estimation of structural equation models, Structural equation modeling: A Bayesian approach, pp. 67-109, (2007); 
+Liang X., Prior sensitivity in Bayesian structural equation modeling for sparse factor loading structures, Educational and Psychological Measurement, (2020); 
+Liang X., Luo Y., A comprehensive comparison of model selection methods for testing factorial invariance, Structural Equation Modeling, (2019); 
+Liang X., Yang Y., An evaluation of WLSMV and Bayesian methods for confirmatory factor analysis with categorical indicators, International Journal of Quantitative Research in Education, 2, 1, pp. 17-38, (2014); 
+Liang X., Yang Y., Huang J., Evaluation of structural relationships in autoregressive cross-lagged models under longitudinal approximate invariance: A Bayesian analysis, Structural Equation Modeling, 25, 4, pp. 558-572, (2018); 
+Little R.J., Calibrated Bayes: A Bayes/frequentist roadmap, American Statistician, 60, 3, pp. 213-223, (2006); 
+Lord D., Miranda-Moreno L.F., Effects of low sample mean values and small sample size on the estimation of the fixed dispersion parameter of Poisson-gamma models for modeling motor vehicle crashes: A Bayesian perspective, Safety Science, 46, 5, pp. 751-770, (2008); 
+Malinverno A., Briggs V.A., Expanded uncertainty quantification in inverse problems: Hierarchical Bayes and empirical Bayes, Geophysics, 69, 4, pp. 1005-1016, (2004); 
+Marcoulides K.M., A Bayesian synthesis approach to data fusion using augmented data-dependent priors, (2017); 
+Marcoulides K.M., Careful with those priors: A note on Bayesian estimation in two-parameter logistic item response theory models, Measurement: Interdisciplinary Research and Perspectives, 16, 2, pp. 92-99, (2018); 
+McNeish D.M., Using data-dependent priors to mitigate small sample bias in latent growth models: A discussion and illustration using M plus, Journal of Educational and Behavioral Statistics, 41, 1, pp. 27-56, (2016); 
+Miranda-Moreno L.F., Heydari S., Lord D., Fu L., Bayesian road safety analysis: Incorporation of past evidence and effect of hyper-prior choice, Journal of Safety Research, 46, pp. 31-40, (2013); 
+Muthen B.O., Asparouhov T., Bayesian structural equation modeling: A more flexible representation of substantive theory, Psychological Methods, 17, 3, pp. 313-335, (2012); 
+Natesan P., Nandakumar R., Minka T., Rubright J.D., Bayesian prior choice in IRT estimation using MCMC and variational Bayes, Frontiers in Psychology, 7, (2016); 
+Park B.-J., Lord D., Hart J.D., Bias properties of Bayesian statistics in finite mixture of negative binomial regression models in crash data analysis, Accident Analysis & Prevention, 42, 2, pp. 741-749, (2010); 
+Park T., Casella G., The Bayesian lasso, Journal of the American Statistical Association, 103, 482, pp. 681-686, (2008); 
+Plummer M., JAGS: A program for analysis of Bayesian graphical models using Gibbs sampling (DSC, (2003); 
+Plummer M., Stukalov A., Denwood M., rjags: Bayesian graphical models using MCMC, (2016); 
+R: A language and environment for statistical computing, (2019); 
+Rue H., Martino S., Chopin N., Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations, Journal of the Royal Statistical Society: Series B (Statistical Methodology), 71, 2, pp. 319-392, (2009); 
+Serhiyenko V., Mamun S.A., Ivan J.N., Ravishanker N., Fast Bayesian inference for modeling multivariate crash counts, Analytic Methods in Accident Research, 9, pp. 44-53, (2016); 
+Steel P., Kammeyer-Mueller J., Paterson T.A., Improving the meta-analytic assessment of effect size variance with an informed Bayesian prior, Journal of Management, 41, 2, pp. 718-743, (2015); 
+Vehtari A., Gelman A., Gabry J., Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC, Statistics and Computing, 27, 5, pp. 1413-1432, (2017); 
+Xiao Y., Liu H., Hau K.-T., A comparison of CFA, ESEM, and BSEM in test structure analysis, Structural Equation Modeling, 26, 5, pp. 665-677, (2019); 
+Yu R., Abdel-Aty M., Investigating different approaches to develop informative priors in hierarchical Bayesian safety performance functions, Accident Analysis & Prevention, 56, pp. 51-58, (2013)#FRF#

@@ -1,0 +1,35 @@
+#ITI#Summary Intervals for Model-Based Classification Accuracy and Consistency Indices#FTI#
+#IRE# When scores are used to make decisions about respondents, it is of interest to estimate classification accuracy (CA), the probability of making a correct decision, and classification consistency (CC), the probability of making the same decision across two parallel administrations of the measure. Model-based estimates of CA and CC computed from the linear factor model have been recently proposed, but parameter uncertainty of the CA and CC indices has not been investigated. This article demonstrates how to estimate percentile bootstrap confidence intervals and Bayesian credible intervals for CA and CC indices, which have the added benefit of incorporating the sampling variability of the parameters of the linear factor model to summary intervals. Results from a small simulation study suggest that percentile bootstrap confidence intervals have appropriate confidence interval coverage, although displaying a small negative bias. However, Bayesian credible intervals with diffused priors have poor interval coverage, but their coverage improves once empirical, weakly informative priors are used. The procedures are illustrated by estimating CA and CC indices from a measure used to identify individuals low on mindfulness for a hypothetical intervention, and R code is provided to facilitate the implementation of the procedures.#FRE#
+#IPC# classification accuracy; classification consistency; confidence intervals; factor model; screening#FPC#
+#IRF# Standards for educational and psychological testing, (2014); 
+Brooks S.P., Gelman A., Convergence assessment techniques for Markov chain Monte Carlo, Statistics and Computing, 8, pp. 319-335, (1998); 
+Brown K.W., Ryan R.M., The benefits of being present: Mindfulness and its role in psychological well-being, Journal of Personality and Social Psychology, 84, pp. 822-848, (2003); 
+Casella G., George E.I., Explaining the Gibbs sampler, The American Statistician, 46, pp. 167-174, (1992); 
+Edwards M.C., A Markov chain Monte Carlo approach to confirmatory item factor analysis, Psychometrika, 75, pp. 474-497, (2010); 
+Edwards M.C., Houts C.R., Cai L., A diagnostic procedure to detect departures from local independence in item response theory models, Psychological Methods, 23, pp. 138-149, (2018); 
+Efron B., Tibshirani R.J., An introduction to the bootstrap, (1993); 
+Eisenberg I.W., Bissett P.G., Canning J.R., Dallery J., Enkavi A.Z., Gabrieli S.W., Gonzalez O., Green A.I., Greene M.A., Kiernan M., Kim S.J., Li J., Lowe M., Mazza G.L., Metcalf S.A., Onken L., Peters E., Prochaska J.J., Scherer E.A., Poldrack R.A., Applying novel technologies and methods to inform the ontology of self-regulation, Behavior Research and Therapy, 101, pp. 46-57, (2018); 
+Gelman A., Carlin J.B., Stern H.S., Rubin D.B., Bayesian data analysis, (2004); 
+Gonzalez O., Georgeson A.R., Pelham W.E., Fouladi R.T., Estimating classification consistency of screening measures and quantifying the impact of measurement bias, Psychological Assessment, 37, pp. 596-609, (2021); 
+Gonzalez O., Pelham W.E., When does differential item functioning matter for screening? A method for empirical evaluation, Assessment, 28, pp. 446-456, (2021); 
+Kelley K., Pornprasertmanit S., Confidence intervals for population reliability coefficients: Evaluation of methods, recommendations, and software for composite measures, Psychological Methods, 21, pp. 69-92, (2016); 
+Lee W.C., Classification consistency and accuracy for complex assessments using item response theory, Journal of Educational Measurement, 47, pp. 1-17, (2010); 
+Levy R., Mislevy R.J., Bayesian psychometric modeling, (2017); 
+Livingston S.A., Lewis C., Estimating the consistency and accuracy of classifications based on test scores, Journal of Educational Measurement, 32, pp. 179-197, (1995); 
+MacCallum R.C., Widaman K.F., Preacher K.J., Hong S., Sample size in factor analysis: The role of model error, Multivariate Behavioral Research, 36, pp. 611-637, (2001); 
+McDonald R.P., Test theory: A unified treatment, (1999); 
+Millsap R.E., Kwok O.M., Evaluating the impact of partial factorial invariance on selection in two populations, Psychological Methods, 9, pp. 93-115, (2004); 
+Moses T., Kim S., Methods for evaluating composite reliability, classification consistency, and classification accuracy for mixed-format licensure tests, Applied Psychological Measurement, 39, pp. 314-329, (2015); 
+Newcombe R.G., Two-sided confidence intervals for the single proportion: Comparison of seven methods, Statistics in Medicine, 17, pp. 857-872, (1998); 
+Pepe M.S., The statistical evaluation of medical tests for classification and prediction, (2003); 
+Pfadt J.M., van den Bergh D., Sijtsma K., Moshagen M., Wagenmakers E.J., Bayesian estimation of single-test reliability coefficients, Multivariate Behavioral Research, (2021); 
+Plummer M., JAGS: A program for analysis of Bayesian graphical models using Gibbs sampling, Proceedings of the 3rd International Workshop on Distributed Statistical Computing, (2003); 
+Plummer M., Best N., Cowles K., Vines K., CODA: Convergence diagnosis and output analysis for MCMC, R News, 6, pp. 7-11, (2006); 
+Reise S.P., Scheines R., Widaman K.F., Haviland M.G., Multidimensionality and structural coefficient bias in structural equation modeling: A bifactor perspective, Educational and Psychological Measurement, 73, pp. 5-26, (2013); 
+Rosseel Y., lavaan: An R package for structural equation modeling, Journal of Statistical Software, 48, pp. 1-36, (2012); 
+Su Y.-S., Yajima M., R2jags: Using R to run “JAGS, (2020); 
+Tanzer J.R., Harlow L.L., Bayesian modeling of test reliability, Multivariate Behavioral Research, 56, (2021); 
+van de Schoot R., Depaoli S., King R., Kramer B., Martens K., Tadesse M.G., Vannucci M., Gelman A., Veen D., Willemsen J., Yau C., Bayesian statistics and modelling, Nature Reviews Methods Primers, 1, pp. 1-26, (2021); 
+van Erp S., Mulder J., Oberski D.L., Prior sensitivity analysis in default Bayesian structural equation modeling, Psychological Methods, 23, pp. 363-388, (2018); 
+Veen D., Stoel D., Zondervan-Zwijnenburg M., Van de Schoot R., Proposal for a five-step method to elicit expert judgment, Frontiers in Psychology, 8, (2017); 
+Youngstrom E.A., A primer on receiver operating characteristic analysis and diagnostic efficiency statistics for pediatric psychology: We are ready to ROC, Journal of Pediatric Psychology, 39, pp. 204-221, (2014)#FRF#

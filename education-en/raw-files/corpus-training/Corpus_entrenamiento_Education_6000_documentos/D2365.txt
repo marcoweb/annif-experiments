@@ -1,0 +1,31 @@
+#ITI#Exploration of the Stacking Ensemble Machine Learning Algorithm for Cheating Detection in Large-Scale Assessment#FTI#
+#IRE# Cheating detection in large-scale assessment received considerable attention in the extant literature. However, none of the previous studies in this line of research investigated the stacking ensemble machine learning algorithm for cheating detection. Furthermore, no study addressed the issue of class imbalance using resampling. This study explored the application of the stacking ensemble machine learning algorithm to analyze the item response, response time, and augmented data of test-takers to detect cheating behaviors. The performance of the stacking method was compared with that of two other ensemble methods (bagging and boosting) as well as six base non-ensemble machine learning algorithms. Issues related to class imbalance and input features were addressed. The study results indicated that stacking, resampling, and feature sets including augmented summary data generally performed better than its counterparts in cheating detection. Compared with other competing machine learning algorithms investigated in this study, the meta-model from stacking using discriminant analysis based on the top two base models—Gradient Boosting and Random Forest—generally performed the best when item responses and the augmented summary statistics were used as the input features with an under-sampling ratio of 10:1 among all the study conditions.#FRE#
+#IPC# cheating detection; data augmentation; dual resampling; ensemble learning algorithms; machine learning; oversampling; resampling; response time; SMOTE; stacking; under-sampling#FPC#
+#IRF# Anguita D., Ghelardoni L., Ghio A., Oneto L., Ridella S., The “K” in K-fold cross validation, ESANN 2012 proceedings, European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, pp. 25-27, (2012); 
+Bishop S., Egan K., Detecting erasures and unusual gain scores, Handbook of quantitative methods for detecting cheating on tests, pp. 193-213, (2017); 
+Chan K., Stolfo J., On the accuracy of meta-learning for scalable data mining, Journal of Intelligent Information Systems, 8, 1, pp. 5-28, (1997); 
+Chawla N.V., Bowyer K.W., Hall L.O., Kegelmeyer W.P., SMOTE: Synthetic minority over-sampling technique, JAIR Journal of Artificial Intelligence Research, 16, pp. 321-357, (2002); 
+Chen Y., Lu Y., Moustaki I., Detection of two-way outliers in multivariate data and application to cheating detection in educational tests, (2020); 
+Cizek G.J., Wollack J.A., Handbook of quantitative methods for detecting cheating on tests, (2017); 
+Cui Z., Liu C., He Y., Chen H., Comparison of algorithms that allow item review in computerized adaptive test, (2018); 
+Drasgow F., Levine M.V., Williams E., Appropriateness measurement with polychotomous item response models and standardized indices, British Journal of Mathematical and Statistical Psychology, 38, pp. 67-86, (1985); 
+Forman G., Scholz M., Apples-to-apples in cross-validation studies: Pitfalls in classifier performance measurement, SIGKDD Explorations, 12, pp. 49-57, (2010); 
+Guo X., Yin Y., Dong C., Yang G., Zhou G., On the class imbalance problem, 4, (2008); 
+He H., Garcia E.A., Learning from imbalanced data, IEEE Transactions on Knowledge and Data Engineering, 21, 9, pp. 1263-1284, (2009); 
+Japkowicz N., The class imbalance problem: Significance and strategies, (2000); 
+Le T., Fu W., Moore J., Scaling tree-based automated machine learning to biomedical big data with a feature set selector, Bioinformatics, 36, 1, pp. 250-256, (2020); 
+Man K., Harring J.R., Assessing preknowledge cheating via innovative measures: A multiple-group analysis of jointly modeling item responses, response times, and visual fixation counts, Educational and Psychological Measurement, 81, 3, pp. 441-465, (2020); 
+Man K., Harring J.R., Sinharay S., Use of data mining methods to detect test fraud, Journal of Educational Measurement, 56, 2, pp. 251-279, (2019); 
+Meijer R.R., Sijtsma K., Methodology review: Evaluating person fit, Applied Psychological Measurement, 25, 2, pp. 107-135, (2001); 
+Pavlyshenko B., Using stacking approaches for machine learning models, 2018 IEEE Second International Conference on Data Stream Mining & Processing (DSMP), pp. 255-258, (2018); 
+Pedregosa F., Varoquaux G., Gramfort A., Michel V., Thirion B., Grisel O., Blondel M., Prettenhofer P., Weiss R., Dubourg V., Vanderplas J., Passos A., Cournapeau D., Brucher M., Perrot M., Duchesnay E., Scikit-learn: Machine learning in Python, Journal of Machine Learning Research, 12, pp. 2825-2830, (2011); 
+Raschka S., MLxtend: Providing machine learning and data science utilities and extensions to Python’s scientific computing stack, The Journal of Open Source Software, 3, 24, (2018); 
+Sasaki Y., The truth of the F-measure, Teach Tutor Mater, (2007); 
+Shu Z., Henson R., Luecht R., Using deterministic, gated item response theory model to detect test cheating due to item compromise, Psychometrika, 78, pp. 1-17, (2013); 
+Sijtsma K., Meijer R.R., A method for investigating the intersection of item response functions in Mokken’s nonparametric IRT model, Applied Psychological Measurement, 16, 2, pp. 149-157, (1992); 
+Skorupski W., Fitzpatrick J., Egan K., A Bayesian hierarchical model for detecting aberrant growth at the group level, (Eds.), Handbook of quantitative methods for detecting cheating on tests, pp. 232-244, (2016); 
+Toton S.L., Maynes D.D., Detecting examinees with pre-knowledge in experimental data using conditional scaling of response times, Frontiers in Education, 4, (2019); 
+van der Flier H., Deviant response patterns and comparability of test scores, Journal of Cross-Cultural Psychology, 13, pp. 267-298, (1982); 
+Wang C., Xu G., Shang Z., Kuncel N., Detecting aberrant behavior and item preknowledge: A comparison of mixture modeling method and residual method, Journal of Educational and Behavioral Statistics, 43, pp. 469-501, (2018); 
+Wollack J.A., A nominal response model approach for detecting answer copying, Applied Psychological Measurement, 21, pp. 307-320, (1997); 
+Zopluoglu C., Detecting examinees with item preknowledge in large-scale testing using extreme gradient boosting (XGBoost), Educational and Psychological Measurement, 79, 5, pp. 931-961, (2019)#FRF#

@@ -1,0 +1,49 @@
+#ITI#Use of the Lagrange Multiplier Test for Assessing Measurement Invariance Under Model Misspecification#FTI#
+#IRE# This article studies the Type I error, false positive rates, and power of four versions of the Lagrange multiplier test to detect measurement noninvariance in item response theory (IRT) models for binary data under model misspecification. The tests considered are the Lagrange multiplier test computed with the Hessian and cross-product approach, the generalized Lagrange multiplier test and the generalized jackknife score test. The two model misspecifications are those of local dependence among items and nonnormal distribution of the latent variable. The power of the tests is computed in two ways, empirically through Monte Carlo simulation methods and asymptotically, using the asymptotic distribution of each test under the alternative hypothesis. The performance of these tests is evaluated by means of a simulation study. The results highlight that, under mild model misspecification, all tests have good performance while, under strong model misspecification, the tests performance deteriorates, especially for false positive rates under local dependence and power for small sample size under misspecification of the latent variable distribution. In general, the Lagrange multiplier test computed with the Hessian approach and the generalized Lagrange multiplier test have better performance in terms of false positive rates while the Lagrange multiplier test computed with the cross-product approach has the highest power for small sample sizes. The asymptotic power turns out to be a good alternative to the classic empirical power because it is less time consuming. The Lagrange tests studied here have been also applied to a real data set.#FRE#
+#IPC# binary data; generalized Lagrange multiplier test; MIMIC models#FPC#
+#IRF# Agresti A., Categorical data analysis, (2002); 
+Azzalini A., A class of distributions which includes the normal ones, Scandinavian Journal of Statistics, 12, 2, pp. 171-178, (1985); 
+Bartholomew D.J., Knott M., Moustaki I., Latent variable models and factor analysis: A unified approach, (2011); 
+Bera A.K., Bilias Y., Yoon M.J., Taspinar S., Dogan O., Adjustments of Rao’s score test for distributional and local parametric misspecifications, Journal of Econometric Methods, 9, 1, (2020); 
+Birnbaum A.L., Some latent trait models and their use in inferring an examinee’s ability, Statistical theories of mental test scores, pp. 397-479, (1968); 
+Bock R.D., Aitkin M., Marginal maximum likelihood estimation of item parameters: Application of an EM algorithm, Psychometrika, 46, 4, pp. 443-459, (1981); 
+Bollen K.A., Structural equations with latent variables, (1989); 
+Boos D.D., On generalized score tests, The American Statistician, 46, 4, pp. 327-333, (1992); 
+Boos D.D., Stefanski L.A., Hypothesis tests under misspecification and relaxed assumptions, Essential statistical inference: Theory and methods, pp. 339-359, (2013); 
+Cox D.R., Hinkley D.V., Theoretical statistics, (1979); 
+Duncan O.D., Indicators of sex typing: Traditional and egalitarian, situational and ideological responses, American Journal of Sociology, 85, 2, pp. 251-260, (1979); 
+Dwass M., Modified randomization tests for nonparametric hypotheses, Annals of Mathematical Statistics, 28, 1, pp. 181-187, (1957); 
+Efron B., Tibshirani R.J., An introduction to the bootstrap, (1994); 
+Engle R., Wald, likelihood ratio, and Lagrange multiplier tests in econometrics, Handbook of econometrics, 2, pp. 775-826, (1984); 
+Falk C.F., Monroe S., On Lagrange multiplier tests in multidimensional item response theory: Information matrices and model misspecification, Educational and Psychological Measurement, 78, 4, pp. 653-678, (2018); 
+Fox J., Glas C.A.W., Bayesian modification indices for IRT models, Statistica Neerlandica, 59, 1, pp. 95-106, (2005); 
+Glas C.A.W., Detection of differential item functioning using Lagrange multiplier tests, Statistica Sinica, 8, pp. 647-667, (1998); 
+Glas C.A.W., Modification indices for the 2-PL and the nominal response model, Psychometrika, 64, 3, pp. 273-294, (1999); 
+Glas C.A.W., Falcon J.C.S., A comparison of item-fit statistics for the three-parameter logistic model, Applied Psychological Measurement, 27, 2, pp. 87-106, (2003); 
+Godambe V., Thompson M.E., Parameters of superpopulation and survey population: Their relationships and estimation, International Statistical Review/Revue Internationale de Statistique, 54, 2, pp. 127-138, (1986); 
+Green S.B., Thompson M.S., Babyak M.A., A Monte Carlo investigation of methods for controlling Type I errors with specification searches in structural equation modeling, Multivariate Behavioral Research, 33, 3, pp. 365-383, (1998); 
+Guastadisegni L., Cagnone S., Moustaki I., Vasdekis V., The asymptotic power of the lagrange multiplier tests for misspecified IRT models, Quantitative psychology: The 85th annual meeting of the Psychometric Society virtual, 2020; 
+Gudicha D.W., Schmittmann V.D., Vermunt J.K., Statistical power of likelihood ratio and Wald tests in latent class models with covariates, Behavior Research Methods, 49, 5, pp. 1824-1837, (2017); 
+Irincheeva I., Generalized linear latent variable models with flexible distributions, (2011); 
+Joreskog K.G., Simultaneous factor analysis in several populations, Psychometrika, 36, 4, pp. 409-426, (1971); 
+Joreskog K.G., Goldberger A.S., Estimation of a model with multiple indicators and multiple causes of a single latent variable, 70, 351a, pp. 631-639, (1975); 
+Kim D., De Ayala R., Ferdous A.A., Nering M.L., The comparative performance of conditional independence indices, Applied Psychological Measurement, 35, 6, pp. 447-471, (2011); 
+Liu Y., Maydeu-Olivares A., Local dependence diagnostics in IRT modeling of binary data, Educational and Psychological Measurement, 73, 2, pp. 254-274, (2013); 
+Liu Y., Thissen D., Identifying local dependence with a score test statistic based on the bifactor logistic model, Applied Psychological Measurement, 36, 8, pp. 670-688, (2012); 
+Liu Y., Thissen D., Comparing score tests and other local dependence diagnostics for the graded response model, British Journal of Mathematical and Statistical Psychology, 67, 3, pp. 496-513, (2014); 
+Lu H.Y.K., Young G.A., Parametric bootstrap under model mis-specification, Computational Statistics & Data Analysis, 56, 8, pp. 2410-2420, (2012); 
+MacKinnon J.G., Bootstrap inference in econometrics, Canadian Journal of Economics/Revue canadienne d’économique, 35, 4, pp. 615-645, (2002); 
+Mavridis D., Moustaki I., The forward search algorithm for detecting aberrant response patterns in factor analysis for binary data, Journal of Computational and Graphical Statistics, 18, 4, pp. 1016-1034, (2009); 
+Mellenbergh G.J., Contingency table models for assessing item bias, Journal of Educational Statistics, 7, 2, pp. 105-118, (1982); 
+Mellenbergh G.J., Conditional item bias methods, Human assessment and cultural factors, pp. 293-302, (1983); 
+Miller D., Swanson G.E., Newcomb T.M., Detroit area study, 1953: Child training patterns among urban families and attitudes and perceptions of consensus of group members, (1984); 
+Oberski D.L., van Kollenburg G.H., Vermunt J.K., A Monte Carlo evaluation of three methods to detect local dependence in binary data latent class models, Advances in Data Analysis and Classification, 7, 3, pp. 267-279, (2013); 
+Ranger J., Kuhn J.-T., Assessing fit of item response models using the information matrix test, Journal of Educational Measurement, 49, 3, pp. 247-268, (2012); 
+Rao C.R., Large sample tests of statistical hypotheses concerning several parameters with applications to problems of estimation, Mathematical Proceedings of the Cambridge Philosophical Society, pp. 50-57, (1948); 
+Rao J., Scott A.J., Skinner C.J., Quasi-score tests with survey data, Statistica Sinica, 8, pp. 1059-1070, (1998); 
+Reiser M., Goodness-of-fit testing using components based on marginal frequencies of multinomial data, 61, pp. 331-360, (2008); 
+Satorra A., Alternative test criteria in covariance structure analysis: A unified approach, Psychometrika, 54, 1, pp. 131-151, (1989); 
+Shao J., Jackknifing in generalized linear models, Annals of the Institute of Statistical Mathematics, 44, 4, pp. 673-686, (1992); 
+Skrondal A., Rabe-Hesketh S., Generalized latent variable modeling: Multilevel, longitudinal, and structural equation models, (2004); 
+van der Linden W.J., Glas C.A.W., Statistical tests of conditional independence between responses and/or response times on test items, Psychometrika, 75, 1, pp. 120-139, (2010); 
+White H., Maximum likelihood estimation of misspecified models, Econometrica, 50, 1, pp. 1-25, (1982)#FRF#

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.9" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">000017</article-id>
+			<article-id pub-id-type="doi">10.7440/res64.2018.03</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Actualización</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Neuromonitoreo no invasivo en unidades de cuidados intensivos en Colombia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Non-invasive neuromonitoring in intensive care units in Colombia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ortiz</surname>
+						<given-names>Blair</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Lanau</surname>
+						<given-names>Sara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Sección de Neurología Infantil, Hospital San Vicente Fundación, Medellín, Colombia</institution>
+				<institution content-type="normalized">Hospital San Vicente Fundación</institution>
+				<institution content-type="orgdiv1">Sección de Neurología Infantil</institution>
+				<institution content-type="orgname">Hospital San Vicente Fundación</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Sección de Neurología Infantil, IPS Soytupediatra, Medellín, Colombia</institution>
+				<institution content-type="normalized">IPS Soytupediatra</institution>
+				<institution content-type="orgdiv1">Sección de Neurología Infantil</institution>
+				<institution content-type="orgname">IPS Soytupediatra</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia</bold>: Blair Ortiz, Carrera 32 No 7B sur 52, interior 128, Medellín, Colombia. Teléfono: (300) 404 3964. <email>blair.ortiz@udea.edu.co</email>
+				</corresp>
+				<fn fn-type="equal" id="fn2">
+					<label>Contribución de los autores:</label>
+					<p> Ambos autores recopilaron la bibliografía sobre las bases fisiológicas, principios electrofísicos, últimos adelantos y utilidad clínica actual del neuromonitoreo en Colombia.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores no tienen conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>15</day>
+				<month>12</month>
+				<year>2021</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+			<pub-date pub-type="epub-ppub">
+				<month>12</month>
+				<year>2021</year>
+			</pub-date>
+			<volume>41</volume>
+			<issue>4</issue>
+			<fpage>803</fpage>
+			<lpage>809</lpage>
+			<history>
+				<date date-type="received">
+					<day>08</day>
+					<month>02</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>15</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="pub">
+					<day>22</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<p>El monitoreo electroencefalográfico no invasivo continuo es una técnica indispensable en los pacientes neurológicos críticos, ya que muestra de forma directa e indirecta su actividad cerebral y permite relacionar los hallazgos con su estado clínico. Es muy sensible, aunque su especificidad es menor, por lo que puede demostrar la alteración del estado de conciencia sin aclarar su etiología.</p>
+				<p>El uso del registro electroencefalográfico continuo en pacientes con alteraciones del estado de conciencia, convulsiones, o estado epiléptico convulsivo y no convulsivo, se ha incrementado en los últimos años porque permite obtener información en tiempo real de la función cerebral y de los cambios en el tiempo; además, facilita la detección de crisis epilépticas subclínicas y electrográficas, estas últimas de gran importancia, ya que no presentan correlación clínica.</p>
+				<p>Los hallazgos del monitoreo permiten modificar el tratamiento farmacológico y anticonvulsivo, y constituyen una gran ventaja para el médico tratante en la toma de decisiones oportunas que redunden en la mejoría del pronóstico del paciente.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<p>Continuous non-invasive electroencephalographic monitoring is an essential technique for critical care patients as it shows directly and indirectly the patient’s brain activity and makes it possible to relate it with findings in the clinical status. It is highly sensitive, although its specificity is lower, so they can show alterations of the state of consciousness without clarifying the etiology.</p>
+				<p>Continuous electroencephalographic recording in patients with altered levels of consciousness, seizures, and convulsive and non-convulsive status epilepticus has been increasing in recent years as real-time feedback of the cerebral function shows evolution changes and allows for the identification of electric and subclinical epileptic seizures that are highly important since they do not have clinical correlations.</p>
+				<p>These findings in electroencephalographic monitoring also help to modify pharmacological and antiseizure treatments. For practitioners, they are advantageous when making timely decisions that impact the prognosis of the patient.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>monitoreo</kwd>
+				<kwd>cuidado intensivo</kwd>
+				<kwd>electroencefalografía</kwd>
+				<kwd>análisis espectral</kwd>
+				<kwd>oximetría</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Monitoring</kwd>
+				<kwd>critical care</kwd>
+				<kwd>electroencephalography</kwd>
+				<kwd>spectrum analysis</kwd>
+				<kwd>oximetry</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="5"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="15"/>
+				<page-count count="7"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Las diferentes modalidades de monitoreo neurológico no invasivo en las unidades de cuidados intensivos permiten que el médico no neurólogo tenga una aproximación diagnóstica muy certera, y pueda intervenir para evitar y tratar las complicaciones más frecuentes de los pacientes en estas unidades <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Aunque son de gran utilidad para complementar el seguimiento neurológico, en muchas ocasiones se requiere de estudios más avanzados para caracterizar la enfermedad del paciente.</p>
+		<p>Estas técnicas difieren del monitoreo electroencefalográfico invasivo empleado en pacientes con epilepsia potencialmente remediable con cirugía. En esta actualización, se hará una revisión práctica de las modalidades de monitoreo neurológico no invasivo disponibles en Colombia, sin referencia al neuromonitoreo invasivo.</p>
+		<sec>
+			<title>Duración del neuromonitoreo</title>
+			<p>La duración ideal del monitoreo no invasivo debe ser de 24 horas como mínimo, pues los estudios muestran que el 50 % de las crisis se detectan en la primera hora del monitoreo y el 90 % durante las 24 horas iniciales. Si el tiempo de monitoreo es menor, las crisis epilépticas pueden no detectarse, lo que aumenta las complicaciones neurológicas y la morbimortalidad. Sin embargo, los expertos coinciden en que la duración del monitoreo electroencefalográfico debe individualizarse con base en el porcentaje de crisis según el tiempo de observación <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>Modalidades de neuromonitoreo no invasivo</title>
+			<p>Entre las diferentes modalidades de evaluación de la actividad cerebral, están el electroencefalograma de amplitud integrada (<italic>ambulatory Electroencephalography</italic>), el monitoreo de la función cerebral (<italic>Cerebral Function Monitor</italic>), el análisis del índice biespectral y la matriz de densidad espectral.</p>
+			<p>Una de las grandes ventajas de este tipo de monitoreo neurológico electroencefalográfico no invasivo, es la elevada correlación de sus medidas con las del electroencefalograma convencional, que sigue siendo la prueba de referencia para el diagnóstico en el paciente neurológico crítico. Esto quiere decir que las anormalidades observadas mediante estas técnicas deberían validarse con un electroencefalograma convencional (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Indicaciones del monitoreo electroencefalográfico no invasivo en unidades de cuidados intensivos</title>
+					</caption>
+					<table>
+						<colgroup width="100%">
+							<col/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<td align="left">Trastorno agudo de la conciencia (encefalopatía)</td>
+							</tr>
+							<tr>
+								<td align="left">Lesión cerebral aguda</td>
+							</tr>
+							<tr>
+								<td align="left">Estado epiléptico</td>
+							</tr>
+							<tr>
+								<td align="left">Hemorragia subaracnoidea</td>
+							</tr>
+							<tr>
+								<td align="left">Sospecha de crisis epilépticas</td>
+							</tr>
+							<tr>
+								<td align="left">Bloqueo neuromuscular con lesión cerebral</td>
+							</tr>
+							<tr>
+								<td align="left">Trauma craneoencefálico moderado a grave</td>
+							</tr>
+							<tr>
+								<td align="left">Posterior a reanimación cardiopulmonar</td>
+							</tr>
+							<tr>
+								<td align="left">Ahogamiento</td>
+							</tr>
+							<tr>
+								<td align="left">Encefalopatía epiléptica (metabólica o genética)</td>
+							</tr>
+							<tr>
+								<td align="left">Neurocirugía</td>
+							</tr>
+							<tr>
+								<td align="left">Asfixia perinatal</td>
+							</tr>
+							<tr>
+								<td align="left">Cirugía cardiovascular</td>
+							</tr>
+							<tr>
+								<td align="left">Anestesia con soluciones para cardioplejia</td>
+							</tr>
+							<tr>
+								<td align="left">Hipotermia local o corporal total</td>
+							</tr>
+							<tr>
+								<td align="left">Síndrome de muerte súbita del lactante</td>
+							</tr>
+							<tr>
+								<td align="left">Trauma no accidental (sospecha de maltrato infantil)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec>
+			<title>Análisis del índice biespectral</title>
+			<p>En el paciente neurológico crítico, es fundamental conocer el grado óptimo de sedación y analgesia. En el coma anestésico empleado en los estados epilépticos, por ejemplo, debe conocerse el grado de compromiso del estado de conciencia y la titulación de los medicamentos sedantes.</p>
+			<p>El análisis del índice biespectral es un método cuantitativo que se basa en la actividad electroencefalográfica y determina la profundidad anestésica del paciente por medio de un valor numérico <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Frecuentemente, se usa en el ámbito de la anestesia cardiovascular. Este índice permite añadir variables a partir de otros canales del electroencefalograma, como la matriz de densidad espectral que se describe más adelante.</p>
+			<p>Cuando la anestesia es guiada por el índice biespectral, se puede reducir el riesgo de despertares o estados de alerta durante la cirugía, en comparación con el monitoreo de los signos clínicos. En el paciente en estado epiléptico, permite monitorizar la continuidad del patrón de estallido-supresión y determinar más fácilmente la necesidad de hacer una rápida modificación del tratamiento <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. En el <xref ref-type="table" rid="t2">cuadro 2</xref> puede observarse la cuantificación del estado de alerta y profundidad anestésica en el índice biespectral.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2</label>
+					<caption>
+						<title>Representación cuantitativa del estado de alerta o de anestesia en el índice biespectral</title>
+					</caption>
+					<table>
+						<colgroup width="50%">
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Valores del IBE </th>
+								<th align="left">Grado de hypnosis</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">100</td>
+								<td align="left">Despierto</td>
+							</tr>
+							<tr>
+								<td align="left">80-100</td>
+								<td align="left">Responde a la voz</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Responde al hablar en voz alta o ante movimiento</td>
+							</tr>
+							<tr>
+								<td align="left">60-80</td>
+								<td align="left">Sedación moderada</td>
+							</tr>
+							<tr>
+								<td align="left">40-60</td>
+								<td align="left">Baja probabilidad de recuerdo explícito Falta de reacción a los estímulos verbales</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Sedación profunda</td>
+							</tr>
+							<tr>
+								<td align="left">0-20</td>
+								<td align="left">Estallido-supresión</td>
+							</tr>
+							<tr>
+								<td align="left">0</td>
+								<td align="left">EEG plano</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>IBE: índice biespectral; EEG: electroencefalograma</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec>
+			<title>Matriz de densidad espectral</title>
+			<p>La matriz de densidad espectral representa las frecuencias de las ondas cerebrales de forma continua en un gráfico de colores extraído del análisis electroencefalográfico, el cual se conoce como análisis espectral comprimido (<italic>Compressed Spectral Array</italic>). Este último muestra el rango de frecuencias predominantes desde el color azul (mínima frecuencia) hasta el rojo oscuro (máxima frecuencia) (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Análisis espectral comprimido (CSA) (Philips Intellivue Patient Monitor). Se muestra el análisis de un panel para el hemisferio izquierdo y otro para el derecho; el eje vertical organiza el tiempo, el horizontal, la frecuencia (en Hz) y, en la mitad, aparece el porcentaje de asimetría</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-41-04-803-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>La mayoría de los monitores que muestran la matriz de densidad espectral permiten observar el registro electroencefalográfico para que el neurólogo aprecie la actividad dominante, la lentificación y la asimetría de frecuencia interhemisférica <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+			<p>En la <xref ref-type="fig" rid="f2">figura 2</xref> se muestra un montaje frontopolar-central a partir del cual puede visualizarse el electroencefalograma convencional de dos canales y la matriz de densidad espectral. Esta última hace referencia a la frecuencia encontrada en 90 a 95 % del muestreo del electroencefalograma. Por ejemplo, en la <xref ref-type="fig" rid="f3">figura 3</xref> se ve la de un paciente a quien se le practicó una sujeción de la arteria carótida derecha; la matriz de densidad espectral al 90 % es de 16 Hz en el lado derecho, lo que quiere decir que en el percentil 90 encontramos una frecuencia de 16 Hz en banda beta.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Monitor electroencefalográfico de dos canales de marca Nihon Kohden, modelo BSM- 2354A.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-41-04-803-gf2.jpg"/>
+					<attrib>EEG1: canales izquierdos; EEG2: canales derechos; FP1: electrodo frontopolar izquierdo; FP2: electrodo frontopolar derecho; C3: electrodo central izquierdo; C4: electrodo central derecho; Ohm: (ohmio)</attrib>
+				</fig>
+			</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title>Monitor electroencefalográfico de dos canales de marca Nihon Kohden, modelo BSM- 2354A</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-41-04-803-gf3.jpg"/>
+					<attrib>EEG1: canales izquierdos; EEG2: canales derechos; SEF1: MDE izquierda; SEF2: MDE derecha; Delta/Theta/ Alpha: porcentaje de poder en cada banda; CSA: análisis espectral comprimido</attrib>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>Electroencefalograma de amplitud integrada</title>
+			<p>El electroencefalograma de amplitud integrada (aEEG) es una herramienta de monitoreo de pocos canales, usualmente dos, que permite visualizar el funcionamiento de los hemisferios cerebral derecho e izquierdo (montaje trasverso), o el polo anterior y el posterior (montaje longitudinal). Este tipo de electroencefalograma se usa principalmente en la etapa neonatal <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Es de gran utilidad para determinar el enfoque diagnóstico inicial y el seguimiento del tratamiento en los pacientes con encefalopatía asfíctica y sospecha de actividad ictal; sin embargo, no reemplaza el electroencefalograma convencional y su sensibilidad para detectar crisis ictales es más baja <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. Tiene gran valor para orientar el pronóstico neurológico a largo plazo en pacientes con hipotermia terapéutica o sin ella.</p>
+			<p>La interpretación se basa en la apreciación de las anormalidades paroxísticas y el trazado de fondo que sugieren la actividad ictal y el ritmo de la encefalopatía, respectivamente. En la <xref ref-type="fig" rid="f4">figura 4</xref> se muestra un monitoreo de la función cerebra de un recién nacido a término con encefalopatía neonatal y actividad ictal de inicio abrupto.</p>
+			<p>
+				<fig id="f4">
+					<label>Figura 4</label>
+					<caption>
+						<title>Monitoreo de la función cerebral de un neonato con ciclo de sueño y vigilia, y aumento de la discontinuidad e inicio de actividad ictal de bajo voltaje (a partir de la flecha). El eje vertical representa el voltaje en uV y, el horizontal, el transcurso del tiempo. Olympic Brainz Monitor v3.1.5</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-41-04-803-gf4.jpg"/>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>Espectroscopia cerebral de infrarrojo cercano</title>
+			<p>La espectroscopia cerebral de infrarrojo cercano (<italic>Near-Infrared Spectroscopy</italic>) es una técnica de monitoreo no invasivo que mide la perfusión cerebral en tiempo real y detecta la saturación de oxígeno tisular con espectroscopia por transiluminación <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Esta espectroscopia presenta un valor del porcentaje de saturación de oxígeno venoso en cada hemisferio cerebral; su valor normal está en el rango de 60 a 75 % y es francamente anormal por debajo de 55 %.</p>
+			<p>Esta modalidad brinda información clínica importante en diversas situaciones, especialmente en aquellas en que las manifestaciones clínicas pueden ser muy imprecisas. La disminución de la oxigenación cerebral se define en la espectroscopia cerebral de infrarrojo cercano como la caída en la saturación de oxígeno mayor del 20 % con respecto a la línea de base, lo cual sugiere alteración neuronal por hipoxia. En la <xref ref-type="fig" rid="f5">figura 5</xref> puede observarse la distribución espacial de la luz de esta espectroscopia atravesando las diferentes capas hasta llegar al cerebro.</p>
+			<p>
+				<fig id="f5">
+					<label>Figura 5</label>
+					<caption>
+						<title>Fundamento fisiológico de la espectroscopia cerebral de infrarrojo cercano. Una fuente emite una luz que impacta los tejidos subyacentes y un detector mide el cambio de frecuencia de la misma luz reflejada. El propósito de esta espectroscopia es la medición de la saturación de sangre venosa en las venas puente que atraviesan el espacio subaracnoideo</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-41-04-803-gf5.jpg"/>
+				</fig>
+			</p>
+			<p>Entre las aplicaciones clínicas de la espectroscopia cerebral de infrarrojo cercano están la cirugía cardiovascular, la endarterectomía carotídea, la neurocirugía y el cuidado intensivo neonatal. Esta técnica tiene una correlación muy estrecha con la saturación de oxígeno de la vena cava superior. Es una herramienta que ayuda a detectar episodios de isquemia cerebral transitoria y estructurada <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>Ecografía Doppler transcraneal y del nervio óptico</title>
+			<p>Hay dos aplicaciones de la ultrasonografía en el monitoreo del paciente neurológico crítico: la medición del diámetro de la vaina del nervio óptico y la ecografía Doppler trancraneal. Con el neuromonitoreo guiado por ecografía, se puede: detectar estenosis u oclusión de las arterias intracraneales, monitorizar la evolución de los pacientes con vasoespasmo posterior a una hemorragia subaracnoidea, detectar la embolia cerebral, evaluar el sistema de arterias colaterales cerebrales, complementar la evaluación del paciente con muerte cerebral, calcular indirectamente la presión intracraneal y de perfusión cerebral, y detectar la hemorragia subaracnoidea y los aneurismas cerebrales <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>Este monitoreo no es invasivo ni doloroso, no emite radiación y puede hacerse al lado del paciente crítico <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Se han descrito muy pocos riesgos para el paciente y el principal son las reacciones alérgicas al gel conductor que debe utilizarse con el transductor ecográfico.</p>
+			<p>Específicamente, la medición del diámetro de la vaina del nervio óptico y el análisis Doppler de la resistencia vascular son muy precisos para determinar el aumento de la presión endocraneal en el paciente con lesión cerebral aguda <xref ref-type="bibr" rid="B12"><sup>12</sup></xref> e hipertensión arterial con repercusión sistémica <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. La ecografía Doppler intracraneal siempre debe registrar la velocidad del flujo y los índices de pulsatilidad de las arterias de la base del cerebro <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusión</title>
+			<p>El monitoreo electroencefalográfico no invasivo es una herramienta indispensable en todas las unidades de cuidado intensivo porque permite al médico no neurólogo diagnosticar y tratar oportunamente las complicaciones del paciente neurológico crítico. El conocimiento de las diferentes modalidades de monitoreo nuerolólgico es indispensable para decidir si la enfermedad es del sistema nervioso central o si es sistémica y, así, determinar la intervención terapéutica más precisa. Los resultados de las mediciones electrográficas siempre deben validarse con el electroencefalograma convencional, ya que sigue siendo la prueba de referencia.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Abend N, Chapman K, Gallentine W, Goldstein J, Hyslop A, Loddenkemper T, <italic>et al</italic>. Electroencephalographic monitoring in the pediatric intensive care unit. Curr Neurol Neurosci Rep. 2013;13:330. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11910-012-0330-3">https://doi.org/10.1007/s11910-012-0330-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abend</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Gallentine</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Goldstein</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hyslop</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Loddenkemper</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Electroencephalographic monitoring in the pediatric intensive care unit</article-title>
+					<source>Curr Neurol Neurosci Rep</source>
+					<year>2013</year>
+					<volume>13</volume>
+					<fpage>330</fpage>
+					<lpage>330</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11910-012-0330-3">https://doi.org/10.1007/s11910-012-0330-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Sánchez S, Carpenter J, Chapman K, Dlugos D, Gallentine W, Giza C, <italic>et al</italic>. Pediatric ICU EEG monitoring: Current resources and practice in the United States and Canada. J Clin Neurophysiol. 2013;30:156-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WNP.0b013e31827eda27">https://doi.org/10.1097/WNP.0b013e31827eda27</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Carpenter</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dlugos</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Gallentine</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Giza</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pediatric ICU EEG monitoring: Current resources and practice in the United States and Canada</article-title>
+					<source>J Clin Neurophysiol</source>
+					<year>2013</year>
+					<volume>30</volume>
+					<fpage>156</fpage>
+					<lpage>160</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/WNP.0b013e31827eda27">https://doi.org/10.1097/WNP.0b013e31827eda27</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Punjasawadwong Y, Phongchiewboon A, Bunchungmongkol N. Bispectral index for improving anaesthetic delivery and postoperative recovery. Cochrane Database Syst Rev. 2014;2014:CD003843. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/14651858">https://doi.org/10.1002/14651858</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Punjasawadwong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Phongchiewboon</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bunchungmongkol</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Bispectral index for improving anaesthetic delivery and postoperative recovery</article-title>
+					<source>Cochrane Database Syst Rev</source>
+					<year>2014</year>
+					<volume>2014</volume>
+					<fpage>CD003843</fpage>
+					<lpage>CD003843</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/14651858">https://doi.org/10.1002/14651858</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Hernández-Hernández M, Iglesias-Posadilla D, Ruiz-Ruiz A, Gómez-Marcos V, Fernández- Torre J. Matriz de densidad espectral de color del BIS bilateral en estado epiléptico. An Pediatr (Barc). 2016;85:44-47. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.anpedi.2015.09.021">https://doi.org/10.1016/j.anpedi.2015.09.021</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernández-Hernández</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Iglesias-Posadilla</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Ruiz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gómez-Marcos</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Fernández- Torre</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Matriz de densidad espectral de color del BIS bilateral en estado epiléptico</article-title>
+					<source>An Pediatr (Barc)</source>
+					<year>2016</year>
+					<volume>85</volume>
+					<fpage>44</fpage>
+					<lpage>47</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.anpedi.2015.09.021">https://doi.org/10.1016/j.anpedi.2015.09.021</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Hernández-Hernández M, Fernández-Torre J, Ruiz-Ruiz A, Iglesias-Posadilla D, Gómez- Marcos V, Holanda-Peña M. Utilidad de la matriz de densidad espectral del sistema de índice biespectral bilateral en la monitorización del status epilepticus no convulsivo. Medicina Intensiva. 2014;38:265-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016Zj.medin.2013.01.01">https://doi.org/10.1016Zj.medin.2013.01.01</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernández-Hernández</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Fernández-Torre</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Ruiz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Iglesias-Posadilla</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Gómez- Marcos</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Holanda-Peña</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Utilidad de la matriz de densidad espectral del sistema de índice biespectral bilateral en la monitorización del status epilepticus no convulsivo</article-title>
+					<source>Medicina Intensiva</source>
+					<year>2014</year>
+					<volume>38</volume>
+					<fpage>265</fpage>
+					<lpage>267</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016Zj.medin.2013.01.01">https://doi.org/10.1016Zj.medin.2013.01.01</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Glass H, Wusthoff C, Shellhaas R. Amplitude-integrated electroencephalography. J Child Neurol. 2013;28:1342-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0883073813488663">https://doi.org/10.1177/0883073813488663</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Glass</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wusthoff</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Shellhaas</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Amplitude-integrated electroencephalography</article-title>
+					<source>J Child Neurol</source>
+					<year>2013</year>
+					<volume>28</volume>
+					<fpage>1342</fpage>
+					<lpage>1350</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0883073813488663">https://doi.org/10.1177/0883073813488663</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Buttle S, Lemyre B, Sell E, Redpath S, Bulusu S, Webster R, <italic>et al</italic>. Combined conventional and amplitude-integrated EEG monitoring in neonates: A prospective study. J Child Neurol. 2019;34:313-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0883073819829256">https://doi.org/10.1177/0883073819829256</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Buttle</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lemyre</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Sell</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Redpath</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bulusu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Webster</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Combined conventional and amplitude-integrated EEG monitoring in neonates: A prospective study</article-title>
+					<source>J Child Neurol</source>
+					<year>2019</year>
+					<volume>34</volume>
+					<fpage>313</fpage>
+					<lpage>320</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0883073819829256">https://doi.org/10.1177/0883073819829256</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Ranucci M, Isgrò G, De La Torre T, Romitti F, Conti D, Carlucci C. Near-infrared spectroscopy correlates with continuous superior vena cava oxygen saturation in pediatric cardiac surgery patients. Paediatr Anaesth. 2008;18:1163-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1460-9592.2008.02783.x">https://doi.org/10.1111/j.1460-9592.2008.02783.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ranucci</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Isgrò</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>De La Torre</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Romitti</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Conti</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Carlucci</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Near-infrared spectroscopy correlates with continuous superior vena cava oxygen saturation in pediatric cardiac surgery patients</article-title>
+					<source>Paediatr Anaesth</source>
+					<year>2008</year>
+					<volume>18</volume>
+					<fpage>1163</fpage>
+					<lpage>1169</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1460-9592.2008.02783.x">https://doi.org/10.1111/j.1460-9592.2008.02783.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Murkin J, Arango M. Near-infrared spectroscopy as an index of brain and tissue oxygenation. Br J Anaesth. 2009;103:i3-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bja/aep299">https://doi.org/10.1093/bja/aep299</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murkin</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Arango</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Near-infrared spectroscopy as an index of brain and tissue oxygenation</article-title>
+					<source>Br J Anaesth</source>
+					<year>2009</year>
+					<volume>103</volume>
+					<fpage>i3</fpage>
+					<lpage>13</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bja/aep299">https://doi.org/10.1093/bja/aep299</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Rasulo FA, Bertuetti RJ. Transcranial doppler and optic nerve sonography. Cardiothorac Vasc Anesth. 2019;33(Suppl.1):S38-S52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/j.jvca.2019.03.040">https://doi.org/10.1053/j.jvca.2019.03.040</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rasulo</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Bertuetti</surname>
+							<given-names>RJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Transcranial doppler and optic nerve sonography</article-title>
+					<source>Cardiothorac Vasc Anesth</source>
+					<year>2019</year>
+					<volume>33</volume>
+					<supplement>Suppl.1</supplement>
+					<fpage>S38</fpage>
+					<lpage>S52</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/j.jvca.2019.03.040">https://doi.org/10.1053/j.jvca.2019.03.040</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Matta B, Czosnyka M. Transcranial Doppler ultrasonography in anesthesia and neurosurgery. In: Cotrell JE, Patel P, editors. <italic>Cottrell and Patel’s Neuroanesthesia</italic>. 6<sup>th</sup> edition. Philadelphia, PA: Elsevier; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matta</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Czosnyka</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Transcranial Doppler ultrasonography in anesthesia and neurosurgery</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Cotrell</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<source>Cottrell and Patel’s Neuroanesthesia</source>
+					<edition>6th edition</edition>
+					<publisher-loc>Philadelphia, PA</publisher-loc>
+					<publisher-name>Elsevier</publisher-name>
+					<year>2017</year>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Rasulo FA, Bertuetti R, Robba C, Lusenti F, Cantoni A, Bernini M. The accuracy of transcranial Doppler in excluding intracranial hypertension following acute brain injury: A multicenter prospective pilot study. Crit Care. 2017;21:44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13054-017-1632-2">https://doi.org/10.1186/s13054-017-1632-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rasulo</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Bertuetti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Robba</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lusenti</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Cantoni</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bernini</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>The accuracy of transcranial Doppler in excluding intracranial hypertension following acute brain injury: A multicenter prospective pilot study</article-title>
+					<source>Crit Care</source>
+					<year>2017</year>
+					<volume>21</volume>
+					<fpage>44</fpage>
+					<lpage>44</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13054-017-1632-2">https://doi.org/10.1186/s13054-017-1632-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13 Brzan-Simenc G, Ambrozic J, Prokselj K, Tul N, Cvijic M, Mirkovic T, <italic>et al</italic>. Ocular ultrasonography for diagnosing increased intracranial pressure in patients with severe preeclampsia. Int J Obstet Anesth. 2018;36:49-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016Zj.ijoa.2018.06.005">https://doi.org/10.1016Zj.ijoa.2018.06.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brzan-Simenc</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Ambrozic</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Prokselj</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Tul</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Cvijic</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mirkovic</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Ocular ultrasonography for diagnosing increased intracranial pressure in patients with severe preeclampsia</article-title>
+					<source>Int J Obstet Anesth</source>
+					<year>2018</year>
+					<volume>36</volume>
+					<fpage>49</fpage>
+					<lpage>55</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016Zj.ijoa.2018.06.005">https://doi.org/10.1016Zj.ijoa.2018.06.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Aaslid R, Markwalder TM, Nornes H. Noninvasive transcranial Doppler ultrasound recording of flow velocity in basal cerebral arteries. J Neurosurg. 1982;57:769-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1515/9783110847000-032">https://doi.org/10.1515/9783110847000-032</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aaslid</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Markwalder</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Nornes</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Noninvasive transcranial Doppler ultrasound recording of flow velocity in basal cerebral arteries</article-title>
+					<source>J Neurosurg</source>
+					<year>1982</year>
+					<volume>57</volume>
+					<fpage>769</fpage>
+					<lpage>774</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1515/9783110847000-032">https://doi.org/10.1515/9783110847000-032</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Bellner, J Romner B, Reinstrup P, Kristiansson KA, Ryding E, Brandt L. Transcranial Doppler sonography pulsatility index (PI) reflects intracranial pressure (ICP). Surg Neurol. 2004;62:45-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016Zj.sumeu.2003.12.007">https://doi.org/10.1016Zj.sumeu.2003.12.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bellner</surname>
+							<given-names>J Romner B</given-names>
+						</name>
+						<name>
+							<surname>Reinstrup P</surname>
+							<given-names>Kristiansson KA</given-names>
+						</name>
+						<name>
+							<surname>Ryding E</surname>
+							<given-names>Brandt L</given-names>
+						</name>
+					</person-group>
+					<article-title>Transcranial Doppler sonography pulsatility index (PI) reflects intracranial pressure (ICP)</article-title>
+					<source>Surg Neurol</source>
+					<year>2004</year>
+					<volume>62</volume>
+					<fpage>45</fpage>
+					<lpage>51</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016Zj.sumeu.2003.12.007">https://doi.org/10.1016Zj.sumeu.2003.12.007</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Ortiz B, Lanau S. Neuromonitoreo no invasivo en unidades de cuidados intensivos en Colombia. Biomédica. 2021;41:803-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5990">https://doi.org/10.7705/biomedica.5990</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación</label>
+				<p>Los autores no recibieron recursos económicos para esta publicación</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="case-report" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">rhcm</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Habanera de Ciencias Médicas</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev haban cienc méd</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1729-519X</issn>
+			<publisher>
+				<publisher-name>Universidad de Ciencias Médicas de La Habana</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00015</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Ciencias epidemiológicas y salubristas</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Reinfección, inmunidad y prevención de la transmisión en la COVID-19</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Reinfection, immunity and prevention of transmission of COVID-19</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7279-0062</contrib-id>
+					<name>
+						<surname>Guanche Garcell</surname>
+						<given-names>Humberto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7704-8462</contrib-id>
+					<name>
+						<surname>Barbán Arias</surname>
+						<given-names>Reynaldo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2b"><sup>2</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Hospital Docente Clínico Quirúrgico “Joaquín Albarrán”. La Habana, Cuba.</institution>
+				<institution content-type="orgname">Hospital Docente Clínico Quirúrgico “Joaquín Albarrán”</institution>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Hospital Cubano, Hamad Medical Corporation. Doha, Qatar.</institution>
+				<institution content-type="orgname">Hospital Cubano</institution>
+				<institution content-type="orgdiv1">Hamad Medical Corporation</institution>
+				<country country="QA">Qatar</country>
+			</aff>
+			<aff id="aff2b">
+				<label>2</label>
+				<institution content-type="original">Hospital Cubano, Hamad Medical Corporation. Doha, Qatar.</institution>
+				<institution content-type="orgname">Hospital Cubano</institution>
+				<institution content-type="orgdiv1">Hamad Medical Corporation</institution>
+				<country country="QA">Qatar</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Hospital Giraldo Aponte Fonseca. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="orgname">Hospital Giraldo Aponte Fonseca</institution>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label>Autor para la correspondencia: <email>guanche@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<p>Los autores declaran no tener ningún conflicto de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn5">
+					<p>Ambos autores participamos en la discusión de los resultados y hemos leído, revisado y aprobado el texto final del artículo.</p>
+				</fn>
+			</author-notes>
+		<!--	<pub-date date-type="pub" publication-format="electronic">
+				<day>10</day>
+				<month>08</month>
+				<year>2021</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+				<pub-date pub-type="epub-ppub">
+				<season>Jul-Aug</season>
+				<year>2021</year>
+			</pub-date>
+			<volume>20</volume>
+			<issue>4</issue>
+			<elocation-id>e4101</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>06</day>
+					<month>04</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>21</day>
+					<month>06</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> La duración de la inmunidad natural generada por la COVID-19 está por definir, lo que determina la probable reinfección.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Destacar la necesidad de mantener las medidas de prevención a propósito de un caso de reinfección en un trabajador sanitario.</p>
+				</sec>
+				<sec>
+					<title>Presentación de caso:</title>
+					<p> Paciente femenina de 48 años de edad con antecedentes de salud que, en junio, 2020 y marzo, 2021 se le diagnóstica la COVID-19, en ambos casos con el comportamiento de enfermedad sintomática leve. Después de 24 horas de comenzar con cefalea, mareos y tos seca se confirma el diagnóstico de infección por SARS CoV-2 con PCR positivo y umbral de ciclo (CT) en 24.84. Pasados 9 meses y 9 días de la infección original, y dos días posteriores a recibir la vacuna BNT162b2 (Pfizer-BioNTech), comienza con malestar general, tos seca, secreción nasal y dolor de garganta, con PCR positivo y CT de 17.61.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> La posibilidad de la reinfección por la COVID-19 orienta la necesidad de fortalecer las acciones de prevención de la transmisión en instituciones de salud en tanto las evidencias científicas nos provean de recursos más eficaces para su control.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The duration of natural immunity generated by COVID-19 is yet to be defined, which determines the probable reinfection.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To analyze issues related to natural infection and the need to maintain prevention practices regarding a case of reinfection in a health care worker.</p>
+				</sec>
+				<sec>
+					<title>Case presentation:</title>
+					<p> Forty-eight-year-old female patient without comorbidities who was diagnosed with COVID-19 in June 2020 and March 2021, in both cases as a mild symptomatic disease. Twenty-four hours after the onset with headache, dizziness, and dry cough, the diagnosis of SARS CoV-2 infection was confirmed by positive PCR and cycle threshold (CT) at 24.84. Nine months and nine days after original infection, and two days after receiving the BNT162b2 vaccine (Pfizer-BioNTech), the patient began with general malaise, dry cough, runny nose, and sore throat, with a positive PCR and CT of 17.61. </p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The possibility of reinfection by COVID-19 points to the need to strengthen transmission prevention practices in healthcare facilities as long as scientific evidence provides us with more effective resources for its control.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras Claves:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>SARS CoV-2</kwd>
+				<kwd>reinfección</kwd>
+				<kwd>inmunidad natural</kwd>
+				<kwd>evidencias científicas</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>SARS CoV-2</kwd>
+				<kwd>reinfection</kwd>
+				<kwd>natural immunity</kwd>
+				<kwd>scientific evidence</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="11"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>La COVID-19 ha generado un reto mayor para los profesionales de la salud y los investigadores en diversas ramas de la ciencia en tanto se requieren medidas para su control, sustentadas en evidencias científicas. La urgencia de conocimiento y evidencias está determinada por la magnitud de la epidemia y su impacto en la sociedad global, que ha superado con creces a todas las pandemias previas que ha sufrido la humanidad. Entre las cuestiones a dilucidar está la duración de la inmunidad natural o la adquirida con las vacunas en desarrollo. El conocimiento sobre la inmunidad relacionada con los virus de influenza, el Síndrome Agudo Respiratorio Severo (SARS) y el Síndrome Respiratorio del Oriente Medio (MERS), relacionados con beta coronavirus sirven de referencia previa.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref> Estudios anteriores han demostrado la existencia de anticuerpos neutralizantes pasados 2 años de la infección por SARS CoV-1, mientras que la inmunidad relacionada con la infección por el MERS CoV se mostró dependiente de varios factores (ejemplo: severidad de la infección) y los niveles de anticuerpos declinan más rápidamente. Para el SARS CoV-2, las evidencias están demostrando variabilidad en la respuesta inmune en función de diversos factores como edad, severidad de la infección o estado inmunitario previo.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref> No obstante, debido al tiempo transcurrido desde el inicio de la pandemia, aspectos adicionales de la duración de la inmunidad deben ser dilucidados. </p>
+			<p>A propósito de un caso clínico de reinfección por la COVID-19, analizaremos aspectos relacionados con la inmunidad referida a la infección natural con el <bold>objetivo</bold> de destacar la necesidad de mantener las medidas de prevención después de padecer la Covid 19 en tanto los riesgos de transmisión se mantengan elevados.</p>
+		</sec>
+		<sec sec-type="cases">
+			<title>Presentación de caso</title>
+			<p>Paciente femenina de 48 años de edad con antecedentes de salud que, en junio, 2020 y marzo, 2021 se le diagnóstica la COVID-19. En ambos casos con el comportamiento de enfermedad sintomática leve. De profesión enfermera y dedicada a la atención de casos de la COVID-19 en un país árabe de alta incidencia de esta enfermedad.</p>
+			<p>Después de 24 horas de comenzar con cefalea, mareos y tos seca, la paciente es atendida y se confirma el diagnóstico de infección por SARS CoV-2 con PCR positivo y umbral de ciclo (CT) en 24.84. (<xref ref-type="fig" rid="f1">Figura 1</xref>). Los estudios complementarios al momento del diagnóstico muestran elevación de la alanino aminotranferasa (ALT), lactacto dehidrogenasa (LDH) y glicemia, mientras no se observan alteraciones pleuropulmonares en la radiografía de tórax (<xref ref-type="table" rid="t1">Tabla 1</xref> y <xref ref-type="fig" rid="f2">Figura 2</xref>). En cumplimiento del protocolo nacional para infecciones leves se le impone tratamiento con azitromicina e hidroxicloroquina por cinco días. Presenta una evolución clínica satisfactoria. Después de 8 días, se le repite el PCR el cual fue negativo.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig. 1</label>
+					<caption>
+						<title>Evolución de la infección y reinfección por la COVID-19.</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-20-04-e4101-gf1.png"/>
+				</fig>
+			</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla</label>
+					<caption>
+						<title>Resultado de los exámenes de laboratorio</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-20-04-e4101-gt1.png"/>
+				</table-wrap>
+			</p>
+			<p>
+				<fig id="f2">
+					<label>Fig. 2</label>
+					<caption>
+						<title>Radiografías de tórax al momento del diagnóstico de la infección y la reinfección por la COVID-19.</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-20-04-e4101-gf2.png"/>
+				</fig>
+			</p>
+			<p>Pasados 9 meses y 9 días de la infección original, y 2 días posteriores a recibir la vacuna BNT162b2 (Pfizer-BioNTech), comienza con malestar general, tos seca, secreción nasal y dolor de garganta. Es atendida al cuarto día del inicio de los síntomas y se confirma reinfección con PCR positivo y CT de 17.61. Se observaron similares hallazgos en las pruebas complementarias realizadas en la infección inicial excepto que se observa leucopenia en la reinfección. Se le impone tratamiento con amoxicillín con ácido clavulánico, azitromicín, hidroxicloroquina y lopinavir/ritonavir. La evolución clínica fue satisfactoria; se presentaron náuseas, vómitos y diarreas de carácter leve y temporal. Después de 10 días del test inicial, el PCR realizado muestra CT en 32.43.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La duración de la inmunidad natural posterior a la COVID-19 no está claramente definida y debe diferir de la inmunidad relacionada con la vacuna.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> En el caso que hemos presentado la reinfección sucedió 9 meses posteriores a la infección original, lo que demostró un debilitamiento de la memoria inmunológica secundaria a la infección natural de poca severidad en una paciente inmunocompetente. </p>
+			<p>Dan, <italic>et al,</italic> en un estudio de 188 pacientes con la COVID-19 observaron que la inmunidad dura en 95 % de los individuos al menos 6 meses, incluyendo los cuatro mayores tipos de memoria inmunológica (células B de memoria, anticuerpos, células T CD4+ de memoria y/o células T CD8+ de memoria).<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>)</sup> La severidad de la infección parece estar relacionada con la magnitud en la formación de anticuerpos y los pacientes con enfermedad leve tienen una menor respuesta y el descenso en el nivel de anticuerpos es más rápido.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>)</sup> Un amplio estudio poblacional realizado en Irlanda midió el nivel de anticuerpos en muestras de 30 576 personas, y se observó que los niveles de anticuerpos no declinan en los 4 meses posteriores al diagnóstico de la COVID-19.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>En trabajadores de la salud, Glück V, <italic>et al,</italic> demostraron que 90 % de los individuos mantenía los niveles de anticuerpos para el SARS CoV-2 después de 30 semanas (7 meses) del inicio de los síntomas, con mayores niveles para aquellos que tuvieron enfermedad más severa o con mayor edad.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>La posibilidad de reinfección por la COVID-19 determina las prácticas de prevención y control a nivel comunitario o instituciones de salud, las cuales habrá que mantener en tanto no se modifique la situación epidemiológica. A nivel comunitario, se deben considerar: 1) las prácticas de prevención de la transmisión (uso universal de tapabocas, distanciamiento social, higiene de las manos) y 2) vacunación contra el SARS CoV2. La vacunación resulta vital como recurso primario para la prevención en la población y como complemento de la inmunidad protectora en individuos que han padecido la enfermedad. Para los trabajadores de la salud, la prevención genera complejidades adicionales dado el elevado riesgo de transmisión de la COVID-19, observado igualmente en las epidemias de SARS y MERS, en las cuales hasta 57 % y 27 % de los trabajadores sanitarios enfermaron.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> Además de las medidas antes mencionadas para la prevención de la transmisión comunitaria, es importante adicionar las recomendaciones de la Organización Mundial de la Salud para proteger a los pacientes, trabajadores y visitantes a las instalaciones de salud. <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>)</sup> Estas incluyen las acciones de identificación temprana de casos en los servicios sanitarios y su aislamiento oportuno, el empleo de las precauciones estándares y basadas en la transmisión, entre otras acciones de control de infecciones. </p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>En resumen, el caso de una trabajadora de la salud que ha padecido reinfección por la COVID-19 orienta la necesidad de fortalecer las acciones de prevención de la transmisión en instituciones de salud en tanto las evidencias científicas nos provean de recursos más eficaces para su control.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Kreijtz JH, Fouchier RA, Rimmelzwaan GF. Immune responses to influenza virus infection. Virus Res [Internet]. 2011 Dec [Citado 06/01/2021];162(1-2):19-30. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1016/j.virusres.2011.09.022">http://doi.org/10.1016/j.virusres.2011.09.022</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kreijtz</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Fouchier</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Rimmelzwaan</surname>
+							<given-names>GF</given-names>
+						</name>
+					</person-group>
+					<article-title>Immune responses to influenza virus infection</article-title>
+					<source>Virus Res</source>
+					<month>12</month>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>162</volume>
+					<issue>1-2</issue>
+					<fpage>19</fpage>
+					<lpage>30</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1016/j.virusres.2011.09.022">http://doi.org/10.1016/j.virusres.2011.09.022</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Rokni M, Ghasemi V, Tavakoli Z. Immune responses and pathogenesis of SARS-CoV-2 during an outbreak in Iran: Comparison with SARS and MERS. Rev Med Virol [Internet]. 2020 May [Citado 06/01/2021];30(3):e2107. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1002/rmv.2107">http://doi.org/10.1002/rmv.2107</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rokni</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ghasemi</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Tavakoli</surname>
+							<given-names>Z</given-names>
+						</name>
+					</person-group>
+					<article-title>Immune responses and pathogenesis of SARS-CoV-2 during an outbreak in Iran: Comparison with SARS and MERS</article-title>
+					<source>Rev Med Virol</source>
+					<month>05</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>30</volume>
+					<issue>3</issue>
+					<elocation-id>e2107</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1002/rmv.2107">http://doi.org/10.1002/rmv.2107</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Liang Y, Wang ML, Chien CS, Yarmishyn AA, Yang YP, Lai WY, <italic>et al</italic>. Highlight of Immune Pathogenic Response and Hematopathologic Effect in SARS-CoV, MERS-CoV, and SARS-Cov-2 Infection. Front Immunol [Internet]. 2020 May [Citado 06/01/2021];11:1022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.3389/fimmu.2020.01022">http://doi.org/10.3389/fimmu.2020.01022</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Chien</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Yarmishyn</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>YP</given-names>
+						</name>
+						<name>
+							<surname>Lai</surname>
+							<given-names>WY</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Highlight of Immune Pathogenic Response and Hematopathologic Effect in SARS-CoV, MERS-CoV, and SARS-Cov-2 Infection</article-title>
+					<source>Front Immunol</source>
+					<month>05</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>11</volume>
+					<size units="pages">1022</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.3389/fimmu.2020.01022">http://doi.org/10.3389/fimmu.2020.01022</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Glück V, Grobecker S, Tydykov L, Salzberger B, Glück T, Weidlich T, <italic>et al</italic>. SARS-CoV-2-directed antibodies persist for more than six months in a cohort with mild to moderate COVID-19. Infection [Internet]. 2021 Mar [Citado 06/01/2021];21(2):1-8. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1007/s15010-021-01598-6">http://doi.org/10.1007/s15010-021-01598-6</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Glück</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Grobecker</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tydykov</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Salzberger</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Glück</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Weidlich</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2-directed antibodies persist for more than six months in a cohort with mild to moderate COVID-19</article-title>
+					<source>Infection</source>
+					<month>03</month>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>21</volume>
+					<issue>2</issue>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1007/s15010-021-01598-6">http://doi.org/10.1007/s15010-021-01598-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Dan JM, Mateus J, Kato Y, Hastie KM, Yu ED, Faliti CE, Grifoni A, Ramirez SI, <italic>et al</italic>. Immunological memory to SARS-CoV-2 assessed for up to 8 months after infection. Science [Internet]. 2021 Feb [Citado 06/01/2021];371(6529):eabf4063. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1126/science.abf4063">http://doi.org/10.1126/science.abf4063</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dan</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Mateus</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kato</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Hastie</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>ED</given-names>
+						</name>
+						<name>
+							<surname>Faliti</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Grifoni</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ramirez</surname>
+							<given-names>SI</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Immunological memory to SARS-CoV-2 assessed for up to 8 months after infection</article-title>
+					<source>Science</source>
+					<month>02</month>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>371</volume>
+					<issue>6529</issue>
+					<elocation-id>eabf4063</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1126/science.abf4063">http://doi.org/10.1126/science.abf4063</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Gudbjartsson DF, Norddahl GL, Melsted P, Gunnarsdottir K, Holm H, Eythorsson E, <italic>et al</italic>. Humoral Immune Response to SARS-CoV-2 in Iceland. N Engl J Med [Internet]. 2020 Oct [Citado 06/01/2021];383(18):1724-34. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1056/NEJMoa2026116">http://doi.org/10.1056/NEJMoa2026116</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gudbjartsson</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Norddahl</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Melsted</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Gunnarsdottir</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Holm</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Eythorsson</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Humoral Immune Response to SARS-CoV-2 in Iceland</article-title>
+					<source>N Engl J Med</source>
+					<month>10</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>383</volume>
+					<issue>18</issue>
+					<fpage>1724</fpage>
+					<lpage>1734</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1056/NEJMoa2026116">http://doi.org/10.1056/NEJMoa2026116</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Poon MML, Farber DL. Lasting memories of SARS-CoV-2 infection. J Exp Med [Internet]. 2021 Apr [Citado 06/01/2021];218(4):e20210210. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1084/jem.20210210">http://doi.org/10.1084/jem.20210210</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Poon</surname>
+							<given-names>MML</given-names>
+						</name>
+						<name>
+							<surname>Farber</surname>
+							<given-names>DL</given-names>
+						</name>
+					</person-group>
+					<article-title>Lasting memories of SARS-CoV-2 infection</article-title>
+					<source>J Exp Med</source>
+					<month>04</month>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>218</volume>
+					<issue>4</issue>
+					<elocation-id>e20210210</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1084/jem.20210210">http://doi.org/10.1084/jem.20210210</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Jeyanathan M, Afkhami S, Smaill F, Miller MS, Lichty BD, Xing Z. Immunological considerations for COVID-19 vaccine strategies. Nat Rev Immunol [Internet]. 2020 Oct [Citado 06/01/2021];20(10):615-32. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1038/s41577-020-00434-6">http://doi.org/10.1038/s41577-020-00434-6</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jeyanathan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Afkhami</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Smaill</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Lichty</surname>
+							<given-names>BD</given-names>
+						</name>
+						<name>
+							<surname>Xing</surname>
+							<given-names>Z</given-names>
+						</name>
+					</person-group>
+					<article-title>Immunological considerations for COVID-19 vaccine strategies</article-title>
+					<source>Nat Rev Immunol</source>
+					<month>10</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>20</volume>
+					<issue>10</issue>
+					<fpage>615</fpage>
+					<lpage>632</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1038/s41577-020-00434-6">http://doi.org/10.1038/s41577-020-00434-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Xiao J, Fang M, Chen Q, He B. SARS, MERS and COVID-19 among healthcare workers: A narrative review. J Infect Public Health [Internet]. 2020 Jun [Citado 06/01/2021];13(6):843-8. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1016/j.jiph.2020.05.019">http://doi.org/10.1016/j.jiph.2020.05.019</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xiao</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fang</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS, MERS and COVID-19 among healthcare workers: A narrative review</article-title>
+					<source>J Infect Public Health</source>
+					<month>06</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>13</volume>
+					<issue>6</issue>
+					<fpage>843</fpage>
+					<lpage>848</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1016/j.jiph.2020.05.019">http://doi.org/10.1016/j.jiph.2020.05.019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Suwantarat N, Apisarnthanarak A. Risks to healthcare workers with emerging diseases: lessons from MERS-CoV, Ebola, SARS, and avian flu. Curr Opin Infect Dis [Internet]. 2015 Aug [Citado 06/01/2021];28(4):349-61. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1097/QCO.0000000000000183">http://doi.org/10.1097/QCO.0000000000000183</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Suwantarat</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Apisarnthanarak</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Risks to healthcare workers with emerging diseases: lessons from MERS-CoV, Ebola, SARS, and avian flu</article-title>
+					<source>Curr Opin Infect Dis</source>
+					<month>08</month>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<volume>28</volume>
+					<issue>4</issue>
+					<fpage>349</fpage>
+					<lpage>361</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1097/QCO.0000000000000183">http://doi.org/10.1097/QCO.0000000000000183</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>World Health Organization. Infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected. WHO/2019-nCoV/IPC/2020.3 [Internet] Geneva: World Health Organization; 2019 [Citado 06/01/2021]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/10665-331495">https://www.who.int/publications/i/item/10665-331495</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected. WHO/2019-nCoV/IPC/2020.3</source>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>World Health Organization</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-01-06">06/01/2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/10665-331495">https://www.who.int/publications/i/item/10665-331495</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<title>Contribución de autoría </title>
+			<fn fn-type="other" id="fn2">
+				<label>2</label>
+				<p>Humberto Guanche Garcell: Diseño de investigación, redacción, revisión y aprobación el texto final. </p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>3</label>
+				<p>Reynaldo Barbán Arias: Redacción, revisión y aprobación del texto final. </p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

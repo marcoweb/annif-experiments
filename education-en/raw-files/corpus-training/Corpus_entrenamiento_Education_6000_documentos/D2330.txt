@@ -1,0 +1,36 @@
+#ITI#Procedures for Analyzing Multidimensional Mixture Data#FTI#
+#IRE# The multidimensional mixture data structure exists in many test (or inventory) conditions. Heterogeneity also relatively exists in populations. Still, some researchers are interested in deciding to which subpopulation a participant belongs according to the participant’s factor pattern. Thus, in this study, we proposed three analysis procedures based on the factor mixture model to analyze data in the multidimensional mixture context. Simulations were manipulated with different levels of factor numbers, factor correlations, numbers of latent classes, and class separation. Issues with regard to model selection were discussed at first. The results showed that in the two-class situations the procedures of “factor structure first then class number” (Procedure 1) and “factor structure and class number considered simultaneously” (Procedure 3) performed better than the “class number first then factor structure” (Procedure 2) and yielded precise parameter estimation and classification accuracy. It would be appropriate to choose Procedures 1 and 3 when strong measurement invariance is assumed while using an information criterion, but Procedure 1 saved more time than Procedure 3. In the three-class situations, the performance of all three procedures was limited. Implementations and suggestions have been addressed in this research.#FRE#
+#IPC# factor mixture model; factor structure; latent class; multidimensional mixture data#FPC#
+#IRF# Adams R., Wilson M., Wang W., The multidimensional random coefficients multinomial logit model, Applied Psychological Measurement, 21, 1, pp. 1-23, (1997); 
+Akaike H., Factor analysis and AIC, Psychometrika, 52, pp. 317-332, (1987); 
+Allan N.P., Raines A.M., Capron D.W., Norr A.M., Zvolensky M.J., Schmidt N.B., Identification of anxiety sensitivity classes and clinical cut-scores in a sample of adult smokers: Results from a factor mixture model, Journal of Anxiety Disorders, 28, pp. 696-703, (2014); 
+Arminger G., Stein P., Wittenberg J., Mixtures of conditional mean- and covariance-structure models, Psychometrika, 64, 4, pp. 475-494, (1999); 
+Bacci S., Bartolucci F., Gnaldi M., A class of multidimensional latent class IRT models for ordinal polytomous item responses, Communications in Statistics—Theory and Methods, 43, 4, pp. 787-800, (2014); 
+Bartolucci F., A class of multidimensional IRT models for testing unidimensionality and clustering items, Psychometrika, 72, pp. 141-157, (2007); 
+Costa P.T., McCrae R.R., Objective personality assessment, The clinical psychology of aging, pp. 119-143, (1978); 
+De Boeck P., Cho S.J., Wilson M., Explanatory secondary dimension modeling of latent differential item functioning, Applied Psychological Measurement, 35, 8, pp. 583-603, (2011); 
+Dolan C.V., van der Maas H.L.J., Fitting multivariate normal finite mixtures subject to structural equation modeling, Psychometrika, 63, 3, pp. 227-253, (1998); 
+Fabrigar L.R., Wegener D.T., MacCallum R.C., Strahan E.J., Evaluating the use of exploratory factor analysis in psychological research, Psychological Methods, 4, 3, pp. 272-299, (1999); 
+Finch W.H., Finch M.E.H., Investigation of specific learning disability and testing accommodations based differential item functioning using a multilevel multidimensional mixture item response theory model, Educational and Psychological Measurement, 73, 6, pp. 973-993, (2013); 
+Henson J.M., Reise S.P., Kim K.H., Detecting mixtures from structural model differences using latent variable mixture modeling: A comparison of relative model fit statistics, Structural Equation Modeling: A Multidisciplinary Journal, 14, 2, pp. 202-226, (2007); 
+Jedidi K., Jagpal H.S., DeSarbo W.S., Finite-mixture structural equation models for response-based segmentation and unobserved heterogeneity, Marketing Science, 16, 1, pp. 39-59, (1997); 
+Lin Y.H., Wilson M., Two IRT methods for multidimensional latent class parameter estimation, Tzu-Chi University Journal of the Educational Research, 9, pp. 223-254, (2013); 
+Litson K., Geiser C., Burns G.L., Servera M., Examining trait×method interactions using mixture distribution multitrait-multimethod models, Structural Equation Modeling: A Multidisciplinary Journal, 24, 1, pp. 31-51, (2017); 
+Lo Y., Mendell N., Rubin D., Testing the number of components in a normal mixture, Biometrika, 88, pp. 767-778, (2001); 
+Lubke G.H., Muthen B., Investigating population heterogeneity with factor mixture models, Psychological Methods, 10, pp. 21-39, (2005); 
+Lubke G.H., Muthen B., Performance of factor mixture models as a function of model size, covariate effects, and class-specific parameters, Structural Equation Modeling, 14, 1, pp. 26-47, (2007); 
+Lubke G.H., Neale M.C., Distinguishing between latent classes and continuous factors: Resolution by maximum likelihood, Multivariate Behavioral Research, 41, pp. 499-532, (2006); 
+McDonald S.R., Identification of latent classes in mixture models: A Monte Carlo simulation study, (2013); 
+Mislevy R.J., Verhelst N., Modeling item responses when different subjects employ different solution strategies, Psychometrika, 55, pp. 195-215, (1990); 
+Muthen B., Latent variable modeling in heterogeneous populations, Psychometrika, 54, pp. 557-585, (1989); 
+Muthen B., Latent variable hybrids: Overview of old and new models, Advances in latent variable mixture models, pp. 1-24, (2008); 
+Muthen B., Shedden K., Finite mixture modeling with mixture outcomes using the EM algorithm, Biometrics, 55, 2, pp. 463-469, (1999); 
+Muthen L.K., Muthen B.O., Mplus user’s guide, (1998); 
+Nylund K.L., Asparouhov T., Muthen B., Deciding on the number of classes in latent class analysis and growth mixture modeling: A Monte Carlo simulation study, Structural Equation Modeling, 14, pp. 535-569, (2007); 
+Rost J., Rasch models in latent classes: An integration of two approaches to item analysis, Applied Psychological Measurement, 14, pp. 271-282, (1990); 
+Schwarz G.E., Estimating the dimension of a model, Annals of Statistics, 6, 2, pp. 461-464, (1978); 
+Sclove L., Application of model-selection criteria to some problems in multivariate analysis, Psychometrika, 52, pp. 333-343, (1987); 
+Thurstone L.L., Multiple factor analysis: A development and expansion of vectors of the mind, (1947); 
+von Davier M., Rost J., Carstensen C.H., Introduction: Extending the Rasch model, Multivariate and mixture distribution Rasch models: Extensions and applications, pp. 1-12, (2007); 
+Yang C.C., Evaluating latent class analysis models in qualitative phenotype identification, Computational Statistics and Data Analysis, 50, 4, pp. 1090-1104, (2006); 
+Yung Y., Finite mixtures in confirmatory factor analysis models, Psychometrika, 62, 3, pp. 297-330, (1997)#FRF#

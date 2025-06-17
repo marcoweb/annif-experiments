@@ -1,0 +1,37 @@
+#ITI#Methodological considerations for novel approaches to covariate-adjusted indirect treatment comparisons#FTI#
+#IRE# We examine four important considerations in the development of covariate adjustment methodologies for indirect treatment comparisons. First, we consider potential advantages of weighting versus outcome modeling, placing focus on bias-robustness. Second, we outline why model-based extrapolation may be required and useful, in the specific context of indirect treatment comparisons with limited overlap. Third, we describe challenges for covariate adjustment based on data-adaptive outcome modeling. Finally, we offer further perspectives on the promise of doubly robust covariate adjustment frameworks#FRE#
+#IPC# covariate adjustment; health technology assessment; indirect treatment comparison; matching-adjusted indirect comparison; model misspecification; parametric G-computation#FPC#
+#IRF# Phillippo D., Ades T., Dias S., Palmer S., Abrams K.R., Welton N., NICE DSU Technical Support Document 18: Methods for Population-Adjusted Indirect Comparisons in Submissions to NICE, (2016); 
+Phillippo D.M., Ades A.E., Dias S., Palmer S., Abrams K.R., Welton N.J., Methods for population-adjusted indirect comparisons in health technology appraisal, Med Decis Making, 38, 2, pp. 200-211, (2018); 
+Signorovitch J.E., Wu E.Q., Andrew P.Y., Et al., Comparative effectiveness without head-to-head trials, Pharmacoeconomics, 28, 10, pp. 935-945, (2010); 
+Phillippo D.M., Dias S., Elsada A., Ades A., Welton N.J., Population adjustment methods for indirect comparisons: a review of national institute for health and care excellence technology appraisals, Int J Technol Assess Health Care, 35, 3, pp. 221-228, (2019); 
+Remiro-Azocar A., Heath A., Baio G., Parametric G-computation for compatible indirect treatment comparisons with limited individual patient data, Res Synth Methods, 13, 6, pp. 716-744, (2022); 
+Vo T.T., A cautionary note on the use of G-computation in population adjustment, Res Synth Methods, 14, 3, pp. 338-341, (2023); 
+Steingrimsson J.A., Gatsonis C., Dahabreh I.J., Transporting a prediction model for use in a new target population, Am J Epidemiol, 192, 2, pp. 296-304, (2023); 
+Westreich D., Edwards J.K., Lesko C.R., Stuart E., Cole S.R., Transportability of trial results using inverse odds of sampling weights, Am J Epidemiol, 186, 8, pp. 1010-1014, (2017); 
+Kyle R.P., Moodie E.E., Klein M.B., Abrahamowicz M., Evaluating flexible modeling of continuous covariates in inverse-weighted estimators, Am J Epidemiol, 188, 6, pp. 1181-1191, (2019); 
+Josey K.P., Berkowitz S.A., Ghosh D., Raghavan S., Transporting experimental results with entropy balancing, Stat Med, 40, 19, pp. 4310-4326, (2021); 
+Phillippo D.M., Dias S., Ades A., Welton N.J., Equivalence of entropy balancing and the method of moments for matching-adjusted indirect comparison, Res Synth Methods, 11, 4, pp. 568-572, (2020); 
+Cheng D., Tchetgen E.T., Signorovitch J., On the double-robustness and semiparametric efficiency of matching-adjusted indirect comparisons, Res Synth Methods, 14, 3, pp. 438-442, (2023); 
+Campbell H., Park J.E., Jansen J.P., Cope S., Standardization allows for efficient unbiased estimation in observational studies and in indirect treatment comparisons: a comprehensive simulation study, arXiv Preprint arXiv:2301.09661, (2023); 
+Claxton K., Sculpher M., McCabe C., Et al., Probabilistic sensitivity analysis for NICE technology assessment: not an optional extra, Health Econ, 14, 4, pp. 339-347, (2005); 
+Vansteelandt S., Keiding N., Invited commentary: G-computation–lost in translation?, Am J Epidemiol, 173, 7, pp. 739-742, (2011); 
+Remiro-Azocar A., Two-stage matching-adjusted indirect comparison, BMC Med Res Methodol, 22, 1, pp. 1-16, (2022); 
+Shiba K., Kawahara T., Using propensity scores for causal inference: pitfalls and tips, J Epidemiol, 31, 8, pp. 457-463, (2021); 
+Jackson D., Rhodes K., Ouwens M., Alternative weighting schemes when performing matching-adjusted indirect comparisons, Res Synth Methods, 12, 3, pp. 333-346, (2021); 
+Phillippo D.M., Dias S., Ades A., Welton N.J., Assessing the performance of population adjustment methods for anchored indirect comparisons: a simulation study, Stat Med, 39, 30, pp. 4885-4911, (2020); 
+Le Borgne F., Chatton A., Leger M., Lenain R., Foucher Y., G-computation and machine learning for estimating the causal effects of binary exposure statuses on binary outcomes, Sci Rep, 11, 1, pp. 1-12, (2021); 
+Naimi A.I., Mishler A.E., Kennedy E.H., Challenges in obtaining valid causal effect estimates with machine learning algorithms, Am J Epidemiol, (2021); 
+Vaart D.A., Higher order tangent spaces and influence functions, Stat Sci, 29, 4, pp. 679-686, (2014); 
+Bickel P.J., Gotze F., van Zwet W.R., Resampling fewer than n observations: gains, losses, and remedies for losses, Stat Sin, 7, 1, pp. 1-31, (1997); 
+Chipman H.A., George E.I., McCulloch R.E., Bayesian ensemble learning, Adv Neural Inf Process Syst, 19, (2007); 
+Hill J.L., Bayesian nonparametric modeling for causal inference, J Comput Graph Stat, 20, 1, pp. 217-240, (2011); 
+Hahn P.R., Murray J.S., Carvalho C.M., Bayesian regression tree models for causal inference: regularization, confounding, and heterogeneous effects (with discussion), Bayesian Anal, 15, 3, pp. 965-1056, (2020); 
+Kern H.L., Stuart E.A., Hill J., Green D.P., Assessing methods for generalizing experimental impact estimates to target populations, J Res Educ Effect, 9, 1, pp. 103-127, (2016); 
+Zhu A.Y., Mitra N., Roy J., Addressing positivity violations in causal effect estimation using gaussian process priors, Stat Med, 42, 1, pp. 33-51, (2023); 
+Chernozhukov V., Chetverikov D., Demirer M., Et al., Double/debiased machine learning for treatment and structural parameters, Econom J, 21, 1, pp. C1-C68, (2018); 
+Zeng Z., Kennedy E.H., Bodnar L.M., Naimi A.I., Efficient generalization and transportation, arXiv Preprint arXiv:2302.00092, (2023); 
+Vaart A.W.V.D., Dudoit S., Laan M.J.V.D., Oracle inequalities for multi-fold cross validation, Stat Decis, 24, 3, pp. 351-371, (2006); 
+Van Der Vaart A.W., Wellner J.A., Vaart A.W., Wellner J.A., Weak Convergence, (1996); 
+Zivich P.N., Breskin A., Machine learning for causal inference: on the use of cross-fit estimators, Epidemiology (Cambridge, Mass.), 32, 3, pp. 393-401, (2021); 
+Vo T.T., Vuong M.L., Tu P.H.T., Duong K.L., Development of minimum reporting sets of patient characteristics in epidemiological research: a methodological systematic review, medRxiv, (2023)#FRF#

@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00010</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Eritrocitos humanos como biomodelo farmacológico de citoprotección antioxidante para la evaluación de nuevas alternativas terapéuticas en pacientes con COVID-19</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Human erythrocytes as pharmacological biomodel of antioxidant cytoprotection for the evaluation of new therapeutic alternatives in patients with COVID-19</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5844-1501</contrib-id>
+					<name>
+						<surname>Mora Tassé</surname>
+						<given-names>Yoandra</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8595-3107</contrib-id>
+					<name>
+						<surname>Fong Lores</surname>
+						<given-names>Onel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1259-3910</contrib-id>
+					<name>
+						<surname>Berenguer Rivas</surname>
+						<given-names>Clara Azalea</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2176-8233</contrib-id>
+					<name>
+						<surname>Pérez Andrés</surname>
+						<given-names>Irela Yolaidys</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Centro de Toxicología y Biomedicina, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Centro de Toxicología y Biomedicina</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Departamento de Farmacia. Facultad de Ciencias Naturales y Exactas, Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgdiv2">Departamento de Farmacia</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Naturales y Exactas</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>irela.perez@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores no declaran conflicto de intereses</p>
+				</fn>
+				<fn fn-type="other" id="fn2">
+					<p>1. Conceptualización: Yoandra Mora Tassé, Onel Fong Lores e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn3">
+					<p>2. Curación de datos: Yoandra Mora Tassé, Onel Fong Lores, Clara Azalea Berenguer Rivas e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn4">
+					<p>3. Análisis formal: Yoandra Mora Tassé, Onel Fong Lores, Clara Azalea Berenguer Rivas e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn5">
+					<p>4. Adquisición de fondos: </p>
+				</fn>
+				<fn fn-type="other" id="fn6">
+					<p>5. Investigación: Yoandra Mora Tassé, Onel Fong Lores, Clara Azalea Berenguer Rivas e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn7">
+					<p>6. Metodología: Yoandra Mora Tassé, Onel Fong Lores, Clara Azalea Berenguer Rivas e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn8">
+					<p>7. Administración del proyecto: Onel Fong Lores e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn9">
+					<p>8. Recursos: Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn10">
+					<p>9. Software: </p>
+				</fn>
+				<fn fn-type="other" id="fn11">
+					<p>10. Supervisión: Yoandra Mora Tassé e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn12">
+					<p>11. Validación: Yoandra Mora Tassé</p>
+				</fn>
+				<fn fn-type="other" id="fn13">
+					<p>12. Visualización: Yoandra Mora Tassé, Onel Fong Lores e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn14">
+					<p>13. Redacción- borrador original: Yoandra Mora Tassé, Onel Fong Lores, Clara Azalea Berenguer Rivas e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+				<fn fn-type="other" id="fn15">
+					<p>14. Redacción-revisión y edición: Yoandra Mora Tassé, Onel Fong Lores e Irela Yolaidys Pérez Andrés</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>18</day>
+				<month>10</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">!-->
+			<pub-date pub-type="epub-ppub">
+				<month>09</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>26</volume>
+			<issue>5</issue>
+			<elocation-id>e4316</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>09</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>03</day>
+					<month>10</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+			<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> El estrés oxidativo puede afectar las membranas biológicas de diferentes tipos celulares en el organismo, lo cual se ha evidenciado en los daños a los tejidos y órganos de pacientes con COVID-19, por lo cual las investigaciones recientes están relacionadas con la búsqueda de fármacos citoprotectores y antioxidantes que minimicen estos daños.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Evaluar los eritrocitos humanos como biomodelo farmacológico de citoprotección antioxidante. </p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p> Se evaluó el modelo de citotoxicidad en eritrocitos inducido por peróxido de hidrógeno y se valoró el sistema de diagnóstico propuesto en un ensayo de citoprotección en eritrocitos, con el empleo del ácido ascórbico como sustancia de referencia. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> Para la concentración de eritrocitos utilizada se logró un modelo de citotoxicidad a la concentración de 10 mM de peróxido a los 30 minutos de incubación. La sustancia de referencia empleada no mostró signos de citotoxicidad en el test de hemólisis. En el ensayo de citoprotección se evidenció un efecto farmacológico del referente, con un valor del índice de citoprotección de 12,71 µg/mL. El estudio de microscopía óptica mostró daños morfológicos severos en los eritrocitos tratados con peróxido de tipo esferocitos, equinocitos y esferoequinocitos, que disminuyeron significativamente en presencia de dicha sustancia de referencia. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> El biomodelo farmacológico propuesto puede ser empleado en la evaluación de nuevas alternativas terapéuticas con propiedades citoprotectoras antioxidantes para el tratamiento de pacientes con COVID-19.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The oxidative stress can affect the biological membranes of different cellular types in the organism, which has been evidenced in the damages to the tissues and organs of patients with COVID-19, reason why the recent investigations are related to the search of cytoprotector and antioxidant drugs that minimize these damages. </p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To evaluate the human erythrocytes as pharmacological biomodel of antioxidant cytoprotection. </p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> The cytotoxicity pattern was evaluated in erythrocytes induced by peroxide of hydrogen and the system of diagnosis proposed was valued in a cytoprotection assay in erythrocytes, with the use of ascorbic acid as reference substance. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>For the concentration of erythrocytes used a cytotoxicity model was achieved to the concentration of 10 mM of peroxide at 30 minutes of incubation. The substance of reference used didn't show cytotoxicity signs in the hemolysis test. In the cytoprotection assay a pharmacological effect of the referent was evidenced, with a value of the cytoprotection index of 12.71 µg/mL. The study of optic microscopy showed severe morphological damages in the erythrocytes treated with peroxide of spherocytes, echinocytes and spheroechinocytes type that significantly diminished in presence of this reference substance. </p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The proposed pharmacological biomodel can be used in the evaluation of new therapeutic alternatives with antioxidant cytoprotector properties for the treatment of patients with COVID-19. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>biomodelo farmacológico</kwd>
+				<kwd>citoprotección</kwd>
+				<kwd>antioxidantes</kwd>
+				<kwd>eritrocitos humanos</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>pharmacological biomodel</kwd>
+				<kwd>cytoprotection</kwd>
+				<kwd>antioxidant</kwd>
+				<kwd>human erythrocytes</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="17"/>
+				<page-count count="16"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>En el estudio de la biología celular, la función de la membrana celular es la de proteger y conservar la integridad de la célula; sin embargo, varios factores pueden afectar esta función y propiciar la liberación de mediadores que conducen a importantes condiciones patológicas en los seres humanos.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> En ese sentido, el daño tisular provocado por la COVID-19 se asocia con el desarrollo de una fuerte inflamación sistémica, acompañada de estrés oxidativo. Al igual que otros virus, el SARS-CoV-2 estimula la liberación masiva de citoquinas y quimioquinas proinflamatorias, como TNF-α, IL-6 e IL-8, denominada tormenta de citoquinas, responsable del daño al tejido pulmonar que provoca la muerte celular. La importancia del estrés oxidativo en la COVID-19 también se ve reforzada por la producción de especies reactivas del oxígeno (EROs) en las comorbilidades asociadas. </p>
+			<p>Diversos estudios han destacado la importancia de las vías redox como nuevos objetivos para terapias destinadas a bloquear tanto la replicación viral como la inflamación inducida por el virus. De esta manera, en animales de experimentación, existen evidencias de la participación de la maquinaria del estrés oxidativo, con aumento de la producción de EROs y el debilitamiento de los mecanismos de defensa, lo que sugiere que la sobreproducción de EROs y la privación del sistema antioxidante también desempeñan una función importante en la patogénesis y en la pronta recuperación de los pacientes que han padecido infecciones, así como en la progresión de las enfermedades relacionadas. </p>
+			<p>En este sentido, los neutrófilos activados y las células fagocíticas mononucleares son, en gran medida, responsables de la liberación masiva de EROs en el tejido pulmonar. Además, la liberación masiva de TNF-α durante la tormenta de citoquinas podría exacerbar la producción de EROs, a través de un ciclo de retroalimentación positiva al activar las NADPH oxidasas; en tanto, la producción de EROs inducida por TNF-α podría contribuir a la extensión de los efectos de la COVID-19 a los tejidos distantes.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Investigaciones recientes han demostrado que los eritrocitos humanos son blanco del virus SARS-CoV-2, lo cual provoca anemias hemolíticas en los afectados debido al daño oxidativo de estas células, con la consiguiente disminución de los valores de hemoglobina en sangre.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Por otra parte, los eritrocitos son dianas críticas para los productos naturales y muchos otros fármacos. De hecho, los eritrocitos humanos han sido utilizados como modelo para estudiar los efectos biológicos del estrés oxidativo, inducido por especies reactivas de oxígeno, por las razones siguientes: están continuamente expuestos a altas tensiones de oxígeno; los lípidos de la membrana contienen cadenas laterales de ácidos grasos poliinsaturados, vulnerables a la peroxidación; tienen sistemas enzimáticos antioxidantes, además de que son estructuralmente simples y pueden obtenerse fácilmente.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>El bajo nivel de oxígeno en la sangre, dada la infección por el SARS-CoV-2, puede provocar disfunción multiorgánica. Las cifras de hemoglobina son significativamente más bajas en pacientes graves que en los que presentan síntomas leves.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> Al respecto, los investigadores sugieren que proteínas no estructurales del coronavirus penetran en los glóbulos rojos y desplazan los iones de hierro de la hemoglobina, lo que conduce a la pérdida de la función de esta última y a la liberación de hierro tóxico, cuya presencia en la sangre aumenta los niveles de estrés oxidativo.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Por estas razones sigue siendo relevante la búsqueda de fármacos que puedan estabilizar los glóbulos rojos para el tratamiento de pacientes con COVID-19. En la fase de estudios preclínicos farmacológicos, que conlleva la ruta crítica para el registro de nuevos fármacos, no se incluyen estudios de citoprotección antioxidante. En este contexto, los autores se propusieron realizar el presente estudio con el objetivo de evaluar los eritrocitos humanos como biomodelo farmacológico de citoprotección antioxidante para el tratamiento de pacientes con COVID-19.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio prospectivo, experimental y preclínico farmacológico <italic>in vitro</italic> para evaluar los eritrocitos humanos como biomodelo farmacológico de citoprotección antioxidante.</p>
+			<sec>
+				<title>Obtención de eritrocitos</title>
+				<p>Se emplearon eritrocitos aislados de sangre fresca de voluntarios sanos. Los donantes no tenían antecedentes de enfermedades crónicas no transmisibles, ni habían consumido medicamentos antinflamatorios o citoprotectores en los últimos 15 días. Los resultados del estudio de bioquímica y hematología básica de sus muestras se encontraban en el rango de valores normales.</p>
+				<p>Se colectaron muestras de 12-15 mL y se depositaron en tubos de ensayo que contenían una cantidad de anticoagulante en proporción 1:10 (buffer citrato-sangre). Se procedió a separar el plasma mediante centrifugación a 2500 rpm durante 15 minutos y se eliminó el sobrenadante. Los eritrocitos fueron lavados 4 veces en solución tamponada de fosfato salino (PBS) (pH 7.00) y se resuspendieron en ella a razón de 8 x 10<sup>9</sup> glóbulos/mL. </p>
+			</sec>
+			<sec>
+				<title>Diseño experimental</title>
+				<p>El ensayo de RBC (<italic>red blood cells</italic>) o test de hemólisis se desarrolló según el Protocolo No. 37 de Invittox.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> Primero se midió la inhibición de la hemólisis oxidativa inducida por el peróxido de hidrógeno (H<sub>2</sub>O<sub>2</sub>) en eritrocitos humanos. Las suspensiones de eritrocitos fueron tratadas con PBS (control negativo), H<sub>2</sub>O<sub>2</sub> (control positivo) y ácido ascórbico (AA) como sustancia de referencia. </p>
+				<p>Los eritrocitos humanos aislados fueron enfrentados a diferentes concentraciones de un agente oxidante como el H<sub>2</sub>O<sub>2</sub>, cuyo efecto fue monitoreado en el tiempo. Para determinar la concentración de H<sub>2</sub>O<sub>2</sub> se evaluaron las concentraciones 5, 10, 25 y 40 mM y para evaluar el efecto citoprotector de la sustancia de referencia (AA) se empleó el biomodelo propuesto de daño oxidativo causado por el agente oxidante H<sub>2</sub>O<sub>2</sub> en eritrocitos humanos. Las concentraciones de AA evaluadas fueron 5, 10, 25, 40 y 50 µg/mL. </p>
+				<p>Se incubó a todos los grupos experimentales a 37 °C durante 30 minutos y cada 10 minutos eran agitatos con un vórtex. Después se procedió a centrifugar las muestras, recoger los sobrenadantes y medir las absorbancias a 530 nm en un espectrofotómetro (PG instrument T60, UK). </p>
+				<p>Para calcular el porcentaje de hemólisis se asumió 100 % de esta en el control negativo (H<sub>2</sub>O<sub>2</sub>); asimismo, para estimar el tiempo en el que se alcanzó 50 % de la hemólisis (TH<sub>50</sub>) y la concentración en la que los extractos protegen 50 % de la integridad de la membrana del glóbulo rojo, denominado índice de citoprotección (IC<sub>50</sub>), se utilizaron el logaritmo del tiempo y la concentración, respectivamente, mediante un enfoque de regresión lineal.</p>
+			</sec>
+			<sec>
+				<title>Cambios morfológicos de los eritrocitos</title>
+				<p>Por su parte, para precisar el mecanismo de protección de la membrana de los eritrocitos fueron observados los cambios morfológicos inducidos por el H<sub>2</sub>O<sub>2</sub> como agente oxidante en los glóbulos rojos. Se añadió un volumen de 50 μL de eritrocitos de los pellets de cada experimento a una cámara de Neubauer y se visualizó en un microscopio de luz transmitida (Leica DM 1000, Suiza), acoplado a una cámara digital (Leica MC 170 HD). Se consideró la integridad de la membrana, la forma de los eritrocitos, además de la presencia/ausencia de deformaciones como esferocitos, equinocitos y otras alteraciones morfológicas para todas las muestras de ensayo y los controles.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Como puede observarse (<xref ref-type="fig" rid="f1">Fig.1</xref>.), el máximo de la concentración de hemoglobina que se libera con esta concentración de eritrocitos, luego de ser expuestos a las concentraciones de 5, 10, 25 y 40 mM de H<sub>2</sub>O<sub>2,</sub> se obtuvo a los 30 minutos; igualmente, al comparar los valores de TH<sub>50</sub> obtenidos para estas concentraciones (9,1; 9,8 y 10,2 minutos, respectivamente), se determinó que no existían diferencias significativas (p&gt;0,05). Atendiendo a estos resultados en los restantes estudios se decidió emplear una concentración del agente oxidante de 10 mM en un tiempo de incubación de 30 minutos.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig. 1</label>
+					<caption>
+						<title>Concentraciones de hemoglobina (g/L) en el medio en diferentes intervalos de tiempo, luego de la exposición a concentraciones de 5, 10, 25 y 40 mM de H<sub>2</sub>O<sub>2</sub>.</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-05-e4316-gf1.png"/>
+				</fig>
+			</p>
+			<p>Al evaluar el porcentaje de hemólisis de las diferentes concentraciones propuestas de la sustancia de referencia (<xref ref-type="fig" rid="f2">Fig.2</xref>.) se evidenció que según aumenta la concentración del AA, dicho porcentaje disminuye. </p>
+			<p>
+				<fig id="f2">
+					<label>Fig. 2</label>
+					<caption>
+						<title>Porcentaje de hemólisis inducida por la exposición de H<sub>2</sub>O<sub>2</sub> en presencia de AA a diferentes concentraciones</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-05-e4316-gf2.png"/>
+				</fig>
+			</p>
+			<p>El porcentaje de inhibición de la hemólisis de la sustancia de referencia permitió evaluar cómo el producto en estudio, a las concentraciones ensayadas, es capaz de proteger los eritrocitos del ataque oxidativo, expresado en la disminución de la hemólisis de las células. </p>
+			<p>Al respecto, en la <xref ref-type="fig" rid="f3">figura 3</xref> se observa una curva logarítmica donde, a concentraciones más bajas, es evidente el incremento casi lineal de la capacidad citoprotectora de la sustancia; sin embargo, a medida que la concentración se incrementa, esta tiende a disminuir y busca estabilizar la respuesta en forma de meseta. El valor de IC<sub>50</sub>, determinado mediante un enfoque de regresión lineal, fue de 12,71 ± 2,35.</p>
+			<p>
+				<fig id="f3">
+					<label>Fig. 3</label>
+					<caption>
+						<title>Citoprotección antioxidante en eritrocitos humanos mostrada por diferentes concentraciones de la sustancia de referencia AA.</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-05-e4316-gf3.png"/>
+				</fig>
+			</p>
+			<p>Los cambios morfológicos producidos por el H<sub>2</sub>O<sub>2</sub> en los eritrocitos (<xref ref-type="fig" rid="f4">Fig. 4</xref>.), en presencia de la sustancia de referencia AA y a concentraciones de 50 μg/mL, se visualizaron a través del citado microscopio y se obtuvieron microfotografías con un aumento de 400x. </p>
+			<p>
+				<fig id="f4">
+					<label>Fig. 4</label>
+					<caption>
+						<title>Microfotografías ópticas del efecto protector del estándar antioxidante AA contra daño oxidativo inducido por H<sub>2</sub>O<sub>2</sub> sobre las membranas de los eritrocitos. Magnificación 400x. </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-05-e4316-gf4.png"/>
+				</fig>
+			</p>
+			<p>A) Grupo control negativo, B) Grupo control positivo, C) Sustancia de referencia</p>
+			<p>De forma general, las muestras con H<sub>2</sub>O<sub>2</sub> presentaron cambios morfológicos significativos de tipo esferocitos, equinocitos y esferoequinocitos. Por su parte, el estándar antioxidante AA fue capaz de prevenir los daños morfológicos en los eritrocitos inducidos por el H<sub>2</sub>O<sub>2</sub>; sin embargo, aun cuando no se detectaron restos de membranas que indicaran una ruptura celular, y la densidad de las células ser similar al control, se observaron alteraciones en la morfología de estos, fundamentalmente con la presencia de equinocitos y algunos estomatocitos. No obstante, estas afectaciones en el grupo del referente antioxidante resultaron significativamente menores en frecuencia de aparición, con respecto al control positivo que solo contenía H<sub>2</sub>O<sub>2</sub>.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Es ampliamente conocido que la interacción de EROs con las membranas biológicas produce gran variedad de modificaciones funcionales. Esto se debe a la afectación de los componentes de la membrana, encargados de su estabilidad, rigidez y forma, tales como los fosfolípidos, el colesterol, las proteínas transmembranales y las proteínas que constituyen parte del citoesqueleto. Este estrés oxidativo provoca daños que alteran toda la conformación estructural del eritrocito y su funcionamiento.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>La infección viral con SARS-CoV-2 estimula la generación de niveles elevados de EROs que interrumpen la homeostasis redox y provocan estrés oxidativo e inflamación; respuestas biológicas que están relacionadas con el agravamiento a causa de la enfermedad.</p>
+			<p>En la práctica médica, las estrategias dirigidas a mejorar el estado redox del huésped pueden brindar una protección sólida contra enfermedades graves, pero en el caso de la COVID-19, la administración de agentes terapéuticos que ejercen potentes actividades antioxidantes pueden reducir el riesgo de mortalidad.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>Por estas razones, hoy en día es importante buscar nuevas alternativas terapéuticas que permitan minimizar el daño oxidativo en las células del organismo y controlar la aparición de estos fenómenos adversos. En este sentido, los ensayos farmacológicos <italic>in vitro</italic> resultan relevantes para evaluar la capacidad citoprotectora ante un daño oxidativo. </p>
+			<p>Afortunadamente, el biomodelo farmacológico propuesto mostró el resultado esperado en cuanto al daño oxidativo provocado por el agente oxidante, en este caso el H<sub>2</sub>O<sub>2</sub>, así como la citoprotección del AA como el referente antioxidante empleado. Resulta válido señalar que la exposición de los eritrocitos al H<sub>2</sub>O<sub>2</sub> conduce a la peroxidación de lípidos, lo que podría alterar las membranas de los glóbulos rojos e inducir cambios en la conformación de las proteínas y su entrecruzamiento, al disminuir el contenido de la fracción proteica de la membrana y, en consecuencia, conducir a una morfología celular anormal y a la hemólisis; asimismo, las interacciones de los eritrocitos intactos con diferentes moléculas pueden alterar su morfología.</p>
+			<p>Por su parte, el AA es transportado a través de la membrana citoplasmática al interior de la célula, donde desempeña la mayoría de sus funciones biológicas, significativamente asociadas con su estatus redox. Este compuesto es capaz de romper las reacciones en cadena, capturar radicales libres y donar electrones a un gran número de oxidasas. Además, varios de los mecanismos celulares garantizan que su forma oxidada dehidroascorbato sea recuperada por un ciclo de reciclaje celular y convertido nuevamente a su forma reducida, la cual está relacionada directamente en la homeostasis metabólica. Así, el empleo del AA como sustancia de referencia también define el uso que se propone a este biomodelo farmacológico. Esta vitamina es conocida por su alta capacidad antioxidante, capaz de proteger las células y tejidos del organismo ante un daño oxidativo, de manera que ha sido empleada eficazmente en el tratamiento de pacientes con COVID-19.<xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>
+			</p>
+			<p>Igualmente, disponer de un biomodelo farmacológico implica también contar con adecuados biomarcadores que permitan realizar una valoración apropiada de la capacidad citoprotectora antioxidante, en este caso, de la sustancia evaluada.</p>
+			<p>En lo que se refiere al biomodelo farmacológico propuesto se determinaron, en primer lugar, 3 variables, a saber: concentración de hemoglobina, porcentaje de hemólisis y porcentaje de citoprotección o inhibición de la hemólisis, cuyas manifestaciones similares indicaron una misma respuesta basada en el efecto de las sustancias evaluadas sobre el daño celular provocado por el H<sub>2</sub>O<sub>2</sub>. </p>
+			<p>Teniendo en cuenta la información que ofrece directamente cada uno de estos parámetros, los autores de este artículo consideran que el más importante, y que debe formar parte de este biomodelo farmacológico, es el porcentaje de citoprotección, ya que su principal aporte es brindar información acerca de la proporción en que la hemólisis es capaz de disminuir con respecto al máximo observado y dada la acción del agente oxidante, a medida que se va incrementando la concentración de las muestras evaluadas.</p>
+			<p>El segundo parámetro de importancia, y que se deriva de los resultados del primero, es el valor de IC<sub>50</sub>. Este biomarcador es de gran importancia en el biomodelo farmacológico, a la vez que representa la concentración de la sustancia ensayada, capaz de inhibir la hemólisis a 50 % con respecto al daño inicial provocado por el H<sub>2</sub>O<sub>2</sub>. Este valor es el que permite evaluar la capacidad citoprotectora de la sustancia en estudio, al compararlo con el de diferentes sustancias de referencia empleadas, de las cuales se conoce su probada actividad farmacológica. Es válido destacar que mientras más sustancias de referencia sean aplicadas al estudio con diferentes mecanismos y efectividad farmacológica, mejor se podrá clasificar las muestras evaluadas.</p>
+			<p>El desarrollo de esta investigación ha evidenciado la importancia del uso de la microscopía óptica en este biomodelo farmacológico, fundamentalmente por la información que aporta al investigador. Si bien es cierto que evaluar el grado de hemólisis y su inhibición es un indicador de gran valor diagnóstico en cuanto a la integridad celular de los eritrocitos, no siempre el daño oxidativo provoca la completa ruptura celular, sino que a niveles bajos de protección, aun cuando no hay hemólisis por inestabilidad de la membrana del eritrocito, sí hay cambios morfológicos en las células que afectan su función biológica y que solo son observados por el estudio microscópico de las muestras celulares.</p>
+			<p>Les efectos demostrados del virus SARS-CoV-2 sobre los eritrocitos, mediados por procesos oxidativos, ha suscitado en varios autores la sugerencia de incluir una estrategia antioxidante en la intervención terapéutica a pacientes infectados por el virus.<xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+			</p>
+			<p>Se concluye que la búsqueda de nuevos productos de origen natural como alternativa terapéutica, bien puede incluir el biomodelo farmacológico propuesto para la evaluación de la propiedad citoprotectora de posibles fármacos ante un daño oxidativo. </p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Casares D, Escribá PV, Rosselló CA. Membrane lipid composition: Effect on membrane and organelle structure, function and compartmentalization and therapeutic avenues. Int J Mol Sci. 2019 [citado 15/06/2022];20(9):2167. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/31052427/">https://pubmed.ncbi.nlm.nih.gov/31052427/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Casares</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Escribá</surname>
+							<given-names>PV</given-names>
+						</name>
+						<name>
+							<surname>Rosselló</surname>
+							<given-names>CA</given-names>
+						</name>
+					</person-group>
+					<article-title>Membrane lipid composition: Effect on membrane and organelle structure, function and compartmentalization and therapeutic avenues</article-title>
+					<source>Int J Mol Sci</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-06-15">15/06/2022</date-in-citation>
+					<volume>20</volume>
+					<issue>9</issue>
+					<size units="pages">2167</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/31052427/">https://pubmed.ncbi.nlm.nih.gov/31052427/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Fratta Pasini AM, Stranieri C, Cominacini L, Mozzini C. Potential Role of Antioxidant and Anti-Inflammatory Therapies to Prevent Severe SARS-Cov-2 Complications. Antioxidants. 2021 [citado 15/06/2022];10(2):272-303. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2076-3921/10/2/272">https://www.mdpi.com/2076-3921/10/2/272</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fratta Pasini</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Stranieri</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cominacini</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mozzini</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Potential Role of Antioxidant and Anti-Inflammatory Therapies to Prevent Severe SARS-Cov-2 Complications</article-title>
+					<source>Antioxidants</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-06-15">15/06/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<fpage>272</fpage>
+					<lpage>303</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2076-3921/10/2/272">https://www.mdpi.com/2076-3921/10/2/272</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Vardakas P, Skaperda Z, Tekos F, Kouretas D. ROS and COVID. Antioxidants. 2022 [citado 05/07/2022]; 11(2): 339-341. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2076-3921/11/2/339">https://www.mdpi.com/2076-3921/11/2/339</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vardakas</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Skaperda</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Tekos</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Kouretas</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>ROS and COVID</article-title>
+					<source>Antioxidants</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-05">05/07/2022</date-in-citation>
+					<volume>11</volume>
+					<issue>2</issue>
+					<fpage>339</fpage>
+					<lpage>341</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2076-3921/11/2/339">https://www.mdpi.com/2076-3921/11/2/339</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Cavezzi A, Troiani E, Corrao S. COVID-19: hemoglobin, iron, and hypoxia beyond inflammation. A narrative review. Clin Pract. 2020 [citado 15/07/2022];10(2):1271. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2039-7283/10/2/1271">https://www.mdpi.com/2039-7283/10/2/1271</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cavezzi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Troiani</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Corrao</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19: hemoglobin, iron, and hypoxia beyond inflammation. A narrative review</article-title>
+					<source>Clin Pract</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-15">15/07/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<size units="pages">1271</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2039-7283/10/2/1271">https://www.mdpi.com/2039-7283/10/2/1271</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Barros VA, Pereira GA, Ota SS, Melo F, de Jesus ACS, Lima AB, et al. A theoretical antioxidant mechanism for cytoprotective effect of p-acetamide-salicylate derivatives against free radical initiator AAPH in human erythrocytes. J Braz Chem Soc. 2021 [citado 03/08/2022];32(7). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://old.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0103-50532021000701354">https://old.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0103-50532021000701354</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barros</surname>
+							<given-names>VA</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Ota</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>de Jesus</surname>
+							<given-names>ACS</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>AB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A theoretical antioxidant mechanism for cytoprotective effect of p-acetamide-salicylate derivatives against free radical initiator AAPH in human erythrocytes</article-title>
+					<source>J Braz Chem Soc</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-03">03/08/2022</date-in-citation>
+					<volume>32</volume>
+					<issue>7</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://old.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0103-50532021000701354">https://old.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0103-50532021000701354</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Lippi G, Mattiuzzi C. Hemoglobin value may be decreased in patients with severe coronavirus disease 2019. Hematol Transfus Cell Ther. 2020[citado 02/08/2022]; 42(2):116-7. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/S2531137920300298?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S2531137920300298?via%3Dihub</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lippi</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mattiuzzi</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Hemoglobin value may be decreased in patients with severe coronavirus disease 2019</article-title>
+					<source>Hematol Transfus Cell Ther</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-02">02/08/2022</date-in-citation>
+					<volume>42</volume>
+					<issue>2</issue>
+					<fpage>116</fpage>
+					<lpage>117</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/S2531137920300298?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S2531137920300298?via%3Dihub</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Liu W, Li H. Covid-19: Attacks the 1-beta chain of hemoglobin and captures the porphyrin to inhibit human heme metabolism. ChemRxiv. 2020 Preprint. <ext-link ext-link-type="uri" xlink:href="https://chemrxiv.org/engage/chemrxiv/article-details/60c74fa50f50db305139743d">https://chemrxiv.org/engage/chemrxiv/article-details/60c74fa50f50db305139743d</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Covid-19: Attacks the 1-beta chain of hemoglobin and captures the porphyrin to inhibit human heme metabolism</article-title>
+					<source>ChemRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://chemrxiv.org/engage/chemrxiv/article-details/60c74fa50f50db305139743d">https://chemrxiv.org/engage/chemrxiv/article-details/60c74fa50f50db305139743d</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Pape W. DB-ALM Protocol n° 37: Red Blood Cell (RBC) Test System, 1992 [citado 05/07/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/DBALM/VER1-0/online/DBALM_docs/37_M_%20Red%20Blood%20Cell%20(RBC)%20Test.pdf">https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/DBALM/VER1-0/online/DBALM_docs/37_M_%20Red%20Blood%20Cell%20(RBC)%20Test.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pape</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<source>DB-ALM Protocol n° 37: Red Blood Cell (RBC) Test System</source>
+					<year>1992</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-05">05/07/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/DBALM/VER1-0/online/DBALM_docs/37_M_%20Red%20Blood%20Cell%20(RBC)%20Test.pdf">https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EURL-ECVAM/datasets/DBALM/VER1-0/online/DBALM_docs/37_M_%20Red%20Blood%20Cell%20(RBC)%20Test.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Selvaraj S, Krishnaswamy S, Devashya V, Sethuraman S, Maheswari U. Influence of membrane lipid composition on ?avonoid-membrane interactions: Implications on their biological activity. Prog Lipid Res. 2015 [citado 05/07/2022];58:1-13. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S0163782714000617">https://www.sciencedirect.com/science/article/abs/pii/S0163782714000617</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Selvaraj</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Krishnaswamy</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Devashya</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Sethuraman</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Maheswari</surname>
+							<given-names>U</given-names>
+						</name>
+					</person-group>
+					<article-title>Influence of membrane lipid composition on ?avonoid-membrane interactions: Implications on their biological activity</article-title>
+					<source>Prog Lipid Res</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-05">05/07/2022</date-in-citation>
+					<volume>58</volume>
+					<fpage>1</fpage>
+					<lpage>13</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S0163782714000617">https://www.sciencedirect.com/science/article/abs/pii/S0163782714000617</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Gyawali P, Richards RS, Bwititi PT, Nwose EU. Association of abnormal erythrocyte morphology with oxidative stress and inflammation in metabolic syndrome. Blood Cells, Mol Dis. 2015 [citado 05/07/2022];54(4):360-3. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S107997961500025X?via%3Dihub">https://www.sciencedirect.com/science/article/abs/pii/S107997961500025X?via%3Dihub</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gyawali</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Richards</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Bwititi</surname>
+							<given-names>PT</given-names>
+						</name>
+						<name>
+							<surname>Nwose</surname>
+							<given-names>EU</given-names>
+						</name>
+					</person-group>
+					<article-title>Association of abnormal erythrocyte morphology with oxidative stress and inflammation in metabolic syndrome</article-title>
+					<source>Blood Cells, Mol Dis</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-05">05/07/2022</date-in-citation>
+					<volume>54</volume>
+					<issue>4</issue>
+					<fpage>360</fpage>
+					<lpage>363</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S107997961500025X?via%3Dihub">https://www.sciencedirect.com/science/article/abs/pii/S107997961500025X?via%3Dihub</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Spengler MI, Svetaz MJ, Leroux MB, Bertoluzzo SM, Parente FM, Bosch P. Lipid peroxidation affects red blood cells membrane properties in patients with systemic lupus erythematosus. Clin Hemorheol Microcirc. 2014 [citado 15/06/2022]; 58(4): 489-95. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://content.iospress.com/articles/clinical-hemorheology-and-microcirculation/ch1716">https://content.iospress.com/articles/clinical-hemorheology-and-microcirculation/ch1716</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Spengler</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Svetaz</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Leroux</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Bertoluzzo</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Parente</surname>
+							<given-names>FM</given-names>
+						</name>
+						<name>
+							<surname>Bosch</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Lipid peroxidation affects red blood cells membrane properties in patients with systemic lupus erythematosus</article-title>
+					<source>Clin Hemorheol Microcirc</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-06-15">15/06/2022</date-in-citation>
+					<volume>58</volume>
+					<issue>4</issue>
+					<fpage>489</fpage>
+					<lpage>495</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://content.iospress.com/articles/clinical-hemorheology-and-microcirculation/ch1716">https://content.iospress.com/articles/clinical-hemorheology-and-microcirculation/ch1716</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Lopachev AV, Kazanskaya RB, Khutorova AV, Fedorova TN. An overview of the pathogenic mechanisms involved in severe cases of COVID-19 infection, and the proposal of salicyl-carnosine as a potential drug for its treatment. Eur J Pharmacol. 2020 [citado 02/08/2022];886. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/S0014299920305495?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S0014299920305495?via%3Dihub</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lopachev</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Kazanskaya</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Khutorova</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Fedorova</surname>
+							<given-names>TN</given-names>
+						</name>
+					</person-group>
+					<article-title>An overview of the pathogenic mechanisms involved in severe cases of COVID-19 infection, and the proposal of salicyl-carnosine as a potential drug for its treatment</article-title>
+					<source>Eur J Pharmacol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-02">02/08/2022</date-in-citation>
+					<size units="pages">886</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/S0014299920305495?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S0014299920305495?via%3Dihub</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Cárdenas Rodríguez N, Bandala C, Vanoye CA, Mejía II, Gómez Manzo S, Hernández Cruz EY. Use of antioxidants for the neuro-therapeutic management of COVID-19. Antioxidants. 2021 [citado 15/07/2022];10(6):971. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/34204362/">https://pubmed.ncbi.nlm.nih.gov/34204362/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cárdenas Rodríguez</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Bandala</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Vanoye</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Mejía</surname>
+							<given-names>II</given-names>
+						</name>
+						<name>
+							<surname>Gómez Manzo</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hernández Cruz</surname>
+							<given-names>EY</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of antioxidants for the neuro-therapeutic management of COVID-19</article-title>
+					<source>Antioxidants</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-15">15/07/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>6</issue>
+					<size units="pages">971</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/34204362/">https://pubmed.ncbi.nlm.nih.gov/34204362/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Carr AC. A new clinical trial to test high-dose vitamin C in patients with COVID-19. Crit Care. 2020 [citado 25/07/2022];24(1):133-4. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32264963/">https://pubmed.ncbi.nlm.nih.gov/32264963/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carr</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<article-title>A new clinical trial to test high-dose vitamin C in patients with COVID-19</article-title>
+					<source>Crit Care</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-07-25">25/07/2022</date-in-citation>
+					<volume>24</volume>
+					<issue>1</issue>
+					<fpage>133</fpage>
+					<lpage>134</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32264963/">https://pubmed.ncbi.nlm.nih.gov/32264963/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Coppock D, Violet PC, Vasquez G, Belden K, Foster M, Mullin B, et al. Pharmacologic Ascorbic Acid as Early Therapy for Hospitalized Patients with COVID-19: A Randomized Clinical Trial. Life. 2022 [citado 02/08/2022];12(3):453. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2075-1729/12/3/453">https://www.mdpi.com/2075-1729/12/3/453</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Coppock</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Violet</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Vasquez</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Belden</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Foster</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mullin</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pharmacologic Ascorbic Acid as Early Therapy for Hospitalized Patients with COVID-19: A Randomized Clinical Trial</article-title>
+					<source>Life</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-02">02/08/2022</date-in-citation>
+					<volume>12</volume>
+					<issue>3</issue>
+					<size units="pages">453</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2075-1729/12/3/453">https://www.mdpi.com/2075-1729/12/3/453</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Reva I, Yamamoto T, Rasskazova M, Lemeshko T, Usov V, Krasnikov Y, et al. Erythrocytes as a target of SARS-CoV-2 in pathogenesis of COVID-19. Arch Euromedica. 2020 [citado 02/08/2022];10(3):5-11. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-1005433">https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-1005433</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reva</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Yamamoto</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Rasskazova</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lemeshko</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Usov</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Krasnikov</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Erythrocytes as a target of SARS-CoV-2 in pathogenesis of COVID-19</article-title>
+					<source>Arch Euromedica</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-02">02/08/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>3</issue>
+					<fpage>5</fpage>
+					<lpage>11</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-1005433">https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-1005433</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Kronstein Wiedemann R, Stadtmüller M, Traikov S, Georgi M, Teichert M, Yosef H, et al. SARS-CoV-2 Infects red blood cell progenitors and dysregulates hemoglobin and iron metabolism. Stem Cell Rev Rep. 2022 [citado 03/08/2022];18(5):1809-21. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/35181867/">https://pubmed.ncbi.nlm.nih.gov/35181867/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kronstein Wiedemann</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Stadtmüller</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Traikov</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Georgi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Teichert</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Yosef</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS-CoV-2 Infects red blood cell progenitors and dysregulates hemoglobin and iron metabolism</article-title>
+					<source>Stem Cell Rev Rep</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-03">03/08/2022</date-in-citation>
+					<volume>18</volume>
+					<issue>5</issue>
+					<fpage>1809</fpage>
+					<lpage>1821</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/35181867/">https://pubmed.ncbi.nlm.nih.gov/35181867/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

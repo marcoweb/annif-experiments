@@ -1,0 +1,38 @@
+#ITI#A comprehensive review and shiny application on the matching-adjusted indirect comparison#FTI#
+#IRE# Population-adjusted indirect comparison (PAIC) is an increasingly used technique for estimating the comparative effectiveness of different treatments for the health technology assessments when head-to-head trials are unavailable. Three commonly used PAIC methods include matching-adjusted indirect comparison (MAIC), simulated treatment comparison (STC), and multilevel network meta-regression (ML-NMR). MAIC enables researchers to achieve balanced covariate distribution across two independent trials when individual participant data are only available in one trial. In this article, we provide a comprehensive review of the MAIC methods, including their theoretical derivation, implicit assumptions, and connection to calibration estimation in survey sampling. We discuss the nuances between anchored and unanchored MAIC, as well as their required assumptions. Furthermore, we implement various MAIC methods in a user-friendly R Shiny application Shiny-MAIC. To our knowledge, it is the first Shiny application that implements various MAIC methods. The Shiny-MAIC application offers choice between anchored or unanchored MAIC, choice among different types of covariates and outcomes, and two variance estimators including bootstrap and robust standard errors. An example with simulated data is provided to demonstrate the utility of the Shiny-MAIC application, enabling a user-friendly approach conducting MAIC for healthcare decision-making. The Shiny-MAIC is freely available through the link: https://ziren.shinyapps.io/Shiny_MAIC/#FRE#
+#IPC# indirect treatment comparison; matching-adjusted indirect comparison; population-adjusted indirect comparison; R shiny; software#FPC#
+#IRF# Phillippo D., Ades T., Dias S., Palmer S., Abrams K.R., Welton N., NICE DSU technical support document 18: methods for population-adjusted indirect comparisons in submissions to NICE, (2016); 
+Dias S., Sutton A.J., Ades A.E., Welton N.J., Evidence synthesis for decision making 2: a generalized linear modeling framework for pairwise and network meta-analysis of randomized controlled trials, Med Decis Making, 33, 5, pp. 607-617, (2013); 
+Dias S., Ades A.E., Welton N.J., Jansen J.P., Sutton A.J., Network Meta-Analysis for Decision-Making, (2018); 
+Phillippo D.M., Ades A.E., Dias S., Palmer S., Abrams K.R., Welton N.J., Methods for population-adjusted indirect comparisons in health technology appraisal, Med Decis Making, 38, 2, pp. 200-211, (2018); 
+Bucher H.C., Guyatt G.H., Griffith L.E., Walter S.D., The results of direct and indirect treatment comparisons in meta-analysis of randomized controlled trials, J Clin Epidemiol, 50, 6, pp. 683-691, (1997); 
+Zhang J., Carlin B.P., Neaton J.D., Et al., Network meta-analysis of randomized clinical trials: reporting the proper summaries, Clin Trials, 11, 2, pp. 246-262, (2014); 
+Lin L., Zhang J., Hodges J.S., Chu H., Performing arm-based network meta-analysis in R with the pcnetmeta package, J Stat Softw, 80, 5, (2017); 
+Lu G., Ades A.E., Assessing evidence inconsistency in mixed treatment comparisons, J Am Stat Assoc, 101, 474, pp. 447-459, (2006); 
+White I.R., Turner R.M., Karahalios A., Salanti G., A comparison of arm-based and contrast-based models for network meta-analysis, Stat Med, 38, 27, pp. 5197-5213, (2019); 
+Remiro-Azocar A., Heath A., Baio G., Methods for population adjustment with limited access to individual patient data: a review and simulation study, Res Synth Methods, 12, 6, pp. 750-775, (2021); 
+Signorovitch J.E., Wu E.Q., Yu A.P., Et al., Comparative effectiveness without head-to-head trials: a method for matching-adjusted indirect comparisons applied to psoriasis treatment with adalimumab or etanercept, Pharmacoeconomics, 28, pp. 935-945, (2010); 
+Signorovitch J.E., Sikirica V., Erder M.H., Et al., Matching-adjusted indirect comparisons: a new tool for timely comparative effectiveness research, Value Health, 15, 6, pp. 940-947, (2012); 
+Ishak K.J., Proskorovsky I., Benedict A., Simulation and matching-based approaches for indirect comparison of treatments, Pharmacoeconomics, 33, 6, pp. 537-549, (2015); 
+Kim J.K., Park M., Calibration estimation in survey sampling, Int Stat Rev, 78, 1, pp. 21-39, (2010); 
+Deville J.C., Sarndal C.E., Calibration estimators in survey sampling, J Am Stat Assoc, 87, 418, pp. 376-382, (1992); 
+Caro J.J., Ishak K.J., No head-to-head trial? Simulate the missing arms, PharmacoEconomics, 28, 10, pp. 957-967, (2010); 
+Phillippo D.M., Calibration of Treatment Effects in Network Meta-Analysis Using Individual Patient Data, (2019); 
+Phillippo D., Dias S., Ades T., Welton N., Multilevel network meta-regression for population adjustment based on individual and aggregate level data; 
+Remiro-Azocar A., Heath A., Baio G., Conflating marginal and conditional treatment effects: comments on “assessing the performance of population adjustment methods for anchored indirect comparisons: a simulation study, Stat Med, 40, 11, pp. 2753-2758, (2021); 
+Petto H., Kadziola Z., Brnabic A., Saure D., Belger M., Alternative weighting approaches for anchored matching-adjusted indirect comparisons via a common comparator, Value Health, 22, 1, pp. 85-91, (2019); 
+Jackson D., Rhodes K., Ouwens M., Alternative weighting schemes when performing matching-adjusted indirect comparisons, Res Synth Methods, 12, 3, pp. 333-346, (2021); 
+Remiro-Azocar A., Two-stage matching-adjusted indirect comparison, BMC Med Res Methodol, 22, 1, pp. 1-16, (2022); 
+Wang J., On matching-adjusted indirect comparison and calibration estimation; 
+Phillippo D.M., Dias S., Ades A.E., Welton N.J., Equivalence of entropy balancing and the method of moments for matching-adjusted indirect comparison, Res Synth Methods, 11, 4, pp. 568-572, (2020); 
+Cassidy O., Harte M., Trela-Larsen L., Et al., A comparison of relative-efficacy estimate (s) derived from both Matching-Adjusted Indirect Comparisons and Standard Anchored Indirect Treatment Comparisons; 
+Phillippo D.M., Dias S., Ades A.E., Welton N.J., Assessing the performance of population adjustment methods for anchored indirect comparisons: a simulation study, Stat Med, 39, 30, pp. 4885-4911, (2020); 
+Jiang Y., Ni W., Performance of unanchored matching-adjusted indirect comparison (MAIC) for the evidence synthesis of single-arm trials with time-to-event outcomes, BMC Med Res Methodol, 20, pp. 1-9, (2020); 
+Cheng D., Ayyagari R., Signorovitch J., The statistical performance of matching-adjusted indirect comparisons; 
+Zubizarreta J.R., Stable weights that balance covariates for estimation with incomplete outcome data, J Am Stat Assoc, 110, 511, pp. 910-922, (2015); 
+Hainmueller J., Entropy balancing for causal effects: a multivariate reweighting method to produce balanced samples in observational studies, Polit Anal, 20, 1, pp. 25-46, (2012); 
+Xiao Y., Moodie E.E., Abrahamowicz M., Comparison of approaches to weight truncation for marginal structural cox models, Epidemiol Methods, 2, 1, pp. 1-20, (2013); 
+Malangone E., Sherman S., Matching-adjusted indirect comparison analysis using common SAS® 9.2: procedures. In: SAS Global Forum 2011, (2016); 
+Alsop J.C., Pont L.O., Matching-adjusted indirect comparison via a polynomial-based non-linear optimization method, J Comp Eff Res, 11, 8, pp. 551-561, (2022); 
+Han S., Statistical Methods for Aggregation of Indirect Information, (2014); 
+Liu N., Zhou Y., Lee J.J., IPDfromKM: reconstruct individual patient data from published Kaplan-Meier survival curves, BMC Med Res Methodol, 21, 1, (2021)#FRF#

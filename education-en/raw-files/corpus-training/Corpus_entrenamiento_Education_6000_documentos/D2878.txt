@@ -1,0 +1,51 @@
+#ITI#Risk of bias assessment in preclinical literature using natural language processing#FTI#
+#IRE# We sought to apply natural language processing to the task of automatic risk of bias assessment in preclinical literature, which could speed the process of systematic review, provide information to guide research improvement activity, and support translation from preclinical to clinical research. We use 7840 full-text publications describing animal experiments with yes/no annotations for five risk of bias items. We implement a series of models including baselines (support vector machine, logistic regression, random forest), neural models (convolutional neural network, recurrent neural network with attention, hierarchical neural network) and models using BERT with two strategies (document chunk pooling and sentence extraction). We tune hyperparameters to obtain the highest F1 scores for each risk of bias item on the validation set and compare evaluation results on the test set to our previous regular expression approach. The F1 scores of best models on test set are 82.0% for random allocation, 81.6% for blinded assessment of outcome, 82.6% for conflict of interests, 91.4% for compliance with animal welfare regulations and 46.6% for reporting animals excluded from analysis. Our models significantly outperform regular expressions for four risk of bias items. For random allocation, blinded assessment of outcome, conflict of interests and animal exclusions, neural models achieve good performance; for animal welfare regulations, BERT model with a sentence extraction strategy works better. Convolutional neural networks are the overall best models. The tool is publicly available which may contribute to the future monitoring of risk of bias reporting for research improvement activities#FRE#
+#IPC# automatic assessment; natural language processing; preclinical research synthesis; risk of bias#FPC#
+#IRF# Cochrane Handbook for Systematic Reviews of Interventions Version 5.1.0, (2011); 
+Higgins J.P.T., Altman D.G., Gotzsche P.C., Et al., The Cochrane collaboration's tool for assessing risk of bias in randomised trials, BMJ, 343, 7829, (2011); 
+Did a change in nature journals' editorial policy for life sciences research improve reporting?, BMJ Open Sci, 3, 1, (2019); 
+Hair K., Macleod M.R., Sena E.S., A randomised controlled trial of an intervention to improve compliance with the ARRIVE guidelines (IICARus), Res Integr Peer Rev, 4, 1, (2019); 
+Macleod M., Making research more useful: minimal reporting standards for life scientists. BMJ Open Sci, (2018); 
+MacLeod M., Mohan S., Reproducibility and rigor in animal-based research, ILAR J, 60, 1, pp. 17-23, (2019); 
+Elliott J.H., Synnot A., Turner T., Et al., Living systematic review: 1. Introduction—the why, what, when, and how, J Clin Epidemiol, 91, pp. 23-30, (2017); 
+Marshall I.J., Kuiper J., Wallace B.C., RobotReviewer: evaluation of a system for automatically assessing bias in clinical trials, J Am Med Informatics Assoc, 23, 1, pp. 193-201, (2016); 
+Kim Y., Convolutional neural networks for sentence classification. In EMNLP 2014–2014 Conference on Empirical Methods in Natural Language Processing, Proceedings of the Conference, (2014); 
+Zhang Y., Marshall I.J., Wallace B.C., Rationale-augmented convolutional neural networks for text classification. CoRR, (2016); 
+Millard L.A., Flach P.A., Higgins J.P., Machine learning to assist risk-of-bias assessments in systematic reviews, Int J Epidemiol, 45, 1, pp. 266-277, (2016); 
+Menke J., Roelandse M., Ozyurt B., Martone M., Bandrowski A., Supplemental Information the Rigor and Transparency Index Quality Metric for Assessing Biological and Medical Science Methods. Vol. 23; 
+Sutton C., McCallum A., An introduction to conditional random fields, Found Trends Mach Learn, 4, 4, pp. 267-373, (2011); 
+Macleod M.R., Lawson McLean A., Kyriakopoulou A., Et al., Risk of bias in reports of in vivo research: a focus for improvement, PLoS Biol, 13, 10, (2015); 
+Hooijmans C.R., Rovers M.M., De Vries R.B.M., Leenaars M., Ritskes-Hoitinga M., Langendam M.W., SYRCLE's risk of bias tool for animal studies, BMC Med Res Methodol, 14, 1, (2014); 
+Bahor Z., Liao J., Macleod M.R., Et al., Risk of bias reporting in the recent animal focal cerebral ischaemia literature, Clin Sci, 131, 20, pp. 2525-2532, (2017); 
+du Sert N.P., Hurst V., Ahluwalia A., Et al., The arrive guidelines 2.0: updated guidelines for reporting animal research, PLoS Biol, 18, 7, (2020); 
+Vollert J., Schenker E., Macleod M., Et al., Systematic review of guidelines for internal validity in the design, conduct and analysis of preclinical biomedical experiments involving laboratory animals, BMJ Open Sci., 4, 1, (2020); 
+Daniel J., Martin J.H., Speech and language processing: vector semantics and embeddings. In: Speech and Language Processing. 3rd ed, (2020); 
+Mikolov T., Chen K., Corrado G., Dean J., Efficient Estimation of Word Representations in Vector Space, (2013); 
+Le Q., Mikolov T., Distributed representations of sentences and documents. In 31st International Conference on Machine Learning, ICML 2014. Vol. 4, pp. 2931-2939, (2014); 
+Devlin J., Chang M.-W., Lee K., Toutanova K., BERT: pre-training of deep bidirectional transformers for language understanding. CoRR, (2018); 
+Macleod M.R., O'Collins T., Howells D.W., Donnan G.A., Pooling of animal experimental data reveals influence of study design and publication bias, Stroke, 35, 5, pp. 1203-1208, (2004); 
+Bahor Z., Nunes-Fonseca C., Thomson L.D.G., Sena E.S., Macleod M.R., Improving our understanding of the in vivo modelling of psychotic disorders: a protocol for a systematic review and meta-analysis, Evidence-Based Preclin Med, 3, 2, (2016); 
+Currie G.L., Angel-Scott H.N., Colvin L., Et al., Animal models of chemotherapy-induced peripheral neuropathy: a machine-assisted systematic review and meta-analysis, PLoS Biol, 17, 5, (2019); 
+Manning C., Surdeanu M., Bauer J., Finkel J., Bethard S., McClosky D., The Stanford CoreNLP natural language processing toolkit. In: Association for Computational Linguistics (ACL), pp. 55-60, (2015); 
+Goldberg Y., Neural network methods for natural language processing, Synth Lect Hum Lang Technol, 10, 1, pp. 1-311, (2017); 
+Pyysalo S., Ginter F., Moen H., Salakoski T., Ananiadou S., Distributional semantics resources for biomedical text processing. In Proc 5th Lang Biol Med Conf (LBM 2013), pp. 39-44, (2013); 
+Hastie T., Tibshirani R., Friedman J., The Elements of Statistical Learning. Vol. 27, (2009); 
+Breiman L., Random forests, Mach Learn, 45, 1, pp. 5-32, (2001); 
+Hochreiter S., Schmidhuber J., Long short-term memory, Neural Comput, 9, 8, pp. 1735-1780, (1997); 
+Yang Z., Yang D., Dyer C., He X., Smola A.J., Hovy E.H., Hierarchical attention networks for document classification. In: HLT-NAACL, (2016); 
+Abiodun O.I., Jantan A., Omolara A.E., Dada K.V., Mohamed N.A.E., Arshad H., State-of-the-art in artificial neural network applications: a survey, Heliyon, 4, 11, (2018); 
+Pascanu R., Mikolov T., Bengio Y., On the difficulty of training recurrent neural networks. 30th Int Conf Mach Learn ICML 2013, pp. 2347-2355, (2012); 
+Chung J., Gulcehre C., Cho K., Bengio Y., Empirical evaluation of gated recurrent neural networks on sequence modeling, (2014); 
+Bahdanau D., Cho K.H., Bengio Y., Neural machine translation by jointly learning to align and translate. 3rd International Conference on Learning Representations, ICLR 2015—Conference Track Proceedings. International Conference on Learning Representations, ICLR, (2015); 
+Vaswani A., Shazeer N., Parmar N., Et al., Attention is all you need. In: Advances in Neural Information Processing Systems. Vol. 2017, pp. 5999-6009, (2017); 
+Wu Y., Schuster M., Chen Z., Et al., Google's neural machine translation system: Bridging the gap between human and machine translation, (2016); 
+Beltagy I., Lo K., Cohan A., SCIBERT: A pretrained language model for scientific text, (2019); 
+Lee J., Yoon W., Kim S., Et al., BioBERT: a pre-trained biomedical language representation model for biomedical text mining, Bioinformatics, 36, 4, (2019); 
+Beltagy I., Peters M.E., Cohan A., Longformer: The long-document transformer, (2020); 
+Mulyar A., Schumacher E., Rouhizadeh M., Dredze M., Phenotyping of clinical notes with improved document classification models using contextualized neural language models. arXiv, (2019); 
+Neumann M., King D., Beltagy I., Ammar W., ScispaCy: fast and robust models for biomedical natural language processing. Association for Computational Linguistics (ACL), pp. 319-327, (2019); 
+Reimers N., Gurevych I., Sentence-BERT: sentence embeddings using siamese BERT-networks. EMNLP-IJCNLP 2019–2019 Conf Empir Methods Nat Lang Process 9th Int Jt Conf Nat Lang Process Proc Conf, pp. 3982-3992, (2019); 
+Sanh V., Debut L., Chaumond J., Wolf T., DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter, (2019); 
+Raschka S., Model evaluation, model selection, and algorithm selection in machine learning. arXiv, (2018); 
+Bahor Z., Liao J., Currie G., Et al., Development and uptake of an online systematic review platform: the early years of the CAMARADES systematic review facility (SyRF), BMJ Open Sci., 5, 1, (2021); 
+Wang Q., Preclinical RoB assessment#FRF#

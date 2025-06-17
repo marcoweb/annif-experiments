@@ -1,0 +1,38 @@
+#ITI#Automated extraction of revision events from keystroke data#FTI#
+#IRE#Revision plays an important role in writing, and as revisions break down the linearity of the writing process, they are crucial in describing writing process dynamics. Keystroke logging and analysis have been used to identify revisions made during writing. Previous approaches include the manual annotation of revisions, building nonlinear S-notations, and the automated extraction of backspace keypresses. However, these approaches are time-intensive, vulnerable to construct, or restricted. Therefore, this article presents a computational approach to the automatic extraction of full revision events from keystroke logs, including both insertions and deletions, as well as the characters typed to replace the deleted text. Within this approach, revision candidates are first automatically extracted, which allows for a simplified manual annotation of revision events. Second, machine learning is used to automatically detect revision events. For this, 7120 revision events were manually annotated in a dataset of keystrokes obtained from 65 students conducting a writing task. The results showed that revision events could be automatically predicted with a relatively high accuracy. In addition, a case study proved that this approach could be easily applied to a new dataset. To conclude, computational approaches can be beneficial in providing automated insights into revisions in writing. © The Author(s) 2021. corrected publication 2021.#FRE#
+#IPC#Annotation; Eye tracking; Keystroke logging; Machine learning; Revision analysis#FPC#
+#IRF#Baaijen V.M., Galbraith D., Discovery through writing: relationships with writing processes and text quality, Cognition and Instruction, 36, 3, pp. 1-25, (2018); 
+Baaijen V.M., Galbraith D., de Glopper K., Keystroke analysis: reflections on procedures and measures, Written Communication, 29, 3, pp. 246-277, (2012); 
+Chukharev-Hudilainen E., Empowering automated writing evaluation with keystroke logging, Observing Writing, pp. 125-142, (2019); 
+Chukharev-Hudilainen E., Saricaoglu A., Torrance M., Feng H.H., Combined deployable keystroke logging and eyetracking for investigating L2 writing fluency, Studies in Second Language Acquisition, 41, 3, pp. 583-604, (2019); 
+Conijn R., Speltz E.D., van Zaanen M., Waes L.V., Chukharev-Hudilainen E., A Product- and Process-Oriented Tagset for Revisions in Writing, Written Communication, (2021); 
+Conijn R., van Waes L., van Zaanen M., Human-centered design of a dashboard on students’ revisions during writing, Conference Proceedings of the 14Th European Conference on Technology Enhanced Learning, EC-TEL., (2020); 
+Conijn R., van Zaanen M., Leijten M., Van Waes L., How to typo? Building a process-based model of typographic error revisions, Journal of Writing Analytics, 3, (2019); 
+Daxenberger J., Gurevych I., Automatically classifying edit categories in Wikipedia revisions, Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pp. 578-589, (2013); 
+Eklundh K.S., Kollberg P., Emerging discourse structure: Computer-assisted episode analysis as a window to global revision in university students’ writing, Journal of Pragmatics, 35, 6, pp. 869-891, (2003); 
+Feng H.H., Saricaoglu A., Chukharev-Hudilainen E., Automated Error Detection for Developing GrammarProficiency of ESL Learners, Calico Journal, 33, 1, pp. 49-70, (2016); 
+Fitzgerald J., Research on revision in writing, Review of Educational Research, 57, 4, pp. 481-506, (1987); 
+Flower L., Hayes J.R., The cognition of discovery: Defining a rhetorical problem, College Composition and Communication, 31, 1, pp. 21-32, (1980); 
+Galbraith D., Baaijen V.M., Aligning keystrokes with cognitive processes in writing, Observing Writing, 38, pp. 306-325, (2019); 
+Horning A., Becker A., Revision: History, Theory, and Practice, (2006); 
+Kaufer D.S., Hayes J.R., Flower L., Composing written sentences, Research in the Teaching of English, 1, pp. 121-140, (1986); 
+Kollberg P., S-notation as a tool for analysing the episodic structure of revisions, European Writing Conferences, pp. 1-15, (1996); 
+Krippendorff K., Content Analysis: An Introduction to Its Methodology, (2004); 
+Kuhn M., Caret: Classification and Regression Training, (2019); 
+Leijten M., Van Waes L., Keystroke logging in writing research: Using Inputlog to analyze and visualize writing processes, Written Communication, 30, 3, pp. 358-392, (2013); 
+Leijten M., van Waes L., van Horenbeeck E., (2019); 
+Lindgren E., Sullivan K.P., Analysing online revision, Computer keystroke logging and writing: methods and applications (studies in writing), pp. 157-188, (2006); 
+Lindgren E., Sullivan K.P., Writing and the analysis of revision: An overview, Computer keystroke logging and writing: Methods and applications (Studies in Writing), pp. 31-40, (2006); 
+Lindgren E., Sullivan K.P., Observing Writing: Insights from Keystroke Logging and Handwriting, Brill, (2019); 
+Lindgren E., Westum A., Outakoski H., Sullivan K.P.H., Revising at the Leading Edge: Shaping Ideas or Clearing up Noise, Observing Writing, 38, pp. 346-365, (2019); 
+Medimorec S., Risko E.F., Pauses in written composition: On the importance of where writers pause, Reading and Writing, 30, 6, pp. 1267-1285, (2017); 
+Murray D.M., Internal revision: A process of discovery, Research on Composing: Points of Departure, 1, pp. 85-103, (1978); 
+Olive T., Toward a parallel and cascading model of the writing system: a review of research on writing processes coordination, Journal of Writing Research, 6, pp. 173-194, (2014); 
+Ranalli J., Feng H.-H., Chukharev-Hudilainen E., Exploring the potential of process-tracing technologies to support assessment for learning of L2 writing, Assessing Writing, 36, pp. 77-89, (2018); 
+Roeser J., Torrance M., Baguley T., Advance planning in written and spoken sentence production, Journal of Experimental Psychology: Learning, Memory, and Cognition, 45, 11, (2019); 
+Studying writers’ revision patterns with S-notation analysis, Contemporary Tools and Techniques for Studying Writing, 10, pp. 89-104, (2001); 
+Van der Loo M.P., The stringdist package for approximate string matching, The R Journal, 6, 1, pp. 111-122, (2014); 
+Van Waes L., Leijten M., Wengelin A., Lindgren E., Logging tools to study digital writing processes, Past, present, and future contributions of cognitive writing research to cognitive psychology, pp. 507-533, (2012); 
+Van Waes L., van Weijen D., Leijten M., Learning to write in an online writing center: The effect of learning styles on the writing process, Computers & Education, 73, pp. 60-71, (2014); 
+Wengelin A., Frid J., Johansson R., Johansson V., Combining keystroke logging with other methods: Towards an experimental environment for writing process research, In Observing Writing, pp. 30-49, (2019); 
+Zhang M., Hao J., Li C., Deane P., Classification of Writing Patterns Using Keystroke Logs, Quantitative Psychology Research: The 80Th Annual Meeting of The Psychometric Society, pp. 299-314, (2016)#FRF#

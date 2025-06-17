@@ -1,0 +1,50 @@
+#ITI#Evaluating the Performances of Missing Data Handling Methods in Ability Estimation From Sparse Data#FTI#
+#IRE# Large amounts of missing data could distort item parameter estimation and lead to biased ability estimates in educational assessments. Therefore, missing responses should be handled properly before estimating any parameters. In this study, two Monte Carlo simulation studies were conducted to compare the performance of four methods in handling missing data when estimating ability parameters. The methods were full-information maximum likelihood (FIML), zero replacement, and multiple imputation with chain equations utilizing classification and regression trees (MICE-CART) and random forest imputation (MICE-RFI). For the two imputation methods, missing responses were considered as a valid response category to enhance the accuracy of imputations. Bias, root mean square error, and the correlation between true ability parameters and estimated ability parameters were used to evaluate the accuracy of ability estimates for each method. Results indicated that FIML outperformed the other methods under most conditions. Zero replacement yielded accurate ability estimates when missing proportions were very high. The performances of MICE-CART and MICE-RFI were quite similar but these two methods appeared to be affected differently by the missing data mechanism. As the number of items increased and missing proportions decreased, all the methods performed better. In addition, the information on missing data could improve the performance of MICE-RFI and MICE-CART when the data set is sparse and the missing data mechanism is missing at random.#FRE#
+#IPC# ability estimation; CART; missing data; multiple imputation; random forest#FPC#
+#IRF# Akande O., Li F., Reiter J., An empirical comparison of multiple imputation methods for categorical data, The American Statistician, 71, 2, pp. 162-170, (2017); 
+Andreis F., Ferrari P.A., Missing data and parameters estimates in multidimensional item response model, Electronic Journal of Applied Statistical Analysis, 5, 3, pp. 431-437, (2012); 
+Birnbaum A., Some latent trait models and their use in inferring an examinee’s ability, Statistical theories of mental test scores, pp. 397-479, (1968); 
+Bock R.D., Mislevy R.J., Adaptive EAP estimation of ability in a microcomputer environment, Applied Psychological Measurement, 6, 4, pp. 431-444, (1982); 
+Bulut O., Davison M.L., Rodriguez M.C., Estimating between-person and within-person subscore reliability with profile analysis, Multivariate Behavioral Research, 52, 1, pp. 86-104, (2017); 
+Bulut O., Sunbul O., Monte Carlo simulation studies in item response theory with the R programming language, Journal of Measurement and Evaluation in Education and Psychology, 8, 3, pp. 266-287, (2017); 
+Chalmers R.P., mirt: A multidimensional item response theory package for the R environment, Journal of Statistical Software, 48, 6, pp. 1-29, (2012); 
+Culbertson M., (2011); 
+De Ayala R.J., Plake B.S., Impara J.C., The impact of omitted responses on the accuracy of ability estimation in item response theory, Journal of Educational Measurement, 38, 3, pp. 213-234, (2001); 
+de la Torre J., Song H., Simultaneous estimation of overall and domain abilities: A higher-order IRT model approach, Applied Psychological Measurement, 33, 8, pp. 620-639, (2009); 
+Doove L.L., Van Buuren S., Dusseldorp E., Recursive partitioning for missing data imputation in the presence of interaction effects, Computational Statistics & Data Analysis, 72, pp. 92-104, (2014); 
+Edwards J.M., Finch W.H., Recursive partitioning methods for data imputation in the context of item response theory: A Monte Carlo simulation, Psicológica Journal, 39, 1, pp. 88-117, (2018); 
+Eekhout I., Enders C.K., Twisk J.W., de Boer M.R., de Vet H.C., Heymans M.W., Analyzing incomplete item scores in longitudinal data by including item score information as auxiliary variables, Structural Equation Modeling, 22, 4, pp. 588-602, (2015); 
+Enders C.K., The impact of missing data on sample reliability estimates: Implications for reliability reporting practices, Educational and Psychological Measurement, 64, pp. 419-436, (2004); 
+Enders C.K., Bandalos D.L., The relative performance of full information maximum likelihood estimation for missing data in structural equation models, Structural Equation Modeling, 8, 3, pp. 430-457, (2001); 
+Feinberg R.A., Rubright J.D., Conducting simulation studies in psychometrics, Educational Measurement: Issues and Practice, 35, 2, pp. 36-49, (2016); 
+Finch H., Estimation of item response theory parameters in the presence of missing data, Journal of Educational Measurement, 45, 3, pp. 225-245, (2008); 
+Friedman J., Hastie T., Tibshirani R., The elements of statistical learning, pp. 337-387, (2001); 
+Graham J.W., Missing data analysis: Making it work in the real world, Annual Review of Psychology, 60, pp. 549-576, (2009); 
+Graham J.W., Missing data theory, Missing data, pp. 3-46, (2012); 
+Graham J.W., Olchowski A.E., Gilreath T.D., How many imputations are really needed? Some practical clarifications of multiple imputation theory, Prevention Science, 8, 3, pp. 206-213, (2007); 
+Hastie T., Tibshirani R., Friedman J., The elements of statistical learning: Data mining, inference, and prediction, (2009); 
+Hayes T., Usami S., Jacobucci R., McArdle J.J., Using Classification and Regression Trees (CART) and random forests to analyze attrition: Results from two simulations, Psychology and Aging, 30, 4, pp. 911-929, (2015); 
+Huisman M., Molenaar I.W., Imputation of missing scale data with item response models, Essays on item response theory, pp. 221-244, (2001); 
+Leacy F.P., Floyd S., Yates T.A., White I.R., Analyses of sensitivity to the missing-at-random assumption using multiple imputation with delta adjustment: Application to a tuberculosis/HIV prevalence survey with incomplete HIV-status data, American Journal of Epidemiology, 185, 4, pp. 304-315, (2017); 
+Little R.J.A., Rubin D.B., Statistical analysis with missing data, (2002); 
+Martin M.O., Mullis I.V.S., Kennedy A.M., PIRLS 2006 technical report, (2007); 
+Mislevy R.J., Wu P.K., Missing responses and IRT ability estimation: Omits, choice, time limits, and adaptive testing, 1996, Issue 2, (1996); 
+Pisa 2006 technical report, (2009); 
+Ramosaj B., Pauly M., Who wins the Miss Contest for imputation methods? Our vote for Miss BooPF, (2017); 
+R: A language and environment for statistical computing, (2019); 
+Rezvan P.H., Lee K.J., Simpson J.A., The rise of multiple imputation: a review of the reporting and implementation of the method in medical research, BMC Medical Research Methodology, 15, 1, (2015); 
+Rose N., Von Davier M., Xu X., Modeling nonignorable missing data with item response theory (IRT), (2010); 
+Roth P.L., Missing data: A conceptual review for applied psychologists, Personnel Psychology, 47, 3, pp. 537-560, (1994); 
+Rubin D.B., Inference and missing data, Biometrika, 63, 3, pp. 581-592, (1976); 
+Sakumura T., Hirose H., A bias reduction method for ability estimates in adaptive online IRT testing systems, International Journal of Smart Computing and Artificial Intelligence, 1, 1, pp. 59-72, (2017); 
+Schafer J.L., Graham J.W., Missing data: Our view of the state of the art, Psychological Methods, 7, 2, pp. 147-177, (2002); 
+Shah A.D., Bartlett J.W., Carpenter J., Nicholas O., Hemingway H., Comparison of random forest and parametric imputation models for imputing missing data using MICE: A CALIBER study, American Journal of Epidemiology, 179, 6, pp. 764-774, (2014); 
+Shi D., Lee T., Fairchild A.J., Maydeu-Olivares A., Fitting ordinal factor analysis models with missing data: A comparison between pairwise deletion and multiple imputation, Educational and Psychological Measurement, 80, 1, pp. 41-66, (2019); 
+Sinharay S., The choice of the ability estimate with asymptotically correct standardized person-fit statistics, British Journal of Mathematical and Statistical Psychology, 69, 2, pp. 175-193, (2016); 
+Sterne J.A., White I.R., Carlin J.B., Spratt M., Royston P., Kenward M.G., Wood A.M., Carpenter J.R., Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls, BMJ, 338, (2009); 
+Sulis I., Porcu M., Assessing the effectiveness of a stochastic regression imputation method for ordered categorical data, (2008); 
+Sulis I., Porcu M., Handling missing data in item response theory. Assessing the accuracy of a multiple imputation procedure based on latent class analysis, Journal of Classification, 34, 2, pp. 327-359, (2017); 
+Van Buuren S., Multiple imputation of discrete and continuous data by fully conditional specification, Statistical Methods in Medical Research, 16, 3, pp. 219-242, (2007); 
+Van Buuren S., Flexible imputation of missing data, (2012); 
+Van Buuren S., Groothuis-Oudshoorn K., mice: Multivariate imputation by chained equations in R, Journal of Statistical Software, 45, 3, pp. 1-68, (2010); 
+Van Buuren S., Oudshoorn K., Flexible multivariate imputation by MICE, (1999)#FRF#

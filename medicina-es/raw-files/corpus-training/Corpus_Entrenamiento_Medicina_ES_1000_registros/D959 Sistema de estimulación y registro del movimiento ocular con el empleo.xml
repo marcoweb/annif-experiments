@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="brief-report" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00015</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Investigación de desarrollo</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Sistema de estimulación y registro del movimiento ocular con el empleo de la videoculografía infrarroja</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>System of stimulation and record of the eye movement with the use of infrared videoculography</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7013-1434</contrib-id>
+					<name>
+						<surname>Hubert Sánchez</surname>
+						<given-names>Fredes</given-names>
+						<prefix>Ing.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4241-766X</contrib-id>
+					<name>
+						<surname>Vázquez Romaguera</surname>
+						<given-names>Talía</given-names>
+						<prefix>Ing.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3167-2585</contrib-id>
+					<name>
+						<surname>Vázquez Seisdedos</surname>
+						<given-names>Carlos Román</given-names>
+						<prefix>Dr. C.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2b"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Facultad de Ingeniería en Telecomunicaciones, Informática y Biomédica, Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgdiv1">Facultad de Ingeniería en Telecomunicaciones, Informática y Biomédica</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Centro de Estudios de Neurociencias, Procesamiento de Imágenes y Señales, Facultad de Ingeniería en Telecomunicaciones, Informática y Biomédica, Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgdiv2">Centro de Estudios de Neurociencias, Procesamiento de Imágenes y Señales</institution>
+				<institution content-type="orgdiv1">Facultad de Ingeniería en Telecomunicaciones, Informática y Biomédica</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2b">
+				<label>2</label>
+				<institution content-type="original">Centro de Estudios de Neurociencias, Procesamiento de Imágenes y Señales, Facultad de Ingeniería en Telecomunicaciones, Informática y Biomédica, Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgdiv2">Centro de Estudios de Neurociencias, Procesamiento de Imágenes y Señales</institution>
+				<institution content-type="orgdiv1">Facultad de Ingeniería en Telecomunicaciones, Informática y Biomédica</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>fhubert@uo.edu.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores declaran no tener ningún conflicto de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn2">
+					<label>Contribución de los autores</label>
+					<p> Ing. Fredes Hubert Sánchez: Programación del software, participó en la búsqueda y revisión de la bibliografía, Confección del informe final. Contribución: 50 %. Dr. C. Carlos Román Vázquez Seisdedos: Edición y revisión; aprobó la versión final. Contribución: 30 %. Ing. Talía Vázquez Romaguera: Revisión bibliográfica, edición y revisión; programación del software. Contribución: 20 %.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>12</day>
+				<month>06</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<season>May-Jun</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>24</volume>
+			<issue>3</issue>
+			<fpage>515</fpage>
+			<lpage>528</lpage>
+			<history>
+				<date date-type="received">
+					<day>05</day>
+					<month>11</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>27</day>
+					<month>01</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>El análisis de los movimientos oculares permite diagnosticar enfermedades neurodegenerativas, neuropsiquiátricas y neurooftalmológicas, entre otras, que afectan el desempeño social del individuo. En este análisis ha tomado auge mundial el empleo de la videoculografía, por su simplicidad estructural, exactitud y factibilidad económica a largo plazo. Al respecto, el objetivo de la actual investigación fue desarrollar y evaluar un sistema de estimulación visual y registro de los movimientos oculares. El sistema en cuestión permitió obtener imágenes oculares con buena resolución (2 megapíxeles), nitidez y contraste que facilitaron su posterior procesamiento. De igual modo, las pruebas de estimulación mediante el uso de patrones sacádicos con amplitudes entre 30º y 60º a la frecuencia de 0,5 Hz permitieron obtener con suficiente calidad las imágenes registradas y verificar que los movimientos oculares del centro de la pupila siguen fielmente a dichos patrones.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>The analysis of eye movements allows to diagnose neurodegenerative, neuropsychiatric and neuroophthalmologic diseases, among other that affect the individual social performance. In this analysis the use of videoculography is gaining in importance worldwide, due to its structural simplicity, precision and long term economic feasibility. In this respect, the objective of this investigation was to develop and evaluate a system of visual stimulation and record of the eye movements. The system in question allowed to obtain ocular images with good resolution (2 megapixels), clarity and contrast that facilitated its later processing. In a same way, the tests of stimulation by means of the sacadic patterns use with amplitudes between 30º and 60º to the 0,5Hz frequency allowed to obtain with enough quality the images recorded and to verify that the eye movements of the pupil center follow these patterns very closely. </p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>videoculografía</kwd>
+				<kwd>movimientos oculares</kwd>
+				<kwd>iluminación infrarroja</kwd>
+				<kwd>procesamiento de imágenes oculares</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>videoculography</kwd>
+				<kwd>eye movements</kwd>
+				<kwd>infrared illumination</kwd>
+				<kwd>processing of eye images</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="5"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="14"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El análisis de los movimientos oculares es de vital importancia para diagnosticar enfermedades neurodegenerativas, como las ataxias espinocerebelosas, caracterizadas clínicamente por alteraciones de los movimientos oculares (enlentecimiento, dismetría), entre otros síntomas.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Al respecto, la ataxia espinocerebelosa de tipo 2 posee la tasa más alta de incidencia en la región oriental de Cuba y de prevalencia a nivel mundial (incluida Cuba).<xref ref-type="bibr" rid="B3"><sup>3</sup></xref> Existen varias enfermedades que también afectan los movimientos oculares y dañan el desempeño social del individuo, entre ellas las neurológicas desmielinizantes (por ejemplo: neuritis óptica y esclerosis múltiple), las neurooftalmológicas (tumores del nervio óptico u otros) y las neuropsiquiátricas (esquizofrenia, autismo, trastorno de la atención e hiperactividad). </p>
+			<p>Cabe señalar que el análisis de los movimientos oculares tiene aplicación clínica en el estudio de los trastornos del aprendizaje, generales y específicos, como la dislexia; también en el campo de la otorrinolaringología para el estudio del funcionamiento del sistema vestibular.</p>
+			<p>Los movimientos oculares pueden medirse a través de técnicas invasivas y no invasivas. Las primeras no se usan en humanos porque son incómodas y riesgosas. Las técnicas no invasivas más usadas son la electrooculografía (EOG) y la videoculografía (VOG).<xref ref-type="bibr" rid="B2"><sup>2</sup></xref> La EOG usa electrodos, cuya resistencia a las interferencias y al ruido puede verse afectada por el bajo nivel de la señal de la EOG (50 a 3500 μV). El desapareamiento de los electrodos también puede constituir una fuente de error en amplificadores bioeléctricos acoplados en la corriente directa. Estos factores pueden ocasionar errores en la estimación de la dirección de la mirada y, por tanto, dificultad para detectar con exactitud los movimientos oculares. </p>
+			<p>A pesar de todo, la EOG es la técnica más extendida en el mundo. En Cuba, el Centro de Investigación, Desarrollo y Producción Grito de Baire desarrolló el Sistema de Medición Biomédica para la Exploración Vestibular SMB-EV<sup>®</sup>,<xref ref-type="bibr" rid="B4"><sup>4</sup></xref> que usa la EOG para el análisis del movimiento oscilatorio ocular conocido como nistagmo, en los sujetos con trastornos de equilibrio espacial o sometidos a variaciones espaciales, en particular a profesionales relacionados con el pilotaje de aviones, el paracaidismo y la actividad sistemática de inmersión o buceo. Este sistema ha sido introducido en varios hospitales del país, pero al no sincronizar las señales de estímulo visual y el electrooculograma de respuesta, no permite el cálculo de latencias entre ambas señales, lo cual es usado para el diagnóstico médico de las enfermedades neurodegenerativas antes mencionadas. </p>
+			<p>La VOG, por su parte, emplea cámaras de vídeo para obtener la imagen ocular, que es posteriormente procesada empleando técnicas de visión computacional.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref> Esta técnica permite una mayor movilidad, adaptabilidad y generalización a diferentes escenarios, sin necesidad de construir equipos complejos electrónicamente para garantizar los requisitos de seguridad eléctrica (la VOG no requiere contacto directo entre el paciente y el equipo) como ocurre con la EOG. Además, resulta factible económicamente, puesto que no se necesita usar electrodos ni gel. Hasta donde tienen conocimiento los autores de esta investigación, en Cuba no se ha introducido ningún equipo basado en la VOG. </p>
+			<p>El objetivo de este trabajo fue desarrollar un sistema de VOG para registrar los movimientos oculares de respuesta a estímulos visuales, con vistas a analizar con fines diagnósticos, en un futuro, el movimiento del centro de la pupila.</p>
+		</sec>
+		<sec>
+			<title>Desarrollo</title>
+			<sec>
+				<title>Metodología aplicada</title>
+				<p>
+					<list list-type="alpha-upper">
+						<list-item>
+							<p>Arquitectura del sistema</p>
+						</list-item>
+					</list>
+				</p>
+				<p>Los sistemas de VOG para el análisis de los movimientos oculares se componen de un estimulador visual (para mostrar los patrones visuales que el sujeto debe seguir), una videocámara inteligente para captar el movimiento (video) ocular de respuesta y un sistema de control (computadora personal) para sincronizar en tiempo el estímulo y la imagen ocular de respuesta.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+				</p>
+				<p>En la <xref ref-type="fig" rid="f1">figura 1</xref> se muestra la arquitectura del sistema propuesto, en la cual la computadora personal (PC) garantiza el control sincrónico de la estimulación visual y del registro del movimiento ocular del sujeto. Para esto, la PC usa una tarjeta de video que controla dos monitores: uno que actúa como estimulador visual (Philips, 24'') y otro que visualiza las imágenes adquiridas para el médico especialista (<italic>ATEC</italic>-Haier, 18,5''). Esta arquitectura es más viable de introducir en la práctica médica, ya que usa una única PC y no dos.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+				</p>
+				<p>
+					<fig id="f1">
+						<label>Fig.1</label>
+						<caption>
+							<title>Arquitectura propuesta para el registro de los movimientos oculares estimulados visualmente</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-24-03-515-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>
+					<list list-type="alpha-upper">
+						<list-item>
+							<p>Iluminador empleado</p>
+						</list-item>
+					</list>
+				</p>
+				<p>La iluminación utilizada es la infrarroja (IR) monocromática, pues evita los reflejos especulares que aparecen con luz visible, la cual contiene componentes espectrales en el rango que abarca desde la luz azul hasta la roja. Por otro lado, el contraste que se obtiene entre la pupila y el iris es mejor.</p>
+				<p>La radiación IR es térmica y no ionizante, con lo cual se descarta el riesgo de cáncer. Desde el punto de vista térmico, la radiación más dañina es la comprendida entre las longitudes de onda de 0,1 y 1000 µm, abarcando, por tanto, la región infrarroja del espectro electromagnético (de 0,8 a 1000 µm). Para evitar daños por exposición calórica, en la bibliografía<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> se recomienda que para una exposición de 1 000 s debe obtenerse una iluminancia <italic>E</italic> tal, que <inline-formula id="e1">
+						<inline-graphic xlink:href="1029-3019-san-24-03-515-ie1.png"/>
+					</inline-formula> (ecuación 1), donde <italic>I</italic> (intensidad luminosa) es la potencia luminosa procedente de una fuente de luz puntual que viaja como un haz de luz cónico, cuya base es el círculo circunscrito sobre la superficie esférica de área <italic>A</italic> igual al cuadrado del radio <italic>r</italic> de la esfera (<xref ref-type="fig" rid="f2">fig. 2a</xref>). La relación entre el radio de la esfera y el área antes mencionada se conoce como estereorradián (sr) y es una unidad de ángulo sólido definida por Ω. Por su parte, <italic>E</italic> es la iluminancia o cantidad de potencia luminosa correspondiente a <italic>I</italic>, que se registra a una distancia <italic>d</italic> de la fuente puntual.</p>
+				<p>Para cumplir con el requisito mostrado en la ecuación 1, se utiliza el LED infrarrojo HIR383C/L212 (<xref ref-type="fig" rid="f2">fig. 2 b</xref>, señalado dentro de un círculo azul), con una longitud de onda pico igual a 0,85 µm, el cual, al suministrarle una corriente de 20 mA, emite una intensidad luminosa (<italic>I</italic>) igual a 0,1 W/sr (<xref ref-type="fig" rid="f2">fig. 2c</xref>).<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> En este caso, <italic>d</italic> está en el rango de 0,10 a 0,20 m y se obtiene <italic>E</italic> entre 10 y 2,5 W/m<sup>2</sup>; valores menores que el recomendado.</p>
+				<p>
+					<fig id="f2">
+						<label>Fig. 2</label>
+						<caption>
+							<title>(a) Representación gráfica del significado de la Intensidad luminosa y del ángulo sólido, (b) iluminador infrarrojo utilizado, (c) relación intensidad luminosa vs corriente del LED HIR383C/L212</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-24-03-515-gf2.png"/>
+					</fig>
+				</p>
+				<p>
+					<list list-type="alpha-upper">
+						<list-item>
+							<p>Cámara de video </p>
+						</list-item>
+					</list>
+				</p>
+				<p>Se utiliza una cámara web de luz visible, la cual fue modificada para obtener imágenes IR, con el objetivo de lograr un mejor contraste entre el iris y la pupila y así facilitar el funcionamiento de los algoritmos de detección del centro de la pupila.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> Para esto, a la cámara Sirius USB 2.0 se le sustituyó el filtro de luz visible original (longitudes de onda entre 400 y 700 nm) por una película radiográfica que elimina las longitudes de onda menores que 700 nm y solo dejar pasar la radiación IR. Dicha cámara posee las siguientes características: resolución espacial de 2 Mpx, velocidad de 30 cuadros por segundo (fps), profundidad de color de 8 bits y distancia focal de 8 mm. </p>
+				<p>Con la cámara utilizada, una vez adquirido el video, se realiza un remuestreo a una frecuencia de 7 veces mayor, lo cual equivale a aumentar la frecuencia de muestreo a 210 fps, con el consecuente aumento de resolución. Este procedimiento es una solución paliativa debido a la no disponibilidad de una cámara de 200 fps (más costosa), la cual garantizaría una adquisición de mayor calidad, sobre todo para el caso de los movimientos oculares sacádicos, que poseen componentes espectrales de hasta 100 Hz.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+				</p>
+				<p>
+					<list list-type="alpha-upper">
+						<list-item>
+							<p>Software de estimulación</p>
+						</list-item>
+					</list>
+				</p>
+				<p>En las pruebas neurofisiológicas se emplean diferentes patrones de estímulo visual, que, de forma general, consisten en un punto que puede estar fijo o desplazarse sobre una misma línea horizontal o vertical en la pantalla, de forma automática (siguiendo una determinada función, por ejemplo: sinusoidal) o manual (controlado por el especialista). El software estimulador propuesto genera un círculo blanco (estímulo) sobre un fondo negro, en diferentes posiciones de la pantalla, a voluntad del especialista. Cada posición en pantalla del estímulo se corresponde con un determinado ángulo (<italic>θ</italic>) de desviación de la mirada, a partir del centro de la pantalla.</p>
+				<p>El paciente debe estar ubicado a una distancia tal que permita realizar las pruebas de manera correcta (<xref ref-type="fig" rid="f3">fig. 3</xref>). Es conocido que el ángulo de desviación de la mirada (<italic>θ</italic>) máximo para que no ocurra error de linealidad en la adquisición de señales EOG es de ±30<sup>0</sup>,<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> por lo que en función de ese ángulo se debe calcular la distancia de recorrido del estímulo desde el centro (<italic>d</italic>) y la distancia paciente-estímulo (<italic>D</italic>
+ <sub>
+ <italic>0</italic>
+</sub> ). La ecuación 2 relaciona estas 3 magnitudes, basándose en una de las propiedades de los triángulos rectángulos: <inline-formula id="e2">
+						<inline-graphic xlink:href="1029-3019-san-24-03-515-ie2.png"/>
+					</inline-formula> (ecuación 2).</p>
+				<p>El sistema se compone de un software realizado en el lenguaje de programación C# (<italic>C Sharp</italic>), el cual se encarga de generar las señales de estímulo visual, adquirir y visualizar los movimientos oculares del paciente cuando este sigue el estímulo visual o no.</p>
+				<p>Para generar un estímulo visual en la pantalla se debe conocer el ángulo de desplazamiento (+θ) deseado y la distancia (<italic>d</italic>) máxima, a partir de los cuales el software calcula y propone la distancia <italic>D</italic>
+ <sub>
+ <italic>0</italic>
+</sub> . La mitad del ancho del monitor (o distancia <italic>d</italic>) donde se ejecuta la prueba se estima (en centímetros) y se calcula teniendo en cuenta la resolución del monitor y la separación horizontal entre píxeles (en inglés, <italic>pixel pitch</italic>).</p>
+				<p>En este trabajo se utiliza un monitor Philips, modelo 240V5QDAB/69 de 24”, con resolución 1920×1080 y una relación de aspecto de 16:9.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> En base a la ecuación 2, se calcula e informa a qué distancia debe situarse el paciente del centro de la pantalla. Para el monitor usado como estimulador, la distancia <italic>d</italic> es de 25,32 cm y el máximo ángulo deseado θ es de 30º, por lo que la distancia <italic>D</italic>
+ <sub>
+ <italic>0</italic>
+</sub> es de 28 cm. De esta forma, el estimulador permitirá realizar pruebas con un ángulo máximo de 60º, para el cual el estímulo aparecerá como mínimo a una distancia de 2 cm de los bordes verticales del monitor.</p>
+				<p>Para producir el estímulo sacádico, se crean 2 imágenes diferentes; cada una contiene un círculo claro sobre un fondo oscuro ubicado a una distancia <italic>d</italic> (<xref ref-type="fig" rid="f3">fig. 3</xref>) respecto al centro de la pantalla. En una de las imágenes el círculo se encuentra a una distancia <italic>d</italic> a la derecha del centro de la pantalla y en la otra, a la izquierda. Los parámetros del círculo (diámetro y color) y el color del fondo de pantalla pueden ser definidos por un software, que se encargará de exhibir ambas imágenes de forma alterna, dando la impresión de un estímulo sacádico continuo en el tiempo. La duración de exhibición de cada imagen se configura por el software; el valor asumido es de 1 s para cada pantalla, lo cual corresponde a un patrón de estímulo sacádico de 2 s de período (0,5 Hz).</p>
+				<p>
+					<fig id="f3">
+						<label>Fig. 3</label>
+						<caption>
+							<title>Procedimiento para la generación del estímulo visual</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-24-03-515-gf3.jpg"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Aplicación del sistema de videoculografía</title>
+				<p>El sistema de videoculografía está compuesto por una mentonera con una cámara web (<xref ref-type="fig" rid="f4">fig. 4a</xref>), una computadora personal con dos monitores (<xref ref-type="fig" rid="f4">fig. 4b</xref>): uno para estimulación visual del sujeto (ubicado a la izquierda, donde se muestra un punto blanco sobre fondo oscuro siguiendo un patrón sacádico) y otro (ubicado a la derecha) que muestra la interfaz gráfica del software para el registro y análisis video ocular; este se compone de una ventana izquierda donde se comparan las sácadas sincrónicas del estimulador y las realizadas por el paciente al seguir el estímulo. En la ventana derecha se muestra un registro video ocular, al cual se le aplica el algoritmo de detección de pupila. La ventana principal del sistema VOG se muestra en la <xref ref-type="fig" rid="f4">figura 4c</xref>.</p>
+				<p>La mentonera está atada de forma ceñida a la cámara web (<xref ref-type="fig" rid="f4">fig. 4a</xref>) modificada para adquirir imágenes infrarrojas de baja resolución, a la cual se le incorporó un LED iluminador infrarrojo para mejorar la calidad de la imagen. La mentonera permite ajustar de forma óptima: (a) que la posición de la mirada del paciente sea perpendicular a la línea central de estimulación del monitor (ajuste de la altura del soporte y de la posición horizontal de este), (b) que el ángulo de enfoque de la cámara web capte el segmento deseado de la cara del paciente sin obstaculizar la posición de la mirada y (c) la inmovilidad de la cara del paciente a la derecha o la izquierda de la posición central del estímulo visual para garantizarle comodidad al realizar las pruebas. Este último aspecto es importante para no generar errores al obtener la dirección de la mirada, pues los pacientes deben seguir la posición del estímulo sin mover la cara. </p>
+				<p>La cámara web está sujeta por una serie de mecanismos deslizables que le otorga 3 grados de libertad, que son los desplazamientos horizontal, vertical y de profundidad correspondientes a los ejes de coordenadas X, Y, Z del plano cartesiano, más un grado de libertad de rotación con eje de rotación sobre el desplazamiento horizontal o eje de coordenadas X.</p>
+				<p>
+					<fig id="f4">
+						<label>Fig. 4</label>
+						<caption>
+							<title>a) Vista en perspectiva del soporte (o mentonera), b) vista del sistema de videooculografía, c) interfaz gráfica principal del sistema VOG</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-24-03-515-gf4.jpg"/>
+					</fig>
+				</p>
+				<sec>
+					<title>Trabajo con la herramienta</title>
+					<p>Antes de iniciar el sistema, este se debe poner a punto mediante el botón “Configuración”, el cual despliega las siguientes opciones:</p>
+					<p>
+						<list list-type="bullet">
+							<list-item>
+								<p>Estímulo: Configurar el objetivo (forma, tamaño y color) y el color del fondo de la pantalla, que por defecto es un punto blanco sobre el fondo oscuro.</p>
+							</list-item>
+							<list-item>
+								<p>Pantalla: Determinar la distancia en que se debe situar al paciente del monitor y el máximo ángulo de desviación de la mirada. </p>
+							</list-item>
+							<list-item>
+								<p>Seleccionar carpeta: Seleccionar la carpeta donde se va a almacenar el registro (fig. 4c).</p>
+							</list-item>
+						</list>
+					</p>
+					<p>La pestaña “Movimiento” (fig. 4C) permite gestionar el protocolo para realizar correctamente las pruebas de estimulación y registro de video. A dicho protocolo se le llama paradigma y consta de los siguientes pasos:</p>
+					<p>
+						<list list-type="order">
+							<list-item>
+								<p>“Prueba de calibración”: Se exige mirar las cuatro esquinas y el punto medio de los cuatro lados del monitor para calcular la desviación máxima ocular correspondiente a la periferia del monitor. Conociendo dicho parámetro, se garantiza que la posición de los estímulos en el monitor correspondan a un ángulo menor o igual a dicha desviación máxima ocular y se determina si el paciente está mirando dentro de los límites del monitor y/o si está realizando un correcto seguimiento de los estímulos. </p>
+							</list-item>
+							<list-item>
+								<p>“Prueba sacádica”: Contiene uno o varios estímulos sacádicos que se le mostrarán al paciente, según el criterio del especialista, y se listan a la izquierda de la aplicación.</p>
+							</list-item>
+							<list-item>
+								<p>Antes de realizar una prueba, se verifica que la cámara no se ha movido de la posición de trabajo; en tal caso se debe ubicar la cabeza del paciente (apoyada en la mentonera) a la distancia que se determinó en el momento de configurar la “Pantalla”.</p>
+							</list-item>
+						</list>
+					</p>
+					<p>Los pasos 1 y 2 pueden ser guardados como nuevos paradigmas mediante el uso del botón “Guardar” en la pestaña “Paradigma”; además, se pueden cargar o eliminar los que se deseen mediante las opciones “Abrir” y “Eliminar”<italic>,</italic> respectivamente.</p>
+					<p>El proceso de estimulación y registro comienza al presionar el botón “Estimular” y se realiza con dos monitores, uno de frente al paciente, que muestra la serie de estímulos, y otro donde el especialista observa la repuesta ocular del paciente (fig. 4b).</p>
+					<p>Al terminar la prueba, la información se guarda en la carpeta que se seleccionó anteriormente en forma de registro fotográfico de cada fotograma del video tomado y que tiene la siguiente estructura (para el caso de un paradigma de dos pruebas): 0-Movimiento sacádico (30 grados), 1-Movimiento sacádico (60 grados) y Registro.txt.</p>
+					<p>Luego de terminar el proceso de estimulación y registro se pasa al análisis de las pruebas realizadas. Para ello se accede al botón “Analizar” (fig. 4c), el cual abre una ventana llamada “Analizador”, donde se examinan los movimientos oculares.</p>
+					<p>Con la pestaña “Paradigma” se accede a las pruebas realizadas. Primero se abre el registro deseado mediante el botón “Abrir registro”<italic>.</italic></p>
+					<p>A continuación, en la barra de menú se selecciona cuál registro se analizará [0-Movimiento sacádico (30 grados) o 1-Movimiento sacádico (60 grados)]. En el lado izquierdo se representan los estímulos sacádicos y la respuesta del paciente correspondiente al registro elegido. El lado derecho muestra la captura realizada por la videocámara. Cuando se abre la ventana “Analizador”, por primera vez se muestran (por defecto) un conjunto de señales en el lado izquierdo, para darle una idea al especialista sobre qué tipo de información se va tratar allí, y se muestra una imagen en el lado derecho (por defecto) con la pupila señalada, con el objetivo de preestablecer un umbral listo para detectar pupilas (<xref ref-type="fig" rid="f5">fig. 5a</xref>).</p>
+					<p>Como ejemplo se utiliza el registro 0-Movimiento sacádico (30 grados)<italic>.</italic> El programa automáticamente ejecuta los siguientes pasos (<xref ref-type="fig" rid="f5">fig. 5b</xref>):</p>
+					<p>
+						<list list-type="order">
+							<list-item>
+								<p>Muestra en la ventana izquierda la señal correspondiente a los estímulos de la prueba sacádica seleccionada en forma de un tren de pulsos rectangular (recuadro 4).</p>
+							</list-item>
+							<list-item>
+								<p>A cada fotograma se le detecta el centro de la pupila,<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> con lo cual se construye y muestra la señal sacádica correspondiente al paciente (recuadro 6). Para optimizar la detección, puede utilizarse la barra de desplazamiento “umbral” (recuadro 3). La ocurrencia de pestañeo se muestra en la señal del recuadro 5 y sirve como parámetro de calidad; es decir, para saber si hay pestañeo o no, cuántos pestañeos ocurren y cómo se reflejan en la señal sacádica correspondiente al paciente durante la prueba.</p>
+							</list-item>
+						</list>
+					</p>
+					<p>La herramienta facilita, además, el análisis del registro, ya sea en forma de video, mediante la opción “Reproducir movimientos” (recuadro 2), o de fotograma a fotograma, mediante la opción “Imágenes” (recuadro 1), lo cual se visualiza en la ventana derecha (recuadro 7).</p>
+					<p>
+						<fig id="f5">
+							<label>Fig. 5</label>
+							<caption>
+								<title>Interfaz gráfica de la ventana “Analizador”: a) disposición de los registros que serán analizados y la señal e imagen preestablecidas al abrir la ventana “Analizador”, b) ventana donde se analizan y comparan las pruebas obtenidas.</title>
+							</caption>
+							<graphic xlink:href="1029-3019-san-24-03-515-gf5.jpg"/>
+						</fig>
+					</p>
+				</sec>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>De todo lo expuesto anteriormente, pudo concluirse que el diseño mecánico del soporte de la cara del paciente y del ajuste deslizante de la videocámara posibilitó obtener una imagen de buena calidad para el seguimiento ocular. Además, la evaluación práctica del sistema completo (hardware y software) con 10 voluntarios confirmó que este posee la calidad suficiente en cuanto a estimulación visual y registro de las imágenes, con vistas a diagnosticar enfermedades a partir de la obtención y el análisis de los movimientos oculares. En el futuro se pretende validar el sistema en un grupo más amplio de sujetos sanos y enfermos.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Lopez A, Ferrero F, Postolache O. An Affordable Method for Evaluation of Ataxic Disorders Based on Electro-oculography. Sensors (Basel). 2019 [citado 03/11/2019];19(17):3796. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751503/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751503/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lopez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ferrero</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Postolache</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>An Affordable Method for Evaluation of Ataxic Disorders Based on Electro-oculography</article-title>
+					<source>Sensors (Basel)</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-03">03/11/2019</date-in-citation>
+					<volume>19</volume>
+					<issue>17</issue>
+					<size units="pages">3796</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751503/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751503/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>García R. Procesamiento de registros oculares sacádicos en pacientes de ataxia SCA2. Aplicación del Análisis de Componentes Independientes [tesis doctoral]. Granada: Universidad de Granada; 2010 [citado 11/11/2019]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://tesis.sld.cu/FileStorage/000289-0B8F-GarciaBermudez.pdf">http://tesis.sld.cu/FileStorage/000289-0B8F-GarciaBermudez.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<source>Procesamiento de registros oculares sacádicos en pacientes de ataxia SCA2. Aplicación del Análisis de Componentes Independientes</source>
+					<comment content-type="degree">tesis doctoral</comment>
+					<publisher-loc>Granada</publisher-loc>
+					<publisher-name>Universidad de Granada</publisher-name>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-11">11/11/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://tesis.sld.cu/FileStorage/000289-0B8F-GarciaBermudez.pdf">http://tesis.sld.cu/FileStorage/000289-0B8F-GarciaBermudez.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Torralbas Fitz SJ, Velázquez Pérez L, Torralbas Blázquez MJ, Velázquez González VA, Rodríguez Labrada R. Ataxia espinocerebelosa tipo 2 y síndrome de Ehlers-Danlos: a propósito de un caso. AMC. 2016 [citado 11/11/2019];20(3):322-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaamc.sld.cu/index.php/amc/article/view/4501/2435">http://www.revistaamc.sld.cu/index.php/amc/article/view/4501/2435</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torralbas Fitz</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Velázquez Pérez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Torralbas Blázquez</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Velázquez González</surname>
+							<given-names>VA</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Labrada</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Ataxia espinocerebelosa tipo 2 y síndrome de Ehlers-Danlos: a propósito de un caso</article-title>
+					<source>AMC</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-11">11/11/2019</date-in-citation>
+					<volume>20</volume>
+					<issue>3</issue>
+					<fpage>322</fpage>
+					<lpage>329</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaamc.sld.cu/index.php/amc/article/view/4501/2435">http://www.revistaamc.sld.cu/index.php/amc/article/view/4501/2435</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Socarras B. Caracterización de reflejos vestibulo-oculares mediante electro-oculografía. En: 18 Convención Científica de Ingeniería y Arquitectura. La Habana: CUJAE; 2016.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Socarras</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<source>Caracterización de reflejos vestibulo-oculares mediante electro-oculografía. En: 18 Convención Científica de Ingeniería y Arquitectura</source>
+					<year>2016</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>CUJAE</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Reyes M. Registro de patrones de lectura con dispositivos de eyetracker de bajo coste y estudio de su aplicación para larecomendación de diagnóstico de patologías [tesis de maestría]. Madrid: Universidad Autónoma de Madrid; 2017 [citado 11/11/2019]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://repositorio.uam.es/handle/10486/677535">https://repositorio.uam.es/handle/10486/677535</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reyes</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Registro de patrones de lectura con dispositivos de eyetracker de bajo coste y estudio de su aplicación para larecomendación de diagnóstico de patologías</source>
+					<comment content-type="degree">tesis de maestría</comment>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Universidad Autónoma de Madrid</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-11">11/11/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://repositorio.uam.es/handle/10486/677535">https://repositorio.uam.es/handle/10486/677535</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Barea R. Interfaz usuario-máquina basado en electro-oculografía. Aplicación a la ayuda a la movilidad [tesis doctoral]. Madrid: Universidad de Alcalá; 2001.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barea</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<source>Interfaz usuario-máquina basado en electro-oculografía. Aplicación a la ayuda a la movilidad</source>
+					<comment content-type="degree">tesis doctoral</comment>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Universidad de Alcalá</publisher-name>
+					<year>2001</year>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Benítez A. Diseño de estimulador visual para el Sistema de Medición Biomédica SMB-EV(r) [tesis de maestría]. Santiago de Cuba: Universidad de Oriente; 2018.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Benítez</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Diseño de estimulador visual para el Sistema de Medición Biomédica SMB-EV(r)</source>
+					<comment content-type="degree">tesis de maestría</comment>
+					<publisher-loc>Santiago de Cuba</publisher-loc>
+					<publisher-name>Universidad de Oriente</publisher-name>
+					<year>2018</year>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Ramirez L. Diseño y simulación de un detector de la posición angular del ojo mediante un dispositivo sensible a la posición con iluminación infrarroja [tesis de grado]. Madrid: Universidad Politécnica de Madrid; 2016.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramirez</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>Diseño y simulación de un detector de la posición angular del ojo mediante un dispositivo sensible a la posición con iluminación infrarroja</source>
+					<comment content-type="degree">tesis de grado</comment>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Universidad Politécnica de Madrid</publisher-name>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Technical Data Sheet, 5mm Infrared LED, T-1 3/4 [citado 11/11/2019]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://cdn-shop.adafruit.com/datasheets/IR333_A_datasheet.pdf">https://cdn-shop.adafruit.com/datasheets/IR333_A_datasheet.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>Technical Data Sheet, 5mm Infrared LED, T-1 3/4</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-11-11">11/11/2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://cdn-shop.adafruit.com/datasheets/IR333_A_datasheet.pdf">https://cdn-shop.adafruit.com/datasheets/IR333_A_datasheet.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Abdulin E, Friedman L, Komogortsev O. Method to Detect Eye Position Noise from Videoculography when Detection of Pupil or Corneal Reflection Position Fails. San Marcos: Texas State University; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abdulin</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Friedman</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Komogortsev</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<source>Method to Detect Eye Position Noise from Videoculography when Detection of Pupil or Corneal Reflection Position Fails</source>
+					<year>2017</year>
+					<publisher-loc>San Marcos</publisher-loc>
+					<publisher-name>Texas State University</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Katoh A, Hatanaka T. Calibration of infrared videoculography by using bioadhesive phosphorescent particles for accurate measurement of vestibulo-ocular reflex in mice. Journal of Advanced Science. 2015;27(3):11-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Katoh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hatanaka</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Calibration of infrared videoculography by using bioadhesive phosphorescent particles for accurate measurement of vestibulo-ocular reflex in mice</article-title>
+					<source>Journal of Advanced Science</source>
+					<year>2015</year>
+					<volume>27</volume>
+					<issue>3</issue>
+					<fpage>11</fpage>
+					<lpage>16</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Fadraga Y. Métodos y herramientas para el análisis de los movimientos oculares de persecución lenta utilizando el MEDICID 4.0 [tesis de maestría]. Santiago de Cuba: Universidad de Oriente; 2015.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fadraga</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<source>Métodos y herramientas para el análisis de los movimientos oculares de persecución lenta utilizando el MEDICID 4.0</source>
+					<comment content-type="degree">tesis de maestría</comment>
+					<publisher-loc>Santiago de Cuba</publisher-loc>
+					<publisher-name>Universidad de Oriente</publisher-name>
+					<year>2015</year>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Vázquez L, Romero F, Vázquez C, Neto J. Pupil Segmentation Approach on Low Resolution Images. En: VI Latin American Congress on Biomedical Engineering CLAIB VI, Paraná, Argentina 29, 30 and 31 October 2014. Berlín: Springer; 2015.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vázquez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Romero</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Vázquez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Neto</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Pupil Segmentation Approach on Low Resolution Images. En: VI Latin American Congress on Biomedical Engineering CLAIB VI, Paraná, Argentina 29, 30 and 31 October 2014</source>
+					<year>2015</year>
+					<publisher-loc>Berlín</publisher-loc>
+					<publisher-name>Springer</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Moreno A, Vázquez L, Vázquez C. Herramienta para la detección de pupila. En: 16ta Convención de Ingeniería Eléctrica CIE XVI; Jun 2015; Cayo Santa María, Cuba. Villa Clara: Universidad Central de Las Villas; 2015. p. 931-4.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreno</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Vázquez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Vázquez</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>Herramienta para la detección de pupila. En: 16ta Convención de Ingeniería Eléctrica CIE XVI; Jun 2015; Cayo Santa María, Cuba</source>
+					<year>2015</year>
+					<publisher-loc>Villa Clara</publisher-loc>
+					<publisher-name>Universidad Central de Las Villas</publisher-name>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

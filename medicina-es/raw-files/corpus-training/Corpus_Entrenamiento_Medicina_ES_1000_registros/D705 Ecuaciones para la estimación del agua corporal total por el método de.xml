@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00010</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ecuaciones para la estimación del agua corporal total por el método de análisis de impedancia bioeléctrica a 50 kHz</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Equations for the estimate of total body water by the method of bioelectric impedance at 50 kHz</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Bergues Cabrales</surname>
+						<given-names>Idelisa</given-names>
+						<prefix>Lic</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1551-7841</contrib-id>
+					<name>
+						<surname>Camué Ciria</surname>
+						<given-names>Héctor Manuel</given-names>
+						<prefix>Dr. C</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8094-392X</contrib-id>
+					<name>
+						<surname>Bergues Cabrales</surname>
+						<given-names>Luis Enrique</given-names>
+						<prefix>Dr. C</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Verdecia Jarque</surname>
+						<given-names>Manuel</given-names>
+						<prefix>Dr</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2059-9802</contrib-id>
+					<name>
+						<surname>Rubio González</surname>
+						<given-names>Tamara</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Facultad de Ciencias Naturales, Universidad de Oriente. Santiago de Cuba, Cuba. </institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Naturales</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Centro Nacional de Electromagnetismo Aplicado, Universidad de Oriente. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Oriente</institution>
+				<institution content-type="orgdiv1">Centro Nacional de Electromagnetismo Aplicado</institution>
+				<institution content-type="orgname">Universidad de Oriente</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Hospital Infantil Docente Sur Dr. Antonio María Béguez César, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgdiv1">Hospital Infantil Docente Sur Dr. Antonio María Béguez César</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>camuec@uo.edu.cu</email>
+				</corresp>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>07</day>
+				<month>11</month>
+				<year>2019</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+			<pub-date pub-type="epub-ppub">	
+				<season>Sep-Oct</season>
+				<year>2019</year>
+			</pub-date>
+			<volume>23</volume>
+			<issue>5</issue>
+			<fpage>906</fpage>
+			<lpage>920</lpage>
+			<history>
+				<date date-type="received">
+					<day>18</day>
+					<month>12</month>
+					<year>2018</year>
+				</date>
+				<date date-type="accepted">
+					<day>28</day>
+					<month>05</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción: </title>
+					<p>El agua mantiene un rango normal en personas aparentemente sanas, el cual se altera ante la existencia de diversas enfermedades. </p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p>Conocer cuánto se diferencian los valores de agua corporal total estimados por las ecuaciones de agua corporal total, de Kushner, de Deurenberg y de Heitman, con respecto a los obtenidos clínicamente por el método de impedancia bioeléctrica a 50 kHz.</p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p>Se realizó un estudio descriptivo y transversal, de abril a diciembre del 2018, en 62 individuos: 31 adultos aparentemente sanos y 31 niños y adolescentes con diferentes enfermedades, ingresados en el Hospital Infantil Docente Sur Dr. Antonio María Béguez César de Santiago de Cuba (24 en el Servicio de Misceláneas y 7 en el de Oncopediatría). El agua corporal total y los parámetros bioeléctricos se estimaron con el analizador de impedancia bioeléctrica Bodystat<sup>®</sup> 1500-MDD, a 50 kHz, por el método tetrapolar ipsilateral derecho. Se utilizó el criterio de Bland-Altman, para un 95 % de confianza, a fin de conocer si las ecuaciones de Kushner, de Deurenberg y de Heitman podían sustituir a la ecuación de referencia.</p>
+				</sec>
+				<sec>
+					<title>Resultados: </title>
+					<p>Las ecuaciones de agua corporal total, de Kushner y de Deurenberg no mostraron diferencias significativas respecto a la ecuación de referencia, mientras que la ecuación de Heitman sí presentó diferencias significativas en relación con el resto de las ecuaciones. El método de Bland-Altman demostró que la ecuación de Kushner posee mayor concordancia con la ecuación de referencia.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones: </title>
+					<p>La ecuación de Kushner es la de mayor exactitud para la estimación del agua corporal total en personas sanas y en las afectadas por entidades clínicas.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p>The water maintains a normal range in apparently healthy people, which changes with the existence of diverse diseases. </p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p>To know how the values of total body water estimated by Kushner, Deurenberg and Heitman equations of total body water, differ regarding those obtained clinically by the method of bioelectric impedance at 50 kHz.</p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p>A descriptive and cross-sectional study was carried out, from April to December, 2018, in 62 individuals: 31 apparently healthy adults and 31 children and adolescents with different diseases, admitted to “Dr. Antonio María Béguez César” Southern Teaching Children Hospital in Santiago de Cuba (24 in the Miscellaneous Service and 7 in Oncopediatrics Service). The total body water and the bioelectric parameters were considered with the analyzer of bioelectric impedance Bodystat<sup>®</sup> 1500-MDD, at 50 kHz, for the right ipsilateral tetrapolar method. The approach of Bland-Altman was used, for 95% of confidence in order to know if Kushner, Deurenberg and Heitman equations could substitute the reference equation. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>Kushner and Deurenberg equations of total body water didn't show significant differences regarding the reference equation, while Heitman equation presented significant differences related to the rest of the equations. The Bland-Altman method demonstrated that the equation of Kushner has higher concordance with the reference equation. </p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p>Kushner equation has the highest accuracy for the estimate of total body water in healthy people and in those affected by diseases.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>agua corporal total</kwd>
+				<kwd>impedancia bioeléctrica</kwd>
+				<kwd>método de Bland-Altman</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>total body water</kwd>
+				<kwd>bioelectric impedance</kwd>
+				<kwd>Bland-Altman method</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="2"/>
+				<equation-count count="5"/>
+				<ref-count count="20"/>
+				<page-count count="15"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El agua es el componente químico más abundante del cuerpo humano, pues representa entre 45 y 70 % del peso corporal total; variación que depende del sexo, la edad y la composición corpórea del individuo. Asimismo, constituye un elemento esencial en los diferentes procesos que ocurren en el organismo.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>El contenido de agua entre los distintos tejidos muestra poca variación, aunque en la musculatura esquelética comprende alrededor de 75 % y en el tejido adiposo cerca de 10 %. Las diferencias existentes en cuanto a clima, alimentación, actividad física, hábitos culturales y agentes farmacológicos consumidos, causan la variación entre individuos, mientras que diversos estados patológicos modifican sus valores normales.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Cabe destacar que el agua es un componente esencial del medio interno, por lo que su estimación es necesaria para comprender la composición corporal y la fisiopatología de sus cambios agudos y crónicos en el organismo. Además, la estimación del agua corporal total (ACT) ayuda al diagnóstico, tratamiento, seguimiento y mejor comprensión de los estados de hidratación y nutrición; así como de los mecanismos de determinadas enfermedades.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Al respecto, el análisis de la impedancia bioeléctrica es uno de los métodos empleados para la estimación del ACT por ser no invasivo, confiable, portátil, reproducible y de resultados inmediatos. Este se basa en la relación inversa entre la impedancia eléctrica corporal (Z) y el ACT, que se establece por medio de diferentes ecuaciones de regresión, las cuales suelen tener en cuenta la edad, el sexo, el peso, la talla y/o la Z. Dichas ecuaciones permiten estimar el ACT y sus compartimientos: agua intracelular (AIC) y agua extracelular (AEC). Para la medición de los fluidos corporales se emplean métodos de dilución de isótopos, en tanto, para la del ACT se utilizan isótopos estables o radioactivos de tritio o deuterio; en el caso del AEC se utilizan trazadores de bromuro y para el AIC se usan isótopos de potasio radioactivo.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Por otra parte, el análisis de la impedancia bioeléctrica permite medir los parámetros bioeléctricos en sistemas biológicos, debido a la estrecha relación existente entre estos y los parámetros fisiológicos del tejido. Su principio físico consiste en la oposición que ofrece el tejido biológico al paso de la corriente eléctrica alterna (<italic>i</italic>). Esta oposición es alta en la masa grasa y baja en la masa libre de grasa, donde se encuentran en mayor proporción el agua corporal y los electrolitos.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> A frecuencias bajas (<italic>f</italic> ≤ 10 kHz), la <italic>i</italic> pasa principalmente a través del medio extracelular y se obtiene información del agua extracelular. A frecuencias altas (<italic>f</italic> &gt; 10 kHz), la <italic>i</italic> fluye por los medios intra( y extracelular, lo que permite estimar el ACT. A partir de los valores del AEC y ACT, se puede calcular el AIC (AIC = ACT - AEC).<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>La Z es un número complejo cuyo componente real es la resistencia eléctrica (R, en Ohm) y el imaginario, la reactancia capacitiva (Xc, en Ohm). R significa la oposición al paso de <italic>i</italic> a través de los medios intra( y extracelular, y Xc está relacionada con la acumulación temporal de las cargas eléctricas en las membranas celulares. A partir de R y Xc se calculan el módulo de impedancia eléctrica: |Z| (en Ohm), y el ángulo de fase: ( (en grados), por medio de <inline-graphic xlink:href="1029-3019-san-23-05-906-ie1.gif"/> y <inline-graphic xlink:href="1029-3019-san-23-05-906-ie2.gif"/>, respectivamente.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>En un estudio previo, Morales González <italic>et al</italic><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>)</sup> demuestran la existencia de diferencias significativas entre las ecuaciones de estimación del ACT. Sin embargo, en ese trabajo no se analiza si esas ecuaciones, u otras, pueden ser empleadas en sujetos aparentemente sanos y/o enfermos con diversas entidades clínicas, lo cual fue la motivación para llevar a cabo este estudio. </p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se efectuó una investigación descriptiva y transversal, de abril a diciembre de 2018, a fin de conocer cuánto se diferencian los valores de agua corporal total en una población adulta aparentemente sana y en otra infanto-juvenil que padecía diferentes enfermedades, estimados por las ecuaciones de ACT, de Kushner, de Deurenberg y de Heitman, respecto a los valores obtenidos en la evaluación clínica por medio del método de análisis de la impedancia bioeléctrica, a 50 kHz.</p>
+			<p>A tal efecto, se conformaron cuatro grupos: el primero, integrado por 31 adultos aparentemente sanos (14 hombres y 17 mujeres de entre 19 y 65 años de edad), denominado G1; el segundo, compuesto por 31 niños y adolescentes que padecían diferentes enfermedades (17 varones y 14 hembras de entre 3 y 15 años de edad), ingresados en el Hospital Infantil Docente Sur Dr. Antonio María Béguez César, denominado G2, el cual, a su vez, se dividió en dos subgrupos: uno formado por 24 pacientes provenientes del Servicio de Misceláneas, denominado G3, y otro, por 7 pacientes con leucemia linfoblástica aguda, atendidos en el Servicio de Oncopediatría, denominado G4. De esta manera, se persiguió conocer en poblaciones muy heterogéneas en cuanto a sexo, edad y estado de salud, cuánto difieren los resultados de las ecuaciones de estimación del ACT con respecto al criterio clínico.</p>
+			<p>Para seleccionar la población se tuvieron en cuenta criterios de inclusión: edad de 2 a 80 años y voluntariedad para participar en el estudio, y de exclusión: tener algún miembro amputado, negativa a participar en el estudio y padecimiento de enfermedades generalizadas de la piel, de infecciones graves y/o trastornos de los líquidos corporales.</p>
+			<p>Previamente se había elaborado un protocolo de investigación clínica, aprobado por el Comité de Ética y el Consejo Científico del mencionado Hospital Pediátrico y por la Universidad de Ciencias Médicas, ambos de Santiago de Cuba. Se siguieron rigurosamente las recomendaciones y normas éticas para la investigación médica en humanos, dispuestas en la Declaración de Helsinki.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> Todos los integrantes de la serie dieron su consentimiento por escrito, luego de informárseles acerca de las características y los objetivos del estudio.</p>
+			<p>Por otra parte, las mediciones fueron realizadas con un equipo analizador de impedancia bioeléctrica Bodystat<sup>®</sup> 1500-MDD, fabricado en EE.UU. (cortesía del Dr. Antonio Gómez Yépez, de Veracruz, México). Las mediciones de R y Xc fueron efectuadas por un solo operario en cada individuo, a la frecuencia de 50 kHz y con una amplitud de la corriente de salida de 800 µA. El equipo fue calibrado antes de cada medición con un calibrador (circuito eléctrico patrón) puramente resistivo y de precisión de 0,1 %, el cual fue proporcionado por el fabricante. Las características eléctricas del Bodystat<sup>®</sup> 1500-MDD, su estabilidad temporal, así como los factores de corrección para R (- 3 Ω) y Xc (9 Ω) que se deben introducir a este equipo, ya habían sido analizados por Lara <italic>et al.</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> Los valores de los parámetros eléctricos de los calibradores y del equipo, emitidos por el fabricante, fueron verificados por la Oficina Territorial de Normalización de Santiago de Cuba.</p>
+			<p>El mismo personal paramédico llevó a cabo el interrogatorio y el examen físico de los participantes. La talla (T, en cm) y el peso corporal (P, en kg) fueron medidos en una balanza SMIC, de fabricación china, con un margen de error de ± 0,1 cm y ± 0,5 kg, respectivamente.</p>
+			<p>En una consulta previa a la medición de los parámetros bioeléctricos, se les indicó a los participantes que debían estar en ayunas (dos horas como mínimo antes de las mediciones), mantener la vejiga vacía y no practicar ejercicio físico en las 12 horas previas.</p>
+			<p>Las mediciones de los parámetros bioeléctricos se realizaron en horas de la mañana, en un local a temperatura ambiente (30 ( 2 ºC) y con humedad relativa entre 60 y 65 %. Para ello, los sujetos fueron colocados sobre una superficie no conductora, sin prendas, sin almohada bajo la cabeza, en posición decúbito supino, con los brazos separados 30° del tórax y las piernas separadas en ángulo de 45°.</p>
+			<p>Se empleó el método tetrapolar ipsilateral derecho. Para su aplicación, primeramente, se limpió la piel con alcohol a 70 %; luego, se ubicaron cuidadosamente en la zona limpia los electrodos de plata/cloruro de plata (con una superficie de 4 cm<sup>2</sup>), para garantizar una adecuada conducción eléctrica. Los electrodos inyectores se colocaron en posición medial de las superficies dorsales de las manos y de los pies, próximas a la tercera articulación del metacarpo y a las articulaciones metatarsofalángicas, mientras que los electrodos detectores fueron ubicados entre las epífisis distales del radio y del cúbito, al nivel de la eminencia pisciforme, así como en el punto medio entre ambos maléolos. La distancia entre los electrodos inyectores y detectores fue de 5 cm y el tiempo de medición fue de 2 minutos.</p>
+			<sec>
+				<title>Ecuaciones de estimación para el ACT</title>
+				<p>Las ecuaciones empleadas para estimar el ACT fueron las siguientes:</p>
+				<p>● Ecuación de referencia (método clínico)</p>
+				<p>
+					<disp-formula id="e3">
+						<graphic xlink:href="1029-3019-san-23-05-906-e3.gif"/>
+						<label>(0)</label>
+					</disp-formula>
+				</p>
+				<p>● Ecuación de ACT </p>
+				<p>
+					<disp-formula id="e4">
+						<graphic xlink:href="1029-3019-san-23-05-906-e4.gif"/>
+						<label>(1)</label>
+					</disp-formula>
+				</p>
+				<p>● Ecuación de Kushner</p>
+				<p>
+					<disp-formula id="e5">
+						<graphic xlink:href="1029-3019-san-23-05-906-e5.gif"/>
+						<label>(2)</label>
+					</disp-formula>
+				</p>
+				<p>● Ecuación de Deurenberg</p>
+				<p>
+					<disp-formula id="e6">
+						<graphic xlink:href="1029-3019-san-23-05-906-e6.gif"/>
+						<label>(3)</label>
+					</disp-formula>
+				</p>
+				<p>● Ecuación de Heitman</p>
+				<p>
+					<disp-formula id="e7">
+						<graphic xlink:href="1029-3019-san-23-05-906-e7.gif"/>
+						<label>(4)</label>
+					</disp-formula>
+				</p>
+				<p>Donde S representa el sexo (masculino = 1, femenino = 0) y E la edad (en años); <inline-graphic xlink:href="1029-3019-san-23-05-906-ie8.gif"/> y <inline-graphic xlink:href="1029-3019-san-23-05-906-ie9.gif"/> son el índice de impedancia y el índice de resistencia eléctrica, respectivamente, y T es la talla (en cm).</p>
+				<p>La ecuación (0) se toma como referencia por ser el criterio clínico empleado en el Sistema Nacional de Salud en Cuba. Las ecuaciones de la (1) a la (4) fueron seleccionadas al azar.</p>
+				<p>Los resultados se expresaron como media, desviación estándar (error estándar de la media). A fin de conocer si las ecuaciones de la (1) a la (4) pueden sustituir a la ecuación (0), se utilizó el criterio de Bland-Altman, para un 95 % de confianza. </p>
+				<p>La información fue recogida en planillas y en una hoja de cálculo desarrollada en el programa Microsoft Excel; luego, fue incorporada en una base de datos creada a tal efecto. Los datos sobre las personas participantes en el estudio no se harán públicos en ningún caso, sino que serán archivados y conservados durante 15 años por el Grupo Cubano de Bioelectricidad.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>La <xref ref-type="table" rid="t1">tabla 1</xref> muestra los valores medios del ACT, con sus respectivas desviaciones estándar y errores estándar de la media, obtenidos por medio de las ecuaciones de la (0) a la (4) para cada grupo experimental. Existieron diferencias significativas entre los valores de ACT estimados por las ecuaciones (1), (2), (3) y (4), respecto a la ecuación de referencia (0), en todos los grupos experimentales. Asimismo, los valores de ACT estimados por la ecuación (2) presentaron diferencias significativas respecto a la ecuación (1) en todos los grupos experimentales. Los valores del ACT estimados por la ecuación (3) difirieron significativamente de los valores estimados por las ecuaciones (1) y (2) en cada grupo de estudio. Sin embargo, en todos los grupos la ecuación (4) mostró diferencias significativas con respecto a las ecuaciones (1), (2) y (3). En el G2, G3 y G4, las desviaciones estándar fueron mayores que las medias del ACT correspondientes.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Media ± desviación estándar (error estándar de la media) del agua corporal total estimada para los valores no corregidos de la resistencia eléctrica obtenidos con el analizador Bodystat<sup>®</sup> 150-MDD</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-05-906-gt1.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN8">
+							<p>Leyenda. n: número de muestra</p>
+						</fn>
+						<fn id="TFN9">
+							<p>a: diferencias significativas de las ecuaciones (1)-(4) con respecto a la ecuación (0); p( 0,05</p>
+						</fn>
+						<fn id="TFN10">
+							<p>b: diferencias significativas de las ecuaciones (2)-(4) con respecto a la ecuación (1); p ( 0,05</p>
+						</fn>
+						<fn id="TFN11">
+							<p>c: diferencias significativas de las ecuaciones (3)-(4) con respecto a la ecuación (2); p ( 0,05</p>
+						</fn>
+						<fn id="TFN12">
+							<p>d: diferencias significativas de la ecuación (4) con respecto a la ecuación (3); p ( 0,05</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Al analizar las bondades de ajuste y los factores de corrección obtenidos por el método de Bland-Altman en la comparación de las ecuaciones de la (1) a la (4) respecto a la ecuación de referencia (0), se reveló que el factor de corrección para el ACT depende del estado de salud del individuo (sano aparentemente o enfermo) y del tipo de enfermedad que padece (<xref ref-type="table" rid="t2">tabla 2</xref>). Este factor de corrección es independiente de si la R en las ecuaciones de la (1) a la (4) es corregida o no. Los valores de ACT obtenidos con la ecuación (2) son los más próximos a los registrados por la ecuación de referencia (0). Sin embargo, los valores de ACT resultantes de la ecuación (4) son los que más se diferencian de los registrados en la ecuación de referencia (0). Los resultados indican para la corrección y/o ajuste de los valores de ACT obtenidos con la ecuación respecto a la ecuación de referencia (0), se deben añadir 1,2 L en el G1 y extraer 1,02; 0,61 y 1,72 litros en el G2, el G3 y G4, respectivamente.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Bondad de ajuste y factor de corrección para el ACT obtenidos por el método de Bland-Altman, cuando las ecuaciones (1), (2), (3) y (4) se comparan respecto a la ecuación de referencia (0)</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-05-906-gt2.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN13">
+							<p>Leyenda. n: número de muestra; R<sub>sc</sub>, la resistencia eléctrica sin corregir y R<sub>c</sub>, la resistencia eléctrica corregida; r<sup>2</sup> es la bondad de ajuste; M (IC) son la media e intervalo de confianza; </p>
+						</fn>
+						<fn id="TFN14">
+							<p>(1)-(0), (2)-(0), (3)-(0) y (4)-(0): diferencias de las ecuaciones (1), (2), (3) y (4) con respecto a la ecuación de referencia (0)</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Se confirmó que las diferencias significativas entre las ecuaciones (1), (2), (3) y (4) son independientes del estado de salud del individuo, lo cual concordó con lo expuesto por Morales González <italic>et al.</italic><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> Lo anterior puede deberse a que estas ecuaciones poseen estructuras matemáticas diferentes, puesto que involucran distintos parámetros, tales como el peso, la talla, el sexo, la edad y/o la impedancia; y el término común entre estas es el <inline-graphic xlink:href="1029-3019-san-23-05-906-ie10.gif"/>, de manera que también se coincidió con los planteamientos de Brantlov <italic>et al.</italic><xref ref-type="bibr" rid="B12"><sup>12</sup></xref> El resto de los parámetros se tuvieron en cuenta para mejorar la precisión del pronóstico.<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> No obstante esto, se observó inexactitud o amplia variabilidad del ACT en personas aparentemente sanas.<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+			</p>
+			<p>Por otro lado, las diferencias entre las ecuaciones de la (1) a la (4) no solo son explicadas a través de sus diferentes estructuras matemáticas, sino también mediante los coeficientes (o constantes específicas de proporcionalidad), que son el resultado de un análisis de regresión lineal de los datos obtenidos en sus respectivas poblaciones de referencia (sujetos aparentemente sanos).<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup></p>
+			<p>A pesar de que las ecuaciones de la (1) a la (4) difirieron significativamente de la ecuación de referencia (0), el criterio de Bland-Altman reveló que la ecuación (2) resulta la de mayor concordancia con la ecuación de referencia (0), lo cual puede explicarse en que el peso y la altura del individuo son parámetros antropométricos que esencialmente contribuyen al ACT, de acuerdo con lo registrado por Wickramasinghe <italic>et al.</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref> Esto sugiere que el análisis por separado del índice de impedancia o del peso no permite predecir correctamente el agua corporal total; sin embargo, su combinación mejora notablemente la precisión de la ecuación en la estimación de este parámetro, con lo cual se corrobora lo referido por Lingwood.<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+			</p>
+			<p>Los valores medios de la corrección en la ecuación (2) son menores de 2 L, en correspondencia con lo recomendado por el Instituto Nacional de Salud de EE.UU;<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>)</sup> entidad que sugiere que el error estándar del cálculo aproximado del ACT por el análisis de impedancia bioeléctrica debe ser generalmente menor de 2 L. Todo ello corrobora y explica el alto grado de concordancia existente entre los resultados obtenidos con esta ecuación respecto a los de la ecuación de referencia (0), a pesar de la heterogeneidad y variabilidad en cuanto a sexo, edad y estado de salud, existente entre los individuos de un mismo grupo y/o grupos diferentes, incluidos en el estudio.</p>
+			<p>Por el contrario, con la ecuación (4) -la más completa al incluir el índice de impedancia y el peso, el sexo y la edad del individuo- no se estimó correctamente el ACT, en contraste con lo comunicado por Seoane <italic>et al</italic>,<xref ref-type="bibr" rid="B19"><sup>19</sup></xref> quienes sugieren que la inclusión de estos parámetros en las ecuaciones de estimación del ACT permite predecir mejor su valor.</p>
+			<p>Desde el punto de vista clínico, esto se confirma porque los rangos de agua total corporal establecidos para sujetos aparentemente sanos varían en ambos sexos, con aproximadamente 60 % del peso corporal en hombres y 50 % en mujeres. Conforme avanza la edad, estos valores disminuyen y llegan a ser de 55-50 % del peso corporal en el hombre adulto y de 47-45 % en la mujer adulta. Ello ocurre debido al aumento de la grasa corporal y a la disminución proporcional de la masa muscular.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+			</p>
+			<p>La ecuación (4) subestima el ACT en relación con la ecuación de referencia (0), para todos los grupos experimentales. Tal suceso puede explicarse en que esta ecuación es multiparamétrica y/o la dependencia del ACT con el peso, el sexo y la edad, es lineal, en concordancia con lo obtenido por Brantlov <italic>et al</italic>,<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> quienes adicionalmente aseguran que la talla y el peso son parámetros asociados significativamente al agua corporal total, lo cual no ocurre con la edad y el sexo. Esta afirmación es demostrada con los hallazgos de este estudio.</p>
+			<p>La mayoría de las ecuaciones de estimación han sido desarrolladas para predecir la composición corporal de sujetos aparentemente sanos. En ellos el contenido de agua varía en cantidades insignificantes y solamente existe una diferencia dinámica que el organismo se encarga de compensar. Por esta razón, se pueden producir errores impredecibles cuando las ecuaciones son aplicadas a sujetos enfermos. </p>
+			<p>Con los resultados de esta investigación se confirma la necesidad de realizar estudios adicionales en personas enfermas (en las cuales debe existir un balance anormal de fluidos y electrolitos, debido a la alteración del ACT), a fin de lograr establecer el parámetro de ACT como patrón de referencia del estado de salud del individuo.</p>
+			<p>Para dar por concluido, la ecuación de Kushner es la de mayor exactitud en la estimación del agua corporal total en individuos sanos y en pacientes con diversas enfermedades. Por otra parte, los autores del presente artículo opinan que se deben dirigir los esfuerzos al desarrollo de ecuaciones de estimación del ACT específicas para la población cubana.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Los autores agradecen al personal médico y paramédico de los Servicios de Oncopediatría y de Misceláneas del Hospital Infantil Docente Sur Dr. Antonio María Béguez César, por la valiosa ayuda brindada.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Broers NJ, Usvyat LA, Marcelli D, Bayh I, Scatizzi L, Canaud B, et al. Season affects body composition and estimation of fluid overload in haemodialysis patients: variations in body composition; a survey from the European MONDO database. Nephrol Dial Transplant. 2015;30(4):676-81.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Broers</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Usvyat</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Marcelli</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bayh</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Scatizzi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Canaud</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Season affects body composition and estimation of fluid overload in haemodialysis patients variations in body composition; a survey from the European MONDO database</article-title>
+					<source>Nephrol Dial Transplant</source>
+					<year>2015</year>
+					<volume>30</volume>
+					<issue>4</issue>
+					<fpage>676</fpage>
+					<lpage>681</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Matias C, Santos D, Júdice P, Magalhães J, Minderico C, Fields D, et al. Estimation of total body water and extracellular water with bioimpedance in athletes: A need for athlete-specific prediction models. Clin Nutr. 2016;35(2):468-74.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matias</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Júdice</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Magalhães</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Minderico</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Fields</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of total body water and extracellular water with bioimpedance in athletes A need for athlete-specific prediction models</article-title>
+					<source>Clin Nutr</source>
+					<year>2016</year>
+					<volume>35</volume>
+					<issue>2</issue>
+					<fpage>468</fpage>
+					<lpage>474</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. El-Sharkawy AM, Opinder S and Lobo DN. Acute and chronic effects of hydration status on health. Nutrition Reviews. 2015;73(suppl 2):97-109.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>El-Sharkawy</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<collab>Opinder S and Lobo DN</collab>
+					</person-group>
+					<article-title>Acute and chronic effects of hydration status on health</article-title>
+					<source>Nutrition Reviews</source>
+					<year>2015</year>
+					<volume>73</volume>
+					<issue>Suppl 2</issue>
+					<fpage>97</fpage>
+					<lpage>109</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Khalil S, Mohktar M, Ibrahim F. The Theory and Fundamentals of Bioimpedance Analysis in Clinical Status Monitoring and Diagnosis of Diseases. Sensors. 2014;14(6):10895-928.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Khalil</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mohktar</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ibrahim</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>The Theory and Fundamentals of Bioimpedance Analysis in Clinical Status Monitoring and Diagnosis of Diseases</article-title>
+					<source>Sensors</source>
+					<year>2014</year>
+					<volume>14</volume>
+					<issue>6</issue>
+					<fpage>10895</fpage>
+					<lpage>10928</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Park JH, Jo YI, Lee JH. Clinical usefulness of bioimpedance analysis for assessing volume status in patients receiving maintenance dialysis. Korean J Intern Med. 2018;33(4):660-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Park</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Jo</surname>
+							<given-names>YI</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>JH</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical usefulness of bioimpedance analysis for assessing volume status in patients receiving maintenance dialysis</article-title>
+					<source>Korean J Intern Med</source>
+					<year>2018</year>
+					<volume>33</volume>
+					<issue>4</issue>
+					<fpage>660</fpage>
+					<lpage>669</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Malczyk E, Dziegielewska-Gesiak S, Fatyga E, Ziólko E, Kokot T, Muc-Wierzgon M. Body composition in healthy older persons: Role of the ratio of extracellular/total body water. J Biol Regul Homeost Agents. 2016; 30:767-72.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malczyk</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Dziegielewska-Gesiak</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fatyga</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ziólko</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Kokot</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Muc-Wierzgon</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Body composition in healthy older persons Role of the ratio of extracellular/total body water</article-title>
+					<source>J Biol Regul Homeost Agents</source>
+					<year>2016</year>
+					<volume>30</volume>
+					<fpage>767</fpage>
+					<lpage>772</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Buendia R, Seoane F, Lindecrantz K, Bosaeus I, Gil-Pita R, Johannsson G, et al. Estimation of body fluids with bioimpedance spectroscopy: state of the art methods and proposal of novel methods. Physiol Meas. 2015;36:2171-87.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Buendia</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Seoane</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lindecrantz</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Bosaeus</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Gil-Pita</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Johannsson</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of body fluids with bioimpedance spectroscopy state of the art methods and proposal of novel methods</article-title>
+					<source>Physiol Meas</source>
+					<year>2015</year>
+					<volume>36</volume>
+					<fpage>2171</fpage>
+					<lpage>2187</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Malbrain ML, Huygh J, Dabrowski W, DeWaele JJ, Staelens A, Wauters J. The use of bio-electrical impedance analysis (BIA) to guide fluid management, resuscitation and deresuscitation in critically ill patients: A bench-to-bedside review. Anaesthesiol Intensive Ther. 2014;46:381-91.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malbrain</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Huygh</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dabrowski</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>DeWaele</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Staelens</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Wauters</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The use of bio-electrical impedance analysis (BIA) to guide fluid management, resuscitation and deresuscitation in critically ill patients A bench-to-bedside review</article-title>
+					<source>Anaesthesiol Intensive Ther</source>
+					<year>2014</year>
+					<volume>46</volume>
+					<fpage>381</fpage>
+					<lpage>391</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Morales González M, Verdecia Jarque M, Rubio González T, Bergues Cabrales LE, Lara Lafargue A, Martínez Tassé JP. Influencia de la resistencia eléctrica en la estimación del agua corporal total y la masa libre de grasa. MEDISAN. 2013 [citado 14/10/2018];17(10):7002-11. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013001000012">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013001000012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morales González</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Verdecia Jarque</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Rubio González</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Bergues Cabrales</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Lara Lafargue</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Martínez Tassé</surname>
+							<given-names>JP</given-names>
+						</name>
+					</person-group>
+					<article-title>Influencia de la resistencia eléctrica en la estimación del agua corporal total y la masa libre de grasa</article-title>
+					<source>MEDISAN</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-10-14">14/10/2018</date-in-citation>
+					<volume>17</volume>
+					<issue>10</issue>
+					<fpage>7002</fpage>
+					<lpage>7011</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013001000012">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013001000012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Lara Lafargue A, Bergues Cabrales LE, Verdecia Jarque M, Laurencio Martínez Y, Ortega Díaz Y. Parámetros bioeléctricos in vitro e in vivo, estimados con los analizadores Bodystat(r) 1500-MDD y BioScan(r) 98. MEDISAN. 2013 [citado 14/10/2018];17(9):4054-63. <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013000900001">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013000900001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lara Lafargue</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bergues Cabrales</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Verdecia Jarque</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Laurencio Martínez</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ortega Díaz</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Parámetros bioeléctricos in vitro e in vivo, estimados con los analizadores Bodystat(r) 1500-MDD y BioScan(r) 98</article-title>
+					<source>MEDISAN</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-10-14">14/10/2018</date-in-citation>
+					<volume>17</volume>
+					<issue>9</issue>
+					<fpage>4054</fpage>
+					<lpage>4063</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013000900001">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1029-30192013000900001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Asociación Médica Mundial. Declaración de Helsinki de la AMM- Principios éticos para la investigación en seres humanos. New York: AMM; 2017 [citado 14/10/2018]. Disponible en: https://www.wma.net/es/policies-post/declaracion-de-helsinki-de-la-amm-principios-eticos-para-las-investigaciones-medicas-en-seres-humanos/</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Asociación Médica Mundial</collab>
+					</person-group>
+					<source>Declaración de Helsinki de la AMM- Principios éticos para la investigación en seres humanos</source>
+					<year>2017</year>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>AMM</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Brantlov S, Ward L, Jødal L, Rittig S, Lange A. Critical factors and their impact on bioelectrical impedance analysis in children: a review. J Med Eng Technol. 2017;41(1):22-35.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brantlov</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ward</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Jødal</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Rittig</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lange</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Critical factors and their impact on bioelectrical impedance analysis in children a review</article-title>
+					<source>J Med Eng Technol</source>
+					<year>2017</year>
+					<volume>41</volume>
+					<issue>1</issue>
+					<fpage>22</fpage>
+					<lpage>35</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Savegnago M, Faccioli J, Jordao A. Analysis of Body Composition: A Critical Review of the Use of Bioelectrical Impedance Analysis. Int J Clin Nutr. 2014;2(1):1-10.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Savegnago</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Faccioli</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jordao</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of Body Composition A Critical Review of the Use of Bioelectrical Impedance Analysis</article-title>
+					<source>Int J Clin Nutr</source>
+					<year>2014</year>
+					<volume>2</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>10</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Lukaski HC. Evolution of bioimpedance: a circuitous journey from estimation of physiological function to assessment of body composition and a return to clinical research. Eur J Clin Nutr. 2013;67(1):2-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lukaski</surname>
+							<given-names>HC</given-names>
+						</name>
+					</person-group>
+					<article-title>Evolution of bioimpedance a circuitous journey from estimation of physiological function to assessment of body composition and a return to clinical research</article-title>
+					<source>Eur J Clin Nutr</source>
+					<year>2013</year>
+					<volume>67</volume>
+					<issue>1</issue>
+					<fpage>2</fpage>
+					<lpage>9</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Essa'a VJ, Dimodi HT, Ntsama PM, Nama G. Validation of anthropometric and bioelectrical impedance analysis (BIA) equations to predict total body water in a group of Cameroonian preschool children using deuterium dilution method. Nutrire. 2017;42:20.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Essa'a VJ.Dimodi HT.Ntsama PM.Nama G</collab>
+					</person-group>
+					<article-title>Validation of anthropometric and bioelectrical impedance analysis (BIA) equations to predict total body water in a group of Cameroonian preschool children using deuterium dilution method</article-title>
+					<source>Nutrire</source>
+					<year>2017</year>
+					<volume>42</volume>
+					<fpage>20</fpage>
+					<lpage>20</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Wickramasinghe V, Cleghorn G, Davies P. Assessment of body composition of Sri Lankan Australian children using ethnic specific equations. Indian J Nat Sci Foundation Sri Lanka. 2015; 43(2):111-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wickramasinghe</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Cleghorn</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Davies</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Assessment of body composition of Sri Lankan Australian children using ethnic specific equations</article-title>
+					<source>Indian J Nat Sci Foundation Sri Lanka</source>
+					<year>2015</year>
+					<volume>43</volume>
+					<issue>2</issue>
+					<fpage>111</fpage>
+					<lpage>118</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Lingwood BE. Bioelectrical impedance analysis for assessment of fluid status and body composition in neonates-the good, the bad and the unknown. Eur J Clin Nutr. 2013;67(suppl 1):28-33.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lingwood</surname>
+							<given-names>BE</given-names>
+						</name>
+					</person-group>
+					<article-title>Bioelectrical impedance analysis for assessment of fluid status and body composition in neonates-the good, the bad and the unknown</article-title>
+					<source>Eur J Clin Nutr</source>
+					<year>2013</year>
+					<volume>67</volume>
+					<issue>Suppl 1</issue>
+					<fpage>28</fpage>
+					<lpage>33</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. National Institutes of Health. Technology Assessment Conference Statement. Bioelectrical impedance analysis in body composition measurement. Am J Clin Nutr. 1996;64(3):524-32.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>National Institutes of Health</collab>
+					</person-group>
+					<article-title>Technology Assessment Conference Statement Bioelectrical impedance analysis in body composition measurement</article-title>
+					<source>Am J Clin Nutr</source>
+					<year>1996</year>
+					<volume>64</volume>
+					<issue>3</issue>
+					<fpage>524</fpage>
+					<lpage>532</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Seoane F, Abtahi S, Abtahi F, Ellegård L, Johannsson G, Bosaeus I, et al. Mean expected error in prediction of total body water: A true accuracy comparison between bioimpedance spectroscopy and single frequency regression equations. Bio Med Res Int. 2015 [citado 14/10/2018];5. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://downloads.hindawi.com/journals/bmri/2015/656323.pdf">http://downloads.hindawi.com/journals/bmri/2015/656323.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seoane</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Abtahi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Abtahi</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ellegård</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Johannsson</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bosaeus</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mean expected error in prediction of total body water: A true accuracy comparison between bioimpedance spectroscopy and single frequency regression equations</article-title>
+					<source>Bio Med Res Int</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-10-14">14/10/2018</date-in-citation>
+					<volume>5</volume>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://downloads.hindawi.com/journals/bmri/2015/656323.pdf">http://downloads.hindawi.com/journals/bmri/2015/656323.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Lukaski HC, Kyle UG, Kondrup J. Assessment of adult malnutrition and prognosis with bioelectrical impedance analysis: phase angle and impedance ratio. Curr Opin Clin Nutr Metab Care. 2017;20:330-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lukaski</surname>
+							<given-names>HC</given-names>
+						</name>
+						<name>
+							<surname>Kyle</surname>
+							<given-names>UG</given-names>
+						</name>
+						<name>
+							<surname>Kondrup</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Assessment of adult malnutrition and prognosis with bioelectrical impedance analysis phase angle and impedance ratio</article-title>
+					<source>Curr Opin Clin Nutr Metab Care</source>
+					<year>2017</year>
+					<volume>20</volume>
+					<fpage>330</fpage>
+					<lpage>339</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

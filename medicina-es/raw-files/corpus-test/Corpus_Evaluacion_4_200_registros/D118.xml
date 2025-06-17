@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="brief-report" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00004</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Programa informático</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Hiperentorno educativo para el aprendizaje de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Educative hyper-environment for learning the subject Methodology of the Investigation and the introduction to Inferencial Statistics for the nursing career</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1452-5647</contrib-id>
+					<name>
+						<surname>Muguercia Bles</surname>
+						<given-names>Alcides</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9939-4772</contrib-id>
+					<name>
+						<surname>Antúnez Coca</surname>
+						<given-names>José</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2648-3349</contrib-id>
+					<name>
+						<surname>Cardona Sánchez</surname>
+						<given-names>Omara Mercedes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2404-4062</contrib-id>
+					<name>
+						<surname>Sarmiento Cardonne</surname>
+						<given-names>Magnolia Paula</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Facultad de Enfermería-Tecnología de la Salud, Universidad de Ciencias Médicas, Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgdiv1">Facultad de Enfermería-Tecnología de la Salud</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Policlínico Docente Camilo Torres Restrepo. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Policlínico Docente Camilo Torres Restrepo</institution>
+				<institution content-type="orgname">Policlínico Docente Camilo Torres Restrepo</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Hospital Materno Sur Mariana Grajales Coello. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Hospital Materno Sur Mariana Grajales Coello</institution>
+				<institution content-type="orgname">Hospital Materno Sur Mariana Grajales Coello</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>alcides.muguercia@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores no declaran conflictos de intereses</p>
+				</fn>
+				<fn fn-type="other" id="fn2">
+					<p>Alcides Muguercia Bles: conceptualización, curación de datos, investigación, administración del proyecto, supervisión, visualización, redacción. Participación: 45 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn3">
+					<p>José Antúnez Coca: análisis formal, metodología, software. Participación: 25 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn4">
+					<p>Omara Mercedes Cardona Sánchez: curación de datos, recursos. Participación: 15 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn5">
+					<p>Magnolia Paula Sarmiento Cardonne: recursos, software. Participación: 15 %.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>02</day>
+				<month>09</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">!-->
+			<pub-date pub-type="epub-ppub">
+				<season>Jul-Aug</season>
+				<year>2022</year>
+			</pub-date>
+			<volume>26</volume>
+			<issue>4</issue>
+			<elocation-id>e3816</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>16</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>23</day>
+					<month>11</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<p>Se elaboró un hiperentorno educativo sobre el programa de estudio de Metodología de la Investigación e introducción a la Inferencia Estadística para la carrera de Enfermería, lo que permitió organizar el acceso a información actualizada y, con ello, favorecer el proceso de enseñanza-aprendizaje. A tal efecto, fueron entrevistados 10 profesores y 57 estudiantes de cuarto año de la Licenciatura en Enfermería de la Facultad de Enfermería-Tecnología de la Salud de Santiago de Cuba; asimismo, se valoró el nivel de efectividad de las acciones realizadas junto con los estudiantes -bajo la orientación de docentes y tutores-, con vistas a beneficiar la formación científico-profesional, lo cual se evidenció en los cambios de actitud y motivación al valorar la significatividad de los resultados, así como en el aumento del número de participantes a los eventos científicos y la mayor calidad del contenido de las investigaciones. Los docentes, tutores y estudiantes evaluaron de adecuado el hiperentorno y se demostró que su aplicación puede contribuir al proceso de enseñanza-aprendizaje del programa de Metodología de la Investigación e introducción a la Inferencia Estadística.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<p>An educative hyper-environment on the study program of the subjects Methodology of Investigation and Introduction to the Inferencial Statistics was implemented, which allowed to organize the access to updated information, and, with this, to improve the teaching-learning process. For this purpose, 10 professors and 57 students belonging to the fourth year of the nursing degree from the Health Technology-Nursing Faculty in Santiago de Cuba city were interviewed, likewise, the effectiveness level of the actions carried out with the students -under the guide of professors and tutors- aimed at improving the scientific and professional training, which was evidenced in the changes in attitude and motivation when evaluating the significance of the results, as well as in the increase in the number of participants in the scientific events and in the higher quality in the contents of the investigations. Teachers, tutors and students evaluated the hyper-environment as adequate and it was shown that its implementation may contribute to the teaching-learning process of the Methodology of Investigations and of the introduction to Inferencial Statistics.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>educación superior</kwd>
+				<kwd>educación en enfermería</kwd>
+				<kwd>educación a distancia</kwd>
+				<kwd>programas informáticos</kwd>
+				<kwd>tecnología de la información</kwd>
+				<kwd>programas de estudio</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>higher education</kwd>
+				<kwd>education in nursing</kwd>
+				<kwd>distance learning</kwd>
+				<kwd>computer programs</kwd>
+				<kwd>information technology</kwd>
+				<kwd>study programs</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="14"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El vertiginoso desarrollo de las tecnologías de la información y las comunicaciones (TIC) ha tenido una función importante en el proceso de enseñanza-aprendizaje, con nuevos desafíos que abarcan una serie de alternativas en diferentes escenarios de formación.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Sin embargo, existe una gran desigualdad entre los países desarrollados y los que se encuentran en desarrollo, entre los países con un amplio acceso a las investigaciones científicas y los que no consiguen obtenerla por sus insuficientes recursos económicos, debido a las inequidades entre los gobiernos.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Cabe señalar que la investigación científica es una actividad cognoscitiva que comprende un conjunto de operaciones concebidas que se comienzan con el propósito de solucionar, de forma general o parcial, un problema en la práctica social.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>En ese sentido, en Cuba, las universidades, los profesores y los estudiantes son actores importantes del conocimiento que, a través del Ministerio de Educación Superior, desempeñan un rol significativo en la batalla por el perfeccionamiento sostenible de brindar un servicio con mejor calidad a la población.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>Por su parte, el Ministerio de Salud Pública, con las universidades de ciencias médicas instauradas a lo largo del país, tiene como objetivo la mejora continua de la salud poblacional a través de la optimización de los servicios que con equidad se prestan y la elevación de la efectividad en las competencias profesionales.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>En particular en las facultades de enfermería-tecnología de la salud se favorece el desempeño de los estudiantes de la carrera de Enfermería, que no solo se enfoca en el cuidado de la persona, la familia y la comunidad, sino que es más abarcadora y comprende el desarrollo de actividades de investigación y gestión de los recursos de salud.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Referente a lo anterior, para lograr un mejor desempeño profesional del estudiante y ofrecer un servicio de calidad al individuo, la familia y la comunidad, se aplica el método científico: el proceso de atención de enfermería, a tono con todas las estrategias curriculares que se derivan y relacionan con la estrategia principal de formación, la cual conduce al enfoque integral de la labor educativa en el alumno.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Las diferentes disciplinas y asignaturas han establecido un balance entre la formación científica y el desarrollo de competencias profesionales en el transcurso del proceso formativo de la carrera; se ha estructurado un eje investigativo-laboral que debe favorecer el perfeccionamiento de dichas competencias a fin de que el futuro profesional posea un nivel aceptable de autonomía en el diseño de un proyecto de investigación sobre un problema científico identificado en su contexto laboral.</p>
+			<p>Uno de los complementos de la formación científica en el estudiante se lleva a cabo a través de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística, la que se encuentra insertada dentro del plan de estudio de la Licenciatura en Enfermería y forma parte de la disciplina Informática en Salud.</p>
+			<p>En dicha asignatura, el estudiante debe ser capaz de fortalecer el pensamiento científico acerca del mundo al relacionar los contenidos de la asignatura con la práctica profesional y la vida social, en particular su aplicación en la asistencia, docencia, investigación y gerencia en los diferentes niveles de atención de salud.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Actualmente, en el proceso docente-educativo de dicha asignatura se afrontan problemas relacionados con insuficiencias en la investigación y la utilización de técnicas para la búsqueda de información, en consonancia con el desempeño de los estudiantes en el campo de la salud.</p>
+			<p>Ahora bien, en el diagnóstico fáctico, que consistió en la revisión documental de artículos científicos, informes valorativos de la actividad docente, elaborados en el departamento de la especialidad; actas de los colectivos de año que abordan la formación científica y el desarrollo de competencias profesionales en el transcurso del proceso formativo, se evidenciaron las siguientes irregularidades:</p>
+			<p>
+				<list list-type="order">
+					<list-item>
+						<p>Insuficiente conocimiento en la identificación de los elementos que manifiestan contradicción entre la situación actual y la situación deseada.</p>
+					</list-item>
+					<list-item>
+						<p>Insuficiente desarrollo de habilidades investigativas para la búsqueda de la información a través de las diferentes bases de datos bibliográficas.</p>
+					</list-item>
+					<list-item>
+						<p>Insuficiente dominio de los elementos a considerar para la identificación de los límites del problema.</p>
+					</list-item>
+					<list-item>
+						<p>Insuficiencias para la elaboración de textos a partir de las revisiones bibliográficas. </p>
+					</list-item>
+					<list-item>
+						<p>Limitado dominio del lenguaje científico adecuado en la presentación de trabajos.</p>
+					</list-item>
+					<list-item>
+						<p>Marcada dispersión de las bibliografías en formato digital sobre la temática de Metodología de la Investigación e introducción a la Inferencia Estadística. </p>
+					</list-item>
+				</list>
+			</p>
+			<p>Todo esto fue coherente con los Lineamientos 76, 79, 81 y 82 de la Política Económica y Social del Partido y la Revolución para el periodo 2021-2026.<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Partiendo de lo anterior, se comprobó la necesidad de perfeccionar el proceso de enseñanza-aprendizaje<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística a través del diseño de un medio de enseñanza.</p>
+			<p>El software educativo resulta de gran utilidad como medio de enseñanza para docentes, tutores y alumnos. Estos emplean la concepción de &quot;hiperentorno de aprendizaje&quot;, en la que se entremezclan diversos tipos de software educativos: tutoriales, entrenadores, simuladores, juegos, entre otros.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Al respecto, se seleccionó la versión 2.4.2 de eXeLearning<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref> con el fin de compilar todas las bibliografías necesarias para los estudiantes, de manera que logren desarrollar el aprendizaje y la evaluación de forma autónoma e interactiva y, a partir de la autogestión del conocimiento, puedan identificar los problemas relacionados con su estudio. </p>
+			<p>Hechas las observaciones que preceden, se propuso elaborar un hiperentorno educativo para el aprendizaje de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística.</p>
+		</sec>
+		<sec>
+			<title>Desarrollo</title>
+			<sec>
+				<title>Metodología empleada en la confección del hiperentorno</title>
+				<p>Para la confección del hipertentorno se llevó a cabo una investigación en desarrollo e innovación tecnológica, de octubre de 2020 a enero de 2021, de una muestra -seleccionada al azar- de 57 estudiantes y 10 profesores de la carrera de Enfermería en la Facultad de Enfermería-Tecnología de la Salud en Santiago de Cuba. La investigación constó de varias fases, que se exponen a continuación.</p>
+				<sec>
+					<title>Fase I. Diagnóstico</title>
+					<p>En esta fase se realizó una revisión bibliográfica referente al programa de la asignatura perteneciente al plan de estudios D de la licenciatura en Enfermería, partiendo del análisis de los objetivos instructivos, las orientaciones metodológicas, las actas del colectivo de año y de la asignatura, las literaturas docentes, los materiales didácticos y programas dedicados al diseño, la metodología de la producción y el desarrollo de los software educativos, específicamente los hiperentornos.</p>
+					<p>Se realizaron entrevistas a estudiantes y profesores de la asignatura con el objetivo de mejorar el proceso de enseñanza-aprendizaje de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística. Con la información obtenida, se consiguió establecer las pautas para el desarrollo de dicho hiperentorno.</p>
+					<p>Sobre la base de las insuficiencias detectadas, se determinó la necesidad del uso de los hiperentornos didácticos en función de la clase.</p>
+				</sec>
+				<sec>
+					<title>Fase II. Diseño del software educativo</title>
+					<p>Para llevar a cabo el diseño del hiperentorno se tuvieron en cuenta las necesidades académicas de los estudiantes.</p>
+					<p>En el diseño se utilizó el sistema operativo Windows 10 Home 64 bits y el navegador predeterminado Mozilla Firefox. El software empleado fue el eXeLearning versión 2.4.2, que es un programa de código abierto y una herramienta de autor para crear contenidos educativos, que no necesita estar conectada a Internet por ser “intuitiva”; esta facilita la publicación, a profesores, tutores y estudiantes, de páginas web educativas o módulos con una alta calidad, lo que permite exportarlos en diferentes formatos (sitio web, ePub). Para el tratamiento de las imágenes se aplicó el Adobe Photoshop CS y la conversión de los videos se hizo con el Format Factory en su versión 5-6-5-0. </p>
+				</sec>
+				<sec>
+					<title>Fase III. Aplicación y evaluación</title>
+					<p>Para la implementación de este hiperentono educativo se tuvieron en cuenta las diferentes sedes docentes en los policlínicos docentes José Martí Pérez, Ramón López Peña y Josué País García, donde se encontraban realizando la educación en el trabajo los estudiantes del 4to año de la licenciatura en Enfermería, a quienes se les solicitó su criterio en cuanto a la factibilidad de este hiperentorno.</p>
+					<p>Con la relación de las aplicaciones mencionadas, se consiguió diseñar un medio de enseñanza didáctico compatible con las plataformas Linux y Windows.</p>
+					<p>Asimismo, en la investigación estuvieron implícitos métodos teóricos: el histórico-lógico, que permitió analizar las disímiles etapas de actuación de los estudiantes de Enfermería respecto a las materias abordadas en el pregrado, y revisar los programas dedicados al diseño de software educativos; y el de análisis y síntesis, que facilitó analizar y recabar las bibliografías necesarias de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística. </p>
+					<p>Como métodos empíricos se emplearon las entrevistas a estudiantes y profesores para evaluar la pertinencia del hiperentorno desde los puntos de vista metodológico, informático y de interacción con el usuario.</p>
+				</sec>
+			</sec>
+			<sec>
+				<title>Descripción del hiperentorno</title>
+				<p>Este hiperentorno educativo de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística permitió compilar las diferentes fuentes de información necesarias para que el estudiante pueda desarrollar con éxito una investigación. </p>
+				<p>Después de poseer todos los elementos metodológicos y pedagógicos del proyecto, se comenzó a confeccionar el hiperentorno. Para trabajar en él, se dio doble clic en el enlace directo a la herramienta eXeLearning.exe; luego de acceder a su entorno de trabajo, se seleccionó el idioma y el navegador con el que se abriría el programa. </p>
+				<p>Por ser un entorno de trabajo “intuitivo” y fácil de manipular para crear y editar contenidos de aprendizaje, se pinchó en el menú archivo, luego en nuevo proyecto y se accedió a la zona de organización del árbol de contenidos para crear la primera página (o inicial). Antes de comenzar a añadir contenidos y actividades, se cliquea en el botón propiedades y se añaden los siguientes datos: título, idioma, descripción general, autor, licencia, entre otros; por último, se da clic en el botón guardar y, a continuación, todas las páginas que se vayan creando se añadirán en niveles inferiores. </p>
+				<p>Se estructuró en diferentes módulos: Presentación, Bienvenidos, Introducción, Objetivo, Programa de la Asignatura, Guía de Estudio y Temas (<xref ref-type="fig" rid="f1">fig. 1</xref>).</p>
+				<p>Para acceder a la página principal se da doble clic en el archivo index. Aparece la bienvenida a los estudiantes; en el módulo Introducción se explica la estructura que va a tener el software educativo y en el Objetivo se hace referencia a las potencialidades que va a representar la interacción de los estudiantes con el hiperentorno. En el módulo Programa de la Asignatura se realiza una breve fundamentación de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística, así como de los objetivos generales educativos, el sistema de conocimientos y de habilidades básicas a adquirir. Las orientaciones metodológicas se describen por cada uno de los temas y, por último, el sistema de evaluación a lograr. En el módulo Guía de Estudio se hace referencia al objetivo y los contenidos más importantes donde los estudiantes van a fortalecer su trabajo de forma autónoma. </p>
+				<p>
+					<fig id="f1">
+						<label>Fig. 1</label>
+						<caption>
+							<title>Página principal</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-26-04-e3816-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>Con vistas a comprobar el logro de los objetivos en cada uno de los temas, se elaboraron ejercicios de completar la actividad con las palabras faltantes, donde se activa la casilla de verificación y calificación inmediata para que, a medida que el estudiante va escribiendo, si la respuesta es incorrecta el cajetín se muestra de color rojo y si es adecuada se ponga en color verde (<xref ref-type="fig" rid="f2">fig. 2</xref>).</p>
+				<p>
+					<fig id="f2">
+						<label>Fig. 2</label>
+						<caption>
+							<title>Ejercicios de completar con la palabra faltante</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-26-04-e3816-gf2.jpg"/>
+					</fig>
+				</p>
+				<p>También se propone un ejemplo de un problema científico. Para su correcta identificación hay que realizar primero la descripción del problema; se define la contradicción actual y deseada, luego se formula el problema, considerando que el problema y el objeto guardan una relación estrecha; este último refleja el propósito del investigador y el campo de acción que se va a transformar (<xref ref-type="fig" rid="f3">fig. 3</xref>.). </p>
+				<p>
+					<fig id="f3">
+						<label>Fig. 3</label>
+						<caption>
+							<title>Ejemplo de un problema científico</title>
+						</caption>
+						<graphic xlink:href="1029-3019-san-26-04-e3816-gf3.jpg"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Algunas consideraciones necesarias</title>
+			<p>El hiperentorno didáctico representa un impacto social de las tecnologías de la información y las comunicaciones en la educación superior, pues constituye un medio de enseñanza-aprendizaje de los contenidos educativos, lo cual es ventajoso para los estudiantes, a quienes les proporciona retroalimentación del aprendizaje facilitando su regulación. De esta manera, el estudiante, junto con el docente, consigue ajustar la progresión del aprendizaje y acomodar las acciones de acuerdo con sus insuficiencias.</p>
+			<p>Los docentes y estudiantes evaluaron de adecuada la aplicación práctica del hiperentorno y se demostró su contribución al proceso de enseñanza-aprendizaje de la asignatura Metodología de la Investigación e introducción a la Inferencia Estadística.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Guillén Estévez AL, Ramírez Mesa C, Castillo Albalat N. Potencialidades en la asociación de contenidos de la asignatura física con los fenómenos biomédicos. Revista Cubana Tecnología Salud. 2017 [citado 20/05/2021];8(4):3-11. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revtecnologia.sld.cu/index.php/tec/article/view/890/792">http://revtecnologia.sld.cu/index.php/tec/article/view/890/792</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guillén Estévez</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Ramírez Mesa</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Castillo Albalat</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Potencialidades en la asociación de contenidos de la asignatura física con los fenómenos biomédicos</article-title>
+					<source>Revista Cubana Tecnología Salud</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-20">20/05/2021</date-in-citation>
+					<volume>8</volume>
+					<issue>4</issue>
+					<fpage>3</fpage>
+					<lpage>11</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revtecnologia.sld.cu/index.php/tec/article/view/890/792">http://revtecnologia.sld.cu/index.php/tec/article/view/890/792</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Prieto Díaz V, Quiñones La Rosa I, Ramírez Durán G, Fuentes Gil Z, Labrada Pavón T, Pérez Hechavarría O, et al. Impacto de las tecnologías de la información y las comunicaciones en la educación y nuevos paradigmas del enfoque educativo. Educ Med Super. 2011 [citado 26/05/2021];25(1):95-102. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/pdf/ems/v25n1/ems09111.pdf">http://scielo.sld.cu/pdf/ems/v25n1/ems09111.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prieto Díaz</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Quiñones La Rosa</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Ramírez Durán</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Fuentes Gil</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Labrada Pavón</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Pérez Hechavarría</surname>
+							<given-names>O</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Impacto de las tecnologías de la información y las comunicaciones en la educación y nuevos paradigmas del enfoque educativo</article-title>
+					<source>Educ Med Super</source>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-26">26/05/2021</date-in-citation>
+					<volume>25</volume>
+					<issue>1</issue>
+					<fpage>95</fpage>
+					<lpage>102</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/pdf/ems/v25n1/ems09111.pdf">http://scielo.sld.cu/pdf/ems/v25n1/ems09111.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Bueno Rodríguez JC. Impacto económico del uso secuencial de los antimicrobianos en los niños con apendicitis aguda complicada. Rev Arch Med Camagüey. 2015 [citado 26/05/2021];19(1):26-3. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/pdf/amc/v19n1/amc060114.pdf">http://scielo.sld.cu/pdf/amc/v19n1/amc060114.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bueno Rodríguez</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Impacto económico del uso secuencial de los antimicrobianos en los niños con apendicitis aguda complicada</article-title>
+					<source>Rev Arch Med Camagüey</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-26">26/05/2021</date-in-citation>
+					<volume>19</volume>
+					<issue>1</issue>
+					<fpage>26</fpage>
+					<lpage>23</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/pdf/amc/v19n1/amc060114.pdf">http://scielo.sld.cu/pdf/amc/v19n1/amc060114.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Valdés Rojas MB, Hernández Mayea T, Alfonso Nazco M, Remedios González JM. La concepción e implementación de estrategias curriculares. Un reto a la calidad en la formación inicial. Gac Méd Espirit. 2017 [citado 26/05/2021];19(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revgmespirituana.sld.cu/index.php/gme/article/view/1290/html">http://revgmespirituana.sld.cu/index.php/gme/article/view/1290/html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Valdés Rojas</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Hernández Mayea</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Alfonso Nazco</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Remedios González</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>La concepción e implementación de estrategias curriculares. Un reto a la calidad en la formación inicial</article-title>
+					<source>Gac Méd Espirit</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-26">26/05/2021</date-in-citation>
+					<volume>19</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revgmespirituana.sld.cu/index.php/gme/article/view/1290/html">http://revgmespirituana.sld.cu/index.php/gme/article/view/1290/html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Núñez Jover J, González Pérez M, Torres Páez CC, Morales Calatayud M, Samoano Núñez V, Aguilera García LO, et al. Educación superior, gobierno y desarrollo local: avances prácticos y contribuciones académicas (2015-2019). Anales de la Academia de Ciencias de Cuba. 2021 [citado 22/07/2021];11(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaccuba.cu/index.php/revacc/article/view/818">http://www.revistaccuba.cu/index.php/revacc/article/view/818</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Núñez Jover</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>González Pérez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Torres Páez</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Morales Calatayud</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Samoano Núñez</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Aguilera García</surname>
+							<given-names>LO</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Educación superior, gobierno y desarrollo local: avances prácticos y contribuciones académicas (2015-2019)</article-title>
+					<source>Anales de la Academia de Ciencias de Cuba</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-07-22">22/07/2021</date-in-citation>
+					<volume>11</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistaccuba.cu/index.php/revacc/article/view/818">http://www.revistaccuba.cu/index.php/revacc/article/view/818</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Ortiz García M, Vicedo Tomey A, Rodríguez Ribalta I, Sardiñas Arce ME. Propuesta de competencias profesionales genéricas para el perfil del egresado en la especialidad de Pediatría en Cuba. Rev Haban Cienc Méd. 2015 [citado 16/07/2021];14(6):814-22. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/pdf/rhcm/v14n6/rhcm11615.pdf">http://scielo.sld.cu/pdf/rhcm/v14n6/rhcm11615.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ortiz García</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Vicedo Tomey</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Ribalta</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Sardiñas Arce</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Propuesta de competencias profesionales genéricas para el perfil del egresado en la especialidad de Pediatría en Cuba</article-title>
+					<source>Rev Haban Cienc Méd</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-07-16">16/07/2021</date-in-citation>
+					<volume>14</volume>
+					<issue>6</issue>
+					<fpage>814</fpage>
+					<lpage>822</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/pdf/rhcm/v14n6/rhcm11615.pdf">http://scielo.sld.cu/pdf/rhcm/v14n6/rhcm11615.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Ramos Vives M, Mena Lorenzo JA, Ferro González B, Márquez Márquez DR, Blanco Herrera IC. Fundamentos teóricos del proceso de formación pedagógica de los estudiantes de licenciatura en Enfermería. Rev Ciencias Médicas. 2020 [citado 21/07/2021];24(5):4614. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revcmpinar.sld.cu/index.php/publicaciones/article/view/4614/pdf">http://www.revcmpinar.sld.cu/index.php/publicaciones/article/view/4614/pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramos Vives</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mena Lorenzo</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Ferro González</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Márquez Márquez</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Blanco Herrera</surname>
+							<given-names>IC</given-names>
+						</name>
+					</person-group>
+					<article-title>Fundamentos teóricos del proceso de formación pedagógica de los estudiantes de licenciatura en Enfermería</article-title>
+					<source>Rev Ciencias Médicas</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-07-21">21/07/2021</date-in-citation>
+					<volume>24</volume>
+					<issue>5</issue>
+					<size units="pages">4614</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revcmpinar.sld.cu/index.php/publicaciones/article/view/4614/pdf">http://www.revcmpinar.sld.cu/index.php/publicaciones/article/view/4614/pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Naranjo Hernández Y, Felipe Reyes T, Rodríguez Larreinaga M, Concepción Pacheco JA. Trabajo metodológico en los docentes de enfermería. AMC. 2017 [citado 20/05/2021];21(4):557-66. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1025-02552017000400015">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1025-02552017000400015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Naranjo Hernández</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Felipe Reyes</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Larreinaga</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Concepción Pacheco</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Trabajo metodológico en los docentes de enfermería</article-title>
+					<source>AMC</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-20">20/05/2021</date-in-citation>
+					<volume>21</volume>
+					<issue>4</issue>
+					<fpage>557</fpage>
+					<lpage>566</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1025-02552017000400015">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1025-02552017000400015</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Ceballos Ramos LM, Rodríguez Flores LA. Estrategia para el perfeccionamiento de la asignatura Elementos de Investigación Cualitativa en Salud. Rev Ciencias Médicas. 2020 [citado 24/05/2021];24(2):e4280. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revcmpinar.sld.cu/index.php/publicaciones/article/view/4280">http://revcmpinar.sld.cu/index.php/publicaciones/article/view/4280</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ceballos Ramos</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Flores</surname>
+							<given-names>LA</given-names>
+						</name>
+					</person-group>
+					<article-title>Estrategia para el perfeccionamiento de la asignatura Elementos de Investigación Cualitativa en Salud</article-title>
+					<source>Rev Ciencias Médicas</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-24">24/05/2021</date-in-citation>
+					<volume>24</volume>
+					<issue>2</issue>
+					<elocation-id>e4280</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revcmpinar.sld.cu/index.php/publicaciones/article/view/4280">http://revcmpinar.sld.cu/index.php/publicaciones/article/view/4280</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>8vo Congreso del PCC. Conceptualización del modelo y los Lineamientos para el periodo 2021-2026. La Habana: PCC; 2021.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>8vo Congreso del PCC</collab>
+					</person-group>
+					<source>Conceptualización del modelo y los Lineamientos para el periodo 2021-2026</source>
+					<year>2021</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>PCC</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Herrera Miranda GL, Horta Muñoz DM. Fundamentos teóricos del proceso de formación de habilidades investigativas en estudiantes de la carrera de Medicina. Rev Ciencias Médicas. 2012 [citado 24/05/2021];16(6). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942012000600011&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942012000600011&amp;lng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herrera Miranda</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Horta Muñoz</surname>
+							<given-names>DM</given-names>
+						</name>
+					</person-group>
+					<article-title>Fundamentos teóricos del proceso de formación de habilidades investigativas en estudiantes de la carrera de Medicina</article-title>
+					<source>Rev Ciencias Médicas</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-24">24/05/2021</date-in-citation>
+					<volume>16</volume>
+					<issue>6</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942012000600011&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942012000600011&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Piloto Meneses JO. Bases de datos, catálogos de videos didácticos y software educativos en la escuela cubana [citado 26/05/2021]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.monografias.com/trabajos48/informatica-educativa/informatica-educativa2">https://www.monografias.com/trabajos48/informatica-educativa/informatica-educativa2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Piloto Meneses</surname>
+							<given-names>JO</given-names>
+						</name>
+					</person-group>
+					<source>Bases de datos, catálogos de videos didácticos y software educativos en la escuela cubana</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-26">26/05/2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.monografias.com/trabajos48/informatica-educativa/informatica-educativa2">https://www.monografias.com/trabajos48/informatica-educativa/informatica-educativa2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Garay Cisneros VA. Análisis de una guía en exelearning en el proceso de enseñanza-aprendizaje de los estudiantes del instituto tecnológico superior tecno ecuatoriano Rev Cient UISRAEL. 2017 [citado 18/05/2021];4(3):59-75. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revista.uisrael.edu.ec/index.php/rcui/article/view/84/80">https://revista.uisrael.edu.ec/index.php/rcui/article/view/84/80</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garay Cisneros</surname>
+							<given-names>VA</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis de una guía en exelearning en el proceso de enseñanza-aprendizaje de los estudiantes del instituto tecnológico superior tecno ecuatoriano</article-title>
+					<source>Rev Cient UISRAEL</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-18">18/05/2021</date-in-citation>
+					<volume>4</volume>
+					<issue>3</issue>
+					<fpage>59</fpage>
+					<lpage>75</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revista.uisrael.edu.ec/index.php/rcui/article/view/84/80">https://revista.uisrael.edu.ec/index.php/rcui/article/view/84/80</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Henao Bonilla A, González Salcedo LO. Elaboración de un ambiente virtual colaborativo usando eXeLearning para la enseñanza de Ciencias Naturales. Rev Ventana Inform. 2014 [citado 18/05/2021];31. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistasum.umanizales.edu.co/ojs/index.php/ventanainformatica/article/view/520/613">https://revistasum.umanizales.edu.co/ojs/index.php/ventanainformatica/article/view/520/613</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Henao Bonilla</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>González Salcedo</surname>
+							<given-names>LO</given-names>
+						</name>
+					</person-group>
+					<article-title>Elaboración de un ambiente virtual colaborativo usando eXeLearning para la enseñanza de Ciencias Naturales.</article-title>
+					<source>Rev Ventana Inform</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-18">18/05/2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistasum.umanizales.edu.co/ojs/index.php/ventanainformatica/article/view/520/613">https://revistasum.umanizales.edu.co/ojs/index.php/ventanainformatica/article/view/520/613</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

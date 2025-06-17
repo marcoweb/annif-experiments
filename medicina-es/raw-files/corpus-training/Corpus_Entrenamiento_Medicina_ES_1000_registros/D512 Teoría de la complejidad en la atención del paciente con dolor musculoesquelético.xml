@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6440</article-id>
+			<article-id pub-id-type="publisher-id">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Ensayo</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Teoría de la complejidad en la atención del paciente con dolor musculoesquelético</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Complexity theory in the management of patients with musculoskeletal pain</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Andreu</surname>
+						<given-names>Mauro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Policastro</surname>
+						<given-names>Pablo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Días</surname>
+						<given-names>Tatiana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Pardo</surname>
+						<given-names>Yolanda</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+					<xref ref-type="aff" rid="aff6"><sup>6</sup></xref>
+					<xref ref-type="aff" rid="aff7"><sup>7</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Departamento de Salud, Universidad Nacional de La Matanza, San Justo, Buenos Aires, Argentina</institution>
+				<institution content-type="normalized">Universidad Nacional de La Matanza</institution>
+				<institution content-type="orgname">Universidad Nacional de La Matanza</institution>
+				<addr-line>
+					<named-content content-type="city">Buenos Aires</named-content>
+				</addr-line>
+				<country country="AR">Argentina</country>
+				<email>mfandreu@gmail.com</email>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Facultad de Ciencias de la Salud, Universidad de las Américas, Quito, Ecuador</institution>
+				<institution content-type="normalized">Universidad de las Américas</institution>
+				<institution content-type="orgname">Universidad de las Américas</institution>
+				<addr-line>
+					<named-content content-type="city">Quito</named-content>
+				</addr-line>
+				<country country="EC">Ecuador</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">KINÉ- Kinesiología Deportiva y Funcional, Buenos Aires, Argentina</institution>
+				<institution content-type="normalized">KINÉ- Kinesiología Deportiva y Funcional</institution>
+				<institution content-type="orgname">KINÉ- Kinesiología Deportiva y Funcional</institution>
+				<addr-line>
+					<named-content content-type="city">Buenos Aires</named-content>
+				</addr-line>
+				<country country="AR">Argentina</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Unidad de Kinesiología, Hospital Durand, Buenos Aires, Argentina</institution>
+				<institution content-type="normalized">Hospital Durand</institution>
+				<institution content-type="orgname">Hospital Durand</institution>
+				<addr-line>
+					<named-content content-type="city">Buenos Aires</named-content>
+				</addr-line>
+				<country country="AR">Argentina</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Departamento de Salud, Universidad Nacional de La Matanza, San Justo, Buenos Aires, Argentina</institution>
+				<institution content-type="normalized">Universidad Nacional de La Matanza</institution>
+				<institution content-type="orgname">Universidad Nacional de La Matanza</institution>
+				<addr-line>
+					<named-content content-type="city">Buenos Aires</named-content>
+				</addr-line>
+				<country country="AR">Argentina</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Consorcio de Investigación Biomédica en Red, Epidemiología y Salud Pública Barcelona, España</institution>
+				<institution content-type="normalized">Consorcio de Investigación Biomédica en Red</institution>
+				<institution content-type="orgname">Consorcio de Investigación Biomédica en Red</institution>
+				<addr-line>
+					<named-content content-type="city">Barcelona</named-content>
+				</addr-line>
+				<country country="ES">España</country>
+			</aff>
+			<aff id="aff6">
+				<label>6</label>
+				<institution content-type="original">Grupo de Investigación en Servicios Sanitarios, Instituto Hospital del Mar de Investigaciones Médicas, Barcelona, España</institution>
+				<institution content-type="normalized">Hospital del Mar de Investigaciones Médicas</institution>
+				<institution content-type="orgname">Hospital del Mar de Investigaciones Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Barcelona</named-content>
+				</addr-line>
+				<country country="CO">España</country>
+			</aff>
+			<aff id="aff7">
+				<label>7</label>
+				<institution content-type="original">Departamento de Psiquiatría y Medicina Legal, Universidad Autónoma de Barcelona, Barcelona, España</institution>
+				<institution content-type="normalized">Universidad Autónoma de Colombia</institution>
+				<institution content-type="orgname">Universidad Autónoma de Barcelona</institution>
+				<addr-line>
+					<named-content content-type="city">Barcelona</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label><bold>Correspondencia:</bold> Mauro Andreu, Departamento de Ciencias de la Salud, Universidad Nacional de La Matanza, Florencio Varela, 1903, San Justo, Buenos Aires, Argentina (+54) (11) 6878 8298 <email>mfandreu@gmail.com</email>
+				</corresp>
+				<fn fn-type="equal" id="fn2">
+					<p>Todos los autores han contribuido de forma significativa a la idea, el diseño, la concepción y la escritura del manuscrito.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declaran no tener conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+			<pub-date pub-type="epub-ppub">
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>42</volume>
+			<issue>4</issue>
+			<fpage>562</fpage>
+			<lpage>573</lpage>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>01</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>05</day>
+					<month>09</month>
+					<year>2022</year>
+				</date>
+				<date date-type="pub">
+					<day>07</day>
+					<month>09</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<p>Los sistemas no lineales no son susceptibles de ser investigados con métodos reduccionistas. En este sentido, la teoría de la complejidad ofrece un enfoque alternativo para cuantificar la importancia de los factores contextuales en el paciente con dolor musculoesquelético.</p>
+				<p>El resultado del uso positivo (placebo) o negativo (nocebo) de factores contextuales en el entorno terapéutico, podría ser responsable de gran parte de un componente inespecífico en la eficacia del tratamiento, afectando directamente la calidad de los resultados relacionados con la salud del paciente (por ejemplo, dolor, funcionalidad o satisfacción).</p>
+				<p>En los últimos años, se ha incrementado la comprensión del valor de estos efectos. A pesar del creciente interés, el conocimiento y el reconocimiento de los efectos terapéuticos, continúan siendo limitados y heterogéneos entre los fisioterapeutas, lo cual reduce su valor traslacional en el campo de la fisioterapia.</p>
+				<p>El propósito de este estudio es presentar el abordaje el paciente con dolor musculoesquelético desde la perspectiva la teoría de la complejidad.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<p>Nonlinear systems are not susceptible to research with a reductionist approach. In this sense, the complexity theory provides an alternative approach to quantify the importance of contextual factors in patients with musculoskeletal pain. The use of positive (placebo) or negative (nocebo) contextual factors in the therapeutic setting could largely account for the non-specific component of treatment efficacy, directly affecting the quality of patients’ health-related outcomes (e.g., pain, disability, or satisfaction). In recent years, there has been a better understanding of the effects of contextual factors. However, the knowledge and awareness of them is limited and heterogeneous among physical therapists, reducing their translational value in the field of physiotherapy.</p>
+				<p>The purpose of this essay is to describe the management of patients with musculoskeletal pain from the complexity theory perspective.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Análisis de sistemas</kwd>
+				<kwd>dolor musculoesquelético</kwd>
+				<kwd>modelos de fisioterapia</kwd>
+				<kwd>placebos</kwd>
+				<kwd>efecto nocebo</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Systems analysis</kwd>
+				<kwd>musculoskeletal pain</kwd>
+				<kwd>physical therapy modalities</kwd>
+				<kwd>placebos</kwd>
+				<kwd>nocebo effect</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="58"/>
+				<page-count count="12"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Las ciencias de la salud están en constante cambio y el dinamismo conceptual y físico de las enfermedades no debe considerarse meramente como un proceso biocientífico, sino que también implica una amplia gama de experiencias humanas y sociales <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. En estudios recientes se ha demostrado que la complejidad se origina en la interacción entre los propios factores del paciente y otros factores contextuales <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Sin embargo, las ciencias de la salud, al igual que muchas otras disciplinas científicas, aún optan por métodos clásicos (como el cartesiano) que representan procesos, análisis e interpretaciones desde una perspectiva reduccionista.</p>
+		<p>La esencia de la susodicha perspectiva radica en que, un problema o el análisis de un objeto, se divide en sus componentes más pequeños, se examina y, luego, la información recopilada se utiliza para sacar conclusiones sobre la naturaleza de una realidad más amplia.</p>
+		<p>Es fundamental para este enfoque, que el problema se examine por medio de un sistema lineal <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Cuando este es el caso, el enfoque reduccionista es un gran éxito y el profesional de la salud puede, con razón, sentirse seguro al predecir el resultado de una intervención. Sin embargo, las frustraciones aparecen cuando el problema que deseamos examinar no es un sistema lineal simple, sino que, muestra un comportamiento no lineal. Esta problemática de nuestra incapacidad para predecir el resultado en estas situaciones dio nacimiento a la teoría de la complejidad <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>El dolor es una experiencia subjetiva modulada por una variedad de factores cognitivos, emocionales y sensoperceptivos, que surgen del contexto que rodea a la experiencia dolorosa <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. El comprender la complejidad del paciente con dolor musculoesquelético es una de las cuestiones más desafiantes, aunque en gran medida poco explorada, pues, los sistemas de salud actuales todavía se centran en las enfermedades individuales y no están equipados para manejar la complejidad <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. En los últimos años, se ha incrementado la comprensión del valor de estos efectos terapéuticos. A pesar del creciente interés, su conocimiento y reconocimiento continúan siendo limitados y heterogéneos entre los fisioterapeutas, lo cual reduce su valor traslacional en el campo de la fisioterapia.</p>
+		<p>El propósito de este estudio es presentar una visión actual de la teoría de la complejidad durante el tratamiento del paciente con dolor musculoesquelético.</p>
+		<sec>
+			<title>Teoría del caos y sistemas complejos</title>
+			<p>El desarrollo de la teoría del caos y de la complejidad se dio gracias a la habilidad de las computadoras para llevar a cabo cálculos que rebasan, con mucho, la capacidad del cerebro humano. El experimento clásico de Edward Lorenz formalizó su gestación. Lorenz introdujo variables atmosféricas en un programa computacional, intentando predecir los cambios climáticos. Observó que una minúscula modificación en una de las variables al inicio de los cálculos (en el rango de milésimas de unidad), daba como resultado un algo totalmente diferente <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Esta sensibilidad a las condiciones de partida, conocida popularmente como el «efecto mariposa», es una manifestación de caos. El caos se define como el comportamiento imprevisible de los sistemas complejos gobernados por leyes deterministas <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>Un sistema complejo puede definirse como una red de factores individuales de cuya interacción dinámica emergen nuevas propiedades del propio sistema, y cuyos resultados observables son diferentes a la suma de sus partes individuales <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. En otras palabras, es una colección de factores con libertad para actuar de formas que no siempre son totalmente predecibles, y cuyas acciones están interconectadas de modo que las acciones de un factor cambian el contexto para otros factores <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. En este sentido, el paciente con dolor musculoesquelético y su interacción con el entorno terapéutico durante la consulta en fisioterapia, también pueden considerarse como un sistema complejo caracterizado por un alto grado de variabilidad biológica, entropía negativa y orden emergente.</p>
+			<p>En un sistema complejo, los agentes responden a su entorno mediante el uso de un conjunto de reglas internalizadas que impulsan acción. En un sistema bioquímico, las “reglas” son una serie de reacciones químicas. A nivel humano, las reglas pueden expresarse como instintos, construcciones y modelos mentales. “Explorar las experiencias previas, las expectativas y preferencias del paciente”’ es un ejemplo de una regla internalizada que podría impulsar las acciones de un fisioterapeuta (<xref ref-type="table" rid="t1">cuadro 1</xref>) <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Complejidad en un día común en un consultorio de fisioterapia</title>
+					</caption>
+					<graphic xlink:href="T1.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Muchas veces, nos vemos desafiados por situaciones complejas durante el abordaje del dolor musculoesquelético de nuestros pacientes. Con el objetivo de resolverlas, seguimos las recomendaciones de la literatura científica. Sin embargo, muchas veces la evolución clínica tiene desenlaces que son difíciles de entender, pues, los síntomas pueden mejorar o empeorar por muchas razones no relacionadas con el tratamiento <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+			<p>De acuerdo con Barochiner J., los resultados terapéuticos podrían ser más satisfactorios, tanto para el paciente como para el profesional, si el abordaje terapéutico se realiza comprendiendo las características del sistema complejo <xref ref-type="bibr" rid="B14"><sup>14</sup></xref> (<xref ref-type="table" rid="t2">cuadro 2</xref>). Estas características son las siguientes <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>:</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2</label>
+					<caption>
+						<title>Características de un sistema complejo en la atención del paciente con dolor músculoesquelético</title>
+					</caption>
+					<graphic xlink:href="T2.jpg"/>
+				</table-wrap>
+			</p>
+			<p>
+				<list list-type="order">
+					<list-item>
+						<p><italic>Gran número de elementos.</italic> Estos tienden a mostrar un importante grado de similitud en los diferentes niveles del sistema <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, lo que se conoce como fractales <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Los fractales pueden ser geométricos, es decir, una forma divisible en partes, las cuales son una copia a pequeña escala del todo <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. En el dolor musculoesquelético, es esencial evaluar la interacción de los individuos y su entorno, lo que incluye infinidad de variables, como ambiente, clima, entorno laboral, familiar y otros.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Dinamismo.</italic> Por su propia naturaleza de actividad constante, los sistemas complejos nunca se encuentran exactamente en el mismo estado. Con el tiempo, pueden cambiar a un estado diferente, o pueden cambiar permanentemente a un estado nuevo y diferente <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Debido a que los agentes dentro de él pueden cambiar, un sistema complejo puede adaptar su comportamiento a lo largo del tiempo <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Penetrancia.</italic> Las interacciones entre las partes son simultáneas y transversales. La evolución de un sistema influye y es influenciado por la de otro sistema <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Dado que cada agente y cada sistema está anidado dentro de otros sistemas, todos evolucionando juntos e interactuando, no podemos comprender completamente ninguno de los agentes o sistemas sin hacer referencia a los demás <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Falta de linealidad.</italic> El comportamiento de un sistema complejo comúnmente no es lineal. Los mismos estados pueden tener diferentes respuestas según las características de los elementos del sistema <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Por ejemplo, en la previsión meteorológica, las leyes fundamentales que gobiernan los gases contienen términos no lineales que conducen a lo que los científicos han llamado: “dependencia sensible a las condiciones iniciales’.’ De modo que, una mínima diferencia en las variables iniciales conduce a enormes diferencias en el comportamiento futuro <xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Esa idea es mundialmente conocida como «efecto mariposa», ya que el proverbio popular chino «el aleteo de las alas de una mariposa pueden provocar un tsunami al otro lado del mundo», parece reflejar el hecho de que con pequeñas variaciones iniciales podemos conseguir resultados totalmente inesperados.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Interacciones recursivas.</italic> El sistema se retroalimenta <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Esta retroalimentación puede ser positiva o negativa. La respuesta de un sistema complejo puede presentarse como nuevo estímulo al mismo sistema.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Abiertos.</italic> Los sistemas complejos son abiertos e interactúan con su entorno. No tienen límites precisos y se encuentran en permanente intercambio con el medio que los rodea <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. No podremos entenderlos sin considerar que se encuentran “anidados” en otros sistemas, y que todos interactúan y evolucionan conjuntamente.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Falta de equilibrio.</italic> Los equilibrios son temporales. Se requiere una gran cantidad de energía para mantener al sistema en un estado de poca entropía.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Historicidad.</italic> Los sistemas complejos tienen una historia dado que evolucionan en el tiempo <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. El pasado es importante para entender el estado actual.</p>
+					</list-item>
+					<list-item>
+						<p><italic>Información local.</italic> Los sistemas complejos actúan con información simple y local de su entorno inmediato. El orden, la innovación y el progreso pueden surgir naturalmente de las interacciones dentro de un sistema complejo; no es necesario que se impongan de forma centralizada o desde el exterior <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. En la vida cotidiana surgen muchos comportamientos complejos de reglas relativamente simples en cosas como conducir en tráfico o interactuar en reuniones. Mientras nadie dirige nuestras acciones para tales situaciones, todos sabemos cómo adaptarnos y llegar a donde queremos ir <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+					</list-item>
+				</list>
+			</p>
+		</sec>
+		<sec sec-type="subjects">
+			<title>Abordaje del paciente con dolor musculoesquelético desde la complejidad</title>
+			<p>Los factores determinantes de la evolución clínica son un fenómeno de interés emergente entre profesionales e investigadores de fisioterapia <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. El enfoque de la complejidad reconoce al paciente como un conjunto integral, su contexto social, cultural y ambiental, que moldea la respuesta individual a la enfermedad; en esencia, un sistema de salud centrado en el paciente <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>. Por otro lado, el sistema complejo entiende a la salud y el padecimiento como lo subjetivo y, a la enfermedad, como lo objetivo; existen estados emergentes de interacciones de arriba hacia abajo y de abajo hacia arriba entre el restrictivo contexto ambiental, sociocultural y económico-político y las recursivas interacciones fisiológicas y psicológicas de redes de funciones celulares y de órganos <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+			<p>Los factores contextuales son elementos físicos, psicológicos y sociales involucrados en el encuentro clínico entre el paciente y el fisioterapeuta <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. En el contexto clínico, la interacción entre el componente específico de un tratamiento y los factores complejos circundantes influencian la experiencia subjetiva terapéutica (por ejemplo, el aumento o la disminución del dolor), desencadenando efectos relacionados con placebo o nocebo <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Específicamente, los factores contextuales positivos pueden mejorar los resultados clínicos, mientras que los factores contextuales negativos pueden amplificar los síntomas del paciente impidiendo su recuperación <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Por ejemplo, un entorno terapéutico positivo puede promover en el paciente una expectativa positiva con el tratamiento que va a recibir, lo que inicia mecanismos que desencadenan efectos placebo que disminuyen el dolor percibido. A su vez, esta disminución del dolor fortalece la alianza terapéutica empática, incrementando el efecto placebo y con mejores resultados terapéuticos (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Representación esquemática de algunos factores contextuales que caracterizan la complejidad de la atención del paciente con dolor musculoesquelético. Cada una de las variables mencionadas engloba, a su vez, otras variables interconectadas. Forman, así, una compleja red de sistemas; no es posible alterar una variable sin inﬂuir en todas las demás.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-04-562-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>Los efectos placebo y nocebo incorporan fenómenos complejos y distintos en los que se producen cambios conductuales, neurofisiológicos, perceptivos y cognitivos durante el encuentro terapéutico entre el fisioterapeuta y el paciente. Por ejemplo, el ambiente confortable (poco ruido, música, fragancias, temperatura), la arquitectura adecuada (gabinetes privados, equipamiento moderno, espacioso, ventanales) y el diseño ambiental planificado cuidadosamente (decoraciones, adornos y colores), son algunos aspectos que pueden afectar el resultado terapéutico.</p>
+			<p>Estos efectos también pueden producirse cuando se administra un tratamiento activo y terapéuticamente eficaz. De hecho, cualquier tratamiento (activo o inerte) que se administre en cualquier contexto de atención puede desencadenar efectos relacionados con este contexto. Se pueden identificar factores contextuales relacionados con las características del profesional y del paciente, con la interacción paciente-profesional, con las características del tratamiento y con el entorno de tratamiento <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+			<sec>
+				<title><italic>El profesional</italic></title>
+				<p>La percepción de los pacientes con respecto a la experiencia, el profesionalismo, la apariencia y la reputación del fisioterapeuta tratante, son elementos importantes para el paciente y pueden contribuir a modificar el resultado clínico en las afecciones musculoesqueléticas <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+				<p>En un estudio cualitativo se demostró que los pacientes basan sus evaluaciones de calidad de servicio en ciertos aspectos de los fisioterapeutas: sus características personales (comunicación amigable y respetuosa, soporte emocional, sensibilidad a cambios en el estatus del paciente), su disposición a brindar información y educación, y su experiencia técnica <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. En una encuesta hecha a los pacientes se informó que el fisioterapeuta vestido con guardapolvo y el fisioterapeuta vestido de camisa, pantalón y corbata fueron clasificados como el más profesional y el más preferido, respectivamente. Por el contrario, los pacientes se mostraron menos satisfechos si vestían jeans. La edad de los encuestados y la exposición con el profesional (número de visitas) afectó la percepción reportada <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+				<p>Otros factores, como el incremento en la duración de la sesión y el interés por el paciente y su cuidado, también tienen un rol relevante en la satisfacción del paciente hacia el tratamiento y podrían ser utilizados por los fisioterapeutas para mejorar la satisfacción del paciente <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Los pacientes aprecian la capacidad del fisioterapeuta para animar al paciente a que pregunte, para responder a sus preguntas, para considerar su opinión, para explorar la enfermedad y para conocer la experiencia con la misma; también, su capacidad para brindar una retroalimentación positiva, dar clara información predictiva y explicar sobre la condición del paciente y de cómo el tratamiento puede afectar positivamente los resultados <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Por el contrario, los fisioterapeutas deberían evitar mostrar nerviosismo, dedicar demasiado tiempo a leer las historias clínicas de los pacientes, utilizar demasiadas palabras técnicas o demostrar prisa durante la consulta <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+				<p>El carisma del fisioterapeuta y su optimismo o pesimismo con respecto a la naturaleza del tratamiento, pueden tener un efecto en el resultado del tratamiento <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Esta es una “profecía autocumplida” en la cual la expectativa que tiene un profesional sobre el resultado del paciente puede conducir a una mejoría (efecto Pigmalión o Rosenthal) o a un empeoramiento (efecto Golem) del resultado del tratamiento <xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. Las creencias de los profesionales sobre el dolor de espalda están relacionadas con las creencias de sus pacientes, y las creencias para evitar el miedo en los profesionales se asocian con aquellas para evitar el miedo de sus pacientes <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>El paciente</italic></title>
+				<p>La expectativas del paciente son un factor pronóstico importante en el tratamiento del dolor musculoesquelético <xref ref-type="bibr" rid="B36"><sup>36</sup></xref> y, frecuentemente, es subestimado por los fisioterapeutas <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. Bishop, <italic>et al</italic>., observaron que las expectativas de alivio del dolor tuvieron una influencia importante en el dolor y la incapacidad en pacientes con dolor lumbar <xref ref-type="bibr" rid="B38"><sup>38</sup></xref> y dolor cervical <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. La experiencia del paciente con un tratamiento previo también ha demostrado ser un factor que puede afectar el resultado de la terapia <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>.</p>
+				<p>La percepción de la calidad de la atención fisioterapéutica se experimenta de manera diferente en hombres y mujeres, así como en pacientes de diferentes edades <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. Para los pacientes de sexo masculino, los principales factores asociados a la satisfacción con el tratamiento fueron el resultado y las características del fisioterapeuta. Mientras que, en los pacientes de sexo femenino, los principales factores relacionados fueron la organización y la comunicación <xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+				<p>En otro estudio, la edad del paciente no estuvo asociada con el grado de satisfacción. No obstante, los sujetos mayores de 65 años estuvieron más satisfechos con los factores relacionados al acceso a los servicios de atención y a la efectividad en la comunicación <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>.</p>
+				<p>En otro estudio, la satisfacción con la atención fue superior en pacientes con afecciones musculoesqueléticas agudas que en aquellos con afecciones crónicas. Para el grupo con afecciones agudas, las características del fisioterapeuta resultaron las más determinantes de la satisfacción, mientras que, en el grupo con afecciones crónicas, la organización del centro de atención fue el factor predictivo más significativo <xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+			</sec>
+		</sec>
+		<sec sec-type="subjects">
+			<title>La interacción paciente-profesional</title>
+			<p>Los fisioterapeutas destinan aproximadamente el doble del tiempo en hablar con el paciente que en el tratamiento propiamente dicho <xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B46"><sup>46</sup></xref>. Factores como escuchar, expresarse positivamente dando apoyo y aliento, el humor y la simpatía, permitir una discusión empática y comunicativa, establecer acuerdos, escuchar la opinión del paciente y utilizar un lenguaje común, son algunas habilidades verbales que se correlacionaron con la satisfacción del paciente y podrían influir significativamente en el resultado del tratamiento <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. Por el contrario, los fisioterapeutas deben evitar aspectos como la comunicación negativa, las expresiones verbales de ansiedad y las preguntas cerradas para obtener información <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>Según el estudio hecho por O’Keeffe, <italic>et al</italic>., los pacientes no estuvieron satisfechos con la atención cuando fueron interrumpidos y no pudieron contar su historia, cuando el fisioterapeuta carecía de empatía, cuando era demasiado confiado o cuando se comportaba de manera arrogante <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. Los aspectos no verbales, como la expresión verbal y el contacto visual, representan importantes elementos en la alianza terapéutica <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			<p>En el contexto de la atención, los fisioterapeutas intervienen muchas veces con el contacto visual, la sonrisa, y con expresiones de acompañamiento e interés. Además, utilizan regularmente el asentimiento de cabeza, el contacto, la inclinación del cuerpo hacia delante y la orientación corporal para facilitar e involucrar a los pacientes. Todos estos aspectos podrían contribuir al resultado terapéutico final <xref ref-type="bibr" rid="B45"><sup>45</sup></xref>.</p>
+			<p>La capacidad del terapeuta para interpretar las expresiones del lenguaje corporal no verbal de los pacientes también es un elemento importante de satisfacción durante el encuentro clínico <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>El tratamiento</title>
+			<p>El formular y comentar el diagnóstico de forma detallada, explicar sus afecciones y darle sentido a su afección es <italic>per se</italic> una forma de tratamiento. Estas acciones son apreciadas por los pacientes durante la primera consulta, y podría condicionar el resultado del tratamiento <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Por otro lado, también es importante adelantar al paciente que el tratamiento que se va a aplicar es importante en la modulación del efecto terapéutico. En un estudio de analgesia posoperatoria, el ocultamiento de la administración de un analgésico resultó en retraso y en menor alivio del dolor, que cuando los pacientes sabían que les estaban administrando el medicamento <xref ref-type="bibr" rid="B47"><sup>47</sup></xref>. En otro estudio, pacientes con dolor lumbar crónico reportaron menor dolor y más rápida resolución de su condición, cuando realizaron ejercicios de movilización lumbar observándose en un espejo <xref ref-type="bibr" rid="B48"><sup>48</sup></xref>.</p>
+			<p>El personalizar el tratamiento, considerar activamente las opiniones de los pacientes y centrar la atención en el paciente parecen influenciar los resultados del tratamiento de manera efectiva y exitosa <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. Aspectos como: la atención personalizada y constante con el mismo profesional, la limpieza, el adecuado tiempo de sesión, la puntualidad, la flexibilidad con la agenda personal, la efectividad del tratamiento, la frecuencia y la duración adecuada, afectan positivamente la satisfacción del paciente y el resultado terapéutico <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. Por el contrario, el centrar la atención en el profesional, la ausencia de privacidad, los tratamientos costosos, la demora en la entrega de turnos, el escaso tiempo paciente-fisioterapeuta, el ser tratado por diferentes fisioterapeutas, o un tratamiento apresurado, afectan negativamente la satisfacción del paciente y el resultado terapéutico <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>En el contexto clínico, el fisioterapeuta aplica diferentes formas de contacto e interacción al relacionarse con el paciente en los centros terapeúticos, desde la ubicación del paciente en el lugar de la terapia, hasta la socialización de la información y las diversas indicaciones que suceden en la terapia y en la intervención. En el contexto clínico, el fisioterapeuta contacta de diferentes formas al paciente, para asistirlo, para posicionarlo y para informarlo, para percibir información, y para realizar una intervención <xref ref-type="bibr" rid="B49"><sup>49</sup></xref>. El contacto es un elemento fundamental en las relaciones interpersonales y regula los vínculos sociales <xref ref-type="bibr" rid="B50"><sup>50</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>El entorno terapéutico</title>
+			<p>Diferentes elementos sensoriales del ambiente pueden condicionar el resultado del paciente. La iluminación natural, poco ruido, música suave y relajante, uso de aromas y una temperatura adecuada, son factores importantes que podrían ser considerados en el contexto terapéutico <xref ref-type="bibr" rid="B51"><sup>51</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B52"><sup>52</sup></xref>.</p>
+			<p>Los aspectos estructurales también parecen ser importantes para el paciente: accesibilidad, horarios convenientes de atención, ubicación, estacionamiento y personal complementario accesible <xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Los ambientes que incluyen muchas ventanas en el lugar de trabajo y los casilleros privados y cómodos son de lo más apreciado por los pacientes <xref ref-type="bibr" rid="B51"><sup>51</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B52"><sup>52</sup></xref>. La decoración de los espacios también podría afectar la percepción del paciente. Encontrando que, las obras de arte sobre la naturaleza, que incluyen vegetación verde, flores, agua y un entorno que integre plantas o adornos de jardín, tienen un efecto relajante <xref ref-type="bibr" rid="B51"><sup>51</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B52"><sup>52</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>Implicancias</title>
+			<p>Tradicionalmente, la medicina basada en la evidencia ha focalizado su atención en el efecto de los agentes farmacológicos, subestimando aquellos factores psicológicos y ambientales que contribuyen significativamente a mejorar el resultado terapéutico con nuestros pacientes <xref ref-type="bibr" rid="B53"><sup>53</sup></xref>. Por tal motivo, es importante considerar el abordaje del paciente con dolor musculoesquelético como un sistema complejo, ya que, ofrecerá oportunidades terapéuticas adicionales para manejar el dolor y podría ser fundamental para mejorar la eficacia terapéutica de diferentes intervenciones.</p>
+			<p>Es importante reflexionar sobre la importancia de los factores contextuales en el resultado terapéutico, en lugar de minimizarlos o etiquetarlos exclusivamente como factores de confusión <xref ref-type="bibr" rid="B54"><sup>54</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B55"><sup>55</sup></xref>.</p>
+			<p>Desde una perspectiva educativa, la complejidad todavía es subestimada en la mayoría de las formaciones de grado y posgrado de fisioterapia. No obstante, es un enfoque que, a la luz de la calidad formativa y la profesionalización, así como del conocimiento integro y la bioética, debería incluirse en los programas de estudios. Para garantizar la competencia adecuada, el conocimiento y su uso ético, debería incluirse en los programas de estudios <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B56"><sup>56</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B58"><sup>58</sup></xref>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusión</title>
+			<p>Los factores determinantes de la evolución clínica son un fenómeno de interés emergente entre profesionales e investigadores del campo de la fisioterapia. El interés en los factores contextuales ha crecido y es ampliamente encontrado en la literatura científica relacionada con la fisioterapia. Para hacer frente a la complejidad en la atención del paciente con dolor musculoesquelético, debemos abandonar los modelos lineales, aceptar la imprevisibilidad, respetar (y utilizar) la autonomía y la creatividad, y responder con flexibilidad a los patrones y oportunidades emergentes.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1.</label>
+				<mixed-citation>Jones DS, Podolsky SH, Greene JA. The burden of disease and the changing task of medicine. N Engl J Med. 2012;366:2333-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1113569">https://doi.org/10.1056/NEJMp1113569</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jones</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Podolsky</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Greene</surname>
+							<given-names>JA.</given-names>
+						</name>
+					</person-group>
+					<article-title>The burden of disease and the changing task of medicine</article-title>
+					<source>N Engl J Med</source>
+					<year>2012</year>
+					<volume>366</volume>
+					<fpage>2333</fpage>
+					<lpage>2338</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1113569">https://doi.org/10.1056/NEJMp1113569</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2.</label>
+				<mixed-citation>Corazza GR, Formagnana P, Lenti MV. Bringing complexity into clinical practice: An internistic approach. Eur J Intern Med. 2019;61:9-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejim.2018.11.009">https://doi.org/10.1016/j.ejim.2018.11.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Corazza</surname>
+							<given-names>GR</given-names>
+						</name>
+						<name>
+							<surname>Formagnana</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lenti</surname>
+							<given-names>MV.</given-names>
+						</name>
+					</person-group>
+					<article-title>Bringing complexity into clinical practice: An internistic approach</article-title>
+					<source>Eur J Intern Med</source>
+					<year>2019</year>
+					<volume>61</volume>
+					<fpage>9</fpage>
+					<lpage>14</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejim.2018.11.009">https://doi.org/10.1016/j.ejim.2018.11.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3.</label>
+				<mixed-citation>Tuffin R. Implications of complexity theory for clinical practice and healthcare organization. BJA Educ. 2016;16:349-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bjaed/mkw013">https://doi.org/10.1093/bjaed/mkw013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tuffin</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<article-title>Implications of complexity theory for clinical practice and healthcare organization.</article-title>
+					<source>BJA Educ</source>
+					<year>2016</year>
+					<volume>16</volume>
+					<fpage>349</fpage>
+					<lpage>352</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bjaed/mkw013">https://doi.org/10.1093/bjaed/mkw013</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4.</label>
+				<mixed-citation>Lipsitz LA, Goldberger AL. Loss of ‘complexity’ and aging. Potential applications of fractals and chaos theory to senescence. JAMA. 1992;267:1806-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lipsitz</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Goldberger</surname>
+							<given-names>AL.</given-names>
+						</name>
+					</person-group>
+					<article-title>Loss of ‘complexity’ and aging. Potential applications of fractals and chaos theory to senescence</article-title>
+					<source>JAMA</source>
+					<year>1992</year>
+					<volume>267</volume>
+					<fpage>1806</fpage>
+					<lpage>1809</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5.</label>
+				<mixed-citation>Wiech K, Ploner M, Tracey I. Neurocognitive aspects of pain perception. Trends Cogn Sci. 2008;12:306-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tics.2008.05.005">https://doi.org/10.1016/j.tics.2008.05.005 </ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wiech</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Ploner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tracey</surname>
+							<given-names>I.</given-names>
+						</name>
+					</person-group>
+					<article-title>Neurocognitive aspects of pain perception</article-title>
+					<source>Trends Cogn Sci</source>
+					<year>2008</year>
+					<volume>12</volume>
+					<fpage>306</fpage>
+					<lpage>313</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tics.2008.05.005">https://doi.org/10.1016/j.tics.2008.05.005 </ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6.</label>
+				<mixed-citation>Bushnell MC, Ceko M, Low LA. Cognitive and emotional control of pain and its disruption in chronic pain. Nat Rev Neurosci. 2013;14:502-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrn3516">https://doi.org/10.1038/nrn3516</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bushnell</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Ceko</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Low</surname>
+							<given-names>LA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cognitive and emotional control of pain and its disruption in chronic pain</article-title>
+					<source>Nat Rev Neurosci</source>
+					<year>2013</year>
+					<volume>14</volume>
+					<fpage>502</fpage>
+					<lpage>511</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrn3516">https://doi.org/10.1038/nrn3516</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7.</label>
+				<mixed-citation>Plsek PE, Wilson T. Complexity, leadership, and management in healthcare organisations. BMJ. 2001;323:746-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.323.7315.746">https://doi.org/10.1136/bmj.323.7315.746</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Plsek</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Wilson</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>Complexity, leadership, and management in healthcare organisations</article-title>
+					<source>BMJ</source>
+					<year>2001</year>
+					<volume>323</volume>
+					<fpage>746</fpage>
+					<lpage>749</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.323.7315.746">https://doi.org/10.1136/bmj.323.7315.746</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8.</label>
+				<mixed-citation>Baines PG. Lorenz, E.N. 1963: Deterministic nonperiodic ﬂow. Journal of the Atmospheric Sciences 20, 130-41.1. Progress in Physical Geography. 2008;32:475-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0309133308091948">https://doi.org/10.1177/0309133308091948</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Baines</surname>
+							<given-names>PG.</given-names>
+						</name>
+					</person-group>
+					<article-title>Lorenz, E.N. 1963: Deterministic nonperiodic ﬂow</article-title>
+					<source>Journal of the Atmospheric Sciences 20, 130-41.1. Progress in Physical Geography</source>
+					<year>2008</year>
+					<volume>32</volume>
+					<fpage>475</fpage>
+					<lpage>480</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0309133308091948">https://doi.org/10.1177/0309133308091948</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9.</label>
+				<mixed-citation>Glass L, Mackey MC. The rhythms of life. From clocks to chaos. Princeton, N.J.: Princeton University Press; 1988.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Glass</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mackey</surname>
+							<given-names>MC.</given-names>
+						</name>
+					</person-group>
+					<source>The rhythms of life. From clocks to chaos</source>
+					<publisher-loc>Princeton, N.J.</publisher-loc>
+					<publisher-name>Princeton University Press</publisher-name>
+					<year>1988</year>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10.</label>
+				<mixed-citation>Plsek PE, Greenhalgh T. Complexity science: The challenge of complexity in health care. BMJ. 2001;323:625-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.323.7313.625">https://doi.org/10.1136/bmj.323.7313.625</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Plsek</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Greenhalgh</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>Complexity science: The challenge of complexity in health care</article-title>
+					<source>BMJ</source>
+					<year>2001</year>
+					<volume>323</volume>
+					<fpage>625</fpage>
+					<lpage>628</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.323.7313.625">https://doi.org/10.1136/bmj.323.7313.625</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11.</label>
+				<mixed-citation>da Silva TM, Costa Lda C, García AN, Costa LO. What do physical therapists think about evidence-based practice? A systematic review. Man Ther. 2015;20:388-401. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.math.2014.10.009">https://doi.org/10.1016/j.math.2014.10.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>da Silva</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Costa Lda</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>García</surname>
+							<given-names>AN</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>LO</given-names>
+						</name>
+					</person-group>
+					<article-title>What do physical therapists think about evidence-based practice? A systematic review</article-title>
+					<source>Man Ther</source>
+					<year>2015</year>
+					<volume>20</volume>
+					<fpage>388</fpage>
+					<lpage>401</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.math.2014.10.009">https://doi.org/10.1016/j.math.2014.10.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12.</label>
+				<mixed-citation>Rossettini G, Carlino E, Testa M. Clinical relevance of contextual factors as triggers ofplacebo and nocebo effects in musculoskeletal pain. BMC Musculoskelet Disord. 2018;19:27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12891-018-1943-8">https://doi.org/10.1186/s12891-018-1943-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rossettini</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Carlino</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Testa</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical relevance of contextual factors as triggers ofplacebo and nocebo effects in musculoskeletal pain</article-title>
+					<source>BMC Musculoskelet Disord</source>
+					<year>2018</year>
+					<volume>19</volume>
+					<fpage>27</fpage>
+					<lpage>27</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12891-018-1943-8">https://doi.org/10.1186/s12891-018-1943-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13.</label>
+				<mixed-citation>Kamper SJ. Engaging with research: Linking evidence with practice. J Orthop Sports Phys Ther. 2018;48:512-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2519/jospt.2018.0701">https://doi.org/10.2519/jospt.2018.0701</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kamper</surname>
+							<given-names>SJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Engaging with research: Linking evidence with practice.</article-title>
+					<source>J Orthop Sports Phys Ther</source>
+					<year>2018</year>
+					<volume>48</volume>
+					<fpage>512</fpage>
+					<lpage>513</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2519/jospt.2018.0701">https://doi.org/10.2519/jospt.2018.0701</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14.</label>
+				<mixed-citation>Barochiner J. Teoría de la complejidad y el paciente hipertenso. Med Fam SEMERGEN. 2021;47:404-10. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.semerg.2020.12.008">https://doi.org/10.1016/j.semerg.2020.12.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barochiner</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>Teoría de la complejidad y el paciente hipertenso</article-title>
+					<source>Med Fam SEMERGEN</source>
+					<year>2021</year>
+					<volume>47</volume>
+					<fpage>404</fpage>
+					<lpage>410</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.semerg.2020.12.008">https://doi.org/10.1016/j.semerg.2020.12.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15.</label>
+				<mixed-citation>Sammut-Bonnici T. Complexity theory. En: Cooper CL, McGee J, Sammut-Bonnici T, editors. Strategic Management. John Wiley &amp; Sons: 2014. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/9781118785317.weom120210">https://doi.org/10.1002/9781118785317.weom120210</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sammut-Bonnici</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<chapter-title> Complexity theor</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Cooper</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>McGee</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sammut-Bonnici</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>Strategic Management</source>
+					<publisher-name>John Wiley &amp; Sons</publisher-name>
+					<year>2014</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/9781118785317.weom120210">https://doi.org/10.1002/9781118785317.weom120210</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16.</label>
+				<mixed-citation>Sturmberg JP, Picard M, Aron DC, Bennett JM, Bircher J, deHaven MJ, <italic>et al</italic>. Health and disease-emergent states resulting from adaptive social and biological network interactions. Front Med (Lausanne). 2019;6:59. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fmed.2019.00059">https://doi.org/10.3389/fmed.2019.00059</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sturmberg</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Picard</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Aron</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Bennett</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Bircher</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>deHaven</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Health and disease-emergent states resulting from adaptive social and biological network interactions</article-title>
+					<source>Front Med (Lausanne)</source>
+					<year>2019</year>
+					<volume>6</volume>
+					<fpage>59</fpage>
+					<lpage>59</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fmed.2019.00059">https://doi.org/10.3389/fmed.2019.00059</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17.</label>
+				<mixed-citation>Holland JH. Hidden order: How adaptation builds complexity. Addison-Wesley, New York, NY. Bull Sci Technol Soc. 1997;17:205. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/027046769701700420">https://doi.org/10.1177/027046769701700420</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Holland</surname>
+							<given-names>JH.</given-names>
+						</name>
+					</person-group>
+					<article-title>Hidden order: How adaptation builds complexity. Addison-Wesley, New York, NY</article-title>
+					<source>Bull Sci Technol Soc</source>
+					<year>1997</year>
+					<volume>17</volume>
+					<fpage>205</fpage>
+					<lpage>205</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/027046769701700420">https://doi.org/10.1177/027046769701700420</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18.</label>
+				<mixed-citation>Hurst DK, Zimmerman BJ. From life cycle to ecocycle: A new perspective on the growth, maturity, destruction, and renewal of complex systems. Journal of Management Inquiry. 1994;3:339-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/105649269434008">https://doi.org/10.1177/105649269434008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hurst</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Zimmerman</surname>
+							<given-names>BJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>From life cycle to ecocycle: A new perspective on the growth, maturity, destruction, and renewal of complex systems</article-title>
+					<source>Journal of Management Inquiry</source>
+					<year>1994</year>
+					<volume>3</volume>
+					<fpage>339</fpage>
+					<lpage>354</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/105649269434008">https://doi.org/10.1177/105649269434008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19.</label>
+				<mixed-citation>Lorenz EN. The essence of chaos. London: UCL Press; 1995.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lorenz</surname>
+							<given-names>EN.</given-names>
+						</name>
+					</person-group>
+					<source>The essence of chaos</source>
+					<publisher-loc>London</publisher-loc>
+					<publisher-name>UCL Press</publisher-name>
+					<year>1995</year>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20.</label>
+				<mixed-citation>Sanders T, Foster NE, Bishop A, Ong BN. Biopsychosocial care and the physiotherapy encounter: Physiotherapists’ accounts of back pain consultations. BMC Musculoskelet Disord. 2013;14:65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2474-14-65">https://doi.org/10.1186/1471-2474-14-65</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sanders</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Foster</surname>
+							<given-names>NE</given-names>
+						</name>
+						<name>
+							<surname>Bishop</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ong</surname>
+							<given-names>BN.</given-names>
+						</name>
+					</person-group>
+					<article-title>Biopsychosocial care and the physiotherapy encounter: Physiotherapists’ accounts of back pain consultations</article-title>
+					<source>BMC Musculoskelet Disord</source>
+					<year>2013</year>
+					<volume>14</volume>
+					<fpage>65</fpage>
+					<lpage>65</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2474-14-65">https://doi.org/10.1186/1471-2474-14-65</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21.</label>
+				<mixed-citation>Testa M, Rossettini G. Enhance placebo, avoid nocebo: How contextual factors affect physiotherapy outcomes. Man Ther. 2016;24:65-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.math.2016.04.006">https://doi.org/10.1016/j.math.2016.04.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Testa</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Rossettini</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Enhance placebo, avoid nocebo: How contextual factors affect physiotherapy outcomes</article-title>
+					<source>Man Ther</source>
+					<year>2016</year>
+					<volume>24</volume>
+					<fpage>65</fpage>
+					<lpage>74</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.math.2016.04.006">https://doi.org/10.1016/j.math.2016.04.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22.</label>
+				<mixed-citation>Di Blasi Z, Harkness E, Ernst E, Georgiou A, Kleijnen J. Inﬂuence of context effects on health outcomes: A systematic review. Lancet. 2001;357:757-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(00)04169-6">https://doi.org/10.1016/s0140-6736(00)04169-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Di Blasi</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Harkness</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ernst</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Georgiou</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kleijnen</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>Inﬂuence of context effects on health outcomes: A systematic review</article-title>
+					<source>Lancet</source>
+					<year>2001</year>
+					<volume>357</volume>
+					<fpage>757</fpage>
+					<lpage>762</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(00)04169-6">https://doi.org/10.1016/s0140-6736(00)04169-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23.</label>
+				<mixed-citation>Carlino E, Frisaldi E, Benedetti F. Pain and the context. Nat Rev Rheumatol. 2014;10:348-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrrheum.2014.17">https://doi.org/10.1038/nrrheum.2014.17</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carlino</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Frisaldi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Benedetti</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Pain and the context</article-title>
+					<source>Nat Rev Rheumatol</source>
+					<year>2014</year>
+					<volume>10</volume>
+					<fpage>348</fpage>
+					<lpage>355</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrrheum.2014.17">https://doi.org/10.1038/nrrheum.2014.17</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24.</label>
+				<mixed-citation>Wager TD, Atlas LY. The neuroscience of placebo effects: Connecting context, learning and health. Nat Rev Neurosci. 2015;16:403-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrn3976">https://doi.org/10.1038/nrn3976</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wager</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Atlas</surname>
+							<given-names>LY.</given-names>
+						</name>
+					</person-group>
+					<article-title>The neuroscience of placebo effects: Connecting context, learning and health</article-title>
+					<source>Nat Rev Neurosci</source>
+					<year>2015</year>
+					<volume>16</volume>
+					<fpage>403</fpage>
+					<lpage>418</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrn3976">https://doi.org/10.1038/nrn3976</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25.</label>
+				<mixed-citation>Andreu MF, Policastro PO. ¿Por qué son importantes los factores contextuales en el abordaje kinésico? AJRPT. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.58172/ajrpt.v2i3.125">https://doi.org/10.58172/ajrpt.v2i3.125</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Andreu</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Policastro</surname>
+							<given-names>PO.</given-names>
+						</name>
+					</person-group>
+					<source>¿Por qué son importantes los factores contextuales en el abordaje kinésico?</source>
+					<publisher-name>AJRPT</publisher-name>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.58172/ajrpt.v2i3.125">https://doi.org/10.58172/ajrpt.v2i3.125</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26.</label>
+				<mixed-citation>Del Baño-Aledo ME, Medina-Mirapeix F, Escolar-Reina P, Montilla-Herrador J, Collins SM. Relevant patient perceptions and experiences for evaluating quality of interaction with physiotherapists during outpatient rehabilitation: A qualitative study. Physiotherapy. 2014;100:73-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.physio.2013.05.001">https://doi.org/10.1016/j.physio.2013.05.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Del Baño-Aledo</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Medina-Mirapeix</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Escolar-Reina</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Montilla-Herrador</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Collins</surname>
+							<given-names>SM.</given-names>
+						</name>
+					</person-group>
+					<article-title>Relevant patient perceptions and experiences for evaluating quality of interaction with physiotherapists during outpatient rehabilitation: A qualitative study</article-title>
+					<source>Physiotherapy</source>
+					<year>2014</year>
+					<volume>100</volume>
+					<fpage>73</fpage>
+					<lpage>79</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.physio.2013.05.001">https://doi.org/10.1016/j.physio.2013.05.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27.</label>
+				<mixed-citation>Mercer E, Mackay-Lyons M, Conway N, Flynn J, Mercer C. Perceptions of outpatients regarding the attire of physiotherapists. Physiother Can. 2008;60:349-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3138/physio.60.4.349">https://doi.org/10.3138/physio.60.4.349</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mercer</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Mackay-Lyons</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Conway</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Flynn</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mercer</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Perceptions of outpatients regarding the attire of physiotherapists</article-title>
+					<source>Physiother Can</source>
+					<year>2008</year>
+					<volume>60</volume>
+					<fpage>349</fpage>
+					<lpage>357</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3138/physio.60.4.349">https://doi.org/10.3138/physio.60.4.349</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28.</label>
+				<mixed-citation>Oliveira VC, Refshauge KM, Ferreira ML, Pinto RZ, Beckenkamp PR, Negrao Filho RF, <italic>et al</italic>. Communication that values patient autonomy is associated with satisfaction with care: A systematic review. J Physiother. 2012;58:215-29. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1836-9553(12)70123-6">https://doi.org/10.1016/S1836-9553(12)70123-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira VC</surname>
+							<given-names>Refshauge KM</given-names>
+						</name>
+						<name>
+							<surname>Ferreira ML</surname>
+							<given-names>Pinto RZ</given-names>
+						</name>
+						<name>
+							<surname>Beckenkamp PR</surname>
+							<given-names>Negrao Filho RF</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Communication that values patient autonomy is associated with satisfaction with care: A systematic review</article-title>
+					<source>J Physiother</source>
+					<year>2012</year>
+					<volume>58</volume>
+					<fpage>215</fpage>
+					<lpage>229</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1836-9553(12)70123-6">https://doi.org/10.1016/S1836-9553(12)70123-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29.</label>
+				<mixed-citation>Pinto RZ, Ferreira ML, Oliveira VC, Franco MR, Adams R, Maher CG, <italic>et al</italic>. Patient-centered communication is associated with positive therapeutic alliance: A systematic review. J Physiother. 2012;58:77-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1836-9553(12)70087-5">https://doi.org/10.1016/S1836-9553(12)70087-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pinto</surname>
+							<given-names>RZ</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>VC</given-names>
+						</name>
+						<name>
+							<surname>Franco</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Adams</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Maher</surname>
+							<given-names>CG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Patient-centered communication is associated with positive therapeutic alliance: A systematic review</article-title>
+					<source>J Physiother</source>
+					<year>2012</year>
+					<volume>58</volume>
+					<fpage>77</fpage>
+					<lpage>87</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1836-9553(12)70087-5">https://doi.org/10.1016/S1836-9553(12)70087-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30.</label>
+				<mixed-citation>O’Keeffe M, Cullinane P, Hurley J, Leahy I, Bunzli S, O’Sullivan PB, <italic>et al</italic>. What inﬂuences patient-therapist interactions in musculoskeletal physical therapy? Qualitative systematic review and meta-synthesis. Phys Ther. 2016;96:609-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20150240">https://doi.org/10.2522/ptj.20150240</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>O’Keeffe</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cullinane</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Hurley</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Leahy</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Bunzli</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>O’Sullivan</surname>
+							<given-names>PB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>What inﬂuences patient-therapist interactions in musculoskeletal physical therapy? Qualitative systematic review and meta-synthesis</article-title>
+					<source>Phys Ther</source>
+					<year>2016</year>
+					<volume>96</volume>
+					<fpage>609</fpage>
+					<lpage>622</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20150240">https://doi.org/10.2522/ptj.20150240</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31.</label>
+				<mixed-citation>Hall AM, Ferreira PH, Maher CG, Latimer J, Ferreira ML. The inﬂuence of the therapistpatient relationship on treatment outcome in physical rehabilitation: A systematic review. Phys Ther. 2010;90:1099-110. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20090245">https://doi.org/10.2522/ptj.20090245</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hall</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>PH</given-names>
+						</name>
+						<name>
+							<surname>Maher</surname>
+							<given-names>CG</given-names>
+						</name>
+						<name>
+							<surname>Latimer</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>ML.</given-names>
+						</name>
+					</person-group>
+					<article-title>The inﬂuence of the therapistpatient relationship on treatment outcome in physical rehabilitation: A systematic review</article-title>
+					<source>Phys Ther</source>
+					<year>2010</year>
+					<volume>90</volume>
+					<fpage>1099</fpage>
+					<lpage>1110</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20090245">https://doi.org/10.2522/ptj.20090245</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32.</label>
+				<mixed-citation>Witt CM, Martins F, Willich SN, Schützler L. Can I help you? Physicians’ expectations as predictor for treatment outcome. Eur J Pain. 2012;16:1455-66. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/j.1532-2149.2012.00152.x">https://doi.org/10.1002/j.1532-2149.2012.00152.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Witt</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Willich</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Schützler</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Can I help you? Physicians’ expectations as predictor for treatment outcome</article-title>
+					<source>Eur J Pain</source>
+					<year>2012</year>
+					<volume>16</volume>
+					<fpage>1455</fpage>
+					<lpage>1466</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/j.1532-2149.2012.00152.x">https://doi.org/10.1002/j.1532-2149.2012.00152.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33.</label>
+				<mixed-citation>Rosenthal R, Jacobson L. Pygmalion in the classroom. The Urban Review. 1968;3:16-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/bf02322211">https://doi.org/10.1007/bf02322211</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosenthal</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Jacobson</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Pygmalion in the classroom</article-title>
+					<source>The Urban Review</source>
+					<year>1968</year>
+					<volume>3</volume>
+					<fpage>16</fpage>
+					<lpage>20</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/bf02322211">https://doi.org/10.1007/bf02322211</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34.</label>
+				<mixed-citation>Sternberg E. A self-fulflling prophecy: Linking belief to behavior. Ann N Y Acad Sci. 2011;1234:98-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1749-6632.2011.06190.x">https://doi.org/10.1111/j.1749-6632.2011.06190.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sternberg</surname>
+							<given-names>E.</given-names>
+						</name>
+					</person-group>
+					<article-title>A self-fulflling prophecy: Linking belief to behavior</article-title>
+					<source>Ann N Y Acad Sci</source>
+					<year>2011</year>
+					<volume>1234</volume>
+					<fpage>98</fpage>
+					<lpage>99</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1749-6632.2011.06190.x">https://doi.org/10.1111/j.1749-6632.2011.06190.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35.</label>
+				<mixed-citation>Darlow B, Fullen BM, Dean S, Hurley DA, Baxter GD, Dowell A. The association between health care professional attitudes and beliefs and the attitudes and beliefs, clinical management, and outcomes of patients with low back pain: A systematic review. Eur J Pain. 2012;16:3-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejpain.2011.06.006">https://doi.org/10.1016/j.ejpain.2011.06.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Darlow</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fullen</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Dean</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hurley</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Baxter</surname>
+							<given-names>GD</given-names>
+						</name>
+						<name>
+							<surname>Dowell</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>The association between health care professional attitudes and beliefs and the attitudes and beliefs, clinical management, and outcomes of patients with low back pain: A systematic review</article-title>
+					<source>Eur J Pain</source>
+					<year>2012</year>
+					<volume>16</volume>
+					<fpage>3</fpage>
+					<lpage>17</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejpain.2011.06.006">https://doi.org/10.1016/j.ejpain.2011.06.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36.</label>
+				<mixed-citation>Puentedura EJ, Cleland JA, Landers MR, Mintken PE, Louw A, Fernández-de-Las-Peñas C. Development of a clinical prediction rule to identify patients with neck pain likely to beneft from thrust joint manipulation to the cervical spine. J Orthop Sports Phys Ther. 2012;42:577-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2519/jospt.2012.4243">https://doi.org/10.2519/jospt.2012.4243</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Puentedura</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Cleland</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Landers</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Mintken</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Louw</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Fernández-de-Las-Peñas</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Development of a clinical prediction rule to identify patients with neck pain likely to beneft from thrust joint manipulation to the cervical spine</article-title>
+					<source>J Orthop Sports Phys Ther</source>
+					<year>2012</year>
+					<volume>42</volume>
+					<fpage>577</fpage>
+					<lpage>592</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2519/jospt.2012.4243">https://doi.org/10.2519/jospt.2012.4243</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37.</label>
+				<mixed-citation>Bialosky JE, Bishop MD, Cleland JA. Individual expectation: An overlooked, but pertinent, factor in the treatment of individuals experiencing musculoskeletal pain. Phys Ther. 2010;90:1345-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20090306">https://doi.org/10.2522/ptj.20090306</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bialosky</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Bishop</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Cleland</surname>
+							<given-names>JA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Individual expectation: An overlooked, but pertinent, factor in the treatment of individuals experiencing musculoskeletal pain</article-title>
+					<source>Phys Ther</source>
+					<year>2010</year>
+					<volume>90</volume>
+					<fpage>1345</fpage>
+					<lpage>1355</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20090306">https://doi.org/10.2522/ptj.20090306</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38.</label>
+				<mixed-citation>Bishop MD, Bialosky JE, Cleland JA. Patient expectations of beneft from common interventions for low back pain and effects on outcome: Secondary analysis of a clinical trial of manual therapy interventions. J Man Manip Ther. 2011;19:20-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1179/106698110X12804993426929">https://doi.org/10.1179/106698110X12804993426929</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bishop</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Bialosky</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Cleland</surname>
+							<given-names>JA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Patient expectations of beneft from common interventions for low back pain and effects on outcome: Secondary analysis of a clinical trial of manual therapy interventions</article-title>
+					<source>J Man Manip Ther</source>
+					<year>2011</year>
+					<volume>19</volume>
+					<fpage>20</fpage>
+					<lpage>25</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1179/106698110X12804993426929">https://doi.org/10.1179/106698110X12804993426929</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39.</label>
+				<mixed-citation>Bishop MD, Mintken PE, Bialosky JE, Cleland JA. Patient expectations of beneft from interventions for neck pain and resulting inﬂuence on outcomes. J Orthop Sports Phys Ther. 2013;43:457-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2519/jospt.2013.4492">https://doi.org/10.2519/jospt.2013.4492</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bishop</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Mintken</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Bialosky</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Cleland</surname>
+							<given-names>JA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Patient expectations of beneft from interventions for neck pain and resulting inﬂuence on outcomes</article-title>
+					<source>J Orthop Sports Phys Ther</source>
+					<year>2013</year>
+					<volume>43</volume>
+					<fpage>457</fpage>
+					<lpage>465</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2519/jospt.2013.4492">https://doi.org/10.2519/jospt.2013.4492</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40.</label>
+				<mixed-citation>Colloca L, Benedetti F. How prior experience shapes placebo analgesia. Pain. 2006;124:126-33. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pain.2006.04.005">https://doi.org/10.1016/j.pain.2006.04.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Colloca</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Benedetti</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>How prior experience shapes placebo analgesia</article-title>
+					<source>Pain</source>
+					<year>2006</year>
+					<volume>124</volume>
+					<fpage>126</fpage>
+					<lpage>133</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pain.2006.04.005">https://doi.org/10.1016/j.pain.2006.04.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41.</label>
+				<mixed-citation>Stenberg G, Fjellman-Wiklund A, Ahlgren C. “Getting confrmation”: gender in expectations and experiences of healthcare for neck or back patients. J Rehabil Med. 2012 Feb;44:163-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2340/16501977-0912">https://doi.org/10.2340/16501977-0912</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stenberg</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Fjellman-Wiklund</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ahlgren</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>“Getting confrmation”: gender in expectations and experiences of healthcare for neck or back patients.</article-title>
+					<source>J Rehabil Med</source>
+					<year>2012</year>
+					<volume>44</volume>
+					<fpage>163</fpage>
+					<lpage>171</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2340/16501977-0912">https://doi.org/10.2340/16501977-0912</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42.</label>
+				<mixed-citation>Hush JM, Cameron K, Mackey M. Patient satisfaction with musculoskeletal physical therapy care: A systematic review. Phys Ther. 2011;91:25-36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20100061">https://doi.org/10.2522/ptj.20100061</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hush</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Cameron</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Mackey</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Patient satisfaction with musculoskeletal physical therapy care: A systematic review</article-title>
+					<source>Phys Ther</source>
+					<year>2011</year>
+					<volume>91</volume>
+					<fpage>25</fpage>
+					<lpage>36</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20100061">https://doi.org/10.2522/ptj.20100061</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43.</label>
+				<mixed-citation>Hills R, Kitchen S. Satisfaction with outpatient physiotherapy: Focus groups to explore the views of patients with acute and chronic musculoskeletal conditions. Physiother Theory Pract. 2007;23:1-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/09593980601023705">https://doi.org/10.1080/09593980601023705</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hills</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Kitchen</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<article-title>Satisfaction with outpatient physiotherapy: Focus groups to explore the views of patients with acute and chronic musculoskeletal conditions</article-title>
+					<source>Physiother Theory Pract</source>
+					<year>2007</year>
+					<volume>23</volume>
+					<fpage>1</fpage>
+					<lpage>20</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/09593980601023705">https://doi.org/10.1080/09593980601023705</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44.</label>
+				<mixed-citation>McKinnon AL. Client satisfaction with physical therapy services. Physical &amp; Occupational Therapy in Geriatrics. 2001;19:23-37. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/j148v19n02_02">https://doi.org/10.1080/j148v19n02_02</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McKinnon</surname>
+							<given-names>AL.</given-names>
+						</name>
+					</person-group>
+					<article-title>Client satisfaction with physical therapy services</article-title>
+					<source>Physical &amp; Occupational Therapy in Geriatrics</source>
+					<year>2001</year>
+					<volume>19</volume>
+					<fpage>23</fpage>
+					<lpage>37</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/j148v19n02_02">https://doi.org/10.1080/j148v19n02_02</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45.</label>
+				<mixed-citation>Roberts L, Bucksey SJ. Communicating with patients: What happens in practice? Phys Ther. 2007;87:586-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20060077">https://doi.org/10.2522/ptj.20060077</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roberts</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bucksey</surname>
+							<given-names>SJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Communicating with patients: What happens in practice?</article-title>
+					<source>Phys Ther</source>
+					<year>2007</year>
+					<volume>87</volume>
+					<fpage>586</fpage>
+					<lpage>594</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20060077">https://doi.org/10.2522/ptj.20060077</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46.</label>
+				<mixed-citation>Roberts LC, Whittle CT, Cleland J, Wald M. Measuring verbal communication in initial physical therapy encounters. Phys Ther. 2013;93:479-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20120089">https://doi.org/10.2522/ptj.20120089</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roberts</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Whittle</surname>
+							<given-names>CT</given-names>
+						</name>
+						<name>
+							<surname>Cleland</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wald</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Measuring verbal communication in initial physical therapy encounters</article-title>
+					<source>Phys Ther</source>
+					<year>2013</year>
+					<volume>93</volume>
+					<fpage>479</fpage>
+					<lpage>491</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2522/ptj.20120089">https://doi.org/10.2522/ptj.20120089</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47.</label>
+				<mixed-citation>Amanzio M, Pollo A, Maggi G, Benedetti F. Response variability to analgesics: A role for nonspecifc activation of endogenous opioids. Pain. 2001;90:205-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0304-3959(00)00486-3">https://doi.org/10.1016/S0304-3959(00)00486-3 </ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amanzio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pollo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Maggi</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Benedetti</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Response variability to analgesics: A role for nonspecifc activation of endogenous opioids</article-title>
+					<source>Pain</source>
+					<year>2001</year>
+					<volume>90</volume>
+					<fpage>205</fpage>
+					<lpage>215</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0304-3959(00)00486-3">https://doi.org/10.1016/S0304-3959(00)00486-3 </ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48.</label>
+				<mixed-citation>Wand BM, Tulloch VM, George PJ, Smith AJ, Goucke R, O’Connell NE, <italic>et al</italic>. Seeing it helps: Movement-related back pain is reduced by visualization of the back during movement. Clin J Pain. 2012;28:602-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/AJP.0b013e31823d480c">https://doi.org/10.1097/AJP.0b013e31823d480c</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wand</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Tulloch</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>George</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Goucke</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>O’Connell</surname>
+							<given-names>NE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Seeing it helps: Movement-related back pain is reduced by visualization of the back during movement</article-title>
+					<source>Clin J Pain</source>
+					<year>2012</year>
+					<volume>28</volume>
+					<fpage>602</fpage>
+					<lpage>608</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/AJP.0b013e31823d480c">https://doi.org/10.1097/AJP.0b013e31823d480c</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49.</label>
+				<mixed-citation>Roger J, Darfour D, Dham A, Hickman O, Shaubach L, Shepard K. Physiotherapists’ use of touch in inpatient settings. Physiother Res Int. 2002;7:170-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pri.253">https://doi.org/10.1002/pri.253</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roger</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Darfour</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dham</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hickman</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Shaubach</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Shepard</surname>
+							<given-names>K.</given-names>
+						</name>
+					</person-group>
+					<article-title>Physiotherapists’ use of touch in inpatient settings</article-title>
+					<source>Physiother Res Int</source>
+					<year>2002</year>
+					<volume>7</volume>
+					<fpage>170</fpage>
+					<lpage>186</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pri.253">https://doi.org/10.1002/pri.253</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50.</label>
+				<mixed-citation>Gallace A, Spence C. The science of interpersonal touch: An overview. Neurosci Biobehav Rev. 2010;34:246-59. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2008.10.004">https://doi.org/10.1016/j.neubiorev.2008.10.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gallace</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Spence</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>The science of interpersonal touch: An overview</article-title>
+					<source>Neurosci Biobehav Rev</source>
+					<year>2010</year>
+					<volume>34</volume>
+					<fpage>246</fpage>
+					<lpage>259</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2008.10.004">https://doi.org/10.1016/j.neubiorev.2008.10.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51.</label>
+				<mixed-citation>Schweitzer M, Gilpin L, Frampton S. Healing spaces: Elements of environmental design that make an impact on health. J Altern Complement Med. 2004;10(Suppl.1):S71-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/1075553042245953">https://doi.org/10.1089/1075553042245953</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schweitzer</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gilpin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Frampton</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<article-title>Healing spaces: Elements of environmental design that make an impact on health</article-title>
+					<source>J Altern Complement Med</source>
+					<year>2004</year>
+					<volume>10</volume>
+					<supplement>Suppl.1</supplement>
+					<fpage>S71</fpage>
+					<lpage>S83</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/1075553042245953">https://doi.org/10.1089/1075553042245953</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52.</label>
+				<mixed-citation>Dijkstra K, Pieterse M, Pruyn A. Physical environmental stimuli that turn healthcare facilities into healing environments through psychologically mediated effects: Systematic review. J Adv Nurs. 2006;56:166-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2648.2006.03990.x">https://doi.org/10.1111/j.1365-2648.2006.03990.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dijkstra</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Pieterse</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pruyn</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>Physical environmental stimuli that turn healthcare facilities into healing environments through psychologically mediated effects: Systematic review</article-title>
+					<source>J Adv Nurs</source>
+					<year>2006</year>
+					<volume>56</volume>
+					<fpage>166</fpage>
+					<lpage>181</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2648.2006.03990.x">https://doi.org/10.1111/j.1365-2648.2006.03990.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53.</label>
+				<mixed-citation>Carlino E, Benedetti F. Different contexts, different pains, different experiences. Neuroscience. 2016;338:19-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2016.01.053">https://doi.org/10.1016/j.neuroscience.2016.01.053</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carlino</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Benedetti</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Different contexts, different pains, different experiences</article-title>
+					<source>Neuroscience</source>
+					<year>2016</year>
+					<volume>338</volume>
+					<fpage>19</fpage>
+					<lpage>26</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2016.01.053">https://doi.org/10.1016/j.neuroscience.2016.01.053</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54.</label>
+				<mixed-citation>Linde K, Fässler M, Meissner K. Placebo interventions, placebo effects and clinical practice. Philos Trans R Soc Lond B Biol Sci. 2011;366:1905-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/doi:10.1098/rstb.2010.0383">https://doi.org/doi:10.1098/rstb.2010.0383</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Linde</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Fässler</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Meissner</surname>
+							<given-names>K.</given-names>
+						</name>
+					</person-group>
+					<article-title>Placebo interventions, placebo effects and clinical practice</article-title>
+					<source>Philos Trans R Soc Lond B Biol Sci</source>
+					<year>2011</year>
+					<volume>366</volume>
+					<fpage>1905</fpage>
+					<lpage>1912</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/doi:10.1098/rstb.2010.0383">https://doi.org/doi:10.1098/rstb.2010.0383</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55.</label>
+				<mixed-citation>Rossettini G, Testa M. Manual therapy RCTs: Should we control placebo in placebo control? Eur J Phys Rehabil Med. 2018;54:500-1. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.23736/S1973-9087.17.05024-9">https://doi.org/10.23736/S1973-9087.17.05024-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rossettini</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Testa</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Manual therapy RCTs: Should we control placebo in placebo control?</article-title>
+					<source>Eur J Phys Rehabil Med</source>
+					<year>2018</year>
+					<volume>54</volume>
+					<fpage>500</fpage>
+					<lpage>501</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.23736/S1973-9087.17.05024-9">https://doi.org/10.23736/S1973-9087.17.05024-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B56">
+				<label>56.</label>
+				<mixed-citation>Rossettini G, Camerone EM, Carlino E, Benedetti F, Testa M. Context matters: The psychoneurobiological determinants of placebo, nocebo and context-related effects in physiotherapy. Arch Physiother. 2020;10:11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s40945-020-00082-y">https://doi.org/10.1186/s40945-020-00082-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rossettini</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Camerone</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Carlino</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Benedetti</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Testa</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Context matters: The psychoneurobiological determinants of placebo, nocebo and context-related effects in physiotherapy</article-title>
+					<source>Arch Physiother</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<fpage>11</fpage>
+					<lpage>11</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s40945-020-00082-y">https://doi.org/10.1186/s40945-020-00082-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B57">
+				<label>57.</label>
+				<mixed-citation>Schedlowski M, Enck P, Rief W, Bingel U. Neuro-bio-behavioral mechanisms of placebo and nocebo responses: Implications for clinical trials and clinical practice. Pharmacol Rev. 2015;67:697-730. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1124/pr.114.009423">https://doi.org/10.1124/pr.114.009423</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schedlowski</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Enck</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Rief</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Bingel</surname>
+							<given-names>U.</given-names>
+						</name>
+					</person-group>
+					<article-title>Neuro-bio-behavioral mechanisms of placebo and nocebo responses: Implications for clinical trials and clinical practice</article-title>
+					<source>Pharmacol Rev</source>
+					<year>2015</year>
+					<volume>67</volume>
+					<fpage>697</fpage>
+					<lpage>730</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1124/pr.114.009423">https://doi.org/10.1124/pr.114.009423</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B58">
+				<label>58.</label>
+				<mixed-citation>Durning SJ, Artino AR Jr, Pangaro LN, van der Vleuten C, Schuwirth L. Perspective: Redefning context in the clinical encounter: Implications for research and training in medical education. Acad Med. 2010;85:894-901. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/ACM.0b013e3181d7427c">https://doi.org/10.1097/ACM.0b013e3181d7427c</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Durning</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Artino</surname>
+							<given-names>AR</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Pangaro</surname>
+							<given-names>LN</given-names>
+						</name>
+						<name>
+							<surname>van der Vleuten</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Schuwirth</surname>
+							<given-names>L.</given-names>
+						</name>
+					</person-group>
+					<article-title>Perspective: Redefning context in the clinical encounter: Implications for research and training in medical education</article-title>
+					<source>Acad Med</source>
+					<year>2010</year>
+					<volume>85</volume>
+					<fpage>894</fpage>
+					<lpage>901</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/ACM.0b013e3181d7427c">https://doi.org/10.1097/ACM.0b013e3181d7427c</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Andreu M, Policastro P, Días T, Pardo YTeoría de la complejidad en la atención del paciente con dolor musculoesquelético. Biomédica. 2022;42:562-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6440">https://doi.org/10.7705/biomedica.6440</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<p>Este proyecto fue parte del “Programa Formando UNLaM” (edición 2021), que tiene como finalidad el otorgamiento de becas para el avance y la finalización de las tesis de posgrado de docentes de la Universidad Nacional de La Matanza, Buenos Aires, Argentina. Esta ayuda fue otorgada al autor Mauro Andreu.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

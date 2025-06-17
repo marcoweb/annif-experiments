@@ -1,0 +1,21 @@
+#ITI#The consequences of neglected confounding and interactions in mixed-effects meta-regression: An illustrative example#FTI#
+#IRE# Analysts seldom include interaction terms in their meta-regression model, which can introduce bias if an interaction is present. We illustrate this by reanalysing a meta-regression study in acute heart failure. Based on a total of 285 studies, the 1-year mortality rate related to acute heart failure is considered and the connection to the study-level covariates year of recruitment and average age of study participants are of interest. We show that neglecting a possibly confounding variable and an interaction term might lead to erroneous inference and conclusions. Based on our results and accompanying simulations, we recommend to include possible confounders and interaction terms, whenever they are plausible, in mixed-effects meta-regression models#FRE#
+#IPC# acute heart failure; confounding; interactions; meta-regression#FPC#
+#IRF# Davey J., Turner R.M., Clarke M.J., Higgins J., Characteristics of meta-analyses and their component studies in the cochrane database of systematic reviews: a cross-sectional, descriptive analysis, BMC Med Res Methodol, 11, 1, pp. 1-11, (2011); 
+Andreas S., Rover C., Heinz J., Straube S., Watz H., Friede T., Decline of COPD exacerbations in clinical trials over two decades–a systematic review and meta-regression, Respir Res, 20, 1, pp. 1-11, (2019); 
+Kimmoun A., Takagi K., Gall E., Et al., Temporal trends in mortality and readmission after acute heart failure: a systematic review and meta-regression in the past four decades, Eur J Heart Fail, 23, pp. 420-431, (2021); 
+Greene W.H., Econometric Analysis, Ebook, (2019); 
+Greenland S., Robins J.M., Identifiability, exchangeability, and epidemiological confounding, Int J Epidemiol, 15, 3, pp. 413-419, (1986); 
+Friedrich S., Antes G., Behr S., Et al., Is there a role for statistics in artificial intelligence?, Advances in Data Analysis and Classification, 16, 4, pp. 823-846, (2022); 
+Durlak J.A., Lipsey M.W., A practitioner's guide to meta-analysis, Am J Community Psychol, 19, pp. 291-332, (1991); 
+Raudenbush S., Analyzing effect sizes: random-effects models, The Handbook of Research Synthesis and Meta-Analysis, pp. 295-315, (2009); 
+Berkey C., Hoaglin D., Mosteller F., Colditz G., A random-effects regression model for meta-analysis, Stat Med, 14, pp. 395-411, (1995); 
+Fahrmeir L., Kneib T., Lang S., Marx B., Regression: Models, (2013); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synth Methods, 7, 1, pp. 55-79, (2016); 
+Knapp G., Hartung J., Improved tests for a random effects meta-regression with a single covariate, Stat Med, 22, 17, pp. 2693-2710, (2003); 
+Viechtbauer W., Lopez-Lopez J., Sanchez-Meca J., Marin-Martinez F., A comparison of procedures to test for moderators in mixed-effects meta-regression models, Psychol Methods, 20, pp. 360-374, (2015); 
+Welz T., Pauly M., A simulation study to compare robust tests for linear mixed-effects meta-regression, Res Synth Methods, 11, 3, pp. 331-342, (2020); 
+R: A Language and Environment for Statistical Computing, (2021); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Aiken L., West S., Reno R., Multiple Regression: Testing and Interpreting Interactions, (1991); 
+Tipton E., Pustejovsky J.E., Ahmadi H., Current practices in meta-regression in psychology, education, and medicine, Res Synth Methods, 10, 2, pp. 180-194, (2019)#FRF#

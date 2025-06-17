@@ -1,0 +1,2184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v39i2.3990</article-id>
+			<article-id pub-id-type="publisher-id">00016</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículos originales</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Desarrollo de algoritmos clínicos para el diagnóstico del dengue en Colombia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Development of clinical algorithms for the diagnosis of dengue in Colombia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Caicedo</surname>
+						<given-names>Diana María</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">¹</xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Méndez</surname>
+						<given-names>Andrés Camilo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2">²</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Tovar</surname>
+						<given-names>José Rafael</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2">²</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Osorio</surname>
+						<given-names>Lyda</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">¹</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1 </label>
+				<institution content-type="original">Grupo de Epidemiología y Salud Poblacional, Escuela de Salud Pública, Universidad del Valle, Cali, Colombia; Doctorado en Salud, Facultad de Salud Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv2">Grupo de Epidemiología y Salud Poblacional</institution>
+				<institution content-type="orgdiv1">Escuela de Salud Pública</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Escuela de Estadística, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgdiv1">Escuela de Estadística</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Diana María Caicedo, Calle 4b No 36-140, edificio 118, oficina 215, Barrio San Fernando, Cali, Colombia Teléfono: (312) 721 7092 y (572) 554 2476, extensión 120 <email>dmcaicedo@grupogesp.org</email>
+				</corresp>
+				 <fn fn-type="conflict">
+				<p> Los autores declaran no tener conflicto de intereses.</p>
+        </fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jan-Mar</season>
+				<year>2019</year>
+			</pub-date>
+			<volume>39</volume>
+			<issue>1</issue>
+			<fpage>170</fpage>
+			<lpage>185</lpage>
+			<history>
+				<date date-type="received">
+					<day>08</day>
+					<month>08</month>
+					<year>2017</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>08</month>
+					<year>2018</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+				<title><bold>Introducción</bold></title>
+				<p>Dado el aumento de la incidencia y la mortalidad por dengue, su diagnóstico es relevante para los países endémicos. Las clasificaciones clínicas y las pruebas de laboratorio existentes tienen un desempeño variable en la práctica clínica, pues su sensibilidad fluctúa entre 45 y 98 %, y su especificidad, entre 4 y 98 %, lo cual se debe, en parte, a la diversidad de contextos en los que se utilizan.</p>
+			</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p>Desarrollar algoritmos clínicos para el diagnóstico del dengue en el contexto colombiano.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos</title>
+					<p>Se hizo un estudio transversal a partir de fuentes secundarias.</p>
+					<p>Se construyeron algoritmos clínicos de diagnóstico del dengue con base en métodos bayesianos que combinaron síntomas, signos y parámetros del hemograma, y se comparó su exactitud diagnóstica con la de las pruebas de referencia. Se hizo una validación externa del algoritmo de mayor exactitud y sensibilidad, comparándolo con la clasificación clínica de la Organización Mundial de la Salud de 1997 y la del 2009, con la guía colombiana del 2010 y con la escala diagnóstica propuesta por el Ministerio de Salud y Protección Social de Colombia en el 2013.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>Se generaron cuatro algoritmos, dos de signos y síntomas y dos que incluyeron el conteo de leucocitos (≤4.500/mm3) o de plaquetas (≤60.000/mm3). El algoritmo de mayor exactitud incluyó los parámetros del hemograma, con una sensibilidad de 76,5 % (IC95% 71,9-80,5) y una especificidad de 46,0 % (IC95% 37,6-54,7). En la validación externa, la sensibilidad fue de 11,1 % (IC95% 4,9-20,7) y la especificidad fue de 91,9 % (IC95% 87,5-93,9). La escala del Ministerio tuvo una sensibilidad de 76,4 % (IC95% 64,9-85,6) y una especificidad de 38,0 % (IC95% 32,8-43,4).</p>
+				</sec>
+				<sec>
+					<title>Conclusión. </title>
+					<p>La inclusión de los parámetros del hemograma mejoró la sensibilidad de</p>
+					<p>los algoritmos de diagnóstico basados en los signos y los síntomas. Sin embargo, el diagnóstico clínico del dengue sigue siendo un reto para la investigación en salud.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title><bold>Introduction:</bold></title>
+					<p>Due to the increase in dengue incidence and mortality, its diagnosis is relevant for endemic countries. Clinical classifications and laboratory tests have a variable performance in clinical practice with a sensitivity level between 45% and 98%, and a specificity level between 4% and 98% partly due to the variety of contexts where they are applied.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To develop clinical algorithms for the diagnosis of dengue in the Colombian context.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>A cross-sectional study was conducted based on secondary sources. We constructed clinical diagnostic algorithms of dengue based on Bayesian methods combining symptoms, signs, and blood count parameters, and then we compared them in terms of diagnostic accuracy with gold standard tests. In addition, an external validation of the</p>
+					<p>algorithm with greater accuracy and sensibility was performed comparing it with the WHO-1997 and the WHO-2009 clinical classifications, the Colombian guide for 2010, and the diagnostic scale recommended by the <italic>Ministerio de Salud y Protección Social</italic> of Colombia for 2013.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>Four algorithms were generated, two for signs and symptoms, and two that included leukocytes (≤4,500/mm3) and/or platelets (≤160,000/mm3) counts. The most accurate algorithm included blood count parameters with a sensitivity of 76.5% (95%CI: 71.9-80.5) and a specificity of 46.0% (95%CI: 37.6-54.7). In the external validation we found a sensitivity of 11.1% (95%CI: 4.9-20.7) and a specificity of 91.9% (95%CI: 87.5- 93.9). The scale of the <italic>Ministerio de Salud</italic> had a sensitivity of 76.4% (95%CI: 64.9-85.6) and a specificity of 38.0% (95%CI: 32.8-43.4).</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>The inclusion of blood count parameters improved the sensitivity of diagnostics algorithms based on signs and symptoms. Clinical diagnosis of dengue remains a challenge for health research.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Dengue/diagnóstico</kwd>
+				<kwd>algoritmos</kwd>
+				<kwd>teorema de Bayes</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Dengue/diagnosis</kwd>
+				<kwd>algorithms</kwd>
+				<kwd>Bayes theorem</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="59"/>
+				<page-count count="16"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El dengue constituye una emergencia de salud pública a nivel internacional debido a su rápida propagación y a los elevados costos humanos y económicos asociados <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Actualmente, el dengue es endémico aproximadamente en 130 países de las regiones tropicales y subtropicales. En el 2013, se estimaba que cada año 390 millones de personas se infectaban con el virus del dengue en el mundo, y que cerca de un millón de casos eran graves, con un promedio anual de 9.221 muertes <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. En las últimas cinco décadas ha habido una tendencia al aumento de su incidencia y de su mortalidad <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>En Colombia los departamentos con mayor prevalencia de dengue son Valle del Cauca, Santander, Antioquia, Tolima y Huila. En el 2016, el Instituto Nacional de Salud reportó una incidencia de 366,2 casos por 100.000 habitantes <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, mayor que la del año anterior, que fue de 355 por cada 100.000 <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. En el 2016 se reportaron 102.775 casos de dengue, 1.047 de ellos graves, y 60 muertes por la enfermedad; además, se estudiaron 139 fallecimientos más por dengue probable <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+		<p>El diagnóstico del dengue es relevante en los países donde la enfermedad es endémica. Sin embargo, la amplia gama de formas clínicas de la enfermedad y la presencia de otras infecciones con presentación clínica similar (leptospirosis, malaria, chikungunya y Zika) en las mismas zonas geográficas, dificultan su diagnóstico acertado <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Hoy se emplea la clasificación concebida en el 2009 por la Organización Mundial de la Salud (OMS) para mejorar la atención de los pacientes con dengue <xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Su desempeño se ha evaluado en varios estudios retrospectivos y prospectivos <xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Se encontró que tiene una alta sensibilidad (87 a 95 %) pero una baja especificidad (6 a 20 %), aunque debe señalarse que fue diseñado para medir la gravedad clínica del dengue en personas con sospecha clínica y no laexactitud diagnóstica diferencial.</p>
+		<p>Por otra parte, hay pruebas de laboratorio para el diagnóstico del dengue cuyo desempeño en la práctica clínica es variable. Entre estas pruebas que detectan la proteína NS1, la inmunoglobulina M (IgM) o la inmunoglobulina G (IgG), se cuentan la ELISA (<italic>Enzyme-Linked Immuno Sorbent Assay</italic>) y la RT- PCR (<italic>Reverse Transcription Polymerase Chain Reaction</italic>), que son sensibles y específicas pero requieren una infraestructura especializada y personal calificado, lo que dificulta su disponibilidad en los centros de atención <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+		<p>Hay varias pruebas rápidas disponibles comercialmente, pero su exactitud diagnóstica es variable, con porcentajes de falsos negativos que alcanzan hasta un 50 % <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Por lo tanto, el diagnóstico de dengue, en la práctica, sigue siendo predominantemente clínico.</p>
+		<p>En diversos estudios se han propuesto puntajes o algoritmos clínicos para el diagnóstico del dengue elaborados mediante diferentes metodologías, pero su aplicación ha sido limitada debido a la falta de validación externa en la práctica médica de rutina <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B38"><sup>38</sup></xref> (<xref ref-type="table" rid="t1">cuadro 1</xref>). Algunos de estos algoritmos clínicos difieren en cuanto a los signos y síntomas según las poblaciones a partir de las cuales fueron desarrollados, variabilidad que también se presenta en el momento de validarlos en otros contextos.</p>
+		<p>
+			<table-wrap id="t1">
+				<label>Cuadro 1</label>
+				<caption>
+					<title>Sensibilidad y especificidad de los algoritmos clínicos publicados</title>
+				</caption>
+				<graphic xlink:href="0120-4157-bio-39-01-00170-gt1.jpg"/>
+			</table-wrap>
+		</p>
+		<p>Por ello, es necesario mejorar el diagnóstico del dengue utilizando datos clínicos generados en las estudios o servicios de salud de Colombia, determinando las variables clínicas que clasifican mejor a los individuos con la enfermedad y usando métodos alternos para el desarrollo de algoritmos, tales como aquellos enmarcados en el paradigma estadístico bayesiano. En este marco, el propósito del estudio fue establecer algoritmos clínicos alternativos para el diagnóstico del dengue en el contexto colombiano. </p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title>Diseño de estudio y población</title>
+				<p>Se hizo un estudio transversal con fuentes secundarias a partir de dos bases de datos de estudios prospectivos en pacientes febriles en los tres niveles de atención.</p>
+				<p>La primera base de datos fue la de la cohorte multicéntrica de pacientes con síndrome febril agudo, analizada por la Red Aedes entre 2003 y 2011 en las zonas endémicas de Colombia: Bucaramanga, Neiva, Cali y Palmira <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. Dicha cohorte estuvo integrada por pacientes con un cuadro febril de menos de 96 horas, con impresión diagnóstica de dengue, virosis o fiebre de origen desconocido y sin enfermedades concomitantes, o diagnosticados con dengue durante las primeras 24 horas de hospitalización. En el momento del ingreso, se hizo una valoración médica y se recopiló la información sobre signos y síntomas,así como muestras sanguíneas para el diagnóstico del dengue.Esta base de datos se utilizó para la construcción de los algoritmos de diagnóstico.</p>
+				<p>La segunda base de datos fue la de un estudio prospectivo de sujetos febriles realizado en Cali, Colombia, entre marzo y diciembre de 2012 <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>, en el cual se recolectó información sobre los signos, los síntomas y los parámetros de laboratorio, a partir de la historia clínica y de las fichas de notificación del Sistema Nacional de Vigilancia en Salud Pública (Sivigila), y se analizaron las pruebas confirmatorias de dengue. Esta base de datos se utilizó para la validación externa del algoritmo clínico y su comparación con otras definiciones de dengue.</p>
+				<p>Se elaboraron bases de datos anónimas para salvaguardar la confidencialidad de los datos de los participantes. El presente estudio fue aprobado por el Comité de Ética de la Universidad del Valle.</p>
+			</sec>
+			<sec>
+				<title>Estándar de referencia</title>
+				<p>El estándar de referencia de las bases de datos correspondió a un algoritmo de pruebas diagnósticas. En la base de datos de la cohorte de la Red Aedes <xref ref-type="bibr" rid="B39"><sup>39</sup></xref> se confirmó el dengue por seroconversión de negativo a positivo o por cuadruplicación de los títulos de anticuerpos contra el dengue en muestras de sueros pareados mediante ELISA de captura de IgM contra dengue de Panbio™(Panbio Dengue IgM Capture ELISA™) <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>, utilizando diluciones seriadas al doble de las muestras de suero de pacientes en fase aguda y en convalecencia en la misma placa.</p>
+				<p>En las muestras de aquellos en fase aguda, se confirmó el dengue cuando se registraban resultados positivos en la RT-PCR anidada (ensayo interno) utilizando los iniciadores de Lancioti <xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref> y los reactivos comerciales AmpliTaq Gold DNA Polymerase with Buffer II and MgCl2, y 5 U/μl (1.000 U) (Life Technologies, Cat. No. N8080247), QIAamp® Viral RNA Mini Kit (Qiagen, Cat. No. 52906), y AMV Reverse Transcriptase (Promega, Cat No. M5108).</p>
+				<p>La infección se confirmó, además, con los resultados positivos de ELISA para la captura del antígeno NS1 del dengue (Panbio™) <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>, o los de la prueba de inhibición de la hemaglutinación (títulos≥1:2.560).</p>
+				<p>En la segunda base de datos, el dengue se confirmó con los resultados positivos en la detección del antígeno NS1-ELISA (29 casos), con los de la RT-PCR (<italic>Centers for Disease Control and Prevention</italic>, CDC) (cuatro casos) <xref ref-type="bibr" rid="B45"><sup>45</sup></xref> o con los de la RT-PCR anidada interna (46 casos). </p>
+				<p>Las pruebas diagnósticas se practicaron en el laboratorio del Grupo de Investigación en Virus Emergentes y Enfermedades (VIREM) de la Universidad el Valle. </p>
+			</sec>
+			<sec>
+				<title>Desarrollo de los algoritmos clínicos </title>
+				<p>Se revisó la bibliografía y se consultaron 12 expertos académicos y médicos clínicos en dengue para determinar los signos, los síntomas y los parámetros del hemograma que se relacionan con la enfermedad con mayor frecuencia. Con dicha información, se crearon categorías de signos y síntomas que agruparon manifestaciones clínicas similares. </p>
+				<p>Con los datos disponibles en la base de datos se establecieron ocho categorías: </p>
+				<p>
+					<list list-type="order">
+						<list-item>
+							<p>En dolor general (cefalea, dolor retroocular, mialgias yartralgias);</p>
+						</list-item>
+						<list-item>
+							<p>malestar general (hiporexia yescalofríos);</p>
+						</list-item>
+						<list-item>
+							<p>erupción cutánea (exantema, eritemafacial);</p>
+						</list-item>
+						<list-item>
+							<p>signos de alarma (dolor abdominal, vómito persistente,hepatomegalia);</p>
+						</list-item>
+						<list-item>
+							<p>alteración neurológica (somnolencia, irritabilidad,convulsiones);</p>
+						</list-item>
+						<list-item>
+							<p>manifestaciones hemorrágicas (cualquier tipo de sangrado,incluidas las petequias, y resultado positivo en la prueba del torniquete);</p>
+						</list-item>
+						<list-item>
+							<p>ausencia de ictericia,y</p>
+						</list-item>
+						<list-item>
+							<p>ausencia de síntomas respiratorios o conjuntivitis (tos, rinorrea, odinofagia e hiperemiaconjuntival).</p>
+						</list-item>
+					</list>
+				</p>
+				<p>En este algoritmo, los dos últimos signos y síntomas contribuían a establecer el diagnóstico diferencial frente a otras enfermedades.</p>
+				<p>A partir de la base de datos de la cohorte de la Red Aedes, se crearon variables binarias para cada una de las categorías. Se codificó como 1 la presencia de, por lo menos, un signo o un síntoma dentro de cada categoría, y como 0, la ausencia de todos estos en las categorías relacionadas con dengue. En las categorías para diagnóstico diferencial, la ausencia de signos y síntomas se codificó como 1 y, su presencia, como 0.</p>
+				<p>En cuanto a los parámetros del hemograma, se definieron los valores de leucocitos y plaquetas relacionados con el dengue con la ayuda de expertos clínicos, que valoraron los resultados del análisis exploratorio de la distribución del conteo de leucocitos y de plaquetas registrado en la base de datos de la Red Aedes (1.373 observaciones: mediana de leucocitos, 4.000/mm3, y de plaquetas,160.000/mm3), así como los resultados de una modelación estadística que asume la dependencia lineal entre estas variables (mediana de leucocitos: 4.634/mm3; mediana de plaquetas:183.900/mm3). Condichainformación,losexpertosestablecieronlospuntosdecorteparalos leucocitos en ≤4.500/mm3 y, para las plaquetas, en ≤160.000/mm3. En este caso, los valores inferiores o iguales a los establecidos se codificaron como 1.</p>
+				<p>Una vez definidas y creadas las categorías, se construyeron algoritmos clínicos para clasificar a los individuos con dengue mediante métodos bayesianos. Con la fórmula de Bayes para el caso discreto <xref ref-type="bibr" rid="B46"><sup>46</sup></xref> se estimó la probabilidad predictiva de contraer dengue, con base en la combinación de las categorías de síntomas y signos, y asumiendo la independencia condicional. Posteriormente, los valores de leucocitos y plaquetas se incorporaron al cálculo de las probabilidades predictivas, esta vez considerando la naturaleza secuencial del teorema de Bayes.</p>
+				<p>Una vez calculadas las probabilidades predictivas, se utilizaron curvas ROC (<italic>Receiver Operating Characteristic</italic>) e índices de Youden <xref ref-type="bibr" rid="B47"><sup>47</sup></xref> para obtener el valor de la probabilidad predictiva o punto de corte a partir del cual se dio la dicotomía de las probabilidades, generando variables binarias que permitían clasificar a los individuos como caso de dengue o caso sin dengue.</p>
+				<p>Con este procedimiento se establecieron 62 combinaciones posiblemente relacionadas con el dengue. Posteriormente, a cada individuo del archivo de datos (con dengue o sin él), se le asignó la probabilidad de su combinación; además, se evaluó la cantidad de casos confirmados con dengue o sin él para cada combinación representada por individuos en la base de datos.</p>
+				<p>En las 62 combinaciones de categorías se evaluó la frecuencia de la aparición de individuos con una combinación dada en cada una de las poblaciones (con dengue y sin él) y se observó que las frecuencias no eran estadísticamente diferentes en algunos casos, razón por la que el número de combinaciones se redujo de 62 a 17. Además, se validaron las combinaciones resultantes con un grupo de expertos.</p>
+				<p>Los algoritmos generados con las ocho categorías se denominaron así: calculadora dengue A1 (ocho categorías de signos y síntomas) y calculadora dengue A2 (ocho categorías más la probabilidad de los parámetros de interés del hemograma). Asimismo, se construyeron dos algoritmos con siete categorías, eliminando la de malestar general por recomendación de los expertos, los cuales recibieron la denominación de calculadora dengue A3 (siete categorías de signos y síntomas) y calculadora dengue A4 (siete categorías más la probabilidad de los parámetros de interés del hemograma).</p>
+				<p>Para los algoritmos clínicos, se definió como caso de dengue el que tuviera una probabilidad predictiva mayor o igual al punto de corte establecido con la ayuda de las curvas ROC, el índice de Youden y la opinión de los expertos clínicos.</p>
+				<p>Para el algoritmo que incluía las variables del hemograma, se consideró esta misma condición; no obstante, cuando los parámetros se habían codificados como 0, las combinaciones situadas por debajo del punto de corte se consideraron como “no caso”.</p>
+			</sec>
+			<sec>
+				<title>Clasificaciones clínicas del dengue</title>
+				<p>Los dos algoritmos clínicos de diagnóstico desarrollados se compararon con las clasificaciones de caso de la OMS de los años 1997 (48) y 2009 <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, con la de la guía colombiana de atención de pacientes con dengue de 2010 (49) y con la escala diagnóstica propuesta por el Ministerio de Salud y Protección Social de Colombia en el 2013 <xref ref-type="bibr" rid="B50"><sup>50</sup></xref>. Cada una de las clasificaciones se describe en el <xref ref-type="table" rid="t2">cuadro 2</xref>.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Definición de caso de dengue según las clasificaciones de la OMS y las guías de Colombia MSPS: Ministerio de Salud y Protección Social</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00170-gt2.jpg"/>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>MSPS: Ministerio de Salud y Protección Social</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Plan de análisis</title>
+				<p>Se hizo un análisis descriptivo de las manifestaciones clínicas y los parámetros de interés en el hemograma (leucocitos y plaquetas) de cada grupo de pacientes (con dengue y sin él) incluidos en la base de datos con la que se construyó el algoritmo.</p>
+				<p>Se compararon la frecuencia de las manifestaciones clínicas entre los grupos utilizando la prueba de ji al cuadrado <xref ref-type="bibr" rid="B51"><sup>51</sup></xref> y, la mediana de la cantidad de leucocitos y plaquetas usando la prueba de suma de rangos de Wilconxon <xref ref-type="bibr" rid="B52"><sup>52</sup></xref>. Además, se calcularon las características operativas de sensibilidad, especificidad, valores predictivos y razones de verosimilitud con su correspondiente intervalo de confianza del 95 %, para cada uno de los algoritmos y para la clasificación clínica de la OMS de 1997 y la del 2009, la clasificación de la guía colombiana de dengue y la escala diagnóstica del Ministerio.</p>
+				<p>Se hizo la estimación no paramétrica del área bajo la curva (<italic>Area Under the Curve</italic>, AUC) y se compararon los algoritmos en términos de exactitud mediante la prueba de igualdad de curvas ROC.</p>
+				<p>Por último, se hizo la validación externa del algoritmo con mejor sensibilidad en la base de datos de una cohorte de individuos febriles del estudio realizado en Cali <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>.</p>
+				<p>A partir de esta base de datos, se hizo un análisis descriptivo de las variables demográficas, de las categorías del algoritmo clínico y de los parámetros de interés del hemograma (leucocitos y plaquetas) por cada grupo de pacientes (con dengue y sin él), y se estimaron los parámetros de desempeño del algoritmo clínico más sensible y de mayor exactitud diagnóstica, todo ello utilizando los programas Stata 10™ y R.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title>Desarrollo del algoritmo de diagnóstico</title>
+				<p>Se analizaron 987 registros de la base de datos de la cohorte de la Red Aedes, de los cuales, 662 eran casos de dengue y 325 no lo eran; 534 tenían datos del hemograma y, de ellos, 392 eran casos de dengue y 142 no lo eran. La mediana del tiempo de evolución de la fiebre en el momento de la captación fue de cuatro días en ambos grupos. Se encontró una proporción significativamente mayor de erupciones cutáneas, manifestaciones hemorrágicas, signos de alarma y alteraciones neurológicas entre los pacientes con dengue. Con respecto a los parámetros del hemograma, se encontraron diferencias estadísticamente significativas en la mediana del conteo de leucocitos y plaquetas entre los grupos con dengue y sin él, siendo menor en los primeros (<xref ref-type="table" rid="t3">cuadro3</xref>) .</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Categorías del algoritmo clínico y parámetros del hemograma de la población con dengue y sin dengue incluida en la base de datos con la que se desarrolló el algoritmo </title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00170-gt3.jpg"/>
+					</table-wrap>
+				</p>
+				<p>Se generaron cuatro algoritmos clínicos. El primero (calculadora dengue A1) combinó la presencia y la ausencia de las ocho categorías de signos y síntomas definidas y generó 256 combinaciones con sus correspondientes probabilidades. Esta propuesta arrojó una sensibilidad de 61,5 (IC95% 57,7-65,2) y una especificidad de 59,7 (IC95% 54,1-65,1), con una AUC de 0,61 (IC95%0,57-0,64).</p>
+				<p>Otro algoritmo combinó solo siete categorías (calculadora dengue A3), y generó 128 combinaciones y probabilidades, para una sensibilidad de 64,0 % (IC95% 60,3-67,7) y una especificidad de 50,2 % (IC95% 44,6-55,7), con una AUC de 0,64 (IC95% 0,61-0,68).</p>
+				<p>Al adicionar a cada uno de los algoritmos la probabilidad de tener niveles de leucocitos (≤4.500/mm3) o plaquetas (≤160.000/mm3) relacionados con el dengue, el algoritmo que tuvo en cuenta las ocho categorías (calculadora dengue A2) alcanzó una sensibilidad de 73,6 (IC95% 70,0-76,9) y una especificidad de 46,5 (IC95% 40,9-52,0), con una AUC de 0,54 (IC95% 0,48- 0,60), en tanto que el algoritmo de siete categorías y con parámetros del hemograma (calculadora dengue A4) arrojó una sensibilidad de 76,5 (IC95% 71,9-80,5) y una especificidad de 46,0 (IC95% 37,6-54,7), con una AUC de 0,61 (IC95% 0,57-0,66) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Parámetros de exactitud diagnóstica para el dengue en 534 pacientes febriles de la cohorte de la RedAedes, Colombia</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00170-gt4.gif"/>
+						<table-wrap-foot>
+							<fn id="TFN3">
+								<p>*Rango de probabilidad predictiva: 0,003-0,388; punto de corte: 0,153</p>
+							</fn>
+							<fn id="TFN4">
+								<p>Rango de probabilidad predictiva: 0,00003-0,853; punto de corte: 0,249</p>
+							</fn>
+							<fn id="TFN5">
+								<p>ⱡRangodeprobabilidadpredictiva:0,003-0,320;puntodecorte:0,092</p>
+							</fn>
+							<fn id="TFN6">
+								<p>¶Rangodeprobabilidadpredictiva:0,008-0,578;puntodecorte:0,227</p>
+							</fn>
+							<fn id="TFN7">
+								<p>VPP: valor predictivo positivo; VPN: valor predictivo negativo; RV: razón de verosimilitud</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Por su parte, la clasificación de la OMS de 1997 tuvo una sensibilidad de 94,4 % (IC95% 92,4-96,0) y una especificidad de 5,5 % (IC95% 3,5-8,6), en tanto que la del 2009 tuvo una sensibilidad de 96,1 % (IC95% 94,3-97,4) y una especificidad de 3,1 % (IC95% 1,5-5,6).</p>
+				<p>La definición de caso de dengue en la guía colombiana tuvo una sensibilidad de 98,9 % (IC95% 97,8-99,6) y una especificidad de 1,5 % (IC95% 0,5-3,6). Por último, la escala diagnóstica del Ministerio tuvo una sensibilidad de 86,5 % (IC95% 82,54-89,9) y una especificidad de 40,6 % (IC95% 32,0-49,7) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			</sec>
+			<sec>
+				<title>Validación externa</title>
+				<p>La validación externa se hizo en una base de datos con 461 observaciones, de las cuales 79 eran de dengue y 382 no lo eran; en 409 de ellas, 72 con dengue y 337 sin dengue, se registraron los resultados del hemograma. La mediana de días de fiebre fue de tres días para ambos grupos. Las categorías de frecuencia fueron el dolor general y los signos de alarma, y aunque no hubo diferencias estadísticamente significativas entre los casos de dengue y los que no lo eran (<xref ref-type="table" rid="t5">cuadro 5</xref>), solo se sugirió la erupción cutánea como condición discriminatoria para el dengue. En cuanto a los parámetros del hemograma (leucocitos y plaquetas), estos fueron discriminatorios de los casos de dengue.</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Cuadro 5</label>
+						<caption>
+							<title>Características demográficas, categorías clínicas y parámetros del hemograma de la población con dengue y sin dengue en Cali, Colombia</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00170-gt5.jpg"/>
+					</table-wrap>
+				</p>
+				<p>El algoritmo clínico calculadora dengue A3 tuvo una sensibilidad de 5,1 % (IC95% 1,4-12,5) y una especificidad de 96,3 % (IC95% 93,9-98,0), con una AUC de 0,51 (IC95% 0,48-0,53), en tanto que el algoritmo A4 tuvo una sensibilidad de11,1 % (IC95% 4,9-20,7) y una especificidad de 91,1 % (IC95% 87,5-93,9), con una AUC de 0,51 (IC95% 0,47-0,55) (<xref ref-type="table" rid="t6">cuadro 6</xref>). En todas las clasificaciones y escalas, los parámetros disminuyeron en sensibilidad, en especial en la escala de Ministerio, cuya sensibilidad fue de 76,4 % (IC95% 64,9-85,6) y la especificidad de 38 % (IC95% 32,8-43,4), con una AUC de 0,57 (IC95% 0,52-0,63).</p>
+				<p>
+					<table-wrap id="t6">
+						<label>Cuadro 6</label>
+						<caption>
+							<title>Parámetros de exactitud diagnóstica para el dengue en 461 pacientes febriles de Cali, Colombia</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-01-00170-gt6.jpg"/>
+						<table-wrap-foot>
+							<fn id="TFN8">
+								<p>VP: verdaderos positivos; FN: falsos negativos; FP:falsospositivos; VN: verdaderos negativos; RV: razón de verosimilitud</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El diagnóstico temprano y el inicio oportuno del manejo de los casos de dengue son relevantes para la disminución de la morbilidad y la mortalidad por esta enfermedad. La ausencia de algoritmos clínicos con adecuada exactitud diagnóstica y la poca disponibilidad de pruebas de laboratorio clínico en los servicios de salud, hacen necesario el desarrollo de nuevas pruebas diagnósticas a partir de diferentes metodologías.</p>
+			<p>En este estudio, se propusieron algoritmos de diagnóstico basados en métodos bayesianos discretos, y se encontró que el cuarto algoritmo desarrollado (calculadora dengue A4: dolor general, manifestaciones hemorrágicas, erupciones cutáneas, signos de alarma, alteraciones neurológicas, ausencia de síntomas respiratorios, ausencia de ictericia, leucocitos ≤4.500/mm3 y plaquetas ≤160.000/mm3) tuvo una sensibilidad moderada (76,5 %); sin embargo, en la validación externa con la base de datos del estudio hecho en Cali <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>, solo se obtuvo una sensibilidad de 11,1 % y una especificidad de 84,8 %. La sensibilidad alcanzada durante el desarrollo de este algoritmo fue similar a las reportadas en los algoritmos o puntuaciones clínicas desarrolladas en Colombia <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, en Cuba, <xref ref-type="bibr" rid="B35"><sup>35</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref>, en Singapur <xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref> y en Vietnam <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>; sin embargo, la especificidad fue menor que la registrada en estos estudios.</p>
+			<p>En la validación externa la sensibilidad fue baja comparada con la registrada en el 2014 por Buonora, <italic>et al</italic>. <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, en Brasil, y con la escala desarrollada por Díaz-Quijano, <italic>et al</italic>. <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, la cual fue validada en el mismo estudio y es la recomendada por el Ministerio. En esta validación, además, la sensibilidad fue más baja en todas las clasificaciones de la OMS y en la guía colombiana, en tanto que la especificidad se incrementó con respecto a la base de datos con la cual se desarrollaron los algoritmos. Estos resultados se explicarían, en parte, por el hecho de que la base de datos empleada en la validación externa se generó a partir de los registros y los formatos del Sivigila diligenciados por los médicos en la práctica clínica habitual, y no en un contexto de investigación, y por las diferencias en la calidad de los datos.</p>
+			<p>Por otro lado, al revisar la frecuencia de los serotipos identificados en el periodo de recolección de la información en los estudios aquí citados, se encontró que en la base de datos de la Red Aedes (del 2003 y el 2011) se pudieron identificar los serotipos de 212 muestras positivas para dengue, siendo los serotipos DENV-1 (36,6 %) y DENV-4 (25,9 %) los más frecuentes, seguidos por el DENV-2 (18,4 %) y el DENV-4 (18,4 %), en tanto que en la base de datos de la cohorte prospectiva en Cali (2012), el DENV-2 (94,0 %) fue el más frecuente en las 50 muestras positivas en las que se identificó el serotipo, lo que contribuiría a explicar la diferencia de los hallazgos clínicos <xref ref-type="bibr" rid="B53"><sup>53</sup></xref> entre periodos, así como las características operativas de la validación externa.</p>
+			<p>En concordancia con la mayoría de los algoritmos desarrollados, incluido el propuesto por el Ministerio en el 2013, los resultados de este estudio evidenciaron que los parámetros del hemograma, en especial la leucopenia, mejoraron la sensibilidad de los algoritmos basados únicamente en signos y síntomas <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B38"><sup>38</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B54"><sup>54</sup></xref>.</p>
+			<p>La elaboración de los algoritmos clínicos de diagnóstico del dengue se abordó desde el enfoque bayesiano, con el fin de calcular las probabilidades predictivas de la combinación de las categorías de signos y síntomas y, posteriormente, actualizar dichas probabilidades con la de tener un número de leucocitos y uno de plaquetas propios del dengue (lo que representa el proceso intuitivo y lógico de la adopción de decisiones médicas). La nueva probabilidad del algoritmo clínico que incluía los parámetros del hemograma estaba condicionada por la existencia de la probabilidad anterior.</p>
+			<p>En este estudio, al definir la contribución del hemograma como la presencia de leucopenia (≤4.500/mm3) o trombocitopenia (≤160.000/mm3) (cualquiera de las dos o ambas), se buscaba mejorar la sensibilidad en el diagnóstico. La actualización de las probabilidades con la información de los parámetros del hemograma aumentó, especialmente la probabilidad de clasificar los casos de dengue como verdaderos positivos, lo que evidencia la importancia fundamental del uso del hemograma en su diagnóstico.</p>
+			<p>Por otra parte, al igual que en otros algoritmos o puntuaciones desarrolladas <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>, en los de este estudio, se utilizaron la ausencia de signos o síntomas, especialmente los respiratorios, como elemento del diagnóstico diferencial frente a otras enfermedades. En ellos, las categorías que aportaron al diagnóstico diferencial estaban conformadas más por los signos y síntomas de mayor proporción en los casos de la base de datos de la cohorte de la Red Aedes que no correspondían a dengue, que en aquellos que lo eran, condición que cumplían síntomas como rinorrea, tos, o dinofagia, ojos rojos e ictericia. Sin embargo, el algoritmo de Díaz-Quijano, <italic>et al</italic>., incluía la ausencia de diarrea, la cual no se incluyó en el presente estudio, ya que la diarrea se presentó con mayor frecuencia en los casos de dengue; además, en la literatura médica se encontraron hallazgos similares a los reportados en el presente estudio<xref ref-type="bibr" rid="B55"><sup>55</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B56"><sup>56</sup></xref>.Por otro lado,la inclusión de la ausencia de ictericia puede aportar al diagnóstico diferencial frente a la leptospirosis.</p>
+			<p>Según la bibliografía revisada para el presente estudio, los algoritmos clínicos elaborados son los primeros basados en los métodos bayesianos. Pan-ngum, <italic>et al</italic>. <xref ref-type="bibr" rid="B23"><sup>23</sup></xref> desarrollaron un método basado en modelos de clases latentes para construir un algoritmo de pruebas diagnósticas de laboratorio. En el campo de la salud, los métodos bayesianos se han utilizado especialmente en el análisis de la evaluación de pruebas de laboratorio <xref ref-type="bibr" rid="B57"><sup>57</sup></xref>, y el enfoque también es utilizado por los médicos para tomar decisiones en el proceso de diagnóstico clínico, en el cual se tiene una idea <italic>a priori</italic> sobre la probabilidad de que un individuo tenga una enfermedad basada en los datos de la incidencia o la prevalencia.Alrecurrir al teorema de Bayes, una vez se aplica una prueba diagnóstica esta aporta nueva información sobre la probabilidad de una enfermedad<xref ref-type="bibr" rid="B58"><sup>58</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B59"><sup>59</sup></xref>.</p>
+			<p>La escala diagnóstica desarrollada por Díaz-Quijano, <italic>et al.</italic> <xref ref-type="bibr" rid="B25"><sup>25</sup></xref> fue propuesta por el Ministerio de Salud y Protección Social de Colombia en el 2013<xref ref-type="bibr" rid="B50"><sup>50</sup></xref> como parte del algoritmo para el manejo de casos sospechosos de dengue en áreas endémicas, en el cual los sujetos febriles se clasifican según una alta o una poca probabilidad de haberlo contraído. Dicha escala presentó una sensibilidad moderada y una especificidad baja en la validación externa, por lo que su empleo aún no sería viable como medio exclusivo para la detección del dengue en los servicios de salud, pues exige la confirmación del laboratorio clínico.</p>
+			<p>Las clasificaciones de la OMS de 1997 y 2009, y la de la guía colombiana de 2010, fueron muy sensibles, pero su especificidad fue muy baja para la base de datos de la cohorte de la Red Aedes. La mayor sensibilidad fue la de la clasificación de la guía colombiana de 2010 (98 %), la cual incluye síntomas como la diarrea entre los signos de alarma, seguida por la de la OMS del 2009, con un 96 % de sensibilidad, comparada con el 94 % de la clasificación de la OMS de 1997. Los resultados de la clasificación de la OMS del 2009 fueron similares a los encontrados en estudios prospectivos por Gutiérrez, <italic>et al</italic>. <xref ref-type="bibr" rid="B15"><sup>15</sup></xref> en Nicaragua, y por Low, <italic>et al</italic>. <xref ref-type="bibr" rid="B16"><sup>16</sup></xref> en Singapur. Sin embargo, al estimar la exactitud de las clasificaciones en la base de datos del estudio de Cali <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>, se encontró una disminución de la sensibilidad en todas ellas, siendo mayor la de la clasificación de la OMS de 1997 (74 %), en tanto que la sensibilidad de la guía colombiana de 2010 y la de la OMS del 2009 fueron de 81 %. En los estudios realizados en Brasil por Macedo, <italic>et al</italic>, <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, y Cavalcanti, <italic>et al</italic>. <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>)</sup> con base en historias clínicas la reducción de la sensibilidad fue similar.</p>
+			<p>Una de las fortalezas del presente estudio fue contar con la base de datos de la cohorte de la Red Aedes, conformada por casos febriles de diferentes ciudades del país, así como con un algoritmo de pruebas de laboratorio como estándar de referencia para el diagnóstico del dengue, lo que aumentó la probabilidad de confirmar los casos de la enfermedad. En cada uno de los análisis que generaron las bases de datos se aplicó el mismo estándar de referencia durante todo el periodo de estudio; dichas bases de datos se desarrollaron bajo protocolos validados y a cargo de un mismo laboratorio (VIREM). Otra fortaleza del estudio es la divulgación de algoritmos clínicos alternativos para el diagnóstico del dengue a nivel local, lo que responde al llamado de la OMS de trabajar en la innovación y el desarrollo de pruebas diagnósticas que estén disponibles en los puntos de atención, para disminuir la morbimortalidad por dengue en la región <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>).</sup></p>
+			<p>Entre las limitaciones deben mencionarse las posibles fallas en la calidad de los datos registrados en la base de datos del estudio de Cali<xref ref-type="bibr" rid="B40"><sup>40</sup></xref>, dado que provienen de las historias clínicas y de las fichas de notificación del Sivigila, fuentes que no tienen procesos estandarizados de recolección de la información.</p>
+			<p>El grupo de investigadores responsable del presente estudio tiene previstos futuros proyectos de desarrollo de algoritmos clínicos para el dengue y continúa trabajando en mejorar su desempeño a partir de la inclusión de las características operativas de sensibilidad y especificidad como variables aleatorias continuas, y la propiedad secuencial del teorema de Bayes. Esta aproximación permitiría incluir de manera directa la información obtenida a partir del conocimiento de los médicos tratantes y establecer un mecanismo para actualizar periódicamente los valores de las características operativas a medida que se tengan nuevos casos diagnosticados. Además, es necesario continuar con las valoraciones prospectivas y estandarizadas de pacientes febriles dada la circulación de otros arbovirus.</p>
+			<p>En conclusión, el uso de parámetros del hemograma mejoró la sensibilidad de los algoritmos basados únicamente en signos y síntomas. Los métodos bayesianos utilizados permitieron obtener un algoritmo de mayor especificidad que el de la clasificación de la OMS, y los de la guía y la escala colombianas. El desarrollo de algoritmos diagnósticos de gran sensibilidad y especificidad sigue siendo un reto para la investigación en dengue, por lo que es pertinente integrar diferentes metodologías en su construcción y tener en cuenta el contexto local.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Al programa de “Desarrollo e investigación aplicada para contribuir a un modelo efectivo y sostenible de intervención del dengue en Santander, Casanare y Valle del Cauca” de la Red de Conocimiento y Cooperación AEDES (Red Aedes), a Comfandi, y a los expertos clínicos y epidemiólogos participantes en las consultas.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization.Global strategy for dengue prevention and control 2012-2020. Fecha de consulta: 25 de abril de 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/handle/10665/75303/9789241504034_eng.pdf?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/75303/9789241504034_eng.pdf?sequence=1</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global strategy for dengue prevention and control 2012-2020</source>
+					<day>25</day>
+					<month>04</month>
+					<year>2017</year>
+					<ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/handle/10665/75303/9789241504034_eng.pdf?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/75303/9789241504034_eng.pdf?sequence=1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Bhatt S, Gething PW, Brady OJ, Messina JP, Farlow AW, Moyes CL.The global distribution and burden of dengue. Nature. 2013;496:504-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature12060">https://doi.org/10.1038/nature12060</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bhatt</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Gething</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Brady</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<name>
+							<surname>Messina</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Farlow</surname>
+							<given-names>AW</given-names>
+						</name>
+						<name>
+							<surname>Moyes</surname>
+							<given-names>CL</given-names>
+						</name>
+					</person-group>
+					<article-title>The global distribution and burden of dengue</article-title>
+					<source>Nature</source>
+					<year>2013</year>
+					<volume>496</volume>
+					<fpage>504</fpage>
+					<lpage>507</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature12060">https://doi.org/10.1038/nature12060</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Brady OJ, Gething PW, Bhatt S, Messina JP, Brownstein JS, Hoen AG, et al. Refining the global spatial limits of dengue virus transmission by evidence-based consensus. PLoS Negl Trop Dis. 2012;6:e1760. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0001760">https://doi.org/10.1371/journal.pntd.0001760</ext-link>.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brady</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<name>
+							<surname>Gething</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Bhatt</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Messina</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Brownstein</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Hoen</surname>
+							<given-names>AG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Refining the global spatial limits of dengue virus transmission by evidence-based consensus</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2012</year>
+					<volume>6</volume>
+					<elocation-id>e1760</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0001760">https://doi.org/10.1371/journal.pntd.0001760</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Guzmán MG, Harris E. Dengue. Lancet. 2014;385:453-65.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140- 6736(14)60572-9">https://doi.org/10.1016/S0140- 6736(14)60572-9</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guzmán</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Harris</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Dengue</article-title>
+					<source>Lancet</source>
+					<year>2014</year>
+					<volume>385</volume>
+					<fpage>453</fpage>
+					<lpage>465</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140- 6736(14)60572-9">https://doi.org/10.1016/S0140- 6736(14)60572-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Messina JP, Brady OJ, Pigott DM, Brownstein JS, Hoen AG, Hay SI. A global compendium of human dengue virus occurrence. Sci Data. 2014;1:1-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sdata.2014.4">https://doi.org/10.1038/sdata.2014.4</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Messina</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Brady</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<name>
+							<surname>Pigott</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Brownstein</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Hoen</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Hay</surname>
+							<given-names>SI</given-names>
+						</name>
+					</person-group>
+					<article-title>A global compendium of human dengue virus occurrence</article-title>
+					<source>Sci Data</source>
+					<year>2014</year>
+					<volume>1</volume>
+					<fpage>1</fpage>
+					<lpage>6</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sdata.2014.4">https://doi.org/10.1038/sdata.2014.4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Shepard DS, Undurraga EA, Halasa YA. Economic and disease burden of dengue in South east Asia. PLoS Negl Trop Dis. 2013;7:e2055:1-12.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0002055">https://doi.org/10.1371/journal.pntd.0002055</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shepard</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Undurraga</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Halasa</surname>
+							<given-names>YA</given-names>
+						</name>
+					</person-group>
+					<article-title>Economic and disease burden of dengue in South east Asia</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2013</year>
+					<volume>7</volume>
+					<fpage>e2055:1</fpage>
+					<lpage>e205512</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0002055">https://doi.org/10.1371/journal.pntd.0002055</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Stanaway JD, Shepard DS, Undurraga EA, Halasa YA, Coffeng LE, Brady OJ, et al. The global burden of dengue: An analysis from the Global Burden of Disease Study 2013. Lancet Infect Dis. 2016;16:712-23.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(16)00026-8">https://doi.org/10.1016/S1473-3099(16)00026-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stanaway</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Shepard</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Undurraga</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Halasa</surname>
+							<given-names>YA</given-names>
+						</name>
+						<name>
+							<surname>Coffeng</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Brady</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The global burden of dengue: An analysis from the Global Burden of Disease Study 2013</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2016</year>
+					<volume>16</volume>
+					<fpage>712</fpage>
+					<lpage>723</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(16)00026-8">https://doi.org/10.1016/S1473-3099(16)00026-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Shepard DS, Undurraga EA, Halasa YA, Stanaway JD. The global economic burden of dengue: A systematic analysis. Lancet Infect Dis. 2016;16:935-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(16)00146-8">https://doi.org/10.1016/S1473-3099(16)00146-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shepard</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Undurraga</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Halasa</surname>
+							<given-names>YA</given-names>
+						</name>
+						<name>
+							<surname>Stanaway</surname>
+							<given-names>JD</given-names>
+						</name>
+					</person-group>
+					<article-title>The global economic burden of dengue: A systematic analysis</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2016</year>
+					<volume>16</volume>
+					<fpage>935</fpage>
+					<lpage>941</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(16)00146-8">https://doi.org/10.1016/S1473-3099(16)00146-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Instituto Nacional de Salud. Boletín Epidemiológico Semanal. Semana epidemiológica No. 52 de 2015. Fecha de consulta: 8 de mayo de 2018. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2016%20Bolet%C3%ADn%20epidemiol%C3%B3gico%20semana%2052%20-.pdf">http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2016%20Bolet%C3%ADn%20epidemiol%C3%B3gico%20semana%2052%20-.pdf</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Boletín Epidemiológico Semanal. Semana epidemiológica</source>
+					<issue>52</issue>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-05-08">8 de mayo de 2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2016%20Bolet%C3%ADn%20epidemiol%C3%B3gico%20semana%2052%20-.pdf">http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2016%20Bolet%C3%ADn%20epidemiol%C3%B3gico%20semana%2052%20-.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Instituto Nacional de Salud. Boletín Epidemiológico Semanal. Semana epidemiológica No. 52 de 2015. Fecha de consulta: 8 de mayo de 2018. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2015%20Boletin%20epidemiologico%20Semana%2052.pdf">http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2015%20Boletin%20epidemiologico%20Semana%2052.pdf</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Boletín Epidemiológico Semanal. Semana epidemiológica</source>
+					<issue>52</issue>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-05-08">8 de mayo de 2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2015%20Boletin%20epidemiologico%20Semana%2052.pdf">http://www.ins.gov.co/buscador-eventos/BoletinEpidemiologico/2015%20Boletin%20epidemiologico%20Semana%2052.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Villamil-Gómez WE, González-Camargo O, Rodríguez-Ayubi J, Zapata-Serpa D, Rodríguez-Morales AJ. Dengue, chikungunya and Zika co-infection in a patient from Colombia. J Infect Public Health. 2016;9:684-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jiph.2015.12.002">https://doi.org/10.1016/j.jiph.2015.12.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villamil-Gómez</surname>
+							<given-names>WE</given-names>
+						</name>
+						<name>
+							<surname>González-Camargo</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Ayubi</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zapata-Serpa</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Morales</surname>
+							<given-names>AJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Dengue, chikungunya and Zika co-infection in a patient from Colombia</article-title>
+					<source>J Infect Public Health</source>
+					<year>2016</year>
+					<volume>9</volume>
+					<fpage>684</fpage>
+					<lpage>686</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jiph.2015.12.002">https://doi.org/10.1016/j.jiph.2015.12.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Furuya-Kanamori L, Liang S, Milinovich G, Soares Magalhaes RJ, Clements AC, HuW, et al. Co-distribution and co-infection of chikungunya and dengue viruses. BMC Infect Dis. 2016;16:1-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-016-1417-2">https://doi.org/10.1186/s12879-016-1417-2</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Furuya-Kanamori L</surname>
+							<given-names>Liang S</given-names>
+						</name>
+						<name>
+							<surname>Milinovich G</surname>
+							<given-names>Soares Magalhaes RJ</given-names>
+						</name>
+						<name>
+							<surname>Clements AC</surname>
+							<given-names>HuW</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Co-distribution and co-infection of chikungunya and dengue viruses</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2016</year>
+					<volume>16</volume>
+					<fpage>1</fpage>
+					<lpage>11</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-016-1417-2">https://doi.org/10.1186/s12879-016-1417-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Organización Panamericana de la Salud/Organización Mundial de la Salud. Guías de la región de las Américas, 2010. Fecha de consulta: 8 de mayo de 2018. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.paho.org/hq/index.php?option=com_ docman&amp;task=doc_view&amp;gid=11239&amp;Itemid=270&amp;lang=en">http://www.paho.org/hq/index.php?option=com_ docman&amp;task=doc_view&amp;gid=11239&amp;Itemid=270&amp;lang=en</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Panamericana de la Salud</collab>
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Guías de la región de las Américas</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-05-08">8 de mayo de 2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.paho.org/hq/index.php?option=com_ docman&amp;task=doc_view&amp;gid=11239&amp;Itemid=270&amp;lang=en">http://www.paho.org/hq/index.php?option=com_ docman&amp;task=doc_view&amp;gid=11239&amp;Itemid=270&amp;lang=en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Alexander N, Balmaseda A, Coelho IC, Dimaano E, Hien TT, Hung NT, et al. Multicentre prospective study on dengue classification in four South-East Asian and three Latin American countries.Trop Med Int Health. 2011;16:936-48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-3156.2011.02793.x">https://doi.org/10.1111/j.1365-3156.2011.02793.x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alexander</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Balmaseda</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Coelho</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Dimaano</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hien</surname>
+							<given-names>TT</given-names>
+						</name>
+						<name>
+							<surname>Hung</surname>
+							<given-names>NT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Multicentre prospective study on dengue classification in four South-East Asian and three Latin American countries</article-title>
+					<source>Trop Med Int Health</source>
+					<year>2011</year>
+					<volume>16</volume>
+					<fpage>936</fpage>
+					<lpage>948</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-3156.2011.02793.x">https://doi.org/10.1111/j.1365-3156.2011.02793.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Gutiérrez G, Gresh L, Pérez MÁ, Elizondo D, Avilés W, Kuan G, et al. Evaluation ofthe diagnostic utility of the traditional and revised WHO dengue case definitions. PLoS Negl Trop Dis. 2013;7:e2385:1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0002385">https://doi.org/10.1371/journal.pntd.0002385</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gutiérrez</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Gresh</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Pérez</surname>
+							<given-names>MÁ</given-names>
+						</name>
+						<name>
+							<surname>Elizondo</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Avilés</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Kuan</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation ofthe diagnostic utility of the traditional and revised WHO dengue case definitions</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2013</year>
+					<volume>7</volume>
+					<fpage>e2385:1</fpage>
+					<lpage>e2385:9</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0002385">https://doi.org/10.1371/journal.pntd.0002385</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Low JG, Ong A, Tan LK, Chaterji S, Chow A, Lim WY, et al. The early clinical features of dengue in adults: Challenges for early clinical diagnosis. PLoS Negl Trop Dis. 2011;5:e1191. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0001191">https://doi.org/10.1371/journal.pntd.0001191</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Low</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Ong</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tan</surname>
+							<given-names>LK</given-names>
+						</name>
+						<name>
+							<surname>Chaterji</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Chow</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lim</surname>
+							<given-names>WY</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The early clinical features of dengue in adults: Challenges for early clinical diagnosis</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2011</year>
+					<volume>5</volume>
+					<elocation-id>e1191</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0001191">https://doi.org/10.1371/journal.pntd.0001191</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Chaterji S, Allen JC, Chow A, Leo Y-S, Ooi EE. Evaluation of the NS1 rapid test and the WHO dengue classification schemes for use as bedside diagnosis of acute dengue fever in adults. Am J Trop Med Hyg. 2011;84:224-8. https://doi.org/10.4269/ajtmh.2011.10-0316</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chaterji</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Chow</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Leo</surname>
+							<given-names>Y-S</given-names>
+						</name>
+						<name>
+							<surname>Ooi</surname>
+							<given-names>EE</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of the NS1 rapid test and the WHO dengue classification schemes for use as bedside diagnosis of acute dengue fever in adults</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2011</year>
+					<volume>84</volume>
+					<fpage>224</fpage>
+					<lpage>228</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<mixed-citation>18. Macedo GA, Gonin ML, Pone SM, Cruz OG, Nobre FF, Brasil P. Sensitivity and specificity of the World Health Organization dengue classification schemes for severe dengue assessment in children in Rio de Janeiro. PLoS ONE. 2014;9:e96314. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0096314">https://doi.org/10.1371/journal.pone.0096314</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Macedo</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Gonin</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Pone</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Cruz</surname>
+							<given-names>OG</given-names>
+						</name>
+						<name>
+							<surname>Nobre</surname>
+							<given-names>FF</given-names>
+						</name>
+						<name>
+							<surname>Brasil</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Sensitivity and specificity of the World Health Organization dengue classification schemes for severe dengue assessment in children in Rio de Janeiro</article-title>
+					<source>PLoS ONE</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<elocation-id>e96314</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0096314">https://doi.org/10.1371/journal.pone.0096314</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Cavalcanti LP, Mota LA, Lustosa GP, Fortes MC, Mota DA, Lima AA, et al. Evaluation of the 2011 in the state of Ceará, Brazil. Mem Inst Oswaldo Cruz. 2013;109:93-8. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/0074-0276140384">http://dx.doi.org/10.1590/0074-0276140384</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cavalcanti</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Mota</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Lustosa</surname>
+							<given-names>GP</given-names>
+						</name>
+						<name>
+							<surname>Fortes</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Mota</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>AA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of the 2011 in the state of Ceará, Brazil</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2013</year>
+					<volume>109</volume>
+					<fpage>93</fpage>
+					<lpage>98</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/0074-0276140384">http://dx.doi.org/10.1590/0074-0276140384</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Zhang B, Salieb-Beugelaar GB, Nigo MM, Weidmann M, Hunziker P. Diagnosing dengue virus infection: Rapid tests and the role of micro/nanotechnologies. Nano medicine. 2015;11:1745-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.nano.2015.05.009">https://doi.org/10.1016/j.nano.2015.05.009</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Salieb-Beugelaar</surname>
+							<given-names>GB</given-names>
+						</name>
+						<name>
+							<surname>Nigo</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Weidmann</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hunziker</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnosing dengue virus infection: Rapid tests and the role of micro/nanotechnologies</article-title>
+					<source>Nano medicine</source>
+					<year>2015</year>
+					<volume>11</volume>
+					<fpage>1745</fpage>
+					<lpage>1761</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.nano.2015.05.009">https://doi.org/10.1016/j.nano.2015.05.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Da Costa VG, Marques-Silva AC, Moreli ML. A meta-analysis of the diagnostica ccuracy of two commercial NS1 antigen ELISA tests for early dengue virus detection. PLoS ONE. 2014;9:e94655. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0094655">https://doi.org/10.1371/journal.pone.0094655</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Da Costa</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Marques-Silva</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Moreli</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>A meta-analysis of the diagnostica ccuracy of two commercial NS1 antigen ELISA tests for early dengue virus detection</article-title>
+					<source>PLoS ONE</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<elocation-id>e94655</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0094655">https://doi.org/10.1371/journal.pone.0094655</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Buonora SN, Passos SR, do Carmo CN, Quintela FM, de Oliveira DN, dos Santos FB, et al. Accuracy of clinical criteria and an immunochromatographic strip test for dengue diagnosis in a DENV-4 epidemic. BMC Infect Dis. 2016;16:37:1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-016-1368-7">https://doi.org/10.1186/s12879-016-1368-7</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Buonora</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Passos</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>do Carmo</surname>
+							<given-names>CN</given-names>
+						</name>
+						<name>
+							<surname>Quintela</surname>
+							<given-names>FM</given-names>
+						</name>
+						<name>
+							<surname>de Oliveira</surname>
+							<given-names>DN</given-names>
+						</name>
+						<name>
+							<surname>dos Santos</surname>
+							<given-names>FB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Accuracy of clinical criteria and an immunochromatographic strip test for dengue diagnosis in a DENV-4 epidemic</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2016</year>
+					<volume>16</volume>
+					<issue>37</issue>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-016-1368-7">https://doi.org/10.1186/s12879-016-1368-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Pan-ngum W, Blacksell SD, Lubell Y, Pukrittayakamee S, Bailey MS, de Silva HJ, et al. Estimating the true accuracy of diagnostic tests for dengue infection using bayesian latent class models. PLoS One. 2013;8:e50765. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0050765">https://doi.org/10.1371/journal.pone.0050765</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pan-ngum</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Blacksell</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Lubell</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Pukrittayakamee</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bailey</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>de Silva</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Estimating the true accuracy of diagnostic tests for dengue infection using bayesian latent class models</article-title>
+					<source>PLoS One</source>
+					<year>2013</year>
+					<volume>8</volume>
+					<elocation-id>e50765</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0050765">https://doi.org/10.1371/journal.pone.0050765</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Osorio L, Ramírez M, Bonelo A, Villar LA, Parra B. Comparison of the diagnostic accuracy of commercial NS1-based diagnostic tests for early dengue infection. Virol J. 2010;7:361:1-10. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1743-422X-7-361">https://doi.org/10.1186/1743-422X-7-361</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Osorio</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bonelo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Villar</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Parra</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of the diagnostic accuracy of commercial NS1-based diagnostic tests for early dengue infection</article-title>
+					<source>Virol J</source>
+					<year>2010</year>
+					<volume>7</volume>
+					<issue>361</issue>
+					<fpage>1</fpage>
+					<lpage>10</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1743-422X-7-361">https://doi.org/10.1186/1743-422X-7-361</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Díaz-Quijano FA, Villar-Centeno LA, Martínez-Vega RA. Indicadores tempranos de infección por dengue en niños. Anales de Pediatría. 2006;64:523-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1157/13089916">https://doi.org/10.1157/13089916</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Díaz-Quijano</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Villar-Centeno</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Martínez-Vega</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>Indicadores tempranos de infección por dengue en niños</article-title>
+					<source>Anales de Pediatría</source>
+					<year>2006</year>
+					<volume>64</volume>
+					<fpage>523</fpage>
+					<lpage>529</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1157/13089916">https://doi.org/10.1157/13089916</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Chadwick D, Arch B, Wilder-Smith A, Paton N. Distinguishing dengue fever from other infections on the basis of simple clinical and laboratory features: Application of logistic regression analysis. J Clin Virol. 2006;35:147-53.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jcv.2005.06.002">https://doi.org/10.1016/j.jcv.2005.06.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chadwick</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Arch</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Wilder-Smith</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Paton</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Distinguishing dengue fever from other infections on the basis of simple clinical and laboratory features: Application of logistic regression analysis</article-title>
+					<source>J Clin Virol</source>
+					<year>2006</year>
+					<volume>35</volume>
+					<fpage>147</fpage>
+					<lpage>153</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jcv.2005.06.002">https://doi.org/10.1016/j.jcv.2005.06.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Ramos M, Tomashek K, Argüello D, Luxemburger C, Quiñones L, Lang J, et al. Early clinical features of dengue infection in Puerto Rico.Trans R Soc Trop Med Hyg. 2009;103:878-84. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.trstmh.2008.11.009">https://doi.org/10.1016/j.trstmh.2008.11.009</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramos</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tomashek</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Argüello</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Luxemburger</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Quiñones</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Lang</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Early clinical features of dengue infection in Puerto Rico</article-title>
+					<source>Trans R Soc Trop Med Hyg</source>
+					<year>2009</year>
+					<volume>103</volume>
+					<fpage>878</fpage>
+					<lpage>884</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.trstmh.2008.11.009">https://doi.org/10.1016/j.trstmh.2008.11.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Díaz FA, Martínez RA, Villar LA. Criterios clínicos para diagnosticar el dengue en los primeros días de enfermedad. Biomédica. 2006;26:22-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v26i1.1391">https://doi.org/10.7705/biomedica.v26i1.1391</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Díaz</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Martínez</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Villar</surname>
+							<given-names>LA</given-names>
+						</name>
+					</person-group>
+					<article-title>Criterios clínicos para diagnosticar el dengue en los primeros días de enfermedad</article-title>
+					<source>Biomédica</source>
+					<year>2006</year>
+					<volume>26</volume>
+					<fpage>22</fpage>
+					<lpage>30</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v26i1.1391">https://doi.org/10.7705/biomedica.v26i1.1391</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Daumas R, Passos SR, Oliveira RV, Nogueira RM, Georg I, Marzochi KB, et al Brasil P. Clinical and laboratory features that discriminate dengue from other febrile illnesses: A diagnostic accuracy study in Rio de Janeiro, Brazil. BMC Infect Dis. 2013;13:77.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-13-77">https://doi.org/10.1186/1471-2334-13-77</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Daumas</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Passos</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RV</given-names>
+						</name>
+						<name>
+							<surname>Nogueira</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Georg</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Marzochi</surname>
+							<given-names>KB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical and laboratory features that discriminate dengue from other febrile illnesses: A diagnostic accuracy study in Rio de Janeiro, Brazil</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2013</year>
+					<volume>13</volume>
+					<fpage>77</fpage>
+					<lpage>77</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-13-77">https://doi.org/10.1186/1471-2334-13-77</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Ho TS, Wang SM, Lin YS, Liu CC. Clinical and laboratory predictive markers for acute dengue infection. J Biomed Sci. 2013;20:75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1423-0127-20-75">https://doi.org/10.1186/1423-0127-20-75</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ho</surname>
+							<given-names>TS</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>YS</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>CC</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical and laboratory predictive markers for acute dengue infection</article-title>
+					<source>J Biomed Sci</source>
+					<year>2013</year>
+					<volume>20</volume>
+					<fpage>75</fpage>
+					<lpage>75</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1423-0127-20-75">https://doi.org/10.1186/1423-0127-20-75</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Chang K, Lu PL, Ko WC, Tsai JJ, Tsai WH, Chen CD, et al. Dengue Fever scoring system: New strategy for the early detection of acute dengue virus infection in Taiwan. J Formos Med Assoc. 2009;108:879-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0929-6646(09)60420-4">https://doi.org/10.1016/S0929-6646(09)60420-4</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>PL</given-names>
+						</name>
+						<name>
+							<surname>Ko</surname>
+							<given-names>WC</given-names>
+						</name>
+						<name>
+							<surname>Tsai</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Tsai</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>CD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Dengue Fever scoring system: New strategy for the early detection of acute dengue virus infection in Taiwan</article-title>
+					<source>J Formos Med Assoc</source>
+					<year>2009</year>
+					<volume>108</volume>
+					<fpage>879</fpage>
+					<lpage>885</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0929-6646(09)60420-4">https://doi.org/10.1016/S0929-6646(09)60420-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Kumar MN. Alternating decision trees for early diagnosis of dengue fever. 2013. arXiv:1305.7331v2. Fecha de consulta: 8 de mayo de 2018. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/1305.7331.pdf">https://arxiv.org/pdf/1305.7331.pdf</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kumar</surname>
+							<given-names>MN</given-names>
+						</name>
+					</person-group>
+					<source>Alternating decision trees for early diagnosis of dengue fever</source>
+					<year>2013</year>
+					<volume>arXiv</volume>
+					<fpage>1305.7331v2</fpage>
+					<lpage>1305.7331v2</lpage>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-05-08">8 de mayo de 2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/1305.7331.pdf">https://arxiv.org/pdf/1305.7331.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Rao VS, Kumar MN. New intelligence-based approach for computer-aided diagnosis of dengue fever. IEEE Trans Inf Technol Biomed. 2012;16:112-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1109/TITB.2011.2171978">https://doi.org/10.1109/TITB.2011.2171978</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rao</surname>
+							<given-names>VS</given-names>
+						</name>
+						<name>
+							<surname>Kumar</surname>
+							<given-names>MN</given-names>
+						</name>
+					</person-group>
+					<article-title>New intelligence-based approach for computer-aided diagnosis of dengue fever</article-title>
+					<source>IEEE Trans Inf Technol Biomed</source>
+					<year>2012</year>
+					<volume>16</volume>
+					<fpage>112</fpage>
+					<lpage>118</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1109/TITB.2011.2171978">https://doi.org/10.1109/TITB.2011.2171978</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Tanner L, Schreiber M, Low JG, Ong A, Tolfvenstam T, Lai YL, et al. Decision tree algorithms predict the diagnosis and outcome of dengue fever in the early phase of illness. PLoS Negl Trop Dis. 2008;2:e196. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0000196">https://doi.org/10.1371/journal.pntd.0000196</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tanner</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Schreiber</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Low</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Ong</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tolfvenstam</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Lai</surname>
+							<given-names>YL</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Decision tree algorithms predict the diagnosis and outcome of dengue fever in the early phase of illness</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2008</year>
+					<volume>2</volume>
+					<elocation-id>e196</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0000196">https://doi.org/10.1371/journal.pntd.0000196</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Vega-Riverón B, Sánchez-Valdés L, Cortiñas-Abrahantes J, Castro-Peraza O, González- Rubio D, Castro-Peraza M. Clasificación de dengue hemorrágico utilizando árboles de decisión en la fase temprana de la enfermedad. Revista Cubana de Medicina Tropical. 2012;64:35-42.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vega-Riverón</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Sánchez-Valdés</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Cortiñas-Abrahantes</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Castro-Peraza</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>González- Rubio</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Castro-Peraza</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Clasificación de dengue hemorrágico utilizando árboles de decisión en la fase temprana de la enfermedad</article-title>
+					<source>Revista Cubana de Medicina Tropical</source>
+					<year>2012</year>
+					<volume>64</volume>
+					<fpage>35</fpage>
+					<lpage>42</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Fernández E, Smieja M, Walter SD, Loeb M. A predictive model to differentiate dengue from other febrile illness. BMC Infect Dis. 2016;16:694:1-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-016-2024-y">https://doi.org/10.1186/s12879-016-2024-y</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernández</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Smieja</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Walter</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Loeb</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>A predictive model to differentiate dengue from other febrile illness</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2016</year>
+					<volume>16</volume>
+					<issue>694</issue>
+					<fpage>1</fpage>
+					<lpage>7</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-016-2024-y">https://doi.org/10.1186/s12879-016-2024-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Acosta-Torres J, Oller-Meneses L, Sokol N, Balado-Sardiñas R, Montero-Díaz D, Balado-Sansón R, et al.Técnica árboles de decisión aplicada al método clínico en el diagnóstico del dengue. Revista Cubana de Pediatría.2016;88:441-53.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Acosta-Torres</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Oller-Meneses</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sokol</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Balado-Sardiñas</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Montero-Díaz</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Balado-Sansón</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Técnica árboles de decisión aplicada al método clínico en el diagnóstico del dengue</article-title>
+					<source>Revista Cubana de Pediatría</source>
+					<year>2016</year>
+					<volume>88</volume>
+					<fpage>441</fpage>
+					<lpage>453</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Tuan NM, Nhan HT, Chau NV, Hung NT, Tuan HM, Tram TV, et al. Sensitivity and specificity of a novel classifier for the early diagnosis of dengue. PLoS Negl Trop Dis. 2015;9:e0003638. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0003638">https://doi.org/10.1371/journal.pntd.0003638</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tuan</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Nhan</surname>
+							<given-names>HT</given-names>
+						</name>
+						<name>
+							<surname>Chau</surname>
+							<given-names>NV</given-names>
+						</name>
+						<name>
+							<surname>Hung</surname>
+							<given-names>NT</given-names>
+						</name>
+						<name>
+							<surname>Tuan</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Tram</surname>
+							<given-names>TV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sensitivity and specificity of a novel classifier for the early diagnosis of dengue</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2015</year>
+					<volume>9</volume>
+					<elocation-id>e0003638</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0003638">https://doi.org/10.1371/journal.pntd.0003638</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Villar LÁ, Gélvez RM, Rodríguez JA, Salgado D, Parra B, Osorio L, et al. Biomarcadores pronósticos de gravedad del dengue. Biomédica. 2013;33:108-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v33i0.733">https://doi.org/10.7705/biomedica.v33i0.733</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villar</surname>
+							<given-names>LÁ</given-names>
+						</name>
+						<name>
+							<surname>Gélvez</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Salgado</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Parra</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Osorio</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Biomarcadores pronósticos de gravedad del dengue</article-title>
+					<source>Biomédica</source>
+					<year>2013</year>
+					<volume>33</volume>
+					<fpage>16</fpage>
+					<lpage>16</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v33i0.733">https://doi.org/10.7705/biomedica.v33i0.733</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Osorio L, Uribe M, Ardila GI, Orejuela Y, Velasco M, Bonelo A, et al. The use of rapid dengue diagnostic tests in a routine clinical setting in a dengue-endemic area of Colombia. Mem. Inst. Oswaldo Cruz. 2015;110:510-516. Fecha de consulta: 6 de septiembre de 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0074-02762015000400510&amp;lng=en">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0074-02762015000400510&amp;lng=en</ext-link>. Epub May 15, 2015. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/0074-02760140359">http://dx.doi.org/10.1590/0074-02760140359</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Osorio</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Uribe</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ardila</surname>
+							<given-names>GI</given-names>
+						</name>
+						<name>
+							<surname>Orejuela</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Velasco</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bonelo</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The use of rapid dengue diagnostic tests in a routine clinical setting in a dengue-endemic area of Colombia</article-title>
+					<source>Mem. Inst. Oswaldo Cruz</source>
+					<year>2015</year>
+					<volume>110</volume>
+					<fpage>510</fpage>
+					<lpage>516</lpage>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-09-06">6 de septiembre de 2017</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0074-02762015000400510&amp;lng=en">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0074-02762015000400510&amp;lng=en</ext-link>
+					</comment>
+					<comment>Disponible en: http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0074-02762015000400510&amp;lng=en. Epub May 15, 2015. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/0074-02760140359">http://dx.doi.org/10.1590/0074-02760140359</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Sekisui Diagnostics. Panbio Dengue IgM Capture ELISA: Cat. No. 01PE20/01PE21. Fecha de consulta: 1 de marzo de 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sekisuidiagnostics.com/writable/product_documents/files/ifu_01pe20_dengue_igm_capture_2013.pdf">https://www.sekisuidiagnostics.com/writable/product_documents/files/ifu_01pe20_dengue_igm_capture_2013.pdf</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Sekisui Diagnostics</collab>
+					</person-group>
+					<source>Panbio Dengue IgM Capture ELISA: Cat. No. 01PE20/01PE21</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-03-01">1 de marzo de 2017</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sekisuidiagnostics.com/writable/product_documents/files/ifu_01pe20_dengue_igm_capture_2013.pdf">https://www.sekisuidiagnostics.com/writable/product_documents/files/ifu_01pe20_dengue_igm_capture_2013.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. The R Foundation.The R Project for Statistical Computing. Fecha de consulta: 1 de marzo de 2017. Disponible en:<ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link></mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>The R Foundation</collab>
+					</person-group>
+					<source>The R Project for Statistical Computing</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-03-01">1 de marzo de 2017</date-in-citation>
+					<comment>Disponible en:<ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Lanciotti RS, Calisher CH, Gubler DJ, Chang GJ, Vorndam AV. Rapid detection and typing of dengue viruses from clinical samples by using reverse transcriptase-polymerase chain reaction. J Clin Microbiol.1992;30:545-51.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lanciotti</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Calisher</surname>
+							<given-names>CH</given-names>
+						</name>
+						<name>
+							<surname>Gubler</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>GJ</given-names>
+						</name>
+						<name>
+							<surname>Vorndam</surname>
+							<given-names>AV</given-names>
+						</name>
+					</person-group>
+					<article-title>Rapid detection and typing of dengue viruses from clinical samples by using reverse transcriptase-polymerase chain reaction</article-title>
+					<source>J Clin Microbiol</source>
+					<year>1992</year>
+					<volume>30</volume>
+					<fpage>545</fpage>
+					<lpage>551</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Sekisui Diagnostics. Panbio Dengue Early Elisa: Cat. No. 01PE40. Fecha de consulta: 1 de marzo de 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sekisuidiagnostics.com/writable/product_ documents/files/ifu_01pe40_dengue_early_elisa_2013.pdf">https://www.sekisuidiagnostics.com/writable/product_ documents/files/ifu_01pe40_dengue_early_elisa_2013.pdf</ext-link></mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Sekisui Diagnostics</collab>
+					</person-group>
+					<source>Panbio Dengue Early Elisa: Cat. No. 01PE40</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-03-01">1 de marzo de 2017</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sekisuidiagnostics.com/writable/product_ documents/files/ifu_01pe40_dengue_early_elisa_2013.pdf">https://www.sekisuidiagnostics.com/writable/product_ documents/files/ifu_01pe40_dengue_early_elisa_2013.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Cortés JA, Romero-Moreno LF, Aguirre-León CA, Pinzón-Lozano L, Cuervo SI. Enfoque clínico del síndrome febril agudo en Colombia. Infectio. 2016;21:39-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22354/in.v21i1.640">https://doi.org/10.22354/in.v21i1.640</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cortés</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Romero-Moreno</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Aguirre-León</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Pinzón-Lozano</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Cuervo</surname>
+							<given-names>SI</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfoque clínico del síndrome febril agudo en Colombia</article-title>
+					<source>Infectio</source>
+					<year>2016</year>
+					<volume>21</volume>
+					<fpage>39</fpage>
+					<lpage>50</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22354/in.v21i1.640">https://doi.org/10.22354/in.v21i1.640</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Press SJ. Bayes' theorem. En: Press SJ, editor. Subjective and objective Bayesian statistics: Principles, models, and applications. Second edition. Edison, NJ: John Wiley &amp; Sons, Inc.; 2002. p.41-72.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Press</surname>
+							<given-names>SJ</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Bayes' theorem</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Press</surname>
+							<given-names>SJ</given-names>
+						</name>
+					</person-group>
+					<source>Subjective and objective Bayesian statistics: Principles, models, and applications</source>
+					<edition>Second edition</edition>
+					<publisher-loc>Edison, NJ</publisher-loc>
+					<publisher-name>John Wiley &amp; Sons, Inc</publisher-name>
+					<year>2002</year>
+					<fpage>41</fpage>
+					<lpage>72</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Ruopp MD, Perkins NJ, Whitcomb BW, Schisterman EF. Youden index and optimal cut-point estimated from observations affected by a lower limit of detection. Biom J. 2008;50:419-30.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/bimj.200710415">https://doi.org/10.1002/bimj.200710415</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruopp</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Perkins</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Whitcomb</surname>
+							<given-names>BW</given-names>
+						</name>
+						<name>
+							<surname>Schisterman</surname>
+							<given-names>EF</given-names>
+						</name>
+					</person-group>
+					<article-title>Youden index and optimal cut-point estimated from observations affected by a lower limit of detection</article-title>
+					<source>Biom J</source>
+					<year>2008</year>
+					<volume>50</volume>
+					<fpage>419</fpage>
+					<lpage>430</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/bimj.200710415">https://doi.org/10.1002/bimj.200710415</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. World Health Organization. Dengue haemorrhagic fever. Diagnosis, treatment, prevention and control. Segunda edición.1997. Fecha de consulta: 1 de marzo de 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/csr/resources/publications/dengue/Denguepublication/en/">http://www.who.int/csr/resources/publications/dengue/Denguepublication/en/</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Dengue haemorrhagic fever. Diagnosis, treatment, prevention and control</source>
+					<edition>Segunda edición</edition>
+					<year>1997</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-03-01">1 de marzo de 2017</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/csr/resources/publications/dengue/Denguepublication/en/">http://www.who.int/csr/resources/publications/dengue/Denguepublication/en/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. Organización Panamericana de la Salud, Organización Mundial de la Salud, Ministerio de la Protección Social, Instituto Nacional de Salud. Guía de atención clínica integral del paciente con dengue. 2010. Fecha de consulta: 1° de marzo de 2018. Disponible en:<ext-link ext-link-type="uri" xlink:href="https://www.paho.org/col/index.php?option=com_docman&amp;view=download&amp;alias=1214- guia-para-la-atencion-clinica-integral-del-paciente-con-dengue&amp;category_ slug=publicaciones-ops-oms-colombia&amp;Itemid=688">https://www.paho.org/col/index.php?option=com_docman&amp;view=download&amp;alias=1214- guia-para-la-atencion-clinica-integral-del-paciente-con-dengue&amp;category_ slug=publicaciones-ops-oms-colombia&amp;Itemid=688</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Panamericana de la Salud</collab>
+						<collab>Organización Mundial de la Salud</collab>
+						<collab>Ministerio de la Protección Social</collab>
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Guía de atención clínica integral del paciente con dengue</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-03-01">1° de marzo de 2018</date-in-citation>
+					<comment>Disponible en:<ext-link ext-link-type="uri" xlink:href="https://www.paho.org/col/index.php?option=com_docman&amp;view=download&amp;alias=1214- guia-para-la-atencion-clinica-integral-del-paciente-con-dengue&amp;category_ slug=publicaciones-ops-oms-colombia&amp;Itemid=688">https://www.paho.org/col/index.php?option=com_docman&amp;view=download&amp;alias=1214- guia-para-la-atencion-clinica-integral-del-paciente-con-dengue&amp;category_ slug=publicaciones-ops-oms-colombia&amp;Itemid=688</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Ministerio de Salud y Protección Social. Algoritmo de manejo para casos sospechosos por dengue en áreas endémicas.2013. Fecha de consulta: 1 de marzo de 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/Documents/NOTICIAS%20OFICINA%20COMUNICACIONES/Salud/dengue/Ruta%20Dengue.pdf">https://www.minsalud.gov.co/Documents/NOTICIAS%20OFICINA%20COMUNICACIONES/Salud/dengue/Ruta%20Dengue.pdf</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+					</person-group>
+					<source>Algoritmo de manejo para casos sospechosos por dengue en áreas endémicas</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-03-01">1 de marzo de 2017</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/Documents/NOTICIAS%20OFICINA%20COMUNICACIONES/Salud/dengue/Ruta%20Dengue.pdf">https://www.minsalud.gov.co/Documents/NOTICIAS%20OFICINA%20COMUNICACIONES/Salud/dengue/Ruta%20Dengue.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51. Fienberg SE. Two-dimensional tables. En: Fienberg SE, editor. The analysis of cross- classified categorical data. Second edition. New York: Springer Verlag; 2007. p. 8-26.https:/ doi.org/10.1007/978-0-387-72825-4</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fienberg</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Two-dimensional tables</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Fienberg</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<source>The analysis of cross- classified categorical data</source>
+					<edition>Second edition</edition>
+					<year>2007</year>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Springer Verlag</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>52. Wilcoxon F. Individual comparisons by ranking methods. Biometrics. 1945;1:80-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/3001968">https://doi.org/10.2307/3001968</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wilcoxon</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Individual comparisons by ranking methods</article-title>
+					<source>Biometrics</source>
+					<year>1945</year>
+					<volume>1</volume>
+					<fpage>80</fpage>
+					<lpage>83</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/3001968">https://doi.org/10.2307/3001968</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>53. Balmaseda A, Hammond SN, Pérez L, Téllez Y, Saborío SI, Mercado JC, et al. Serotype-specific differences in clinical manifestations of dengue. The Am J Trop Med Hyg. 2006;74:449-56.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.2006.74.449">https://doi.org/10.4269/ajtmh.2006.74.449</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Balmaseda</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hammond</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Pérez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Téllez</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Saborío</surname>
+							<given-names>SI</given-names>
+						</name>
+						<name>
+							<surname>Mercado</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Serotype-specific differences in clinical manifestations of dengue</article-title>
+					<source>The Am J Trop Med Hyg</source>
+					<year>2006</year>
+					<volume>74</volume>
+					<fpage>449</fpage>
+					<lpage>456</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.2006.74.449">https://doi.org/10.4269/ajtmh.2006.74.449</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>54. Daumas RP, Passos SR, Oliveira RV, Nogueira RM, Georg I, Marzochi KB, et al. Clinical and laboratory features that discriminate dengue from other febrile illnesses: A diagnostic accuracy study in Rio de Janeiro, Brazil. BMC Infect Dis. 2013;13:77. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-13-77">https://doi.org/10.1186/1471-2334-13-77</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Daumas</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Passos</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RV</given-names>
+						</name>
+						<name>
+							<surname>Nogueira</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Georg</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Marzochi</surname>
+							<given-names>KB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical and laboratory features that discriminate dengue from other febrile illnesses: A diagnostic accuracy study in Rio de Janeiro, Brazil</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2013</year>
+					<volume>13</volume>
+					<fpage>77</fpage>
+					<lpage>77</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-13-77">https://doi.org/10.1186/1471-2334-13-77</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation>55. Rodríguez-Salazar CA, Recalde-Reyes DP, González MM, Padilla-Sanabria L, Quintero- Álvarez L, Gallego-Gómez JC, et al. Manifestaciones clínicas y hallazgos de laboratorio de una serie de casos febriles agudos con diagnóstico presuntivo de infección por el virus dengue. Quindío (Colombia). Infectio. 2016;20:84-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.infect.2015.08.003">https://doi.org/10.1016/j.infect.2015.08.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez-Salazar</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Recalde-Reyes</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Padilla-Sanabria</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Quintero- Álvarez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Gallego-Gómez</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Manifestaciones clínicas y hallazgos de laboratorio de una serie de casos febriles agudos con diagnóstico presuntivo de infección por el virus dengue. Quindío (Colombia)</article-title>
+					<source>Infectio</source>
+					<year>2016</year>
+					<volume>20</volume>
+					<fpage>84</fpage>
+					<lpage>92</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.infect.2015.08.003">https://doi.org/10.1016/j.infect.2015.08.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B56">
+				<label>56</label>
+				<mixed-citation>56. Potts J, Rothman A. Clinical and laboratory features that distinguish dengue from other febrile illnesses in endemic populations.Trop Med Int Health.2008;13:1328-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-3156.2008.02151.x">https://doi.org/10.1111/j.1365-3156.2008.02151.x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Potts</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rothman</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical and laboratory features that distinguish dengue from other febrile illnesses in endemic populations</article-title>
+					<source>Trop Med Int Health</source>
+					<year>2008</year>
+					<volume>13</volume>
+					<fpage>1328</fpage>
+					<lpage>1340</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-3156.2008.02151.x">https://doi.org/10.1111/j.1365-3156.2008.02151.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B57">
+				<label>57</label>
+				<mixed-citation>57. Tovar-Cuevas JR. Inferencia bayesiana e investigación en salud: un caso de aplicación en diagnóstico clínico. Rev Méd Risaralda.2015;21:9-16.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tovar-Cuevas</surname>
+							<given-names>JR</given-names>
+						</name>
+					</person-group>
+					<article-title>Inferencia bayesiana e investigación en salud un caso de aplicación en diagnóstico clínico</article-title>
+					<source>Rev Méd Risaralda</source>
+					<year>2015</year>
+					<volume>21</volume>
+					<fpage>9</fpage>
+					<lpage>16</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B58">
+				<label>58</label>
+				<mixed-citation>58. Tovar-Cuevas JR. Métodos estadísticos desarrollados para la estimación en la prevalencia y parámetros de desempeño de tests para diagnóstico clínico: una revisión de literatura. Investigaciones Andina.2011;13:338-51.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tovar-Cuevas</surname>
+							<given-names>JR</given-names>
+						</name>
+					</person-group>
+					<article-title>Métodos estadísticos desarrollados para la estimación en la prevalencia y parámetros de desempeño de tests para diagnóstico clínico una revisión de literatura</article-title>
+					<source>Investigaciones Andina</source>
+					<year>2011</year>
+					<volume>13</volume>
+					<fpage>338</fpage>
+					<lpage>351</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B59">
+				<label>59</label>
+				<mixed-citation>59. Silva-Ayçaguer LC,Benavides-Rodríguez A. Apuntes sobre subjetividad y estadística en la investigación en salud. Revista Cubana de Salud Pública. 2003;29:170-3.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva-Ayçaguer</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Benavides-Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Apuntes sobre subjetividad y estadística en la investigación en salud</article-title>
+					<source>Revista Cubana de Salud Pública</source>
+					<year>2003</year>
+					<volume>29</volume>
+					<fpage>170</fpage>
+					<lpage>173</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Caicedo DM, Méndez AC, Tovar JR, Osorio L. Desarrollo de algoritmos clínicos para el diagnóstico del dengue en Colombia. Biomédica. 2019;39:170-85 https://doi.org/10.7705/biomedica.v39i2.3990</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Diana María Caicedo: análisis estadístico, análisis y discusión de resultados y escritura del manuscrito Andrés Camilo Méndez: construcción estadística de algoritmos clínicos y escritura de la metodología del documento José Rafael Tovar: dirección de la construcción estadística de algoritmos, revisión y aportes científicos al texto Lyda Osorio: diseño del estudio, revisión y aportes científicos al texto</p>
+			</fn>
+			<fn fn-type="supported-by" id="fn3">
+				<label>Financiación:</label>
+				<p> Este trabajo fue apoyado parcialmente por el Fondo de Ciencia, Tecnología e Innovación - FCTeI del Sistema General de Regalías, Colombia (BPIN 2013000100011), por la Red Aedes y por Comfandi.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

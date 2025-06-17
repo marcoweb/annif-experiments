@@ -1,0 +1,52 @@
+#ITI#In-depth evaluation of machine learning methods for semi-automating article screening in a systematic review of mechanistic literature#FTI#
+#IRE# We aimed to evaluate the performance of supervised machine learning algorithms in predicting articles relevant for full-text review in a systematic review. Overall, 16,430 manually screened titles/abstracts, including 861 references identified relevant for full-text review were used for the analysis. Of these, 40% (n = 6573) were sub-divided for training (70%) and testing (30%) the algorithms. The remaining 60% (n = 9857) were used as a validation set. We evaluated down- and up-sampling methods and compared unigram, bigram, and singular value decomposition (SVD) approaches. For each approach, Naïve Bayes, Support Vector Machines (SVM), regularized logistic regressions, neural networks, random forest, Logit boost, and XGBoost were implemented using simple term frequency or Tf-Idf feature representations. Performance was evaluated using sensitivity, specificity, precision and area under the Curve. We combined predictions of the best-performing algorithms (Youden Index ≥0.3 with sensitivity/specificity≥70/60%). In a down-sample unigram approach, Naïve Bayes, SVM/quanteda text models with Tf-Idf, and linear SVM e1071 package with Tf-Idf achieved >90% sensitivity at specificity >65%. Combining the predictions of the 10 best-performing algorithms improved the performance to reach 95% sensitivity and 64% specificity in the validation set. Crude screening burden was reduced by 61% (5979) (adjusted: 80.3%) with 5% (27) false negativity rate. All the other approaches yielded relatively poorer performances. The down-sampling unigram approach achieved good performance in our data. Combining the predictions of algorithms improved sensitivity while screening burden was reduced by almost two-third. Implementing machine learning approaches in title/abstract screening should be investigated further toward refining these tools and automating their implementation#FRE#
+#IPC# automated screening; citation screening; machine learning; natural language processing; NLP; systematic review; text mining#FPC#
+#IRF# Bornmann L., Mutz R., Growth rates of modern science: a bibliometric analysis based on the number of publications and cited references, J Assn Inf Sci Tec, 66, 11, pp. 2215-2222, (2015); 
+Wallace B.C., Trikalinos T.A., Lau J., Brodley C., Schmid C.H., Semi-automated screening of biomedical citations for systematic reviews, BMC Bioinformatics, 1-11, (2010); 
+Nussbaumer-Streit B., Ellen M., Klerings I., Et al., Resource use during systematic review production varies widely: a scoping review, J Clin Epidemiol, 139, pp. 287-296, (2021); 
+Blaizot A.A.-O., Veettil S.K., Saidoung P., Et al., Using artificial intelligence methods for systematic review in health sciences: a systematic review; 
+Ertaylan G., Le Cornet C., van Roekel E.H., Et al., A comparative study on the WCRF international/University of Bristol Methodology for systematic reviews of mechanisms underpinning exposure-cancer associations, Cancer Epidemiol Biomarkers Prev, 26, 11, pp. 1583-1594, (2017); 
+Bashir R.A.-O., Dunn A.A.-O., Surian D.A.-O., A rule-based approach for automatically extracting data from systematic reviews and their updates to model the risk of conclusion change; 
+Thomas J., McDonald S., Noel-Storr A., Et al., Machine learning reduced workload with minimal risk of missing studies: development and evaluation of a randomized controlled trial classifier for Cochrane reviews, J Clin Epidemiol, 133, pp. 140-151, (2021); 
+Scott A.M., Forbes C., Clark J., Carter M., Glasziou P., Munn Z., Systematic review automation tools improve efficiency but lack of knowledge impedes their adoption: a survey, J Clin Epidemiol, 138, pp. 80-94, (2021); 
+Wallace B.C., Small K., Brodley C.E., Lau J., Ta T., Deploying an interactive machine learning system in an evidence-based practice center: Abstrackr. Proceedings of the 2nd ACM SIGHIT International Health Informatics Symposium, (2012); 
+Ouzzani M., Hammady H., Fedorowicz Z., Elmagarmid A., Rayyan—a web and mobile app for systematic reviews, Syst Rev, 5, 1, (2016); 
+Thomas J., Brunton J.S.G., EPPI-Reviewer 4.0: Software for Research Synthesis. EPPI-Centre Software, (2010); 
+Przybyla P., Brockmeier A.J., Kontonatsios G., Et al., Prioritising references for systematic reviews with RobotAnalyst: A user study, Res Synth Methods, 9, 3, pp. 470-488, (2018); 
+Bannach-Brown A., Przybyla P., Thomas J., Et al., Machine learning algorithms for systematic review: reducing workload in a preclinical review of animal studies and reducing human screening error, Syst Rev, 8, 1, (2019); 
+Massimo A., Corrado C., bibliometrix: an R-tool for comprehensive science mapping analysis, J Informet, 11, 4, pp. 959-975, (2017); 
+John Z., Robin S., Lavender J., Et al., Iterative guided machine learning-assisted systematic literature reviews: a diabetes case study, Syst Rev, (2020); 
+Longadge R., Snehalata D., Class imbalance problem in data mining review. arXiv:1305.1707, (2013); 
+Seiffert C., Khoshgoftaar T.M., Hulse J.V., Napolitano A., A Comparative Study of Data Sampling and Cost Sensitive Learning. Workshops Proceedings of the 8th IEEE International Conference on Data Mining (ICDM 2008), December 15-19, 2008, Pisa, Italy, pp. 46-52, (2008); 
+The caret package, (2012); 
+De Queiroz G., Hvitfeldt E., Keyes O., Misra K., Mastny T., Erickson J., Tidytext: text mining using'dplyr’,’ggplot2’, and other tidy tools. R Package Version 0.2, (2019); 
+Fellows I., Fellows M.I., Rcpp L., Rcpp L., Package ‘Wordcloud’, (2018); 
+Gu Z., Gu L., Eils R., Schlesner M., Brors B.J.B., Circlize implements and enhances circular visualization in R, Bioinformatics, 30, 19, pp. 2811-2812, (2014); 
+Benoit K., Watanabe K., Wang H., Et al., quanteda: An R package for the quantitative analysis of textual data, J Open Sourc Softw, 3, 30, (2018); 
+Ramos J., Using Tf-Idf to Determine Word Relevance in Document Queries. In Proceedings of the first instructional conference on machine learning, (2003); 
+Meyer D., Dimitriadou E., Hornik K., Et al., Package ‘e1071’, (2019); 
+Hastie T., Qian J.J.R.J., Glmnet Vignette, 9, 2016, pp. 1-30, (2014); 
+Ripley B., Venables W., Ripley MBJRpv Package ‘Nnet’, 7, pp. 3-12, (2016); 
+Package ‘randomForest’, Berkeley, CA, USA, (2018); 
+Tuszynski J., Tuszynski M., The caTools Package, 1, pp. 8-28, (2007); 
+Chen T., He T., Benesty M., Khotilovich V., Package ‘Xgboost’, 90, (2019); 
+Jakkula V., Tutorial on support vector machine (svm). Schhool of EECS, Washington State University, 2006;37(2.5):3; 
+Martinez-Arroyo M., Sucar L.E., Learning an Optimal Naive Bayes Classifier, pp. 1236-1239, (1800); 
+Sulzmann J.-N., Furnkranz J., Hullermeier E., On Pairwise Naive Bayes Classifiers, pp. 371-381, (2007); 
+Sing T., Sander O., Beerenwinkel N., Lengauer T., ROCR: visualizing classifier performance in R, Bioinformatics, 21, 20, pp. 3940-3941, (2005); 
+Various coefficients of interrater reliability and agreement. Version 0841 CRAN, (2019); 
+biostatUZH: Misc Tools of the Department of Biostatistics, University of Zurich. Version 1.8.0, (2017); 
+Dalal S.R., Shekelle P.G., Hempel S., Newberry S.J., Motala A., Shetty K.D., A pilot study using machine learning and domain knowledge to facilitate comparative effectiveness review updating, Med Decis Mak, 33, 3, pp. 343-355, (2013); 
+Rathbone J., Hoffmann T., Glasziou P., Faster title and abstract screening? Evaluating Abstrackr, a semi-automated online screening program for systematic reviewers, Syst Rev, 4, 1, (2015); 
+Gates A., Gates M., Sebastianski M., Guitard S., Elliott S.A., Hartling L., The semi-automation of title and abstract screening: a retrospective exploration of ways to leverage Abstrackr's relevance predictions in systematic and rapid reviews, BMC Med Res Methodol, 20, 1, (2020); 
+Frunza O., Inkpen D., Matwin S., Building Systematic Reviews Using Automatic Text Classification Techniques. COLING 2010, 23rd International Conference on Computational Linguistics, Posters Volume, 23-27 August 2010, Beijing, China, pp. 303-311, (2010); 
+Bekhuis T., Demner-Fushman D., Screening nonrandomized studies for medical systematic reviews: a comparative study of classifiers, Artif Intell Med, 55, 3, pp. 197-207, (2012); 
+Joachims T., Text categorization with support vector machines: learning with many relevant features, Lecture Notes in Computer Science, 1398, pp. 137-142, (1998); 
+Aphinyanaphongs Y., Tsamardinos I., Statnikov A., Hardin D., Aliferis C.F., Text categorization models for high-quality article retrieval in internal medicine, J Am Med Inform Assoc, 12, 2, pp. 207-216, (2005); 
+Pham B., Jovanovic J., Bagheri E., Et al., Text mining to support abstract screening for knowledge syntheses: a semi-automated workflow, Syst Rev, 10, 1, (2021); 
+Braga I., Monard M., Matsubara E., Combining unigrams and bigrams in semi-supervised text classification, Fourteenth Portuguese Conference on Artificial Intelligence, pp. 489-500, (2009); 
+Dickersin K., Min Y.I., Publication bias: the problem that won't go away, Ann N Y Acad Sci; 
+Nussbaumer-Streit B., Klerings I., Wagner G., Et al., Abbreviated literature searches were viable alternatives to comprehensive searches: a meta-epidemiological study, J Clin Epidemiol, 102, pp. 1-11, (2018); 
+Gartlehner G., Affengruber L., Titscher V., Et al., Single-reviewer abstract screening missed 13 percent of relevant studies: a crowd-based, randomized controlled trial, J Clin Epidemiol, 121, pp. 20-28, (2020); 
+Hartling L., Featherstone R., Nuspl M., Shave K., Dryden D.M., Vandermeer B., He contribution of databases to the results of systematic reviews: a cross-sectional study, BMC Med Res Methodol, 16, 1, (2016); 
+Wang Z., Nayfeh T., Tetzlaff J., O'Blenis P., Murad M.H., Error rates of human reviewers during abstract screening in systematic reviews, PloS One, 15, 1, (2020)#FRF#

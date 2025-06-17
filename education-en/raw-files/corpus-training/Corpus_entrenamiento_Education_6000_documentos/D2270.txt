@@ -1,0 +1,47 @@
+#ITI#Bayesian Hierarchical Multidimensional Item Response Modeling of Small Sample, Sparse Data for Personalized Developmental Surveillance#FTI#
+#IRE# Developmental surveillance tools are used to closely monitor the early development of infants and young children. This study provides a novel implementation of a multidimensional item response model, using Bayesian hierarchical priors, to construct developmental profiles for a small sample of children (N = 115) with sparse data collected through an online developmental surveillance tool. The surveillance tool records 348 developmental milestones measured from birth to three years of age, within six functional domains: auditory, hands, movement, speech, tactile, and vision. The profiles were constructed in three steps: (1) the multidimensional item response model, embedded in the Bayesian hierarchical framework, was implemented in order to measure both the latent abilities of the children and attributes of the milestones, while retaining the correlation structure among the latent developmental domains; (2) subsequent hierarchical clustering of the multidimensional ability estimates enabled identification of subgroups of children; and (3) information from the posterior distributions of the item response model parameters and the results of the clustering were used to construct a personalized profile of development for each child. These individual profiles support early identification of, and personalized early interventions for, children with developmental delay.#FRE#
+#IPC# Bayesian hierarchical modeling; developmental surveillance; hierarchical clustering; multidimensional item response model#FPC#
+#IRF# Adams R.J., Wilson M., Wang W.-C., The multidimensional random coefficients multinomial logit model, Applied Psychological Measurement, 21, 1, pp. 1-23, (1997); 
+Ayoub C.C., Fischer K.W., Developmental pathways and intersections among domains of development, Handbook of early child development, pp. 62-81, (2006); 
+Betancourt M., Girolami M., Hamiltonian Monte Carlo for hierarchical models, Current Trends in Bayesian Methodology With Applications, 79, 30, pp. 2-4, (2015); 
+Burkner P.-C., Bayesian item response modelling in R with brms and Stan, (2019); 
+Carpenter B., Gelman A., Hoffman M.D., Lee D., Goodrich B., Betancourt M., Brubaker M., Guo J., Li P., Riddell A., Stan: A probabilistic programming language, Journal of Statistical Software, 76, 1, (2017); 
+Chen C.-Y., Xie H., Clifford J., Chen C.-I., Squires J., Examining internal structures of a developmental measure using multidimensional item response theory, Journal of Early Intervention, 40, 4, pp. 287-303, (2018); 
+Cheng Y.-Y., Wang W.-C., Ho Y.-H., Multidimensional Rasch analysis of a psychological test with multiple subtests: A statistical solution for the bandwidth–fidelity dilemma, Educational and Psychological Measurement, 69, 3, pp. 369-388, (2009); 
+Curtis S.M., BUGS code for item response theory, Journal of Statistical Software, 36, 1, pp. 1-34, (2010); 
+de Ayala R.J., The theory and practice of item response theory, (2013); 
+de la Torre J., Hong Y., Parameter estimation with small sample size a higher-order IRT model approach, Applied Psychological Measurement, 34, 4, pp. 267-285, (2010); 
+de la Torre J., Patz R.J., Making the most of what we have: A practical application of multidimensional item response theory in test scoring, Journal of Educational and Behavioral Statistics, 30, 3, pp. 295-311, (2005); 
+de Lourdes Drachler M., Marshall T., De Carvalho Leite J.C., A continuous-scale measure of child development for population-based epidemiological surveys: A preliminary study using item response theory for the Denver Test, Paediatric and Perinatal Epidemiology, 21, 2, pp. 138-153, (2007); 
+Demiriz A., Enhancing product recommender systems on sparse binary data, Data Mining and Knowledge Discovery, 9, 2, pp. 147-170, (2004); 
+Help your child develop important milestones, (2017); 
+Finch W.H., French B.F., Parameter estimation with mixture item response theory models: A Monte Carlo comparison of maximum likelihood and Bayesian methods, Journal of Modern Applied Statistical Methods, 14, (2012); 
+Fischhoff B., Davis A.L., Communicating scientific uncertainty, Proceedings of the National Academy of Sciences of the U S A, 111, pp. 13664-13671, (2014); 
+Fox J.-P., Applications of multilevel IRT modeling, School Effectiveness and School Improvement, 15, 3-4, pp. 261-280, (2004); 
+Fox J.-P., Bayesian item response modeling: Theory and applications, (2010); 
+Gelman A., Carlin J.B., Stern H.S., Dunson D.B., Vehtari A., Rubin D.B., Bayesian data analysis, (2013); 
+Gilholm P., Supplementary MIRT developmental surveillance, (2020); 
+Gilholm P., Mengersen K., Thompson H., Identifying latent subgroups of children with developmental delay using Bayesian sequential updating and Dirichlet process mixture modelling, PLOS ONE, 15, 6, (2020); 
+Guralnick M.J., Bruder M.B., Early intervention, Handbook of intellectual disabilities, pp. 717-741, (2019); 
+Haley S.M., Coster W.J., Kao Y.-C., Dumas H.M., Fragala-Pinkham M.A., Kramer J.M., Ludlow L.H., Moed R., Lessons from use of the Pediatric Evaluation of Disability Inventory (PEDI): Where do we go from here?, Pediatric Physical Therapy, 22, 1, pp. 69-75, (2010); 
+James G., Witten D., Hastie T., Tibshirani R., An introduction to statistical learning, 112, (2013); 
+Konig C., Spoden C., Frey A., An optimized Bayesian hierarchical two-parameter logistic model for small-sample item calibration, Applied Psychological Measurement, 44, 4, pp. 311-326, (2020); 
+Lancaster G.A., McCray G., Kariger P., Dua T., Titman A., Chandna J., McCoy D., Abubakar A., Hamadani J.D., Fink G., Tofail F., Gladstone M., Janus M., Creation of the WHO indicators of Infant and Young Child Development (IYCD): Metadata synthesis across 10 countries, BMJ global health, 3, 5, (2018); 
+Malika C., Ghazzali N., Boiteau V., Niknafs A., NbClust: An R package for determining the relevant number of clusters in a data set, Journal of Statistical Software, 61, pp. 1-36, (2014); 
+McNeish D., On using Bayesian methods to address small sample problems, Structural Equation Modeling: A Multidisciplinary Journal, 23, 5, pp. 750-773, (2016); 
+Monnahan C.C., Thorson J.T., Branch T.A., Faster estimation of Bayesian models in ecology using Hamiltonian Monte Carlo, Methods in Ecology and Evolution, 8, 3, pp. 339-348, (2017); 
+Murtagh F., Legendre P., Ward’s hierarchical agglomerative clustering method: Which algorithms implement Ward’s criterion?, Journal of Classification, 31, 3, pp. 274-295, (2014); 
+Natesan P., Nandakumar R., Minka T., Rubright J.D., Bayesian prior choice in IRT estimation using MCMC and variational Bayes, Frontiers in Psychology, 7, (2016); 
+Ntzoufras I., Bayesian modeling using winbugs, 698, (2011); 
+Powell A., Davies H., Thomson R., Using routine comparative data to assess the quality of health care: Understanding and avoiding common pitfalls, BMJ Quality & Safety, 12, 2, pp. 122-128, (2003); 
+R: A language and environment for statistical computing [Computer software manual], Vienna, Austria, (2019); 
+Reeve B.B., Fayers P., Applying item response theory modeling for evaluating questionnaire item and scale properties, Assessing Quality of Life in Clinical Trials: Methods of Practice, 2, pp. 55-73, (2005); 
+Roberts J., Gough P., Communicating statistical uncertainty to non-expert audiences: Interactive disease mapping, 2016 Big data visual analytics (BDVA), pp. 1-3, (2016); 
+Rose N., von Davier M., Nagengast B., Commonalities and differences in IRT-based methods for nonignorable item nonresponses, Psychological Test and Assessment Modeling, 57, 4, pp. 472-498, (2015); 
+Scarborough A.A., Lloyd E.C., Barth R.P., Maltreated infants and toddlers: Predictors of developmental delay, Journal of Developmental & Behavioral Pediatrics, 30, 6, pp. 489-498, (2009); 
+Sheng Y., An empirical investigation of Bayesian hierarchical modeling with unidimensional IRT models, Behaviormetrika, 40, 1, pp. 19-40, (2012); 
+Sheng Y., Wikle C.K., Comparing multiunidimensional and unidimensional item response theory models, Educational and Psychological Measurement, 67, 6, pp. 899-919, (2007); 
+Sheng Y., Wikle C.K., Bayesian multidimensional IRT models with a hierarchical structure, Educational and psychological measurement, 68, 3, pp. 413-430, (2008); 
+Smid S.C., McNeish D., Miocevic M., van de Schoot R., Bayesian versus frequentist estimation for structural equation models in small sample contexts: A systematic review, Structural Equation Modeling: A Multidisciplinary Journal, 27, 1, pp. 131-161, (2020); 
+RStan: The R interface to Stan, (2020); 
+Zhang J., Calibration of response data using MIRT models with simple and mixed structures, Applied Psychological Measurement, 36, 5, pp. 375-398, (2012)#FRF#

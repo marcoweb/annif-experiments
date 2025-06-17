@@ -1,0 +1,45 @@
+#ITI#A Bayesian General Model to Account for Individual Differences in Operation-Specific Learning Within a Test#FTI#
+#IRE# The present paper introduces a general multidimensional model to measure individual differences in learning within a single administration of a test. Learning is assumed to result from practicing the operations involved in solving the items. The model accounts for the possibility that the ability to learn may manifest differently for correct and incorrect responses, which allows for distinguishing different types of learning effects in the data. Model estimation and evaluation is based on a Bayesian framework. A simulation study is presented that examines the performance of the estimation and evaluation methods. The results show accuracy in parameter recovery as well as good performance in model evaluation and selection. An empirical study illustrates the applicability of the model to data from a logical ability test.#FRE#
+#IPC# ability to learn; learning models; linear logistic test model; Markov chain Monte Carlo#FPC#
+#IRF# Andersen E.B., Estimating latent correlations between repeated testings, Psychometrika, 50, pp. 3-16, (1985); 
+Bereiter C., Some persisting dilemmas in the measurement of change, Problems in measuring change, pp. 3-20, (1963); 
+Bock R.D., Basic issues in the measurement of change, Advances in psychological and educational measurement, pp. 75-96, (1976); 
+Brooks S., Gelman A., Jones G.L., Meng X.-L., Handbook of Markov chain Monte Carlo, (2011); 
+Carpenter B., Gelman A., Hoffman M.D., Lee D., Goodrich B., Betancourt M., Riddell A., Stan: A probabilistic programming language, Journal of Statistical Software, 76, pp. 1-32, (2017); 
+Chen W., Thissen D., Local dependence indexes for item pairs using item response theory, Journal of Educational and Behavioral Statistics, 22, pp. 265-289, (1997); 
+Cronbach L.J., Furby L., How we should measure “change”-or should we?, Psychological Bulletin, 74, pp. 68-80, (1970); 
+Dearborn W.F., Intelligence and its measurement, Journal of Educational Psychology, 12, pp. 210-212, (1921); 
+Duane S., Kennedy A.D., Pendleton B.J., Roweth D., Hybrid Monte Carlo, Physics Letters B, 195, pp. 216-222, (1987); 
+Embretson S.E., A multidimensional latent trait model for measuring learning and change, Psychometrika, 56, pp. 495-515, (1991); 
+Fischer G.H., The linear logistic test model as an instrument in educational research, Acta Psychologica, 3, pp. 359-374, (1973); 
+Fischer G.H., Logistic latent trait models with linear constraints, Psychometrika, 48, pp. 3-26, (1983); 
+Fischer G.H., The linear logistic test model, Rasch models: Foundations, recent developments, and applications, pp. 131-155, (1995); 
+Fischer G.H., Formann A.K., Some applications of logistic latent trait models with linear constraints on the parameters, Applied Psychological Measurement, 6, pp. 397-416, (1982); 
+Gelman A., Carlin J.B., Stern H.S., Dunson D.B., Vehtari A., Rubin D.B., Bayesian data analysis, (2013); 
+Gelman A., Hwang J., Vehtari A., Understanding predictive information criteria for Bayesian models, Statistics and Computing, 24, pp. 997-1016, (2014); 
+Gelman A., Lee D., Guo J., Stan. A probabilistic programming language for Bayesian inference and optimization, Journal of Educational and Behavioral Statistics, 40, pp. 530-543, (2015); 
+Gelman A., Meng X.-L., Stern H., Posterior predictive assessment of model fitness via realized discrepancies, Statistica Sinica, 6, pp. 733-807, (1996); 
+Gelman A., Rubin D.B., Inference from iterative simulation using multiple sequences, Statistical Science, 7, pp. 457-472, (1992); 
+Geman S., Geman D., Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images, IEEE Transactions on Pattern Analysis and Machine Intelligence, 6, pp. 721-741, (1984); 
+Hoffman M.D., Gelman A., The No-U-turn sampler: Adaptively setting path lengths in Hamiltonian Monte Carlo, Journal of Machine Learning Research, 15, pp. 1593-1623, (2014); 
+Levy R., Xu Y., Yel N., Svetina D., A standardized generalized dimensionality discrepancy measure and a standardized model-based covariance for dimensionality assessment for multidimensional models, Journal of Educational Measurement, 52, pp. 144-158, (2015); 
+Lord F.M., Elementary models for measuring change, Problems in measuring change, pp. 21-38, (1963); 
+Lozano J.H., Revuelta J., Bayesian estimation and testing of a linear logistic test model for learning during the test, Applied Measurement in Education, 34, pp. 223-235, (2021); 
+Lozano J.H., Revuelta J., A Bayesian generalized explanatory item response model to account for learning during the test, Psychometrika, 86, pp. 994-1015, (2021); 
+Meng X.-L., Posterior predictive p-values, The Annals of Statistics, 22, pp. 1142-1160, (1994); 
+Metropolis N., Rosenbluth A.W., Rosenbluth M.N., Teller A.H., Teller E., Equation of state calculations by fast computing machines, The Journal of Chemical Physics, 21, pp. 1087-1092, (1953); 
+Neal R.M., An improved acceptance procedure for the hybrid Monte Carlo algorithm, Journal of Computational Physics, 111, pp. 194-203, (1994); 
+Neal R.M., MCMC using Hamiltonian dynamics, Handbook of Markov chain Monte Carlo, pp. 116-162, (2011); 
+Rasch G., Probabilistic models for some intelligence and attainment tests, (1960); 
+R: A language and environment for statistical computing, (2019); 
+Revuelta J., Ximenez C., Bayesian dimensionality assessment for the multidimensional nominal response model, Frontiers in Psychology, 8, (2017); 
+Scheiblechner H., Das lernen und lösen komplexer denkaufgaben [The learning and solving of complex cognitive tasks], Zeitschrift für Experimentelle und Angewandte Psychologie, 19, pp. 476-506, (1972); 
+DA5: Diagramas codificados (DA5: Coded diagrams), (1996); 
+Sinharay S., Assessing fit of unidimensional item response theory models using a Bayesian approach, Journal of Educational Measurement, 42, pp. 375-394, (2005); 
+Spada H., Logistic models of learning and thought, Structural models of thinking and learning, pp. 227-262, (1977); 
+Spiegelhalter D.J., Best N.G., Carlin B.P., Van Der Linde A., Bayesian measures of model complexity and fit, Journal of the Royal Statistical Society: Series B (Statistical Methodology), 64, pp. 583-639, (2002); 
+RStan: the R interface to Stan. R package version 2.19.2, (2019); 
+Vehtari A., Gabry J., Magnusson M., Yao Y., Burkner P., Paananen T., Gelman A., loo: Efficient leave-one-out cross-validation and WAIC for Bayesian models. R package version 2.3.1, (2020); 
+Vehtari A., Gelman A., Gabry J., Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC, Statistics and Computing, 27, pp. 1413-1432, (2017); 
+Watanabe S., Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory, Journal of Machine Learning Research, 11, pp. 3571-3594, (2010); 
+Watanabe S., A widely applicable Bayesian information criterion, Journal of Machine Learning Research, 14, pp. 867-897, (2013)#FRF#

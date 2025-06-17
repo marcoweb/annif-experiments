@@ -1,0 +1,49 @@
+#ITI#Constructing theoretically informed measures of pause duration in experimentally manipulated writing#FTI#
+#IRE#This paper argues that traditional threshold-based approaches to the analysis of pauses in writing fail to capture the complexity of the cognitive processes involved in text production. It proposes that, to capture these processes, pause analysis should focus on the transition times between linearly produced units of text. Following a review of some of the problematic features of traditional pause analysis, the paper is divided into two sections. These are designed to demonstrate: (i) how to isolate relevant transitions within a text and calculate their durations; and (ii) the use of mixture modelling to identify structure within the distributions of pauses at different locations. The paper uses a set of keystroke logs collected from 32 university students writing argumentative texts about current affairs topics to demonstrate these methods. In the first section, it defines how pauses are calculated using a reproducible framework, explains the distinction between linear and non-linear text transitions, and explains how relevant sections of text are identified. It provides Excel scripts for automatically identifying relevant pauses and calculating their duration. The second section applies mixture modelling to linear transitions at sentence, sub sentence, between-word and within-word boundaries for each participant. It concludes that these transitions cannot be characterised by a single distribution of “cognitive” pauses. It proposes, further, that transitions between words should be characterised by a three-component distribution reflecting lexical, supra-lexical and reflective processes, while transitions at other text locations can be modelled by two-component distributions distinguishing between fluent and less fluent or more reflective processing. The paper concludes by recommending that, rather than imposing fixed thresholds to distinguish processes, researchers should instead impose a common set of theoretically informed distributions on the data and estimate how the parameters of these distributions vary for different individuals and under different conditions. © The Author(s) 2022.#FRE#
+#IPC#Keystroke analysis; Pause analysis; Writing processes#FPC#
+#IRF#Aarts A.A., Anderson J.E., Anderson C.J., Attridge P.R., Attwood A., Axt J., Babel M., Bahnik S., Baranski E., Barnett-Cowan M., Bartmess E., Beer J., Bell R., Bentley H., Beyan L., Binion G., Borsboom D., Bosch A., Bosco F.A., Zuni K., Et al., Estimating the reproducibility of psychological science, Science, 349, 6251, (2015); 
+Alamargot D., Dansac C., Chesnet D., Fayol M., Parallel processing before and after pauses: A combined analysis of graphomotor and eye movements during procedural text production, Writing and cognition: Research and applications, pp. 13-29, (2007); 
+Almond R., Deane P., Quinlan T., Wagner M., Sydorenko T., A preliminary analysis of keystroke log data from a timed writing task (Research Report No. RR-12–23), Educational Testing Service, (2012); 
+Alves R.A., Castro S.L., Olive T., Execution and pauses in writing narratives: Processing time, cognitive effort and typing skill, International Journal of Psychology, 43, pp. 969-979, (2008); 
+Alves R.A., Limpo T., Progress in written language bursts, pauses, transcription, and written composition across schooling, Scientific Studies of Reading, 19, pp. 374-391, (2015); 
+Andersson B., Dahl J., Holmqvist K., Holsanova J., Johansson V., Karlsson H., Combining keystroke logging with eye tracking, Writing and Digital Media, pp. 166-172, (2006); 
+Asparouhov T., Muthen B., Multilevel mixture models, Advances in latent variable mixture models, pp. 27-51, (2008); 
+Baaijen V.M., Galbraith D., Discovery through writing: Relationships with writing processes and text quality, Cognition and Instruction, (2018); 
+Baaijen V.M., Galbraith D., de Glopper K., Keystroke analysis: Reflections on procedures and measures, Written Communication, 29, 3, pp. 246-277, (2012); 
+Beauvais C., Olive T., Passerault J.M., Why are some texts good and others not? Relationship between text quality and management of the writing processes, Journal of Educational Psychology, 103, pp. 415-428, (2011); 
+Berchtold A., Sequence analysis and transition models, Encyclopedia of Animal Behavior, pp. 139-145, (2010); 
+Bereiter C., Scardamalia M., Educational relevance of the study of expertise, Interchange, 17, 2, pp. 10-19, (1986); 
+Bereiter C., Scardamalia M., The psychology of written composition, (1987); 
+Cain K., Reading development and difficulties, (2010); 
+Chanquoy L., Foulin J., Michel F., Temporal management of short text writing by children and adults, Cahiers De Psychologie Cognitive/current Psychology of Cognition, 10, pp. 513-540, (1990); 
+Chenoweth N.A., Hayes J.R., Fluency in writing generating text in L1 and L2, Written Communication, 18, pp. 80-98, (2001); 
+Chenu F., Pellegrino F., Jisa H., Fayol M., Interword and intraword pause threshold in writing, Frontiers in Psychology, 5, (2014); 
+Conijn R., Roeser J., van Zaanen M., Understanding the keystroke log: The effect of writing task on keystroke features, Reading and Writing, 32, 9, pp. 2353-2374, (2019); 
+Connelly V., Campbell S., MacLean M., Barnes J., Contribution of lower order skills to the written composition of college students with and without dyslexia, Developmental Neuropsychology, 29, pp. 175-196, (2006); 
+Do C.B., Batzoglou S., What is the expectation maximization algorithm?, Nature Biotechnology, 26, 8, pp. 897-899, (2008); 
+Flower L., Hayes J.R., The cognition of discovery: Defining a rhetorical problem, College Composition and Communication, 31, 1, (1980); 
+Fraley C., Raftery A.E., Scrucca L., Murphy T.B., Fop M., Package “mclust” Title Gaussian Mixture Modelling for Model-Based Clustering, Classification, and Density Estimation., (2020); 
+Galbraith D., Writing as discovery, British Journal of Educational Psychology Monograph Series, II, 6, pp. 5-26, (2009); 
+Galbraith D., Baaijen V.M., The work of writing: Raiding the inarticulate, Educational Psychologist, (2018); 
+Galbraith D., Baaijen V.M., Aligning keystrokes with cognitive processes in writing, Observing writing Insights from keystroke logging and handwriting, pp. 306-325, (2019); 
+Guo H., Deane P.D., van Rijn P.W., Zhang M., Bennett R.E., Modeling basic writing processes from keystroke logs, Journal of Educational Measurement, 55, 2, pp. 194-216, (2018); 
+Hayes J.R., Modeling and remodeling writing, Written Communication, 29, 3, pp. 369-388, (2012); 
+Hird K., Kirsner K., Objective measurement of fluency in natural language production: A dynamic systems approach, Journal of Neurolinguistics, 23, pp. 518-530, (2010); 
+Kirsner K., Dunn J., Hird K., Language productions: A complex dynamic system with a chronometric footprint, . In: Paper Presented at the 2005 International Conference on Computational Science, (2005); 
+Leijten M., Van Waes L., Keystroke logging in writing research: Using Inputlog to analyze and visualize writing processes, Written Communication, 30, 3, pp. 358-392, (2013); 
+Little D.R., Oehmen R., Dunn J., Hird K., Kirsner K., Fluency profiling system: An automated system for analyzing the temporal properties of speech, Behavior Research Methods, 45, 1, pp. 191-202, (2013); 
+Martinez W.L., Martinez A.R., Computational statistics handbook using MATLAB, (2002); 
+Matsuhashi A., Pausing and planning: The tempo of written discourse production, Research in the Teaching of English, 15, pp. 113-134, (1981); 
+McLachlan G.J., Peel D., Finite Mixture Models, (2000); 
+Medimorec S., Risko E.F., Effects of disfluency in writing, British Journal of Psychology, 107, pp. 625-650, (2016); 
+Medimorec S., Young T.P., Risko E.F., Disfluency effects on lexical selection, Cognition, 18, pp. 28-32, (2017); 
+Munafo M., Nosek B., Bishop D., Button K., Chambers C., Percie Du Sert N., Simonsohn U., Wagenmakers E., Ware J., Ioannidis J., A manifesto for reproducible science, Nature Human Behaviour, 1, 1, (2017); 
+Muthen B., Asparouhov T., Growth mixture modeling: Analysis with non-Gaussian random effects, Longitudinal data analysis, pp. 143-165, (2009); 
+Olive T., Alves R.A., Castro S.L., Cognitive processes in writing during pause and execution periods, European Journal of Cognitive Psychology, 21, pp. 758-785, (2009); 
+Roeser J., De Maeyer S., Leijten M., Van Waes L., Modelling typing disfluencies as finite mixture process, Reading and Writing, (2021); 
+Roeser J., Torrance M., Baguley T., Advance planning in written and spoken sentence production, Journal of Experimental Psychology: Learning, Memory, and Cognition, 45, 11, pp. 1983-2009, (2019); 
+Schilperoord J., On the cognitive status of pauses in discourse production, Contemporary tools and techniques for studying writing, pp. 59-85, (2001); 
+Spelman Miller K., Academic writers on-line: Investigating pausing in the production of text, Language Teaching Research, 4, 2, pp. 123-148, (2000); 
+Van Hell J.G., Verhoeven L., Van Beijsterveldt L.M., Pause time patterns in writing narrative and expository texts by children and adults, Discourse Processes, 45, pp. 406-427, (2008); 
+Van Waes L., Leijten M., Roeser J., Olive T., Grabowski J., Measuring and assessing typing skills in writing research, Journal of Writing Research, 13, 1, pp. 107-153, (2021); 
+Wengelin A., Torrance M., Holmqvist K., Simpson S., Galbraith D., Johansson V., Johansson R., Combined eyetracking and keystroke-logging methods for studying cognitive processes in text production, Behavior Research Methods, 41, 2, pp. 337-351, (2009)#FRF#

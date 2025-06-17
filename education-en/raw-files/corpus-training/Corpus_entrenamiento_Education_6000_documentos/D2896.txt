@@ -1,0 +1,41 @@
+#ITI#Improved methods to construct prediction intervals for network meta-analysis#FTI#
+#IRE# Network meta-analysis has played an important role in evidence-based medicine for assessing the comparative effectiveness of multiple available treatments. The prediction interval has been one of the standard outputs in recent network meta-analysis as an effective measure that enables simultaneous assessment of uncertainties in treatment effects and heterogeneity among studies. To construct the prediction interval, a large-sample approximating method based on the t-distribution has generally been applied in practice; however, recent studies have shown that similar t-approximation methods for conventional pairwise meta-analyses can substantially underestimate the uncertainty under realistic situations. In this article, we performed simulation studies to assess the validity of the current standard method for network meta-analysis, and we show that its validity can also be violated under realistic situations. To address the invalidity issue, we developed two new methods to construct more accurate prediction intervals through bootstrap and Kenward–Roger-type adjustment. In simulation experiments, the two proposed methods exhibited better coverage performance and generally provided wider prediction intervals than the ordinary t-approximation. We also developed an R package, PINMA (https://cran.r-project.org/web/packages/PINMA/), to perform the proposed methods using simple commands. We illustrate the effectiveness of the proposed methods through applications to two real network meta-analyses#FRE#
+#IPC# bootstrap; higher-order approximation; Kenward-Roger–type adjustment; network meta-analysis; prediction interval#FPC#
+#IRF# Salanti G., Indirect and mixed-treatment comparison, network, or multiple-treatments meta-analysis: many names, many benefits, many concerns for the next generation evidence synthesis tool, Res Synth Methods, 3, 2, pp. 80-97, (2012); 
+Salanti G., Higgins J.P., Ades A.E., Ioannidis J.P., Evaluation of networks of randomized trials, Stat Methods Med Res, 17, 3, pp. 279-301, (2008); 
+Higgins J.P.T., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc A, 172, 1, pp. 137-159, (2009); 
+Riley R.D., Higgins J.P.T., Deeks J.J., Interpretation of random effects meta-analyses, BMJ, 342, (2011); 
+IntHout J., Ioannidis J.P., Rovers M.M., Goeman J.J., Plea for routinely presenting prediction intervals in meta-analysis, BMJ Open, 6, 7, (2016); 
+Veroniki A.A., Jackson D., Bender R., Et al., Methods to calculate uncertainty in the estimated overall effect size from a random-effects meta-analysis, Res Synth Methods, 10, 1, pp. 23-43, (2019); 
+Chaimani A., Salanti G., Visualizing assumptions and results in network meta-analysis: the network graphs package, Stata J, 15, 4, pp. 905-920, (2015); 
+Follmann D.A., Proschan M.A., Valid inference in random effects meta-analysis, Biometrics, 55, 3, pp. 732-737, (1999); 
+Partlett C., Riley R.D., Random effects meta-analysis: coverage performance of 95% confidence and prediction intervals following REML estimation, Stat Med, 36, 2, pp. 301-317, (2017); 
+Nagashima K., Noma H., Furukawa T.A., Prediction intervals for random-effects meta-analysis: a confidence distribution approach, Stat Methods Med Res, 28, 6, pp. 1689-1702, (2019); 
+Hamaguchi Y., Noma H., Nagashima K., Yamada T., Furukawa T.A., Frequentist performances of Bayesian prediction intervals for random-effects meta-analysis, Biom J, 63, 2, pp. 394-405, (2021); 
+Noma H., Nagashima K., Furukawa T.A., Permutation inference methods for multivariate meta-analysis, Biometrics, 76, 1, pp. 337-347, (2020); 
+Noma H., Nagashima K., Maruo K., Gosho M., Furukawa T.A., Bartlett-type corrections and bootstrap adjustments of likelihood-based inference methods for network meta-analysis, Stat Med, 37, 7, pp. 1178-1190, (2018); 
+Sugasawa S., Noma H., A unified method for improved inference in random effects meta-analysis, Biostatistics, 22, 1, pp. 114-130, (2019); 
+Chatterjee S., Lachat P., Li H., Parametric bootstrap approximation to the distribution of eblup and related prediction intervals in linear mixed models, Ann Stat, 36, 3, pp. 1221-1245, (2008); 
+Lahiri P., On the impact of bootstrap in survey sampling and small area estimation, Stat Sci, 18, 2, pp. 199-210, (2003); 
+Saegusa T., Sugasawa S., Lahiri P., Parametric bootstrap confidence intervals for the multivariate Fay-Herriot model, J Surv Stat Meth, 10, 1, pp. 115-130, (2022); 
+Kenward M.G., Roger J.H., Small sample inference for fixed effects from restricted maximum likelihood, Biometrics, 53, 3, pp. 983-997, (1997); 
+Noma H., Hamura Y., Gosho M., Furukawa T.A., Kenward-Roger-type corrections for inference methods of network meta-analysis and meta-regression, Res Synth Methods, (2023); 
+Wu H.Y., Huang J.W., Lin H.J., Et al., Comparative effectiveness of renin-angiotensin system blockers and other antihypertensive drugs in patients with diabetes: systematic review and bayesian network meta-analysis, BMJ, 347, (2013); 
+Siontis G.C., Mavridis D., Greenwood J.P., Et al., Outcomes of non-invasive diagnostic modalities for the detection of coronary artery disease: network meta-analysis of diagnostic randomised controlled trials, BMJ, 360, (2018); 
+White I.R., Network meta-analysis, Stata J, 15, 4, pp. 951-985, (2015); 
+White I.R., Barrett J.K., Jackson D., Higgins J.P., Consistency and inconsistency in network meta-analysis: model estimation using multivariate meta-regression, Res Synth Methods, 3, 2, pp. 111-125, (2012); 
+Wei Y., Higgins J.P., Estimating within-study covariances in multivariate meta-analysis with multiple outcomes, Stat Med, 32, 7, pp. 1191-1205, (2013); 
+Trikalinos T., Olkin I., A method for the meta-analysis of mutually exclusive binary outcomes, Stat Med, 27, pp. 4279-4300, (2008); 
+Higgins J.P., Whitehead A., Borrowing strength from external trials in a meta-analysis, Stat Med, 15, 24, pp. 2733-2749, (1996); 
+Lu G., Ades A.E., Modeling between-trial variance structure in mixed treatment comparisons, Biostatistics, 10, 4, pp. 792-805, (2009); 
+White I.R., Multivariate random-effects meta-regression: updates to mvmeta, Stata J, 11, 2, pp. 255-270, (2011); 
+Jackson D., White I.R., Riley R.D., A matrix-based method of moments for fitting the multivariate random effects model for meta-analysis and meta-regression, Biom J, 55, 2, pp. 231-245, (2013); 
+Jackson D., White I.R., Thompson S.G., Extending DerSimonian and Laird's methodology to perform multivariate random effects meta-analyses, Stat Med, 29, 12, pp. 1282-1297, (2010); 
+Kackar A.N., Harville D.A., Approximations for standard errors of estimators of fixed and random effects in mixed linear models, J Am Stat Assoc, 79, 388, pp. 853-862, (1984); 
+Balduzzi S., Rucker G., Nikolakopoulou A., Et al., Netmeta: an R package for network meta-analysis using frequentist methods, J Stat Softw, 106, pp. 1-40, (2023); 
+Friede T., Rover C., Wandel S., Neuenschwander B., Meta-analysis of few small studies in orphan diseases, Res Synth Methods, 8, 1, pp. 79-91, (2017); 
+Noma H., Confidence intervals for a random-effects meta-analysis based on Bartlett-type corrections, Stat Med, 30, 28, pp. 3304-3312, (2011); 
+Knapp G., Hartung J., Improved tests for a random effects meta-regression with a single covariate, Stat Med, 22, 17, pp. 2693-2710, (2003); 
+Viechtbauer W., Lopez-Lopez J.A., Sanchez-Meca J., Marin-Martinez F., A comparison of procedures to test for moderators in mixed-effects meta-regression models, Psychol Methods, 20, 3, pp. 360-374, (2015); 
+Morey R.D., Hoekstra R., Rouder J.N., Lee M.D., Wagenmakers E.J., The fallacy of placing confidence in confidence intervals, Psychon Bull Rev, 23, 1, pp. 103-123, (2016); 
+Wiksten A., Rucker G., Schwarzer G., Hartung-Knapp method is not always conservative compared with fixed-effect meta-analysis, Stat Med, 35, 15, pp. 2503-2515, (2016)#FRF#

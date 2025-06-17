@@ -1,0 +1,42 @@
+#ITI#Incorporating Uncertainty Into Parallel Analysis for Choosing the Number of Factors via Bayesian Methods#FTI#
+#IRE# A number of psychometricians have suggested that parallel analysis (PA) tends to yield more accurate results in determining the number of factors in comparison with other statistical methods. Nevertheless, all too often PA can suggest an incorrect number of factors, particularly in statistically unfavorable conditions (e.g., small sample sizes and low factor loadings). Because of this, researchers have recommended using multiple methods to make judgments about the number of factors to extract. Implicit in this recommendation is that, when the number of factors is chosen based on PA, uncertainty nevertheless exists. We propose a Bayesian parallel analysis (B-PA) method to incorporate the uncertainty with decisions about the number of factors. B-PA yields a probability distribution for the various possible numbers of factors. We implement and compare B-PA with a frequentist approach, revised parallel analysis (R-PA), in the contexts of real and simulated data. Results show that B-PA provides relevant information regarding the uncertainty in determining the number of factors, particularly under conditions with small sample sizes, low factor loadings, and less distinguishable factors. Even if the indicated number of factors with the highest probability is incorrect, B-PA can show a sizable probability of retaining the correct number of factors. Interestingly, when the mode of the distribution of the probabilities associated with different numbers of factors was treated as the number of factors to retain, B-PA was somewhat more accurate than R-PA in a majority of the conditions.#FRE#
+#IPC# Bayesian analysis; dimensionality assessment; exploratory factor analysis; parallel analysis#FPC#
+#IRF# Auerswald M., Moshagen M., How to determine the number of factors to retain in exploratory factor analysis: A comparison of extraction methods under realistic conditions, Psychological Methods, 24, 4, pp. 468-491, (2019); 
+Bhattacharya A., Dunson D.B., Sparse Bayesian infinite factor models, Biometrika, 98, 2, pp. 291-306, (2011); 
+Bozdogan H., Shigemasu K., Bayesian factor analysis model and choosing the number of factors using a new informational complexity criterion, Advances in data science and classification. Studies in classification, data analysis, and knowledge organization, pp. 335-342, (1998); 
+Buja A., Eyuboglu N., Remarks on parallel analysis, Multivariate Behavioral Research, 27, 4, pp. 509-540, (1992); 
+Conti G., Fruhwirth-Schnatter S., Heckman J.J., Piatek R., Bayesian exploratory factor analysis, Journal of Econometrics, 183, 1, pp. 31-57, (2014); 
+Conway J.M., Huffcutt A.I., A review and evaluation of exploratory factor analysis practices in organizational research, Organizational research methods, 6, 2, pp. 147-168, (2003); 
+Crawford A., Green S.B., Levy R., Lo W.-J., Scott L., Svetina D., Thompson M.S., Evaluation of parallel analysis methods for determining the number of factors, Educational and Psychological Measurement, 70, 6, pp. 885-901, (2010); 
+DiStefano C., Hess B., Using confirmatory factor analysis for construct validation: An empirical review, Journal of Psychoeducational Assessment, 23, 3, pp. 225-241, (2005); 
+Fabrigar L.R., Wegener D.T., MacCallum R.C., Strahan E.J., Evaluating the use of exploratory factor analysis in psychological research, Psychological Methods, 4, 3, pp. 272-299, (1999); 
+Ford J.K., MacCallum R.C., Tait M., The applications of exploratory factor analysis in applied psychology: A critical review and analysis, Personnel Psychology, 39, 2, pp. 291-314, (1986); 
+Gelman A., Meng X.L., Stern H., Posterior predictive assessment of model fitness via realized discrepancies, Statistica Sinica, 6, 4, pp. 733-807, (1996); 
+Geweke J., Zhou G., Measuring the pricing error of the arbitrage pricing theory, Review of Financial Studies, 9, 2, pp. 557-587, (1996); 
+Glorfeld L.W., An improvement on Horn’s parallel analysis methodology for selecting the correct number of factors to retain, Educational and Psychological Measurement, 55, 3, pp. 377-393, (1995); 
+Green S.B., Levy R., Thompson M.S., Lu M., Lo W.-J., A proposed solution to the problem with using completely random data to assess the number of factors with parallel analysis, Educational and Psychological Measurement, 72, 3, pp. 357-374, (2012); 
+Green S.B., Redell N., Thompson M.S., Levy R., Accuracy of revised and traditional parallel analyses for assessing dimensionality with binary data, Educational and Psychological Measurement, 76, 1, pp. 5-21, (2016); 
+Green S.B., Thompson M.S., Levy R., Lo W.-J., Type I and II error rates and overall accuracy of the revised parallel analysis method for determining the number of factors, Educational and Psychological Measurement, 75, 3, pp. 428-457, (2015); 
+Green S.B., Xu Y., Thompson M.S., Relative accuracy of two parallel analysis methods that use the proper reference distribution, Educational and Psychological Measurement, 78, 4, pp. 589-604, (2017); 
+Harshman R.A., Reddon J.R., (1983); 
+Hayton J.C., Allen D.G., Scarpello V., Factor retention decisions in exploratory factor analysis: A tutorial on parallel analysis, Organizational Research Methods, 7, 2, pp. 191-205, (2004); 
+Holzinger K.J., Swineford E., A study in factor analysis: The stability of a bi-factor solution. Supplementary educational monographs, (1939); 
+Humphreys L.G., Ilgen D.R., Note on a criterion for the number of common factors, Educational and Psychological Measurement, 29, 3, pp. 571-578, (1969); 
+Kaufmann S., Schumacher C., Bayesian estimation of sparse dynamic factor models with order-independent and ex-post mode identification, Journal of Econometrics, 210, 1, pp. 116-134, (2019); 
+Kelley K., MBESS: The MBESS R Package, (2019); 
+Kruschke J.K., Liddell T.M., The Bayesian new statistics: Hypothesis testing, estimation, meta-analysis, and power analysis from a Bayesian perspective, Psychonomic Bulletin & Review, 25, 1, pp. 178-206, (2018); 
+Lee S.-Y., Song X.-Y., Bayesian selection on the number of factors in a factor analysis model, Behaviormetrika, 29, 1, pp. 23-39, (2002); 
+Levy R., Bayesian data-model fit assessment for structural equation modeling, Structural Equation Modeling, 18, 4, pp. 663-685, (2011); 
+Levy R., Mislevy R.J., Bayesian psychometric modeling, (2016); 
+Lim S., Jahng S., Determining the number of factors using parallel analysis and its recent variants, Psychological Methods, 24, 4, pp. 452-467, (2019); 
+Martin A.D., Quinn K.M., Park J.H., MCMCpack: Markov chain Monte Carlo in R, Journal of Statistical Software, 42, 9, pp. 1-21, (2011); 
+Muthen B., Asparouhov T., Bayesian structural equation modeling: A more flexible representation of substantive theory, Psychological Methods, 17, 3, pp. 313-335, (2012); 
+Preacher K.J., MacCallum R.C., Repairing Tom Swift’s electric factor analysis machine, Understanding Statistics, 2, 1, pp. 13-43, (2003); 
+Press S.J., Shigemasu K., A note on choosing the number of factors, Communications in Statistics—Theory and Methods, 28, 7, pp. 1653-1670, (1999); 
+Reise S.P., The rediscovery of bifactor measurement models, Multivariate Behavioral Research, 47, 5, pp. 667-696, (2012); 
+Rijmen F., Formal relations and an empirical comparison among the bi-factor, the testlet, and a second-order multidimensional IRT model, Journal of Educational Measurement, 47, 3, pp. 361-372, (2010); 
+Rockova V., George E.I., Fast Bayesian factor analysis via automatic rotations to sparsity, Journal of the American Statistical Association, 111, 516, pp. 1608-1622, (2016); 
+Timmerman M.E., Lorenzo-Seva U., Dimensionality assessment of ordered polytomous items with parallel analysis, Psychological Methods, 16, 2, pp. 209-220, (2011); 
+Turner N.E., The effect of common variance and structure pattern on random data eigenvalues: Implications for the accuracy of parallel analysis, Educational and Psychological Measurement, 58, 4, pp. 541-556, (1998); 
+Xia Y., Green S.B., Xu Y., Thompson M.S., Proportion of indicator common variance due to a factor as an effect size statistic in revised parallel analysis, Educational and Psychological Measurement, 79, 1, pp. 85-107, (2018); 
+Zwick W.R., Velicer W.F., Comparison of five rules for determining the number of components to retain, Psychological Bulletin, 99, 3, pp. 432-442, (1986)#FRF#

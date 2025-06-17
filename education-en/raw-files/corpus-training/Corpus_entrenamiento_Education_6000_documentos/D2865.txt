@@ -1,0 +1,41 @@
+#ITI#How to observe the principle of concurrent control in an arm-based meta-analysis using SAS procedures GLIMMIX and BGLIMM#FTI#
+#IRE# Network meta-analysis is a popular method to synthesize the information obtained in a systematic review of studies (e.g., randomized clinical trials) involving subsets of multiple treatments of interest. The dominant method of analysis employs within-study information on treatment contrasts and integrates this over a network of studies. One advantage of this approach is that all inference is protected by within-study randomization. By contrast, arm-based analyses have been criticized in the past because they may also recover inter-study information when studies are modeled as random, which is the dominant practice, hence violating the principle of concurrent control, requiring treated individuals to only be compared directly with randomized controls. This issue arises regardless of whether analysis is implemented within a frequentist or a Bayesian framework. Here, we argue that recovery of inter-study information can be prevented in an arm-based analysis by adding a fixed study main effect. This simple device means that it is possible to honor the principle of concurrent control in a two-way analysis-of-variance approach that is very easy to implement using generalized linear mixed model procedures and hence may be particularly welcome to those not well versed in the more intricate coding required for a contrast-based analysis#FRE#
+#IPC# Bayesian methods; concurrent control; multiple treatment comparisons; network meta-analysis; recovery of inter-block information; SAS#FPC#
+#IRF# Rott K.W., Lin L., Hodges J.S., Et al., Bayesian meta-analysis using SAS PROC BGLIMM, Res Synth Methods, 12, 6, pp. 692-700, (2021); 
+Piepho H.P., Williams E.R., Madden L.V., The use of two-way mixed models in multi-treatment meta-analysis, Biometrics, 68, pp. 1269-1277, (2012); 
+Hong H., Chu H., Zhang J., Carlin B.A., Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons, Res Synth Methods, 7, 1, pp. 6-22, (2016); 
+Dias S., Ades A.E., Absolute or relative effects? Arm-based synthesis of trial data, Res Synth Methods, 7, 1, pp. 23-28, (2016); 
+Hong H., Chu H., Zhang J., Carlin B., Rejoinder to the discussion of "a Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons," by S. Dias and A.E. Ades, Res Synth Methods, 7, 1, pp. 29-33, (2016); 
+Riley R.D., Tierney J.F., Stewart L.A., Individual Patient Data Meta-Analysis: A Handbook for Healthcare Research, (2021); 
+Senn S., Hans van Houwelingen and the art of summing up, Biom J, 52, pp. 85-94, (2010); 
+Piepho H.P., Madden L.V., Roger J., Payne R., Williams E.R., Estimating the variance for heterogeneity in arm-based network meta-analysis, Pharm Stat, 17, pp. 264-277, (2018); 
+Jennrich R.L., Schluchter M.D., Unbalanced repeated-measures models with structured covariance matrices, Biometrics, 42, pp. 805-820, (1986); 
+Madden L.V., Piepho H.P., Paul P.A., Models and methods for network meta-analysis, Phytopathology, 106, pp. 792-806, (2016); 
+Riley R.D., Legha A., Jackson D., Et al., One-stage individual participant data meta-analysis models for continuous and binary outcomes: comparison of treatment coding options and estimation methods, Stat Med, 39, pp. 2536-2555, (2020); 
+John J.A., Williams E.R., Cyclic and Computer Generated Designs, (1995); 
+Piepho H.P., Williams E.R., Ogutu J.O., A two-stage approach to recovery of inter-block information and shrinkage of block effect estimates, Commun Biometry Crop Sci, 8, pp. 10-22, (2013); 
+White I.R., Turner R.M., Karahalios A., Salanti G., A comparison of arm-based and contrast-based models for network meta-analysis, Stat Med, 38, pp. 5197-5213, (2019); 
+Lu G., Ades A.E., Assessing evidence inconsistency in mixed treatment comparisons, J Am Stat Assoc, 101, pp. 447-459, (2006); 
+Stroup W.W., Generalized Linear Mixed Models. Modern Concepts, Methods and Applications, (2013); 
+Kenward M.G., Roger J.H., An improved approximation to the precision of fixed effects from restricted maximum likelihood, Comput Stat Data Anal, 53, 7, pp. 2583-2595, (2009); 
+Li P., Redden D.T., Comparing denominator degrees of freedom approximations for the generalized linear mixed model in analyzing binary outcome in small sample cluster - randomized trials, BMC Med Res Meth, 15, 1, (2015); 
+Nelder J.A., Linear models: back to basics, Stat Comput, 4, pp. 221-234, (1994); 
+Stroup W.W., Claassen E., Pseudo-likelihood or quadrature? What we thought we knew, what we think we know, and what we are still trying to figure out, J Agric Biol Environ Stat, 25, 4, pp. 639-656, (2020); 
+15.1 User's Guide. The BGLIMM Procedure, (2018); 
+Gamerman D., Sampling from the posterior distribution in generalized linear models, Stat Comput, 7, pp. 57-68, (1997); 
+Stroup W.W., Bayesian analysis of GLMMs using PROC BGLIMM. SAS Global Forum 2021, (2021); 
+Piepho H.P., Letters in mean comparisons: what they do and don't mean, Agron J, 110, pp. 431-434, (2018); 
+Piepho H.P., Network meta-analysis made easy: detection of inconsistency using factorial analysis-of-variance models, BMC Med Res Methodol, 14, (2014); 
+Hasselblad V., Meta-analysis of multitreatment studies, Med Decis Making, 8, 1, pp. 37-43, (1998); 
+Higgins J.P.T., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc A, 172, pp. 137-159, (2009); 
+Piepho H.P., Madden L.V., Williams E.R., Multiplicative interaction in network meta-analysis, Stat Med, 34, pp. 582-594, (2015); 
+Higgins J.P.T., Whitehead A., Borrowing strength from external trials in meta-analysis, Stat Med, 15, pp. 2733-2749, (1996); 
+Wiksten A., Hawkins N., Piepho H.P., Gsteiger V., Non-proportional hazards in network meta-analysis: efficient strategies for model building and analysis, Value Health, 23, pp. 918-927, (2020); 
+Brown H., Prescott R., Applied Mixed Models in Medicine, (2015); 
+Durner E., Applied Plant Science Experimental Design and Statistical Analysis Using SAS on Demand for Academics, (2021); 
+Whitehead A., Meta-Analysis of Controlled Clinical Trials, (2002); 
+Greco T., Edefonti V., Biondi-Zoccai G., Et al., A multilevel approach to network meta-analysis within a frequentist framework, Contemp Clin Trials, 42, pp. 51-59, (2015); 
+Dias S., Ades A.E., Welton N.J., Jansen J.P., Sutton A.J., Network Meta-Analysis for Decision Making, (2018); 
+Ehrenberg A.S.C., The unbiased estimation of heterogeneous error variances, Biometrika, 37, pp. 347-357, (1950); 
+Russell T.S., Bradley R.A., One-way variances in a two-way classification, Biometrika, 45, pp. 111-129, (1958); 
+Jackson D., Law M., Stijnen T., Viechtbauer W., White I.R., A comparison of seven random-effects models for meta-analyses that estimate the summary odds ratio, Stat Med, 37, pp. 1059-1085, (2018)#FRF#

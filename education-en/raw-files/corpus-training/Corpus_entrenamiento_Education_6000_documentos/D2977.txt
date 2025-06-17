@@ -1,0 +1,36 @@
+#ITI#metamedian: An R package for meta-analyzing studies reporting medians#FTI#
+#IRE# When performing an aggregate data meta-analysis of a continuous outcome, researchers often come across primary studies that report the sample median of the outcome. However, standard meta-analytic methods typically cannot be directly applied in this setting. In recent years, there has been substantial development in statistical methods to incorporate primary studies reporting sample medians in meta-analysis, yet there are currently no comprehensive software tools implementing these methods. In this paper, we present the metamedian R package, a freely available and open-source software tool for meta-analyzing primary studies that report sample medians. We summarize the main features of the software and illustrate its application through real data examples involving risk factors for a severe course of COVID-19#FRE#
+#IPC# median; meta-analysis; metamedian; R package#FPC#
+#IRF# Higgins J., Thomas J., Chandler J., Et al., Cochrane Handbook for Systematic Reviews of Interventions Version 6.1 (updated September 2020), (2020); 
+Hozo S.P., Djulbegovic B., Hozo I., Estimating the mean and variance from the median, range, and the size of a sample, BMC Med Res Methodol, 5, 1, pp. 1-10, (2005); 
+Bland M., Estimating mean and standard deviation from the sample size, three quartiles, minimum, and maximum, Int J Stat Med, 4, 1, pp. 57-64, (2015); 
+Wan X., Wang W., Liu J., Tong T., Estimating the sample mean and standard deviation from the sample size, median, range and/or interquartile range, BMC Med Res Methodol, 14, 1, pp. 1-13, (2014); 
+Kwon D., Reis I.M., Simulation-based estimation of mean and standard deviation for metaanalysis via approximate Bayesian computation (ABC), BMC Med Res Methodol, 15, 1, pp. 1-12, (2015); 
+Luo D., Wan X., Liu J., Tong T., Optimally estimating the sample mean from the sample size, median, mid-range, and/or mid-quartile range, Stat Methods Med Res, 27, 6, pp. 1785-1805, (2018); 
+McGrath S., Zhao X., Steele R., Thombs B.D., Benedetti A., Estimating the sample mean and standard deviation from commonly reported quantiles in meta-analysis, Stat Methods Med Res, 29, 9, pp. 2520-2537, (2020); 
+Shi J., Luo D., Weng H., Et al., Optimally estimating the sample standard deviation from the five-number summary, Res Synth Methods, 11, 5, pp. 641-654, (2020); 
+Shi J., Tong T., Wang Y., Genton M.G., Estimating the mean and variance from the five-number summary of a log-normal distribution, Stat Interface, 13, 4, pp. 519-531, (2020); 
+Rychtar J., Taylor D., Estimating the sample variance from the sample size and range, Stat Med, 39, 30, pp. 4667-4686, (2020); 
+Walter S.D., Rychtar J., Taylor D., Balakrishnan N., Estimation of standard deviations and inverse-variance weights from an observed range, Stat, 41, pp. 242-257, (2022); 
+Cai S., Zhou J., Pan J., Estimating the sample mean and standard deviation from order statistics and sample size in meta-analysis, Stat Methods Med Res, 30, 12, pp. 2701-2719, (2021); 
+Yang X., Hutson A.D., Wang D., A generalized blue approach for combining location and scale information in a meta-analysis, J Appl Stat, 49, 15, pp. 3846-3867, (2022); 
+Balakrishnan N., Rychtar J., Taylor D., Walter S.D., Unified approach to optimal estimation of mean and standard deviation from sample summaries, Stat Methods Med Res, 31, pp. 2087-2103, (2022); 
+McGrath S., Zhao X., Qin Z.Z., Steele R., Benedetti A., One-sample aggregate data meta-analysis of medians, Stat Med, 38, 6, pp. 969-984, (2019); 
+McGrath S., Sohn H., Steele R., Benedetti A., Meta-analysis of the difference of medians, Biom J, 62, 1, pp. 69-98, (2020); 
+Ozturk O., Balakrishnan N., Meta-analysis of quantile intervals from different studies with an application to a pulmonary tuberculosis data, Stat Med, 39, 29, pp. 4519-4537, (2020); 
+McGrath S., Zhao X., Katzenschlager S., Ozturk O., Steele R., Benedetti A., metamedian: Meta-analysis of medians [R package version 1.1.0], (2023); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Stat, 30, 3, pp. 261-293, (2005); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synth Methods, 7, 1, pp. 55-79, (2016); 
+Langan D., Higgins J.P., Jackson D., Et al., A comparison of heterogeneity variance estimators in simulated randomeffects meta-analyses, Res Synth Methods, 10, 1, pp. 83-98, (2019); 
+Shi J., Luo D., Wan X., Et al., Detecting the skewness of data from the five-number summary and its application in meta-analysis, Stat Methods Med Res, 32, pp. 1338-1360, (2023); 
+McGrath S., Katzenschlager S., Zimmer A.J., Seitel A., Steele R., Benedetti A., Standard error estimation in meta-analysis of studies reporting medians, Stat Methods Med Res, 32, 2, pp. 373-388, (2023); 
+Bowley A.L., Elements of Statistics, (1901); 
+Katzenschlager S., Zimmer A.J., Gottschalk C., Et al., Can we predict the severe course of COVID-19 – a systematic review and meta-analysis of indicators of clinical outcome?, PLoS One, 16, 7, pp. 1-19, (2021); 
+Qi X., Liu Y., Wang J., Et al., Clinical course and risk factors for mortality of covid-19 patients with pre-existing cirrhosis: a multicentre cohort study, Gut, 70, 2, pp. 433-436, (2021); 
+Higgins J.P., Thompson S.G., Quantifying heterogeneity in a meta-analysis, Stat Med, 21, 11, pp. 1539-1558, (2002); 
+Higgins J.P., Thompson S.G., Deeks J.J., Altman D.G., Measuring inconsistency in meta-analyses, BMJ, 327, 7414, pp. 557-560, (2003); 
+Balduzzi S., Rucker G., Schwarzer G., How to perform a meta-analysis with R: a practical tutorial, Evid Based Ment Health, 22, pp. 153-160, (2019); 
+Walter S., Yao X., Effect sizes can be calculated for studies reporting ranges for outcome variables in systematic reviews, J Clin Epidemiol, 60, 8, pp. 849-852, (2007); 
+Yang X., Hutson A., Wang D., metaBLUE: BLUE for combining location and scale information in a meta-analysis [R package version 1.0.0, (2018); 
+Kwon D., Reddy R.R.S., Reis I.M., ABCMETAapp: R shiny application for simulation-based estimation of mean and standard deviation for meta-analysis via approximate bayesian computation (abc), Res Synth Methods, 12, pp. 842-848, (2021)#FRF#

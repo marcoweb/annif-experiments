@@ -1,0 +1,32 @@
+#ITI#Graphical evaluation of evidence structure within a component network meta-analysis#FTI#
+#IRE# Component network meta-analysis (CNMA) compares treatments comprising multiple components and estimates the effects of individual components. For network meta-analysis, a standard network plot with nodes for treatments and edges for direct comparisons between treatments is drawn to visualize the evidence structure and the connections between treatments. However, the standard network plot does not effectively illustrate the connections between components for a CNMA. For example, the comparison between linear combinations of components within a trial is not shown directly in a standard network plot, and whether all components are identifiable cannot be deduced directly from the plot. Therefore, we need a new approach to visualizing the evidence structure of a CNMA. In this article, we proposed a new graph, a modified signal-flow graph representing a system of equations, to evaluate the evidence structure for CNMA. In our new graph, each node represents a component, and arrows are used to show linear relationships between components. We used two examples to demonstrate how to draw and interpret the graph and how to use it to identify components that require more evidence#FRE#
+#IPC# component network meta-analysis; network meta-analysis; signal flow graph; the system of equations#FPC#
+#IRF# Welton N.J., Caldwell D.M., Adamopoulos E., Vedhara K., Mixed treatment comparison meta-analysis of complex interventions: psychological interventions in coronary heart disease, Am J Epidemiol, 169, 9, pp. 1158-1165, (2009); 
+Shim S., Yoon B.-H., Shin I.-S., Bae J.-M., Network meta-analysis: application and practice using Stata, Epidemiol Health, 39, (2017); 
+Salanti G., Higgins J.P.T., Ades A.E., Ioannidis J.P.A., Evaluation of networks of randomized trials, Stat Methods Med Res, 17, 3, pp. 279-301, (2008); 
+Lu G., Ades A.E., Assessing evidence inconsistency in mixed treatment comparisons, J Am Stat Assoc, 101, pp. 447-459, (2006); 
+Lu G., Ades A.E., Combination of direct and indirect evidence in mixed treatment comparisons, Stat Med, 23, 20, pp. 3105-3124, (2004); 
+Reeves B.C., Higgins J.P.T., Ramsay C., Shea B., Tugwell P., Wells G.A., An introduction to methodological issues when including non-randomised studies in systematic reviews on the effects of interventions, Res Synth Methods, 4, 1, pp. 1-11, (2013); 
+Cameron C., Fireman B., Hutton B., Et al., Network meta-analysis incorporating randomized controlled trials and non-randomized comparative cohort studies for assessing the safety and effectiveness of medical treatments: challenges and opportunities, Syst Rev, 4, (2015); 
+Grimes D.A., Schulz K.F., Bias and causal associations in observational research, Lancet, 359, 9302, pp. 248-252, (2002); 
+Hong H., Chu H., Zhang J., Carlin B.P., A Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons, Res Synth Methods, 7, 1, pp. 6-22, (2016); 
+Dias S., Ades A.E., Absolute or relative effects? Arm-based synthesis of trial data, Res Synth Methods, 7, 1, pp. 23-28, (2016); 
+Dias S., Welton N.J., Sutton A.J., Ades A.E., Evidence synthesis for decision making 5: the baseline natural history model, Med Decis Making, 33, 5, pp. 657-670, (2013); 
+Schmitz S., Maguire A., Morris J., Et al., The use of single armed observational data to closing the gap in otherwise disconnected evidence networks: a network meta-analysis in multiple myeloma, BMC Med Res Methodol, 18, 1, (2018); 
+Phillippo D.M., Ades A.E., Dias S., Palmer S., Abrams K.R., Welton N.J., Methods for population-adjusted indirect comparisons in health technology appraisal, Med Decis Making, 38, 2, pp. 200-211, (2018); 
+Rucker G., Petropoulou M., Schwarzer G., Network meta-analysis of multicomponent interventions, Biom J, 62, 3, pp. 808-821, (2020); 
+Rucker G., Schmitz S., Schwarzer G., Component network meta-analysis compared to a matching method in a disconnected network: a case study, Biom J, 63, 2, pp. 447-461, (2021); 
+White I.R., Turner R.M., Karahalios A., Salanti G., A comparison of arm-based and contrast-based models for network meta-analysis, Stat Med, 38, 27, pp. 5197-5213, (2019); 
+Desoer C.A., The optimum formula for the gain of a flow graph or a simple derivation of Coates' formula, Proc IRE, 48, 5, pp. 883-889, (1960); 
+Deo N., Graph Theory with Applications to Engineering and Computer Science, (2016); 
+Coates C., Flow-graph solutions of linear algebraic equations, IRE Trans Circuit Theory, 6, 2, pp. 170-187, (1959); 
+Fraleigh J.B., Beauregard R.A., Linear Algebra, (2012); 
+Leon S.J., Pillis L.G., Linear Algebra with Applications, (2021); 
+Chen P.H., Ho C.L., Lin C., Et al., Treatment outcomes of novel targeted agents in relapse/refractory chronic lymphocytic leukemia: a systematic review and network meta-analysis, J Clin Med, 8, 5, (2019); 
+Furman R.R., Cheng S., Lu P., Et al., Ibrutinib resistance in chronic lymphocytic leukemia, New Engl J Med, 370, 24, pp. 2352-2354, (2014); 
+Burger J.A., Sivina M., Jain N., Et al., Randomized trial of ibrutinib vs ibrutinib plus rituximab in patients with chronic lymphocytic leukemia, Blood, 133, 10, pp. 1011-1019, (2019); 
+Sharman J.P., Coutre S.E., Furman R.R., Et al., Final results of a randomized, phase III study of rituximab with or without idelalisib followed by open-label idelalisib in patients with relapsed chronic lymphocytic leukemia, J Clin Oncol, 37, 16, pp. 1391-1402, (2019); 
+Faggion C.M., Listl S., Fruhauf N., Chang H.J., Tu Y.K., A systematic review and Bayesian network meta-analysis of randomized clinical trials on non-surgical treatments for peri-implantitis, J Clin Periodontol, 41, 10, pp. 1015-1025, (2014); 
+Weibel S., Rucker G., Eberhart L.H.J., Et al., Drugs for preventing postoperative nausea and vomiting in adults after general anaesthesia: a network meta-analysis, Cochrane Database Syst Rev, 10, (2020); 
+Rucker G., Krahn U., Konig J., Et al., netmeta: Network Meta-Analysis using Frequentist Methods. R package version 2.1-0; 2022; 
+Tu Y.-K., Directed acyclic graphs and structural equation modelling, Modern Methods for Epidemiology, pp. 191-203, (2012)#FRF#

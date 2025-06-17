@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es"
+	xmlns:mml="http://www.w3.org/1998/Math/MathML"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Variabilidad de los resultados de la PCR evolutiva en pacientes con la COVID-19</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Variability of the evolutionary PCR results in patients with COVID -19</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6898-9685</contrib-id>
+					<name>
+						<surname>Sánchez Hernández</surname>
+						<given-names>Ernesto</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6592-1770</contrib-id>
+					<name>
+						<surname>Cardona Gordo</surname>
+						<given-names>Odalis</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8605-4795</contrib-id>
+					<name>
+						<surname>Ferrer Castro</surname>
+						<given-names>Jacno Erik</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1c"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8466-3941</contrib-id>
+					<name>
+						<surname>Pérez Fouces</surname>
+						<given-names>Fernando</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1d"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0030-3100</contrib-id>
+					<name>
+						<surname>Despaigne Bicet</surname>
+						<given-names>Adrial</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1e"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Hospital Militar Dr. Joaquín Castillo Duany; Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+					<institution content-type="orgdiv1">Hospital Militar Dr. Joaquín Castillo Duany</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff1b">
+					<label>1</label>
+					<institution content-type="original">Hospital Militar Dr. Joaquín Castillo Duany; Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+					<institution content-type="orgdiv1">Hospital Militar Dr. Joaquín Castillo Duany</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff1c">
+					<label>1</label>
+					<institution content-type="original">Hospital Militar Dr. Joaquín Castillo Duany; Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+					<institution content-type="orgdiv1">Hospital Militar Dr. Joaquín Castillo Duany</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff1d">
+					<label>1</label>
+					<institution content-type="original">Hospital Militar Dr. Joaquín Castillo Duany; Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+					<institution content-type="orgdiv1">Hospital Militar Dr. Joaquín Castillo Duany</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff1e">
+					<label>1</label>
+					<institution content-type="original">Hospital Militar Dr. Joaquín Castillo Duany; Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+					<institution content-type="orgdiv1">Hospital Militar Dr. Joaquín Castillo Duany</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label> <bold>Autor para la correspondencia.</bold> Correo electrónico: <email>ernesto.sanchez@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label><bold>Conflicto de intereses:</bold></label>
+					<p> los autores no declaran conflictos de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn2">
+					<label><bold>Contribución de los autores:</bold></label>
+					<p> dr. Ernesto Sánchez Hernández: Estadística, confección del informe final (35 %) Dra. Odalis Cardona Gordon: Recolección de la información (25 %) Dr. Jacno Erik Ferrer Castro: Edición y revisión (20 %) Dr. Fernando Pérez Fouces: Revisión bibliográfica (10 %) Dr. Adrial Despaigne Bicet: Revisión bibliográfica (10 %)</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jul-Aug</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>24</volume>
+			<issue>4</issue>
+			<fpage>565</fpage>
+			<lpage>577</lpage>
+			<history>
+				<date date-type="received">
+					<day>03</day>
+					<month>06</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>24</day>
+					<month>06</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción</title>
+					<p> La nueva especie de coronavirus (COVID-19), ha generado escenarios de emergencia sanitaria en muchos países de todos los continentes.</p>
+				</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p>Caracterizar la variabilidad de los resultados de la PCR evolutiva en pacientes con la COVID-19.</p>
+				</sec>
+				<sec>
+					<title>Métodos</title>
+					<p> Se realizó un estudio observacional, descriptivo longitudinal y prospectivo de 68 pacientes con la COVID-19 (niños y adultos de ambos sexos) ingresados en el Hospital Militar Dr. Joaquín Castillo Duany de Santiago de Cuba, desde el 12 de marzo hasta el 30 de abril de 2020. Para la colecta de la muestra virológica se realizó el hisopado faríngeo y nasal, cuyo análisis de la PCR-RT se procesó en el centro de referencia territorial. Se incluyeron variables sociodemográficas, epidemiológicas y de gestión, entre otras.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>En la serie predominó el sexo femenino (52,9 %). Al total de los pacientes se le realizaron 2 pruebas de PCR-RT; evolutivamente, 40,0 % de los niños y 10,0 % de los adultos mayores requirieron una tercera muestra virológica. En el segundo y tercer tercios del período de observación clínica y epidemiológica, la comunicación del resultado promedió 1,5 días (DE±0,6) y 3,2 días (DE±1,6), respectivamente. A los 15 días de tratamiento en todos los grupos poblacionales hubo casos positivos activos; asimismo, 60,0 % de los que permanecieron con carga viral entre 16-20 días fueron asintomáticos, al igual que 66,7 % de aquellos con más de 20 días de medicación.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones</title>
+					<p>Independientemente de la edad y la duración del tratamiento médico, algunos individuos se mantuvieron con carga viral detectable. No es aconsejable el egreso de pacientes sin que la PCR-RT resulte negativa, sobre todo para los casos asintomáticos, en quienes el seguimiento evolutivo ha sido menos favorable.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction</title>
+					<p> The new coronavirus specimen (COVID-19), has generated scenarios of sanitary emergencies in many countries from all continents.</p>
+				</sec>
+				<sec>
+					<title>Objective</title>
+					<p> To characterize the variability of the PCR evolutionary results in patients with COVID-19.</p>
+				</sec>
+				<sec>
+					<title>Methods</title>
+					<p> An observational, descriptive, prospective and cross-sectional study was carried out in 68 patients with COVID-19 (children and adults from both sexes) admitted in Dr. Joaquín Castillo Duany Military Hospital in Santiago de Cuba, from March 12th to April 30th, 2020. To collect the virological, the nasal and pharyngeal use of isotope was carried out, which analysis of PCR-RT was processed in the territorial reference center. Management, social, demographic and epidemiological variables were included, among others.</p>
+				</sec>
+				<sec>
+					<title>Results</title>
+					<p> Female sex prevailed in the series (52.9 %). Two PCR-RT fast tests were made to all the patients, through their clinical course, 40.0 % of the children and 10.0 % of the aged patients requiered a third virological test. In the second and third third of the clinical and epidemiological observation period, the report of the result averaged 1.5 days (SD ± 0.6) and 3.2 days (SD±1.6), respectively. After 15 days of treatment there were active positive cases in all populational groups; likewise 60.0 % of those with viral charge between 16-20 days were asymptomatic, as the 66.7 % of those with more than 20 days under medication.</p>
+				</sec>
+				<sec>
+					<title>Conclusions</title>
+					<p> Independently from the age and duration of the medical treatment, some patients remained with detectable viral charge. It is not adviced to discharge patients without a negative PCR-RT, above all for asympthomatic cases, in whom the evolutionary clinical course has been less favorable.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras claves:</title>
+				<kwd>pandemia</kwd>
+				<kwd>coronavirus</kwd>
+				<kwd>reacción en cadena de la polimerasa</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>carga viral detectable</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>pandemic</kwd>
+				<kwd>coronavirus</kwd>
+				<kwd>polymerase chain reaction</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>detectable viral charge</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="5"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="16"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>La nueva especie de coronavirus, denominada COVID-19, ha generado escenarios de emergencia sanitaria en muchos países de todos los continentes. Las preocupaciones de las autoridades salubristas y otros decisores se justifican por la velocidad rápida de su propagación, las tasas de mortalidad registradas y la implementación de intervenciones de alta complejidad. La estrategia epidemiológica incluye, además de la vigilancia poblacional, la identificación de casos positivos con la prueba de reacción en cadena de polimerasa con transcriptasa inversa (PCR-RT, por sus siglas en inglés).<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Potencialmente, la carga viral puede ser un marcador útil para el pronóstico de la enfermedad. Al respecto, los científicos advierten que el genoma viral está presente en secreciones respiratorias, deposiciones, sangre, saliva y orina, y se puede excretar por el aparato respiratorio por 2 semanas; también hay presencia viral en pacientes asintomáticos.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>)</sup> Mediante el hisopado nasofaríngeo se ha informado el desprendimiento prolongado de ácido desoxirribonucleico viral hasta 37 días en adultos y más de un mes (en heces) después de la infección en niños.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>Rojas <italic>et al</italic><xref ref-type="bibr" rid="B5"><sup>5</sup></xref> resaltan las valoraciones hechas por investigadores chinos en una serie de 99 pacientes. Para ellos los resultados de la PCR-RT fueron concluyentes para definir el diagnóstico de neumonía por la COVID-19, así como el registro de la magnitud de aquellos enfermos con necesidades de oxigenoterapia, ventilación artificial mecánica y la terapia de reemplazo renal. Señalan, además, que en los pacientes con infección activa, la prueba es de alto valor evolutivo y sugieren repetir las muestras cada 2 o 4 días hasta obtener 2 resultados negativos. La opinión de especialistas brasileños coincide con lo anterior, a pesar de reconocer resultados falsos-negativos debido a material celular insuficiente o técnicas inadecuadas de extracción y detección.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>En el Hospital Militar Dr. Joaquín Castillo Duany de Santiago de Cuba fueron admitidos los pacientes con COVID-19, pertenecientes al territorio del oriente sur de Cuba. La PCR-RT evolutiva fue un valioso padrón de referencia para la toma de decisiones médicas durante la estadía hospitalaria; sin embargo, las sucesivas observaciones permitieron identificar limitaciones para su valor evolutivo como el tiempo para el procesamiento de las muestras e información del resultado ante una demanda creciente, la positividad mantenida superior a los días promedios de hospitalización, el registro de las frecuencias por grupos poblacionales (adultos y niños), entre otros. Por estas razones, se realizó la presente investigación con el objetivo de caracterizar la variabilidad de los resultados de la PCR evolutiva en pacientes con la COVID-19.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se efectuó un estudio observacional, descriptivo longitudinal y prospectivo de 68 pacientes con la COVID-19 atendidos en el Hospital Militar Dr. Joaquín Castillo Duany de Santiago de Cuba, entre el 12 de marzo y el 30 de abril de 2020, para caracterizar la variabilidad de los resultados de la PCR evolutiva. El universo incluyó niños y adultos de ambos sexos.</p>
+			<p>La colecta de la muestra virológica se realizó mediante el hisopado faríngeo y nasal; se procedió al análisis de la PCR-RT en el centro de referencia territorial designado por las autoridades del Ministerio de Salud Pública. Los resultados positivos permitieron confirmar la COVID-19 en estos pacientes. </p>
+			<p>Se incluyeron variables sociodemográficas (edad, sexo, grupo poblacional), epidemiológicas (condición del contacto) y de gestión (tiempo para el informe de resultados), entre otras. Las fuentes de información incluyeron la historia clínica, la encuesta epidemiológica y una base de datos digitalizada y actualizada, en tiempo real, por el grupo asesor del consejo de dirección en conjunto con especialistas informáticos, donde se registraron los datos principales de cada paciente desde el día del ingreso hospitalario.</p>
+			<p>La información se recogió en formato digitalizada y se procesó en Microsoft Office Excel; asimismo, se realizó un análisis estadístico descriptivo, mediante medidas de tendencia central y distribución de frecuencias. </p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En la serie (<xref ref-type="fig" rid="f1">Fig.1</xref>.), hasta la fecha de cierre, predominó el sexo femenino (52,9 %); sin embargo, 80,0 % de los menores de 18 años fueron del sexo masculino y entre los mayores de 60 años se obtuvo similar frecuencia de observación (50,0 %). </p>
+			<p>
+				<fig id="f1">
+					<label>Fig. 1</label>
+					<caption>
+						<title>Pacientes según edad y sexo</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-04-565-gf1.gif"/>
+				</fig>
+			</p>
+			<p>Resultó notable que a todos los pacientes se les realizaron 2 pruebas de PCR, pero, evolutivamente, 40 % de los niños y 10 % de los adultos mayores requirieron de un tercer resultado; mientras que en 8,3 % de los adultos jóvenes precisaron de 5 pruebas (<xref ref-type="fig" rid="f2">Fig.2</xref>). </p>
+			<p>
+				<fig id="f2">
+					<label>Fig. 2</label>
+					<caption>
+						<title>Porcentajes de la PCR evolutiva en los diferentes grupos poblacionales</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-04-565-gf2.gif"/>
+				</fig>
+			</p>
+			<p>Durante el período de observación de los pacientes afectados (<xref ref-type="fig" rid="f3">Fig.3</xref>.) en el primer tercio de tiempo se promedió 1 día para la comunicación del resultado; en tanto, en el segundo y tercero hubo una tendencia al incremento de la unidad de análisis para el informe de la PCR-RT desde el laboratorio de referencia, con un valor medio de 1,5 días (DE± 0,6) y 3,2 días (DE± 1,6), respectivamente.</p>
+			<p>
+				<fig id="f3">
+					<label>Fig. 3</label>
+					<caption>
+						<title>Tiempo promedio para la comunicación del resultado de la PCR-RT durante los días de observación clínica y epidemiológica.</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-04-565-gf3.gif"/>
+				</fig>
+			</p>
+			<p>A los 15 días de tratamiento (<xref ref-type="fig" rid="f4">Fig.4</xref>.) se registraron casos positivos activos en todos los grupos poblacionales y 40 % de los niños mantuvieron positividad de la PCR-RT. Posteriormene, este suceso se mantuvo entre los adultos jóvenes y 6,3 % registró una carga viral activa con más de 20 días de tratamiento. </p>
+			<p>
+				<fig id="f4">
+					<label>Fig. 4</label>
+					<caption>
+						<title>Positividad de la PCR evolutiva por grupos poblacionales en diferentes etapas del tratamiento</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-04-565-gf4.gif"/>
+				</fig>
+			</p>
+			<p>Entre los pacientes con resultados positivos de la PCR-RT a los 15 días del tratamiento, 76,9 % fueron sintomáticos. Nótese que 60,0 % de los que permanecieron con carga viral entre 16-20 días de terapia medicamentosa resultaron ser asintomáticos al igual que 66,7 % de aquellos con más 20 días de medicación (<xref ref-type="fig" rid="f5">Fig.5</xref>).</p>
+			<p>
+				<fig id="f5">
+					<label>Fig. 5</label>
+					<caption>
+						<title>Positividad de la PCR-RT evolutiva en pacientes con COVID-19, sintomáticos y asintomáticos de infección n diferentes etapas del tratamiento</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-24-04-565-gf5.gif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El coronavirus-2 (SARS-CoV-2) conserva gran homología con otros virus de la familia de los betacoronavirus, y los individuos infectados presentan manifestaciones clínicas similares a las identificadas en otros brotes epidémicos descritos en el pasado (SARS en el 2003 y MERS en el 2012), por ello, su diagnóstico se centra en la detección del material genético viral en muestras respiratorias de personas sospechas.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>La positividad registrada en el presente estudio es un indicativo de que el virus afecta sin distinción a niños y adultos de ambos sexos, con una mediana de edad de 30 años para los varones (DE±21) y de 37 para las féminas (DE±19,7). La escasa información sobre resultados de sensibilidad y especificidad en la población infantil (60,5 % varones) pudiera estar relacionada con lo infrecuente de la COVID-19 en estas edades.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>En España, en una serie retrospectiva en pacientes confirmados mediante PCR, la mayoría fueron varones (56,9 %) con más de 65 años de edad;<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>en tanto, Guzmán <italic>et al</italic><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> hallaron predominio de las femeninas (52,0 %), con una mediana de edad de 44 años, un suceso diferente a las exposiciones descritas en muchos artículos científicos.</p>
+			<p>Los autores de la presente investigación consideraron suficiente una PCR-RT evolutiva durante los inicios de la respuesta a la COVID-19; sin embargo, sucesivas ediciones recibidas del protocolo nacional de actuación (versión 1.3) y las experiencias acumuladas condujeron a realizar más de una prueba evolutiva, de manera que por cada persona en cada grupo poblacional se registraron 2,4 PCR-RT en niños, seguidos de adultos jóvenes (2,3) y adultos mayores (2,1). Al igual que el resto, la segunda prueba de ácido nucleico patógeno respiratorio se combinó con las observaciones clínicas y la información epidemiológica de cada paciente, pues, en concordancia con la opinión de expertos, un primer resultado negativo no excluye la infección por el SARS-CoV-2 y descarta la infección por otros agentes causantes de neumonía atípica.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>Por otra parte, a pesar de la probada utilidad de la PCR-RT para confirmar la infección viral en una muestra humana, surgieron algunas limitaciones en el proceso. En el segundo y tercer tercios del período de observación clínica y epidemiológica se extendió el tiempo para la comunicación del resultado superior a las 24 horas. Es probable que el suceso haya sido consecuencia de otros eventos simultáneos: un aumento del número de casos sospechosos, por consiguiente, un mayor volumen de muestras a procesar y saturación de las capacidades instaladas en el laboratorio de referencia. Al respecto, otros autores advierten sobre similar situación en la mayoría de los países, ya que los test solo se pueden procesar en laboratorios certificados y los resultados llegan con retrasos, lo cual es perjudicial para los pacientes y para los sistemas de salud y de vigilancia.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Si bien el tratamiento de los afectados incluyó una combinación de kaletra, cloroquina e interferón alfa 2b recombinante, la PCR continuó detectando fragmentos del virus en pacientes de todas las edades. Proporcionalmente, en los niños (p=0,4) fue mayor la positividad a los 15 días con la triple terapia anti COVID-19, aunque en conjunto con los adultos mayores (p=0,1) se registraron resultados negativos antes del día 20 del esquema general de tratamiento. </p>
+			<p>Esta persistencia pudiera explicarse, a juicio de los autores del presente estudio, por la carga viral y la magnitud con que afecta al huésped o susceptible. En su serie, Osejo<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> destaca los resultados de especialistas chinos, quienes establecen una relación directamente proporcional entre las variables, cantidad de partículas del virus recibida y gravedad de la afectación, que son determinantes de la duración del episodio infeccioso con influencia directa en la estancia hospitalaria de los enfermos.</p>
+			<p>En correspondencia con lo expuesto, la condición del contacto fue una de las variables que por sí misma expresó la ley dialéctica de la unidad y lucha de contrarios. Del universo en estudio, más de una decena de pacientes (19,1 %) siguieron dando positivo a los 15 días de tratamiento, y la mayoría que mantuvieron positividad, superados los 20 días, fueron los asintomáticos. Por su parte, <italic>Tan et al</italic><xref ref-type="bibr" rid="B14"><sup>14</sup></xref> en su serie 67 pacientes confirmados, aseguraron que la eliminación viral media fue de 20 días y tuvieron varias muestras positivas.</p>
+			<p>Según se plantea hay personas infectadas que no transmiten la enfermedad, mientras que otras pueden llegar a transmitirla a muchas más.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> Lo cierto es que estimaciones fiables sitúan el valor R<sub>0</sub> de la COVID-19 superior a 1 (1,4-2,5), indicativo de gran capacidad de transmisión y extensión de la enfermedad infecciosa. Para Madrigal <italic>et al,</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref> el nivel de evidencias es suficiente para repetir la prueba de la PCR-RT, pero con precaución, pues se han descrito varios informes de falsos negativos atribuidos a razones multifactoriales. </p>
+			<p>Finalmente se concluye que, independientemente de la edad y la duración del tratamiento médico, algunos individuos se mantienen con carga viral detectable. Por la variabilidad descrita y por la incertidumbre de muchas características epidemiológicas del SARS-CoV-2, no es aconsejable el egreso de pacientes sin que la PCR-RT resulte negativa, sobre todo para los casos asintomáticos, en quienes el seguimiento evolutivo ha sido menos favorable.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Palacios Cruz M, Santos E, Velázquez Cervantes MA, León Juárez M. COVID-19, una emergencia de salud pública mundial. Rev Clin Esp. 2020 [citado 26/04/2020];220(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rce.2020.03.001">https://doi.org/10.1016/j.rce.2020.03.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palacios Cruz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Velázquez Cervantes</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>León Juárez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19, una emergencia de salud pública mundial</article-title>
+					<source>Rev Clin Esp</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-26">26/04/2020</date-in-citation>
+					<volume>220</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rce.2020.03.001">https://doi.org/10.1016/j.rce.2020.03.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Rodríguez Troncoso J. Pandemia por nuevo coronavirus: El amor en tiempos del Covid19. Rev Chil Pediatr. 2020 [citado 27/04/2020];91(2).Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scielo.conicyt.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41062020000200177&amp;lng=es">https://scielo.conicyt.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41062020000200177&amp;lng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Pandemia por nuevo coronavirus: El amor en tiempos del Covid19</article-title>
+					<source>Rev Chil Pediatr</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-27">27/04/2020</date-in-citation>
+					<volume>91</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scielo.conicyt.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41062020000200177&amp;lng=es">https://scielo.conicyt.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41062020000200177&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Fei Z, Ting Y, Ronghui D, Guohui F, Ying L. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Rev The Lancet Infec Des. 2020 [citado 27/04/2020]; 395. Disponible en: en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/S0140673620305663">https://www.sciencedirect.com/science/article/pii/S0140673620305663</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fei</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Ting</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ronghui</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Guohui</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ying</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study</article-title>
+					<source>Rev The Lancet Infec Des</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-27">27/04/2020</date-in-citation>
+					<volume>395</volume>
+					<comment>Disponible en: en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/S0140673620305663">https://www.sciencedirect.com/science/article/pii/S0140673620305663</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Cai J, Xu J, Lin D, Yang z, Xu L, Qu Z, et al. A Case Series of children with 2019 novel coronavirus infection: clinical and epidemiological features. Rev Clin Infect Dis. 2020 [citado 27/04/2020];198. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430">https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cai</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>z</surname>
+							<given-names>Yang</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Qu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A Case Series of children with 2019 novel coronavirus infection: clinical and epidemiological features</article-title>
+					<source>Rev Clin Infect Dis</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-27">27/04/2020</date-in-citation>
+					<volume>198</volume>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430">https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa198/5766430</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Rojas Gambasica JA, Urriago GJD, Montaño Villalobos YC, Moreno AraqueL, Ahumada Bayuelo E. Enfoque y manejo clínico de pacientes con enfermedad por Sars Cov2 (Covid-19) en unidad de cuidado intensivo. Rev Med Sanitas. 2020 [citado 26/04/2020]; 23(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.unisanitas.edu.co/Revista/74/02Rev_Medica_Sanitas_23-1_JARojas_el_at.pdf">https://www.unisanitas.edu.co/Revista/74/02Rev_Medica_Sanitas_23-1_JARojas_el_at.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rojas Gambasica</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Urriago</surname>
+							<given-names>GJD</given-names>
+						</name>
+						<name>
+							<surname>Montaño Villalobos</surname>
+							<given-names>YC</given-names>
+						</name>
+						<name>
+							<surname>AraqueL</surname>
+							<given-names>Moreno</given-names>
+						</name>
+						<name>
+							<surname>Ahumada Bayuelo</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Enfoque y manejo clínico de pacientes con enfermedad por Sars Cov2 (Covid-19) en unidad de cuidado intensivo</article-title>
+					<source>Rev Med Sanitas</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-04-26">26/04/2020</date-in-citation>
+					<volume>23</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.unisanitas.edu.co/Revista/74/02Rev_Medica_Sanitas_23-1_JARojas_el_at.pdf">https://www.unisanitas.edu.co/Revista/74/02Rev_Medica_Sanitas_23-1_JARojas_el_at.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Batista Araujo-Filho JA, Yamada Sawamura MV, Nathan Costa A, Guido Cerri G, Higa Nomura C. COVID-19 pneumonia: what is the role of imaging in diagnosis? J Bras Pneumol. 2020 [citado 28/05/2020];46(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1806-37132020000201003">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1806-37132020000201003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Batista Araujo-Filho</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Yamada Sawamura</surname>
+							<given-names>MV</given-names>
+						</name>
+						<name>
+							<surname>Nathan Costa</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Guido Cerri</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Higa Nomura</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 pneumonia: what is the role of imaging in diagnosis?</article-title>
+					<source>J Bras Pneumol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-28">28/05/2020</date-in-citation>
+					<volume>46</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1806-37132020000201003">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1806-37132020000201003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Ramírez Truque M, Herrera Morice M. Rol del laboratorio clínico ante la epidemia del COVID-19: revisión de los métodos diagnósticos disponibles y sus limitaciones. Rev Med Costa Rica. 2020 [citado 28/05/2020]; 85(629). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/295/272">http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/295/272</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramírez Truque</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Herrera Morice</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Rol del laboratorio clínico ante la epidemia del COVID-19: revisión de los métodos diagnósticos disponibles y sus limitaciones</article-title>
+					<source>Rev Med Costa Rica</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-28">28/05/2020</date-in-citation>
+					<volume>85</volume>
+					<issue>629</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/295/272">http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/295/272</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Llaque P. Infección por el nuevo coronavirus 2019 en niños. Rev Perú Med Exp Salud Pública. 2020 [citado 28/05/2020]; 37(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17843/rpmesp.2020.372.5439">https://doi.org/10.17843/rpmesp.2020.372.5439</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Llaque</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Infección por el nuevo coronavirus 2019 en niños</article-title>
+					<source>Rev Perú Med Exp Salud Pública</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-28">28/05/2020</date-in-citation>
+					<volume>37</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17843/rpmesp.2020.372.5439">https://doi.org/10.17843/rpmesp.2020.372.5439</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Jaqueti Aroca J, Molina Esteban LM, García Arata I, García Martínez J. COVID-19 en pacientes españoles e inmigrantes en un área sanitaria de Madrid. Rev Española Quimioter. 2020 [citado 28/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://seq.es/wp-content/uploads/2020/05/jaqueti20may2020.pdf">https://seq.es/wp-content/uploads/2020/05/jaqueti20may2020.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jaqueti Aroca</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Molina Esteban</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>García Arata</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>García Martínez</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 en pacientes españoles e inmigrantes en un área sanitaria de Madrid</article-title>
+					<source>Rev Española Quimioter</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-28">28/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://seq.es/wp-content/uploads/2020/05/jaqueti20may2020.pdf">https://seq.es/wp-content/uploads/2020/05/jaqueti20may2020.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Guzmán Del Giudice OE, Lucchesi Vásquez EP, Trelles De Belaúnde M, Pinedo Gonzales RH, Camere Torrealva MA, Daly A, et al. Características clínicas y epidemiológicas de 25 casos de COVID-19 atendidos en la Clínica Delgado de Lima. Rev Soc Peruana Med Inter. 2020 [citado 29/05/2020]; 23(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.36393/spmi.v33i1.506">https://doi.org/10.36393/spmi.v33i1.506</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guzmán Del Giudice</surname>
+							<given-names>OE</given-names>
+						</name>
+						<name>
+							<surname>Lucchesi Vásquez</surname>
+							<given-names>EP</given-names>
+						</name>
+						<name>
+							<surname>Trelles De Belaúnde</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pinedo Gonzales</surname>
+							<given-names>RH</given-names>
+						</name>
+						<name>
+							<surname>Camere Torrealva</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Daly</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Características clínicas y epidemiológicas de 25 casos de COVID-19 atendidos en la Clínica Delgado de Lima</article-title>
+					<source>Rev Soc Peruana Med Inter</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-29">29/05/2020</date-in-citation>
+					<volume>23</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.36393/spmi.v33i1.506">https://doi.org/10.36393/spmi.v33i1.506</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Fernández Lázaro D, Sanz Gómez N, Sánchez Serrano N, Alaoui Sosse A, Aldea Mansilla C. Estandarización de Emergencia para el Diagnóstico del virus SARS-CoV-2 mediante la reacción en cadena de la polimerasa de transcripción reversa en tiempo real (RT-PCR) en situación de pandemia de COVID-19. REMASP 2020 [citado 29/05/2020];4(7). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://remasp.es/article/view/2065">http://remasp.es/article/view/2065</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernández Lázaro</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sanz Gómez</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Sánchez Serrano</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Alaoui Sosse</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Aldea Mansilla</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Estandarización de Emergencia para el Diagnóstico del virus SARS-CoV-2 mediante la reacción en cadena de la polimerasa de transcripción reversa en tiempo real (RT-PCR) en situación de pandemia de COVID-19</article-title>
+					<source>REMASP</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-29">29/05/2020</date-in-citation>
+					<volume>4</volume>
+					<issue>7</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://remasp.es/article/view/2065">http://remasp.es/article/view/2065</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Bachelet VC. ¿Conocemos las propiedades diagnósticas de las pruebas usadas en COVID-19? Una revisión rápida de la literatura recientemente publicada. Rev Medwave. 2020 [citado 29/05/2020];20(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionTemas/7890.act?ver=sindiseno">https://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionTemas/7890.act?ver=sindiseno</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bachelet</surname>
+							<given-names>VC</given-names>
+						</name>
+					</person-group>
+					<article-title>¿Conocemos las propiedades diagnósticas de las pruebas usadas en COVID-19? Una revisión rápida de la literatura recientemente publicada</article-title>
+					<source>Rev Medwave</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-29">29/05/2020</date-in-citation>
+					<volume>20</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionTemas/7890.act?ver=sindiseno">https://www.medwave.cl/link.cgi/Medwave/Revisiones/RevisionTemas/7890.act?ver=sindiseno</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Osejo Bucheli C. Procesos de simulación, para el uso de pronósticos de utilización de la capacidad la ciudad de Pasto, Colombia, con la epidemia del COVID-19. Rev Sigma 2020 Abr [citado 30/05/2020];14(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.udenar.edu.co/index.php/rsigma/article/download/5356/6061">https://revistas.udenar.edu.co/index.php/rsigma/article/download/5356/6061</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Osejo Bucheli</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Procesos de simulación, para el uso de pronósticos de utilización de la capacidad la ciudad de Pasto, Colombia, con la epidemia del COVID-19</article-title>
+					<source>Rev Sigma</source>
+					<month>04</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-30">30/05/2020</date-in-citation>
+					<volume>14</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.udenar.edu.co/index.php/rsigma/article/download/5356/6061">https://revistas.udenar.edu.co/index.php/rsigma/article/download/5356/6061</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Tan W, Lu Y, Zhang J, Wang J, Dan Y, Tan Z et al. Viral Kinetics and Antibody Responses in Patients with COVID-19. Rev MedrXiv. 2020 [citado 31/05/2020]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.03.24.20042382v1">https://www.medrxiv.org/content/10.1101/2020.03.24.20042382v1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tan</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Tan</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Viral Kinetics and Antibody Responses in Patients with COVID-19</article-title>
+					<source>Rev MedrXiv</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-31">31/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.03.24.20042382v1">https://www.medrxiv.org/content/10.1101/2020.03.24.20042382v1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Trilla A. Un mundo, una salud: la epidemia por el nuevo coronavirus COVID-19. Rev Med Clin. 2020 [citado 30/05/2020];154(5). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.medcli.2020.02.002">https://doi.org/10.1016/j.medcli.2020.02.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Trilla</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Un mundo, una salud: la epidemia por el nuevo coronavirus COVID-19</article-title>
+					<source>Rev Med Clin</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-30">30/05/2020</date-in-citation>
+					<volume>154</volume>
+					<issue>5</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.medcli.2020.02.002">https://doi.org/10.1016/j.medcli.2020.02.002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Madrigal Rojas JP, Quesada Loría M, García Sánchez M, Solano Chinchilla A. SARS CoV-2, manifestaciones clínicas y consideraciones en el abordaje diagnóstico de COVID-19. Rev Med Costa Rica. 2020 [citado 30/05/2020];85(629). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/287/264">http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/287/264</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Madrigal Rojas</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Quesada Loría</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>García Sánchez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Solano Chinchilla</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>SARS CoV-2, manifestaciones clínicas y consideraciones en el abordaje diagnóstico de COVID-19</article-title>
+					<source>Rev Med Costa Rica</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-30">30/05/2020</date-in-citation>
+					<volume>85</volume>
+					<issue>629</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/287/264">http://www.revistamedicacr.com/index.php/rmcr/article/viewFile/287/264</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

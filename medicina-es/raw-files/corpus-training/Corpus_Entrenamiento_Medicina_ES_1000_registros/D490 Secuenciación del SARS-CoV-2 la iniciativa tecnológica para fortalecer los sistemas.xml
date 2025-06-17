@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00022</article-id>
+			<article-id pub-id-type="doi">10.7705/biomedica.5841</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Revisión de tema</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Secuenciación del SARS-CoV-2: la iniciativa tecnológica para fortalecer los sistemas de alerta temprana ante emergencias de salud pública en Latinoamérica y el Caribe</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>SARS-CoV-2 sequencing: The technological initiative to strengthen early warning systems for public health emergencies in Latin America and the Caribbean</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Álvarez-Díaz</surname>
+						<given-names>Diego A.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Laiton-Donato</surname>
+						<given-names>Katherine</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Franco-Muñoz</surname>
+						<given-names>Carlos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Mercado-Reyes</surname>
+						<given-names>Marcela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Unidad de Secuenciación y Genómica, Dirección de Investigación en Salud Pública, Instituto Nacional de Salud, Bogotá, Colombia</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Grupo de Salud Materna y Perinatal, Dirección de Investigación en Salud Pública, Instituto Nacional de Salud, Bogotá, Colombia</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Grupo de Parasitología, Dirección de Investigación en Salud Pública, Instituto Nacional de Salud, Bogotá, Colombia</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Dirección de Investigación en Salud Pública, Instituto Nacional de Salud, Bogotá, Colombia</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label><bold>Correspondencia:</bold> Grupo de Salud Materna y Perinatal. Dirección de Investigación en Salud Pública, Instituto Nacional de Salud. Avenida Calle 26 No 51-20, Zona 6, CAN, Bogotá, D.C., 111321, Colombia Teléfono: <email>daalvarezd@unal.edu.co</email>
+				</corresp>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>09</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+			<pub-date pub-type="epub">
+				<month>10</month>
+				<year>2020</year>
+			</pub-date>
+			<volume>40</volume>
+			<issue>2</issue>
+			<supplement>Supl.</supplement>
+			<fpage>188</fpage>
+			<lpage>197</lpage>
+			<history>
+				<date date-type="received">
+					<day>30</day>
+					<month>09</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>19</day>
+					<month>10</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<p>La pandemia de COVID-19 causada por el SARS-CoV-2 es un problema de salud pública sin precedentes en los últimos 100 años, así como la respuesta centrada en la caracterización genómica del SARS-CoV-2 prácticamente en todas las regiones del planeta. Esta pandemia surgió durante la era de la epidemiología genómica impulsada por los continuos avances en la secuenciación de próxima generación. Desde su reciente aparición, la epidemiología genómica permitió la identificación precisa de nuevos linajes o especies de agentes patógenos y la reconstrucción de su variabilidad genética en tiempo real, lo que se hizo evidente en los brotes de influenza H<sub>1</sub>N<sub>1</sub>, MERS y SARS. Sin embargo, la escala global y descontrolada de esta pandemia ha generado una situación que obligó a utilizar de forma masiva herramientas de la epidemiología genómica como la rápida identificación del SARS-CoV-2 y el registro de nuevos linajes y su vigilancia activa en todo el mundo. Antes de la pandemia de COVID-19 la disponibilidad de datos genómicos de agentes patógenos circulantes en varios países de Latinoamérica y el Caribe era escasa o nula. Con la llegada del SARS-CoV-2 dicha situación cambió significativamente, aunque la cantidad de información disponible sigue siendo escasa y, en países como Colombia, Brasil, Argentina y Chile, la información genómica del SARS-CoV-2 provino principalmente de grupos de investigación en epidemiología genómica más que como producto de una política o programa de vigilancia en salud pública. Ello evidencia la necesidad de establecer políticas de salud pública orientadas a la implementación de la epidemiología genómica como herramienta para fortalecer los sistemas de vigilancia y alerta temprana frente a amenazas para la salud pública en la región.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<p>The COVID-19 pandemic caused by SARS-CoV-2 is a public health problem on a scale unprecedented in the last 100 years, as has been the response focused on the rapid genomic characterization of SARS-CoV-2 in virtually all regions of the planet. This pandemic emerged during the era of genomic epidemiology, a science fueled by continued advances in next-generation sequencing. Since its recent appearance, genomic epidemiology included the precise identification of new lineages or species of pathogens and the reconstruction of their genetic variability in real time, evidenced in past outbreaks of influenza H1N1, MERS, and SARS.</p>
+				<p>However, the global and uncontrolled scale of this pandemic created a scenario where genomic epidemiology was put into practice <italic>en masse,</italic> from the rapid identification of SARS-CoV-2 to the registration of new lineages and their active surveillance throughout the world. Prior to the COVID-19 pandemic, the availability of genomic data on circulating pathogens in several Latin America and the Caribbean countries was scarce or nil. With the arrival of SARS-CoV-2, this scenario changed significantly, although the amount of available information remains scarce and, in countries such as Colombia, Brazil, Argentina, and Chile, the genomic information of SARS-CoV-2 was obtained mainly by research groups in genomic epidemiology rather than the product of a public health surveillance policy or program. This indicates the need to establish public health policies aimed at implementing genomic epidemiology as a tool to strengthen surveillance and early warning systems against threats to public health in the region.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>infecciones por coronavirus</kwd>
+				<kwd>síndrome respiratorio agudo grave</kwd>
+				<kwd>virus del SRAS</kwd>
+				<kwd>secuenciación de nucleótidos de alto rendimiento</kwd>
+				<kwd>vigilancia epidemiológica</kwd>
+				<kwd>políticas en salud pública</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Coronavirus infections</kwd>
+				<kwd>viral isolation severe acute respiratory syndrome</kwd>
+				<kwd>SARS virus</kwd>
+				<kwd>high-throughput nucleotide sequencing</kwd>
+				<kwd>epidemiological surveillance</kwd>
+				<kwd>public health policies</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="37"/>
+				<page-count count="10"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El mundo enfrenta la devastadora pandemia de COVID-19 causada por el betacoronavirus SARS-CoV-2, reportado por primera vez en la ciudad de Wuhan en China en diciembre de 2019. Al final de septiembre de 2020 el virus se había dispersado a más de 180 países, con más de 33 millones de casos y un millón de muertes en todo el mundo <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Mientras el SARS-CoV-2 se dispersaba por el Viejo Mundo, los países latinoamericanos se preparaban para disminuir la exposición y el impacto en la población.</p>
+		<p>El entrenamiento de profesionales de la salud y la adquisición de insumos y equipos para el diagnóstico y la caracterización genética de SARS-CoV-2 resultó esencial para la toma de decisiones enfocadas en la contención y la posterior mitigación de la enfermedad <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. No obstante, casi un mes después de detectarse el primer caso latinoamericano de COVID-19 en Brasil, se confirmaron por miles los casos de la enfermedad en la mayoría de los países de Latinoamérica y el Caribe <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Para septiembre de 2020, países como Brasil, México, Perú, Chile y Colombia habían superado las cifras de casos reportados de la mayoría de países del Viejo Mundo <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>, convirtiéndose en el nuevo foco de la pandemia, por lo que se espera un incremento de los casos y, consecuentemente, un mayor impacto de la COVID-19 en Latinoamérica.</p>
+		<p>Además del impacto en la salud, las medidas de aislamiento preventivo llevaron a una recesión económica que ha exacerbado la desigualdad social en regiones en desarrollo, incluida Latinoamérica, donde se estima que la cifra de personas pobres y en pobreza extrema aumentará de 185 a 230 millones y de 68 a 96 millones, respectivamente, en lo que constituye la peor recesión económica en un siglo en la región <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>En este sentido, la pandemia de COVID-19 representa un obstáculo significativo para el cumplimiento de algunos de los Objetivos de Desarrollo Sostenible como el de poner fin a la pobreza en todas sus formas en todo el mundo, garantizar una vida sana y promover el bienestar para todos en todas las edades. Además, dejó en evidencia la necesidad de aumentar la inversión en investigación científica, así como de mejorar la capacidad tecnológica en los sistemas de alerta temprana y gestión de riesgos frente a epidemias en Latinoamérica.</p>
+		<p>En este contexto, los gobiernos se enfrentan a uno de los mayores retos ante la necesidad de minimizar las muertes por COVID-19 y, al mismo tiempo, reducir el impacto económico de la propagación del virus en los territorios <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Entre las estrategias para el manejo de la pandemia se han implementado medidas como el aumento del número de pruebas de diagnóstico molecular y de unidades de cuidados intensivos.</p>
+		<p>Por último, la acumulación de información genómica sobre el SARS-CoV-2 circulante en diferentes países de Latinoamérica y el Caribe, en su mayoría producto de esfuerzos locales de implementación de tecnologías de secuenciación de próxima generación, representa una herramienta de gran utilidad para fortalecer la vigilancia epidemiológica y la adopción acertada de decisiones en salud pública para controlar este virus y los demás agentes infecciosos que circulan en la región. Sin embargo, la aplicación de este enfoque en nuestra región implica enfrentar retos importantes que van desde el establecimiento de políticas regionales en salud pública para fortalecer la cooperación entre los laboratorios de salud pública y facilitar la transferencia de tecnología y entrenamiento, además de una inversión de recursos económicos importantes para la adquisición de insumos, infraestructura y mejoramiento de la capacidad instalada en el laboratorio.</p>
+		<sec>
+			<title>Secuenciación del SARS-CoV-2 y su papel en la adopción de decisiones en salud pública</title>
+			<p>Las tecnologías de secuenciación de próxima generación implementadas de rutina para la vigilancia de agentes patógenos en agencias de salud pública en Europa <italic>(Public Health England)</italic> y Norteamérica <italic>(Centers for Disease Control and Prevention, Public Health Agency of Canada),</italic> han permitido la identificación específica de focos de transmisión, que aportan información crucial para la adopción de decisiones basadas en la evidencia para prevenir la dispersión de enfermedades como la tuberculosis <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Además, la vigilancia genómica permitió la identificación del SARS-CoV-2 como una nueva especie viral pocas semanas después del primer brote en China -algo que tradicionalmente tomaba varios meses-, lo que encendió las alarmas que llevaron al inicio de cuarentenas en todo el mundo <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+			<p>La implementación de las tecnologías de secuenciación de próxima generación en la vigilancia de agentes patógenos posibilita el desarrollo de análisis basados en la epidemiología genómica que, en el marco de la presente pandemia de COVID-19, busca caracterizar el componente genético de las cepas de SARS-CoV-2 circulantes y su correlación con datos epidemiológicos registrados a partir del seguimiento de casos y contactos. En este sentido, la iniciativa global de compartir todos los datos de influenza (GISAID) <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>, brinda la oportunidad de mejorar significativamente los sistemas de alerta temprana de cualquier país interesado en implementar la epidemiología genómica como parte de sus políticas de salud pública. Además, es importante resaltar el aporte técnico de iniciativas disponibles en la web que permiten acceder a protocolos estandarizados para la secuenciación masiva del SARS-CoV-2 <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+			<p>Con este enfoque, a medida que el virus se diseminaba por el mundo fue posible evidenciar rápidamente la acumulación de cambios en su genoma, lo que tuvo un impacto directo en el desarrollo y el refinamiento de métodos de diagnóstico molecular y serológico, además de convertirse en el principal insumo para el diseño racional de candidatos a vacunas y tratamientos. Los primeros datos de vigilancia genómica provenientes de países suramericanos como Argentina, Brasil, Colombia, Chile, Ecuador y Uruguay, han aportado evidencia útil para la selección de métodos de diagnóstico molecular y serológico, así como para la formulación de vacunas <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, en la que la variabilidad genética de las cepas del SARS-CoV-2 circulantes en la región ha sido determinante (<xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Aplicaciones de los estudios genómicos de SARS-CoV-2</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-40-s2-188-gf1.png"/>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>Lecciones aprendidas en epidemiología genómica de otros virus endémicos en Latinoamérica</title>
+			<p>En Latinoamérica, la circulación simultánea de varios virus transmitidos por mosquitos (Arbovirus), entre ellos los relacionados con las recientes epidemias de dengue, Zika y chikungunya, representa una amenaza para la salud pública con implicaciones sociales y económicas de enorme importancia <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>, lo que se suma a la presencia de otros virus emergentes, como el Mayaro y el Oropuche, cuyo impacto todavía no se ha estimado. Algunos países latinoamericanos han aportado muy buenos ejemplos sobre la utilidad de los datos genómicos de los arbovirus en la comprensión de fenómenos epidemiológicos de importancia en salud pública; entre ellos cabe destacar la posibilidad de determinar el retraso entre el momento de la aparición de un arbovirus y la primera detección en un área geográfica, la distribución espacial de las cepas de mayor virulencia, la transmisibilidad de vectores y el mayor riesgo de fracaso de eventuales vacunas <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. En Colombia, la vigilancia genómica de arbovirus permitió identificar los genotipos del dengue, chikungunya y Zika, así como la diversificación regional de linajes de estos virus en el país <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+			<p>Brasil ha sido pionero en la generación de datos, así como en el acceso a la infraestructura y el personal capacitado en la producción de datos genómicos, algo que quedó evidenciado por el hecho de haber reportado el 40 % de los genomas de SARS-CoV-2 en Latinoamérica. Sin embargo, con la pandemia de COVID-19 en la región, varios países de Latinoamérica demostraron capacidad técnica para contribuir a la vigilancia genómica del SARS-CoV-2, pese a que la cantidad de genomas reportados fue limitada (<xref ref-type="fig" rid="f2">figura 2</xref>).</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Distribución de los genomas del SARS-CoV-2 reportados en la base de datos GISAID originados en países de Latinoamérica y el Caribe</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-40-s2-188-gf2.png"/>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>Secuenciación del SARS-CoV-2 en Latinoamérica: hacia la implementación de una red de vigilancia genómica</title>
+			<p>El primer genoma de SARS-CoV-2 se reportó el 13 de enero de 2020 y hacia finales de septiembre del 2020 se habían reportado en la base de datos GISAID más de 126.000 genomas a nivel mundial, de los cuales más de 2.200 provienen de Latinoamérica y el Caribe. La abundancia y la velocidad de la producción de datos genómicos en el contexto de la epidemia es un hecho sin precedentes en la historia de la humanidad y ha permitido el monitoreo en tiempo real del avance de la pandemia, el estudio de las introducción del virus en diferentes territorios <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>, la vigilancia de la utilidad y aplicabilidad de los métodos diagnósticos y el desarrollo de las posibles vacunas <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+			<p>Además, la información temprana aportada por países como Brasil, Panamá, Chile y Colombia, sobre la composición genética de las cepas de SARS-CoV-2 que llegaron durante los primeros meses (<xref ref-type="fig" rid="f3">figura 3</xref>) fue crucial para monitorear la diversificación regional, la fijación de linajes y la importación entre países vecinos a la región <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title>Distribución temporal de los reportes de genomas de SARS-CoV-2 en países de Latinoamériva y el Caribe utilizando la fecha de recolección de la muestra asociada con la secuencia reportada en GISAID</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-40-s2-188-gf3.png"/>
+				</fig>
+			</p>
+			<p>Por otro lado, el estudio genómico del SARS-CoV-2 permitió identificar los cambios acumulados en el genoma del virus desde su origen en China, su dispersión por el mundo y la llegada a Latinoamérica. Entre los cambios más frecuentes, la mutación D614G en la proteína S del SARS-CoV-2 ha sido de particular interés, dado que su presencia está asociada con el linaje B.1, dominante en la pandemia, el cual virtualmente reemplazó al linaje A.1, su predecesor. Dicha observación orientó los estudios sobre la asociación de esta mutación con una mayor dispersión e infectividad del virus <xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref> y una antigenicidad reducida, lo que ha llevado a considerar la posibilidad de adaptar las vacunas y las pruebas serológicas <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+			<p>En Suramérica, la secuenciación del SARS-CoV-2 permitió establecer que más del 80 % de los genomas reportados para la región presentaban la sustitución D614G <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, información valiosa sobre la historia natural del virus que puede orientar a los responsables de las decisiones en salud pública para la selección, implementación o refinamiento de métodos de diagnóstico, vacunas y tratamientos (<xref ref-type="table" rid="t1">cuadro 1</xref>). Esto evidencia la necesidad de generar políticas públicas para aumentar los recursos estatales dedicados a implementar la secuenciación genómica como una herramienta de vigilancia temprana de rutina ante eventos de interés en salud pública en Latinoamérica y el Caribe.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Estudios de epidemiología genómica realizados en Latinoamérica y el Caribe durante la pandemia ocasionada por el SARS-CoV-2</title>
+					</caption>
+					<table frame="hsides" rules="groups"> 
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Estudio</th>
+								<th align="left">Aproximación</th>
+								<th align="left">País</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Jesus, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>
+								</td>
+								<td align="left">Descripción genómica de SARS-CoV-2 del primer caso de COVID-19 reportado en Brasil y casos asociados. Los genomas obtenidos se relacionaban con secuencias reportadas en Italia.</td>
+								<td align="left">Brasil</td>
+							</tr>
+							<tr>
+								<td align="left">Candido, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>
+								</td>
+								<td align="left">Estudio que combina la epidemiología y la genómica para investigar el impacto de intervenciones no farmacológicas en el control de la pandemia en Brasil. Los datos genómicos permitieron detectar más de 100 eventos de introducción de SARS-CoV-2.</td>
+								<td align="left">Brasil</td>
+							</tr>
+							<tr>
+								<td align="left">Resende, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+								</td>
+								<td align="left">Estudio de vigilancia genómica de la diversidad de SARS-CoV-2 durante la fase temprana de la epidemia en Brasil. Se encontraron múltiples introducciones del virus y evidencia de transmisión comunitaria, y se determinó el linaje B.1.1, lo que sugiere que fue exportado a otros países de Latinoamérica.</td>
+								<td align="left">Brasil</td>
+							</tr>
+							<tr>
+								<td align="left">Xavier, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>
+								</td>
+								<td align="left">Estudio genómico de SARS-CoV-2 en el estado de Minas Gerais. Se analizó la información de 40 genomas y se encontró evidencia de múltiples introducciones del virus y se determinó una posible fecha de introducción en febrero desde Italia, congruente con la evidencia epidemiológica.</td>
+								<td align="left">Colombia</td>
+							</tr>
+							<tr>
+								<td align="left">Álvarez-Díaz, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+								</td>
+								<td align="left">Descripción de la variabilidad genética de los genomas colombianos del SARS-CoV-2 en las regiones de hibridación de los oligonucleótidos de los principales métodos descritos a nivel mundial para la detección molecular</td>
+								<td align="left">Colombia</td>
+							</tr>
+							<tr>
+								<td align="left">Franco-Muñoz, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+								</td>
+								<td align="left">Descripción de la frecuencia de sustitución de las proteínas S y N del SARS-CoV-2 en Suramérica. Las sustituciones D614G en S y R203K / G204R en N fueron las más frecuentes en Suramérica, observadas en el 83 y 34 % de las secuencias, respectivamente.</td>
+								<td align="left">Colombia</td>
+							</tr>
+							<tr>
+								<td align="left">Laiton-Donato, <italic>et a</italic>l., 2020 <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+								</td>
+								<td align="left">Estudio de la emergencia y las rutas de importación de COVID-19 a Colombia utilizando observaciones epidemiológicas, históricas de viajes aéreos y análisis filogenéticos. Se proporcionó evidencia de múltiples introducciones, principalmente de Europa con, por lo menos, 12 linajes circulantes.</td>
+								<td align="left">Colombia</td>
+							</tr>
+							<tr>
+								<td align="left">López-Álvarez, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>
+								</td>
+								<td align="left">Reporte de la secuencia del genoma de un aislamiento viral de un paciente con COVID-19 que estaba infectado en Cali, Colombia. El paciente no tenía antecedentes de viajes recientes y no requirió hospitalización</td>
+								<td align="left">Colombia</td>
+							</tr>
+							<tr>
+								<td align="left">Paniz-Mondolfi, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>
+								</td>
+								<td align="left">Descripción de primeros genomas del SARS-CoV-2 en la región fronteriza colombo-venezolana. Los genomas del SARS-CoV-2 de Venezuela fueron clasificados en el linaje B1, linaje B.1.13.</td>
+								<td align="left">Colombia</td>
+							</tr>
+							<tr>
+								<td align="left">Castillo, <italic>et a</italic>l., 2020 <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>
+								</td>
+								<td align="left">Estudios de genomas completo de los primeros cuatro casos de la nueva enfermedad por coronavirus en Chile en pacientes que viajaron a Europa y el sureste asiático</td>
+								<td align="left">Chile</td>
+							</tr>
+							<tr>
+								<td align="left">Márquez, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>
+								</td>
+								<td align="left">Estudio metagenómico de tres casos que confirmaron la presencia de SARS-CoV-2 en coexistencia con bacterias patógenas que sugieren coinfección con <italic>Streptococcus pneumoniae</italic>, <italic>Mycobacterium tuberculosis</italic>, <italic>Staphylococcus aureus</italic> y <italic>Chlamydia</italic> spp.</td>
+								<td align="left">Ecuador</td>
+							</tr>
+							<tr>
+								<td align="left">Garcés-Ayala, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>
+								</td>
+								<td align="left">Descripción de la secuencia completa del genoma del primer caso importado de COVID-19 en un paciente mexicano que había viajado a Bérgamo, Italia</td>
+								<td align="left">México</td>
+							</tr>
+							<tr>
+								<td align="left">Franco, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>
+								</td>
+								<td align="left">Descripción de los patrones de transmisión temprana del virus mediante modelado epidemiológico y la vigilancia del genoma para evaluar las estrategias de mitigación en Panamá</td>
+								<td align="left">Panamá</td>
+							</tr>
+							<tr>
+								<td align="left">Padilla-Rojas, <italic>et al</italic>., 2020a <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>
+								</td>
+								<td align="left">Reporte de una secuencia de genoma completo de un paciente peruano con COVID-19 con historial de viaje a Italia</td>
+								<td align="left">Perú</td>
+							</tr>
+							<tr>
+								<td align="left">Padilla-Rojas, <italic>et a</italic>l., 2020b <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>
+								</td>
+								<td align="left">Caracterización del genoma completo de SARS-CoV-2 de los primeros casos de COVID-19 en Perú. Se reportan 34 genomas, la mayoría de ellos pertenecientes al clado G linaje B.1.1.1.</td>
+								<td align="left">Perú</td>
+							</tr>
+							<tr>
+								<td align="left">Juscamayta-López, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>
+								</td>
+								<td align="left">Análisis de genomas de SARS-CoV-2 para describir el establecimiento y propagación viral, eventos de transmisión temprana y diversidad genómica</td>
+								<td align="left">Perú</td>
+							</tr>
+							<tr>
+								<td align="left">Poterico, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>
+								</td>
+								<td align="left">Descripción y comparación de posiciones variables a nivel genómico en 30 genomas virales completos de países sudamericanos y de Perú</td>
+								<td align="left">Perú</td>
+							</tr>
+							<tr>
+								<td align="left">Salazar, <italic>et al</italic>., 2020 <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>
+								</td>
+								<td align="left">Secuenciación de 10 genomas con genoma completo de 10 SARS-CoV-2 de pacientes diagnosticados durante la introducción viral</td>
+								<td align="left">Uruguay</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec>
+			<title>Implementación y aplicaciones de la secuenciación del SARS-CoV-2 en Colombia</title>
+			<p>Las primeras diez secuencias del SARS-CoV-2 en Colombia se obtuvieron de muestras captadas en ocho ciudades del país (Cartagena, Santa Marta, Ibagué, Bogotá, Medellín, Cali, Palmira y Popayán), donde se confirmaron los primeros casos de COVID-19 importados desde Europa, como parte de la vigilancia virológica de rutina liderada por el Instituto Nacional de Salud de Colombia.</p>
+			<p>La disponibilidad de protocolos en la web específicos para la secuenciación del SARS-CoV-2 basada en amplicones de PCR <xref ref-type="bibr" rid="B8"><sup>8</sup></xref> permitió que los investigadores del Instituto Nacional de Salud, en cooperación con investigadores del Instituto Alexander von Humboldt y la Universidad Cooperativa de Colombia, los aplicaran en la secuenciación del nuevo coronavirus e implementaran la tecnología de secuenciación de Oxford Nanopore - MinION en tan solo tres semanas a partir del primer caso confirmado de COVID-19 en el país, con lo cual las primeras secuencias del SARS-CoV-2 quedaron disponibles en el repositorio de secuencias genómicas del nuevo coronavirus, GISAID. Simultáneamente, investigadores de la Universidad del Valle y del Centro Internacional de Agricultura Tropical demostraron la capacidad instalada para secuenciar el SARS-CoV-2 a partir de muestras captadas localmente <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>Así, las primeras secuencias del SARS-CoV-2 en Colombia evidenciaron la variabilidad genética en diferentes posiciones nucleotídicas de los sitios genómicos del virus, usados en las pruebas moleculares (rRT-PCR) para el diagnóstico de la COVID-19 y disponibles en el sitio web de la Organización Mundial de la Salud (OMS). Ello demostró que la acumulación de mutaciones en el genoma viral es relativamente frecuente y, en consecuencia, es importante evaluar periódicamente los sitios blanco para el diagnóstico molecular usando la información de las secuencias disponibles para verificar mediante simulación por computador su potencial efecto en el desempeño de las pruebas <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>En los meses siguientes otros estudios corroboraron esta información a la luz de nuevas secuencias del SARS-CoV-2 reportadas en GISAID por investigadores colombianos, las cuales se sumaron a las reportadas por otros países de la región, incluidos Brasil, Chile, Ecuador, Uruguay, Perú y Argentina, lo que demuestra el alcance de estos hallazgos en el territorio suramericano <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, así como en las pruebas de inmunodiagnóstico basadas en anticuerpos contra las proteínas N y S del SARS-CoV-2 <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>Además, la capacidad de secuenciación instalada del Instituto Nacional de Salud permitió clasificar el primer aislamiento del SARS-CoV-2 colombiano (obtenido por investigadores de la Universidad de Antioquia) en el linaje B.1.5, uno de los más prevalentes en el país. Esta información resulta crucial para determinar las cepas del virus que se emplearán en pruebas <italic>in vitro</italic> para la evaluación de compuestos terapéuticos o desinfectantes <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. Por último, las secuencias del SARS-CoV-2 identificadas durante la fase temprana de la pandemia de COVID-19 en Colombia aportaron datos moleculares para respaldar la información epidemiológica relativa a la proporción de casos importados de Europa y América y la reconstrucción de cadenas de transmisión viral, así como para estimar la variabilidad genética de SARS-CoV-2 en el país, traducida en la identificación de 12 sublinajes del SARS-CoV-2 importados en un transcurso de dos meses desde la confirmación del primer caso <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>Conclusiones y perspectivas</title>
+			<p>Es una necesidad urgente fortalecer la cooperación entre los laboratorios de salud pública de Latinoamérica y el Caribe para facilitar la transferencia tecnológica, el entrenamiento del personal y la adquisición de recursos para insumos, infraestructura y mejoramiento de la capacidad instalada en el laboratorio, entre otros. Esto permitirá establecer consensos sobre la vigilancia genómica en la región para los sistemas de alerta temprana frente al SARS-CoV-2 y otros agentes patógenos que amenacen la salud pública. Ello debe acompañarse de políticas regionales de asignación de recursos financieros para el mejoramiento de la capacidad instalada en los laboratorios, la adquisición de insumos y equipos y los programas de entrenamiento de profesionales en análisis de datos, lo que permitirá fortalecer los sistemas de vigilancia genómica y de alerta temprana frente a amenazas para la salud pública.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>A todos los investigadores colombianos y extranjeros que depositaron genomas en la base de datos EpiFlu (TM) de GISAID contribuyendo así al conocimiento de la diversidad genómica y la relación filogenética del SARS-CoV-2.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis. 2020;20:533-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(20)30120-1">https://doi.org/10.1016/S1473-3099(20)30120-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dong</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Du</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gardner</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>An interactive web-based dashboard to track COVID-19 in real time</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2020</year>
+					<volume>20</volume>
+					<fpage>533</fpage>
+					<lpage>534</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(20)30120-1">https://doi.org/10.1016/S1473-3099(20)30120-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. World Health Organization-WHO. Rolling updates on coronavirus disease (COVID-19). Geneva: World Health Organization; 2020. Fecha de consulta: 31 de julio de 2020. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization-WHO</collab>
+					</person-group>
+					<source>Rolling updates on coronavirus disease (COVID-19)</source>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>World Health Organization</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-00-00">31 de julio de 2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Miller MJ, Loaiza JR, Takyar A, Gilman RH. COVID-19 in Latin America: Novel transmission dynamics for a global pandemic? PLoS Negl Trop Dis. 2020;14:e0008265. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0008265">https://doi.org/10.1371/journal.pntd.0008265</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miller</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Loaiza</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Takyar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gilman</surname>
+							<given-names>RH</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 in Latin America: Novel transmission dynamics for a global pandemic?</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<elocation-id>e0008265</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0008265">https://doi.org/10.1371/journal.pntd.0008265</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. United Nations. The impact of COVID-19 on Latin America and the Caribbean. New York: United Nations; 2020. p. 25.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>United Nations</collab>
+					</person-group>
+					<source>The impact of COVID-19 on Latin America and the Caribbean</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>United Nations</publisher-name>
+					<year>2020</year>
+					<fpage>25</fpage>
+					<lpage>25</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Anderson RM, Heesterbeek H, Klinkenberg D, Hollingsworth TD. How will country-based mitigation measures influence the course of the COVID-19 epidemic? Lancet. 2020;395:931-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30567-5">https://doi.org/10.1016/S0140-6736(20)30567-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anderson</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Heesterbeek</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Klinkenberg</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hollingsworth</surname>
+							<given-names>TD</given-names>
+						</name>
+					</person-group>
+					<article-title>How will country-based mitigation measures influence the course of the COVID-19 epidemic?</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>395</volume>
+					<fpage>931</fpage>
+					<lpage>934</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30567-5">https://doi.org/10.1016/S0140-6736(20)30567-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Guthrie JL, Gardy JL. A brief primer on genomic epidemiology: Lessons learned from <italic>Mycobacterium tuberculosis</italic>. Ann N Y Acad Sci. 2017;1388:59-77. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/nyas.13273">https://doi.org/10.1111/nyas.13273</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guthrie</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Gardy</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<article-title>A brief primer on genomic epidemiology: Lessons learned from Mycobacterium tuberculosis</article-title>
+					<source>Ann N Y Acad Sci</source>
+					<year>2017</year>
+					<volume>1388</volume>
+					<fpage>59</fpage>
+					<lpage>77</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/nyas.13273">https://doi.org/10.1111/nyas.13273</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Zhu N, Zhang D, Wang W, Li X, Yang B, Song J, <italic>et al</italic>. A novel coronavirus from patients with pneumonia in China, 2019. N Engl J Med. 2020;382:727-33. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa2001017">https://doi.org/10.1056/NEJMoa2001017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhu</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Song</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A novel coronavirus from patients with pneumonia in China, 2019</article-title>
+					<source>N Engl J Med</source>
+					<year>2020</year>
+					<volume>382</volume>
+					<fpage>727</fpage>
+					<lpage>733</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa2001017">https://doi.org/10.1056/NEJMoa2001017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Quick J. nCoV-2019 sequencing protocol: protocols.io; 2020. Fecha de consulta: 2 de marzo de 2020. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.protocols.io/view/ncov-2019-sequencing-protocol-bbmuik6w">https://www.protocols.io/view/ncov-2019-sequencing-protocol-bbmuik6w</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quick</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>nCoV-2019 sequencing protocol: protocols.io</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-00-00">2 de marzo de 2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.protocols.io/view/ncov-2019-sequencing-protocol-bbmuik6w">https://www.protocols.io/view/ncov-2019-sequencing-protocol-bbmuik6w</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Álvarez-Díaz DA, Franco-Muñoz C, Laiton-Donato K, Usme-Ciro JA, Franco-Sierra ND, Flórez-Sánchez AC, <italic>et al</italic>. Molecular analysis of several in-house rRT-PCR protocols for SARS-CoV-2 detection in the context of genetic variability of the virus in Colombia. Infect Genet Evol. 2020;84:104390. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.meegid.2020.104390">https://doi.org/10.1016/j.meegid.2020.104390</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Álvarez-Díaz</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Franco-Muñoz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Usme-Ciro</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Franco-Sierra</surname>
+							<given-names>ND</given-names>
+						</name>
+						<name>
+							<surname>Flórez-Sánchez</surname>
+							<given-names>AC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular analysis of several in-house rRT-PCR protocols for SARS-CoV-2 detection in the context of genetic variability of the virus in Colombia</article-title>
+					<source>Infect Genet Evol</source>
+					<year>2020</year>
+					<volume>84</volume>
+					<fpage>104390</fpage>
+					<lpage>104390</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.meegid.2020.104390">https://doi.org/10.1016/j.meegid.2020.104390</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Franco-Muñoz C, Álvarez-Díaz DA, Laiton-Donato K, Wiesner M, Escandón P, Usme-Ciro JA, <italic>et al</italic>. Substitutions in spike and nucleocapsid proteins of SARS-CoV-2 circulating in South America. Infect Genet Evol. 2020;85:104557. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.meegid.2020.104557">https://doi.org/10.1016/j.meegid.2020.104557</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Franco-Muñoz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Álvarez-Díaz</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Wiesner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Escandón</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Usme-Ciro</surname>
+							<given-names>JA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Substitutions in spike and nucleocapsid proteins of SARS-CoV-2 circulating in South America</article-title>
+					<source>Infect Genet Evol</source>
+					<year>2020</year>
+					<volume>85</volume>
+					<fpage>104557</fpage>
+					<lpage>104557</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.meegid.2020.104557">https://doi.org/10.1016/j.meegid.2020.104557</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Gasque P, Bandjee MC, Reyes MM, Viasus D. Chikungunya pathogenesis: From the clinics to the bench. J Infect Dis. 2016;214(Suppl.5):S446-S8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiw362">https://doi.org/10.1093/infdis/jiw362</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gasque</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bandjee</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Reyes</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Viasus</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Chikungunya pathogenesis: From the clinics to the bench</article-title>
+					<source>J Infect Dis</source>
+					<year>2016</year>
+					<volume>214</volume>
+					<supplement>5</supplement>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiw362">https://doi.org/10.1093/infdis/jiw362</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Flórez-Lozano K, Navarro-Lechuga E, Llinas-Solano H, Tuesca-Molina R, Sisa-Camargo A, Mercado-Reyes M, <italic>et al</italic>. Spatial distribution of the relative risk of Zika virus disease in Colombia during the 2015-2016 epidemic from a Bayesian approach. Int J Gynaecol Obstet. 2020;148(Suppl.2):55-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijgo.13048">https://doi.org/10.1002/ijgo.13048</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Flórez-Lozano</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Navarro-Lechuga</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Llinas-Solano</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tuesca-Molina</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Sisa-Camargo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mercado-Reyes</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Spatial distribution of the relative risk of Zika virus disease in Colombia during the 2015-2016 epidemic from a Bayesian approach</article-title>
+					<source>Int J Gynaecol Obstet</source>
+					<year>2020</year>
+					<volume>148</volume>
+					<supplement>2</supplement>
+					<fpage>55</fpage>
+					<lpage>60</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijgo.13048">https://doi.org/10.1002/ijgo.13048</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Pollett S, Fauver JR, Maljkovic Berry I, Meléndrez M, Morrison A, Gillis LD, <italic>et al</italic>. Genomic epidemiology as a public health tool to combat mosquito-borne virus outbreaks. J Infect Dis. 2020;221(Suppl.3):S308-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiz302">https://doi.org/10.1093/infdis/jiz302</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pollett</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fauver</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Maljkovic Berry</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Meléndrez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Morrison</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gillis</surname>
+							<given-names>LD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic epidemiology as a public health tool to combat mosquito-borne virus outbreaks</article-title>
+					<source>J Infect Dis</source>
+					<year>2020</year>
+					<volume>221</volume>
+					<supplement>3</supplement>
+					<fpage>S308</fpage>
+					<lpage>S318</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jiz302">https://doi.org/10.1093/infdis/jiz302</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Laiton-Donato K, Usme-Ciro JA, Rico A, Pardo L, Martínez C, Salas D, <italic>et al</italic>. Análisis filogenético del virus del chikungunya en Colombia: evidencia de selección purificadora en el gen E1. Biomédica. 2016;36:25-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v36i0.2990">https://doi.org/10.7705/biomedica.v36i0.2990</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Usme-Ciro</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Rico</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pardo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Martínez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Salas</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Análisis filogenético del virus del chikungunya en Colombia: evidencia de selección purificadora en el gen E1</article-title>
+					<source>Biomédica</source>
+					<year>2016</year>
+					<volume>36</volume>
+					<fpage>25</fpage>
+					<lpage>34</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v36i0.2990">https://doi.org/10.7705/biomedica.v36i0.2990</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Laiton-Donato K, Álvarez DA, Peláez-Carvajal D, Mercado M, Ajami NJ, Bosch I, <italic>et al</italic>. Molecular characterization of dengue virus reveals regional diversification of serotype 2 in Colombia. Virol J. 2019;16:62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12985-019-1170-4">https://doi.org/10.1186/s12985-019-1170-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Álvarez</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Peláez-Carvajal</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mercado</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ajami</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Bosch</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular characterization of dengue virus reveals regional diversification of serotype 2 in Colombia</article-title>
+					<source>Virol J</source>
+					<year>2019</year>
+					<volume>16</volume>
+					<fpage>62</fpage>
+					<lpage>62</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12985-019-1170-4">https://doi.org/10.1186/s12985-019-1170-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Black A, Moncla LH, Laiton-Donato K, Potter B, Pardo L, Rico A, <italic>et al</italic>. Genomic epidemiology supports multiple introductions and cryptic transmission of Zika virus in Colombia. BMC Infect Dis. 2019;19:963. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-019-4566-2">https://doi.org/10.1186/s12879-019-4566-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Black</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Moncla</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Potter</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Pardo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Rico</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic epidemiology supports multiple introductions and cryptic transmission of Zika virus in Colombia</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2019</year>
+					<volume>19</volume>
+					<fpage>963</fpage>
+					<lpage>963</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-019-4566-2">https://doi.org/10.1186/s12879-019-4566-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Laiton-Donato K, Villabona-Arenas CJ, Usme-Ciro JA, Franco-Muñoz C, Álvarez-Díaz DA, Villabona-Arenas LS, <italic>et al</italic>. Genomic epidemiology of Severe Acute Respiratory Syndrome Coronavirus 2, Colombia. Emerg Infect Dis. 2020;26(12) (In press). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.26.20135715">https://doi.org/10.1101/2020.06.26.20135715</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laiton-Donato</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Villabona-Arenas</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Usme-Ciro</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Franco-Muñoz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Álvarez-Díaz</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Villabona-Arenas</surname>
+							<given-names>LS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic epidemiology of Severe Acute Respiratory Syndrome Coronavirus 2, Colombia</article-title>
+					<source>Emerg Infect Dis</source>
+					<year>2020</year>
+					<volume>26</volume>
+					<issue>12</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.26.20135715">https://doi.org/10.1101/2020.06.26.20135715</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Ramírez JD, Muñoz M, Hernández C, Flórez C, Gómez S, Rico A, <italic>et al</italic>. Genetic diversity among SARS-CoV2 strains in South America may impact performance of molecular detection. Pathogens. 2020;9:580. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/pathogens9070580">https://doi.org/10.3390/pathogens9070580</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Muñoz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hernández</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Flórez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rico</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genetic diversity among SARS-CoV2 strains in South America may impact performance of molecular detection</article-title>
+					<source>Pathogens</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<fpage>580</fpage>
+					<lpage>580</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/pathogens9070580">https://doi.org/10.3390/pathogens9070580</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Resende PC, Delatorre E, Graf T, Mir D, Motta FdC, Appolinario LR, <italic>et al</italic>. Genomic surveillance of SARS-CoV-2 reveals community transmission of a major lineage during the early pandemic phase in Brazil. bioRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.17.158006">https://doi.org/10.1101/2020.06.17.158006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Resende</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Delatorre</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Graf</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mir</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>FdC</surname>
+							<given-names>Motta</given-names>
+						</name>
+						<name>
+							<surname>Appolinario</surname>
+							<given-names>LR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Genomic surveillance of SARS-CoV-2 reveals community transmission of a major lineage during the early pandemic phase in Brazil. bioRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.17.158006">https://doi.org/10.1101/2020.06.17.158006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Zhang L, Jackson CB, Mou H, Ojha A, Rangarajan ES, Izard T, <italic>et al</italic>. The D614G mutation in the SARS-CoV-2 spike protein reduces S1 shedding and increases infectivity. bioRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.12.148726">https://doi.org/10.1101/2020.06.12.148726</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Jackson</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Mou</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Ojha</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rangarajan</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Izard</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>The D614G mutation in the SARS-CoV-2 spike protein reduces S1 shedding and increases infectivity. bioRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.12.148726">https://doi.org/10.1101/2020.06.12.148726</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Korber B, Fischer WM, Gnanakaran S, Yoon H, Theiler J, Abfalterer W, <italic>et al</italic>. Tracking changes in SARS-CoV-2 Spike: Evidence that D614G Increases Infectivity of the COVID-19 Virus. Cell. 2020;182:812-27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cell.2020.06.043">https://doi.org/10.1016/j.cell.2020.06.043</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Korber</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fischer</surname>
+							<given-names>WM</given-names>
+						</name>
+						<name>
+							<surname>Gnanakaran</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yoon</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Theiler</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Abfalterer</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Tracking changes in SARS-CoV-2 Spike: Evidence that D614G Increases Infectivity of the COVID-19</article-title>
+					<source>Virus. Cell</source>
+					<year>2020</year>
+					<volume>182</volume>
+					<fpage>812</fpage>
+					<lpage>827</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cell.2020.06.043">https://doi.org/10.1016/j.cell.2020.06.043</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Kim SJ, Nguyen VG, Park YH, Park BK, Chung HC. A novel synonymous mutation of SARS-CoV-2: Is this possible to affect their antigenicity and immunogenicity? Vaccines (Basel). 2020;8:220. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/vaccines8020220">https://doi.org/10.3390/vaccines8020220</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>YH</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>BK</given-names>
+						</name>
+						<name>
+							<surname>Chung</surname>
+							<given-names>HC</given-names>
+						</name>
+					</person-group>
+					<article-title>A novel synonymous mutation of SARS-CoV-2: Is this possible to affect their antigenicity and immunogenicity?</article-title>
+					<source>Vaccines (Basel)</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<fpage>220</fpage>
+					<lpage>220</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/vaccines8020220">https://doi.org/10.3390/vaccines8020220</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Jesus JG, Sacchi C, Candido DDS, Claro IM, Sales FCS, Manuli ER, <italic>et al</italic>. Importation and early local transmission of COVID-19 in Brazil, 2020. Rev Inst Med Trop Sao Paulo. 2020;62:e30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s1678-9946202062030">https://doi.org/10.1590/s1678-9946202062030</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jesus</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Sacchi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Candido</surname>
+							<given-names>DDS</given-names>
+						</name>
+						<name>
+							<surname>Claro</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Sales</surname>
+							<given-names>FCS</given-names>
+						</name>
+						<name>
+							<surname>Manuli</surname>
+							<given-names>ER</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Importation and early local transmission of COVID-19 in Brazil, 2020</article-title>
+					<source>Rev Inst Med Trop Sao Paulo</source>
+					<year>2020</year>
+					<volume>62</volume>
+					<elocation-id>e30</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s1678-9946202062030">https://doi.org/10.1590/s1678-9946202062030</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Candido DS, Claro IM, de Jesus JG, Souza WM, Moreira FRR, Dellicour S, <italic>et al</italic>. Evolution and epidemic spread of SARS-CoV-2 in Brazil. Science. 2020;369:1255-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.abd2161">https://doi.org/10.1126/science.abd2161</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Candido</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Claro</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>de Jesus</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>WM</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>FRR</given-names>
+						</name>
+						<name>
+							<surname>Dellicour</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evolution and epidemic spread of SARS-CoV-2 in Brazil</article-title>
+					<source>Science</source>
+					<year>2020</year>
+					<volume>369</volume>
+					<fpage>1255</fpage>
+					<lpage>1260</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.abd2161">https://doi.org/10.1126/science.abd2161</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Xavier J, Giovanetti M, Adelino T, Fonseca V, Barbosa da Costa AV, Ribeiro AA, <italic>et al</italic>. The ongoing COVID-19 epidemic in Minas Gerais, Brazil: Insights from epidemiological data and SARS-CoV-2 whole genome sequencing. Emerg Microbes Infect. 2020;9:1824-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/22221751.2020.1803146">https://doi.org/10.1080/22221751.2020.1803146</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xavier</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Giovanetti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Adelino</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Fonseca</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Barbosa da Costa</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>AA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The ongoing COVID-19 epidemic in Minas Gerais, Brazil: Insights from epidemiological data and SARS-CoV-2 whole genome sequencing</article-title>
+					<source>Emerg Microbes Infect</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<fpage>1824</fpage>
+					<lpage>1834</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/22221751.2020.1803146">https://doi.org/10.1080/22221751.2020.1803146</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. López-Álvarez D, Parra B, Cuéllar WJ. Genome sequence of SARS-CoV-2 isolate Cali-01, from Colombia, obtained using Oxford Nanopore MinION Sequencing. Microbiol Resour Announc. 2020;9:e00573-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MRA.00573-20">https://doi.org/10.1128/MRA.00573-20</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López-Álvarez</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Parra</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Cuéllar</surname>
+							<given-names>WJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Genome sequence of SARS-CoV-2 isolate Cali-01, from Colombia, obtained using Oxford Nanopore MinION Sequencing</article-title>
+					<source>Microbiol Resour Announc</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<fpage>e00520</fpage>
+					<lpage>e00573</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MRA.00573-20">https://doi.org/10.1128/MRA.00573-20</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Paniz-Mondolfi A, Muñoz M, Flórez C, Gómez S, Rico A, Pardo L, <italic>et al</italic>. SARS-CoV-2 spread across the Colombian-Venezuelan border. medRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.07.09.20149856">https://doi.org/10.1101/2020.07.09.20149856</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paniz-Mondolfi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Muñoz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Flórez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rico</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pardo</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>SARS-CoV-2 spread across the Colombian-Venezuelan border. medRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.07.09.20149856">https://doi.org/10.1101/2020.07.09.20149856</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Castillo AE, Parra B, Tapia P, Acevedo A, Lagos J, Andrade W, <italic>et al</italic>. Phylogenetic analysis of the first four SARS-CoV-2 cases in Chile. J Med Virol. 2020;92:1562-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.25797">https://doi.org/10.1002/jmv.25797</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castillo</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Parra</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Tapia</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Acevedo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lagos</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Phylogenetic analysis of the first four SARS-CoV-2 cases in Chile</article-title>
+					<source>J Med Virol</source>
+					<year>2020</year>
+					<volume>92</volume>
+					<fpage>1562</fpage>
+					<lpage>1566</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.25797">https://doi.org/10.1002/jmv.25797</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Márquez S, Prado-Vivar B, Guadalupe JJ, Gutiérrez Granja B, Jibaja M, Tobar M, <italic>et al</italic>. Genome sequencing of the first SARS-CoV-2 reported from patients with COVID-19 in Ecuador. medRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.11.20128330">https://doi.org/10.1101/2020.06.11.20128330</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Márquez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Prado-Vivar</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Guadalupe</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez Granja</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Jibaja</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tobar</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Genome sequencing of the first SARS-CoV-2 reported from patients with COVID-19 in Ecuador. medRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.06.11.20128330">https://doi.org/10.1101/2020.06.11.20128330</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Garcés-Ayala F, Araiza-Rodríguez A, Mendieta-Condado E, Rodríguez-Maldonado AP, Wong-Arambula C, Landa-Flores M, <italic>et al</italic>. Full genome sequence of the first SARS-CoV-2 detected in México. Arch Virol. 2020;165:2095-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00705-020-04695-3">https://doi.org/10.1007/s00705-020-04695-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garcés-Ayala</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Araiza-Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mendieta-Condado</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Maldonado</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Wong-Arambula</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Landa-Flores</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Full genome sequence of the first SARS-CoV-2 detected in México</article-title>
+					<source>Arch Virol</source>
+					<year>2020</year>
+					<volume>165</volume>
+					<fpage>2095</fpage>
+					<lpage>2098</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00705-020-04695-3">https://doi.org/10.1007/s00705-020-04695-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Franco D, González C, Abrego LE, Carrera JP, Díaz Y, Caisedo Y, <italic>et al</italic>. Early transmission dynamics, spread, and genomic characterization of SARS-CoV-2 in Panama. medRxiv. 2020. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.07.31.20160929">https://doi.org/10.1101/2020.07.31.20160929</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Franco</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Abrego</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Carrera</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Díaz</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Caisedo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Early transmission dynamics, spread, and genomic characterization of SARS-CoV-2 in Panama. medRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.07.31.20160929">https://doi.org/10.1101/2020.07.31.20160929</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Padilla-Rojas C, Lope-Pari P, Vega-Chozo K, Balbuena-Torres J, Cáceres-Rey O, Bailón-Calderón H, <italic>et al</italic>. Near-complete genome sequence of a 2019 novel coronavirus (SARS-CoV-2) strain causing a COVID-19 case in Perú. Microbiol Resour Announc. 2020;9:e00303-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MRA.00303-20">https://doi.org/10.1128/MRA.00303-20</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Padilla-Rojas</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lope-Pari</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Vega-Chozo</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Balbuena-Torres</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cáceres-Rey</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Bailón-Calderón</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Near-complete genome sequence of a 2019 novel coronavirus (SARS-CoV-2) strain causing a COVID-19 case in Perú</article-title>
+					<source>Microbiol Resour Announc</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<fpage>e00303</fpage>
+					<lpage>e00320</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/MRA.00303-20">https://doi.org/10.1128/MRA.00303-20</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Padilla-Rojas C, Vega-Chozo K, Galarza-Pérez M, Calderón HB, Lope-Pari P, Balbuena-Torres J, <italic>et al</italic>. Genomic analysis reveals local transmission of SARS-CoV-2 in early pandemic phase in Perú. bioRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.09.05.284604">https://doi.org/10.1101/2020.09.05.284604</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Padilla-Rojas</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Vega-Chozo</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Galarza-Pérez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Calderón</surname>
+							<given-names>HB</given-names>
+						</name>
+						<name>
+							<surname>Lope-Pari</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Balbuena-Torres</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Genomic analysis reveals local transmission of SARS-CoV-2 in early pandemic phase in Perú. bioRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.09.05.284604">https://doi.org/10.1101/2020.09.05.284604</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Juscamayta-López E, Tarazona D, Valdivia F, Rojas N, Carhuaricra D, Maturrano L, <italic>et al</italic>. Phylogenomic reveals multiple introductions and early spread of SARS-CoV-2 into Perú. bioRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.09.14.296814">https://doi.org/10.1101/2020.09.14.296814</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Juscamayta-López</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tarazona</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Valdivia</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Carhuaricra</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Maturrano</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Phylogenomic reveals multiple introductions and early spread of SARS-CoV-2 into Perú. bioRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.09.14.296814">https://doi.org/10.1101/2020.09.14.296814</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Poterico JA, Mestanza O. Genetic variants and source of introduction of SARS-CoV-2 in South America. J Med Virol. 2020;92:2139-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.26001">https://doi.org/10.1002/jmv.26001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Poterico</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Mestanza</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Genetic variants and source of introduction of SARS-CoV-2 in South America</article-title>
+					<source>J Med Virol</source>
+					<year>2020</year>
+					<volume>92</volume>
+					<fpage>2139</fpage>
+					<lpage>2145</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.26001">https://doi.org/10.1002/jmv.26001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Salazar C, Díaz-Viraqué F, Pereira-Gómez M, Ferrés I, Moreno P, Moratorio G, <italic>et al</italic>. Multiple introductions, regional spread and local differentiation during the first week of COVID-19 epidemic in Montevideo, Uruguay. bioRxiv. 2020 (preprint). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.05.09.086223">https://doi.org/10.1101/2020.05.09.086223</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salazar</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Díaz-Viraqué</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Pereira-Gómez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ferrés</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Moratorio</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Multiple introductions, regional spread and local differentiation during the first week of COVID-19 epidemic in Montevideo, Uruguay. bioRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.05.09.086223">https://doi.org/10.1101/2020.05.09.086223</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Díaz FJ, Aguilar-Jiménez W, Flórez-Álvarez L, Valencia G, Laiton-Donato K, Franco-Muñoz, <italic>et al</italic>. Aislamiento y caracterización de una cepa temprana de la epidemia de SARS-CoV-2 de 2020 en Medellín, Colombia. Biomédica. 2020;40(Supl.2):148-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5834">https://doi.org/10.7705/biomedica.5834</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Díaz FJ</surname>
+							<given-names>Aguilar-Jiménez W</given-names>
+						</name>
+						<name>
+							<surname>Flórez-Álvarez L</surname>
+							<given-names>Valencia G</given-names>
+						</name>
+						<name>
+							<surname>Laiton-Donato K</surname>
+							<given-names>Franco-Muñoz</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Aislamiento y caracterización de una cepa temprana de la epidemia de SARS-CoV-2 de 2020 en Medellín, Colombia</article-title>
+					<source>Biomédica</source>
+					<year>2020</year>
+					<volume>40</volume>
+					<supplement>2</supplement>
+					<fpage>148</fpage>
+					<lpage>158</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5834">https://doi.org/10.7705/biomedica.5834</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Álvarez-Díaz DA, Laiton-Donato K, Franco-Muñoz C, Mercado-Reyes M. Secuenciación del SARS-CoV-2: la iniciativa tecnológica para fortalecer los sistemas de alerta temprana ante emergencias de salud pública en Latinoamérica y el Caribe. Biomédica. 2020;40(Supl.2):188-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5841">https://doi.org/10.7705/biomedica.5841</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Diego Alejandro Álvarez-Díaz, Katherine Laiton-Donato, Carlos Franco-Muñoz: conceptualización, curaduría de datos, investigación, redacción del borrador original Marcela Mercado-Reyes: supervisión de las actividades del proyecto y consecución de fondos</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p> Este estudio fue financiado por el Instituto Nacional de Salud, Bogotá D.C., Colombia (Estudio CORHUCO, CEMIN 4-2020).</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Conflicto de intereses:</label>
+				<p> Ninguno.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

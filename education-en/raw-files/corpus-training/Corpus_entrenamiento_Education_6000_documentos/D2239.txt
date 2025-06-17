@@ -1,0 +1,47 @@
+#ITI#Exploring the Impact of Missing Data on Residual-Based Dimensionality Analysis for Measurement Models#FTI#
+#IRE# Researchers frequently use Rasch models to analyze survey responses because these models provide accurate parameter estimates for items and examinees when there are missing data. However, researchers have not fully considered how missing data affect the accuracy of dimensionality assessment in Rasch analyses such as principal components analysis (PCA) of standardized residuals. Because adherence to unidimensionality is a prerequisite for the appropriate interpretation and use of Rasch model results, insight into the impact of missing data on the accuracy of this approach is critical. We used a simulation study to examine the accuracy of standardized residual PCA with various proportions of missing data and multidimensionality. We also explored an adaptation of modified parallel analysis in combination with standardized residual PCA as a source of additional information about dimensionality when missing data are present. Our results suggested that missing data impact the accuracy of PCA on standardized residuals, and that the adaptation of modified parallel analysis provides useful supplementary information about dimensionality when there are missing data.#FRE#
+#IPC# dimensionality; missing data; parallel analysis; Rasch measurement theory; residual analysis#FPC#
+#IRF# Andrich D.A., A rating formulation for ordered response categories, Psychometrika, 43, 4, pp. 561-573, (1978); 
+Balasubramanian C.K., Li C.Y., Bowden M.G., Duncan P.W., Kautz S.A., Velozo C.A., Dimensionality and item-difficulty hierarchy of the lower extremity Fugl-Meyer Assessment in individuals with subacute and chronic stroke, Archives of Physical Medicine and Rehabilitation, 97, 4, pp. 582-589, (2016); 
+Bontempo R., Translation fidelity of psychological scales: An item response theory analysis of an Individualism-Collectivism Scale, Journal of Cross-Cultural Psychology, 24, 2, pp. 149-166, (1993); 
+Borsboom D., Mellenbergh G., Why psychometrics is not pathological: A comment on Michell, Theory and Psychology, 14, 1, pp. 105-120, (2004); 
+Budescu D., Cohen Y., Ben-Simon A., A revised modified parallel analysis for the construction of unidimensional item pools, Applied Psychological Measurement, 21, 3, pp. 233-252, (1997); 
+Chou Y.-T., Wang W.-C., Checking dimensionality in item response models with principal component analysis on standardized residuals, Educational and Psychological Measurement, 70, 5, pp. 717-731, (2010); 
+de Leeuw J., Principal component analysis of binary data by iterated singular value decomposition, Computational Statistics & Data Analysis, 50, 1, pp. 21-39, (2006); 
+Drasgow F., Lissak R.I., Modified parallel analysis: A procedure for examining the latent dimensionality of dichotomously scored item responses, Journal of Applied Psychology, 68, 3, pp. 363-373, (1983); 
+Engelhard G., Constructing rater and task banks for performance assessments, Journal of Outcome Measurement, 1, 1, pp. 19-33, (1997); 
+Funk J., Fox C., Chan M., Curtiss K., The development of the children’s empathic attitudes questionnaire using classical and Rasch analyses, Journal of Applied Developmental Psychology, 29, 3, pp. 187-196, (2008); 
+Gershon R.C., Lai J.S., Bode R., Choi S., Moy C., Bleck T., Miller D., Peterman A., Cella D., Neuro-QOL: Quality of life item banks for adults with neurological disorders: Item development and calibrations based upon clinical and general population testing, Quality of Life Research, 21, 3, pp. 475-486, (2012); 
+Grung B., Manne R., Missing values in principal component analysis, Chemometrics and Intelligent Laboratory Systems, 42, 1, pp. 125-139, (1998); 
+Humphreys L.G., Ilgen D.R., Note on a criterion for the number of common factors, Educational and Psychological Measurement, 29, 3, pp. 571-578, (1969); 
+Humphreys L.G., Montanelli R.G., An investigation of the parallel analysis criterion for determining the number of common factors, Multivariate Behavioral Research, 10, 2, pp. 193-205, (1975); 
+Josse J., Husson F., Handling missing values in exploratory multivariate data analysis methods, Journal de La Société Française de Statistique, 153, 2, pp. 79-99, (2012); 
+Josse J., Husson F., missMDA: A package for handling missing values in multivariate data analysis, Journal of Statistical Software, 70, 1, pp. 1-31, (2016); 
+Karabatsos G., A critique of Rasch residual fit statistics, Journal of Applied Measurement, 1, 2, pp. 152-176, (2000); 
+Kiers H.A.L., Weighted least squares fitting using ordinary least squares algorithms, Psychometrika, 62, 2, pp. 251-266, (1997); 
+Li C.-Y., Waid-Ebbs J., Velozo C.A., Heaton S.C., Factor structure and item level psychometrics of the Social Problem Solving Inventory-Revised: Short Form in traumatic brain injury, Neuropsychological Rehabilitation, 26, 3, pp. 446-463, (2016); 
+Linacre J.M., Structure in Rasch residuals: Why principal components analysis (PCA)?, Rasch Measurement Transactions, 12, 2, (1998); 
+Linacre J.M., Data variance: Explained, modeled and empirical, Rasch Measurement Transactions, 17, 3, pp. 942-943, (2003); 
+Linacre J.M., Facets Rasch measurement, (2015); 
+Linacre J.M., (2016); 
+Maul A., Ask an expert: Rasch and dimensionality, Rasch Measurement Transactions, 33, 1, pp. 1753-1754, (2020); 
+Michell J., Measurement in psychology: A critical history of a methodological concept, (1999); 
+Montanelli R.G., Humphreys L.G., Latent roots of random data correlation matrices with squared multiple correlations on the diagonal: A Monte Carlo study, Psychometrika, 41, 3, pp. 341-348, (1976); 
+Nam S.K., Yang E., Lee S.M., Lee S.H., Seol H., A psychometric evaluation of the career decision self-efficacy scale with Korean students: A Rasch model approach, Journal of Career Development, 38, 2, pp. 147-166, (2011); 
+R: A language and environment for statistical computing, (2019); 
+Raiche G., Critical eigenvalue sizes in standardized residual principal components analysis, Rasch Measurement Transactions, 19, 1, (2005); 
+Rasch G., Probabilistic models for some intelligence and achievement tests, (1980); 
+Revelle W., psych: Procedures for Personality and Psychological Research, (2016); 
+Scherbaum C.A., Cohen-Charash Y., Kern M.J., Measuring general self-efficacy: A comparison of three measures using item response theory, Educational and Psychological Measurement, 66, 6, pp. 1047-1063, (2006); 
+Scholz M., Validation of nonlinear PCA, Neural Processing Letters, 36, 1, pp. 21-30, (2012); 
+Schumacker R.E., Many-facet Rasch Analysis with crossed, nested, and mixed designs, Journal of Outcome Measurement, 3, 4, pp. 323-338, (1999); 
+Severino L., DeCarlo M.J.T., Sondergeld T., Izzetoglu M., Ammar A., A validation study of a Middle Grades Reading Comprehension Assessment, RMLE Online, 41, 10, pp. 1-16, (2018); 
+Shi F., Zhang D., Chen J., Karimi H.R., Missing value estimation for microarray data by Bayesian principal component analysis and iterative local least squares, Mathematical Problems in Engineering, 2013, (2013); 
+Smith E.V., Detecting and evaluating the impact of multidimensionality using item fit statistics and principal component analysis of residuals, Journal of Applied Measurement, 3, 2, pp. 205-231, (2002); 
+Smith R.M., A comparison of methods for determining dimensionality in Rasch measurement, Structural Equation Modeling, 3, 1, pp. 25-40, (1996); 
+Steiger J.H., Testing pattern hypotheses on correlation matrices: Alternative statistics and some empirical results, Multivariate Behavioral Research, 15, 3, pp. 335-352, (1980); 
+Steiger J.H., Tests for comparing elements of a correlation matrix, Psychological Bulletin, 87, 2, pp. 245-251, (1980); 
+Tipping M.E., Bishop C.M., Probabilistic principal component analysis, Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61, 3, pp. 611-622, (1999); 
+Tomblin J.B., Zhang X., The dimensionality of language ability in school-age children, Journal of Speech, Language, and Hearing Research, 49, 6, pp. 1193-1208, (2006); 
+Van Ginkel J.R., Kroonenberg P.M., Kiers H.A.L., Missing data in principal component analysis of questionnaire data: A comparison of methods, Journal of Statistical Computation and Simulation, 84, 11, pp. 2298-2315, (2014); 
+Wang W.-T., Huang H.-C., Regularized principal component analysis for spatial data, Journal of Computational and Graphical Statistics, 26, 1, pp. 14-25, (2017)#FRF#

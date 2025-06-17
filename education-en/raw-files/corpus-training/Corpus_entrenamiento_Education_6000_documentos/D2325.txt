@@ -1,0 +1,51 @@
+#ITI#Semisupervised Learning Method to Adjust Biased Item Difficulty Estimates Caused by Nonignorable Missingness in a Virtual Learning Environment#FTI#
+#IRE# In data collected from virtual learning environments (VLEs), item response theory (IRT) models can be used to guide the ongoing measurement of student ability. However, such applications of IRT rely on unbiased item parameter estimates associated with test items in the VLE. Without formal piloting of the items, one can expect a large amount of nonignorable missing data in the VLE log file data, and this is expected to negatively affect IRT item parameter estimation accuracy, which then negatively affects any future ability estimates utilized in the VLE. In the psychometric literature, methods for handling missing data have been studied mostly around conditions in which the data and the amount of missing data are not as large as those that come from VLEs. In this article, we introduce a semisupervised learning method to deal with a large proportion of missingness contained in VLE data from which one needs to obtain unbiased item parameter estimates. First, we explored the factors relating to the missing data. Then we implemented a semisupervised learning method under the two-parameter logistic IRT model to estimate the latent abilities of students. Last, we applied two adjustment methods designed to reduce bias in item parameter estimates. The proposed framework showed its potential for obtaining unbiased item parameter estimates that can then be fixed in the VLE in order to obtain ongoing ability estimates for operational purposes.#FRE#
+#IPC# item response theory; missing data; semisupervised learning; virtual learning environment#FPC#
+#IRF# Abadi M., Barham P., Chen J., Chen Z., Davis A., Dean J., Devin M., Ghemawat S., Irving G., Isard M., Kudlur M., Levenberg J., Monga R., Moore S., Murray D.G., Steiner B., Tucker P., Vasudevan V., Warden P., ..Zheng X., Tensorﬂow: A system for large-scale machine learning, (2016); 
+Andrich D., Luo G., A hyperbolic cosine latent trait model for unfolding dichotomous single-stimulus responses, Applied Psychological Measurement, 17, 3, pp. 253-276, (1993); 
+Baker F.B., Ability metric transformations involved in vertical equating under item response theory, Applied Psychological Measurement, 8, 3, pp. 261-271, (1984); 
+Bernaards C.A., Sijtsma K., Inﬂuence of imputation and EM methods on factor analysis when item nonresponse in questionnaire data is nonignorable, Multivariate Behavioral Research, 35, 3, pp. 321-364, (2000); 
+Bishop C.M., Pattern recognition and machine learning, (2006); 
+Briggs D.C., Circi R., Challenges to the use of artiﬁcial neural networks for diagnostic classiﬁcations with student test data, International Journal of Testing, 17, 4, pp. 302-321, (2017); 
+Cattell R., The scree test for the number of factors, Multivariate Behavioral Research, 1, 2, pp. 629-637, (1966); 
+Chalmers R.P., mirt: A multidimensional item response theory package for the R environment, Journal of Statistical Software, 48, 6, pp. 1-29, (2012); 
+Csaji B.C., Approximation with artiﬁcial neural networks, (2001); 
+Cui Y., Gierl M., Guo Q., Statistical classiﬁcation for cognitive diagnostic assessment: An artiﬁcial neural network approach, Educational Psychology, 36, 6, pp. 1065-1082, (2016); 
+Cui Y., Guo Q., Cutumisu M., A neural network approach to estimate student skill mastery in cognitive diagnostic assessments, (2017); 
+Dhawan S., Online learning: A panacea in the time of covid-19 crisis, Journal of Educational Technology Systems, 49, 1, pp. 5-22, (2020); 
+Embretson S.E., Reise S.P., Item response theory, (2013); 
+Fazakis N., Kostopoulos G., Kotsiantis S., Mporas I., Iterative robust semi-supervised missing data imputation, IEEE Access, 8, pp. 90555-90569, (2020); 
+Finch H., Estimation of item response theory parameters in the presence of missing data, Journal of Educational Measurement, 45, 3, pp. 225-245, (2008); 
+Florida Standards Assessment, (2021); 
+Goodfellow I., Bengio Y., Courville A., Deep learning, (2016); 
+Holman R., Glas C.A., Modelling non-ignorable missing-data mechanisms with item response theory models, British Journal of Mathematical and Statistical Psychology, 58, 1, pp. 1-17, (2005); 
+Hornik K., Stinchcombe M., White H., Auer P., Degree of approximation results for feedforward networks approximating unknown mappings and their derivatives, Neural Computation, 6, 6, pp. 1262-1275, (1994); 
+Junker B.W., Sijtsma K., Cognitive assessment models with few assumptions, and connections with nonparametric item response theory, Applied Psychological Measurement, 25, 3, pp. 258-272, (2001); 
+King J., South J., Reimagining the role of technology in higher education: A supplement to the national education technology plan, (2017); 
+Math nation, (2020); 
+LeCun Y., Learning invariant feature hierarchies, Computer Vision: ECCV 2012. Workshops and demonstrations: ECCV 2012, 7583, (2012); 
+Leite W.L., Cetin-Berber D.D., Huggins-Manley A.C., Collier Z.K., Beal C.R., The relationship between algebra nation usage and high-stakes test performance for struggling students, Journal of Computer Assisted Learning, 35, 5, pp. 569-581, (2019); 
+Leite W.L., Jing X., Kuang H., Kim D., Huggins-Manley A.C., Multilevel mixture modeling with propensity score weights for quasi-experimental evaluation of virtual learning environments, Structural Equation Modeling, (2021); 
+Lord F., Novick M., Statistical theories of mental test scores, (1968); 
+Lu Z., Pu H., Wang F., Hu Z., Wang L., The expressive power of neural networks: A view from the width, Advances in neural information processing systems, pp. 6231-6239, (2017); 
+Manning C.D., Schutze H., Foundations of statistical natural language processing, (1999); 
+Means B., Anderson K., Expanding evidence approaches for learning in a digital world, (2013); 
+Mining T.E.D., Enhancing teaching and learning through educational data mining and learning analytics: An issue brief, (2012); 
+Pan S.J., Yang Q., A survey on transfer learning, IEEE Transactions on Knowledge and Data Engineering, 22, 10, pp. 1345-1359, (2009); 
+Park J.Y., Cornillie F., van der Maas H.L., Van Den Noortgate W., A multidimensional IRT approach for dynamically monitoring ability growth in computerized practice environments, 10, (2019); 
+Paulsen J., Examining cognitive diagnostic modeling in small sample contexts, (2019); 
+Pohl S., Grafe L., Rose N., Dealing with omitted and not-reached items in competence tests: Evaluating approaches accounting for missing responses in item response theory models, Educational and Psychological Measurement, 74, 3, pp. 423-452, (2014); 
+Prieto L.P., Holenko Dlab M., Gutierrez I., Abdulwahed M., Balid W., Orchestrating technology enhanced learning: A literature review and a conceptual framework, International Journal of Technology Enhanced Learning, 3, 6, pp. 583-598, (2011); 
+R: A language and environment for statistical computing, (2013); 
+Romero C., Romero J.R., Ventura S., A survey on pre-processing educational data, Educational data mining, pp. 29-64, (2014); 
+Rose N., Von Davier M., Xu X., Modeling nonignorable missing data with item response theory (IRT), ETS Research Report Series, 2010, 1, (2010); 
+Rubin D.B., Inference and missing data, Biometrika, 63, 3, pp. 581-592, (1976); 
+Rubin D.B., The calculation of posterior distributions by data augmentation: Comment: A noniterative sampling/importance resampling alternative to the data augmentation algorithm for creating a few imputations when fractions of missing information are modest: The SIR algorithm, Journal of the American Statistical Association, 82, 398, pp. 543-546, (1987); 
+Sheard J., Basics of statistical analysis of interactions data from web-based learning environments, Handbook of educational data mining, pp. 27-40, (2011); 
+Sijtsma K., Van der Ark L.A., Investigation and treatment of missing item scores in test and questionnaire data, Multivariate Behavioral Research, 38, 4, pp. 505-528, (2003); 
+Thorndike R.L., Who belongs in the family, Psychometrika, 18, pp. 267-276, (1953); 
+Van Rossum G., Drake F.L., Python documentation manual Part 2), (2009); 
+Weller M., Virtual learning environments: Using, choosing and developing your VLE, (2007); 
+Xue K., Computational diagnostic classiﬁcation model using deep feedforward network based semi-supervised learning, (2019); 
+Xue K., Bradshaw L.P., A semi-supervised learning-based diagnostic classiﬁcation method using artiﬁcial neural networks, Frontiers in Psychology, 11, (2021); 
+Zhu X., Goldberg A.B., Introduction to semi-supervised learning, (2009)#FRF#

@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">719</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="es">MedUNAB</journal-title>
+<abbrev-journal-title abbrev-type="publisher" xml:lang="es">MedUNAB</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">0123-7047</issn>
+<issn pub-type="epub">2382-4603</issn>
+<publisher>
+<publisher-name>Universidad Autónoma de Bucaramanga</publisher-name>
+<publisher-loc>
+<country>Colombia</country>
+<email>medunab@unab.edu.co</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">71964816007</article-id>
+<article-id pub-id-type="doi">https://doi.org/1029375/01237047.2746</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículo Original</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Modelo de vigilancia tecnológica para la gestión de un grupo de investigación en salud</article-title>
+<trans-title-group>
+<trans-title xml:lang="en">Technological surveillance model applied to the management of a health-related research group</trans-title>
+</trans-title-group>
+<trans-title-group>
+<trans-title xml:lang="pt">Modelo tecnológico  de vigilancia para a gestão de um grupo de pesquisa em saúde</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name name-style="western">
+<surname>Carrillo-Zambrano</surname>
+<given-names>Eduardo</given-names>
+<suffix>Ing., MSc., PhD., Post. PhD</suffix>
+</name>
+<xref ref-type="corresp" rid="corresp1"/>
+<xref ref-type="aff" rid="aff1"/>
+<xref ref-type="fn" rid="fn3">*</xref>
+<email>ecarrill@unab.edu.co</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Páez-Leal</surname>
+<given-names>María Carolina</given-names>
+<suffix>MD., MSc., PhD.</suffix>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<xref ref-type="fn" rid="fn4">**</xref>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Suárez</surname>
+<given-names>Jina Mayerly</given-names>
+<suffix>Ing</suffix>
+</name>
+<xref ref-type="aff" rid="aff3"/>
+<xref ref-type="fn" rid="fn5">***</xref>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Luna-González</surname>
+<given-names>María Lucrecia</given-names>
+<suffix>Ing</suffix>
+</name>
+<xref ref-type="aff" rid="aff4"/>
+<xref ref-type="fn" rid="fn6">****</xref>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Ingeniero de Petróleos, magíster en Informática, doctor en Tecnología de Información, Computación y Comunicaciones, posdoctorado en Informática, investigador del Grupo Estratégico en Investigación Organizacional, docente Titular del Programa de Administración de Empresas, Universidad Autónoma de Bucaramanga</institution>
+<institution content-type="orgname">Universidad Autónoma de Bucaramanga</institution>
+<country country="CO">Colombia</country>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Médica, magíster en Biología Inmunogenética, doctorado en Salud pública, directora del Grupo Estudio Genético de Enfermedades Complejas, Universidad Autónoma de Bucaramanga</institution>
+<institution content-type="orgname">Universidad Autónoma de Bucaramanga</institution>
+<country country="CO">Colombia</country>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Ingeniera de Sistemas, estudiante de Magíster en Telemática, asistente del Centro de Investigación en Ciencias Económicas, Administrativas y Contables, Universidad Autónoma de Bucaramanga</institution>
+<institution content-type="orgname">Universidad Autónoma de Bucaramanga</institution>
+<country country="CO">Colombia</country>
+</aff>
+<aff id="aff4">
+<institution content-type="original">Ingeniera de Sistemas, investigador Grupo Estudio Genético de Enfermedades Complejas, Universidad Autónoma de Bucaramanga</institution>
+<institution content-type="orgname">Universidad Autónoma de Bucaramanga</institution>
+<country country="CO">Colombia</country>
+</aff>
+<author-notes>
+<fn id="fn3" fn-type="current-aff">
+<label>*</label>
+<p>* Ingeniero de Petróleos, magíster en Informática, doctor en Tecnología de Información, Computación y Comunicaciones, posdoctorado en Informática, investigador del Grupo Estratégico en Investigación Organizacional, docente Titular del Programa de Administración de Empresas, Universidad Autónoma de Bucaramanga, Bucaramanga, Santander, Colombia.</p>
+</fn>
+<fn id="fn4" fn-type="current-aff">
+<label>**</label>
+<p>** Médica, magíster en Biología Inmunogenética, doctorado en Salud pública, directora del Grupo Estudio Genético de Enfermedades Complejas, Universidad Autónoma de Bucaramanga, Bucaramanga, Santander, Colombia.</p>
+</fn>
+<fn id="fn5" fn-type="current-aff">
+<label>***</label>
+<p>*** Ingeniera de Sistemas, estudiante de Magíster en Telemática, asistente del Centro de Investigación en Ciencias Económicas, Administrativas y Contables, Universidad Autónoma de Bucaramanga, Bucaramanga, Santander, Colombia.</p>
+</fn>
+<fn id="fn6" fn-type="current-aff">
+<label>****</label>
+<p>**** Ingeniera de Sistemas, investigador Grupo Estudio Genético de Enfermedades Complejas, Universidad Autónoma de Bucaramanga, Bucaramanga, Santander, Colombia.</p>
+</fn>
+<corresp id="corresp1">
+<email>Eduardo Carrillo-Zambrano. Universidad Autónoma de Bucaramanga, Avenida 42 No. 48-11, Barrio El Jardín, Campus Central, Bucaramanga, Santander, Colombia. Teléfono: (57-7) 6436111, ext. 325. <bold>E-mail:</bold> ecarrill@unab.edu.co.</email>
+</corresp>
+</author-notes>
+<pub-date pub-type="epub-ppub">
+<season>Abril-Julio</season>
+<year>2018</year>
+</pub-date>
+<volume>21</volume>
+<issue>1</issue>
+<fpage>84</fpage>
+<lpage>99</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>10</day>
+<month>08</month>
+<year>2017</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>15</day>
+<month>02</month>
+<year>2018</year>
+</date>
+</history>
+<permissions>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="https://revistas.unab.edu.co/index.php/medunab/article/view/2746/2884">https://revistas.unab.edu.co/index.php/medunab/article/view/2746/2884</self-uri>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>
+<bold>Introducción. </bold>La dinámica constante de la ciencia, la tecnología y la innovación, con el volumen de información disponible, constituyen un reto para el quehacer de los grupos de investigación en su compromiso como unidades generadoras de resultados de conocimiento y de aportes relevantes a su entorno. Una alternativa a la planeación que dé soporte a la toma de decisiones con mayor conocimiento, menor riesgo y oportuna anticipación a los cambios debería estar soportada en un proceso organizado, selectivo y sistemático como lo es la vigilancia tecnológica.</p>
+<p>
+<bold> Objetivo.</bold> Revisión de literatura de tipo descriptivo sobre la vigilancia tecnológica y generación de una propuesta de un modelo de vigilancia tecnológica para la gestión de la actividad científica del grupo de investigación Estudio Genético de Enfermedades Complejas (EGEC). <bold>Metodología</bold>. Revisión de la literatura de tipo descriptivo. Se consultaron las bases de datos de Medline, SciELO, Ebsco e IEEE y el buscador Google Scholar, mediante la combinación de las palabras clave “vigilancia tecnológica/technological surveillance”, “salud/health”, “enfermedad/disease”, “ejemplos en salud”, “universidad” e “investigación”. Se incluyeron artículos científicos de los últimos cinco años y se excluyeron artículos que solo consideraran la difusión de resultados de ejercicios de vigilancia tecnológica. Con base en el análisis de los resultados, se propone un modelo de vigilancia tecnológica para la gestión de la actividad científica del grupo de investigación EGEC, para lo que se estructuró el diagrama de las etapas, insumos y recursos que integran el modelo propuesto, incluyendo como estrategia de validación el desarrollo de una prueba piloto sobre cáncer, a partir de la cual se hicieron ajustes adicionales al mismo. <bold>Resultados</bold>. Como referente internacional se encuentra la Norma UNE 166006:2011 de la Asociación Española de Normalización y Certificación (AENOR) y, como referente nacional, España y sus Regiones Intercambian Conocimiento con Antioquia (ERICA) e Innovaciones a partir de la Vigilancia Tecnológica (InnoViTech). Se establecen las etapas conceptuales, buenas prácticas para el ejercicio y recursos para el desarrollo de la vigilancia tecnológica. Los principales componentes del modelo propuesto incluyen la identificación de necesidades, planeación, recolección, auditoría, análisis, documentación y comunicación de información. <bold>Conclusiones</bold>. El modelo planteado es una base para el desarrollo de una estrategia de gestión del conocimiento de un grupo de investigación y plantea la importancia de escalar hacia el uso de la inteligencia competitiva al interior del mismo. [Carrillo- Zambrano E, Páez-Leal MC, Suárez JM, Luna-González ML. Modelo de vigilancia tecnológica para la gestión de un grupo de investigación en salud. MedUNAB. 2018;21(1): 84-99. doi: 10.29375/01237047.2746].</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>
+<bold>Introduction</bold>. The steady dynamics of science, technology and innovation plus the volume of information that these subjects have, represent a challenge to the research groups endeavor and to the commitment of the later ones to be knowledge developing units that give significant outputs to its social and academic settings. Therefore, there must be a planning alternative that supports the decision- making processes in order to give it a better knowledge founding, to reduce the possible risks and to think ahead the possible changes. This alternative must be supported by an organized, selective and systematic procedure, such as the technological surveillance. <bold>Objective</bold>. To create a descriptive literature review regarding technological surveillance and a proposal for the technological surveillance method applied to the management of scientific activity of the Estudio Genetico de Enfermedades Complejas (EGEC – Genetic Study for Complex Diseases) research group. <bold>Methodology.</bold> Descriptive literature review. The following academic databases were consulted: Medline, SciELO, Ebsco e IEEE and Google Scholar search engine. The combination of keywords used when consulting the academic databases, was “vigilancia tecnológica/technological surveillance”, “salud/health”, “enfermedad/disease”, “ejemplos en salud”, “universidad” and “investigación”. Articles of the last five years are included, while articles that only had to deal with the results dissemination of technological surveillance exercises, were excluded. Based on the literature review analysis of results, a technological surveillance model is proposed which its objective is to manage the EGEC research group’s scientific activities. In order to do so, a stages, inputs and funds diagrams that integrated the surveillance model, were created. Thus, the already mentioned diagrams included a cancer pilot test as a validation strategy, and with the test results, the model was subjected to additional adjustments. <bold>Results</bold>. The Spanish standard UNE 166006:2011 created by the Spanish Association for Standarization and Certification (AENOR), was taken as an international reference whilst the program España y sus Regiones Intercambian Conocimiento con Antioquia (ERICA) and the methodology for technological surveillance Innovaciones a partir de la Vigilancia Tecnológica (InnoViTech), were taken as national referents. Additionally, conceptual stages, good practices for processes execution and defined budget for the development of technological surveillance, are established. The main components for the proposed model include needs identification, plus the planning, collection, auditing, analysis, documentation, and information spreading processes. <bold>Conclusions</bold>. The proposed model works as a foundation for developing a knowledge management strategy of a research group. Also, the model highlights the importance of climbing towards the usage of competitive intelligence systems within itself. [Carrillo- Zambrano E, Páez-Leal MC, Suárez JM, Luna-González ML. Technological surveillance model applied to the management of a health-related research group. MedUNAB. 2018;21(1):84-99. doi: 10.29375/01237047.2746].</p>
+</trans-abstract>
+<trans-abstract xml:lang="pt">
+<title>Resumo</title>
+<p>
+<bold>Introdução.</bold> A constante dinâmica da ciência, tecnologia e inovação junto com o volume de informação disponível, representam um desafio para o trabal dos grupos de pesquisa como unidades geradoras de resultados de conhecimento e de contribuições relevantes ao seu ambiente. Uma alternativa ao planejamento que apoia a tomada de decisões com maior conhecimento, menor risco e antecipação oportuna das mudanças deve estar sustentada em um processo organizado, seletivo e sistemático, como a vigilância tecnológica. <bold>Objetivo</bold>: Revisão de literatura de caráter descritivo sobre a vigilância tecnológica e elaboração de uma proposta de modelo tecnológico de vigilância para a gestão da actividade científica do grupo de pesquisa de estudo genético de doenças complexas (EGEC). <bold>Métodos</bold>. Revisão de literatura de caráter descritivo. Foram consultadas as bases de dados Medline, SciELO, Ebsco, IEEE e o Google Académico, combinando as seguintes palavras-chave em espanhol e inglês: “vigilancia tecnológica/technological surveillance”, “salud/health”, “enfermedad/disease”, “ejemplos en salud”, “universidad” e “investigación”. Foram incluídos artigos científicos dos últimos cinco anos excluindo os artigos que consideraram apenas a divulgação de resultados de exercícios de vigilância tecnológica. Com base na análise dos resultados, propõe-se um modelo tecnológico de vigilância para a gestão da atividade científica do grupo de pesquisa EGEC, para o qual foi estruturado o diagrama das etapas, insumos e recursos que compõem o modelo proposto, incluindo como estratégia de validação, o desenvolvimento de um teste piloto sobre o câncer e os ajustes adicionais necessários para o teste. <bold>Resultados</bold>. Temos como referência internacional a Norma UNE 166006:2011 da Associação Espanhola de Normalização e Certificação (AENOR) e, como referência local, Espanha e suas regiões trocam conhecimento com Antioquia (ERICA) e Inovações da Vigilância Tecnológica (InnoViTech). São estabelecidos os estágios conceituais, as boas práticas para o exercício e os recursos para o desenvolvimento da vigilância tecnológica. Os principais componentes do modelo proposto incluem a identificação das necessidades, planejamento, coleta, auditoria, análise, documentação e comunicação de informações. <bold>Conclusões</bold>. O modelo proposto é uma base para o desenvolvimento de uma estratégia de gestão de conhecimento de um grupo de pesquisa que destaca a importância do uso da inteligência competitiva dentro dele. [Carrillo-Zambrano E, Páez-Leal MC, Suárez JM, Luna-González ML. Modelo tecnológico de vigilância para a gestão de um grupo de pesquisa em saúde. MedUNAB. 2018;21(1):84-99. doi: 10.29375/01237047.2746].</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>Gestión del Conocimiento para la Investigación en Salud</kwd>
+<kwd>Instrumentos para la Gestión de la Actividad Científica</kwd>
+<kwd>Toma de Decisiones</kwd>
+<kwd>Salud</kwd>
+<kwd>Colombia</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>Knowledge Management for Health Research</kwd>
+<kwd>Instruments for Management of Scientific Activity</kwd>
+<kwd>Decision Making</kwd>
+<kwd>Health</kwd>
+<kwd>Colombia</kwd>
+</kwd-group>
+<kwd-group xml:lang="pt">
+<title>Palavras-chave</title>
+<kwd>Gestão do Conhecimento para a Pesquisa em Saúde</kwd>
+<kwd>Instrumentos para a Gestão da Atividade Científica</kwd>
+<kwd>Tomada de Decisões</kwd>
+<kwd>Saúde</kwd>
+<kwd>Colômbia</kwd>
+</kwd-group>
+<counts>
+<fig-count count="1"/>
+<table-count count="3"/>
+<equation-count count="0"/>
+<ref-count count="39"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>El ejercicio de las actividades de investigación requiere una adecuada planeación y un soporte de toma de decisiones que enfoque esfuerzos y genere eficiencia en la gestión <xref ref-type="bibr" rid="redalyc_71964816007_ref1">(1</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref2">-</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref3">3)</xref>. En Colombia, los grupos de investigación precisan una organización que permita identificar nuevas oportunidades de investigación y desarrollo tecnológico, de manera tal que las tareas de recolección de información, realizadas de forma aleatoria y parcial, se estructuren para la evaluación, el planteamiento y el desarrollo de las líneas de investigación de manera anticipada, así como el aumento de su nivel mediante la transferencia de conocimiento <xref ref-type="bibr" rid="redalyc_71964816007_ref4">(4</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref5">-</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref6">6)</xref>.</p>
+<p>Para el periodo 2000-2016, un análisis del Grupo de Investigación Estudio Genético de Enfermedades Complejas de la Universidad Autónoma de Bucaramanga (EGEC-UNAB) realizó un diagnóstico de la gestión del conocimiento del grupo, hallando que en 2014, alcanzó el máximo reconocimiento de Colciencias, categoría A1; posteriormente, categorías B y A en 2015-2016. La mayor producción se presentó entre los años 2010-2012 (crecimiento del 23% respecto a la década del 2000), con 123 productos de generación de nuevo conocimiento, actividades de investigación, desarrollo e innovación (I+D+i), apropiación social del conocimiento y formación de recurso humano. Sin embargo, en el siguiente trienio (2013-2016), mostró una disminución del 40% en sus productos<xref ref-type="bibr" rid="redalyc_71964816007_ref7"> (7).</xref>
+</p>
+<p>Este descenso en la producción y evaluación alerta sobre la necesidad de implementar un plan estratégico a mediano plazo que soporte un posicionamiento permanente. Este debe estar basado en prácticas de gestión innovadoras, que permitan evaluar el entorno y captar información de forma continua, selectiva y útil para responder anticipadamente a los cambios en las áreas de actuación <xref ref-type="bibr" rid="redalyc_71964816007_ref8">(</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref9">8</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref10">-</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref11">11)</xref>.</p>
+<p>Los sistemas de vigilancia tecnológica (VT) cumplen las funciones de potenciar la capacidad de innovación, fomentar su cultura en la sociedad y favorecer la transferencia de conocimiento <xref ref-type="bibr" rid="redalyc_71964816007_ref4">(4)</xref>. Asimismo, el aprovechamiento de las tecnologías de la información y comunicaciones (TIC) permite explorar los avances en las áreas de interés de las líneas de investigación de un grupo, para dinamizar el trabajo colaborativo, interdisciplinario e interinstitucional y brindar mayor direccionalidad y oportunidad en la toma de decisiones<xref ref-type="bibr" rid="redalyc_71964816007_ref12"> (12)</xref>.</p>
+<p>En este contexto, este artículo tiene como objeto realizar una revisión de literatura de tipo descriptivo sobre VT, como base de análisis para la generación de una propuesta de un modelo de VT para la gestión de la actividad científica del grupo de investigación EGEC-UNAB.</p>
+</sec>
+<sec>
+<title>
+<bold>Metodología</bold>
+</title>
+<p>La metodología se desarrolló en dos fases:</p>
+<p>
+<bold>Fase 1. </bold>Revisión de la literatura de VT.</p>
+<p>La revisión bibliográfica fue de tipo descriptivo para tres aspectos:</p>
+<p>• <bold>Identificación de conceptos: </bold>profundización conceptual y metodológica de definiciones que derivan en el desarrollo de la VT.</p>
+<p>• <bold>Revisión de modelos: </bold>escuelas alrededor de la VT y modelos a nivel internacional y nacional.</p>
+<p>• <bold>Recopilación de estudios: </bold>literatura científica producto de aplicación de la VT en salud y en la academia.</p>
+<p>
+<bold>Fase 2. </bold>Construcción del modelo de VT.</p>
+<p>Se compararon procesos y metodologías planteadas para la VT y se estructuró el diagrama de las etapas, insumos y recursos que integraron el modelo propuesto <xref ref-type="bibr" rid="redalyc_71964816007_ref13">(13)</xref>.</p>
+<p>Para el desarrollo de la revisión de literatura se inició con la identificación de conceptos, para lo cual se tomaron como punto de partida la consulta a expertos y una investigación realizada previamente sobre VT (en la que participó uno de los investigadores del proyecto sobre el que se basa este artículo). En la búsqueda realizada se consideraron tanto las escuelas de pensamiento relacionadas con VT, como la búsqueda de modelos y normas a nivel internacional y nacional. Esta dio como resultado una recopilación de estudios y literatura científica relacionada con la aplicación de la VT en salud y publicaciones en revistas y libros.</p>
+<p>Las fuentes bibliográficas consultadas fueron las bases de datos de Medline, SciELO, Ebsco (portal de búsqueda de la Biblioteca Virtual de Salud), la librería digital de la IEEE explore y el buscador Google Académico. En la estrategia de búsqueda se incluyeron las palabras clave “vigilancia tecnológica/<italic>technologicalsurveillance</italic>”, “salud/<italic>health</italic>”, “enfermedad/<italic>disease</italic>” en áreas de salud, academia e investigación. De este modo, se tomaron como criterio de inclusión artículos y publicaciones de los cinco años anteriores a la realización de la búsqueda y se excluyó la literatura que solo considerara difusión de resultados de ejercicios de VT.</p>
+<p>El resultado de la búsqueda en las fuentes detalladas arrojó un total de 166 documentos, en los que las palabras clave se encontraron en el título o abstract. Se depuraron por título y resultaron 26 artículos duplicados. Posteriormente, fueron excluidas 48 publicaciones que solo contenían informes de ejercicios de VT, 16 artículos con énfasis en tema de inteligencia competitiva, 30 de uso de software y 18 por la relevancia de las publicaciones. Finalmente, fueron leídas en total 28 publicaciones científicas como referentes del presente artículo.</p>
+<p>Posteriormente, se realizó la segunda fase del proyecto, en la que se construyó el modelo de VT. Para esto, se compararon los procesos y metodologías planteados y se estructuró el diagrama de las etapas, insumos y recursos que integran el modelo propuesto. El proceso de construcción se afinó en la medida en que se avanzó en la comprensión y el estudio de las normas y resultados existentes. Como estrategia de validación del modelo, se realizó una prueba piloto sobre cáncer, en la que participó una de las investigadoras del grupo. A partir de esta, se hicieron ajustes adicionales al modelo.</p>
+</sec>
+<sec>
+<title>
+<bold>Resultados Conceptos de VT</bold>
+</title>
+<p>La investigación y el desarrollo de la VT han tomado gran fortaleza en los últimos años. La complejidad del proceso de convergencia de varias tecnologías ha generado múltiples definiciones derivadas de las implementaciones y utilidades descritas por diferentes autores.</p>
+<p>Inicialmente, Escorsa Castells y de la Puerta describieron los elementos que conforman la misión de la VT en las organizaciones <xref ref-type="bibr" rid="redalyc_71964816007_ref14">(14)</xref>. A continuación, encontramos la definición explícita de Jakobiak: “la vigilancia tecnológica consiste en la observación y el análisis del entorno científico, tecnológico y de los impactos económicos presentes y futuros, para identificar las amenazas y las oportunidades de desarrollo” <xref ref-type="bibr" rid="redalyc_71964816007_ref15">(15)</xref>.</p>
+<p>Por otra parte, Palop y Vicente, pioneros de la VT en España, la consideran como una rama de un concepto más amplio, que incluye otros tipos de vigilancia como la económica, científica, etc. Así, proponen la siguiente definición: “es el esfuerzo sistemático y organizado por la empresa de observación, captación, análisis, difusión precisa y recuperación de información sobre los hechos del entorno económico, tecnológico, social o comercial, relevantes para la misma por poder implicar una oportunidad o una amenaza para ésta. La vigilancia filtra, interpreta y valoriza la información para permitir a sus usuarios decidir y actuar más eficazmente” <xref ref-type="bibr" rid="redalyc_71964816007_ref16">(16)</xref>.</p>
+<p>Escorsa Castells y Maspons proponen que la VT es uno de los ejes para organizar la vigilancia de   una empresa, considerando, además, como tipos de vigilancia la competitiva, la comercial y la del entorno <xref ref-type="bibr" rid="redalyc_71964816007_ref17">(17)</xref>.  Finalmente, la Norma UNE 166006:2006 de la Asociación Española de Normalización y Certificación (AENOR) señala que la VT es “un proceso organizado, selectivo y permanente, de captar información del exterior y de la propia organización sobre ciencia y tecnología; seleccionarla, analizarla, difundirla y comunicarla, para convertirla en conocimiento para tomar decisiones con menor riesgo y poder anticiparse a los cambios”<xref ref-type="bibr" rid="redalyc_71964816007_ref8"> (8).</xref>
+</p>
+<p>Se han formado escuelas alrededor de la VT; entre ellas, la escuela francesa (allí denominada <italic>veille téchnologique</italic>), que considera que esta hace parte de la vigilancia estratégica y que ambas, a su vez, pertenecen a la inteligencia económica. Posiblemente, el aporte más significativo de la escuela francesa es el énfasis que hace con respecto al objetivo de la VT:  la búsqueda de una mayor generación de valor, ya sea por posibles bajas de los costos de producción, aumento de ventas o mejora de la calidad.</p>
+<p>En contraste, la escuela norteamericana ha hecho mayor énfasis en el concepto de <italic>forecasting </italic>(predicción) que en el de vigilancia y, de este modo, la llamada <italic>technological forecasting </italic>(predicción tecnológica) es más utilizada que la VT. Dicha técnica busca predecir las características futuras de la tecnología y de los procedimientos técnicos y analizar sus impactos técnicos, sociales, medioambientales, legales y políticos. Así, la VT propiamente dicha (conocida como <italic>technological surveillance</italic>) se considera una rama de la <italic>technological forecasting</italic>. Otras ramas son la predicción normativa, la predicción proyectiva y la integrativa o basada en escenarios.</p>
+<p>Los conceptos revisados mostraron diferentes desarrollos de la VT, que han orientadoel planteamiento de los autores sobre la forma de desarrollar, de manera ordenada y sistemática, el proceso de captación, análisis y difusión de la información. Durante los últimos años, esta herramienta ha presentado mayor aplicación en la toma de decisiones. En el área de la salud, principalmente en la evaluación de tecnologías <xref ref-type="bibr" rid="redalyc_71964816007_ref10">(10</xref>, <xref ref-type="bibr" rid="redalyc_71964816007_ref18">18)</xref> y en la planificación y fortalecimiento de las capacidades en el sector académico <xref ref-type="bibr" rid="redalyc_71964816007_ref9">(9,</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref19">19</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref20">-</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref21">21)</xref>.</p>
+<p>En general, se considera que la VT se ha desarrollado más en Europa que en Estados Unidos. Las definiciones europeas han sido integradas por la AENOR con una definición altamente aceptada por la comunidad de VT <xref ref-type="bibr" rid="redalyc_71964816007_ref22">(22)</xref>. La definición de AENOR se toma como base para la realización del proyecto sobre el cual se basa este artículo.</p>
+<p>
+<bold>Revisión de modelos de VT</bold>
+</p>
+<p>En esta sección se describe la revisión que se hizo de modelos existentes de VT, tanto en el ámbito internacional como en Colombia. Distintos autores han concebido modelos genéricos para implementar un sistema de VT; a nivel internacional, se destaca la escuela francesa y española. Esta última, con influencia en Colombia, expone dos modelos aplicados principalmente a la gestión de la innovación: InnoViTech del Servicio Nacional de Aprendizaje (SENA) y la Guía Metodológica de Práctica de la VT, producto del Proyecto Piloto de Transferencia y Desarrollo de Capacidades Regionales en VT e Inteligencia Competitiva, financiado por el Programa <xref ref-type="bibr" rid="redalyc_71964816007_ref23">(23</xref>, <xref ref-type="bibr" rid="redalyc_71964816007_ref24">24)</xref>.</p>
+<p>El primer modelo encontrado fue el de Jakobiak, con énfasis en tres roles diferentes para desarrollar el proceso de VT: observadores, expertos y tomadores de decisión. Igualmente, propone unidades de vigilancia descentralizadas, autónomas, ágiles y cercanas a los observadores, que realizan una primera integración de la información recibida <xref ref-type="bibr" rid="redalyc_71964816007_ref15">(15)</xref>. Posteriormente, apareció el modelo de Martinet y Marti, quienes contribuyeron a la implementación de muchos sistemas de VT en Francia. Este modelo enfatizó una visión amplia de la VT cercana a la inteligencia de negocios y propuso las siguientes fases: metas del sistema de VT, proceso de búsqueda y adquisición de la información y síntesis <xref ref-type="bibr" rid="redalyc_71964816007_ref25">(25</xref>). En este mismo periodo, el modelo de Asthon y Stacey hizo énfasis en la elaboración y ejecución de un plan centralizado de VT que establezca las necesidades de información a recolectar. Debe ser centralizado, por cuanto todas las actividades son coordinadas y controladas por una unidad adscrita a la alta dirección de la empresa, mediante un sistema de información central <xref ref-type="bibr" rid="redalyc_71964816007_ref26">(26)</xref>.</p>
+<p>La evolución y aplicación de la VT  hicieron  que la Agencia Francesa de Normalización (AFNOR) presentara la Norma XP X50-053, que propuso la creación de un sistema de vigilancia en un conjunto de procesos, en los que se utilizaron las herramientas, fuentes y peritaje propuestos por un suministrador interno o externo del servicio de implementación de estos sistemas. Según esta normativa, la secuencia de procesos para el diseño de un sistema de vigilancia científico-tecnológica radica en una metodología de diez etapas fundamentales <xref ref-type="bibr" rid="redalyc_71964816007_ref27">(27).</xref>
+</p>
+<p>A continuación, en España, Palop Marro y Vicente plantearon un modelo basado en redes y propusieron diseñar e implementar, de ellas, tres principales: red de observación, red de análisis y red de utilización <xref ref-type="bibr" rid="redalyc_71964816007_ref16">(16)</xref>. Este modelo ha sido el más influyente en Colombia. Así, Palop Marro y Martínez Cadavid, en el marco del Programa ERICA junto con sus instituciones aliadas, desarrollaron la metodología para la implementación de un proceso de vigilancia e inteligencia competitiva (VT/IC) en una organización, compuesta por dos etapas de nivel macro: demostrativa (prueba, valoración y convencimiento) y aplicativa (incorporar la práctica a la rutina de la organización) <xref ref-type="bibr" rid="redalyc_71964816007_ref24">(24)</xref>.</p>
+<p>Ospina Montes y Gómez Meza, en la Universidad Autónoma de Manizales, Colombia, desarrollaron su tesis de maestría con el propósito de determinar la aplicabilidad de los modelos de VT/IC para grupos de investigación de Manizales. Este modelo esbozó las diferentes etapas para la adaptación de la VT en las prácticas, actividades y procesos de grupos   de investigación en sus necesidades concretas de información y conocimiento<xref ref-type="bibr" rid="redalyc_71964816007_ref28"> (28).</xref>
+</p>
+<p>Finalmente, el SENA presentó la metodología InnoViTech, que consiste en el diseño y la coejecución de VT con el personal de las empresas y/o con el emprendedor y/o usuarios, acompañados del talento humano del TecnoParque-SENA, Nodo Rionegro. Su proceso se desarrolla en función de la toma de decisiones, previo al desarrollo de las fases cíclicas: identificación de necesidades, diagnóstico, definición de los factores críticos de vigilancia (FCV), búsqueda y recolección de información, análisis, elaboración de informes, difusión o modelo. En cualquier momento puede haber retroalimentación, de acuerdo con los resultados obtenidos en cada fase <xref ref-type="bibr" rid="redalyc_71964816007_ref23">(23)</xref>.</p>
+<p>
+<bold>Aporte de la literatura al modelo propuesto</bold>
+</p>
+<p>A partir de la revisión de literatura realizada, se destaca que, durante los últimos años, se han adoptado modelos genéricos de VT en el sector académico y de salud, como proceso importante para establecer  el desarrollo, crecimiento y transformación de estos sectores <xref ref-type="bibr" rid="redalyc_71964816007_ref2">(2</xref>, <xref ref-type="bibr" rid="redalyc_71964816007_ref13">13</xref>, <xref ref-type="bibr" rid="redalyc_71964816007_ref29">29)</xref>. Las investigaciones incluidas, que se muestran en la <bold>
+<xref ref-type="table" rid="gt1">Tabla 1</xref>
+</bold>, sirvieron de guía  para la elaboración de la propuesta del modelo de VT,  en tanto identifican los recursos, la necesidad  de un equipo interdisciplinar, la importancia de la implementación de la VT con buenas prácticas y el cumplimiento de la legislación regente en el país.</p>
+<p>
+<bold>Modelo propuesto</bold>
+</p>
+<p>Crecientemente se genera información de interés para el grupo de investigación, proveniente de diferentes fuentes: artículos científicos, congresos, patentes, redes de conocimiento, redes sociales, entre otros <xref ref-type="bibr" rid="redalyc_71964816007_ref30">(30)</xref>. El efectivo tratamiento y análisis de esta información constituyen un reto para una toma de decisiones objetiva al interior del grupo en el quehacer de la investigación. El monitoreo constante y eficiente del conocimiento que se genera permite a los investigadores enfrentar con propiedad retos que los conduzcan a innovar y generar un mayor impacto en la sociedad <xref ref-type="bibr" rid="redalyc_71964816007_ref5">(</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref6">5</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref7">-</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref8">1</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref9">3</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref10">,</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref11">3</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref12">1</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref13">)</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref31">.</xref>
+</p>
+<p>El modelo propuesto incluye diversos insumos y recursos necesarios para el desarrollo de la VT, así como productos para la divulgación de los resultados y la toma de decisiones basados en ellos. A continuación, se detalla cada uno de estos y, al finalizar, el modelo propuesto.</p>
+<p>
+<bold>1. Factores Críticos de Vigilancia (FCV)</bold>
+</p>
+<p>Los FCV identifican las necesidades de información de la organización que afectan directamente los intereses y resultados del grupo de investigación y, por tanto, su competitividad. A partir de los FCV, se derivan las prioridades, los descriptores y palabras clave que serán utilizadas en la búsqueda de información del ejercicio de VT. En la <bold>
+<xref ref-type="table" rid="gt2">Tabla 2</xref>
+</bold>se enlistan los FCV identificados para las necesidades generales de los grupos de investigación en salud, que contribuyen a la generación de valor de los mismos <xref ref-type="bibr" rid="redalyc_71964816007_ref31">(31)</xref>.</p>
+<p>
+<bold>
+<xref ref-type="table" rid="gt1">Tabla 1</xref>. </bold>Revisión de literatura con procesos de VT y contribución al modelo planteado.</p>
+<p>
+<table-wrap id="gt1">
+<label>Tabla 1</label>
+<caption>
+<title>Revisión de literatura con procesos de VT y contribución al modelo planteado</title>
+</caption>
+<alt-text>Tabla 1 Revisión de literatura con procesos de VT y contribución al modelo planteado</alt-text>
+<alternatives>
+<graphic xlink:href="71964816007_gt2.png" position="anchor" orientation="portrait"/>
+<table style="margin-left:  14.4pt;border-collapse:collapse;" id="gt2-526564616c7963">
+<tbody>
+<tr style="height:33.8pt;">
+<td style="width:92.0pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Autores y año</bold>
+<bold/>
+</td>
+<td style="width:98.9pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Institución</bold>
+<bold/>
+</td>
+<td style="width:125.0pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Tema específico</bold>
+</td>
+<td style="width:151.55pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Aporte al planteamiento del mo- </bold>
+<bold>delo</bold>
+<bold/>
+</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:68.8pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">López A, Méndez D, Paz A., Arboleda H (36).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">Universidad ICESI y Université du Québec</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">Proceso de VT que realiza revi- siones sistemáticas de literatura, para estudiar los avances en un campo particular del conoci- miento.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">Buenas prácticas para realizar VT y revisiones sistemáticas, utilizando una herramienta de soporte para la ejecución del proceso.</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:80.8pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Moyares Y, Infante MB (29).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Universidad Abierta para Adultos (República Dominicana) y el Instituto Superior Politécnico José Antonio Echeverría (La Habana, Cuba).</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Revisión de sistemas de VT a nivel latinoamericano.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Definición de las etapas para el de- sarrollo del modelo y las fuentes de información.</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:86.5pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Paz FA, Del Valle E, Salomón RH (37).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Universidad Tecnológica Nacional San Miguel de Tucumán (Argentina).</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Revisión de aspectos éticos y legales a tener en cuenta en los sistemas de VT.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Implementar buenas prácticas en un sistema de VT. Importancia de considerar las leyes nacio- nales e internacionales de derechos de autor, propiedad intelectual y gestión de datos.</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:56.8pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:56.8pt" colspan="2">Barreneche JG, García JH, Serrano J, Brand J y Hernández AM (18).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:56.8pt" colspan="2">Universidad de Antioquia, Instituto Tecnológico Metropolitano.</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:56.8pt" colspan="2">Mejoramiento de los servicios de urgencias hospitalarias.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:56.8pt" colspan="2">Necesidad de una etapa de sensibiliza- ción y diagnóstico para el desarrollo del proceso de VT.</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:68.8pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">García M, Gómez M (3).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">Universitat Oberta de Catalunya, Universidad Pontificia Bolivariana.</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">Prácticas de gestión del conoci- miento dentro de los grupos de investigación de una universi- dad colombiana.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:68.8pt" colspan="2">Asesoría a los investigadores en la pla- nificación de acciones de investigación y fortalecimiento de capacidades de generación y transferencia de conoci- miento.</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:86.5pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Abreu Y, Infante MB, Delgado T, Delgado M (38).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Instituto Superior Politécnico José Antonio Echeverría (Cujae, Cuba). Escuela Superior de Cuadros del Estado y el Gobierno (Cuba).</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Aumentar la eficiencia de VT en la comunidad académica y científica.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:86.5pt" colspan="2">Importancia de una plataforma colabo- rativa de intercambio de información con alertas automáticas personalizadas que permita potenciar la inteligencia colectiva y aumentar la eficiencia del proceso de VT.</td>
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+</tr>
+<tr style="height:80.8pt;">
+<td style="width:92.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Carrillo E, Flórez YA, Jolonch FJ (22).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Universidad Autónoma de Bucaramanga.</td>
+<td style="width:125.0pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Propuesta de un sistema de VT en un centro de investigación, aplicado a la caracterización de las tendencias en publicaciones de emprendimiento, gestión de innovación y gestión de la calidad.</td>
+<td style="width:151.55pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:80.8pt" colspan="2">Etapas conceptuales para el desarrollo de la VT.</td>
+<td style="border:none;border-bottom:solid #7E7E7E 1.0pt"/>
+</tr>
+<tr style="height:33.8pt;">
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+<td style="width:90.95pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Autores y año</bold>
+<bold/>
+</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Institución</bold>
+<bold/>
+</td>
+<td style="width:125.05pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Tema específico</bold>
+</td>
+<td style="width:152.65pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:33.8pt" colspan="2">
+<bold>Aporte al planteamiento del mo- </bold>
+<bold>delo</bold>
+<bold/>
+</td>
+</tr>
+<tr style="height:110.5pt;">
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+<td style="width:90.95pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:110.5pt" colspan="2">Pineda L (4).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:110.5pt" colspan="2">Universidad del Rosario.</td>
+<td style="width:125.05pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:110.5pt" colspan="2">Artículo de reflexión acerca de la importancia de la prospectiva para la transferencia del cono- cimiento que debe tomar como punto de base para la previsión la VT.</td>
+<td style="width:152.65pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:110.5pt" colspan="2">Identificación de la demanda del entor- no (amenazas y oportunidades), líneas de investigación y desarrollo para mejo- rar capacidad del grupo. Potenciar, fomentar la cultura de la inno- vación, favorecer la transferencia de cono- cimiento, informar sobre los mecanismos de ayuda institucional al entorno.</td>
+</tr>
+<tr style="height:44.8pt;">
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+<td style="width:90.95pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:44.8pt" colspan="2">Observatorio Virtual de Transferencia de Tecnología - OVTT (39).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:44.8pt" colspan="2">Universidad de Alicante.</td>
+<td style="width:125.05pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:44.8pt" colspan="2">Transferencia de conocimiento y tecnología, innovación y em- prendimiento en Iberoamérica.</td>
+<td style="width:152.65pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:44.8pt" colspan="2">Implementar prácticas de VT y el uso avanzado de internet en proyectos de I+D+i.</td>
+</tr>
+<tr style="height:104.8pt;">
+<td style="border:none;padding:0cm 0cm 0cm 0cm"/>
+<td style="width:90.95pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:104.8pt" colspan="2">Gómez AF (12).</td>
+<td style="width:98.9pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:104.8pt" colspan="2">Universidad Carlos III de Madrid.</td>
+<td style="width:125.05pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:104.8pt" colspan="2">Propuesta metodológica de sis- tematización de vigilancia cien- tífico-tecnológica en el ámbito de la biomedicina. Aplicación y estudio de casos prácticos en la Fundación Centro Nacional de Investigaicones Cardiovasulares –CNIC.</td>
+<td style="width:152.65pt;border:none;   border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:104.8pt" colspan="2">Fases y recursos del modelo. Impor- tancia del equipo multidisciplinar que incluya profesional de ciencias de la información (bibliotecólogo) y trabajo colaborativo con la OTRI.</td>
+</tr>
+<tr>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+<td style="border:none"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</p>
+<p>
+<bold>2. Recurso humano</bold>
+</p>
+<p>El recurso humano mínimo que se requiere para realizar un ejercicio de VT está compuesto por <xref ref-type="bibr" rid="redalyc_71964816007_ref13">(13</xref>, <xref ref-type="bibr" rid="redalyc_71964816007_ref32">32</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref33">-33)</xref>:</p>
+<p>• <bold>Vigías</bold>: personal encargado de implementar la estrategia de búsqueda de información. A nivel de investigación, estudiantes de semilleros (pregrado y maestría), con habilidades en manejo y uso óptimo de bases de datos especializadas y recursos web, pueden ser quienes desarrollen la búsqueda y recolección de la información.</p>
+<p>• <bold>Asesor/experto</bold>: profesional especialista en el tema fundamento de la VT, para la evaluación, validación y análisis de la información recolectada por el vigía.</p>
+<p>• <bold>Director de la unidad de VT</bold>: persona con competencias en VT y/o actividades de I+D+i, encargado de la gestión del proyecto.</p>
+<p>• <bold>Investigadores/tomador de decisiones</bold>: investigador o director del grupo que solicita la VT, acompañará la mayor parte del proceso.</p>
+<p>• <bold>Comunicador</bold>: persona que establece la estrategia de comunicación de resultados del ejercicio de VT. Aunque no es un rol fundamental, es importante para difundir los resultados del estudio y elevarlos a nuevo conocimiento, útil para otros.</p>
+<p>Una persona con formación a nivel de pregrado en Bibliotecología o en Ciencias de la Información se constituye en un recurso con habilidades para la administración, organización, análisis y diseño de la información y competencias en manejo de recursos electrónicos. Por ello, este perfil puede ser considerado para cubrir buena parte de las necesidades de un ejercicio de VT <xref ref-type="bibr" rid="redalyc_71964816007_ref34">(34)</xref>.</p>
+<p>Se deberán realizar reuniones periódicas de los actores en las diferentes etapas que componen el modelo, con el fin de mostrar los resultados de las actividades realizadas por cada uno y retroalimentar los procesos.</p>
+<p>
+<bold>3. Componentes principales del modelo</bold>
+</p>
+<p>A partir de los retos para el grupo de investigación, descritos al inicio de esta sección, se definen las fases propuestas para el modelo de VT <xref ref-type="bibr" rid="redalyc_71964816007_ref13">(13</xref>,<xref ref-type="bibr" rid="redalyc_71964816007_ref31"> 31</xref>, <xref ref-type="bibr" rid="redalyc_71964816007_ref35">35)</xref>:</p>
+<p>• Identificación de necesidades.</p>
+<p>• Planeación.</p>
+<p>• Recolección de información.</p>
+<p>• Auditoría de la información.</p>
+<p>• Análisis de la información.</p>
+<p>• Documentación.</p>
+<p>• Difusión.</p>
+<p>La <bold>
+<xref ref-type="fig" rid="gf1">Figura 1</xref>
+</bold>muestra el detalle de cada uno de los componentes, el flujo de información de entrada y salida en cada fase y los perfiles del recurso humano mínimo requerido para el desarrollo de la VT. La secuencia que se sigue para la realización de la VT toma como base la norma UNE 166006:2011 de la AENOR, que para su cumplimiento propone como requisito general establecer, documentar, implantar y mantener el sistema de VT y la mejora continua de su eficacia<xref ref-type="bibr" rid="redalyc_71964816007_ref35"> (35)</xref>.</p>
+<p>Este modelo tiene como punto de partida la solicitud del proceso de VT, que tiene como objetivo la definición de los requerimientos de VT. Así, el desarrollo del estudio inicia con la fase de identificación de necesidades, en la que se efectúa el diagnóstico de necesidades, a través de entrevistas a los investigadores, concluyendo con el objeto específico que se busca con la VT. Se identifican como participantes de esta etapa los investigadores y/o tomador de decisiones que solicitan la VT y el director de la unidad de VT, encargado de la gestión del proyecto.</p>
+<p>
+<bold>
+<xref ref-type="table" rid="gt2">Tabla 2</xref>. </bold>Factores críticos de vigilancia para un grupo de investigación en salud.</p>
+<p>
+<table-wrap id="gt2">
+<label>Tabla 2</label>
+<caption>
+<title>Factores críticos de vigilancia para un grupo de investigación en salud</title>
+</caption>
+<alt-text>Tabla 2 Factores críticos de vigilancia para un grupo de investigación en salud</alt-text>
+<alternatives>
+<graphic xlink:href="71964816007_gt3.png" position="anchor" orientation="portrait"/>
+<table style="margin-left:  36.15pt;border-collapse:collapse;" id="gt3-526564616c7963">
+<tbody>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Factor Crítico</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Temas críticos a vigilar</bold>
+<bold/>
+</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Tecnología</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Avances en biotecnología</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Aplicaciones de software</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Alianzas</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Perfiles de investigadores externos</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Demanda de alianzas</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Entidades públicas y privadas usuarias de los productos</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Recursos</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Fondos de financiación</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Convocatorias nacionales e internacionales</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Perfil investigadores vinculados</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Entorno</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Normas aplicables investigación</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Entidades reguladoras de investigación en seres humanos</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Políticas públicas regionales y nacionales</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Normas técnicas de biotecnología</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Modelo de medición grupos</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Producción</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Publicaciones</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Congresos nacionales e internacionales en el área</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Ecosistema</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Grupos de investigación</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Instituciones de educación superior con programas en área de la salud</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Posibles alianzas</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt">
+<bold>Posicionamiento</bold>
+<bold/>
+</td>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Categorización nacional</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Evolución de los productos</td>
+</tr>
+<tr style="height:19.3pt">
+<td style="width:92.65pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:19.3pt"/>
+<td style="width:329.95pt;border:none;border-bottom:   solid #7E7E7E 1.0pt;padding:0cm 0cm 0cm 0cm;   height:19.3pt">Revistas científicas del área</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</p>
+<p>La segunda fase, planeación, consiste en definir los FCV que identifican las necesidades de información a cubrir con el ejercicio de VT. A partir de estos, se derivan las prioridades y palabras clave para establecer la estrategia de búsqueda y las fuentes de información que se van a emplear. Dentro de las principales fuentes de consulta para las necesidades de un grupo de investigación, se encuentran: la literatura científica, a través de buscadores y bases de datos especializadas; organizaciones de registro de patentes, para evaluación de nuevas tecnologías; páginas de asociaciones científicas; normatividad a nivel nacional; sistema de información de Colciencias; y páginas de entidades financiadoras de investigación, entre otras. El alcance de las anteriores revisiones incide directamente en la calidad de los resultados esperados. Como producto de esta fase, el vigía genera la planilla de búsqueda, que contiene los elementos anteriormente descritos.</p>
+<p>Posteriormente, en la fase de recolección de información, se aplican los protocolos de búsqueda en las fuentes de información seleccionadas y se genera el documento de ecuaciones y bitácora de búsqueda, con las ecuaciones ejecutadas durante la búsqueda y las notas del proceso que se consideren útiles para auditoría y validación de la información. Los datos recolectados se registran, seleccionan y clasifican en un archivo electrónico con la recopilación de información.</p>
+<p>Una vez recolectada la información, se desarrolla la fase de auditoría de información, en la cual el vigía, junto al investigador, realiza la depuración de la información, identificando la pertinencia y calidad de la misma. Posteriormente, el experto o quien este designe, complementa esta etapa con una nueva revisión para validar y valorar la información depurada; así, queda aprobada la inclusión de la información. Finalmente, el vigía genera un archivo electrónico con la información auditada, fuente de la etapa posterior.</p>
+<p>La siguiente fase consiste en el análisis de información,donde el vigía, con el acompañamiento de los investigadores y el experto, procesa los resultados de las búsquedas mediante el uso de herramientas de software especializadas para VT, referencias bibliográficas, estadísticas para análisis cualitativo y cuantitativo y de minería de datos, entre otros.  Muchos de estos se encuentran disponibles en el entorno académico; además, existe un software libre especializado para VT. La información generada recibe una evaluación del experto en el tema y, de ser necesario, se efectúan los ajustes correspondientes. Esta etapa concluye con la generación del documento de resultados.</p>
+<p>En la fase de documentación el vigía toma la síntesis y construye el informe de VT para socializarlo al interior del grupo de investigación. Asimismo, de acuerdo con el análisis realizado, se puede incorporar un asesor que establezca otros productos que se adecuen con los resultados generados de la VT. Con base en los productos originados, el comunicador genera la estrategia para la divulgación a través de videos, correos, boletines, entre otros.</p>
+<p>Finalmente, en fase de difusión, se ejecuta la estrategia definida en el ítem anterior. Así, se hace posible que los potenciales beneficiarios tengan acceso a los productos y se adapte la información generada a los diferentes medios que hayan sido seleccionados como medios de interés.</p>
+<p>El modelo contempla la posibilidad de generar ciclos dentro de las etapas de planeación, recolección, auditoría y análisis de información, cuya existencia depende de la dinámica misma del desarrollo del ejercicio. Estos se realizan con el fin de alcanzar resultados que se ajusten al objeto planteado para la VT. Además, la realización del proyecto de VT bajo este modelo recomienda contar, por lo menos, con un coordinador o gerente de proyecto y con un vigía encargado del desarrollo de las diferentes actividades de búsqueda, análisis y documentación de la información.</p>
+<p>
+<bold>4. Productos</bold>
+</p>
+<p>De acuerdo con las necesidades de información establecidas y con los requerimientos de divulgación y difusión de resultados, se proponen los siguientes productos <xref ref-type="bibr" rid="redalyc_71964816007_ref9">(9,</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref32"> 32):</xref>
+</p>
+<p>• Alertas de nuevas publicaciones.</p>
+<p>• Contenidos compartidos periódicamente de páginas de interés.</p>
+<p>• Estados del arte para nuevos productos (proyectos y divulgación de nuevo conocimiento).</p>
+<p>• Informes del ejercicio de VT.</p>
+<p>
+<bold>
+<xref ref-type="fig" rid="gf1">Figura 1</xref>.</bold> Principales componentes del modelo de vigilancia propuesto</p>
+<p>
+<fig id="gf1">
+<label>
+<bold>Figura 1.</bold>
+</label>
+<caption>
+<title>Principales componentes del modelo de vigilancia propuesto</title>
+</caption>
+<alt-text>Figura 1. Principales componentes del modelo de vigilancia propuesto</alt-text>
+<graphic xlink:href="71964816007_gf2.png" position="anchor" orientation="portrait"/>
+<attrib>
+<bold>Fuente</bold>: Elaboración propia de los autores</attrib>
+</fig>
+</p>
+<p>
+<bold>Aplicabilidad del modelo</bold>
+</p>
+<p>El modelo de VT planteado constituye una base para que el grupo de investigación cuente con una guía de referencia sobre el método para ejecutar actividades sistemáticas de reconocimiento de tendencias en publicaciones, posibles aliados (personas e instituciones) y avances en áreas específicas que aportan a la gestión del grupo. Dentro de las labores específicas de la investigación en salud, al interior del grupo de investigación, contribuye en la consolidación de procesos sistémicos para el uso de la VT como recurso en la toma de decisiones y generación de conocimiento. La implementación del modelo de VT propuesto busca realizar un constante monitoreo de información para analizar y apoyar a los investigadores en la producción de un mayor impacto en la sociedad.</p>
+<p>El modelo descrito se fundamenta en los pilares principales de los diferentes autores consultados: selección, análisis y difusión de la información. Además, incluye procesos respaldados por los conceptos de la Norma UNE 166006:2011, como la documentación y la definición de la estrategia de comunicaciones <xref ref-type="bibr" rid="redalyc_71964816007_ref35">(35).</xref> Se resalta que la estandarización del proceso de VT a través de la norma permite plantear mecanismos de medición de resultados e indicadores, que influyen en los procesos de calidad de las organizaciones.</p>
+<p>Entre las dificultades que pueden presentarse al aplicar la VT, se encuentra, principalmente, la carencia de herramientas de software para integración, análisis y monitoreo automático de fuentes de información. Esta falta se podría mitigar con la exploración de herramientas tecnológicas de libre acceso o el desarrollo de aplicaciones especializadas. El desconocimiento de herramientas de búsqueda es otra de las dificultades que se pueden presentar, solucionable a través de cursos de corta duración desarrollados con anterioridad al inicio de los ejercicios de VT. De igual modo, dificulta no contar con recurso humano con las competencias suficientes para la gestión de las actividades de vigilancia, lo que se puede contrarrestar con la formación del personal y la práctica continua para adquirir las habilidades y experiencia adecuadas <xref ref-type="bibr" rid="redalyc_71964816007_ref13">(13,</xref>
+<xref ref-type="bibr" rid="redalyc_71964816007_ref19">19)</xref>.</p>
+<p>Se espera que con los resultados de la VT se deriven acciones para anticiparse, aprovechar oportunidades y reducir riesgos del quehacer de la investigación, de modo que la totalidad de las iniciativas del grupo estén sustentadas en un ejercicio de VT <xref ref-type="bibr" rid="redalyc_71964816007_ref4">(4). </xref>Finalmente, aunque es ideal establecer una unidad de VT, se requiere el reconocimiento de una estructura organizacional multidisciplinar que comprometa la mayor cantidad de actores posibles, la identificación de indicadores para el seguimiento a la gestión y la realización de pruebas de concepto, tomando como base diferentes escenarios. Esto hace necesario desarrollar un proyecto a nivel institucional que cuente con el apoyo de directivas <xref ref-type="bibr" rid="redalyc_71964816007_ref21">(21).</xref>
+</p>
+<p>
+<bold>Piloto de prueba</bold>
+</p>
+<p>Con el fin de evaluar el modo de implementar el modelo de VT dentro del grupo, se realizó una prueba piloto mediante un ejercicio para las líneas de investigación en cáncer, genética y biología molecular de las enfermedades complejas. Se desarrollaron las fases para un tema específico, por confidencialidad del EGEC y de los investigadores principales (IP), se tomó un tipo de cáncer y una prueba diagnóstica para la detección del mismo.</p>
+<p>
+<bold>Identificación de necesidades</bold>
+</p>
+<p>Para realizar el diagnóstico de las necesidades, dos IP enunciaron la descripción e importancia del tema propuesto a vigilar como primer paso para solicitar el servicio de VT dentro del grupo. Los resultados de la VT concluirán en el planteamiento de una propuesta que pretende generar impacto en programas de detección precoz del factor de riesgo más importante para el desarrollo de dicho cáncer. Además de los investigadores, se identificaron los vigías (semillero de investigación) y el líder del proyecto de VT (investigador del grupo).</p>
+<p>
+<bold>Planeación</bold>
+</p>
+<p>Con el fin de explorar los recursos digitales, humanos y de tiempo que se requieren para proyectar una VT, en este ejercicio piloto fueron seleccionadas los FCV: tecnología, alianzas, recursos, producción y ecosistema. De manera individual, se solicitó a los IP completar una tabla con los conceptos y términos para búsqueda. Posteriormente, el líder de VT acopló y retroalimentó a los investigadores, quienes determinaron mejorar la estructura de la misma, derivándose una tabla que incluyó la unidad temática, su descripción, los términos específicos para la búsqueda y los términos MeSH (Medical Subject Headings), por ser el vocabulario estandarizado de descriptores médicos. Los términos seleccionados fueron utilizados en la búsqueda de literatura científica (BVS), la base de patentes (OMPI), y los fondos de financiación (ISI Web of Science, Red Clara – Fondos y Google), entre otras</p>
+<p>
+<bold>Recolección de información</bold>
+</p>
+<p>Estudiantes de Medicina pertenecientes al semillero, junto a un estudiante en año de Internado en rotación especial por investigación, ejercieron el rol de vigía y realizaron la búsqueda en las fuentes descritas, el registro en bases de datos en Excel y, según la estrategia planteada, la información fue seleccionada y clasificada para cada FCV. Todo el proceso fue registrado en un documento bitácora en Excel.</p>
+<p>
+<bold>Auditoría de la información</bold>
+</p>
+<p>La intervención de los IP condujo a que los resultados registrados para los temas vigilados fuesen depurados respecto a la estrategia de búsqueda utilizada y a la validación de la información registrada, mediante auditoría de algunas de las búsquedas planteadas. Posteriormente, se tomaron las diferentes bases de datos con los resultados y fueron seleccionados los más relevantes de acuerdo con el criterio y experticia de los IP en el tema. Finalmente, la información fue organizada en bases de datos de Excel, fuente de los análisis pertinentes para los IP.</p>
+<p>
+<bold>Análisis de la información</bold>
+</p>
+<p>Esta fase produjo una serie de tablas resumen de los diversos resultados para patentes, investigadores externos, fondos de financiación, publicaciones y eventos clasificados según ubicación (nacional o internacional), estimada por los IP, con profundización y ajuste de los datos más relevantes para los resultados más importantes para los IP (<bold>
+<xref ref-type="table" rid="gt3">Tabla 3</xref>
+</bold>).</p>
+<p>
+<bold>Documentación</bold>
+</p>
+<p>Una vez sintetizada la información de mayor relevancia para los IP, se generaron gráficos para visualización de resultados finales mediante análisis cualitativos y cuantitativos con programas estadísticos como Stata 14® y NVivo 11®. Hay que mencionar que los pasos subsiguientes de esta etapa y de la etapa de difusión de la información se encontraban en desarrollo al finalizar este artículo.</p>
+<p>El tiempo de ejecución del piloto de VT fue de cuatro meses, con mayor cantidad de tiempo demandado en las etapas de recolección, auditoría y análisis de información. El tiempo de dedicación de los IP fue difícil en su momento inicial, pero paulatinamente, al entregar avances de cada etapa, se fue consolidando la importancia de la VT para la planificación de los trabajos del grupo. De tal modo, se permitió el logro del objetivo del ejercicio.</p>
+<p>Una conclusión preliminar de este piloto lo representó el impulso en la factibilidad del levantamiento de la propuesta de investigación de detección para ese tipo cáncer mediante la prueba diagnóstica. Esta basará su marco teórico, estado del arte y compromiso cronológico de productos de I+D+i de acuerdo con los resultados de la producción en el tema, al igual que en las alianzas con los grupos de investigación e investigadores en el área.</p>
+<p>
+<bold>Conclusiones</bold>
+</p>
+<p>A partir de la revisión de literatura realizada, se pudo evidenciar que existe documentación significativa sobre resultados de estudios de VT. Sin embargo, hasta donde se pudo llegar con la búsqueda, no se encontraron trabajos que describieran en detalle el proceso a seguir para la integración de la VT en grupos de investigación. Por ello, este trabajo se constituye en un aporte en esta dirección</p>
+<p>Por otra parte, en este trabajo se propuso un modelo para guiar la realización de estudios de VT y se pudo notar cómo, al establecer procesos sistemáticos a través de la VT, se aporta al quehacer de la investigación, al facilitar la dinámica de actualización de información, mediante la inclusión de elementos de monitoreo basados en herramientas tecnológicas, que benefician la automatización de procesos previos a la investigación y que pueden derivar en la conformación de unidades de consultoría en el área de la investigación en salud. Asimismo, la prueba de concepto realizada al modelo propuesto, en la que se hizo un piloto de un ejercicio de VT y que contó con la participación de uno de los investigadores del grupo, permitió identificar beneficios como la disponibilidad de información en diferentes etapas del proceso de construcción de propuestas de proyectos.</p>
+<p>
+<bold/>
+<xref ref-type="table" rid="gt3">
+<bold>Tabla 3</bold>.</xref> Descripción de los resultados para los factores críticos de vigilancia del ejercicio piloto en la línea de cáncer y genética y biología molecular de las enfermedades complejas.</p>
+<p>
+<table-wrap id="gt3">
+<label>Tabla 3</label>
+<caption>
+<title>Descripción de los resultados para los factores críticos de vigilancia del ejercicio piloto en la línea de cáncer y genética y biología molecular de las enfermedades complejas</title>
+</caption>
+<alt-text>Tabla 3 Descripción de los resultados para los factores críticos de vigilancia del ejercicio piloto en la línea de cáncer y genética y biología molecular de las enfermedades complejas</alt-text>
+<alternatives>
+<graphic xlink:href="71964816007_gt4.png" position="anchor" orientation="portrait"/>
+<table style="margin-left:  14.7pt;border-collapse:collapse;" id="gt4-526564616c7963">
+<tbody>
+<tr style="height:33.5pt">
+<td style="width:73.35pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.5pt">
+<bold>Factor crítico</bold>
+<bold/>
+</td>
+<td style="width:167.6pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.5pt">
+<bold>Temas críticos a vigilar</bold>
+<bold/>
+</td>
+<td style="width:69.4pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.5pt">
+<bold>Recolección información</bold>
+<bold/>
+</td>
+<td style="width:74.95pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.5pt">
+<bold>Auditoría información</bold>
+<bold/>
+</td>
+<td style="width:81.85pt;border-top:solid #7E7E7E 1.0pt;   border-left:none;border-bottom:solid #7E7E7E 1.0pt;border-right:none;      padding:0cm 0cm 0cm 0cm;height:33.5pt">
+<bold>Análisis información</bold>
+<bold/>
+</td>
+</tr>
+<tr style="height:22.15pt">
+<td style="width:73.35pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">
+<bold>Tecnología</bold>
+<bold/>
+</td>
+<td style="width:167.6pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">Avances en biotecnología</td>
+<td style="width:69.4pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">37</td>
+<td style="width:74.95pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">20</td>
+<td style="width:81.85pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">5</td>
+</tr>
+<tr style="height:22.15pt">
+<td style="width:73.35pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt"/>
+<td style="width:167.6pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">Aplicaciones de software</td>
+<td style="width:69.4pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">0</td>
+<td style="width:74.95pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">0</td>
+<td style="width:81.85pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">0</td>
+</tr>
+<tr style="height:22.15pt">
+<td style="width:73.35pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">
+<bold>Alianzas</bold>
+<bold/>
+</td>
+<td style="width:167.6pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">Perfiles de investigadores externos</td>
+<td style="width:69.4pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">63</td>
+<td style="width:74.95pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">42</td>
+<td style="width:81.85pt;border:none;border-bottom:solid #7E7E7E 1.0pt;      padding:0cm 0cm 0cm 0cm;height:22.15pt">10</td>
+</tr>
+<tr style="height:27.0pt">
+<td style="width:73.35pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt"/>
+<td style="width:167.6pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">Entidades públicas y privadas usuarias de los productos</td>
+<td style="width:69.4pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">15</td>
+<td style="width:74.95pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">6</td>
+<td style="width:81.85pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">6</td>
+</tr>
+<tr style="height:17.8pt">
+<td style="width:73.35pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">
+<bold>Recursos</bold>
+<bold/>
+</td>
+<td style="width:167.6pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">Fondos de financiación</td>
+<td style="width:69.4pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">12</td>
+<td style="width:74.95pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">12</td>
+<td style="width:81.85pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">12</td>
+</tr>
+<tr style="height:27.0pt">
+<td style="width:73.35pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt"/>
+<td style="width:167.6pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">Convocatorias nacionales e internacio- nales</td>
+<td style="width:69.4pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">14</td>
+<td style="width:74.95pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">14</td>
+<td style="width:81.85pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">10</td>
+</tr>
+<tr style="height:17.8pt">
+<td style="width:73.35pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">
+<bold>Producción</bold>
+<bold/>
+</td>
+<td style="width:167.6pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">Publicaciones</td>
+<td style="width:69.4pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">3802</td>
+<td style="width:74.95pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">2216</td>
+<td style="width:81.85pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">208</td>
+</tr>
+<tr style="height:27.0pt">
+<td style="width:73.35pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt"/>
+<td style="width:167.6pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">Congresos nacionales e internacionales en el área</td>
+<td style="width:69.4pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">20</td>
+<td style="width:74.95pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">15</td>
+<td style="width:81.85pt;border:none;padding:0cm 0cm 0cm 0cm;height:27.0pt">10</td>
+</tr>
+<tr style="height:17.8pt">
+<td style="width:73.35pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">
+<bold>Ecosistema</bold>
+<bold/>
+</td>
+<td style="width:167.6pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">Grupos de investigación</td>
+<td style="width:69.4pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">52</td>
+<td style="width:74.95pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">51</td>
+<td style="width:81.85pt;border:none;border-bottom:solid #7E7E7E 1.0pt;   padding:0cm 0cm 0cm 0cm;height:17.8pt">22</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</p>
+<p>Con ello, surgen diversas posibilidades para trabajo futuro, dentro de las que se destacan la inclusión de elementos de proceso que permitan facilitar la dinámica de presentación de los estudios que se realicen, la validación y prueba del modelo en otros grupos de investigación de diferentes áreas del conocimiento y el desarrollo de una herramienta tecnológica que soporte el modelo que se ha generado.</p>
+<p>
+<bold>Conflicto de intereses</bold>
+</p>
+<p>El autor declara no tener conflicto de interés.</p>
+</sec>
+</body>
+<back>
+<ack>
+<title>Agradecimientos</title>
+<p>Los autores agradecen a la Universidad Autónoma de Bucaramanga por la financiación del proyecto I-56064.</p>
+</ack>
+<ref-list>
+<title>
+<bold>Referencias</bold>
+</title>
+<ref id="redalyc_71964816007_ref1">
+<label>1.</label>
+<mixed-citation>1. Ramírez MI, Escobar D, Arango B. Vigilancia Tecnológica e Inteligencia Competitiva. Revista GPT [Internet]. 2012 [Citado 20 de enero de 2018]; 13:238-49. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf">http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ramírez</surname>
+<given-names>MI</given-names>
+</name>
+<name>
+<surname>Escobar</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Arango</surname>
+<given-names>B</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia Tecnológica e Inteligencia Competitiva</article-title>
+<source>Revista GPT</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf">http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref2">
+<label>2.</label>
+<mixed-citation>2. Marulanda CE, Hernández A, López M. Vigilancia tecnológica para estudiantes universitarios. El caso de la Universidad Nacional de Colombia, sede Manizales. Rev Form Univ. 2016;9(2):17-28. doi: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.4067/S0718-50062016000200003">http://doi.org/10.4067/S0718-50062016000200003</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Marulanda</surname>
+<given-names>CE</given-names>
+</name>
+<name>
+<surname>Hernández</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>López</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia tecnológica para estudiantes universitarios. El caso de la Universidad Nacional de Colombia, sede Manizales</article-title>
+<source>Rev Form Univ</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.4067/S0718-50062016000200003">http://doi.org/10.4067/S0718-50062016000200003</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref3">
+<label>3.</label>
+<mixed-citation>3. García M, Gómez M. Prácticas de gestión del conocimiento en los grupos de investigación: estudio de un caso. Rev Interam Bibliot Medellín. Colombia [Internet]. 2015 [Citado 20 de enero de 2018]; 38(1):13-25. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/html/1790/179033011003">http://www.redalyc.org/html/1790/179033011003</ext-link>/</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>García</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Gómez</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>Prácticas de gestión del conocimiento en los grupos de investigación: estudio de un caso.</article-title>
+<source>Rev Interam Bibliot Medellín</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/html/1790/179033011003">http://www.redalyc.org/html/1790/179033011003</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref4">
+<label>4.</label>
+<mixed-citation>4. Pineda L. Prospectiva estratégica en la gestión del conocimiento: Una propuesta para los grupos de investigación colombianos. Revista Investigación &amp; Desarrollo [Internet]. 2013 [Citado 20 de enero de 2018];21(1):289-311. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?pid=S0121-32612013000100010&amp;script=sci_arttext&amp;tlng=pt">http://www.scielo.org.co/scielo.php?pid=S0121-32612013000100010&amp;script=sci_arttext&amp;tlng=pt</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pineda</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<article-title>Prospectiva estratégica en la gestión del conocimiento: Una propuesta para los grupos de investigación colombianos.</article-title>
+<source>Revista Investigación &amp; Desarrollo</source>
+<year>2013</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?pid=S0121-32612013000100010&amp;script=sci_arttext&amp;tlng=pt">http://www.scielo.org.co/scielo.php?pid=S0121-32612013000100010&amp;script=sci_arttext&amp;tlng=pt</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref5">
+<label>5.</label>
+<mixed-citation>5. Arango B, Tamayo L, Fadul A. Vigilancia Tecnológica: metodología y aplicaciones. Revista GPT [Internet]. 2012 [Citado 20 de enero de 2018]; 13:250-61. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf">http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Arango</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Tamayo</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Fadul</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia Tecnológica: metodología y aplicaciones.</article-title>
+<source>Revista GPT</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf">http://www.revistagpt.usach.cl/sites/revistagpt.usach.cl/files/paginas/gpt13.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref6">
+<label>6.</label>
+<mixed-citation>6. Back L, Kovaleski JL, Andrade PP. Technological Surveillance As A Tool For Information Management: A Literature Review. IEEE Latin America Transactions. 2015;13(10):3505-10. doi. <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1109/TLA.2015.7387261">http://doi.org/10.1109/TLA.2015.7387261</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Back</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Kovaleski</surname>
+<given-names>JL</given-names>
+</name>
+<name>
+<surname>Andrade</surname>
+<given-names>PP</given-names>
+</name>
+</person-group>
+<article-title>Technological Surveillance As A Tool For Information Management: A Literature Review</article-title>
+<source>IEEE Latin America Transactions</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1109/TLA.2015.7387261">http://doi.org/10.1109/TLA.2015.7387261</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref7">
+<label>7.</label>
+<mixed-citation>7. GrupLAC. EGEC-UNAB. (COL0004513) Estudio Genético de Enfermedades Complejas [Internet] Colombia: Colciencias; 2015 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://colciencias.pure.elsevier.com/es/organisations/col0004513-estudio-gen%C3%A9tico-de-enfermedades-complejas">https://colciencias.pure.elsevier.com/es/organisations/col0004513-estudio-gen%C3%A9tico-de-enfermedades-complejas</ext-link>
+</mixed-citation>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<collab>GrupLAC.</collab>
+</person-group>
+<article-title>GrupLAC. EGEC-UNAB. (COL0004513) Estudio Genético de Enfermedades Complejas</article-title>
+<source>Colciencias</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://colciencias.pure.elsevier.com/es/organisations/col0004513-estudio-gen%C3%A9tico-de-enfermedades-complejas">https://colciencias.pure.elsevier.com/es/organisations/col0004513-estudio-gen%C3%A9tico-de-enfermedades-complejas</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref8">
+<label>8.</label>
+<mixed-citation>8. Asociación Española de Normalización y Certificación AENOR [Internet]. Gestión de la I+D+i: Sistema de vigilancia tecnológica, Norma UNE 166006:2006 EX. Madrid [Internet]. 2006 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://www.aenor.com/certificacion/idi">https://www.aenor.com/certificacion/idi</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Asociación Española de Normalización y Certificación</surname>
+<given-names>AENOR</given-names>
+</name>
+</person-group>
+<article-title>Gestión de la I+D+i: Sistema de vigilancia tecnológica, Norma UNE 166006:2006 EX.</article-title>
+<source>Norma UNE 166006:2006 EX</source>
+<year>2006</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.aenor.com/certificacion/idi">https://www.aenor.com/certificacion/idi</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref9">
+<label>9.</label>
+<mixed-citation>9. Delgado M, Infante M, Abreu Y, Infante O, Díaz JA, Martínez J. Vigilancia tecnológica en una universidad de ciencias técnicas. Rev Ing Indust CUJAE [Internet]. 2011 [Citado 20 de enero de 2018];32(1):69-75. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=3629780">https://dialnet.unirioja.es/servlet/articulo?codigo=3629780</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Delgado</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Infante</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Abreu</surname>
+<given-names>Y</given-names>
+</name>
+<name>
+<surname>Infante</surname>
+<given-names>O</given-names>
+</name>
+<name>
+<surname>Díaz</surname>
+<given-names>JA</given-names>
+</name>
+<name>
+<surname>Martínez</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia tecnológica en una universidad de ciencias técnicas</article-title>
+<source>Rev Ing Indust CUJAE</source>
+<year>2011</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=3629780">https://dialnet.unirioja.es/servlet/articulo?codigo=3629780</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref10">
+<label>10.</label>
+<mixed-citation>10. Colorado A, Escobar N, Barrientos J. Vigilancia Tecnológica para la Gestión del Riesgo Tecnológico en el Sector Salud asociado a la norma ISO 31000. Rev Ing Biomédica Universidad CES [Internet]. 2015 [Citado 20 de enero de 2018];9(18):117-25. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/pdf/rinbi/v9n18/v9n18a14.pdf">http://www.scielo.org.co/pdf/rinbi/v9n18/v9n18a14.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Colorado</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Escobar</surname>
+<given-names>N</given-names>
+</name>
+<name>
+<surname>Barrientos</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia Tecnológica para la Gestión del Riesgo Tecnológico en el Sector Salud asociado a la norma ISO 31000</article-title>
+<source>Rev Ing Biomédica Universidad CES</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/pdf/rinbi/v9n18/v9n18a14.pdf">http://www.scielo.org.co/pdf/rinbi/v9n18/v9n18a14.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref11">
+<label>11.</label>
+<mixed-citation>11. Ariza MF, Quiroga N. Minimally Invasive Robotic Surgery, a Perspective from the Technological Surveillance. Pan American Health Care Exchanges (PAHCE) [Internet]. Medellín, Colombia; 2013 [Citado 20 de enero de 2018]1:6. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6568239">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6568239</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ariza</surname>
+<given-names>MF</given-names>
+</name>
+<name>
+<surname>Quiroga</surname>
+<given-names>N</given-names>
+</name>
+</person-group>
+<article-title>Minimally Invasive Robotic Surgery, a Perspective from the Technological Surveillance. Pan American Health Care Exchanges (PAHCE)</article-title>
+<source>Pan American Health Care Exchanges (PAHCE)</source>
+<year>2013</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6568239">https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6568239</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref12">
+<label>12.</label>
+<mixed-citation>12. Gómez AF. Propuesta metodológica de sistematización de vigilancia científico-tecnológica en el ámbito de la biomedicina. Aplicación y estudio de casos prácticos en la Fundación CNIC [Trabajo fin de máster en Internet]. [Madrid]: Universidad Carlos III; 2012. [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://e-archivo.uc3m.es/handle/10016/18355">https://e-archivo.uc3m.es/handle/10016/18355</ext-link>
+</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez</surname>
+<given-names>AF</given-names>
+</name>
+</person-group>
+<article-title>Propuesta metodológica de sistematización de vigilancia científico-tecnológica en el ámbito de la biomedicina. Aplicación y estudio de casos prácticos en la Fundación CNIC</article-title>
+<source>Universidad Carlos III</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://e-archivo.uc3m.es/handle/10016/18355">https://e-archivo.uc3m.es/handle/10016/18355</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref13">
+<label>13.</label>
+<mixed-citation>13. Gudiño R, Aued J, Rousset R, Villanueva M, Pérez N, Formica M, et al. Implementación de una Unidad de Vigilancia Tecnológica e Inteligencia aplicada al Sector de Tecnología Médica (UTVTeI-TecMed) y la articulación entre el ámbito científico- Tecnológico, Universitario y Empresarial. Un estudio de caso territorial. XV Congreso Latino-Ibericoamericano de Gestión de Tecnología ALTEC 2013 [Internet]. Portugal; 2013 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.altec2013.org/programme_pdf/231.pdf">http://www.altec2013.org/programme_pdf/231.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Gudiño</surname>
+<given-names>R</given-names>
+</name>
+<name>
+<surname>Aued</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Rousset</surname>
+<given-names>R</given-names>
+</name>
+<name>
+<surname>Villanueva</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Pérez</surname>
+<given-names>N</given-names>
+</name>
+<name>
+<surname>Formica</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>Implementación de una Unidad de Vigilancia Tecnológica e Inteligencia aplicada al Sector de Tecnología Médica (UTVTeI-TecMed) y la articulación entre el ámbito científico- Tecnológico, Universitario y Empresarial. Un estudio de caso territorial. XV Congreso Latino-Ibericoamericano de Gestión de Tecnología ALTEC 2013</article-title>
+<source>XV Congreso Latino-Ibericoamericano de Gestión de Tecnología ALTEC 2013</source>
+<year>2013</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.altec2013.org/programme_pdf/231.pdf">http://www.altec2013.org/programme_pdf/231.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref14">
+<label>14.</label>
+<mixed-citation>14. Escorsa P, de la Puerta E. Inteligencia Competitiva. La estrategia tecnológica de la empresa: una visión de conjunto. Universitat Oberta de Catalunya [Internet]. 1991 [Citado 20 de enero de 2018]; 281:93. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.temarium.com/serlibre/recursos/pdf/79059.Inteligencia%20Competitiva.Lecturas.pdf#page=5">http://www.temarium.com/serlibre/recursos/pdf/79059.Inteligencia%20Competitiva.Lecturas.pdf#page=5</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Escorsa</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>de la Puerta</surname>
+<given-names>E</given-names>
+</name>
+</person-group>
+<article-title>Inteligencia Competitiva. La estrategia tecnológica de la empresa: una visión de conjunto. Universitat Oberta de Catalunya</article-title>
+<source>Universitat Oberta de Catalunya</source>
+<year>1991</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.temarium.com/serlibre/recursos/pdf/79059.Inteligencia%20Competitiva.Lecturas.pdf#page=5">http://www.temarium.com/serlibre/recursos/pdf/79059.Inteligencia%20Competitiva.Lecturas.pdf#page=5</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref15">
+<label>15.</label>
+<mixed-citation>15. Jakobiak F. Exemples commentés de veille technologique. Les Éditions d´Organisation; 1992.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Jakobiak</surname>
+<given-names>F</given-names>
+</name>
+</person-group>
+<article-title>Exemples commentés de veille technologique</article-title>
+<source>Exemples commentés de veille technologique</source>
+<year>1992</year>
+<publisher-name>Les Éditions d´Organisation</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref16">
+<label>16.</label>
+<mixed-citation>16. Palop F, Vicente JM. Vigilancia tecnológica e inteligencia competitiva: su potencial para la empresa española [Internet]. Madrid: Cotec; 1999 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://informecotec.es/media/15_Est15_Vig_Tec_Intelg_Competiti.pdf">http://informecotec.es/media/15_Est15_Vig_Tec_Intelg_Competiti.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Palop</surname>
+<given-names>F</given-names>
+</name>
+<name>
+<surname>Vicente</surname>
+<given-names>JM</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia tecnológica e inteligencia competitiva: su potencial para la empresa española</article-title>
+<source>Cotec</source>
+<year>2018</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://informecotec.es/media/15_Est15_Vig_Tec_Intelg_Competiti.pdf">http://informecotec.es/media/15_Est15_Vig_Tec_Intelg_Competiti.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref17">
+<label>17.</label>
+<mixed-citation>17. Escorsa P, Maspons R. De la vigilancia tecnológica a la inteligencia competitiva. Prentice Hall; 2001(1). 166p.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Escorsa</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>Maspons</surname>
+<given-names>R</given-names>
+</name>
+</person-group>
+<article-title>De la vigilancia tecnológica a la inteligencia competitiva.</article-title>
+<source>De la vigilancia tecnológica a la inteligencia competitiva</source>
+<year>2001</year>
+<publisher-name>Prentice Hall</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref18">
+<label>18.</label>
+<mixed-citation>18. Barreneche JG, García JH, Serrano J, Brand J, Hernández AM. Vigilancia tecnológica e inteligencia competitiva aplicadas al mejoramiento de los servicios de urgencias hospitalarias. En: Pan American Health Care Exchanges (PAHCE 2015) March 23-28 de 2015, Viña del Mar, Santiago de Chile. IEEE Catalog Number: CFP1518G-POD. ISBN 978-1-4673-9459-8; 2015.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Barreneche</surname>
+<given-names>JG</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>JH</given-names>
+</name>
+<name>
+<surname>Serrano</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Brand</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Hernández</surname>
+<given-names>AM</given-names>
+</name>
+</person-group>
+<article-title>Vigilancia tecnológica e inteligencia competitiva aplicadas al mejoramiento de los servicios de urgencias hospitalarias. En: Pan American Health Care Exchanges (PAHCE 2015) March 23-28 de 2015, Viña del Mar, Santiago de Chile. IEEE Catalog Number: CFP1518G-POD. ISBN 978-1-4673-9459-8</article-title>
+<source>IEEE Catalog Number: CFP1518G-POD.</source>
+<year>2015</year>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref19">
+<label>19.</label>
+<mixed-citation>19. Delgado M, Arrebato L. Diagnóstico integrado de la vigilancia tecnológica en organizaciones. Rev Ing Indust CUJAE [Internet]. 2011 [Citado 20 de enero de 2018];32(2):151-56. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=3682234">https://dialnet.unirioja.es/servlet/articulo?codigo=3682234</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Delgado</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Arrebato</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<article-title>Diagnóstico integrado de la vigilancia tecnológica en organizaciones</article-title>
+<source>Rev Ing Indust CUJAE</source>
+<year>2011</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=3682234">https://dialnet.unirioja.es/servlet/articulo?codigo=3682234</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref20">
+<label>20.</label>
+<mixed-citation>20. Delgado M, Infante M, Abreu Y, García B, Infante O, Díaz A. Metodología de vigilancia tecnológica en universidades y centros de investigación. Revista CENIC. Ciencias Biológicas [Internet]. 2010 [Citado 20 de enero de 2018]; 41:1-13. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/html/1812/181220509076">http://www.redalyc.org/html/1812/181220509076</ext-link>/</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Delgado</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Infante</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Abreu</surname>
+<given-names>Y</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Infante</surname>
+<given-names>O</given-names>
+</name>
+<name>
+<surname>Díaz</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<article-title>Metodología de vigilancia tecnológica en universidades y centros de investigación.</article-title>
+<source>Revista CENIC. Ciencias Biológicas</source>
+<year>2010</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/html/1812/181220509076">http://www.redalyc.org/html/1812/181220509076</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref21">
+<label>21.</label>
+<mixed-citation>21. Bedoya IB, Parra I. Modelo de gestión del conocimiento y capital intelectual en un grupo de investigación, alineado a un estándar internacional. Revista Gestión de las Personas y Tecnología [Internet]. 2016 [Citado 20 de enero de 2018]; 9(27):50-64. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=5771042">https://dialnet.unirioja.es/servlet/articulo?codigo=5771042</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bedoya</surname>
+<given-names>IB</given-names>
+</name>
+<name>
+<surname>Parra</surname>
+<given-names>I</given-names>
+</name>
+</person-group>
+<article-title>Modelo de gestión del conocimiento y capital intelectual en un grupo de investigación, alineado a un estándar internacional.</article-title>
+<source>Revista Gestión de las Personas y Tecnología</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=5771042">https://dialnet.unirioja.es/servlet/articulo?codigo=5771042</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref22">
+<label>22.</label>
+<mixed-citation>22. Carrillo E., Flórez YA, Jolonch FJ. Hacia un modelo de vigilancia tecnológica en administración. Informe de investigación. Universidad Autónoma de Bucaramanga. 2013.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Carrillo</surname>
+<given-names>E</given-names>
+</name>
+<name>
+<surname>Flórez</surname>
+<given-names>YA</given-names>
+</name>
+<name>
+<surname>Jolonch</surname>
+<given-names>FJ</given-names>
+</name>
+</person-group>
+<article-title>Hacia un modelo de vigilancia tecnológica en administración. Informe de investigación</article-title>
+<source>Universidad Autónoma de Bucaramanga</source>
+<year>2013</year>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref23">
+<label>23.</label>
+<mixed-citation>23. González A, Gómez D. Servicio Nacional de Aprendizaje SENA. Guía Práctica InnoViTech VigilanciaTecnológica para la Innovación. Rionegro, Antioquia [Internet]. 2015 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://www.ovtt.org/sites/default/files/archivos/Gu%C3%ADa%20Pr%C3%A1ctica%20InnoViTech%202015.pdf">https://www.ovtt.org/sites/default/files/archivos/Gu%C3%ADa%20Pr%C3%A1ctica%20InnoViTech%202015.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>González</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Gómez</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<article-title>Servicio Nacional de Aprendizaje SENA. Guía Práctica InnoViTech VigilanciaTecnológica para la Innovación. Rionegro, Antioquia</article-title>
+<source>Servicio Nacional de Aprendizaje SENA</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.ovtt.org/sites/default/files/archivos/Gu%C3%ADa%20Pr%C3%A1ctica%20InnoViTech%202015.pdf">https://www.ovtt.org/sites/default/files/archivos/Gu%C3%ADa%20Pr%C3%A1ctica%20InnoViTech%202015.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref24">
+<label>24.</label>
+<mixed-citation>24. Palop F, Martínez JF. Guía metodológica de práctica de la vigilancia tecnológica e inteligencia competitiva. “Proyecto Piloto de Transferencia y Desarrollo de Capacidades Regionales en Vigilancia Tecnológica e Inteligencia Competitiva” (ERICA). Valencia y Medellín [Internet]. 2012 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.buenaspracticasotts.unam.mx/interiores/herramientas/vigilancia/GuiaMetodologicaPractica_VigilanciaeInteligencia.pdf">http://www.buenaspracticasotts.unam.mx/interiores/herramientas/vigilancia/GuiaMetodologicaPractica_VigilanciaeInteligencia.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Palop</surname>
+<given-names>F</given-names>
+</name>
+<name>
+<surname>Martínez</surname>
+<given-names>JF</given-names>
+</name>
+</person-group>
+<article-title>Guía metodológica de práctica de la vigilancia tecnológica e inteligencia competitiva. “Proyecto Piloto de Transferencia y Desarrollo de Capacidades Regionales en Vigilancia Tecnológica e Inteligencia Competitiva” (ERICA).</article-title>
+<source>Valencia y Medellín</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.buenaspracticasotts.unam.mx/interiores/herramientas/vigilancia/GuiaMetodologicaPractica_VigilanciaeInteligencia.pdf">http://www.buenaspracticasotts.unam.mx/interiores/herramientas/vigilancia/GuiaMetodologicaPractica_VigilanciaeInteligencia.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref25">
+<label>25.</label>
+<mixed-citation>25. Martinet B, Marti YM. L’intelligence économique: Les yeux et les oreilles de l’entreprise. Paris. Editions d’organisation; 1995. 250p.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Martinet</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Marti</surname>
+<given-names>YM</given-names>
+</name>
+</person-group>
+<article-title>L’intelligence économique: Les yeux et les oreilles de l’entreprise</article-title>
+<source>L’intelligence économique: Les yeux et les oreilles de l’entreprise</source>
+<year>1995</year>
+<publisher-name>Editions d’organisation</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref26">
+<label>26.</label>
+<mixed-citation>26. Ashton WB, Stacey GS. Technical intelligence in business: understanding technology threats and opportunities. Int. Journal Technology Management [Internet]. 1995 [Citado 20 de enero de 2018]; 10(1):79-104. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://paper.shiftit.ir/sites/default/files/article/02M-%20Ashton%20and%20Stacey-1995.pdf">http://paper.shiftit.ir/sites/default/files/article/02M-%20Ashton%20and%20Stacey-1995.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ashton</surname>
+<given-names>WB</given-names>
+</name>
+<name>
+<surname>Stacey</surname>
+<given-names>GS</given-names>
+</name>
+</person-group>
+<article-title>Technical intelligence in business: understanding technology threats and opportunities</article-title>
+<source>Int. Journal Technology Management</source>
+<year>1995</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://paper.shiftit.ir/sites/default/files/article/02M-%20Ashton%20and%20Stacey-1995.pdf">http://paper.shiftit.ir/sites/default/files/article/02M-%20Ashton%20and%20Stacey-1995.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref27">
+<label>27.</label>
+<mixed-citation>27. Association Francaise de Normalisation AFNOR. Prestations de veille et prestations de mise en place d´un systéme de veille. Norme XPX 50-053. Norme experiméntale. París [Internet]. 1998 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://quoniam.info/competitive-intelligence/PDF/ebooks/Norme_Francaise_Prestations_de_Veille.pdf">http://quoniam.info/competitive-intelligence/PDF/ebooks/Norme_Francaise_Prestations_de_Veille.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Association Francaise de Normalisation</surname>
+<given-names>AFNOR</given-names>
+</name>
+</person-group>
+<article-title>Prestations de veille et prestations de mise en place d´un systéme de veille. Norme XPX 50-053.</article-title>
+<source>Norme experiméntale</source>
+<year>1998</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://quoniam.info/competitive-intelligence/PDF/ebooks/Norme_Francaise_Prestations_de_Veille.pdf">http://quoniam.info/competitive-intelligence/PDF/ebooks/Norme_Francaise_Prestations_de_Veille.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref28">
+<label>28.</label>
+<mixed-citation>28. Ospina C, Gómez M, Osorio AA. Modelo de Vigilancia Tecnológica e Inteligencia Competitiva en Grupos de Investigación de las Universidades de la ciudad de Manizales; [Trabajo de grado Maestría en Internet]. [Manizales]; Universidad Autónoma de Manizales; 2014 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://repositorio.autonoma.edu.co/jspui/bitstream/11182/821/1/Tesis%20VTeIC%20Grupos%20de%20Investigacion.pdf">http://repositorio.autonoma.edu.co/jspui/bitstream/11182/821/1/Tesis%20VTeIC%20Grupos%20de%20Investigacion.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Ospina</surname>
+<given-names>C</given-names>
+</name>
+<name>
+<surname>Gómez</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Osorio</surname>
+<given-names>AA</given-names>
+</name>
+</person-group>
+<article-title>Modelo de Vigilancia Tecnológica e Inteligencia Competitiva en Grupos de Investigación de las Universidades de la ciudad de Manizales</article-title>
+<source>Universidad Autónoma de Manizales</source>
+<year>2014</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://repositorio.autonoma.edu.co/jspui/bitstream/11182/821/1/Tesis%20VTeIC%20Grupos%20de%20Investigacion.pdf">http://repositorio.autonoma.edu.co/jspui/bitstream/11182/821/1/Tesis%20VTeIC%20Grupos%20de%20Investigacion.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref29">
+<label>29.</label>
+<mixed-citation>29. Moyares Y, Infante MB. Elementos distintivos de los sistemas de vigilancia tecnológica en el contexto cubano e internacional. Rev Cuba Inf Cienc Salud [Internet]. 2016 [Citado 20 de enero de   2018];27(3):361-74. Recuperado a partir de <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132016000300008">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132016000300008</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Moyares</surname>
+<given-names>Y</given-names>
+</name>
+<name>
+<surname>Infante</surname>
+<given-names>MB</given-names>
+</name>
+</person-group>
+<article-title>Elementos distintivos de los sistemas de vigilancia tecnológica en el contexto cubano e internacional.</article-title>
+<source>Rev Cuba Inf Cienc Salud</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132016000300008">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132016000300008</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref30">
+<label>30.</label>
+<mixed-citation>30. Fernández B, Pérez S, del Valle F. Metodología para la implantación de sistemas de vigilancia tecnológica y documental: El caso del proyecto INREDIS. Revista Investigación Bibliotecológica [Internet]. 2009 [Citado 20 de enero de 2018];23(49):149-77. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.mx/pdf/ib/v23n49/v23n49a6.pdf">http://www.scielo.org.mx/pdf/ib/v23n49/v23n49a6.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fernández</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Pérez</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>del Valle</surname>
+<given-names>F</given-names>
+</name>
+</person-group>
+<article-title>Metodología para la implantación de sistemas de vigilancia tecnológica y documental: El caso del proyecto INREDIS</article-title>
+<source>Revista Investigación Bibliotecológica</source>
+<year>2009</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.mx/pdf/ib/v23n49/v23n49a6.pdf">http://www.scielo.org.mx/pdf/ib/v23n49/v23n49a6.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref31">
+<label>31.</label>
+<mixed-citation>31. Villarroel C, Comai A, Karmelic-Pavlov V, Fernández A, Arriagada C. Diseño e implementación de una unidad de vigilancia tecnológica e Inteligencia competitiva. Interciencia [Internet]. 2015 [Citado 20 de enero de 2018];40(11):751-57. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=33942541004">http://www.redalyc.org/articulo.oa?id=33942541004</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Villarroel</surname>
+<given-names>C</given-names>
+</name>
+<name>
+<surname>Comai</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Karmelic-Pavlov</surname>
+<given-names>V</given-names>
+</name>
+<name>
+<surname>Fernández</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Arriagada</surname>
+<given-names>C</given-names>
+</name>
+</person-group>
+<article-title>Diseño e implementación de una unidad de vigilancia tecnológica e Inteligencia competitiva.</article-title>
+<source>Interciencia</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.redalyc.org/articulo.oa?id=33942541004">http://www.redalyc.org/articulo.oa?id=33942541004</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref32">
+<label>32.</label>
+<mixed-citation>32. Berges A, Meneses JM, Martínez JF. Metodología para evaluar funciones y productos de vigilancia tecnológica e inteligencia competitiva (VT/IC) y su implementación a través de web. El Profesional de la Información. 2016;25(1):103-13. <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.3145/epi.2016.ene.10">http://doi.org/10.3145/epi.2016.ene.10</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Berges</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Meneses</surname>
+<given-names>JM</given-names>
+</name>
+<name>
+<surname>Martínez</surname>
+<given-names>JF</given-names>
+</name>
+</person-group>
+<article-title>Metodología para evaluar funciones y productos de vigilancia tecnológica e inteligencia competitiva (VT/IC) y su implementación a través de web</article-title>
+<source>El Profesional de la Información.</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.3145/epi.2016.ene.10">http://doi.org/10.3145/epi.2016.ene.10</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref33">
+<label>33.</label>
+<mixed-citation>33. Rodríguez A, Guardiola MO, Noriega C. Guía para el buen desempeño de las funciones de los observadores y analistas de un sistema de Vigilancia Tecnológica.  Revista Infociencia  [Internet]. 2012 [Citado 20 de enero de 2018]; 19(2):83-93. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://doaj.org/article/b0ec144d504644aca58770b9018763f4">https://doaj.org/article/b0ec144d504644aca58770b9018763f4</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rodríguez</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Guardiola</surname>
+<given-names>MO</given-names>
+</name>
+<name>
+<surname>Noriega</surname>
+<given-names>C</given-names>
+</name>
+</person-group>
+<article-title>Guía para el buen desempeño de las funciones de los observadores y analistas de un sistema de Vigilancia Tecnológica.</article-title>
+<source>Revista Infociencia</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doaj.org/article/b0ec144d504644aca58770b9018763f4">https://doaj.org/article/b0ec144d504644aca58770b9018763f4</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref34">
+<label>34.</label>
+<mixed-citation>34. Porto X. Del centro de documentación a la unidad de vigilancia tecnológica: el papel del documentalista en los sistemas de gestión de la innovación y de la información empresarial. Acta XI Jornadas de Gestión de la Información: AEDOM Servicios polivalentes, confluencia entre profesionales de archivo, biblioteca y documentación [Internet]. 2009 [Citado 20 de enero de 2018]; 10(2):39-51. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/download/pdf/11886062.pdf">https://core.ac.uk/download/pdf/11886062.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Porto</surname>
+<given-names>X</given-names>
+</name>
+</person-group>
+<article-title>Del centro de documentación a la unidad de vigilancia tecnológica: el papel del documentalista en los sistemas de gestión de la innovación y de la información empresarial. Acta XI Jornadas de Gestión de la Información: AEDOM Servicios polivalentes, confluencia entre profesionales de archivo, biblioteca y documentación</article-title>
+<source>Del centro de documentación a la unidad de vigilancia tecnológica: el papel del documentalista en los sistemas de gestión de la innovación y de la información empresarial. Acta XI Jornadas de Gestión de la Información: AEDOM Servicios polivalentes, confluencia entre profesionales de archivo, biblioteca y documentación</source>
+<year>2009</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/download/pdf/11886062.pdf">https://core.ac.uk/download/pdf/11886062.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref35">
+<label>35.</label>
+<mixed-citation>35. Asociación Española de Normalización y Certificación AENOR. Gestión de la I+D+i: Sistema de vigilancia e Inteligencia. Norma UNE 166006:2011. Madrid [Internet]. 2011 [Citado 20 de enero de 2018]. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="https://www.aenor.com/Certificacion_Documentos/Reglamentos/EXT-UNE%20166006-GFVX00OETZBG4OQPI1RF.pdf">https://www.aenor.com/Certificacion_Documentos/Reglamentos/EXT-UNE%20166006-GFVX00OETZBG4OQPI1RF.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Asociación Española de Normalización y Certificación</surname>
+<given-names>AENOR</given-names>
+</name>
+</person-group>
+<article-title>Gestión de la I+D+i: Sistema de vigilancia e Inteligencia. Norma UNE 166006:2011</article-title>
+<source>Norma UNE 166006:2011</source>
+<year>2011</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.aenor.com/Certificacion_Documentos/Reglamentos/EXT-UNE%20166006-GFVX00OETZBG4OQPI1RF.pdf">https://www.aenor.com/Certificacion_Documentos/Reglamentos/EXT-UNE%20166006-GFVX00OETZBG4OQPI1RF.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref36">
+<label>36.</label>
+<mixed-citation>36. López A, Méndez D, Paz A, Arboleda H. Desarrollo e instrumentación de un proceso de vigilancia tecnológica basado en protocolos de revisión sistemática de la literatura. Revista Información Tecnológica. 2016;27(4):155-64. <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.4067/S0718-07642016000400017">http://doi.org/10.4067/S0718-07642016000400017</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>López</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Méndez</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Paz</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Arboleda</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<article-title>Desarrollo e instrumentación de un proceso de vigilancia tecnológica basado en protocolos de revisión sistemática de la literatura.</article-title>
+<source>Revista Información Tecnológica</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.4067/S0718-07642016000400017">http://doi.org/10.4067/S0718-07642016000400017</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref37">
+<label>37.</label>
+<mixed-citation>37. Paz FA, Del Valle E, Salomón RH. Ethical and legal model for technological surveillance system. International Conference on Interactive Collaborative Learning (ICL). 2015; 1:999-1006. <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1109/ICL.2015.7318165">http://doi.org/10.1109/ICL.2015.7318165</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Paz</surname>
+<given-names>FA</given-names>
+</name>
+<name>
+<surname>Del Valle</surname>
+<given-names>E</given-names>
+</name>
+<name>
+<surname>Salomón</surname>
+<given-names>RH</given-names>
+</name>
+</person-group>
+<article-title>Ethical and legal model for technological surveillance system. International Conference on Interactive Collaborative Learning (ICL)</article-title>
+<source>International Conference on Interactive Collaborative Learning (ICL)</source>
+<year>2015</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1109/ICL.2015.7318165">http://doi.org/10.1109/ICL.2015.7318165</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref38">
+<label>38.</label>
+<mixed-citation>38. Abreu Y, Infante MB, Delgado T, Delgado M. Modelo de vigilancia tecnológica apoyado por recomendaciones basadas en el filtrado colaborativo. Rev Ing Indust CUJAE [Internet]. 2013 [Citado 20 de enero de 2018];34(2):167-77. Recuperado a partir de: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1815-59362013000200006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1815-59362013000200006</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Abreu</surname>
+<given-names>Y</given-names>
+</name>
+<name>
+<surname>Infante</surname>
+<given-names>MB</given-names>
+</name>
+<name>
+<surname>Delgado</surname>
+<given-names>T</given-names>
+</name>
+<name>
+<surname>Delgado</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>Modelo de vigilancia tecnológica apoyado por recomendaciones basadas en el filtrado colaborativo. Rev Ing Indust CUJAE</article-title>
+<source>Rev Ing Indust CUJAE</source>
+<year>2013</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1815-59362013000200006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1815-59362013000200006</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_71964816007_ref39">
+<label>39.</label>
+<mixed-citation>39. Observatorio virtual de transferencia de tecnología OVTT [Internet]. Alicante (España); 2012. [Citado 24 de mayo de 2017]. Recuperado a partir de: www.ovtt.org</mixed-citation>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Observatorio virtual de transferencia de tecnología</surname>
+<given-names>OVTT</given-names>
+</name>
+</person-group>
+<article-title>Observatorio virtual de transferencia de tecnología OVTT</article-title>
+<source>Observatorio virtual de transferencia de tecnología OVTT</source>
+<year>2012</year>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

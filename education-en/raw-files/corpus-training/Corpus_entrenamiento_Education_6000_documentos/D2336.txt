@@ -1,0 +1,46 @@
+#ITI#Scoring Graphical Responses in TIMSS 2019 Using Artificial Neural Networks#FTI#
+#IRE# Automated scoring of free drawings or images as responses has yet to be used in large-scale assessments of student achievement. In this study, we propose artificial neural networks to classify these types of graphical responses from a TIMSS 2019 item. We are comparing classification accuracy of convolutional and feed-forward approaches. Our results show that convolutional neural networks (CNNs) outperform feed-forward neural networks in both loss and accuracy. The CNN models classified up to 97.53% of the image responses into the appropriate scoring category, which is comparable to, if not more accurate, than typical human raters. These findings were further strengthened by the observation that the most accurate CNN models correctly classified some image responses that had been incorrectly scored by the human raters. As an additional innovation, we outline a method to select human-rated responses for the training sample based on an application of the expected response function derived from item response theory. This paper argues that CNN-based automated scoring of image responses is a highly accurate procedure that could potentially replace the workload and cost of second human raters for international large-scale assessments (ILSAs), while improving the validity and comparability of scoring complex constructed-response items.#FRE#
+#IPC# automated scoring; convolutional neural network; feed-forward neural network; image responses; international large-scale assessment; TIMSS#FPC#
+#IRF# Allaire J.J., Chollet F., keras: R interface to “keras, (2021); 
+Attali Y., Burstein J., Automated essay scoring with e-rater ® V.2, The Journal of Technology, Learning and Assessment, 4, 3, pp. 1-29, (2006); 
+Bejar I.I., Rater cognition: Implications for validity, Educational Measurement: Issues and Practice, 31, 3, pp. 2-9, (2012); 
+Bejar I.I., A historical survey of research regarding constructed-response formats, Advancing human assessment. Methodology of educational measurement and assessment, (2017); 
+Chollet F., Deep learning with Python, (2018); 
+Cotter K.E., Centurino V.A.S., Mullis I.V.S., Developing the TIMSS 2019 mathematics and science achievement instruments, Methods and procedures: TIMSS 2019 technical report, pp. 11-136, (2020); 
+Dozat T., Incorporating Nesterov momentum into Adam, (2016); 
+Fishbein B., Foy P., Yin L., TIMSS 2019 user guide for the international database, (2021); 
+Foltz P.W., Laham D., Landauer T.K., The intelligent essay assessor: Applications to educational technology, Interactive Multimedia Electronic Journal of Computer-Enhanced Learning, 1, 2, pp. 939-944, (1999); 
+Foy P., Fishbein B., von Davier M., Yin L., Implementing the TIMSS 2019 scaling methodology, Methods and procedures: TIMSS 2019 technical report, (2020); 
+Grandini M., Bagli E., Visani G., Metrics for multi-class classification: An overview, arXiv, (2020); 
+Hornik K., Tinchcombe M., White H., Multilayer feedforward networks are universal approximators (PDF), Neural Networks, 2, pp. 359-366, (1989); 
+Kingma D.P., Ba J., Adam: A method for stochastic optimization, arXiv, (2014); 
+Lecoutre A., Negrevergne B., Yger F., Recognizing art style automatically in painting with deep learning, Asian Conference on Machine Learning, pp. 327-342, (2017); 
+Liu O.L., Brew C., Blackmore J., Gerard L., Madhok J., Linn M.C., Automated scoring of constructed-response science items: Prospects and obstacles, Educational Measurement: Issues and Practice, 33, 2, pp. 19-28, (2014); 
+Lord F.M., Novick R., Statistical theories of mental test scores, (1968); 
+Marcoulides G.A., Hershberger S.L., Multivariate statistical methods: A first course, (2014); 
+Oliveri M.E., Von Davier, Investigation of model fit and score scale comparability in international assessments, Psychological Test and Assessment Modeling, 53, 3, (2011); 
+Ooms J., magick: Advanced graphics and image-processing in R, (2021); 
+Coding design, coding process, coding reliability studies, and machine-supported coding in the main survey, PISA 2018 technical report, (2020); 
+O'Shea K., Nash R., An introduction to convolutional neural networks, arXiv, (2015); 
+Parshall C.G., Harmes J.C., Davey T., Pashley P.J., Innovative items for computerized testing, Elements of adaptive testing, pp. 215-230, (2009); 
+Pawlowicz L.M., Downum C.E., Applications of deep learning to decorated ceramic typology and classification: A case study using Tusayan White Ware from Northeast Arizona, Journal of Archaeological Science, 130, (2021); 
+Radev S.T., Mertens U.K., Voss A., Kothe U., Towards end-to-end likelihood-free inference with convolutional neural networks, British Journal of Mathematical and Statistical Psychology, 73, 1, pp. 23-43, (2020); 
+Rimm D.L., Leung S.C., McShane L.M., Bai Y., Bane A.L., Bartlett J.M., Dowsett M., An international multicenter study to evaluate reproducibility of automated scoring for assessment of Ki67 in breast cancer, Modern Pathology, 32, 1, pp. 59-69, (2019); 
+Sheehan K., Mislevy R.J., Integrating cognitive and psychometric models to measure document literacy, Journal of Educational Measurement, 27, 3, pp. 255-272, (1990); 
+Sukkarieh J.Z., von Davier M., Yamamoto K., From biology to education: Scoring and clustering multilingual text sequences and other sequential tasks, ETS Research Report Series, 2012, 2, (2012); 
+Thomas N., Asymptotic corrections for multivariate posterior moments with factored likelihood functions, Journal of Computational and Graphical Statistics, 2, 3, pp. 309-322, (1993); 
+von Davier M., Automated item generation with recurrent neural networks, Psychometrika, 83, 4, pp. 847-857, (2018); 
+von Davier M., Training optimus prime, MD: Generating medical certification items by fine-tuning OpenAI’s gpt2 transformer model, arXiv, (2019); 
+von Davier M., TIMSS 2019 scaling methodology: Item response theory, population models, and linking across modes, Methods and procedures: TIMSS 2019 technical report, (2020); 
+Von Davier M., Shin H.J., Khorramdel L., Stankov L., The effects of vignette scoring on reliability and validity of self-reports, Applied Psychological Measurement, 42, 4, pp. 291-306, (2018); 
+Von Davier M., Sinharay, Analytics in international large-scale assessments: Item response theory and population models, Handbook of international large-scale assessment: Background, technical issues, and methods of data analysis, pp. 155-174, (2013); 
+Von Davier M., Sinharay S., Oranje A., Beaton L., The statistical procedures used in national assessment of educational progress: Recent developments and future directions, Handbook of statistics, 26, pp. 1039-1055, (2006); 
+Von Davier M., von Davier A.A., A unified approach to IRT scale linking and scale transformations, Methodology, 3, 3, pp. 115-124, (2007); 
+Williamson D.M., Xi X., Breyer F.J., A framework for evaluation and use of automated scoring, Educational Measurement: Issues and Practice, 31, 1, pp. 2-13, (2012); 
+Yamamoto K., He Q., Shin H.J., von Davier M., Developing a machine-supported coding system for constructed-response items in PISA, ETS Research Report Series, 2017, 1, pp. 1-15, (2017); 
+Yu Y., Wang J., Ng C.W., Ma Y., Mo S., Fong E.L.S., Yu H., Deep learning enables automated scoring of liver fibrosis stages, Scientific Reports, 8, (2018); 
+Zehner F., Salzer C., Goldhammer F., Automatic coding of short text responses via clustering in educational assessment, Educational and Psychological Measurement, 76, 2, pp. 280-303, (2016); 
+Zenisky A.L., Sireci S.G., Technological innovations in large-scale assessment, Applied Measurement in Education, 15, 4, pp. 337-362, (2002); 
+Zhai X., Practices and theories: How can machine learning assist in innovative assessment practices in science education, Journal of Science Education and Technology, 30, 2, pp. 139-149, (2021); 
+Zhang M., Contrasting automated and human scoring of essays, R & D Connections, 21, 2, pp. 1-11, (2013); 
+Zhou D.-X., Universality of deep convolutional neural networks, Applied and Computational Harmonic Analysis, 48, 2, pp. 787-794, (2020)#FRF#

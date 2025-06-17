@@ -1,0 +1,39 @@
+#ITI#Rare events meta-analysis using the Bayesian beta-binomial model#FTI#
+#IRE# In meta-analyses of rare events, it can be challenging to obtain a reliable estimate of the pooled effect, in particular when the meta-analysis is based on a small number of studies. Recent simulation studies have shown that the beta-binomial model is a promising candidate in this situation, but have thus far only investigated its performance in a frequentist framework. In this study, we aim to make the beta-binomial model for meta-analysis of rare events amenable to Bayesian inference by proposing prior distributions for the effect parameter and investigating the models' robustness to different specifications of priors for the scale parameter. To evaluate the performance of Bayesian beta-binomial models with different priors, we conducted a simulation study with two different data generating models in which we varied the size of the pooled effect, the degree of heterogeneity, the baseline probability, and the sample size. Our results show that while some caution must be exercised when using the Bayesian beta-binomial in meta-analyses with extremely sparse data, the use of a weakly informative prior for the effect parameter is beneficial in terms of mean bias, mean squared error, and coverage. For the scale parameter, half-normal and exponential distributions are identified as candidate priors in meta-analysis of rare events using the Bayesian beta-binomial model#FRE#
+#IPC# Bayes; beta-binomial model; random-effects meta-analysis; rare events#FPC#
+#IRF# Cheng J., Pullenayegum E., Marshall J.K., Iorio A., Thabane L., Impact of including or excluding both-armed zero-event studies on using standard meta-analysis methods for rare event outcome: a simulation study, BMJ Open, 6, 8, (2016); 
+Sweeting M.J., Sutton A.J., Lambert P.C., What to add to nothing? Use and avoidance of continuity corrections in meta-analysis of sparse data, Stat Med, 23, 9, pp. 1351-1375, (2004); 
+Mantel N., Haenszel W., Statistical aspects of the analysis of data from retrospective studies of disease, J Natl Cancer Inst, 22, pp. 719-748, (1959); 
+Yusuf S., Peto R., Lewis J., Collins R., Sleight P., Beta blockade during and after myocardial infarction: an overview of the randomized trials, Prog Cardiovasc Dis, 27, 5, pp. 335-371, (1985); 
+Bradburn M.J., Deeks J.J., Berlin J.A., Localio A.R., Much ado about nothing: a comparison of the performance of meta-analytical methods with rare events, Stat Med, 26, 1, pp. 53-77, (2006); 
+Kuss O., Statistical methods for meta-analyses including information from studies without any events – add nothing to nothing and succeed nevertheless, Stat Med, 34, 7, pp. 1097-1116, (2014); 
+Smith T.C., Spiegelhalter D.J., Thomas A., Bayesian approaches to random-effects meta-analysis: a comparative study, Stat Med, 14, 24, pp. 2685-2699, (1995); 
+Agresti A., Categorical data analysis, (2002); 
+Beisemann M., Doebler P., Holling H., Comparison of random-effects meta-analysis models for the relative risk in the case of rare events: a simulation study, Biom J, 62, 7, pp. 1597-1630, (2020); 
+Jansen K., Holling H., Random-effects meta-analysis models for the odds ratio in the case of rare events under different data-generating models: a simulation study, Biom J, 65, 3, (2023); 
+Xu C., Furuya-Kanamori L., Lin L., Synthesis of evidence from zero-events studies: a comparison of one-stage framework methods, Res Synth Methods, 13, 2, pp. 176-189, (2021); 
+Felsch M., Beckmann L., Bender R., Kuss O., Skipka G., Mathes T., Performance of several types of beta-binomial models in comparison to standard approaches for meta-analyses with very few studies, BMC Med Res Methodol, 22, 1, pp. 1-18, (2022); 
+Mathes T., Kuss O., A comparison of methods for meta-analysis of a small number of studies with binary outcomes, Res Synth Methods, 9, 3, pp. 366-381, (2018); 
+Gunhan B.K., Rover C., Friede T., Random-effects meta-analysis of few studies involving rare events, Res Synth Methods, 11, 1, pp. 74-90, (2019); 
+Bai O., Chen M., Wang X., Bayesian estimation and testing in random effects meta-analysis of rare binary adverse events, Stat Biopharm Res, 8, 1, pp. 49-59, (2016); 
+Friede T., Rover C., Wandel S., Neuenschwander B., Meta-analysis of few small studies in orphan diseases, Res Synth Methods, 8, 1, pp. 79-91, (2016); 
+Pateras K., Nikolakopoulos S., Roes K.C.B., Prior distributions for variance parameters in a sparse-event meta-analysis of a few small trials, Pharm Stat, 20, 1, pp. 39-54, (2020); 
+Warren F.C., Abrams K.R., Golder S., Sutton A.J., Systematic review of methods used in meta-analyses where a primary outcome is an adverse or unintended event, BMC Med Res Methodol, 12, 1, pp. 1-14, (2012); 
+Mathes T., Kuss O., Beta-binomial models for meta-analysis with binary outcomes: variations, extensions, and additional insights from econometrics, Res Methods Med Health Sci, 2, 2, pp. 82-89, (2021); 
+Prentice R.L., Binary regression using an extended beta-binomial distribution, with discussion of correlation induced by covariate measurement errors, J Am Stat Assoc, 81, 394, pp. 321-327, (1986); 
+McCulloch C.E., Searle S.R., Generalized, Linear, and Mixed Models, (2001); 
+Hartung J., Knapp G., A refined method for the meta-analysis of controlled clinical trials with binary outcome, Stat Med, 20, 24, pp. 3875-3889, (2001); 
+Sidik K., Jonkman J.N., A simple confidence interval for meta-analysis, Stat Med, 21, 21, pp. 3153-3159, (2002); 
+Neuhaus J.M., Kalbfleisch J.D., Hauck W.W., A comparison of cluster-specific and population-averaged approaches for analyzing correlated binary data, Int Stat Rev, 59, 1, pp. 25-35, (1991); 
+Pateras K., Nikolakopoulos S., Roes K., Data-generating models of dichotomous outcomes: heterogeneity in simulation studies for a random-effects meta-analysis, Stat Med, 37, 7, pp. 1115-1124, (2017); 
+Turner R.M., Davey J., Clarke M.J., Thompson S.G., Higgins J.P., Predicting the extent of heterogeneity in meta-analysis, using empirical data from the Cochrane Database of Systematic Reviews, Int J Epidemiol, 41, 3, pp. 818-827, (2012); 
+Kulinskaya E., Hoaglin D.C., Bakbergenuly I., Exploring consequences of simulation design for apparent performance of methods of meta-analysis, Stat Methods Med Res, 30, 7, pp. 1667-1690, (2021); 
+R: A Language and Environment for Statistical Computing, (2022); 
+Plummer M., JAGS: a program for analysis of Bayesian graphical models using Gibbs sampling. Proceedings of the 3rd International Workshop on Distributed Statistical Computing, 124, 1–10. Vienna, Austria, (2003); 
+Plummer M., rjags: Bayesian graphical models using MCMC. R package version 4–13, (2022); 
+Plummer M., Best N., Cowles K., Vines K., CODA: convergence diagnosis and output analysis for MCMC, R News, 6, 1, pp. 7-11, (2006); 
+Hoff P.D., A First Course in Bayesian Statistical Methods, (2009); 
+Garcia V.R., Burls A., Cabello J.B., Casasempere P.V., Bort-Marti S., Bernal J.A., Certolizumab pegol (CDP870) for rheumatoid arthritis in adults, Cochrane Database Syst Rev, 2017, 9, (2017); 
+Lambert P.C., Sutton A.J., Burton P.R., Abrams K.R., Jones D.R., How vague is vague? A simulation study of the impact of the use of vague prior distributions in MCMC using WinBUGS, Stat Med, 24, 15, pp. 2401-2428, (2005); 
+Dias S., Ades A.E., Absolute or relative effects? Arm-based synthesis of trial data, Res Synth Methods, 7, 1, pp. 23-28, (2015); 
+Tak H., Morris C.N., Data-dependent posterior propriety of a Bayesian beta-binomial-logit model, Bayesian Anal, 12, 2, pp. 533-555, (2017)#FRF#

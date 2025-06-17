@@ -1,0 +1,42 @@
+#ITI#A Comparison of Response Time Threshold Scoring Procedures in Mitigating Bias From Rapid Guessing Behavior#FTI#
+#IRE# Rapid guessing (RG) is a form of non-effortful responding that is characterized by short response latencies. This construct-irrelevant behavior has been shown in previous research to bias inferences concerning measurement properties and scores. To mitigate these deleterious effects, a number of response time threshold scoring procedures have been proposed, which recode RG responses (e.g., treat them as incorrect or missing, or impute probable values) and then estimate parameters for the recoded dataset using a unidimensional or multidimensional IRT model. To date, there have been limited attempts to compare these methods under the possibility that RG may be misclassified in practice. To address this shortcoming, the present simulation study compared item and ability parameter recovery for four scoring procedures by manipulating sample size, the linear relationship between RG propensity and ability, the percentage of RG responses, and the type and rate of RG misclassifications. Results demonstrated two general trends. First, across all conditions, treating RG responses as incorrect produced the largest degree of combined systematic and random error (larger than ignoring RG). Second, the remaining scoring approaches generally provided equal accuracy in parameter recovery when RG was perfectly identified; however, the multidimensional IRT approach was susceptible to increased error as misclassification rates grew. Overall, the findings suggest that recoding RG as missing and employing a unidimensional IRT model is a promising approach.#FRE#
+#IPC# IRT; non-effortful responding; parameter recovery; rapid guessing; validity#FPC#
+#IRF# Bolsinova M., Tijmstra J., Molenaar D., De Boeck P., Conditional dependence between response time and accuracy: An overview of its possible sources and directions for distinguishing between them, Frontiers in Psychology, 8, (2017); 
+Chalmers R.P., Mirt: A multidimensional item response theory package for the R environment, Journal of Statistical Software, 48, pp. 1-29, (2012); 
+Deribo T., Kroehne U., Goldhammer F., Model-based treatment of rapid guessing, Journal of Educational Measurement, 58, 2, pp. 281-303, (2021); 
+Goldhammer F., Martens T., Christoph G., Ludtke O., Test-taking engagement in PIAAC, (2016); 
+Goldhammer F., Naumann J., Greiff S., More is not always better: The relation between item response and item response time in Raven’s matrices, Journal of Intelligence, 3, 1, pp. 21-40, (2015); 
+Han K.T., Fixing the c parameter in the three-parameter logistic model, Practical, Assessment, Research, and Evaluation, 17, pp. 1-24, (2012); 
+Hauser C., Kingsbury G.G., (2009); 
+Holman R., Glas C.A., Modelling non-ignorable missing-data mechanisms with item response theory models, British Journal of Mathematical and Statistical Psychology, 58, 1, pp. 1-17, (2005); 
+Kong X.J., Wise S.L., Bhola D.S., Setting the response time threshold parameter to differentiate solution behavior from rapid-guessing behavior, Educational and Psychological Measurement, 67, 4, pp. 606-619, (2007); 
+Kyllonen P.C., Zu J., Use of response time for measuring cognitive ability, Journal of Intelligence, 4, 4, (2016); 
+Liu Y., Hau K.T., Measuring motivation to take low-stakes large-scale test: New model based on analyses of “Participant-Own-Defined” missingness, Educational and Psychological Measurement, 80, 6, pp. 1115-1144, (2020); 
+Liu Y., Li Z., Liu H., Luo F., Modeling test-taking non-effort in MIRT models, Frontiers in Psychology, 10, (2019); 
+Meade A.W., Craig S.B., Identifying careless responses in survey data, Psychological Methods, 17, 3, pp. 437-455, (2012); 
+Meng X.-B., Tao J., Chang H.-H., A conditional joint modeling approach for locally dependent item responses and response times, Journal of Educational Measurement, 52, 1, pp. 1-27, (2015); 
+Mislevy R.J., Wu P.K., Missing responses and IRT ability estimation: Omits, choice, time limits, and adaptive testing, ETS Research Report Series, (1996); 
+Nagy G., Ulitzsch E., A multilevel mixture IRT framework for modeling response times as predictors or indicators of response engagement in IRT models, Educational and Psychological Measurement, 82, pp. 845-879, (2021); 
+R: A language and environment for statistical computing, (2020); 
+Rios J.A., Assessing the accuracy of parameter estimates in the presence of rapid guessing misclassification, Educational and Psychological Measurement, 82, 1, pp. 122-150, (2021); 
+Rios J.A., Deng J., Does the choice of response time threshold procedure substantially affect inferences concerning the identification and exclusion of rapid guessing responses? A meta-analysis, Large-Scale Assessments in Education, 9, 1, pp. 1-25, (2021); 
+Rios J.A., Deng J., Ihlenfeldt S.D., To what degree does rapid guessing underestimate test performance? A meta-analytic investigation, Educational Assessment, 27, pp. 1-18, (2022); 
+Rios J.A., Guo H., Mao L., Liu O.L., Evaluating the impact of careless responding on aggregated-scores: To filter unmotivated examinees or not?, International Journal of Testing, 17, 1, pp. 74-104, (2017); 
+Rios J.A., Soland J., Investigating the impact of noneffortful responses on individual-level scores: Can the Effort-Moderated IRT model serve as a solution?, Applied Psychological Measurement, 45, 6, pp. 391-406, (2021); 
+Rios J.A., Soland J., Parameter estimation accuracy of the Effort-Moderated Item Response Theory Model under multiple assumption violations, Educational and Psychological Measurement, 81, 3, pp. 569-594, (2021); 
+Rios J.A., Soland J., An investigation of item, examinee, and country correlates of rapid guessing on PISA, International Journal of Testing, 22, 2, pp. 154-184, (2022); 
+Robitzsch A., sirt: Supplementary item response theory models, (2022); 
+Robitzsch A., Ludtke O., Some thoughts on analytical choices in the scaling model for test scores in international large-scale assessment studies, Measurement Instruments for the Social Sciences, 4, 1, pp. 1-20, (2022); 
+Rose N., Item nonresponses in educational and psychological measurement, (2013); 
+Rubin D.B., Inference and missing data, Biometrika, 63, 3, pp. 581-592, (1976); 
+Silm G., Pedaste M., Taht K., The relationship between performance and test-taking effort when measured with self-report or time-based instruments: A meta-analytic review, Educational Research Review, 31, pp. 1-22, (2020); 
+Ulitzsch E., Penk C., von Davier M., Pohl S., Model meets reality: Validating a new behavioral measure for test-taking effort, Educational Assessment, 26, 2, pp. 104-124, (2021); 
+Ulitzsch E., von Davier M., Pohl S., A hierarchical latent response model for inferences about examinee engagement in terms of guessing and item-level non-response, British Journal of Mathematical and Statistical Psychology, 73, pp. 83-112, (2020); 
+van der Linden W.J., Glas C.A., Statistical tests of conditional independence between responses and/or response times on test items, Psychometrika, 75, 1, pp. 120-139, (2010); 
+Wise S., Kuhfeld M., A method for identifying partial test-taking engagement, Applied Measurement in Education, 34, 2, pp. 150-161, (2021); 
+Wise S.L., An investigation of the differential effort received by items on a low-stakes computer-based test, Applied Measurement in Education, 19, 2, pp. 95-114, (2006); 
+Wise S.L., Rapid-guessing behavior: Its identification, interpretation, and implications, Educational Measurement: Issues and Practice, 36, 4, pp. 52-61, (2017); 
+Wise S.L., DeMars C.E., An application of item response time: The effort-moderated IRT model, Journal of Educational Measurement, 43, 1, pp. 19-38, (2006); 
+Wise S.L., Kingsbury G.G., Modeling student test-taking motivation in the context of an adaptive achievement test, Journal of Educational Measurement, 53, 1, pp. 86-105, (2016); 
+Wolf E.J., Harrington K.M., Clark S.L., Miller M.W., Sample size requirements for structural equation models: An evaluation of power, bias, and solution propriety, Educational and Psychological Measurement, 73, 6, pp. 913-934, (2013); 
+Wright D.B., Treating all rapid responses as errors (TARRE) improves estimates of ability (slightly), Psychological Test and Assessment Modeling, 58, 1, pp. 15-31, (2016)#FRF#

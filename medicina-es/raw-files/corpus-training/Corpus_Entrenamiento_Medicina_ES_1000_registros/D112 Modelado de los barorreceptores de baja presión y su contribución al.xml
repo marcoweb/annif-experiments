@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.0" specific-use="sps-1.6" xml:lang="es">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">iat</journal-id>
+			<journal-title-group>
+				<journal-title>Iatreia</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Iatreia</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0121-0793</issn>
+			<publisher>
+				<publisher-name>Universidad de Antioquia</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.17533/udea.iatreia.v29n4a03</article-id>
+			<article-id pub-id-type="publisher-id">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>INVESTIGACIÓN ORIGINAL</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Modelado de los barorreceptores de baja presión y su contribución al control de la presión arterial</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Modeling low pressure baroreceptors and their contribution to blood pressure control</trans-title>
+				</trans-title-group>
+				<trans-title-group xml:lang="pt">
+					<trans-title>Modelado dos barorreceptores de baixa pressão e sua contribuição ao controle da pressão arterial</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Sánchez de Zambrano</surname>
+						<given-names>Betsy Mirley</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rojas-Sulbarán</surname>
+						<given-names>Rubén Darío</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<institution content-type="original">1. Profesora Asociada, Universidad Nacional Experimental del Táchira. Grupo de Bioingeniería, Decanato de Investigación, Táchira, Venezuela. bsanchez@unet.edu.ve </institution>
+				<institution content-type="normalized">Universidad Nacional Experimental del Táchira</institution>
+				<institution content-type="orgname">Universidad Nacional Experimental del Táchira</institution>
+				<country country="VE">Venezuela</country>
+				<email>bsanchez@unet.edu.ve</email>
+			</aff>
+			<aff id="aff2">
+				<institution content-type="original">2. Investigador Prometeo en la Universidad de Cuenca, Cuenca, Ecuador/ CIBYTEL, Universidad de los Andes. Mérida, Venezuela.</institution>
+				<institution content-type="normalized">Universidad de Cuenca</institution>
+				<institution content-type="orgname">Universidad de Cuenca</institution>
+				<country country="EC">Ecuador</country>
+			</aff>
+			<pub-date pub-type="epub-ppub">
+				<season>Oct-Dec</season>
+				<year>2016</year>
+			</pub-date>
+			<volume>29</volume>
+			<issue>4</issue>
+			<fpage>415</fpage>
+			<lpage>423</lpage>
+			<history>
+				<date date-type="received">
+					<day>22</day>
+					<month>09</month>
+					<year>2015</year>
+				</date>
+				<date date-type="accepted">
+					<day>18</day>
+					<month>11</month>
+					<year>2015</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>El principal mecanismo de control de la presión arterial (PA) lo coordina el sistema nervioso central por medio del simpático y el parasimpático. Para simular este mecanismo existen diferentes modelos matemáticos que solo consideran los presorreceptores (barorreceptores) de alta presión, como mecanismo sensor de la PA. Sin embargo, existen otros receptores ubicados en las zonas de baja presión, que, hasta donde sabemos, no han sido considerados en los modelos descritos en la literatura, aunque tienen una participación importante en el control nervioso de la PA. Este artículo presenta un modelo matemático para la representación de los presorreceptores (barorreceptores) de baja presión, mediante la detección de los cambios del volumen sanguíneo en la aurícula, y su aporte al control inmediato de la PA, mediante la estimulación nerviosa de la frecuencia cardíaca. El modelo propuesto se acopló al mecanismo sensor de un modelo mayor. A partir del modelo es posible analizar la contribución y el comportamiento de los receptores de baja presión, lo que permite entender mejor este complejo sistema tanto en condiciones normales como patológicas, al incluir variables importantes en el control inmediato de la PA, que no se han incluido en modelos anteriores.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>SUMMARY</title>
+				<p>The main mechanism for blood pressure (BP) control is coordinated by the central nervous system through the sympathetic and parasympathetic systems. In order to simulate this mechanism, different mathematical models are available, but they take into account only the high pressure receptors as sensing systems for BP. However, other receptors located in low pressure areas have not, as far as we know, been considered in the models described in the literature, despite their important role in the nervous BP control. This paper presents a mathematical model for the representation of low pressure receptors by means of the detection of atrial volume changes, and their contribution to immediate BP control through nervous stimulation of the heart rate. The proposed model was coupled to the sensor mechanism of a larger model. With this model it is possible to analyze the contribution and behavior of low pressure receptors, thus allowing a better understanding of this complex system under normal and pathological conditions, since it includes important variables in the immediate BP control, not included in previous models.</p>
+			</trans-abstract>
+			<trans-abstract xml:lang="pt">
+				<title>RESUMO</title>
+				<p>O principal mecanismo de controle da pressão arterial (PA) o coordena o sistema nervoso central por meio do simpático e o parassimpático. Para simular este mecanismo existem diferentes modelos matemáticos que só consideram os pressorreceptores (barorreceptores) de alta pressão, como mecanismo sensor da PA. Mas, existem outros receptores localizados nas zonas de baixa pressão, que, até onde sabemos, não hão sido considerados nos modelos descritos na literatura, porém têm uma participação importante no controle nervoso da PA. Este artigo apresenta um modelo matemático para a reapresentação dos pressorreceptores (barorreceptores) de baixa pressão, mediante a detecção dos câmbios do volume sanguínea na aurícula, e seu aporte ao controle imediato da PA, mediante a estimulação nervosa da frequência cardíaca. O modelo proposto se acoplou ao mecanismo sensor de um modelo maior. A partir do modelo é possível analisar a contribuição e o comportamento dos receptores de baixa pressão, o que permite entender melhor este complexo sistema tanto em condições normais como patológicas, ao incluir variáveis importantes no controle imediato da PA, que não se hão incluído em modelos anteriores.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>PALABRAS CLAVE:</title>
+				<kwd>Presión Arterial</kwd>
+				<kwd>Presorreceptores</kwd>
+				<kwd>Sistema Nervioso Autónomo</kwd>
+				<kwd>Simulación por Computador</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>KEY WORDS:</title>
+				<kwd>Autonomic Nervous System</kwd>
+				<kwd>Blood Pressure</kwd>
+				<kwd>Computer Simulation</kwd>
+				<kwd>Presorreceptors</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="pt">
+				<title>PALAVRAS CHAVE:</title>
+				<kwd>Pressão Arterial</kwd>
+				<kwd>Pressorreceptores</kwd>
+				<kwd>Sistema Nervoso Autónomo</kwd>
+				<kwd>Simulação por Computador</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="17"/>
+				<page-count count="9"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCCIÓN</title>
+			<p>El mecanismo de control a corto plazo de la presión arterial (PA) tiene tres componentes principales: los sistemas cardiovascular y nervioso (simpático y parasimpático) y el mecanismo barorreceptor. El sistema de control cardiovascular se encarga principalmente de mantener el flujo sanguíneo hacia el cerebro y el corazón. El sistema nervioso central (SNC) coordina el control reflejo de la PA, y tiene su centro en el bulbo raquídeo. Este mecanismo de control se denomina reflejo barorreceptor. El reflejo se inicia en varios receptores sensitivos periféricos de distensión, denominados presorreceptores o barorreceptores, localizados en las arterias carótidas y aorta (estímulo aferente). Un aumento de la PA distiende los barorreceptores y hace que transmitan señales aumentando su descarga hacia el SNC. Si por el contrario disminuye la presión, se reduce dicha descarga <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+			<p>Estos receptores ubicados en las grandes arterias sistémicas se consideran de alta presión, pues responden a cambios en la PA sistólica y diastólica, en el rango de 60 a 180 mm Hg. Sin embargo, existen otros receptores que actúan de manera similar y están ubicados tanto en la aurícula derecha como en las arterias pulmonares y se denominan receptores de baja presión (RBP). Estos contribuyen al control minimizando los cambios de PA en respuesta a las variaciones en el volumen de sangre; se activan a partir de variaciones, por ejemplo, en el tamaño de las cavidades cardíacas, ocurridas por aumentos o disminuciones del volumen sanguíneo <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Estas modificaciones de tamaño y volumen dan lugar a alteraciones en la presión intracardíaca que oscilan entre 10 y 25 mm Hg, de ahí su nombre de RBP <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>)(</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Su función es contribuir al control de la PA en respuesta a los cambios en el volumen de sangre, es decir, estos receptores ubicados en la aurícula derecha y en las arterias pulmonares no pueden detectar la presión arterial sistémica, pero sí los incrementos simultáneos del volumen sanguíneo en las zonas de baja presión, induciendo reflejos paralelos a los provocados por los barorreceptores ubicados en el seno carotídeo y el arco aórtico; así se logra un control más eficiente de la PA <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+			<p>La <xref ref-type="fig" rid="f1">Figura 1</xref> resume los diferentes componentes del reflejo barorreceptor como mecanismo de control de la PA; la parte aferente, que envía las señales generadas en los receptores, el sistema eferente que incluye tanto el controlador (SNC) como las señales de respuesta del simpático y el parasimpático y por último los efectores compuestos por el nodo sinusal, el músculo cardíaco y las arteriolas.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title><bold>Reflejo barorreceptor como mecanismo de control de la presión arterial.</bold> Las lineas punteadas denotan el sistema aferente o sensor (señales de trasmision nerviosa al SNC). Las lineas continuas denotan el sistema eferente o controlador (transmision de las senales de control a traves de los sistemas simpatico y parasimpatico) hacia los actuadores (nodo sinusal y arteriolas)</title>
+					</caption>
+					<graphic xlink:href="0121-0793-iat-29-04-00415-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>Henson y colaboradores <xref ref-type="bibr" rid="B5"><sup>5</sup></xref> describieron la acción nerviosa sobre los cambios en la PA y la denominaron <italic>control por habituación</italic>, en el que se ajusta el uso de los sistemas simpático y parasimpático, a fin de obtener una respuesta rápida y estable y a la vez disminuir las acciones a largo plazo <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+			<p>Como alternativa para el estudio de este complejo sistema, la ingeniería biomédica ha utilizado el modelado matemático para el análisis y comprensión de los diferentes procesos implicados en el sistema barorreceptor como mecanismo de control de la PA. Sin embargo, dichos modelos consideran únicamente el comportamiento ampliamente conocido de los barorreceptores del seno carotídeo y del arco aórtico, zonas de alta presión del sistema cardiovascular <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>)(</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Tal es el caso de Vallverdú <xref ref-type="bibr" rid="B6"><sup>6</sup></xref> cuyo modelo para el estudio del sistema de control cardiovascular, en pacientes con lesiones coronarias, representa las salidas de los barorreceptores monitorizando la presión sanguínea tanto del seno carotídeo como del arco aórtico, mediante la combinación lineal de la señal de presión, P, y su derivada temporal positiva (dP/dt), ambas filtradas por sistemas de primer orden de constantes de tiempo τ<sub>1</sub> y τ<sub>2</sub>, respectivamente. Esta información se transmite luego a los controladores del sistema cardiovascular. Por su parte Ursino <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, en su modelo del sistema cardiovascular y control nervioso, establece además de la relación dinámica lineal entre la presión en el seno carotídeo y su actividad nerviosa, similar a la representada por Vallverdú, una relación en condiciones estáticas que responde a una forma sigmoidea con un umbral mínimo y una saturación máxima. Otros autores, como Djabella y colaboradores, De Vet y colaboradores, Svetlana y colaboradores <xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>)(</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, también plantean este comportamiento sigmoidal de los receptores y consideran igualmente los receptores carotídeos y aórticos. El modelo planteado por Danielsen <xref ref-type="bibr" rid="B11"><sup>11</sup></xref> y analizado por Ottesen y colaboradores <xref ref-type="bibr" rid="B12"><sup>12</sup></xref> presenta dos alternativas para el modelo del sistema barorreceptor, pero ninguna de ellas considera la contribución de los RBP. Otros modelos más complejos del barorreflejo como el de Doyle y colaboradores <xref ref-type="bibr" rid="B13"><sup>13</sup></xref> utilizan redes neuronales para su simulación. En este caso el diagrama de red neuronal propuesto para el barorreflejo se presenta en lazo cerrado con base en un modelo de dos capas, que reflejan el comportamiento de los receptores de las zonas de alta presión, sin considerar los de baja presión. En resumen, aunque los RBP tienen una participación importante en la variación de la frecuencia cardíaca producto de los cambios en el volumen sanguíneo, los modelos descritos en la literatura solo consideran los receptores de alta presión <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>)(</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, dejando a un lado la contribución de aquellos ubicados en las zonas de baja presión. En este trabajo se desarrolló una propuesta para el modelado matemático de la actuación de los receptores de las zonas de baja presión, con el fin de contribuir a una representación más realista y completa de la acción de control del sistema nervioso sobre la PA, para un mejor análisis de su comportamiento. El modelo de estos receptores se acopló a un modelo mayor complementando y verificando la acción nerviosa sobre la frecuencia cardíaca como consecuencia de las variaciones de la PA.</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>MATERIALES Y MÉTODOS</title>
+			<p>En esta sección se explican las etapas seguidas en el desarrollo del modelo propuesto, haciendo referencia solo a las ecuaciones derivadas para la representación directa de los RBP. Se hizo inicialmente una revisión exhaustiva de la fisiología del sistema cardiovascular y en particular del reflejo barorreceptor. Seguidamente se analizó la contribución al control de la PA de los receptores ubicados en las zonas de baja presión. Posteriormente se plantearon una estructura de funcionamiento y un conjunto de ecuaciones para representar los RBP, ubicados en la aurícula derecha, y se acopló a la estructura básica del modelo del sistema cardiovascular propuesto por Danielsen <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, haciendo algunas modificaciones que se describen oportunamente. Finalmente, se efectuaron las pruebas del modelo acoplado y se obtuvieron los resultados.</p>
+			<p>La estructura del modelo de Danielsen consiste en un sistema por compartimientos que incluye el corazón, la circulación y el sistema de control. En el corazón se distinguen las partes izquierda y derecha y las circulaciones sistémica y pulmonar. Las partes izquierda y derecha se representan, en el modelo de Danielsen, en función de una elastancia ventricular variable en el tiempo y que representa la función de activación y contractilidad ventricular y una elastancia auricular pasiva. La circulación, tanto sistémica como pulmonar, se divide en cinco secciones, tres para la parte arterial y dos para la sistémica, representadas por ecuaciones diferenciales ordinarias. Tanto el corazón como la circulación son inervados por el sistema nervioso para el control de la PA. Las ecuaciones que describen este sistema se pueden encontrar en el artículo de Danielsen <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Por otra parte, la respuesta del SNC y/o la parte eferente, en este mismo modelo, se define intuitivamente por el estudio del comportamiento de los datos observados y consta de un componente estático y otro dinámico. El primero equivale a las respuestas de estado estable y el segundo consiste en una ecuación diferencial ordinaria de primer orden que introduce la dinámica temporal, así:</p>
+			<p>
+				<inline-graphic xlink:href="0121-0793-iat-29-04-00415-i002.jpg"/>
+			</p>
+			<p>El controlador planteado por Danielsen tiene en cuenta diferente efectores (<sub>
+ <sup>
+ <italic>xi</italic>
+</sup> 
+</sub> ), la frecuencia cardíaca, la resistencia periférica en todos los sectores arteriales considerados, el volumen a presión cero y la <italic>compliance</italic> también en todos los sectores venosos y la <italic>elastancia</italic> ventricular. El detalle y los valores de los parámetros se pueden encontrar en la referencia 11.</p>
+			<p>Como parte de los ajustes, a diferencia del modelo base, para el esquema de control se plantea el uso de controladores proporcional-integral-derivativo (PID), para representar el control nervioso de la PA, pues sus características se pueden ajustar al comportamiento fisiológico <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Este control nervioso tiene efecto sobre la frecuencia cardíaca, la contractilidad y la resistencia periférica <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, pero debido a que los barorreceptores de baja presión influyen sobre la frecuencia cardíaca, solo se detalla en este artículo el modelo de la contribución de dichos receptores sobre la misma. Además, para la circulación sistémica se utiliza el modelo de flujo PoiseuilleHagen <xref ref-type="bibr" rid="B16"><sup>16</sup></xref> y no en función de una resistencia general como en el modelo original, debido a que la acción del sistema nervioso se ejecuta directamente sobre el radio de los vasos sanguíneos considerados.</p>
+			<p>La disposición de los receptores de baja presión es similar a la de los receptores de alta presión, colocada en paralelo. La <xref ref-type="fig" rid="f2">Figura 2</xref> muestra el funcionamiento de ambas estructuras como parte del esquema de control planteado. Por medio de líneas punteadas, se diferencian los componentes y el flujo de información de la acción de los receptores de baja presión.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Esquema de control propuesto. La linea punteada representa la contribucion de los receptores de baja presion</title>
+					</caption>
+					<graphic xlink:href="0121-0793-iat-29-04-00415-gf2.jpg"/>
+				</fig>
+			</p>
+			<p>El modelo de simulación se ejecuta por cada ciclo cardíaco y para el cálculo de su duración se toma como referencia el modelo de Ursino <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, quien lo calcula como la suma de las acciones simpática y parasimpática. Sin embargo, al igual que Danielsen <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, en su propuesta no considera otros factores importantes que influyen en la frecuencia cardíaca, como los RBP y el automatismo intrínseco del nodo sinoauricular. Se planteó en esta investigación, para aproximar el modelo a un comportamiento más realista, el cálculo del período como la suma del automatismo intrínseco que se produce en el nodo sinoauricular, la contribución simpática y parasimpática generada por la información transmitida por los receptores del seno carotídeo y el arco aórtico, y la estimulación nerviosa provocada por los RBP. El primer factor se adiciona utilizando el modelo IPFM (por la sigla en inglés de <italic>Integral Pulse Frequency Modulation</italic>) <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>)(</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, que consiste en una entrada o señal moduladora, m(t), que al actuar a través del modelo IPFM genera los instantes en los que se produciría un latido. Los latidos se generan cuando la integral del ritmo cardíaco instantáneo alcanza un umbral. En ese momento, el proceso se repite. El modelo genera un latido integrando una señal de entrada hasta que alcanza un umbral preestablecido. En ese instante se produce un pulso y el integrador se reinicia <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. El segundo componente es la contribución generada por los sistemas simpático y parasimpático producto de las mediciones y variaciones de la PA y por último la contribución de los receptores ubicados en la aurícula derecha y las arterias pulmonares, generada por los cambios de volumen y cuyo modelo se detalla a continuación.</p>
+			<p>El algoritmo para el cálculo de la contribución de estos receptores se basa en el concepto de sistemas realimentados. Se considera que la señal generada por los RBP es proporcional al valor máximo del volumen en la aurícula derecha y se compara con el valor promedio referencial en estado normal, originando una señal de error: <sub>
+ <sup>
+ <italic>e2 = Vadmax - Volref</italic>
+</sup> 
+</sub> 
+ <sub>.</sub> Donde e2 es el error en cada ciclo, <sub>
+ <sup>
+ <italic>Vadmax</italic>
+</sup> 
+</sub> es el volumen máximo en la aurícula derecha por ciclo y <sub>
+ <sup>
+ <italic>Volref</italic>
+</sup> 
+</sub> es el volumen referencial promedio, que se establece en 99 mL. (<sub>
+ <sup>
+ <italic>Vadmax</italic>
+</sup> 
+</sub> , se calcula a partir de las ecuaciones del modelo base, calculando el valor máximo en cada latido):</p>
+			<p>
+				<inline-graphic xlink:href="0121-0793-iat-29-04-00415-i004.jpg"/>
+			</p>
+			<p>donde <sub>
+ <sup>
+ <italic>Vad</italic>
+</sup> 
+</sub> es el volumen auricular derecho, <sub>
+ <sup>
+ <italic>Qad</italic>
+</sup> 
+</sub> es el flujo auricular derecho, <sub>
+ <sup>
+ <italic>Qvd</italic> 
+</sup> 
+</sub> es el flujo ventricular derecho (el detalle de las ecuaciones se puede encontrar en la referencia 11).</p>
+			<p>El valor del error (ec. 2) se envía al sistema de control, que actúa sobre el valor del período de duración de cada ciclo, calculado antes de cada nueva simulación, como se indica en la siguiente ecuación: <sub>
+ <sup>
+ <italic>Tt = T1 + Tp + Ts + re_b</italic>
+</sup> 
+</sub> . Donde <sub>
+ <sup>
+ <italic>T1</italic>
+</sup> 
+</sub> , es el período intrínseco, <sub>
+ <sup>
+ <italic>Tp</italic>
+</sup> 
+</sub> , la contribución del sistema parasimpático estimulado por los receptores de alta presión, <sub>
+ <sup>
+ <italic>Ts</italic>
+</sup> 
+</sub> , la contribución del sistema simpático provocado por los receptores de alta presión y <italic>re_b</italic>, la contribución de los sistemas simpático y parasimpático, producto de la estimulación de los RBP (el modelo propuesto calcula la contribución de la variable <italic>re_b</italic>; las otras variables forman parte del modelo base al que se acopla).</p>
+			<p>El modelo calcula el período provocando aumento o disminución de la frecuencia cardíaca en función de la señal enviada por los barorreceptores de alta presión estimulados por los cambios de la presión arterial media (PAM), y la señal enviada por los RBP (<italic>re_b</italic>) provocados por los cambios de volumen.</p>
+			<p>Para la contribución de los receptores de volumen se propuso un control proporcional, con la siguiente ecuación: <italic>re_b = K e2</italic>.</p>
+			<p>La señal de control es proporcional al error, es decir, su aumento o disminución están basados en las variaciones de volumen desde el valor tomado como referencial o base. El uso de este controlador permite la adecuación de la constante <italic>K</italic>, para aproximarla al comportamiento fisiológico real. El valor de dicha constante se varió hasta fijarlo en 0,1 para cumplir con el objetivo deseado.</p>
+			<p>Una vez establecido el modelo para la contribución de los RBP, se acopló al modelo base y se verificó su funcionamiento. Se comprobó en primer lugar que los receptores fuesen capaces de medir los cambios de volumen producidos en la aurícula a partir de los cambios de presión. Esta señal se envió al sistema de control y se graficó como respuesta la contribución de los RBP a la variación de la frecuencia cardíaca, producto de una perturbación. Se graficaron las diferentes situaciones, con y sin la contribución de dichos receptores.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTADOS</title>
+			<p>Se presentan y discuten algunos de los resultados obtenidos en el modelo de simulación. Según las variaciones de la PA ocurren cambios en el volumen de la aurícula. Si ocurre un aumento de la PA provocado por alguna perturbación externa, se produce un incremento en el volumen. La <xref ref-type="fig" rid="f3">Figura 3</xref> muestra cómo el volumen se desvía por encima de su valor en estado normal (sin perturbación). El error entre el valor en estado normal y el valor cuando ocurre la perturbación es enviado al sistema nervioso produciendo una alteración en la frecuencia cardíaca, lo cual tiene efecto directo sobre la PA.</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title><bold>Volumen auricular derecho cuando ocurre un aumento de la presión arterial media (PAM)</bold></title>
+					</caption>
+					<graphic xlink:href="0121-0793-iat-29-04-00415-gf3.jpg"/>
+				</fig>
+			</p>
+			<p>La <xref ref-type="fig" rid="f4">Figura 4</xref> muestra los cambios en la frecuencia cardíaca. Se grafica la respuesta del sistema nervioso sobre dicha frecuencia, teniendo en cuenta tanto los receptores de alta como los de baja presión. Luego se inhibe la acción nerviosa generada por los RBP y se grafica de nuevo. En la gráfica puede observarse la contribución de estos receptores a los cambios en la frecuencia cardíaca.</p>
+			<p>
+				<fig id="f4">
+					<label>Figura 4</label>
+					<caption>
+						<title><bold>Respuesta de la frecuencia cardíaca cuando ocurre un aumento de la PAM, sin la actuación de los RBP (línea gruesa) y con ella (línea delgada)</bold></title>
+					</caption>
+					<graphic xlink:href="0121-0793-iat-29-04-00415-gf4.jpg"/>
+				</fig>
+			</p>
+			<p>Por efecto de los RBP se obtiene una frecuencia cardíaca promedio de aproximadamente 49 latidos por minuto, mientras que el promedio de la frecuencia sin la contribución de dichos receptores es de 54 latidos por minuto. Se verifica la contribución sobre la frecuencia de las señales enviadas por estos receptores cuando existe una perturbación y se mejora la acción sobre la PA con una disminución adicional de la frecuencia.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSIÓN</title>
+			<p>Los resultados obtenidos incluyendo los RBP, como parte del mecanismo de control de la PA, permitieron, en primer lugar, obtener un modelo fisiológicamente más realista al considerar factores que no se habían tenido en cuenta en modelos anteriores, lo que permite una mejor comprensión de la acción nerviosa para el control de la PA. En segundo lugar, el comportamiento del modelo desarrollado se ajustó a los requerimientos planteados para estudiar con un modelo sencillo la contribución de estos receptores al control de la PA. Por último, el modelado matemático, en general, permite el análisis de los sistemas reales a partir de la simulación de diferentes estados o situaciones del sistema. Qué tan eficaz sea el estudio dependerá en primer lugar de su objetivo y, según este, de los factores que se tengan en cuenta para su diseño. Un buen modelo deberá estar ajustado, en la medida de lo posible, a la realidad de su comportamiento, para que pueda ser de utilidad en el estudio del sistema que está siendo representado.</p>
+		</sec>
+		<sec>
+			<title>AGRADECIMIENTOS</title>
+			<p>El trabajo de uno de los autores <xref ref-type="bibr" rid="B2"><sup>2</sup></xref> fue parcialmente apoyado por el proyecto Prometeo de la Secretaría de Educación Superior, Ciencia, Tecnología e Innovación de la República del Ecuador.</p>
+		</sec>
+		<sec>
+			<title>CONFLICTOS DE INTERESES</title>
+			<p>Ninguno que declarar.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCIAS BIBLIOGRÁFICAS</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Silverthorn DU. Flujo Sanguíneo y Control de la Presión Arterial. En: Fisiología Humana: Un enfoque integrado. 4ª ed. Bogotá: Panamericana; 2008. p. 521-24.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silverthorn</surname>
+							<given-names>DU</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Flujo Sanguíneo y Control de la Presión Arterial</chapter-title>
+					<source>Fisiología Humana: Un enfoque integrado</source>
+					<edition>4ª</edition>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Panamericana</publisher-name>
+					<year>2008</year>
+					<fpage>521</fpage>
+					<lpage>524</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Guyton AC. Nervous Regulation of the Circulation, and Rapid Control of Arterial Pressure. In: Textbook of Medical Physiology. 11ª ed. United States: Elseviers Saunders; 2006. p. 210-15.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guyton</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Nervous Regulation of the Circulation, and Rapid Control of Arterial Pressure</chapter-title>
+					<source>Textbook of Medical Physiology</source>
+					<edition>11ª</edition>
+					<publisher-loc>United States</publisher-loc>
+					<publisher-name>Elseviers Saunders</publisher-name>
+					<year>2006</year>
+					<fpage>210</fpage>
+					<lpage>215</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Freire-Maia L, Azevedo AD. The autonomic nervous system is not purely efferent system. Med Hypotheses. 1990 Jun;32(2):91-9. DOI 10.1016/0306-9877(90)90030-</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Freire</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Azevedo</surname>
+							<given-names>AD</given-names>
+						</name>
+					</person-group>
+					<article-title>The autonomic nervous system is not purely efferent system</article-title>
+					<source>Med Hypotheses</source>
+					<month>06</month>
+					<year>1990</year>
+					<volume>32</volume>
+					<issue>2</issue>
+					<fpage>91</fpage>
+					<lpage>99</lpage>
+					<pub-id pub-id-type="doi">10.1016/0306-9877(90)90030-</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Davila DF, Donis JH, Bellabarba G, Torres A, Casado J, Mazzei de Davila C. Cardiac afferents and neurohormonal activation in congestive heart failure. Med Hypotheses. 2002 Feb;54(2):242-53. DOI 10.1054/mehy.1999.0029.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Davila</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Donis</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Bellabarba</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Casado</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mazzei</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Cardiac afferents and neurohormonal activation in congestive heart failure</article-title>
+					<source>Med Hypotheses</source>
+					<month>02</month>
+					<year>2002</year>
+					<volume>54</volume>
+					<issue>2</issue>
+					<fpage>242</fpage>
+					<lpage>253</lpage>
+					<pub-id pub-id-type="doi">10.1054/mehy.1999.0029</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Henson MA, Ogunnaike BA, Schwaber JS. Habituating Control Strategies for Process Control. AlChE J. 1995 Mar;41(3):604-18. DOI 10.1002/aic.690410318.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Henson</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Ogunnaike</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Schwaber</surname>
+							<given-names>JS</given-names>
+						</name>
+					</person-group>
+					<article-title>Habituating Control Strategies for Process Control</article-title>
+					<source>AlChE J</source>
+					<month>03</month>
+					<year>1995</year>
+					<volume>41</volume>
+					<issue>3</issue>
+					<fpage>604</fpage>
+					<lpage>618</lpage>
+					<pub-id pub-id-type="doi">10.1002/aic.690410318</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Vallverdú Ferrer , M . Modelado y simulación del sistema de control cardiovascular en pacientes con lesiones coronarias [tesis doctoral]. Barcelona: Universidad Politécnica de Cataluña, Instituto de Cibernética; 1993.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferrer</surname>
+							<given-names>Vallverdú</given-names>
+						</name>
+					</person-group>
+					<source>Modelado y simulación del sistema de control cardiovascular en pacientes con lesiones coronarias</source>
+					<publisher-loc>Barcelona</publisher-loc>
+					<publisher-name>Universidad Politécnica de Cataluña, Instituto de Cibernética</publisher-name>
+					<year>1993</year>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Ursino M. Interaction between carotid baroregulation and the pulsating heart: a mathematical model. Am J Physiol. 1998 Nov;275(5 Pt 2):H1733-47.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ursino</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Interaction between carotid baroregulation and the pulsating heart: a mathematical model</article-title>
+					<source>Am J Physiol</source>
+					<month>11</month>
+					<year>1998</year>
+					<volume>275</volume>
+					<issue>5</issue>
+					<issue-part>Pt 2</issue-part>
+					<fpage>H1733</fpage>
+					<lpage>H1747</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Djabella K, Medigue C, Sorine M. A Differential Model of the Baroreflex Control of the cardiovascular System During a Tilt Test. In: Proceedings of 44 IEE Conference on Decision and Control, and the European Control Conference; Spain 2005 Dec. Spain: IEEE; 2005. p. 903-8. DOI 10.1109/CDC.2005.1582272.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Djabella</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Medigue</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sorine</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>A Differential Model of the Baroreflex Control of the cardiovascular System During a Tilt Test</source>
+					<conf-name>44IEE Conference on Decision and Control, and the European Control Conference</conf-name>
+					<conf-date>2005 Dec</conf-date>
+					<publisher-loc>Spain</publisher-loc>
+					<publisher-name>IEEE</publisher-name>
+					<year>2005</year>
+					<fpage>903</fpage>
+					<lpage>908</lpage>
+					<pub-id pub-id-type="doi">10.1109/CDC.2005.1582272</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. de Vet S. People in exercise: A mathematical model of the baroreflex. [cited 2014 Jul 13]. Available from: <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.mate.tue.nl/mate/pdfs/10872.pdf">http://www.mate.tue.nl/mate/pdfs/10872.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>de Vet</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<source>People in exercise: A mathematical model of the baroreflex</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2014-07-13">2014 Jul 13</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.mate.tue.nl/mate/pdfs/10872.pdf">http://www.mate.tue.nl/mate/pdfs/10872.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Svetlana P, Jan M, Frantisek M. Human cardiovascular system with heart failure under baroreflex control (numerical model). Acta Bioeng Biomech. 2001;3(1):39-52.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Svetlana</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Jan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Frantisek</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Human cardiovascular system with heart failure under baroreflex control (numerical model)</article-title>
+					<source>Acta Bioeng Biomech</source>
+					<year>2001</year>
+					<volume>3</volume>
+					<issue>1</issue>
+					<fpage>39</fpage>
+					<lpage>52</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Danielsen M. Modeling of feedback mechanisms which control the heart function in a view to an implementation in cardiovascular models [PhD Thesis]. Roskilde: Roskilde University, Department of Mathematics and Physics; 1998.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Danielsen</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Modeling of feedback mechanisms which control the heart function in a view to an implementation in cardiovascular models</source>
+					<publisher-loc>Roskilde</publisher-loc>
+					<publisher-name>Roskilde University, Department of Mathematics and Physics</publisher-name>
+					<year>1998</year>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<mixed-citation>12. Danielsen M , Ottesen JT. A Cardiovascular Model. In: Ottesen JT , Olufsen MS, Larsen JK. Applied Mathematical Models in Human Physiology. Philadelphia: SIAM; 2004. p. 137-200.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Danielsen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ottesen</surname>
+							<given-names>JT</given-names>
+						</name>
+					</person-group>
+					<chapter-title>A Cardiovascular Model</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ottesen</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Olufsen</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Larsen</surname>
+							<given-names>JK</given-names>
+						</name>
+					</person-group>
+					<source>Applied Mathematical Models in Human Physiology</source>
+					<publisher-loc>Philadelphia</publisher-loc>
+					<publisher-name>SIAM</publisher-name>
+					<year>2004</year>
+					<fpage>137</fpage>
+					<lpage>200</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Doyle F, Henson M, Ogunnaike B, Schwaber J, Rybak I. Modeling of the Baroreceptor Reflex with Applications in Process Modeling and Control. In: Omidvar O, Elliot DL, editors. Neural System for Control. New York: Academic Press; 1997. p. 87-122.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Doyle</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Henson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ogunnaike</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Schwaber</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rybak</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Modeling of the Baroreceptor Reflex with Applications in Process Modeling and Control</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Omidvar</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Elliot</surname>
+							<given-names>DL</given-names>
+						</name>
+					</person-group>
+					<source>Neural System for Control</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Academic Press</publisher-name>
+					<year>1997</year>
+					<fpage>87</fpage>
+					<lpage>122</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ramírez J, Moreno F, Rojas R. Modelo de Lazo Cerrado para el Análisis de la Influencia de la Respuesta de los Barorreceptores en la Variabilidad de la Frecuencia Cardiaca. En: Martino L. Desarrollo y avances en métodos numéricos para ingeniería y ciencias aplicadas: memorias del IX Congreso Internacional de Métodos Numéricos en Ingeniería y Ciencias Aplicadas; CIMENICS' 2008, Isla de Margarita, Venezuela, 31 de marzo al 4 de abril de 2008. Venezuela: Sociedad Venezolana de Métodos Numéricos en Ingeniería; 2008. p. B36-8.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Modelo de Lazo Cerrado para el Análisis de la Influencia de la Respuesta de los Barorreceptores en la Variabilidad de la Frecuencia Cardiaca</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martino</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>Desarrollo y avances en métodos numéricos para ingeniería y ciencias aplicadas</source>
+					<comment>memorias del IX Congreso Internacional de Métodos Numéricos en Ingeniería y Ciencias Aplicadas; CIMENICS' 2008, Isla de Margarita, Venezuela, 31 de marzo al 4 de abril de 2008</comment>
+					<publisher-loc>Venezuela</publisher-loc>
+					<publisher-name>Sociedad Venezolana de Métodos Numéricos en Ingeniería</publisher-name>
+					<year>2008</year>
+					<fpage>B36</fpage>
+					<lpage>B38</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Sánchez B, Rojas R. Acción nerviosa sobre la resistencia periférica como respuesta al reflejo barorreceptor para el control de la presión arterial. En: XVCongreso Latinoamericano de Control Automático. CLCA 2012 Proceeding; Perú 2012. Lima: Pontificia Universidad Católica del Perú; 2012. p. 124.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<source>Acción nerviosa sobre la resistencia periférica como respuesta al reflejo barorreceptor para el control de la presión arterial</source>
+					<conf-name>XVCongreso Latinoamericano de Control Automático</conf-name>
+					<publisher-loc>Lima</publisher-loc>
+					<publisher-name>Pontificia Universidad Católica del Perú</publisher-name>
+					<year>2012</year>
+					<fpage>124</fpage>
+					<lpage>124</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Chandran KB. Rheology of Blood. In: Cardiovascular Biomechanics. New York: New York University Press; 1992. p. 35-93.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chandran</surname>
+							<given-names>KB</given-names>
+						</name>
+					</person-group>
+					<article-title>Rheology of Blood</article-title>
+					<source>Cardiovascular Biomechanics</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>New York University Press</publisher-name>
+					<year>1992</year>
+					<fpage>35</fpage>
+					<lpage>93</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Meste O, Blain G, Bermon S. Some Consideration on the IPFM for the Heart Rate Variability Analysis. [cited 2014 Dec 10]. Available from: <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.cinc.org/archives/2003/pdf/709.pdf">http://www.cinc.org/archives/2003/pdf/709.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meste</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Blain</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bermon</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<source>Some Consideration on the IPFM for the Heart Rate Variability Analysis</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2014-12-10">2014 Dec 10</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.cinc.org/archives/2003/pdf/709.pdf">http://www.cinc.org/archives/2003/pdf/709.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

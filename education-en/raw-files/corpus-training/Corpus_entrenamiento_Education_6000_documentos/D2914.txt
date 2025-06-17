@@ -1,0 +1,57 @@
+#ITI#Combining estimators in interlaboratory studies and meta-analyses#FTI#
+#IRE# Many statistical methods (estimators) are available for estimating the consensus value (or average effect) and heterogeneity variance in interlaboratory studies or meta-analyses. These estimators are all valid because they are developed from or supported by certain statistical principles. However, no estimator can be perfect and must have error or uncertainty (known as estimator uncertainty). For a given dataset, the consensus value and heterogeneity variance given by different estimators can often differ significantly. Consequently, the choice of different estimators can affect the conclusion of an interlaboratory study or meta-analysis. However, there is no universally accepted metric for determining which estimator is optimal among a set of candidate estimators. Instead of selecting and using a single estimator, this paper proposes an estimator-averaging approach to combine a set of individual estimators. The final averaged estimator is a linear combination of individual estimators, which accounts for three sources of uncertainties including the estimator uncertainty. Monte Carlo simulations were performed to examine the long-run performance of four individual estimators and the proposed averaged estimators. A case study: the determination of the Newtonian constant of gravitation is presented, where 10 individual estimators (eight frequentist weighted average methods and two Bayesian methods) are combined using the proposed estimator-averaging approach#FRE#
+#IPC# consensus value; heterogeneity; interlaboratory study; meta-analysis; uncertainty#FPC#
+#IRF# Koepke A., Lafarge T., Possolo A., Toman B., Consensus building for interlaboratory studies, key comparisons, and meta-analysis, Metrologia, 54, 3, pp. S34-S62, (2017); 
+Borenstein M., Hedges L.V., Higgins J.P., Rothstein H.R., A basic introduction to fixed-effect and random- effects models for meta-analysis, Res Synth Methods, 1, 2, pp. 97-111, (2010); 
+Huang H., A unified theory of measurement errors and uncertainties, Meas Sci Technol, 29, 12, (2018); 
+Huang H., Estimating bias limit of moving-boat ADCP streamflow measurements, J Hydraul Eng, 144, 6, (2018); 
+Petropoulou M., Mavridis D.A., Comparison of 20 heterogeneity variance estimators in statistical synthesis of results from studies: a simulation study, Wiley Stat Med, 36, 27, pp. 4266-4280, (2017); 
+Langan D., Higgins J.P.T., Jackson D., Et al., A comparison of heterogeneity variance estimators in simulated random-effects meta-analyses, Res Synth Methods, 10, 1, pp. 83-98, (2019); 
+Sidik K., Jonkman J.N., A comparison of heterogeneity variance estimators in combining results of studies, Stat Med, 26, 9, pp. 1964-1981, (2007); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synth Methods, 7, 1, pp. 55-79, (2016); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Hedges L.V., Olkin I., Statistical Methods for Meta-Analysis, (1985); 
+Paule R.C., Mandel J., Consensus values and weighting factors, J Res Natl Bur Stand, 87, 5, pp. 377-385, (1982); 
+Paule R.C., Mandel J., Consensus values, regressions, and weighting factors, J Res Natl Inst Stand Technol, 94, 3, pp. 197-203, (1989); 
+Hardy R.J., Thompson S.G., A likelihood approach to meta-analysis with random effects, Stat Med, 15, 6, pp. 619-629, (1996); 
+Raudenbush S.W., Analyzing effect sizes: random-effects models, The Handbook of Research Synthesis and Meta-Analysis, pp. 295-315, (2009); 
+Viechtbauer W., Confidence intervals for the amount of heterogeneity in meta-analysis, Stat Med, 26, 1, pp. 37-52, (2007); 
+van Aert R.C.M., Jackson D., Multistep estimators of the between-study variance: the relationship with the Paule-Mandel estimator, Stat Med, 37, 17, pp. 2616-2629, (2018); 
+Chung Y., Rabe-Hesketh S., Choi I.H., Avoiding zero between-study variance estimates in random-effects meta-analysis, Stat Med, 32, 23, pp. 4071-4089, (2013); 
+Chung Y., Rabe-Hesketh S., Dorie V., Gelman A., Liu J., A nondegenerate penalized likelihood estimator for variance parameters in multilevel models, Psychometrika, 78, 4, pp. 685-709, (2013); 
+Rukhin A.L., Estimating heterogeneity variance in meta-analysis, J R Stat Soc Series B Stat Methodology, 75, 3, pp. 451-469, (2013); 
+Smith T.C., Spiegelhalter D.J., Thomas A., Bayesian approaches to random-effects meta-analysis: a comparative study, Stat Med, 14, 24, pp. 2685-2699, (1995); 
+Novianti P.W., Roes K.C.B., van der Tweel I., Estimation of between-trial variance in sequential meta-analyses: a simulation study, Contemp Clin Trials, 37, 1, pp. 129-138, (2014); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Stat, 30, 3, pp. 261-293, (2005); 
+Antonelli J., Cefalu M., Averaging causal estimators in high dimensions, J Causal Inference, 8, 1, pp. 92-107, (2020); 
+de Laplace P.-S., ditions Jacques Gabay, Paris, 1995. Reprint of the 1820 third edition (Book II) and of the 1816, 1818, 1820 and 1825 originals (Supplements), (1820); 
+Lavancier F., Rochet P., A general procedure to combine estimators, Comput Stat Data Anal, 94, pp. 175-192, (2016); 
+Lavancier F., Rochet P., A tutorial on estimator averaging in spatial point process models, Journal de la Societe Francaise de Statistique, 158, 3, (2017); 
+Mitra P., Lian H., Mitra R., Liang H., Xie M., A general framework for frequentist model averaging, Sci China Math, 62, 2, pp. 205-226, (2019); 
+Liang H., Zou G., Wan A.T.K., Zhang X., Optimal weight choice for frequentist model average estimators, J Am Stat Assoc, 106, 495, pp. 1053-1066, (2011); 
+Zhu R., Zhang X., Ma Y., Zou G., Model averaging estimation for high-dimensional covariance matrices with a network structure, Econ J, 24, 1, pp. 177-197, (2021); 
+Veroniki A.A., Jackson D., Bender R., Et al., Methods to calculate uncertainty in the estimated overall effect size from a random-effects meta-analysis, Res Synth Methods, 10, 1, pp. 23-43, (2019); 
+Higgins J.P., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta- analysis, J R Stat Soc Ser A Stat Soc, 172, 1, pp. 137-159, (2009); 
+Huang H., Signal content index (SCI): a measure of the effectiveness of measurements and an alternative to p-value for comparing two means, Meas Sci Technol, 31, 4, (2020); 
+Higgins J.P., Thompson S.G., Quantifying heterogeneity in a meta-analysis, Stat Med, 21, 11, pp. 1539-1558, (2002); 
+Higgins J.P., Thompson S.G., Deeks J.J., Altman D.G., Measuring inconsistency in meta-analyses, BMJ, 327, 7414, pp. 557-560, (2003); 
+Borenstein M., Higgins J.P.T., Larry V., Hedges L.V., Rothstein H.R., Basics of meta-analysis: I<sup>2</sup> is not an absolute measure of heterogeneity, Res Synth Methods, 8, 1, pp. 5-18, (2017); 
+Takkouche B., Cadarso-Suarez C., Spiegelman D., Evaluation of old and new tests of heterogeneity in epidemiologic meta-analysis, Am J Epidemiol, 150, 2, pp. 206-215, (1999); 
+Evaluation of Measurement Data—Guide to the Expression of Uncertainty in Measurement (GUM 1995 with Minor Corrections), (2008); 
+Koepke A., Lafarge T., Toman B., Possolo A., NIST Consensus Builder—User's Manual, (2017); 
+Huang H., A unified formula for uncertainty estimation in interlaboratory studies and key comparisons, Cal Lab Int J Metrol, 26, 4, pp. 22-29, (2019); 
+Wadsworth H.M., Summarization and interpretation of data, Handbook of Statistical Methods for Engineers and Scientists, (1989); 
+Sidik K., Jonkman J.N., A simple confidence interval for meta-analysis, Stat Med, 21, 21, pp. 3153-3159, (2002); 
+Kacker R.N., Combining information from inter-laboratory evaluations using a random effects model, Metrologia, 41, 3, pp. 132-136, (2004); 
+Possolo A., Private communication; 
+Dose V., Bayesian estimate of the Newtonian constant of gravitation, Meas Sci Technol, 18, 1, pp. 176-182, (2007); 
+Willink R., Comments on ‘Bayesian estimate of the Newtonian constant of gravitation’ with an alternative analysis, Meas Sci Technol, 18, 7, pp. 2275-2280, (2007); 
+Mohr P.J., Newell D.B., Taylor B.N., CODATA recommended values of the fundamental physical constants: 2014, Rev Mod Phys, 88, (2016); 
+Huang H., A new method for estimating consensus value in interlaboratory comparison, Metrologia, 55, 1, pp. 106-113, (2018); 
+Merkatas C., Toman B., Possolo A., Schlamminger S., Shades of dark uncertainty and consensus value for the Newtonian constant of gravitation, Metrologia, 56, 5, (2019); 
+Dose V., Reply to the comments on ‘Bayesian estimate of the Newtonian constant of gravitation’, Meas Sci Technol, 18, 7, pp. 2281-2282, (2007); 
+Mohr P.J., Taylor B.N., CODATA recommended values of the fundamental physical constants: 2002, Rev Mod Phys, 77, 1, pp. 1-107, (2005); 
+Rucker G., Schwarzer G., Carpenter J.R., Schumacher M., Undue reliance on I <sup>2</sup> in assessing heterogeneity may mislead, BMC Med Res Methodol, 8, 1, (2008); 
+Shahar D.J., Minimizing the variance of a weighted average, Open J Stat, 7, 2, pp. 216-224, (2017); 
+Fairweather W.R., A method of obtaining an exact confidence interval for the common mean of several normal populations, J R Stat Soc Ser C Appl Stat, 21, 3, pp. 229-233, (1972); 
+Moore B., Krishnamoorthy K., Combining independent normal sample means by weighting with their standard errors, J Stat Comput Simul, 58, 2, pp. 145-153, (1997)#FRF#

@@ -1,0 +1,24 @@
+#ITI#Meta-analyses of partial correlations are biased: Detection and solutions#FTI#
+#IRE# We demonstrate that all meta-analyses of partial correlations are biased, and yet hundreds of meta-analyses of partial correlation coefficients (PCCs) are conducted each year widely across economics, business, education, psychology, and medical research. To address these biases, we offer a new weighted average, UWLS+3. UWLS+3 is the unrestricted weighted least squares weighted average that makes an adjustment to the degrees of freedom that are used to calculate partial correlations and, by doing so, renders trivial any remaining meta-analysis bias. Our simulations also reveal that these meta-analysis biases are small-sample biases (n < 200), and a simple correction factor of (n − 2)/(n − 1) greatly reduces these small-sample biases along with Fisher's z. In many applications where primary studies typically have hundreds or more observations, partial correlations can be meta-analyzed in standard ways with only negligible bias. However, in other fields in the social and the medical sciences that are dominated by small samples, these meta-analysis biases are easily avoidable by our proposed methods#FRE#
+#IPC# bias; meta-analysis; partial correlation coefficients; small sample#FPC#
+#IRF# Aloe A.M., Thompson C.G., The synthesis of partial effect sizes, J Soc Soc Work and Res, 4, 4, pp. 390-405, (2013); 
+Stanley T.D., Doucouliagos H., Meta-Regression Analysis in Economics and Business, (2012); 
+Olkin I., Pratt J.W., Unbiased estimation of certain correlation coefficients, Ann Math Stat, 29, pp. 201-211, (1958); 
+Stanley T.D., Doucouliagos H., Correct standard errors can bias meta-analysis, Res Synth Methods, 14, pp. 515-519, (2023); 
+Rockers P.C., Rottingen J., Shemilt I., Tugwell P., Barnighausen T., Inclusion of quasi-experimental studies in systematic reviews of health systems research, Health Pol, 119, pp. 511-521, (2015); 
+Fisher R.A., The distribution of the partial correlation coefficient, Metron, 3, pp. 329-332, (1924); 
+Gustafson R.L., Partial correlations in regression computations, JASA, 56, 294, pp. 363-367, (1961); 
+Havranek T., Irsova Z., Zeynalova O., Tuition fees and university enrolment: a meta-regression analysis, Oxford Bull Econ Stat, 80, pp. 1145-1184, (2018); 
+Geyer-Klingeberg J., Hang M., Rathgeber A.W., What drives financial hedging? A meta-regression analysis of corporate hedging determinants, Inter Rev Fin Anal, 61, pp. 203-221, (2019); 
+Olkin I., Siotani M., Asymptotic distribution of functions of a correlation matrix, Essays in Probability and Statistics, pp. 235-251, (1976); 
+Aert V.R., Goos C., A critical reflection on computing the sampling variance of the partial correlation coefficient, Res Synth Methods, 14, pp. 520-525, (2023); 
+Levy K.J., Narula S.C., Testing hypotheses concerning partial correlations: some methods and discussion, Int Statis Rev/Revue Internationale de Statistique, 46, 2, pp. 215-218, (1978); 
+Wooldridge J.M., Introductory Econometrics, (2003); 
+Stanley T.D., Doucouliagos H., Neither fixed nor random: weighted least squares meta-analysis, Stat Med, 34, pp. 2116-2127, (2015); 
+Stanley T.D., Doucouliagos H., Neither fixed nor random: weighted least squares meta-regression, Res Synth Methods, 8, pp. 19-42, (2017); 
+Stanley T.D., Doucouliagos H., Ioannidis J.P.A., Beyond random effects: when small-study findings are more heterogeneous, Adv Methods Pract Psychol Sci, 5, pp. 1-11, (2022); 
+Stanley T.D., Doucouliagos H., Havranek T., Reducing the Biases of the Conventional Meta-Analysis of Correlations, (2023); 
+Stanley T.D., Carter E., Doucouliagos H., What meta-analyses reveal about the replicability of psychological research, Psyc Bull, 144, pp. 1325-1346, (2018); 
+Borenstein M., Hedges L., Higgins J., Rothstein H., Introduction to Meta-Analysis, (2009); 
+Stanley T.D., Ioannidis J.P.A., Maier M., Doucouliagos H., Otte W.M., Bartos F., Unrestricted weighted least squares represent medical research better than random effects in 67,308 Cochrane meta-analyses, J Clin Epidemin, 157, pp. 53-58, (2023); 
+Askarov Z., Doucouliagos A., Doucouliagos H., Stanley T.D., Selective and (mis)leading economics journals: meta-research evidence, J Econ Surv, (2023)#FRF#

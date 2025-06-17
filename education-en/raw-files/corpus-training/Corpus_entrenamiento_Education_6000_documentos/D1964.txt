@@ -1,0 +1,33 @@
+#ITI#Estimating a Dose-Response Relationship in Quasi-Experimental Student Success Studies#FTI#
+#IRE# Propensity score matching and weighting methods are applied to balance covariates and reduce selection bias in the analysis of observational study data, and ultimately estimate a treatment effect. We wish to evaluate the impact of a Supplemental Instruction (SI) program on student success in an Introductory Statistics course. In such student success studies, propensity score methods have been applied successfully for evaluating a binary treatment, namely whether a student attending SI performs better or worse than a student who does not attend SI. However, in this setting, we also want to draw inferences on the dose-response relationship, namely how does the number of times a student attends SI impact performance in the course. In this paper, we introduce generalized propensity scores (GPS) for analyzing such continuous treatment. We extend recent developments in GPS analyses from the personalized learning literature for evaluating SI engagement on student success. As part of the exposition, we provide a brief review of generalized propensity scores, compare our proposed GPS approaches, present guidelines on how these methods can be applied to educational data, and present R code and illustration for practitioners to use as a template in educational data mining applications#FRE#
+#IPC# Causal inference; Covariate balance; Educational data mining; Generalized propensity score; Observational studies; Supplemental instruction#FPC#
+#IRF# Austin P.C., Goodness-of-fit diagnostics for the propensity score model when estimating treatment effects using covariate adjustment with the propensity score, Pharmacoepidemiology and Drug Safety, 17, pp. 1202-1217, (2008); 
+Austin P.C., Balance diagnostics for comparing the distribution ofbaseline covariates between treatment groups in propensity-score matchedsamples, Statistics in Medince, 28, pp. 3083-3107, (2009); 
+Austin P.C., Stuart E.A., Moving towards best practice when using inverse probability of treatment weighting (iptw) using the propensity score to estimate causal treatment effects in observational studies, Statistics in Medicine, 34, 28, pp. 3661-3679, (2015); 
+Babcock R., Georgiou J., Comparison of two online courseware instructional methods using propensity score matching, Journal of Effective Teaching in Higher Education, (2020); 
+Dawson P., van der Meer J., Skalicky J., Cowley K., On the effectiveness of supplemental instruction: a systemic review of supplemental instruction and peer-assisted study sessions literature between 2001 and 2010, Review of Educational Research, 84, 4, pp. 609-639, (2014); 
+Dehejia R.H., Wahba S., Propensity score-matching methods for nonexperimental causal studies, Review of Economics and Statistics, pp. 150-161, (2002); 
+Fletcher R., Newton-like methods, Practical Methods of Optimization, pp. 44-79, (2013); 
+Fong C., Hazlett C., Imai K., Covariate balancing propensity score for a continuous treatment:Application to the efficacy of political advertisements, The Annals of Applied Statistics, pp. 160-167, (2018); 
+Fuente A.D.L., Mathematical methods and models for economists, (2000); 
+Greer J., Mark M., Evaluation methods for intelligent tutoring systems revisited, International Journal of Artificial Intelligence in Education, 26, (2016); 
+Greifer N., Weightit:Weighting for covariate balance in observational studies [Computer software manual], (2020); 
+Guarcello M.A., Levine R.A., Beemer J., Frazee J.P., Laumakis M.A., Schellenberg S.A., Balancing student success:Assessing supplemental instruction through coarsened exact matching, Technology, Knowledge and Learning, 22, 3, pp. 335-352, (2017); 
+Hirano K., Imbens G.W., The propensity score with continuous treatments, Applied Bayesian Modeling and Causal Inference from Incomplete-Data Perspectives (Pp, pp. 78-83, (2004); 
+Imai K., Ratkovic M., Covariate balancing propensity score, Journal of the Royal Statistical Society:Series B (Statistical Methodology), 76, 1, pp. 243-263, (2013); 
+Supplemental Instruction Supervisor Manual, (2014); 
+James G., Witten D., Hastie T., Tibshirani R., An introduction to statistical learning, (2013); 
+Evaluating continuous training programmes by using the generalized propensity score, Journal of the Royal Statistical Society Series A, 175, 2, pp. 587-617, (2012); 
+Martin D., Arendale D., Covariate balancing propensity score, (1993); 
+McCaffrey D.F., Ridgeway G., Morral A.R., Propensity score estimation with boosted regression for evaluating causal effects in observational studies, Statistics in Medince, 9, pp. 403-425, (2004); 
+Mousavi A., Schmidt M., Squires V., Wilson K., Assessing the effectiveness of student advice recommender agent (Sara): The case of automated personalized feedback, International Journal of Artificial Intelligence in Education., (2020); 
+Propensity score matching for education data:Worked examples, The Journal of Experimental Education, 88, pp. 145-164, (2020); 
+R:A language and environment for statistical computing [Computer software manual], Vienna, Austria., (2020); 
+Robins J.M., Hernan M.A., Brumback B., Marginal structural models and causal inference in epidemiology, Epidemiology, pp. 550-560, (2000); 
+Rosenbaum P.R., Rubin D.B., The central role of the propensity score in observational studies for causal effects, Biometrika, 70, pp. 41-55, (1983); 
+Rosenbaum P.R., Rubin D.B., Reducing bias in observational studies using subclassification on the propensity score, Journal of the American Statistical Association, pp. 150-161, (1984); 
+Sales A.C., Pane J.F., The effect of teachers reassigning students to new cognitive tutor sections, In Proceedings of the 13Th International Conference on Educational Data Mining., (2020); 
+Stuart E., King G., Imai K., Ho D., Matchit:Nonparametric preprocessing for parametric causal inference, Journal of Statistical Software, 42, (2011); 
+Wilde E.T., Hollister R., How close is close enough? evaluating propensity score matching using data from a class size reduction experiment, Journal of Policy Analysis and Management, 26, 3, pp. 455-477, (2007); 
+Wilke M.C., Levine R.A., Guarcello M.A., Fan J., Estimating the optimal treatment regime for student success programs, Behaviormetrika, 48, pp. 309-343, (2020); 
+Zhu Y., Coffman D., Ghosh D., A boosting algorithm for estimating generalized propensity scores with continuous treatments, Journal of Causal Inference, pp. 25-40, (2015)#FRF#

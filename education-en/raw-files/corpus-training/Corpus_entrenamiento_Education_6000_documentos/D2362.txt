@@ -1,0 +1,47 @@
+#ITI#A Robust Method for Detecting Item Misfit in Large-Scale Assessments#FTI#
+#IRE# Viable methods for the identification of item misfit or Differential Item Functioning (DIF) are central to scale construction and sound measurement. Many approaches rely on the derivation of a limiting distribution under the assumption that a certain model fits the data perfectly. Typical DIF assumptions such as the monotonicity and population independence of item functions are present even in classical test theory but are more explicitly stated when using item response theory or other latent variable models for the assessment of item fit. The work presented here provides a robust approach for DIF detection that does not assume perfect model data fit, but rather uses Tukey’s concept of contaminated distributions. The approach uses robust outlier detection to flag items for which adequate model data fit cannot be established.#FRE#
+#IPC# DIF; item fit; mixture distribution model; outlier detection; robust statistics; Tukey’s contaminated distributions#FPC#
+#IRF# Aitkin M., Wilson G.T., Mixture models, outliers, and the EM algorithm, Technometrics, 22, 3, pp. 325-331, (1980); 
+Barton M.A., Lord F.M., An upper asymptote for the tree-parameter logistic item response model, (1981); 
+Berkson J., Some difficulties of interpretation encountered in the application of the chi-square test, Journal of the American Statistical Association, 33, 203, pp. 526-536, (1938); 
+Buchholz J., Hartig J., Comparing attitudes across groups: An IRT-based item-fit statistic for the analysis of measurement invariance, Applied Psychological Measurement, 43, 3, pp. 241-250, (2019); 
+Burgess Y., A Rasch investigation of type I error rates and power associated with item fit statistics under large-scale testing situations, (2020); 
+Bock R.D., Zimowski M.F., Multiple group IRT. In Handbook of modern item response theory, pp. 433-448, (1997); 
+Chalmers R.P., mirt: A multidimensional item response theory package for the R environment, Journal of statistical Software, 48, pp. 1-29, (2012); 
+Estrada S., Nava Munoz S., Abreu R.P., A SAS macro for the Q-Index, (2018); 
+Geisser S., The predictive sample reuse method with applications, Journal of the American Statistical Association, 70, 350, pp. 320-328, (1975); 
+Glas C., RIDA: Rasch incomplete design analysis, (1990); 
+Guttman L., A basis for scaling qualitative data, American Sociological Review, 9, pp. 139-150, (1944); 
+Haberman S.J., Identifiability of parameters in item response models with unconstrained ability distributions, ETS Research Report Series, 2005, 2, (2005); 
+Haberman S.J., Use of generalized residuals to examine goodness of fit of item response models, ETS Research Report Series, 2009, 1, (2009); 
+Holland P.W., The Dutch identity: A new tool for the study of item response models, Psychometrika, 55, 1, pp. 5-18, (1990); 
+Huber P.J., Robust statistics, (1981); 
+Kang T., Chen T.T., Performance of the generalized S-X2 item fit index for polytomous IRT models, Journal of Educational Measurement, 45, 4, pp. 391-406, (2008); 
+Karabatsos G., A critique of Rasch residual fit statistics, Journal of Applied Measurement, 1, 2, pp. 152-176, (2000); 
+Kohler C., Robitzsch A., Hartig J., A bias-corrected RMSD item fit statistic: An evaluation and comparison to alternatives, Journal of Educational and Behavioral Statistics, 45, 3, pp. 251-273, (2020); 
+Leys C., Ley C., Klein O., Bernard P., Licata L., Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median, Journal of Experimental Social Psychology, 49, 4, pp. 764-766, (2013); 
+Liao W.-W., Ho R.-G., Yen Y.-C., Cheng H.-C., The four-parameter logistic item response theory model as a robust method of estimating ability despite aberrant responses, Social Behavior and Personality, 40, 10, pp. 1679-1694, (2012); 
+Maris G., Bechger T., On Interpreting the model parameters for the three parameter logistic model, Measurement: Interdisciplinary Research and Perspectives, 7, 2, pp. 75-88, (2009); 
+Miller J., Reaction time analysis with outlier exclusion: Bias varies with sample size, The Quarterly Journal of Experimental Psychology, 43, 4, pp. 907-912, (1991); 
+Molenaar I.W., Nonparametric models for polytomous responses, Handbook of modern item response theory, pp. 369-380, (1997); 
+Muller M., Item fit statistics for Rasch analysis: Can we trust them?, Journal of Statistical Distributions and Applications, 7, (2020); 
+Newcomb S., A generalized theory of the combination of observations so as to obtain the best result, American Journal of Mathematics, 8, pp. 343-366, (1886); 
+PISA 2015 Technical Report, (2017); 
+Orlando M., Thissen D., Likelihood-based item-fit indices for dichotomous item response theory models, Applied Psychological Measurement, 24, 1, pp. 50-64, (2000); 
+Orlando M., Thissen D., Further investigation of the performance of S-X2: An item fit index for use with dichotomous item response theory models, Applied Psychological Measurement, 27, pp. 289-298, (2003); 
+Pearson K., Contributions to the mathematical theory of evolution, Philosophical Transactions of the Royal Society A, 185, pp. 71-110, (1894); 
+R: A language and environment for statistical computing, (2020); 
+Rost J., von Davier M., A conditional item-fit index for Rasch models, Applied Psychological Measurement, 18, 2, pp. 171-182, (1994); 
+Rost J., von Davier M., Mixture distribution Rasch models, Rasch models—Foundations, recent developments and applications, pp. 257-268, (1995); 
+Rousseeuw P., Croux C., Alternatives to the median absolute deviation, Journal of the American Statistical Association, 88, 424, pp. 1273-1283, (1993); 
+Rudas T., Clogg C.C., Lindsay B.G., A new index of fit based on mixture methods for the analysis of contingency tables, Journal of the Royal Statistical Society, Series B, 56, 4, pp. 623-639, (1994); 
+Sinharay S., Assessment of Person fit for mixed-format tests, Journal of Educational and Behavioral Statistics, 40, pp. 343-365, (2015); 
+Tijmstra J., Bolsinova M., Liaw Y.L., Rutkowski L., Rutkowski D., Sensitivity of the RMSD for detecting item-level misfit in low-performing countries, Journal of Educational Measurement, 57, 4, pp. 566-583, (2020); 
+Titterington D.M., Smith A.F.M., Makov U.E., Statistical analysis of finite mixture distributions, (1985); 
+Tukey J.W., A survey of sampling from contaminated distributions, Contributions to probability and statistics: Essays in honor of Harold Hotelling, pp. 448-485, (1960); 
+von Davier M., Is there need for the 3PL model? Guess what?, Measurement: Interdisciplinary Research and Perspectives, 7, 2, pp. 110-114, (2009); 
+von Davier M., Diagnosing diagnostic models: From von Neumann’s elephant to model equivalencies and network psychometrics, Measurement: Interdisciplinary Research and Perspectives, 16, 1, pp. 59-70, (2018); 
+von Davier M., Molenaar I.W., A person-fit index for polytomous Rasch models, latent class models, and their mixture generalizations, Psychometrika, 68, pp. 213-228, (2003); 
+Wainer H., Thissen D., Estimating ability with the wrong model, Journal of Educational Statistics, 12, 4, pp. 339-368, (1987); 
+Wright B., Panchapakesan N., A procedure for sample-free item analysis, Educational and Psychological measurement, 29, 1, pp. 23-48, (1969); 
+Yamamoto K., Khorramdel L., von Davier M., Scaling PIAAC cognitive data, Technical report of the survey of adult skills (PIAAC), pp. 1-33, (2013)#FRF#

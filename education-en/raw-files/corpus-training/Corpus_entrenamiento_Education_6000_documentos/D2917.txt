@@ -1,0 +1,35 @@
+#ITI#RIMeta: An R shiny tool for estimating the reference interval from a meta-analysis#FTI#
+#IRE# A reference interval, or an interval in which a prespecified proportion of measurements from a healthy population are expected to fall, is used to determine whether a person's measurement is typical of a healthy individual. For a specific biomarker, multiple published studies may provide data collected from healthy participants. A reference interval estimated by combining the data across these studies is typically more generalizable than a reference interval based on a single study. Methods for estimating reference intervals from random effects meta-analysis and fixed-effects meta-analysis have been recently proposed and implemented using R software. We present an R Shiny tool, RIMeta, implementing these methods, which allows users not proficient in R to estimate a reference interval from a meta-analysis using aggregate data (mean, standard deviation, and sample size) from each study. RIMeta (https://cers.shinyapps.io/RIMeta/) provides users a convenient way to estimate a reference interval from a meta-analysis and to generate the reference interval plot to visualize the results. The use of this web-based R Shiny tool does not require the installation of R or any background knowledge of programming. We explain all functions of the R Shiny tool and illustrate how to use it with a real data example#FRE#
+#IPC# meta-analysis; Normal range; R shiny; reference interval; reference range; software#FPC#
+#IRF# Siegel L., Murad M.H., Chu H., Estimating the reference range from a meta-analysis, Res Synth Methods, 12, 2, pp. 148-160, (2021); 
+Boyd J.C., Defining laboratory reference values and decision limits: populations, intervals, and interpretations, Asian J Androl, 12, 1, pp. 83-90, (2010); 
+Horn P.S., Pesce A.J., Copeland B.E., A robust approach to reference interval estimation and evaluation, Clin Chem, 44, 3, pp. 622-631, (1998); 
+Pathan F., D'Elia N., Nolan M.T., Marwick T.H., Negishi K., Normal ranges of left atrial strain by speckle-tracking echocardiography: a systematic review and meta-analysis, J Am Soc Echocardiogr, 30, 1, pp. 59-70, (2017); 
+Levy P.T., Machefsky A., Sanchez A.A., Et al., Reference ranges of left ventricular strain measures by two-dimensional speckle-tracking echocardiography in children: a systematic review and meta-analysis, J Am Soc Echocardiogr, 29, 3, pp. 209-225, (2016); 
+Venner A.A., Doyle-Baker P.K., Lyon M.E., Fung T.S., A meta-analysis of leptin reference ranges in the healthy paediatric prepubertal population, Ann Clin Biochem, 46, pp. 65-72, (2009); 
+IntHout J., Ioannidis J.P.A., Rovers M.M., Goeman J.J., Plea for routinely presenting prediction intervals in meta-analysis, BMJ Open, 6, (2016); 
+Siegel L., Chu H., An improved Bayesian approach to estimating the reference interval from a meta-analysis: directly monitoring the marginal quantiles and characterizing their uncertainty, Res Synth Methods; 
+Cao W., Siegel L., Zhou J., Et al., Estimating the reference interval from a fixed effects meta-analysis, Res Synth Methods, 12, 5, pp. 630-640, (2021); 
+Schmid C.H., Stijnen T., White I., Handbook of Meta-Analysis, (2020); 
+Bender R., Friede T., Koch A., Et al., Methods for evidence synthesis in the case of very few studies, Res Synth Methods, 9, 3, pp. 382-392, (2018); 
+Egger M., Smith G.D., Altman D., Systematic Reviews in Health Care: Meta-Analysis in Context, (2008); 
+Hedges L.V., Olkin I., Statistical Methods for Meta-Analysis, (2014); 
+Borenstein M., Hedges L.V., Higgins J.P., Rothstein H.R., A basic introduction to fixed-effect and random-effects models for meta-analysis, Res Synth Methods, 1, 2, pp. 97-111, (2010); 
+Laird N.M., Mosteller F., Some statistical methods for combining experimental results, Int J Technol Assess Health Care, 6, 1, pp. 5-30, (1990); 
+Rice K., Higgins J.P.T., Lumley T., A re-evaluation of fixed effect(s) meta-analysis, J R Stat Soc A Stat Soc, 181, 1, pp. 205-227, (2018); 
+Higgins J.P., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc A Stat Soc, 172, 1, pp. 137-159, (2009); 
+Veroniki A.A., Jackson D., Viechtbauer W., Et al., Methods to estimate the between-study variance and its uncertainty in meta-analysis, Res Synth Methods, 7, 1, pp. 55-79, (2016); 
+Langan D., Higgins J.P.T., Jackson D., Et al., A comparison of heterogeneity variance estimators in simulated random-effects meta-analyses, Res Synth Methods, 10, 1, pp. 83-98, (2019); 
+Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper), Bayesian Anal, 1, 3, (2006); 
+Lambert P.C., Sutton A.J., Burton P.R., Abrams K.R., Jones D.R., How vague is vague? A simulation study of the impact of the use of vague prior distributions in MCMC using WinBUGS, Stat Med, 24, 15, pp. 2401-2428, (2005); 
+Siegel L., Murad M.H., Riley R.D., Bazerbachi F., Wang Z., Chu H., A guide to estimating the reference range from a meta-analysis using aggregate or individual participant data, Am J Epidemiol, 191, 5, pp. 948-956, (2022); 
+Balduzzi S., Rucker G., Schwarzer G., How to perform a meta-analysis with R: a practical tutorial, Evidence Based Mental Health, 22, 4, pp. 153-160, (2019); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Plummer M., rjags: Bayesian Graphical Models using MCMC; 
+Veroniki A.A., Jackson D., Bender R., Et al., Methods to calculate uncertainty in the estimated overall effect size from a random-effects meta-analysis, Res Synth Methods, 10, 1, pp. 23-43, (2019); 
+Hartung J., An alternative method for meta-analysis, Biometr J, 41, 8, pp. 901-916, (1999); 
+Hartung J., Knapp G., A refined method for the meta-analysis of controlled clinical trials with binary outcome, Stat Med, 20, 24, pp. 3875-3889, (2001); 
+Hartung J., Knapp G., On tests of the overall treatment effect in meta-analysis with normally distributed responses, Stat Med, 20, 12, pp. 1771-1782, (2001); 
+Sidik K., Jonkman J.N., A simple confidence interval for meta-analysis, Stat Med, 21, 21, pp. 3153-3159, (2002); 
+Conceicao L.B., Baggio J.A.O., Mazin S.C., Edwards D.J., Santos T.E.G., Normative data for human postural vertical: a systematic review and meta-analysis, PLoS One, 13, 9, (2018); 
+Drazen J.M., Sharing individual patient data from clinical trials, N E J Med, 372, 3, pp. 201-202, (2015)#FRF#

@@ -1,0 +1,35 @@
+#ITI#A Small Sample Correction for Factor Score Regression#FTI#
+#IRE# Factor score regression (FSR) is widely used as a convenient alternative to traditional structural equation modeling (SEM) for assessing structural relations between latent variables. But when latent variables are simply replaced by factor scores, biases in the structural parameter estimates often have to be corrected, due to the measurement error in the factor scores. The method of Croon (MOC) is a well-known bias correction technique. However, its standard implementation can render poor quality estimates in small samples (e.g. less than 100). This article aims to develop a small sample correction (SSC) that integrates two different modifications to the standard MOC. We conducted a simulation study to compare the empirical performance of (a) standard SEM, (b) the standard MOC, (c) naive FSR, and (d) the MOC with the proposed SSC. In addition, we assessed the robustness of the performance of the SSC in various models with a different number of predictors and indicators. The results showed that the MOC with the proposed SSC yielded smaller mean squared errors than SEM and the standard MOC in small samples and performed similarly to naive FSR. However, naive FSR yielded more biased estimates than the proposed MOC with SSC, by failing to account for measurement error in the factor scores.#FRE#
+#IPC# factor score regression; measurement error; method of Croon; small sample estimation; structural equation modeling#FPC#
+#IRF# Anderson J.C., Gerbing D.W., The effect of sampling error on convergence, improper solutions, and goodness-of-fit indices for maximum likelihood confirmatory factor analysis, Psychometrika, 49, 2, pp. 155-173, (1984); 
+Bartlett M.S., The statistical conception of mental factors, British Journal of Psychology, 28, pp. 97-104, (1937); 
+Bentler P.M., Yuan K.-H., Structural equation modeling with small samples: Test statistics, Multivariate Behavioral Research, 34, 2, pp. 181-197, (1999); 
+Bollen K.A., Structural equations with latent variables, (1989); 
+Boomsma A., Nonconvergence, improper solutions, and starting values in LISREL maximum likelihood estimation, Psychometrika, 50, 2, pp. 229-242, (1985); 
+Brunner J., Austin P.C., Inflation of type i error rate in multiple regression when independent variables are measured with error, Canadian Journal of Statistics, 37, 1, pp. 33-46, (2009); 
+Buonaccorsi J.P., Measurement error: Models, methods, and applications, (2010); 
+Carroll R.J., Ruppert D., Stefanski L.A., Crainiceanu C.M., Measurement error in nonlinear models: A modern perspective, (2006); 
+Cole D.A., Preacher K.J., Manifest variable path analysis: Potentially serious and misleading consequences due to uncorrected measurement error, Psychological methods, 19, 2, (2014); 
+Cox D.R., Hinkley D.V., Theoretical statistics, (1979); 
+Croon M., Using predicted latent scores in general latent structure models, Latent variable and latent structure models, pp. 195-223, (2002); 
+De Jonckere J., Rosseel Y., Using bounded estimation to avoid nonconvergence in small sample structural equation modeling, Structural Equation Modeling: A Multidisciplinary Journal, pp. 1-16, (2022); 
+Devlieger I., Mayer A., Rosseel Y., Hypothesis testing using factor score regression: A comparison of four methods, Educational and Psychological Measurement, 76, 5, pp. 741-770, (2016); 
+Devlieger I., Rosseel Y., Factor score path analysis: An alternative for SEM?, Methodology, 13, pp. 31-38, (2017); 
+Fuller W.A., Properties of some estimators for the errors-in-variables model, The Annals of Statistics, 8, 2, pp. 407-422, (1980); 
+Fuller W.A., Measurement error models, (1987); 
+Hastie T., Tibshirani R., Friedman J., The elements of statistical learning: Data mining, inference, and prediction, (2006); 
+James G., Witten D., Hastie T., Tibshirani R., An introduction to statistical learning, 112, (2013); 
+Lastovicka J.L., Thamodaran K., Common factor score estimates in multiple regression problems, Journal of Marketing Research, 28, 1, pp. 105-112, (1991); 
+Nevitt J., Hancock G.R., Evaluating small sample approaches for model test statistics in structural equation modeling, Multivariate Behavioral Research, 39, 3, pp. 439-478, (2004); 
+Nunnally J.C., Bernstein I.H., Psychometric theory, (1994); 
+Ozenne B., Fisher P.M., Budtz-Jorgensen E., Small sample corrections for wald tests in latent variable models, Journal of the Royal Statistical Society: Series C (Applied Statistics), 69, 4, pp. 841-861, (2020); 
+R: A language and environment for statistical computing, (2020); 
+Rosseel Y., lavaan: An R package for structural equation modeling, Journal of Statistical Software, 48, 2, pp. 1-36, (2012); 
+Rosseel Y., Small sample solutions for structural equation modeling, Small sample size solutions: A guide for applied researchers and practitioners, pp. 226-238, (2020); 
+Shevlin M., Miles J.N., Bunting B.P., Summated rating scales. A Monte Carlo investigation of the effects of reliability and collinearity in regression models, Personality and Individual Differences, 23, 4, pp. 665-676, (1997); 
+Skrondal A., Laake P., Regression among factor scores, Psychometrika, 66, 4, pp. 563-575, (2001); 
+Smid S.C., Rosseel Y., SEM with small samples: Two-step modeling and factor score regression versus Bayesian estimation with informative priors, Small sample size solutions: A guide for applied researchers and practitioners, pp. 239-254, (2020); 
+Takane Y., Hwang H., Comparisons among several consistent estimators of structural equation models, Behaviormetrika, 45, 1, pp. 157-188, (2018); 
+Thomson G., The meaning of “i” in the estimate of “g, British Journal of Psychology, 25, pp. 92-99, (1934); 
+Thurstone L.L., The vectors of mind, (1935); 
+Wall M.M., Amemiya Y., Estimation for polynomial structural equation models, Journal of the American Statistical Association, 95, 451, pp. 929-940, (2000)#FRF#

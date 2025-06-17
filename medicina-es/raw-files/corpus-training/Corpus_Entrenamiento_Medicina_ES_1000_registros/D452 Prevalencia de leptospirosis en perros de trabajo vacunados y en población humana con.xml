@@ -1,0 +1,2888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.5009</article-id>
+			<article-id pub-id-type="publisher-id">00009</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Prevalencia de leptospirosis en perros de trabajo vacunados y en población humana con riesgo ocupacional</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Prevalence of leptospirosis in vaccinated working dogs and humans with occupational risk</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Murcia</surname>
+						<given-names>César A.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Astudillo</surname>
+						<given-names>Miryam</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Romero</surname>
+						<given-names>Marlyn H.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Maestría en Ciencias Veterinarias, Universidad de Caldas, Manizales, Colombia</institution>
+				<institution content-type="normalized">Universidad de Caldas</institution>
+				<institution content-type="orgname">Universidad de Caldas</institution>
+				<addr-line>
+					<named-content content-type="city">Manizales</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Escuela de Ciencias Básicas, Universidad del Valle, Cali, Colombia</institution>
+				<institution content-type="normalized">Universidad del Valle</institution>
+				<institution content-type="orgname">Universidad del Valle</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Grupo CIENVET, Departamento Salud Animal, Facultad de Ciencias Agropecuarias, Universidad de Caldas, Manizales, Colombia</institution>
+				<institution content-type="normalized">Universidad de Caldas</institution>
+				<institution content-type="orgdiv2">Departamento Salud Animal</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Agropecuarias</institution>
+				<institution content-type="orgname">Universidad de Caldas</institution>
+				<addr-line>
+					<named-content content-type="city">Manizales</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label><bold>Correspondencia:</bold> Marlyn H. Romero, Departamento de Salud Animal, Facultad de Ciencias Agropecuarias, Universidad de Caldas, Calle 26 No 66-10, Manizales, Colombia Teléfono: (576) 878 1516 <email>marlyn.romero@ucaldas.edu.co</email>
+				</corresp>
+			</author-notes>
+		<!--	<pub-date pub-type="epub">
+				<day>20</day>
+				<month>08</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date pub-type="collection">-->
+				<pub-date pub-type="epub-ppub">
+				<month>05</month>
+				<year>2020</year>
+			</pub-date>
+			<volume>40</volume>
+			<issue>1</issue>
+			<supplement>Suppl.</supplement>
+			<fpage>62</fpage>
+			<lpage>75</lpage>
+			<history>
+				<date date-type="received">
+					<day>03</day>
+					<month>04</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>16</day>
+					<month>12</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción:</title>
+					<p>Los perros de trabajo pueden infectarse con diversas serovariedades de <italic>Leptospira</italic> que se mantienen en sus túbulos renales e intersticios por mucho tiempo, por lo que se convierten en portadores y fuentes de infección para otros huéspedes.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p>Establecer la prevalencia de <italic>Leptospira</italic> spp. en perros de trabajo vacunados y en población humana con riesgo ocupacional de seis unidades policiales en Colombia.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos:</title>
+					<p>Mediante tres instrumentos estructurados, se evaluaron 92 perros de trabajo con inmunización previa contra <italic>Leptospira</italic> spp. (65 machos y 27 hembras) y 69 personas de seis unidades policiales de los municipios de Manizales, Pereira, Armenia, Ibagué, Tuluá y Cali. Se obtuvieron muestras sanguíneas de las personas y de los perros, las cuales se evaluaron mediante la prueba de microaglutinación (<italic>Microscopic Agglutination Test</italic>, MAT) en 24 serogrupos. Se hizo un examen clínico de los perros y se obtuvieron muestras de orina para urocultivo.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p>La seroprevalencia de leptospirosis en las personas fue de 2,9 % (n=2) y en los perros de 57,61 % (n=53). Los serogrupos más prevalentes en los perros fueron <italic>Leptospira canicola</italic> y <italic>L. panama.</italic> El urocultivo fue positivo en 58,7 % (54/92) de las muestras y se encontró asociación estadísticamente significativa entre la edad de los perros (≥10 años; p=0,043) y la ubicación de la unidad policial (p=0,016).</p>
+				</sec>
+				<sec>
+					<title>Conclusión:</title>
+					<p>Las características epidemiológicas de la leptospirosis en los perros sugieren una presentación endémica de la infección. Se requieren algoritmos diagnósticos sensibles y específicos para investigar la leptospirosis canina y diferenciar los anticuerpos vacunales de la infección natural.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p>Working dogs have been identified as a risk group for developing leptospirosis because they can be infected by <italic>Leptospira</italic> spp., which can be kept in the renal tubules and interstices for a long time, making them carriers and sources of infection for other hosts, including humans.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p>To establish the prevalence of <italic>Leptospira</italic> spp. in vaccinated working dogs and in the occupationally exposed population in six police units in Colombia.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p>A total of 92 vaccinated dogs (65 males and 27 females) and 69 people from six police units in the municipalities of Manizales, Pereira, Armenia, Ibagué, Tuluá, and Cali were tested. Three structured instruments were applied and blood samples were obtained from people and dogs, which were processed with the microagglutination test (MAT) in 24 serogroups. A clinical examination of the dogs was performed and urine samples were obtained for urine cultures.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>The seroprevalence of human leptospirosis was 2.9% (n=2) and in dogs, it was 57.61% (n=53). Among the dogs, serogroups <italic>L. canicola and L. pana</italic>ma were the most prevalent. Urine cultures were positive in 58.7% (54/92) of the samples. A statistically significant association was found between the age of the dogs (≥10 years; p=0.043) and the location of the police unit (p=0.016) with the urine culture.</p>
+				</sec>
+				<sec>
+					<title>Conclusion:</title>
+					<p>The epidemiological characteristics of leptospirosis in dogs suggest an endemic presentation of the infection. There is an urgent need to improve current diagnostic methods to investigate canine leptospirosis and differentiate between vaccine and natural infection antibodies.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Leptospira</kwd>
+				<kwd>estudios seroepidemiológicos</kwd>
+				<kwd>pruebas de aglutinación</kwd>
+				<kwd>factores de riesgo</kwd>
+				<kwd>perros</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Leptospira</kwd>
+				<kwd>seroepidemiologic studies</kwd>
+				<kwd>agglutination tests</kwd>
+				<kwd>risk factors</kwd>
+				<kwd>dogs</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="44"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La leptospirosis es una zoonosis de distribución mundial ocasionada por una bacteria del género <italic>Leptospira</italic>; afecta al hombre y a una gran variedad de especies animales, entre ellas, los perros <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. La enfermedad se transmite por contacto directo con orina u otros fluidos corporales infectados, o indirectamente después del contacto con agua o suelos contaminados <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Los perros juegan un papel importante en la transmisión de la leptospirosis a los seres humanos y a otros animales domésticos <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>Los perros de trabajo son un grupo de animales entrenados para desarrollar actividades de asistencia humana, por ejemplo, servicio de guardia, ayuda terapéutica, soporte a operaciones de rescate, guías y cuidadores de personas invidentes o discapacitadas, y guías policiales, así como en la detección de estupefacientes y explosivos, entre otras <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Los cuidadores y manejadores de estos animales tienen una interacción muy estrecha con ellos, lo que exige cuidados de salud y medidas preventivas apropiadas. Los perros de trabajo son un grupo de riesgo para desarrollar leptospirosis <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Estos perros son inmunizados rutinariamente contra la leptospirosis, pero varios autores han descrito fallas en la capacidad del producto biológico para generar inmunidad y problemas asociados con la protección incompleta que confieren las vacunas bacterianas comerciales, aspecto que aumenta la probabilidad de transmisión de la leptospirosis por los perros a los humanos y otros animales propensos <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Por otra parte, la prueba de microaglutinación (<italic>Microscopic Agglutination Test</italic>, MAT) se utiliza ampliamente en los estudios epidemiológicos y la confirmación clínica de la leptospirosis canina, pero esta no discrimina los anticuerpos aglutinantes relacionados con la infección de los que se desarrollan como producto de la vacunación, aspecto que dificulta la interpretación de los resultados <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>En Colombia, las vacunas inactivadas disponibles para la inmunización de perros con riesgo de exposición a <italic>Leptospira</italic> spp. contienen las serovariedades <italic>L. canicola</italic> y <italic>L. icterohaemorrhagiae</italic> (entre otras 20, aproximadamente) <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. No obstante, algunos estudios serológicos de leptospirosis canina en el país, mediante la prueba MAT, detectaron títulos en un rango que osciló entre 1,1 y 79,9 % <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, con una gran frecuencia de serovariedades diferentes a las usadas en los productos biológicos, tales como <italic>L. fainei</italic>, <italic>L. tarassovi</italic>, <italic>L. louisiana</italic>, <italic>L. grippotyphosa</italic> y <italic>L. pomona</italic><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+		<p>Aunque se asume que los perros de trabajo de la Policía Nacional están bien protegidos contra la leptospirosis por estar sujetos a planes sistemáticos de inmunización, las características clínicas inespecíficas de la enfermedad (letargia, anorexia y vómito, entre otras) no son por sí solas suficientes para un diagnóstico adecuado de la enfermedad. Estas y la probabilidad de exposición a condiciones ambientales de alto riesgo, son factores que sugieren la importancia de efectuar estudios epidemiológicos que permitan conocer el estado real de la infección en los perros vacunados y la distribución espacial de la infección en ellos, para establecer si representan un problema de salud pública, en especial, para sus manejadores.</p>
+		<p>El objetivo de esta investigación fue establecer la prevalencia de <italic>Leptospira</italic> spp<italic>.</italic> en perros de trabajo vacunados y en población con riesgo ocupacional de seis unidades policiales en Colombia. Los resultados obtenidos pueden orientar las medidas preventivas apropiadas para el control de la leptospirosis en los grupos de exposición ocupacional.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p>Se llevó a cabo un estudio de corte transversal que contó con la aprobación del Comité de Ética para la Experimentación con Animales de la Universidad de Caldas (Acta No. 01 del 29 de agosto de 2017). Se obtuvo la autorización de la Policía Nacional para realizar el trabajo y el consentimiento informado previo a la toma de las muestras biológicas de humanos y perros.</p>
+			<sec>
+				<title><italic>Localización geográfica</italic></title>
+				<p>La policía cuenta con 25 unidades policiales en el territorio nacional y en el estudio se seleccionaron seis de ellas por estar situadas en lugares de clima cálido y condiciones húmedas, lo que favorece la supervivencia de <italic>Leptospira</italic> spp., y por los antecedentes previos de serorreacción <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+				<p>Se evaluaron las unidades policiales de los municipios de Manizales (altitud de 2.170 msnm, una temperatura media anual de 17 °C y precipitación anual de 2.358 mm), Pereira (altitud de 1.411 msnm, temperatura media anual de 28 °C y precipitación anual de 2.750 mm), Armenia (altitud de 1.229 msnm, temperatura media anual de 22 °C y precipitación anual de 2.164 mm), Ibagué (altitud de 928 msnm, temperatura media anual de 24 °C y precipitación anual de 1.691 mm), Tuluá (altitud de 960 msnm, temperatura media anual de 24 °C y precipitación anual de 1.300 mm) y Cali (altitud de 985 msnm, temperatura media anual de 24 oC y precipitación anual de 1.483 mm).</p>
+			</sec>
+			<sec>
+				<title><italic>Población de estudio y tamaño de la muestra</italic></title>
+				<p>La población de estudio en las seis remontas policiales estuvo conformada por 93 guías y 120 perros de diferentes razas (labrador retriever, golden retriever, pastor belga, pastor alemán y cruces), con edades entre 1 y 14 años, los cuales contaban con un plan previo de vacunación que incluía la inmunización sistemática con vacunas bivalentes (<italic>L. icterohaemorraghiae</italic> y <italic>L. canicola</italic>).</p>
+				<p>Se efectuó un muestreo aleatorio estratificado proporcional para la selección de las muestras con el programa Stata, versión 13.0, y se consideraron como referencia seroprevalencias nacionales de infección del 18 % en humanos (n=69) <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref> y de 36,8 % en perros (n=92) <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. En ambos casos, se consideró un error del 5 % y un nivel de significación del 95 %.</p>
+				<p>Los criterios de inclusión de los humanos fueron tener contacto directo con los perros durante sus labores y haber estado vinculados a las unidades no menos de tres meses. Utilizando el muestreo por conveniencia, se seleccionaron dos grupos de perros, según los antecedentes de vacunación confirmada en las historias clínicas y de manejo de cada unidad policial:</p>
+				<disp-quote>
+					<p>a) grupo 1, perros vacunados con 11 meses de antelacion al muestreo (unidades policiales de Cali, Tulua y Armenia) y</p>
+				</disp-quote>
+				<disp-quote>
+					<p>b) grupo 2, representado por perros con inmunizacion un mes antes del muestreo (Pereira, Manizales e Ibague).</p>
+				</disp-quote>
+			</sec>
+			<sec>
+				<title><italic>Examen clínico</italic></title>
+				<p>Un médico veterinario hizo el examen clínico sistemático de los perros al inicio del estudio para evidenciar síntomas relacionados con la leptospirosis <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Esta información se consignó en un instrumento validado mediante una prueba piloto en la unidad policial de Manizales, cuya confiabilidad se determinó mediante el cálculo del alfa de Cronbach (0,75).</p>
+			</sec>
+			<sec>
+				<title><italic>Factores de riesgo</italic></title>
+				<p>Se utilizaron dos cuestionarios estructurados y validados (alfa de Cronbach de 0,75). En el primero se evaluaron las variables demográficas, sanitarias, de manejo de los perros y sobre la presencia de especies silvestres, y se diligenció mediante visitas a las instalaciones, la observación directa y entrevistas al personal responsable. El segundo indagaba entre los participantes del estudio, su edad y su cargo, el contacto con fluidos de los perros, las normas de bioseguridad y las conductas de manejo de los animales.</p>
+			</sec>
+			<sec>
+				<title><italic>Muestras sanguíneas y prueba de microaglutinación</italic></title>
+				<p>Se obtuvieron 5 ml de sangre por punción de la vena cefálica en humanos y perros en tubos Eppendorf sin anticoagulante, que luego se centrifugaron por cinco minutos a 500<italic>g</italic>; los sueros se almacenaron a 2 °C durante el transporte al laboratorio y se congelaron a -20 °C hasta el momento del análisis, efectuado 15 días después del muestreo.</p>
+				<p>Las muestras se procesaron en el Laboratorio de Diagnóstico de Agentes Biológicos, área de leptospirosis, de la Universidad del Valle en Cali. El mantenimiento de las cepas y el manejo de la técnica MAT se ajustaron a los parámetros convencionales <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, y se utilizaron cepas de referencia suministradas por el laboratorio internacional de referencia para el diagnóstico de la leptospirosis del <italic>Royal Tropical Institute</italic> (Ámsterdam, Holanda) (<xref ref-type="table" rid="t1">cuadro 1</xref>). Se consideraron como positivos los sueros de los humanos con títulos de 1:100 o más.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Cepas de referencia de <italic>Leptospira</italic> spp. suministradas por el <italic>Royal Tropical Institute</italic> (KIT) de Holanda usadas en la prueba MAT</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Nº</th>
+									<th align="left">Especie</th>
+									<th align="left">Serogrupo</th>
+									<th align="left">Serovariedad</th>
+									<th align="left">Cepa</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">1</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Autumnalis</td>
+									<td align="left">Autumnalis*</td>
+									<td align="left">Akiyami A</td>
+								</tr>
+								<tr>
+									<td align="left">2</td>
+									<td align="left"><italic>L. borgpetersenii</italic></td>
+									<td align="left">Ballum</td>
+									<td align="left">Ballum</td>
+									<td align="left">Mus 127</td>
+								</tr>
+								<tr>
+									<td align="left">3</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Bataviae</td>
+									<td align="left">Bataviae</td>
+									<td align="left">Swart</td>
+								</tr>
+								<tr>
+									<td align="left">4</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Australis</td>
+									<td align="left">Bratislava</td>
+									<td align="left">Jez Bratislava</td>
+								</tr>
+								<tr>
+									<td align="left">5</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Canicola</td>
+									<td align="left">Canicola*</td>
+									<td align="left">Hond Utrecht IV</td>
+								</tr>
+								<tr>
+									<td align="left">6</td>
+									<td align="left"><italic>L. weilii</italic></td>
+									<td align="left">Celledoni</td>
+									<td align="left">Celledoni</td>
+									<td align="left">celledoni</td>
+								</tr>
+								<tr>
+									<td align="left">7</td>
+									<td align="left"><italic>L. kirschneri</italic></td>
+									<td align="left">Cynopteri</td>
+									<td align="left">Cynopteri</td>
+									<td align="left">3522 C</td>
+								</tr>
+								<tr>
+									<td align="left">8</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Djasiman</td>
+									<td align="left">Djasiman</td>
+									<td align="left">Djasiman</td>
+								</tr>
+								<tr>
+									<td align="left">9</td>
+									<td align="left"><italic>L. kirschneri</italic></td>
+									<td align="left">Grippotyphosa</td>
+									<td align="left">Grippotyphosa*</td>
+									<td align="left">Moskva V</td>
+								</tr>
+								<tr>
+									<td align="left">10</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Sejroe</td>
+									<td align="left">Hardjo*</td>
+									<td align="left">Hardjoprajitno</td>
+								</tr>
+								<tr>
+									<td align="left">11</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Hebdomadis</td>
+									<td align="left">Hebdomadis*</td>
+									<td align="left">Hebdomadis</td>
+								</tr>
+								<tr>
+									<td align="left">12</td>
+									<td align="left"><italic>L. fainei</italic></td>
+									<td align="left">Hurstbridge</td>
+									<td align="left">Hurstbridge</td>
+									<td align="left">BUT 6</td>
+								</tr>
+								<tr>
+									<td align="left">13</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Icterohaemorrhagiae</td>
+									<td align="left">Icterohaemorrhagiae</td>
+									<td align="left">RGA</td>
+								</tr>
+								<tr>
+									<td align="left">14</td>
+									<td align="left"><italic>L. inadai</italic></td>
+									<td align="left">Manhao</td>
+									<td align="left">Lichuan</td>
+									<td align="left">Li 130</td>
+								</tr>
+								<tr>
+									<td align="left">15</td>
+									<td align="left"><italic>L. noguchii</italic></td>
+									<td align="left">Louisiana</td>
+									<td align="left">Louisiana</td>
+									<td align="left">LSU 1945</td>
+								</tr>
+								<tr>
+									<td align="left">16</td>
+									<td align="left"><italic>L. borgpetersenii</italic></td>
+									<td align="left">Mini</td>
+									<td align="left">Mini</td>
+									<td align="left">Sari</td>
+								</tr>
+								<tr>
+									<td align="left">17</td>
+									<td align="left"><italic>L. noguchii</italic></td>
+									<td align="left">Panama</td>
+									<td align="left">Panama</td>
+									<td align="left">CZ 214</td>
+								</tr>
+								<tr>
+									<td align="left">18</td>
+									<td align="left"><italic>L. biflexa</italic></td>
+									<td align="left">Semaranga</td>
+									<td align="left">Patoc</td>
+									<td align="left">Patoc I (Ames)</td>
+								</tr>
+								<tr>
+									<td align="left">19</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Pomona</td>
+									<td align="left">Pomona*</td>
+									<td align="left">Pomona</td>
+								</tr>
+								<tr>
+									<td align="left">20</td>
+									<td align="left"><italic>L. interrogans</italic></td>
+									<td align="left">Pyrogenes</td>
+									<td align="left">Pyrogenes</td>
+									<td align="left">Salinem</td>
+								</tr>
+								<tr>
+									<td align="left">21</td>
+									<td align="left"><italic>L. weilii</italic></td>
+									<td align="left">Ranarum</td>
+									<td align="left">Ranarum</td>
+									<td align="left">ICF</td>
+								</tr>
+								<tr>
+									<td align="left">22</td>
+									<td align="left"><italic>L. weilii</italic></td>
+									<td align="left">Sarmin</td>
+									<td align="left">Sarmin</td>
+									<td align="left">Sarmin</td>
+								</tr>
+								<tr>
+									<td align="left">23</td>
+									<td align="left"><italic>L. santarosai</italic></td>
+									<td align="left">Shermani</td>
+									<td align="left">Shermani</td>
+									<td align="left">1342K</td>
+								</tr>
+								<tr>
+									<td align="left">24</td>
+									<td align="left"><italic>L. borgpetersenii</italic></td>
+									<td align="left">Tarassovi</td>
+									<td align="left">Tarassovi</td>
+									<td align="left">Perepelitsin</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>*Serovariedades que afectan y pueden mantenerse en los perros.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>En el caso de los perros, se establecieron dos puntos de corte según el tiempo transcurrido entre la última vacunación y la toma de muestras sanguíneas para aumentar la especificidad, detectar verdaderas exposiciones a <italic>Leptospira</italic> spp. y disminuir el riesgo de incluir títulos reactivos debido a la inmunización <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>: para el grupo 1, títulos de 1:400 o más (vacunación con 11 meses de antelación), y para el grupo 2, títulos de 1:1.600 o más (un mes de vacunados) <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. El grado de reacción fue interpretado al estimar los porcentajes de aglutinación de las muestras.</p>
+			</sec>
+			<sec>
+				<title><italic>Urocultivo</italic></title>
+				<p>Las muestras de orina de los perros se obtuvieron siguiendo estrictas normas de bioseguridad; se recolectaron 15 ml de orina por medio de una sonda uretral; se filtró una alícuota de 1 ml con un filtro de 0,22 µm de nitrocelulosa marca Sartorius. Se inoculó una dilución al 10 % de la muestra de orina en medio Ellinghausen-McCullough-Johnson-Harris™ (EMJH) (Becton Dickinson and Company, Difco) <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+				<p>Las muestras se mantuvieron a temperatura ambiente en recipientes térmicos protegidos de la luz solar. En el laboratorio, se incubaron a 30 °C hasta el momento en que las espiroquetas se observaron al microscopio y sin exceder en ningún caso los cuatro meses. La resiembra se hizo una vez se visualizaron las espiroquetas en el medio de cultivo de EMJH, agregando 500 µl del cultivo primario y 1 % de 5 fluorouracilo <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+				<p>Independientemente del resultado de la lectura, se hicieron siembras para controlar la contaminación bacteriana y favorecer el crecimiento de las espiroquetas. Los cultivos se observaron con microscopía de campo oscuro (Nikon BH2); se tomaron 10 µl del cultivo y se observó toda la placa buscando la forma típica de las espiroquetas (delgadas de diferente longitud), con movimiento de traslación. La prueba se consideró positiva al observar, como mínimo, cuatro espiroquetas por placa después de 16 semanas de evaluación <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis estadístico</italic></title>
+				<p>El análisis se efectúo utilizando el programa Stata™, versión 13.0 (College Station, Texas, USA). Se hizo un estudio descriptivo de todas las variables, se estableció la seroprevalencia de la infección en las dos poblaciones estudiadas y se analizó la regresión logística bivariada, que asumió como variable de respuesta binomial los resultados de la prueba MAT, donde 0 correspondió a los sueros con resultados negativos y 1 a los sueros positivos. Se hizo la prueba de bondad de ajuste del modelo obtenido utilizando el test estadístico de Hosmer y Lemeshow. Los efectos de las variables predictivas sobre el resultado positivo o negativo de la prueba, se expresaron mediante las razones de disparidad (<italic>odds ratio</italic>, OR) y sus respectivos intervalos de confianza del 95 %. Los valores de p menores de 0,05 se consideraron como significativos.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Examen clínico</italic></title>
+				<p>El 68,48 % (63/92) de los perros tenía una condición corporal normal, el 11,96 % (11/92) estaba delgado, el 15,22 % (14/92) era obeso, el 2,17 % (2/92) tenía sobrepeso y el 2,17 % (2/92) estaba caquéctico. El 11,96 % (11/92) de los animales presentaba alteraciones en el sistema tegumentario con lesiones como alopecia (27,27 %), dermatitis (18,18 %), descamación (36,36 %) y seborrea (18,18 %).</p>
+			</sec>
+			<sec>
+				<title><italic>Seroprevalencia en perros</italic></title>
+				<p>La seroprevalencia general mediante la prueba MAT fue de 53/92 (57,61 %, IC<sub>95%</sub> 0,91-2,05); se observó reacción en todas las unidades policiales evaluadas: Tuluá (80 %), Cali (60,7 %), Manizales (60 %), Pereira (53,3 %), Ibagué (42,7 %) y Armenia (40 %). La seroprevalencia de leptospirosis fue de 62,81 % (27/43) en el grupo 1 y de 53,06 % en el grupo 2 (p=0,02). El 93,48 % (n=86) de los sueros fueron reactivos con títulos de 1:100 o más y a dos o más serogrupos. Los sueros reaccionaron a todos los serogrupos evaluados con excepción de <italic>L. autumnalis</italic>, <italic>L. grippotyphosa</italic> y <italic>L. sejroe</italic> (<xref ref-type="table" rid="t2">cuadro 2</xref>). No se encontraron diferencias significativas entre las seroprevalencias (p=0,146) de los serogrupos. Los serogrupos predominantes (más alta titulación) fueron <italic>L. canicola</italic> (56,60 %), <italic>L. mini</italic> (11,32 %) y <italic>L. sarmin</italic> (7,55 %) (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Distribución de los sueros caninos positivos para infección por leptospirosis con la prueba de microaglutinación (MAT), serovares reactivos y unidades policiales evaluadas</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Serogrupos</th>
+									<th align="left"> </th>
+									<th align="left">Grupo</th>
+									<th align="left">1</th>
+									<th align="left"> </th>
+									<th align="right">Grupo 2</th>
+									<th align="left"> </th>
+									<th align="center">Total</th>
+									<th align="center">(%)</th>
+								</tr>
+								<tr>
+									<th align="left"> </th>
+									<th align="left">Cali</th>
+									<th align="left">Tuluá</th>
+									<th align="left">Armenia</th>
+									<th align="center">Manizales</th>
+									<th align="right">Ibagué</th>
+									<th align="center">Pereira</th>
+									<th align="left"> </th>
+									<th align="left"> </th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left"><italic>L. canicola</italic></td>
+									<td align="left">12</td>
+									<td align="center">4</td>
+									<td align="center">1</td>
+									<td align="center">7</td>
+									<td align="center">4</td>
+									<td align="center">5</td>
+									<td align="center">33</td>
+									<td align="right">25,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. panama</italic></td>
+									<td align="left">5</td>
+									<td align="center">3</td>
+									<td align="center">-</td>
+									<td align="center">6</td>
+									<td align="center">3</td>
+									<td align="center">3</td>
+									<td align="center">20</td>
+									<td align="right">15,63</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. sarmin</italic></td>
+									<td align="left">4</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">6</td>
+									<td align="center">5</td>
+									<td align="center">4</td>
+									<td align="center">20</td>
+									<td align="right">15,63</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. hebdomadis</italic></td>
+									<td align="left">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">4</td>
+									<td align="right">3,13</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. hurstbridge</italic></td>
+									<td align="left">3</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">3</td>
+									<td align="right">2,34</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. shermani</italic></td>
+									<td align="left">1</td>
+									<td align="center">2</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">5</td>
+									<td align="right">3,91</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. semaranga</italic></td>
+									<td align="left">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. cynopteri</italic></td>
+									<td align="left">2</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">2</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">6</td>
+									<td align="right">4,69</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. tarassovi</italic></td>
+									<td align="left">2</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">3</td>
+									<td align="right">2,34</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. djasiman</italic></td>
+									<td align="left">2</td>
+									<td align="center">3</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">6</td>
+									<td align="right">4,69</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. australis</italic></td>
+									<td align="left">2</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">4</td>
+									<td align="right">3,13</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. mini</italic></td>
+									<td align="left">5</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">3</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">10</td>
+									<td align="right">7,81</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. manhao</italic></td>
+									<td align="left">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">2</td>
+									<td align="center">3</td>
+									<td align="right">2,34</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. icterohaemorrhagiae</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">2</td>
+									<td align="right">1,56</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. pyrogenes</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. ballum</italic></td>
+									<td align="left">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. louisiana</italic></td>
+									<td align="left">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. ranarum</italic></td>
+									<td align="left">-</td>
+									<td align="center">2</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">2</td>
+									<td align="right">1,56</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. celledoni</italic></td>
+									<td align="left">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. pomona</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. bataviae</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="right">0,78</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. autumnalis</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">0</td>
+									<td align="right">0,00</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. grippotyphosa</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">0</td>
+									<td align="right">0,00</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. sejroe</italic></td>
+									<td align="left">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">0</td>
+									<td align="right">0,00</td>
+								</tr>
+								<tr>
+									<td align="left">Total (%)</td>
+									<td align="center">43 33,59</td>
+									<td align="center">20 15,63</td>
+									<td align="center">3 2,34</td>
+									<td align="center">26 20,31</td>
+									<td align="center">18 14,06</td>
+									<td align="center">18 14,06</td>
+									<td align="center">128 100</td>
+									<td align="center">100</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Perros seropositivos y sus respectivas titulaciones en las seis unidades policiales evaluadas</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="3"/>
+								<col span="3"/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Serogrupos</th>
+									<th align="center" colspan="3">Grupo 1</th>
+									<th align="center" colspan="3">Grupo 2</th>
+									<th align="center">Total</th>
+									<th align="center">(%)</th>
+								</tr>
+								<tr>
+									<th align="center">1:400</th>
+									<th align="center">1:800</th>
+									<th align="center">1:1600</th>
+									<th align="center">1:3.200</th>
+									<th align="center">1:1.600</th>
+									<th align="center">1:3.200</th>
+									<th align="center"> </th>
+									<th align="center"> </th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left"><italic>L. canicola</italic></td>
+									<td align="center">10</td>
+									<td align="center">4</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">7</td>
+									<td align="center">8</td>
+									<td align="center">30</td>
+									<td align="center">56,60</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. panama</italic></td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">2</td>
+									<td align="center">2</td>
+									<td align="center">3,77</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. sarmin</italic></td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">3</td>
+									<td align="center">-</td>
+									<td align="center">5</td>
+									<td align="center">9,43</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. shermani</italic></td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1,89</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. cynopteri</italic></td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">2</td>
+									<td align="center">4</td>
+									<td align="center">7,55</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. djasiman</italic></td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1,89</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. mini</italic></td>
+									<td align="center">2</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">3</td>
+									<td align="center">-</td>
+									<td align="center">6</td>
+									<td align="center">11,32</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. louisiana</italic></td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1,89</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. ranarum</italic></td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1,89</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. celledoni</italic></td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1,89</td>
+								</tr>
+								<tr>
+									<td align="left"><italic>L. bataviae</italic></td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1,89</td>
+								</tr>
+								<tr>
+									<td align="left">Total</td>
+									<td align="center">16</td>
+									<td align="center">9</td>
+									<td align="center">2</td>
+									<td align="center">0</td>
+									<td align="center">13</td>
+									<td align="center">13</td>
+									<td align="center">53</td>
+									<td align="center">100</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>El urocultivo fue positivo en 54 de 92 muestras (58,7 %, IC<sub>95</sub> % 0,94-2,15). Se observaron espiroquetas en todas las unidades: Tuluá, 70 % (7/10); Pereira, 46,67 % (7/15); Ibagué, 50 % (7/14); Manizales, 50 % (10/20); Armenia, 20 % (1/5), y Cali, 78,57 % (22/28), con diferencias estadísticamente significativas (p=0,016).</p>
+			</sec>
+			<sec>
+				<title><italic>Seroprevalencia en humanos</italic></title>
+				<p>La seroprevalencia de leptospirosis humana fue de 2/69 (2,89 %, IC95%:0,35-10,08): un caso en la unidad de Cali con títulos de 1:100 (<italic>L. australis</italic>), y otro caso en Pereira (<italic>L. mini</italic>) con títulos de 1:200.</p>
+			</sec>
+			<sec>
+				<title><italic>Factores de riesgo en humanos</italic></title>
+				<p>El personal evaluado tenía contacto permanente con los perros y el 81,16 % usaba barreras de protección personal y cumplía con las normas de bioseguridad. Las dos personas que presentaron títulos contra <italic>Leptospira</italic> spp<italic>.</italic> tenían contacto con fluidos de los perros; no obstante, no se encontró ninguna asociación para la infección con las variables incluidas en el análisis (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Frecuencia de las variables evaluadas en la población humana de las seis unidades policiales</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Variable</th>
+									<th align="center">n</th>
+									<th align="center">(%)</th>
+									<th align="center">p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Sexo</td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Masculino</td>
+									<td align="center">66</td>
+									<td align="center">95,65</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Femenino</td>
+									<td align="center">3</td>
+									<td align="center">4,35</td>
+									<td align="center" rowspan="2">0,70</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Edad (anos)</td>
+								</tr>
+								<tr>
+									<td align="left">24-28</td>
+									<td align="center">9</td>
+									<td align="center">13,04</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">29-33</td>
+									<td align="center">24</td>
+									<td align="center">34,78</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">34-38</td>
+									<td align="center">23</td>
+									<td align="center">33,33</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">39-44</td>
+									<td align="center">13</td>
+									<td align="center">18,85</td>
+									<td align="center" rowspan="2">0,59</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Cargo</td>
+								</tr>
+								<tr>
+									<td align="left">Guia canino</td>
+									<td align="center">57</td>
+									<td align="center">82,61</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Enfermero veterinario</td>
+									<td align="center">8</td>
+									<td align="center">11,59</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">Servicios generales</td>
+									<td align="center">4</td>
+									<td align="center">5,80</td>
+									<td align="center" rowspan="2">0,34</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Tiempo en la unidad donde labora (anos)</td>
+								</tr>
+								<tr>
+									<td align="left">1 a 6</td>
+									<td align="center">44</td>
+									<td align="center">63,77</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">7 a 13</td>
+									<td align="center">22</td>
+									<td align="center">31,88</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">≤14</td>
+									<td align="center">3</td>
+									<td align="center">4,35</td>
+									<td align="center" rowspan="2">0,81</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Contacto con fluidos caninos</td>
+								</tr>
+								<tr>
+									<td align="left">Si</td>
+									<td align="center">66</td>
+									<td align="center">95,65</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">No</td>
+									<td align="center">3</td>
+									<td align="center">4,35</td>
+									<td align="center" rowspan="2">0,24</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Uso de medidas de bioseguridad</td>
+								</tr>
+								<tr>
+									<td align="left">Si</td>
+									<td align="center">56</td>
+									<td align="center">81,16</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">No</td>
+									<td align="center">13</td>
+									<td align="center">18,84</td>
+									<td align="center" rowspan="2">0,87</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Bano reciente en piscina</td>
+								</tr>
+								<tr>
+									<td align="left">Si</td>
+									<td align="center">7</td>
+									<td align="center">10,14</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">No</td>
+									<td align="center">62</td>
+									<td align="center">89,86</td>
+									<td align="center" rowspan="2">0,21</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Bano reciente en rios</td>
+								</tr>
+								<tr>
+									<td align="left">Si</td>
+									<td align="center">13</td>
+									<td align="center">18,84</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">No</td>
+									<td align="center">56</td>
+									<td align="center">81,16</td>
+									<td align="center" rowspan="2">0,17</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3">Presencia de perros en casa</td>
+								</tr>
+								<tr>
+									<td align="left">Si</td>
+									<td align="center">39</td>
+									<td align="center">56,52</td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left">No</td>
+									<td align="center">30</td>
+									<td align="center">43,48</td>
+									<td align="center">0,29</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Factores de riesgo en perros</italic></title>
+				<p>Los perros mayores de diez años presentaron 6,11 veces mayores probabilidades de ser reactivos en la prueba MAT comparados con los animales de tres años o menores. En cuanto a la positividad en el urocultivo, se observaron diferencias significativas según la unidad policial evaluada. Los perros que habían consumido agua tratada presentaron menores probabilidades de resultados seropositivos a leptospiras patógenas, comparados con aquellos que habían consumido agua de nacedero <italic>Vs</italic>. el contacto con roedores (<xref ref-type="table" rid="t5">cuadro 5</xref>)”.</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Cuadro 5</label>
+						<caption>
+							<title>Análisis de regresión logística binaria de los factores asociados con la leptospirosis canina detectada mediante la técnica de microaglutinación (MAT) y urocultivo</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col span="2"/>
+								<col span="2"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Variables</th>
+									<th align="left" rowspan="2">Categoría</th>
+									<th align="center" colspan="2">MAT</th>
+									<th align="center" colspan="2">Urocultivo</th>
+								</tr>
+								<tr>
+									<th align="center">OR</th>
+									<th align="center">p</th>
+									<th align="center">OR</th>
+									<th align="center">p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" rowspan="2">Sexo</td>
+									<td align="left">Macho</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">Hembra</td>
+									<td align="center">0,89</td>
+									<td align="center">0,80</td>
+									<td align="center">0,83</td>
+									<td align="center">0,70</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="4">Edad (anos)</td>
+									<td align="left">≤3</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">Entre 4 y 6</td>
+									<td align="center">1,79</td>
+									<td align="center">0,31</td>
+									<td align="center">0,86</td>
+									<td align="center">0,79</td>
+								</tr>
+								<tr>
+									<td align="left">Entre 7 y 9</td>
+									<td align="center">1,41</td>
+									<td align="center">0,56</td>
+									<td align="center">0,89</td>
+									<td align="center">0,84</td>
+								</tr>
+								<tr>
+									<td align="left">≥10</td>
+									<td align="center">6,11</td>
+									<td align="center">0,04*</td>
+									<td align="center">1,33</td>
+									<td align="center">0,71</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="6">Localizacion de la unidad policial</td>
+									<td align="left">Cali</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">Tulua</td>
+									<td align="center">2,59</td>
+									<td align="center">0,28</td>
+									<td align="center">0,64</td>
+									<td align="center">0,59</td>
+								</tr>
+								<tr>
+									<td align="left">Armenia</td>
+									<td align="center">0,43</td>
+									<td align="center">0,40</td>
+									<td align="center">0,68</td>
+									<td align="center">0,03*</td>
+								</tr>
+								<tr>
+									<td align="left">Manizales</td>
+									<td align="center">0,97</td>
+									<td align="center">0,96</td>
+									<td align="center">0,27</td>
+									<td align="center">0,04*</td>
+								</tr>
+								<tr>
+									<td align="left">Ibague</td>
+									<td align="center">0,49</td>
+									<td align="center">0,28</td>
+									<td align="center">0,27</td>
+									<td align="center">0,07</td>
+								</tr>
+								<tr>
+									<td align="left">Pereira</td>
+									<td align="center">0,74</td>
+									<td align="center">0,64</td>
+									<td align="center">0,24</td>
+									<td align="center">0,04*</td>
+								</tr>
+								<tr>
+									<td align="left">Acceso al agua</td>
+									<td align="left">Roedor</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">por parte de otros</td>
+									<td align="left">Gatos</td>
+									<td align="center">1,29</td>
+									<td align="center">0,63</td>
+									<td align="center">0,36</td>
+									<td align="center">0,08</td>
+								</tr>
+								<tr>
+									<td align="left">animales</td>
+									<td align="left">Perros</td>
+									<td align="center">0,49</td>
+									<td align="center">0,28</td>
+									<td align="center">0,27</td>
+									<td align="center">0,07</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Ninguno</td>
+									<td align="center">0,74</td>
+									<td align="center">0,64</td>
+									<td align="center">0,24</td>
+									<td align="center">0,04*</td>
+								</tr>
+								<tr>
+									<td align="left">Acceso al alimento</td>
+									<td align="left">Roedor</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">por parte de</td>
+									<td align="left">Gatos</td>
+									<td align="center">2,95</td>
+									<td align="center">0,21</td>
+									<td align="center">1,01</td>
+									<td align="center">0,99</td>
+								</tr>
+								<tr>
+									<td align="left">animales</td>
+									<td align="left">Fauna silvestre</td>
+									<td align="center">0,69</td>
+									<td align="center">0,46</td>
+									<td align="center">0,41</td>
+									<td align="center">0,09</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Ninguno</td>
+									<td align="center">1,11</td>
+									<td align="center">0,86</td>
+									<td align="center">0,43</td>
+									<td align="center">0,15</td>
+								</tr>
+								<tr>
+									<td align="left">Consumo de agua</td>
+									<td align="left">Acueducto y nacedero</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Acueducto</td>
+									<td align="center">1,20</td>
+									<td align="center">0,69</td>
+									<td align="center">0,27</td>
+									<td align="center">0,01*</td>
+								</tr>
+								<tr>
+									<td align="left">Aguas superficiales</td>
+									<td align="left">No</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Si</td>
+									<td align="center">1,23</td>
+									<td align="center">0,71</td>
+									<td align="center">1,79</td>
+									<td align="center">0,30</td>
+								</tr>
+								<tr>
+									<td align="left">Acceso a aguas</td>
+									<td align="left">No</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">superficiales</td>
+									<td align="left">Si</td>
+									<td align="center">0,69</td>
+									<td align="center">0,45</td>
+									<td align="center">1,16</td>
+									<td align="center">0,75</td>
+								</tr>
+								<tr>
+									<td align="left">Pozo septico</td>
+									<td align="left">No</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Si</td>
+									<td align="center">1,09</td>
+									<td align="center">0,85</td>
+									<td align="center">2,28</td>
+									<td align="center">0,08</td>
+								</tr>
+								<tr>
+									<td align="left">Manejo de lluvias</td>
+									<td align="left">Canalizadas</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Escorrentia y empozamiento</td>
+									<td align="center">0,88</td>
+									<td align="center">0,81</td>
+									<td align="center">1,57</td>
+									<td align="center">0,37</td>
+								</tr>
+								<tr>
+									<td align="left">Registro de control</td>
+									<td align="left">No</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left">de roedores</td>
+									<td align="left">Si</td>
+									<td align="center">0,81</td>
+									<td align="center">0,71</td>
+									<td align="center">0,56</td>
+									<td align="center">0,30</td>
+								</tr>
+								<tr>
+									<td align="left">Senal de roedores</td>
+									<td align="left">Heces</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Madrigueras y sendas</td>
+									<td align="center">1,68</td>
+									<td align="center">0,27</td>
+									<td align="center">0,76</td>
+									<td align="center">0,56</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="left">Roedor muerto</td>
+									<td align="center">0,56</td>
+									<td align="center">0,54</td>
+									<td align="center">0,15</td>
+									<td align="center">0,09</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>* Diferencias significativas: p&lt;0,05</p>
+							</fn>
+							<fn id="TFN3">
+								<p>- Variable de referencia</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En el examen clínico, los perros no presentaron signos indicativos de los cuatro síndromes descritos en animales infectados por leptospiras patógenas: ictérico, hemorrágico, urémico y reproductivo <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>; no obstante, la prevalencia general de la infección, según la prueba MAT, fue alta si se compara con los resultados de otros estudios efectuados en Colombia <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>Es importante resaltar que el análisis y la interpretación de los resultados de MAT en perros sanos con niveles detectables de anticuerpos, son complejos y requieren cuidado para evitar errores en el diagnóstico y en la evaluación de la situación epidemiológica de la leptospirosis en población con riesgo ocupacional <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Según varios autores, la interpretación depende en gran medida de cuán endémica es la enfermedad en el área de estudio, la duración de la inmunidad que confiere la vacuna <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, el lapso entre la última vacunación y la toma de las muestras sanguíneas <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, las limitaciones de la técnica MAT <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>, el estado clínico de los perros evaluados <xref ref-type="bibr" rid="B1"><sup>1</sup></xref> y el efecto acumulativo de las vacunaciones repetidas sobre los anticuerpos aglutinantes <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>La alta seroprevalencia de leptospirosis hallada en el estudio puede estar relacionada con el riesgo ocupacional de los perros policiales evaluados. Esta actividad incluye la búsqueda de víctimas en ambientes selváticos o derrumbes o a lo largo de la orilla de los ríos, así como el contacto con suelos húmedos y cadáveres, entre otros, lo cual incrementa su riesgo de exposición natural a diferentes serogrupos de <italic>Leptospira</italic> spp. que son eliminados en la orina por otros reservorios domésticos o salvajes <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>; además, representaría un desafío para su sistema inmunológico frente a infecciones asintomáticas contraídas en el campo <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+			<p>Otros factores que se deben tener en cuenta son:</p>
+			<disp-quote>
+				<p>a) los anticuerpos aglutinantes generados por la inmunización tienen una función protectora si los epítopos o los factores antigénicos determinantes que conducen a su formación son lo suficientemente análogos a los de las cepas que infectan a los perros en la naturaleza; cuando esto no sucede, los perros pueden infectarse con otras serovariedades <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>;</p>
+			</disp-quote>
+			<disp-quote>
+				<p>b) las vacunas son menos eficientes en la protección contra la enfermedad crónica y los portadores renales <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>;</p>
+			</disp-quote>
+			<disp-quote>
+				<p>c) la vacunación protege al animal contra la forma aguda de la enfermedad, pero no puede prevenir la infección si los perros están expuestos a un alto riesgo infeccioso o a una cepa muy invasiva <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>;</p>
+			</disp-quote>
+			<disp-quote>
+				<p>d) se puede presentar la enfermedad subaguda o crónica después de la infección con una cepa menos virulenta, independientemente del serogrupo vinculado <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>, y</p>
+			</disp-quote>
+			<disp-quote>
+				<p>e) los perros que se recuperan de la infección clínica se pueden convertir en portadores renales asintomáticos <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+			</disp-quote>
+			<p>Con relación a este último aspecto, a pesar de que el urocultivo fue positivo en una gran proporción de perros evaluados, en este estudio no se discriminó entre los serogrupos patógenos y los saprófitos, dada la baja sensibilidad y especificidad de esta prueba <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>En cuanto a la duración de la inmunidad conferida por la vacuna bivalente, los resultados son discordantes, ya que la mayoría de las investigaciones se han efectuado con exposición experimental en hámsteres y cachorros jóvenes <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, y en pocos estudios se evalúan perros con exposición natural a las leptospiras <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Estas diferencias se explican porque en los estudios experimentales se administran dosis con una gran concentración de espiroquetas por vía parenteral (instilación intraperitoneal más ocular), lo cual difiere de la exposición natural, en la cual unas pocas espiroquetas infectan al huésped mediante la penetración cutánea y mucosa (a través de la almohadilla del pie, la mucosa de la boca o la nariz), motivo por el cual la reacción inmunitaria típica cambia <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+			<p>Los estudios experimentales han confirmado que la inmunización genera protección clínica a corto plazo <xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>; otros autores han demostrado que hay inmunidad a largo plazo (12 meses) <xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, pero hay mucho debate sobre la protección que confiere al estado de portador renal en los perros con exposición natural <xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Según estos hallazgos, se recomienda establecer puntos de corte apropiados para analizar los resultados de la prueba MAT en perros vacunados <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+			<p>En este estudio fundamentalmente epidemiológico y no clínico, en los umbrales de titulación para considerar la MAT como positiva, se tuvo en cuenta el tiempo transcurrido entre la vacunación y la toma de las muestras sanguíneas <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. Para el grupo de perros recién vacunados (grupo 2), se asumió como criterio positivo la presencia de títulos de 1:1.600 o más y, para los perros con 11 meses de vacunación (grupo 1), títulos de 1:400 o más, para aumentar la especificidad de la MAT y excluir la probabilidad de seleccionar sueros con títulos vacunales <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Para establecer estos criterios, se tomaron como referencia los estudios efectuados por Miller, <italic>et al</italic>. <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, en perros experimentales, y por Martin, <italic>et al.</italic><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, y White, <italic>et al.</italic><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, quienes evaluaron perros infectados naturalmente. En estos casos, los perros se vigilaron serológicamente durante uno y hasta nueve años después de la vacunación; algunos perros desarrollaron títulos de 1:800 o más en las semanas 7 a 15, en tanto que en las semanas 29 a 52 ninguno de los perros tenía títulos de 1:400 o más y solo una pequeña proporción presentó títulos de 1:100 o más. Sin embargo, los autores coinciden en indicar que la cinética de anticuerpos fue variable y que, en el caso de los estudios con fines terapéuticos, sería necesario considerar otros factores que se enunciarán posteriormente.</p>
+			<p>Una vez se establece el punto de corte apropiado para la interpretación de los resultados de la MAT en los perros vacunados, se procede a identificar los serogrupos predominantes <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. En el presente estudio, <italic>L. canicola</italic> predominó en los dos grupos de perros estudiados, aspecto que puede estar relacionado con reacciones secundarias debido al esquema de vacunación, porque los títulos de 1:400 o más de este serogrupo pueden persistir durante más de un año o pueden indicar infección si el animal presenta signos sugestivos de leptospirosis <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, aspecto que no se observó en los perros policiales.</p>
+			<p>Los resultados evidenciaron una gran diversidad biológica, ya que se identificaron 19 de los 22 serogrupos analizados (<xref ref-type="table" rid="t1">cuadro 1</xref>). Esta biodiversidad es frecuente en las áreas tropicales o ecuatoriales y se asocia con la presencia de una amplia gama de reservorios mamíferos <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. No obstante, los sueros de los perros reaccionan frecuentemente a múltiples serogrupos porque las leptospiras tienen varios antígenos comunes y la MAT detecta tanto inmunoglobulinas G (IgG) como inmunoglobulinas M (IgM) <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Sin embargo, las reacciones serológicas a otros serogrupos de <italic>Leptospira</italic> spp. no se pueden explicar solo por la vacunación, excepto en los casos de títulos bajos de MAT (&lt;320), que pueden representar una aglutinación cruzada entre diferentes serogrupos <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Los títulos altos, por lo general, se observan después de una enfermedad aguda con bacteriemia significativa, o como consecuencia de una infección crónica activa <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Asimismo, en este estudio la alta proporción de perros con títulos ≥1:100 sugiere solo la exposición <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+			<p>Los animales presentaron una mayor seroprevalencia para serovariedades que pertenecen al serogrupo <italic>icterohaemorrhagiae</italic> -<italic>bratislava</italic>, <italic>grippotyphosa</italic>, <italic>pomona</italic>, <italic>autumnalis</italic> y <italic>hebdomadis-</italic>, cuyos huéspedes de mantenimiento son los roedores <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Teniendo en cuenta que los perros son los principales depredadores de muchas especies de roedores y, debido a su estrecha asociación con los humanos, constituyen un vínculo único de transmisión de roedores a humanos <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+			<p>Cuando los médicos veterinarios requieran hacer un diagnóstico de leptospirosis canina en animales vacunados con fines clínicos y terapéuticos, el <italic>American College of Veterinary Internal Medicine</italic> (ACVIM) recomienda que se relacionen los resultados de la técnica MAT con los signos clínicos y el incremento de los títulos de MAT en dos muestras pareadas (10 a 15 días de intervalo), porque los perros con antecedentes de inmunización pueden ser positivos en la prueba, con títulos vacunales persistes de 1:1.600 o más, y con títulos de 1:800 o más no es posible confirmar un diagnóstico certero de leptospirosis <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>Otros autores sugieren que, durante la primera semana de la enfermedad, el diagnóstico se efectúe con sangre evaluada mediante PCR o el aislamiento de la bacteria a partir de una muestra del paciente; después de dos semanas de evolución de la infección, este se haría a partir de los resultados de la MAT o la visualización al microscopio de campo oscuro <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Sin embargo, distintos autores indican que la leptospirosis aguda se puede diagnosticar con facilidad por serología (MAT) y un aumento de los títulos (cuádruple como mínimo) en dos muestras pareadas <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Por el contrario, los animales asintomáticos presentan títulos bajos y se requieren otros métodos de diagnóstico para detectar leptospiras patógenas en la orina, como la técnica PCR TaqMan modificada <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+			<p>Es bien conocido que la leptospirosis canina aguda puede conducir a nefritis tubulointersticial y fibrosis intersticial que, si no se trata de manera adecuada y oportuna, puede progresar a una enfermedad renal crónica <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+			<p>Asimismo, los perros que viven en las áreas endémicas se pueden infectar y mantener las leptospiras en los túbulos renales y en los intersticios por periodos prolongados, lo que conduce a una infección asintomática y a la eliminación de la bacteria en la orina <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>.</p>
+			<p>Este mismo hallazgo se observó en los seres humanos, reportándose colonización renal por leptospiras, lo que se considera un factor de riesgo para la fibrosis renal <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. Por ello, se sugiere que en las zonas endémicas de leptospirosis canina en Colombia se investigue la condición de portador renal mediante reacción en cadena de la polimerasa (PCR) con el gen <italic>LipL32</italic> (proteína de membrana externa) en orina <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, la cual tiene gran sensibilidad (91,6 %) y especificidad (100 %), y permite el diagnóstico precoz de la leptospirosis clínica <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+			<p>La detección temprana de portadores tiene un impacto obvio en la salud pública, y puede contribuir de manera directa en la salud animal y en la prevención de la infección renal crónica <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Aunque en el presente estudio se evidenció excreción urinaria de leptospiras mediante el urocultivo, una de las limitaciones de esta técnica es que no permite la distinción entre bacterias patógenas y saprófitas, y para obtener un cultivo con crecimiento es importante la presencia y la densidad de la bacteria en la muestra biológica, lo cual depende del grado de colonización renal y de la excreción permanente, condiciones que no se cumplen en todos los casos de infección <xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B38"><sup>38</sup></xref>.</p>
+			<p>Los perros juegan un papel importante en la epidemiología de la leptospirosis humana por su estrecho contacto y su constante interacción con personas en espacios comunes, lo que aumenta la probabilidad de infección entre especies propensas <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. En estudios recientes, se ha encontrado una correlación positiva entre la leptospirosis canina y la infección humana <xref ref-type="bibr" rid="B40"><sup>40</sup></xref>, y en este estudio, la seroprevalencia de leptospirosis en los guías perros fue de 2,9 % y las serovariedades involucradas no están asociadas con la infección en perros (cuadro 1) <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Estos resultados sugieren que las normas de bioseguridad usadas por el personal evaluado fueron efectivas <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>, o que se requieren estudios complementarios para entender la ecología de las leptospiras patógenas en los diversos huéspedes animales, con el fin de detectar los cambios en la dinámica de transmisión <xref ref-type="bibr" rid="B39"><sup>39</sup></xref>.</p>
+			<p>En cuanto a los factores de riesgo asociados con la presencia de perros serorreactivos en la prueba MAT, se encontró que los de 10 años y más tuvieron 6,11 veces mayores probabilidades de tener títulos positivos que aquellos de menor edad, probablemente por tener una mayor memoria inmunológica producto de las vacunaciones repetidas y una mayor exposición natural <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>.</p>
+			<p>Por otra parte, se observaron diferencias en los resultados del urocultivo según la localización de las unidades policiales y la presencia de fauna silvestre, lo que se explicaría por el papel de los mamíferos silvestres como huéspedes de mantenimiento de varios serogrupos de leptospiras <xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Asimismo, se estableció como un factor protector para los perros, el suministro de agua potable del acueducto frente al consumo de agua directamente de nacederos sin protección ambiental <xref ref-type="bibr" rid="B43"><sup>43</sup></xref>, lo que favorece la supervivencia de la bacteria <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>.</p>
+			<p>Los resultados del presente estudio evidencian que, a pesar de que los perros evaluados contaban con programas de vacunación sistemática y planes sanitarios estrictos, tenían un gran riesgo de infectarse con leptospiras patógenas durante sus actividades de trabajo. La alta seroprevalencia en los perros estudiados evidenció una presentación endémica de la enfermedad en las unidades evaluadas. El análisis de los resultados de las pruebas serológicas en perros vacunados se debe efectuar teniendo en cuenta el grado endémico de la enfermedad, el tiempo transcurrido entre la última vacunación y la toma de las muestras sanguíneas, la definición de puntos de corte apropiados, el análisis de los títulos prevalentes de los serogrupos evaluados por MAT, los anamnésicos y la presencia de signos clínicos, entre otros aspectos. También, es urgente conocer los diferentes algoritmos diagnósticos para diferenciar los anticuerpos IgM e IgG mediante técnicas alternativas como la inmunofluorescencia indirecta (IFI). En el caso de estudios con fines clínicos y terapéuticos, se sugiere tomar muestras pareadas para el análisis serológico con la MAT, y el uso de técnicas moleculares sensibles y específicas.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Los autores agradecen a la Vicerrectoría de Investigaciones y Posgrados de la Universidad de Caldas, la Universidad del Valle y la Policía Nacional, por la financiación de la investigación.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Delaude A, Rodríguez-Campos S, Dreyfus A, Counotte MJ, Francey T, Schweighauser A, et al. Canine leptospirosis in Switzerland-A prospective cross-sectional study examining seroprevalence, risk factors and urinary shedding of pathogenic leptospires. Prev Vet Med. 2017;141:48-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.prevetmed.2017.04.008">https://doi.org/10.1016/j.prevetmed.2017.04.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Delaude</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Campos</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Dreyfus</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Counotte</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Francey</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Schweighauser</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Canine leptospirosis in Switzerland-A prospective cross-sectional study examining seroprevalence, risk factors and urinary shedding of pathogenic leptospires</article-title>
+					<source>Prev Vet Med</source>
+					<year>2017</year>
+					<volume>141</volume>
+					<fpage>48</fpage>
+					<lpage>60</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.prevetmed.2017.04.008">https://doi.org/10.1016/j.prevetmed.2017.04.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Martin L, Wiggans K, Wennogle S, Curtis K, Chandrashekar R, Lappin M. Vaccine- associated Leptospira antibodies in client-owned dogs. J Vet Intern Med. 2014;28:789-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jvim.12337">https://doi.org/10.1111/jvim.12337</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wiggans</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Wennogle</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Curtis</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Chandrashekar</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lappin</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Vaccine- associated Leptospira antibodies in client-owned dogs</article-title>
+					<source>J Vet Intern Med</source>
+					<year>2014</year>
+					<volume>28</volume>
+					<fpage>789</fpage>
+					<lpage>792</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jvim.12337">https://doi.org/10.1111/jvim.12337</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Garba B, Bahaman AR, Bejo SK, Zakaria Z, Mutalib AR, Bande F. Major epidemiological factors associated with leptospirosis in Malaysia. Acta Trop. 2018;178:242-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2017.12.010">https://doi.org/10.1016/j.actatropica.2017.12.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garba</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Bahaman</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Bejo</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Zakaria</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Mutalib</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Bande</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Major epidemiological factors associated with leptospirosis in Malaysia</article-title>
+					<source>Acta Trop</source>
+					<year>2018</year>
+					<volume>178</volume>
+					<fpage>242</fpage>
+					<lpage>247</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2017.12.010">https://doi.org/10.1016/j.actatropica.2017.12.010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>André-Fontaine G. Canine leptospirosis-Do we have a problem? Vet Microbiol. 2006;117:19- 24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2006.04.005">https://doi.org/10.1016/j.vetmic.2006.04.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>André-Fontaine</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Canine leptospirosis-Do we have a problem?</article-title>
+					<source>Vet Microbiol</source>
+					<year>2006</year>
+					<volume>117</volume>
+					<fpage>19</fpage>
+					<lpage> 24</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2006.04.005">https://doi.org/10.1016/j.vetmic.2006.04.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Andre-Fontaine G, Aviat F, Marie J-L, Chatrenet B. Undiagnosed leptospirosis cases in naïve and vaccinated dogs: Properties of a serological test based on a synthetic peptide derived from Hap1/LipL32 (residues 154-178). Comp Immunol Microbiol Infect Dis. 2015;39:1-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2014.12.002">https://doi.org/10.1016/j.cimid.2014.12.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Andre-Fontaine</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Aviat</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Marie</surname>
+							<given-names>J-L</given-names>
+						</name>
+						<name>
+							<surname>Chatrenet</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Undiagnosed leptospirosis cases in naïve and vaccinated dogs: Properties of a serological test based on a synthetic peptide derived from Hap1/LipL32 (residues 154-178)</article-title>
+					<source>Comp Immunol Microbiol Infect Dis</source>
+					<year>2015</year>
+					<volume>39</volume>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2014.12.002">https://doi.org/10.1016/j.cimid.2014.12.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Andre-Fontaine G. Diagnosis algorithm for leptospirosis in dogs: Disease and vaccination effects on the serological results. Vet Rec. 2013;172:502. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/vr.101333">https://doi.org/10.1136/vr.101333</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Andre-Fontaine</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnosis algorithm for leptospirosis in dogs: Disease and vaccination effects on the serological results</article-title>
+					<source>Vet Rec</source>
+					<year>2013</year>
+					<volume>172</volume>
+					<fpage>502</fpage>
+					<lpage>502</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/vr.101333">https://doi.org/10.1136/vr.101333</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Romero MH, Astudillo M, Aguillón DM, Lucio ID. Evidencia serológica de leptospirosis canina en la comunidad indígena Kamentsá, Putumayo, Colombia. Rev Investig Vet Perú. 2018;29:625-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15381/rivep.v29i2.14495">https://doi.org/10.15381/rivep.v29i2.14495</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Romero</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Astudillo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Aguillón</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Lucio</surname>
+							<given-names>ID</given-names>
+						</name>
+					</person-group>
+					<article-title>Evidencia serológica de leptospirosis canina en la comunidad indígena Kamentsá, Putumayo, Colombia</article-title>
+					<source>Rev Investig Vet Perú</source>
+					<year>2018</year>
+					<volume>29</volume>
+					<fpage>625</fpage>
+					<lpage>634</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15381/rivep.v29i2.14495">https://doi.org/10.15381/rivep.v29i2.14495</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Romero-Vivas CM, Falconar AK. Leptospira spp. y leptospirosis humana. Revista Salud Uninorte. 2016;32:123-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14482/sun.32.1.8479">https://doi.org/10.14482/sun.32.1.8479</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Romero-Vivas</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Falconar</surname>
+							<given-names>AK</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptospira spp. y leptospirosis humana</article-title>
+					<source>Revista Salud Uninorte</source>
+					<year>2016</year>
+					<volume>32</volume>
+					<fpage>123</fpage>
+					<lpage>143</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14482/sun.32.1.8479">https://doi.org/10.14482/sun.32.1.8479</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Roqueplo C, Marié J-L, André-Fontaine G, Kodjo A, Davoust B. Serological survey of canine leptospirosis in three countries of tropical Africa: Sudan, Gabon and Ivory Coast. Comp Immunol Microbiol Infect Dis. 2015;38:57-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2014.10.006">https://doi.org/10.1016/j.cimid.2014.10.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roqueplo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Marié</surname>
+							<given-names>J-L</given-names>
+						</name>
+						<name>
+							<surname>André-Fontaine</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Kodjo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Davoust</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Serological survey of canine leptospirosis in three countries of tropical Africa: Sudan, Gabon and Ivory Coast</article-title>
+					<source>Comp Immunol Microbiol Infect Dis</source>
+					<year>2015</year>
+					<volume>38</volume>
+					<fpage>57</fpage>
+					<lpage>61</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2014.10.006">https://doi.org/10.1016/j.cimid.2014.10.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Levett PN. Leptospirosis. Clin Microbiol Rev. 2001;14:296-326. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/cmr.14.2.296-326.2001">https://doi.org/10.1128/cmr.14.2.296-326.2001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Levett</surname>
+							<given-names>PN</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptospirosis</article-title>
+					<source>Clin Microbiol Rev</source>
+					<year>2001</year>
+					<volume>14</volume>
+					<fpage>296</fpage>
+					<lpage>326</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/cmr.14.2.296-326.2001">https://doi.org/10.1128/cmr.14.2.296-326.2001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Agudelo-Flórez P, Restrepo-Jaramillo BN, Arboleda-Naranjo M. Situación de la leptospirosis en el Urabá antioqueño colombiano: estudio seroepidemiológico y factores de riesgo en población general urbana. Cad Saúde Pública. 2007;23:2094-102. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2007000900017">https://doi.org/10.1590/s0102-311x2007000900017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Agudelo-Flórez</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Restrepo-Jaramillo</surname>
+							<given-names>BN</given-names>
+						</name>
+						<name>
+							<surname>Arboleda-Naranjo</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Situación de la leptospirosis en el Urabá antioqueño colombiano: estudio seroepidemiológico y factores de riesgo en población general urbana</article-title>
+					<source>Cad Saúde Pública</source>
+					<year>2007</year>
+					<volume>23</volume>
+					<fpage>2094</fpage>
+					<lpage>2102</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2007000900017">https://doi.org/10.1590/s0102-311x2007000900017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Romero MH, Sánchez JA, Hayek LC. The prevalence of antibodies against Leptospira in urban human and canine populations from the Tolima department. Rev Salud Pública (Bogotá). 2010;12:268-75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0124-00642010000200010">https://doi.org/10.1590/S0124-00642010000200010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Romero</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Hayek</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<article-title>The prevalence of antibodies against Leptospira in urban human and canine populations from the Tolima department</article-title>
+					<source>Rev Salud Pública</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<year>2010</year>
+					<volume>12</volume>
+					<fpage>268</fpage>
+					<lpage>275</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0124-00642010000200010">https://doi.org/10.1590/S0124-00642010000200010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Medrano-Galarza C, Díaz-Rojas CA, Dalmau-Barros EA. Diagnóstico de leptospirosis canina por medio de las técnicas Dot-ELISA y MAT en perros con enfermedad renal en Bogotá. Rev Med Vet. 2011;21:133-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.19052/mv.568">https://doi.org/10.19052/mv.568</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Medrano-Galarza</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Díaz-Rojas</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Dalmau-Barros</surname>
+							<given-names>EA</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnóstico de leptospirosis canina por medio de las técnicas Dot-ELISA y MAT en perros con enfermedad renal en Bogotá</article-title>
+					<source>Rev Med Vet</source>
+					<year>2011</year>
+					<volume>21</volume>
+					<fpage>133</fpage>
+					<lpage>145</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.19052/mv.568">https://doi.org/10.19052/mv.568</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Levett PN. Leptospirosis: A forgotten zoonosis? Clin Appl Immunol Rev. 2004;4:435-48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cair.2004.08.001">https://doi.org/10.1016/j.cair.2004.08.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Levett</surname>
+							<given-names>PN</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptospirosis: A forgotten zoonosis?</article-title>
+					<source>Clin Appl Immunol Rev</source>
+					<year>2004</year>
+					<volume>4</volume>
+					<fpage>435</fpage>
+					<lpage>448</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cair.2004.08.001">https://doi.org/10.1016/j.cair.2004.08.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>White AM, Zambrana-Torrelio C, Allen T, Rostal MK, Wright AK, Ball EC, et al. Hotspots of canine leptospirosis in the United States of America. Vet J. 2017;222:29-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tvjl.2017.02.009">https://doi.org/10.1016/j.tvjl.2017.02.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>White</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Zambrana-Torrelio</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Rostal</surname>
+							<given-names>MK</given-names>
+						</name>
+						<name>
+							<surname>Wright</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Ball</surname>
+							<given-names>EC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Hotspots of canine leptospirosis in the United States of America</article-title>
+					<source>Vet J</source>
+					<year>2017</year>
+					<volume>222</volume>
+					<fpage>29</fpage>
+					<lpage>35</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tvjl.2017.02.009">https://doi.org/10.1016/j.tvjl.2017.02.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Organización Mundial de Sanidad Animal. Manual de las pruebas de diagnóstico y de las vacunas para los animales terrestres (mamíferos, aves y abejas). Quinta edición. París: OIE; 2004. p. 1260.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de Sanidad Animal</collab>
+					</person-group>
+					<source>Manual de las pruebas de diagnóstico y de las vacunas para los animales terrestres (mamíferos, aves y abejas)</source>
+					<edition>Quinta</edition>
+					<publisher-loc>París</publisher-loc>
+					<publisher-name>OIE</publisher-name>
+					<year>2004</year>
+					<fpage>1260</fpage>
+					<lpage>1260</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Faine S, Adler B, Bolin C, Perolat P. Clinical leptospirosis in humans. Leptospira and leptospirosis. Armadale, Australia: MedSci; 1999. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0378-1135(01)00319-4">https://doi.org/10.1016/S0378-1135(01)00319-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Faine</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Adler</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Bolin</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Perolat</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical leptospirosis in humans. Leptospira and leptospirosis</article-title>
+					<source>Armadale, Australia: MedSci</source>
+					<year>1999</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0378-1135(01)00319-4">https://doi.org/10.1016/S0378-1135(01)00319-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Adler B, de la Peña-Moctezuma A. Leptospira and leptospirosis. Vet Microbiol. 2010;140:287- 96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2009.03.012">https://doi.org/10.1016/j.vetmic.2009.03.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Adler</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>de la Peña-Moctezuma</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptospira and leptospirosis</article-title>
+					<source>Vet Microbiol</source>
+					<year>2010</year>
+					<volume>140</volume>
+					<fpage>287</fpage>
+					<lpage> 96</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2009.03.012">https://doi.org/10.1016/j.vetmic.2009.03.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Sedano A, Pinto C, Siuce J, Calle S. Estandarización e implementación de una técnica de qPCR para la detección de Leptospira spp. patógenas en muestras de orina de caninos domésticos. Revista de Investigaciones Veterinarias del Perú. 2016;27:158. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15381/rivep.v27i1.11454">https://doi.org/10.15381/rivep.v27i1.11454</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sedano</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Siuce</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Calle</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Estandarización e implementación de una técnica de qPCR para la detección de Leptospira spp. patógenas en muestras de orina de caninos domésticos</article-title>
+					<source>Revista de Investigaciones Veterinarias del Perú</source>
+					<year>2016</year>
+					<volume>27</volume>
+					<fpage>158</fpage>
+					<lpage>158</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15381/rivep.v27i1.11454">https://doi.org/10.15381/rivep.v27i1.11454</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Arent Z, Andrews S, Adamama-Moraitou K, Gilmore C, Pardali D, Ellis W. Emergence of novel Leptospira serovars: A need for adjusting vaccination policies for dogs? Epidemiol Infect. 2013;141:1148-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s0950268812002087">https://doi.org/10.1017/s0950268812002087</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arent</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Andrews</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Adamama-Moraitou</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Gilmore</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pardali</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ellis</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Emergence of novel Leptospira serovars: A need for adjusting vaccination policies for dogs?</article-title>
+					<source>Epidemiol Infect</source>
+					<year>2013</year>
+					<volume>141</volume>
+					<fpage>1148</fpage>
+					<lpage>1153</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s0950268812002087">https://doi.org/10.1017/s0950268812002087</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Sant’Anna R, Vieira AS, Oliveira J, Lilenbaum W. Asymptomatic leptospiral infection is associated with canine chronic kidney disease. Comp Immunol Microbiol Infect Dis. 2019;62:64-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2018.11.009">https://doi.org/10.1016/j.cimid.2018.11.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sant’Anna</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lilenbaum</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Asymptomatic leptospiral infection is associated with canine chronic kidney disease</article-title>
+					<source>Comp Immunol Microbiol Infect Dis</source>
+					<year>2019</year>
+					<volume>62</volume>
+					<fpage>64</fpage>
+					<lpage>67</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2018.11.009">https://doi.org/10.1016/j.cimid.2018.11.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Adler B. Vaccines against leptospirosis. Leptospira and leptospirosis: Berlin: Springer; 2015. p. 251-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-662-45059-8_10">https://doi.org/10.1007/978-3-662-45059-8_10</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Adler</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<source>Vaccines against leptospirosis. Leptospira and leptospirosis</source>
+					<publisher-loc>Berlin</publisher-loc>
+					<publisher-name>Springer</publisher-name>
+					<year>2015</year>
+					<fpage>251</fpage>
+					<lpage>272</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-662-45059-8_10">https://doi.org/10.1007/978-3-662-45059-8_10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Romero P, Sánchez V. Seroprevalencia de la leptospirosis canina de tres municipios del departamento del Tolima-Colombia. Revista MVZ Córdoba. 2009;14:1684-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21897/rmvz.351">https://doi.org/10.21897/rmvz.351</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Romero</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Seroprevalencia de la leptospirosis canina de tres municipios del departamento del Tolima-Colombia</article-title>
+					<source>Revista MVZ Córdoba</source>
+					<year>2009</year>
+					<volume>14</volume>
+					<fpage>1684</fpage>
+					<lpage>1689</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21897/rmvz.351">https://doi.org/10.21897/rmvz.351</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Klaasen HLBM, Molkenboer MJCH, Vrijenhoek MP, Kaashoek MJ. Duration of immunity in dogs vaccinated against leptospirosis with a bivalent inactivated vaccine. Vet Microbiol. 2003;95:121-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0378-1135(03)00152-4">https://doi.org/10.1016/S0378-1135(03)00152-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Klaasen</surname>
+							<given-names>HLBM</given-names>
+						</name>
+						<name>
+							<surname>Molkenboer</surname>
+							<given-names>MJCH</given-names>
+						</name>
+						<name>
+							<surname>Vrijenhoek</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Kaashoek</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Duration of immunity in dogs vaccinated against leptospirosis with a bivalent inactivated vaccine</article-title>
+					<source>Vet Microbiol</source>
+					<year>2003</year>
+					<volume>95</volume>
+					<fpage>121</fpage>
+					<lpage>132</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0378-1135(03)00152-4">https://doi.org/10.1016/S0378-1135(03)00152-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Miller M, Annis K, Lappin M, Lunn K. Variability in results of the microscopic agglutination test in dogs with clinical leptospirosis and dogs vaccinated against leptospirosis. J Vet Intern Med. 2011;25:426-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1939-1676.2011.0704.x">https://doi.org/10.1111/j.1939-1676.2011.0704.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miller</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Annis</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Lappin</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lunn</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Variability in results of the microscopic agglutination test in dogs with clinical leptospirosis and dogs vaccinated against leptospirosis</article-title>
+					<source>J Vet Intern Med</source>
+					<year>2011</year>
+					<volume>25</volume>
+					<fpage>426</fpage>
+					<lpage>432</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1939-1676.2011.0704.x">https://doi.org/10.1111/j.1939-1676.2011.0704.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>André-Fontaine G, Branger C, Gray AW, Klaasen HL. Comparison of the efficacy of three commercial bacterins in preventing canine leptospirosis. Vet Rec. 2003;153:165-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/vr.153.6.165">https://doi.org/10.1136/vr.153.6.165</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>André-Fontaine</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Branger</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gray</surname>
+							<given-names>AW</given-names>
+						</name>
+						<name>
+							<surname>Klaasen</surname>
+							<given-names>HL</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of the efficacy of three commercial bacterins in preventing canine leptospirosis</article-title>
+					<source>Vet Rec</source>
+					<year>2003</year>
+					<volume>153</volume>
+					<fpage>165</fpage>
+					<lpage>169</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/vr.153.6.165">https://doi.org/10.1136/vr.153.6.165</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Minke JM, Bey R, Tronel JP, Latour S, Colombet G, Yvorel J, et al. Onset and duration of protective immunity against clinical disease and renal carriage in dogs provided by a bi- valent inactivated leptospirosis vaccine. Vet Microbiol. 2009;137:137-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2008.12.021">https://doi.org/10.1016/j.vetmic.2008.12.021</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Minke</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Bey</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Tronel</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Latour</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Colombet</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Yvorel</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Onset and duration of protective immunity against clinical disease and renal carriage in dogs provided by a bi- valent inactivated leptospirosis vaccine</article-title>
+					<source>Vet Microbiol</source>
+					<year>2009</year>
+					<volume>137</volume>
+					<fpage>137</fpage>
+					<lpage>145</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2008.12.021">https://doi.org/10.1016/j.vetmic.2008.12.021</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Hartskeerl RA, Smythe LD. The role of leptospirosis reference laboratories. Leptospira and Leptospirosis: Berlín: Springer; 2015. p. 273-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-662-45059-8_11">https://doi.org/10.1007/978-3-662-45059-8_11</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hartskeerl</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Smythe</surname>
+							<given-names>LD</given-names>
+						</name>
+					</person-group>
+					<source>The role of leptospirosis reference laboratories. Leptospira and Leptospirosis</source>
+					<publisher-loc>Berlín</publisher-loc>
+					<publisher-name>Springer</publisher-name>
+					<year>2015</year>
+					<fpage>273</fpage>
+					<lpage>288</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-662-45059-8_11">https://doi.org/10.1007/978-3-662-45059-8_11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Schreiber P, Martin V, Najbar W, Sanquer A, Gueguen S, Lebreux B. Prevention of renal infection and urinary shedding in dogs by a Leptospira vaccination. Vet Microbiol. 2005;108:113-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2005.03.007">https://doi.org/10.1016/j.vetmic.2005.03.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schreiber</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Martin</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Najbar</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Sanquer</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gueguen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lebreux</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevention of renal infection and urinary shedding in dogs by a Leptospira vaccination</article-title>
+					<source>Vet Microbiol</source>
+					<year>2005</year>
+					<volume>108</volume>
+					<fpage>113</fpage>
+					<lpage>118</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vetmic.2005.03.007">https://doi.org/10.1016/j.vetmic.2005.03.007</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Grosenbaugh DA, Pardo MC. Fifteen-month duration of immunity for the serovar grippotyphosa fraction of a tetravalent canine leptospirosis vaccine. Vet Rec. 2018;182:665. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/vr.104694">https://doi.org/10.1136/vr.104694</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grosenbaugh</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Pardo</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Fifteen-month duration of immunity for the serovar grippotyphosa fraction of a tetravalent canine leptospirosis vaccine</article-title>
+					<source>Vet Rec</source>
+					<year>2018</year>
+					<volume>182</volume>
+					<fpage>665</fpage>
+					<lpage>665</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/vr.104694">https://doi.org/10.1136/vr.104694</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Sykes J, Hartmann K, Lunn K, Moore G, Stoddard R, Goldstein R. 2010 ACVIM small animal consensus statement on leptospirosis: Diagnosis, epidemiology, treatment, and prevention. J Vet Intern Med. 2011;25:1-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1939-1676.2010.0654.x">https://doi.org/10.1111/j.1939-1676.2010.0654.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sykes</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hartmann</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Lunn</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Moore</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Stoddard</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Goldstein</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>2010 ACVIM small animal consensus statement on leptospirosis: Diagnosis, epidemiology, treatment, and prevention</article-title>
+					<source>J Vet Intern Med</source>
+					<year>2011</year>
+					<volume>25</volume>
+					<fpage>1</fpage>
+					<lpage>13</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1939-1676.2010.0654.x">https://doi.org/10.1111/j.1939-1676.2010.0654.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Acha PN, Szyfres B. Zoonosis y enfermedades transmisibles comunes al hombre y a los animales. Bacteriosis y micosis. Rev Inst Med Trop S Paulo. 2001;43:338. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0036-46652001000600015">https://doi.org/10.1590/S0036-46652001000600015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Acha</surname>
+							<given-names>PN</given-names>
+						</name>
+						<name>
+							<surname>Szyfres</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Zoonosis y enfermedades transmisibles comunes al hombre y a los animales</article-title>
+					<source>Bacteriosis y micosis. Rev Inst Med Trop S Paulo</source>
+					<year>2001</year>
+					<volume>43</volume>
+					<fpage>338</fpage>
+					<lpage>338</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0036-46652001000600015">https://doi.org/10.1590/S0036-46652001000600015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>André-Fontaine G, Triger L. MAT cross-reactions or vaccine cross-protection: Retrospective study of 863 leptospirosis canine cases. Heliyon. 2018;4:e00869. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.heliyon.2018.e00869">https://doi.org/10.1016/j.heliyon.2018.e00869</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>André-Fontaine</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Triger</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>MAT cross-reactions or vaccine cross-protection: Retrospective study of 863 leptospirosis canine cases</article-title>
+					<source>Heliyon</source>
+					<year>2018</year>
+					<volume>4</volume>
+					<elocation-id>e00869</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.heliyon.2018.e00869">https://doi.org/10.1016/j.heliyon.2018.e00869</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Miotto BA, da Hora AS, Taniwaki SA, Brandao PE, Heinemann MB, Hagiwara MK. Development and validation of a modified TaqMan based real-time PCR assay targeting the lipl32 gene for detection of pathogenic Leptospira in canine urine samples. Braz J Microbiol. 2018;49:584-90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjm.2017.09.004">https://doi.org/10.1016/j.bjm.2017.09.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miotto</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>da Hora</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Taniwaki</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Brandao</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Heinemann</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Hagiwara</surname>
+							<given-names>MK</given-names>
+						</name>
+					</person-group>
+					<article-title>Development and validation of a modified TaqMan based real-time PCR assay targeting the lipl32 gene for detection of pathogenic Leptospira in canine urine samples</article-title>
+					<source>Braz J Microbiol</source>
+					<year>2018</year>
+					<volume>49</volume>
+					<fpage>584</fpage>
+					<lpage>590</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjm.2017.09.004">https://doi.org/10.1016/j.bjm.2017.09.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Yang C-W. Leptospirosis renal disease: Emerging culprit of chronic kidney disease unknown etiology. Nephron. 2018;138:129-36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000480691">https://doi.org/10.1159/000480691</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>C-W</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptospirosis renal disease: Emerging culprit of chronic kidney disease unknown etiology</article-title>
+					<source>Nephron</source>
+					<year>2018</year>
+					<volume>138</volume>
+					<fpage>129</fpage>
+					<lpage>136</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000480691">https://doi.org/10.1159/000480691</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Sant’Anna R, Vieira A, Grapiglia J, Lilenbaum W. High number of asymptomatic dogs as leptospiral carriers in an endemic area indicates a serious public health concern. Epidemiol Infect. 2017;145:1852-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s0950268817000632">https://doi.org/10.1017/s0950268817000632</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sant’Anna</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Grapiglia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lilenbaum</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>High number of asymptomatic dogs as leptospiral carriers in an endemic area indicates a serious public health concern</article-title>
+					<source>Epidemiol Infect</source>
+					<year>2017</year>
+					<volume>145</volume>
+					<fpage>1852</fpage>
+					<lpage>1854</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s0950268817000632">https://doi.org/10.1017/s0950268817000632</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>Joya LC, Gutiérrez DL, Hurtado WM, Gama JM. Leptospira: revisión del agente causal de una enfermedad zoonótica. Biociencias. 2015;10:65-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18041/2390-0512/bioc..2.2643">https://doi.org/10.18041/2390-0512/bioc..2.2643</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Joya</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Hurtado</surname>
+							<given-names>WM</given-names>
+						</name>
+						<name>
+							<surname>Gama</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>Leptospira: revisión del agente causal de una enfermedad zoonótica.</article-title>
+					<source>Biociencias</source>
+					<year>2015</year>
+					<volume>10</volume>
+					<fpage>65</fpage>
+					<lpage>80</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18041/2390-0512/bioc..2.2643">https://doi.org/10.18041/2390-0512/bioc..2.2643</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>Calderón JC, Astudillo M, Romero MH. Caracterización epidemiológica de la infección con Leptospira spp. en caballos de trabajo y población ocupacionalmente expuesta de seis unidades policiales colombianas. Biomédica. 2019;39:19-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v39i1.4475">https://doi.org/10.7705/biomedica.v39i1.4475</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Calderón</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Astudillo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Romero</surname>
+							<given-names>MH</given-names>
+						</name>
+					</person-group>
+					<article-title>Caracterización epidemiológica de la infección con Leptospira spp. en caballos de trabajo y población ocupacionalmente expuesta de seis unidades policiales colombianas</article-title>
+					<source>Biomédica</source>
+					<year>2019</year>
+					<volume>39</volume>
+					<fpage>19</fpage>
+					<lpage>34</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v39i1.4475">https://doi.org/10.7705/biomedica.v39i1.4475</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>Lelu M, Muñoz-Zanzi C, Higgins B, Galloway R. Seroepidemiology of leptospirosis in dogs from rural and slum communities of Los Ríos Region, Chile. BMC Vet Res. 2015;11:31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12917-015-0341-9">https://doi.org/10.1186/s12917-015-0341-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lelu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Muñoz-Zanzi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Higgins</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Galloway</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Seroepidemiology of leptospirosis in dogs from rural and slum communities of Los Ríos Region, Chile</article-title>
+					<source>BMC Vet Res</source>
+					<year>2015</year>
+					<volume>11</volume>
+					<fpage>31</fpage>
+					<lpage>31</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12917-015-0341-9">https://doi.org/10.1186/s12917-015-0341-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>Jorge S, Schuch RA, de Oliveira NR, da Cunha CEP, Gomes CK, Oliveira TL, et al. Human and animal leptospirosis in Southern Brazil: A five-year retrospective study. Travel Med Infect Dis. 2017;18:46-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tmaid.2017.07.010">https://doi.org/10.1016/j.tmaid.2017.07.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jorge</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schuch</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>de Oliveira</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>da Cunha</surname>
+							<given-names>CEP</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>CK</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>TL</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Human and animal leptospirosis in Southern Brazil: A five-year retrospective study</article-title>
+					<source>Travel Med Infect Dis</source>
+					<year>2017</year>
+					<volume>18</volume>
+					<fpage>46</fpage>
+					<lpage>52</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tmaid.2017.07.010">https://doi.org/10.1016/j.tmaid.2017.07.010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>Harland A, Cave N, Jones B, Benschop J, Donald J, Midwinter A, et al. A serological survey of leptospiral antibodies in dogs in New Zealand. N Z Vet J. 2013;61:98-106. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00480169.2012.719212">https://doi.org/10.1080/00480169.2012.719212</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harland</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cave</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Benschop</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Donald</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Midwinter</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A serological survey of leptospiral antibodies in dogs in New Zealand</article-title>
+					<source>N Z Vet J</source>
+					<year>2013</year>
+					<volume>61</volume>
+					<fpage>98</fpage>
+					<lpage>106</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00480169.2012.719212">https://doi.org/10.1080/00480169.2012.719212</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>Hamond C, Martins G, Bremont S, Medeiros MA, Bourhy P, Lilenbaum W. Molecular characterization and serology of Leptospira kirschneri (Serogroup grippotyphosa) isolated from urine of a mare post-abortion in Brazil. Zoonoses Public Health. 2016;63:191-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/zph.12224">https://doi.org/10.1111/zph.12224</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hamond</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bremont</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Medeiros</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Bourhy</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lilenbaum</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular characterization and serology of Leptospira kirschneri (Serogroup grippotyphosa) isolated from urine of a mare post-abortion in Brazil</article-title>
+					<source>Zoonoses Public Health</source>
+					<year>2016</year>
+					<volume>63</volume>
+					<fpage>191</fpage>
+					<lpage>195</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/zph.12224">https://doi.org/10.1111/zph.12224</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>Romero MH, Astudillo M, Sánchez JA, González LM, Varela N. Anticuerpos contra Leptospira sp. en primates neotropicales y trabajadores de un zoológico colombiano. Rev Salud Pública (Bogotá). 2011;13:814-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0124-00642011000500010">https://doi.org/10.1590/S0124-00642011000500010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Romero</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Astudillo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Varela</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Anticuerpos contra Leptospira sp. en primates neotropicales y trabajadores de un zoológico colombiano</article-title>
+					<source>Rev Salud Pública</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<year>2011</year>
+					<volume>13</volume>
+					<fpage>814</fpage>
+					<lpage>823</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0124-00642011000500010">https://doi.org/10.1590/S0124-00642011000500010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>Rodríguez AL, Ferro BE, Varona MX, Santafé M. Evidencia de exposición a Leptospira en perros callejeros de Cali. Biomédica. 2004;24:291-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v24i3.1275">https://doi.org/10.7705/biomedica.v24i3.1275</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Ferro</surname>
+							<given-names>BE</given-names>
+						</name>
+						<name>
+							<surname>Varona</surname>
+							<given-names>MX</given-names>
+						</name>
+						<name>
+							<surname>Santafé</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Evidencia de exposición a Leptospira en perros callejeros de Cali</article-title>
+					<source>Biomédica</source>
+					<year>2004</year>
+					<volume>24</volume>
+					<fpage>291</fpage>
+					<lpage>295</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v24i3.1275">https://doi.org/10.7705/biomedica.v24i3.1275</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Murcia CA, Astudillo M, Romero MH. Prevalencia de leptospirosis en perros de trabajo vacunados y en población humana con riesgo ocupacional. Biomédica. 2020;40(Supl.1):62-75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5009">https://doi.org/10.7705/biomedica.5009</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> César A. Murcia: recolección de la información, análisis de laboratorio y estadístico Myriam Astudillo: mantenimiento de las cepas de Leptospira spp. y validación de las pruebas de laboratorio Marlyn H. Romero: directora del proyecto, apoyo en la metodología y el análisis estadístico Todos los autores participaron en la escritura del manuscrito.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p> Este estudio fue financiado por la Vicerrectoría de Investigaciones y Posgrados de la Universidad de Caldas, Manizales, Colombia, la Universidad del Valle, Cali, Colombia, y la Policía Nacional de Colombia.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Conflicto de intereses:</label>
+				<p> Los autores declaran no tener conflicto de intereses.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

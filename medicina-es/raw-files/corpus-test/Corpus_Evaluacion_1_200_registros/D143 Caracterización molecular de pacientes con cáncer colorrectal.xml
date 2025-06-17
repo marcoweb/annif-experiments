@@ -1,0 +1,2884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00015</article-id>
+			<article-id pub-id-type="doi">10.7705/biomedica.5957</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización molecular de pacientes con cáncer colorrectal</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Molecular characterization of colorectal cancer patients</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Humberto Afanador</surname>
+						<given-names>Carlos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Palacio</surname>
+						<given-names>Katherine Andrea</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Isaza</surname>
+						<given-names>Luis Fernando</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ahumada</surname>
+						<given-names>Enoc</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ocampo</surname>
+						<given-names>Carlos Mauricio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Muñetón</surname>
+						<given-names>Carlos Mario</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Unidad de Genética Médica, Departamento de Pediatría, Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Departamento de Cirugía, Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Hospital Fundación San Vicente de Paúl, Medellín, Colombia</institution>
+				<institution content-type="orgname">Hospital Fundación San Vicente de Paúl</institution>
+				<institution content-type="normalized">Hospital Fundación San Vicente de Paúl</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">Clínica Las Vegas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Clínica Las Vegas</institution>
+				<institution content-type="orgname">Clínica Las Vegas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Departamento de Patología, Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Carlos Mario Muñetón, Unidad de Genética Médica, Departamento de Pediatría, Facultad de Medicina, Universidad de Antioquia, Carrera 51A N° 62-42, Medellín, Colombia. Teléfono: (604) 219 2379 <email>carlos.muneton@udea.edu.co</email>
+				</corresp>
+				<fn fn-type="equal" id="fn3">
+					<p>Todos los autores participaron en el análisis y la discusión de los resultados.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn5">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores no tienen ningún conflicto de intereses con respecto al manuscrito.</p>
+				</fn>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+			<pub-date pub-type="epub-ppub">
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>42</volume>
+			<supplement>Suppl. 1</supplement>
+			<fpage>154</fpage>
+			<lpage>171</lpage>
+			<history>
+				<date date-type="received">
+					<day>09</day>
+					<month>03</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>17</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+				<date date-type="pub">
+					<day>17</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción.</title>
+					<p> El cáncer colorrectal tiene una alta incidencia en la población mundial. Diversas vías moleculares están involucradas en su desarrollo, entre ellas, la inestabilidad cromosómica, la inestabilidad microsatelital y la epigenética.</p>
+				</sec>
+				<sec>
+					<title>Objetivo.</title>
+					<p> Hacer la caracterización molecular de 44 individuos con cáncer colorrectal esporádico.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos.</title>
+					<p> El análisis de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic>, <italic>TP53</italic> y <italic>BRAF</italic> se hizo mediante secuenciación de Sanger; la inestabilidad microsatelital se determinó mediante electroforesis capilar utilizando cinco marcadores de repetición corta en tándem (<italic>Short Tandem Repeat</italic>) y el estado de metilación del promotor del gen <italic>MLH1</italic> se hizo con la técnica MS-PCR (<italic>Methylation-Specific</italic> PCR).</p>
+				</sec>
+				<sec>
+					<title>Resultados.</title>
+					<p> La frecuencia de mutación de los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic> fue del 18,1, 25 y 4,5 %, respectivamente; las mutaciones detectadas se localizaron con mayor frecuencia en el colon derecho. La frecuencia de inestabilidad microsatelital fue del 27,2 % y el 73,1 % en los tumores con metilación en el gen <italic>MHL1</italic>, y el 91,6 % de los tumores con inestabilidad microsatelital presentaba metilación en el gen <italic>MLH1</italic>. En el grupo de tumores con estabilidad microsatelital, las mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic> fueron más frecuentes que en el grupo de tumores con inestabilidad microsatelital. La metilación del gen <italic>MLH1</italic> fue la alteración más predominante.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones.</title>
+					<p> En los pacientes con cáncer colorrectal evaluados se demostró la presencia de alteraciones moleculares en las diferentes vías genéticas, las cuales son comunes en su carcinogénesis. Los pacientes presentaron un perfil de mutaciones diferente al de otras poblaciones. Los hallazgos obtenidos en este estudio confirman la heterogeneidad molecular descrita en el desarrollo del cáncer colorrectal.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> Colorectal cancer has a high incidence in the world population. Different molecular pathways, such as chromosomal instability, microsatellite instability, and epigenetics are involved in its development.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To perform molecular characterization in 44 individuals with sporadic colorectal cancer.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p> We conducted mutation analyses of the <italic>APC</italic>, <italic>KRAS</italic>, <italic>TP53</italic> y <italic>BRAF</italic> genes using Sanger sequencing techniques; microsatellite instability was determined by capillary electrophoresis with five STR genetic markers while the methylation status of the <italic>MHL1</italic> promotor gene was analyzed using methylation-specific PCR.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p><italic>APC</italic>, <italic>KRAS</italic>, and <italic>TP53</italic> genes mutation frequency was 18.1%, 25%, and 4.5%, respectively; the somatic mutations detected were located more frequently in the right colon. The frequency of microsatellite instability was 27.2% and 73.1% of the tumors had the <italic>MHL1</italic> gene methylated while 91.6% of microsatellite instability-positive tumors had the methylated <italic>MLH1</italic> gene. The mutation profile of microsatellite stability tumors <italic>APC</italic>, <italic>KRAS</italic>, and <italic>TP53</italic> genes was more frequent than in the microsatellite instability-positive tumors. The methylation of the <italic>MLH1</italic> gene was the most predominant molecular alteration.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> We identified molecular alterations in different genetic pathways of the colorectal cancer patients evaluated, which are common in the carcinogenesis of this cancer. These patients showed a different mutational profile compared to other populations. Our findings confirm the molecular heterogeneity described in the development of colorectal cancer.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>neoplasias colorrectales/genética</kwd>
+				<kwd>genes supresores de tumor</kwd>
+				<kwd>oncogenes, heterogeneidad genética</kwd>
+				<kwd>inestabilidad de microsatélites</kwd>
+				<kwd>epigenómica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Colorectal neoplasms/genetics</kwd>
+				<kwd>gene, tumor suppressor</kwd>
+				<kwd>oncogenes</kwd>
+				<kwd>genetic heterogeneity</kwd>
+				<kwd>microsatellite instability</kwd>
+				<kwd>epigenomics</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="51"/>
+				<page-count count="18"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El cáncer colorrectal es una de las principales causas de muerte por cáncer en el mundo. En Colombia, es el cuarto cáncer más frecuente y el tercero en mortalidad para ambos sexos. Las variaciones geográficas del cáncer colorrectal son atribuibles a factores genéticos y ambientales, a la dieta y al estilo de vida, entre otros <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>El 80 % de los casos de cáncer colorrectal son de tipo esporádico y el 20 % restante es de tipo familiar <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>; las mutaciones germinales en los genes de reparación <italic>MLH1</italic> y <italic>MSH2</italic> originan el síndrome de Lynch (<italic>Hereditary Nonpolyposis Colorectal Cancer</italic>), en tanto que las del gen <italic>APC</italic> causan la poliposis adenomatosa familiar (<italic>Familial Adenomatous Polyposis</italic>); ambos síndromes corresponden al cáncer colorrectal hereditario y presentan un patrón de herencia autosómico dominante <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Entre los factores de riesgo que se asocian con el desarrollo de esta neoplasia, están la dieta, la obesidad, el consumo de carnes rojas, alcohol y cigarrillo, y la diabetes de tipo 2, entre otros <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>El cáncer colorrectal se considera una enfermedad de gran heterogeneidad genética que se origina a partir de diferentes vías genéticas y epigenéticas <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. El modelo clásico de múltiples pasos en la progresión del adenoma hacia el carcinoma, propuesto por Fearon, <italic>et al</italic>., involucra la inactivación de genes supresores de tumores, como el <italic>APC</italic>, el <italic>TP53</italic> y el <italic>DCC</italic>, y mutaciones en los oncogenes <italic>KRAS</italic>, <italic>SMAD</italic> y <italic>BRAF</italic>, las cuales conducen a una inestabilidad genómica; esta vía es conocida como supresora o de inestabilidad cromosómica <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. La vía de mutación también está involucrada en la carcinogénesis del cáncer colorrectal y se relaciona con mutaciones en los genes del sistema de reparación de bases mal apareadas (<italic>Mismatch Repair System, MMR</italic>) <italic>MLH1</italic>, <italic>MSH2</italic>, <italic>MSH6</italic>, <italic>PMS1</italic> y <italic>PMS2</italic>, los cuales inducen en los tumores con inestabilidad microsatelital <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. En el cáncer colorrectal esporádico, esta inestabilidad se presenta en el 15 al 20 % de los casos y ocurre principalmente por la metilación del promotor del gen <italic>MLH1</italic>, en tanto que, en individuos con cáncer colorrectal hereditario, como el síndrome de Lynch, se observa hasta en el 90 % de los casos <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Otra vía implicada en el desarrollo del cáncer colorrectal es la epigenética, que se presenta por la metilación del promotor del gen <italic>MLH1</italic><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Las vías descritas confirman la heterogeneidad genética de este cáncer, por lo que es de gran importancia determinar la clasificación molecular de los pacientes mediante oncología molecular personalizada.</p>
+		<p>Por otra parte, los estudios epidemiológicos, histopatológicos y moleculares demuestran que el espectro de alteraciones moleculares que se presenta en el colon proximal, en el distal y en el recto, son diferentes, por lo que se propone que estas alteraciones en el cáncer colorrectal varían desde el colon proximal hasta el recto <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Asimismo, se ha demostrado que en el colon proximal son frecuentes las inestabilidades microsatelitales, las mutaciones en el gen <italic>BRAF</italic> y la metilación del promotor del gen <italic>MLH1</italic>, en tanto que, en el colon distal, son más frecuentes las mutaciones en los genes <italic>APC</italic> y <italic>TP53</italic> y poco frecuentes las inestabilidades microsatelitales <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Por el contrario, en el cáncer de recto no es común observar inestabilidades microsatelitales, metilación de <italic>MLH1</italic> ni mutaciones en el <italic>BRAF</italic><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		<p>Dada la complejidad y heterogeneidad del cáncer colorrectal, en diversos estudios se subraya la importancia de identificar subgrupos moleculares de esta neoplasia con base en la detección de alteraciones moleculares en las vías descritas. Recientemente, un consorcio internacional (<italic>Centers for Medicare and Medicaid Services</italic>) propuso un consenso molecular de subtipos de cáncer colorrectal, con una clasificación molecular más detallada y completa a partir de la integración de la información obtenida de los análisis de mutaciones, los cambios en el número de copias, el patrón de metilación, la expresión del microARN y la proteómica de 4.000 pacientes, cuyo resultado final definió un patrón de cuatro subtipos moleculares (CMS 1 a 4) <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Este consorcio, además de describir las características genéticas de los tumores en el cáncer colorrectal, también las correlacionó con los datos clínico-patológicos de los pacientes y con el pronóstico de la enfermedad. Cabe mencionar que la clasificación propuesta significó un gran avance en su caracterización molecular.</p>
+		<p>Además, la caracterización molecular de los pacientes con cáncer colorrectal es de gran utilidad en el manejo clínico de la enfermedad, ya que algunas de las alteraciones moleculares descritas proporcionan información importante sobre la reacción de los pacientes a determinados tratamientos antineoplásicos, lo que permite la selección de la terapia más eficaz para cada individuo y podría aumentar su tasa de supervivencia. Es el caso específico del gen <italic>KRAS</italic>, este se considera un biomarcador importante para predecir la reacción a terapias anti-<italic>EGFR</italic>. Los pacientes con cáncer colorrectal metastásico sin mutaciones en el <italic>KRAS</italic>, tienen una mejor respuesta terapéutica con anticuerpos monoclonales anti-<italic>EGFR</italic>, como el panitumumab o cetuximab, en tanto que los pacientes que presentan un <italic>KRAS</italic> mutado son resistentes a estas terapias <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+		<p>En este mismo sentido, la detección de la mutación <italic>V600E</italic> en el gen <italic>BRAF</italic> es también clave para predecir la respuesta a terapias con anticuerpos monoclonales, ya que los pacientes con esta mutación no tienen una buena respuesta a este tipo de tratamiento <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Como ocurre con las mutaciones en los genes <italic>KRAS</italic> y <italic>BRAF</italic>, la determinación de la inestabilidad microsatelital en la respuesta terapéutica también es clínicamente importante porque los pacientes con este tipo de inestabilidad tienen un mejor pronóstico de supervivencia que quienes no la muestran lo son, es decir, son estables <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Además, es útil para confirmar el diagnóstico molecular de pacientes y familias con sospecha de síndrome de Lynch o cáncer colorrectal no polipósico hereditario. Los hallazgos de estudios clínicos también informan que estos pacientes no mejoran con la terapia con 5-fluorouracilo, pero sí tienen una mejor respuesta terapéutica con oxiplatino <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>. Por ello, se recomienda incluir el análisis de inestabilidad microsatelital en el diagnóstico molecular de pacientes con cáncer colorrectal.</p>
+		<p>El objetivo de nuestro estudio fue analizar mutaciones somáticas en los genes <italic>APC</italic>, <italic>KRAS</italic>, <italic>BRAF</italic> y <italic>TP53</italic>, y determinar la inestabilidad microsatelital y el patrón de metilación del gen <italic>MLH1</italic> en 44 pacientes colombianos con cáncer colorrectal esporádico, así como correlacionar los datos clínico-patológicos con los hallazgos moleculares.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Pacientes y muestras</italic></title>
+				<p>Se hizo un estudio descriptivo de corte transversal. La población de estudio estuvo constituida por 44 pacientes, 27 mujeres y 17 hombres, con diagnóstico de cáncer colorrectal esporádico, procedentes del departamento de Antioquia, y con una media de edad de 60,5 años (rango: 12 a 90 años). Ningún paciente tenía historia familiar o personal de cáncer o tratamiento antineoplásico antes de la cirugía. Todos los estudios histopatológicos fueron revisados y confirmados por un patólogo experto. A cada paciente se le solicitó la participación voluntaria en el estudio y la firma del consentimiento informado.</p>
+				<p>Los cirujanos recolectaron muestras del tejido del tumor primario y del tejido normal adyacente simultáneamente en cada caso, mediante resección quirúrgica en el Hospital Universitario San Vicente Fundación y la Clínica León XIII de Medellín entre el 2015 y el 2016. Cada muestra tumoral se dividió en dos porciones, una para el estudio histopatológico a cargo de un patólogo experto, y la otra se almacenó a -80 °C para el posterior análisis molecular. La información personal y de los diagnósticos histopatológicos se obtuvo de las historias clínicas de los pacientes.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis molecular</italic></title>
+				<p><italic>Extracción de ADN</italic>. El ADN genómico se extrajo a partir de tejido tumoral y tejido normal de cada paciente, utilizando el estuche comercial QIAamp DNA Mini Kit™ (Qiagen, Hilden Germany) y siguiendo las recomendaciones del fabricante. El ADN se cuantificó en un espectrofotómetro NanoDrop 2000c Spectrophotometer™ (Thermo Scientific, USA) y, una vez extraído, se diluyó y se almacenó a -20 °C.</p>
+				<p><italic>Amplificación del ADN y análisis de mutaciones en los genes APC, KRAS, BRAF y TP53</italic>. El ADN extraído del tejido tumoral se amplificó por PCR en un termociclador Gene Amp PCR System 9700™ (Applied Biosystems, USA), utilizando cebadores específicos para cada gen. El análisis de mutaciones de los genes se realizó amplificando las regiones que son puntos clave (hotspot) para mutaciones somáticas en los genes <italic>APC</italic> (exón 15; región MCR), <italic>KRAS</italic> (exones 2 y 3), y <italic>TP53</italic> (exones 5-8). A todos los tumores con inestabilidad microsatelital positiva se les hizo el análisis de la mutación V600E en el exón 15 del gen <italic>BRAF</italic>, utilizando cebadores específicos para esta región. La reacción de la PCR se hizo en un volumen final de 35 μl que contenía 50 ng de ADN tumoral con las siguientes concentraciones: 1X de solución tampón de reacción 10X, 1,05 mM de MgCl<sub>2</sub>, 2 μM de dNTP, 0,4 μM de cada iniciador y 1,4 U de Taq ADN polimerasa (Invitrogen, Brasil). Los productos amplificados por la PCR se analizaron mediante electroforesis en geles de agarosa al 2 %, teñidos con 2 μl de GelRed, y se almacenaron a -20 °C hasta el momento de la secuenciación.</p>
+				<p><italic>Análisis de inestabilidad microsatelital</italic>. La inestabilidad microsatelital se analizó en el ADN extraído del tejido tumoral y del normal de cada paciente, y se evaluó con la amplificación por PCR de un panel de cinco marcadores STR previamente descritos (Bat-25, Bat-26, NR-21, NR-27 y NR-24) <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Los tamaños alélicos del ADN tumoral y del normal se compararon y se analizaron mediante electroforesis capilar en un analizador genético ABI 3770. La inestabilidad microsatelital se determinó cuando se detectaron alelos en la muestra del ADN tumoral que no estaban presentes en la muestra del normal. Se definió como inestabilidad microsatelital alta (MSI-H) la presencia de dos o más marcadores inestables en el tumor; como inestabilidad microsatelital baja (MSI-L), la de un solo marcador inestable, y la estabilidad microsatelital, cuando no se detectaba ningún marcador inestable.</p>
+				<p><italic>Análisis de metilación en el gen MLH1 por MS-PCR</italic>. El ADN tumoral se modificó con bisulfito de sodio, usando el estuche comercial EZ- DNA Methylation Direct Kit™ de Zymo Research y siguiendo las recomendaciones del fabricante. El ADN modificado se almacenó a -20 °C. La metilación del promotor del gen <italic>MLH1</italic> se hizo con la técnica MS-PCR. El ADN tumoral modificado con bisulfito de sodio se amplificó por PCR utilizando iniciadores específicos para regiones metiladas y no metiladas del promotor del gen <italic>MLH1</italic> en un termociclador Gene Amp PCR System 9700™ (Applied Biosystems, USA). La MS-PCR se hizo en un volumen final de 10 μΙ que contenía 2 μl de ADN modificado, solución tampón 1X, 1,5 μM de MgCl<sub>2</sub>, 0,2 mm de dNTP, 0,4 μΜ de cada cebador y 0,8 μΙ de Taq polimerasa. Los productos amplificados de la MS-PCR se corrieron en electroforesis en geles de agarosa al 2 % teñidos con GelRed.</p>
+				<p><italic>Secuenciación</italic>. Todos los productos de las PCR amplificados se purificaron y secuenciaron directamente en ambas cadenas con el método Sanger. La secuenciación se hizo en un analizador genético ABI 3730xl DNA Analyzer Applied Biosystems™. Las secuencias obtenidas se editaron y analizaron con el programa Chromas Pro y se alinearon con las secuencias de referencia publicadas en el GenBank (NCBI), cuyos códigos de acceso son NT_034772.6 (APC), NT_009714.17 (KRAS), NT_010718.16 (TP53) y NC_000007.14 (BRAF). El análisis bioinformático de las variantes génicas detectadas también se realizó con las bases de datos del NCBI dbSNP (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/snp">http://www.ncbi.nlm.nih.gov/snp</ext-link>), 1000 genomas y COSMIC.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis estadísticos</italic></title>
+				<p>Los resultados se analizaron mediante el programa SPSS™, versión 23 (IBM Corp.). Con las pruebas de ji al cuadrado o con la corrección de continuidad de Yates y la prueba exacta de Fisher se exploró la asociación entre las mutaciones, los polimorfismos, la inestabilidad microsatelital y la metilación, y el diagnóstico histopatológico, la edad y el sexo. Todos los valores de p calculados fueron bilaterales y los p&lt;0,05 se consideraron estadísticamente significativos.</p>
+				<p>El protocolo del estudio fue aprobado por el Comité de Bioética para experimentación en humanos de la Universidad de Antioquia.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Se estudiaron 44 pacientes con cáncer colorrectal esporádico; la edad promedio fue de 60,5 años, con un rango entre los 12 y los 90 años. El 61,3 % (27/44) de los pacientes correspondía a mujeres y el 38,6 % (17/44), a hombres. El 81,8 % (36/44) tenía cáncer de colon y, el 11,3 % (5/44), de recto. Los datos de edad y sexo, y los hallazgos histopatológicos y moleculares de los pacientes analizados, se presentan en el <xref ref-type="table" rid="t1">cuadro 1</xref>.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Descripción general de edad, sexo y los hallazgos histopatológicos y moleculares en los 44 pacientes con cáncer colorrectal estudiados</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col span="2"/>
+							<col/>
+							<col span="2"/>
+							<col span="2"/>
+							<col span="2"/>
+							<col span="3"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="2" rowspan="2"> 
+ </th>
+								<th align="left" rowspan="2">n (%)</th>
+								<th align="center" colspan="2">APC n (%) </th>
+								<th align="center" colspan="2">KRAS n (%) </th>
+								<th align="center" colspan="2">TP53 n (%) </th>
+								<th align="center" colspan="3">MSI n (%) </th>
+							</tr>
+							<tr>
+								<th align="center">Normal</th>
+								<th align="center">mutado</th>
+								<th align="center">Normal</th>
+								<th align="center">mutado</th>
+								<th align="center">Normal</th>
+								<th align="center">mutado</th>
+								<th align="center">MSI-H</th>
+								<th align="center">MSI-L</th>
+								<th align="center" colspan="2">MSS </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Número de pacientes</td>
+								<td align="left"> </td>
+								<td align="left">44</td>
+								<td align="left">36 (81,8)</td>
+								<td align="center">8 (18,1)</td>
+								<td align="left">33 (75)</td>
+								<td align="left">11 (25)</td>
+								<td align="left">42 (95,4)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="left">7 (15,9) </td>
+								<td align="left">32 (72,7)</td>
+							</tr>
+							<tr>
+								<td align="left">Edad media</td>
+								<td align="left"> </td>
+								<td align="left">60,5</td>
+								<td align="left">57</td>
+								<td align="left">58,5</td>
+								<td align="left">57</td>
+								<td align="left">47,5</td>
+								<td align="left">57</td>
+								<td align="left">62,5</td>
+								<td align="left">68</td>
+								<td align="left">57,1</td>
+								<td align="left">61 </td>
+							</tr>
+							<tr>
+								<td align="left" colspan="12">Sexo </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Masculino</td>
+								<td align="left">17 (38,6)</td>
+								<td align="left">15 (34)</td>
+								<td align="left">2 (4,5)</td>
+								<td align="left">13 (29,5)</td>
+								<td align="left">4 (9)</td>
+								<td align="left">17 (38,6)</td>
+								<td align="center">-</td>
+								<td align="left">4 (9)</td>
+								<td align="left">4 (9)</td>
+								<td align="left" colspan="2">9 (20,4) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Femenino</td>
+								<td align="left">27 (61,3)</td>
+								<td align="left">21 (47,7)</td>
+								<td align="left">6 (13,6)</td>
+								<td align="left">20 (45,4)</td>
+								<td align="left">7 (15,9) </td>
+								<td align="left">25 (56,8) </td>
+								<td align="left">2 (4,5) </td>
+								<td align="left">1 (2,2) </td>
+								<td align="left">3 (6,8)</td>
+								<td align="left">23 (52,2)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="12">Estadio </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">I</td>
+								<td align="center">8 (21,1)</td>
+								<td align="center">7 (15,9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">7 (15,9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">8 (18,1)</td>
+								<td align="center">-</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center" colspan="2">5 (11,3) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">II</td>
+								<td align="center">13 (34,2)</td>
+								<td align="center">11 (25)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">12 (27,2)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">11 (25)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">3 (6,8)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center" colspan="2">9 (20,4) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">III</td>
+								<td align="center">6 (15,8)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">6 (13,6)</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center" colspan="2">6 (13,6) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">IV</td>
+								<td align="center">11 (28,9)</td>
+								<td align="center">7 (15,9)</td>
+								<td align="center">4 (9)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">6 (13,6)</td>
+								<td align="center">11 (25)</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">9 (20,4) </td>
+							</tr>
+							<tr>
+								<td align="left" colspan="12">Tipo histológico </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Bien diferenciado</td>
+								<td align="center">24 (54,4)</td>
+								<td align="center">20 (45,4)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">18 (40,9)</td>
+								<td align="center">7 (15,9) </td>
+								<td align="center">23 (52,2) </td>
+								<td align="center">2 (4,5) </td>
+								<td align="center">3 (6,8) </td>
+								<td align="center">4 (9)</td>
+								<td align="center">18 (40,9)</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Moderadamente diferenciado </td>
+								<td align="center">10 (22,7)</td>
+								<td align="center">9 (20,4)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">10 (22,7)</td>
+								<td align="center">-</td>
+								<td align="center">10 (22,7)</td>
+								<td align="center">-</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">8 (18,1) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Mucinoso</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">3 (6,8)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">3 (6,8)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">-</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">-</td>
+								<td align="center">4 (9) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Sarcoma miofibroblástico</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">-</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">- </td>
+							</tr>
+							<tr>
+								<td align="left" colspan="12">Localización del tumor </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Colon ascendente</td>
+								<td align="center">16 (36)</td>
+								<td align="center">11 (25)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">11 (25)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">15 (34,0)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">3 (6,8)</td>
+								<td align="center" colspan="2">11 (25) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Colon transverso</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">4 (9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">3 (6,8)</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">-</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center" colspan="2">3 (6,8) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Colon descendente</td>
+								<td align="center">15 (34)</td>
+								<td align="center">14 (40,9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">13 (38,6)</td>
+								<td align="center">2 (6,8)</td>
+								<td align="center">15 (43,1)</td>
+								<td align="center">-</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center">2 (4,5)</td>
+								<td align="center" colspan="2">11 (36,3) </td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Recto</td>
+								<td align="center">5 (11,3)</td>
+								<td align="center">4 (9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">4 (9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">4 (9)</td>
+								<td align="center">1 (2,2)</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">5 (11,3)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>La frecuencia de mutaciones en las 44 muestras analizadas fue del 47,7 % (21/44). Todas las mutaciones identificadas fueron por sustitución de bases. De estas, el 23,8 % (5/21) sin sentido y el 76,2 % (16/21) de sentido erróneo (<xref ref-type="table" rid="t2">cuadro 2</xref>). Las mutaciones detectadas fueron más frecuentes en mujeres (15/21) que en hombres (6/21) y se encontraron con mayor frecuencia en el colon ascendente, con el 52,3 % de los casos (11/21), seguido del colon transverso, con el 19 % (4/21), en tanto que el colon descendente y el recto presentaron la misma frecuencia de mutaciones, con el 14,2 % (3/21). Además, la frecuencia de polimorfismos en los genes evaluados fue alta; se identificaron en total cinco polimorfismos diferentes en las 44 muestras analizadas. El más frecuente fue el rs41115 (c.4479 G&gt;A, p.Thr1493Thr), ubicado en el exón 15 del gen <italic>APC</italic> en el 75 % de las muestras (<xref ref-type="table" rid="t3">cuadro 3</xref>). Las mutaciones y los polimorfismos identificados en este estudio están reportados en las bases de datos COSMIC, SNP en NCBI y 1000 genomas.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2</label>
+					<caption>
+						<title>Mutaciones identificadas en los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic> en los 44 pacientes con cáncer colorrectal evaluados</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="11.11">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center">Gen</th>
+								<th align="center">n</th>
+								<th align="center">Sexo</th>
+								<th align="center">Posición</th>
+								<th align="center">Codón</th>
+								<th align="center">Mutación</th>
+								<th align="center">Cambio en aminoácidos</th>
+								<th align="center">Tipo de cambio</th>
+								<th align="center">Consecuencia</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left"><italic>APC</italic></td>
+								<td align="left">1</td>
+								<td align="left">F</td>
+								<td align="left">c.4420A&gt;G</td>
+								<td align="left">1474</td>
+								<td align="left">ACT &gt;GCT</td>
+								<td align="left">p.A1474T</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Cambio de sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">3</td>
+								<td align="left">F</td>
+								<td align="left">c.4463 T&gt;C</td>
+								<td align="left">1488</td>
+								<td align="left">TTA &gt;TCA</td>
+								<td align="left">p.L1488S</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Cambio de sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">1</td>
+								<td align="left">F</td>
+								<td align="left">c.4562 G&gt;T</td>
+								<td align="left">1521</td>
+								<td align="left">GAA &gt;TAA</td>
+								<td align="left">p.E1521*</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Sin sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">1</td>
+								<td align="left">F</td>
+								<td align="left">c.4651A&gt;T</td>
+								<td align="left">1551</td>
+								<td align="left">AAA&gt;TAA</td>
+								<td align="left">p.K1551*</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Sin sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">2</td>
+								<td align="left">M</td>
+								<td align="left">c.4348C&gt;T</td>
+								<td align="left">1450</td>
+								<td align="left">CGA&gt;TGA</td>
+								<td align="left">p.R1450*</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Sin sentido</td>
+							</tr>
+							<tr>
+								<td align="left"><italic>KRAS</italic></td>
+								<td align="left">6</td>
+								<td align="left">4 F 2 M</td>
+								<td align="left">c.35G&gt;A</td>
+								<td align="left">12</td>
+								<td align="left">GGT&gt;GAT</td>
+								<td align="left">P.G12D</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Cambio de sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">2</td>
+								<td align="left">1 F 1 M</td>
+								<td align="left">c.34G&gt;A</td>
+								<td align="left">12</td>
+								<td align="left">GGT&gt;AGT</td>
+								<td align="left">P.G12S</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Cambio de sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">3</td>
+								<td align="left">2 F 1 M</td>
+								<td align="left">c.38G&gt;A</td>
+								<td align="left">13</td>
+								<td align="left">GGC&gt;GAC</td>
+								<td align="left">P.G13D</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Cambio de sentido</td>
+							</tr>
+							<tr>
+								<td align="left"><italic>TP53</italic></td>
+								<td align="left">1</td>
+								<td align="left">F</td>
+								<td align="left">c.493C&gt;T</td>
+								<td align="left">165</td>
+								<td align="left">CAG&gt;TAG</td>
+								<td align="left">p.Q165*</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Sin sentido</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">1</td>
+								<td align="left">F</td>
+								<td align="left">c.546C&gt;A</td>
+								<td align="left">182</td>
+								<td align="left">TGC&gt;TGA</td>
+								<td align="left">P.C182*</td>
+								<td align="left">Sustitución</td>
+								<td align="left">Sin sentido</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>* Representa el codón de parada</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Cuadro 3</label>
+					<caption>
+						<title>Polimorfismos identificados en los genes APC, KRAS y TP53 en los 44 individuos con cáncer colorrectal analizados</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="14.285">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center">GEN</th>
+								<th align="center">n</th>
+								<th align="center">%</th>
+								<th align="center">Exón / Intrón</th>
+								<th align="center">Posición c.ADN</th>
+								<th align="center">Cambio en aminoácidos</th>
+								<th align="center">SNP</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left"><italic>APC</italic></td>
+								<td align="right">33</td>
+								<td align="right">75 </td>
+								<td align="left">Exón 15</td>
+								<td align="left">c.4479G&gt;A</td>
+								<td align="left">T1493T</td>
+								<td align="left">rs41115</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="right">1</td>
+								<td align="right">2,3 </td>
+								<td align="left">Exón 15</td>
+								<td align="left">c.4326 T&gt;A</td>
+								<td align="left">P1442P</td>
+								<td align="left">rs67622085</td>
+							</tr>
+							<tr>
+								<td align="left"><italic>KRAS</italic></td>
+								<td align="right">8</td>
+								<td align="right">18,2 </td>
+								<td align="left">Intrón 2</td>
+								<td align="left">c.111+190A&gt;T</td>
+								<td align="left">NA</td>
+								<td align="left">rs12228277</td>
+							</tr>
+							<tr>
+								<td align="left"><italic>TP53</italic></td>
+								<td align="right">9</td>
+								<td align="right">20,5 </td>
+								<td align="left">Intrón 7</td>
+								<td align="left">c.782+72C&gt;T</td>
+								<td align="left">NA</td>
+								<td align="left">rs12947788</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="right">9</td>
+								<td align="right">20,5 </td>
+								<td align="left">Intrón 7</td>
+								<td align="left">c.782+92T&gt;G</td>
+								<td align="left">NA</td>
+								<td align="left">rs12951053</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>NA: no aplica</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p><italic>KRAS</italic> fue el gen más frecuentemente mutado, con el 25 % (11/44). Las mutaciones encontradas fueron más comunes en mujeres (7/11) que en hombres (4/11). Las mutaciones puntuales fueron más frecuentes en el codón 12 (72,7 %), que en el codón 13 (27,3 %) del exón 2; todas las mutaciones detectadas fueron del tipo de transiciones (<xref ref-type="table" rid="t2">cuadro 2</xref>). La mutación por sustitución más común (54,5 %) en el gen <italic>KRAS</italic> fue la c.35G&gt;A p.G12D en el codón 12 (<xref ref-type="fig" rid="f1">figura 1</xref>), seguida de la mutación c.38G&gt;A, p.G13D en el codón 13, con el 27,3 %. Las mutaciones detectadas en este gen generaron un cambio de sentido en la secuencia de aminoácidos de la proteína y el 11,3 % se localizó en el colon ascendente, el 6,8 % en el colon transverso y descendente, y el 2,2 % en el recto. Se observó que el 13,6 % de las muestras de tumores con <italic>KRAS</italic> mutado estaba en estadio IV. Por otra parte, además de las secuencias obtenidas para este gen, también se identificó en el 18,2 % (8/44) de las muestras un polimorfismo en el intrón 2, el rs12228277 (c.111+190 A &gt; T) (<xref ref-type="table" rid="t3">cuadro 3</xref>). Por el contrario, en el análisis de las secuencias en el codón 61 del exón 3 del <italic>KRAS</italic>, no se identificaron mutaciones o polimorfismos, como tampoco se encontró la mutación V600E del gen <italic>BRAF</italic> en las muestras de tumores con <italic>KRAS</italic> mutado.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Cromatogramas obtenidos de la secuenciación directa que muestran diferentes mutaciones identificadas en los genes analizados en las muestras de cáncer colorrectal. A. Mutación en <italic>KRAS</italic>, codón 12 G&gt;A. B. Mutación en <italic>APC</italic>, codón 1474 G&gt;A. C. Mutación en <italic>TP53</italic>, codón 165 C&gt;T. D. Polimorfismo en APC c.4479 G&gt;A, p.T1493T. Las flechas muestran el sitio del cambio del nucleótido.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-s1-154-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>Por otro lado, la frecuencia de mutación del gen <italic>APC</italic> en la región MCR del exón 15 fue del 18,1 % (8/44). Las mutaciones identificadas fueron más comunes en mujeres (6/8) que en hombres (2/8). La mutación más común fue la c.4463 T&gt;C, p.L1488S en el codón 1488, con el 37,5 % (cuadro 2). En este gen, también se identificaron dos polimorfismos, el rs41115 (c.4479 G&gt;A, p.Thr1493Thr) en el 75 % (33/44) de los casos y el rs67622085 (c. 4326 T&gt;A, p.Pro1442Pro) en un solo caso (<xref ref-type="table" rid="t3">cuadro 3</xref>, <xref ref-type="fig" rid="f1">figura 1</xref>). Las mutaciones se identificaron con mayor frecuencia en el colon ascendente, con el 11,3 % (5/44), en tanto que en el colon transverso, el descendente y el recto, se identificó una sola mutación en cada uno de ellos. De las ocho mutaciones puntuales identificadas en <italic>APC</italic>, tres eran de transición y dos de transversión; dos mutaciones correspondían a cambio de sentido y las otras tres fueron sin sentido y generaron una proteína truncada (<xref ref-type="table" rid="t2">cuadro 2</xref>, <xref ref-type="fig" rid="f1">figura 1</xref>).</p>
+			<p>En cuanto al gen <italic>TP53</italic>, solo se identificaron dos mutaciones en todas las muestras analizadas, correspondientes al 4,5 %; las mutaciones se localizaron en el exón 5, una en el codón 165, de tipo transición, y la otra en el codón 182, de tipo transversión, las cuales generan un codón de parada prematura (<xref ref-type="table" rid="t2">cuadro 2</xref>, <xref ref-type="fig" rid="f1">figura 1</xref>). Las dos mutaciones identificadas en muestras de mujeres se localizaron en el colon ascendente y el recto. De forma similar a lo encontrado para los genes <italic>APC</italic> y <italic>KRAS</italic>, en el <italic>TP53</italic> se detectaron dos polimorfismos en el intrón 7, el rs12947788 (c.782+72C &gt; T) y el rs12951053 (c.782+92T &gt; G), con cosegregación en el 20,5 % (9/44) de las muestras analizadas (<xref ref-type="table" rid="t3">cuadro 3</xref>). Por otra parte, en ninguna de las 44 muestras se detectaron mutaciones simultáneas en los genes analizados; solo el 9 % (4/44) de ellas tenía mutaciones concomitantes en los genes APC y KRAS.</p>
+			<p>Por otra parte, la inestabilidad microsatelital se encontró en el 27,2 % (12/44) de las muestras de tumores analizadas. La MSI-H se determinó en el 11,3 % (5/44) y, la MSI-L, en el 15,9 % (7/44), en tanto que el 72,7 % (32/44) hubo estabilidad microsatelital (<xref ref-type="table" rid="t1">cuadro 1</xref>, <xref ref-type="fig" rid="f2">figura 2</xref>). La inestabilidad microsatelital fue más común en hombres (8/44) que en mujeres (4/44), con el 18 y el 9 %, respectivamente, y una diferencia estadísticamente significativa (p=0,047). El promedio de edad de los pacientes con inestabilidad microsatelital fue de 60,5 años. La distribución de la inestabilidad microsatelital fue de 11,3 % (5/44) en el colon ascendente, 4,5 % (2/44) en el transverso y de 11,3 % (5/44) en el descendente (<xref ref-type="table" rid="t1">cuadro 1</xref>). No se detectó inestabilidad microsatelital en las cinco muestras de recto. Se observó que el 15,9 % de las muestras con inestabilidad microsatelital positiva estaban en los estadios I y II. Por otro lado, en el análisis de mutaciones realizado en las 12 muestras de tumores con inestabilidad microsatelital positiva y en un grupo de tumores con estabilidad microsatelital, no se identificó la mutación V600E del gen <italic>BRAF</italic>.</p>
+			<p>El estado de metilación del promotor del gen <italic>MLH1</italic> se determinó en 41 de 44 muestras. La frecuencia de metilación fue del 73,1 % (30/41). De las 30 muestras con metilación del <italic>MLH1</italic>, el 63,3 % (19/30) procedía de mujeres con una edad promedio de 62,8 años y, el 36,6 % restante (11/30), de hombres con un promedio de edad de 63,6 años. La metilación del gen <italic>MLH1</italic> fue más frecuente en el colon ascendente, con 36,6 % (11/30), seguido del descendente, con 33,3 % (10/30), y el transverso y el recto, con 13,3 % (4/30) y 10 % (3/30), respectivamente. En cuanto al estado de metilación y al estadio del tumor, se observó una frecuencia del 46,6 % de metilación en los estadios I y II, en tanto que, en los estadios III y IV, fue del 40 %.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Imagen de la electroforesis capilar de una muestra de cáncer colorrectal con MSI-H. En la parte superior, se observa el perfil de los cinco marcadores STR (<italic>Short Tandem Repeat</italic>) del tejido normal. En la parte inferior, se observa el perfil de los marcadores STR del tejido tumoral del mismo caso que evidencia una inestabilidad microsatelital positiva alta en todos los marcadores evaluados. Las flechas indican la inestabilidad detectada con cada uno de los marcadores utilizados.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-s1-154-gf2.jpg"/>
+				</fig>
+			</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Cuadro 4</label>
+					<caption>
+						<title>Descripción general de las características patológicas de las 12 muestras de cáncer colorrectal positivas para MSI y la relación con los hallazgos de mutaciones en los genes analizados y los de metilación en el gen <italic>MLH1</italic></title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="10">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center">Caso </th>
+								<th align="center">Edad</th>
+								<th align="center">Sexo</th>
+								<th align="center">Localización</th>
+								<th align="center">Estadio </th>
+								<th align="center">APC</th>
+								<th align="center">KRAS</th>
+								<th align="center">TP53 </th>
+								<th align="center">MSI</th>
+								<th align="center">MLH1</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">1</td>
+								<td align="left">70</td>
+								<td align="left">F</td>
+								<td align="left">Ascendente</td>
+								<td align="left">IV</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">2</td>
+								<td align="left">ND</td>
+								<td align="left">F</td>
+								<td align="left">ND*</td>
+								<td align="left">ND</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">3</td>
+								<td align="left">72</td>
+								<td align="left">M</td>
+								<td align="left">Ascendente</td>
+								<td align="left">II</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-H</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">4</td>
+								<td align="left">90</td>
+								<td align="left">F</td>
+								<td align="left">Transverso</td>
+								<td align="left">IV</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">5</td>
+								<td align="left">58</td>
+								<td align="left">M</td>
+								<td align="left">Descendente</td>
+								<td align="left">I</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-H</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">6</td>
+								<td align="left">81</td>
+								<td align="left">M</td>
+								<td align="left">Ascendente</td>
+								<td align="left">II</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-H</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">7</td>
+								<td align="left">36</td>
+								<td align="left">F</td>
+								<td align="left">Transverso</td>
+								<td align="left">ND</td>
+								<td align="left"> </td>
+								<td align="left">c.35G&gt;A</td>
+								<td align="left"> </td>
+								<td align="left">MSI-H</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">8</td>
+								<td align="left">62</td>
+								<td align="left">M</td>
+								<td align="left">Ascendente</td>
+								<td align="left">I</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">9</td>
+								<td align="left">81</td>
+								<td align="left">M</td>
+								<td align="left">Descendente</td>
+								<td align="left">I</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">10</td>
+								<td align="left">53</td>
+								<td align="left">M</td>
+								<td align="left">Descendente</td>
+								<td align="left">II</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-H</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">11</td>
+								<td align="left">79</td>
+								<td align="left">M</td>
+								<td align="left">Descendente</td>
+								<td align="left">II</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">M</td>
+							</tr>
+							<tr>
+								<td align="left">12</td>
+								<td align="left">ND</td>
+								<td align="left">M</td>
+								<td align="left">Ascendente</td>
+								<td align="left">ND</td>
+								<td align="left"> </td>
+								<td align="left">c.35G&gt;A</td>
+								<td align="left"> </td>
+								<td align="left">MSI-L</td>
+								<td align="left">UM</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>ND: no determinado; M: con metilación; UM: sin metilación</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Asimismo, el 91,6 % (11/12) de las muestras de tumores positivas para inestabilidad microsatelital presentaba metilación en el gen <italic>MLH</italic> y no portaba la mutación V600E del gen <italic>BRAF</italic>. En cuanto al estado de metilación, la inestabilidad microsatelital y el perfil de mutaciones en los genes analizados en este grupo de tumores, se observaron simultáneamente con mayor frecuencia en hombres que en mujeres en el colon ascendente, con 41,6 % (5/12) y en el estadio II, con 33,3 % (4/12). Solo dos muestras (18,2 %) tenían mutaciones en el gen <italic>KRAS</italic> (c.35G&gt;A p.G12D) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+			<p>Con respecto a las 32 muestras de tumores estabilidad microsatelital, estas fueron más frecuentes en mujeres, con el 71,8 % (23/32), y a una edad promedio de 61 años, y se encontraron con mayor frecuencia en el colon descendente y el recto, con el 34,3 % (11/32) y el 15,6 % (5/32), respectivamente. La estabilidad microsatelital en nuestras muestras fue más frecuente en la parte distal del colon y en los estadios II y IV, con el 56,2 % (18/32). En este grupo de tumores con estabilidad microsatelital, la metilación del gen <italic>MLH1</italic> fue del 59,3 % (19/32) y la frecuencia de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic> fue del 59,3 % (19/32). De este último porcentaje, el 47,5 % tenía mutaciones en el KRAS, 42,1 % en el <italic>APC</italic> y 10,5 % en el <italic>TP53</italic>, lo que es similar a lo encontrado en el grupo de tumores con inestabilidad microsatelital, en el que el KRAS fue el gen más frecuentemente mutado en las muestras con estabilidad microsatelital. Solo tres muestras de este grupo de tumores tenían mutaciones en los genes <italic>APC</italic> y <italic>KRAS</italic> simultáneamente.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>El desarrollo del cáncer colorrectal se caracteriza por la acumulación de múltiples alteraciones moleculares en diferentes vías genéticas como la inestabilidad cromosómica, la inestabilidad microsatelital y la epigenética, las cuales afectan la expresión de los genes supresores de tumores, los protooncogenes y los genes de reparación.</p>
+			<p>En el presente estudio, se llevó a cabo la caracterización molecular de 44 pacientes colombianos con cáncer colorrectal esporádico, sabiendo que las mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic> son esenciales en la transformación y progresión de adenoma a carcinoma colorrectal. Se encontró una frecuencia total de mutaciones en estos tres genes del 47,7 %.</p>
+			<p>La frecuencia de mutación del gen <italic>APC</italic> en nuestro estudio fue menor comparada con la reportada en otros estudios (21,22), en los que se informan frecuencias de mutaciones de hasta el 70 % al analizar las secuencias de todos los exones que contienen el gen <italic>APC</italic>. Nuestro estudio se restringió al análisis de mutaciones en la región <italic>MCR</italic>, que representa cerca del 10 % de toda la región codificadora de <italic>APC</italic> y se considera un punto clave (<italic>hotspot</italic>) para mutaciones en este gen <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+			<p>La poca frecuencia de mutaciones en el <italic>APC</italic> en estos pacientes colombianos con cáncer colorrectal corrobora los resultados previamente reportados por nosotros en otra cohorte de pacientes <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Sin embargo, nuestro resultado es similar a los reportados por Al-Shamsi, <italic>et al</italic>., y Syed, <italic>et al</italic>., quienes informan bajas frecuencias de mutaciones en el gen APC en poblaciones del sur de Asia y la península arábiga, con el 27,3 y el 12,8 %, respectivamente <xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. No obstante, es necesario aumentar el número de pacientes analizados para validar nuestros resultados en este gen y evaluar todos sus exones. Las mutaciones puntuales más frecuentes en los pacientes con cáncer colorrectal fueron la c.4463 T&gt;C p.L1488S, seguida de la c.4348C&gt;T p.R1450*, lo que coincide con lo reportado en otros estudios de cáncer colorrectal esporádico <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Las diferencias encontradas entre nuestros resultados y los reportados por otros autores, además del tamaño muestral, permiten sugerir que las frecuencias y el patrón de mutaciones somáticas en el gen <italic>APC</italic> en el cáncer colorrectal difieren entre poblaciones, posiblemente por la variación geográfica de las frecuencias de las mutaciones y por factores étnicos.</p>
+			<p>Las mutaciones en el gen supresor de tumores <italic>APC</italic> se consideran un evento inicial crítico en la carcinogénesis del cáncer colorrectal esporádico, puesto que las mutaciones en la región MCR afectan el dominio funcional de unión de la proteína β-catenina, la cual se acumula en el citoplasma de las células colorrectales y, por esta vía, se promueve la formación del cáncer <xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+			<p>Debe tenerse en cuenta que en el <italic>APC</italic> ocurren otros tipos de alteraciones genéticas, como la pérdida de hetorocigocidad hasta en el 30 %, deleciones cromosómicas en la región 5q21 y la hipermetilación del promotor del gen <italic>APC</italic> (entre 30 y 45 %) (8,25-27). Por lo tanto, se sugiere que en las muestras tumorales analizadas en este estudio no se podría excluir la presencia de las anteriores alteraciones.</p>
+			<p>En el presente estudio, el <italic>KRAS</italic> fue el gen más frecuentemente mutado, con una frecuencia de mutación similar a la reportada en otros estudios y un rango entre el 13 y el 66 % en pacientes con cáncer colorrectal esporádico de diferentes poblaciones <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. En países como China, Estados Unidos y Francia, se reportan las frecuencias más altas de mutaciones (40 a 66 %), en tanto que, en algunas poblaciones asiáticas, se informan bajas frecuencias, de 13 a 26,5 %, similar a lo encontrado en nuestro trabajo <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. Asimismo, nuestros resultados concuerdan con la frecuencia de mutaciones en este gen previamente reportada en otro estudio en pacientes con cáncer colorrectal <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+			<p>Las mutaciones puntuales identificadas en el <italic>KRAS</italic> fueron más comunes en mujeres que en hombres, y con mayor prevalencia en el codón 12 que en el 13, en tanto que en el codón 61 no se detectaron mutaciones. Nuestros resultados concuerdan con lo reportado en otros estudios en que se informa que hasta el 97 % de las mutaciones ocurre en los codones 12 y 13 del exón 2 <xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. La mutación por sustitución de bases más predominante en las muestras tumorales analizadas fue la G12D, similar a lo reportado en otros estudios <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Esta mutación representa más del 50 % del total de mutaciones reportadas en el <italic>KRAS</italic> en pacientes con cáncer colorrectal, por lo que se considera que es clave en su carcinogénesis. En este estudio, también se detectaron otras mutaciones frecuentes en el <italic>KRAS</italic> como la G13D y la G12S. Sin embargo, no se detectó la mutación G12V, la cual es frecuente en otras poblaciones <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Las mutaciones detectadas en el <italic>KRAS</italic> fueron más comunes en el colon ascendente que en el colon descendente y el recto, resultados que coinciden con los reportados por otros autores <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			<p>En el presente estudio, los casos de cáncer colorrectal con el <italic>KRAS</italic> mutado no tenían la mutación V600E del gen <italic>BRAF</italic>, resultados que corroboran lo reportado en varios estudios que evidencian que las mutaciones en los genes <italic>KRAS</italic> y <italic>BRAF</italic> son mutuamente excluyentes <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. En general, en el cáncer colorrectal esporádico se reporta una baja frecuencia (0 a 12 %) de mutaciones en el gen <italic>BRAF</italic>, y nuestros resultados están dentro de este rango <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>Las mutaciones puntuales en el gen <italic>KRAS</italic> originan una activación constitutiva de este oncogén, lo que produce una desregulación en la vía de señalización RAS/RAF/MAPK, la cual estimula la proliferación celular, un evento clave en el proceso de transformación de adenoma a carcinoma en el cáncer colorrectal <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Asimismo, las mutaciones en el <italic>KRAS</italic> se asocian con un mal pronóstico de la enfermedad y, en estudios clínicos de pacientes con cáncer colorrectal metastásico y KRAS mutado, se informa que estos pacientes no tienen una respuesta eficaz a la terapia con anticuerpos monoclonales anti-EGFR (I-EGFR) <xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. Por ello, es importante hacer la caracterización molecular del <italic>KRAS</italic> en los pacientes con cáncer colorrectal esporádico, pues permite la identificación de subgrupos moleculares.</p>
+			<p>En cuanto al gen <italic>TP53</italic>, en este estudio se encontró una baja frecuencia (4,5 %) de mutaciones, lo que difiere significativamente de lo reportado por varios autores en pacientes con cáncer colorrectal de diferentes poblaciones, con hasta el 60 % de mutaciones cuando se evalúan todos los exones del gen <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Este estudio se enfocó en el análisis molecular de los exones 5 al 8, en los cuales se reportan las mayores frecuencias de mutaciones en el TP53 (<italic>hot-spot mutation</italic>) <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Las dos mutaciones puntuales identificadas en el <italic>TP53</italic> en nuestro estudio se detectaron en los codones 165 y 182, y están entre las mutaciones con menor frecuencia reportadas en diferentes poblaciones. Las mutaciones con mayor frecuencia en el <italic>TP53</italic> se han reportado en los codones 175, 245, 248, 273 y 282 <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. Sin embargo, nuestros resultados corroboran los obtenidos por nuestro grupo en un estudio previo en pacientes con cáncer colorrectal <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>, pues en los dos estudios se reportaron bajas frecuencias de mutaciones en el gen <italic>TP53</italic>. A partir de estos hallazgos, se sugiere que los pacientes con cáncer colorrectal esporádico evaluados presentan un perfil de mutaciones en el <italic>TP53</italic> de frecuencia y tipo diferentes a los informados en otras poblaciones. Las diferencias entre nuestros resultados y los de los otros estudios podrían explicarse por el tamaño de la muestra, la exposición exógena a químicos, los hábitos, el estilo de vida y la etnia.</p>
+			<p>Contrariamente a la baja frecuencia de mutaciones puntuales detectada en el <italic>TP53</italic> en el presente estudio, en otros estudios previos se han reportado altas frecuencias de aneuploidías del cromosoma 17 y deleciones en el locus 17p13.1, en el que se localiza el gen <italic>TP53</italic><xref ref-type="bibr" rid="B35"><sup>35</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. Por ello, en las muestras tumorales de cáncer colorrectal evaluadas en el presente estudio, no se podría excluir la presencia de estas alteraciones de tipo cromosómicas.</p>
+			<p>En este estudio, solo se encontraron mutaciones concomitantes en los genes <italic>APC</italic> y <italic>KRAS</italic>; no se identificaron mutaciones simultáneas en <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic>, hallazgos que concuerdan con lo reportado para el cáncer colorrectal esporádico por otros autores <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Por lo tanto, se considera que las mutaciones simultáneas en estos tres genes son un evento infrecuente en la carcinogénesis de esta neoplasia y que, a pesar del modelo genético de múltiples pasos propuesto por Fearon, <italic>et al</italic>., para la misma <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>, no todos los casos se ajustan a él. En este sentido, se sugiere que las mutaciones en estos genes ocurren por vías moleculares independientes durante el desarrollo del cáncer colorrectal <xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>Por otra parte, los análisis de mutación en los genes evaluados permitieron la identificación de varios polimorfismos; se resalta particularmente la identificación del polimorfismo c.4479G&gt;A p.T1493T en el exón 15 del gen <italic>APC</italic>, con una frecuencia del 75 % en las muestras de cáncer colorrectal esporádico analizadas. Este hallazgo corrobora resultados previos reportados por primera vez por nuestro grupo en pacientes colombianos con cáncer colorrectal y de estómago <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. La asociación de este polimorfismo y el riesgo de desarrollar cáncer colorrectal no está bien esclarecida. En algunos estudios, se ha encontrado dicha asociación, pero en otros no <xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B39"><sup>39</sup></xref>. Este polimorfismo está reportado en la base de datos del proyecto de 1.000 genomas, fase 3, en población antioqueña. Por lo tanto, se requieren más estudios en la población colombiana para establecer su asociación con el riesgo de desarrollar cáncer colorrectal.</p>
+			<p>En resumen, los resultados del análisis de mutaciones en las muestras de cáncer colorrectal analizadas sugieren un perfil de mutaciones particular, caracterizado por bajas frecuencias de mutación en los genes <italic>APC</italic>, <italic>KRAS</italic>, <italic>BRAF</italic> y <italic>TP53</italic>, en comparación con las informadas en otras poblaciones. Por ello, se necesitan más estudios con muestras de mayor tamaño para validar los resultados reportados aquí, así como estudios genómicos con técnicas de secuenciación de nueva generación para analizar el genoma tumoral completo y obtener una mejor caracterización genómica del cáncer colorrectal. Además de por el tamaño de la muestra, el perfil de mutaciones particular observado en el presente estudio podría estar influenciado por diferentes factores, como el estilo de vida, la dieta, el tabaquismo, la raza y otros aspectos genéticos.</p>
+			<p>La frecuencia de la inestabilidad microsatelital (27,2 %) en las muestras analizadas de tumores de cáncer colorrectal, concuerda con las informadas en otros estudios. El análisis de inestabilidad microsatelital permitió la identificación de subgrupos de muestras con MSI-H, MSI-L y MSS, hallazgos que coinciden con los reportados en el cáncer colorrectal esporádico <xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B40"><sup>40</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. La inestabilidad microsatelital se presenta en 15 a 20 % de los casos de cáncer colorrectal esporádico, especialmente por la hipermetilación del promotor del gen <italic>MLH1</italic>; por otra parte, en los pacientes con cáncer colorrectal de tipo hereditario, como el síndrome de Lynch o cáncer colorrectal no polipósico hereditario, la inestabilidad microsatelital se presenta hasta en el 90 % y se origina por mutaciones germinales en los genes del sistema de reparación <italic>Mismatch Repair System</italic><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>En el presente estudio, la inestabilidad microsatelital se detectó con mayor frecuencia en los tumores localizados en el colon ascendente y en el descendente, mientras que no se detectó en el recto, posiblemente por el bajo número de casos. Asimismo, la inestabilidad microsatelital se detectó con mayor frecuencia en cáncer colorrectal de estadios I y II. En general, nuestros resultados concuerdan con los reportados en otros estudios y corroboran la variación de la inestabilidad microsatelital a lo largo del colon hasta el recto, así como su presencia en estadios tempranos de la carcinogénesis del cáncer colorrectal esporádico <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B40"><sup>40</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Por otra parte, en las 12 muestras de cáncer colorrectal positivo para inestabilidad microsatelital, no se detectó la mutación V600E del gen <italic>BRAF</italic>; este resultado difiere de lo reportado en otros estudios en los que se informa que esta es más frecuente en muestras de cáncer colorrectal con MSI-H <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B44"><sup>44</sup></xref>. En el presente estudio, cinco de las 12 muestras con inestabilidad microsatelital tenían MSI-H, por lo que el bajo número de muestras podría explicar que no se haya identificado esta mutación. Sin embargo, nuestros resultados concuerdan con los publicados por otros autores que no encontraron esta relación en pacientes con cáncer colorrectal esporádico <xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B46"><sup>46</sup></xref>. En sentido contrario a la ausencia de mutaciones en el gen BRAF, en este estudio se encontró que el 16 % de los tumores positivos para inestabilidad microsatelital tenía mutaciones en el <italic>KRAS</italic>, siendo la mutación G12D la más frecuente, lo cual coincide con lo reportado por otros estudios <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B47"><sup>47</sup></xref>. En general, nuestros hallazgos nos permiten sugerir que, en los casos de cáncer colorrectal esporádico, los positivos para inestabilidad microsatelital constituyen un subgrupo molecular que se caracteriza por presentar una baja frecuencia de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic>, <italic>BRAF</italic> y <italic>TP53</italic>; en tanto que los pacientes con estabilidad microsatelital se caracterizan por presentar una mayor frecuencia de mutaciones en los genes analizados. Ello permite concluir que son dos subgrupos con características moleculares diferentes.</p>
+			<p>Es importante resaltar la utilidad clínica de evaluar la inestabilidad microsatelital en los pacientes con cáncer colorrectal, puesto que en diversos estudios clínicos se ha informado que los pacientes con MSI-H en estadio II tienen un mejor pronóstico de la enfermedad y no se benefician de el tratamiento con 5-fluorouracilo, por lo que se concluye que la inestabilidad microsatelital es un biomarcador predictivo negativo para esta terapia. Además, se ha observado que los pacientes con tumores positivos para inestabilidad microsatelital tienen una mayor tasa de mutación que los tumores con estabilidad microsatelital, lo que podría aumentar el riesgo de desarrollar tumores extracolónicos. <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B40"><sup>40</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>En nuestro estudio, se encontró una alta frecuencia de metilación del promotor del gen <italic>MLH1</italic> (73,1 %), lo que concuerda con la informada en otros estudios en cáncer colorrectal esporádico <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B48"><sup>48</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B50"><sup>50</sup></xref>. Este es el primer reporte en una cohorte de pacientes colombianos con cáncer colorrectal esporádico y dicha frecuencia de metilación está entre las más altas reportadas. El <italic>MLH1</italic> es un gen de reparación del sistema <italic>Mismatch Repair System</italic>, y su inactivación por la hipermetilación en el promotor se ha descrito ampliamente en el cáncer colorrectal y en otros tumores sólidos, por lo que se considera un evento común en el desarrollo del colorrectal <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>. En este estudio, la metilación del gen <italic>MLH1</italic> fue más común en los tumores localizados en el colon ascendente en estadios I y II, y menos común en el recto, lo que es similar a lo encontrado en los análisis de MSI. En general, nuestros hallazgos coinciden con los informados en la literatura en cuanto a una mayor frecuencia de metilación del <italic>MLH1</italic> en el colon proximal y en estadios tempranos del desarrollo del cáncer colorrectal <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B48"><sup>48</sup></xref>. También, corroboran que la metilación del gen MLH1 disminuye en el trayecto del colon proximal hacia el recto, lo que podría sugerir que se presentan diferentes vías carcinogénicas en estos sitios anatómicos del intestino <xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B49"><sup>49</sup></xref>.</p>
+			<p>En nuestro estudio, el 91,6 % de las muestras con inestabilidad microsatelital tenían metilación en el gen <italic>MLH1</italic>; este hallazgo concuerda con la relación directa entre la metilación de este gen y la inestabilidad microsatelital en el cáncer colorrectal esporádico reportada en la literatura <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B48"><sup>48</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B51"><sup>51</sup></xref>. Sin embargo, nuestros resultados también mostraron una alta frecuencia de metilación del promotor del gen <italic>MLH1</italic> en el grupo de tumores con estabilidad microsatelital, lo que podría indicar que la metilación del <italic>MLH1</italic> no es un evento exclusivo que ocurre en los tumores positivos para inestabilidad microsatelital y que, en general, es un fenómeno común que se presenta en la carcinogénesis del cáncer colorrectal.</p>
+			<p>Dada la relación directa entre la inestabilidad microsatelital y la metilación del gen <italic>MLH1</italic> en el cáncer colorrectal y la presencia de las dos alteraciones en los estadios I y II, se sugiere que se consideren como biomarcadores de gran utilidad clínica para el diagnóstico genético en los estadios iniciales de esta neoplasia.</p>
+			<p>En el presente estudio, se observó que el grupo de tumores con estabilidad microsatelital y metilación en el gen <italic>MLH1</italic> se caracterizó por presentar una mayor frecuencia de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic>, contrario a lo observado en el grupo de tumores con inestabilidad microsatelital. A partir de estos resultados, se concluye que la metilación del gen <italic>MLH1</italic> fue la alteración molecular más común detectada en las muestras analizadas de cáncer colorrectal y que esta, posiblemente, se presenta por una vía de carcinogénesis independiente a la vía de la inestabilidad microsatelital. Además, se sugiere que los pacientes evaluados con cáncer colorrectal presentan subgrupos con características moleculares diferentes.</p>
+			<p>Por último, el análisis global de los resultados del perfil de mutaciones, la inestabilidad microsatelital y el patrón de metilación del gen <italic>MLH1</italic> en los pacientes con cáncer colorrectal esporádico estudiados, permitió una mejor comprensión de la caracterización molecular de este tipo de cáncer y la identificación de dos subgrupos de pacientes con perfiles genéticos diferentes. El primero se caracterizó por presentar una inestabilidad microsatelital positiva, alta frecuencia de metilación del gen <italic>MLH1</italic> y bajas frecuencias de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic>, <italic>BRAF</italic> y <italic>TP53</italic>. El segundo subgrupo se caracterizó por presentar estabilidad microsatelital, alta frecuencia de metilación del <italic>MLH1</italic> y una mayor frecuencia de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic> y <italic>TP53</italic>. Estos subgrupos moleculares, identificados y reportados por primera vez en nuestra población, concuerdan con los informados por el consenso de subtipos moleculares del cáncer colorrectal. Lo anterior nos permite concluir que los pacientes con cáncer colorrectal esporádico estudiados presentaron diferentes tipos de alteraciones moleculares en la vía supresora o de inestabilidad cromosómica, microsatelital o epigenética. Los hallazgos obtenidos en nuestro estudio confirman la heterogeneidad molecular descrita en el desarrollo del cáncer colorrectal.</p>
+			<p>En conclusión, este es el primer estudio en nuestro país de evaluación simultánea de las vías de mutaciones en los genes <italic>APC</italic>, <italic>KRAS</italic>, <italic>TP53</italic> y <italic>BRAF</italic>, de la inestabilidad microsatelital y epigenética en pacientes con cáncer colorrectal, lo que permitió identificar subgrupos moleculares diferentes según las vías alteradas. Además, los pacientes con cáncer colorrectal presentaron un perfil de mutaciones que difiere del de otras poblaciones.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Los autores agradecemos a todos los pacientes, por la participación voluntaria en este estudio, y al Hospital Fundación Hospital Universitario San Vicente Fundación y la Clínica León XIII de Medellín, en donde se recolectaron las muestras.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Siegel RL, Miller KD, Jemal A. Cancer statistics, 2020. CA Cancer J Clin. 2020;70:7-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3322/caac.21590">https://doi.org/10.3322/caac.21590</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Siegel</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Jemal</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>Cancer statistics, 2020</article-title>
+					<source>CA Cancer J Clin</source>
+					<year>2020</year>
+					<volume>70</volume>
+					<fpage>7</fpage>
+					<lpage>30</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3322/caac.21590">https://doi.org/10.3322/caac.21590</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Ferlay J, Colombet M, Soerjomataram I, Mathers C, Parkin DM, Piñeros M, <italic>et al</italic>. Estimating the global cancer incidence and mortality in 2018: GLOBOCAN sources and methods. Int J Cancer. 2019;15:1941-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.31937">https://doi.org/10.1002/ijc.31937</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferlay</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Colombet</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Soerjomataram</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Mathers</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Parkin</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Piñeros</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Estimating the global cancer incidence and mortality in 2018: GLOBOCAN sources and methods</article-title>
+					<source>Int J Cancer</source>
+					<year>2019</year>
+					<volume>15</volume>
+					<fpage>1941</fpage>
+					<lpage>1953</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.31937">https://doi.org/10.1002/ijc.31937</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Siegel RL, Miller KD, Goding Sauer A, Fedewa SA, Butterly LF, Anderson JC, <italic>et al</italic>. Colorectal cancer statistics, 2020. CA Cancer J Clin. 2020;70:145-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3322/caac.21601">https://doi.org/10.3322/caac.21601</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Siegel</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Goding Sauer</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Fedewa</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Butterly</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Colorectal cancer statistics, 2020</article-title>
+					<source>CA Cancer J Clin</source>
+					<year>2020</year>
+					<volume>70</volume>
+					<fpage>145</fpage>
+					<lpage>164</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3322/caac.21601">https://doi.org/10.3322/caac.21601</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Dekker E, Tanis PJ, Vleugels JLA, Kasi PM, Wallace MB. Colorectal cancer. Lancet. 2019;394:1467-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(19)32319-0">https://doi.org/10.1016/S0140-6736(19)32319-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dekker</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tanis</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Vleugels</surname>
+							<given-names>JLA</given-names>
+						</name>
+						<name>
+							<surname>Kasi</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Wallace</surname>
+							<given-names>MB.</given-names>
+						</name>
+					</person-group>
+					<article-title>Colorectal cancer</article-title>
+					<source>Lancet</source>
+					<year>2019</year>
+					<volume>394</volume>
+					<fpage>1467</fpage>
+					<lpage>1480</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(19)32319-0">https://doi.org/10.1016/S0140-6736(19)32319-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Lynch HT, Snyder CL, Shaw TG, Heinen CD, Hitchins MP. Milestones of Lynch syndrome: 1895-2015. Nat Rev Cancer. 2015;15:181-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc3878">https://doi.org/10.1038/nrc3878</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lynch</surname>
+							<given-names>HT</given-names>
+						</name>
+						<name>
+							<surname>Snyder</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>TG</given-names>
+						</name>
+						<name>
+							<surname>Heinen</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Hitchins</surname>
+							<given-names>MP.</given-names>
+						</name>
+					</person-group>
+					<article-title>Milestones of Lynch syndrome: 1895-2015</article-title>
+					<source>Nat Rev Cancer</source>
+					<year>2015</year>
+					<volume>15</volume>
+					<fpage>181</fpage>
+					<lpage>194</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrc3878">https://doi.org/10.1038/nrc3878</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Mármol I, Sánchez-de-Diego C, Pradilla-Dieste A, Cerrada E, Rodríguez-Yoldi MJ. Colorectal carcinoma: A general overview and future perspectives in colorectal cancer. Int J Mol Sci. 2017;18:197 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijms18010197">https://doi.org/10.3390/ijms18010197</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mármol</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Sánchez-de-Diego</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pradilla-Dieste</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cerrada</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Yoldi</surname>
+							<given-names>MJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>Colorectal carcinoma: A general overview and future perspectives in colorectal cancer</article-title>
+					<source>Int J Mol Sci</source>
+					<year>2017</year>
+					<volume>18</volume>
+					<fpage>197</fpage>
+					<lpage>197</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijms18010197">https://doi.org/10.3390/ijms18010197</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Goel A, Boland CR. Epigenetics of colorectal cancer. Gastroenterology. 2012;143:1442-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/j.gastro.2012.09.032">https://doi.org/10.1053/j.gastro.2012.09.032</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goel</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Boland</surname>
+							<given-names>CR.</given-names>
+						</name>
+					</person-group>
+					<article-title>Epigenetics of colorectal cancer</article-title>
+					<source>Gastroenterology</source>
+					<year>2012</year>
+					<volume>143</volume>
+					<fpage>1442</fpage>
+					<lpage>1460</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/j.gastro.2012.09.032">https://doi.org/10.1053/j.gastro.2012.09.032</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. Cell. 1990;61:759-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0092-8674(90)90186-i">https://doi.org/10.1016/0092-8674(90)90186-i</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fearon</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Vogelstein</surname>
+							<given-names>B.</given-names>
+						</name>
+					</person-group>
+					<article-title>A genetic model for colorectal tumorigenesis</article-title>
+					<source>Cell</source>
+					<year>1990</year>
+					<volume>61</volume>
+					<fpage>759</fpage>
+					<lpage>767</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0092-8674(90)90186-i">https://doi.org/10.1016/0092-8674(90)90186-i</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Worthley DL, Whitehall VL, Spring KJ, Leggett BA.Colorectal carcinogenesis: Road maps to cancer. World J Gastroenterol. 2007;13:3784-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3748/wjg.v13.i28.3784">https://doi.org/10.3748/wjg.v13.i28.3784</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Worthley</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Whitehall</surname>
+							<given-names>VL</given-names>
+						</name>
+						<name>
+							<surname>Spring</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Leggett</surname>
+							<given-names>BA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Colorectal carcinogenesis: Road maps to cancer</article-title>
+					<source>World J Gastroenterol</source>
+					<year>2007</year>
+					<volume>13</volume>
+					<fpage>3784</fpage>
+					<lpage>3791</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3748/wjg.v13.i28.3784">https://doi.org/10.3748/wjg.v13.i28.3784</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Setaffy L, Langner C. Microsatellite instability in colorectal cancer: Clinicopathological significance. Pol J Pathol. 2015;66:203-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5114/pjp.2015.54953">https://doi.org/10.5114/pjp.2015.54953</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Setaffy</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Langner</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Microsatellite instability in colorectal cancer: Clinicopathological significance</article-title>
+					<source>Pol J Pathol</source>
+					<year>2015</year>
+					<volume>66</volume>
+					<fpage>203</fpage>
+					<lpage>218</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5114/pjp.2015.54953">https://doi.org/10.5114/pjp.2015.54953</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Suraweera N, Duval A, Reperant M, Vaury C, Furlan D, Leroy K, <italic>et al</italic>. Evaluation of tumor microsatellite instability using five quasimonomorphic mononucleotide repeats and pentaplex PCR. Gastroenterology. 2002;123:1804-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/gast.2002.37070">https://doi.org/10.1053/gast.2002.37070</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Suraweera</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Duval</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Reperant</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Vaury</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Furlan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Leroy</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of tumor microsatellite instability using five quasimonomorphic mononucleotide repeats and pentaplex PCR.</article-title>
+					<source>Gastroenterology</source>
+					<year>2002</year>
+					<volume>123</volume>
+					<fpage>1804</fpage>
+					<lpage>1811</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1053/gast.2002.37070">https://doi.org/10.1053/gast.2002.37070</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Jia Y, Guo M. Epigenetic changes in colorectal cancer. Chin J Cancer. 2013;32:21-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5732/cjc.011.10245">https://doi.org/10.5732/cjc.011.10245</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jia</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Epigenetic changes in colorectal cancer</article-title>
+					<source>Chin J Cancer</source>
+					<year>2013</year>
+					<volume>32</volume>
+					<fpage>21</fpage>
+					<lpage>30</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5732/cjc.011.10245">https://doi.org/10.5732/cjc.011.10245</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Li X, Yao X, Wang Y, Hu F, Wang F, Jiang L, <italic>et al</italic>. MLH1 promoter methylation frequency in colorectal cancer patients and related clinicopathological and molecular features. PLoS ONE. 2013;8:e59064. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0059064">https://doi.org/10.1371/journal.pone.0059064</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Yao</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Jiang</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>MLH1 promoter methylation frequency in colorectal cancer patients and related clinicopathological and molecular features</article-title>
+					<source>PLoS ONE</source>
+					<year>2013</year>
+					<volume>8</volume>
+					<elocation-id>e59064</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0059064">https://doi.org/10.1371/journal.pone.0059064</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Cancer Genome Atlas Network. Comprehensive molecular characterization of human colon and rectal cancer. Nature. 2012;487:330-7 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature11252">https://doi.org/10.1038/nature11252</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Cancer Genome Atlas Network</collab>
+					</person-group>
+					<article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>
+					<source>Nature</source>
+					<year>2012</year>
+					<volume>487</volume>
+					<fpage>330</fpage>
+					<lpage>337</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature11252">https://doi.org/10.1038/nature11252</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Lee MS, Menter DG, Kopetz S. Right versus left colon cancer biology: Integrating the consensus molecular subtypes. J Natl Compr Canc Netw. 2017;15:411-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6004/jnccn.2017.0038">https://doi.org/10.6004/jnccn.2017.0038</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lee</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Menter</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Kopetz</surname>
+							<given-names>S.</given-names>
+						</name>
+					</person-group>
+					<article-title>Right versus left colon cancer biology: Integrating the consensus molecular subtypes</article-title>
+					<source>J Natl Compr Canc Netw</source>
+					<year>2017</year>
+					<volume>15</volume>
+					<fpage>411</fpage>
+					<lpage>419</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6004/jnccn.2017.0038">https://doi.org/10.6004/jnccn.2017.0038</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Guinney J, Dienstmann R, Wang X, de Reyniès A, Schlicker A, Soneson C, <italic>et al</italic>. The consensus molecular subtypes of colorectal cancer. Nat Med. 2015;21:1350-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nm.3967">https://doi.org/10.1038/nm.3967</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guinney</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dienstmann</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>de Reyniès</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Schlicker</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Soneson</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The consensus molecular subtypes of colorectal cancer</article-title>
+					<source>Nat Med</source>
+					<year>2015</year>
+					<volume>21</volume>
+					<fpage>1350</fpage>
+					<lpage>1356</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nm.3967">https://doi.org/10.1038/nm.3967</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Peeters M, Douillard JY, van Cutsem E, Siena S, Zhang K, Williams R, <italic>et al</italic>. Mutant KRAS codon 12 and 13 alleles in patients with metastatic colorectal cancer: Assessment as prognostic and predictive biomarkers of response to panitumumab. J Clin Oncol. 2013;20;31:759-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.2012.45.1492">https://doi.org/10.1200/JCO.2012.45.1492</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peeters</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Douillard</surname>
+							<given-names>JY</given-names>
+						</name>
+						<name>
+							<surname>van Cutsem</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Siena</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutant KRAS codon 12 and 13 alleles in patients with metastatic colorectal cancer: Assessment as prognostic and predictive biomarkers of response to panitumumab</article-title>
+					<source>J Clin Oncol</source>
+					<year>2013</year>
+					<volume>20</volume>
+					<issue>31</issue>
+					<fpage>759</fpage>
+					<lpage>765</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.2012.45.1492">https://doi.org/10.1200/JCO.2012.45.1492</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Nguyen HT, Duong HQ. The molecular characteristics of colorectal cancer: Implications for diagnosis and therapy. Oncol Lett. 2018;16:9-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892/ol.2018.8679">https://doi.org/10.3892/ol.2018.8679</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>HT</given-names>
+						</name>
+						<name>
+							<surname>Duong</surname>
+							<given-names>HQ.</given-names>
+						</name>
+					</person-group>
+					<article-title>The molecular characteristics of colorectal cancer: Implications for diagnosis and therapy</article-title>
+					<source>Oncol Lett</source>
+					<year>2018</year>
+					<volume>16</volume>
+					<fpage>9</fpage>
+					<lpage>18</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3892/ol.2018.8679">https://doi.org/10.3892/ol.2018.8679</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Murcia O, Juárez M, Rodríguez-Soler M, Hernández-Illán E, Giner-Calabuig M, Alustiza M, <italic>et al</italic>. Colorectal cancer molecular classification using BRAF, KRAS, microsatellite instability and CIMP status: Prognostic implications and response to chemotherapy. PLoS ONE. 2018;6:13:e0203051. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/iournal.pone.0203051">https://doi.org/10.1371/iournal.pone.0203051</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murcia</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Juárez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Soler</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Illán</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Giner-Calabuig</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Alustiza</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Colorectal cancer molecular classification using BRAF, KRAS, microsatellite instability and CIMP status: Prognostic implications and response to chemotherapy</article-title>
+					<source>PLoS ONE</source>
+					<year>2018</year>
+					<volume>6</volume>
+					<issue>13</issue>
+					<elocation-id>e0203051</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/iournal.pone.0203051">https://doi.org/10.1371/iournal.pone.0203051</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Kawakami H, Zaanan A, Sinicrope FA. Microsatellite instability testing and its role in the management of colorectal cancer. Curr Treat Options Oncol. 2015;16:30-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11864-015-0348-2">https://doi.org/10.1007/s11864-015-0348-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kawakami</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zaanan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sinicrope</surname>
+							<given-names>FA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Microsatellite instability testing and its role in the management of colorectal cancer</article-title>
+					<source>Curr Treat Options Oncol</source>
+					<year>2015</year>
+					<volume>16</volume>
+					<fpage>30</fpage>
+					<lpage>44</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11864-015-0348-2">https://doi.org/10.1007/s11864-015-0348-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Smith G, Carey FA, Beattie J, Wilkie MJ, Lightfoot TJ, Coxhead J, <italic>et al</italic>. Mutations in APC, Kirsten-ras, and p53--alternative genetic pathways to colorectal cancer. Proc Natl Acad Sci USA. 2002;99:9433-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.122612899">https://doi.org/10.1073/pnas.122612899</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Smith</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Carey</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Beattie</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wilkie</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Lightfoot</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Coxhead</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutations in APC, Kirsten-ras, and p53--alternative genetic pathways to colorectal cancer</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>2002</year>
+					<volume>99</volume>
+					<fpage>9433</fpage>
+					<lpage>9438</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.122612899">https://doi.org/10.1073/pnas.122612899</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Vasovcak P, Pavlikova K, Sedlacek Z, Skapa P, Kouda M, Hoch J, <italic>et al</italic>. Molecular genetic analysis of 103 sporadic colorectal tumours in Czech patients. PLoS ONE. 2011;6:e24114. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0024114">https://doi.org/10.1371/journal.pone.0024114</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vasovcak</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Pavlikova</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Sedlacek</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Skapa</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Kouda</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hoch</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular genetic analysis of 103 sporadic colorectal tumours in Czech patients</article-title>
+					<source>PLoS ONE</source>
+					<year>2011</year>
+					<volume>6</volume>
+					<elocation-id>e24114</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0024114">https://doi.org/10.1371/journal.pone.0024114</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>Palacio-Rúa KA, Isaza-Jiménez LF, Ahumada-Rodríguez E, Muñetón-Peña CM. Genetic analysis in APC, KRAS, and TP53 in patients with stomach and colon cancer. Rev Gastroenterol Mex. 2014;79-89. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rgmx.2014.05.001">https://doi.org/10.1016/j.rgmx.2014.05.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palacio-Rúa</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Isaza-Jiménez</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Ahumada-Rodríguez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Muñetón-Peña</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<article-title>Genetic analysis in APC, KRAS, and TP53 in patients with stomach and colon cancer</article-title>
+					<source>Rev Gastroenterol Mex</source>
+					<year>2014</year>
+					<fpage>79</fpage>
+					<lpage>89</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rgmx.2014.05.001">https://doi.org/10.1016/j.rgmx.2014.05.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Al-Shamsi HO, Jones J, Fahmawi Y, Dahbour I, Tabash A, Abdel-Wahab R, <italic>et al</italic>. Molecular spectrum of KRAS, NRAS, BRAF, PIK3CA, TP53, and APC somatic gene mutations in Arab patients with colorectal cancer: Determination of frequency and distribution pattern. J Gastrointest Oncol. 2016;7:882-902. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21037/jgo.2016.11.02">https://doi.org/10.21037/jgo.2016.11.02</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Al-Shamsi</surname>
+							<given-names>HO</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fahmawi</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Dahbour</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Tabash</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Abdel-Wahab</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular spectrum of KRAS, NRAS, BRAF, PIK3CA, TP53, and APC somatic gene mutations in Arab patients with colorectal cancer: Determination of frequency and distribution pattern</article-title>
+					<source>J Gastrointest Oncol</source>
+					<year>2016</year>
+					<volume>7</volume>
+					<fpage>882</fpage>
+					<lpage>902</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21037/jgo.2016.11.02">https://doi.org/10.21037/jgo.2016.11.02</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Syed Sameer A, Shah ZA, Abdullah S, Chowdri NA, Siddiqi MA. Analysis of molecular aberrations of Wnt pathway gladiators in colorectal cancer in the Kashmiri population. Hum Genomics. 2011;5:441-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1479-7364-5-5-441">https://doi.org/10.1186/1479-7364-5-5-441</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Syed Sameer</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Shah</surname>
+							<given-names>ZA</given-names>
+						</name>
+						<name>
+							<surname>Abdullah</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Chowdri</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Siddiqi</surname>
+							<given-names>MA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of molecular aberrations of Wnt pathway gladiators in colorectal cancer in the Kashmiri population</article-title>
+					<source>Hum Genomics</source>
+					<year>2011</year>
+					<volume>5</volume>
+					<fpage>441</fpage>
+					<lpage>452</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1479-7364-5-5-441">https://doi.org/10.1186/1479-7364-5-5-441</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>Kapitanovic S, Cacev T, Radosevic S, Spaventi S, Spaventi R, Pavelic K. APC gene loss of heterozygosity, mutations, E1317Q, and I1307K germ-line variants in sporadic colon cancer in Croatia. Exp Mol Pathol. 2004;77:193-200. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.yexmp.2004.06.001">https://doi.org/10.1016/j.yexmp.2004.06.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kapitanovic</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cacev</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Radosevic</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Spaventi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Spaventi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pavelic</surname>
+							<given-names>K.</given-names>
+						</name>
+					</person-group>
+					<article-title>APC gene loss of heterozygosity, mutations, E1317Q, and I1307K germ-line variants in sporadic colon cancer in Croatia</article-title>
+					<source>Exp Mol Pathol</source>
+					<year>2004</year>
+					<volume>77</volume>
+					<fpage>193</fpage>
+					<lpage>200</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.yexmp.2004.06.001">https://doi.org/10.1016/j.yexmp.2004.06.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>Michailidi C, Theocharis S, Tsourouflis G, Pletsa V, Kouraklis G, Patsouris E, <italic>et al</italic>. Expression and promoter methylation status of hMLH1, MGMT, APC, and CDH1 genes in patients with colon adenocarcinoma. Exp Biol Med (Maywood). 2015;240:1599-605. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1535370215583800">https://doi.org/10.1177/1535370215583800</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Michailidi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Theocharis</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tsourouflis</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Pletsa</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Kouraklis</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Patsouris</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Expression and promoter methylation status of hMLH1, MGMT, APC, and CDH1 genes in patients with colon adenocarcinoma</article-title>
+					<source>Exp Biol Med (Maywood)</source>
+					<year>2015</year>
+					<volume>240</volume>
+					<fpage>1599</fpage>
+					<lpage>1605</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1535370215583800">https://doi.org/10.1177/1535370215583800</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>Zhang J, Zheng J, Yang Y, Lu J, Gao J, Lu T, <italic>et al</italic>. Molecular spectrum of KRAS, NRAS, BRAF and PIK3CA mutations in Chinese colorectal cancer patients: Analysis of 1,110 cases. Sci Rep. 2015;5:18678. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/srep18678">https://doi.org/10.1038/srep18678</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zheng</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular spectrum of KRAS, NRAS, BRAF and PIK3CA mutations in Chinese colorectal cancer patients: Analysis of 1,110 cases</article-title>
+					<source>Sci Rep</source>
+					<year>2015</year>
+					<volume>5</volume>
+					<fpage>18678</fpage>
+					<lpage>18678</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/srep18678">https://doi.org/10.1038/srep18678</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>Guo F, Gong H, Zhao H, Chen J, Zhang Y, Zhang L, <italic>et al</italic>. Mutation status and prognostic values of KRAS, NRAS, BRAF and PIK3CA in 353 Chinese colorectal cancer patients. Sci Rep. 2018;8:6076. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-018-24306-1">https://doi.org/10.1038/s41598-018-24306-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guo</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutation status and prognostic values of KRAS, NRAS, BRAF and PIK3CA in 353 Chinese colorectal cancer patients</article-title>
+					<source>Sci Rep</source>
+					<year>2018</year>
+					<volume>8</volume>
+					<fpage>6076</fpage>
+					<lpage>6076</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-018-24306-1">https://doi.org/10.1038/s41598-018-24306-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>Zlobec I, Kovac M, Erzberger P, Molinari F, Bihl MP, Rufle A, <italic>et al</italic>. Combined analysis of specific KRAS mutation, BRAF and microsatellite instability identifies prognostic subgroups of sporadic and hereditary colorectal cancer. Int J Cancer. 2010;127:2569-75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.25265">https://doi.org/10.1002/ijc.25265</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zlobec</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Kovac</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Erzberger</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Molinari</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bihl</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Rufle</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Combined analysis of specific KRAS mutation, BRAF and microsatellite instability identifies prognostic subgroups of sporadic and hereditary colorectal cancer</article-title>
+					<source>Int J Cancer</source>
+					<year>2010</year>
+					<volume>127</volume>
+					<fpage>2569</fpage>
+					<lpage>2575</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.25265">https://doi.org/10.1002/ijc.25265</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>Conlin A, Smith G, Carey FA, Wolf CR, Steele RJ. The prognostic significance of K-ras, p53, and APC mutations in colorectal carcinoma. Gut. 2005;54:1283-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/gut.2005.066514">https://doi.org/10.1136/gut.2005.066514</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Conlin</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Carey</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Wolf</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Steele</surname>
+							<given-names>RJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>The prognostic significance of K-ras, p53, and APC mutations in colorectal carcinoma</article-title>
+					<source>Gut</source>
+					<year>2005</year>
+					<volume>54</volume>
+					<fpage>1283</fpage>
+					<lpage>1286</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/gut.2005.066514">https://doi.org/10.1136/gut.2005.066514</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>Cai ZX, Tang XD, Gao HL, Tang C, Nandakumar V, Jones L, <italic>et al</italic>. APC, FBXW7, KRAS, PIK3CA, and TP53 gene mutations in human colorectal cancer tumors frequently detected by next-generation DNA sequencing. J Mol Genet Med. 2014;8:145-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4172/1747-0862.1000145">https://doi.org/10.4172/1747-0862.1000145</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cai</surname>
+							<given-names>ZX</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>XD</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>HL</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Nandakumar</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>APC, FBXW7, KRAS, PIK3CA, and TP53 gene mutations in human colorectal cancer tumors frequently detected by next-generation DNA sequencing</article-title>
+					<source>J Mol Genet Med</source>
+					<year>2014</year>
+					<volume>8</volume>
+					<fpage>145</fpage>
+					<lpage>156</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4172/1747-0862.1000145">https://doi.org/10.4172/1747-0862.1000145</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>Hainaut P, Pfeifer GP. Somatic TP53 mutations in the era of genome sequencing. Cold Spring Harb Perspect Med. 2016;6:a026179. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/cshperspect.a026179">https://doi.org/10.1101/cshperspect.a026179</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hainaut</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Pfeifer</surname>
+							<given-names>GP.</given-names>
+						</name>
+					</person-group>
+					<article-title>Somatic TP53 mutations in the era of genome sequencing</article-title>
+					<source>Cold Spring Harb Perspect Med</source>
+					<year>2016</year>
+					<volume>6</volume>
+					<elocation-id>a026179</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/cshperspect.a026179">https://doi.org/10.1101/cshperspect.a026179</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>Naccarati A, Polakova V, Pardini B, Vodickova L, Hemminki K, Kumar R, <italic>et al</italic>. Mutations and polymorphisms in TP53 gene-an overview on the role in colorectal cancer. Mutagenesis. 2012;27:211-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/mutage/ger067">https://doi.org/10.1093/mutage/ger067</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Naccarati</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Polakova</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Pardini</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Vodickova</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Hemminki</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Kumar</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mutations and polymorphisms in TP53 gene-an overview on the role in colorectal cancer</article-title>
+					<source>Mutagenesis</source>
+					<year>2012</year>
+					<volume>27</volume>
+					<fpage>211</fpage>
+					<lpage>218</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/mutage/ger067">https://doi.org/10.1093/mutage/ger067</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>Herrera JC, Isaza LF, Ramírez JL, Vásquez G, Muñetón CM. Detección de aneuploidías del cromosoma 17 y deleción del gen TP53 en una amplia variedad de tumores sólidos mediante hibridación in situ fluorescente bicolor. Biomédica. 2010;30:390-0. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v30i3.273">https://doi.org/10.7705/biomedica.v30i3.273</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herrera</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Isaza</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Vásquez</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Muñetón</surname>
+							<given-names>CM.</given-names>
+						</name>
+					</person-group>
+					<article-title>Detección de aneuploidías del cromosoma 17 y deleción del gen TP53 en una amplia variedad de tumores sólidos mediante hibridación in situ fluorescente bicolor</article-title>
+					<source>Biomédica</source>
+					<year>2010</year>
+					<volume>30</volume>
+					<fpage>390</fpage>
+					<lpage>390</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v30i3.273">https://doi.org/10.7705/biomedica.v30i3.273</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>Ramírez G, Herrera J, Muñetón CM, Márquez JR, Isaza LF. Análisis de las aneuploidías del cromosoma 17 y deleción del gen TP53 en tumores gastrointestinales por FISH-bicolor. Rev Col Gastroenterol. 2008;23:333-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22516/issn.2500-7440">https://doi.org/10.22516/issn.2500-7440</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Herrera</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Muñetón</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Márquez</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Isaza</surname>
+							<given-names>LF.</given-names>
+						</name>
+					</person-group>
+					<article-title>Análisis de las aneuploidías del cromosoma 17 y deleción del gen TP53 en tumores gastrointestinales por FISH-bicolor</article-title>
+					<source>Rev Col Gastroenterol</source>
+					<year>2008</year>
+					<volume>23</volume>
+					<fpage>333</fpage>
+					<lpage>342</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22516/issn.2500-7440">https://doi.org/10.22516/issn.2500-7440</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>Scott RJ, Crooks R, Rose L, Attia J, Thakkinstian A, Thomas L, <italic>et al</italic>. Germline missense changes in the APC gene and their relationship to disease. Hered Cancer Clin Pract. 2004;2:81-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1897-4287-2-2-81">https://doi.org/10.1186/1897-4287-2-2-81</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scott</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Crooks</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rose</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Attia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Thakkinstian</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Thomas</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Germline missense changes in the APC gene and their relationship to disease</article-title>
+					<source>Hered Cancer Clin Pract</source>
+					<year>2004</year>
+					<volume>2</volume>
+					<fpage>81</fpage>
+					<lpage>91</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1897-4287-2-2-81">https://doi.org/10.1186/1897-4287-2-2-81</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>Fernández-Rozadilla C, de Castro L, Clofent J, Brea-Fernández A, Bessa X, Abulí A, <italic>et al</italic>. Gastrointestinal Oncology Group of the Spanish Gastroenterological Association. Single nucleotide polymorphisms in the Wnt and BMP pathways and colorectal cancer risk in a Spanish cohort. PLoS ONE. 2010;5:e12673. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0012673">https://doi.org/10.1371/journal.pone.0012673</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernández-Rozadilla</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>de Castro</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Clofent</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Brea-Fernández</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bessa</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Abulí</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Gastrointestinal Oncology Group of the Spanish Gastroenterological Association. Single nucleotide polymorphisms in the Wnt and BMP pathways and colorectal cancer risk in a Spanish cohort</article-title>
+					<source>PLoS ONE</source>
+					<year>2010</year>
+					<volume>5</volume>
+					<elocation-id>e12673</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0012673">https://doi.org/10.1371/journal.pone.0012673</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>Wachsmannova-Matelova L, Stevurkova V, Adamcikova Z, Holec V, Zajac V. Polymorphisms in the adenomatous polyposis coli gene in Slovak families suspected of FAP. Neuro Endocrinol Lett. 2009;30:25-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wachsmannova-Matelova</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Stevurkova</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Adamcikova</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Holec</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Zajac</surname>
+							<given-names>V.</given-names>
+						</name>
+					</person-group>
+					<article-title>Polymorphisms in the adenomatous polyposis coli gene in Slovak families suspected of FAP</article-title>
+					<source>Neuro Endocrinol Lett</source>
+					<year>2009</year>
+					<volume>30</volume>
+					<fpage>25</fpage>
+					<lpage>28</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>Bae JM, Kim JH, Kang GH. Molecular subtypes of colorectal cancer and their clinicopathologic features, with an emphasis on the serrated neoplasia pathway. Arch Pathol Lab Med. 2016;140:406-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5858/arpa.2015-0310-RA">https://doi.org/10.5858/arpa.2015-0310-RA</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bae</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Kang</surname>
+							<given-names>GH.</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular subtypes of colorectal cancer and their clinicopathologic features, with an emphasis on the serrated neoplasia pathway</article-title>
+					<source>Arch Pathol Lab Med</source>
+					<year>2016</year>
+					<volume>140</volume>
+					<issue>406-12</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5858/arpa.2015-0310-RA">https://doi.org/10.5858/arpa.2015-0310-RA</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>Montenegro Y, Ramírez-Castro JL, Isaza LF, Bedoya G, Muñetón-Peña CM. Microsatellite instability among patients with colorectal cancer. Rev Med Chil. 2006;134:1221-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/s0034-98872006001000002">https://doi.org/10.4067/s0034-98872006001000002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montenegro</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ramírez-Castro</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Isaza</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Bedoya</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Muñetón-Peña</surname>
+							<given-names>CM.</given-names>
+						</name>
+					</person-group>
+					<article-title>Microsatellite instability among patients with colorectal cancer</article-title>
+					<source>Rev Med Chil</source>
+					<year>2006</year>
+					<volume>134</volume>
+					<fpage>1221</fpage>
+					<lpage>1229</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/s0034-98872006001000002">https://doi.org/10.4067/s0034-98872006001000002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>Phipps AI, Lindor NM, Jenkins MA, Baron JA, Win AK, Gallinger S, <italic>et al</italic>. Colon and rectal cancer survival by tumor location and microsatellite instability: The Colon Cancer Family Registry. Dis Colon Rectum. 2013;56:937-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/DCR.0b013e31828f9a57">https://doi.org/10.1097/DCR.0b013e31828f9a57</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Phipps</surname>
+							<given-names>AI</given-names>
+						</name>
+						<name>
+							<surname>Lindor</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Jenkins</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Baron</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Win</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Gallinger</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Colon and rectal cancer survival by tumor location and microsatellite instability: The Colon Cancer Family Registry</article-title>
+					<source>Dis Colon Rectum</source>
+					<year>2013</year>
+					<volume>56</volume>
+					<fpage>937</fpage>
+					<lpage>944</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/DCR.0b013e31828f9a57">https://doi.org/10.1097/DCR.0b013e31828f9a57</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>Wielandt AM, Hurtado C, Moreno C M, Villarroel C, Castro M, Estay M, <italic>et al</italic>. Characterization of Chilean patients with sporadic colorectal cancer according to the three main carcinogenic pathways: Microsatellite instability, CpG island methylator phenotype and chromosomal instability. Tumour Biol. 2020;42:1010428320938492. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1010428320938492">https://doi.org/10.1177/1010428320938492</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wielandt</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Hurtado</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Moreno C</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Villarroel</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Estay</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Characterization of Chilean patients with sporadic colorectal cancer according to the three main carcinogenic pathways: Microsatellite instability, CpG island methylator phenotype and chromosomal instability</article-title>
+					<source>Tumour Biol</source>
+					<year>2020</year>
+					<volume>42</volume>
+					<comment>1010428320938492</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1010428320938492">https://doi.org/10.1177/1010428320938492</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>Clarke CN, Kopetz ES. BRAF mutant colorectal cancer as a distinct subset of colorectal cancer: Clinical characteristics, clinical behavior, and response to targeted therapies. J Gastrointest Oncol. 2015;6:660-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3978/j.issn.2078-6891.2015.077">https://doi.org/10.3978/j.issn.2078-6891.2015.077</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Clarke</surname>
+							<given-names>CN</given-names>
+						</name>
+						<name>
+							<surname>Kopetz</surname>
+							<given-names>ES.</given-names>
+						</name>
+					</person-group>
+					<article-title>BRAF mutant colorectal cancer as a distinct subset of colorectal cancer: Clinical characteristics, clinical behavior, and response to targeted therapies</article-title>
+					<source>J Gastrointest Oncol</source>
+					<year>2015</year>
+					<volume>6</volume>
+					<fpage>660</fpage>
+					<lpage>667</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3978/j.issn.2078-6891.2015.077">https://doi.org/10.3978/j.issn.2078-6891.2015.077</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>Siddique S, Tariq K, Rafiq S, Raheem A, Ahmed R, Shabbir-Moosajee M, <italic>et al</italic>. Sporadic early onset colorectal cancer in Pakistan: A case- control analysis of microsatellite instability. Asian Pac J Cancer Prev. 2016;17:2587-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7314/APJCP.2016.175.2587">https://doi.org/10.7314/APJCP.2016.175.2587</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Siddique</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tariq</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Rafiq</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Raheem</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ahmed</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Shabbir-Moosajee</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sporadic early onset colorectal cancer in Pakistan: A case- control analysis of microsatellite instability</article-title>
+					<source>Asian Pac J Cancer Prev</source>
+					<year>2016</year>
+					<volume>17</volume>
+					<fpage>2587</fpage>
+					<lpage>2592</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7314/APJCP.2016.175.2587">https://doi.org/10.7314/APJCP.2016.175.2587</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>Agostini M, Enzo MV, Morandi L, Bedin C, Pizzini S, Mason S, <italic>et al</italic>. A ten markers panel provides a more accurate and complete microsatellite instability analysis in mismatch repairdeficient colorectal tumors. Cancer Biomark. 2010;6:49-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3233/CBM-2009-0118">https://doi.org/10.3233/CBM-2009-0118</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Agostini</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Enzo</surname>
+							<given-names>MV</given-names>
+						</name>
+						<name>
+							<surname>Morandi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bedin</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pizzini</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mason</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A ten markers panel provides a more accurate and complete microsatellite instability analysis in mismatch repairdeficient colorectal tumors</article-title>
+					<source>Cancer Biomark</source>
+					<year>2010</year>
+					<volume>6</volume>
+					<fpage>49</fpage>
+					<lpage>61</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3233/CBM-2009-0118">https://doi.org/10.3233/CBM-2009-0118</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>Hu J, Yan WY, Xie L, Cheng L, Yang M, Li L, <italic>et al</italic>. Coexistence of MSI with KRAS mutation is associated with worse prognosis in colorectal cancer. Medicine. 2016;95:e5649. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000005649">https://doi.org/10.1097/MD.0000000000005649</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yan</surname>
+							<given-names>WY</given-names>
+						</name>
+						<name>
+							<surname>Xie</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Cheng</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Coexistence of MSI with KRAS mutation is associated with worse prognosis in colorectal cancer</article-title>
+					<source>Medicine</source>
+					<year>2016</year>
+					<volume>95</volume>
+					<elocation-id>e5649</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000005649">https://doi.org/10.1097/MD.0000000000005649</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>Li X, Yao X, Wang Y, Hu F, Wang F, Jiang L, <italic>et al</italic>. MLH1 promoter methylation frequency in colorectal cancer patients and related clinicopathological and molecular features. PLoS ONE. 2013;8:e59064. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/joumal.pone.0059064">https://doi.org/10.1371/joumal.pone.0059064</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Yao</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Jiang</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>MLH1 promoter methylation frequency in colorectal cancer patients and related clinicopathological and molecular features</article-title>
+					<source>PLoS ONE</source>
+					<year>2013</year>
+					<volume>8</volume>
+					<elocation-id>e59064</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/joumal.pone.0059064">https://doi.org/10.1371/joumal.pone.0059064</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>de Vogel S, Weijenberg MP, Herman JG, Wouters KA, de Goeij AF, van den Brandt PA, <italic>et al</italic>. MGMT and MLH1 promoter methylation versus APC, KRAS and BRAF gene mutations in colorectal cancer: Indications for distinct pathways and sequence of events. Ann Oncol. 2009;20:1216-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/annonc/mdn782">https://doi.org/10.1093/annonc/mdn782</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>de Vogel</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Weijenberg</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Herman</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Wouters</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>de Goeij</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>van den Brandt</surname>
+							<given-names>PA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>MGMT and MLH1 promoter methylation versus APC, KRAS and BRAF gene mutations in colorectal cancer: Indications for distinct pathways and sequence of events</article-title>
+					<source>Ann Oncol</source>
+					<year>2009</year>
+					<volume>20</volume>
+					<fpage>1216</fpage>
+					<lpage>1222</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/annonc/mdn782">https://doi.org/10.1093/annonc/mdn782</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>Miladi-Abdennadher I, Abdelmaksoud-Damak R, Ayadi L, Khabir A, Frikha F, Kallel L, <italic>et al</italic>. Aberrant methylation of hMLH1 and p16INK4a in Tunisian patients with sporadic colorectal adenocarcinoma. Biosci Rep. 2011;31:257-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BSR20100023">https://doi.org/10.1042/BSR20100023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miladi-Abdennadher</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Abdelmaksoud-Damak</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ayadi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Khabir</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Frikha</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Kallel</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Aberrant methylation of hMLH1 and p16INK4a in Tunisian patients with sporadic colorectal adenocarcinoma</article-title>
+					<source>Biosci Rep</source>
+					<year>2011</year>
+					<volume>31</volume>
+					<fpage>257</fpage>
+					<lpage>264</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1042/BSR20100023">https://doi.org/10.1042/BSR20100023</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>Poynter JN, Siegmund KD, Weisenberger DJ, Long TI, Thibodeau SN, Lindor N, <italic>et al</italic>. Colon Cancer Family Registry Investigators. Molecular characterization of MSI-H colorectal cancer by MLHI promoter methylation, immunohistochemistry, and mismatch repair germline mutation screening. Cancer Epidemiol Biomarkers Prev. 2008;17:3208-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1055-9965.EPI-08-0512">https://doi.org/10.1158/1055-9965.EPI-08-0512</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Poynter</surname>
+							<given-names>JN</given-names>
+						</name>
+						<name>
+							<surname>Siegmund</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Weisenberger</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Long</surname>
+							<given-names>TI</given-names>
+						</name>
+						<name>
+							<surname>Thibodeau</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Lindor</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Colon Cancer Family Registry Investigators. Molecular characterization of MSI-H colorectal cancer by MLHI promoter methylation, immunohistochemistry, and mismatch repair germline mutation screening</article-title>
+					<source>Cancer Epidemiol Biomarkers Prev</source>
+					<year>2008</year>
+					<volume>17</volume>
+					<fpage>3208</fpage>
+					<lpage>3215</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1055-9965.EPI-08-0512">https://doi.org/10.1158/1055-9965.EPI-08-0512</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Afanador CH, Palacio KA, Isaza LF, Ahumada E, Ocampo CM, Muñetón CM. Caracterización molecular de pacientes con cáncer colorrectal. Biomédica. 2022;42:154-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5957">https://doi.org/10.7705/biomedica.5957</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label><bold>Contribución de los autores:</bold> 
+				Carlos Humberto Afanador y Carlos Mario Muñetón:</label>
+				<p> redacción del manuscrito</p>
+			</fn>
+			<fn fn-type="supported-by" id="fn4">
+				<label>Financiación:</label>
+				<p>El estudio fue financiado por la Universidad de Antioquia en el marco de la convocatoria programática en ciencias biomédicas y de la salud, Grupo de Genética Médica, CODI-CPT- 1231.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

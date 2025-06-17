@@ -1,0 +1,25 @@
+#ITI#Examining the Robustness of the Graded Response and 2-Parameter Logistic Models to Violations of Construct Normality#FTI#
+#IRE# When fitting unidimensional item response theory (IRT) models, the population distribution of the latent trait (θ) is often assumed to be normally distributed. However, some psychological theories would suggest a nonnormal θ. For example, some clinical traits (e.g., alcoholism, depression) are believed to follow a positively skewed distribution where the construct is low for most people, medium for some, and high for few. Failure to account for nonnormality may compromise the validity of inferences and conclusions. Although corrections have been developed to account for nonnormality, these methods can be computationally intensive and have not yet been widely adopted. Previous research has recommended implementing nonnormality corrections when θ is not “approximately normal.” This research focused on examining how far θ can deviate from normal before the normality assumption becomes untenable. Specifically, our goal was to identify the type(s) and degree(s) of nonnormality that result in unacceptable parameter recovery for the graded response model (GRM) and 2-parameter logistic model (2PLM).#FRE#
+#IPC# 2PLM; GRM; item response theory; nonnormality; parameter recovery; simulation study#FPC#
+#IRF# Cai L., High-dimensional exploratory item factor analysis by a Metropolis-Hastings Robbins-Monro algorithm, Psychometrika, 75, 1, pp. 33-57, (2010); 
+Cai L., Metropolis-Hastings Robbins-Monro algorithm for confirmatory item factor analysis, Journal of Educational and Behavioral Statistics, 35, 3, pp. 307-335, (2010); 
+Cai L., flexMIRT version 3.51: Flexible multilevel multidimensional item analysis and test scoring, (2017); 
+Fleishman A.I., A method for simulating non-normal distributions, Psychometrika, 43, 4, pp. 521-532, (1978); 
+Flora D.B., Curran P.J., An empirical evaluation of alternative methods of estimation for confirmatory factor analysis with ordinal data, Psychological Methods, 9, 4, pp. 466-491, (2004); 
+Hill C.D., Precision of parameter estimates for the graded item response model, (2004); 
+Houts C.R., Cai L., flexMIRT user’s manual version 3.5: Flexible multilevel multidimensional item analysis and test scoring, (2016); 
+Houts C.R., Edwards M.C., The performance of local dependence measures with psychological data, Applied Psychological Measurement, 37, 7, pp. 541-562, (2013); 
+Mislevy R.J., Estimating latent distributions, Psychometrika, 49, 3, pp. 359-381, (1984); 
+Pek J., Wong O., Wong A.C.M., How to address non-normality: A taxonomy of approaches, reviewed, and illustrated, Frontiers in Psychology, 9, pp. 1-17, (2018); 
+Preston K.S.J., Reise S.P., Estimating the nominal response model under nonnormal conditions, Educational and Psychological Measurement, 74, 3, pp. 377-399, (2013); 
+Qu W., Liu H., Zhang Z., A method of generating multivariate non-normal random numbers with desired multivariate skewness and kurtosis, Behavior Research Methods, 52, 3, pp. 939-946, (2020); 
+Ramsay J.O., Differential equation models for statistical functions, Canadian Journal of Statistics, 28, 2, pp. 225-240, (2000); 
+R: A language and environment for statistical computing, (2020); 
+Reise S.P., Rodriguez A., Spritzer K.L., Hays R.D., Alternative approaches to addressing non-normal distributions in the application of IRT models to personality measures, Journal of Personality Assessment, 100, 4, (2018); 
+Reise S.P., Waller N.G., Item response theory and clinical measurement, Annual Review of Clinical Psychology, 5, pp. 27-48, (2009); 
+Samejima F., Estimation of latent ability using a response pattern of graded scores (Psychometric Monograph No. 17), Psychometrika, 34, pp. 1-97, (1969); 
+Shen W., Kiger T.B., Davies S.E., Rasch R.L., Simon K.M., Ones D.S., Samples in applied psychology: Over a decade of research in review, Journal of Applied Psychology, 96, 5, pp. 1055-1064, (2011); 
+Stone C.A., Recovery of marginal maximum likelihood estimates in the two-parameter logistic response model: An evaluation of MULTILOG, Applied Psychological Measurement, 16, 1, pp. 1-16, (1992); 
+Woods C.M., Ramsay-curve item response theory (RC-IRT) to detect and correct for nonnormal latent variables, Psychological Methods, 11, 3, pp. 253-270, (2006); 
+Woods C.M., Empirical histograms in item response theory with ordinal data, Educational and Psychological Measurement, 67, 1, pp. 73-87, (2007); 
+Woods C.M., Thissen D., Item response theory with estimation of the latent population distribution using spline-based densities, Psychometrika, 71, 2, pp. 281-301, (2006)#FRF#

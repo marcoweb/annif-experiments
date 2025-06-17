@@ -1,0 +1,35 @@
+#ITI#A critical reflection on computing the sampling variance of the partial correlation coefficient#FTI#
+#IRE# The partial correlation coefficient quantifies the relationship between two variables while taking into account the effect of one or multiple control variables. Researchers often want to synthesize partial correlation coefficients in a meta-analysis since these can be readily computed based on the reported results of a linear regression analysis. The default inverse variance weights in standard meta-analysis models require researchers to compute not only the partial correlation coefficients of each study but also its corresponding sampling variance. The existing literature is diffuse on how to estimate this sampling variance, because two estimators exist that are both widely used. We critically reflect on both estimators, study their statistical properties, and provide recommendations for applied researchers. We also compute the sampling variances of studies using both estimators in a meta-analysis on the partial correlation between self-confidence and sports performance#FRE#
+#IPC# meta-analysis; partial correlation coefficient; sampling variance; standard error#FPC#
+#IRF# Becker B.J., Aloe A.M., Model-Based Meta-Analysis and Related Approaches, pp. 339-363, (2019); 
+Polanin J.R., Espelage D.L., Grotpeter J.K., Et al., A meta-analysis of longitudinal partial correlations between school violence and mental health, school performance, and criminal or delinquent acts, Psychol Bull, 147, 2, pp. 115-133, (2021); 
+Peng P., Lin X., Unal Z.E., Et al., Examining the mutual relations between language and mathematics: a meta-analysis, Psychol Bull, 146, 7, pp. 595-634, (2020); 
+Chiang J.J., Lam P.H., Chen E., Miller G.E., Psychological stress during childhood and adolescence and its association with inflammation across the lifespan: a critical review and meta-analysis, Psychol Bull, 148, 1-2, pp. 27-66, (2022); 
+Curran T., Hill A.P., Young people's perceptions of their parents' expectations and criticism are increasing over time: implications for perfectionism, Psychol Bull, 148, 1-2, pp. 107-128, (2022); 
+Righetti F., Sakaluk J.K., Faure R., Impett E.A., The link between sacrifice and relational and personal well-being: a metaanalysis, Psychol Bull, 146, 10, pp. 900-921, (2020); 
+Anwar A.I., Mang C.F., Do remittances cause Dutch disease? A meta-analytic review, Appl Econom, 54, 36, pp. 4131-4153, (2022); 
+Sun Z., Zhu D., Investigating environmental regulation effects on technological innovation: a meta-regression analysis, Energy Environ, (2021); 
+Filomena M., Picchio M., Retirement and health outcomes in a meta-analytical framework, J Econom Surv, (2022); 
+Floridi A., Demena B.A., Wagner N., Shedding light on the shadows of informality: a meta-analysis of formalization interventions targeted at informal firms, Labour Econom, 67, (2020); 
+Geyer-Klingeberg J., Hang M., Rathgeber A.W., What drives financial hedging? A meta-regression analysis of corporate hedging determinants, Int Rev Financ Anal, 61, pp. 203-221, (2019); 
+Cohen J., Cohen P., West S.G., Aiken L.S., Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences, (2003); 
+Pedhazur E.J., Multiple Regression in Behavioral Research: Explanation and Prediction, (1997); 
+Olkin I., Siotani M., Asymptotic distribution of functions of a correlation matrix, Essays in Probability and Statistics, pp. 235-251, (1976); 
+Kutner M.H., Nachtsheim C., Neter J., Li W., Applied Linear Statistical Models, (2005); 
+Gustafson R.L., Partial correlations in regression computations, J Am Stat Assoc, 56, 294, pp. 363-367, (1961); 
+Stanley T.D., Doucouliagos H., Meta-Regression Analysis in Economics and Business, (2012); 
+Aloe A.M., Thompson C.G., The synthesis of partial effect sizes, J Soc Soc Work Res, 4, 4, pp. 390-405, (2013); 
+Fisher R.A., The distribution of the partial correlation coefficient, Metron, 3, pp. 329-332, (1924); 
+Hotelling H., New light on the correlation coefficient and its transforms, J R Stat Soc Ser B, 15, 2, pp. 193-232, (1953); 
+Levy K.J., Narula S.C., Testing hypotheses concerning partial correlations: some methods and discussion, Int Stat Rev/Revue Internationale de Statistique, 46, 2, (1978); 
+Anderson T.W., An Introduction to Multivariate Statistical Analysis, (1984); 
+Borenstein M., Hedges L.V., Effect sizes for meta-analysis, The Handbook of Research Synthesis and Meta-Analysis, pp. 207-244, (2019); 
+Olkin I., Pratt J.W., Unbiased estimation of certain correlation coefficients, Ann Math Stat, 29, 1, pp. 201-211, (1958); 
+Johnson N.L., Kotz S., Balakrishnan N., Continuous univariate distributions, (1995); 
+Fisher R.A., Frequency distribution of the values of the correlation coefficient in samples from an indefinitely large population, Biometrika, 10, 4, pp. 507-521, (1915); 
+R: A Language and Environment for Statistical Computing, (2022); 
+Hankin R.K.S., Special functions in R: introducing the gsl package, R News, 6, 4, (2006); 
+Craft L.L., Magyar T.M., Becker B.J., Feltz D.L., The relationship between the competitive state anxiety inventory-2 and sport performance: a meta-analysis, J Sport Exerc Psychol, 25, 1, pp. 44-65, (2003); 
+Egger M., Smith G.D., Schneider M., Minder C., Bias in meta-analysis detected by a simple, graphical test, Br Med J, 315, 7109, pp. 629-634, (1997); 
+Sterne J.A.C., Becker B.J., Egger M., The funnel plot, Publication Bias in Meta-Analysis: Prevention, Assessment and adjustments Chichester, pp. 73-98, (2005); 
+Stanley T.D., Doucouliagos H., Meta-regression approximations to reduce publication selection bias, Res Synth Methods, 5, 1, pp. 60-78, (2014)#FRF#

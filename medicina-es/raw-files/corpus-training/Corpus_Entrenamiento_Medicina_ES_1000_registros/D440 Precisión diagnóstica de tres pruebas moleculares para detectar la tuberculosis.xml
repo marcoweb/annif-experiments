@@ -1,0 +1,2740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.6" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v34i2.3437</article-id>
+			<article-id pub-id-type="publisher-id">00013</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>ARTÍCULO ORIGINAL</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Precisión diagnóstica de tres pruebas moleculares para detectar la tuberculosis multirresistente</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Diagnostic accuracy of three technologies for the diagnosis of multi-drug resistant tuberculosis</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Alvis-Zakzuk</surname>
+						<given-names>Nelson José</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Carrasquilla</surname>
+						<given-names>María de los Ángeles</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gómez</surname>
+						<given-names>Verónica Jhajaira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Robledo</surname>
+						<given-names>Jaime</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Alvis-Guzmán</surname>
+						<given-names>Nelson Rafael</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Hernández</surname>
+						<given-names>José Mauricio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Grupo de Investigación en Economía de la Salud, Universidad de Cartagena, Cartagena, Colombia</institution>
+				<institution content-type="normalized">Universidad de Cartagena</institution>
+				<institution content-type="orgdiv1">Grupo de Investigación en Economía de la Salud</institution>
+				<institution content-type="orgname">Universidad de Cartagena</institution>
+				<addr-line>
+					<named-content content-type="city">Cartagena</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Observatorio Nacional de Salud, Instituto Nacional de Salud, Bogotá, D.C., Colombia</institution>
+				<institution content-type="orgdiv1">Observatorio Nacional de Salud</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Corporación para Investigaciones Biológicas, Universidad Pontificia Bolivariana, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad Pontificia Bolivariana</institution>
+				<institution content-type="orgdiv1">Corporación para Investigaciones Biológicas</institution>
+				<institution content-type="orgname">Universidad Pontificia Bolivariana</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original">ALZAK Foundation, Cartagena, Colombia</institution>
+				<institution content-type="orgname">ALZAK Foundation</institution>
+				<addr-line>
+					<named-content content-type="city">Cartagena</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Grupo de Investigación en Gestión Hospitalaria y Políticas de Salud, Universidad de la Costa, Barranquilla, Colombia</institution>
+				<institution content-type="orgdiv1">Grupo de Investigación en Gestión Hospitalaria y Políticas de Salud</institution>
+				<institution content-type="orgname">Universidad de la Costa</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">Correspondencia: Nelson José Alvis-Zakzuk, Observatorio Nacional de Salud, Instituto Nacional de Salud, Avenida Calle 26 N° 51-20, Bogotá, D.C., Colombia Teléfono: 3002209164 <email>alviszakzuk@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<p>Conflicto de intereses No existen conflictos de intereses</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jul-Sep</season>
+				<year>2017</year>
+			</pub-date>
+			<volume>37</volume>
+			<issue>3</issue>
+			<fpage>397</fpage>
+			<lpage>407</lpage>
+			<history>
+				<date date-type="received">
+					<day>02</day>
+					<month>08</month>
+					<year>2016</year>
+				</date>
+				<date date-type="accepted">
+					<day>15</day>
+					<month>11</month>
+					<year>2016</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>La tuberculosis multirresistente (TB-MDR) y la extremadamente resistente (TB-XDR) constituyen un problema de salud pública a nivel mundial. Su detección oportuna permitiría reducir la carga de la enfermedad y su impacto económico en los sistemas de salud.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Revisar sistemáticamente la información relacionada con la precisión diagnóstica de tres pruebas moleculares para detectar la tuberculosis multirresistente y la extremadamente resistente.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Se hizo una revisión sistemática de la literatura, según los lineamientos de Cochrane, de los estudios en población inmunocompetente relacionados con la precisión diagnóstica de tres pruebas moleculares para detectar la tuberculosis multirresistente y la extremadamente resistente. La búsqueda de los estudios publicados a partir del 2007 se hizo en Medline y Embase. La precisión diagnóstica de las pruebas se estableció con base en los valores máximos y mínimos de sensibilidad y especificidad, y en los valores predictivos positivos y negativos. </p>
+				</sec>
+				<sec>
+					<title>Resultados.</title>
+					<p> Se detectaron ocho estudios sobre la precisión diagnóstica de la prueba GeneXpert MTB/RIF<sup>(r)</sup>, 12 sobre la de GenoType MTBDRplus<sup>(r)</sup> y 13 sobre la de GenoType MTBDRsl<sup>(r)</sup>. La especificidad de GeneXpert MTB/RIF<sup>(r)</sup> osciló entre 91 y 100 % y su sensibilidad, entre 33,3 y 100 %. La sensibilidad de GenoType MTBDRplus<sup>(r)</sup> varió entre 82 y 100 %, en tanto que la sensibilidad y la especificidad de GenoType<sup>(r)</sup> MTBDRsl fluctuaron entre 56 y 100 % y 21 y 100 %, respectivamente.</p>
+				</sec>
+				<sec>
+					<title>Conclusión. </title>
+					<p>Según los estudios consultados, los tres métodos de diagnóstico evaluados presentabanuna adecuada eficacia diagnóstica para detectar la tuberculosis multirresistente y la extremadamente resistente.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Multi-drug resistant (MDR-TB) and extensively drug-resistant (XDR-TB) tuberculoses are a global public health problem. Their timely detection might reduce the burden of the disease and the economic impact on health systems worldwide.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To conduct a literature review of the diagnostic accuracy of three molecular tests to detect multi-drug resistant and extensively drug-resistant tuberculoses. </p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>A systematic literature review following Cochrane methodology was carried out to study the diagnostic accuracy of three molecular tests to detect MDR-TB and XDR-TB in previous studies among immunocompetent population. Articles indexed in Medline and Embase were reviewed starting in 2007. Diagnostic accuracy was reported by sensitivity, specificity, and positive and negative predictive values of each test.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>In total, 8, 12 and 13 studies were included to assess the diagnostic accuracy of GeneXpert MTB/RIF<sup>(r)</sup>, GenoType MTBDR<italic>plus</italic>
+ <sup>(r)</sup> and GenoType MTBDR<italic>sl</italic>
+ <sup>(r)</sup>, respectively. The specificity of GeneXpert MTB/RIF<sup>(r)</sup> ranged between 91 and 100%, and its sensitivity between 33.3 and 100%. The sensitivity of GenoType<sup>(r)</sup> MTBDR<italic>plus</italic>
+ <sup>(r)</sup> ranged between 88 and 100%. The sensitivity and specificity of GenoType MTBDR<italic>sl</italic>
+ <sup>(r)</sup> to evaluate drug resistance ranged between 56 and 100% and 21 and 100%, respectively. Conclusion: The three diagnostic tests evaluated have shown an adequate diagnostic accuracy to detect MDR and XDR tuberculoses.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>tuberculosis</kwd>
+				<kwd>tuberculosis extensivamente resistente a drogas</kwd>
+				<kwd>tuberculosis resistente a múltiples medicamentos</kwd>
+				<kwd>sensibilidad y especificidad</kwd>
+				<kwd>revisión</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Tuberculosis</kwd>
+				<kwd>extensively drug-resistant tuberculosis</kwd>
+				<kwd>tuberculosis, multidrug-resistant</kwd>
+				<kwd>sensitivity and specificity</kwd>
+				<kwd>review</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Colciencias </funding-source>
+					<funding-source>Corporación para Investigaciones Biológicas</funding-source>
+					<funding-source>Universidad Pontificia Bolivariana de Medellín</funding-source>
+					<award-id>221356934391</award-id>
+				</award-group>
+				<funding-statement>Financiación Esta investigación es producto de un proyecto financiado por Colciencias (código 221356934391), por la Corporación para Investigaciones Biológicas y por la Universidad Pontificia Bolivariana de Medellín</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="73"/>
+				<page-count count="11"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La tuberculosis es una enfermedad infecciosa causada por <italic>Mycobacterium tuberculosis</italic> que compromete principalmente los pulmones, pero puede afectar otros órganos y tejidos (<xref ref-type="bibr" rid="B1">1</xref>). La infección suele ser asintomática en personas sanas, pues su sistema inmunológico las protege de la bacteria. Actualmente, la tuberculosis es una de las enfermedades infecciosas con mayor morbilidad y mortalidad en el mundo (<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>). Aproximadamente, un tercio de la población mundial está infectada con el bacilo que la causa (<xref ref-type="bibr" rid="B4">4</xref>) y en 22 países de ingreso medio y bajo se acumula cerca del 80 % de los casos en el mundo (<xref ref-type="bibr" rid="B5">5</xref>).</p>
+		<p>Aunque la enfermedad es tratable, el mal uso y el poco cumplimiento del tratamiento antibiótico han generadoresistencia, lo cual ha dado lugar a la aparición de la tuberculosismultirresistente, considerada hoy como un problema de salud pública a nivel mundial (<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>). La Organización Mundial de la Salud (OMS) estima que entre 2011 y2015 más de dos millones de personas desarrollaron la enfermedad multirresistente (<xref ref-type="bibr" rid="B8">8</xref>).</p>
+		<p>Aunque la morbilidad de la tuberculosis ha decrecido en los últimos años, la incidencia y la prevalencia de la forma multirresistente se han incrementado (<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>). Sus patrones de transmisión varían según las diferencias geográficas, el desarrollo socio-económico de los territorios y las epidemias de la enfermedad en áreas y poblaciones específicas (<xref ref-type="bibr" rid="B10">10</xref>). La OMS estima que anualmente aparecen 650.000 casos de tuberculosis multirresistente (al menos a isoniacida y rifampicina, que son los medicamentos de primera línea más eficaces), y casi 50 % de ellos se registran en India, China y Rusia (<xref ref-type="bibr" rid="B6">6</xref>). </p>
+		<p>En algunos casos, la resistencia a los fármacos puede provocar la aparición de tuberculosis extremadamenteresistente (<xref ref-type="bibr" rid="B11">11</xref>). Se estima que cerca de 9,6 % de los casos de tuberculosis multirresistente también son extremadamente resistentes (<xref ref-type="bibr" rid="B8">8</xref>). Según datos de la OMS para el 2014, el 3,3 % de los nuevos casos de tuberculosis y el 20 % de los casos previamente tratados, correspondían a tuberculosis multirresistente, en tanto que 190.000 personas murieron. </p>
+		<p>Uno de los principales obstáculos para detener la aparición de la resistencia a los medicamentos es la falta de acceso a pruebas diagnósticas. Se estima que solo 58 % de los pacientes previamente tratados y 12 % de los pacientes nuevos, han tenidoacceso a una prueba que permita detectar la resistencia a medicamentos (<xref ref-type="bibr" rid="B12">12</xref>). La detección oportuna de la tuberculosis multirresistente y de la extremadamente resistente permitiría un tratamiento más efectivo y, por lo tanto, reduciría la carga de la enfermedad, y su impacto social y económico en los sistemas de salud (<xref ref-type="bibr" rid="B13">13</xref>).</p>
+		<p>En 2008, la OMS validó el uso del ensayo GenoType MTBDRplus<sup>(r)</sup> (GTPlus) (Life Science, Nehren, Alemania, V1.0) para la detección rápida y simultánea del complejo <italic>M. tuberculosis</italic>, y la resistencia a rifampicina e isoniacida a partir de cultivos o muestras clínicas pulmonares con baciloscopia positiva (<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>). La prueba se basa en una reacción en cadena de la polimerasa múltiple (PCR múltiple), la cual genera diversos productos de amplificación (sondas) que reconocen las mutaciones génicas más frecuentes asociadas con la resistencia a isoniacida y rifampicina mediante hibridación inversa; los resultados se obtienen en ocho horas (<xref ref-type="bibr" rid="B16">16</xref>-<xref ref-type="bibr" rid="B18">18</xref>). </p>
+		<p>En 2009, la compañía Hain Life Science introdujo la prueba comercialGenoType MTBDRsl<sup>(r)</sup> (GTSL) para detectar la resistencia a medicamentos de segunda línea contra la tuberculosis. La prueba detecta las mutaciones más comunes en los genes <italic>gyrA, rrs</italic> y <italic>embB</italic>, relacionadas con la resistencia afluoroquinolonas, aminoglucósidos y etambutol (<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref>).</p>
+		<p>En 2010, la OMS autorizó el uso de la prueba Gene Xpert MTB/RIF<sup>(r)</sup> (GX) (Cepheid, Inc., CA, USA) en países endémicos (<xref ref-type="bibr" rid="B21">21</xref>). Este es un método molecular automatizado que integra la extracción de ADN, la amplificacióngenómica por PCR en tiempo real, la detección semicuantitativa y la detección de la resistencia a la rifampicinadebida a mutaciones en el gen <italic>rpoB</italic>, con lo cual el diagnóstico de tuberculosis y la detección de resistencia a estemedicamento se obtienen en dos horas (<xref ref-type="bibr" rid="B22">22</xref>).</p>
+		<p>Según los lineamientos de la OMS para el 2015, las pruebas de diagnóstico molecular deben utilizarse en donde haya alta incidencia de tuberculosis, en pacientes con infección simultánea con HIV y cuando exista gran sospecha de tuberculosis multirresistente. Estas pruebas tienen la ventaja de brindar resultados rápidos, comparadas con los métodos tradicionales de cultivo, con los cuales se requieren, en promedio, cuatro semanas para obtener un resultado. Sin embargo, se recomienda que se haga una prueba fenotípica para confirmar el resultado de la prueba molecular (<xref ref-type="bibr" rid="B23">23</xref>).</p>
+		<p>En Colombia, se notificaron 12.720 casos de tuberculosis en 2014, es decir, una incidencia de 26 por 100.000 habitantes (<xref ref-type="bibr" rid="B24">24</xref>). Según la última encuesta publicada sobre prevalencia de tuberculosis multirresistente en 2005, la incidencia era de 2,38 % en los casos nuevos y de 31,44 % en los previamente tratados (<xref ref-type="bibr" rid="B25">25</xref>). En 2013, el Instituto Nacional de Salud reportó cerca de 378 casos de tuberculosis multirresistente, lo cual evidenció un significativo aumento en la incidencia de la resistencia a los fármacos antituberculosos (<xref ref-type="bibr" rid="B26">26</xref>).</p>
+		<p>En este contexto, se hizo una revisión sistemática de la literatura científica para establecer la precisión diagnóstica de tres pruebas moleculares (GTPlus, GTSL y GX) de detección de tuberculosis multirresistente y tuberculosis extremadamente resistente en estudios en población inmunocompetente.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title>Búsqueda electrónica y criterios de selección</title>
+				<p>Se buscaron en las bases de datos de Medline de PubMed y en Embase los estudios publicados desde el 2007, por ser este el año de inicio del uso de las pruebas moleculares, y hasta el 15 de diciembre de 2014. En el <xref ref-type="table" rid="a1">anexo 1</xref>, disponible en https://doi.org/10.7705/biomedica.v34i2.3437, se resumen los algoritmos de búsqueda utilizados en la revisión.</p>
+				<p>
+					<table-wrap id="a1">
+						<label>Anexo 1</label>
+						<caption>
+							<title>Algoritmos de búsqueda de las pruebas GTPlus, GTSL y GX</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-03-00397-ga1.jpg"/>
+					</table-wrap>
+				</p>
+				<p>En la selección de los estudios, se incluyeron los ensayos clínicos aleatorios y los estudios observacionales que evaluaron las pruebas GTPlus, GTSL y GX, ya fuera por separado o en conjunto, o que las hubieran comparado con los estándares de referencia para el diagnóstico de tuberculosis multirresistente o tuberculosis extremadamente resistente en población adulta sin diagnóstico de infección por HIV. Solo se incluyeron los estudios con acceso al texto completo. </p>
+			</sec>
+			<sec>
+				<title>Definición de tuberculosis multirresistente y tuberculosis extremadamente resistente</title>
+				<p>La tuberculosis multirresistente se define como la causada por un organismo resistente, por lo menos, a los dos medicamentos más utilizados en el tratamiento de esa enfermedad (isoniacida y rifampicina) (<xref ref-type="bibr" rid="B27">27</xref>) y la tuberculosis extremadamente resistente, como aquella con resistencia a isoniacida y rifampicina, a una fluoroquinolona (levofloxacina, moxifloxacina u ofloxacina) o, por lo menos, a uno de tres aminoglucósidos inyectables (amikacina, kanamicina o capreomicina) (<xref ref-type="bibr" rid="B27">27</xref>).</p>
+			</sec>
+			<sec>
+				<title>Selección de estudios</title>
+				<p>Después de la búsqueda inicial para excluir duplicados, dos revisores exploraron de forma independiente los títulos y los resúmenes de los artículos para detectar los estudios elegibles con acceso al texto completo. Las discrepancias fueron resueltas por otros dos revisores. Los estudios se etiquetaron tomando como referencia el apellido del autor y el año de publicación.</p>
+			</sec>
+			<sec>
+				<title>Selección de variables y reporte de datos</title>
+				<p>Las variables de análisis fueron la temporalidad del estudio (prospectivo, retrospectivo), el año de publicación, el país y la clasificación del ingreso según el Banco Mundial (<xref ref-type="bibr" rid="B28">28</xref>), el tipo de selección de los participantes (consecutiva, por conveniencia, aleatoria) y las medidas de precisión diagnóstica (sensibilidad, especificidad, valores predictivos positivos y negativos). Los datos se almacenaron y seprocesaron en Microsoft Excel<sup>(r)</sup> 2013.</p>
+				<p>La precisión diagnóstica de las pruebas se determinó con base en los valores máximos y mínimos de sensibilidad y especificidad, y los valores predictivos positivos y negativos.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title>Estudios incluidos en las revisiones sistemáticas</title>
+				<p>El flujograma de inclusión y exclusión de estudios se describe en la <xref ref-type="fig" rid="f1">figura 1</xref>.</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Flujograma de las revisiones sistemáticas</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-03-00397-gf1.jpg"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Capacidad diagnóstica de GTPlus, GTSL y GX</title>
+				<p><italic>
+ <sup>
+ <sub>GeneXpert MTB/RIF(r) (GX).</sub> 
+</sup> 
+</italic> Con los algoritmos de búsqueda se encontraron 826 artículos (240 duplicados). Se revisaron los títulos y los resúmenes de los 586 restantes y, finalmente, se escogieron 281. De estos, 152 tenían el texto completo, y ocho (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B29">29</xref>-<xref ref-type="bibr" rid="B34">34</xref>) cumplían con los criterios de inclusión para la evaluación de la tuberculosis multirresistente. De los ocho incluidos, dos eran estudios multicéntricos (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>) para evaluar la tuberculosis multirresistente en cinco países cada uno, y otro era una revisión sistemática (<xref ref-type="bibr" rid="B34">34</xref>) de la cual se extrajo la información de 12 estudios para evaluar la prueba GX en diversos países del mundo. </p>
+				<p>Se analizaron en total 28 estudios en sendos países, de los cuales 12 (42,9 %) se realizaron en países de ingreso alto (<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B35">35</xref>-<xref ref-type="bibr" rid="B43">43</xref>), diez (35,7 %), en países de ingreso medio alto (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B33">33</xref>,<xref ref-type="bibr" rid="B44">44</xref>,<xref ref-type="bibr" rid="B45">45</xref>), cuatro (14,3 %), en países de ingreso medio bajo (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B32">32</xref>), y dos (7,1 %), en países de ingreso bajo (<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B46">46</xref>). Veinte estudios (71,4 %) eran prospectivos, cuatro (14,3 %) eran retrospectivos y cuatro (14,3 %) combinaban el diseño retrospectivo y el prospectivo. Según el tamaño de la muestra, el estudio con la muestra más pequeña fue el de Malbruny (<xref ref-type="bibr" rid="B39">39</xref>) y el de la muestra más grande, el de Hanrahan (<xref ref-type="bibr" rid="B44">44</xref>) (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Estudios que cumplieron con los criterios de inclusión en la revisión sistemática de las pruebas GX y GTSL<inline-graphic xlink:href="0120-4157-bio-37-03-00397-i003.jpg"/>
+							</title>
+						</caption>
+					</table-wrap>
+				</p>
+				<p>Con respecto al estándar de referencia para la tuberculosis multirresistente en los estudios de evaluación de la prueba GX, el más utilizado fue el <italic>Mycobacteria Growth Indicator Tube</italic> (MGIT960), empleado como referencia en la mitad de los estudios (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>-<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B38">38</xref>-<xref ref-type="bibr" rid="B41">41</xref>,<xref ref-type="bibr" rid="B44">44</xref>,<xref ref-type="bibr" rid="B46">46</xref>). El segundo más frecuente fue el medio de Löwenstein-Jensen(32,1 %), utilizado en nueve estudios (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B33">33</xref>,<xref ref-type="bibr" rid="B37">37</xref>, <xref ref-type="bibr" rid="B42">42</xref>). En otros estudios se utilizó el agar Middlebrook 7H10 (<xref ref-type="bibr" rid="B45">45</xref>), el BACTEC 460TB (<xref ref-type="bibr" rid="B36">36</xref>), la secuenciación de genes (<xref ref-type="bibr" rid="B43">43</xref>) y la prueba de sonda o hibridación en fase sólida (<italic>Line-Probe Assay</italic>, LPA) (<xref ref-type="bibr" rid="B29">29</xref>). </p>
+				<p>La especificidad de la prueba osciló entre 91 y 100 %, y la sensibilidad, entre 33,3 y 100 %. La precisión diagnóstica de esta prueba se resume en el <xref ref-type="table" rid="t2">cuadro 2</xref>.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Sensibilidad, especificidad y valores predictivos positivos y negativos de la prueba GX en comparación con el estándar de referencia</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-03-00397-gt2.jpg"/>
+					</table-wrap>
+				</p>
+				<p><italic>
+ <sup>
+ <sub>GenoType MTBDRplus(r) (GTPlus).</sub> 
+</sup> 
+</italic> Se detectaron 181 artículos (49 duplicados), y se escogieron finalmente los 97 que se ajustaban a los criterios de inclusión. De estos, 27 tenían el texto completo y 12 cumplían con los criterios de inclusión para la evaluación de la tuberculosis multirresistente y de la extremadamente resistente.</p>
+				<p>De los 12 estudios incluidos, la mitad se llevó a cabo en países de ingreso medio alto (<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B50">50</xref>,<xref ref-type="bibr" rid="B60">60</xref>-<xref ref-type="bibr" rid="B63">63</xref>), tres, en países de ingreso alto (<xref ref-type="bibr" rid="B64">64</xref>-<xref ref-type="bibr" rid="B66">66</xref>), y los restantes, en países de ingreso medio bajo (<xref ref-type="bibr" rid="B67">67</xref>-<xref ref-type="bibr" rid="B69">69</xref>), según la clasificación de ingresos del Banco Mundial.</p>
+				<p>En cuanto al tamaño de la muestra, el estudio de Causee (<xref ref-type="bibr" rid="B64">64</xref>) tuvo el menor número de participantes y el de Dorman (<xref ref-type="bibr" rid="B62">62</xref>), el mayor (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Estudios incluidos para evaluar la prueba molecular GTPlus</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-03-00397-gt3.jpg"/>
+					</table-wrap>
+				</p>
+				<p>En más de la mitad de los estudios se utilizaron el MGIT960 (<xref ref-type="bibr" rid="B62">62</xref>,<xref ref-type="bibr" rid="B64">64</xref>-<xref ref-type="bibr" rid="B66">66</xref>) y el medio de Löwenstein-Jensen (<xref ref-type="bibr" rid="B60">60</xref>,<xref ref-type="bibr" rid="B63">63</xref>,<xref ref-type="bibr" rid="B67">67</xref>) como estándares de referencia. En el 50 % de los estudios se reclutó a los pacientes o se seleccionaron las muestras de forma aleatoria(<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B50">50</xref>,<xref ref-type="bibr" rid="B64">64</xref>,<xref ref-type="bibr" rid="B67">67</xref>-<xref ref-type="bibr" rid="B69">69</xref>), en el 33 %, de forma consecutiva (<xref ref-type="bibr" rid="B60">60</xref>,<xref ref-type="bibr" rid="B62">62</xref>,<xref ref-type="bibr" rid="B63">63</xref>,<xref ref-type="bibr" rid="B66">66</xref>), y en el resto no se reportó esta información (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p>En el <xref ref-type="table" rid="t4">cuadro 4</xref> se presenta el resumen de los valores mínimos y máximos reportados en los 12 estudios incluidos. Estos valores correspondían a la especificidad y la sensibilidad de la prueba GTPlus para detectar la resistencia a isoniacida y rifampicina, así como la multirresistencia general, y se presentan según los diferentes estándares de comparación utilizados en los estudios.</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Valores máximos y mínimos de sensibilidad y especificidad, y valores predictivos positivos y negativos de la prueba molecular GTPlus</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-03-00397-gt4.jpg"/>
+					</table-wrap>
+				</p>
+				<p>La sensibilidad de la GTPlus para evaluar la resistencia a la rifampicina varió entre 92 y 100 %, y la especificidad frente a la isoniacida fue mayor (60 a 100 %), es decir, hubo estudios en los que la especificidad de la prueba fue de 60 %, como en el caso del estudio de Maschmann (<xref ref-type="bibr" rid="B61">61</xref>).</p>
+				<p>Los valores predictivos positivos y negativos de la GTPlus reportados en los estudios seleccionados se presentan de forma detallada y agrupada en valores máximos y mínimos en el <xref ref-type="table" rid="t4">cuadro 4</xref>.</p>
+				<p><italic>
+ <sup>
+ <sub>GenoType MTBDRSL(r) (GTSL).</sub> 
+</sup> 
+</italic> Se encontraron 52 artículos después de la revisión por títulos y resúmenes. Se seleccionaron 25, de los cuales 21 estaban disponibles en texto completo. Se incluyeron 13 estudios, seis (46,2 %) realizados en países de ingreso medio bajo (<xref ref-type="bibr" rid="B47">47</xref>,<xref ref-type="bibr" rid="B52">52</xref>-<xref ref-type="bibr" rid="B55">55</xref>,<xref ref-type="bibr" rid="B59">59</xref>), cuatro (30,8 %) en países de ingreso alto (<xref ref-type="bibr" rid="B49">49</xref>,<xref ref-type="bibr" rid="B51">51</xref>,<xref ref-type="bibr" rid="B56">56</xref>,<xref ref-type="bibr" rid="B57">57</xref>) y tres (23,1 %) en países de ingreso medio-alto (<xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B50">50</xref>,<xref ref-type="bibr" rid="B58">58</xref>). Se destacó el hecho de que no se encontraron estudios en países de ingreso bajo. Los países con más estudios de esta prueba fueron China, España y Sudáfrica, con dos estudios cada uno.</p>
+				<p>En un poco más de la mitad de los estudios (53,8 %) se utilizó el reclutamiento de pacientes o la selección de muestras de forma consecutiva (47,52-55,58,59), en tres (23,1 %), por conveniencia (<xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B56">56</xref>,<xref ref-type="bibr" rid="B57">57</xref>), en dos (15,4 %), de manera aleatoria, y en uno no se reportó esta información. Solo un estudio fue de tipo retrospectivo (<xref ref-type="bibr" rid="B56">56</xref>), en el resto se utilizó un diseño de recolección de datos prospectivo (<xref ref-type="table" rid="t1">cuadro 1</xref>). Según el número de participantes, en el estudio de López-Roa (<xref ref-type="bibr" rid="B57">57</xref>) se reclutaron 26, y en el de Ignatyeva (<xref ref-type="bibr" rid="B53">53</xref>), en Estonia, la muestra fue de 800 (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>En los estudios incluidos para evaluar la precisión diagnóstica de la GTSL se estimaron la especificidad, la sensibilidad, y los valores predictivos positivos y negativos de diferentes tratamientos utilizados para combatir la tuberculosis extremadamente resistente. En ellos, el medicamento en el cual hubo menor precisión diagnóstica fue el etambutol, puesto que hubo estudios como el de Said (<xref ref-type="bibr" rid="B58">58</xref>) en los que la especificidad y la sensibilidad, así como los valores predictivos positivos, registraron valores bajos comparados con los de los demás medicamentos. De otra parte, en el estudio de Said (<xref ref-type="bibr" rid="B58">58</xref>), la prueba presentó una baja sensibilidad para la capreomicina, comparada con otros medicamentos. La sensibilidad y los valores predictivos positivos presentaron un mayor rango entre los valores mínimos y máximos (<xref ref-type="table" rid="t5">cuadro 5</xref>).</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Cuadro 5</label>
+						<caption>
+							<title>Valores mínimos y máximos de sensibilidad y especificidad, y valores predictivos positivos y negativos reportados en los estudios incluidos para la prueba molecular GTSL</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-03-00397-gt5.jpg"/>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La implementación de una nueva tecnología diagnóstica debe garantizar, como mínimo, el aumentode la proporción de casos oportunamente diagnosticados, lo cual puede facilitar la reducción de la carga de la enfermedad y el aumento de los pacientes curados (<xref ref-type="bibr" rid="B70">70</xref>).</p>
+			<p>En la novena reunión del Comité Técnico Asesor para el Control de la Tuberculosis de la OMS, se recomendó que los países deberían fortalecer la capacidad instalada de sus laboratorios para hacer diagnósticos oportunos de la tuberculosis multirresistente. Se reconoció que las pruebas moleculares presentan considerables ventajas para dicho diagnóstico debido a su gran sensibilidad y especificidad, su capacidad para entregar resultados rápidamente y su bioseguridad (<xref ref-type="bibr" rid="B71">71</xref>).</p>
+			<p>En el presente estudio se describió la precisión diagnóstica de las pruebas GX, GTSL y GTPlus, utilizadas en muchos países por su efectividad para detectar la tuberculosis multirresistente y la extremadamente resistente.</p>
+			<p>El uso de pruebas moleculares para confirmar la presencia de la tuberculosis multirresistente o la extremadamente resistente de forma rápida, es muy importante, especialmente en países con alta frecuencia de tuberculosis resistente a medicamentos. Aunque en Colombia la frecuencia de casos de tuberculosis multirresistente y extremadamente resistente no sea alta, se debe conocer la precisión diagnóstica de estos métodos para estimar su costo-efectividad e incorporarlos en los correspondientes esquemas o guías de manejo.</p>
+			<p>En la presente revisión se constató que la aplicación de estas tres pruebas fue eficaz para el diagnóstico de la tuberculosis multirresistente y de la extremadamente resistente en la mayoría de los estudios evaluados. La sensibilidad de la prueba GX fluctuó entre 33 y 100 %, y la especificidad, entre 91 y 100 %; la sensibilidad de la GTPlus estuvo entre 59 y 100 %, y la especificidad, entre 87 y 100 %para la detección de resistencia a isoniacida y rifampicina, así como de multirresistencia, en tanto que en la GTLS fluctuaron entre 21 y 100 % y 56 y 100 %, respectivamente.</p>
+			<p>El objetivo de la presente revisión sistemática no se limitó a analizar la precisión diagnóstica de las pruebas moleculares, pues también se describieron las características de los estudios. La mayoría de ellos se hicieron en países de ingreso alto y medio alto, lo cual evidencia la falta de investigación en esta área en países pobres. </p>
+			<p>La selección de la mejor prueba diagnóstica de la tuberculosis en un país no puede depender únicamente de su efectividad y su costo. Se deben tener en cuenta, asimismo, los datos epidemiológicos existentes, el modelo de provisión de servicios de salud, el recurso humano disponible y la infraestructura de los servicios de atención (<xref ref-type="bibr" rid="B72">72</xref>). La existencia de estudios hechos en Colombia es un buen antecedente para precisar el alcance diagnóstico de estas pruebas y orientar su uso en nuestro medio (<xref ref-type="bibr" rid="B50">50</xref>).</p>
+			<p>Entre las fortalezas del presente estudio, se destaca la exhaustiva estrategia de búsqueda que permitió obtener resultados afinados. Otra fortaleza fue la participación de varios autores en las etapas de revisión y extracción de los datos de los estudios, pues ello permitió resolver por consenso las discrepancias. Además, la revisión sobre la precisión diagnóstica de tres pruebas moleculares resulta un aporte importante al estudio de la resistencia a los fármacos para la tuberculosis, especialmente cuando la evaluación de las pruebas médicas está rezagada con respecto a la evaluación de los tratamientos (<xref ref-type="bibr" rid="B73">73</xref>).</p>
+			<p>En la presente revisión no se hizo el metaanálisis de los resultados de los estudios. Sin embargo, en las tres pruebas evaluadas, los valores mínimos de especificidad y sensibilidad eran valores extremos, los cuales no reflejaban la distribución de las estimaciones en la mayoría de los casos. Ello pudo deberse a las características de la población con tuberculosis o tuberculosis multirresistente y a la complejidad de la casuística, o a aspectos metodológicos específicos de cada uno de los estudios, lo cual tiene un efecto más patente en la sensibilidad de los procedimientos diagnósticos. Por ejemplo, en las pruebas GX, la sensibilidad mínima encontrada fue de 33 %, pero en el estudio con la siguiente sensibilidad mínima, esta fue de75 %, lo cual permitiría especular que este valor fue atípico, ya que los rangos de sensibilidad suelen oscilar entre 75 y 100 %.</p>
+			<p>Otra posible limitación de la revisión fue que no se hizo búsqueda de la literatura gris, ya que se consideró que, al no ser evaluada por pares, la mayoría de tales estudios no era adecuada para incluirlos en una revisión sistemática de calidad.</p>
+			<p>En conclusión, según los estudios revisados, los tres métodos de diagnóstico evaluados (GTPlus, GTSL y GX) presentaban un perfil diagnóstico adecuado para detectar la tuberculosis multirresistente y la extremadamente resistente, así como la resistencia a medicamentos de segunda línea en el caso de la GTSL. Sin embargo, es importante tener presente que la implementación de las pruebas GTPlus y GTSL requiere de un laboratorio con equipamiento especial y personal capacitado, y que su rendimiento está determinado, entre otros factores, por la incidencia de la enfermedad. En Colombia, los laboratorios de la red pública y de la privada ya procesan muestras utilizando estas tres pruebas, pero todavía no existen datos concluyentes sobre su desempeño.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Esta investigación es producto de un proyecto financiado por Colciencias (código 221356934391), por la Corporación para Investigaciones Biológicas y por la Universidad Pontificia Bolivariana de Medellín.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Organización Mundial de la Salud. Tuberculosis. Nota descriptiva No. 104. 2016. Fecha de consulta: 1 de marzo de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/mediacentre/factsheets/fs104/es/">http://www.who.int/mediacentre/factsheets/fs104/es/</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Tuberculosis. Nota descriptiva No. 104</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-03-01">1 de marzo de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/mediacentre/factsheets/fs104/es/">http://www.who.int/mediacentre/factsheets/fs104/es/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Steingart KR, Sohn H, Schiller I, Kloda LA, Boehme CC, Pai M, et al. Xpert(r) MTB/RIF assay for pulmonary tuberculosis and rifampicin resistance in adults. Cochrane database Syst Rev. 2013;1:CD009593. https://doi.org/10. 1002/14651858.CD009593.pub2</mixed-citation>
+				<element-citation publication-type="database">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Steingart</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Sohn</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Schiller</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Kloda</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Boehme</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Pai</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Xpert(r) MTB/RIF assay for pulmonary tuberculosis and rifampicin resistance in adults</article-title>
+					<source>Cochrane database Syst Rev</source>
+					<year>2013</year>
+					<volume>1</volume>
+					<pub-id pub-id-type="other">CD009593</pub-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/14651858.CD009593.pub2">https://doi.org/10.1002/14651858.CD009593.pub2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Murray CJ, Ortblad KF, Guinovart C, Lim SS, Wolock TM, Roberts DA, et al. Global, regional, and national incidence and mortality for HIV, tuberculosis, and malaria during 1990-2013: A systematic analysis for the Global Burden of Disease Study 2013. Lancet. 2014;384:1005-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(14)60844-8">https://doi.org/10.1016/S0140-6736(14)60844-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murray</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Ortblad</surname>
+							<given-names>KF</given-names>
+						</name>
+						<name>
+							<surname>Guinovart</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lim</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Wolock</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Roberts</surname>
+							<given-names>DA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Global, regional, and national incidence and mortality for HIV, tuberculosis, and malaria during 1990-2013: A systematic analysis for the Global Burden of Disease Study 2013</article-title>
+					<source>Lancet</source>
+					<year>2014</year>
+					<volume>384</volume>
+					<fpage>1005</fpage>
+					<lpage>1070</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(14)60844-8">https://doi.org/10.1016/S0140-6736(14)60844-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Organización Mundial de la Salud. Temas de salud. Tuberculosis 2015. Fecha de consulta: 17 de febrero de 2015. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/topics/tuberculosis/es/">http://www.who.int/topics/tuberculosis/es/</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Temas de salud. Tuberculosis</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-02-17">17 de febrero de 2015</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/topics/tuberculosis/es/">http://www.who.int/topics/tuberculosis/es/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Lynch JB. Multidrug-resistant tuberculosis. Med Clin North Am. 2013;97:553-79. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mcna.2013.03.012">https://doi.org/10.1016/j.mcna.2013.03.012</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lynch</surname>
+							<given-names>JB</given-names>
+						</name>
+					</person-group>
+					<article-title>Multidrug-resistant tuberculosis</article-title>
+					<source>Med Clin North Am</source>
+					<year>2013</year>
+					<volume>97</volume>
+					<fpage>553</fpage>
+					<lpage>579</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mcna.2013.03.012">https://doi.org/10.1016/j.mcna.2013.03.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Moonan PK, Teeter LD, Salcedo K, Ghosh S, Ahuja SD, Flood J, et al. Transmission of multidrug-resistant tuberculosis in the USA: A cross-sectional study. Lancet Infect Dis. 2013;13:777-84. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(13)70128-2">https://doi.org/10.1016/S1473-3099(13)70128-2</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moonan</surname>
+							<given-names>PK</given-names>
+						</name>
+						<name>
+							<surname>Teeter</surname>
+							<given-names>LD</given-names>
+						</name>
+						<name>
+							<surname>Salcedo</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Ghosh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ahuja</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Flood</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Transmission of multidrug-resistant tuberculosis in the USA: A cross-sectional study</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2013</year>
+					<volume>13</volume>
+					<fpage>777</fpage>
+					<lpage>784</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(13)70128-2">https://doi.org/10.1016/S1473-3099(13)70128-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Caminero JA.Multidrug-resistant tuberculosis: Epidemiology, risk factors and case finding. Int J Tuberc Lung Dis. 2010;14:382-90.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caminero</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Multidrug-resistant tuberculosis Epidemiology, risk factors and case finding</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2010</year>
+					<volume>14</volume>
+					<fpage>382</fpage>
+					<lpage>390</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Mishra R, Shukla P, Huang W, Hu N. Gene mutations in Mycobacterium tuberculosis: Multidrug-resistant TB as an emerging global public health crisis. Tuberculosis. 2015;95: 1-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tube.2014.08.012">https://doi.org/10.1016/j.tube.2014.08.012</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mishra</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Shukla</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Gene mutations in Mycobacterium tuberculosis: Multidrug-resistant TB as an emerging global public health crisis</article-title>
+					<source>Tuberculosis</source>
+					<year>2015</year>
+					<volume>95</volume>
+					<fpage>1</fpage>
+					<lpage>5</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tube.2014.08.012">https://doi.org/10.1016/j.tube.2014.08.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. World Health Organization. Global tuberculosis control 2008, surveillance, planning, financing. WHO/HTM/TB/2008. 393. Geneva: WHO; 2008.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global tuberculosis control 2008, surveillance, planning, financing</source>
+					<comment>WHO/HTM/TB/2008.393</comment>
+					<year>2008</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Xu B, Hu Y, Zhao Q, Wang W, Jiang W, Zhao G. Molecular epidemiology of TB -Its impact on multidrug-resistant tuberculosis control in China. Int J Mycobacteriol. 2015;4:134. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijmyco.2014.09.003">https://doi.org/10.1016/j.ijmyco.2014.09.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xu</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Jiang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular epidemiology of TB -Its impact on multidrug-resistant tuberculosis control in China</article-title>
+					<source>Int J Mycobacteriol</source>
+					<year>2015</year>
+					<volume>4</volume>
+					<fpage>134</fpage>
+					<lpage>134</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijmyco.2014.09.003">https://doi.org/10.1016/j.ijmyco.2014.09.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Migliori GB, Richardson MD, Sotgiu G, Lange C. Multidrug-resistant and extensively drug-resistant tuberculosis in the West Europe and United States: Epidemiology, surveillance, and control. Clin Chest Med. 2009;30:637-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ccm.2009.08.015">https://doi.org/10.1016/j.ccm.2009.08.015</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Migliori</surname>
+							<given-names>GB</given-names>
+						</name>
+						<name>
+							<surname>Richardson</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Sotgiu</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Lange</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Multidrug-resistant and extensively drug-resistant tuberculosis in the West Europe and United States: Epidemiology, surveillance, and control</article-title>
+					<source>Clin Chest Med</source>
+					<year>2009</year>
+					<volume>30</volume>
+					<fpage>637</fpage>
+					<lpage>665</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ccm.2009.08.015">https://doi.org/10.1016/j.ccm.2009.08.015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. World Health Organization. Global tuberculosis report 2015. WHO/HTM/TB/2015.22. Geneva: WHO; 2015.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global tuberculosis report 2015.WHO/HTM/TB/2015.22</source>
+					<year>2015</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Organización Mundial de la Salud. Estrategia &quot;Alto a la tuberculosis&quot;, 2015. Fecha de consulta: 19 de febrero de 2015. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/tb/strategy/stop_tb_ strategy/es/">http://www.who.int/tb/strategy/stop_tb_ strategy/es/</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Estrategia &quot;Alto a la tuberculosis&quot;</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-02-19">19 de febrero de 2015</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/tb/strategy/stop_tb_ strategy/es/">http://www.who.int/tb/strategy/stop_tb_ strategy/es/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Bwanga F, Hoffner S, Haile M, Joloba ML, Blumberg H, Burman W, et al. Direct susceptibility testing for multi drug resistant tuberculosis: A meta-analysis. BMC Infect Dis. 2009;9:67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-9-67">https://doi.org/10.1186/1471-2334-9-67</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bwanga</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Hoffner</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Haile</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Joloba</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Blumberg</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Burman</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Direct susceptibility testing for multi drug resistant tuberculosis: A meta-analysis</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2009</year>
+					<volume>9</volume>
+					<fpage>67</fpage>
+					<lpage>67</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-9-67">https://doi.org/10.1186/1471-2334-9-67</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. World Health Organization. Molecular line probe assays for rapid screening of patients at risk of multidrug-resistant tuberculosis (MDR-TB). Geneva: WHO; 2008.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Molecular line probe assays for rapid screening of patients at risk of multidrug-resistant tuberculosis (MDR-TB)</source>
+					<year>2008</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Hain Life science.GenoType MTBDR plus. Fecha de consulta: 8 de noviembre de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.hain-lifescience.de/en/products/microbiology/mycobacteria/tuberculosis/genotype-mtbdrplus.html">http://www.hain-lifescience.de/en/products/microbiology/mycobacteria/tuberculosis/genotype-mtbdrplus.html</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Hain Life science</collab>
+					</person-group>
+					<source>GenoType MTBDR plus</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-11-08">8 de noviembre de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.hain-lifescience.de/en/products/microbiology/mycobacteria/tuberculosis/genotype-mtbdrplus.html">http://www.hain-lifescience.de/en/products/microbiology/mycobacteria/tuberculosis/genotype-mtbdrplus.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Asencios L, Galarza M, Quispe N, Vásquez L, Leo E, Valencia E, et al. Molecular test Genotype(r) MTBDRplus, an alternative to rapid detection of multidrug resistance tuberculosis. Rev Perú Med Exp Salud Pública. 2012;29:92-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1726-46342012000100014">https://doi.org/10.1590/S1726-46342012000100014</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Asencios</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Galarza</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Quispe</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Vásquez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Leo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Valencia</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular test Genotype(r) MTBDRplus, an alternative to rapid detection of multidrug resistance tuberculosis</article-title>
+					<source>Rev Perú Med Exp Salud Pública</source>
+					<year>2012</year>
+					<volume>29</volume>
+					<fpage>92</fpage>
+					<lpage>98</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1726-46342012000100014">https://doi.org/10.1590/S1726-46342012000100014</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Raizada N, Sachdeva KS, Chauhan DS, Malhotra B, Reddy K, Dave P V., et al. A multi-site validation in India of the line probe assay for the rapid diagnosis of multi-drug resistant tuberculosis directly from sputum specimens. PLoS One. 2014;9:e88626. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0088626">https://doi.org/10.1371/journal.pone.0088626</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Raizada</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Sachdeva</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Chauhan</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Malhotra</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Reddy</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dave P</surname>
+							<given-names>V.</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A multi-site validation in India of the line probe assay for the rapid diagnosis of multi-drug resistant tuberculosis directly from sputum specimens</article-title>
+					<source>PLoS One</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<elocation-id>e88626</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0088626">https://doi.org/10.1371/journal.pone.0088626</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. World Health Organization. The use of molecular line probe assay for the detection of resistance to second-line anti-tuberculosis drugs. 2013. Fecha de consulta: 8 de noviembre de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/10665/78099/1/WHO_HTM_TB_2013.01.eng.pdf?ua=1">http://apps.who.int/iris/bitstream/10665/78099/1/WHO_HTM_TB_2013.01.eng.pdf?ua=1</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>The use of molecular line probe assay for the detection of resistance to second-line anti-tuberculosis drugs</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-11-08">8 de noviembre de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/10665/78099/1/WHO_HTM_TB_2013.01.eng.pdf?ua=1">http://apps.who.int/iris/bitstream/10665/78099/1/WHO_HTM_TB_2013.01.eng.pdf?ua=1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Felkel M, Exner R, Schleucher R, Lay H, Autenrieth IB, Kempf VA, et al. Evaluation of Mycobacterium tuberculosisdrug susceptibility in clinical specimens from Nigeria using genotype MTBDRplus and MTBDRsl assays. Eur J Microbiol Immunol. 2013;3:252-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1556/EuJMI.3.2013.4.3">https://doi.org/10.1556/EuJMI.3.2013.4.3</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Felkel</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Exner</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Schleucher</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lay</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Autenrieth</surname>
+							<given-names>IB</given-names>
+						</name>
+						<name>
+							<surname>Kempf</surname>
+							<given-names>VA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of Mycobacterium tuberculosisdrug susceptibility in clinical specimens from Nigeria using genotype MTBDRplus and MTBDRsl assays</article-title>
+					<source>Eur J Microbiol Immunol</source>
+					<year>2013</year>
+					<volume>3</volume>
+					<fpage>252</fpage>
+					<lpage>257</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1556/EuJMI.3.2013.4.3">https://doi.org/10.1556/EuJMI.3.2013.4.3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. World Health Organization. WHO endorses new rapid tuberculosis test. Fecha de consulta: 8 de noviembre de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/mediacentre/news/releases/2010/tb_test_20101208/en/">http://www.who.int/mediacentre/news/releases/2010/tb_test_20101208/en/</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>WHO endorses new rapid tuberculosis test</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-11-08">8 de noviembre de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/mediacentre/news/releases/2010/tb_test_20101208/en/">http://www.who.int/mediacentre/news/releases/2010/tb_test_20101208/en/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Boehme CC, Nabeta P, Hillemann D, Nicol MP, Shenai S, Krapp F, et al. Rapid molecular detection of tuberculosis and rifampin resistance. N Engl J Med. 2010;363:1005-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa0907847">https://doi.org/10.1056/NEJMoa0907847</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boehme</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Nabeta</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Hillemann</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Nicol</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Shenai</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Krapp</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rapid molecular detection of tuberculosis and rifampin resistance</article-title>
+					<source>N Engl J Med</source>
+					<year>2010</year>
+					<volume>363</volume>
+					<fpage>1005</fpage>
+					<lpage>1015</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa0907847">https://doi.org/10.1056/NEJMoa0907847</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. World Health Organization. Implementing tuberculosis diagnostics: A policy framework. 2015. Fecha de consulta: 31 de octubre de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/tb/publications/implementing_TB_diagnostics/en/">http://www.who.int/tb/publications/implementing_TB_diagnostics/en/</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Implementing tuberculosis diagnostics: A policy framework</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-10-31">31 de octubre de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/tb/publications/implementing_TB_diagnostics/en/">http://www.who.int/tb/publications/implementing_TB_diagnostics/en/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Ministerio de Salud y Protección Social. ¿Qué es tuberculosis (TB)? Bogotá D.C. 2016. Fecha de consulta: 1 de enero de 2016. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Tuberculosis.aspx">https://www.minsalud.gov.co/salud/publica/PET/Paginas/Tuberculosis.aspx</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Salud y Protección Social</collab>
+					</person-group>
+					<source>¿Qué es tuberculosis (TB)?</source>
+					<publisher-loc>Bogotá D.C</publisher-loc>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-01-01">1 de enero de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Tuberculosis.aspx">https://www.minsalud.gov.co/salud/publica/PET/Paginas/Tuberculosis.aspx</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Garzón MC, Angée DY, Llerena C, Orjuela DL, Victoria JE. Vigilancia de la resistencia del Mycobacterium tuberculosisa los fármacos antituberculosos, Colombia 2004-2005. Biomédica. 2008;28:319-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v28i3.71">https://doi.org/10.7705/biomedica.v28i3.71</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garzón</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Angée</surname>
+							<given-names>DY</given-names>
+						</name>
+						<name>
+							<surname>Llerena</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Orjuela</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Victoria</surname>
+							<given-names>JE</given-names>
+						</name>
+					</person-group>
+					<article-title>Vigilancia de la resistencia del Mycobacterium tuberculosis a los fármacos antituberculosos, Colombia 2004-2005</article-title>
+					<source>Biomédica</source>
+					<year>2008</year>
+					<volume>28</volume>
+					<fpage>319</fpage>
+					<lpage>326</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v28i3.71">https://doi.org/10.7705/biomedica.v28i3.71</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Instituto Nacional de Salud. Informe de actividades realizadas por la Red Nacional de Laboratorios para la vigilancia de la resistencia de Mycobacterium tuberculosis a los fármacos antituberculosos, Colombia, 2013. Fecha de consulta: 1 de enero de 2016. Disponible en: <comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/lineas-de-accion/Red-Nacional-Laboratorios/Documentacin%20Micobacterias/INFORME%20DE%20LA%20VIGILANCIA%20DE%20LA%20RESISTENCIA%20DE%20MYCOBACTERIUM%20TUBERCULOSIS%20A%20LOS%20F%C3%81RMACOS%20ANTITUBERCULOSOS%202013.pdf">http://www.ins.gov.co/lineas-de-accion/Red-Nacional-Laboratorios/Documentacin%20Micobacterias/INFORME%20DE%20LA%20VIGILANCIA%20DE%20LA%20RESISTENCIA%20DE%20MYCOBACTERIUM%20TUBERCULOSIS%20A%20LOS%20F%C3%81RMACOS%20ANTITUBERCULOSOS%202013.pdf</ext-link>
+					</comment></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Informe de actividades realizadas por la Red Nacional de Laboratorios para la vigilancia de la resistencia de Mycobacterium tuberculosis a los fármacos antituberculosos, Colombia</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2016-01-01">1 de enero de 2016</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.ins.gov.co/lineas-de-accion/Red-Nacional-Laboratorios/Documentacin%20Micobacterias/INFORME%20DE%20LA%20VIGILANCIA%20DE%20LA%20RESISTENCIA%20DE%20MYCOBACTERIUM%20TUBERCULOSIS%20A%20LOS%20F%C3%81RMACOS%20ANTITUBERCULOSOS%202013.pdf">http://www.ins.gov.co/lineas-de-accion/Red-Nacional-Laboratorios/Documentacin%20Micobacterias/INFORME%20DE%20LA%20VIGILANCIA%20DE%20LA%20RESISTENCIA%20DE%20MYCOBACTERIUM%20TUBERCULOSIS%20A%20LOS%20F%C3%81RMACOS%20ANTITUBERCULOSOS%202013.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Bunsow E, Ruiz-Serrano MJ, Roa PL, Kestler M, Viedma DG, Bouza E. Evaluation of GeneXpert MTB/RIF for the detection of Mycobacterium tuberculosis and resistance to rifampin in clinical specimens. J Infect. 2014;68:338-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jinf.2013.11.012">https://doi.org/10.1016/j.jinf.2013.11.012</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bunsow</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Serrano</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Roa</surname>
+							<given-names>PL</given-names>
+						</name>
+						<name>
+							<surname>Kestler</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Viedma</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Bouza</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of GeneXpert MTB/RIF for the detection of Mycobacterium tuberculosis and resistance to rifampin in clinical specimens</article-title>
+					<source>J Infect</source>
+					<year>2014</year>
+					<volume>68</volume>
+					<fpage>338</fpage>
+					<lpage>343</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jinf.2013.11.012">https://doi.org/10.1016/j.jinf.2013.11.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Banco Mundial. Datos. Clasificación por países. Fecha de consulta: 22 de noviembre de 2015. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://datos.bancomundial.org/pais">http://datos.bancomundial.org/pais</ext-link></mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Banco Mundial</collab>
+					</person-group>
+					<source>Datos. Clasificación por países</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-11-22">22 de noviembre de 2015</date-in-citation>
+					<comment content-type="cited">Disponible en: <ext-link ext-link-type="uri" xlink:href="http://datos.bancomundial.org/pais">http://datos.bancomundial.org/pais</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Boehme CC, Nicol MP, Nabeta P, Michael JS, Gotuzzo E, Tahirli R, et al. Feasibility, diagnostic accuracy, and effectiveness of decentralised use of the Xpert MTB/RIF test for diagnosis of tuberculosis and multidrug resistance: A multicentre implementation study. Lancet. 2011;377:1495-505. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(11)60438-8">https://doi.org/10.1016/S0140-6736(11)60438-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boehme</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Nicol</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Nabeta</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Michael</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Gotuzzo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tahirli</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Feasibility, diagnostic accuracy, and effectiveness of decentralised use of the Xpert MTB/RIF test for diagnosis of tuberculosis and multidrug resistance: A multicentre implementation study</article-title>
+					<source>Lancet</source>
+					<year>2011</year>
+					<volume>377</volume>
+					<fpage>1495</fpage>
+					<lpage>1505</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(11)60438-8">https://doi.org/10.1016/S0140-6736(11)60438-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Bowles EC, Freyée B, Van Ingen J, Mulder B, Boeree MJ, Van Soolingen D. Xpert MTB/RIF(r), a novel automated polymerase chain reaction-based tool for the diagnosis of tuberculosis. Int J Tuberc Lung Dis. 2011;15:988-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.10.0574">https://doi.org/10.5588/ijtld.10.0574</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bowles</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Freyée</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Van Ingen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mulder</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Boeree</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Van Soolingen</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Xpert MTB/RIF(r), a novel automated polymerase chain reaction-based tool for the diagnosis of tuberculosis</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2011</year>
+					<volume>15</volume>
+					<fpage>988</fpage>
+					<lpage>989</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.10.0574">https://doi.org/10.5588/ijtld.10.0574</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Huh HJ, Jeong B-H, Jeon K, Koh W-J, Ki C-S, Lee NY. Performance evaluation of the Xpert MTB/RIF assay according to its clinical application. BMC Infect Dis. 2014;14: 589. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-014-0589-x">https://doi.org/10.1186/s12879-014-0589-x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Huh</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>Jeong</surname>
+							<given-names>B-H</given-names>
+						</name>
+						<name>
+							<surname>Jeon</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Koh</surname>
+							<given-names>W-J</given-names>
+						</name>
+						<name>
+							<surname>Ki</surname>
+							<given-names>C-S</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>NY</given-names>
+						</name>
+					</person-group>
+					<article-title>Performance evaluation of the Xpert MTB/RIF assay according to its clinical applica</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2014</year>
+					<volume>14</volume>
+					<fpage>589</fpage>
+					<lpage>589</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-014-0589-x">https://doi.org/10.1186/s12879-014-0589-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Myneedu VP, Behera D, Verma AK, Bhalla M, Singh N, Arora J, et al. Xpert(r) MTB/RIF assay for tuberculosis diagnosis: Evaluation in an Indian setting. Int J Tuberc Lung Dis. 2014;18:958-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.13.0328">https://doi.org/10.5588/ijtld.13.0328</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Myneedu</surname>
+							<given-names>VP</given-names>
+						</name>
+						<name>
+							<surname>Behera</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Verma</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Bhalla</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Singh</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Arora</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Xpert(r) MTB/RIF assay for tuberculosis diagnosis: Evaluation in an Indian setting</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2014</year>
+					<volume>18</volume>
+					<fpage>958</fpage>
+					<lpage>960</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.13.0328">https://doi.org/10.5588/ijtld.13.0328</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Ou X, Xia H, Li Q, Pang Y, Wang S, Zhao B, et al. A feasibility study of the Xpert MTB/RIF test at the peripheral level laboratory in China. Int J Infect Dis. 2015;31:41-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2014.09.011">https://doi.org/10.1016/j.ijid.2014.09.011</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ou</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Xia</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Pang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A feasibility study of the Xpert MTB/RIF test at the peripheral level laboratory in China</article-title>
+					<source>Int J Infect Dis</source>
+					<year>2015</year>
+					<volume>31</volume>
+					<fpage>41</fpage>
+					<lpage>46</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2014.09.011">https://doi.org/10.1016/j.ijid.2014.09.011</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Steingart KR, Schiller I, Horne DJ, Pai M, Boehme CC, Dendukuri N. Xpert(r) MTB/RIF assay for pulmonary tuberculosis and rifampicin resistance in adults. Cochrane Database Syst Rev. 2014;1:CD009593. https://doi.org/10. 1002/14651858.CD009593.pub3</mixed-citation>
+				<element-citation publication-type="database">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Steingart</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Schiller</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Horne</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Pai</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Boehme</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Dendukuri</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Xpert(r) MTB/RIF assay for pulmonary tuberculosis and rifampicin resistance in adults</article-title>
+					<source>Cochrane Database Syst Rev</source>
+					<year>2014</year>
+					<volume>1</volume>
+					<pub-id pub-id-type="other">CD009593</pub-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/14651858.CD009593.pub3">https://doi.org/10.1002/14651858.CD009593.pub3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Williamson DA, Basu I, Bower J, Freeman JT, Henderson G, Roberts SA. An evaluation of the Xpert MTB/RIF assay and detection of false-positive rifampicin resistance in Mycobacterium tuberculosis. Diagn Microbiol Infect Dis. 2012;74:207-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diagmicrobio.2012.06.013">https://doi.org/10.1016/j.diagmicrobio.2012.06.013</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Williamson</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Basu</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Bower</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Freeman</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Henderson</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Roberts</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>An evaluation of the Xpert MTB/RIF assay and detection of false-positive rifampicin resistance in Mycobacterium tuberculosis</article-title>
+					<source>Diagn Microbiol Infect Dis</source>
+					<year>2012</year>
+					<volume>74</volume>
+					<fpage>207</fpage>
+					<lpage>209</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diagmicrobio.2012.06.013">https://doi.org/10.1016/j.diagmicrobio.2012.06.013</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Hanif SN, Eldeen HS, Ahmad S, Mokaddas E. GeneXpert(r) MTB/RIF for rapid detection of Mycobacterium tuberculosis in pulmonary and extra-pulmonary samples. Int J Tuberc Lung Dis. 2011;15:1274-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.11.0394">https://doi.org/10.5588/ijtld.11.0394</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hanif</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Eldeen</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Ahmad</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mokaddas</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>GeneXpert(r) MTB/RIF for rapid detection of Mycobacterium tuberculosis in pulmonary and extra-pulmonary samples</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2011</year>
+					<volume>15</volume>
+					<fpage>1274</fpage>
+					<lpage>1275</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.11.0394">https://doi.org/10.5588/ijtld.11.0394</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Ioannidis P, Papaventsis D, Karabela S, Nikolaou S, Panagi M, Raftopoulou E, et al. Cepheid GeneXpert MTB/RIF assay for Mycobacterium tuberculosis detection andrifampin resistance identification in patients with substantial clinical indications of tuberculosis and smear-negative microscopy results. J Clin Microbiol. 2011;49:3068-70.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00718-11">https://doi.org/10.1128/JCM.00718-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ioannidis</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Papaventsis</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Karabela</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nikolaou</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Panagi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Raftopoulou</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cepheid GeneXpert MTB/RIF assay for Mycobacterium tuberculosis detection andrifampin resistance identification in patients with substantial clinical indications of tuberculosis and smear-negative microscopy results</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>3068</fpage>
+					<lpage>3070</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00718-11">https://doi.org/10.1128/JCM.00718-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Kurbatova EV, Kaminski DA, Erokhin VV, Volchenkov GV, Andreevskaya SN, Chernousova LN, et al. Performance of Cepheid(r) Xpert MTB/RIF(r) and TB-Biochip(r) MDR in two regions of Russia with a high prevalence of drug-resistant tuberculosis. Eur J Clin Microbiol Infect Dis. 2013;32:735-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10096-012-1798-0">https://doi.org/10.1007/s10096-012-1798-0</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kurbatova</surname>
+							<given-names>EV</given-names>
+						</name>
+						<name>
+							<surname>Kaminski</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Erokhin</surname>
+							<given-names>VV</given-names>
+						</name>
+						<name>
+							<surname>Volchenkov</surname>
+							<given-names>GV</given-names>
+						</name>
+						<name>
+							<surname>Andreevskaya</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Chernousova</surname>
+							<given-names>LN</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Performance of Cepheid(r) Xpert MTB/RIF(r) and TB-Biochip(r) MDR in two regions of Russia with a high prevalence of drug-resistant tuberculosis</article-title>
+					<source>Eur J Clin Microbiol Infect Dis</source>
+					<year>2013</year>
+					<volume>32</volume>
+					<fpage>735</fpage>
+					<lpage>743</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10096-012-1798-0">https://doi.org/10.1007/s10096-012-1798-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Malbruny B, Le Marrec G, Courageux K, Leclercq R, Cattoir V. Rapid and efficient detection of Mycobacterium tuberculosis in respiratory and non-respiratory samples. Int J Tuberc Lung Dis. 2011;15:553-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.10.0497">https://doi.org/10.5588/ijtld.10.0497</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malbruny</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Le Marrec</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Courageux</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Leclercq</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Cattoir</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Rapid and efficient detection of Mycobacterium tuberculosis in respiratory and non-respiratory samples</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2011</year>
+					<volume>15</volume>
+					<fpage>553</fpage>
+					<lpage>555</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.10.0497">https://doi.org/10.5588/ijtld.10.0497</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Marlowe EM, Novak-Weekley SM, Cumpio J, Sharp SE, Momeny MA, Babst A, et al. Evaluation of the Cepheid Xpert MTB/RIF assay for direct detection of Mycobacterium tuberculosis complex in respiratory specimens. J Clin Microbiol. 2011;49:1621-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.02214-10">https://doi.org/10.1128/JCM.02214-10</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marlowe</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Novak-Weekley</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Cumpio</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sharp</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Momeny</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Babst</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of the Cepheid Xpert MTB/RIF assay for direct detection of Mycobacterium tuberculosis complex in respiratory specimens</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>1621</fpage>
+					<lpage>1623</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.02214-10">https://doi.org/10.1128/JCM.02214-10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Miller MB, Popowitch EB, Backlund MG, Ager EP.Performance of Xpert MTB/RIF RUO assay and IS6110 real-time PCR for Mycobacterium tuberculosis detection in clinical samples. J Clin Microbiol. 2011;49:3458-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05212-11">https://doi.org/10.1128/JCM.05212-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miller</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Popowitch</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Backlund</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Ager</surname>
+							<given-names>EP</given-names>
+						</name>
+					</person-group>
+					<article-title>Performance of Xpert MTB/RIF RUO assay and IS6110 real-time PCR for Mycobacterium tuberculosis detection in clinical samples</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>3458</fpage>
+					<lpage>3462</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05212-11">https://doi.org/10.1128/JCM.05212-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Safianowska A, Walkiewicz R, Nejman-Gryz P, Grubek-Jaworska H. Two selected commercially based nucleic acid amplification tests for the diagnosis of tuberculosis. Pneumonol Alergol Pol. 2011;80:6-12.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Safianowska</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Walkiewicz</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Nejman-Gryz</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Grubek-Jaworska</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Two selected commercially based nucleic acid amplification tests for the diagnosis of tuberculosis</article-title>
+					<source>Pneumonol Alergol Pol</source>
+					<year>2011</year>
+					<volume>80</volume>
+					<fpage>6</fpage>
+					<lpage>12</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Teo J, Jureen R, Chiang D, Chan D, Lin R. Comparison of two nucleic acid amplification assays, the Xpert MTB/RIF assay and the amplified Mycobacterium Tuberculosis Direct assay, for detection of Mycobacterium tuberculosisin respiratoryand nonrespiratory specimens. J Clin Microbiol. 2011;49:3659-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00211-11">https://doi.org/10.1128/JCM.00211-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Teo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jureen</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Chiang</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Chan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of two nucleic acid amplification assays, the Xpert MTB/RIF assay and the amplified Mycobacterium Tuberculosis Direct assay, for detection of Mycobacterium tuberculosisin respiratoryand nonrespiratory specimens</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>3659</fpage>
+					<lpage>3662</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00211-11">https://doi.org/10.1128/JCM.00211-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Hanrahan CF, Selibas K, Deery CB, Dansey H, Clouse K, Bassett J, et al. Time to treatment and patient outcomes among TB suspects screened by a single point-of-care Xpert MTB/RIF at a primary care clinic in Johannesburg, South Africa. PLoS One. 2013;8:e65421. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0065421">https://doi.org/10.1371/journal.pone.0065421</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hanrahan</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Selibas</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Deery</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Dansey</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Clouse</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Bassett</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Time to treatment and patient outcomes among TB suspects screened by a single point-of-care Xpert MTB/RIF at a primary care clinic in Johannesburg</article-title>
+					<source>South Africa. PLoS One</source>
+					<year>2013</year>
+					<volume>8</volume>
+					<elocation-id>e65421</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0065421">https://doi.org/10.1371/journal.pone.0065421</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Zeka AN, Tasbakan S, Cavusoglu C. Evaluation of the GeneXpert MTB/RIF assay for rapid diagnosis of tuberculosisand detection of rifampin resistance in pulmonary and extra-pulmonary specimens. J Clin Microbiol. 2011;49:4138-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05434-11">https://doi.org/10.1128/JCM.05434-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zeka</surname>
+							<given-names>AN</given-names>
+						</name>
+						<name>
+							<surname>Tasbakan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cavusoglu</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of the GeneXpert MTB/RIF assay for rapid diagnosis of tuberculosisand detection of rifampin resistance in pulmonary and extra-pulmonary specimens</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>4138</fpage>
+					<lpage>4141</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05434-11">https://doi.org/10.1128/JCM.05434-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Rachow A, Zumla A, Heinrich N, Rojas-Ponce G, Mtafya B, Reither K, et al. Rapid and accurate detection of Mycobacterium tuberculosis in sputum samples by Cepheid Xpert MTB/RIF assay-a clinical validation study. PLoS One. 2011;6:e20458. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0020458">https://doi.org/10.1371/journal.pone.0020458</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rachow</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zumla</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Heinrich</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Rojas-Ponce</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mtafya</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Reither</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rapid and accurate detection of Mycobacterium tuberculosis in sputum samples by Cepheid Xpert MTB/RIF assay-a clinical validation study</article-title>
+					<source>PLoS One</source>
+					<year>2011</year>
+					<volume>6</volume>
+					<elocation-id>e20458</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0020458">https://doi.org/10.1371/journal.pone.0020458</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Ajbani K, Nikam C, Kazi M, Gray C, Boehme C, Balan K, et al. Evaluation of genotype MTBDRsl assay to detect drug resistance associated with fluoroquinolones, amino-glycosides and ethambutol on clinical sediments. PLoS One. 2012;7:e49433. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0049433">https://doi.org/10.1371/journal.pone.0049433</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ajbani</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Nikam</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kazi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gray</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Boehme</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Balan</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of genotype MTBDRsl assay to detect drug resistance associated with fluoroquinolones, amino-glycosides and ethambutol on clinical sediments</article-title>
+					<source>PLoS One</source>
+					<year>2012</year>
+					<volume>7</volume>
+					<elocation-id>e49433</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0049433">https://doi.org/10.1371/journal.pone.0049433</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Barnard M, Warren R, Van Pittius NG, van Helden P, Bosman M, Streicher E, et al. Genotype MTBDRsl line probe assay shortens time to diagnosis of extensively drug-resistant tuberculosis in a high-throughput diagnostic laboratory. Am J Respir Crit Care Med. 2012;186:1298-305. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1164/rccm.201205-0960OC">https://doi.org/10.1164/rccm.201205-0960OC</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barnard</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Warren</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Van Pittius</surname>
+							<given-names>NG</given-names>
+						</name>
+						<name>
+							<surname>van Helden</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bosman</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Streicher</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genotype MTBDRsl line probe assay shortens time to diagnosis of extensively drug-resistant tuberculosis in a high-throughput diagnostic laboratory</article-title>
+					<source>Am J Respir Crit Care Med</source>
+					<year>2012</year>
+					<volume>186</volume>
+					<fpage>1298</fpage>
+					<lpage>1305</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1164/rccm.201205-0960OC">https://doi.org/10.1164/rccm.201205-0960OC</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. Brossier F, Veziris N, Aubry A, Jarlier V, Sougakoff W. Detection by GenoType MTBDRsl test of complex mechanisms of resistance to second-line drugs and etham-butol in multidrug-resistant Mycobacterium tuberculosiscomplex isolates. J Clin Microbiol. 2010;48:1683-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01947-09">https://doi.org/10.1128/JCM.01947-09</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brossier</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Veziris</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Aubry</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jarlier</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Sougakoff</surname>
+							<given-names>W.</given-names>
+						</name>
+					</person-group>
+					<article-title>Detection by GenoType MTBDRsl test of complex mechanisms of resistance to second-line drugs and etham-butol in multidrug-resistant Mycobacterium tuberculosiscomplex isolates</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2010</year>
+					<volume>48</volume>
+					<fpage>1683</fpage>
+					<lpage>1689</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01947-09">https://doi.org/10.1128/JCM.01947-09</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Ferro BE, García PK, Nieto LM, van Soolingen D. Predictive value of molecular drug resistance testing of Mycobacterium tuberculosis isolates in Valle del Cauca, Colombia. J Clin Microbiol. 2013;51:2220-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00429-13">https://doi.org/10.1128/JCM.00429-13</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferro</surname>
+							<given-names>BE</given-names>
+						</name>
+						<name>
+							<surname>García</surname>
+							<given-names>PK</given-names>
+						</name>
+						<name>
+							<surname>Nieto</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>van Soolingen</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Predictive value of molecular drug resistance testing of Mycobacterium tuberculosis isolates in Valle del Cauca, Colombia</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2013</year>
+					<volume>51</volume>
+					<fpage>2220</fpage>
+					<lpage>2224</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00429-13">https://doi.org/10.1128/JCM.00429-13</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51. Hillemann D, Rüsch-Gerdes S, Richter E. Feasibility of the GenoType MTBDRsl assay for fluoroquinolone, amikacin-capreomycin, and ethambutol resistance testing of Mycobacterium tuberculosis strains and clinical specimens. J Clin Microbiol. 2009;47:1767-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00081-09">https://doi.org/10.1128/JCM.00081-09</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hillemann</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Rüsch-Gerdes</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Richter</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Feasibility of the GenoType MTBDRsl assay for fluoroquinolone, amikacin-capreomycin, and ethambutol resistance testing of Mycobacterium tuberculosis strains and clinical specimens</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2009</year>
+					<volume>47</volume>
+					<fpage>1767</fpage>
+					<lpage>1772</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00081-09">https://doi.org/10.1128/JCM.00081-09</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>52. Huang W-L, Chi T-L, Wu M-H, Jou R.Performance assessment of the GenoType MTBDRsl test and DNA sequencing for detection of second-line and ethambutol drug resistance among patients infected with multidrug-resistant Mycobacterium tuberculosis. J Clin Microbiol. 2011;49:2502-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00197-11">https://doi.org/10.1128/JCM.00197-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Huang</surname>
+							<given-names>W-L</given-names>
+						</name>
+						<name>
+							<surname>Chi</surname>
+							<given-names>T-L</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>M-H</given-names>
+						</name>
+						<name>
+							<surname>Jou</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Performance assessment of the GenoType MTBDRsl test and DNA sequencing for detection of second-line and ethambutol drug resistance among patients infected with multidrug-resistant Mycobacterium tuberculosis</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>2502</fpage>
+					<lpage>2508</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00197-11">https://doi.org/10.1128/JCM.00197-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>53. Ignatyeva O, Kontsevaya I, Kovalyov A, Balabanova Y, Nikolayevskyy V, Toit K, et al. Detection of resistance to second-line antituberculosis drugs by use of the genotype MTBDRsl assay: A multicenter evaluation and feasibility study. J Clin Microbiol. 2012;50:1593-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00039-12">https://doi.org/10.1128/JCM.00039-12</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ignatyeva</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Kontsevaya</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Kovalyov</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Balabanova</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Nikolayevskyy</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Toit</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Detection of resistance to second-line antituberculosis drugs by use of the genotype MTBDRsl assay: A multicenter evaluation and feasibility study</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2012</year>
+					<volume>50</volume>
+					<fpage>1593</fpage>
+					<lpage>1597</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00039-12">https://doi.org/10.1128/JCM.00039-12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>54. Jin J, Shen Y, Fan X, Diao N, Wang F, Wang S, et al. Underestimation of the resistance of Mycobacterium tuberculosis to second-line drugs by the new GenoType MTBDRsl test. J Mol Diagnostics. 2013;15:44-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jmoldx.2012.08.004">https://doi.org/10.1016/j.jmoldx.2012.08.004</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jin</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Shen</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Diao</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Underestimation of the resistance of Mycobacterium tuberculosis to second-line drugs by the new GenoType MTBDRsl test</article-title>
+					<source>J Mol Diagnostics</source>
+					<year>2013</year>
+					<volume>15</volume>
+					<fpage>44</fpage>
+					<lpage>50</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jmoldx.2012.08.004">https://doi.org/10.1016/j.jmoldx.2012.08.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation>55. Kontsevaya I, Mironova S, Nikolayevskyy V, Balabanova Y, Mitchell S, Drobniewski F. Evaluation of two molecular assays for rapid detection of Mycobacterium tuberculosisresistance to fluoroquinolones in high-tuberculosis and-multidrug-resistance settings. J Clin Microbiol. 2011;49:2832-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01889-10">https://doi.org/10.1128/JCM.01889-10</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kontsevaya</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Mironova</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nikolayevskyy</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Balabanova</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Mitchell</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Drobniewski</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of two molecular assays for rapid detection of Mycobacterium tuberculosisresistance to fluoroquinolones in high-tuberculosis and-multidrug-resistance settings</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>2832</fpage>
+					<lpage>2837</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01889-10">https://doi.org/10.1128/JCM.01889-10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B56">
+				<label>56</label>
+				<mixed-citation>56. Lacoma A, García-Sierra N, Prat C, Maldonado J, Ruiz-Manzano J, Haba L, et al. GenoTypeMTBDRsl for moleculardetection of second-line-drug and ethambutol resistance in Mycobacterium tuberculosis strains and clinical samples. J Clin Microbiol. 2012;50:30-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05274-11">https://doi.org/10.1128/JCM.05274-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lacoma</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>García-Sierra</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Prat</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Manzano</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Haba</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>GenoTypeMTBDRsl for moleculardetection of second-line-drug and ethambutol resistance in Mycobacterium tuberculosis strains and clinical samples</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2012</year>
+					<volume>50</volume>
+					<fpage>30</fpage>
+					<lpage>36</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05274-11">https://doi.org/10.1128/JCM.05274-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B57">
+				<label>57</label>
+				<mixed-citation>57. López-Roa P, Ruiz-Serrano MJ, Alcalá L, Ráez NG-E, de Viedma DG, Bouza E. Susceptibility testing to second-line drugs and ethambutol by GenoType MTBDRsl and Bactec MGIT 960 comparing with agar proportion method. Tuberculosis. 2012;92:417-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tube.2012.05.005">https://doi.org/10.1016/j.tube.2012.05.005</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López-Roa</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Serrano</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Alcalá</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ráez</surname>
+							<given-names>NG-E</given-names>
+						</name>
+						<name>
+							<surname>de Viedma</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Bouza</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Susceptibility testing to second-line drugs and ethambutol by GenoType MTBDRsl and Bactec MGIT 960 comparing with agar proportion method</article-title>
+					<source>Tuberculosis</source>
+					<year>2012</year>
+					<volume>92</volume>
+					<fpage>417</fpage>
+					<lpage>421</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tube.2012.05.005">https://doi.org/10.1016/j.tube.2012.05.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B58">
+				<label>58</label>
+				<mixed-citation>58. Said HM, Kock MM, Ismail NA, Baba K, Omar SV, Osman AG, et al. Evaluation of the GenoType(r) MTBDRsl assay for susceptibility testing of second-line anti-tuberculosis drugs. Int J Tuberc Lung Dis. 2012;16:104-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.10.0600">https://doi.org/10.5588/ijtld.10.0600</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Said</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Kock</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Ismail</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Baba</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Omar</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Osman</surname>
+							<given-names>AG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of the GenoType(r) MTBDRsl assay for susceptibility testing of second-line anti-tuberculosis drugs</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2012</year>
+					<volume>16</volume>
+					<fpage>104</fpage>
+					<lpage>109</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.10.0600">https://doi.org/10.5588/ijtld.10.0600</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B59">
+				<label>59</label>
+				<mixed-citation>59. Tukvadze N, Bablishvili N, Apsindzelashvili R, Blumberg HM, Kempker RR. Performance of the MTBDRsl assay in Georgia. Int J Tuberc Lung Dis. 2014;18:233-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.13.0468">https://doi.org/10.5588/ijtld.13.0468</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tukvadze</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Bablishvili</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Apsindzelashvili</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Blumberg</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Kempker</surname>
+							<given-names>RR</given-names>
+						</name>
+					</person-group>
+					<article-title>Performance of the MTBDRsl assay in Georgia</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2014</year>
+					<volume>18</volume>
+					<fpage>233</fpage>
+					<lpage>239</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.13.0468">https://doi.org/10.5588/ijtld.13.0468</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B60">
+				<label>60</label>
+				<mixed-citation>60. Chen C, Kong W, Zhu L, Zhou Y, Peng H, Shao Y, et al. Evaluation of the GenoType(r) MTBDRplus line probe assay on sputum-positive samples in routine settings in China. Int J Tuberc Lung Dis. 2014;18:1034-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.13.0857">https://doi.org/10.5588/ijtld.13.0857</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kong</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zhu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Shao</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of the GenoType(r) MTBDRplus line probe assay on sputum-positive samples in routine settings in China</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2014</year>
+					<volume>18</volume>
+					<fpage>1034</fpage>
+					<lpage>1039</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.13.0857">https://doi.org/10.5588/ijtld.13.0857</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B61">
+				<label>61</label>
+				<mixed-citation>61. de Abreu Maschmann R, Spies FS, de Souza Nunes L, Ribeiro AW, Machado TRM, Zaha A, et al. Performance of the GenoType MTBDRplus assay directly on sputum specimens from Brazilian patients with tuberculosis treatment failure or relapse. J Clin Microbiol. 2013;51:1606-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00364-13">https://doi.org/10.1128/JCM.00364-13</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>de Abreu Maschmann</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Spies</surname>
+							<given-names>FS</given-names>
+						</name>
+						<name>
+							<surname>de Souza Nunes</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>AW</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>TRM</given-names>
+						</name>
+						<name>
+							<surname>Zaha</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Performance of the GenoType MTBDRplus assay directly on sputum specimens from Brazilian patients with tuberculosis treatment failure or relapse</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2013</year>
+					<volume>51</volume>
+					<fpage>1606</fpage>
+					<lpage>1608</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00364-13">https://doi.org/10.1128/JCM.00364-13</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B62">
+				<label>62</label>
+				<mixed-citation>62. Dorman SE, Chihota VN, Lewis JJ, van der Meulen M, Mathema B, Beylis N, et al.Genotype MTBDRplus for direct detection of Mycobacterium tuberculosis and drug resistance in strains from gold miners in South Africa. J Clin Microbiol. 2012;50:1189-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05723-11">https://doi.org/10.1128/JCM.05723-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dorman</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Chihota</surname>
+							<given-names>VN</given-names>
+						</name>
+						<name>
+							<surname>Lewis</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>van der Meulen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mathema</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Beylis</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genotype MTBDRplus for direct detection of Mycobacterium tuberculosis and drug resistance in strains from gold miners in South Africa</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2012</year>
+					<volume>50</volume>
+					<fpage>1189</fpage>
+					<lpage>1194</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.05723-11">https://doi.org/10.1128/JCM.05723-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B63">
+				<label>63</label>
+				<mixed-citation>63. Jin J, Zhang Y, Fan X, Diao N, Shao L, Wang F, et al. Evaluation of the GenoType(r) MTBDRplus assay and identification of a rare mutation for improving MDR-TB detection. Int J Tuberc Lung Dis. 2012;16:521-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.11.0269">https://doi.org/10.5588/ijtld.11.0269</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jin</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Diao</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Shao</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of the GenoType(r) MTBDRplus assay and identification of a rare mutation for improving MDR-TB detection</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2012</year>
+					<volume>16</volume>
+					<fpage>521</fpage>
+					<lpage>526</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.11.0269">https://doi.org/10.5588/ijtld.11.0269</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B64">
+				<label>64</label>
+				<mixed-citation>64. Causse M, Ruiz P, Gutiérrez JB, Zerolo J, Casal M. Evaluation of new GenoType(r) MTBDRplus for detection of resistance in cultures and direct specimens of Mycobacteriumtuberculosis. Int J Tuberc Lung Dis. 2008;12:1456-60.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Causse</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ruiz</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Zerolo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Casal</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of new GenoType(r) MTBDRplus for detection of resistance in cultures and direct specimens of Mycobacteriumtuberculosis</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2008</year>
+					<volume>12</volume>
+					<fpage>1456</fpage>
+					<lpage>1460</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B65">
+				<label>65</label>
+				<mixed-citation>65. Chryssanthou E, Ängeby K. The GenoType(r) MTBDRplus assay for detection of drug resistance in Mycobacterium tuberculosis in Sweden. APMIS. 2012;120:405-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1600-0463.2011.02845.x">https://doi.org/10.1111/j.1600-0463.2011.02845.x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chryssanthou</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ängeby</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>The GenoType(r) MTBDRplus assay for detection of drug resistance in Mycobacterium tuberculosis in Sweden</article-title>
+					<source>APMIS</source>
+					<year>2012</year>
+					<volume>120</volume>
+					<fpage>405</fpage>
+					<lpage>409</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1600-0463.2011.02845.x">https://doi.org/10.1111/j.1600-0463.2011.02845.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B66">
+				<label>66</label>
+				<mixed-citation>66. Lyu J, Kim MN, Song JW, Choi CM, Oh YM, Lee SD, et al. GenoType(r) MTBDRplus assay detection of drug-resistant tuberculosis in routine practice in Korea. Int J Tuberc Lung Dis. 2013;17:120-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.12.0197">https://doi.org/10.5588/ijtld.12.0197</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lyu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Song</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Choi</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Oh</surname>
+							<given-names>YM</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>SD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>GenoType(r) MTBDRplus assay detection of drug-resistant tuberculosis in routine practice in Korea</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2013</year>
+					<volume>17</volume>
+					<fpage>120</fpage>
+					<lpage>124</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.12.0197">https://doi.org/10.5588/ijtld.12.0197</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B67">
+				<label>67</label>
+				<mixed-citation>67. Buyankhishig B, Oyuntuya T, Tserelmaa B, Sarantuya J, Lucero MG, Mitarai S. Rapid molecular testing for multi-resistant tuberculosis in Mongolia: A diagnostic accuracy study. Int J Mycobacteriol. 2012;1:40-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijmyco.2012.01.007">https://doi.org/10.1016/j.ijmyco.2012.01.007</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Buyankhishig</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Oyuntuya</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tserelmaa</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Sarantuya</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lucero</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Mitarai</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Rapid molecular testing for multi-resistant tuberculosis in Mongolia: A diagnostic accuracy study</article-title>
+					<source>Int J Mycobacteriol</source>
+					<year>2012</year>
+					<volume>1</volume>
+					<fpage>40</fpage>
+					<lpage>44</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijmyco.2012.01.007">https://doi.org/10.1016/j.ijmyco.2012.01.007</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B68">
+				<label>68</label>
+				<mixed-citation>68. Farooqi JQ, Khan E, Alam SMZ, Ali A, Hasan Z, Hasan R. Line probe assay for detection of rifampicin and isoniazid resistant tuberculosis in Pakistan. J Pak Med Assoc. 2012;62:767-72.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Farooqi</surname>
+							<given-names>JQ</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Alam</surname>
+							<given-names>SMZ</given-names>
+						</name>
+						<name>
+							<surname>Ali</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hasan</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Hasan</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Line probe assay for detection of rifampicin and isoniazid resistant tuberculosis in Pakistan</article-title>
+					<source>J Pak Med Assoc</source>
+					<year>2012</year>
+					<volume>62</volume>
+					<fpage>767</fpage>
+					<lpage>772</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B69">
+				<label>69</label>
+				<mixed-citation>69. Huyen MN, Tiemersma EW, Lan NT, Cobelens FG, Dung NH, Sy DN, et al. Validation of the GenoType(r) MTBDRplus assay for diagnosis of multidrug resistant tuberculosis in South Vietnam. BMC Infect Dis. 2010;10:149. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-10-149">https://doi.org/10.1186/1471-2334-10-149</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Huyen</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Tiemersma</surname>
+							<given-names>EW</given-names>
+						</name>
+						<name>
+							<surname>Lan</surname>
+							<given-names>NT</given-names>
+						</name>
+						<name>
+							<surname>Cobelens</surname>
+							<given-names>FG</given-names>
+						</name>
+						<name>
+							<surname>Dung</surname>
+							<given-names>NH</given-names>
+						</name>
+						<name>
+							<surname>Sy</surname>
+							<given-names>DN</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Validation of the GenoType(r) MTBDRplus assay for diagnosis of multidrug resistant tuberculosis in South Vietnam</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2010</year>
+					<volume>10</volume>
+					<fpage>149</fpage>
+					<lpage>149</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2334-10-149">https://doi.org/10.1186/1471-2334-10-149</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B70">
+				<label>70</label>
+				<mixed-citation>70. Keeler E, Perkins MD, Small P, Hanson C, Reed S, Cunningham J, et al. Reducing the global burden of tuberculosis: The contribution of improved diagnostics.Nature. 2006;444:49-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature05446">https://doi.org/10.1038/nature05446</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Keeler</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Perkins</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Small</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Hanson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Reed</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cunningham</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Reducing the global burden of tuberculosis: The contribution of improved diagnostics</article-title>
+					<source>Nature</source>
+					<year>2006</year>
+					<volume>444</volume>
+					<fpage>49</fpage>
+					<lpage>57</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature05446">https://doi.org/10.1038/nature05446</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B71">
+				<label>71</label>
+				<mixed-citation>71. World Health Organization. Strategic and Technical Advisory Group for Tuberculosis: Report of 10th meeting. Geneva: WHO; 2010.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Strategic and Technical Advisory Group for Tuberculosis</source>
+					<year>2010</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B72">
+				<label>72</label>
+				<mixed-citation>72. Lin H-H, Langley I, Mwenda R, Doulla B, Egwaga S, Millington KA, et al. A modelling framework tosupport the selection and implementation of new tuberculosis diagnostic tools [State of the art series. Operational research. Number 8 in the series]. Int J Tuberc Lung Dis. 2011;15:996-1004. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.11.0062">https://doi.org/10.5588/ijtld.11.0062</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lin</surname>
+							<given-names>H-H</given-names>
+						</name>
+						<name>
+							<surname>Langley</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Mwenda</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Doulla</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Egwaga</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Millington</surname>
+							<given-names>KA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A modelling framework tosupport the selection and implementation of new tuberculosis diagnostic tools [State of the art series. Operational research. Number 8 in the series]</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2011</year>
+					<volume>15</volume>
+					<fpage>996</fpage>
+					<lpage>1004</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.11.0062">https://doi.org/10.5588/ijtld.11.0062</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B73">
+				<label>73</label>
+				<mixed-citation>73. Altman DG, Bossuyt PM.Estudiosde precisión diagnóstica (STARD) y pronóstica (REMARK). Med Clin (Barc). 2005;125:49-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0025-7753(05)72210-7">https://doi.org/10.1016/S0025-7753(05)72210-7</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Altman</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Bossuyt</surname>
+							<given-names>PM</given-names>
+						</name>
+					</person-group>
+					<article-title>Estudios de precisión diagnóstica (STARD) y pronóstica (REMARK)</article-title>
+					<source>Med Clin (Barc)</source>
+					<year>2005</year>
+					<volume>125</volume>
+					<fpage>49</fpage>
+					<lpage>55</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0025-7753(05)72210-7">https://doi.org/10.1016/S0025-7753(05)72210-7</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Financiación Esta investigación es producto de un proyecto financiado por Colciencias (código 221356934391), por la Corporación para Investigaciones Biológicas y por la Universidad Pontificia Bolivariana de Medellín.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

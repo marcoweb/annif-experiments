@@ -1,0 +1,17 @@
+#ITI#Large-Sample Variance of Fleiss Generalized Kappa#FTI#
+#IRE# Cohen’s kappa coefficient was originally proposed for two raters only, and it later extended to an arbitrarily large number of raters to become what is known as Fleiss’ generalized kappa. Fleiss’ generalized kappa and its large-sample variance are still widely used by researchers and were implemented in several software packages, including, among others, SPSS and the R package “rel.” The purpose of this article is to show that the large-sample variance of Fleiss’ generalized kappa is systematically being misused, is invalid as a precision measure for kappa, and cannot be used for constructing confidence intervals. A general-purpose variance expression is proposed, which can be used in any statistical inference procedure. A Monte-Carlo experiment is presented, showing the validity of the new variance estimation procedure.#FRE#
+#IPC# Cohen kappa; Fleiss kappa; Gwet AC1; interrater reliability#FPC#
+#IRF# Cicchetti D.V., Feinstein A.R., High agreement but low kappa: II. Resolving the paradoxes, Journal of Clinical Epidemiology, 43, 6, pp. 551-558, (1990); 
+Cohen J., A coefficient of agreement for nominal scales, Educational and Psychological Measurement, 20, 1, pp. 37-46, (1960); 
+Conger A.J., Integration and generalization of kappas for multiple raters, Psychological Bulletin, 88, 2, pp. 322-328, (1980); 
+Feinstein A.R., Cicchetti D.V., High agreement but low kappa: I. The problems of two paradoxes, Journal of Clinical Epidemiology, 43, 6, pp. 543-549, (1990); 
+Fleiss J.L., Measuring nominal scale agreement among many raters, Psychological Bulletin, 76, 5, pp. 378-382, (1971); 
+Fleiss J.L., Nee J.C.M., Landis J.R., The large sample variance of kappa in the case of different sets of raters, Psychological Bulletin, 86, 5, pp. 974-977, (1979); 
+Gwet K.L., Computing inter-rater reliability and its variance in the presence of high agreement, British Journal of Mathematical and Statistical Psychology, 61, 1, pp. 29-48, (2008); 
+Krippendorff K., Estimating the reliability, systematic error, and random error of interval data, Educational and Psychological Measurement, 30, 1, pp. 61-70, (1970); 
+Light R.J., Measures of response agreement for qualitative data: Some generalizations and alternatives, Psychological Bulletin, 76, 5, pp. 365-377, (1971); 
+Raykov T., Dimitrov D.M., von Eye A., Marcoulides G.A., Interrater agreement evaluation: A latent variable modeling approach, Educational and Psychological Measurement, 73, 3, pp. 512-531, (2013); 
+Schuster C., A mixture model approach to indexing rater agreement, British Journal of Mathematical and Statistical Psychology, 55, 2, pp. 289-303, (2002); 
+Schuster C., Smith D., Indexing systematic rater agreement with a latent-class model, Psychological Methods, 7, 3, pp. 384-395, (2002); 
+Scott W.A., Reliability of content analysis: the case of nominal scale coding, Public Opinion Quarterly, 19, 3, pp. 321-325, (1955); 
+von Eye A., Mun E.Y., Analyzing rater agreement: Manifest variable methods, (2005)#FRF#

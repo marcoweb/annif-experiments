@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.5" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v37i2.3202</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Articulos originales</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Nueva reacción en cadena de la polimerasa múltiple para el diagnóstico específico de especies implicadas en la candidiasis humana</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>A new multiplex PCR for species-specific diagnosis of human candidiasis</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>García</surname>
+						<given-names>Liliana Torcoroma</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Luna</surname>
+						<given-names>Liany Johanna</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Velasco</surname>
+						<given-names>Tania Katherine</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Guerra</surname>
+						<given-names>Beatriz Elena</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1 </label>
+				<institution content-type="original"> Programa de Maestría en Investigación en Enfermedades Infecciosas, Universidad de Santander, Bucaramanga, Colombia</institution>
+				<institution content-type="normalized">Universidad de Santander</institution>
+				<institution content-type="orgname">Universidad de Santander</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Programa de Bacteriología y Laboratorio Clínico, Universidad de Santander, Bucaramanga, Colombia</institution>
+				<institution content-type="normalized">Universidad de Santander</institution>
+				<institution content-type="orgname">Universidad de Santander</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Grupo de Investigación en Biotecnología-Microbiota, Programa de Microbiología Industrial, Universidad de Santander, Bucaramanga, Colombia</institution>
+				<institution content-type="normalized">Universidad de Santander</institution>
+				<institution content-type="orgname">Universidad de Santander</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">Correspondencia: Liliana Torcoroma García, Programa de Maestría en Investigación en Enfermedades Infecciosas, Universidad de Santander, Calle 70 N° 55-210, Bucaramanga, Colombia Teléfono: (577) 651 6500, extensión 1212; fax: (577) 651 6492 <email>l.torcoroma@udes.edu.co</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Apr-Jun</season>
+				<year>2017</year>
+			</pub-date>
+			<volume>37</volume>
+			<issue>2</issue>
+			<fpage>200</fpage>
+			<lpage>208</lpage>
+			<history>
+				<date date-type="received">
+					<day>21</day>
+					<month>12</month>
+					<year>2015</year>
+				</date>
+				<date date-type="accepted">
+					<day>04</day>
+					<month>08</month>
+					<year>2016</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción.</title>
+					<p> Las candidiasis son un grupo de infecciones oportunistas causadas por levaduras del género <italic>Candida</italic>. <italic>Candida albicans</italic> es la especie de mayor prevalencia en las infecciones superficiales y profundas. Sin embargo, en la última década, la frecuencia de especies diferentes a <italic>C. albicans</italic> ha aumentado y, por ende, su relevancia clínica, lo cual exige la utilización de técnicas diagnósticas que permitan su detección y el tratamiento adecuado de los pacientes afectados.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Diseñar y optimizar una técnica de reacción en cadena de la polimerasa múltiple (PCR múltiple) considerando parámetros termodinámicos para la detección simultánea de cinco especies de <italic>Candida</italic> relevantes en la etiología de la candidiasis humana.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Para el diseño de los cebadores se consideraron restricciones físicas y termodinámicas que afectan la PCR múltiple, usando el programa Gene Runner y la herramienta Mult-PSOS. Como plantillas se utilizaron la región transcrita interna 2 (ITS2) (AJ249486.1) para <italic>C. albicans</italic> y la topoisomerasa II (TOPII) para <italic>C. parasilopsis</italic> (AB049144.1), <italic>C. krusei</italic> (AB049139.1), <italic>C. tropicalis</italic> (AB049141.1) y <italic>C. guillermondii</italic> (AB049145.1), y como moldes, extractos de ADN total obtenidos de cepas ATCC y de aislamientos clínicos de las especies de <italic>Candida</italic>.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>Se diseñaron diez cebadores para la amplificación simultánea de las especies de <italic>Candida</italic>. Se obtuvo el siguiente patrón de bandas: <italic>C. albicans</italic> (206 pb), <italic>C. guillermondii</italic> (244 pb), <italic>C. tropicalis</italic> (474 pb), <italic>C. parasilopsis</italic> (558 pb) y <italic>C. krusei</italic> (419 pb).</p>
+				</sec>
+				<sec>
+					<title>Conclusión.</title>
+					<p> El ensayo diseñado de PCR múltiple permitió la amplificación simultánea y eficiente de todos los amplicones correspondientes a las especies estudiadas de <italic>Candida</italic>, así como su adecuada resolución en gel de agarosa al 1,3 %.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Candidiases is a group of opportunistic infections caused by yeasts belonging to the genus <italic>Candida</italic>. <italic>Candida albicans</italic> is the most prevalent species in both superficial and deep infections, however, the clinical importance of non<italic>-albicans Candida</italic> has increased during the last decade, driving an urgent need for diagnostic tests that allow for species-level resolution and selection of the optimum therapeutic approach.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To design and to optimize a new multiplex PCR assay for the simultaneous identification of the five most relevant species of <italic>Candida</italic> involved in human candidiasis etiology.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p> For primers design, the physical and thermodynamic restrictions that affect multiplex PCR performance were analyzed using Gene Runner and Mult-PSOS. As templates, the internal transcribed region 2 (ITR2) was selected for <italic>C. albicans</italic> (AJ249486.1), and topoisomerase II (TOPII) for <italic>C. parasilopsis</italic> (AB049144.1)<italic>, C. krusei</italic> (AB049139.1)<italic>, C. tropicalis</italic> (AB049141.1), and <italic>C. guillermondii</italic> (AB049145.1). We used ATCC strains of all these five species and clinical isolates as templates.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> We designed ten oligonucleotides for the simultaneous amplification of the <italic>Candida</italic> species. The electrophoresis band profile was: <italic>C. albicans</italic> (206 bp), <italic>C. guillermondii</italic> (244 bp), <italic>C. tropicalis</italic> (474 bp), <italic>C. parasilopsis</italic> (558 bp), and <italic>C. krusei</italic> (419 bp).</p>
+				</sec>
+				<sec>
+					<title>Conclusion:</title>
+					<p> The new multiplex PCR assay designed in this study allowed a simultaneous and efficient amplification of the amplicons corresponding to the five species of <italic>Candida</italic> under study, with an adequate resolution in standard agarose gel.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>candidiasis/diagnóstico</kwd>
+				<kwd>reacción en cadena de la polimerasa</kwd>
+				<kwd>Candida albicans</kwd>
+				<kwd>diagnóstico molecular</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Candidiasis/diagnosis</kwd>
+				<kwd>polymerase chain reaction</kwd>
+				<kwd>Candida albicans</kwd>
+				<kwd>molecular diagnosis</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="41"/>
+				<page-count count="9"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Las candidiasis son un grupo de infecciones oportunistas comunes de gran variabilidad clínica que incluye desde manifestaciones leves a moderadas en mucosas, piel, orofaringe, cavidad oral y esófago, hasta micosis invasivas, especialmente en pacientes hospitalizados con enfermedades graves, pacientes con sida y otros con compromiso inmunológico <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. La etiología de estas infecciones se ha asociado con más de 17 especies, siendo <italic>Candida albicans</italic> la de mayor relevancia epidemiológica, pues se la relaciona con, aproximadamente, 50 % de los casos de infecciones profundas provocadas por <italic>Candida</italic> spp. <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Sin embargo, en las últimas décadas, el conglomerado de especies diferentes a <italic>C.</italic> 
+ <italic>albicans</italic> ha emergido como patógeno principal en la etiología de la candidiasis sistémica <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. </p>
+		<p>En la actualidad, el método de referencia para el diagnóstico de la candidiasis invasiva es el cultivo microbiológico de especímenes sanguíneos y de otras muestras procedentes de sitios estériles. Esta forma de diagnóstico tiene algunas desventajas, entre ellas: a) la falta de sensibilidad (alrededor del 50 %) asociada con la baja magnitud y corta duración de la candidemia <xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>; b) las demoras derivadas de una extensa fase de latencia del crecimiento en este tipo de microorganismos, lo cual puede retrasar el tratamiento oportuno y pertinente; c) la necesidad, en algunos casos, de procedimientos invasivos para tener acceso a tejidos o líquidos estériles, y d) los falsos negativos asociados al uso profiláctico o empírico de antifúngicos en pacientes con factores de riesgo de candidemia <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+		<p>En consecuencia, la búsqueda y validación de nuevos métodos diagnósticos que permitan la detección rápida y sensible de los agentes etiológicos de las candidiasis profundas a nivel de especie, continúa siendo un problema. Recientemente, han surgido herramientas diagnósticas que han demostrado mayor sensibilidad que la de los cultivos tradicionales <xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Estos métodos incluyen la cuantificación de partículas específicas provenientes de la pared celular de <italic>Candida</italic> spp., tales como el β-1,3-d-glucano, pero en estudios anteriores se evidenció su poca sensibilidad (&lt;60 %) y especificidad (&lt;50 %) para el caso de las candidiasis profundas <xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+		<p>Por otro lado, los ensayos basados en la reacción en cadena de la polimerasa (PCR) para la detección de moléculas de ADN a partir de muestras sanguíneas han registrado altos porcentajes de sensibilidad y especificidad, con límites de amplificación de secuencias génicas que rondan las 80 copias/ml (0,4 CFU/ml) <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Sin embargo, en infecciones de diversa etiología, tales como las candidiasis, es necesario recurrir a técnicas de PCR múltiple que permitan la amplificación simultánea, específica y sensible de varias secuencias blanco en reacciones únicas y rápidas <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. </p>
+		<p>En este contexto, este trabajo tuvo como objetivo diseñar un ensayo de PCR múltiple fundamentado en secuencias blanco específicas para las cinco especies del género <italic>Candida</italic> de mayor relevancia a nivel hospitalario: <italic>C. albicans</italic>, <italic>C. guillermondii</italic>, <italic>C. tropicalis</italic>, <italic>C. parasilopsis</italic> y <italic>C. krusei</italic> <xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. El diseño de las secuencias cebadoras se hizo con ayuda de programas de bioinformática de acceso libre (Gene Runner<sup>TM</sup>, http://www.generunner.net/) y algoritmos de optimización de secuencias cebadoras para ensayos de PCR múltiple (Mult-PSOS) <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Las condiciones de ensayo (concentraciones de reactivos y parámetros del ciclo) se estandarizaron para la amplificación eficiente de todas las secuencias blanco en una única reacción, garantizando una sensibilidad y una eficiencia suficientes para su interpretación mediante geles de agarosa comunes. El desempeño <italic>in vitro</italic> de las secuencias cebadoras en el ensayo múltiple se determinó usando, como molde para la reacción, el ADN extraído de las cepas de referencia (ATCC) y de aislamientos clínicos. Además, se usó ADN total extraído de muestras sanguíneas de pacientes con hemocultivos positivos para <italic>Candida</italic> spp.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Levaduras</italic></title>
+				<p>En los experimentos de microbiología convencional y molecular, se utilizaron cinco cepas ATCC del género <italic>Candida: C. albicans</italic> (HQ876043.1), <italic>C. parasilopsis</italic> (ATCC58904), <italic>C. krusei</italic> (AY126274.1), <italic>C. tropicalis (</italic>ATCC20336) y <italic>C. guillermondii</italic> (NUM4). También, se utilizaron aislamientos clínicos de levaduras provenientes de pacientes con diagnóstico de candidiasis profunda internados en hospitales regionales para los ensayos confirmatorios y de validación de la prueba. En los ensayos de especificidad, se usaron extractos de ADN total proveniente de levaduras de <italic>Saccharomyces cerevisiae</italic>, <italic>Rhodotorula rubra</italic> y <italic>C. lusitania.</italic></p>
+			</sec>
+			<sec>
+				<title><italic>Identificación de las especies de Candida con base en las características morfológicas y fisiológicas</italic></title>
+				<p>Las cepas ATCC y los aislamientos clínicos de mucosa oral se sembraron en medios de agar cromógenico CHROMagar <italic>Candida</italic>
+ <sup>®</sup> de BioMérieux (CHROMagar, Microbiology, Francia). Los cultivos se incubaron a temperatura ambiente durante 48 horas y se hizo una identificación presuntiva de las especies de <italic>Candida</italic> mediante observación macroscópica de la coloración de la colonia en el medio. Para las pruebas de identificación, se sembraron colonias aisladas en agar de dextrosa Sabouraud con suplemento de antibióticos e incubadas a temperatura ambiente durante 24 horas. La identificación mediante ensayos fisiológicos se hizo con la prueba de tubo germinal. Para ello, se inocularon colonias individuales en 0,5 ml de suero humano, se incubaron a 37 °C durante dos a cuatro horas, y se observaron entre lámina y laminilla con microscopio óptico a 40X y 100X.</p>
+			</sec>
+			<sec>
+				<title><italic>Detección de las especies de Candida mediante PCR múltiple</italic></title>
+				<p>Para el diseño por simulación computacional de los cebadores y de los experimentos de PCR múltiple, se escogieron secuencias consignadas en el GenBank<sup>TM</sup> (http://www.ncbi.nlm.nih.gov/genbank). Para <italic>C. albicans</italic>, se seleccionó la región transcrita interna 2 (ITS2) (AJ249486.1) y la secuencia génica de la topoisomerasa II (TOPII) para <italic>C. parasilopsis</italic> (AB049144.1), <italic>C. krusei</italic> (AB049139.1), <italic>C. tropicalis</italic> (AB049141.1) y <italic>C. guillermondii</italic> (AB049145.1). </p>
+				<p>Con el fin de optimizar el diseño de las diez secuencias cebadoras (un par específico para cada especie de <italic>Candida</italic>), se consideraron parámetros relevantes descritos anteriormente <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref> para experimentos de PCR múltiple, tales como: a) un tamaño del cebador de 18 a 26 pb, con una diferencia máxima de 6 pb entre cebadores; b) un porcentaje de citosina-guanina de 40 a 60 %; c) una temperatura de fusión de 45 a 65 °C, con una diferencia máxima de 6 °C entre cebadores; d) ausencia de repeticiones de bases en más de cuatro bases seguidas; e) presencia de G, C, GC o CG en la extremidad 3´; f) ausencia de estructuras intermoleculares o intramoleculares con G relevantes (ΔG≥-6 kcal/mol) <xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>; g) una secuencia blanco con un grado de variación suficientemente significativo para la identificación específica del organismo y, en lo posible, con múltiples copias en el genoma, y h) una diferencia mínima de 50 pb entre amplicones que permita la resolución de las bandas en geles de agarosa comunes. </p>
+				<p>Para ello, se evaluó el ajuste de los parámetros de restricción del diseño de las secuencias cebadoras mediante la aplicación del algoritmo Multi-PSOS, desarrollado recientemente en nuestro grupo para ensayos de PCR múltiple (Mult-PSOS) <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. El cumplimiento de los parámetros de ajuste se verificó mediante el programa Gene Runner<sup>TM</sup> (http://www.generunner.net/). </p>
+			</sec>
+			<sec>
+				<title><italic>Extracción del ADN genómico</italic></title>
+				<p>Para la obtención de las muestras de ADN total, se utilizaron cultivos líquidos de levaduras (ATCC y aislamientos clínicos) en fase logarítmica (DO<sub>600</sub>) sembrados en caldo Luria Bertani (BioMérieux), los cuales se procesaron con el estuche comercial QIAamp ADN Mini Kit<sup>®</sup> (Qiagen), siguiendo las instrucciones del fabricante, con las siguientes modificaciones: la degradación de la pared celular fúngica se hizo mediante procedimientos repetitivos (siete veces) de choque térmico en nitrógeno líquido durante 30 segundos, seguidos de incubación a 42 °C durante dos minutos. </p>
+				<p>El ADN obtenido se almacenó a -20 °C hasta su uso como molde en los ensayos de amplificación por PCR. Para la extracción del ADN total a partir de muestras de sangre total anticoagulada con EDTA, se usó el estuche QIAamp DNA Blood Mini Kit<sup>®</sup> (Qiagen) según las recomendaciones del fabricante. El ADN se cuantificó usando un espectrofotómetro NanoDrop ND-1000 UV-Vis (ThermoScientific) y se analizó con el programa NanoDrop 2000/2000c (ThermoScientific). Todas las muestras sanguíneas se procesaron antes de cumplirse los seis meses de su recolección.</p>
+			</sec>
+			<sec>
+				<title><italic>Ensayos de PCR múltiple</italic></title>
+				<p>Para las reacciones de PCR múltiple, se preparó una mezcla que contenía 4 µl de ADN molde (50-200 ng ADN), 0,4 a 0,6 mM de cada cebador, 1,5 U de GoTaq Flexi ADN polimerasa (Promega), y 1,5 mM de cloruro de magnesio para un volumen final de 50 µl. </p>
+				<p>Las reacciones cíclicas de PCR se programaron en el termociclador (Labnet International, Inc. Multigene) con las siguientes condiciones: un ciclo de cinco minutos a 94 °C, seguido de 30 ciclos a 94 °C durante un minuto, a 53 °C durante 50 segundos y a 72 °C durante 80 segundos; por último, hubo una fase posterior a la amplificación a 72 °C durante siete minutos. </p>
+				<p>La calidad y el tamaño de los amplicones se verificaron mediante electroforesis de agarosa al 1,3 %, y se revelaron con SYBR Gold Nucleic Acid Gel Stain (Molecular Probe, Invitrogen Life Technologies). Se usaron los marcadores de peso molecular de 1 kb y 100 pb (DNA Ladder,Thermo Scientific). La especificidad de la secuencia de los cebadores se verificó mediante simulación computacional comparando las secuencias con bases de datos genómicos de humanos, bacterias, hongos y protozoos con la herramienta Blast (http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&amp;BLAST_SPEC=WGS&amp;BLAST_PROGRAMS=megaBlast&amp; PAGE_TYPE=BlastSearch).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Extracción del ADN</italic></title>
+				<p>Los métodos de extracción propuestos permitieron la obtención de muestras de ADN total de buena calidad, cuya pureza se verificó mediante electroforesis de agarosa. En los análisis cuantitativos realizados mediante el programa del espectrofotómetro Nano Drop 2000/2000c (ThermoScientific), se verificó que las muestras de ADN extraído a partir de colonias puras tenían concentraciones variables entre 70 y 800 ng/µl, siendo <italic>C. albicans</italic> la levadura con mayor rendimiento en todos los procesos de extracción y <italic>C. parasilopsis</italic>, la especie con menor rendimiento. En el caso de los extractos de ADN total a partir de muestras sanguíneas humanas, se obtuvieron rendimientos superiores, los cuales oscilaron entre 300 y 850 ng/µl.</p>
+			</sec>
+			<sec>
+				<title><italic>Diseño de los oligonucleótidos iniciadores</italic></title>
+				<p>En los <xref ref-type="table" rid="t1">cuadros 1</xref> y <xref ref-type="table" rid="t2">2</xref> se presentan las secuencias cebadoras diseñadas en este estudio para los ensayos de PCR múltiple, y el resumen de algunos de los parámetros fisicoquímicos y estructurales obtenidos en el análisis de estos oligonucleótidos mediante el programa Gene Runner 3.01<sup>®</sup> (http://www.generunner.net/). Se han determinado parámetros similares con esta misma herramienta computacional usando secuencias cebadoras previamente descritas en ensayos de PCR para la identificación de especies de <italic>Candida</italic> <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Estos resultados se incluyeron en el <xref ref-type="table" rid="t1">cuadro 1</xref> con fines de comparación.</p>
+				<p>
+					<table-wrap id="t1">
+						<label><bold>Cuadro 1.</bold>Comparación</label>
+						<caption>
+							<title>de los parámetros físicos y estructurales de las secuencias cebadoras de la PCR múltiple con los de otros estudios reportados</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-02-00200-gt1.gif"/>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>Tm: temperatura de fusión calculada con 250 mM de NaCl; F: cebador sentido; R: cebador antisentido; <italic>C.a</italic>: <italic>C. albicans</italic>; <italic>C.p</italic>: <italic>C. parasilopsis</italic>; <italic>C.k</italic>:</p>
+							</fn>
+							<fn id="TFN2">
+								<p><italic>C. krusei</italic>; <italic>C.g</italic>: <italic>C. guillermondii</italic>; <italic>C.t</italic>: <italic>C. tropicalis</italic>; UNI1: Universal 1; UNI2: Universal 2; C.gl<italic>: C. glabata</italic>; <italic>C.l</italic>: <italic>C. lusitaniae</italic>; <italic>C.d</italic>: <italic>C. dubliniensis</italic>; ITS1:espaciador interno transcrito <italic>(Internal transcribed spacer)</italic> 1; ITS2<italic>:</italic> espaciador interno transcrito (<italic>Internal transcribed spacer</italic>) 2; <italic>C.pel</italic>: <italic>C. peliculosa</italic></p>
+							</fn>
+							<fn id="TFN3">
+								<p>* Acoplado con el cebador sentido: UNI1; ** Acoplado con el cebador sentido: UNI2</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Características microscópicas de las especies de <italic>Candida</italic> a partir del cultivo</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-02-00200-gt2.gif"/>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Especificidad y sensibilidad de los cebadores diseñados por bioinformática para la ITS 2 y la topoisomerasa II</italic></title>
+				<p>Para determinar la especificidad y la sensibilidad de los cebadores durante las reacciones de amplificación, se hicieron montajes de PCR usando como molde diversas concentraciones de ADN total (entre 50 y 100 ng) provenientes de las cepas ATCC y de aislamientos clínicos de mucosas de <italic>C. albicans</italic>, <italic>C. parasilopsis</italic>, <italic>C. tropicalis</italic>, <italic>C. guillermondii</italic> y <italic>C. krusei</italic>. </p>
+				<p>Por otro lado, se obtuvieron extractos de ADN total a partir de muestras sanguíneas de pacientes con hemocultivos positivos para <italic>Candida</italic> spp., los cuales se usaron como molde para la prueba molecular, con el objetivo de determinar su aplicabilidad en muestras biológicas. Se probaron diez muestras, de las cuales seis fueron positivas para <italic>C. albicans</italic>, dos para <italic>C. tropicalis</italic>, una para <italic>C. parasilopsis</italic> y una para <italic>C. krusei</italic>. La <xref ref-type="fig" rid="f1">figura 1</xref> muestra el perfil electroforético en gel de agarosa al 1,3 % de los amplicones obtenidos en las reacciones de la PCR múltiple. </p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Electroforesis en gel de agarosa al 1,3 % de los productos de la PCR múltiple para la identificación de <italic>Candida</italic> spp. Marcador de peso Gene Ruler 1 kb DNA Ladder (Invitrogen)</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-02-00200-gf1.gif"/>
+					</fig>
+				</p>
+				<p>Los resultados de Blastn (http://blast.ncbi.nlm.nih. gov/Blast.cgi?PROGRAM=blastn&amp;BLAST_SPEC= WGS&amp;BLAST_PROGRAMS=megaBlast&amp;PAGE _TYPE=BlastSearch) evidenciaron que no había regiones significativas de homología cruzada en las secuencias de oligonucleótidos diseñadas para este estudio. La especificidad del ensayo de la PCR múltiple propuesto también se confirmó <italic>in vitro</italic> mediante el montaje de reacciones con las mismas condiciones descritas anteriormente, pero usando como molde extractos de ADN total provenientes de levaduras de <italic>S. cerevisiae</italic>, <italic>R. rubra</italic>, <italic>C. lusitaniae</italic>. Los resultados de estas reacciones no evidenciaron la presencia de ninguna banda de amplificación en el análisis electroforético.</p>
+			</sec>
+			<sec>
+				<title><italic>Correlación de la detección microbiológica convencional y la molecular</italic></title>
+				<p>En la correlación de los resultados obtenidos mediante la detección fenotípica y la molecular, se evidenció la formación del tubo germinal con formación rápida de filamentos (dos horas) en levaduras de <italic>C. albicans</italic>, y con formación lenta de filamentos (cuatro horas) en las especies <italic>C. krusei</italic> y <italic>C. tropicalis</italic>. Las características morfológicas coincidieron con los resultados moleculares, ya que no se observó formación de artroconidias en ninguna de las especies ensayadas. Otras estructuras fúngicas, como hifas, pseudohifas y clamidioconidias, se observaron únicamente en <italic>C. albicans</italic> (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En los últimos años, la incidencia de la candidiasis invasiva se ha incrementado ostensiblemente; por ejemplo, en los hospitales de Estados Unidos constituye la cuarta causa de infección del torrente circulatorio <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, con tasas de mortalidad que superan el 40 % <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Sin embargo, a pesar de su importancia epidemiológica y clínica, el diagnóstico de la candidiasis profunda es difícil, frecuentemente tardío, y se basa principalmente en la historia clínica, en biopsias y en cultivos micológicos <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>Debido al aumento de las candidiasis invasivas asociadas a cepas diferentes a <italic>C. albicans</italic>, la tipificación de la etiología de este tipo de infecciones a nivel de especie tiene mayor relevancia, especialmente por el comportamiento diferenciado de los distintos tipos de <italic>Candida</italic> en cuanto a su perfil de resistencia a los antifúngicos, así como por la potencial virulencia del microorganismo, y las características clínicas y de pronóstico de la infección <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Es el caso de la sensibilidad diferenciada frente al fluconazol, con especies muy resistentes (casi de 100 % en <italic>C. krusei</italic>, y de 50 % en <italic>C. guillermondii</italic> y <italic>C. glabrata</italic>), y otras muy sensibles, como <italic>C. parasilopsis</italic>, <italic>C. albicans</italic> y <italic>C. tropicalis,</italic> que presentan porcentajes mínimos de resistencia <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Asimismo, se ha descrito la disminución de la sensibilidad a las equinocandinas y a la anfotericina B en cepas de <italic>C. parapsilosis</italic> <xref ref-type="bibr" rid="B26"><sup>26</sup></xref> y C. <italic>krusei</italic><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>, respectivamente.</p>
+			<p>Por otro lado, se han atribuido características clínicas específicas a las infecciones causadas por determinadas especies de <italic>Candida</italic>: <italic>C. parasilopsis</italic> se ha asociado principalmente con infecciones en neonatos, y con infecciones relacionadas con implantes y soluciones contaminadas; <italic>C. tropicalis</italic> se ha relacionado con infecciones profundas en personas inmunosuprimidas; <italic>C</italic>. <italic>albicans</italic>, especie de mayor ubicuidad, se ha asociado con infecciones mucocutáneas, pielonefritis, peritonitis, infecciones hematógenas, candidemia, meningitis e infecciones hepatoesplénicas; <italic>C. krusei</italic> se ha relacionado con candidemia, endoftalmitis y diarrea en neonatos, y <italic>C. guillermondii,</italic> con candidiasis sistémica y endocarditis en adictos a drogas intravenosas <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. Además, se ha reportado que en los pacientes con cáncer, aquellos que sufren de leucemia presentan una mayor propensión a infecciones causadas por <italic>C. albicans</italic> o <italic>C. tropicalis</italic> <xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. Asimismo, las personas con trasplante de médula ósea son más propensos a infecciones por <italic>C. krusei</italic><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>En este mismo sentido vale la pena mencionar que, aunque la evolución de las infecciones profundas por <italic>Candida</italic> guarda relación directa con ciertas condiciones del paciente (edad avanzada, enfermedades graves de base y tratamientos prolongados con antibióticos, entre otras), la mortalidad que se les atribuye varía según la especie <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Así, las candidemias causadas por especies resistentes a triazoles (<italic>C. krusei</italic> o <italic>C. glabrata</italic>) tienen un peor pronóstico que aquellas originadas por especies sensibles <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>, entre las cuales se ha reportado que <italic>C. parasilopsis</italic> causa las infecciones con la evolución clínica más favorable <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+			<p>Como puede verse, la caracterización de las especies implicadas en un episodio de candidiasis profunda puede ser determinante para el éxito de las intervenciones terapéuticas y el seguimiento oportuno de un paciente. Las pruebas de laboratorio rutinarias para la detección de especies de <italic>Candida</italic> se basan actualmente en técnicas microbiológicas para la producción del tubo germinal, tamización mediante medios cromogénicos, como el CHRO Magar <italic>Candida</italic>
+ <sup>®</sup> (Biomerieaux), y pruebas bioquímicas. </p>
+			<p>Sin embargo, estos ensayos muestran desventajas, entre ellas, las siguientes: a) la poca sensibilidad en aislamientos primarios <xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, ya que frecuentemente la positividad de los cultivos de secreciones o tejidos estériles se hace aparente únicamente en la fase tardía de la infección <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>; b) la limitada especificidad ligada al alto riesgo de contaminación <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>; c) la gran variabilidad de los morfotipos, lo cual puede producir resultados falsos en los ensayos de asimilación de los sustratos cromogénicos y en las pruebas de tubo germinal (5 a 10 % de las cepas de <italic>C. albicans</italic> no producen tubo germinal y, también, es probable encontrar falsos positivos en <italic>C. tropicalis</italic> y <italic>C. parasilopsis</italic>) <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>, y d) la necesidad de periodos de casi 72 horas para el completo crecimiento e identificación de los microorganismos.</p>
+			<p>En la práctica clínica, todas estas dificultades para el diagnóstico imponen el tratamiento empírico de las candidiasis profundas, a pesar de su alto costo y su significativa toxicidad <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>, con las consecuentes fallas asociadas al retraso en el inicio de un tratamiento antifúngico adecuado, las cuales se traducen en el aumento de la mortalidad hospitalaria en pacientes con candidiasis (40 a 78 %) (38), incluso, cuando se emplean los nuevos medicamentos antifúngicos.</p>
+			<p>En este contexto, el diagnóstico de la candidiasis profunda sigue siendo un problema <xref ref-type="bibr" rid="B24"><sup>24</sup></xref> que exige la adopción de nuevos métodos diagnósticos de mayor sensibilidad y especificidad para la oportuna detección de las especies de <italic>Candida</italic> implicadas en este tipo de infecciones. En este sentido, las técnicas moleculares, en especial la PCR y sus diversas variantes, han revolucionado, sin duda alguna, el diagnóstico y el manejo clínico de las infecciones fúngicas, ofreciendo una plataforma ideal para el desarrollo de herramientas de caracterización a nivel de especie de agentes infecciosos de interés clínico. Debido a sus indudables ventajas, como su facilidad de empleo, mayor rapidez, menor riesgo de contaminación y gran especificidad y sensibilidad, en las últimas décadas la PCR ha pasado a sustituir las técnicas microbiológicas tradicionales y hoy constituye la prueba de referencia para la detección de las especies causantes de un amplio número de enfermedades infecciosas <xref ref-type="bibr" rid="B39"><sup>39</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B41"><sup>41</sup></xref>.</p>
+			<p>En este estudio se describió una nueva PCR múltiple para la detección rápida, específica y sensible de las especies de <italic>Candida</italic> causantes de infecciones de importancia hospitalaria. Para ello, se diseñaron cebadores específicos que amplifican las secuencias ITS2 y topoisomerasa II de las especies <italic>C. krusei</italic>, <italic>C. albicans</italic>, <italic>C. tropicalis</italic>, <italic>C. parasilopsis</italic> y <italic>C. guillermondii</italic>. Las secuencias de los oligonucleótidos utilizados se optimizaron para garantizar la sensibilidad y la especificidad con base en todos los parámetros de diseño termodinámicos y de resolución descritos por García, <italic>et al.</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, y por Allawi, <italic>et al.</italic><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>, mediante la evaluación de las secuencias diseñadas con el algoritmo computacional Mult-PSOS <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Los análisis comparativos por simulación computacional de los parámetros físicos y estructurales de las secuencias de la PCR múltiple en este estudio se compararon con las secuencias reportadas con otros métodos <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Como queda evidenciado en el <xref ref-type="table" rid="t1">cuadro 1</xref>, los resultados predijeron una mayor eficiencia de nuestro ensayo, pues las secuencias diseñadas presentaron: a) una menor formación de estructuras secundarias (dímeros, bucles internos, bucles en horquilla y bucles en bulto), las cuales afectan negativamente la sensibilidad de la corrida; b) un mejor ajuste de las temperaturas de fusión (en su mayoría superiores a los 50 °C y con menores diferencias entre el conjunto de cebadores) y del porcentaje de GC (entre 40 y 60 %), y c) una diferencia entre el tamaño de amplicones que permitió su diferenciación en geles comunes de agarosa (cercana a las 50 pb).</p>
+			<p>Por otra parte, los ensayos <italic>in vitro</italic> corroboraron que el método molecular propuesto permitió la detección con gran sensibilidad (12,5 ng/µL de ADN, menos de una célula/ml) y especificidad de las cinco especies estudiadas de <italic>Candida</italic>. Sin embargo, dado que los métodos moleculares, así como la detección de partículas provenientes de la pared (por ejemplo, la determinación del β-D glucano), no permiten la distinción de las infecciones activas de aquellas de reciente resolución, es necesario utilizar estos métodos como ensayos complementarios del diagnóstico microbiológico tradicional, ya que incrementan la sensibilidad de los cultivos casi en un 100 % en los casos de micosis invasivas <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Esto es muy significativo si se tiene en cuenta la poca sensibilidad reportada para el hemocultivo (20 a 50 %) en pacientes con infección confirmada en órganos profundos o por necropsia <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, en tanto que, en los mismos casos, los ensayos de PCR han evidenciado rangos de sensibilidad muy superiores (de 73 a 95 %) <xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			<p>Por último, es importante señalar que, dado que el desempeño de la PCR múltiple se ve sensiblemente afectado por los parámetros de diseño de la prueba -principalmente los relacionados con el comportamiento termodinámico de las secuencias cebadoras y con la selección adecuada de las secuencias blanco para garantizar una correcta resolución-, es necesario hacer estudios comparativos con muestras clínicas mediante las pruebas de PCR múltiple reportadas en los diversos estudios. Ello permitiría evaluar el desempeño de los diferentes métodos descritos para determinar su validez y aplicabilidad rutinaria en el diagnóstico oportuno de infecciones profundas ocasionadas por especies de <italic>Candida</italic>.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Al Laboratorio de Investigaciones Biomédicas y Biotecnológicas de la Universidad de Santander, por el préstamo de sus instalaciones para la realización de los ensayos y pruebas moleculares.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Bassetti M, Taramasso L, Nicco E, Molinari MP, Mussap M, Viscoli C, <italic>et al</italic>. Epidemiology, species distribution, antifungal susceptibility and outcome of nosocomial candidemia in a tertiary care hospital in Italy. PLoS One. 2011;6:e24198. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0024198">http://dx.doi.org/10.1371/journal.pone.0024198</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bassetti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Taramasso</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Nicco</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Molinari</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Mussap</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Viscoli</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology, species distribution, antifungal susceptibility and outcome of nosocomial candidemia in a tertiary care hospital in Italy</article-title>
+					<source>PLoS One</source>
+					<year>2011</year>
+					<volume>6</volume>
+					<elocation-id>e24198</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0024198">http://dx.doi.org/10.1371/journal.pone.0024198</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Cassone A, Cauda R. <italic>Candida</italic> and candidiasis in HIV-infected patients: Where commensalism, opportunistic behavior and frank pathogenicity lose their borders. AIDS. 2012;26:1457-72. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/QAD.0b013e3283536ba8">http://dx.doi.org/10.1097/QAD.0b013e3283536ba8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cassone</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cauda</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Candida and candidiasis in HIV-infected patients: Where commensalism, opportunistic behavior and frank pathogenicity lose their borders</article-title>
+					<source>AIDS</source>
+					<year>2012</year>
+					<volume>26</volume>
+					<fpage>1457</fpage>
+					<lpage>1472</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/QAD.0b013e3283536ba8">http://dx.doi.org/10.1097/QAD.0b013e3283536ba8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Pfaller M, Neofytos D, Diekema D, Azie N, Meier-Kriesche HU, Quan SP, <italic>et al</italic>. Epidemiology and outcomes of candidemia in 3648 patients: Data from the Prospective Antifungal Therapy (PATH Alliance®) Registry, 2004-2008. Diagn Microbiol Infect Dis. 2012;74:323-31. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.diagmicrobio.2012.10.003">http://dx.doi.org/10.1016/j.diagmicrobio.2012.10.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pfaller</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Neofytos</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Diekema</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Azie</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Meier-Kriesche</surname>
+							<given-names>HU</given-names>
+						</name>
+						<name>
+							<surname>Quan</surname>
+							<given-names>SP</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology and outcomes of candidemia in 3648 patients: Data from the Prospective Antifungal Therapy (PATH Alliance®) Registry, 2004-2008</article-title>
+					<source>Diagn Microbiol Infect Dis</source>
+					<year>2012</year>
+					<volume>74</volume>
+					<fpage>323</fpage>
+					<lpage>331</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.diagmicrobio.2012.10.003">http://dx.doi.org/10.1016/j.diagmicrobio.2012.10.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Pfaller MA, Andes DR, Diekema DJ, Horn DL, Reboli AC, Rotstein C, <italic>et al</italic>. Epidemiology and outcomes of invasive candidiasis due to non-<italic>albicans</italic> species of <italic>Candida</italic> in 2,496 patients: Data from the Prospective Antifungal Therapy (PATH) Registry 2004-2008. PLoSOne. 2014;9:e101510. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0101510">http://dx.doi.org/10.1371/journal.pone.0101510</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pfaller</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Andes</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Diekema</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Horn</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Reboli</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Rotstein</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology and outcomes of invasive candidiasis due to non-albicans species of Candida in 2,496 patients: Data from the Prospective Antifungal Therapy (PATH) Registry 2004-2008</article-title>
+					<source>PLoSOne</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<elocation-id>e101510</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0101510">http://dx.doi.org/10.1371/journal.pone.0101510</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Pappas PG. Invasive candidiasis. Infect Dis Clin North America. 2006;20:485-506. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.idc.2006.07.004">http://dx.doi.org/10.1016/j.idc.2006.07.004</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pappas</surname>
+							<given-names>PG</given-names>
+						</name>
+					</person-group>
+					<article-title>Invasive candidiasis</article-title>
+					<source>Infect Dis Clin North America</source>
+					<year>2006</year>
+					<volume>20</volume>
+					<fpage>485</fpage>
+					<lpage>506</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.idc.2006.07.004">http://dx.doi.org/10.1016/j.idc.2006.07.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Horn DL, Neofytos D, Anaissie EJ, Fishman JA, Steinbach WJ, Olyaei AJ, <italic>et al</italic>. Epidemiology and out-comes of candidemia in 2019 patients: Data from the Prospective Antifungal Therapy Alliance Registry. Clin Infect Dis. 2009;48:1695-703. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/599039">http://dx.doi.org/10.1086/599039</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Horn</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Neofytos</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Anaissie</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Fishman</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Steinbach</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Olyaei</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology and out-comes of candidemia in 2019 patients: Data from the Prospective Antifungal Therapy Alliance Registry</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2009</year>
+					<volume>48</volume>
+					<fpage>1695</fpage>
+					<lpage>1703</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/599039">http://dx.doi.org/10.1086/599039</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Nucci M, Queiroz-Telles F, Alvarado-Matute T, Tiraboschi IN, Cortés J, Zurita J, <italic>et al</italic>. Epidemiology of candidemia in Latin America: A laboratory-based survey. PLoS One. 2013;8:e59373. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0059373">http://dx.doi.org/10.1371/journal.pone.0059373</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nucci</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Queiroz-Telles</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Alvarado-Matute</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tiraboschi</surname>
+							<given-names>IN</given-names>
+						</name>
+						<name>
+							<surname>Cortés</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zurita</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology of candidemia in Latin America: A laboratory-based survey</article-title>
+					<source>PLoS One</source>
+					<year>2013</year>
+					<volume>8</volume>
+					<elocation-id>e59373</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0059373">http://dx.doi.org/10.1371/journal.pone.0059373</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Berenguer JM, Buck F, Witebsky F, Stock PA, Pizzo, Walsh TJ. Lysis-centrifugation blood cultures in the detection of tissue-proven invasive candidiasis. Diagn Microbiol Infect Dis. 1993;17:103-9. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0732-8893(93)90020-8">http://dx.doi.org/10.1016/0732-8893(93)90020-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Berenguer JM</surname>
+							<given-names>Buck F</given-names>
+						</name>
+						<name>
+							<surname>Witebsky F</surname>
+							<given-names>Stock PA</given-names>
+						</name>
+						<name>
+							<surname>Pizzo</surname>
+							<given-names>Walsh TJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Lysis-centrifugation blood cultures in the detection of tissue-proven invasive candidiasis</article-title>
+					<source>Diagn Microbiol Infect Dis</source>
+					<year>1993</year>
+					<volume>17</volume>
+					<fpage>103</fpage>
+					<lpage>109</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0732-8893(93)90020-8">http://dx.doi.org/10.1016/0732-8893(93)90020-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Groll AH, Shah PM, Mentzel C, Schneider M, Just-Nuebling G, Huebner K, <italic>et al</italic>. Trends in the post-mortem epidemiology of invasive fungal infections at a university hospital. J Infect. 1996;33:23-32. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0163-4453(96)92700-0">http://dx.doi.org/10.1016/S0163-4453(96)92700-0</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Groll</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Shah</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Mentzel</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Schneider</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Just-Nuebling</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Huebner</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Trends in the post-mortem epidemiology of invasive fungal infections at a university hospital</article-title>
+					<source>J Infect</source>
+					<year>1996</year>
+					<volume>33</volume>
+					<fpage>23</fpage>
+					<lpage>32</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0163-4453(96)92700-0">http://dx.doi.org/10.1016/S0163-4453(96)92700-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Fuller DD, Davis TE, Denys GA, York MK. Evaluation of BACTEC MYCO/F Lytic medium for recovery of mycobacteria, fungi, and bacteria from blood. J Clin Microbiol. 2001;39:2933-6. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.39.8.2933-2936.2001">http://dx.doi.org/10.1128/JCM.39.8.2933-2936.2001</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fuller</surname>
+							<given-names>DD</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>TE</given-names>
+						</name>
+						<name>
+							<surname>Denys</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>York</surname>
+							<given-names>MK</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of BACTEC MYCO/F Lytic medium for recovery of mycobacteria, fungi, and bacteria from blood</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2001</year>
+					<volume>39</volume>
+					<fpage>2933</fpage>
+					<lpage>2936</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.39.8.2933-2936.2001">http://dx.doi.org/10.1128/JCM.39.8.2933-2936.2001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Kami M, Machida U, Okuzumi K, Matsumura T, Mori SI, Hori A, <italic>et al</italic>. Effect of fluconazole prophylaxis on fungal blood cultures: An autopsy-based study involving 720 patients with haematological malignancy. Br J Haematol. 2002;117: 40-6. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1365-2141.2002.03414.x">http://dx.doi.org/10.1046/j.1365-2141.2002.03414.x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kami</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Machida</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Okuzumi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Matsumura</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mori</surname>
+							<given-names>SI</given-names>
+						</name>
+						<name>
+							<surname>Hori</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Effect of fluconazole prophylaxis on fungal blood cultures: An autopsy-based study involving 720 patients with haematological malignancy</article-title>
+					<source>Br J Haematol</source>
+					<year>2002</year>
+					<volume>117</volume>
+					<fpage>40</fpage>
+					<lpage>46</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1365-2141.2002.03414.x">http://dx.doi.org/10.1046/j.1365-2141.2002.03414.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Alam FF, Mustafa AS, Khan ZU. Comparative evaluation of (1, 3)-β-D-glucan, mannan and anti-mannan antibodies, and <italic>Candida</italic> species-specific snPCR in patients with candidemia. BMC Infect Dis. 2007;7:103. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-7-103">http://dx.doi.org/10.1186/1471-2334-7-103</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alam</surname>
+							<given-names>FF</given-names>
+						</name>
+						<name>
+							<surname>Mustafa</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>ZU</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparative evaluation of (1, 3)-β-D-glucan, mannan and anti-mannan antibodies, and Candida species-specific snPCR in patients with candidemia</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2007</year>
+					<volume>7</volume>
+					<fpage>103</fpage>
+					<lpage>103</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-7-103">http://dx.doi.org/10.1186/1471-2334-7-103</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Avni T, Leibovici L, Paul M. PCR diagnosis of invasive candidiasis: Systematic review and meta-analysis. J Clin Microbiol. 2011;49:665-70. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.01602-10">http://dx.doi.org/10.1128/JCM.01602-10</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Avni</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Leibovici</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Paul</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>PCR diagnosis of invasive candidiasis: Systematic review and meta-analysis</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2011</year>
+					<volume>49</volume>
+					<fpage>665</fpage>
+					<lpage>670</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.01602-10">http://dx.doi.org/10.1128/JCM.01602-10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Nguyen MH, Wissel MC, Shields RK, Salomoni MA, Hao B, Press EG, <italic>et al</italic>. Performance of <italic>Candida</italic> real-time polymerase chain reaction, β-D-glucan assay, and blood cultures in the diagnosis of invasive candidiasis. Clin Infect Dis. 2012;54:1240-8. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/cis200">http://dx.doi.org/10.1093/cid/cis200</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Wissel</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Shields</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Salomoni</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Hao</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Press</surname>
+							<given-names>EG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Performance of Candida real-time polymerase chain reaction, β-D-glucan assay, and blood cultures in the diagnosis of invasive candidiasis</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2012</year>
+					<volume>54</volume>
+					<fpage>1240</fpage>
+					<lpage>1248</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/cid/cis200">http://dx.doi.org/10.1093/cid/cis200</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Chamberlain JS, Gibbs RA, Rainer JE, Nguyen PN, Thomas C. Deletion screening of the Duchenne muscular dystrophy locus via multiplex DNA amplification. Nucleic Acids Res. 1988;16:11141-56. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/16.23.11141">http://dx.doi.org/10.1093/nar/16.23.11141</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chamberlain</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Gibbs</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Rainer</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>PN</given-names>
+						</name>
+						<name>
+							<surname>Thomas</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Deletion screening of the Duchenne muscular dystrophy locus via multiplex DNA amplification</article-title>
+					<source>Nucleic Acids Res</source>
+					<year>1988</year>
+					<volume>16</volume>
+					<fpage>11141</fpage>
+					<lpage>11156</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/16.23.11141">http://dx.doi.org/10.1093/nar/16.23.11141</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. García LT, Cristancho LM, Vera EP, Begambre O. A new multiplex-PCR for urinary tract pathogens detection using primer design based on an evolutionary computation method. J Microbiol Biotechnol. 2015;25:1714-27. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4014/jmb.1406.06079">http://dx.doi.org/10.4014/jmb.1406.06079</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García</surname>
+							<given-names>LT</given-names>
+						</name>
+						<name>
+							<surname>Cristancho</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Vera</surname>
+							<given-names>EP</given-names>
+						</name>
+						<name>
+							<surname>Begambre</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>A new multiplex-PCR for urinary tract pathogens detection using primer design based on an evolutionary computation method</article-title>
+					<source>J Microbiol Biotechnol</source>
+					<year>2015</year>
+					<volume>25</volume>
+					<fpage>1714</fpage>
+					<lpage>1727</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4014/jmb.1406.06079">http://dx.doi.org/10.4014/jmb.1406.06079</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Allawi HT, Santa Lucia J Jr. Thermodynamics and NMR of internal G.T mismatches in ADN. Biochemistry. 1997;36:10581-94. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/bi962590c">http://dx.doi.org/10.1021/bi962590c</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Allawi</surname>
+							<given-names>HT</given-names>
+						</name>
+						<name>
+							<surname>Santa Lucia</surname>
+							<given-names>J</given-names>
+							<suffix>Jr</suffix>
+						</name>
+					</person-group>
+					<article-title>Thermodynamics and NMR of internal G.T mismatches in ADN</article-title>
+					<source>Biochemistry</source>
+					<year>1997</year>
+					<volume>36</volume>
+					<fpage>10581</fpage>
+					<lpage>10594</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/bi962590c">http://dx.doi.org/10.1021/bi962590c</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Dieffenbach CW, Dveksler GS. PCR primer: A laboratory manual. Second edition. Cold Spring Harbor: Laboratory Press; 1994. p. 61-74.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dieffenbach</surname>
+							<given-names>CW</given-names>
+						</name>
+						<name>
+							<surname>Dveksler</surname>
+							<given-names>GS</given-names>
+						</name>
+					</person-group>
+					<source>PCR primer: A laboratory manual</source>
+					<edition>Second edition</edition>
+					<publisher-name>Cold Spring Harbor: Laboratory Press</publisher-name>
+					<year>1994</year>
+					<fpage>61</fpage>
+					<lpage>74</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Trost A, Graf B, Eucker J, Sezer O, Possinger K, Göbel UB, <italic>et al</italic>. Identification of clinically relevant yeasts by PCR/RFLP. J Microbiol Methods. 2004;56:201-11. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.mimet.2003.10.007">http://dx.doi.org/10.1016/j.mimet.2003.10.007</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Trost</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Graf</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Eucker</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sezer</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Possinger</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Göbel</surname>
+							<given-names>UB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identification of clinically relevant yeasts by PCR/RFLP</article-title>
+					<source>J Microbiol Methods</source>
+					<year>2004</year>
+					<volume>56</volume>
+					<fpage>201</fpage>
+					<lpage>211</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.mimet.2003.10.007">http://dx.doi.org/10.1016/j.mimet.2003.10.007</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Carvalho A, Costa-De-Oliveira S, Martins ML, Pina-Vaz C, Rodrigues AG, Ludovico P, <italic>et al</italic>. Multiplex PCR identification of eight clinically relevant <italic>Candida</italic> species. Med Mycol. 2007;45:619-27. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/13693780701501787">http://dx.doi.org/10.1080/13693780701501787</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Costa-De-Oliveira</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Pina-Vaz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Ludovico</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Multiplex PCR identification of eight clinically relevant Candida species</article-title>
+					<source>Med Mycol</source>
+					<year>2007</year>
+					<volume>45</volume>
+					<fpage>619</fpage>
+					<lpage>627</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/13693780701501787">http://dx.doi.org/10.1080/13693780701501787</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Luo G, Mitchell TG. Rapid identification of pathogenic fungi directly from cultures by using multiplex PCR. J Clin Microbiol. 2002;40:2860-5. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.40.8.2860-2865.2002">http://dx.doi.org/10.1128/JCM.40.8.2860-2865.2002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Luo</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mitchell</surname>
+							<given-names>TG</given-names>
+						</name>
+					</person-group>
+					<article-title>Rapid identification of pathogenic fungi directly from cultures by using multiplex PCR</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2002</year>
+					<volume>40</volume>
+					<fpage>2860</fpage>
+					<lpage>2865</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.40.8.2860-2865.2002">http://dx.doi.org/10.1128/JCM.40.8.2860-2865.2002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Taira CL, Okay TS, Delgado AF, Ceccon ME, de Almeida MT, Del Negro GM. A multiplex nested PCR for the detection and identification of <italic>Candida</italic> species in blood samples of critically ill paediatric patients. BMC Infect Dis. 2014;14:406. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-14-406">http://dx.doi.org/10.1186/1471-2334-14-406</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Taira</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Okay</surname>
+							<given-names>TS</given-names>
+						</name>
+						<name>
+							<surname>Delgado</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Ceccon</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>de Almeida</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Del Negro</surname>
+							<given-names>GM</given-names>
+						</name>
+					</person-group>
+					<article-title>A multiplex nested PCR for the detection and identification of Candida species in blood samples of critically ill paediatric patients</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2014</year>
+					<volume>14</volume>
+					<fpage>406</fpage>
+					<lpage>406</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-14-406">http://dx.doi.org/10.1186/1471-2334-14-406</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Bougnoux ME, Dupont C, Mateo J, Saulnier P, Faivre V, Payen D, <italic>et al</italic>. Serum is more suitable than whole blood for diagnosis of systemic candidiasis by nested PCR. J Clin Microbiol. 1999;37:925-30.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bougnoux</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Dupont</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Mateo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Saulnier</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Faivre</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Payen</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Serum is more suitable than whole blood for diagnosis of systemic candidiasis by nested PCR</article-title>
+					<source>J Clin Microbiol</source>
+					<year>1999</year>
+					<volume>37</volume>
+					<fpage>925</fpage>
+					<lpage>930</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Denning DW, Kibbler CC, Barnes RA. British Society for Medical Mycology proposed standards of care for patients with invasive fungal infections. Lancet Infect Dis. 2003;3: 230-40. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1473-3099(03)00580-2">http://dx.doi.org/10.1016/S1473-3099(03)00580-2</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Denning</surname>
+							<given-names>DW</given-names>
+						</name>
+						<name>
+							<surname>Kibbler</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Barnes</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>British Society for Medical Mycology proposed standards of care for patients with invasive fungal infections</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2003</year>
+					<volume>3</volume>
+					<fpage>230</fpage>
+					<lpage>240</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1473-3099(03)00580-2">http://dx.doi.org/10.1016/S1473-3099(03)00580-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Zuluaga A, De Bedout C, Agudelo CA, Hurtado H, Arango M, Restrepo A, <italic>et al</italic>. Sensibilidad a fluconazol y voriconazol de especies de <italic>Candida</italic> aisladas de pacientes provenientes de unidades de cuidados intensivos en Medellín, Colombia (2001-2007). Rev Iberoam Micol. 2010;27:125-9. <ext-link ext-link-type="uri" xlink:href="http://dx. doi.org/10.1016/j.riam.2010.04.001">http://dx. doi.org/10.1016/j.riam.2010.04.001</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zuluaga</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>De Bedout</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Agudelo</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Hurtado</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Arango</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Restrepo</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sensibilidad a fluconazol y voriconazol de especies de Candida aisladas de pacientes provenientes de unidades de cuidados intensivos en Medellín, Colombia (2001-2007)</article-title>
+					<source>Rev Iberoam Micol</source>
+					<year>2010</year>
+					<volume>27</volume>
+					<fpage>125</fpage>
+					<lpage>129</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx. doi.org/10.1016/j.riam.2010.04.001">http://dx. doi.org/10.1016/j.riam.2010.04.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. García-Effron G, Katiyar SK, Park S, Edlind TD, Perlin DS. A naturally occurring proline-to-alanine amino acid change in Fks1p in <italic>Candida parapsilosis</italic>, <italic>Candida orthopsilosis</italic>, and <italic>Candida metapsilosis</italic> accounts for reduced echinocandin susceptibility. Antimicrob Agents Chemother. 2008;52:2305-12. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/AAC.00262-08">http://dx.doi.org/10.1128/AAC.00262-08</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García-Effron</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Katiyar</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Edlind</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Perlin</surname>
+							<given-names>DS</given-names>
+						</name>
+					</person-group>
+					<article-title>A naturally occurring proline-to-alanine amino acid change in Fks1p in Candida parapsilosis, Candida orthopsilosis, and Candida metapsilosis accounts for reduced echinocandin susceptibility</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<year>2008</year>
+					<volume>52</volume>
+					<fpage>2305</fpage>
+					<lpage>2312</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/AAC.00262-08">http://dx.doi.org/10.1128/AAC.00262-08</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Abi-Said D, Anaissie E, Uzun O, Raad I, Pinzcowski H, Vartivarian S. The epidemiology of hematogenous candidiasis by different <italic>Candida</italic> species. Clin Infect Dis. 1997;24:1122-8. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/513663">http://dx.doi.org/10.1086/513663</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abi-Said</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Anaissie</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Uzun</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Raad</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Pinzcowski</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Vartivarian</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>The epidemiology of hematogenous candidiasis by different Candida species</article-title>
+					<source>Clin Infect Dis</source>
+					<year>1997</year>
+					<volume>24</volume>
+					<fpage>1122</fpage>
+					<lpage>1128</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/513663">http://dx.doi.org/10.1086/513663</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Hajjeh RA, Sofair AN, Harrison LH, Lyon GM, Arthington-Skaggs BA, Mirza SA, <italic>et al</italic>. Incidence of bloodstream infections due to <italic>Candida</italic> species and <italic>in vitro</italic> susceptibilities of isolates collected from 1998 to 2000 in a population based active surveillance program. J Clin Microbiol. 2004;42:1519-27. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.42.4.1519-1527.2004">http://dx.doi.org/10.1128/JCM.42.4.1519-1527.2004</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hajjeh</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Sofair</surname>
+							<given-names>AN</given-names>
+						</name>
+						<name>
+							<surname>Harrison</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Lyon</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Arthington-Skaggs</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Mirza</surname>
+							<given-names>SA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Incidence of bloodstream infections due to Candida species and in vitro susceptibilities of isolates collected from 1998 to 2000 in a population based active surveillance program</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2004</year>
+					<volume>42</volume>
+					<fpage>1519</fpage>
+					<lpage>1527</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.42.4.1519-1527.2004">http://dx.doi.org/10.1128/JCM.42.4.1519-1527.2004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Eggimann P, Garbino J, Pittet D. Epidemiology of <italic>Candida</italic> species infections in critically ill non-immunosuppressed patients. Lancet Infect Dis. 2003;3:685-702. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1473-3099(03)00801-6">http://dx.doi.org/10.1016/S1473-3099(03)00801-6</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Eggimann</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Garbino</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pittet</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiology of Candida species infections in critically ill non-immunosuppressed patients</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2003</year>
+					<volume>3</volume>
+					<fpage>685</fpage>
+					<lpage>702</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1473-3099(03)00801-6">http://dx.doi.org/10.1016/S1473-3099(03)00801-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Krcmery VJ, Kovacicova G. Longitudinal 10-year prospective survey of fungaemia in Slovak Republic: Trends in etiology in 310 episodes. Diagn Microbiol Infect Dis. 2000;36:7-11. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0732-8893(99)00096-6">http://dx.doi.org/10.1016/S0732-8893(99)00096-6</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Krcmery</surname>
+							<given-names>VJ</given-names>
+						</name>
+						<name>
+							<surname>Kovacicova</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Longitudinal 10-year prospective survey of fungaemia in Slovak Republic: Trends in etiology in 310 episodes</article-title>
+					<source>Diagn Microbiol Infect Dis</source>
+					<year>2000</year>
+					<volume>36</volume>
+					<fpage>7</fpage>
+					<lpage>11</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0732-8893(99)00096-6">http://dx.doi.org/10.1016/S0732-8893(99)00096-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Wingard JR. Importance of <italic>Candida</italic> species other than C. <italic>albicans</italic> as pathogens in oncology patients. Clin Infect Dis. 1995;20:115-25. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/clinids/20.1.115">http://dx.doi.org/10.1093/clinids/20.1.115</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wingard</surname>
+							<given-names>JR</given-names>
+						</name>
+					</person-group>
+					<article-title>Importance of Candida species other than C. albicans as pathogens in oncology patients</article-title>
+					<source>Clin Infect Dis</source>
+					<year>1995</year>
+					<volume>20</volume>
+					<fpage>115</fpage>
+					<lpage>125</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/clinids/20.1.115">http://dx.doi.org/10.1093/clinids/20.1.115</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Almirante B, Rodríguez D, Park BJ, Cuenca-Estrella M, Planes AM, Almela M, <italic>et al</italic>. Epidemiology and predictors of mortality in cases of <italic>Candida</italic> bloodstream infection: Results from population-based surveillance, Barcelona, Spain, from 2002 to 2003. J Clin Microbiol. 2005;43:1829-35. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.43.4.1829-1835.2005">http://dx.doi.org/10.1128/JCM.43.4.1829-1835.2005</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almirante</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Cuenca-Estrella</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Planes</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Almela</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology and predictors of mortality in cases of Candida bloodstream infection: Results from population-based surveillance, Barcelona, Spain, from 2002 to 2003</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2005</year>
+					<volume>43</volume>
+					<fpage>1829</fpage>
+					<lpage>1835</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JCM.43.4.1829-1835.2005">http://dx.doi.org/10.1128/JCM.43.4.1829-1835.2005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Viudes A, Peman J, Canton E, Úbeda P, López-Ribot JL, Gobernado M. Candidemia at a tertiary-care hospital: Epidemiology, treatment, clinical outcome and risk factors for death. Eur J Clin Microbiol Infect Dis. 2002;21:767-74. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10096-002-0822-1">http://dx.doi.org/10.1007/s10096-002-0822-1</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Viudes</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Peman</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Canton</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Úbeda</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>López-Ribot</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Gobernado</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Candidemia at a tertiary-care hospital: Epidemiology, treatment, clinical outcome and risk factors for death</article-title>
+					<source>Eur J Clin Microbiol Infect Dis</source>
+					<year>2002</year>
+					<volume>21</volume>
+					<fpage>767</fpage>
+					<lpage>774</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10096-002-0822-1">http://dx.doi.org/10.1007/s10096-002-0822-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Pappas PG, Rex JH, Lee J, Hamill RJ, Larsen RA, Powderly W, <italic>et al</italic>. A prospective observational study of candidemia: Epidemiology, therapy, and influences on mortality in hospitalized adult and pediatric patients. Clin Infect Dis. 2003;37:634-43. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/376906">http://dx.doi.org/10.1086/376906</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pappas</surname>
+							<given-names>PG</given-names>
+						</name>
+						<name>
+							<surname>Rex</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hamill</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Larsen</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Powderly</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A prospective observational study of candidemia: Epidemiology, therapy, and influences on mortality in hospitalized adult and pediatric patients</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2003</year>
+					<volume>37</volume>
+					<fpage>634</fpage>
+					<lpage>643</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/376906">http://dx.doi.org/10.1086/376906</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Pittet D, Monod M, Suter PM, Frenk E, Auckenthaler R. <italic>Candida</italic> colonization and subsequent infections in critically ill surgical patients. Ann Surg. 1994;220:751-58.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pittet</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Monod</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Suter</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Frenk</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Auckenthaler</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Candida colonization and subsequent infections in critically ill surgical patients</article-title>
+					<source>Ann Surg</source>
+					<year>1994</year>
+					<volume>220</volume>
+					<fpage>751</fpage>
+					<lpage>758</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Hoppe JE, Frey P. Evaluation of six commercial tests and the germ-tube test for presumptive identification of <italic>Candida albicans</italic>. Eur J Clin Microbiol Infect Dis. 1999;18:188-91. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s100960050256">http://dx.doi.org/10.1007/s100960050256</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hoppe</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Frey</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of six commercial tests and the germ-tube test for presumptive identification of Candida albicans</article-title>
+					<source>Eur J Clin Microbiol Infect Dis</source>
+					<year>1999</year>
+					<volume>18</volume>
+					<fpage>188</fpage>
+					<lpage>191</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s100960050256">http://dx.doi.org/10.1007/s100960050256</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Zilberberg MD, Kollef MH, Arnold H, Labelle A, Micek ST, Kothari S, <italic>et al</italic>. Inappropriate empiric antifungal therapy for candidemia in the ICU and hospital resource utilization: A retrospective cohort study. BMC Infect Dis. 2010;10:150. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-10-150">http://dx.doi.org/10.1186/1471-2334-10-150</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zilberberg</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Kollef</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Arnold</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Labelle</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Micek</surname>
+							<given-names>ST</given-names>
+						</name>
+						<name>
+							<surname>Kothari</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Inappropriate empiric antifungal therapy for candidemia in the ICU and hospital resource utilization: A retrospective cohort study</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2010</year>
+					<volume>10</volume>
+					<fpage>150</fpage>
+					<lpage>150</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2334-10-150">http://dx.doi.org/10.1186/1471-2334-10-150</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis: A persistent public health problem. Clin Microbiol Rev. 2007;20:133-63. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/CMR.00029-06">http://dx.doi.org/10.1128/CMR.00029-06</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pfaller</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Diekema</surname>
+							<given-names>DJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiology of invasive candidiasis: A persistent public health problem</article-title>
+					<source>Clin Microbiol Rev</source>
+					<year>2007</year>
+					<volume>20</volume>
+					<fpage>133</fpage>
+					<lpage>163</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/CMR.00029-06">http://dx.doi.org/10.1128/CMR.00029-06</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Pillet S, Lardeux M, Dina J, Grattard F, Verhoeven P, Le Goff J, <italic>et al</italic>. Comparative evaluation of six commercialized multiplex PCR kits for the diagnosis of respiratory infections. PLoS One. 2013;8:e72174. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0072174">http://dx.doi.org/10.1371/journal.pone.0072174</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pillet</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lardeux</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Dina</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Grattard</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Verhoeven</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Le Goff</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Comparative evaluation of six commercialized multiplex PCR kits for the diagnosis of respiratory infections</article-title>
+					<source>PLoS One</source>
+					<year>2013</year>
+					<volume>8</volume>
+					<elocation-id>e72174</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0072174">http://dx.doi.org/10.1371/journal.pone.0072174</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Lass-Flörl C, Mutschlechner W, Aigner M, Grif K, Marth C, Girschikofsky M, <italic>et al</italic>. Utility of PCR in diagnosis of invasive fungal infections: Real-life data from a multicenter study. J Clin Microbiol. 2013;51:863-8. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10. 1128/JCM.02965-12">http://dx.doi.org/10. 1128/JCM.02965-12</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lass-Flörl</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Mutschlechner</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Aigner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Grif</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Marth</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Girschikofsky</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Utility of PCR in diagnosis of invasive fungal infections: Real-life data from a multicenter study</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2013</year>
+					<volume>51</volume>
+					<fpage>863</fpage>
+					<lpage>868</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10. 1128/JCM.02965-12">http://dx.doi.org/10. 1128/JCM.02965-12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Fournier PE, Drancourt M, Colson P, Rolain JM, La Scola B, Raoult D. Modern clinical microbiology: New challenges and solutions. Nat Rev Microbiol 2013;11:574-85. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrmicro3068">http://dx.doi.org/10.1038/nrmicro3068</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fournier</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Drancourt</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Colson</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Rolain</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>La Scola</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Raoult</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Modern clinical microbiology: New challenges and solutions</article-title>
+					<source>Nat Rev Microbiol</source>
+					<year>2013</year>
+					<volume>11</volume>
+					<fpage>574</fpage>
+					<lpage>585</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrmicro3068">http://dx.doi.org/10.1038/nrmicro3068</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>1</label>
+				<p><bold>Conflicto de intereses</bold> Los autores de este trabajo declaramos que no existe conflicto de intereses.</p>
+			</fn>
+		</fn-group>
+		<fn-group>
+			<fn fn-type="other" id="fn2">
+				<label>2</label>
+				<p><bold>Financiación</bold> Este proyecto fue financiado con fondos del Grupo de Investigación Clínico Clini-Udes y del Grupo de Biotecnología-Microbiota de la Universidad de Santander.</p>
+			</fn>
+		</fn-group>
+		<fn-group>
+			<fn fn-type="other" id="fn3">
+				<label>3</label>
+				<p><bold>Contribución de los autores:</bold> Liliana Torcoroma García: diseño de las pruebas moleculares, orientación en aspectos teóricos y experimentales, y escritura del artículo Liany Johanna Luna y Tania Katherine Velasco: diseño y ejecución de pruebas moleculares Beatriz Elena Guerra: soporte técnico, orientación teórica y experimental, y revisión del artículo</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

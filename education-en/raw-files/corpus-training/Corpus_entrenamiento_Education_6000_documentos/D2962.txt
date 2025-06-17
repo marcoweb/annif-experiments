@@ -1,0 +1,47 @@
+#ITI#How trace plots help interpret meta-analysis results#FTI#
+#IRE# The trace plot is seldom used in meta-analysis, yet it is a very informative plot. In this article, we define and illustrate what the trace plot is, and discuss why it is important. The Bayesian version of the plot combines the posterior density of (Formula presented.), the between-study standard deviation, and the shrunken estimates of the study effects as a function of (Formula presented.). With a small or moderate number of studies, (Formula presented.) is not estimated with much precision, and parameter estimates and shrunken study effect estimates can vary widely depending on the correct value of (Formula presented.). The trace plot allows visualization of the sensitivity to (Formula presented.) along with a plot that shows which values of (Formula presented.) are plausible and which are implausible. A comparable frequentist or empirical Bayes version provides similar results. The concepts are illustrated using examples in meta-analysis and meta-regression; implementation in R is facilitated in a Bayesian or frequentist framework using the bayesmeta and metafor packages, respectively#FRE#
+#IPC# best linear unbiased prediction (BLUP); meta-analysis; random-effects model; shrinkage#FPC#
+#IRF# Borenstein M., Hedges L.V., Higgins J.P.T., Rothstein H.R., Introduction to Meta-Analysis, (2009); 
+Friede T., Rover C., Wandel S., Neuenschwander B., Meta-analysis of few small studies in orphan diseases, Res Synth Methods, 8, 1, pp. 79-91, (2017); 
+Jackson D., White I.R., When should meta-analysis avoid making hidden normality assumptions?, Biom J, 60, 6, pp. 1040-1058, (2018); 
+Raudenbush S.W., Bryk A.S., Empirical Bayes meta-analysis, J Educ Behav Statis, 10, 2, pp. 75-98, (1985); 
+Anzures-Cabrera J., Higgins J.P.T., Graphical displays for meta-analysis: an overview with suggestions for practice, Res Synth Methods, 1, 1, pp. 66-80, (2010); 
+Kossmeier M., Tran U.S., Voracek M., Charting the landscape of graphical displays for meta-analysis and systematic reviews: a comprehensive review, taxonomy, and feature analysis, BMC Med Res Methodol, 20, (2020); 
+Nikolakopoulou A., Chaimani A., More than words: novel visualizations for evidence synthesis, Res Synth Methods, 12, 1, pp. 2-3, (2021); 
+Rubin D.B., Estimation in parallel randomized experiments, J Educ Statis, 6, 4, pp. 377-401, (1981); 
+DuMouchel W., Hierarchical Bayes Linear Models for Meta-Analysis. Technical report 27, National Institute of Statistical Sciences (NISS); Research Triangle Park, NC, (1994); 
+DuMouchel W., Availability of hblm S-PLUS software. Internet Archive, (1997); 
+Gaver D.P., Draper D., Goel P.K., Et al., Combining Information: Statistical Issues and Opportunities for Research, (1992); 
+Gelman A., Carlin J.B., Stern H., Dunson D.B., Vehtari A., Rubin D.B., Bayesian data analysis, (2014); 
+DuMouchel W.H., Normand S.L., Computer modeling strategies for meta-analysis, Meta-Analysis in Medicine and Health Policy, pp. 127-178, (2000); 
+Zucker D.R., Schmid C.H., McIntosh M.W., D'Agustino R.B., Selker H.P., Lau J., Combining single patient (N-of-1) trials to estimate population treatment effects and to evaluate individual patient responses to treatment, J Clin Epidemiol, 50, 4, pp. 401-410, (1997); 
+Shadish W.R., Rindskopf D.M., Hedges L.V., Sullivan K.J., Bayesian estimates of autocorrelations in single-case designs, Behav Res Methods, 45, 3, pp. 813-821, (2013); 
+Inselberg A., The plane with parallel coordinates, Vis Comput, 1, 4, pp. 69-91, (1985); 
+Efron B., Morris C., Data analysis using Stein's estimator and its generalizations, J Am Stat Assoc, 70, 350, pp. 311-319, (1975); 
+Rover C., Bayesian random-effects meta-analysis using the bayesmeta R package, J Stat Softw, 93, 6, pp. 1-51, (2020); 
+Rover C., Friede T., Using the bayesmeta R package for Bayesian random-effects meta-regression, Comput Methods Programs Biomed, 229, (2023); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, (2010); 
+Rover C., Bender R., Dias S., Et al., On weakly informative prior distributions for the heterogeneity parameter in Bayesian random-effects meta-analysis, Res Synth Methods, 12, 4, pp. 448-474, (2021); 
+Rover C., Friede T., Bounds for the weight of external data in shrinkage estimation, Biom J, 65, 5, pp. 1131-1143, (2021); 
+Bland J.M., Altman D.G., Regression towards the mean, BMJ, 308, (1994); 
+Bland J.M., Altman D.G., Some examples of regression towards the mean, BMJ, 309, (1994); 
+Rover C., Friede T., Dynamically borrowing strength from another study through shrinkage estimation, Stat Methods Med Res, 29, 1, pp. 293-308, (2020); 
+Wandel S., Neuenschwander B., Rover C., Friede T., Using phase II data for the analysis of phase III studies: an application in rare diseases, Clin Trials, 14, 3, pp. 277-285, (2017); 
+Peto R., Aspirin after myocardial infarction, The Lancet, 315, 8179, pp. 1172-1173, (1980); 
+Canner P., An overview of six clinical trials of aspirin in coronary heart disease, Stat Med, 6, 3, pp. 255-263, (1987); 
+Hasselblad V., Eddy D.M., Kotchmar D.J., Synthesis of environmental evidence: nitrogen dioxide epidemiology studies, J Air Waste Manage Assoc, 42, 5, pp. 662-671, (1992); 
+Higgins J.P.T., Lopez-Lopez J.A., Aloe A.M., Meta-regression, Handbook of Meta-analysisNew, (2021); 
+Higgins J.P.T., Thomas J., Chandler J., Et al., Cochrane Handbook for Systematic Reviews of Interventions, (2019); 
+Rubin D.B., Meta-analysis: literature synthesis or effect-size surface estimation?, J Educ Statis, 17, 4, pp. 363-374, (1992); 
+Karner C., Chong J., Poole P., Tiotropium versus placebo for chronic obstructive pulmonary disease, Cochrane Database Syst Rev, 7, (2014); 
+Rover C., Andreas S., Friede T., Evidence synthesis for count distributions based on heterogeneous and incomplete aggregated data, Biom J, 58, 1, pp. 170-185, (2016); 
+Doherty D.E., A review of the role of FEV1 in the COPD paradigm, COPD: J Chron Obstruct Pulmon Dis, 5, 5, pp. 310-318, (2008); 
+Robinson G.K., That BLUP is a good thing: the estimation of random effects, Statis Sci, 6, 1, pp. 15-32, (1991); 
+Aitkin M., Liu C., Confidence, credibility and prediction, Metron, 76, pp. 251-268, (2018); 
+Morey R.D., Hoekstra R., Rouder J.N., Lee M.D., Wagenmakers E.J., The fallacy of placing confidence in confidence intervals, Psychon Bull Rev, 23, 1, pp. 103-123, (2016); 
+Viechtbauer W., Bias and efficiency of meta-analytic variance estimators in the random-effects model, J Educ Behav Statis, 30, 3, pp. 261-293, (2005); 
+Viechtbauer W., Confidence intervals for the amount of heterogeneity in meta-analysis, Stat Med, 26, 1, pp. 37-52, (2007); 
+Rover C., Knapp G., Friede T., Hartung-Knapp-Sidik-Jonkman approach and its modification for random-effects meta-analysis with few studies, BMC Med Res Methodol, 15, (2015); 
+Rover C., bayesmeta: Bayesian random-effects meta analysis. R package, (2015); 
+Balduzzi S., Rucker G., Nikolakopoulou A., Et al., netmeta: an R package for network meta-analysis using frequentist methods, J Stat Softw, 106, 2, pp. 1-40, (2023); 
+White T., Noble D., Senior A., Hamilton W.K., Viechtbauer W., metadat: Meta-Analysis Datasets. R package, version 1.3–0, (2023)#FRF#

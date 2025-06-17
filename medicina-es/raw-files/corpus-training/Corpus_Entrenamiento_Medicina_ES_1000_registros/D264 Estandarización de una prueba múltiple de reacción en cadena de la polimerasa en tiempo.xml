@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.7" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v38i0.3407</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>ARTÍCULO ORIGINAL</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Estandarización de una prueba múltiple de reacción en cadena de la polimerasa en tiempo real para la identificación de <italic>Angiostrongylus cantonensis</italic>, <italic>A. costaricensis</italic> y <italic>A. vasorum</italic></article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Standardization of a multiplex real-time PCR test for the identification of <italic>Angiostrongylus cantonensis</italic>, <italic>A. costaricensis</italic> and <italic>A. vasorum</italic></trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Varela-M</surname>
+						<given-names>Rubén E.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Arias</surname>
+						<given-names>Jinney Stefany</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Velásquez</surname>
+						<given-names>Luz Elena</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Unidad de Biología Molecular y Computacional, Programa de Estudio y Control de Enfermedades Tropicales (PECET), Universidad de Antioquia, Medellín, Colombia </institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv2">Unidad de Biología Molecular y Computacional</institution>
+				<institution content-type="orgdiv1">Programa de Estudio y Control de Enfermedades Tropicales</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Facultad de Ciencias Básicas, Universidad Santiago de Cali, Cali, Colombia </institution>
+				<institution content-type="normalized">Universidad Santiago de Cali</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Básicas</institution>
+				<institution content-type="orgname">Universidad Santiago de Cali</institution>
+				<addr-line>
+					<named-content content-type="city">Cali</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Grupo de Microbiología Ambiental, Universidad de Antioquia, Medellín, Colombia </institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv1">Grupo de Microbiología Ambiental</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Unidad de Malacología Médica y Trematodos, Programa de Estudio y Control de Enfermedades Tropicales (PECET), Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv2">Unidad de Malacología Médica y Trematodos</institution>
+				<institution content-type="orgdiv1">Programa de Estudio y Control de Enfermedades Tropicales</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Correspondencia: Luz Elena Velásquez, Unidad de Malacología Médica y Trematodos, Programa de Estudio y Control de Enfermedades Tropicales (PECET), Sede de Investigación Universitaria, Universidad de Antioquia, Calle 62 N° 52-59, laboratorio 730, Medellín, Colombia Teléfono: (574) 219 6514 <email>luzelena333@yahoo.com</email>
+				</corresp>
+				<fn fn-type="other" id="fn1">
+					<label>Contribución de los autores:</label>
+					<p> Rubén E Varela-M: diseño metodológico y de la prueba molecular Jinney Stefany Arias: estandarización de técnicas moleculares Luz Elena Velásquez: diseño del estudio, consecución de moluscos, aislamiento de larvas y obtención de financiación Todos los autores participaron en la escritura del manuscrito.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn2">
+					<label>Conflicto de intereses</label>
+					<p> Los autores declaran que no existe ningún tipo de conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jan-Mar</season>
+				<year>2018</year>
+			</pub-date>
+			<volume>38</volume>
+			<issue>1</issue>
+			<fpage>111</fpage>
+			<lpage>119</lpage>
+			<history>
+				<date date-type="received">
+					<day>13</day>
+					<month>09</month>
+					<year>2016</year>
+				</date>
+				<date date-type="accepted">
+					<day>27</day>
+					<month>05</month>
+					<year>2017</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción.</title>
+					<p> En el mundo, las angiostrongilosis de mayor impacto en salud humana y animal son ocasionadas por <italic>Angiostrongylus cantonensis</italic>, <italic>A. costaricensis</italic> y <italic>A. vasorum</italic>. En las personas, las formas clínicas son la meningitis eosinofílica y la angiostrongilosis abdominal, y, en los mamíferos cánidos, el daño cardiopulmonar. Se las consideran enfermedades emergentes debido a la propagación mundial del caracol africano <italic>Lissachatina fulica</italic>, un huésped intermediario de los parásitos. </p>
+					<p>Los escasos métodos de identificación de <italic>Angiostrongylu</italic>s spp. no son muy específicos ni sensibles y son costosos. Se necesita urgentemente una herramienta diagnóstica asequible, sensible y específica para el manejo de las angiostrongilosis humana y la animal.</p>
+				</sec>
+				<sec>
+					<title>Objetivo.</title>
+					<p> Desarrollar una prueba de PCR múltiple en tiempo real (qPCR) para identificar las tres especies patógenas de <italic>Angiostrongylus</italic>.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos.</title>
+					<p> Mediante un análisis bioinformático se seleccionó una secuencia del genoma ITS-2 de <italic>Angiostrongylus</italic> para garantizar la especificidad del cebador y las sondas. El ADN de los parásitos adultos (control positivo) y de las larvas se extrajo con el estuche DNeasyBlood &amp; Tissue®.</p>
+					<p>Las reacciones de la PCR cuantitativa se ejecutaron en un termociclador Smartcycler Cepheid®, usando el estuche de mezcla maestra QuantiTect®. Como control negativo, se utilizó ADN humano, de otros parásitos y del caracol africano.</p>
+				</sec>
+				<sec>
+					<title>Resultados.</title>
+					<p> Los valores del ciclo umbral para los controles positivos de ADN fueron: 21 para <italic>Angiostrongylus cantonensis</italic>, 22 para <italic>A. costaricensis</italic> y 31 para <italic>A. vasorum</italic>. En los controles negativos, el ciclo umbral fue cero. La qPCR mostró una eficiencia de amplificación de 2 (100 %).</p>
+				</sec>
+				<sec>
+					<title>Conclusiones.</title>
+					<p> En el laboratorio se estandarizó una qPCR múltiple para tres especies clínicamente significativas de <italic>Angiostrongylus</italic>.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> Angiostrongyliasis is a disease caused by <italic>Angiostrongylus</italic> nematodes that is present worldwide. The infections with the highest impact on human and animal health are caused by <italic>A. cantonensis</italic>, <italic>A. costaricensis</italic>, and <italic>A. vasorum</italic>. Clinical forms of the disease in humans are eosinophilic meningitis and abdominal angiostrongyliasis, while the most common effect on dogs are cardiopulmonary damages. It is deemed as an emerging disease as the result of the global dissemination of the African snail <italic>Lissachatina fulica</italic>, an intermediary host of these parasites. The few diagnostic methods for <italic>Angiostrongylus</italic> spp. are unspecific, costly, and not very sensitive. It is urgent to develop a sensitive, specific and accessible diagnostic tool for the control of human and animal angiostrongyliasis.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To develop a qPCR multiple test to identify the three pathogenic species of <italic>Angiostrongylus</italic>.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p> Through a bio-informatic analysis, we selected a sequence of the ITS-2 region of the <italic>Angiostrongylus</italic> genome to guarantee the specificity of primers and probes. We extracted DNA from adult parasites as positive control, and from larvae using the DNeasy Blood&amp;Tissue® kit. Quantitative PCR reactions were conducted on a Smartcycler Cepheid® thermocycler using a master mix QuantiTect® kit. DNA from human beings, other parasites and the African snail was used as negative control.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The threshold cycle values for positive DNA controls were: 21 for <italic>Angiostrongylus cantonensis</italic>, 22 for <italic>A. costaricensis</italic>, and 31 for <italic>A. vasorum</italic>. In negative controls, the threshold cycle was zero. qPCR showed an amplification efficiency of 2 (100%).</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> A multiple qPCR was standardized at the laboratory for three clinically significant species of <italic>Angiostrongylus</italic>.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Angiostrongylus</kwd>
+				<kwd>Angiostrongylus cantonensis</kwd>
+				<kwd>reacción en cadena en tiempo real de la polimerasa</kwd>
+				<kwd>reacción en cadena de la polimerasa multiplex</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Angiostrongylus</kwd>
+				<kwd>Angiostrongylus cantonensis</kwd>
+				<kwd>real-time polymerase chain reaction</kwd>
+				<kwd>multiplex polymerase chain reaction</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="48"/>
+				<page-count count="9"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Los nematodos emergentes <italic>Angiostrongylus cantonensis</italic>, hallado por primera vez en Cantón, China, por Chen (1935), <italic>Angiostrongylus costaricensis</italic>, reportado en humanos por Céspedes y Morera (1967) en Costa Rica y <italic>Angiostrongylus vasorum</italic>, detectado por primera vez en Francia por Baillet (1866), son agentes causales de enfermedades de difícil diagnóstico en personas y animales en los cinco continentes <xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. El ciclo de vida de estos parásitos se caracteriza porque requiere de un molusco terrestre como huésped intermediario. Colombia sufre la invasión del gigante africano <italic>Achatina (=Lissachatina) fulica</italic> Bowdich, 1822, un caracol terrestre endémico del este de África cuya distribución actual es pantropical. Este molusco consume plantas y desechos orgánicos de origen animal, incluso heces, hecho que favorece su interacción con numerosas especies parásitas.</p>
+		<p>En Brasil, Ecuador y Venezuela, el caracol africano es una plaga y se ha demostrado que funge como huésped intermediario de <italic>A. cantonensis</italic>. En Brasil, también se ha establecido que es huésped intermediario de <italic>A. vasorum</italic> y se sugiere como huésped potencial de <italic>A. costaricensis</italic><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>La presencia de <italic>A. cantonensis</italic> en Brasil, Ecuador y Venezuela representa un gran riesgo para la salud pública en Colombia. El parásito adulto se aloja en la arteria pulmonar de roedores que eliminan las larvas de primera etapa (L1 ) en las heces <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, y los caracoles se infectan con estas larvas al comer las heces del roedor. Dentro del molusco, la larva se desarrolla en las etapas L2 y L3 , para luego abandonar el huésped invertebrado <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Además, el nematodo tiene huéspedes paraténicos, como crustáceos, sapos y planarias, que facilitan su dispersión a diversos ecosistemas donde habitan mamíferos, aves y personas, los cuales son huéspedes accidentales en riesgo de contraer la enfermedad <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+		<p><italic>Angiostrongylus cantonensis</italic> está distribuido en todos los continentes con un mayor número de casos en Asia <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. En las personas ocasiona meningitis eosinofílica, generada por las larvas L3 procedentes de los caracoles, las cuales ingresan en los pacientes por la vía oral, penetran la pared intestinal y viajan por el torrente sanguíneo hasta el cerebro, donde causan daño tisular y reacción inflamatoria <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. La sintomatología es inespecífica, y depende de la ubicación y el número de larvas que ingresan al cerebro, donde puede generar dolor de cabeza, alteraciones neurológicas, coma y la muerte <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+		<p>El parásito <italic>A. costaricensis</italic> es el agente etiológico de la angiostrongilosis abdominal en humanos y se caracteriza por causar dolor abdominal en la fosa ilíaca derecha. Es muy prevalente en Brasil y en Costa Rica, con más de 600 casos por año, cifras que probablemente son mayores a causa del subregistro asociado con la dificultad para el diagnóstico. Se desconoce su prevalencia e incidencia en los otros países de Latinoamérica <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. En Argentina, México y Venezuela, algunos pacientes se han diagnosticado mediante intervención quirúrgica; en Colombia, todos los casos se han registrado con base en el diagnóstico <italic>post mortem</italic><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Este nematodo se aloja en la arteria mesentérica de diversas especies de roedores que actúan como reservorios o huéspedes definitivos <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		<p>El nematodo <italic>A. vasorum</italic>, conocido como el gusano del corazón, es endémico en Europa, con registros en África, América y Asia. Ocasiona problemas en la salud de perros y zorros, en el tejón europeo y en el panda rojo. Los parásitos adultos se localizan en el ventrículo derecho y en la arteria pulmonar del mamífero, donde ocurre la reproducción sexual; las hembras ponen huevos de los cuales salen las larvas L1, las cuales migran de los alvéolos al árbol bronquial para luego ser deglutidas y excretadas en las heces <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Estas son ingeridas por moluscos, ranas y lagartos, con lo cual se facilita el contacto del parásito con los perros y otros mamíferos cánidos <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+		<p>La enfermedad puede ser asintomática o presentar manifestaciones poco específicas, como tos, ahogamiento, fatiga, neumonía, hemorragias, fibrosis pulmonar, disnea, pérdida de peso, vómito, dolor abdominal y enfermedad cardiopulmonar. El cuadro clínico se complica por migraciones aberrantes a otros órganos y puede ocasionar la muerte súbita <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+		<p>A pesar del impacto de <italic>A. cantonensis</italic>, <italic>A. costaricensis</italic> y <italic>A. vasorum</italic> en la salud pública a nivel mundial, su diagnóstico no es fácil. Las técnicas parasitológicas habituales no pueden aplicarse en las personas, porque en las heces no se eliminan estadios del parásito y la sintomatología no es patognomónica; por esto, se han desarrollado diferentes pruebas convencionales de reacción en cadena de la polimerasa (PCR).</p>
+		<p>La PCR es una técnica rápida, sensible y específica que amplifica el ADN de una sola especie de forma exponencial durante diferentes ciclos y temperaturas a partir de un par de cebadores <xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Sin embargo, existe una variante de la PCR convencional, la PCR múltiple en tiempo real (<italic>quantitative PCR</italic>, qPCR), la cual permite amplificar en una sola reacción dos o más secuencias de ADN, utilizando varias parejas de cebadores, y facilitando la detección, identificación y cuantificación simultánea de distintos genes de interés. No obstante, se requiere un buen diseño para evitar uniones inespecíficas entre cebadores, así como para optimizar el programa de amplificación y sondas múltiples con fluorescencia <xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+		<p>En Colombia, como en otros países de Suramérica, <italic>A. fulica</italic> y los roedores que constituyen plagas poseen una distribución geográfica amplia, son abundantes y sinantrópicos <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, lo que para las personas y la fauna implica el riesgo de adquirir una angiostrongilosis debido a la presencia en el continente de <italic>A. cantonensis</italic>, <italic>A. costaricensis</italic> y <italic>A. vasorum</italic>. La evaluación del problema y el diseño de estrategias para su prevención y control demandan herramientas para el diagnóstico de los helmintos en diversos huéspedes.</p>
+		<p>Como respuesta a esa necesidad, se propuso desarrollar lo que sería la primera prueba de qPCR múltiple en el mundo para la identificación, en una sola reacción, de las tres especies de <italic>Angiostrongylus</italic> de importancia en salud humana y animal.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p><bold>Diseño de oligonucleótidos y análisis bioinformáticos</bold></p>
+			<p>Las regiones o genes seleccionados para amplificar se eligieron con base en los registros de otros artículos en los que se había empleado la región ITS-2 (<italic>Internal Transcribed Spacer</italic>) para el diagnóstico <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>Con el fin de determinar y verificar los polimorfismos presentes en la región seleccionada para la amplificación mediante sondas Taq-Man<sup>TM</sup>, se hizo un alineamiento múltiple utilizando las secuencias reportadas en las bases de datos del <italic>National Center for Biotechnology Information</italic> (NCBI) con el programa T-Coffee. Los alineamientos se visualizaron en MEGA 6 o Jalview.</p>
+			<p>En la región seleccionada, el polimorfismo en las tres especies fue suficiente para el diseño específico de los cebadores y de las sondas Taq- Man<sup>TM</sup>. Con el programa Primer Quest se obtuvieron las secuencias de los cebadores a partir de aquellas preseleccionadas en la herramienta BLAST para la ITS-2 intraespecie. Se tuvieron en cuenta parámetros como el tamaño del cebador, la temperatura media de fusión, el contenido de guanina-citosina (GC) (%GC) y el tamaño de la secuencia que debía amplificarse. Con el programa Oligoanalyzer, se evaluó la formación de estructuras secundarias y de homodímeros o heterodímeros según el delta de G (ΔG) generado. Posteriormente, con la herramienta Blastprimer (NCBI), se evaluó la posibilidad de alineamientos inespecíficos de los cebadores frente al genoma humano y otros parásitos.</p>
+			<p>Con el programa Clustal W, se realizó un alineamiento múltiple entre las secuencias elegidas y los cebadores para garantizar el alineamiento tanto en sentido como en antisentido y la amplificación específica de cada una de las secuencias blanco Vs. las secuencias de otras especies (humanos, nematodos y caracol africano).</p>
+			<sec>
+				<title>Obtención de parásitos de Achatina fulica</title>
+				<p>Se recolectaron 60 caracoles en Santa Fe de Antioquia. Se sacrificaron y trocearon para digerirlos en ácido clorhídrico (HCl) al 0,7 %. Luego se recuperaron las larvas de los nematodos con el método de Bearmann <xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref>; se observaron con un estereomicroscopio Nikon SMZ445 y se contaron. El 70 % de las larvas de cada caracol se lavó con suero fisiológico y se almacenó en alcohol al 96 % y a 4 °C para la extracción de ADN; el 30 % restante se procesó para su observación y descripción bajo microscopio convencional y de barrido. Se tomaron fotografías y videos (no se muestran).</p>
+			</sec>
+			<sec>
+				<title>Extracción del ADN</title>
+				<p>El ADN de los parásitos se extrajo con el estuche DNeasy Blood &amp; Tissue® (Qiagen, Hilden, Alemania) según el protocolo del fabricante. Se cuantificó en un espectrofotómetro Nanodrop ND1000® (Thermo Scientific, Wilmington, DE, USA) y se conservó en un congelador a -20 °C hasta su amplificación.</p>
+				<p>La calidad del ADN purificado se evaluó por electroforesis convencional en un gel de agarosa al 2,0 %, y se determinó su pureza de extracción en relación con una absorbancia de 260/280 unidades de densidad óptica (DO). En el gel se utilizó un volumen de 5 μl del colorante de ADN SafeView<sup>TM</sup>, la fluorescencia del producto de PCR se visualizó y la imagen se almacenó en un documentador de imágenes Gel Doc® (Bio-Rad). El ADN se almacenó en un congelador a -20 °C hasta su procesamiento.</p>
+			</sec>
+			<sec>
+				<title>Muestras evaluadas mediante PCR</title>
+				<p>Se evaluaron inicialmente los controles positivos a partir del ADN total de <italic>Angiostrongylus</italic> spp. suministrado por pares internacionales: <italic>A. vasorum</italic> (<italic>Stefanski Institute of Parasitology</italic>, Polonia), <italic>A. vasorum</italic> (Universidad de Bristol, Reino Unido), <italic>A. cantonensis</italic> (Universidad de Hawaii), <italic>A. cantonensis</italic> (Fiocruz, Rio de Janeiro, Brasil) y <italic>A. costaricensis</italic> (Centro de Investigación en Enfermedades Tropicales (CIET), Universidad de Costa Rica). Como controles negativos, se utilizaron muestras de ADN de <italic>Strongyloides stercoralis</italic>, <italic>Ascaris lumbricoides</italic>, <italic>Trichuris trichiura</italic>, <italic>Ancylostoma duodenale-Necator americanus</italic> e <italic>Hymenolepis nana</italic>, ADN de humano (células de referencia de cultivo) y ADN de <italic>A. fulica</italic>.</p>
+			</sec>
+			<sec>
+				<title>PCR convencional</title>
+				<p>Con los controles positivos y negativos, se realizó una PCR convencional en un termociclador C1000 de Bio Rad para estandarizar las condiciones iniciales del programa de amplificación que se usaron luego en la qPCR. Se verificaron el tamaño y la especificidad de cada producto amplificado en un gel de agarosa al 2 %.</p>
+				<p>El perfil térmico usado como patrón fue el siguiente: 95° C durante 3 minutos; 35 ciclos a 95 °C durante 30 segundos; 55 a 62 °C durante 1 minuto, y 72 °C durante 30 segundos. Luego se sometieron a 72 °C durante 4 minutos para garantizar que todos los productos de amplificación estuvieran terminados y con la misma longitud. El volumen final de esta reacción fue de 25 μl.</p>
+				<p><bold>PCR en tiempo real con sonda Taq-Man</bold>
+ <sup>
+ <bold>TM</bold>
+</sup></p>
+				<p>La qPCR se hizo utilizando cada oligonucleótido y cada sonda en una concentración entre 0,1 y 0,5 pmol/μl (no se mencionan las secuencias usadas para proteger el proceso de solicitud de patente). La mezcla de reacción que se usó para la amplificación fue el estuche QuantiTect Multiplex PCR NoROX® (Qiagen). Se utilizó una concentración de ADN de 9 a 14 ng/μl por muestra, para un volumen final de 25 μl por reacción. La reacción se llevó a cabo en el termociclador SmartCycler Cepheid®.</p>
+				<p>Las lecturas de fluorescencia de los controles positivos se hicieron después de la amplificación y se registraron los valores de ciclo umbral correspondientes a su positividad.</p>
+				<p>Para determinar el programa final óptimo de amplificación, se utilizó un rango de temperatura entre 57 y 63 °C. Durante el proceso de estandarización, los controles positivos y negativos se evaluaron como mínimo por triplicado para confirmar su reproducibilidad y, posteriormente, se calculó la eficiencia de la amplificación.</p>
+			</sec>
+			<sec>
+				<title>Evaluación de la interferencia de ADN</title>
+				<p>Para verificar la posible interferencia que genera el alto contenido de ADN en las muestras, se tomaron 14 ng de ADN total purificado del parásito (<italic>A. cantonensis</italic>, <italic>A. costaricensis</italic> y <italic>A. vasorum</italic>), se mezclaron con diferentes concentraciones de ADN extraído de caracoles <italic>A. fulica</italic> (1 ng/μl, 5 ng/μl, 10 ng/μl, 25 ng/μl, 75 ng/μl y 100 ng/μl) y, en cada caso, se hizo una qPCR múltiple.</p>
+			</sec>
+		</sec>
+		<sec>
+			<title>Aspectos éticos</title>
+			<p>Este estudio contó con el aval del Comité de Ética para la Experimentación con Animales de la Universidad de Antioquia, Acta 93, 29 de enero de 2015. La prueba diagnóstica de amplificación de ADN se ajustó a la Resolución 008430, que establece los lineamientos científicos, técnicos y administrativos para la investigación en salud.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title>Diseño computacional y estandarización in vitro</title>
+				<p>El diseño de los cebadores y sondas mediante los métodos computacionales utilizados a partir de la secuencia ITS-2, demostró ser el óptimo para la qPCR múltiple. No se observó interferencia inhibitoria o competitiva entre los nueve oligonucleótidos usados durante el proceso de amplificación, ni siquiera cuando los cebadores y las sondas se encontraban en una concentración mayor de 0,2 pmol en una misma reacción de qPCR. La eficiencia de amplificación hallada durante los 40 ciclos del programa de PCR fue óptima, calculada en 2 (100 % de eficiencia) para este gen.</p>
+				<p>En cuanto a la marcación de las sondas Taq-Man<sup>TM</sup> con los fluoróforos Texas-Red, Cy5 y FAM, todas mostraron niveles de fluorescencia detectables que superaron el punto de corte para la qPCR. Sin embargo, se sugiere que, para obtener una mayor sensibilidad de amplificación en <italic>A. vasorum</italic>, el Cy5 puede sustituirse, porque su punto de corte no fue inferior a 30 ciclos en ningún caso.</p>
+				<p>En cuanto a los controles negativos (ADN de parásitos, humanos y caracol africano), ninguno amplificó durante los 40 ciclos, lo cual confirma la especificidad del diseño de cebadores y sondas.</p>
+				<p>Durante la estandarización del programa de qPCR, se determinó que la temperatura de anillamiento específica para todos los oligonucleótidos utilizados fue de 60 °C, en una concentración estandarizada para cada cebador de 0,2 pmol y de 0,3 pmol para cada sonda.</p>
+				<p>Los valores de punto de corte obtenidos para cada control positivo fueron los siguientes: 21 para <italic>A. cantonensis</italic>, 22 para <italic>A. costaricensis</italic> y 31 para <italic>A. vasorum</italic> (<xref ref-type="fig" rid="f1">figura 1</xref>-<xref ref-type="fig" rid="f2">figura 2</xref>, <xref ref-type="fig" rid="f3">figura 3</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Amplificación del ADN de <italic>Angiostrongylus cantonensis</italic>. Punto de corte (Threshold cycle, Ct): 21.94 (línea azul) mediante qPCR múltiple</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-38-01-00111-gf1.gif"/>
+					</fig>
+				</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Amplificación del ADN de Angiostrongylus <italic>costaricensis</italic>. Punto de corte (Threshold cycle, Ct): 22.82 (línea naranja) mediante qPCR múltiple</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-38-01-00111-gf2.gif"/>
+					</fig>
+				</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Amplificación del ADN de <italic>Angiostrongylus vasorum</italic>. Punto de corte (Threshold cycle, Ct): 31.23 mediante qPCR múltiple Uunidades relativas de fluorescencia</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-38-01-00111-gf3.gif"/>
+					</fig>
+				</p>
+				<p>El programa final estandarizado para amplificar mediante qPCR el ADN de <italic>Angiostrongylus</italic> en el termociclador Smartcycler Cepheid®, fue el siguiente: 95 °C durante 15 minutos, 40 ciclos a 95 °C durante 15 segundos y a 60 °C durante 60 segundos, para un tiempo total de amplificación de 65 minutos.</p>
+				<p>El programa estandarizado en la PCR convencional fue el siguiente: 95 °C durante 3 minutos, 35 ciclos a 95 °C durante 30 segundos, a 57,3 °C durante 1 minuto y a 72 °C durante 30 segundos, y a 72 °C durante 4 minutos, en un volumen final de 25 μl.</p>
+				<p>En cuanto a la posible interferencia ocasionada por la cantidad de ADN presente en las muestras, se determinó que hasta los 100 ng de ADN no había efecto inhibitorio o competitivo contra la secuencia blanco de la amplificación, lo cual corresponde a una relación de 1:7, es decir, no hubo inhibición de la qPCR, al menos, hasta un grado siete veces por encima de la concentración de ADN usada (<xref ref-type="fig" rid="f4">figura 4</xref>).</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>Evaluación de la interferencia del ADN de Achatina fulica en la amplificación mediante qPCR múltiple. Las seis líneas de inferior a superior indican las siguientes concentraciones de ADN: 1 ng/μl, 5 ng/μl, 10 ng/μl, 25 ng/μl, 75 ng/μl y 100 ng/μl).</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-38-01-00111-gf4.gif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Extracción de ADN</title>
+				<p>La qPCR fue positiva con el ADN total suministrado por los pares internacionales y con el ADN purificado de un humano adulto, donado por estos mismos investigadores internacionales y utilizado como control positivo.</p>
+				<p>En la fase de estandarización de la extracción del ADN de las larvas de nematodos obtenidas de caracoles africanos provenientes de Santa Fe de Antioquia, se observó que no se recuperó más ADN ni de mejor calidad cuando se extrajo de más de tres larvas.</p>
+				<p>Las larvas que se analizaron durante la estandarización de la qPCR fueron negativas para las tres especies de Angistrongylus evaluadas. No obstante, en todos los caracoles se encontraron diversos parásitos con diferentes morfotipos de larvas de nematodos, los cuales están en proceso de identificación.</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Los métodos diagnósticos microbiológicos e inmunológicos actuales no son muy útiles para la identificación de <italic>Angiostrongylus</italic>. La meningitis eosinofílica causada por <italic>A. cantonensis</italic> se diagnostica en gran medida a partir de datos epidemiológicos y de la sospecha clínica, lo que es posible cuando el personal está entrenado y alertado. Para el diagnóstico en el laboratorio se han desarrollado algunas PCR de poca sensibilidad y resultados contradictorios, pruebas que no están disponibles en el comercio <xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+			<p>El diagnóstico confirmatorio de la angiostrongilosis abdominal solo es posible con la observación del nematodo en el material histopatológico obtenido mediante intervención quirúrgica <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>Existen pruebas de antígenos, precipitación de partículas en látex, ELISA y una PCR que usa cebadores construidos a partir de secuencias de <italic>A. cantonensis</italic>, los cuales presentan reacciones cruzadas y carecen de los registros para confirmar su reproducibilidad, sensibilidad y utilidad en el diagnóstico clínico y epidemiológico <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B40"><sup>40</sup></xref>.</p>
+			<p>Aunque la presencia de <italic>A. costaricensis</italic> en Colombia se ha confirmado en el diagnóstico post mortem de personas, se desconocen la prevalencia, la incidencia y la frecuencia de esta parasitosis <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			<p>Para el diagnóstico de <italic>A. vasorum</italic>, la prueba de referencia es el método de Baermann, que tarda entre 8 y 36 horas, presenta poca sensibilidad porque depende de la carga parasitaria y requiere de personal entrenado. Existe una prueba ELISA de tipo sándwich y algunas PCR con poca especificidad.</p>
+			<p>En el comercio solo está disponible la prueba Angio Detectar Test<sup>TM</sup> para el diagnóstico en perros, pero no es útil en huéspedes intermediarios y su especificidad está validada contra tres especies de nematodos diferentes a <italic>A. vasorum</italic><xref ref-type="bibr" rid="B41"><sup>41</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B47"><sup>47</sup></xref> (Muniz de Paiva Barçante J. Aspectos clínicos, parasitológicos e imunológicos de cães experimentalmente infectados por <italic>Angiostrongylus vasorum</italic>. XIII Congresso Brasileiro de Parasitologia Veterinária e I Simpósio Latino-Americano de Ricketisioses, Ouro Preto, MG, 2004. Rev Bras Parasitol Vet. 2004;13(Supl.1):96-9).</p>
+			<p>En este estudio se estandarizó una nueva qPCR múltiple para la identificación específica, sensible y simultánea de tres especies de Angiostrongylus de importancia en salud humana y animal, como resultado del diseño de cebadores específicos que amplifican una región de ITS-2 conservada en las tres especies analizadas, <italic>A. vasorum</italic>, <italic>A. cantonensis</italic> y <italic>A. costaricensis</italic>, pero con la variabilidad necesaria para permitir la diferenciación entre especies.</p>
+			<p>Con las secuencias de los cebadores utilizados, obtenidas con el uso de herramientas computacionales de libre acceso en internet, se garantizó la especificidad del producto amplificado dado que se tuvieron en cuenta todos los parámetros para el diseño: la temperatura de fusión, el contenido de G-C, la complementariedad entre secuencias, la formación de bucles (hairpins), el tamaño del cebador y otros parámetros definidos por los programas computacionales especializados en el diseño de cebadores.</p>
+			<p>En general, estos programas están diseñados para crear una o máximo dos parejas de cebadores. Sin embargo, la expectativa metodológica en el presente estudio incluía seis parejas de cebadores y tres sondasTaq-Man<sup>TM</sup>, que se marcaron con fluoróforos diferentes y bloqueadores de señal específicos para garantizar la emisión de fluorescencia de <italic>A. cantonensis</italic> (Texas Red/BHQ2), <italic>A. costaricensis</italic> (FAM/BHQ1) y <italic>A. vasorum</italic> (Cy5/ BHQ2).</p>
+			<p>En este sentido, cabe anotar que ninguna de las muestras utilizadas como control negativo se acercó al umbral de fluorescencia del método, por lo cual se hizo una búsqueda muy refinada de cada pareja de cebadores mediante los programas bioinformáticos descritos en la metodología, con lo cual se cumplió con otros parámetros importantes para este caso, por ejemplo, que todas las parejas de cebadores amplificaran la región ITS-2 seleccionada con un tamaño similar en longitud y contenido de G-C para evitar diferencias significativas entre las temperaturas de fusión de las parejas de cebadores y las sondas, ya que el sistema de amplificación múltiple requerido solo funciona bajo una única temperatura de amplificación. El diseño no se comparó con otro porque no se encontraron registros sobre un sistema de amplificación múltiple para Angiostrongylus spp. que identificara las tres especies estudiadas en una sola reacción. En dos estudios sobre la PCR, se utilizaron secuencias ITS-2 como blanco de amplificación y solamente se identificó <italic>A. vasorum</italic><xref ref-type="bibr" rid="B44"><sup>44</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B48"><sup>48</sup></xref>.</p>
+			<p>Según lo hallado en los artículos consultados, esta es la segunda ocasión en que se desarrolla un método capaz de detectar las tres especies de <italic>Angiostrongylus</italic> objeto del estudio <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Las ventajas de este con respecto al existente (PCR-RLFP) son significativas: no hay contaminación ambiental por los geles de agarosa y sus colorantes, el tiempo de espera del resultado es menor, la interpretación del resultado no está sujeta al error humano por ser automatizada, y es menos costoso, pues no utiliza enzimas de restricción.</p>
+			<p>Por otra parte, en los ensayos in vitro se corroboró que el método molecular propuesto permite la identificación sensible de, al menos, un parásito.</p>
+			<p>Con respecto al hecho de que no se recuperó mayor cantidad de ADN cuando se hizo la extracción en más de tres larvas de nematodos, ello podría obedecer a una saturación en la columna de purificación ocasionada por el tamaño de los parásitos y el número de biomoléculas. Los fabricantes de estos estuches, por ejemplo, Qiagen, conocen el fenómeno y lo mencionan.</p>
+			<p>La prueba que se propone funciona in vitro y se convierte en la nueva y única alternativa para el diagnóstico de las angiostrongilosis en Colombia, por lo que debe ser validada en campo y en la clínica en pacientes y huéspedes en los que se detecte ADN de los parásitos. Una vez validada, la prueba diagnóstica también será útil para determinar zonas con alto riesgo de transmisión por la presencia de varios de los huéspedes de Angiostrongylus, como las ratas y el caracol africano <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>A las siguientes personas por donar los parásitos (controles positivos) para la estandarización de la prueba: Susan Jarvi (Universidad de Hawaii), Silvana Thiengo (Fiocruz, Rio de Janeiro, Brasil), Eric Morgan (Universidad de Bristol, Reino Unido), Aleksander Demiaszkiewicz (Witold Stefański Institute of Parasitology, Polonia). A Lina Gutiérrez Builes, de la Facultad de Medicina de la Universidad Pontificia Bolivariana, por donar nematodos de diferentes géneros para la prueba (controles negativos). A Jenny Chaparro, de la Facultad de Veterinaria de la Universidad de Antioquia, y a Andrés Montoya y Didier Tirado del PECET, por sus aportes en el proceso de estandarización de la qPCR múltiple. A las unidades de Biología Molecular y Malacología Médica del PECET, por facilitar el laboratorio y los equipos. Al PECET por financiar el transporte de algunas muestras.</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Maldonado Jr A, Simões R, Thiengo S. Angiostrongyliasis in the Americas. Zoonosis. En: Lorenzo-Morales J, editor. InTech; 2012. p. 303-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5772/38632">https://doi.org/10.5772/38632</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>A</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Simões</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Thiengo</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Angiostrongyliasis in the Americas. Zoonosis</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Lorenzo-Morales</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>InTech</source>
+					<year>2012</year>
+					<fpage>303</fpage>
+					<lpage>320</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5772/38632">https://doi.org/10.5772/38632</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Caldeira LR, Carvalho SO, Mendoça LFG C, Graeff- Teixeira C, Silva CF M, Ben R, et al. Molecular differentiation of Angiostrongylus costaricensis, A. cantonensis, and A. vasorum by polymerase chain reaction-restriction fragment length polymorphism. Mem Inst Oswaldo Cruz. 2003;98:1039-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762003000800011">https://doi.org/10.1590/S0074-02762003000800011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caldeira</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>SO</given-names>
+						</name>
+						<name>
+							<surname>Mendoça LFG</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Graeff- Teixeira</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Silva CF</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ben</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular differentiation of Angiostrongylus costaricensis, A. cantonensis, and A. vasorum by polymerase chain reaction-restriction fragment length polymorphism</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2003</year>
+					<volume>98</volume>
+					<fpage>1039</fpage>
+					<lpage>1043</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762003000800011">https://doi.org/10.1590/S0074-02762003000800011</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Morera P, Céspedes R. Angiostrongylus costaricensis n. sp. (Nematoda: Metastrongyloidea), a new lungworm occurring in a man in Costa Rica. Rev Biol Trop. 1970;18:173-85.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morera</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Céspedes</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Angiostrongylus costaricensis n sp. (Nematoda: Metastrongyloidea), a new lungworm occurring in a man in Costa Rica</article-title>
+					<source>Rev Biol Trop</source>
+					<year>1970</year>
+					<volume>18</volume>
+					<fpage>173</fpage>
+					<lpage>185</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Incani RN, Caleiras E, Martín M, González C. Human infection by Angiostrongylus costaricensis in Venezuela: First report of a confirmed case. Rev Inst Med Trop Sao Paulo. 2007;9:197-200. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0036-46652007000300012">https://doi.org/10.1590/S0036-46652007000300012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Incani</surname>
+							<given-names>RN</given-names>
+						</name>
+						<name>
+							<surname>Caleiras</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Martín</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Human infection by Angiostrongylus costaricensis in Venezuela: First report of a confirmed case</article-title>
+					<source>Rev Inst Med Trop Sao Paulo</source>
+					<year>2007</year>
+					<volume>9</volume>
+					<fpage>197</fpage>
+					<lpage>200</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0036-46652007000300012">https://doi.org/10.1590/S0036-46652007000300012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Pincay T, García L, Narváez E, Decker O, Martini L, Moreira JM. Angiostrongyliasis due to Parastrongylus (Angiostrongylus) cantonensis in Ecuador. First report in South America. Trop Med Int Health. 2009;14(Suppl.2):37.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pincay</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>García</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Narváez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Decker</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Martini</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>Angiostrongyliasis due to Parastrongylus (Angiostrongylus) cantonensis in Ecuador. First report in South America</article-title>
+					<source>Trop Med Int Health</source>
+					<year>2009</year>
+					<volume>14</volume>
+					<supplement>2</supplement>
+					<fpage>37</fpage>
+					<lpage>37</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Thiengo SC, Maldonado A, Mota EM, Torres EJ, Caldeira R, Carvalho OS, et al. The giant African snail Achatina fulica as natural intermediate host of Angiostrongylus cantonensis in Pernambuco, northeast Brazil. Acta Trop. 2010;115:194-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2010.01.005">https://doi.org/10.1016/j.actatropica.2010.01.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thiengo</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mota</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Caldeira</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>OS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The giant African snail Achatina fulica as natural intermediate host of Angiostrongylus cantonensis in Pernambuco, northeast Brazil</article-title>
+					<source>Acta Trop</source>
+					<year>2010</year>
+					<volume>115</volume>
+					<fpage>194</fpage>
+					<lpage>199</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2010.01.005">https://doi.org/10.1016/j.actatropica.2010.01.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Cowie RH. Biology, systematics, life cycle, and distribution of Angiostrongylus cantonensis, the cause of rat lungworm disease. Hawaii J Med Public Health. 2013;72:6-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cowie</surname>
+							<given-names>RH</given-names>
+						</name>
+					</person-group>
+					<article-title>Biology, systematics, life cycle, and distribution of Angiostrongylus cantonensis, the cause of rat lungworm disease Hawaii</article-title>
+					<source>J Med Public Health</source>
+					<year>2013</year>
+					<volume>72</volume>
+					<fpage>6</fpage>
+					<lpage>9</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Bourque A, Conboy G, Miller L, Whitney H, Ralhan S. Angiostrongylus vasorum infection in two dogs from Newfoundland. Can Vet J. 2002;43:876-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bourque</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Conboy</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Whitney</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Ralhan</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Angiostrongylus vasorum infection in two dogs from Newfoundland</article-title>
+					<source>Can Vet J</source>
+					<year>2002</year>
+					<volume>43</volume>
+					<fpage>876</fpage>
+					<lpage>879</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Qvarnstrom Y, Sullivan JJ, Bishop HS, Hollingsworth R, da Silva AJ. PCR-based detection of Angiostrongylus cantonensis in tissue and mucus secretions from molluscan host. Appl Environ Microbiol. 2007;73:1415-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AEM.01968-06">https://doi.org/10.1128/AEM.01968-06</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Qvarnstrom</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sullivan</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Bishop</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Hollingsworth</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>da Silva</surname>
+							<given-names>AJ</given-names>
+						</name>
+					</person-group>
+					<article-title>PCR-based detection of Angiostrongylus cantonensis in tissue and mucus secretions from molluscan host</article-title>
+					<source>Appl Environ Microbiol</source>
+					<year>2007</year>
+					<volume>73</volume>
+					<fpage>1415</fpage>
+					<lpage>1419</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AEM.01968-06">https://doi.org/10.1128/AEM.01968-06</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10.</label>
+				<mixed-citation>10. Moreira VL, Giese EG, Melo FT, Simões RO, Thiengo SC, Maldonado A Jr, et al. Endemic angiostrongyliasis in the Brazilian Amazon: Natural parasitism of Angiostrongylus cantonensis in Rattus rattus and R. Norvegicus, and sympatric giant African land snail, Achatina fulica. Acta Trop. 2012;125:90-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2012.10.001">https://doi.org/10.1016/j.actatropica.2012.10.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreira</surname>
+							<given-names>VL</given-names>
+						</name>
+						<name>
+							<surname>Giese</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>FT</given-names>
+						</name>
+						<name>
+							<surname>Simões</surname>
+							<given-names>RO</given-names>
+						</name>
+						<name>
+							<surname>Thiengo</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>A</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Endemic angiostrongyliasis in the Brazilian Amazon: Natural parasitism of Angiostrongylus cantonensis in Rattus rattus and R. Norvegicus, and sympatric giant African land snail, Achatina fulica</article-title>
+					<source>Acta Trop</source>
+					<year>2012</year>
+					<volume>125</volume>
+					<fpage>90</fpage>
+					<lpage>97</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2012.10.001">https://doi.org/10.1016/j.actatropica.2012.10.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Kim JR, Hayes KA, Yeung NW, Cowie RH. Diverse gastropod host of Angiostrongylus cantonensis, the rat lungworm globally and with a focus on the Hawaiian Islands. PLoS One. 2014;9:e94969. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0094969">https://doi.org/10.1371/journal.pone.0094969</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Hayes</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Yeung</surname>
+							<given-names>NW</given-names>
+						</name>
+						<name>
+							<surname>Cowie</surname>
+							<given-names>RH</given-names>
+						</name>
+					</person-group>
+					<article-title>Diverse gastropod host of Angiostrongylus cantonensis, the rat lungworm globally and with a focus on the Hawaiian Islands</article-title>
+					<source>PLoS One</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<elocation-id>e94969</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0094969">https://doi.org/10.1371/journal.pone.0094969</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Qvarnstrom Y, da Silva AC, Teem JL, Hollingsworth R, Bishop H, Graeff-Teixeira C, et al. Improved molecular detection of Angiostrongylus cantonensis in mollusks and other environmental samples with a species-specific internal transcribed spacer 1 based Taqman assay. Appl Environ Microbiol. 2010;76:5287-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AEM.00546-10">https://doi.org/10.1128/AEM.00546-10</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Qvarnstrom</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>da Silva</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Teem</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Hollingsworth</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bishop</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Graeff-Teixeira</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Improved molecular detection of Angiostrongylus cantonensis in mollusks and other environmental samples with a species-specific internal transcribed spacer 1 based Taqman assay</article-title>
+					<source>Appl Environ Microbiol</source>
+					<year>2010</year>
+					<volume>76</volume>
+					<fpage>5287</fpage>
+					<lpage>5289</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AEM.00546-10">https://doi.org/10.1128/AEM.00546-10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Abrahams SE. Angiostrongiliasis abdominal: notas sobre el diagnóstico. Rev Biomed. 2007;18:37-45.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abrahams</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<article-title>Angiostrongiliasis abdominal notas sobre el diagnóstico</article-title>
+					<source>Rev Biomed</source>
+					<year>2007</year>
+					<volume>18</volume>
+					<fpage>37</fpage>
+					<lpage>45</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Rodríguez G. Hematoquecia letal por angiostrongilosis abdominal. Biomédica. 2000;20:120-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v20i2.1055">https://doi.org/10.7705/biomedica.v20i2.1055</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Hematoquecia letal por angiostrongilosis abdominal</article-title>
+					<source>Biomédica</source>
+					<year>2000</year>
+					<volume>20</volume>
+					<fpage>120</fpage>
+					<lpage>130</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v20i2.1055">https://doi.org/10.7705/biomedica.v20i2.1055</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Mota EM, Lenzi HL. Angiostrongylus costaricensis life cycle: A new proposal. Mem Inst. Oswaldo Cruz. 1995;90:707-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02761995000600010">https://doi.org/10.1590/S0074-02761995000600010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mota</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Lenzi</surname>
+							<given-names>HL</given-names>
+						</name>
+					</person-group>
+					<article-title>Angiostrongylus costaricensis life cycle: A new proposal</article-title>
+					<source>Mem Inst. Oswaldo Cruz</source>
+					<year>1995</year>
+					<volume>90</volume>
+					<fpage>707</fpage>
+					<lpage>709</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02761995000600010">https://doi.org/10.1590/S0074-02761995000600010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Morgan ER, Shaw SE, Brennan SF, De Waal TD, Jones BR, Mulcahy G. Angiostrongylus vasorum a real heartbreaker. Trends Parasitol. 2005;21:49-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pt.2004.11.006">https://doi.org/10.1016/j.pt.2004.11.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morgan</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Brennan</surname>
+							<given-names>SF</given-names>
+						</name>
+						<name>
+							<surname>De Waal</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>BR</given-names>
+						</name>
+						<name>
+							<surname>Mulcahy</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Angiostrongylus vasorum a real heartbreaker</article-title>
+					<source>Trends Parasitol</source>
+					<year>2005</year>
+					<volume>21</volume>
+					<fpage>49</fpage>
+					<lpage>51</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pt.2004.11.006">https://doi.org/10.1016/j.pt.2004.11.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Conboy G. Canine angiostrongylosis (French heartworm). In: Bowman DD, editor. Companion and exotic animal parasitology. Ithaca, NY: International Veterinary Information System; 2000. p. 5.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Conboy</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Canine angiostrongylosis (French heartworm)</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Bowman</surname>
+							<given-names>DD</given-names>
+						</name>
+					</person-group>
+					<source>Companion and exotic animal parasitology</source>
+					<publisher-loc>Ithaca, NY</publisher-loc>
+					<publisher-name>International Veterinary Information System</publisher-name>
+					<year>2000</year>
+					<fpage>5</fpage>
+					<lpage>5</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Coaglio Silva LA. Susceptibilidade e comportamento de Achatina fulica infectada com Angiostrongylus vasorum (tesis). Belo Horizonte: Universidade Federal de Minas Gerais; 2013.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Coaglio Silva</surname>
+							<given-names>LA</given-names>
+						</name>
+					</person-group>
+					<source>Susceptibilidade e comportamento de Achatina fulica infectada com Angiostrongylus vasorum (tesis)</source>
+					<year>2013</year>
+					<publisher-loc>Belo Horizonte</publisher-loc>
+					<publisher-name>Universidade Federal de Minas Gerais</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Al-Sabi MN, Deplazes P, Webster P, Willesen JL, Davidson RK, Kapel CM. PCR Detection of Angiostrongylus vasorum in faecal samples of dogs and foxes. Parasitol Res. 2010;107:135-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00436-010-1847-5">https://doi.org/10.1007/s00436-010-1847-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Al-Sabi</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Deplazes</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Webster</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Willesen</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Davidson</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Kapel</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<article-title>PCR Detection of Angiostrongylus vasorum in faecal samples of dogs and foxes</article-title>
+					<source>Parasitol Res</source>
+					<year>2010</year>
+					<volume>107</volume>
+					<fpage>135</fpage>
+					<lpage>140</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00436-010-1847-5">https://doi.org/10.1007/s00436-010-1847-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Bolt G, Monrad J, Koch J, Jensen AL. Canine angio- strongilosis: A review. Vet Rec. 1994;135:447-52.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bolt</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Monrad</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Koch</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jensen</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<article-title>Canine angio- strongilosis A review</article-title>
+					<source>Vet Rec</source>
+					<year>1994</year>
+					<volume>135</volume>
+					<fpage>447</fpage>
+					<lpage>452</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Anaya JM, Shoenfeld Y, Correa PA, García-Carrasco M, Cervera R. Autoinmunidad y enfermedad autoinmune. Medellín: Corporación para Investigaciones Biológicas; 2005. p. 515-22.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anaya</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Shoenfeld</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Correa</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>García-Carrasco</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cervera</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<source>Autoinmunidad y enfermedad autoinmune</source>
+					<year>2005</year>
+					<publisher-loc>Medellín</publisher-loc>
+					<publisher-name>Corporación para Investigaciones Biológicas</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Rodríguez IP, Barrera HA. La reacción en cadena de la polimerasa a dos décadas de su invención. Ciencia UANL. 2004;7:323-35</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>IP</given-names>
+						</name>
+						<name>
+							<surname>Barrera</surname>
+							<given-names>HA</given-names>
+						</name>
+					</person-group>
+					<article-title>La reacción en cadena de la polimerasa a dos décadas de su invención</article-title>
+					<source>Ciencia UANL</source>
+					<year>2004</year>
+					<volume>7</volume>
+					<fpage>323</fpage>
+					<lpage>335</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Elnifro EM, Ashshi AM, Cooper RJ, Klapper PE. Multiplex PCR: optimization and application in diagnostic virology. Clin Microbiol Rev. 2000;13:559-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/CMR.13.4.559-570.2000">https://doi.org/10.1128/CMR.13.4.559-570.2000</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Elnifro</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Ashshi</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Cooper</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Klapper</surname>
+							<given-names>PE</given-names>
+						</name>
+					</person-group>
+					<article-title>Multiplex PCR: optimization and application in diagnostic virology</article-title>
+					<source>Clin Microbiol Rev</source>
+					<year>2000</year>
+					<volume>13</volume>
+					<fpage>559</fpage>
+					<lpage>570</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/CMR.13.4.559-570.2000">https://doi.org/10.1128/CMR.13.4.559-570.2000</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Chang JH, Yen CM, Chen ER, Chung LY, Wang JJ, Chye SM, et al. Detection of antibodies to surface antigens of Angiostrongylus cantonensis by ELISA. Ann Trop Med Parasitol. 1995;89:569-72.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Yen</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Chung</surname>
+							<given-names>LY</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Chye</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Detection of antibodies to surface antigens of Angiostrongylus cantonensis by ELISA</article-title>
+					<source>Ann Trop Med Parasitol</source>
+					<year>1995</year>
+					<volume>89</volume>
+					<fpage>569</fpage>
+					<lpage>572</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Ministerio de Ambiente, Vivienda y Desarrollo Territorial. Resolución Número 654 del 7 de abril de 2011. &quot;Por la cual se corrige la Resolución No. 0848 del 23 de mayo de 2008 y se adoptan las medidas que deben seguir las autoridades ambientales, para la prevención, control y manejo de la especie caracol gigante africano (Achatina fulica). Bogotá: Minambiente; 2011.</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Ministerio de Ambiente, Vivienda y Desarrollo Territorial</collab>
+					</person-group>
+					<source>Resolución Número 654 del 7 de abril de 2011. &quot;Por la cual se corrige la Resolución No. 0848 del 23 de mayo de 2008 y se adoptan las medidas que deben seguir las autoridades ambientales, para la prevención, control y manejo de la especie caracol gigante africano (Achatina fulica)</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Minambiente</publisher-name>
+					<year>2011</year>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Qvarnstrom Y, Xayavong M, da Silva AC, Park SY,Whelen AC, Calimlim PS, et al. Real-time polymerase chain reaction detection of Angiostrongylus cantonensis DNA in cerebrospinal fluid from patients with eosinophilic meningitis. Am J Trop Med Hyg. 2016;94:176-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.15-0146">https://doi.org/10.4269/ajtmh.15-0146</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Qvarnstrom</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Xayavong</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>da Silva</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>SY</given-names>
+						</name>
+						<name>
+							<surname>Whelen</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Calimlim</surname>
+							<given-names>PS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Real-time polymerase chain reaction detection of Angiostrongylus cantonensis DNA in cerebrospinal fluid from patients with eosinophilic meningitis</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2016</year>
+					<volume>94</volume>
+					<fpage>176</fpage>
+					<lpage>181</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.15-0146">https://doi.org/10.4269/ajtmh.15-0146</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Pinilla G, Cubillos K, Rodríguez M. Bodas de plata de la reacción en cadena de la polimerasa (PCR). NOVA. 2008;6:65-75.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pinilla</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Cubillos</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Bodas de plata de la reacción en cadena de la polimerasa (PCR)</article-title>
+					<source>NOVA</source>
+					<year>2008</year>
+					<volume>6</volume>
+					<fpage>65</fpage>
+					<lpage>75</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Giulietti A, Overbergh L, Valckx D, Decallonne B, Bouillon R, Mathieu C. An overview of real-time quantitative PCR: Applications to quantify cytokine gene expression. Methods. 2001;25:386-401. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/meth.2001.1261">https://doi.org/10.1006/meth.2001.1261</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giulietti</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Overbergh</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Valckx</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Decallonne</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Bouillon</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mathieu</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>An overview of real-time quantitative PCR: Applications to quantify cytokine gene expression</article-title>
+					<source>Methods</source>
+					<year>2001</year>
+					<volume>25</volume>
+					<fpage>386</fpage>
+					<lpage>401</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/meth.2001.1261">https://doi.org/10.1006/meth.2001.1261</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Henegariu O, Heerema NA, Dlouhy SR, Vance GH, Vogt PH. Multiplex PCR: Critical parameters and step-by-step protocol. Biotechniques. 1997;23:504-11.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Henegariu</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Heerema</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Dlouhy</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Vance</surname>
+							<given-names>GH</given-names>
+						</name>
+						<name>
+							<surname>Vogt</surname>
+							<given-names>PH</given-names>
+						</name>
+					</person-group>
+					<article-title>Multiplex PCR Critical parameters and step-by-step protocol</article-title>
+					<source>Biotechniques</source>
+					<year>1997</year>
+					<volume>23</volume>
+					<fpage>504</fpage>
+					<lpage>511</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Markoulatos P, Siafakas N, Moncany M. Multiplex polymerase chain reaction: A practical approach. J Clin Lab Anal. 2002;16:47-51.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Markoulatos</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Siafakas</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Moncany</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Multiplex polymerase chain reaction A practical approach</article-title>
+					<source>J Clin Lab Anal</source>
+					<year>2002</year>
+					<volume>16</volume>
+					<fpage>47</fpage>
+					<lpage>51</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Caldillá JS, Paz AA, Fernández-de Mera JJ, Galarraga-Inza J, Cruz-Guerrero G. Meningoencefalomielitis por Angiostrongylus cantonensis con afectación pulmonar. An Esp Pediatr. 1998;49:308-10.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caldillá</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Paz</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Fernández-de Mera</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Galarraga-Inza</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cruz-Guerrero</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Meningoencefalomielitis por Angiostrongylus cantonensis con afectación pulmonar</article-title>
+					<source>An Esp Pediatr</source>
+					<year>1998</year>
+					<volume>49</volume>
+					<fpage>308</fpage>
+					<lpage>310</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Sauerbrey M. A precipitin test for the diagnosis of human abdominal angiostrongyliasis. Am J Trop Med Hyg. 1977;26:1156-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sauerbrey</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>A precipitin test for the diagnosis of human abdominal angiostrongyliasis</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>1977</year>
+					<volume>26</volume>
+					<fpage>1156</fpage>
+					<lpage>1158</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Wei FR, Liu HX, Lv S, Hu L, Zhang Y. Multiplex PCR assay for the detection of Angiostrongylus cantonensis larvae in Pomacea canaliculata. Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi. 2010;28:355-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wei</surname>
+							<given-names>FR</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>HX</given-names>
+						</name>
+						<name>
+							<surname>Lv</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Multiplex PCR assay for the detection of Angiostrongylus cantonensis larvae in Pomacea canaliculata</article-title>
+					<source>Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi</source>
+					<year>2010</year>
+					<volume>28</volume>
+					<fpage>355</fpage>
+					<lpage>358</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Jarvi SI, Farías ME, Howe K, Jacquier S, Hollingsworth R, Pitt W. Quantitative PCR estimates Angiostrongylus cantonensis (rat lungworm) infection levels in semi-slugs (Parmarion martensi). Mol Biochem Parasitol. 2012;185:174-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molbiopara.2012.08.002">https://doi.org/10.1016/j.molbiopara.2012.08.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jarvi</surname>
+							<given-names>SI</given-names>
+						</name>
+						<name>
+							<surname>Farías</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Howe</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Jacquier</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hollingsworth</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pitt</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Quantitative PCR estimates Angiostrongylus cantonensis (rat lungworm) infection levels in semi-slugs (Parmarion martensi)</article-title>
+					<source>Mol Biochem Parasitol</source>
+					<year>2012</year>
+					<volume>185</volume>
+					<fpage>174</fpage>
+					<lpage>176</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molbiopara.2012.08.002">https://doi.org/10.1016/j.molbiopara.2012.08.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Eamsobhana P, Wanachiwanawin D, Dechkum N, Parsartvit A, Yong HS. Molecular diagnosis of eosinophilic meningitis due to Angiostrongylus cantonensis (Nematoda:Metastrongyloidea) by polymerase chain reaction-DNA sequencing of cerebrospinal fluids of patients. Mem Inst Oswaldo Cruz. 2013;108:116-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762013000100020">https://doi.org/10.1590/S0074-02762013000100020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Eamsobhana</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Wanachiwanawin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dechkum</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Parsartvit</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Yong</surname>
+							<given-names>HS</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular diagnosis of eosinophilic meningitis due to Angiostrongylus cantonensis (Nematoda:Metastrongyloidea) by polymerase chain reaction-DNA sequencing of cerebrospinal fluids of patients</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2013</year>
+					<volume>108</volume>
+					<fpage>116</fpage>
+					<lpage>118</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762013000100020">https://doi.org/10.1590/S0074-02762013000100020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Graeff-Teixeira C, Agostini AA, Camillo-Coura L, Ferreira-da Cruz MF. Seroepidemiology of abdominal angiostrongyliasis: The standardization of an immuno-enzymatic assay and prevalence of antibodies in two localities in Southern Brazil. Trop Med Int Health. 1997;2:254-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-3156.1997.d01-266.x">https://doi.org/10.1046/j.1365-3156.1997.d01-266.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Graeff-Teixeira</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Agostini</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Camillo-Coura</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ferreira-da Cruz</surname>
+							<given-names>MF</given-names>
+						</name>
+					</person-group>
+					<article-title>Seroepidemiology of abdominal angiostrongyliasis: The standardization of an immuno-enzymatic assay and prevalence of antibodies in two localities in Southern Brazil</article-title>
+					<source>Trop Med Int Health</source>
+					<year>1997</year>
+					<volume>2</volume>
+					<fpage>254</fpage>
+					<lpage>260</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-3156.1997.d01-266.x">https://doi.org/10.1046/j.1365-3156.1997.d01-266.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Geiger SM, Laitano AC, Sievers-Tostes C, Agostini AA, Schulz-Key H, Graeff-Teixeira C. Detection of the acute phase of abdominal angiostrongyliasis with a parasite specific IgG enzyme linked immunosorbent assay. Mem Inst Oswaldo Cruz. 2001;96:515-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762001000400012">https://doi.org/10.1590/S0074-02762001000400012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Geiger</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Laitano</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Sievers-Tostes</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Agostini</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Schulz-Key</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Graeff-Teixeira</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Detection of the acute phase of abdominal angiostrongyliasis with a parasite specific IgG enzyme linked immunosorbent assay</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2001</year>
+					<volume>96</volume>
+					<fpage>515</fpage>
+					<lpage>518</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762001000400012">https://doi.org/10.1590/S0074-02762001000400012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Abraham SE, Schulz-Key H, Geiger S. Caracterización de antígenos de bajo peso molecular de Angiostrongylus costaricensis reconocidos durante una infección experimental en roedores. Parasitol Latinoam. 2004;59:8-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0717-77122004000100002">https://doi.org/10.4067/S0717-77122004000100002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abraham</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Schulz-Key</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Geiger</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Caracterización de antígenos de bajo peso molecular de Angiostrongylus costaricensis reconocidos durante una infección experimental en roedores</article-title>
+					<source>Parasitol Latinoam</source>
+					<year>2004</year>
+					<volume>59</volume>
+					<fpage>8</fpage>
+					<lpage>13</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0717-77122004000100002">https://doi.org/10.4067/S0717-77122004000100002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Abrahams SE, Hoffmann WH, Graeff-Teixeira C, Schulz-Key H, Geiger SM. Long-term observations on mouse strains experimentally infected with Angiostrongylus costaricensis. Parasitol Res. 2004;93:230-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00436-004-1108-6">https://doi.org/10.1007/s00436-004-1108-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abrahams</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Hoffmann</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Graeff-Teixeira</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Schulz-Key</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Geiger</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Long-term observations on mouse strains experimentally infected with Angiostrongylus costaricensis</article-title>
+					<source>Parasitol Res</source>
+					<year>2004</year>
+					<volume>93</volume>
+					<fpage>230</fpage>
+					<lpage>234</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00436-004-1108-6">https://doi.org/10.1007/s00436-004-1108-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Silva AC, Graeff-Teixeira C, Zaha A. Diagnosis of abdominal angiostrongiliasis by PCR from sera of patients. Rev Inst Med Trop Sao Paulo. 2003;45:295-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0036-46652003000500011">https://doi.org/10.1590/S0036-46652003000500011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Graeff-Teixeira</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Zaha</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnosis of abdominal angiostrongiliasis by PCR from sera of patients</article-title>
+					<source>Rev Inst Med Trop Sao Paulo</source>
+					<year>2003</year>
+					<volume>45</volume>
+					<fpage>295</fpage>
+					<lpage>297</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0036-46652003000500011">https://doi.org/10.1590/S0036-46652003000500011</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Di Cesare A, Traversa D. Canine angiostrongylosis: Recent advances in diagnosis, prevention, and treatment. Vet Res. 2014;5:181-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/VMRR.S53641">https://doi.org/10.2147/VMRR.S53641</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Di Cesare</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Traversa</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Canine angiostrongylosis: Recent advances in diagnosis, prevention, and treatment.</article-title>
+					<source>Vet Res</source>
+					<year>2014</year>
+					<volume>5</volume>
+					<fpage>181</fpage>
+					<lpage>192</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/VMRR.S53641">https://doi.org/10.2147/VMRR.S53641</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Miglio A, Antognoni MT, Mangili V. What is your diagnosis? Bronchoalveolar lavage and cerebrospinal fluid from a dog in Italy. Vet Clin Pathol. 2013;42:109-10. https://doi.org/10.1111/vcp.12000</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miglio</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Antognoni</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Mangili</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>What is your diagnosis? Bronchoalveolar lavage and cerebrospinal fluid from a dog in Italy</article-title>
+					<source>Vet Clin Pathol</source>
+					<year>2013</year>
+					<volume>42</volume>
+					<fpage>109</fpage>
+					<lpage>110</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Helm J, Gilleard JS, Jackson M, Redman E, Bell R. A case of canine Angiostrongylus vasorum in Scotland confirmed by PCR and sequence analysis. J Small Anim Pract. 2009;50:255-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1748-5827.2009.00741.x">https://doi.org/10.1111/j.1748-5827.2009.00741.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Helm</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gilleard</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Jackson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Redman</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Bell</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>A case of canine Angiostrongylus vasorum in Scotland confirmed by PCR and sequence analysis</article-title>
+					<source>J Small Anim Pract</source>
+					<year>2009</year>
+					<volume>50</volume>
+					<fpage>255</fpage>
+					<lpage>259</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1748-5827.2009.00741.x">https://doi.org/10.1111/j.1748-5827.2009.00741.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Jefferies R, Morgan ER, Shaw SE. A SYBR green real-time PCR assay for the detection of the nematode Angiostrongylus vasorum in definitive and intermediate hosts. Vet Parasitol. 2009;166:112-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/.1016/j.vetpar.2009.07.042">https://doi.org/.1016/j.vetpar.2009.07.042</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jefferies</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Morgan</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<article-title>A SYBR green real-time PCR assay for the detection of the nematode Angiostrongylus vasorum in definitive and intermediate hosts</article-title>
+					<source>Vet Parasitol</source>
+					<year>2009</year>
+					<volume>166</volume>
+					<fpage>112</fpage>
+					<lpage>118</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/.1016/j.vetpar.2009.07.042">https://doi.org/.1016/j.vetpar.2009.07.042</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Jefferies R, Morgan ER, Helm J, Robinson M, Shaw SE. Improved detection of canine Angiostrongylus vasorum infection using real-time PCR and indirect ELISA. Parasitol Res. 2011;109:1577-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00436-011-2414-4">https://doi.org/10.1007/s00436-011-2414-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jefferies</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Morgan</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Helm</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Robinson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<article-title>Improved detection of canine Angiostrongylus vasorum infection using real-time PCR and indirect ELISA</article-title>
+					<source>Parasitol Res</source>
+					<year>2011</year>
+					<volume>109</volume>
+					<fpage>1577</fpage>
+					<lpage>1583</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00436-011-2414-4">https://doi.org/10.1007/s00436-011-2414-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Thiengo S, Fernandez M, Torres E, Coelho P, Lanfredi R. First record of a nematode Metastrongyloidea (Aeluro-strongylus abstrusus larvae) in Achatina (Lissachatina) fulica (Mollusca, Achatinidae) in Brazil. J Invertebr Pathol. 2008;98:34-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jip.2007.10.010">https://doi.org/10.1016/j.jip.2007.10.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thiengo</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fernandez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Coelho</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lanfredi</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>First record of a nematode Metastrongyloidea (Aeluro-strongylus abstrusus larvae) in Achatina (Lissachatina) fulica (Mollusca, Achatinidae) in Brazil</article-title>
+					<source>J Invertebr Pathol</source>
+					<year>2008</year>
+					<volume>98</volume>
+					<fpage>34</fpage>
+					<lpage>39</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jip.2007.10.010">https://doi.org/10.1016/j.jip.2007.10.010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Wang QP, Lai DH, Zhu XQ, Chen XG, Lun ZR. Human angiostrongyliasis. Lancet Infect Dis. 2008;8:621-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(08)70229-9">https://doi.org/10.1016/S1473-3099(08)70229-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>QP</given-names>
+						</name>
+						<name>
+							<surname>Lai</surname>
+							<given-names>DH</given-names>
+						</name>
+						<name>
+							<surname>Zhu</surname>
+							<given-names>XQ</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>XG</given-names>
+						</name>
+						<name>
+							<surname>Lun</surname>
+							<given-names>ZR</given-names>
+						</name>
+					</person-group>
+					<article-title>Human angiostrongyliasis</article-title>
+					<source>Lancet Infect Dis</source>
+					<year>2008</year>
+					<volume>8</volume>
+					<fpage>621</fpage>
+					<lpage>630</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(08)70229-9">https://doi.org/10.1016/S1473-3099(08)70229-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Aziz NA, Daly E, Allen S, Rowson B, Greig C, Forman D, et al. Distribution of Angiostrongylus vasorum and its gastropod intermediate hosts along the rural-urban gradient in two cities in the United Kingdom, using real time PCR. Parasit Vectors. 2016;2:56 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-016-1338-3">https://doi.org/10.1186/s13071-016-1338-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aziz</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Daly</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rowson</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Greig</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Forman</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Distribution of Angiostrongylus vasorum and its gastropod intermediate hosts along the rural-urban gradient in two cities in the United Kingdom, using real time PCR</article-title>
+					<source>Parasit Vectors</source>
+					<year>2016</year>
+					<volume>2</volume>
+					<fpage>56</fpage>
+					<lpage>56</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-016-1338-3">https://doi.org/10.1186/s13071-016-1338-3</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación</label>
+				<p> Esta investigación se hizo en el marco del proyecto “Control del caracol plaga Achatina fulica en Santa Fe de Antioquia y disminución del riesgo sobre la salud de las personas y la agricultura local con la participación activa de la comunidad”, código 46 0000 10 73, financiado con recursos del programa de regalías 2013, a través de la Secretaría de Agricultura y Desarrollo Rural de Antioquia. También, recibió financiación del Programa de Estudio y Control de Enfermedades Tropicales (PECET), del Grupo de Microbiología Ambiental, de la Escuela de Microbiología de la Universidad de Antioquia y del Programa Joven Investigador de Colciencias 2014, convenio de beca de pasantía No JIC 169-2014.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

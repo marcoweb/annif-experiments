@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">iat</journal-id>
+			<journal-title-group>
+				<journal-title>Iatreia</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Iatreia</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2011-7965</issn>
+			<issn pub-type="ppub">0121-0793</issn>
+			<publisher>
+				<publisher-name>Universidad de Antioquia</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.17533/udea.iatreia.54</article-id>
+			<article-id pub-id-type="publisher-id">00001</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Modelado matemático de la evolución del daño miocárdico en la enfermedad de Chagas<xref ref-type="fn" rid="fn2">**</xref>
+				</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Mathematical Modelling Support of Myocardial Damage Evolution in Chaga’s Disease</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Sánchez-de Zambrano</surname>
+						<given-names>Betsy Mirley</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rojas-Sulbarán</surname>
+						<given-names>Rubén Darío</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Profesor titular. Decanato de Investigación. Grupo de Bioingeniería. Universidad Nacional Experimental del Táchira. San Cristóbal, Estado Táchira, Venezuela.</institution>
+				<institution content-type="normalized">Universidad Nacional Experimental del Táchira</institution>
+				<institution content-type="orgname">Universidad Nacional Experimental del Táchira</institution>
+				<addr-line>
+					<named-content content-type="city">San Cristóbal</named-content>
+					<named-content content-type="state">Estado Táchira</named-content>
+				</addr-line>
+				<country country="VE">Venezuela</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Profesor titular (jubilado). Universidad de los Andes. Mérida, Venezuela.</institution>
+				<institution content-type="normalized">Universidad de Los Andes</institution>
+				<institution content-type="orgname">Universidad de los Andes</institution>
+				<addr-line>
+					<named-content content-type="city">Mérida</named-content>
+				</addr-line>
+				<country country="VE">Venezuela</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Correspondencia: Betsy Mirley Sánchez de Zambrano; <email>bsanchez@unet.edu.ve</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label><bold>CONFLICTOS DE INTERESES</bold>:</label>
+					<p> Ninguno por declarar.</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Oct-Dec</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>33</volume>
+			<issue>4</issue>
+			<fpage>313</fpage>
+			<lpage>323</lpage>
+			<history>
+				<date date-type="received">
+					<day>22</day>
+					<month>02</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>22</day>
+					<month>07</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Objetivos:</title>
+					<p> este artículo presenta un estudio preliminar <italic>in silico</italic> para representar el progreso de la enfermedad cardíaca de Chagas (ECCH). El objetivo de la investigación es obtener un soporte basado en la simulación a través de un modelo matemático de las condiciones de cada una de las teorías que intentan explicar la patología cardíaca chagásica, para verificar el comportamiento de las variables hemodinámicas del sistema cardiovascular y el control nervioso, aportando información de carácter teórico para resolver la controversia sobre la evolución del daño miocárdico en la ECCH.</p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p> el presente estudio se basa en los resultados hemodinámicos publicados, previamente en un estudio específico sobre la enfermedad de Chagas. Estos datos fueron tomados de una investigación previa de pacientes con la enfermedad, quienes presentaron los signos cineangiográficos de daño miocárdico temprano y la evolución de la lesión característica de la ECCH, en una. A través del modelo matemático se representaron dos hipótesis diferentes sobre la patogénesis de la ECCH crónica: la Neurogénica y la Neurogénica modificada y unificadora.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> al modificar los parámetros de contractilidad y distensibilidad las salidas del modelo se aproximaron a los datos de los pacientes. Mientras que las modificaciones en la inervación nerviosa no produjeron cambios en las variables hemodinámicas.</p>
+				</sec>
+				<sec>
+					<title>Discusión:</title>
+					<p> estos resultados apuntalan a la teoría de que el daño miocárdico no es solo producto del daño nervioso, sino que es una consecuencia directa de los cambios progresivos de distensibilidad y contractilidad producidos por la presencia de la ECCH, dando así, mayor sustento a la teoría Neurogénica modificada y unificadora con respecto a la expuesta por Koberle.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>SUMMARY</title>
+				<sec>
+					<title>Objectives:</title>
+					<p> This article presents a preliminary <italic>in silico</italic> study to represent the progress of Chagas heart disease (ECCH). The objective of the research is to obtain a support based on the simulation, through a mathematical model, of the conditions of each of the theories that try to explain the chagasic cardiac pathology to verify the behavior of the hemodynamic variables of the cardiovascular system and the control nervous by providing theoretical information to resolve the controversy about the evolution of myocardial damage in the ECCH.</p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> The present study is based on previously published hemodynamic results, in a specific study on Chagas disease. These data were taken from a previous investigation of patients with the disease, who presented the cine-angiographic signs of early myocardial damage and the evolution of the characteristic ECCH lesion, in one. Through the mathematical model, two different hypotheses on pathogenesis of chronic ECCH, the Neurogenic and the modified and unifying Neurogenic were represented.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> When modifying the contractility and compliance parameters, the model outputs approached the patient data. While changes in nerve supply did not produce changes in hemodynamic variables.</p>
+				</sec>
+				<sec>
+					<title>Discussion:</title>
+					<p> These results underpin the theory that myocardial damage is not only a product of nerve damage, but is a direct consequence of the progressive changes in distensibility and contractility caused by the presence of ECCH, giving greater support to neurogenic theory. Modified and unifying with respect to that exposed by Koberle.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>PALABRAS CLAVE:</title>
+				<kwd>Cardiomiopatía Chagásica</kwd>
+				<kwd>Simulación por Computador</kwd>
+				<kwd>Sistema Nervioso Autónomo</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>KEYWORDS:</title>
+				<kwd>Autonomic Nervous System</kwd>
+				<kwd>Chagas Cardiomyopathy</kwd>
+				<kwd>Computer Simulation</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="4"/>
+				<equation-count count="10"/>
+				<ref-count count="25"/>
+				<page-count count="11"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCCIÓN</title>
+			<p>El modelado permite la representación matemática de diferentes tipos de procesos para su análisis en diferentes escalas. En el campo de la medicina, los ingenieros biomédicos han utilizado esta herramienta para el estudio de los sistemas fisiológicos con el fin de lograr una mejor comprensión de estos. Por otro lado, el sistema cardiovascular ha sido objeto de estudio para el desarrollo de diferentes modelos matemáticos donde se han abstraído las principales características, dependiendo de las necesidades y los objetivos de cada estudio. En nuestro caso, se propone el uso de un modelo del sistema cardiovascular y su control nervioso sobre la actividad cardíaca para el análisis de la progresión del daño miocárdico en la ECCH.</p>
+			<p>La enfermedad de Chagas es una enfermedad tropical endémica producida por el <italic>Trypanosoma cruzi</italic>. Se ha propagado en varios países según casos notificados desde el sur de los Estados Unidos hasta el sur de Argentina, principalmente en las zonas rurales pobres de México, América Central y América del Sur. Por tal razón. Se ha convertido en un importante problema de salud en América Latina (<xref ref-type="bibr" rid="B1">1</xref>).</p>
+			<p>Al principio, la mayoría de los casos permanecen asintomáticos, pero después de 10 a 20 años, algunos pacientes comienzan a mostrar progresivamente signos electrocardiográficos de daño miocárdico según cada estadio de la enfermedad. Este daño se caracteriza por una considerable ampliación de los ventrículos que puede conducir a una muerte súbita. Sin embargo, un alto porcentaje de sujetos infectados no muestra ningún síntoma ni declaración clínica en el transcurso de su vida, por lo que la enfermedad permanece en una forma indeterminada. Estos sujetos actúan como reservorios del parásito y ayudan a mantener el ciclo de su vida (<xref ref-type="bibr" rid="B2">2</xref>).</p>
+			<p>Aunque esta enfermedad ha sido ampliamente estudiada, no hay una razón clara y definitiva que explique la causa del daño del miocardio. Existen dos hipótesis que lo justifican. La primera se conoce como teoría Neurogénica. Propuesta por Koberle, quien estableció que el daño es producido por la denervación parasimpática y la influencia simpática, que traen como consecuencia el adelgazamiento del ápex del ventrículo izquierdo y la progresiva dilatación de las cámaras cardíacas (<xref ref-type="bibr" rid="B3">3</xref><sup>,</sup><xref ref-type="bibr" rid="B4">4</xref>). Esta teoría está respaldada por algunas investigaciones realizadas en Brasil (<xref ref-type="bibr" rid="B5">5</xref>). Sin embargo, en estudios realizados en pacientes venezolanos con la enfermedad de Chagas, se detectaron alteraciones parasimpáticas justo después de haberse producido un importante avance en el deterioro de las cámaras cardíacas; insinuando así, la segunda hipótesis: neurogénica modificada y unificadora. Esta establece que la denervación parasimpática no representa una causa, sino una consecuencia de la remodelación ventricular (<xref ref-type="bibr" rid="B6">6</xref><sup>,</sup><xref ref-type="bibr" rid="B7">7</xref>).</p>
+			<p>Se realizó un estudio <italic>in silico</italic> utilizando los datos y resultados reportados por Carrasco et al., en una investigación relacionada con la detección precoz del daño miocárdico como consecuencia de la enfermedad de Chagas y los diferentes estadios evolutivos (I, II y III) (<xref ref-type="bibr" rid="B6">6</xref>). Específicamente, en este trabajo de investigación, se representaron en un modelo matemático las lesiones cardíacas relacionadas con la contractilidad y distensibilidad del ventrículo izquierdo y se utilizaron los hallazgos hemodinámicos informados en el estudio para la comparación.</p>
+			<p>El modelo matemático del sistema cardiovascular que se utilizó para este análisis se desarrolló bajo el enfoque compartimental. Este enfoque ha demostrado en diversas investigaciones ser excelente para modelar los procesos fisiológicos del sistema cardiovascular en diferentes condiciones (<xref ref-type="bibr" rid="B8">8</xref>-<xref ref-type="bibr" rid="B16">16</xref>). El modelo incluye el sistema cardiovascular (SC), corazón y vasos, y el reflejo del barorreceptor como mecanismo de control de la presión arterial (PA). Este reflejo es el principal mecanismo de control del SC. Una de sus principales tareas es mantener la PA en los niveles adecuados para conservar el equilibrio de las funciones cardíacas junto con la acción del sistema nervioso central (SNC) a través del sistema nervioso autónomo (SNA), sistema simpático y parasimpático. Básicamente, este reflejo se inicia por receptores de distensión denominados barorreceptores o presorreceptores, localizados en las paredes de las grandes arterías sistémicas.</p>
+			<p>La elevación de la PA distiende los barorreceptores y les hace transmitir señales al interior del sistema nervioso central, desde donde vuelven señales de retroacción a la circulación para reducir la presión hasta su valor normal, realizando igualmente el proceso inverso. Para el mecanismo de control el modelo utiliza las ecuaciones matemáticas de los controladores proporcional, integral y derivativo (PID), que funcionan bajo el principio de realimentación de lazo cerrado adaptándose al principal mecanismo homeostático fisiológico.</p>
+			<p>El estudio consistió en utilizar los parámetros y variables del modelo para simular el avance progresivo de las lesiones que aparecen en la enfermedad de Chagas, tanto en el corazón como en el sistema nervioso. Al realizar las simulaciones de los cambios reportados en cada una de las teorías sobre la patología cardíaca en la enfermedad, se intenta establecer, a través del modelo, que el daño miocárdico no es producto de la denervación parasimpática, respaldando así a la teoría Neurogénica modificada.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METODOLOGÍA</title>
+			<p>En esta sección se explican las etapas en el desarrollo del estudio. Se detalla en primer lugar el modelo matemático base, se describen los datos experimentales utilizados para las pruebas realizadas en el modelo. Posteriormente, los datos experimentales son simulados en el modelo ajustado con base en las dos teorías que intentan explicar el daño miocárdico y la función de las características de cada estadio de la ECCH.</p>
+			<sec>
+				<title>Modelo matemático</title>
+				<p>Se utiliza como base para este estudio un modelo matemático del sistema cardiovascular desarrollado por Danielsen (<xref ref-type="bibr" rid="B12">12</xref>), modificado por Sánchez y Rojas quienes incluyeron el modelo del sistema de control autónomo como una respuesta del sistema cardiovascular al reflejo del barorreceptor (<xref ref-type="bibr" rid="B16">16</xref>). Es un modelo compartimental que incluye el corazón, el sistema circulatorio y el reflejo del barorreceptor como mecanismo de control de la presión arterial.</p>
+				<p>La <xref ref-type="fig" rid="f1">Figura 1</xref> muestra el esquema del sistema cardiovascular y del control nervioso utilizado en la investigación.</p>
+				<p>El corazón está representado por ecuaciones basadas en su comportamiento mecánico. Tanto el ventrículo izquierdo como la aurícula se definen por medio de una elastancia de tiempo variable de acuerdo con las ecuaciones ec.1, ec.2 y ec.3, respectivamente (<xref ref-type="bibr" rid="B12">12</xref><sup>,</sup><xref ref-type="bibr" rid="B13">13</xref><sup>,</sup><xref ref-type="bibr" rid="B16">16</xref><sup>,</sup><xref ref-type="bibr" rid="B17">17</xref>).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Diagrama de bloques del sistema de control nervioso sobre la presión. FC: frecuencia cardíaca. ∆Cv: contribución del sistema nervioso sobre la compliancia venosa. ∆ra: contribución del sistema nervioso sobre el radio arteriolar. GC: gasto cardíaco. PAM: presión arterial media. Fuente: (<xref ref-type="bibr" rid="B16">16</xref>)</title>
+						</caption>
+						<graphic xlink:href="2011-7965-iat-33-04-313-gf1.png"/>
+					</fig>
+				</p>
+				<p>La elastancia del ventrículo izquierdo, E<sub><italic>lv</italic></sub> , se define por una suma ponderada de dos señales sinusoidales para el período de contracción ventricular y una constante para el período diastólico de la siguiente manera:</p>
+				<p>
+					<disp-formula id="e1">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e1.png"/>
+					</disp-formula>
+				</p>
+				<p>Donde q<italic>(t)</italic> representa la fase de eyección ventricular:</p>
+				<p>
+					<disp-formula id="e2">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e2.png"/>
+					</disp-formula>
+				</p>
+				<p>E<sub>
+ <italic>min</italic>
+</sub> y E<sub>
+ <italic>max</italic> 
+</sub> son los valores mínimos diastólicos y máximos sistólicos de la función de elastancia ventricular, respectivamente. T<sub>
+ <italic>t</italic>
+</sub> , es el período de tiempo total del ciclo cardíaco y, t<sub>
+ <italic>s</italic>
+</sub> , es el período de tiempo de la sístole, a y b son constantes que definen la amplitud de la onda.</p>
+				<p>
+					<disp-formula id="e3">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e3.png"/>
+					</disp-formula>
+				</p>
+				<p>La elastancia, E<sub>
+ <italic>la</italic>
+</sub> , también se define como variable en el tiempo, de acuerdo con la siguiente ecuación (<xref ref-type="bibr" rid="B17">17</xref>):</p>
+				<p>Donde <italic>m</italic> y <italic>p</italic> son constantes que definen la amplitud de onda; <italic>n</italic> y q constantes que definen el período de tiempo de la onda y, <italic>t*</italic>, es el tiempo aproximado para la ocurrencia de la contracción auricular.</p>
+				<p>El flujo ventricular izquierdo (Q<sub>
+ <italic>lv</italic>
+</sub> ), el volumen (V<sub>
+ <italic>lv</italic>
+</sub> ) y la presión (P<sub>
+ <italic>lv</italic>
+</sub> ) se definen por medio de ecuaciones diferenciales simples. Las ecuaciones de la ec.4 a la ec.7 muestran las diferentes relaciones entre presión, volumen y flujo en la cámara cardíaca izquierda (las ecuaciones para el lado derecho son similares) (<xref ref-type="bibr" rid="B12">12</xref><sup>,</sup><xref ref-type="bibr" rid="B13">13</xref>).</p>
+				<p>
+					<disp-formula id="e4">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e4.png"/>
+					</disp-formula>
+				</p>
+				<p>
+					<disp-formula id="e5">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e5.png"/>
+					</disp-formula>
+				</p>
+				<p>
+					<disp-formula id="e6">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e6.png"/>
+					</disp-formula>
+				</p>
+				<p>
+					<disp-formula id="e7">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e7.png"/>
+					</disp-formula>
+				</p>
+				<p><italic>V</italic>
+ <sub>
+ <italic>o,lv</italic>
+</sub> corresponden al volumen muerto a presión cero en el ventrículo izquierdo; <italic>Q</italic>
+ <sub>
+ <italic>la</italic>
+</sub> , es el flujo auricular izquierdo; <italic>Q</italic>
+ <sub>
+ <italic>lv</italic>
+</sub> , el flujo del ventrículo izquierdo; <italic>R</italic>
+ <sub>
+ <italic>la</italic>
+</sub> e <italic>I</italic>
+ <sub>
+ <italic>la</italic>
+</sub> , corresponden a los elementos resistivos e inductivos que simulan las propiedades inerciales y viscosas de la sangre; <italic>P</italic>
+ <sub>
+ <italic>la</italic>
+</sub> , presión auricular izquierda; <italic>E</italic>
+ <sub>
+ <italic>la</italic>
+</sub> , elastancia auricular izquierda; <italic>V</italic>
+ <sub>
+ <italic>la</italic>
+</sub> , volumen auricular izquierdo y, <italic>V</italic>
+ <sub>
+ <italic>0</italic>
+</sub> , volumen muerto en la aurícula izquierda.</p>
+				<p>
+					<disp-formula id="e8">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e8.png"/>
+					</disp-formula>
+				</p>
+				<p>La circulación sistémica se modela utilizando la relación de flujo de Poiseuille (<xref ref-type="bibr" rid="B18">18</xref>), que permite una acción directa del control nervioso sobre el radio de los vasos considerados.</p>
+				<p>Δ<italic>p</italic> es la presión diferencial, ρ viscosidad sanguínea, <italic>L</italic> longitud y <italic>r</italic> el radio del vaso. Como parte de la validación del modelo matemático utilizado, se muestran las variables hemodinámicas generadas por él encargadas de definir el funcionamiento del sistema cardiovascular (<xref ref-type="table" rid="t1">Tabla 1</xref>). Se puede apreciar que las variables hemodinámicas calculadas a partir del modelo están dentro de los valores referenciales reportados en la literatura, logrando así, simular el comportamiento en un estado normal del sistema cardiovascular.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Tabla 1</label>
+						<caption>
+							<title>Variables hemodinámicas que definen el funcionamiento del sistema cardiovascular generadas por el modelo, junto con los valores referenciales</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center">Variable</th>
+									<th align="center">Unidades</th>
+									<th align="center">Valor generado por el modelo</th>
+									<th align="center">Valor referencial aproximado (30)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center">VFD</td>
+									<td align="center">ml</td>
+									<td align="center">126,89 </td>
+									<td align="center">120 </td>
+								</tr>
+								<tr>
+									<td align="center">VFS</td>
+									<td align="center">ml</td>
+									<td align="center">54,32</td>
+									<td align="center">50</td>
+								</tr>
+								<tr>
+									<td align="center">VL</td>
+									<td align="center">ml</td>
+									<td align="center">72,56 </td>
+									<td align="center">70 </td>
+								</tr>
+								<tr>
+									<td align="center">FE</td>
+									<td align="center">%</td>
+									<td align="center">57,16</td>
+									<td align="center">60</td>
+								</tr>
+								<tr>
+									<td align="center">PFS</td>
+									<td align="center">mmHg</td>
+									<td align="center">106,63</td>
+									<td align="center">110</td>
+								</tr>
+								<tr>
+									<td align="center">FC</td>
+									<td align="center">lat/min</td>
+									<td align="center">73,74</td>
+									<td align="center">70 </td>
+								</tr>
+								<tr>
+									<td align="center">GC</td>
+									<td align="center">ml/min</td>
+									<td align="center">5.336</td>
+									<td align="center">5.000 </td>
+								</tr>
+								<tr>
+									<td align="center">PAM</td>
+									<td align="center">mmHg</td>
+									<td align="center">90</td>
+									<td align="center">90</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>VFD: volumen final diastólico. VFS: volumen final sistólico. VL: volumen latido. FE: fracción de eyección. PFS: presión final sistólica. FC: frecuencia cardíaca. GC: gasto cardíaco. PAM: presión arterial media. Fuente: (<xref ref-type="bibr" rid="B16">16</xref>)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>El control parasimpático y simpático del sistema cardiovascular se simula en función de las características fisiológicas típicas. El sistema nervioso parasimpático (SNP) tiene sinapsis de neuronas preganglionares cerca o dentro del órgano efector, lo que da como resultado una respuesta limitada, rápida y localizada (<xref ref-type="bibr" rid="B19">19</xref>). En este caso se usa el control proporcional derivativo (PD) cuando se produce un cambio en la señal de error. La señal de error (e<italic>(t)</italic>) en este caso se define como la diferencia entre la variable de salida del modelo (presión sanguínea media [PSM]) y la señal de referencia (valor fisiológico normal de la PSM normal). El controlador tiene características de predicción, lo que aumenta la velocidad de respuesta, si la derivada de e<italic>(t)</italic> es cero, la acción de control está limitada en régimen permanente (<xref ref-type="bibr" rid="B20">20</xref>). Además, la acción del sistema simpático (SNS), el cual tiene largas fibras posganglionares que terminan en el cuerpo efector final inervando, glándulas, órganos y tejidos, también una extensa ramificación periférica, mantiene la respuesta para lograr un gran equilibrio, mostrando la naturaleza amplia y masiva de la estimulación simpática (<xref ref-type="bibr" rid="B19">19</xref>). Este comportamiento está asociado con el control proporcional integral (PI), donde a través de la acción integral, un pequeño error positivo producirá un aumento en la señal de control y un error negativo lo disminuirá, no importa cuán pequeño sea el error (<xref ref-type="bibr" rid="B20">20</xref>), es esta la acción que se mantiene, lo que refleja la acción masiva del SNS.</p>
+				<p>
+					<disp-formula id="e9">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e9.png"/>
+					</disp-formula>
+				</p>
+				<p>
+					<disp-formula id="e10">
+						<graphic xlink:href="2011-7965-iat-33-04-313-e10.png"/>
+					</disp-formula>
+				</p>
+				<p>Estas relaciones entre el SNS y el SNP se producen para realizar la acción del control rápido de la presión arterial a través del control del ritmo cardíaco, cambios en la resistencia periférica (diámetro o radio de las arteriolas) y en la compliancia venosa (<xref ref-type="bibr" rid="B10">10</xref>-<xref ref-type="bibr" rid="B12">12</xref><sup>,</sup><xref ref-type="bibr" rid="B21">21</xref>). La estructura del sistema de control propuesto establece un conjunto de controladores con acciones de control PD o PI para cada efector, como se muestra en las ecuaciones ec.9 y ec.10, respectivamente.</p>
+				<p>La <xref ref-type="fig" rid="f2">Figura 2</xref> muestra cómo a partir de las variaciones de la frecuencia cardíaca y en la resistencia periférica ejecutadas por las acciones del control del SNS y el SNP, el modelo es capaz de simular el control sobre la presión arterial.</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Efecto y acción contraria del controlador ante una disminución de la presión arterial simulada con la reducción del retorno venoso en el modelo circulatorio. (a) Respuesta de la PAM. (b) Variaciones de la frecuencia cardíaca y la resistencia a través de la compliancia y el radio arteriolar, accionadas por el SNS y SNP. Fuente: (<xref ref-type="bibr" rid="B16">16</xref>)</title>
+						</caption>
+						<graphic xlink:href="2011-7965-iat-33-04-313-gf2.png"/>
+					</fig>
+				</p>
+				<p>Para un mayor detalle del modelo de control de los barorreceptores por medio de las estructuras matemáticas PD y PI se recomienda leer (<xref ref-type="bibr" rid="B16">16</xref>).</p>
+			</sec>
+			<sec>
+				<title>Datos experimentales</title>
+				<p>Los datos utilizados en la investigación se estructuran en dos partes. La primera corresponde a los datos de los pacientes chagásicos en diferentes estadios de la enfermedad (<xref ref-type="table" rid="t2">Tabla 2</xref>). En la segunda, están los valores generados por el modelo cuando se simulan las condiciones correspondientes a las hipótesis que intentan explicar el daño miocárdico. Para estos últimos, inicialmente, se toma el modelo sin ningún tipo de variación, es decir, simulando un sujeto en condiciones normales y seguidamente se realizan variaciones de los parámetros correspondientes del modelo matemático para representar cada teoría.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Tabla 2</label>
+						<caption>
+							<title>Variables hemodinámicas de los diferentes grupos (1)</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col span="4"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center" rowspan="2">Grupo</th>
+									<th align="center" colspan="4">Variables hemodinámicas </th>
+								</tr>
+								<tr>
+									<th align="center">Pra mmHg</th>
+									<th align="center">∆Ppa mmHg</th>
+									<th align="center">EDP mmHg</th>
+									<th align="center">Pao mmHg</th>
+									<th align="center">EDV ml</th>
+									<th align="center">EF %</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center">Control</td>
+									<td align="center">3 ± 1</td>
+									<td align="center">-</td>
+									<td align="center">7 ± 3</td>
+									<td align="center">97 ± 10</td>
+									<td align="center">90 ± 18</td>
+									<td align="center">68 ± 10</td>
+								</tr>
+								<tr>
+									<td align="center">Ia</td>
+									<td align="center">3 ± 1</td>
+									<td align="center">-1 ± 1</td>
+									<td align="center">7 ± 3</td>
+									<td align="center">97 ± 10</td>
+									<td align="center">96 ± 31</td>
+									<td align="center">67 ± 10</td>
+								</tr>
+								<tr>
+									<td align="center">Ib</td>
+									<td align="center">4 ± 2</td>
+									<td align="center">2 ± 4</td>
+									<td align="center">8 ± 3</td>
+									<td align="center">94 ± 13</td>
+									<td align="center">136 ± 37</td>
+									<td align="center">60 ±1</td>
+								</tr>
+								<tr>
+									<td align="center">II</td>
+									<td align="center">6 ± 6</td>
+									<td align="center">1 ± 3</td>
+									<td align="center">9 ± 3</td>
+									<td align="center">92 ± 14</td>
+									<td align="center">153 ± 53</td>
+									<td align="center">43 ±15</td>
+								</tr>
+								<tr>
+									<td align="center">III</td>
+									<td align="center">7 ± 5</td>
+									<td align="center">17 ± 4</td>
+									<td align="center">17 ± 9</td>
+									<td align="center">88 ± 19</td>
+									<td align="center">255 ± 71</td>
+									<td align="center">20 ±10</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>Pra: presión auricular derecha. ∆Ppa: valor diferencial de la presión arterial pulmonar (valor base: 13 ± 1). EDP: presión diastólica final. Pao: presión aórtica. EDV: volumen diastólico final. EF: fracción de eyección. Fuente: (<xref ref-type="bibr" rid="B16">16</xref>)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Los datos correspondientes a los pacientes chagásicos son parte de los resultados hemodinámicos previamente reportados por Carrasco et al., recopilados de pacientes con enfermedad de Chagas donde se identificaron signos cineangiográficos de daño miocárdico temprano y la evolución de la lesión característica de la ECCH. Los datos incluyen información sobre sujetos normales como grupo de Control y sobre pacientes chagásicos crónicos, divididos estos últimos, en tres grupos con diferentes estadios de evolución de la enfermedad. La <xref ref-type="table" rid="t2">Tabla 2</xref> resume los valores hemodinámicos registrados que caracterizan a cada grupo de sujetos (<xref ref-type="bibr" rid="B6">6</xref>).</p>
+				<p>126 pacientes fueron incluidos en el estudio, dieron positivo en el test de fijación del complemento (FC) (reacción de Machado-Guerreiro) sin considerar otra cardiopatía. Otro grupo de 29 sujetos resultaron negativos y se establecieron como el grupo de Control. Este estuvo conformado por 17 sujetos masculinos y 12 femeninos con edades promedio entre 38 ± 13 años. Con respecto a los pacientes chagásicos, el subgrupo Ia correspondía a 21 sujetos de sexo masculino y 9 femeninos con edades entre 20 y 46 años. El subgrupo Ib con edad promedio entre 40 ± 14 años estaba compuesto por 17 sujetos de sexo masculino y 4 femeninos. En el grupo II eran en total 39 sujetos: 24 eran de sexo masculino y 15 femenino, con edades comprendidas entre los 30 y 68 años. Por último, el grupo III estaba compuesto por 36 sujetos con un promedio entre 54 ± 11 años, de los cuales 28 eran de sexo masculino y 8 femeninos (<xref ref-type="bibr" rid="B6">6</xref>).</p>
+				<p>El grupo de Control presentó un electrocardiograma (ECG) sin cambios en los segmentos ST y T, mostró valores en los límites normales en los exámenes hemodinámicos y angiográficos. Los siguientes grupos y pacientes se clasificaron según el estado de daño miocárdico. Grupo I fueron positivos en la prueba de reacción para la enfermedad de Chagas, se dividieron en dos subgrupos: los pacientes en el subgrupo Ia presentaron estudios hemodinámicos normales, radiografía (RX) de tórax y cineangiografía del ventrículo izquierdo. Se les consideró como pacientes con solo infección sin evidencia de daño al miocardio. El subgrupo Ib, eran pacientes con ECG y RX de tórax normales con índice diastólico final del ventrículo izquierdo aumentado y, el índice de distensibilidad del ventrículo izquierdo, disminuido en el estudio hemodinámico. El grupo II presentó un ECG anormal sin evidencia clínica de insuficiencia cardíaca congestiva, valores hemodinámicos alterados, dilatación del ventrículo izquierdo, distensibilidad y fracción de eyección disminuida. Finalmente, el grupo III presentó evidencia clínica de insuficiencia cardíaca congestiva, cardiomegalia y ECG anormal, insuficiencia biventricular, elevación significativa tanto de la presión del ventrículo derecho como de la resistencia pulmonar, además, de un aumento de la presión de fin de diástole del ventrículo izquierdo y una reducción en el índice de contractilidad del índice cardíaco y de la distensibilidad (<xref ref-type="bibr" rid="B6">6</xref>).</p>
+			</sec>
+			<sec>
+				<title>Estudio comparativo</title>
+				<p>La fase de análisis de las teorías que explican el daño miocárdico se realizó simulando ambas situaciones en el modelo y observando la tendencia de las variables hemodinámicas obtenidas como resultado de dichas simulaciones.</p>
+				<p>El daño progresivo al miocardio se simuló variando gradualmente los parámetros que representan el ventrículo izquierdo en la ecuación ec.1; la elastancia máxima para la pérdida de la contractilidad y el parámetro de elastancia mínima para la pérdida de distensibilidad correspondientes (E<sub>
+ <italic>max</italic>
+</sub> y Emin, respectivamente). En este caso, no se realizaron variaciones en el mecanismo de control. Las diferencias de variación según el estado de avance de la enfermedad se pueden establecer en diferentes grupos: Control, Leve, Moderado y Alto. El grupo de Control corresponde al modelo sin ningún tipo de cambio, por lo tanto, simula las variables hemodinámicas reales para el modelo: un sujeto normal. Los grupos sucesivos muestran las variables hemodinámicas de la alteración progresiva de los parámetros seleccionados (hipótesis A: teoría Neurogénica modificada).</p>
+				<p>Como segunda fase y para representar lo que se denomina la hipótesis B (teoría Neurogénica) se simuló la denervación progresiva del control parasimpático, es decir, se alteraron o disminuyeron en un porcentaje de su valor en estado normal los parámetros del controlador PD (<italic>K</italic>
+ <sub>
+ <italic>P</italic>
+</sub> y <italic>K</italic>
+ <sub>
+ <italic>D</italic>
+</sub> ) en la ecuación (<xref ref-type="bibr" rid="B9">9</xref>), (0 % de variación equivale a un sujeto en estado normal). Se simuló, entonces, la disminución de la actividad parasimpática en 0 % (Control), 20 % (Leve), 40 % (Moderada) y 60 % (Alta). Para ambas hipótesis se registraron las variables hemodinámicas y los resultados se compararon según la tendencia de dichas variables obtenidas en las respectivas simulaciones.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTADOS</title>
+			<p>La <xref ref-type="table" rid="t3">Tabla 3</xref> resume los valores de las variables hemodinámicas del modelo resultado luego de simular el avance progresivo del daño miocárdico sin alteraciones en la inervación parasimpática (hipótesis A). El primer daño miocárdico reflejado en la enfermedad de Chagas es la pérdida de la distensibilidad, en función de esto, se reduce en un 30 % el parámetro correspondiente a la distensibilidad del ventrículo izquierdo en el modelo denominando de estos resultados como grupo Leve. Se midieron las variables observando un aumento considerable, tanto en la presión de las arterias pulmonar y aórtica como en el volumen y la presión diastólica final, además, de una disminución en la fracción de eyección. Este comportamiento se corresponde, principalmente, con los resultados informados para los sujetos de los grupos Ia y Ib analizados en el estudio de Carrasco et al., (<xref ref-type="bibr" rid="B6">6</xref>). Después de esto y como siguiente fase de la enfermedad, se disminuyó el parámetro de contractilidad representando el grupo con daño cardíaco moderado, para el cual se simuló una pérdida del 50 % de distensibilidad y 30 % de pérdida en la contractilidad. Las variables hemodinámicas obtenidas reflejan la misma tendencia de los reportados en el grupo II. Finalmente, se considera un cuarto grupo que corresponde a un estado de mayor evolución de la enfermedad (Alto), en este caso se representa mediante una pérdida del 70 % de distensibilidad y una pérdida del 60 % de contractilidad. Los resultados de este grupo muestran el mismo comportamiento de las variables obtenidas en el grupo III correspondientes al mayor daño del miocardio en el estudio considerado.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Variables hemodinámicas simuladas para la hipótesis A</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col span="4"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center" rowspan="2">Estado de evolución</th>
+								<th align="center" colspan="4">Variables hemodinámicas </th>
+							</tr>
+							<tr>
+								<th align="center">Pra mmHg</th>
+								<th align="center">Ppa MmHg</th>
+								<th align="center">EDP mmHg</th>
+								<th align="center">Pao mmHg</th>
+								<th align="center">EDV ml</th>
+								<th align="center">EF %</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center">Control</td>
+								<td align="center">2,70</td>
+								<td align="center">-</td>
+								<td align="center">5,70</td>
+								<td align="center">94,60</td>
+								<td align="center">126,57</td>
+								<td align="center">57</td>
+							</tr>
+							<tr>
+								<td align="center">Leve</td>
+								<td align="center">3,10</td>
+								<td align="center">0,10</td>
+								<td align="center">7,91</td>
+								<td align="center">113,17</td>
+								<td align="center">134,21</td>
+								<td align="center">55</td>
+							</tr>
+							<tr>
+								<td align="center">Moderado</td>
+								<td align="center">3,43</td>
+								<td align="center">-0,17</td>
+								<td align="center">10,89</td>
+								<td align="center">11,53</td>
+								<td align="center">158,10</td>
+								<td align="center">47</td>
+							</tr>
+							<tr>
+								<td align="center">Alto</td>
+								<td align="center">3,66</td>
+								<td align="center">7,76</td>
+								<td align="center">12,50</td>
+								<td align="center">98,67</td>
+								<td align="center">169,54</td>
+								<td align="center">38</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>Pra: presión auricular derecha. Ppa: valor diferencial de la presión arterial pulmonar (valor base: 13 ± 1). EDP: presión diastólica final. Pao: presión aórtica. EDV: volumen diastólico final. EF: fracción de eyección. Fuente: creación propia</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Seguidamente, se realiza el análisis relacionando la inervación parasimpática con el registro de las variables hemodinámicas estudiadas, simulando así, la hipótesis B. En la <xref ref-type="table" rid="t4">Tabla 4</xref> se muestran estos resultados (disminución de la actividad parasimpática [PS dec.]).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Variables hemodinámicas simuladas para la hipótesis B</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col span="4"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="center" rowspan="2">PS dec.</th>
+								<th align="center" colspan="4">Variables hemodinámicas </th>
+							</tr>
+							<tr>
+								<th align="center">Pra mmHg</th>
+								<th align="center">Ppa mmHg</th>
+								<th align="center">EDP mmHg</th>
+								<th align="center">Pao mmHg</th>
+								<th align="center">EDV ml</th>
+								<th align="center">EF %</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center">Control</td>
+								<td align="center">2,70</td>
+								<td align="center">-</td>
+								<td align="center">5,70</td>
+								<td align="center">94,60</td>
+								<td align="center">126,57</td>
+								<td align="center">0,57</td>
+							</tr>
+							<tr>
+								<td align="center">Leve</td>
+								<td align="center">3,07</td>
+								<td align="center">-2,57</td>
+								<td align="center">5,50</td>
+								<td align="center">104,21</td>
+								<td align="center">122,29</td>
+								<td align="center">0,56</td>
+							</tr>
+							<tr>
+								<td align="center">Moderado</td>
+								<td align="center">2,73</td>
+								<td align="center">-2,77</td>
+								<td align="center">5,38</td>
+								<td align="center">104,47</td>
+								<td align="center">119,70</td>
+								<td align="center">0,53</td>
+							</tr>
+							<tr>
+								<td align="center">Alto</td>
+								<td align="center">2,52</td>
+								<td align="center">-2,89</td>
+								<td align="center">5,18</td>
+								<td align="center">104,37</td>
+								<td align="center">115,73</td>
+								<td align="center">0,53</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>PS dec: disminución de la actividad parasimpática. Pra: presión auricular derecha. Ppa: valor diferencial de la presión arterial pulmonar (valor base: 13 ± 1). EDP: presión diastólica final. Pao: presión aórtica. EDV: volumen diastólico final. EF: fracción de eyección. Fuente: creación propia</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Estos resultados indican que la denervación parasimpática en el modelo no ocasiona, por si sola cambios inmediatos en las variables hemodinámicas, mientras que los cambios en la distensibilidad y contractilidad sí pueden ser responsables de dichas variaciones.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSIÓN</title>
+			<p>De acuerdo con los resultados obtenidos en función a los cambios en los parámetros del modelo relacionados con la remodelación ventricular y la inervación nerviosa, se observó que solo la denervación parasimpática no causa cambios inmediatos en las variables hemodinámicas, mientras que los cambios en la distensibilidad y la contractilidad pueden ser responsables de los mayores cambios hemodinámicos. Aunque los resultados obtenidos no son concluyentes se puede suponer que el avance en el daño miocárdico en la fase aguda de la enfermedad puede deberse a la remodelación ventricular y no solo a la denervación parasimpática.</p>
+			<p>Es importante tener en cuenta que todas las fallas cardíacas incluyen alteraciones del sistema nervioso autónomo que causan un desequilibrio con una mayor actividad simpática y una actividad parasimpática disminuida (<xref ref-type="bibr" rid="B22">22</xref>). El estudio se centró en la discusión sobre la causa y el avance de la disfunción cardíaca en la enfermedad de Chagas utilizando un modelo matemático que permite, a través de la variación de sus parámetros, simular la relación entre el sistema cardiovascular y el sistema nervioso, que están comprometidos en la patología chagásica según las teorías existentes.</p>
+			<p>Se han utilizado modelos matemáticos en investigaciones sobre la enfermedad de Chagas con diversos objetivos, tales como en el avance de la enfermedad y el sistema inmune (<xref ref-type="bibr" rid="B23">23</xref>); otros referidos a la dinámica o forma de transmisión (<xref ref-type="bibr" rid="B24">24</xref>-<xref ref-type="bibr" rid="B25">25</xref>). Sin embargo, su utilización en el estudio de la progresión del daño miocárdico, según la literatura revisada, no había sido aplicado, lo que permite que a través de esta investigación, se pueda proporcionar información sobre la controversia entre las teorías que intentan explicar el daño, de forma tal, para encontrar un diagnóstico preciso que conlleve a un mejor tratamiento de la enfermedad y que mejore la calidad de vida de los pacientes, demostrando que el modelado matemático es una herramienta alternativa para apoyar la investigación de la evolución de la patología cardíaca en la enfermedad de Chagas.</p>
+			<p>Si se tiene en cuenta que la patología chagásica es una de las enfermedades parasitarias más importantes del mundo, todo aporte que contribuya a su diagnóstico permitirá un tratamiento efectivo que mejore la calidad y alargue la vida del paciente, además, estas investigaciones también ayudan a que en los centros de salud los diagnósticos estén mejor orientados al tener mayor información sobre las patologías que pudieran presentarse, mejorando así, el servicio y la atención.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>AGRADECIMIENTOS</title>
+			<p>En memoria al Dr. Diego Dávila† por el apoyo durante el desarrollo y la validación médica del modelo matemático utilizado en el presente estudio, también por sus importantes aportes en las investigaciones de la enfermedad de Chagas.</p>
+		</ack>
+		<ref-list>
+			<title>REFERENCIAS BIBLIOGRÁFICAS</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>DPDx- Laboratory Identification of Parasitic Diseases of Public Health Concern [internet]. American Trypanosomiasis. EEUU: CDC; 2013. [Consultado 2015 feb]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://cort.as/-NBGz">http://cort.as/-NBGz</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>DPDx- Laboratory Identification of Parasitic Diseases of Public Health Concern</collab>
+					</person-group>
+					<source>American Trypanosomiasis. EEUU: CDC</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-02-00">2015 feb</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://cort.as/-NBGz">http://cort.as/-NBGz</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Centro de Análisis de Imágenes Biomédicas Computarizadas. La Enfermedad de Chagas en Venezuela [internet]. [Consultado 2015 jul]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://chagas.ucv.ve/#">https://chagas.ucv.ve/#</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Centro de Análisis de Imágenes Biomédicas Computarizadas</collab>
+					</person-group>
+					<source>La Enfermedad de Chagas en Venezuela</source>
+					<month>07</month>
+					<year>2015</year>
+					<ext-link ext-link-type="uri" xlink:href="https://chagas.ucv.ve/#">https://chagas.ucv.ve/#</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Koberle F. Pathogenesis of Chagas’ disease. In: Tejera E, Pifano F. Trypanosomiasis and Leishmaniasis with special reference Chagas’ disease. Elsevier: Amsterdam; 1974. p. 137-48.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Koberle</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Pathogenesis of Chagas’ disease</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tejera</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Pifano</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<source>Trypanosomiasis and Leishmaniasis with special reference Chagas’ disease</source>
+					<publisher-name>Elsevier</publisher-name>
+					<publisher-loc>Amsterdam</publisher-loc>
+					<year>1974</year>
+					<fpage>137</fpage>
+					<lpage>148</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Koeberle F. Enteromegaly and Cardiomegaly in Chagas Disease. Gut. 1963;4(4):399-405. DOI 10.1136/gut.4.4.399.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Koeberle</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Enteromegaly and Cardiomegaly in Chagas Disease</article-title>
+					<source>Gut</source>
+					<year>1963</year>
+					<volume>4</volume>
+					<issue>4</issue>
+					<fpage>399</fpage>
+					<lpage>405</lpage>
+					<pub-id pub-id-type="doi">10.1136/gut.4.4.399</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Oliveira J, Marin-Neto JA. Parasympathetic impairment in Chagas’ heart disease. Cause or consequence? Int J. Cardiol. 1988;21(2):153-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Marin-Neto</surname>
+							<given-names>JA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Parasympathetic impairment in Chagas’ heart disease. Cause or consequence?</article-title>
+					<source>Int J. Cardiol.</source>
+					<year>1988</year>
+					<volume>21</volume>
+					<issue>2</issue>
+					<fpage>153</fpage>
+					<lpage>156</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Carrasco HA, Barboza JS, Inglessis G, Fuenmayor A, Molina C. Left ventricular cineangiography in Chagas’ disease: detection of early myocardial damage. Am Heart J. 1982;104:595-602. DOI 10.1016/0002-8703(82)90232-0.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carrasco</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Barboza</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Inglessis</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Fuenmayor</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Molina</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>Left ventricular cineangiography in Chagas’ disease: detection of early myocardial damage</article-title>
+					<source>Am Heart J.</source>
+					<year>1982</year>
+					<volume>104</volume>
+					<fpage>595</fpage>
+					<lpage>602</lpage>
+					<pub-id pub-id-type="doi">10.1016/0002-8703(82)90232-0</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Dávila DF, Donis JH, Torres A, Navas M, Bellabarba G, Vásquez C. La Inervación parasimpática cardiaca y su posible relación con el aneurisma apical ventricular izquierdo de los pacientes con Enfermedad de Chagas. MedULA. 1992;1(3).</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dávila</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Donis</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Navas</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bellabarba</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Vásquez</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<article-title>La Inervación parasimpática cardiaca y su posible relación con el aneurisma apical ventricular izquierdo de los pacientes con Enfermedad de Chagas</article-title>
+					<source>MedULA</source>
+					<year>1992</year>
+					<volume>1</volume>
+					<issue>3</issue>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Grodins F. Integrative cardiovascular physiology: a mathematical synthesis of cardiac and blood vessel hemodynamic. Q Rev Biol. 1959;34:93-116.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grodins</surname>
+							<given-names>F.</given-names>
+						</name>
+					</person-group>
+					<article-title>Integrative cardiovascular physiology: a mathematical synthesis of cardiac and blood vessel hemodynamic</article-title>
+					<source>Q Rev Biol.</source>
+					<year>1959</year>
+					<volume>34</volume>
+					<fpage>93</fpage>
+					<lpage>116</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>McLeod J. PHYSBE-A physiological simulation benchmark experiment. SAGE Journal. 1966;7:324-39.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McLeod</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<article-title>PHYSBE-A physiological simulation benchmark experiment</article-title>
+					<source>SAGE Journal</source>
+					<year>1966</year>
+					<volume>7</volume>
+					<fpage>324</fpage>
+					<lpage>339</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Vallverdú M. Modelado y simulación del sistema de control cardiovascular en pacientes con lesiones coronarias. España: Universitat Politècnica de Catalunya; 1993.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vallverdú</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<source>Modelado y simulación del sistema de control cardiovascular en pacientes con lesiones coronarias</source>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>Universitat Politècnica de Catalunya</publisher-name>
+					<year>1993</year>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Ursino M. Interaction between carotid baroregulation and the pulsating heart: a mathematical model. American Journal of Physiology. 1998;275(5):1733-47.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ursino</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Interaction between carotid baroregulation and the pulsating heart: a mathematical model</article-title>
+					<source>American Journal of Physiology</source>
+					<year>1998</year>
+					<volume>275</volume>
+					<issue>5</issue>
+					<fpage>1733</fpage>
+					<lpage>1747</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Danielsen, M. Modeling of Feedback Mechanisms which Control the Heart Function in a View to an Implementation in Cardiovascular Models. [Thesis Ph.D]. Denmark: Roskilde University, 1998.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Danielsen</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<source>Modeling of Feedback Mechanisms which Control the Heart Function in a View to an Implementation in Cardiovascular Models</source>
+					<comment content-type="degree">Thesis Ph.D</comment>
+					<publisher-loc>Denmark</publisher-loc>
+					<publisher-name>Roskilde University</publisher-name>
+					<year>1998</year>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Conlon M, Russell D, Mussivand T. Development of a Mathematical Model of the Human Circulatory System. Ann Biomed Eng. 2006; 34:1400-13.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Conlon</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Russell</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mussivand</surname>
+							<given-names>T.</given-names>
+						</name>
+					</person-group>
+					<article-title>Development of a Mathematical Model of the Human Circulatory System</article-title>
+					<source>Ann Biomed Eng.</source>
+					<year>2006</year>
+					<volume>34</volume>
+					<fpage>1400</fpage>
+					<lpage>1413</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>IV Latin American Congress on Biomedical Engineering 2007, Bioengineering Solutions for Latin America Health. Venezuela: IFMBE Proceedings; 2007.</mixed-citation>
+				<element-citation publication-type="book">
+					<source>IV Latin American Congress on Biomedical Engineering 2007, Bioengineering Solutions for Latin America Health</source>
+					<publisher-loc>Venezuela</publisher-loc>
+					<publisher-name>IFMBE Proceedings</publisher-name>
+					<year>2007</year>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Ramírez J, Moreno F, Rojas R. Modelo de Lazo Cerrado para el Análisis de la Influencia de la Respuesta de los Barorreceptores en la Variabilidad de la Frecuencia Cardiaca. En: Martino L. Desarrollo y avances en métodos numéricos para ingeniería y ciencias aplicadas: memorias del IX Congreso Internacional de Métodos Numéricos en Ingeniería y Ciencias Aplicadas. Isla de Margarita: CIMENICS; 2008.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramírez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martino</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>Desarrollo y avances en métodos numéricos para ingeniería y ciencias aplicadas</source>
+					<conf-name>IXCongreso Internacional de Métodos Numéricos en Ingeniería y Ciencias Aplicadas</conf-name>
+					<conf-loc>Isla de Margarita</conf-loc>
+					<conf-sponsor>CIMENICS</conf-sponsor>
+					<year>2008</year>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Sánchez B, Rojas R. Acción nerviosa sobre la resistencia periférica como respuesta al reflejo barorreceptor para el control de la presión arterial. En: XV Congreso Latinoamericano de Control Automático. CLCA 2012 Proceeding; Perú 2012. Lima: Pontificia Universidad Católica del Perú; 2012. p. 124.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<source>Acción nerviosa sobre la resistencia periférica como respuesta al reflejo barorreceptor para el control de la presión arterial</source>
+					<conf-name>XVCongreso Latinoamericano de Control Automático. CLCA 2012 Proceeding</conf-name>
+					<conf-loc>Lima, Perú</conf-loc>
+					<conf-sponsor>Pontificia Universidad Católica del Perú</conf-sponsor>
+					<year>2012</year>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Sánchez BM, Rojas R. Modelo Matemático de la Función Diastólica Revista Universidad Ciencia y Tecnología. 2014;18(72).</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Rojas</surname>
+							<given-names>R.</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelo Matemático de la Función Diastólica</article-title>
+					<source>Revista Universidad Ciencia y Tecnología</source>
+					<year>2014</year>
+					<volume>18</volume>
+					<issue>72</issue>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Chandran KB, Cardiovascular Biomechanics. New York: University Biomedical Engineering Series; 1992.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chandran</surname>
+							<given-names>KB</given-names>
+						</name>
+					</person-group>
+					<source>Cardiovascular Biomechanics</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>University Biomedical Engineering Series</publisher-name>
+					<year>1992</year>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Lorenzo Fernández P, Moreno González A, Leza Cerro JC, Moro Sánchez MA, Portolés Pérez A. Farmacología Básica y Clínica. 18 ed. Madrid: Panamericana; 2008.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lorenzo Fernández</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Moreno González</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Leza Cerro</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Moro Sánchez</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Portolés Pérez</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<source>Farmacología Básica y Clínica</source>
+					<edition>18</edition>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Panamericana</publisher-name>
+					<year>2008</year>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>Ogata K. Ingeniería de Control Moderna. 4 Ed. Colombia: Pearson; 2004.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ogata</surname>
+							<given-names>K.</given-names>
+						</name>
+					</person-group>
+					<source>Ingeniería de Control Moderna</source>
+					<edition>4</edition>
+					<publisher-loc>Colombia</publisher-loc>
+					<publisher-name>Pearson</publisher-name>
+					<year>2004</year>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>Guyton A, Hall J. Textbook of Medical Physiology. 11 ed. España: Elseviers; 2006.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guyton</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hall</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<source>Textbook of Medical Physiology</source>
+					<edition>11</edition>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>Elseviers</publisher-name>
+					<year>2006</year>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>Florea VG, Cohn JN. The autonomic nervous system and heart failure. Circ Res. 2014; 114:1815-26. DOI 10.1161/CIRCRESAHA.114.302589.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Florea</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Cohn</surname>
+							<given-names>JN.</given-names>
+						</name>
+					</person-group>
+					<article-title>The autonomic nervous system and heart failure</article-title>
+					<source>Circ Res.</source>
+					<year>2014</year>
+					<volume>114</volume>
+					<fpage>1815</fpage>
+					<lpage>1826</lpage>
+					<pub-id pub-id-type="doi">10.1161/CIRCRESAHA.114.302589</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>De Freitas M, Filippo C. A mathematical model of Chagas disease infection predicts inhibition of the immune system. IEEE. 2018.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Freitas</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Filippo</surname>
+							<given-names>C.</given-names>
+						</name>
+					</person-group>
+					<source>A mathematical model of Chagas disease infection predicts inhibition of the immune system</source>
+					<publisher-name>IEEE</publisher-name>
+					<year>2018</year>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>Clauson M, Harrison A, Shuman L, M Shillor M, Spagnuolo A. Analysis of the steady states of a mathematical model for Chagas disease. A Journal of Mathematics. 2012;5(3):237-246.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Clauson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Harrison</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Shuman</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>M Shillor</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Spagnuolo</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of the steady states of a mathematical model for Chagas disease</article-title>
+					<source>A Journal of Mathematics</source>
+					<year>2012</year>
+					<volume>5</volume>
+					<issue>3</issue>
+					<fpage>237</fpage>
+					<lpage>246</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>Louis W. Parasitología Humana. México: McGRAW-HILL; 2013.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Louis</surname>
+							<given-names>W.</given-names>
+						</name>
+					</person-group>
+					<source>Parasitología Humana</source>
+					<publisher-loc>México</publisher-loc>
+					<publisher-name>McGRAW-HILL</publisher-name>
+					<year>2013</year>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn2">
+				<label>**</label>
+				<p><bold>Cómo citar:</bold> Sánchez-de Zambrano BM, Rojas-Sulbarán RD. Modelado matemático de la evolución del daño miocárdico en la enfermedad de Chagas. Iatreia. 2020 Oct-Dic;33(4):313-23. DOI 10.17533/udea.iatreia.54.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

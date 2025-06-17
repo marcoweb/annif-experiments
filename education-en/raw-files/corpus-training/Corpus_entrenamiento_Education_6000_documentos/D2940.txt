@@ -1,0 +1,37 @@
+#ITI#Bias propagation in network meta-analysis models#FTI#
+#IRE# Network meta-analysis combines direct and indirect evidence to compare multiple treatments. As direct evidence for one treatment contrast may be indirect evidence for other treatment contrasts, biases in the direct evidence for one treatment contrast may affect not only the estimate for this particular treatment contrast but also estimates of other treatment contrasts. Because network structure determines how direct and indirect evidence are combined and weighted, the impact of biased evidence will be determined by the network geometry. Thus, this study's aim was to investigate how the impact of biased evidence spreads across the whole network and how the propagation of bias is influenced by the network structure. In addition to the popular Lu & Ades model, we also investigate bias propagation in the baseline model and arm-based model to compare the effects of bias in the different models. We undertook extensive simulations under different scenarios to explore how the impact of bias may be affected by the location of the bias, network geometry and the statistical model. Our results showed that the structure of a network has an important impact on how the bias spreads across the network, and this is especially true for the Lu & Ades model. The impact of bias is more likely to be diluted by other unbiased evidence in a well-connected network. We also used a real network meta-analysis to demonstrate how to use the new knowledge about bias propagation to explain questionable results from the original analysis#FRE#
+#IPC# arm-based model; Bayesian methods; contrast-based model; network meta-analysis#FPC#
+#IRF# Uman L.S., Systematic reviews and meta-analyses, J Can Acad Child Adolesc Psychiatry, 20, 1, pp. 57-59, (2011); 
+Efthimiou O., Debray T.P., van Valkenhoef G., Et al., GetReal in network meta-analysis: a review of the methodology, Res Synth Methods, 7, 3, pp. 236-263, (2016); 
+Biondi-Zoccai G., Umbrella Reviews: Evidence Synthesis with Overviews of Reviews and Meta-Epidemiologic Studies, (2016); 
+Zhang J., Fu H., Carlin B.P., Detecting outlying trials in network meta-analysis, Stat Med, 34, 19, pp. 2695-2707, (2015); 
+Mills E.J., Bansback N., Ghement I., Et al., Multiple treatment comparison meta-analyses: a step forward into complexity, Clin Epidemiol, 3, pp. 193-202, (2011); 
+Zhang J., Carlin B.P., Neaton J.D., Et al., Network meta-analysis of randomized clinical trials: reporting the proper summaries, Clin Trials, 11, 2, pp. 246-262, (2014); 
+Lu G., Ades A.E., Combination of direct and indirect evidence in mixed treatment comparisons, Stat Med, 23, 20, pp. 3105-3124, (2004); 
+Lumley T., Network meta-analysis for indirect treatment comparisons, Stat Med, 21, 16, pp. 2313-2324, (2002); 
+Bucher H.C., Guyatt G.H., Griffith L.E., Walter S.D., The results of direct and indirect treatment comparisons in meta-analysis of randomized controlled trials, J Clin Epidemiol, 50, 6, pp. 683-691, (1997); 
+Lu G., Ades A.E., Assessing evidence inconsistency in mixed treatment comparisons, J Am Stat Assoc, 101, pp. 447-459, (2006); 
+Lu G., Welton N.J., Higgins J.P., White I.R., Ades A.E., Linear inference for mixed treatment comparison meta-analysis: a two-stage approach, Res Synth Methods, 2, 1, pp. 43-60, (2011); 
+Konig J., Krahn U., Binder H., Visualizing the flow of evidence in network meta-analysis and characterizing mixed treatment comparisons, Stat Med, 32, 30, pp. 5414-5429, (2013); 
+Dias S., Sutton A.J., Ades A.E., Welton N.J., Evidence synthesis for decision making 2: a generalized linear modeling framework for pairwise and network meta-analysis of randomized controlled trials, Med Decis Making, 33, 5, pp. 607-617, (2013); 
+Dias S., Welton N.J., Caldwell D.M., Ades A.E., Checking consistency in mixed treatment comparison meta-analysis, Stat Med, 29, 7-8, pp. 932-944, (2010); 
+Higgins J.P., Jackson D., Barrett J.K., Lu G., Ades A.E., White I.R., Consistency and inconsistency in network meta-analysis: concepts and models for multi-arm studies, Res Synth Methods, 3, 2, pp. 98-110, (2012); 
+White I.R., Barrett J.K., Jackson D., Higgins J.P., Consistency and inconsistency in network meta-analysis: model estimation using multivariate meta-regression, Res Synth Methods, 3, 2, pp. 111-125, (2012); 
+Tu Y.-K., Node-splitting generalized linear mixed models for evaluation of inconsistency in network meta-analysis, Value Health, 19, 8, pp. 957-963, (2016); 
+Tu Y.-K., Using generalized linear mixed models to evaluate inconsistency within a network meta-analysis, Value Health, 18, 8, pp. 1120-1125, (2015); 
+Shih M.-C., Tu Y.-K., Evaluating network meta-analysis and inconsistency using arm-parameterized model in structural equation modeling, Res Synth Methods, 10, 2, pp. 240-254, (2019); 
+Dias S., Ades A.E., Absolute or relative effects? Arm-based synthesis of trial data, Res Synth Methods, 7, 1, pp. 23-28, (2016); 
+Hong H., Chu H., Zhang J., Carlin B.P., A Bayesian missing data framework for generalized multiple outcome mixed treatment comparisons, Res Synth Methods, 7, 1, pp. 6-22, (2016); 
+Zhang J., Chu H., Hong H., Virnig B.A., Carlin B.P., Bayesian hierarchical models for network meta-analysis incorporating nonignorable missingness, Stat Methods Med Res, 26, 5, pp. 2227-2243, (2017); 
+Phillippo D.M., Dias S., Ades A.E., Didelez V., Welton N.J., Sensitivity of treatment recommendations to bias in network meta-analysis, J Royal Stat Soc Ser A, 181, 3, pp. 843-867, (2018); 
+Bafeta A., Trinquart L., Seror R., Ravaud P., Reporting of results from network meta-analyses: methodological systematic review, BMJ (Clin Res Ed), 348, (2014); 
+Dias S., Welton N.J., Sutton A.J., Caldwell D.M., Lu G., Ades A.E., Evidence synthesis for decision making 4: inconsistency in networks of evidence based on randomized controlled trials, Med Decis Making, 33, 5, pp. 641-656, (2013); 
+Dias S., Welton N.J., Sutton A.J., Ades A.E., Evidence synthesis for decision making 5: the baseline natural history model, Med Decis Making, 33, 5, pp. 657-670, (2013); 
+Zhu L., Ma Y., Deng X., Comparison of acupuncture and other drugs for chronic constipation: a network meta-analysis, PLoS One, 13, 4, (2018); 
+Retraction: comparison of acupuncture and other drugs for chronic constipation: a network meta-analysis, PLoS One, 13, 7, (2018); 
+Rucker G., Network meta-analysis, electrical networks and graph theory, Res Synth Methods, 3, 4, pp. 312-324, (2012); 
+Lin L., Quantifying and presenting overall evidence in network meta-analysis, Stat Med, 37, 28, pp. 4114-4125, (2018); 
+Senn S., Gavini F., Magrez D., Scheen A., Issues in performing a network meta-analysis, Stat Methods Med Res, 22, 2, pp. 169-189, (2012); 
+White I.R., Turner R.M., Karahalios A., Salanti G., A comparison of arm-based and contrast-based models for network meta-analysis, Stat Med, 38, 27, pp. 5197-5213, (2019); 
+Savovic J., Jones H., Altman D., Et al., Influence of reported study design characteristics on intervention effect estimates from randomised controlled trials: combined analysis of meta-epidemiological studies, Health Technol Assess, 16, 35, pp. 1-82, (2012); 
+Chiocchia V., Nikolakopoulou A., Higgins J.P.T., Et al., ROB-MEN: a tool to assess risk of bias due to missing evidence in network meta-analysis, BMC Med, 19, 1, (2021)#FRF#

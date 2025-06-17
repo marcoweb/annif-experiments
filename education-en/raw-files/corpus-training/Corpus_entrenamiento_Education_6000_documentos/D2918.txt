@@ -1,0 +1,37 @@
+#ITI#Developing prediction models when there are systematically missing predictors in individual patient data meta-analysis#FTI#
+#IRE# Clinical prediction models are widely used in modern clinical practice. Such models are often developed using individual patient data (IPD) from a single study, but often there are IPD available from multiple studies. This allows using meta-analytical methods for developing prediction models, increasing power and precision. Different studies, however, often measure different sets of predictors, which may result to systematically missing predictors, that is, when not all studies collect all predictors of interest. This situation poses challenges in model development. We hereby describe various approaches that can be used to develop prediction models for continuous outcomes in such situations. We compare four approaches: a “restrict predictors” approach, where the model is developed using only predictors measured in all studies; a multiple imputation approach that ignores study-level clustering; a multiple imputation approach that accounts for study-level clustering; and a new approach that develops a prediction model in each study separately using all predictors reported, and then synthesizes all predictions in a multi-study ensemble. We explore in simulations the performance of all approaches under various scenarios. We find that imputation methods and our new method outperform the restrict predictors approach. In several scenarios, our method outperformed imputation methods, especially for few studies, when predictor effects were small, and in case of large heterogeneity. We use a real dataset of 12 trials in psychotherapies for depression to illustrate all methods in practice, and we provide code in R#FRE#
+#IPC# ensemble predictive modeling; individual patient data; meta-analysis; multilevel model; prediction research#FPC#
+#IRF# Steyerberg E., Nieboer D., Debray T., van Houwelingen H., Meta-analysis of prediction models, Handbook of Meta-Analysis, (2020); 
+de Jong V.M.T., Moons K.G.M., Eijkemans M.J.C., Riley R.D., Debray T.P.A., Developing more generalizable prediction models from pooled studies and large clustered data sets, Stat Med, 40, 15, pp. 3533-3559, (2021); 
+Riley R.D., Lambert P.C., Abo-Zaid G., Meta-analysis of individual participant data: rationale, conduct, and reporting, BMJ, 340, (2010); 
+Debray T.P.A., Moons K.G.M., van Valkenhoef G., Et al., Get real in individual participant data (IPD) meta-analysis: a review of the methodology, Res Synth Methods, 6, 4, pp. 293-309, (2015); 
+Rubin D.B., Multiple imputation after 18+ years, J Am Stat Assoc, 91, 434, pp. 473-489, (1996); 
+van Buuren S., Flexible Imputation of Missing Data, (2018); 
+Resche-Rigon M., White I.R., Multiple imputation by chained equations for systematically and sporadically missing multilevel data, Stat Methods Med Res, 27, 6, pp. 1634-1649, (2018); 
+Jolani S., Hierarchical imputation of systematically and sporadically missing data: an approximate Bayesian approach using chained equations, Biom J, 60, 2, pp. 333-351, (2018); 
+Quartagno M., Carpenter J.R., Multiple imputation for IPD meta-analysis: allowing for heterogeneity and studies with missing covariates, Stat Med, 35, 17, pp. 2938-2954, (2016); 
+Audigier V., White I., Jolani S., Et al., Multiple imputation for multilevel data with continuous and binary variables, Stat Sci, 33, 2, pp. 160-183, (2018); 
+Furukawa T.A., Suganuma A., Ostinelli E.G., Et al., Dismantling, optimising, and personalising internet cognitive behavioural therapy for depression: a systematic review and component network meta-analysis using individual participant data, Lancet Psychiatry, 8, 6, pp. 500-511, (2021); 
+Debray T.P.A., Moons K.G.M., Abo-Zaid G.M.A., Koffijberg H., Riley R.D., Individual participant data meta-analysis for a binary outcome: one-stage or two-stage?, PLoS One, 8, 4, (2013); 
+Riley R.D., Debray T.P., Fisher D., Et al., Individual participant data meta-analysis to examine interactions between treatment effect and participant-level covariates: statistical recommendations for conduct and planning, Stat Med, 39, 15, pp. 2115-2137, (2020); 
+Jolani S., Debray T.P.A., Koffijberg H., van Buuren S., Moons K.G.M., Imputation of systematically missing predictors in an individual participant data meta-analysis: a generalized approach using MICE, Stat Med, 34, 11, pp. 1841-1863, (2015); 
+Jackson D., White I., Kostis J.B., Et al., Systematically missing confounders in individual participant data meta-analysis of observational cohort studies, Stat Med, 28, 8, pp. 1218-1237, (2009); 
+Rubin D.B., Multiple Imputation for Nonresponse in Surveys, (1987); 
+Wood A.M., Royston P., White I.R., The estimation and use of predictions for the assessment of model performance using large samples with multiply imputed data, Biom J, 57, 4, pp. 614-632, (2015); 
+Burgess S., White I.R., Resche-Rigon M., Wood A.M., Combining multiple imputation and meta-analysis with individual participant data, Stat Med, 32, 26, pp. 4499-4514, (2013); 
+Resche-Rigon M., White I.R., Bartlett J.W., Peters S.A.E., Thompson S.G., Multiple imputation for handling systematically missing confounders in meta-analysis of individual participant data, Stat Med, 32, 28, pp. 4890-4905, (2013); 
+Reiter J., Raghunathan T., Kinney S., The importance of modeling the sampling design in multiple imputation for missing data, Survey Methodol, pp. 322, 143-150, (2006); 
+Marshall A., Altman D.G., Holder R.L., Royston P., Combining estimates of interest in prognostic modelling studies after multiple imputation: current practice and guidelines, BMC Med Res Methodol, 9, 1, (2009); 
+Steyerberg E.W., Clinical Prediction Models, (2019); 
+Steyerberg E.W., Harrell F.E., Prediction models need appropriate internal, internal–external, and external validation, J Clin Epidemiol, 69, pp. 245-247, (2016); 
+Debray T.P.A., Moons K.G.M., Ahmed I., Koffijberg H., Riley R.D., A framework for developing, implementing, and evaluating clinical prediction models in an individual participant data meta-analysis, Stat Med, 32, 18, pp. 3158-3180, (2013); 
+Hoerl A., Kennard R., Ridge regression: biased estimation for nonorthogonal problems, Dent Tech, 12, pp. 55-67, (2012); 
+R: A Language and Environment for Statistical Computing, (2018); 
+Bates D., Machler M., Bolker B., Walker S., Fitting linear mixed-effects models using lme4, J Stat Softw, 67, 1, pp. 1-48, (2015); 
+White I.R., Royston P., Wood A.M., Multiple imputation using chained equations: issues and guidance for practice, Stat Med, 30, 4, pp. 377-399, (2011); 
+Audigier V., Resche-Rigon M., micemd: Multiple Imputation by Chained Equations with Multilevel Data, (2018); 
+Robitzsch A., Grund S., Miceadds: Some Additional Multiple Imputation Functions, Especially for “Mice”, (2021); 
+Snijders T., Bosker R., Multilevel Analysis: An Introduction to Basic and Advanced Multilevel Modeling, (1999); 
+Polikar R., Ensemble based systems in decision making, IEEE Circuits Syst Mag, 6, 3, pp. 21-45, (2006); 
+Gashler M., Giraud-Carrier C., Martinez T., Decision tree ensemble: small heterogeneous is better than large homogeneous, 2008 Seventh International Conference on Machine Learning and Applications, pp. 900-905, (2008); 
+Pavlou M., Ambler G., Seaman S., Omar R.Z., A note on obtaining correct marginal predictions from a random intercepts model for binary outcomes, BMC Med Res Methodol, 15, 1, pp. 1-6, (2015)#FRF#

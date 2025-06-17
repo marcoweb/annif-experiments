@@ -1,0 +1,51 @@
+#ITI#A Comparison of Metaheuristic Optimization Algorithms for Scale Short-Form Development#FTI#
+#IRE# This study compares automated methods to develop short forms of psychometric scales. Obtaining a short form that has both adequate internal structure and strong validity with respect to relationships with other variables is difficult with traditional methods of short-form development. Metaheuristic algorithms can select items for short forms while optimizing on several validity criteria, such as adequate model fit, composite reliability, and relationship to external variables. Using a Monte Carlo simulation study, this study compared existing implementations of the ant colony optimization, Tabu search, and genetic algorithm to select short forms of scales, as well as a new implementation of the simulated annealing algorithm. Selection of short forms of scales with unidimensional, multidimensional, and bifactor structure were evaluated, with and without model misspecification and/or an external variable. The results showed that when the confirmatory factor analysis model of the full form of the scale was correctly specified or had only minor misspecification, the four algorithms produced short forms with good psychometric qualities that maintained the desired factor structure of the full scale. Major model misspecification resulted in worse performance for all algorithms, but including an external variable only had minor effects on results. The simulated annealing algorithm showed the best overall performance as well as robustness to model misspecification, while the genetic algorithm produced short forms with worse fit than the other algorithms under conditions with model misspecification.#FRE#
+#IPC# confirmatory factor analysis; metaheuristic algorithms; reliability; scale development; short-form selection; validity#FPC#
+#IRF# Aleven V., Beal C.R., Graesser A.C., Introduction to the special issue on advanced learning technologies, Journal of Educational Psychology, 105, 4, pp. 929-931, (2013); 
+Arlot S., Celisse A., A survey of cross-validation procedures for model selection, Statistics Surveys, 4, 2010, pp. 40-79, (2010); 
+Browne M., Rockloff M., Rawat V., An SEM algorithm for scale reduction incorporating evaluation of multiple psychometric criteria, Sociological Methods & Research, 47, 4, pp. 812-836, (2018); 
+Brownlee J., Clever algorithms: nature-inspired programming recipes, (2011); 
+Byrne G.J., Pachana N.A., Development and validation of a short form of the Geriatric Anxiety Inventory–the GAI-SF, International Psychogeriatrics, 23, 1, pp. 125-131, (2011); 
+Cerny V., Thermodynamical approach to the traveling salesman problem: An efficient simulation algorithm, Journal of Optimization Theory and Applications, 45, 1, pp. 41-51, (1985); 
+Colorni A., Dorigo M., Maniezzo V., Distributed optimization by ant colonies, (1992); 
+Dennis C.L., The breastfeeding self-efficacy scale: Psychometric assessment of the short form, Journal of Obstetric, Gynecologic & Neonatal Nursing, 32, 6, pp. 734-744, (2003); 
+Dreo J., Petrowski A., Siarry P., Taillard E., Metaheuristics for hard optimization, (2006); 
+Drezner Z., Marcoulides G.A., Using simulated annealing for selection in multiple regression analysis, Multiple Linear Regression Viewpoints, 25, pp. 1-4, (1999); 
+Drezner Z., Marcoulides G.A., Salhi S., Tabu search model selection in multiple regression analysis, Communications in Statistics: Simulation and Computation, 28, 2, pp. 349-367, (1999); 
+Eisenbarth H., Lilienfeld S.O., Yarkoni T., Using a genetic algorithm to abbreviate the Psychopathic Personality Inventory–Revised (PPI-R), Psychological Assessment, 27, 1, pp. 194-202, (2015); 
+Fan X., Sivo S.A., Sensitivity of fit indexes to misspecified structural or measurement model components: Rationale of two-index strategy revisited, Structural Equation Modeling, 12, 3, pp. 343-367, (2005); 
+Fan X., Sivo S.A., Sensitivity of fit indices to model misspecification and model types, Multivariate Behavioral Research, 42, 3, pp. 509-529, (2007); 
+Fraser A.S., Simulation of genetic systems by automatic digital computers, Australian Journal of Biological Sciences, 10, 4, pp. 484-491, (1957); 
+Gignac G.E., Watkins M.W., Bifactor modeling and the estimation of model-based reliability in the WAIS-IV, Multivariate Behavioral Research, 48, 5, pp. 639-662, (2013); 
+Goldberg D.E., Genetic algorithms in search, optimization and machine learning, (1989); 
+Hu L.T., Bentler P.M., Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives, Structural Equation Modeling: A Multidisciplinary Journal, 6, 1, pp. 1-55, (1999); 
+Huggins-Manley A.C., Beal C.R., D'Mello S.K., Leite W.L., Cetin-Berber D.D., Kim D., McNamara D.S., A commentary on construct validity when using operational virtual learning environment data in effectiveness studies, Journal of Research on Educational Effectiveness, (2019); 
+Jackson D.L., Revisiting sample size and number of parameter estimates: Some support for the N:q Hypothesis, Structural Equation Modeling: A Multidisciplinary Journal, 10, 1, pp. 128-141, (2003); 
+Kirkpatrick S., Gelatt C.D., Vecchi M.P., Optimization by simulated annealing, Science, 220, 4598, pp. 671-680, (1983); 
+Leite W.L., Beretvas S.N., Validation of scores on the Marlowe-Crowne social desirability scale and the balanced inventory of desirable responding, Educational and Psychological Measurement, 65, 1, pp. 140-154, (2005); 
+Leite W.L., Huang I.C., Marcoulides G.A., Item selection for the development of short forms of scales using an ant colony optimization algorithm, Multivariate Behavioral Research, 43, 3, pp. 411-431, (2008); 
+Leite W.L., Stapleton L., Detecting growth shape misspecifications in latent growth models: An evaluation of fit indices, Journal of Experimental Education, 79, 4, pp. 361-381, (2011); 
+Lim S.Y., Chapman E., Development of a short form of the attitudes toward mathematics inventory, Educational Studies in Mathematics, 82, 1, pp. 145-164, (2013); 
+Marcoulides K.M., Automated latent growth curve model fitting: A segmentation and knot selection approach, Structural Equation Modeling, 25, 5, pp. 687-699, (2018); 
+Marcoulides G.A., Drezner Z., Tabu search variable selection with resource constraints, Communications in Statistics: Simulation & Computation, 33, 2, pp. 355-362, (2004); 
+Marcoulides G.A., Drezner Z., Schumacker R.E., Model specification searches in structural equation modeling using tabu search, Structural Equation Modeling, 5, 4, pp. 365-376, (1998); 
+Marcoulides K.M., Falk C., Model specification searches in structural equation modeling with, R. Structural Equation Modeling, 25, 3, pp. 484-491, (2018); 
+Marsh H.W., Hau K., Grayson D., Goodness of fit in structural equation models, Contemporary psychometrics: A festschrift for Roderick P. McDonald, pp. 275-340, (2005); 
+Marti R., Pardalos P.M., Resende M.G.C., Handbook of heuristics, (2018); 
+Mills J.D., Olejnik S.F., Marcoulides G.A., The tabu search procedure: An alternative to the variable selection methods, Multivariate Behavioral Research, 40, 3, pp. 351-371, (2005); 
+McDonald R.P., Test theory: A unified treatment, (1999); 
+Noble W., Jensen N.S., Naylor G., Bhullar N., Akeroyd M.A., A short form of the Speech, Spatial and Qualities of Hearing scale suitable for clinical use: The SSQ12, International Journal of Audiology, 52, 6, pp. 409-412, (2013); 
+Olaru G., Witthoft M., Wilhelm O., (2015). Methods matter: Testing competing models for designing short-scale Big-Five assessments, Journal of Research in Personality, 59, pp. 56-68; 
+R: A language and environment for statistical computing, (2018); 
+Raborn A.W., Leite W.L., ShortForm: An R package to select scale short forms with the ant colony optimization algorithm, Applied Psychological Measurement, 42, 6, pp. 516-517, (2018); 
+Reynolds C.R., Kamphaus R.W., Vannest K.J., Behavior assessment system for children (BASC), Encyclopedia of clinical neuropsychology, pp. 366-371, (2011); 
+Rosseel Y., Lavaan: An R package for structural equation modeling, Journal of Statistical Software, 48, 2, pp. 1-36, (2012); 
+Sahdra B.K., Ciarroch J., Parker P., Scrunna L., Using genetic algorithms in a large nationally representative American sample to abbreviate the Multidimensional Experiential Avoidance Questionnaire, Frontiers in Psychology, 7, (2016); 
+Scrucca L., GA: A package for genetic algorithms in R, Journal of Statistical Software, 53, 4, pp. 1-37, (2013); 
+Scrucca L., Sahdra B.K., Package ‘GAabbreviate’, (2016); 
+Splett J.W., Raborn A., Lane K.L., Binney A.J., Chafouleas S.M., Factor analytic replication and model comparison of the BASC-2 Behavioral and Emotional Screening System, Psychological Assessment, 29, 12, pp. 1543-1549, (2017); 
+Tschannen-Moran M., Hoy A.W., Teacher efficacy: Capturing an elusive construct, Teaching and Teacher Education, 17, 7, pp. 783-805, (2001); 
+Veale J.F., Edinburgh Handedness Inventory–Short Form: A revised version based on confirmatory factor analysis, Laterality: Asymmetries of Body, Brain and Cognition, 19, 2, pp. 164-177, (2014); 
+Venables W.N., Ripley B.D., Generalized linear models, Modern applied statistics with S, pp. 183-206, (2002); 
+Wester S.R., Vogel D.L., O'Neil J.M., Danforth L., Development and evaluation of the Gender Role Conflict Scale Short Form (GRCS-SF), Psychology of Men & Masculinity, 13, 2, (2012); 
+Yarkoni T., The abbreviation of personality, or how to measure 200 personality scales with 200 items, Journal of Research in Personality, 44, 2, pp. 180-198, (2010)#FRF#

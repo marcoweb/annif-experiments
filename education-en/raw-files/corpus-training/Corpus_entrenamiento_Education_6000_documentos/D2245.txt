@@ -1,0 +1,43 @@
+#ITI#A Comparison of Label Switching Algorithms in the Context of Growth Mixture Models#FTI#
+#IRE# Simulation studies involving mixture models inevitably aggregate parameter estimates and other output across numerous replications. A primary issue that arises in these methodological investigations is label switching. The current study compares several label switching corrections that are commonly used when dealing with mixture models. A growth mixture model is used in this simulation study, and the design crosses three manipulated variables—number of latent classes, latent class probabilities, and class separation, yielding a total of 18 conditions. Within each of these conditions, the accuracy of a priori identifiability constraints, a priori training of the algorithm, and four post hoc algorithms developed by Tueller et al.; Cho; Stephens; and Rodriguez and Walker are tested to determine their classification accuracy. Findings reveal that, of all a priori methods, training of the algorithm leads to the most accurate classification under all conditions. In a case where an a priori algorithm is not selected, Rodriguez and Walker’s algorithm is an excellent choice if interested specifically in aggregating class output without consideration as to whether the classes are accurately ordered. Using any of the post hoc algorithms tested yields improvement over baseline accuracy and is most effective under two-class models when class separation is high. This study found that if the class constraint algorithm was used a priori, it should be combined with a post hoc algorithm for accurate classification.#FRE#
+#IPC# growth mixture model; label switching; mixture modeling; simulation; training data set#FPC#
+#IRF# Casella G., George E.I., Explaining the Gibbs sampler, The American Statistician, 46, 3, pp. 167-174, (1992); 
+Cho Y., The mixture distribution polytomous Rasch model used to account for response styles on rating scales: A simulation study of parameter recovery and classification accuracy, (2013); 
+Dempster A.P., Laird N.M., Rubin D.B., Maximum likelihood from incomplete data via the EM algorithm, Journal of the Royal Statistical Society, Series B, 39, 1, pp. 1-22, (1977); 
+Depaoli S., Mixture class recovery in GMM under varying degrees of class separation: Frequentist versus Bayesian estimation, Psychological Methods, 18, 2, pp. 186-219, (2013); 
+Diebolt J., Robert C.P., Estimation of finite mixture distributions through Bayesian sampling, Journal of the Royal Statistical Society, Series B, 56, pp. 363-375, (1994); 
+Enders C.K., Tofighi D., The impact of miss-specifying class-specific residual variances in growth mixture models, Structural Equation Modeling, 15, 1, pp. 75-95, (2008); 
+Everitt B.S., Hand D.J., Finite mixture distributions, (1981); 
+Gelfand A., Smith A., Sampling-based approaches to calculating marginal densities, Journal of American Statistical Association, 85, 410, pp. 398-409, (1990); 
+Hipp J.R., Bauer D.J., Local solutions in the estimation of growth mixture models: Correction to Hipp and Bauer (2006), Psychological Methods, 11, 3, (2006); 
+Jasra A., Holmes C.C., Stephens D.A., Markov Chain Monte Carlo methods and the label switching problem in Bayesian mixture modeling, Statistical Science, 20, pp. 50-67, (2005); 
+Kohli N., Hughes J., Wang C., Zopluoglu C., Davison M.L., Fitting a linear–linear piecewise growth mixture model with unknown knots: A comparison of two common approaches to inference, Psychological Methods, 20, 2, pp. 259-275, (2015); 
+Lee D.Y., Handling of missing data with growth mixture models, (2019); 
+Lee S.Y., Structural equation modeling: A Bayesian approach, (2007); 
+Li M., Harring J.R., Macready G.B., Investigating the feasibility of using Mplus in the estimation of growth mixture models, Journal of Modern Applied Statistical Methods, 13, 1, pp. 484-513, (2014); 
+McArdle J.J., Epstein D., Latent growth curves within developmental structural equation models, Child Development, 58, 1, pp. 110-133, (1987); 
+McLachlan G.J., Krishnan T., The EM algorithm and extensions, (2007); 
+McLachlan G., Peel D., Finite mixture models, (2000); 
+McNeish D., Harring J.R., The effect of model misspecification on growth mixture model class enumeration, Journal of Classification, 34, 2, pp. 223-248, (2017); 
+Meredith W., Tisak J., Latent curve analysis, Psychometrika, 55, 1, pp. 107-122, (1990); 
+Muthen B., Asparouhov T., Bayesian structural equation modeling: A more flexible representation of substantive theory, Psychological Methods, 17, 3, pp. 313-335, (2012); 
+Muthen L.K., Muthen B.O., Mplus, (2017); 
+Neale M.C., Hunter M.D., Pritikin J.N., Zahery M., Brick T.R., Kirkpatrick R.M., Estabrook R., Bates T.C., Maes H.H., Boker S.M., OpenMx 2.0: Extended structural equation and statistical modeling, Psychometrika, 81, pp. 535-549, (2016); 
+Newcomb S., A generalized theory of the combinations of observations so as to obtain the best result, American Journal of Mathematics, 8, 4, pp. 343-366, (1886); 
+Nylund K.L., Asparouhov T., Muthen B.O., Deciding on the number of classes in latent class analysis and growth mixture modeling: A Monte Carlo simulation study, Structural Equation Modeling, 14, 4, pp. 535-569, (2007); 
+Nylund-Gibson K., Masyn K.E., Covariates and mixture modeling: Results of a simulation study exploring the impact of misspecified effects on enumeration, Structural Equation Modeling, 23, 6, pp. 782-797, (2016); 
+Papastamoulis P., Handling the label switching problem in latent class models via the ECR algorithm, Communications in Statistics, 43, 4, pp. 913-927, (2014); 
+Papastamoulis P., label.switching: An R package for dealing with the label switching problem in MCMC outputs, Journal of Statistical Software, 69, pp. 1-24, (2016); 
+Papastamoulis P., Iliopoulos G., An artificial allocations based solution to the label switching problem in Bayesian analysis of mixtures of distributions, Journal of Computational and Graphical Statistics, 19, 2, pp. 313-331, (2010); 
+Pearson K., Contribution to the mathematical theory of evolution, Philosophical Transactions of the Royal Society of London A, 185, pp. 71-110, (1894); 
+Peugh J.L., Fan X., How well does growth mixture modeling identify heterogeneous growth trajectories? A simulation study examining GMM’s performance characteristics, Structural Equation Modeling, 19, 2, pp. 204-226, (2012); 
+Peugh J., Fan X., Enumeration index performance in generalized growth mixture models: A Monte Carlo test of Muthén’s (2003) hypothesis, Structural Equation Modeling, 22, 1, pp. 115-131, (2015); 
+R: A language and environment for statistical computing, (2017); 
+Rodriguez C., Walker S., Label switching in Bayesian mixture models: Deterministic relabeling strategies, Journal of Computational and Graphical Statistics, 23, 1, pp. 25-45, (2014); 
+Stephens M., Dealing with label switching in mixture models, Journal of the Royal Statistical Society, Series B, 62, 4, pp. 795-809, (2000); 
+Titterington D.M., Smith A.F.M., Makov U.E., Statistical, analysis of finite mixture distributions, (1985); 
+Tolvanen A., Latent growth mixture modeling: A simulation study, (2008); 
+Tueller S.J., Drotar S., Lubke G.H., Addressing the problem of switched class labels in latent variable mixture model simulation studies, Structural Equation Modeling, 18, pp. 110-131, (2011); 
+Vermunt J.K., Magidson J., Latent GOLD 5.0 upgrade manual, (2013); 
+Wang L., McArdle J.J., A simulation study comparison of Bayesian estimation with conventional methods for estimating unknown change points, Structural Equation Modeling, 15, 1, pp. 52-74, (2008); 
+Yao W., Label switching and its solutions for frequentist mixture models, Journal of Statistical Computation and Simulation, 85, 5, pp. 1000-1012, (2015)#FRF#

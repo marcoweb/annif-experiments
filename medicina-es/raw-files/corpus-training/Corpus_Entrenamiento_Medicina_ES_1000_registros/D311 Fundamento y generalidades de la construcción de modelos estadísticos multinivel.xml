@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.6946</article-id>
+			<article-id pub-id-type="publisher-id">00010</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Revisión de tema</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Fundamento y generalidades de la construcción de modelos estadísticos multinivel en el ámbito de la investigación en salud</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Construction of multilevel statistical models in health research: Foundations and generalities</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Mera-Mamián</surname>
+						<given-names>Andry Yasmid</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Moreno-Montoya</surname>
+						<given-names>José</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rodriguez-Villamizar</surname>
+						<given-names>Laura Andrea</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Muñoz</surname>
+						<given-names>Diana Isabel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Segura</surname>
+						<given-names>Ángela María</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>García</surname>
+						<given-names>Héctor Iván</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Escuela de Graduados, Universidad CES, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad CES</institution>
+				<institution content-type="orgname">Universidad CES</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> División de Estudios Clínicos y Epidemiología Clínica, Hospital Universitario de la Fundación Santa Fe de Bogotá, Bogotá, D.C., Colombia</institution>
+				<institution content-type="orgname">Hospital Universitario de la Fundación Santa Fe de Bogotá</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Departamento de Salud Pública, Escuela de Medicina, Universidad Industrial de Santander, Bucaramanga, Colombia</institution>
+				<institution content-type="normalized">Universidad Industrial de Santander</institution>
+				<institution content-type="orgname">Universidad Industrial de Santander</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Facultad de Fisioterapia, Universidad CES, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad CES</institution>
+				<institution content-type="orgname">Universidad CES</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original">Instituto de Cancerología Las Américas, Medellín, Colombia</institution>
+				<institution content-type="normalized">Instituto de Cancerología Las Américas</institution>
+				<institution content-type="orgname">Instituto de Cancerología Las Américas</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Andry Yasmid Mera, Facultad de Fisioterapia, Universidad CES, Calle 10A N°22-04, Altos de El Poblado, Medellín, Colombia Teléfono: (+57) (301) 354 2030 <email>amera@ces.edu.co</email>
+				</corresp>
+				<fn fn-type="other" id="fn4">
+					<p>Todos los autores participaron en la revisión crítica.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn6">
+					<label>Conflicto de intereses:</label>
+					<p> Los autores declararon no tener ningún conflicto de interés.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>12</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<year>2023</year>
+			</pub-date>
+			<volume>43</volume>
+			<issue>4</issue>
+			<fpage>520</fpage>
+			<lpage>533</lpage>
+			<history>
+				<date date-type="received">
+					<day>24</day>
+					<month>03</month>
+					<year>2023</year>
+				</date>
+				<date date-type="accepted">
+					<day>25</day>
+					<month>09</month>
+					<year>2023</year>
+				</date>
+				<date date-type="pub">
+					<day>27</day>
+					<month>09</month>
+					<year>2023</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<p>Este trabajo tiene como objetivo presentar una mirada global de la aplicabilidad de los modelos de análisis multinivel en el ámbito de la investigación sanitaria. Ofrece información sobre los fundamentos teóricos, metodológicos y estadísticos y, además, menciona los pasos básicos para la construcción de estos modelos, y da ejemplos de su uso, según la estructura jerárquica de los datos.</p>
+				<p>Cabe resaltar que, antes de utilizar estos modelos, se requiere contar con un soporte teórico sobre la necesidad de uso y una valoración estadística que dé cuenta del porcentaje de varianza explicada por el efecto de agrupación de las observaciones. Los requisitos para llevar a cabo este tipo de análisis dependen de condiciones especiales como el tipo de variables, la cantidad de unidades por nivel o el tipo de estructura jerárquica. Se concluye que los modelos de análisis multinivel son una herramienta útil para lograr la integración de información, dadas la complejidad de las relaciones y las interacciones que determinan la mayoría de las condiciones de salud, incluida la pérdida de independencia entre las unidades de observación.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<p>This topic review aims to present a global vision of multilevel analysis models' applicability to health research, explaining its theoretical, methodological, and statistical foundations. We describe the basic steps to build these models and examples of their application according to the data hierarchical structure.</p>
+				<p>It ir worth noticing that before using these models, researchers must have a rationale for needing them, and a statistical evaluation accounting for the variance percentage explained by the observations grouping effect.</p>
+				<p>The requirements to conduct this type of analysis depends on special conditions such as the type of variables, the number of units per level, or the type of hierarchical structure. We conclude that multilevel analysis models are a useful tool to integrate information, considering the complexity of the relationships and interactions involved in most health conditions, including the loss of independence between observation units.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Análisis multinivel</kwd>
+				<kwd>investigación sobre servicios de salud</kwd>
+				<kwd>bioestadística</kwd>
+				<kwd>sesgo</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Multilevel analysis</kwd>
+				<kwd>health services research</kwd>
+				<kwd>biostatistics</kwd>
+				<kwd>bias</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="1"/>
+				<equation-count count="12"/>
+				<ref-count count="44"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>En investigación sanitaria, las estructuras jerárquicas o anidadas aparecen cuando las unidades de observación en las que se mide el resultado de interés, se asocian naturalmente dentro de otras que las agrupan. Esto sucede, por ejemplo, con individuos humanos que se agrupan en unidades superiores, como familias, barrios o escuelas <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. La misma agrupación puede encontrarse al considerar como unidades de observación el conjunto de mediciones repetidas en el tiempo para un mismo sujeto <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, o cuando las observaciones se recopilan con metodologías cuya selección se basa en el emparejamiento <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+		<p>Dada la frecuencia con la que el fenómeno ocurre en el ámbito de la salud, aprovechar la estructura jerarquizada puede resultar útil para ampliar el alcance de la investigación científica, a la vez que mejora la comprensión del efecto que exposiciones a diferentes niveles pueden provocar en los individuos. No obstante, el uso de modelos para datos jerarquizados debe obedecer a una necesidad analítica prestablecida desde la formulación de la pregunta y la hipótesis de trabajo. En ese sentido, es necesario que el supuesto de una asociación de interés entre una o varias exposiciones y un resultado específico (dada la agrupación de las unidades de análisis), se encuentre biológica, social o clínicamente soportado.</p>
+		<p>Una forma de evaluar estadísticamente si existe un efecto de agrupación entre las unidades de análisis, es el coeficiente de correlación intraclase <italic>
+ <italic>(intraclass correlation coefficient,</italic> 
+</italic> ICC), una medida que hace referencia a la fuerza de la asociación lineal existente entre las mediciones del resultado de interés de los sujetos individuales, una vez comparada con la que se deriva de la comparación entre grupos <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>Los análisis multinivel surgen en el área de la psicometría y la educación como una alternativa para explorar el efecto que tienen las estructuras de relaciones jerárquicas o de datos anidados en la valoración de las exposiciones y los resultados de interés en el ámbito epidemiológico, y consideran la pérdida de independencia de los sujetos de observación debido a su cercanía en cada nicho agrupador. Estos, al igual que los modelos de regresión de un único nivel, dependen de la escala de la variable respuesta y del tipo de función de enlace usado en su construcción para su especificación <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Este tipo de análisis aporta en el control de la denominada &quot;falacia ecológica&quot; o sesgo de agregación, que se produce cuando se infiere inadecuadamente la variabilidad interindividual a partir de información captada a nivel grupal, cuando las variables individuales y grupales tienen efectos independientes o miden conceptos teóricos diferentes <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>; esto puede generar que se asuma erróneamente que la correlación estadística entre dos variables a nivel agregado es igual a la correlación entre las correspondientes variables a nivel individual <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+		<p>Por lo tanto, considerando su aporte en el análisis de datos anidados en diferentes escenarios, el presente trabajo tiene como propósito ofrecer una mirada global de la construcción, el uso y las particularidades metodológicas de este tipo de modelos en el ámbito de la investigación sanitaria.</p>
+		<sec>
+			<title>Fundamento del uso de análisis multinivel</title>
+			<p>La falta de independencia entre las unidades de observación respecto a la oportunidad de considerarlas expuestas o en riesgo, constituye un desafío común en la investigación en salud y su omisión puede implicar la sobrestimación de la significación estadística <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref> y de los tamaños de efecto <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, lo que lleva a la obtención de estimaciones con intervalos de confianza inapropiadamente estrechos y al aumento del riesgo de error de tipo I <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Para enfrentar el problema, los modelos multinivel toman en cuenta el nivel de agregación de las unidades de observación <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+			<p>El análisis multinivel puede adaptarse a una estructura jerárquica clásica y a estructuras con jerarquías y relaciones complejas, como la clasificación cruzada o la membresía múltiple. La estructura jerárquica clásica se presenta cuando unidades de nivel 1 están anidadas en grupos que, a su vez, pueden pertenecer a otros de nivel superior, como individuos anidados en escuelas que, a su vez, se anidan en barrios, o el caso de los metaanálisis, en los que el resultado se mide de forma individual o en grupo mediante la medida de resumen obtenida para cada estudio <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. También, ocurre con las medidas repetidas, ya que diferentes mediciones a lo largo del tiempo pueden provenir del mismo individuo, quien representa un nivel superior <xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			<p>Por su parte, el análisis de clasificación cruzada se presenta cuando unidades de nivel inferior corresponden a más de un nivel superior a la vez, sin que estos dos niveles superiores estén anidados entre sí <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. En el caso de la estructura no jerárquica de membresía múltiple, las unidades del primer nivel pueden pertenecer a varias unidades del nivel superior. Por ejemplo, cuando se analizan datos de individuos relacionados con su lugar de estudio en un periodo específico, en el que pudieron asistir a diferentes escuelas <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+			<p>En los modelos multinivel, al igual que en los modelos convencionales de regresión (de un solo nivel), también son importantes los términos <italic>
+ <italic>intercepto</italic> 
+</italic> (valor de la variable dependiente cuando las variables explicativas valen 0) y <italic>
+ <italic>pendiente</italic> 
+</italic> (cambio en el valor de la variable dependiente por unidad de cambio en una variable independiente, una vez consideradas constantes las demás). No obstante, cuando se trata de datos agrupados, la intersección y la pendiente pueden variar en cada grupo según el nicho agrupador de las observaciones o la magnitud de una variable medida a ese nivel, lo que convierte en un tema de interés la estimación de dichos parámetros y su variación en los modelos multinivel.</p>
+			<p>De acuerdo con lo anterior, es posible construir dos tipos de modelos principales: de interceptos aleatorios (también denominados de efectos fijos) y de efectos aleatorios (también denominados de pendientes aleatorias). En el primero, el término de intersección varía aleatoriamente entre los grupos, pero los efectos (pendientes) son los mismos. En este caso, la variable dependiente se ve afectada por un componente fijo que corresponde a la media general del intercepto común en todos los conglomerados y los efectos de las variables independientes (también comunes), además del componente aleatorio: la variación entre individuos y la variación del intercepto entre los conglomerados <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Este tipo de modelos resulta de particular utilidad cuando se requiere valorar en qué medida las diferencias entre individuos se deben a su pertenencia a grupos después de ajustarlos por otras variables <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>En el segundo modelo, tanto interceptos como efectos-pendientes son aleatorios <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>, lo que permite a las unidades de observación tener sus propias trayectorias, aspecto importante cuando los grupos de observación tienen características muy heterogéneas. A diferencia del modelo de efectos fijos, es razonable considerar que el efecto a nivel de grupo varía aleatoriamente entre estos, es decir, los efectos de las variables explicativas varían entre grupos <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. En la <xref ref-type="fig" rid="f1">figura 1</xref>, se compara un modelo de regresión de un solo nivel, uno de interceptos aleatorios y otro de efectos aleatorios.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Comparación entre modelos de un solo nivel, interceptos aleatorios y efectos aleatorios</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-43-04-520-gf1.png"/>
+				</fig>
+			</p>
+			<p>La elección de uno u otro modelo depende de la pregunta de investigación, los objetivos del estudio, la escala de medida de la variable usada para conformar los grupos (discreta o continua) y el contexto <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+			<p>Respecto al método de estimación de los coeficientes, los más utilizados para la regresión multinivel se basan en la máxima verosimilitud, en particular, el método de máxima verosimilitud restringida o residual que emplea una función de probabilidad calculada a partir de un conjunto transformado de datos cuando hay muchos parámetros no especificados o desconocidos. Esto ayuda a obtener estimadores menos sesgados de varianza y covarianza, y tiene la ventaja de que se puede usar para dar estimadores con datos no normales <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+			<p>Este método permite el uso de predictores o variables independientes en todos los niveles de análisis debido a que se crean ecuaciones de predicción para cada nivel de la estructura anidada, y se presentan ventajas sobre otros modelos cuando existe una variación del parámetro de pendiente en el nivel superior. Al respecto, se ha indicado que, ante la sospecha de endogeneidad (falta de correlación entre los residuos dentro del grupo), se debería considerar el uso de modelos de un solo nivel. Cuando los tamaños de muestra de nivel superior son relativamente pequeños, la estimación bayesiana basada en el algoritmo de cadenas de Markov con integración Monte Carlo puede tener ventaja sobre el método de máxima verosimilitud restringida o residual, si las probabilidades previas se especifican correctamente <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			<p>En paralelo, los modelos multinivel, al igual que los modelos de regresión convencionales, se pueden aplicar en cualquier variable que pueda ser modelada con un modelo lineal generalizado <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Tal como ocurre en los modelos de un solo nivel, cuando no es posible asumir que la distribución de errores se corresponde con una normal, se utiliza una función de enlace para transformar el predictor. Por ejemplo, si la variable dependiente es dicotómica o se utilizan datos agregados como proporciones, se sugiere utilizar modelos de desenlace binario <italic>
+ <italic>(logit, probit</italic> 
+</italic> o doble <italic>
+ <italic>log</italic> 
+</italic> complementario) y se modela una transformación no lineal de la probabilidad de estar en una u otra categoría. En caso de que la variable respuesta tenga más de dos categorías, pueden considerarse otros modelos como el <italic>
+ <italic>logit</italic> 
+</italic> multinomial y el modelo de probabilidades proporcionales <italic>
+ <italic>(logit</italic> 
+</italic> acumulativo). Si se trata de conteo, cuando el tamaño de la población es grande o el evento es raro, se prefiere aplicar el modelo Poisson. Pueden considerarse modelos análogos para situaciones en las que se requiere valorar la supervivencia o el tiempo transcurrido hasta la ocurrencia de un evento determinado <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+			<p>Como ejemplo, se cita a continuación el trabajo de Webster <italic>
+ <italic>et al.</italic> 
+</italic><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>, en el que, mediante ecuaciones de estimación generalizadas con función de enlace <italic>
+ <italic>logit,</italic> 
+</italic> se evaluó de manera conjunta la influencia del nivel socioeconómico individual y comunitario sobre el riesgo de padecer cáncer de mama. Se construyeron tres modelos: en el primero se consideró el nivel socioeconómico individual, en el segundo, solo el nivel comunitario, y el tercero correspondió a un análisis multinivel que incluyó ambos. Los resultados indican que las mujeres que vivían en comunidades con un nivel socioeconómico más alto tenían un riesgo mayor de desarrollar cáncer de mama, independientemente de su propio nivel socioeconómico <italic>
+ <italic>(Odds Ratio,</italic> 
+</italic> OR=1,30). Concluyeron que era posible que la medida a nivel comunitario capturara un aspecto no medido del nivel socioeconómico individual.</p>
+			<p>En cuanto a la medida del efecto contextual general, que señala la proporción de la varianza individual total atribuible al nivel de grupo, en modelos de regresión lineal multinivel, se puede calcular a partir del coeficiente de partición de varianza (CPV) <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Cuando los resultados son de naturaleza binaria, corresponden al tiempo trascurrido hasta el evento o son recuentos enteros que denotan el número de veces que ocurrió un evento; el efecto contextual general se puede cuantificar mediante medidas de heterogeneidad, como la mediana de la <italic>
+ <italic>Odds Ratio (Median Odds Ratio,</italic> 
+</italic> MOR), la mediana de la razón de riesgos <italic>
+ <italic>(Median Hazard Ratio,</italic> 
+</italic> MHR) o la mediana de la razón de tasas, respectivamente <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>.</p>
+			<p>Estas medidas de heterogeneidad se interpretan como el cambio relativo mediano en la medida de ocurrencia del evento, cuando se compara el resultado de un individuo de un grupo seleccionado al azar, con el de otro individuo con valores covariados idénticos, pero seleccionado al azar de un grupo diferente, de un conjunto de grupos ordenados por dicha medida <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Indican el cambio en la probabilidad individual respecto a un resultado al cambiar de un grupo de menor riesgo a otro de mayor riesgo. Por ejemplo, una mediana de la <italic>
+ <italic>Odds Ratio</italic> 
+</italic> igual a 1 indica que no habría diferencias entre grupos en la probabilidad de presentar el resultado. Si hubiese fuertes diferencias entre grupos, dicha mediana sería grande y la variable de agrupación sería relevante para comprender las variaciones en la probabilidad individual de determinado resultado <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+			<p>Ballesteros y Moreno-Montoya <xref ref-type="bibr" rid="B24"><sup>24</sup></xref> utilizaron un modelo <italic>
+ <italic>logit</italic> 
+</italic> de dos niveles para identificar los principales factores regionales asociados con variaciones en la prevalencia de limitación funcional en el adulto mayor en Colombia. Tras ajustar por variables, se calculó la mediana de la <italic>
+ <italic>Odds Ratio</italic> 
+</italic> para evaluar en qué medida la probabilidad individual de limitación funcional estaba determinada por las variables a nivel de estado. El análisis mostró diferencias estadísticamente significativas en la prevalencia de limitación funcional entre los estados, particularmente, en cuanto al nivel socioeconómico medido según el Índice de Desarrollo Humano (MOR=1,22; IC<sub>95%</sub>: 1,13-1,30).</p>
+		</sec>
+		<sec>
+			<title>Pasos generales para la construcción de un modelo de regresión multinivel</title>
+			<p>Para plantear un análisis de regresión multinivel, primero se requiere revisar la teoría existente, las investigaciones previas y el análisis exploratorio de los datos, con el fin de comprobar la existencia de una estructura jerárquica <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Al igual que en las regresiones convencionales, es conveniente postular con anterioridad los predictores por considerar en las diferentes fases del análisis, lo mismo que sus niveles <xref ref-type="bibr" rid="B26"><sup>26</sup></xref> y el número de sujetos por incluir en cada nivel, ya que el poder depende tanto del número de grupos como del número de unidades en cada grupo <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. También, es necesario asegurar la medición de las características a nivel grupal, si se sospecha que los individuos pertenecen a grupos en los cuales comparten dichas características <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+			<p>Estadísticamente, primero es necesario validar la idoneidad de un análisis multinivel. Esto es posible mediante el cálculo de la proporción de la varianza total, explicada por características de niveles superiores por medio del coeficiente de correlación intraclase (CCI) que en un modelo multinivel de efectos fijos, corresponde al mismo coeficiente de partición de la varianza (CPV) <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>:</p>
+			<p>
+				<disp-formula id="e1">
+        <alternatives>					
+	      <graphic xlink:href="2590-7379-bio-43-04-520-e1.png"/>
+	    </alternatives>
+				</disp-formula>
+			</p>
+			<p>Para el análisis del coeficiente, se debe considerar que este toma valores entre 0 y 1. Un valor de cero (0) indica la inexistencia de diferencia entre las observaciones debida a la agrupación (toda la variabilidad de la variable dependiente está explicada por características del primer nivel). Un valor de uno <xref ref-type="bibr" rid="B1"><sup>1</sup></xref> indica que no hay diferencias dentro del grupo (toda la variabilidad de la variable dependiente está explicada por características del segundo nivel) <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Cuanto más grande el valor del CCI, más conveniente resulta proceder con el análisis multinivel <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>, pues habrá un mejor indicador de la existencia y la necesidad de considerar la estructura anidada en los modelos analíticos <xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+			<p>El CCI también es importante en relación con otros aspectos del análisis multinivel, como el cálculo del tamaño de muestra efectivo. Las muestras agrupadas no son tan eficientes estadísticamente como las muestras aleatorias simples, debido a que las similitudes entre los sujetos de los conglomerados pueden reducir la variabilidad de las respuestas de un conglomerado en comparación con las esperadas de una muestra aleatoria simple, lo que puede agrandar las diferencias entre los grupos. Esta condición implica que, al ajustar el tipo de muestreo, se reduzca el tamaño efectivo de la muestra y, por tanto, la precisión en las estimaciones:</p>
+			<p>
+				<disp-formula id="e2">
+     <alternatives>					
+     	<graphic xlink:href="2590-7379-bio-43-04-520-e2.png"/>
+     </alternatives>
+				</disp-formula>
+			</p>
+			<p>En esta fórmula, m es el número de grupos, k es número de unidades por grupo y p es el CCI. El aumento del CCI o el número de unidades por grupo, implican un menor tamaño de muestra efectiva y menor potencia, mientras que una mayor cantidad de grupos puede implicar un mayor tamaño de muestra efectiva y mayor potencia <xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>Respecto a los resultados de un modelo multinivel, como se mencionó previamente, el CCI o el CPV también pueden ser utilizados para reportar la medida del efecto contextual general, es decir, la cantidad de variabilidad que aporta el efecto de agrupación con respecto a la cantidad de variabilidad del fenómeno <italic>
+ <italic>per se</italic> 
+</italic><xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+			<p>A continuación, se proponen algunos pasos generales y usualmente utilizados para guiar el planteamiento de un modelo de regresión multinivel, una vez se ha confirmado teórica y estadísticamente que se puede utilizar, y se ha definido el modelo estadístico, según la pregunta de investigación y la estructura de los datos.</p>
+		</sec>
+		<sec>
+			<title>Generar un modelo nulo</title>
+			<p>Este tiene una finalidad descriptiva, pretende servir como punto de referencia para los modelos que siguen <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. Se utiliza para analizar la variabilidad de la variable dependiente dentro y entre los niveles superiores <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Además, sirve para valorar la magnitud de la variación que depende de los promedios formados por los grupos sin considerar los efectos de las variables explicativas.</p>
+			<p>La ecuación del modelo nulo sin variables explicativas se expresa como</p>
+			<p>
+				<disp-formula id="e3">
+       <alternatives>					
+       	<graphic xlink:href="2590-7379-bio-43-04-520-e3.png"/>
+       </alternatives>
+				</disp-formula>
+			</p>
+			<p>Y<sub>ij</sub>: valor para Y del individuo i en el grupo j </p>
+			<p>B<sub>0j</sub>: promedio de Y en el grupo j</p>
+			<p>r<sub>ij</sub>: efecto aleatorio de los individuos i en el grupo j. Diferencia entre el valor de Y para cada i en el grupo j y el promedio de Y en el grupo j (B<sub>oj</sub>).</p>
+			<p>El promedio de Y en el grupo j, a su vez, se calcula como</p>
+			<p>
+				<disp-formula id="e4">
+     <alternatives>				
+    	<graphic xlink:href="2590-7379-bio-43-04-520-e4.png"/>
+     </alternatives>
+				</disp-formula>
+			</p>
+			<p>Y<sub>00</sub>: promedio general de todos los grupos en los niveles superiores</p>
+			<p>U<sub>0j</sub>: efecto aleatorio de los grupos. Diferencia entre el promedio de cada grupo y el promedio general de todos los grupos en los niveles superiores (y<sub>00</sub>)</p>
+			<p>El modelo nulo de los dos niveles es</p>
+			<p>
+				<disp-formula id="e5">
+       <alternatives>				
+       	<graphic xlink:href="2590-7379-bio-43-04-520-e5.png"/>
+       </alternatives>
+				</disp-formula>
+			</p>
+			<p>Hasta este momento, no se tienen variables predictoras y es posible identificar un componente fijo (y<sub>00</sub>)y un componente aleatorio (U<sub>0j</sub> + e<sub>ij</sub>). El componente fijo corresponde a la media poblacional y no cambia entre grupos, mientras que el componente aleatorio corresponde a los residuales de los dos niveles y puede variar de un grupo a otro <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+			<p>Cada uno de los elementos de la ecuación del modelo nulo se puede identificar gráficamente en la <xref ref-type="fig" rid="f2">figura 2</xref>.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Elementos incluidos en el modelo nulo</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-43-04-520-gf2.png"/>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>Modelo multinivel general de dos niveles</title>
+			<p>Para la estimación de un modelo de dos niveles, se deben considerar dos ecuaciones: la primera corresponde al nivel individual, para determinar la variación individual dentro de cada grupo (2).</p>
+			<p>Ecuación del modelo a nivel individual</p>
+			<p>
+				<disp-formula id="e6">
+       <alternatives>					
+       	<graphic xlink:href="2590-7379-bio-43-04-520-e6.png"/>
+       </alternatives>
+				</disp-formula>
+			</p>
+			<p>Y<sub>ij</sub>: valor para Y del individuo i en el grupo j</p>
+			<p>B<sub>0j</sub>: promedio de Y en el grupo j</p>
+			<p>B<sub>1j</sub>: coeficiente del nivel 1</p>
+			<p>X<sub>ij</sub>: predictor del nivel 1 para el individuo i en el grupo j</p>
+			<p>r<sub>ij</sub>: efecto aleatorio del nivel 1</p>
+			<p>La segunda ecuación considera la variación de los coeficientes entre grupos <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Los coeficientes B<sub>0j</sub> y B<sub>1j</sub> se convierten en una variable dependiente y pueden ser aleatorios, dependiendo del objetivo del análisis <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+			<p>Ecuación del modelo a nivel de grupo para B<sub>0j</sub></p>
+			<p>
+				<disp-formula id="e7">
+         <alternatives>					
+         	<graphic xlink:href="2590-7379-bio-43-04-520-e7.png"/>
+         </alternatives>
+				</disp-formula>
+			</p>
+			<p>B<sub>0j</sub>: intersección del primer nivel</p>
+			<p>γ<sub>00</sub>: promedio general de todos los grupos en los niveles superiores</p>
+			<p>γ<sub>01</sub>: pendiente del segundo nivel</p>
+			<p>Z<sub>j</sub>: predictor del segundo nivel</p>
+			<p>U<sub>0j</sub>: efecto aleatorio del nivel dos. Mide la desviación de la intersección de cada grupo respecto a la intersección general, después de ajustar por Z<sub>j</sub><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+			<p>Ecuación del modelo a nivel de grupo para B<sub>1j</sub></p>
+			<p>
+				<disp-formula id="e8">
+       <alternatives>				
+       	<graphic xlink:href="2590-7379-bio-43-04-520-e8.png"/>
+       </alternatives>
+				</disp-formula>
+			</p>
+			<p>B<sub>1j</sub>: pendiente del primer nivel</p>
+			<p>γ<sub>10</sub>: pendiente general</p>
+			<p>γ<sub>11</sub>: pendiente del segundo nivel</p>
+			<p>Z<sub>j</sub>: predictor del segundo nivel</p>
+			<p>U<sub>1j</sub>: Efecto aleatorio del nivel dos. Mide la desviación de la pendiente de cada grupo respecto a la pendiente general, después de ajustar por Z<sub>j</sub><xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+			<p>Con base en las especificaciones anteriores, se presentan las ecuaciones de los modelos: a) solo con variable independiente individual (<xref ref-type="disp-formula" rid="e7">ecuación 7</xref>), b) solo con variable independiente grupal (<xref ref-type="disp-formula" rid="e8">ecuación 8</xref>), y c) con variables independientes individual y grupal (<xref ref-type="disp-formula" rid="e9">ecuación 9</xref>).</p>
+			<p>
+				<disp-formula id="e9">
+       <alternatives>					
+       	<graphic xlink:href="2590-7379-bio-43-04-520-e9.png"/>
+       </alternatives>
+				</disp-formula>
+			</p>
+			<p>
+				<disp-formula id="e10">
+					<alternatives>
+					<graphic xlink:href="2590-7379-bio-43-04-520-e10.png"/>
+				</alternatives>
+				</disp-formula>
+			</p>
+			<p>
+				<disp-formula id="e11">
+					<alternatives>
+					<graphic xlink:href="2590-7379-bio-43-04-520-e11.png"/>
+				</alternatives>
+				</disp-formula>
+			</p>
+			<p>Finalmente, se presenta la ecuación para especificar un modelo de efectos aleatorios (intercepto y pendiente aleatoria). El modelo incluye los efectos fijos de las variables del segundo nivel (Y<sub>01</sub>), las variables del primer nivel (y<sub>10</sub>) y su interacción (Y<sub>11</sub>) sobre el resultado a nivel individual Y También, incluye los componentes aleatorios de la intersección (U<sub>0j</sub>), la pendiente U<sub>1j</sub> y el primer nivel (r<sub>ij</sub>) <xref ref-type="bibr" rid="B2">2</xref>.</p>
+			<p>Ecuación del modelo de efectos aleatorios</p>
+			<p>
+				<disp-formula id="e12">
+					<alternatives>
+					<graphic xlink:href="2590-7379-bio-43-04-520-e12.png"/>
+				</alternatives>
+				</disp-formula>
+			</p>
+			<p>La <xref ref-type="fig" rid="f3">figura 3</xref> presenta los componentes fijos y aleatorios del modelo multinivel comparado con un modelo de un solo nivel.</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title>Componentes fijos y aleatorios del modelo multinivel comparado con un modelo de un solo nivel</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-43-04-520-gf3.jpg"/>
+				</fig>
+			</p>
+			<p>Tanto en el modelo con un nivel como en el de dos niveles, se debe especificar y reportar si los predictores han sido centrados en algún nivel específico porque esto es clave en el momento de interpretar los resultados <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Según Peugh, el centrado implica &quot;volver a escalar una variable predictora para que un valor de cero pueda interpretarse de manera significativa&quot;, y esto es particularmente útil cuando se utilizan variables predictoras de tipo ordinal en las que el cero no tiene un valor <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+		</sec>
+		<sec>
+			<title>Evaluación del ajuste del modelo final</title>
+			<p>Para evaluar y seleccionar el modelo con mejor ajuste, se han propuesto dos técnicas principales: el análisis de la razón de verosimilitud y la evaluación mediante índices de criterio de información, como el criterio de información de Akaike <italic>
+ <italic>(Akaike Information Criterion,</italic> 
+</italic> AIC) y el criterio de información bayesiano <italic>
+ <italic>(Bayesian Information Criterion,</italic> 
+</italic> BIC) <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Estos dos últimos procuran evitar el ajuste excesivo que puede generar la agregación de parámetros al modelo e incluyen un término de penalización para el número de parámetros <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+			<p>La razón de verosimilitud <italic>
+ <italic>(likelihood ratio)</italic> 
+</italic> o <italic>
+ <italic>deviance,</italic> 
+</italic> tiene una distribución x<sup>2</sup> con grados de libertad iguales a la diferencia de parámetros de los modelos anidados <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>, y se calcula como</p>
+			<p>
+				<inline-formula id="e13">
+					<inline-graphic xlink:href="2590-7379-bio-43-04-520-ie13.png"/>
+				</inline-formula>, donde λ<sub>0</sub> corresponde al valor de verosimilitud <italic>
+ <italic>(likelihoods)</italic> 
+</italic> del modelo sin predictores y λ <sub>1</sub> del modelo final <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. La prueba sugiere que a menor valor, mejor ajuste <xref ref-type="bibr" rid="B33"><sup>33</sup></xref>.</p>
+			<p>Según el AIC, el mejor modelo es aquel que explica la mayor cantidad de variación, utilizando la menor cantidad posible de variables independientes, y se calcula como AIC =-2LL+2q, siendo <italic>
+ <italic>q</italic> 
+</italic> el número de parámetros estimados <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. El mejor modelo será aquel con los valores de AIC más bajos, pero los valores numéricos que arroja su cálculo no tienen un significado <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>.</p>
+			<p>Por su parte, el BIC se calcula como BIC=-2LL+ln(N)q, siendo <italic>
+ <italic>N</italic> 
+</italic> el número de muestras del nivel 1 <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. Este criterio aumenta la penalización cuando aumenta el tamaño de muestra y, por tanto, comparado con el AIC, es más difícil lograr la significancia <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. También, se considera que el modelo con mejor ajuste es aquel con BIC más bajo (Alvarado WR. Aplicación de la teoría de modelos multinivel lineal y no-lineal utilizando el <italic>
+ <italic>software</italic> 
+</italic> especializado HLM7. En: X Congreso Internacional sobre la enseñanza de la matemática asistida por computadora. Tecnológico de Costa Rica. 2017. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.tec.ac.cr/sites/default/files/media/doc/10_memoria_1.pdf">https://www.tec.ac.cr/sites/default/files/media/doc/10_memoria_1.pdf</ext-link>).</p>
+			<p>En cuanto a los <italic>
+ <italic>softwares</italic> 
+</italic> para la implementación de análisis multinivel, existen programas estadísticos como MLwiN <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>, diseñados específicamente para estimar estos modelos, y otros como R que son programas de análisis estadístico general que han incluido paquetes y procesos para el análisis de datos anidados. Albright y Marinova <xref ref-type="bibr" rid="B39"><sup>39</sup></xref> presentan una guía sobre cómo estimar modelos multinivel utilizando SPSS, Stata, SAS y R.</p>
+		</sec>
+		<sec>
+			<title>Experiencias en investigación en salud con análisis multinivel</title>
+			<p>El análisis multinivel se ha utilizado para dar respuesta a preguntas de investigación relacionadas con resultados que dependen de factores individuales, ambientales y sociales, es decir, que no dependen del sujeto en sí mismo, sino también de su interacción con el entorno y con los demás <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. A continuación, se describen algunos estudios que, a juicio de los autores, pueden ilustrar la aplicación de estos modelos en la investigación sanitaria (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Ejemplos de aplicación del análisis multinivel en investigación en salud</title>
+					</caption>
+				      <graphic xlink:href="t1.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>*p&lt;0,05, **p&lt;0,01; AIC: criterio de información de Akaike; CCI: coeficiente de correlación intraclase</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Flores <italic>
+ <italic>et al.</italic> 
+</italic><xref ref-type="bibr" rid="B40"><sup>40</sup></xref> plantearon un análisis multinivel exploratorio para identificar asociaciones entre la mortalidad relacionada con los opioides y los factores de riesgo a nivel de vecindario en Massachusetts (Estados Unidos), en busca de información que aportara en la planeación de intervenciones poblacionales y partiendo del hecho de que, según la evidencia disponible hasta el momento, las intervenciones individuales y del lado de la oferta eran insuficientes. Plantearon una estructura multinivel clásica de individuos anidados en bloques censales y estos, a su vez, en condados (equivalente a municipios para Colombia). Para el análisis estadístico, se propusieron modelos de regresión logística multinivel de efectos fijos (interceptos aleatorios), debido a que solo estaban interesados en conocer el efecto de las variables contextuales. Encontraron que, en la población de estudio, las muertes relacionadas con opioides podrían estar asociadas positivamente con el porcentaje de personas que vivían en la pobreza, la tasa de inseguridad alimentaria, el número de centros de salud calificados a nivel federal y los miligramos equivalentes de hidromorfona per cápita, pero inversamente relacionados con el número de asociaciones sociales por 10.000 habitantes y el número de camas de hospital por 10.000 habitantes.</p>
+			<p>Por su parte, Shrout <italic>
+ <italic>et al.</italic> 
+</italic><xref ref-type="bibr" rid="B41"><sup>41</sup></xref>. evaluaron los efectos dentro y entre personas de la satisfacción con las relaciones románticas sobre la inflamación (marcadores séricos) por medio del estrés psicológico percibido en sobrevivientes de cáncer de mama. Midieron las variables de interés antes del tratamiento, y a los 6 y 18 meses después de finalizar el tratamiento. Plantearon un análisis de mediación que pretende comprender cómo una variable independiente produce un efecto indirecto sobre un resultado por medio de una variable interviniente o mediadora. Dado que los datos tenían una estructura jerárquica con individuos en el nivel 2 (individuos) y medidas repetidas (no independientes) de cada individuo en el nivel 1, realizaron un análisis de mediación multinivel. En el estudio, se concluyó que, tanto en el análisis intrapersonal como en el interpersonal, una mejor satisfacción con la relación está asociada con una menor percepción del estrés, lo que, a su vez, se relaciona con menores niveles de inflamación.</p>
+			<p>Park <italic>
+ <italic>et al.</italic> 
+</italic><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. evaluaron los factores que afectan la gravedad de los accidentes de vehículos comerciales de motor. Los accidentes fueron clasificados en cuatro grupos: mortal, mayor, menor y sin lesiones. Se incluyeron 865.622 accidentes. Consideraron variables a nivel individual y variables a nivel de grupos no anidados (empresas y municipios). Dada la estructura de los datos, para el análisis de la información plantearon cuatro modelos: un modelo <italic>
+ <italic>logit</italic> 
+</italic> de un solo nivel, dos modelos <italic>
+ <italic>logit</italic> 
+</italic> multinivel convencionales y un modelo <italic>
+ <italic>logit</italic> 
+</italic> multinivel con clasificación cruzada. Identificaron una relación inversa y estadísticamente significativa entre la proporción del presupuesto de infraestructura de transporte en el municipio, y la gravedad de las muertes y las lesiones de todos los tipos de accidentes.</p>
+			<p>Finalmente, si bien la presente revisión pretende abordar los elementos fundamentales del uso clásico del análisis multinivel, es importante señalar que hay evidencia emergente sobre usos específicos como su aplicación en salud pública. Evans <italic>
+ <italic>et al.</italic> 
+</italic><xref ref-type="bibr" rid="B42"><sup>42</sup></xref><sup>) (</sup><xref ref-type="bibr" rid="B43"><sup>43</sup></xref> plantearon un análisis multinivel de heterogeneidad individual y precisión discriminatoria que consiste en utilizar modelos jerárquicos multinivel en el marco de la interseccionalidad. Esta percepción crítica sugiere que múltiples categorías sociales no son atributos individuales, sino sistemas interrelacionados de opresión que interactúan desde lo individual hasta lo estructural. En este ámbito, el análisis multinivel permite capturar las desigualdades en salud en diferentes estratos interseccionales de la población <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>.</p>
+			<p>En este trabajo, se resumen de forma preliminar el alcance y la utilidad de los modelos estadísticos multinivel en el ámbito de la investigación en salud.</p>
+			<p>Si bien esta metodología cuenta con varias décadas desde su aparición en publicaciones científicas masivas, prevalece todavía algún rezago para su aplicación debido a las consideraciones estadísticas y técnicas necesarias. Por esta razón, este documento presenta una breve aproximación a las consideraciones que deben tomarse en cuenta para su planteamiento y su construcción. Así mismo, se señalan algunos ejemplos que pueden ilustrar su aplicación.</p>
+			<p>El alcance de esta metodología, más allá de su capacidad para ponderar el efecto de una serie de variables sobre un resultado particular, radica en la posibilidad de integrar información con estructuras complejas, para ahondar en la comprensión de la trama de interacciones y relaciones que a nivel social, clínico y biológico confluyen en la aparición de condiciones de salud; y para plantear estrategias e iniciativas que, desde una mirada más amplia, incrementen los aspectos por considerar en el momento de promover acciones sanitarias benéficas.</p>
+			<p>Si bien los modelos siguen requiriendo sendos conocimientos estadísticos, la existencia de <italic>
+ <italic>softwares</italic> 
+</italic> como MLwiN facilitan la tarea de su construcción, a la vez que llaman la atención sobre su uso riguroso. Bancos de información con estructuras más complejas de anidamiento, frecuencias bajas de ocurrencia en el resultado de interés, desequilibrio en la cantidad de información disponible, entre otras situaciones, constituyen múltiples desafíos para el uso de esta metodología. Sin embargo, dado su aporte en la extensión de los modelos de regresión convencionales, el modelamiento multinivel se convierte en uno de los pilares fundamentales por fortalecer en lo concerniente a la indagación cuantitativa en salud. Su uso no debería depender de los gustos particulares del investigador, sino de la necesidad de explicar efectos de manera independiente en grupos que naturalmente se aglomeran, lo cual resalta su importancia en el estudio de problemas de salud pública.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>De la Cruz F. Modelos multinivel. Rev Per Epidemiol. 2008;12:1-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De la Cruz</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelos multinivel</article-title>
+					<source>Rev Per Epidemiol</source>
+					<year>2008</year>
+					<volume>12</volume>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Diez-Roux AV. Multilevel analysis in public health research. Annu Rev Public Health. 2000;21:171-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.publhealth.21.1.171">https://doi.org/10.1146/annurev.publhealth.21.1.171</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Diez-Roux</surname>
+							<given-names>AV</given-names>
+						</name>
+					</person-group>
+					<article-title>Multilevel analysis in public health research</article-title>
+					<source>Annu Rev Public Health</source>
+					<year>2000</year>
+					<issue>21</issue>
+					<fpage>171</fpage>
+					<lpage>192</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.publhealth.21.1.171">https://doi.org/10.1146/annurev.publhealth.21.1.171</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Usami S. Generalized sample size determination formulas for experimental research with hierarchical data. Behav Res Methods. 2014;46:346-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3758/s13428-013-0387-1">https://doi.org/10.3758/s13428-013-0387-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Usami</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Generalized sample size determination formulas for experimental research with hierarchical data</article-title>
+					<source>Behav Res Methods</source>
+					<year>2014</year>
+					<issue>46</issue>
+					<fpage>346</fpage>
+					<lpage>356</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3758/s13428-013-0387-1">https://doi.org/10.3758/s13428-013-0387-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Rasbash J, Steele F, Browne WJ, Goldstein H. University of Bristol, Centre for Multilevel Modelling MLwiN, version 3.07. Fecha de consulta: 1º de agosto de 2023. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bristol.ac.uk/cmm/media/software/mlwin/downloads/manuals/3-07/manual-web.pdf">https://www.bristol.ac.uk/cmm/media/software/mlwin/downloads/manuals/3-07/manual-web.pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rasbash</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Steele</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Browne</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Goldstein</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<source>University of Bristol, Centre for Multilevel Modelling MLwiN, version 3.0</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-00-00">1º de agosto de 2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bristol.ac.uk/cmm/media/software/mlwin/downloads/manuals/3-07/manual-web.pdf">https://www.bristol.ac.uk/cmm/media/software/mlwin/downloads/manuals/3-07/manual-web.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Diez-Roux AV. La necesidad de un enfoque multinivel en epidemiología. Region Soc. 2008;20:77-91.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Diez-Roux</surname>
+							<given-names>AV</given-names>
+						</name>
+					</person-group>
+					<article-title>La necesidad de un enfoque multinivel en epidemiología</article-title>
+					<source>Region Soc</source>
+					<year>2008</year>
+					<issue>20</issue>
+					<fpage>77</fpage>
+					<lpage>91</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Fisher AJ, Medaglia JD, Jeronimus BF. Lack of group-to-individual generalizability is a threat to human subjects research. Proc Natl Acad Sci USA. 2018;115:E6106-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1711978115">https://doi.org/10.1073/pnas.1711978115</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fisher</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Medaglia</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Jeronimus</surname>
+							<given-names>BF</given-names>
+						</name>
+					</person-group>
+					<article-title>Lack of group-to-individual generalizability is a threat to human subjects research</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>2018</year>
+					<issue>115</issue>
+					<fpage>E6106</fpage>
+					<lpage>E6115</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1711978115">https://doi.org/10.1073/pnas.1711978115</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>University of Bristol. Centre for Multilevel Modelling. What are multilevel models and why should I use them? Fecha de consulta: 16 de noviembre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bristol.ac.uk/cmm/learning/multilevel-models/what-why.html">http://www.bristol.ac.uk/cmm/learning/multilevel-models/what-why.html</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>University of Bristol</collab>
+					</person-group>
+					<source>Centre for Multilevel Modelling. What are multilevel models and why should I use them?</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">16 de noviembre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bristol.ac.uk/cmm/learning/multilevel-models/what-why.html">http://www.bristol.ac.uk/cmm/learning/multilevel-models/what-why.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Damtie Y, Kefale B, Yalew M, Arefaynie M, Adane B. Multilevel analysis of determinants of polygyny among married men in Ethiopia. BMC Glob Public Health. 2021;21:1677. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-021-11701-z">https://doi.org/10.1186/s12889-021-11701-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Damtie</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kefale</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Yalew</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Arefaynie</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Adane</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Multilevel analysis of determinants of polygyny among married men in Ethiopia</article-title>
+					<source>BMC Glob Public Health</source>
+					<year>2021</year>
+					<issue>21</issue>
+					<fpage>1677</fpage>
+					<lpage>1677</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-021-11701-z">https://doi.org/10.1186/s12889-021-11701-z</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Dessie ZG, Zewotir T, Mwambi H, North D. Multivariate multilevel modeling of quality of life dynamics of HIV infected patients. Health Qual Life Outcomes. 2020;18:80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12955-020-01330-2">https://doi.org/10.1186/s12955-020-01330-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dessie</surname>
+							<given-names>ZG</given-names>
+						</name>
+						<name>
+							<surname>Zewotir</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mwambi</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>North</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Multivariate multilevel modeling of quality of life dynamics of HIV infected patients</article-title>
+					<source>Health Qual Life Outcomes</source>
+					<year>2020</year>
+					<issue>18</issue>
+					<fpage>80</fpage>
+					<lpage>80</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12955-020-01330-2">https://doi.org/10.1186/s12955-020-01330-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation> Hagadorn JI, Shaffer ML. Hierarchical data structures and multilevel modeling. J Pediatr. 2019;212:250-1. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpeds.2019.05.042">https://doi.org/10.1016/j.jpeds.2019.05.042</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hagadorn</surname>
+							<given-names>JI</given-names>
+						</name>
+						<name>
+							<surname>Shaffer</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Hierarchical data structures and multilevel modeling</article-title>
+					<source>J Pediatr</source>
+					<year>2019</year>
+					<issue>212</issue>
+					<fpage>250</fpage>
+					<lpage>251</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpeds.2019.05.042">https://doi.org/10.1016/j.jpeds.2019.05.042</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation> Huang F. Multilevel modeling myths. Sch Psychol Q. 2018;33:492-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/spq0000272">https://doi.org/10.1037/spq0000272</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Huang</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Multilevel modeling myths</article-title>
+					<source>Sch Psychol Q</source>
+					<year>2018</year>
+					<issue>33</issue>
+					<fpage>492</fpage>
+					<lpage>499</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/spq0000272">https://doi.org/10.1037/spq0000272</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation> Ntani G, Inskip H, Osmond C, Coggon D. Consequences of ignoring clustering in linear regression. BMC Med Res Methodol. 2021;21:139. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12874-021-01333-7">https://doi.org/10.1186/s12874-021-01333-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ntani</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Inskip</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Osmond</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Coggon</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Consequences of ignoring clustering in linear regression</article-title>
+					<source>BMC Med Res Methodol</source>
+					<year>2021</year>
+					<issue>21</issue>
+					<fpage>139</fpage>
+					<lpage>139</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12874-021-01333-7">https://doi.org/10.1186/s12874-021-01333-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation> Mumper M. American Psycological Association. 2017. Multilevel modelling. Fecha de consulta: 16 de noviembre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.apa.org/science/about/psa/2017/01/multilevel-modelling">https://www.apa.org/science/about/psa/2017/01/multilevel-modelling</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mumper</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<source>American Psycological Association</source>
+					<year>2017</year>
+					<publisher-name>Multilevel modelling</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">16 de noviembre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.apa.org/science/about/psa/2017/01/multilevel-modelling">https://www.apa.org/science/about/psa/2017/01/multilevel-modelling</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation> University of Bristol. Centre for Multilevel Modelling. Multilevel models: An introduction and FAQs. Fecha de consulta: 15 de noviembre de 2022. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bristol.ac.uk/cmm/learning/multilevel-models/">http://www.bristol.ac.uk/cmm/learning/multilevel-models/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>University of Bristol</collab>
+					</person-group>
+					<source>Centre for Multilevel Modelling. Multilevel models: An introduction and FAQs</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-00-00">15 de noviembre de 2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bristol.ac.uk/cmm/learning/multilevel-models/">http://www.bristol.ac.uk/cmm/learning/multilevel-models/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation> Barker KM, Dunn EC, Richmond TK, Ahmed S, Hawrilenko M, Evans CR. Cross-classified multilevel models (CCMM) in health research: A systematic review of published empirical studies and recommendations for best practices. SSM Popul Health. 2020;12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ssmph.2020.100661">https://doi.org/10.1016/j.ssmph.2020.100661</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barker</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Dunn</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Richmond</surname>
+							<given-names>TK</given-names>
+						</name>
+						<name>
+							<surname>Ahmed</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hawrilenko</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Evans</surname>
+							<given-names>CR</given-names>
+						</name>
+					</person-group>
+					<article-title>Cross-classified multilevel models (CCMM) in health research: A systematic review of published empirical studies and recommendations for best practices</article-title>
+					<source>SSM Popul Health</source>
+					<year>2020</year>
+					<issue>12</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ssmph.2020.100661">https://doi.org/10.1016/j.ssmph.2020.100661</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation> Finch H, Bolin JE, Kelley K. Multilevel modeling using R. 2.a edition. Boca Raton: Chapman and Hall/CRC; 2019. p. 252.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Finch</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Bolin</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Kelley</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<source>Multilevel modeling using R</source>
+					<edition>2</edition>
+					<publisher-loc>Boca Raton</publisher-loc>
+					<publisher-name>Chapman and Hall/CRC</publisher-name>
+					<year>2019</year>
+					<fpage>252</fpage>
+					<lpage>252</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation> University of Bristol. Centre for Multilevel Modelling. Random intercept models. Fecha de consulta: 27 de diciembre de 2021. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bristol.ac.uk/cmm/learning/videos/random-intercepts.html">https://www.bristol.ac.uk/cmm/learning/videos/random-intercepts.html</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>University of Bristol</collab>
+					</person-group>
+					<source>Centre for Multilevel Modelling. Random intercept models</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-00-00">27 de diciembre de 2021</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bristol.ac.uk/cmm/learning/videos/random-intercepts.html">https://www.bristol.ac.uk/cmm/learning/videos/random-intercepts.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation> Speed TP. Restricted maximum likelihood: Overview. En: Balakrishnan N, Colton T, Everitt B, Piegorsch W, Ruggeri F, Teugels JL, editores. Wiley StatsRef: Statistics Reference Online. Wiley; 2014. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/9781118445112.stat01451">https://doi.org/10.1002/9781118445112.stat01451</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Speed</surname>
+							<given-names>TP</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Restricted maximum likelihood: Overview</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Balakrishnan</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Colton</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Everitt</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Piegorsch</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Ruggeri</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Teugels</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<source>Wiley StatsRef: Statistics Reference Online</source>
+					<publisher-name>Wiley</publisher-name>
+					<year>2014</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/9781118445112.stat01451">https://doi.org/10.1002/9781118445112.stat01451</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation> Bolin JH, Finch WH, Stenger R. Estimation of random coefficient multilevel models in the context of small numbers of level 2 clusters. Educ Psychol Meas. 2019;7:217-48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0013164418773494">https://doi.org/10.1177/0013164418773494</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bolin</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Finch</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Stenger</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of random coefficient multilevel models in the context of small numbers of level 2 clusters</article-title>
+					<source>Educ Psychol Meas</source>
+					<year>2019</year>
+					<issue>7</issue>
+					<fpage>217</fpage>
+					<lpage>248</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0013164418773494">https://doi.org/10.1177/0013164418773494</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation> Webster TF, Hoffman K, Weinberg J, Vieira V, Aschengrau A. Community- and individuallevel socioeconomic status and breast cancer risk: Multilevel modeling on Cape Cod, Massachusetts. Environ Health Perspect. 2008;116:1125-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1289/ehp.10818">https://doi.org/10.1289/ehp.10818</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Webster</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Hoffman</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Weinberg</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Aschengrau</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Community- and individuallevel socioeconomic status and breast cancer risk: Multilevel modeling on Cape Cod, Massachusetts</article-title>
+					<source>Environ Health Perspect</source>
+					<year>2008</year>
+					<issue>116</issue>
+					<fpage>1125</fpage>
+					<lpage>1129</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1289/ehp.10818">https://doi.org/10.1289/ehp.10818</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation> Austin PC, Wagner P, Merlo J. The median hazard ratio: A useful measure of variance and general contextual effects in multilevel survival analysis. Stat Med. 2017;36:928-38. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/sim.7188">https://doi.org/10.1002/sim.7188</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Austin</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Wagner</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Merlo</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The median hazard ratio: A useful measure of variance and general contextual effects in multilevel survival analysis</article-title>
+					<source>Stat Med</source>
+					<year>2017</year>
+					<issue>36</issue>
+					<fpage>928</fpage>
+					<lpage>938</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/sim.7188">https://doi.org/10.1002/sim.7188</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation> Austin PC, Stryhn H, Leckie G, Merlo J. Measures of clustering and heterogeneity in multilevel Poisson regression analyses of rates/count data. Stat Med. 2018;37:572-89. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/sim.7532">https://doi.org/10.1002/sim.7532</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Austin</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Stryhn</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Leckie</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Merlo</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Measures of clustering and heterogeneity in multilevel Poisson regression analyses of rates/count data</article-title>
+					<source>Stat Med</source>
+					<year>2018</year>
+					<issue>37</issue>
+					<fpage>572</fpage>
+					<lpage>589</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/sim.7532">https://doi.org/10.1002/sim.7532</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation> Merlo J, Chaix B, Ohlsson H, Beckman A, Johnell K, Hjerpe P, <italic>et al</italic>. A brief conceptual tutorial of multilevel analysis in social epidemiology: Using measures of clustering in multilevel logistic regression to investigate contextual phenomena. J Epidemiol Community Health. 2006;60:290-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech.2004.029454">https://doi.org/10.1136/jech.2004.029454</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Merlo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chaix</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Ohlsson</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Beckman</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Johnell</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Hjerpe</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A brief conceptual tutorial of multilevel analysis in social epidemiology: Using measures of clustering in multilevel logistic regression to investigate contextual phenomena</article-title>
+					<source>J Epidemiol Community Health</source>
+					<year>2006</year>
+					<issue>60</issue>
+					<fpage>290</fpage>
+					<lpage>297</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech.2004.029454">https://doi.org/10.1136/jech.2004.029454</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation> Ballesteros SM, Moreno-Montoya J. Factores individuales y departamentales asociados con la prevalencia de limitación funcional entre ancianos colombianos: un análisis multinivel. Cad Saúde Pública. 2018;34:12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00163717">https://doi.org/10.1590/0102-311X00163717</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ballesteros</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Moreno-Montoya</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Factores individuales y departamentales asociados con la prevalencia de limitación funcional entre ancianos colombianos: un análisis multinivel</article-title>
+					<source>Cad Saúde Pública</source>
+					<year>2018</year>
+					<issue>34</issue>
+					<fpage>12</fpage>
+					<lpage>12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00163717">https://doi.org/10.1590/0102-311X00163717</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation> Dedrick RF, Ferron JM, Hess MR, Hogarty KY, Kromrey JD, Lang TR, <italic>et al</italic>. Multilevel modeling: A review of methodological issues and applications. Rev Educ Res. 2009;79:69-102. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3102/0034654308325581">https://doi.org/10.3102/0034654308325581</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dedrick</surname>
+							<given-names>RF</given-names>
+						</name>
+						<name>
+							<surname>Ferron</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Hess</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Hogarty</surname>
+							<given-names>KY</given-names>
+						</name>
+						<name>
+							<surname>Kromrey</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Lang</surname>
+							<given-names>TR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Multilevel modeling: A review of methodological issues and applications</article-title>
+					<source>Rev Educ Res</source>
+					<year>2009</year>
+					<issue>79</issue>
+					<fpage>69</fpage>
+					<lpage>102</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3102/0034654308325581">https://doi.org/10.3102/0034654308325581</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation> Catalán-Reyes MJ, Galindo-Villardón MP. Utilización de los modelos multinivel en investigación sanitaria. Gac Sanit. 2003;17(Supl.3):35-52.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Catalán-Reyes</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Galindo-Villardón</surname>
+							<given-names>MP</given-names>
+						</name>
+					</person-group>
+					<article-title>Utilización de los modelos multinivel en investigación sanitaria</article-title>
+					<source>Gac Sanit</source>
+					<year>2003</year>
+					<volume>17</volume>
+					<supplement>3</supplement>
+					<fpage>35</fpage>
+					<lpage>52</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation> Peugh JL. A practical guide to multilevel modeling. J Sch Psychol. 2010;48:85-112. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jsp.2009.09.002">https://doi.org/10.1016/j.jsp.2009.09.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peugh</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<article-title>A practical guide to multilevel modeling</article-title>
+					<source>J Sch Psychol</source>
+					<year>2010</year>
+					<issue>48</issue>
+					<fpage>85</fpage>
+					<lpage>112</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jsp.2009.09.002">https://doi.org/10.1016/j.jsp.2009.09.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation> Osorio AM, Romero GA, Bonilla H, Aguado LF. Socioeconomic context of the community and chronic child malnutrition in Colombia. Rev Saúde Pública. 2018;52:1-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2018052000394">https://doi.org/10.11606/S1518-8787.2018052000394</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Osorio</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Romero</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Bonilla</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Aguado</surname>
+							<given-names>LF</given-names>
+						</name>
+					</person-group>
+					<article-title>Socioeconomic context of the community and chronic child malnutrition in Colombia</article-title>
+					<source>Rev Saúde Pública</source>
+					<year>2018</year>
+					<issue>52</issue>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2018052000394">https://doi.org/10.11606/S1518-8787.2018052000394</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation> Gabriëlle I, Jongmans M. Intra-class correlation testing to examine Intra-group differences [Bachelor thesis]. Enschede: University of Twente; 2021.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gabriëlle</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Jongmans</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Intra-class correlation testing to examine Intra-group differences</source>
+					<comment content-type="degree">Bachelor thesis</comment>
+					<publisher-loc>Enschede</publisher-loc>
+					<publisher-name>University of Twente</publisher-name>
+					<year>2021</year>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation> Yamana H. Introduction to multilevel analysis. Ann Clin Epidemiol. 2021;3:5-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.37737/ace.3.1_5">https://doi.org/10.37737/ace.3.1_5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yamana</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Introduction to multilevel analysis</article-title>
+					<source>Ann Clin Epidemiol</source>
+					<year>2021</year>
+					<issue>3</issue>
+					<fpage>5</fpage>
+					<lpage>9</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.37737/ace.3.1_5">https://doi.org/10.37737/ace.3.1_5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation> Killip S, Mahfoud Z, Pearce K. What is an intracluster correlation coefficient? Crucial concepts for primary care researchers. Ann Fam Med. 2004;2:204-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1370/afm.141">https://doi.org/10.1370/afm.141</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Killip</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mahfoud</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Pearce</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>What is an intracluster correlation coefficient? Crucial concepts for primary care researchers</article-title>
+					<source>Ann Fam Med</source>
+					<year>2004</year>
+					<issue>2</issue>
+					<fpage>204</fpage>
+					<lpage>208</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1370/afm.141">https://doi.org/10.1370/afm.141</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation> Ramos-Rodríguez FJ, Lara Porras AM, Molina-Muñoz D. Competencia matemática de los estudiantes andaluces: un análisis multinivel de la encuesta PISA 2015. Pi-InnovaMath. 2019;2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5944/pim.2.2019.24130">https://doi.org/10.5944/pim.2.2019.24130</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramos-Rodríguez</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Lara Porras</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Molina-Muñoz</surname>
+							<given-names>D.</given-names>
+						</name>
+					</person-group>
+					<article-title>Competencia matemática de los estudiantes andaluces: un análisis multinivel de la encuesta PISA 2015</article-title>
+					<source>Pi-InnovaMath</source>
+					<year>2019</year>
+					<issue>2</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5944/pim.2.2019.24130">https://doi.org/10.5944/pim.2.2019.24130</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation> Alarcón R, Blanca MJ, Arnau J, Bono R. Modelado jerárquico por pasos: análisis multinivel del estrés cotidiano en adolescentes. Rev Mex Psicol. 2015;32:12433.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alarcón</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Blanca</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Arnau</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bono</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelado jerárquico por pasos: análisis multinivel del estrés cotidiano en adolescentes</article-title>
+					<source>Rev Mex Psicol</source>
+					<year>2015</year>
+					<issue>32</issue>
+					<fpage>12433</fpage>
+					<lpage>12433</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation> Vrieze SI. Model selection and psychological theory: A discussion of the differences between the Akaike Information Criterion (AIC) and the Bayesian Information Criterion (BIC). Psychol Methods. 2012;17:228-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/a0027127">https://doi.org/10.1037/a0027127</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vrieze</surname>
+							<given-names>SI</given-names>
+						</name>
+					</person-group>
+					<article-title>Model selection and psychological theory: A discussion of the differences between the Akaike Information Criterion (AIC) and the Bayesian Information Criterion (BIC)</article-title>
+					<source>Psychol Methods</source>
+					<year>2012</year>
+					<issue>17</issue>
+					<fpage>228</fpage>
+					<lpage>243</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/a0027127">https://doi.org/10.1037/a0027127</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation> Oliver JC, Rosel J, Jara P. Modelos de regresión multinivel: aplicación en psicología escolar. Psicothema. 2000;12:487-94.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliver</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Rosel</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jara</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelos de regresión multinivel: aplicación en psicología escolar</article-title>
+					<source>Psicothema</source>
+					<year>2000</year>
+					<issue>12</issue>
+					<fpage>487</fpage>
+					<lpage>494</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation> Kim S, Jeong Y, Hong S. The impact of ignoring a crossed factor in cross-classified multilevel modeling. Front Psychol. 2021;12:637645. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpsyg.2021.637645">https://doi.org/10.3389/fpsyg.2021.637645</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Jeong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>The impact of ignoring a crossed factor in cross-classified multilevel modeling</article-title>
+					<source>Front Psychol</source>
+					<year>2021</year>
+					<issue>12</issue>
+					<fpage>637645</fpage>
+					<lpage>637645</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpsyg.2021.637645">https://doi.org/10.3389/fpsyg.2021.637645</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation> Portet S. A primer on model selection using the Akaike Information Criterion. Infect Dis Model. 2020;5:111-28. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.idm.2019.12.010">https://doi.org/10.1016/j.idm.2019.12.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Portet</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>A primer on model selection using the Akaike Information Criterion</article-title>
+					<source>Infect Dis Model</source>
+					<year>2020</year>
+					<issue>5</issue>
+					<fpage>111</fpage>
+					<lpage>128</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.idm.2019.12.010">https://doi.org/10.1016/j.idm.2019.12.010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation> University of Bristol. Centre for Multilevel Modelling. 2022. MLwiN. Fecha de consulta: 28 de febrero de 2023. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bristol.ac.uk/cmm/software/mlwin/">http://www.bristol.ac.uk/cmm/software/mlwin/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>University of Bristol</collab>
+					</person-group>
+					<source>Centre for Multilevel Modelling</source>
+					<year>2022</year>
+					<publisher-name>MLwiN</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-00-00">28 de febrero de 2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.bristol.ac.uk/cmm/software/mlwin/">http://www.bristol.ac.uk/cmm/software/mlwin/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation> Albright JJ, Marinova DM. Estimating multilevel models using SPSS. Stata. 2010; Fecha de consulta: 28 de febrero de 2023. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scholarworks.iu.edu/dspace/handle/2022/19737">https://scholarworks.iu.edu/dspace/handle/2022/19737</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Albright</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Marinova</surname>
+							<given-names>DM</given-names>
+						</name>
+					</person-group>
+					<source>Estimating multilevel models using SPSS. Stata</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-00-00">28 de febrero de 2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scholarworks.iu.edu/dspace/handle/2022/19737">https://scholarworks.iu.edu/dspace/handle/2022/19737</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation> Flores MW, Cook BL, Mullin B, Halperin-Goldstein G, Nathan A, Tenso K, <italic>et al</italic>. Associations between neighborhood-level factors and opioid-related mortality: A multilevel analysis using death certificate data. Addict Abingdon Engl. 2020;115:1878-89. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/add.15009">https://doi.org/10.1111/add.15009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Flores</surname>
+							<given-names>MW</given-names>
+						</name>
+						<name>
+							<surname>Cook</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Mullin</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Halperin-Goldstein</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Nathan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tenso</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Associations between neighborhood-level factors and opioid-related mortality: A multilevel analysis using death certificate data</article-title>
+					<source>Addict Abingdon Engl</source>
+					<year>2020</year>
+					<issue>115</issue>
+					<fpage>1878</fpage>
+					<lpage>1889</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/add.15009">https://doi.org/10.1111/add.15009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation> Shrout MR, Renna ME, Madison AA, Alfano CM, Povoski SP, Lipari AM, <italic>et al</italic>. Relationship satisfaction predicts lower stress and inflammation in breast cancer survivors: A longitudinal study of within-person and between-person effects. Psychoneuroendocrinology. 2020;118:104708. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psyneuen.2020.104708">https://doi.org/10.1016/j.psyneuen.2020.104708</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shrout</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Renna</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Madison</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Alfano</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Povoski</surname>
+							<given-names>SP</given-names>
+						</name>
+						<name>
+							<surname>Lipari</surname>
+							<given-names>AM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Relationship satisfaction predicts lower stress and inflammation in breast cancer survivors: A longitudinal study of within-person and between-person effects</article-title>
+					<source>Psychoneuroendocrinology</source>
+					<year>2020</year>
+					<issue>118</issue>
+					<fpage>104708</fpage>
+					<lpage>104708</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psyneuen.2020.104708">https://doi.org/10.1016/j.psyneuen.2020.104708</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation> Park HC, Kim DK, Kho SY, Park PY. Cross-classified multilevel models for severity of commercial motor vehicle crashes considering heterogeneity among companies and regions. Accid Anal Prev. 2017;106:305-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.aap.2017.06.009">https://doi.org/10.1016/j.aap.2017.06.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Park</surname>
+							<given-names>HC</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Kho</surname>
+							<given-names>SY</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>PY</given-names>
+						</name>
+					</person-group>
+					<article-title>Cross-classified multilevel models for severity of commercial motor vehicle crashes considering heterogeneity among companies and regions</article-title>
+					<source>Accid Anal Prev</source>
+					<year>2017</year>
+					<issue>106</issue>
+					<fpage>305</fpage>
+					<lpage>314</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.aap.2017.06.009">https://doi.org/10.1016/j.aap.2017.06.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation> Evans CR, Williams DR, Onnela JP, Subramanian SV. A multilevel approach to modeling health inequalities at the intersection of multiple social identities. Soc Sci Med. 2018;203:64-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.socscimed.2017.11.011">https://doi.org/10.1016/j.socscimed.2017.11.011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Evans</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Onnela</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Subramanian</surname>
+							<given-names>SV</given-names>
+						</name>
+					</person-group>
+					<article-title>A multilevel approach to modeling health inequalities at the intersection of multiple social identities</article-title>
+					<source>Soc Sci Med</source>
+					<year>2018</year>
+					<issue>203</issue>
+					<fpage>64</fpage>
+					<lpage>73</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.socscimed.2017.11.011">https://doi.org/10.1016/j.socscimed.2017.11.011</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation> Arias-Uriona AM, Losantos M, Bedoya P. La interseccionalidad como herramienta teóricoanalítica para estudiar las desigualdades en salud en las Américas. Rev Panam Salud Pública. 2023;47:1.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arias-Uriona</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Losantos</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bedoya</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>La interseccionalidad como herramienta teóricoanalítica para estudiar las desigualdades en salud en las Américas</article-title>
+					<source>Rev Panam Salud Pública</source>
+					<year>2023</year>
+					<issue>47</issue>
+					<fpage>1</fpage>
+					<lpage>1</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Mera-Mamián AY, Moreno-Montoya J, Rodriguez-Villamizar LA, Muñoz DI, Segura AM, García HI. Fundamento y generalidades de la construcción de modelos estadísticos multinivel en el ámbito de la investigación en salud. Biomédica. 2023;43:520-33. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6946">https://doi.org/10.7705/biomedica.6946</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores</label>
+				<p>Andry Mera y José Moreno: participaron en todas las etapas de la revisión.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Laura Rodriguez y Diana Muñoz</label>
+				<p> lo hicieron en la redacción del manuscrito.</p>
+			</fn>
+			<fn fn-type="other" id="fn5">
+				<p>Financiación: No se recibió financiación para el desarrollo, ni la publicación de esta revisión.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

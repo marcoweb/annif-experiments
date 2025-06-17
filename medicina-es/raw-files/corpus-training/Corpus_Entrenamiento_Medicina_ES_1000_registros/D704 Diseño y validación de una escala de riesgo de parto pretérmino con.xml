@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00006</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Diseño y validación de una escala de riesgo de parto pretérmino con enfoque periodontal</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Design and validation of a preterm birth risk scale with a periodontal approach</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3633-4400</contrib-id>
+					<name>
+						<surname>Peña Sisto</surname>
+						<given-names>Maritza</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4694-2434</contrib-id>
+					<name>
+						<surname>López Barroso</surname>
+						<given-names>Reinaldo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Hospital General Docente Dr. Juan Bruno Zayas Alfonso. Santiago de Cuba, Cuba. </institution>
+					<institution content-type="normalized">Hospital General Docente Dr. Juan Bruno Zayas Alfonso</institution>
+					<institution content-type="orgname">Hospital General Docente Dr. Juan Bruno Zayas Alfonso</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff1b">
+					<label>1</label>
+					<institution content-type="original">Hospital General Docente Dr. Juan Bruno Zayas Alfonso. Santiago de Cuba, Cuba. </institution>
+					<institution content-type="normalized">Hospital General Docente Dr. Juan Bruno Zayas Alfonso</institution>
+					<institution content-type="orgname">Hospital General Docente Dr. Juan Bruno Zayas Alfonso</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+					<email>msisto@infomed.sld.cu</email>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>msisto@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores declaran que no existe conflicto de intereses alguno en este estudio</p>
+				</fn>
+				<fn fn-type="other" id="fn2">
+					<label>Contribución de los autores</label>
+					<p> Maritza Peña Sisto: conceptualización, análisis formal, investigación, metodología, administración del proyecto, recursos, supervisión, validación, visualización, redacción-borrador original, redacción-revisión y edición. Participación: 70 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn3">
+					<p>Reinaldo López Barroso: conceptualización, metodología, recursos, validación, redacción-revisión y edición. Participación: 30 %.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>28</day>
+				<month>08</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<season>Jul-Aug</season>
+				<year>2023</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<season>Jul-Aug</season>
+				<year>2023</year>
+			</pub-date>
+			<volume>27</volume>
+			<issue>4</issue>
+			<elocation-id>e4647</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>04</month>
+					<year>2023</year>
+				</date>
+				<date date-type="accepted">
+					<day>05</day>
+					<month>07</month>
+					<year>2023</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción: </title>
+					<p>La escala de riesgo diseñada para estimar la probabilidad de parto pretérmino con enfoque periodontal debe ser validada antes de su implementación en la práctica clínica.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Diseñar y validar una escala de riesgo de parto pretérmino con enfoque periodontal. </p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p> Se realizó un estudio analítico, de casos y controles, de 1152 puérperas ingresadas en los hospitales maternos de la provincia de Santiago de Cuba en el período 2011-2022, para lo cual fueron seleccionadas 2 muestras: una de construcción del modelo (n=750) y otra de validación de la escala (n=402). Se determinaron los posibles predictores a través del análisis univariado y el cálculo del <italic>odds ratio</italic>, con un nivel de significación de p≤0,05; asimismo, se elaboró un modelo de regresión logística binaria multivariada y se obtuvo la escala de riesgo que fue validada por diferentes métodos. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> La escala se obtuvo con 7 predictores y 2 estratos de riesgo. Esta alcanzó buena discriminación (80 %), así como buen nivel de ajuste y validez de constructo (p=0,72). Igualmente, aseguró una predicción correcta de más de 50 % de los partos pretérmino, valores de sensibilidad y especificidad aceptables (79,20 y 70,20 %, respectivamente), así como validez de contenido, validez interna y confiabilidad adecuadas. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones: </title>
+					<p>La escala de riesgo para estratificar el riesgo de parto pretérmino incluye predictores de gravedad de la enfermedad periodontal, con buenos parámetros de validación para ser usada en la toma de decisiones para prevenir este tipo de parto.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The risk scale designed to estimate the probability of preterm birth with periodontal approach should be validated before its implementation in the clinical practice.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To design and validate a risk scale of preterm birth with periodontal approach.</p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> A cases and controls analytic study of 1152 newly-delivered women admitted to maternal hospitals in Santiago de Cuba province was carried out in the period 2011 - 2022, and 2 samples were selected: one of pattern construction (n=750) and another of scale validation(n=402). The possible predictors were determined through the single varied analysis and odds ratio calculation, with a significance level of p≤0.05; also, a multivariate binary logistical regression model was elaborated and the risk scale was obtained, which was validated by different methods.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The scale was obtained with 7 predictors and 2 risk stratum. It reached a good discrimination (80%), as well as a good adjustment level and construction validity (p=0.72). Likewise, it assured a correct prediction of more than 50% of preterm births, acceptable sensibility and specificity values (79.20 and 70.20%, respectively), as well as adequate content validity, internal validity and reliability.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The risk scale to stratify the risk of preterm birth includes predictors of periodontal disease severity, with good validation parameters to be used in the decisions making to prevent this type of childbirth.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave</title>
+				<kwd>Escala de riesgo</kwd>
+				<kwd>enfermedad periodontal</kwd>
+				<kwd>periodontitis</kwd>
+				<kwd>parto pretérmino</kwd>
+				<kwd>modelo de predicción</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords</title>
+				<kwd>Risk scale</kwd>
+				<kwd>periodontal disease</kwd>
+				<kwd>periodontitis</kwd>
+				<kwd>preterm birth</kwd>
+				<kwd>prediction model</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="19"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>Según la Sociedad Española de Periodontología,<xref ref-type="bibr" rid="B1"><sup>1</sup></xref> una de cada cuatro embarazadas puede tener un riesgo elevado de parto pretérmino debido a problemas periodontales. De las infecciones no genitales asociadas con el parto pretérmino, quizás sea la periodontitis la de mayor riesgo, independiente de otros factores.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>)</sup></p>
+			<p>La periodontitis es una enfermedad inflamatoria crónica y multifactorial asociada a una biopelícula bacteriana o disbiosis, que se caracteriza por la destrucción progresiva del aparato de sostén del diente (pérdida de inserción clínica y del hueso alveolar, presencia de bolsas periodontales y sangrado gingival).<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>De acuerdo con lo anterior, han sido descritas 2 vías potenciales para esta asociación: la directa, donde los microorganismos periodontales llegan a la placenta por diseminación hematógena, por bacteriemia materna o por vía ascendente genitourinaria; y la indirecta, a través de los mediadores inflamatorios de los tejidos periodontales o mediante el estímulo de la síntesis de reactantes de fase aguda en el hígado, en interacción con la unidad fetoplacentaria.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>Como bien se conoce, pronosticar significa prever, predecir o estimar la probabilidad o el riesgo de una condición futura; por tanto, la mayoría de las decisiones de los profesionales de ciencias médicas se basan en la probabilidad o el riesgo de un paciente.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref> En tal sentido, la construcción de escalas matemáticas para predecir y clasificar el riesgo ante cualquier afección o complicación debería incluirse en los actuales protocolos de trabajo, puesto que contribuyen a la toma de decisiones respecto a la prevención y el aprovechamiento óptimo de los recursos en función del riesgo.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>En los modelos y las escalas predictivas, validar significa ver si predice bien la variable dependiente en nuevos individuos. Una vez encontrado el mejor modelo posible hay que validarlo, es decir, comprobar si funciona de la misma forma en individuos en quienes no se empleó durante su desarrollo.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Al igual que otras alteraciones, el parto pretérmino puede predecirse por sus factores de riesgo, para lo cual son diseñados modelos matemáticos que derivan en escalas pronósticas. En este contexto, han sido publicados varios estudios desde la perspectiva ginecobstétrica;<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref> sin embargo, ninguno incluye entre sus predictores la gravedad de la periodontitis, lo cual sirvió de motivación a los autores para realizar el presente artículo con vistas a diseñar y validar una escala de riesgo de parto pretérmino con un enfoque periodontal.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio analítico y observacional, de casos y controles, de 1152 puérperas que se encontraban ingresadas en los hospitales maternos de Santiago de Cuba en el período 2011-2022, al momento del examen a recién nacidos vivos de gestaciones únicas.</p>
+			<p>La muestra de casos para la construcción del modelo, calculada por Epidat 3.0 y seleccionada por muestreo aleatorio simple, quedó conformada por 250 puérperas con parto pretérmino; los controles, por las 500 con parto a término. Las 402 restantes, no seleccionadas anteriormente, constituyeron la muestra de validación. </p>
+			<p>El análisis bivariado se efectuó con las variables siguientes: gingivitis (leve, moderada e intensa), periodontitis (leve, moderada y grave), infecciones urinarias y genitales, antecedentes de parto pretérmino y aborto espontáneo, peso inadecuado a la captación, tabaquismo y edad materna avanzada. Así, se obtuvieron las de mayor relación con la variable dependiente, según los valores de la razón de productos cruzados (<italic>odds ratio</italic>) y una significación de p≤0,05. </p>
+			<p>Para la elaboración del modelo se realizó un análisis de regresión logística binaria multivariada, donde la presencia de parto pretérmino fue considerada la variable dependiente. Como posibles factores predictivos se incluyeron aquellas variables con coeficientes significativamente distintos de 0, en las que el límite inferior de su intervalo de confianza no contuviese la unidad y no fuese excesivamente amplio.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>En el diseño de la escala se utilizó el método propuesto por la Organización Panamericana de la Salud para el enfoque de riesgo de la atención materno-infantil, a través de un modelo matemático con escala logarítmica para asignar a cada factor un peso proporcional a su logaritmo. </p>
+			<p>A partir de los puntajes se definió la escala como una combinación lineal de la manera siguiente: valor de la escala= p<sub>1</sub>X<sub>1</sub> + p<sub>2</sub>X<sub>2</sub> + p<sub>3</sub>X<sub>3</sub> +…+ p<sub>S</sub>X<sub>S</sub>, donde Xi representa el número de variables incluidas en la escala y pi es el puntaje o peso para la i-ésima variable. </p>
+			<p>Para facilitar su cálculo se decidió dicotomizar sus variables, es decir, el valor 1 es la presencia del factor asociado a la variable y el 0, la ausencia; igualmente, los pacientes fueron estratificados en 2 niveles de riesgo: alto y bajo. El punto de corte óptimo se obtuvo al analizar punto a punto, a través del índice de Youden para los valores mayores de sensibilidad y especificidad, y se trazó en el 55 percentil; por ello las puntuaciones iguales o mayores fueron consideradas de alto riesgo.</p>
+			<p>De igual manera, para la validar la escala se tuvieron en cuenta las valoraciones de contenido y criterio, la validez de constructo, el rendimiento (calibración y capacidad de discriminación) y la validación interna. La discriminación fue analizada mediante el área bajo la curva ROC<italic>,</italic> por las siglas en inglés de <italic>receiver operating characteristic</italic> (característica operativa del receptor); mientras que para su calibración fueron calculados los estadígrafos de R<sup>2</sup> de Cox-Snell y de Nagelkerke, así como la bondad de ajuste del modelo de Hosmer-Lemeshow, con p≥0,05. </p>
+			<p>Asimismo, la confiabilidad se determinó a través del coeficiente alfa de Cronbach, con un valor mínimo aceptable de α=0,70 y p˂0,05. La validez de contenido y de presentación se exploró mediante la consulta a 20 expertos seleccionados (con un error medio grupal ≤2,5), todos especialistas en ciencias de la salud, con títulos de máster o grado de doctor en ciencias, 10 años o más de experiencia en el sector de la salud y un coeficiente de competencia entre 0,8 y 1. Estos se pronunciaron sobre el cumplimiento de las 5 propiedades básicas que deben cumplir las escalas, según los criterios de Moriyama, y la evaluación de muy adecuado, bastante adecuado, adecuado, poco adecuado y no adecuado. </p>
+			<p>Para determinar el grado de coincidencia entre expertos se utilizó el coeficiente W de Kendall, con valores válidos superiores a 0,5 y p˂0,05. El procesamiento estadístico se realizó mediante el programa SPSS, versión 22.0 y el programa EPIDAT 3.1.</p>
+			<p>La investigación se realizó bajo las recomendaciones éticas establecidas en la Declaración de Helsinki y en la Declaración Universal sobre Bioética y Derechos Humanos.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>La conversión de los riesgos relativos estimados a puntajes aditivos por el método matemático, y según la escala logarítmica, mostró que la periodontitis leve y el peso inadecuado a la captación, con coeficientes <italic>β</italic> de 5,33 y 4,96, respectivamente, alcanzaron un puntaje de 7; la periodontitis moderada (<italic>β</italic> =7,94) y grave (<italic>β</italic>=8,52), un puntaje de 9; los antecedentes de parto pretérmino (<italic>β</italic>= 4,11) y las infecciones urinarias (<italic>β</italic>= 4,15), un puntaje de 6, y las infecciones genitales bajas (<italic>β</italic> =1,77), un puntaje de 3. El valor máximo a obtener fue de 47 puntos.</p>
+			<p>Como resultado de la aplicación de la escala (<xref ref-type="table" rid="t1">tabla 1</xref>) fueron clasificadas 403 y 347 puérperas con bajo y alto riesgos, respectivamente. Del primer grupo, solo 12,9 % presentó parto pretérmino; del segundo, 57,1 %. </p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Pacientes según estimación del riesgo de parto pretérmino</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-04-e4647-gt1.png"/>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Χ<sup>2</sup>=163,60; grado de libertad (g)=1; p= 0,000; OR=8,97 (6,25; 12,8).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>La capacidad discriminante para distinguir entre las madres que presentaron parto pretérmino o no fue buena (80 %), ya que la curva ROC alcanzada resultó ser de 0,805, con un intervalo de confianza que no contiene al 0,5 y una probabilidad asociada de p&lt;0,01. </p>
+			<p>Como se aprecia en la <xref ref-type="table" rid="t2">tabla 2</xref>, la sensibilidad y la especificidad fueron aceptables, o sea, del total de puérperas con parto pretérmino, 79,20 % clasificaron correctamente como alto riesgo, así como 70,20 % de aquellas con parto a término.</p>
+			<p>Con estas variables la escala tiene una capacidad de clasificar correctamente a 73,2 % de las puérperas analizadas, aunque solo 57,06 % de todas las clasificadas como alto riesgo presentaron partos pretérmino (valor predictivo positivo); por tanto, estas últimas tuvieron 2,66 veces más probabilidad de que la escala las clasificara de alto riego con respecto a las de partos a término (razón de verosimilitud positiva).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Valores predictivos de la escala en su construcción</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-04-e4647-gt2.png"/>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>Fuente: hoja de resultados del programa EPIDAT 3.1</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Las variables seleccionadas en la construcción de la escala pueden predecir el parto pretérmino, al obtenerse en las pruebas ómnibus de coeficientes del modelo valores de p˂0,05. Según los estadígrafos de R<sup>2</sup> de Cox-Snell y de Nagelkerke, la proporción de variabilidad de partos pretérmino, que es explicada por dicho modelo, se encuentra entre 25 y 35 %. Asimismo, la prueba de bondad de ajuste de Hosmer-Lemeshow muestra que p=0,72, por lo que se toma la H<sub>0</sub> de que no existe diferencia entre los valores observados y esperados, lo que indica buen ajuste y validez de constructo.</p>
+			<p>En cuanto a la validación del contenido realizada por expertos (<xref ref-type="table" rid="t3">tabla 3</xref>), se obtuvo un coeficiente de conocimientos K&gt;0,8, lo que se considera alto. </p>
+			<p>Por otra parte, al evaluar los criterios de contenido, predominaron los considerados bastante adecuado y muy adecuado, en ese orden; sin embargo, en la categoría adecuado solo un criterio alcanzó 60 % (sensible a variaciones del fenómeno que se mide). No hubo evaluaciones de poco adecuado o no adecuado y existió un consenso significativo entre los expertos, con una intensidad de coeficiente W de Kendall de 0,650. </p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Validez de contenido según opiniones de especialistas</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-04-e4647-gt3.png"/>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>X<sup>2</sup> =52,000; g=4; p&lt;0,000</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Igualmente, la validación interna realizada por división de datos demostró que ambos subconjuntos resultaron muy parecidos. La muestra de validación alcanzó un porcentaje correcto de clasificación (79,6 %), prueba de bondad de ajuste de Hosmer Lemeshow con valor de p=0,87 y curvas ROC de 0,771.</p>
+			<p>Para evaluar la confiabilidad o consistencia interna se empleó el coeficiente alfa de Cronbach (<xref ref-type="table" rid="t4">tabla 4</xref>), que alcanzó un valor elevado (0,942), lo cual indica que todos los predictores son útiles en la construcción de la escala. </p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Elementos de la consistencia interna para la escala propuesta.</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-04-e4647-gt4.png"/>
+				</table-wrap>
+			</p>
+			<p>Al comparar la capacidad discriminatoria de la escala en sus procesos de construcción (curva 1) y validación interna (curva 2), en la prueba de homogeneidad de áreas no existieron diferencias significativas entre ellas, pues el área bajo la curva ROC para la escala fue de 0,80 (0,771-0,839) y 0,77 (0,717-0,826) en su validación, con valor de p=0,4571 (<xref ref-type="fig" rid="f1">fig</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Fig</label>
+					<caption>
+						<title>Comparación de curvas ROC en la construcción y validación de la escala de riesgo</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-04-e4647-gf1.png"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La declaración TRIPOD (siglas del inglés <italic>Transparent Reporting of Multivariable Prediction Model for Individual Prognosis or Diagnosis</italic>) es un conjunto de recomendaciones basadas en la evidencia cuyo propósito es notificar los estudios de modelos predictivos en ciencias biomédicas, así como mejorar la transparencia de los informes; en esta se sugiere dar a conocer los métodos de validación empleados.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>De acuerdo con lo antes expuesto, y debido a que todo instrumento predice según las especificidades de la muestra y las características de la población de la que se obtiene, se hace necesario demostrar la eficacia de cada escala predictiva, para lo cual se realizan pruebas de validación que avalan su pertinencia en el pronóstico del evento en estudio, en este caso el parto pretérmino.</p>
+			<p>A partir de un programa de cribado epidemiológico, con el fin de otorgar puntos a los factores de riesgo obtenidos, la actual escala escoge el exponencial 𝛽 del modelo de regresión de origen y lo convierte en puntaje aditivo por escala logarítmica; método empleado por la Organización Panamericana de la Salud y que coincide con lo referido por Reteureta <italic>et al</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref> en su estudio.</p>
+			<p>Esta es una escala de riesgo con solo 2 estratos, debido a que los autores consideran que el cambio de conducta en la atención estomatológica a las embarazadas depende de si son evaluadas como vulnerables, pues solo así podrán recibir las acciones asistenciales trazadas, con el seguimiento periodontal durante los 3 trimestres de gestación. Otro estrato inferior no modifica la conducta ya establecida en el Programa Nacional de Atención Estomatológica Integral a la Población, que exige el alta de los servicios básicos y el seguimiento médico-estomatológico de las grávidas.</p>
+			<p>La periodontitis, por su naturaleza de enfermedad inflamatoria infecciosa, implica la activación del eje de la inmunidad innata, causada por la acción patógena de la microbiota subgingival, a través del incremento de las citocinas proinflamatorias, incluidas las interleuquinas (IL-1, IL-6, IL-8), el factor de necrosis tumoral alfa y la prostaglandina E<sub>2</sub>, las que producidas localmente pasan a la circulación sistémica donde permanecen a lo largo del tiempo y pueden perpetuar un estado inflamatorio alterado.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>De igual manera, esa inflamación sistémica de bajo grado, a través de la respuesta de fase aguda en el hígado, se muestra como la producción y liberación de proteína C reactiva y fibrinógeno. A medida que dicha proteína se disemina a través de la circulación a otros sitios del cuerpo, contribuye consecutivamente a la inflamación intrauterina y, a su vez, de la placenta, lo que induce un intercambio de nutrientes materno-fetal alterado y una menor secreción de factores de crecimiento fetales; mientras que el componente inflamatorio debilita las membranas de la placenta e incrementa la contractibilidad uterina.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+			</p>
+			<p>Por otra parte, los lipopolisacáridos procedentes de agentes patógenos periodontales y liberados al torrente sanguíneo, aumentan la susceptibilidad a una infección genitourinaria, al reducir la expresión del receptor endotelial E-selectina; de ahí que no se produce un infiltrado normal de neutrófilos, lo que inhibe la aclaración normal de microorganismos y condiciona la invasión de estos al tracto genitourinario, con la consecuente infección que afecta el embarazo.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup></p>
+			<p>En otro orden de ideas, los diferentes métodos de ajuste y calibración empleados para evaluar el rendimiento de la escala coinciden con los más utilizados en la bibliografía consultada;<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> igualmente, la mayoría de las escalas revisadas utilizan las curvas ROC y sus puntos de corte óptimos para apreciar el poder discriminante. Al respecto, algunos autores<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> refieren que los valores superiores a 0,75 son considerados buenos.</p>
+			<p>En cuanto a la validación interna por división de datos -que agrupa a las restantes puérperas de la población que no fueron seleccionadas para conformar la muestra de construcción de la escala-, se plantea que es el método más simple, pues cuando el tamaño de la muestra del conjunto de validación es pequeño, el resultado de la evaluación del rendimiento del modelo no es fiable.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref> En tal sentido, el actual estudio se validó con una muestra relativamente amplia, con 100 sujetos como mínimo en la categoría menos frecuente del resultado, para contrarrestar este efecto; no obstante, es el tipo de validación más utilizado. </p>
+			<p>Tanto la validez de contenido como la de presentación de esta escala fueron exploradas mediante la consulta a expertos, seleccionados por el reconocido método de las competencias.<xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>
+			</p>
+			<p>Por último, se estableció la consistencia interna o confiabilidad de la escala, donde el coeficiente alfa de Cronbach mostró valores elevados, lo que indica que si se elimina uno de los predictores disminuye esta cifra; por tanto, todos son necesarios en la construcción del instrumento predictivo.<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+			</p>
+			<p>Resulta válido señalar, como limitación del estudio, el hecho de no haber podido evaluar la validez de criterio por no contar con una escala similar en la práctica clínica, que incluya la gravedad de la enfermedad periodontal y se emplee para la predicción del parto pretérmino. </p>
+			<p>La escala diseñada permite determinar la gravedad de las enfermedades periodontales de poca complejidad y de rápida detección en la práctica clínica estomatológica, así como los factores de riesgo ginecobstétricos bien reconocidos en la bibliografía,<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>)</sup> tales como el peso inadecuado al diagnóstico del embarazo, las infecciones genitales y urinarias, así como los antecedentes de parto pretérmino, todo lo cual aparece recogido en las historias clínicas de las gestantes que acuden a la consulta estomatológica remitidas desde la atención primaria de salud. </p>
+			<p>La aplicación de esta escala permite realizar un análisis individual de la probabilidad de que ocurra un parto pretérmino, al tener en cuenta, por primera vez, la perspectiva periodontal y la ayuda en la toma de decisiones del estomatólogo y del médico del nivel primario de asistencia encargado de la atención a la embarazada. </p>
+			<p>En ese mismo sentido, el seguimiento a estas gestantes variará y requerirá una evaluación periodontal en cada uno de los trimestres del embarazo, por el especialista a cargo, a fin de garantizar la salud o el control periodontal durante todo el período. De esta forma, por primera vez se reconoce la importancia del seguimiento, el alta y el mantenimiento periodontal durante el embarazo, con vistas a prevenir el parto pretérmino.</p>
+			<p>El diseño y la aplicación de esta escala de riesgo en odontología son novedosos en Cuba. Su alcance social radica en la proyección predictiva y preventiva para clasificar a las embarazadas más vulnerables dentro de la comunidad y contribuir así con el Programa de Atención Materno-Infantil.</p>
+			<p>Finalmente, la escala para estratificar el riesgo de parto pretérmino incluye predictores de gravedad de la enfermedad periodontal, con buenos parámetros de validación para ser usada en la toma de decisiones para prevenir este tipo de parto. </p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Gil Raga l, Lambés Arena F, Minguez Martínez I. Cuidados periodontales en el embarazo basados en la investigación científica. Gaceta Dental. 2018 [citado 26/04/2023];305. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.gacetadental.com/wp-content/uploads/2018/09/305_CIENCIA_IDI_CuidadosPeriodontalesEmbarazo.pdf">https://www.gacetadental.com/wp-content/uploads/2018/09/305_CIENCIA_IDI_CuidadosPeriodontalesEmbarazo.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Raga l</surname>
+							<given-names>Gil</given-names>
+						</name>
+						<name>
+							<surname>Lambés Arena</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Minguez Martínez</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Cuidados periodontales en el embarazo basados en la investigación científica</article-title>
+					<source>Gaceta Dental</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.gacetadental.com/wp-content/uploads/2018/09/305_CIENCIA_IDI_CuidadosPeriodontalesEmbarazo.pdf">https://www.gacetadental.com/wp-content/uploads/2018/09/305_CIENCIA_IDI_CuidadosPeriodontalesEmbarazo.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Pozo Martos E. Periodontitis como factor de riesgo de partos prematuros y/o bajo peso [tesis]. Granada: Universidad de Granada; 2014 [citado 26/04/2023]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10481/30356">http://hdl.handle.net/10481/30356</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pozo Martos</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<source>Periodontitis como factor de riesgo de partos prematuros y/o bajo peso</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Granada</publisher-loc>
+					<publisher-name>Universidad de Granada</publisher-name>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10481/30356">http://hdl.handle.net/10481/30356</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Van Dyke TE, Bartold PM, Reynolds EC. The nexus between periodontal inflammation and dysbiosis. Front Immunol. 2020 [citado 26/04/2023];31(11):511. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32296429/">https://pubmed.ncbi.nlm.nih.gov/32296429/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Van Dyke</surname>
+							<given-names>TE</given-names>
+						</name>
+						<name>
+							<surname>Bartold</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Reynolds</surname>
+							<given-names>EC</given-names>
+						</name>
+					</person-group>
+					<article-title>The nexus between periodontal inflammation and dysbiosis</article-title>
+					<source>Front Immunol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>31</volume>
+					<issue>11</issue>
+					<size units="pages">511</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32296429/">https://pubmed.ncbi.nlm.nih.gov/32296429/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Cárdenas Valenzuela P, Guzmán Gastelum DA, Valera González E, Cuevas González JC, Zambrano Galván G, García Calderón AG. Principales criterios de diagnóstico de la nueva clasificación de enfermedades y condiciones periodontales. Int J Odontostomat. 2021 [citado 10/05/2023];15(1):175-80. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0718-381X2021000100175">https://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0718-381X2021000100175</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cárdenas Valenzuela</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Guzmán Gastelum</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Valera González</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Cuevas González</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Zambrano Galván</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>García Calderón</surname>
+							<given-names>AG</given-names>
+						</name>
+					</person-group>
+					<article-title>Principales criterios de diagnóstico de la nueva clasificación de enfermedades y condiciones periodontales</article-title>
+					<source>Int J Odontostomat</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-05-10">10/05/2023</date-in-citation>
+					<volume>15</volume>
+					<issue>1</issue>
+					<fpage>175</fpage>
+					<lpage>180</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0718-381X2021000100175">https://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0718-381X2021000100175</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Queija Caneiro L. Enfermedad periodontal como factor de riesgo para el nacimiento de niños prematuros y/o de bajo peso al nacimiento [tesis]. Santiago de Compostela: Universidad de Santiago de Compostela; 2021 [citado 26/04/2023]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://minerva.usc.es/xmlui/handle/10347/26026">https://minerva.usc.es/xmlui/handle/10347/26026</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Queija Caneiro</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>Enfermedad periodontal como factor de riesgo para el nacimiento de niños prematuros y/o de bajo peso al nacimiento</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Santiago de Compostela</publisher-loc>
+					<publisher-name>Universidad de Santiago de Compostela</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://minerva.usc.es/xmlui/handle/10347/26026">https://minerva.usc.es/xmlui/handle/10347/26026</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Martin Ruiz D. Influencia de la enfermedad periodontal en los resultados del parto [tesis]. Sevilla: Universidad de Sevilla; 2020 [citado 26/04/2023]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://idus.us.es/handle/11441/105437">https://idus.us.es/handle/11441/105437</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martin Ruiz</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<source>Influencia de la enfermedad periodontal en los resultados del parto</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Sevilla</publisher-loc>
+					<publisher-name>Universidad de Sevilla</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://idus.us.es/handle/11441/105437">https://idus.us.es/handle/11441/105437</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Borja M, Fernández F. Validación interna de modelos predictivos de regresión logística. Comando validation (Stata) [tesis]. Madrid: Universidad Complutense; 2018.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Borja</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Fernández</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<source>Validación interna de modelos predictivos de regresión logística. Comando validation (Stata)</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Madrid</publisher-loc>
+					<publisher-name>Universidad Complutense</publisher-name>
+					<year>2018</year>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Bermúdez Yera G, Barreto Fiu E, Chaljub Bravo E, López de la Cruz Y, Naranjo Ugalde A, Rabassa López-Calleja M, et al. Diseño y validación de la escala pronóstica cubana PREDICMED para estratificar el riesgo de mediastinitis posoperatoria. CorSalud. 2020 [citado 26/04/2023];12(4). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revcorsalud.sld.cu/index.php/cors/article/view/734/1322">https://revcorsalud.sld.cu/index.php/cors/article/view/734/1322</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bermúdez Yera</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Barreto Fiu</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chaljub Bravo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>López de la Cruz</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Naranjo Ugalde</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rabassa López-Calleja</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Diseño y validación de la escala pronóstica cubana PREDICMED para estratificar el riesgo de mediastinitis posoperatoria</article-title>
+					<source>CorSalud</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>12</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revcorsalud.sld.cu/index.php/cors/article/view/734/1322">https://revcorsalud.sld.cu/index.php/cors/article/view/734/1322</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Ortega Reyes VA, Ocampo Moreira PO, Ortega Reyes MD, Villamar Beltrán VA. Factores de riesgo de parto pretérmino en pacientes menores de 25 años en el hospital básico de Baba, 2019. RECIAMUC. 2020 [citado 26/04/2023];4(4):226-37. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://reciamuc.com/index.php/RECIAMUC/article/view/559">https://reciamuc.com/index.php/RECIAMUC/article/view/559</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ortega Reyes</surname>
+							<given-names>VA</given-names>
+						</name>
+						<name>
+							<surname>Ocampo Moreira</surname>
+							<given-names>PO</given-names>
+						</name>
+						<name>
+							<surname>Ortega Reyes</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Villamar Beltrán</surname>
+							<given-names>VA</given-names>
+						</name>
+					</person-group>
+					<article-title>Factores de riesgo de parto pretérmino en pacientes menores de 25 años en el hospital básico de Baba, 2019</article-title>
+					<source>RECIAMUC</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>4</volume>
+					<issue>4</issue>
+					<fpage>226</fpage>
+					<lpage>237</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://reciamuc.com/index.php/RECIAMUC/article/view/559">https://reciamuc.com/index.php/RECIAMUC/article/view/559</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Rodríguez Márquez A, Hernández Barrio E, Villafuerte Reinante J, Mesa Montero Z, Hernández Cabrera Y, López Rodríguez del Rey A. Factores de riesgos asociados al parto pretérmino. Cienfuegos 2012. MediSur. 2019 [citado 25/04/2023];17(4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1727-897X2019000400505">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1727-897X2019000400505</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Márquez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hernández Barrio</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Villafuerte Reinante</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mesa Montero</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Hernández Cabrera</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>López Rodríguez del Rey</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Factores de riesgos asociados al parto pretérmino. Cienfuegos 2012</article-title>
+					<source>MediSur</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-25">25/04/2023</date-in-citation>
+					<volume>17</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1727-897X2019000400505">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1727-897X2019000400505</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Retureta Milán SE, Casas Rodríguez L, Posada Fernández PE, Retureta Milán ME, Roque Morgado M, Ramírez Leiva E. Escala de riesgo obstétrico de parto prematuro para gestantes en el primer nivel de atención a la salud. MediCiego. 2020 [citado 26/04/2023];26(2). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revmediciego.sld.cu/index.php/mediciego/article/view/1392/2048">https://revmediciego.sld.cu/index.php/mediciego/article/view/1392/2048</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Retureta Milán</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Casas Rodríguez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Posada Fernández</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Retureta Milán</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Roque Morgado</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ramírez Leiva</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Escala de riesgo obstétrico de parto prematuro para gestantes en el primer nivel de atención a la salud</article-title>
+					<source>MediCiego</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>26</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revmediciego.sld.cu/index.php/mediciego/article/view/1392/2048">https://revmediciego.sld.cu/index.php/mediciego/article/view/1392/2048</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Peña Sisto M, López Barroso R. Modelo predictivo de parto pretérmino según gravedad de la enfermedad periodontal de la embarazada. Rev Cuban Med Mil. 2023 [citado 19/07/2023];52(3). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revmedmilitar.sld.cu/index.php/mil/article/view/2844">https://revmedmilitar.sld.cu/index.php/mil/article/view/2844</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peña Sisto</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>López Barroso</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelo predictivo de parto pretérmino según gravedad de la enfermedad periodontal de la embarazada</article-title>
+					<source>Rev Cuban Med Mil</source>
+					<year>2023</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-07-19">19/07/2023</date-in-citation>
+					<volume>52</volume>
+					<issue>3</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revmedmilitar.sld.cu/index.php/mil/article/view/2844">https://revmedmilitar.sld.cu/index.php/mil/article/view/2844</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Britos MR, Sin CS, Ortega Silvia M. Relación entre la enfermedad periodontal y las complicaciones en el embarazo. Odontol Vital. 2022 [citado 26/04/2023];(36):23-33. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.scielo.sa.cr/scielo.php?script=sci_arttext&amp;pid=S1659-07752022000100023">https://www.scielo.sa.cr/scielo.php?script=sci_arttext&amp;pid=S1659-07752022000100023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Britos</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Sin</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Ortega Silvia</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Relación entre la enfermedad periodontal y las complicaciones en el embarazo</article-title>
+					<source>Odontol Vital</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<issue>36</issue>
+					<fpage>23</fpage>
+					<lpage>33</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.scielo.sa.cr/scielo.php?script=sci_arttext&amp;pid=S1659-07752022000100023">https://www.scielo.sa.cr/scielo.php?script=sci_arttext&amp;pid=S1659-07752022000100023</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Torres Lestrade OD, Hernández Pacheco I, Meneses Nuñez C, Ruvalcaba Ledezma JC. Infección urinaria como factor de riesgo para parto pretérmino. JONNPR. 2020 [citado 26/04/2023];5(11):1426-43. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.proeditio.com/jonnpr/article/view/3779">https://revistas.proeditio.com/jonnpr/article/view/3779</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torres Lestrade</surname>
+							<given-names>OD</given-names>
+						</name>
+						<name>
+							<surname>Hernández Pacheco</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Meneses Nuñez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ruvalcaba Ledezma</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Infección urinaria como factor de riesgo para parto pretérmino</article-title>
+					<source>JONNPR</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>5</volume>
+					<issue>11</issue>
+					<fpage>1426</fpage>
+					<lpage>1443</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistas.proeditio.com/jonnpr/article/view/3779">https://revistas.proeditio.com/jonnpr/article/view/3779</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Dartiguelongue JB. Inflamación sistémica y sepsis. Parte I: generación de la tormenta. Arch Argent Pediatr. 2020 [citado 26/04/2023];118(6):e527-35. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sap.org.ar/docs/publicaciones/archivosarg/2020/v118n6a16.pdf">https://www.sap.org.ar/docs/publicaciones/archivosarg/2020/v118n6a16.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dartiguelongue</surname>
+							<given-names>JB</given-names>
+						</name>
+					</person-group>
+					<article-title>Inflamación sistémica y sepsis. Parte I: generación de la tormenta</article-title>
+					<source>Arch Argent Pediatr</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>118</volume>
+					<issue>6</issue>
+					<fpage>e527</fpage>
+					<lpage>e535</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sap.org.ar/docs/publicaciones/archivosarg/2020/v118n6a16.pdf">https://www.sap.org.ar/docs/publicaciones/archivosarg/2020/v118n6a16.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Bermúdez Yera GJ, Naranjo Ugalde AM, Rabassa López-Callejas MA, Lagomasino Hidalgo AL, Chaljub Bravo E, Barreto Fiu EE. Modelo predictivo de mediastinitis postoperatoria en cirugía cardiovascular. Cir Cardiovasc. 2019 [citado 26/04/2023];26(6). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-articulo-modelo-predictivo-mediastinitis-postoperatoria-cirugia-S1134009619302566">https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-articulo-modelo-predictivo-mediastinitis-postoperatoria-cirugia-S1134009619302566</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bermúdez Yera</surname>
+							<given-names>GJ</given-names>
+						</name>
+						<name>
+							<surname>Naranjo Ugalde</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Rabassa López-Callejas</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Lagomasino Hidalgo</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Chaljub Bravo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Barreto Fiu</surname>
+							<given-names>EE</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelo predictivo de mediastinitis postoperatoria en cirugía cardiovascular</article-title>
+					<source>Cir Cardiovasc</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-26">26/04/2023</date-in-citation>
+					<volume>26</volume>
+					<issue>6</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-articulo-modelo-predictivo-mediastinitis-postoperatoria-cirugia-S1134009619302566">https://www.elsevier.es/es-revista-cirugia-cardiovascular-358-articulo-modelo-predictivo-mediastinitis-postoperatoria-cirugia-S1134009619302566</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Herrera Masó JR, Calero Ricardo Jl, González Rangel MA, Collazo Ramos MI, Travieso González Y. El método de consulta a expertos en tres niveles de validación. Rev Habanera Cienc Méd. 2022 [citado 14/03/2023];21(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1729-519X2022000100014">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1729-519X2022000100014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herrera Masó</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Jl</surname>
+							<given-names>Calero Ricardo</given-names>
+						</name>
+						<name>
+							<surname>González Rangel</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Collazo Ramos</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Travieso González</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>El método de consulta a expertos en tres niveles de validación</article-title>
+					<source>Rev Habanera Cienc Méd</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-03-14">14/03/2023</date-in-citation>
+					<volume>21</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1729-519X2022000100014">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1729-519X2022000100014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>García IA, Muñoz Moreno MF, Ruiz López del Prado G, Gil Sáez B, Puertas MA, Almaraz Gómez A. Validación de un cuestionario sobre actitudes y práctica de actividad física y otros hábitos saludables mediante el método Delphi. Rev Esp. Salud Pública. 2019 [citado 03/04/2023];93:1-12. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272019000100042">https://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272019000100042</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García</surname>
+							<given-names>IA</given-names>
+						</name>
+						<name>
+							<surname>Muñoz Moreno</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Ruiz López del Prado</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Gil Sáez</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Puertas</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Almaraz Gómez</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Validación de un cuestionario sobre actitudes y práctica de actividad física y otros hábitos saludables mediante el método Delphi</article-title>
+					<source>Rev Esp. Salud Pública</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-03">03/04/2023</date-in-citation>
+					<volume>93</volume>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272019000100042">https://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1135-57272019000100042</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Rodríguez Rodríguez J, Reguant Álvarez M. Calcular la fiabilidad de un cuestionario o escala mediante el SPSS: el coeficiente alfa de Cronbach. REIRE. 2020 [citado 03/04/2023];13(2):1-13. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistes.ub.edu/index.php/REIRE/article/view/reire2020.13.230048/31484">https://revistes.ub.edu/index.php/REIRE/article/view/reire2020.13.230048/31484</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Rodríguez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Reguant Álvarez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Calcular la fiabilidad de un cuestionario o escala mediante el SPSS: el coeficiente alfa de Cronbach</article-title>
+					<source>REIRE</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2023-04-03">03/04/2023</date-in-citation>
+					<volume>13</volume>
+					<issue>2</issue>
+					<fpage>1</fpage>
+					<lpage>13</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://revistes.ub.edu/index.php/REIRE/article/view/reire2020.13.230048/31484">https://revistes.ub.edu/index.php/REIRE/article/view/reire2020.13.230048/31484</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

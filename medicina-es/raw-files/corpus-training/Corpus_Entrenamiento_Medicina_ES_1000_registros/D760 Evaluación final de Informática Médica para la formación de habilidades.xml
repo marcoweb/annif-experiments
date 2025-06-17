@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00003</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Evaluación final de Informática Médica para la formación de habilidades investigativas en estudiantes de medicina</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Final evaluation of medical computer science for the training on investigative skills in medicine students</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9029-4094</contrib-id>
+					<name>
+						<surname>Ortiz Romero</surname>
+						<given-names>Gemma Margarita</given-names>
+						<prefix>Lic</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3926-8667</contrib-id>
+					<name>
+						<surname>Soto Santiesteban</surname>
+						<given-names>Vivian</given-names>
+						<prefix>Lic</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2946-0479</contrib-id>
+					<name>
+						<surname>Felicó Herrera</surname>
+						<given-names>Gilberto</given-names>
+						<prefix>Lic</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6169-2985</contrib-id>
+					<name>
+						<surname>Rodríguez Neyra</surname>
+						<given-names>María Emilia</given-names>
+						<prefix>Lic</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4355-4858</contrib-id>
+					<name>
+						<surname>Soto Santiesteban</surname>
+						<given-names>Beatriz</given-names>
+						<prefix>Dra</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Facultad de Ciencias Médicas Mariana Grajales Coello. Holguín, Cuba.</institution>
+				<institution content-type="normalized">Facultad de Ciencias Médicas Mariana Grajales Coello</institution>
+				<addr-line>
+					<named-content content-type="city">Holguín</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Hospital General Docente Vladimir Ilich Lenin. Holguín, Cuba.</institution>
+				<institution content-type="normalized">Hospital General Docente Vladimir Ilich Lenin</institution>
+				<addr-line>
+					<named-content content-type="city">Holguín</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>gemmao@infomed.sld.cu</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="epub">
+				<month>04</month>
+				<year>2019</year>
+			</pub-date>
+			<volume>23</volume>
+			<issue>2</issue>
+			<fpage>206</fpage>
+			<lpage>218</lpage>
+			<history>
+				<date date-type="received">
+					<day>28</day>
+					<month>11</month>
+					<year>2018</year>
+				</date>
+				<date date-type="accepted">
+					<day>25</day>
+					<month>02</month>
+					<year>2019</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>Se realizó un estudio descriptivo en la Facultad de Ciencias Médicas de Holguín, desde enero del 2017 hasta igual periodo del 2018, con vistas a caracterizar el proceso de evaluación final de la disciplina Informática Médica correspondiente al plan de estudio D para el desarrollo de habilidades investigativas en los estudiantes de medicina. El universo estuvo constituido por los resultados del trabajo final de las asignaturas Informática, Bioestadística y Metodología; la muestra, por los 40 trabajos finales de Metodología de la Investigación que tuvieron mayores dificultades en el informe escrito y 16 profesores de Informática Médica. Se utilizó la revisión documental, la observación y la entrevista. Se calcularon valores absolutos y porcentajes. Los resultados del trabajo final mostraron excelente promoción. El indicador defensa resultó el de mayor dificultad con 60,0 % de los trabajos evaluados de regular y mal. La evaluación final contribuyó al desarrollo de la habilidad investigativa.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>A descriptive study was carried out in Holguín Medical Sciences Faculty, from January, 2017 to the same period in 2018, with the aim of characterizing the process of final evaluation of the Medical Computer discipline corresponding to the study plan D for the development of investigative skills in the medicine students. The universe was constituted by the results of the final work of the subjects Computer science, Biostatistics and Methodology; the sample was constituted by the 40 final works of Methodology of Investigation which had the greatest difficulties in the written report and by 16 professors of Medical Computer science. The documental review, observation and interview were used. Absolute values and percentages were calculated. The results of the final work showed excellent promotion. The indicator defense was that of greatest difficulty with 60.0% of the evaluated works as average and poor. The final evaluation contributed to the development of the investigative skill. </p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Estudiante de medicina</kwd>
+				<kwd>evaluación</kwd>
+				<kwd>habilidad investigativa</kwd>
+				<kwd>Informática Médica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Medicine student</kwd>
+				<kwd>evaluation</kwd>
+				<kwd>investigative skill</kwd>
+				<kwd>Medical computer science</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="15"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>Para cumplir con el encargo social de la Universidad cubana de Ciencias Médicas, se debe modelar la formación del recurso a través de un currículo que genere en el egresado compromiso con su competencia profesional, con esta perspectiva se consideró oportuna la inclusión de la disciplina Informática Médica (DIM) en los planes de estudio. <sup>(</sup><xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Esta disciplina tiene como propósito preparar al estudiante para utilizar y asimilar las tecnologías de la información y las comunicaciones, así como asumir las diferentes tareas que van aparejadas al desarrollo del proceso de investigación científica y su participación activa. En ella están contenidos un conjunto de conocimientos y descritas las habilidades básicas necesarias para lograr un profesional con las competencias investigativas requeridas en el modelo de formación.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref> A su vez está concebida para actuar sinérgicamente con la Disciplina Principal Integradora (DPI) a lo largo de todo el plan de estudio. Por otro lado, el sistema de evaluación propicia la integración de las diferentes asignaturas de la disciplina Informática Médica con las de la DPI en las que se encuentran insertadas en el semestre en estudio. </p>
+			<p>Ahora bien, en el plan de estudio vigente a partir del curso 2017-2018, una de las principales transformaciones a lograr con el nuevo diseño de la DIM es la evaluación para el aprendizaje. Tradicionalmente se le atribuye un papel determinante a las evaluaciones finales de forma escrita realizadas a través de preguntas con situaciones de salud simuladas. En la nueva concepción las asignaturas que integran la disciplina culminan su proceso de evaluación con la defensa de un trabajo de curso orientado y controlado durante el proceso de enseñanza - aprendizaje de las asignaturas en estrecha relación con la DPI. </p>
+			<p>Al respecto, Pernas <italic>et al</italic><xref ref-type="bibr" rid="B3"><sup>3</sup></xref> plantean que uno de los cambios más importantes en el perfeccionamiento del diseño del plan de estudio D es lograr una evaluación final de carácter más cualitativo e integrador en todas las disciplinas, para lo cual deben proyectarse trabajos de curso interdisciplinarios. Asimismo, consideran que en este plan de estudio el sistema de evaluación establece un ejercicio final para todas las asignaturas, con reducción en la cantidad de exámenes finales por semestre de forma progresiva. </p>
+			<p>La resolución 2/2018<xref ref-type="bibr" rid="B4"><sup>4</sup></xref> establece que la defensa del trabajo de curso es el tipo de evaluación final mediante la cual se comprueba el grado de cumplimiento, por cada estudiante, de los objetivos propuestos para este tipo de trabajo, según esté asociado a los que se encuentran formulados en las asignaturas, las disciplinas o el año académico en cuestión. Estos trabajos deben igualmente manifestar la tendencia a la integración de los contenidos de todas o algunas asignaturas o disciplinas que se impartan en un determinado periodo lectivo.</p>
+			<p>De igual forma, esta evaluación pretende verificar y acreditar el aprendizaje alcanzado sobre un tema o conjunto de ellos, así como el desarrollo de la expresión oral en el marco de un control evaluativo; en el contexto de la DIM permite evaluar la integración de los conocimientos de las asignaturas precedentes y el desarrollo de las habilidades investigativas y comunicativas. </p>
+			<p>Resulta importante señalar que todos los profesores participantes en el control evaluativo han normado los criterios de evaluación y aquellos que se emplearán al calificar, con la finalidad de minimizar en todo lo humanamente posible el subjetivismo. Para ello es necesario que se establezca <italic>a priori</italic> el criterio general de calificación del examen en su totalidad y sobre todo dejar bien explícito las causales que determinan el nivel de aprobado o desaprobado.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>De hecho, en la concepción actual de la evaluación para el aprendizaje se debe sustentar que todo proceso evaluativo en la educación médica contemporánea tiene la finalidad de contribuir a que el educando aprenda más y mejor de acuerdo con los objetivos propuestos en los programas de las asignaturas y disciplinas, así como en el modelo del profesional.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>En este sentido, la evaluación final establecida en la disciplina Informática Médica permite elevar la calidad en la preparación de los graduados en ciencias de la salud para la investigación, especialmente, de los médicos que egresan con la responsabilidad de asumir el trabajo en la Atención Primaria de Salud (APS), quienes deben alcanzar el liderazgo en la realización de importantes investigaciones que contribuyan a elevar la calidad de las acciones de prevención y promoción de salud, así como la atención médica en esta instancia.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>Cabe destacar que en el proceso de formación de habilidades investigativas, por su propia naturaleza, se deben propiciar el trabajo en grupo, colaborativo y participativo, de modo que se practique un enfoque democrático en el proceso de aprendizaje, que sirva de modelo para la actuación del futuro profesional.</p>
+			<p>Las habilidades investigativas, son entendidas, por tanto, como el dominio de las acciones generalizadoras del método científico, que potencian al individuo para detectar problemas, plantear y confirmar hipótesis, así como solucionar dichos problemas, lo que contribuye a su transformación sobre bases científicas.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Por consiguiente, la habilidad investigativa es una categoría a tener en cuenta en el proceso de formación del médico general. Se conoce el vínculo entre una correcta formación y desarrollo de tales habilidades, las cuales dan respuesta a pretensiones declaradas en el modelo del profesional; por tanto, su escaso desarrollo implicaría la formación del futuro egresado con falencias para enfrentar el cumplimiento cabal del ejercicio de la profesión.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Hoy día se enfatiza que no hay verdadera educación superior sin actividad de investigación explícita e implícita, ella forma parte del proceso enseñanza-aprendizaje y tiene un gran valor en la formación profesional.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>Desde esta perspectiva, en la Facultad de Ciencias Médicas de Holguín, se realizan investigaciones sobre la calidad de la evaluación final en la DIM del plan de estudio C <sup>(</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> y acerca del desarrollo de las habilidades investigativas en el pregrado.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>Después de 2 cursos de aplicado el plan de estudio D, con los cambios establecidos en la evaluación final de la DIM y sus resultados, se realizó esta investigación con vistas a caracterizar el proceso de evaluación final de la disciplina Informática Médica para contribuir al desarrollo de habilidades investigativas en los estudiantes de medicina.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio descriptivo en la Facultad de Ciencias Médicas de Holguín, desde enero de 2017 hasta igual periodo de 2018. El universo estuvo constituido por los resultados del trabajo final de las asignaturas Informática, Bioestadística y Metodología de la investigación. La muestra se seleccionó de manera intencional, constituida por los 40 trabajos finales de Metodología de la Investigación que presentaron mayores dificultades en el informe escrito y los 16 profesores del departamento de Informática Médica.</p>
+			<p>Para la realización de dicho estudio se revisaron las actas de colectivo de asignatura, los informes de promoción y la guía de orientación para elaborar el trabajo final. </p>
+			<p>La recolección de la información se realizó desde la educación en el trabajo como forma fundamental de organización de la enseñanza en ciencias médicas; precisó del desarrollo de la actividad independiente y creativa de los estudiantes, del seguimiento a las habilidades logradas en las asignaturas de las disciplinas que le precedieron, así como del control y evaluación a lo largo del semestre de las actividades orientadas en la guía para la evaluación final.</p>
+			<p>Se observó la defensa de los 40 trabajos finales presentados por los estudiantes en la asignatura Metodología de la Investigación, por ser esta la que cierra el ciclo de la disciplina hasta el momento de aplicación del plan de estudio D, el cual integra contenidos de las 3 asignaturas de la disciplina y de la asignatura Prevención de Salud. Lo anterior se realizó con el fin de corroborar el cumplimiento de las orientaciones para su presentación, según las partes del informe final, presentación y acto de defensa. Los indicadores propuestos fueron evaluados con las categorías de bien, regular y mal, sobre la base de los que están descritos en la guía orientada para su evaluación.</p>
+			<p>También se efectuó una entrevista a los profesores de Informática Médica para indagar acerca de los principales logros y dificultades detectadas en el trabajo final. </p>
+			<p>Los resultados fueron expresados en porcentajes y valores absolutos. </p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Se revisaron las actas de colectivos de las 3 asignaturas de la DIM en el primer curso de aplicación del plan de estudio D y se evidenció que los trabajos finales estuvieron orientados al inicio del semestre, relacionados con la disciplina rectora del año y en función de los principales problemas de salud existentes. Además, mostraron excelentes resultados de promoción con más de 95 % en las 3 asignaturas (<xref ref-type="table" rid="t1">tabla 1</xref>). </p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Estudiantes según resultados en los trabajos finales de Informática, Bioestadística y Metodología de la Investigación del Plan de estudio D</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-02-206-gt1.jpg"/>
+				</table-wrap>
+			</p>
+			<p>La <xref ref-type="fig" rid="f1">figura</xref> muestra los resultados respecto a la calidad de los trabajos presentados por asignaturas con predominio de calificaciones entre 4 y 5, lo cual refleja un índice de calidad superior a 68 % en todas las asignaturas, siendo Bioestadística la de resultados más bajos, puesto que es donde se utilizan las herramientas para recolectar, procesar y analizar los datos estadísticos a partir de la muestra seleccionada.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig. 1</label>
+					<caption>
+						<title>Calidad de los trabajos finales de Informática, Bioestadística y Metodología de la Investigación del Plan de estudio D</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-02-206-gf1.png"/>
+				</fig>
+			</p>
+			<p>Esta primera experiencia en la evaluación final de las asignaturas de la Disciplina Informática Médica según el plan de estudio D, mostró resultados superiores en el aprendizaje de los estudiantes, mejor vinculación con la Disciplina Principal Integradora y una combinación interasignaturas. A su vez facilitó al colectivo docente planificar y organizar de una mejor manera la evaluación que se orienta desde el inicio del semestre y se controla de forma sistemática. </p>
+			<p>La <xref ref-type="table" rid="t2">tabla 2</xref> muestra los resultados obtenidos en la observación de los 40 trabajos finales presentados por los estudiantes en la asignatura Metodología de la Investigación, donde uno de los indicadores que presentó dificultades fue el de defensa con 60,0 % de dichos trabajos evaluados de regular y mal, dado por exposiciones reproductivas e inseguras en cuanto a dominio del contenido, poca fluidez verbal, incoherencias en la expresión oral y respuestas insuficientes a las preguntas realizadas por el tribunal. </p>
+			<p>Otro indicador fue el análisis de los resultados con 57,5 % de los trabajos evaluados de regular y mal. Los errores más frecuentes se encontraron en la descripción de los resultados de las tablas, pues no enfatizaron en la interpretación de los más relevantes en relación con el tema investigado y tampoco los compararon con los criterios de otros autores.</p>
+			<p>El tercer indicador resultó ser la introducción con 55 % de los trabajos evaluados de regular y mal, debido a la falta de claridad y concreción en las ideas, pues no existió una secuencia lógica de la información según el contexto en que se desarrolló el tema investigado; poco ajuste al tema y coherencia entre los elementos abordados, así como la justificación del estudio. </p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Evaluación de los trabajos finales de Metodología de la Investigación y Prevención de Salud </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-23-02-206-gt2.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>n=40</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Por otra parte, se realizó una valoración cualitativa del criterio de los docentes acerca de la evaluación final en función de la habilidad investigativa, para ello se tuvieron en cuenta los aspectos que consideraron como logros y dificultades de este proceso, lo que permitió contrastar los resultados obtenidos de la observación a la presentación del trabajo final.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>De manera general, no hubo secuencia lógica en los elementos de la introducción que facilitara la justificación de este estudio; existió falta de sistematización al elaborar las tablas en el formato exigido para los informes finales de la investigación científica; uso incorrecto de las normas de Vancouver y la actualización de la bibliografía. En muchas ocasiones, los estudiantes no llegaron a emitir sus criterios sobre los resultados descritos y resultó insuficiente la comparación de estos resultados con los de otros autores; además, algunas veces los temas seleccionados no permitían una correcta selección de las variables a estudiar.</p>
+			<p>Los resultados obtenidos coinciden con lo expuesto por Leyva<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> sobre la falta de uniformidad en la elaboración de tablas y gráficos en el formato adecuado y la omisión de criterios de comparación con otros estudios, a su vez, concuerdan con González y Espino,<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>)</sup> quienes expresan que es imprescindible una orientación tutorial adecuada en el proceso de investigación para atraer a los estudiantes hacia los estudios científicos de manera exitosa.</p>
+			<p>Entre los principales logros se hallaron: redacción de documentos en función del formato de una investigación científica, elaboración de presentaciones electrónicas como guía para exponer la investigación realizada y búsqueda de información científica relacionada con la revisión bibliográfica de la DPI. Lo anterior difiere de los estudios realizados por Rodríguez <italic>et al,</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>)</sup> quienes encontraron que los estudiantes aun no concebían el uso correcto de las presentaciones electrónicas como apoyo para la comunicación verbal de sus resultados. </p>
+			<p>Se avanza en el conocimiento del uso de las normas de Vancouver para referenciar las bibliografías, la continuidad del tema sobre revisión bibliográfica orientado por la DPI, la recolección de información sobre dicho tema desde la educación en el trabajo, la búsqueda y procesamiento estadístico de medidas en función de la escala de medición de las variables empleadas, la interpretación de los resultados obtenidos, la formulación de problema científico y los objetivos en función del tema de investigación, así como en la clasificación del estudio según enfoque clinicoepidemiológico. Resultados que difieren de otros estudios,<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup> en los cuales se plantean el predominio de deficiencias en la formulación de problemas científicos y objetivos.</p>
+			<p>La elaboración y discusión del informe de investigación científica de la asignatura Metodología de la Investigación se considera una iniciativa en la Facultad de Ciencias Médicas de Holguín, puesto que el programa de esta asignatura no lo incluye como trabajo final si no solo la elaboración de un perfil de proyecto, actividad realizada como evaluación frecuente.</p>
+			<p>En sentido general, el trabajo final de Metodología de la Investigación permitió evaluar las habilidades desarrolladas por los estudiantes en las 3 asignaturas de la disciplina; constituyó una evaluación de conjunto con la asignatura Prevención de Salud al ser un mismo examen para ambas, lo que contribuyó a disminuir la cantidad de evaluaciones finales en el tercer semestre de la carrera, a interrelacionar los contenidos de las 2 asignaturas y al desarrollo de la habilidad investigativa.</p>
+			<p>Los estudiantes realizaron un trabajo de investigación científica donde se adentraron en este campo como parte de la función investigativa plasmada en el perfil del egresado, lo cual constituyó el fórum científico estudiantil de base de los alumnos de segundo año, con participación del 100% de la matrícula y las mejores exposiciones fueron seleccionadas de manera directa para el evento de la facultad. Resultados similares encontraron Rodríguez <italic>et al</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref> en su estudio donde se evidencia el desarrollo de las investigaciones científicas en función del profesional a egresar.</p>
+			<p>Estos elementos permiten crear las bases de conocimientos para que los estudiantes sean capaces de ejecutar las acciones previstas en la estrategia curricular de investigación e informática. </p>
+			<p>Se concluyó que los resultados de la evaluación final de la disciplina Informática Médica del Plan de estudio D contribuyeron al desarrollo de la habilidad investigativa en los estudiantes de medicina, con énfasis en la formulación del problema científico y los objetivos en función del tema de investigación, así como en la elaboración y presentación de un informe investigativo.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas </title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Soto Santiesteban V, Felicó Herrera G, Ortiz Romero GM, Sánchez Delgado JA, Soto Santiesteban B, Cuenca Font K. Propuesta metodológica para la dirección del trabajo independiente desde Metodología de la Investigación y Estadística. EDUMECENTRO. 2017 [citado 06/01/2017]; 9 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742017000100004">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742017000100004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soto Santiesteban</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Felicó Herrera</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Ortiz Romero</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Sánchez Delgado</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Soto Santiesteban</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Cuenca Font</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Propuesta metodológica para la dirección del trabajo independiente desde Metodología de la Investigación y Estadística</article-title>
+					<source>EDUMECENTRO</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-01-06">06/01/2017</date-in-citation>
+					<volume>9</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742017000100004">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742017000100004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. González García NC, Garriga Zarria EP, Cuesta García Y, Mas Camacho MR. La disciplina Informática Médica en el &quot;Plan D&quot; de la carrera de medicina. RCIM. 2015 [citado 15/02/2018]; 7 (1): 22-30. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592015000100003&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592015000100003&amp;lng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González García</surname>
+							<given-names>NC</given-names>
+						</name>
+						<name>
+							<surname>Garriga Zarria</surname>
+							<given-names>EP</given-names>
+						</name>
+						<name>
+							<surname>Cuesta García</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Mas Camacho</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>La disciplina Informática Médica en el &quot;Plan D&quot; de la carrera de medicina</article-title>
+					<source>RCIM</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>7</volume>
+					<issue>1</issue>
+					<fpage>22</fpage>
+					<lpage>30</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592015000100003&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1684-18592015000100003&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Pernas Gómez M, Taureaux Díaz N, Sierra Figueredo S, Diego Cobelo JM, Miralles Aguilera EÁ, Fernández Sacasas JA, et al. Principales retos para la implantación del plan de estudio D en la carrera de Medicina. Educ Med Super. 2014 [citado 15/02/2018]; 28 (2): 335-46. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412014000200013&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412014000200013&amp;lng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pernas Gómez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Taureaux Díaz</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Sierra Figueredo</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Diego Cobelo</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Miralles Aguilera</surname>
+							<given-names>EÁ</given-names>
+						</name>
+						<name>
+							<surname>Fernández Sacasas</surname>
+							<given-names>JA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Principales retos para la implantación del plan de estudio D en la carrera de Medicina</article-title>
+					<source>Educ Med Super</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>28</volume>
+					<issue>2</issue>
+					<fpage>335</fpage>
+					<lpage>346</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412014000200013&amp;lng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0864-21412014000200013&amp;lng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Cuba. Ministerio de Educación Superior. Reglamento de Trabajo Docente y Metodológico. En: Resolución Ministerial No 2/2018. La Habana: Ministerio de Educación Superior; 2018.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Cuba. Ministerio de Educación Superior</collab>
+					</person-group>
+					<chapter-title>Reglamento de Trabajo Docente y Metodológico</chapter-title>
+					<source>Resolución Ministerial No 2/2018</source>
+					<year>2018</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Ministerio de Educación Superior</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Salas Perea RS, Salas Mainegra A. Evaluación para el aprendizaje en ciencias de la salud. EDUMECENTRO. 2017 [citado 05/02/2018]; 9 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revedumecentro.sld.cu/index.php/edumc/article/view/880/html_204">http://www.revedumecentro.sld.cu/index.php/edumc/article/view/880/html_204</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salas Perea</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Salas Mainegra</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluación para el aprendizaje en ciencias de la salud</article-title>
+					<source>EDUMECENTRO</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-05">05/02/2018</date-in-citation>
+					<volume>9</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revedumecentro.sld.cu/index.php/edumc/article/view/880/html_204">http://www.revedumecentro.sld.cu/index.php/edumc/article/view/880/html_204</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Herrera Miranda GL, López Góvea F, Horta Muñoz DM. Desarrollo de habilidades investigativas en el proceso formativo de los estudiantes de Medicina. Rev Ciencias Médicas. 2010 [citado 15/02/2018]; 14 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942010000100034">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942010000100034</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herrera Miranda</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>López Góvea</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Horta Muñoz</surname>
+							<given-names>DM</given-names>
+						</name>
+					</person-group>
+					<article-title>Desarrollo de habilidades investigativas en el proceso formativo de los estudiantes de Medicina</article-title>
+					<source>Rev Ciencias Médicas</source>
+					<year>2010</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>14</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942010000100034">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942010000100034</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Herrera Miranda GL, Horta Muñoz DM. El proceso de formación de habilidades investigativas en estudiantes de Medicina mediante el método clínico. Rev Ciencias Médicas. 2016 [citado 15/02/2018]; 20 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942016000100020">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942016000100020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herrera Miranda</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Horta Muñoz</surname>
+							<given-names>DM</given-names>
+						</name>
+					</person-group>
+					<article-title>El proceso de formación de habilidades investigativas en estudiantes de Medicina mediante el método clínico</article-title>
+					<source>Rev Ciencias Médicas</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>20</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942016000100020">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1561-31942016000100020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Carpio Rodríguez A, Díaz Ferrer C, Rodríguez Reina RC, Ferrer Chinea BA, Manso Fernández E. Habilidades investigativas en estudiantes de medicina. Universidad de Ciencias Médicas de Sancti Spíritus. Curso 2013-2014. Gac Méd Espirit. 2015 [citado 15/02/2018]; 17 (3): 103-117. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1608-89212015000300013">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1608-89212015000300013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carpio Rodríguez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Díaz Ferrer</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Reina</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Ferrer Chinea</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Manso Fernández</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Habilidades investigativas en estudiantes de medicina. Universidad de Ciencias Médicas de Sancti Spíritus. Curso 2013-2014</article-title>
+					<source>Gac Méd Espirit</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>17</volume>
+					<issue>3</issue>
+					<fpage>103</fpage>
+					<lpage>117</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1608-89212015000300013">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1608-89212015000300013</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Blanco Balbeito N, Herrera Santana D, Reyes Orama Y, Ugarte Martínez Y, Betancourt Roque Y. Dificultades en el desarrollo de las habilidades investigativas en los estudiantes de Medicina. Rev EDUMECENTRO. 2014 [citado 15/02/2018]; 6 (1). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100008">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Blanco Balbeito</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Herrera Santana</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Reyes Orama</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ugarte Martínez</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Betancourt Roque</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Dificultades en el desarrollo de las habilidades investigativas en los estudiantes de Medicina</article-title>
+					<source>Rev EDUMECENTRO</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>6</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100008">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2077-28742014000100008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ortiz Romero GM, Rodríguez Neyra ME, Díaz Rojas PA, Cuenca Font K. Perfeccionamiento de la calidad de los instrumentos evaluativos en la asignatura Metodología de la Investigación y Estadística. CCM. 2014 [citado 15/02/2018]; 18 (4): 725-735. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812014000400012">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812014000400012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ortiz Romero</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Neyra</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Díaz Rojas</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Cuenca Font</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Perfeccionamiento de la calidad de los instrumentos evaluativos en la asignatura Metodología de la Investigación y Estadística</article-title>
+					<source>CCM</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-02-15">15/02/2018</date-in-citation>
+					<volume>18</volume>
+					<issue>4</issue>
+					<fpage>725</fpage>
+					<lpage>735</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812014000400012">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812014000400012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Rodríguez Neyra ME, Cuenca Font K, Leyva Aguilera JJ. Aplicación de la metodología de la investigación en la actividad científico estudiantil en el tercer año de medicina. V Jornada Científica de la Sociedad Cubana de Educadores en Ciencias de la Salud. 2016 [citado 06/01/2018]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://socecsholguin2016.sld.cu/index.php/socecsholguin/2016/paper/view/270">http://socecsholguin2016.sld.cu/index.php/socecsholguin/2016/paper/view/270</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Neyra</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Cuenca Font</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Leyva Aguilera</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<source>Aplicación de la metodología de la investigación en la actividad científico estudiantil en el tercer año de medicina. V Jornada Científica de la Sociedad Cubana de Educadores en Ciencias de la Salud</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-01-06">06/01/2018</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://socecsholguin2016.sld.cu/index.php/socecsholguin/2016/paper/view/270">http://socecsholguin2016.sld.cu/index.php/socecsholguin/2016/paper/view/270</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Leyva Aguilera JJ. Implementación de la metodología para aplicar la Estrategia Curricular de Investigación e Informática en quinto año de Medicina. Holguín: Facultad de Ciencias Médicas Mariana Grajales Coello; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leyva Aguilera</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<source>Implementación de la metodología para aplicar la Estrategia Curricular de Investigación e Informática en quinto año de Medicina</source>
+					<year>2017</year>
+					<publisher-loc>Holguín</publisher-loc>
+					<publisher-name>Facultad de Ciencias Médicas Mariana Grajales Coello</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. González Peña M, Espino Hernández M. Principales elementos de contenido y forma para elaborar un proyecto de revista científica electrónica estudiantil. Rev Cuba Inf Cienc. salud. 2014 [citado 11/12/2018]; 25 (2). Disponible <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132014000200006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132014000200006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Peña</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Espino Hernández</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Principales elementos de contenido y forma para elaborar un proyecto de revista científica electrónica estudiantil</article-title>
+					<source>Rev Cuba Inf Cienc. salud</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-12-11">11/12/2018</date-in-citation>
+					<volume>25</volume>
+					<issue>2</issue>
+					<comment>Disponible <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132014000200006">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S2307-21132014000200006</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Cuenca Font K. Aplicación de la metodología para implementar la Estrategia Curricular de Investigación e Informática en tercer año de Medicina. Holguín: Facultad de Ciencias Médicas Mariana Grajales Coello; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cuenca Font</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<source>Aplicación de la metodología para implementar la Estrategia Curricular de Investigación e Informática en tercer año de Medicina</source>
+					<year>2017</year>
+					<publisher-loc>Holguín</publisher-loc>
+					<publisher-name>Facultad de Ciencias Médicas Mariana Grajales Coello</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Rodríguez Neyra ME, Carrasco Feria MA. Metodología para la implementación de estrategia curricular de investigación e informática en la carrera de medicina. CCM. 2017 [citado 22/12/2018]; 21 (2). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812017000200010&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812017000200010&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez Neyra</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Carrasco Feria</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Metodología para la implementación de estrategia curricular de investigación e informática en la carrera de medicina</article-title>
+					<source>CCM</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2018-12-22">22/12/2018</date-in-citation>
+					<volume>21</volume>
+					<issue>2</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812017000200010&amp;lng=es&amp;nrm=iso&amp;tlng=es">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S1560-43812017000200010&amp;lng=es&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

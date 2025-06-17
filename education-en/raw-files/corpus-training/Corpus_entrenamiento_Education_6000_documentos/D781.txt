@@ -1,0 +1,48 @@
+#ITI#Using theory-informed data science methods to trace the quality of dental student reflections over time#FTI#
+#IRE# This study describes a theory-informed application of data science methods to analyze the quality of reflections made in a health professions education program over time. One thousand five hundred reflections written by a cohort of 369 dental students over 4 years of academic study were evaluated for an overall measure of reflection depth (No, Shallow, Deep) and the presence of six theoretically-indicated elements of reflection quality (Description, Analysis, Feeling, Perspective, Evaluation, Outcome). Machine learning models were then built to automatically detect these qualities based on linguistic features in the reflections. Results showed a dramatic increase from No to Shallow reflections from the start to end of year one (20% → 66%), but only a limited gradual rise in Deep reflections across all four years (2% → 26%). The presence of all six reflection elements increased over time, but inclusion of Feelings and Analysis remained relatively low even at the end of year four (found in 44% and 60% of reflections respectively). Models were able to reliably detect the presence of Description (κTEST = 0.70) and Evaluation (κTEST = 0.65) in reflections; models to detect the presence of Analysis (κTEST = 0.50), Feelings (κTEST = 0.54), and Perspectives (κTEST = 0.53) showed moderate performance; the model to detect Outcomes suffered from overfitting (κTRAIN = 0.90, κTEST = 0.53). A classifier for overall depth built on the reflection elements showed moderate performance across all time periods (κTEST > 0.60) but relied almost exclusively on the presence of Description. Implications for the conceptualization of reflection quality and providing personalized learning support to help students develop reflective skills are discussed#FRE#
+#IPC# Classification; Educational data sciences; Health professions education; Reflection#FPC#
+#IRF# Alzahem A.M., Van der Molen H.T., Alaujan A.H., Schmidt H.G., Zamakhshary M.H., Stress amongst dental students: A systematic review, European Journal of Dental Education, 15, 1, pp. 8-18, (2011); 
+Artstein R., Poesio M., Inter-coder agreement for computational linguistics, Computational Linguistics, 34, 4, pp. 555-596, (2008); 
+Asadoorian J., Schonwetter D.J., Lavigne S.E., Developing reflective health care practitioners: Learning from experience in dental hygiene education, Journal of Dental Education, 75, 4, pp. 472-484, (2011); 
+Boud D., Keogh R., Walker D., Reflection: Turning experience into learning, (1985); 
+Breiman L., Random Forests, Machine Learning, 45, 1, pp. 5-32, (2001); 
+Buckingham Shum S., Ferguson R., Martinez-Maldonado R., Human-centred learning analytics, Journal of Learning Analytics, 6, 2, pp. 1-9, (2019); 
+Bush H., Bissell V., The evaluation of an approach to reflective learning in the undergraduate dental curriculum, European Journal of Dental Education, 12, 2, pp. 103-110, (2008); 
+Cantor A.B., Sample-size calculations for cohen’s kappa, Psychological Methods, 1, 2, pp. 150-153, (1996); 
+Chawla N., Bowyer K., Hall L., Kegelmeyer W., SMOTE: Synthetic minority over-sampling technique, Journal of Artificial Intelligence Research, 16, pp. 321-357, (2002); 
+Chirema K.D., The use of reflective journals in the promotion of reflection and learning in post-registration nursing students, Nurse Education Today, 27, 3, pp. 192-202, (2007); 
+Cotton A.H., Private thoughts in public spheres: Issues in reflection and reflective practices in nursing, Journal of Advanced Nursing, 36, 4, pp. 512-519, (2001); 
+Crossley S.A., Kyle K., McNamara D.S., Sentiment analysis and social cognition engine (SEANCE): An automatic tool for sentiment, social cognition, and social-order analysis, Behavior Research Methods, 49, 3, pp. 803-821, (2017); 
+Cui Y., Wise A.F., Allen K.L., Developing reflection analytics for health professions education: A multi-dimensional framework to align critical concepts with data features, Computers in Human Behavior, 100, pp. 305-324, (2019); 
+Davis E.A., Scaffolding students' knowledge integration: Prompts for reflection in KIE, International Journal of Science Education, 22, 8, pp. 819-837, (2000); 
+Dewey J., How we think: A restatement of the relation of reflective thinking to the educative process, (1933); 
+Gasevic D., Dawson S., Siemens G., Let’s not forget: Learning analytics are about learning, TechTrends, 59, 1, pp. 64-71, (2015); 
+Gibbs G., Learning by doing: A guide to teaching and learning methods, (1988); 
+Gibson A., Aitken A., Sandor A., Buckingham Shum S., Tsingos-Lucas C., Knight S., Reflective writing analytics for actionable feedback, Proceedings of the Seventh International Learning Analytics & Knowledge Conference, pp. 153-162, (2017); 
+Gibson A., Kitto K., Bruza P., Towards the discovery of learner metacognition from reflective writing, Journal of Learning Analytics, 3, 2, pp. 22-36, (2016); 
+Hanson K., Alexander S., The influence of technology on reflective learning in dental hygiene education, Journal of Dental Education, 74, 6, pp. 644-653, (2010); 
+Heeneman S., Driessen E.W., The use of a portfolio in postgraduate medical education–reflect, assess and account, one for each or all in one?, GMS Journal for Medical Education, 34, 5, pp. 1-12, (2017); 
+Herrera F., Charte F., Rivera A.J., Del Jesus M.J., Multilabel classification, (2016); 
+Hulsman R.L., Harmsen A.B., Fabriek M., Reflective teaching of medical communication skills with DiViDU: Assessing the level of student reflection on recorded consultations with simulated patients, Patient Education and Counseling, 74, 2, pp. 142-149, (2009); 
+Ip W.Y., Lui M.H., Chien W.T., Lee I.F., Lam L.W., Lee D., Promoting self- reflection in clinical practice among Chinese nursing undergraduates in Hong Kong, Contemporary Nurse, 41, 2, pp. 253-262, (2012); 
+James G., Witten D., Hastie T., Tibshirani R., An introduction to statistical learning, (2013); 
+Knight S., Shum S.B., Ryan P., Sandor A., Wang X., Designing academic writing analytics for civil law student self-assessment, International Journal of Artificial Intelligence in Education, 28, 1, pp. 1-28, (2018); 
+Koole S., Dornan T., Aper L., Scherpbier A., Valcke M., Cohen-Schotanus J., Derese A., Factors confounding the assessment of reflection: A critical review, BMC Medical Education, 11, 1, (2011); 
+Kovanovic V., Joksimovic S., Mirriahi N., Blaine E., Gasevic D., Siemens G., Dawson S., Understand students' self-reflections through learning analytics, Proceedings of the 8Th International Conference on Learning Analytics & Knowledge, pp. 389-398, (2018); 
+Landis J.R., Koch G.G., The measurement of observer agreement for categorical data, Biometrics, 33, 1, pp. 159-174, (1977); 
+Liu M., Shum S.B., Mantzourani E., Lucas C., Evaluating Machine Learning Approaches to Classify Pharmacy Students’ Reflective Statements, Proceedings of International Conference on Artificial Intelligence in Education, pp. 220-230, (2019); 
+Mann K., Gordon J., MacLeod A., Reflection and reflective practice in health professions education: A systematic review, Advances in Health Sciences Education, 14, 4, (2009); 
+Mezirow J., Transformative dimensions of adult learning, (1991); 
+Moon J.A., Reflection in learning and professional development: Theory and practice, (2013); 
+Ochoa X., Dominguez F., Guaman B., Maya R., Falcones G., Castells J., The rap system: Automatic feedback of oral presentation skills using multimodal analysis and low-cost sensors, Proceedings of the 8Th International Conference on Learning Analytics and Knowledge, pp. 360-364, (2018); 
+Ochoa X., Duval E., Automatic evaluation of metadata quality in digital repositories, International Journal on Digital Libraries, 10, 2-3, pp. 67-91, (2009); 
+Pennebaker J.W., Boyd R.L., Jordan K., Blackburn K., The development and psychometric properties of LIWC2015, (2015); 
+Read J., Pfahringer B., Holmes G., Frank E., Classifier chains for multi-label classification, Machine Learning, 85, 3, (2011); 
+Schon D.A., The reflective practitioner, (1983); 
+Shibani A., Knight S., Shum S.B., Contextualizable learning analytics design: A generic model and writing analytics evaluations, Proceedings of the 9Th International Conference on Learning Analytics and Knowledge, pp. 210-219, (2019); 
+Tolsgaard M.G., Boscardin C.K., Park Y.S., Cuddy M.M., Sebok-Syer S.S., The role of data science and machine learning in Health Professions Education: practical applications, theoretical contributions, and epistemic beliefs, Advances in Health Sciences Education, (2020); 
+Tsingos C., Bosnic-Anticevich S., Lonie J.M., Smith L., A model for assessing reflective practices in pharmacy education, American Journal of Pharmaceutical Education, 79, 8, (2015); 
+Ullmann T.D., Automated analysis of reflection in writing: validating machine learning approaches, International Journal of Artificial Intelligence in Education, 29, 2, pp. 217-257, (2019); 
+Wise A., Cui Y., Envisioning a learning analytics for the learning sciences, Proceedings of the 13Th International Conference of the Learning Sciences, pp. 1799-1806, (2018); 
+Wise A.F., Shaffer D.W., Why theory matters more than ever in the age of big data, Journal of Learning Analytics, 2, 2, pp. 5-13, (2015); 
+Wong F.K., Kember D., Chung L.Y., Yan L., Assessing the level of student reflection from reflective journals, Journal of Advanced Nursing, 22, 1, pp. 48-57, (1995)#FRF#

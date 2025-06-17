@@ -1,0 +1,46 @@
+#ITI#Adjusting for misclassification of an exposure in an individual participant data meta-analysis#FTI#
+#IRE# A common problem in the analysis of multiple data sources, including individual participant data meta-analysis (IPD-MA), is the misclassification of binary variables. Misclassification may lead to biased estimators of model parameters, even when the misclassification is entirely random. We aimed to develop statistical methods that facilitate unbiased estimation of adjusted and unadjusted exposure-outcome associations and between-study heterogeneity in IPD-MA, where the extent and nature of exposure misclassification may vary across studies. We present Bayesian methods that allow misclassification of binary exposure variables to depend on study- and participant-level characteristics. In an example of the differential diagnosis of dengue using two variables, where the gold standard measurement for the exposure variable was unavailable for some studies which only measured a surrogate prone to misclassification, our methods yielded more accurate estimates than analyses naive with regard to misclassification or based on gold standard measurements alone. In a simulation study, the evaluated misclassification model yielded valid estimates of the exposure-outcome association, and was more accurate than analyses restricted to gold standard measurements. Our proposed framework can appropriately account for the presence of binary exposure misclassification in IPD-MA. It requires that some studies supply IPD for the surrogate and gold standard exposure, and allows misclassification to follow a random effects distribution across studies conditional on observed covariates (and outcome). The proposed methods are most beneficial when few large studies that measured the gold standard are available, and when misclassification is frequent#FRE#
+#IPC# individual participant data; measurement error; meta-analysis; misclassification#FPC#
+#IRF# Stewart L.A., Tierney J.F., To IPD or not to IPD? Advantages and disadvantages of systematic reviews using individual patient data, Eval Health Prof, 25, 1, pp. 76-97, (2002); 
+Sjoding M.W., Cooke C.R., Iwashyna T.J., Hofer T.P., Acute respiratory distress syndrome measurement error. Potential effect on clinical study results, Ann Am Thorac Soc, 13, 7, pp. 1123-1128, (2016); 
+Simmons N., Donnell D., Ss O., Et al., Assessment of contamination and misclassification biases in a randomized controlled trial of a social network peer education intervention to reduce HIV risk behaviors among drug users and risk partners in Philadelphia, PA and Chiang Mai, Thailand, AIDS Behav, 19, 10, pp. 1818-1827, (2015); 
+Choudhry N.K., Randomized, controlled trials in health insurance systems, N Engl J Med, 377, 10, pp. 957-964, (2017); 
+Keys A., Kihlberg J.K., Effect of misclassification on estimated relative prevalence of a characteristic: part I. two populations infallibly distinguished. Part II. Errors in two variables, Am J Public Health, 53, 10, pp. 1656-1665, (1963); 
+Carroll R., Ruppert D., Stefanski L.A., Crainiceanu C.M., Measurement Error in Nonlinear Models. A Modern Perspective, (2006); 
+Gustafson P., Greenland S., Misclassification, Handbook of Epidemiology, pp. 639-658, (2014); 
+van Smeden M., Lash T.L., Groenwold R.H.H., Five Myths about Measurement Error in Epidemiologic Research, (2019); 
+Brakenhoff T.B., Mitroiu M., Keogh R.H., Moons K.G.M., Groenwold R.H.H., van Smeden M., Measurement error is often neglected in medical literature: a systematic review, J Clin Epidemiol, 98, pp. 89-97, (2018); 
+Bross I., Misclassification in 2 x 2 tables, Biometrics, 10, 4, pp. 478-486, (1954); 
+Copeland K.T., Checkoway H., McMichael A.J., Holbrook R.H., Bias due to misclassification in the estimation of relative risk, Am J Epidemiol, 105, 5, pp. 488-495, (1977); 
+Gustafson P., Measurement Error and Misclassification in Statistics and Epidemiology: Impacts and Bayesian Adjustments, (2003); 
+Dosemeci M., Wacholder S., Lubin J.H., Does nondifferential misclassification of exposure always bias a true effect toward the null value?, Am J Epidemiol, 132, 4, pp. 746-748, (1990); 
+Birkett N.J., Effect of nondifferential misclassification on estimates of odds ratios with multiple levels of exposure, Am J Epidemiol, 136, 3, pp. 356-362, (1992); 
+Weinberg C.A., Umbach D.M., Greenland S., When will nondifferential misclassification of an exposure preserve the direction of a trend?, Am J Epidemiol, 140, 6, pp. 565-571, (1994); 
+Debray T.P.A., de Jong V.M.T., Moons K.G.M., Riley R.D., Evidence synthesis in prognosis research, Diagn Progn Res, 3, 1, (2019); 
+Campbell H., de Jong V.M.T., Maxwell L., Jaenisch T., Debray T.P.A., Gustafson P., Measurement error in meta-analysis (MEMA)—a Bayesian framework for continuous outcome data subject to non-differential measurement error, Res Synth Methods, 12, 6, pp. 796-815, (2021); 
+Abo-Zaid G., Guo B., Deeks J.J., Et al., Individual participant data meta-analyses should not ignore clustering, J Clin Epidemiol, 66, 8, pp. 865-873.e4, (2013); 
+Falley B.N., Stamey J.D., Beaujean A.A., Bayesian estimation of logistic regression with misclassified covariates and response, J Appl Stat, 45, 10, pp. 1756-1769, (2018); 
+Nelson T., Song J.J., Chin Y.M., Stamey J.D., Bayesian correction for misclassification in multilevel count data models, Comput Math Methods Med, 2018, pp. 1-6, (2018); 
+Lian Q., Hodges J.S., MacLehose R., Chu H., A Bayesian approach for correcting exposure misclassification in meta-analysis, Stat Med, 38, 1, pp. 115-130, (2019); 
+Jaenisch T., Tam D.T.H., Kieu N.T.T., Et al., Clinical evaluation of dengue and identification of risk factors for severe disease: protocol for a multicentre study in 8 countries, BMC Infect Dis, 16, 1, (2016); 
+Anders K.L., Nguyet N.M., Van Vinh C.N., Et al., Epidemiological factors associated with dengue shock syndrome and mortality in hospitalized dengue patients in Ho Chi Minh City, Vietnam, Am J Trop Med Hyg, 84, 1, pp. 127-134, (2011); 
+Sudeep A.B., Parashar D., Chikungunya: an overview, J Biosci, 33, 4, pp. 443-449, (2008); 
+Keogh R.H., White I.R., A toolkit for measurement error correction, with a focus on nutritional epidemiology, Stat Med, 33, 12, pp. 2137-2155, (2014); 
+Cole S.R., Chu H., Greenland S., Multiple-imputation for measurement-error correction, Int J Epidemiol, 35, 4, pp. 1074-1081, (2006); 
+Richardson S., Gilks W.R., A Bayesian approach to measurement error problems in epidemiology using conditional independence models, Am J Epidemiol, 138, 6, pp. 430-442, (1993); 
+Williams D.R., Rast P., Burkner P.C., Bayesian Meta-Analysis with Weakly Informative Prior Distributions, (2018); 
+Gelman A., Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper), Bayesian Anal, 1, 3, pp. 515-534, (2006); 
+Polson N.G., Scott J.G., On the half-Cauchy prior for a global scale parameter, Bayesian Anal, 7, 4, pp. 887-902, (2012); 
+DerSimonian R., Laird N., Meta-analysis in clinical trials, Control Clin Trials, 7, 3, pp. 177-188, (1986); 
+Richardson S., Gilks W.R., Conditional independence models for epidemiological studies with covariate measurement error, Stat Med, 12, 18, pp. 1703-1722, (1993); 
+Meng X.L., Multiple-imputation inferences with uncongenial sources of input, Stat Sci, 9, pp. 538-558, (1994); 
+Maclure M., The case-crossover design: a method for studying transient effects on the risk of acute events, Am J Epidemiol, 133, 2, pp. 144-153, (1991); 
+Moller J., Hessen-Soderman A.C., Hallqvist J., Differential misclassification of exposure in case-crossover studies, Epidemiology, 15, 5, pp. 589-596, (2004); 
+Garcia-Closas M., Thompson W.D., Robins J.M., Differential misclassification and the assessment of gene-environment interactions in case-control studies, Am J Epidemiol, 147, 5, pp. 426-433, (1998); 
+Morabia A., Flandre P., Misclassification bias related to definition of menopausal status in case-control studies of breast cancer, Int J Epidemiol, 21, 2, pp. 222-228, (1992); 
+Levois M., Switzer P., Differential exposure misclassification in case-control studies of environmental tobacco smoke and lung cancer, J Clin Epidemiol, 51, 1, pp. 37-54, (1998); 
+Greenland S., Variance estimation for epidemiologic effect estimates under misclassification, Stat Med, 7, 7, pp. 745-757, (1988); 
+Wacholder S., Dosemeci M., Lubin J.H., Blind assignment of exposure does not always prevent differential misclassification, Am J Epidemiol, 134, 4, pp. 433-437, (1991); 
+R: A Language and Environment for Statistical, (2020); 
+Langan D., Higgins J.P.T., Jackson D., Et al., A comparison of heterogeneity variance estimators in simulated random-effects meta-analyses, Res Synth Methods, 10, 1, pp. 83-98, (2018); 
+Spiegelman D., Rosner B., Logan R., Estimation and inference for logistic regression with covariate misclassification and measurement error in main study/validation study designs, J Am Stat Assoc, 95, 449, pp. 51-61, (2000)#FRF#

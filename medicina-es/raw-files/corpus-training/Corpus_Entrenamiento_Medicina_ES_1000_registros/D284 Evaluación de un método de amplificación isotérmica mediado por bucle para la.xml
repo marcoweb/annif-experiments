@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="brief-report" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.v39i2.4428</article-id>
+			<article-id pub-id-type="publisher-id">00017</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Nota técnica</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Evaluación de un método de amplificación isotérmica mediado por bucle para la detección rápida del virus sincicial respiratorio en niños con infección respiratoria aguda</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Evaluation of a loop-mediated isothermal amplification method for the rapid detection of human respiratory syncytial virus in children with acute respiratory infection</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Bettin-Martínez</surname>
+						<given-names>Alfonso</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Villareal-Camacho</surname>
+						<given-names>José</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cervantes-Acosta</surname>
+						<given-names>Guillermo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Acosta-Reyes</surname>
+						<given-names>Jorge</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Barbosa</surname>
+						<given-names>Juliana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Juan</surname>
+						<given-names>Homero San</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1c"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Departamento de Medicina, Universidad del Norte, Barranquilla, Colombia </institution>
+				<institution content-type="normalized">Universidad del Norte</institution>
+				<institution content-type="orgdiv1">Departamento de Medicina</institution>
+				<institution content-type="orgname">Universidad del Norte</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Departamento de Medicina, Universidad del Norte, Barranquilla, Colombia </institution>
+				<institution content-type="normalized">Universidad del Norte</institution>
+				<institution content-type="orgdiv1">Departamento de Medicina</institution>
+				<institution content-type="orgname">Universidad del Norte</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff1c">
+				<label>1</label>
+				<institution content-type="original">Departamento de Medicina, Universidad del Norte, Barranquilla, Colombia </institution>
+				<institution content-type="normalized">Universidad del Norte</institution>
+				<institution content-type="orgdiv1">Departamento de Medicina</institution>
+				<institution content-type="orgname">Universidad del Norte</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Posgrado de Microbiología, Universidad Metropolitana, Barranquilla, Colombia </institution>
+				<institution content-type="orgdiv1">Posgrado de Microbiología</institution>
+				<institution content-type="normalized">Universidad Metropolitana</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Programa de Medicina, Universidad Libre, Barranquilla, Colombia </institution>
+				<institution content-type="normalized">Universidad Libre</institution>
+				<institution content-type="orgdiv1">Programa de Medicina</institution>
+				<institution content-type="orgname">Universidad Libre</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Departamento de Salud Pública, Universidad del Norte, Barranquilla, Colombia </institution>
+				<institution content-type="normalized">Universidad del Norte</institution>
+				<institution content-type="orgdiv1">Departamento de Salud Pública</institution>
+				<institution content-type="orgname">Universidad del Norte</institution>
+				<addr-line>
+					<named-content content-type="city">Barranquilla</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original"> Grupo de Virología, Instituto Nacional de Salud, Bogotá, D.C., Colombia </institution>
+				<institution content-type="orgdiv1">Grupo de Virología</institution>
+				<institution content-type="normalized">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Homero San Juan, Departamento de Medicina, Universidad del Norte, Km 5, antigua vía a Puerto Colombia, Barranquilla, Colombia Teléfono: 313 543 6508 <email>hsanjuan@uninorte.edu.co</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses: </label>
+					<p> Los autores declaran no tener ningún conflicto de intereses</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Apr-Jun</season>
+				<year>2019</year>
+			</pub-date>
+			<volume>39</volume>
+			<issue>2</issue>
+			<fpage>415</fpage>
+			<lpage>426</lpage>
+			<history>
+				<date date-type="received">
+					<day>09</day>
+					<month>04</month>
+					<year>2018</year>
+				</date>
+				<date date-type="accepted">
+					<day>19</day>
+					<month>04</month>
+					<year>2018</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>El virus sincicial respiratorio humano (hRSV) es la causa más frecuente de infección respiratoria aguda de las vías respiratorias inferiores en niños menores de cinco años. El desarrollo de técnicas moleculares para identificarlo es uno de los retos actuales en el campo de la investigación clínica. </p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Evaluar un método de amplificación isotérmica para la detección rápida del hRSV en niños con infección respiratoria aguda. </p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Se extrajo el ARN viral de 304 muestras de hisopado nasal en niños con síntomas de infección respiratoria aguda atendidos en el servicio de urgencias del Hospital de la Universidad del Norte en Barranquilla entre abril del 2016 y julio del 2017. Se evaluó la prueba de amplificación isotérmica mediada por bucle mediante transcriptasa inversa de la proteína de la matriz (M) (<italic>Reverse Transcription Loop-Mediated Isothermal Amplification</italic>, RT-LAMP) comparada con técnicas moleculares como la reacción en cadena de la polimerasa mediante transcriptasa inversa múltiple anidada (<italic>Reverse Transcription- Polymerase Chain Reaction,</italic> RT-PCR), la cual se empleó como la prueba estándar, la PCR en tiempo real (<italic>quantitative PCR</italic>, qPCR) y la RT-LAMP de la proteína L (L) para la detección rápida del virus sincicial respiratorio (VSR), subtipo A y subtipo B. </p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>La prueba de RT-LAMP (M) tuvo una sensibilidad de 93,59 %, una especificidad de 92,92 % y una concordancia de 0,83 ± 0,036 comparada con la prueba de RT-PCR anidada. El índice kappa del RT-LAMP (M) fue superior, y los valores del RT-LAMP (L) y la qPCR concordaron (0,75 ± 0,043 y 0,71 ± 0,045, respectivamente). </p>
+				</sec>
+				<sec>
+					<title>Conclusiones. </title>
+					<p>Estos resultados indican que la prueba RT-LAMP (M) puede considerarse como una herramienta de utilidad clínica para detectar el hSRVA, dado que el tiempo requerido para la obtención de resultados, así como los costos, es menor, y su desempeño es mejor que el de las otras pruebas moleculares evaluadas.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>Human respiratory syncytial virus (hRSV) is the most frequent cause of acute respiratory infection of the lower respiratory tract in children under the age of five. The development of molecular techniques able to identify hRSV is one of the current challenges in the field of clinical research. </p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To evaluate the ability of an isothermal amplification method to rapidly detect hRSV in children with acute respiratory infection. </p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>We collected 304 nasopharyngeal swab samples from children with symptoms of acute respiratory infection who attended the emergency unit at <italic>Hospital de la Universidad del Norte</italic> in Barranquilla from April, 2016, to July, 2017. After extracting viral RNA from the samples, we evaluated the ability of the reverse transcriptase-loop-mediated isothermal amplification (RT-LAMP) M assay to rapidly detect hRSVA and hRSVB compared to other molecular techniques: quantitative PCR (qPCR), reverse transcriptase-LAMP L assay, and as a standard, the multiplex nested reverse transcriptase polymerase chain reaction (nested RT-PCR). </p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>The RT-LAMP M assay had a sensitivity of 93.59% and a specificity of 92.92%, and a concordance of 0.83 ± 0.036 as compared with the nested RT-PCR test. While the Kappa index of the RT-LAMP M assay was higher than the values for the RT-LAMP L assay and the qPCR, the values of the latter two methods were in agreement (0.75 ± 0.043 and 0.71 ± 0.045, respectively).</p>
+				</sec>
+				<sec>
+					<title>Conclusion: </title>
+					<p>Due to the shorter running times, lower costs and better performance of the RT-LAMP M assay, it can be considered as a useful clinical tool for the detection of RSVA.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>infecciones del sistema respiratorio</kwd>
+				<kwd>virus sincitiales respiratorios</kwd>
+				<kwd>niños</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Respiratory tract infections</kwd>
+				<kwd>respiratory syncytial viruses</kwd>
+				<kwd>child</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source> Gobernación del Atlántico</funding-source>
+					<award-id>0103-2015-000039</award-id>
+				</award-group>
+				<funding-statement>Programa de CT+I en “Enfermedades Infecciosas todo el Departamento, Atlántico, Caribe”. Convenio N° 0103-2015-000039. Actividad MGA [955864]. Sistema General de Regalías (SGR). Gobernación del Atlántico</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="19"/>
+				<page-count count="12"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El virus sincicial respiratorio humano (hRSV) es la causa principal de las afecciones respiratorias de origen viral y de las hospitalizaciones pediátricas a nivel mundial, con 33 millones de casos nuevos cada año. Aunque afecta a todos los grupos etarios, los lactantes (&lt;18 meses de edad) y los ancianos son los grupos que sufren las formas más graves de la infección, que afectan las vías respiratorias inferiores (bronquiolitis y neumonía) <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. </p>
+		<p>Dadas las consecuencias de la infección, la detección temprana es de crucial importancia para mejorar la evolución del paciente y prevenir la diseminación de la enfermedad. La detección rápida de los virus respiratorios disminuiría sustancialmente los costos asociados con el cuidado del paciente, así como las tasas de hospitalización e, incluso, el uso inadecuado de antibióticos previniendo, así, la aparición de la resistencia frente a ellos <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Por lo tanto, el desarrollo de pruebas de diagnóstico rápido mediante nuevas técnicas moleculares que permitan identificar el hRSV y otros virus respiratorios circulantes, es uno de los retos actuales en el campo de la investigación clínica. </p>
+		<p>Recientemente, se ha extendido la implementación de técnicas moleculares con amplificación isotérmica de los ácidos nucleicos y se han desarrollado nuevas variantes para la identificación del hRSV a partir de muestras clínicas, que han demostrado ser más rápidas y sensibles <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. </p>
+		<p>Una técnica que ha llamado la atención en los últimos años es la amplificación isotérmica mediada por bucle (<italic>Loop-Mediated Isothermal Amplification</italic>, LAMP), desarrollada por Notomi, <italic>et al</italic>. <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. La técnica LAMP usa cuatro a seis cebadores para amplificar la secuencia diana por desplazamiento de la cadena con la ayuda de la enzima ADN polimerasa <italic>Bst</italic>, la cual actúa con una temperatura constante de 60 a 65 °C. Se ha demostrado que el uso de seis cebadores aumenta la velocidad de la amplificación y la especificidad de la prueba LAMP. Una ventaja adicional es que exhibe una mayor estabilidad frente a los inhibidores presentes en las muestras biológicas, que normalmente afectarían el desempeño de una PCR convencional, lo cual contribuye a ahorrar tiempo y a reducir costos en el procesamiento de las muestras <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. </p>
+		<p>En varios estudios se ha reportado la detección de diversos agentes patógenos mediante el método de amplificación isotérmica <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Además, combinada con enzimas que poseen activad de transcripción inversa, esta técnica puede detectar agentes patógenos cuyo genoma es el ARN, caso en que se la denomina LAMP mediante transcripción inversa. Esto la convierte en la prueba ideal para la detección del hRSV, el cual posee un genoma de ARN de cadena sencilla, no segmentado, y de orientación negativa <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. </p>
+		<p>En este estudio se describe el desempeño diagnóstico de un ensayo de RT-LAMP para la detección rápida del hRSV del subtipo A (hRSVA) en muestras tomadas por hisopado nasal en niños menores de cinco años atendidos en el servicio de urgencias del Hospital de la Universidad del Norte. </p>
+		<p>Para el ensayo de RT-LAMP se diseñaron seis cebadores específicos contra los genes que codifican la proteína de la matriz (M) y la nucleocápside del hRSV de los subtipos A y B, respectivamente. El ensayo se validó con una RT-LAMP (L) para el hRSV previamente reportada <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Los resultados de ambas pruebas se compararon con una RT-PCR múltiplex anidada (prueba de referencia) y una PCR cuantitativa en tiempo real (qPCR) disponible comercialmente. </p>
+		<p>Se calculó y se discutió el desempeño de la RT-LAMP (M) para el diagnóstico clínico de hRSV en términos de tiempo de detección, sensibilidad, especificidad y razón de verosimilitud. </p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos </title>
+			<sec>
+				<title>Diseño y población </title>
+				<p>Se hizo un estudio transversal entre abril de 2016 y julio de 2017 en el Hospital de la Universidad del Norte en Barranquilla, Colombia, en niños menores de cinco años atendidos en el servicio de urgencias por infección respiratoria aguda. Se excluyeron los niños con diabetes, enfermedades autoinmunitarias, cáncer y HIV, así como aquellos con alto riesgo de sufrir efectos adversos durante la toma de la muestra (epiglotitis o cualquier alteración en las vías respiratorias altas). </p>
+				<p>El protocolo de estudio fue aprobado por el Comité de Ética de la Universidad del Norte, Colombia. Los padres de los niños dieron su consentimiento informado. El estudio se ajustó a las buenas prácticas clínicas y de laboratorio según los estándares internacionales. </p>
+			</sec>
+			<sec>
+				<title>Muestras clínicas </title>
+				<p>Se evaluaron 304 pacientes sintomáticos. Siguiendo las indicaciones médicas, se tomaron las muestras con hisopado nasal (FLOQSwabs™, Copan Diagnostics Inc.) y fueron suspendidas en medio de transporte universal con antibióticos (UTM™, Viral Transport Media, USA) para su envío al laboratorio de virología. </p>
+				<p>Posteriormente, el sobrenadante se dividió en tres alícuotas y se almacenó a -80 °C hasta su procesamiento. Una alícuota se usó para extraer el ARN viral con el estuche QIAamp Viral RNA Mini (Qiagen, Venlo, Netherlands). Una alícuota de 140 μL se procesó según las instrucciones del fabricante hasta obtener 60 μL de ARN viral eluido. La concentración y la pureza del ARN se determinaron en un espectrofotómetro NanoDrop 2000™ (Thermo Scientific, Wilmington, DE). </p>
+			</sec>
+			<sec>
+				<title>Diseño del ensayo de RT-LAMP </title>
+				<p>Para el ensayo de RT-LAMP se diseñaron seis cebadores específicos contra las regiones conservadas de los genes que codifican la proteína de la matriz y nucleocápside del hRSVA y hRSVB. Se utilizaron secuencias que representaban aislamientos del hRSV reportados en la base de datos de Genbank y provenientes de diversas áreas; los números de acceso para el virus hSRVA fueron: JF920063/JF920061/JF920062/FJ614813/AY911262, y para el virus hSRVB: JQ582843/NC_001781/AF013254/AF013255/AF013255/JQ582844. </p>
+				<p>Para el alineamiento se utilizó la herramienta Clustal W contenido en el programa MEGA, versión 6. Una vez alineadas las secuencias conservadas, se diseñaron los cebadores para el LAMP con el programa en línea Primer Explorer, versión 4 (Eiken Chemical Co., Tokio, Japón) (http://primerexplorer. jp/elamp4.0.0/index.html), en el cual se generó un juego de seis cebadores, incluidos dos cebadores externos, sentido y antisentido (F3 y B3), dos cebadores internos (FIP y BIP), y dos cebadores de tipo bucle (LF y LB).</p>
+				<p>Para el diseño, se combinó la configuración estándar del Primer Explorer con las recomendaciones de la casa comercial Lucigen (https://www.lucigen.com/docs/manuals/Design-of-LAMP-primers-11-2015.pdf). La secuencia de los cebadores seleccionados se presenta en el <xref ref-type="table" rid="t1">cuadro 1</xref>. La especificidad de los cebadores escogidos se evaluó con la herramienta BLAST <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Todos los cebadores se sintetizaron según las instrucciones del fabricante (Integrated DNA Technologies Inc, IDT®, USA).</p>
+				<p>Para la corrida de las pruebas de RT-LAMP se utilizó un estuche disponible en el comercio, el cual contiene una mezcla maestra con tampón optimizado, la enzima ADN polimerasa GspSSD LF con actividad de transcriptasa inversa y un colorante fluorescente (Isothermal Mastermix ISO- 004; Optigene Limited, UK). </p>
+				<p>Se mezclaron 7,5 μL de la mezcla maestra con 2,5 μL de los seis cebadores de hSRVA o hSRVB (F3/B3 a 0,2 μM; FIP/BIP a 0,8 μM; LF/LB a 0,4 μM) y 2,5 μL de ARN molde, todo en un volumen final de reacción de 12,5 μL. </p>
+				<p>Las concentraciones de los cebadores se establecieron de acuerdo con lo reportado por Mahony, <italic>et al.</italic> <xref ref-type="bibr" rid="B12"><sup>12</sup></xref> y Mu, <italic>et al.</italic> <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. </p>
+				<p>La amplificación se hizo a 62 °C durante 30 a 45 minutos según las instrucciones del fabricante. El corrido se llevó a cabo en un termociclador en tiempo real (Instrument ABI 7500™, Applied Biosystems, Foster City, CA) en el que la fluorescencia emitida con longitud de onda de 520 nm se representó gráficamente como curvas de reacción. </p>
+				<p>La prueba se consideró positiva siempre y cuando la fluorescencia detectada presentara una curva de función sigmoide similar a la del control positivo. Los tiempos (en minutos) de detección se registraron y se compararon con el control. Además, todos los productos amplificados se corrieron en geles de agarosa al 1,5 % y se visualizaron con la tinción en gel SYBR Safe DNA Gel Stain™ (Invitrogen) en un transiluminador de luz UV (BioRad). </p>
+				<p><bold>
+ <italic>Límite de detección</italic> 
+</bold> </p>
+				<p>El punto final de la detección mediante RT-LAMP se determinó haciendo diluciones seriadas del genoma viral de la cepa del hSRVA cultivado en el laboratorio en un rango de 10-1 (1,38 x 109 copias de ARN de RSV-A rgRSVA A2/por reacción) hasta 10-12 (1,38 x 101 copias de ARN de RSV-A rgRSVA A2/por reacción), usando como diana el gen M (matriz) y las condiciones térmicas del estuche Isothermal Mastermix ISO-004™ (Optigene Limited). </p>
+				<p>Se utilizó el sistema en tiempo real ABI 7500™ (Applied Biosystems, Foster City, CA) y el programa SDS, version 1.4™ (Applied Biosystems, Foster City, CA) para el análisis de la fluorescencia de amplificación. </p>
+				<p>Una vez completada la amplificación, el límite de detección se consideró como la mayor dilución que mostrara una curva sigmoidea por encima del umbral del ciclo (<italic>cycle threshold</italic>, Ct) asignado por el equipo, y el resultado se expresó como el número de copias de ARN del RSV por reacción. </p>
+			</sec>
+			<sec>
+				<title>Ensayo y validación de la prueba RT-LAMP </title>
+				<p>Los ARN virales obtenidos se analizaron mediante tres técnicas moleculares diferentes: </p>
+				<p>
+					<list list-type="order">
+						<list-item>
+							<p>una prueba de RT-PCR anidada; </p>
+						</list-item>
+						<list-item>
+							<p>la RT-LAMP (M) diseñada en este estudio versus otra RT-LAMP (L) de validación, y </p>
+						</list-item>
+						<list-item>
+							<p>una prueba de qPCR disponible comercialmente</p>
+						</list-item>
+					</list>
+				</p>
+				<p>En primer lugar, la RT-PCR anidada es la técnica utilizada actualmente en el Instituto Nacional de Salud para determinar la frecuencia de 15 agentes virales asociados con infecciones respiratorias, y que en este estudio se utilizó como prueba de referencia <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. </p>
+				<p>En segundo lugar, la prueba RT-LAMP (M) para los virus hSRVA y hSRVB, se validó con un juego de cebadores para la RT-LAMP (L) reportado previamente por Mu, <italic>et al.</italic> <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. </p>
+				<p>Por último, los resultados de ambas pruebas de RT-LAMP se compararon con una qPCR para la detección del hSRVA y el hSRVB de la casa comercial Primerdesign Ltd. (genesig Path-RSV-A/B™), con el fin de calcular la sensibilidad y la especificidad de la prueba desarrollada en este estudio. </p>
+				<p>En todos los experimentos se utilizó como control positivo la cepa RSV-A2 recombinante, la cual expresa la proteína verde fluorescente (GFP; rgRSV), cultivada en el laboratorio <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Todas las pruebas de RT-LAMP se hicieron de forma ciega, y en ninguno de los casos el operador conocía los resultados de las otras tres pruebas moleculares utilizadas. </p>
+			</sec>
+			<sec>
+				<title>Análisis estadístico </title>
+				<p>El análisis estadístico se hizo con el programa IBM SPSS Statistics™, versión 24. La sensibilidad, la especificidad y la razón de verosimilitud de la RT-LAMP se calcularon utilizando el programa Epidat, versión 3.1. El valor positivo en la razón de verosimilitud se definió dividiendo la tasa de verdaderos positivos por los falsos positivos, en tanto que el valor negativo se obtuvo dividiendo la tasa de falsos negativos por los verdaderos negativos. En todas las mediciones se calculó el intervalo de confianza de 95 %. La RT-PCR anidada se utilizó como la prueba de referencia para el diagnóstico de infección por VSR <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. El grado de concordancia entre los resultados de las pruebas se determinó por el valor de kappa (κ) con un intervalo de confianza de 95 %. Los valores de kappa mayores a 0,7 se consideraron como correspondientes a una concordancia alta.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados </title>
+			<sec>
+				<title>Virus respiratorios </title>
+				<p>Las 304 muestras utilizadas en este estudio se evaluaron inicialmente mediante la prueba RT-PCR anidada tal como se describió en la sección de materiales y métodos. Mediante este método, estandarizado y publicado por el Instituto Nacional de Salud <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, se detectan 15 agentes virales asociados con infecciones respiratorias. </p>
+				<p>Se encontraron 78 muestras positivas para hSRVA y ninguna para el subtipo B (hSRVB) ; 153 muestras positivas para uno o más agentes patógenos respiratorios distintos al hRSV (3 para metaneumovirus humano, 8 para adenovirus, 10 para bocavirus, 12 para parainfluenza, 14 para coronavirus, 10 para rinovirus, 2 para enterovirus, 10 para el virus de influenza H1N1, y 84 para dos o más virus), y 73 muestras negativas para todos los virus evaluados. </p>
+				<p>A partir de estos datos se determinó que la prevalencia de infección por hRSV era de 25,65 % (IC95%: 20,72-30,59 %) en la población estudiada, cuya edad media fue de 17,04 meses (desviación estándar: 15,75). </p>
+			</sec>
+			<sec>
+				<title>Especificidad de los cebadores para la RT-LAMP </title>
+				<p>La especificidad de los cebadores (<xref ref-type="table" rid="t1">cuadro 1</xref>) se evaluó con ARN preparado a partir de la cepa estándar de laboratorio RSV-A2 y de las 153 muestras positivas para otros virus respiratorios. </p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Secuencias de los cebadores usados en el RT-LAMP (M) para la amplificación del hSRVA y el hSRVB</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-02-00415-gt1.gif"/>
+					</table-wrap>
+				</p>
+				<p>Los cebadores del RT-LAMP (M) para el hSRVA amplificaron el segmento diana de la cepa RSVA-A2, en tanto que los cebadores del RT-LAMP (M) para el hSRVB no amplificaron el genoma viral de la cepa utilizada como control (<xref ref-type="fig" rid="f1">figura 1</xref>). </p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Especificidad de los cebadores de la prueba de RT-LAMP para el hSRV, subtipos A y B. <bold>A.</bold> Detección específica del hSRV, subtipo A, utilizando el juego de cebadores diseñados en este estudio (diseñados) y el juego de cebadores publicados por Mu, <italic>et al</italic>. Los cebadores de la RTLAMP para el hSRV, subtipo B (hSRVB), no amplificaron el genoma viral de la cepa hRSVA-A2 utilizada como control. En ningún caso se observó reacción cruzada entre el hSRVA y el hSRVB. Electroforesis en gel de agarosa al 1,5 % de los productos de la RT-LAMP (M). Marcador de peso molecular de 100 pb <bold>B.</bold> Curvas de amplificación en tiempo real de la sección A. Se indica el tiempo de reacción (en minutos) versus la intensidad relativa de fluorescencia para amplificar el genoma viral de la cepa de control (cepa hRSVA-A2). En ninguna de las réplicas de los cebadores del hSRVB se obtuvo una señal de fluorescencia mayor de 2,5 x 104 comparada con el control positivo detectado por los cebadores para el hSRVA. Todos los valores de fluorescencia que superaron los valores de 2,5 x 104 durante el tiempo de reacción se consideraron como positivos. Las reacciones se llevaron a cabo en el sistema en tiempo real ABI 7500 (Applied Biosystems) durante 45 minutos.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-02-00415-gf1.jpg"/>
+					</fig>
+				</p>
+				<p>En cuanto a las muestras positivas para otros virus, se observó que la prueba RT-LAMP (M) para el hSRVA y el hSRVB resultó negativa en todos los casos, con lo cual se demostró que los cebadores fueron 100 % específicos. </p>
+				<p>Por otro lado, estas muestras se probaron con el juego de cebadores de la RT-LAMP (L) reportados por Mu, <italic>et al.</italic> <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, y los resultados fueron idénticos a los encontrados con el juego de cebadores diseñados para este estudio. Además, la prueba de qPCR para el hSRVA y el hSRVB validó lo encontrado por las dos pruebas de RT-LAMP. </p>
+				<p>Cabe resaltar que el hSRVB no se detectó en ninguna de las muestras evaluadas con la RT-PCR anidada ni con el juego de cebadores de la RT-LAMP (M) diseñados en este estudio, lo que indica que este subtipo viral no circuló durante el periodo de muestreo. Con la prueba de RT-LAMP (M) fue posible detectar hasta 1,38 x103 copias de ARN/rgRSVA-A2 por reacción. </p>
+			</sec>
+			<sec>
+				<title>Evaluación de la prueba RT-LAMP </title>
+				<p>En el <xref ref-type="table" rid="t2">cuadro 2</xref> se evidencia que 89 muestras (29,27 %) fueron positivas para el hSRVA en la prueba de RT-LAMP (M), en tanto que 74 (24,34 %) lo fueron en la RT-LAMP (L) de Mu, <italic>et al.</italic> <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, y 84 (27,63 %) en la qPCR. Estos resultados indican que la RT-LAMP (M) desarrollada en este estudio tuvo mayor sensibilidad para detectar el hRSVA que las otras pruebas.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Grado de concordancia entre las pruebas evaluadas para la detección del hSRVA</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-02-00415-gt2.gif"/>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>* Juego de cebadores reportados por Mu, <italic>et al</italic>. <xref ref-type="bibr" rid="B9"><sup>9</sup></xref> † Prueba disponible comercialmente (genesig® Path-RSV-A™)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Cabe resaltar que las tres pruebas se compararon con el método de referencia. En cuanto al nivel de concordancia entre las pruebas, se observó que 73 muestras positivas y 210 negativas concordaron con la RT-LAMP (M) y la RT-PCR anidada, es decir que la concordancia general fue de 93,09 % (κ=0,83; IC: 0,756-0,897); sin embargo, hubo 16 muestras que solamente resultaron positivas en la RT-LAMP (M) (falsos positivos); del mismo modo, cinco muestras que resultaron negativas (falsos negativos) en la RT-LAMP (M) fueron positivas en la RT-PCR anidada (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+				<p>La tasa de falsos negativos de la prueba RT-LAMP (M) se asoció con una carga viral baja, hecho que se correlacionó con valores altos en los Ct calculados en las pruebas de qPCR, los cuales se emplearon para comparar y validar estos resultados. De esta forma, los valores de Ct mayores o iguales a 30,65 (IC95%: 25,60-34,37) se presentaron en muestras clasificadas como falsos negativos en la prueba de RT-LAMP (M), en tanto que los valores de Ct menores o iguales a 23,91 (IC95%: 22,22-26,94) se presentaron en las muestras con resultados verdaderos positivos en la RT-LAMP (p&lt;0,01). </p>
+			</sec>
+			<sec>
+				<title>Desempeño diagnóstico de la RT-LAMP </title>
+				<p>Un hecho importante cuando se busca introducir este tipo de técnicas en el diagnóstico clínico es la posibilidad de detectar el agente patógeno en un corto tiempo. En este estudio se determinó que el tiempo promedio total para obtener un resultado positivo en la RT-LAMP (M) fue de 19,4 minutos (IC95%: 18,45-20,35 minutos) (<xref ref-type="fig" rid="f2">figura 2</xref>), comparado con los 60 a 90 minutos requeridos en la qPCR o con los 300 minutos necesarios para correr la prueba de referencia, es decir, la RT-PCR anidada <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Tiempo promedio de detección del hSRVA en muestras de hisopados nasofaríngeos. <bold>A.</bold> El 84,3 % de las muestras positivas se detectó en 15 a 25 minutos, con una media de 19,4 minutos. El tiempo promedio de amplificación del genoma viral de la cepa de control (hRSVA-A2) en cinco experimentos independientes fue de 12,72 minutos. <bold>B.</bold> Visualización de muestras positivas y negativas con un transiluminador de luz ultravioleta según el tiempo de detección. Las muestras enumeradas como 1-2-3 y 4 se registraron como positivas para el virus hSRVA en 15 a 25 minutos de corrida de la RT-LAMP (M). Las muestras 5 y 6 fueron negativas después de 45 minutos de corrida, similar a lo ocurrido con el control negativo. C+: control positivo; C-; control negativo</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-02-00415-gf2.gif"/>
+					</fig>
+				</p>
+				<p>Otro aspecto que puede resaltarse en el ensayo desarrollado en este estudio es que en cerca del 90 % de las muestras en las que se obtuvo un resultado positivo, el tiempo de detección fue menor o igual a 25 minutos (<xref ref-type="fig" rid="f2">figura 2</xref>). </p>
+				<p>En cuanto al desempeño diagnóstico de la RT-LAMP (M), la RT-LAMP (L) y la qPCR, comparadas con la RT-PCR anidada (<xref ref-type="table" rid="t3">cuadro 3</xref>), en la prueba del estudio se obtuvo una sensibilidad de 93,59 % (IC95%: 87,51-99,67 %), una especificidad de 92,92 % (IC95%: 89,36-96,49 %), una razón de verosimilitud positiva de 13,22 (IC95%: 8,21-21.28) y una negativa de 0,07 (IC95%: 0,03- 0,16), en tanto que la RT-LAMP (L) reportada por Mu, <italic>et al.</italic> (10) tuvo una sensibilidad de 79,49 % (IC95%: 69,89-89,09 %), una especificidad de 94,69 % (IC95%: 91,55-97,83 %), una razón de verosimilitud positiva de 14,97 (IC95%: 8,53-26,26) y una negativa de 0,22 (IC95%: 0,14-0,34), y una concordancia general de 90,79 % (IC95%: 87,37-94,20 %). </p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Desempeño diagnóstico de la RT-LAMP (M) evaluada para la detección del virus sincicial respiratorio (VSR)</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-39-02-00415-gt3.gif"/>
+					</table-wrap>
+				</p>
+				<p>Por último, en la qPCR se obtuvo una sensibilidad de 82,05 % (IC95%: 72,89-91,21 %), una especificidad de 91,15 % (IC95%: 87,23-95,07 %), una razón de verosimilitud positiva de 9,27 (IC95%: 6,02-14,27) y una negativa de 0,20 (IC95%: 0,12-0,32), en tanto que la concordancia general de la qPCR fue de 88,81 % (IC95%: 86,32-94,07 %). </p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión </title>
+			<p>En este estudio se diseñó una prueba diagnóstica de RT-LAMP cuyos cebadores amplificaban una secuencia altamente conservada en la región codificante de la proteína de la matriz (M) para la detección rápida del hSRVA a partir de muestras clínicas de nasofaringe obtenidas de niños menores de cinco años. </p>
+			<p>La prueba de RT-LAMP (M) desarrollada en este estudio demostró tener mayor sensibilidad (93,59 %), especificidad (92,92 %) y concordancia (0,83 ± 0,036) para detectar la presencia del hSRVA que la prueba de RT-PCR anidada, aplicada rutinariamente en el Instituto Nacional de Salud de Colombia, y que en este estudio se usó como la prueba de referencia. </p>
+			<p>La RT-LAMP (M) diseñada en el estudio también se comparó con una de RT-LAMP (L) previamente reportada por Mu, <italic>et al</italic>., y con una qPCR. El índice kappa de la prueba diseñada en este estudio fue superior, en tanto que los valores de la RT-LAMP (L) y la qPCR concordaron (0,75 ± 0,043 y 0,71 ± 0,045, respectivamente), lo que demostró que su dinámica es mejor que la de las otras pruebas moleculares. </p>
+			<p>La prueba RT-LAMP (M) demostró tener mejor sensibilidad y un mayor índice de kappa comparada con la RT-LAMP (L) previamente diseñada por Mu, <italic>et al</italic>., la cual solo logró un nivel de sensibilidad de 79,49 % y una concordancia de 0,75 ± 0,043, muy por debajo de los valores encontrados en la prueba aquí diseñada. Aún más, la prueba de qPCR disponible comercialmente tuvo la menor sensibilidad (82,05%) y el índice kappa más bajo (0,714 ± 0,045) de las tres pruebas evaluadas. </p>
+			<p>Es posible concluir que la gran sensibilidad y el alto índice de concordancia de la prueba RT-LAMP (M) comparada con la RT-LAMP (L) y la qPCR, se debe a que los cebadores diseñados estaban dirigidos a una secuencia altamente conservada de la región codificadora para la proteína de la matriz (M) del virus, lo cual difiere de las secuencias diana de los cebadores de Mu, <italic>et al</italic>., (los cuales estaban dirigidos contra la región codificadora de la proteína L), y de la prueba comercial de qPCR, cuyos cebadores están dirigidos contra la región codificante de la proteína N. </p>
+			<p>Es de resaltar que el uso de una ‘mezcla maestra’ estandarizada (Optigene, United Kingdom) que contenía los reactivos necesarios pudo haber contribuido a los altos valores de sensibilidad y concordancia observados con la prueba diseñada en el estudio. Estos resultados concuerdan en gran medida con la prueba diseñada por Mahony, <italic>et al</italic>., quienes también emplearon la misma ‘mezcla maestra’ comercial <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. </p>
+			<p>Los cebadores diseñados para la prueba de RT-LAMP (M) fueron específicos para detectar el hSRVA, pues no detectaron otros virus respiratorios como el metaneumovirus humano, el adenovirus, el bocavirus, el virus de la parainfluenza, el coronavirus, el rinovirus, el enterovirus y el virus de influenza H1N1, aun cuando estaban presentes, tal como se evidenció en la prueba RT-PCR anidada del Instituto Nacional de Salud. </p>
+			<p>La RT-LAMP (M) y la RT-LAMP (L) tuvieron un buen desempeño comparadas con la RT-PCR anidada. Las razones de verosimilitud positivas de ambas pruebas se consideran muy buenas (&gt;10), lo que demuestra una buena capacidad de confirmación en caso de sospecha de infección por el hSRVA. Al comparar las pruebas de RT-LAMP y RT-LAMP (M) se obtuvo una razón de verosimilitud negativa bastante buena (0,07; IC95%: 0,03-0,16), y mejor que la de la RT-LAMP (L), lo cual evidenció que con un resultado negativo se puede descartar una infección por el hSRVA con bastante confianza. </p>
+			<p>La prueba diseñada en el estudio detectó hasta 1,38 x 103 copias del genoma del virus por volumen de reacción. En otras pruebas de RT-LAMP diseñadas recientemente por Hoos, <italic>et al</italic>. <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, se logró una sensibilidad analítica de 2.425 copias del genoma del virus por volumen de reacción, el doble de lo detectado con la prueba de estudio; sin embargo, no se pueden comparar estos resultados de sensibilidad analítica con los reportados por el grupo de Hoos <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, ya que ellos usaron genes clonados del hSRVA en plásmidos y en este estudio se utilizó el genoma aislado de virus cultivados en el laboratorio, por lo que los resultados de sensibilidad analítica del presente estudio simulan con mayor precisión los títulos virales presentes en los pacientes infectados. </p>
+			<p>La prueba de RT-LAMP (M) del presente estudio ofrece ventajas comparativas con respecto a la RT-PCR anidada: en primer lugar, la prueba de estudio tuvo un costo de aproximadamente USD$ 4 (costos directos); en segundo lugar, se obtuvieron resultados en menos de una hora, sin incluir el tiempo invertido en la toma de la muestra ni en la obtención del genoma viral, en tanto que con la RT-PCR anidada se obtuvieron resultados solo después de cinco horas. A pesar de que con la RT-LAMP (M) y la RT-PCR anidada se pueden analizar muestras individuales, esta última es dispendiosa, ya que necesita verificación electroforética, lo que incrementa ligeramente su costo.</p>
+			<p>Por otro lado, la RT-LAMP (M) comparada con la qPCR ofrece la ventaja de no requerir una curva de calibración. El hecho de que la RT-LAMP emplee una enzima isotérmica evita la inversión en equipos costosos como el termociclador. Es importante tener en cuenta que en este estudio se utilizó un sistema de detección en tiempo real para monitorizar la amplificación solo con fines de estandarización, y que todos los productos generados por la RT-LAMP también se visualizaron mediante la adición de colorantes como el SYBR Green™, el cual permitió observar fluorescencia bajo luz ultravioleta en un transiluminador, instrumento de muy bajo costo y de fácil adquisición <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Estos resultados indican que su utilidad clínica es considerable, dado que el tiempo para obtener resultados y los costos son menores que los de las pruebas de qPCR. </p>
+			<p>La obtención apropiada de la muestra es clave en la detección viral. En este estudio se empleó un cepillo FLOQswabs™ para la toma de muestras clínicas y estas se transportaron en medio de transporte universal con antibióticos (UTM Viral Transport Media™, USA). El cepillo empleado es conveniente debido a que sus fibras de nylon facilitan que la muestra quede expuesta, lo que permite una fácil elución para la obtención posterior del material genético de los virus. Sin embargo, en los estudios de Mahony, <italic>et al.</italic>, se evidenció que una RT-LAMP realizada a partir de especímenes directos podría ser adecuada y efectiva para detectar con mayor rapidez el hSRVA, aunque solo se evaluaron 16 muestras. Otros autores <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref> han defendido el uso de un lavado nasal como una forma rápida y directa de detección de los virus, pero este tipo de métodos tiene la desventaja de producir broncoaspiración en los pacientes pediátricos, lo cual puede generar riesgos innecesarios. </p>
+			<p>El virus hRSV más frecuente fue el subtipo A, lo que confirma lo reportado en los estudios epidemiológicos de este virus. No se encontró el hSRVB en las muestras analizadas, lo que indicó que no circulaba en Barranquilla durante el tiempo del muestreo. Infortunadamente, no se contó con una cepa viral de este tipo para evaluar directamente los cebadores diseñados para el hSRVB. Sin embargo, puede afirmarse que este subtipo viral no circuló durante el periodo de estudio, porque las tres pruebas adicionales evaluadas (RT-PCR anidada, RT-LAMP (L), y qPCR VSRB) no arrojaron datos positivos. </p>
+			<p>Esto da una idea de cuál podría ser el comportamiento epidemiológico del virus en esta región del país, lo que es de suma importancia para la selección de vacunas contra este agente patógeno. Se está pensando llevar a cabo estudios de secuenciación genómica en la búsqueda de posibles variantes genómicas de los virus circulantes. En este estudio se reportó una RT-LAMP de gran sensibilidad y un alto índice de concordancia con respecto a la RT-PCR anidada empleada en el Instituto Nacional de Salud. La prueba, además, es fácil de hacer, económica y de un solo paso. El reto ahora consiste en desarrollar una plataforma que permita detectar hasta ocho tipos de virus respiratorios con una sola prueba <xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Los autores expresan sus agradecimientos al personal del hospital de la Universidad del Norte en Barranquilla, por su apoyo en el desarrollo de este trabajo</p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Shi T, McAllister DA, O’Brien KL, Simoes EA, Madhi SA, Gessner BD, <italic>et al</italic>. Global, regional, and national disease burden estimates of acute lower respiratory infections due to respiratory syncytial virus in young children in 2015: A systematic review and modelling study. Lancet. 2017;390:946-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)30938-8">https://doi.org/10.1016/S0140-6736(17)30938-8</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shi</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>McAllister</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>O’Brien</surname>
+							<given-names>KL</given-names>
+						</name>
+						<name>
+							<surname>Simoes</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Madhi</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Gessner</surname>
+							<given-names>BD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Global, regional, and national disease burden estimates of acute lower respiratory infections due to respiratory syncytial virus in young children in 2015: A systematic review and modelling study</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>390</volume>
+					<fpage>946</fpage>
+					<lpage>958</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)30938-8">https://doi.org/10.1016/S0140-6736(17)30938-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Vergara HSJ, Gutiérrez MA, Mohapatra SS. Biología molecular del virus sincitial respiratorio y desarrollo de estrategias profilácticas. Salud Uninorte. 2012;22,:135-53.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vergara</surname>
+							<given-names>HSJ</given-names>
+						</name>
+						<name>
+							<surname>Gutiérrez</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Mohapatra</surname>
+							<given-names>SS</given-names>
+						</name>
+					</person-group>
+					<article-title>Biología molecular del virus sincitial respiratorio y desarrollo de estrategias profilácticas</article-title>
+					<source>Salud Uninorte</source>
+					<year>2012</year>
+					<volume>22</volume>
+					<fpage>135</fpage>
+					<lpage>153</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Henrickson KJ, Hoover S, Kehl KS, Hua W. National disease burden of respiratory viruses detected in children by polymerase chain reaction. Pediatr Infect Dis J. 2004; 23 (1 Suppl): S11-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/01.inf.0000108188.37237.48">https://doi.org/10.1097/01.inf.0000108188.37237.48</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Henrickson</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Hoover</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kehl</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Hua</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>National disease burden of respiratory viruses detected in children by polymerase chain reaction</article-title>
+					<source>Pediatr Infect Dis J</source>
+					<year>2004</year>
+					<volume>23</volume>
+					<supplement>1</supplement>
+					<fpage>S11</fpage>
+					<lpage>S18</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/01.inf.0000108188.37237.48">https://doi.org/10.1097/01.inf.0000108188.37237.48</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Tillmann RL, Simon A, Muller A, Schildgen O. Sensitive commercial NASBA assay for the detection of respiratory syncytial virus in clinical specimen. PLoS One. 2007;2:e1357. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0001357">https://doi.org/10.1371/journal.pone.0001357</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tillmann</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Simon</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Muller</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Schildgen</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Sensitive commercial NASBA assay for the detection of respiratory syncytial virus in clinical specimen</article-title>
+					<source>PLoS One</source>
+					<year>2007</year>
+					<volume>2</volume>
+					<elocation-id>e1357</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0001357">https://doi.org/10.1371/journal.pone.0001357</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Notomi T, Okayama H, Masubuchi H, Yonekawa T, Watanabe K, Amino N, <italic>et al</italic>. Loop-mediated isothermal amplification of DNA. Nucleic Acids Res. 2000;28:E63.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Notomi</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Okayama</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Masubuchi</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Yonekawa</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Watanabe</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Amino</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Loop-mediated isothermal amplification of DNA</article-title>
+					<source>Nucleic Acids Res</source>
+					<year>2000</year>
+					<volume>28</volume>
+					<elocation-id>E63</elocation-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Manji R, Lotlikar M, Zhang F, Ginocchio CC. Clinical evaluation of NucliSENS magnetic extraction and NucliSENS analytical specific reagents for the real-time detection of respiratory syncytial virus (RSV) in paediatric respiratory specimens. J Clin Pathol. 2009;62:998-1002. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jcp.2009.066688">https://doi.org/10.1136/jcp.2009.066688</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Manji</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lotlikar</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ginocchio</surname>
+							<given-names>CC</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical evaluation of NucliSENS magnetic extraction and NucliSENS analytical specific reagents for the real-time detection of respiratory syncytial virus (RSV) in paediatric respiratory specimens</article-title>
+					<source>J Clin Pathol</source>
+					<year>2009</year>
+					<volume>62</volume>
+					<fpage>998</fpage>
+					<lpage>1002</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jcp.2009.066688">https://doi.org/10.1136/jcp.2009.066688</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7 Kaneko H, Kawana T, Fukushima E, Suzutani T. Tolerance of loop-mediated isothermal amplification to a culture medium and biological substances. J Biochem Biophys Methods. 2007;70:499-501. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jbbm.2006.08.008">https://doi.org/10.1016/j.jbbm.2006.08.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaneko</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Kawana</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Fukushima</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Suzutani</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Tolerance of loop-mediated isothermal amplification to a culture medium and biological substances</article-title>
+					<source>J Biochem Biophys Methods</source>
+					<year>2007</year>
+					<volume>70</volume>
+					<fpage>499</fpage>
+					<lpage>501</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jbbm.2006.08.008">https://doi.org/10.1016/j.jbbm.2006.08.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Tang Q, Tian S, Yu N, Zhang X, Jia X, Zhai H, <italic>et al</italic>. Development and evaluation of a loop-mediated isothermal amplification method for rapid detection of <italic>Aspergillus fumigatus</italic>. J Clin Microbiol. 2016;54:950-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01751-15">https://doi.org/10.1128/JCM.01751-15</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Tian</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Jia</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Zhai</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Development and evaluation of a loop-mediated isothermal amplification method for rapid detection of Aspergillus fumigatus</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2016</year>
+					<volume>54</volume>
+					<fpage>950</fpage>
+					<lpage>955</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01751-15">https://doi.org/10.1128/JCM.01751-15</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Tsai SM, Chan KW, Hsu WL, Chang TJ, Wong ML, Wang CY. Development of a loop-mediated isothermal amplification for rapid detection of orf virus. J Virol Methods. 2009;157:200-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jviromet.2009.01.003">https://doi.org/10.1016/j.jviromet.2009.01.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tsai</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Chan</surname>
+							<given-names>KW</given-names>
+						</name>
+						<name>
+							<surname>Hsu</surname>
+							<given-names>WL</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>CY</given-names>
+						</name>
+					</person-group>
+					<article-title>Development of a loop-mediated isothermal amplification for rapid detection of orf virus</article-title>
+					<source>J Virol Methods</source>
+					<year>2009</year>
+					<volume>157</volume>
+					<fpage>200</fpage>
+					<lpage>204</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jviromet.2009.01.003">https://doi.org/10.1016/j.jviromet.2009.01.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Mu Y, Zeng J, Chen Q, Liu J, Wang L, Yao F, <italic>et al</italic>. New method for the visual detection of human respiratory syncytial virus using reverse transcription loop-mediated amplification. J Virol Methods. 2014;206:84-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jviromet.2014.06.005">https://doi.org/10.1016/j.jviromet.2014.06.005</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zeng</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Yao</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>New method for the visual detection of human respiratory syncytial virus using reverse transcription loop-mediated amplification</article-title>
+					<source>J Virol Methods</source>
+					<year>2014</year>
+					<volume>206</volume>
+					<fpage>84</fpage>
+					<lpage>88</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jviromet.2014.06.005">https://doi.org/10.1016/j.jviromet.2014.06.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Nagamine K, Hase T, Notomi T. Accelerated reaction by loop-mediated isothermal amplification using loop primers. Mol Cell Probes. 2002;16:223-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/mcpr.2002.0415">https://doi.org/10.1006/mcpr.2002.0415</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nagamine</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Hase</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Notomi</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Accelerated reaction by loop-mediated isothermal amplification using loop primers</article-title>
+					<source>Mol Cell Probes</source>
+					<year>2002</year>
+					<volume>16</volume>
+					<fpage>223</fpage>
+					<lpage>229</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/mcpr.2002.0415">https://doi.org/10.1006/mcpr.2002.0415</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Mahony J, Chong S, Bulir D, Ruyter A, Mwawasi K, Walthob D. Development of a sensitive loop-mediated isothermal amplification assay that provides specimen-to-result diagnosis of respiratory syncytial virus infection in 30 minutes. J Clin Microbiol. 2013;51: 2696-2701. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00662-1312">https://doi.org/10.1128/JCM.00662-1312</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mahony</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chong</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bulir</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ruyter</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mwawasi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Walthob</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Development of a sensitive loop-mediated isothermal amplification assay that provides specimen-to-result diagnosis of respiratory syncytial virus infection in 30 minutes</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2013</year>
+					<volume>51</volume>
+					<fpage>2696</fpage>
+					<lpage>2701</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00662-1312">https://doi.org/10.1128/JCM.00662-1312</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Barbosa-Ramírez J, Pulido-Domínguez P, Rey-Benito G, Méndez-Rico J, Castellanos J, Páez- Martínez A. Human respiratory syncytial virus and metapneumovirus in patients with acute respiratory infection in Colombia, 2000 - 2011. Rev Panam Salud Pública. 2014;36:101-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barbosa-Ramírez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pulido-Domínguez</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Rey-Benito</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Méndez-Rico</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Castellanos</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Páez- Martínez</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Human respiratory syncytial virus and metapneumovirus in patients with acute respiratory infection in Colombia, 2000 - 2011</article-title>
+					<source>Rev Panam Salud Pública</source>
+					<year>2014</year>
+					<volume>36</volume>
+					<fpage>101</fpage>
+					<lpage>109</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. San-Juan-Vergara H, Sampayo-Escobar V, Reyes N, Cha B, Pacheco-Lugo L, Wong T, <italic>et al</italic>. Cholesterol-rich microdomains as docking platforms for respiratory syncytial virus in normal human bronchial epithelial cells. J Virol. 2012;86:1832-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.06274-11">https://doi.org/10.1128/JVI.06274-11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>San-Juan-Vergara</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Sampayo-Escobar</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Reyes</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Cha</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Pacheco-Lugo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cholesterol-rich microdomains as docking platforms for respiratory syncytial virus in normal human bronchial epithelial cells</article-title>
+					<source>J Virol</source>
+					<year>2012</year>
+					<volume>86</volume>
+					<fpage>1832</fpage>
+					<lpage>1843</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JVI.06274-11">https://doi.org/10.1128/JVI.06274-11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Hoos J, Peters R, Tabatabaia J, Grulich-Henna J, Schnitzler P, Pfeila J. Reverse-transcription loop-mediated isothermal amplification forrapid detection of respiratory syncytial virus directly fromnasopharyngeal swabs. J Virol Methods. 2017;242:53-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jviromet.2017.01.006">https://doi.org/10.1016/j.jviromet.2017.01.006</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hoos</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Peters</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Tabatabaia</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Grulich-Henna</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Schnitzler</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Pfeila</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Reverse-transcription loop-mediated isothermal amplification forrapid detection of respiratory syncytial virus directly fromnasopharyngeal swabs</article-title>
+					<source>J Virol Methods</source>
+					<year>2017</year>
+					<volume>242</volume>
+					<fpage>53</fpage>
+					<lpage>57</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jviromet.2017.01.006">https://doi.org/10.1016/j.jviromet.2017.01.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Heikkinen T, Marttila J, Salmi AA, Ruuskanen O. Nasal swab versus nasopharyngeal aspirate for isolation of respiratory viruses. J Clin Microbiol. 2002;40:4337-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.40.11.4337-4339.2002">https://doi.org/10.1128/JCM.40.11.4337-4339.2002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Heikkinen</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Marttila</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Salmi</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Ruuskanen</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Nasal swab versus nasopharyngeal aspirate for isolation of respiratory viruses</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2002</year>
+					<volume>40</volume>
+					<fpage>4337</fpage>
+					<lpage>4339</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.40.11.4337-4339.2002">https://doi.org/10.1128/JCM.40.11.4337-4339.2002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Hall CB, Douglas Jr RG. Clinically useful method for the isolation of respiratory syncytial virus. J Infect Dis.1975;131:1-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hall</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Douglas</surname>
+							<given-names>RG</given-names>
+							<suffix>Jr</suffix>
+						</name>
+					</person-group>
+					<article-title>Clinically useful method for the isolation of respiratory syncytial virus</article-title>
+					<source>J Infect Dis</source>
+					<year>1975</year>
+					<volume>131</volume>
+					<fpage>1</fpage>
+					<lpage>5</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Zhou H, Zhao M, Li X, Zhang D, Zhou S, Chen C, <italic>et al</italic>. Clinical evaluation of the isothermal amplification assays for the detection of four common respiratory viruses in children with pneumonia. Arch Virol. 2017;162:1311-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00705-017-3227-2">https://doi.org/10.1007/s00705-017-3227-2</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhou</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical evaluation of the isothermal amplification assays for the detection of four common respiratory viruses in children with pneumonia</article-title>
+					<source>Arch Virol</source>
+					<year>2017</year>
+					<volume>162</volume>
+					<fpage>1311</fpage>
+					<lpage>1318</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00705-017-3227-2">https://doi.org/10.1007/s00705-017-3227-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Koo B, Jin CE, Lee TY, Lee JH, Park MK, Sung H, <italic>et al</italic>. An isothermal, label-free, and rapid one-step RNA amplification/detection assay for diagnosis of respiratory viral infections. Biosens Bioelectron. 2017;90:187-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bios.2016.11.051">https://doi.org/10.1016/j.bios.2016.11.051</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Koo</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Jin</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>TY</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>MK</given-names>
+						</name>
+						<name>
+							<surname>Sung</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>An isothermal, label-free, and rapid one-step RNA amplification/detection assay for diagnosis of respiratory viral infections</article-title>
+					<source>Biosens Bioelectron</source>
+					<year>2017</year>
+					<volume>90</volume>
+					<fpage>187</fpage>
+					<lpage>194</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bios.2016.11.051">https://doi.org/10.1016/j.bios.2016.11.051</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación: </label>
+				<p> Bettin-Martínez A, Villareal-Camacho J, Cervantes- Acosta G, Acosta-Reyes J, Barbosa J, San Juan H. Evaluación de un método de amplificación isotérmica medida por bucle para la detección rápida del virus sincicial respiratorio en niños con infección respiratoria aguda. Biomédica. 2019;2:415-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v39i2.4428">https://doi.org/10.7705/biomedica.v39i2.4428</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Alfonso Bettin-Martínez: desarrollo de protocolos, procesamiento y diseño de estudio José Villareal-Camacho: toma de muestras, desarrollo de protocolos, evaluación de la calidad metodológica Guillermo Cervantes-Acosta: diseño metodológico de los experimentos Jorge Acosta-Reyes: evaluación de la calidad metodológica, análisis y procesamiento de los datos estadísticos Juliana Barbosa: desarrollo de los protocolos de laboratorio Homero San Juan: diseño del estudio e interpretación de los datos Todos los autores participaron en la redacción del manuscrito.</p>
+			</fn>
+			<fn fn-type="financial-disclosure" id="fn3">
+				<label>Financiación: </label>
+				<p> Programa de CT+I en “Enfermedades Infecciosas todo el Departamento, Atlántico, Caribe”. Convenio N° 0103-2015-000039. Actividad MGA [955864]. Sistema General de Regalías (SGR). Gobernación del Atlántico</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

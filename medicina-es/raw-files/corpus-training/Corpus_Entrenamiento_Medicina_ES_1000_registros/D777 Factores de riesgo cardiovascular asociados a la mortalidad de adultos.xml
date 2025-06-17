@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00009</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Articulo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Factores de riesgo cardiovascular asociados a la mortalidad de adultos mayores con COVID-19</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Cardiovascular risk factors associated with the mortality of elderly with COVID-19</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5782-4033</contrib-id>
+					<name>
+						<surname>Hierrezuelo Rojas</surname>
+						<given-names>Naifi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4282-0528</contrib-id>
+					<name>
+						<surname>Durruty Medina</surname>
+						<given-names>Luis Enrique</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8975-3188</contrib-id>
+					<name>
+						<surname>Hernández Magdariaga</surname>
+						<given-names>Alfredo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2760-4763</contrib-id>
+					<name>
+						<surname>García Gonzales</surname>
+						<given-names>Estrella</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5002-5597</contrib-id>
+					<name>
+						<surname>Castellanos Hardy</surname>
+						<given-names>Tamara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Policlínico Docente Ramón López Peña. Santiago de Cuba, Cuba</institution>
+				<institution content-type="normalized">Policlínico Docente Ramón López Peña</institution>
+				<institution content-type="orgname">Policlínico Docente Ramón López Peña</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Policlínico Docente Camilo Torres Restrepo. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Policlínico Docente Camilo Torres Restrepo</institution>
+				<institution content-type="orgname">Policlínico Docente Camilo Torres Restrepo</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Universidad de Ciencias Médicas, Facultad de Medicina No. 2. Santiago de Cuba, Cuba. </institution>
+				<institution content-type="normalized">Instituto Superior de Ciencias Medicas Santiago de Cuba</institution>
+				<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina No. 2</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para correspondencia. Correo electrónico: <email>naifi.hierrezuelo@infomed.sld.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores de este artículo no declaran conflicto de intereses.</p>
+				</fn>
+				<fn fn-type="other" id="fn2">
+					<p>Naifi Hierrezuelo Rojas: conceptualización, curación de datos, análisis formal, investigación; administración del proyecto, recursos, supervisión, validación; redacción, revisión y edición. Participación: 60 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn3">
+					<p>Luis Enrique Durruty Medina: curación de datos, análisis formal, supervisión, redacción. Participación: 10 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn4">
+					<p>Alfredo Hernández Magdariaga: curación de datos, supervisión, redacción, revisión y edición. Participación: 10 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn5">
+					<p>Estrella García Gonzales: curación de datos, supervisión, redacción, revisión y edición. Participación: 10 %.</p>
+				</fn>
+				<fn fn-type="other" id="fn6">
+					<p>Tamara Castellano Hardy: administración de proyecto, supervisión, redacción, revisión y edición. Participación: 10 %.</p>
+				</fn>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>20</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+				<pub-date pub-type="epub-ppub">
+				<season>May-Jun</season>
+				<year>2022</year>
+			</pub-date>
+			<volume>26</volume>
+			<issue>3</issue>
+			<elocation-id>e4083</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>26</day>
+					<month>02</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>10</day>
+					<month>05</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> La COVID-19 ha afectado de manera desproporcionada a los adultos mayores, quienes tienen una evolución más desfavorable.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Analizar los factores de riesgo cardiovascular asociados con la mortalidad de adultos mayores con COVID-19.</p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p> Se realizó un estudio analítico, de tipo caso-control, de 25 adultos mayores pertenecientes al Policlínico Docente Ramón López Peña de Santiago de Cuba, fallecidos por COVID 19 entre enero de 2020 e igual mes de 2022 (casos) y de 50 que no fallecieron (controles). Se determinó la razón de productos cruzados, el intervalo de confianza y el riesgo atribuible en expuesto porcentual.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> La edad fue el marcador de riesgo de mayor asociación y la hipertensión arterial resultó ser la enfermedad asociada de mayor relevancia, para una razón de productos cruzados de 6,0 y 10,1, respectivamente.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> Los hallazgos demostraron que deben identificarse los pacientes de edad avanzada, hipertensos, fumadores, obesos y con deterioro cognitivo, así como utilizar un enfoque preventivo que permita el diagnóstico y tratamiento tempranos, para evitar así desenlaces fatales por COVID- 19. </p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction: </title>
+					<p> The COVID-19 has affected in a disproportionate way the elderly who have a more unfavorable clinical course. </p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p> To analyze the cardiovascular risk factors associated with the mortality of elderly with COVID-19. </p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> An analytic, case-control type study, of 25 elderly belonging to the Ramón López Peña Teaching Polyclinic was carried out in Santiago de Cuba, they died due to COVID 19 between January, 2020 and the same month in 2022 (cases) and 50 that didn't die (controls). The ratio of crossed products, confidence interval and attributable risk in exposed percentage were determined. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The age was the risk marker of more association and hypertension was the associated disease of more relevance, for a ratio of crossed products 6.0 and 10.1, respectively. </p>
+				</sec>
+				<sec>
+					<title>Conclusions: </title>
+					<p> The findings demonstrated that the patients of advanced age, hypertense, smokers, obese and with cognitive deterioration should be identified, as well as to use a preventive approach that allows the early diagnosis and treatment, to avoid this way fatal outcomes due to COVID-19. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>factores de riesgo cardiovascular</kwd>
+				<kwd>adulto mayor</kwd>
+				<kwd>mortalidad</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>cardiovascular risk factors</kwd>
+				<kwd>elderly</kwd>
+				<kwd>mortality</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="19"/>
+				<page-count count="13"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>La pandemia por el nuevo coronavirus SARS-CoV-2, causante de la COVID-19, se ha convertido en una amenaza para la población mundial.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>)</sup> En términos de incidencia, mortalidad y velocidad de expansión, su evolución es heterogénea, con variaciones entre países y regiones del mismo país. Al respecto, varios estudios muestran diferencias en la presentación clínica y en el estado de quienes la padecen.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>)</sup></p>
+			<p>Algunos autores han identificado varios factores que podrían agravar el cuadro clínico de los pacientes con SARS-CoV-2 y concluyen que los adultos mayores con enfermedades crónicas de base como la hipertensión arterial y la diabetes <italic>mellitus</italic>, entre otras, son los que tienen más riesgo o probabilidad de muerte.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>)</sup></p>
+			<p>La presencia de comorbilidades y marcadores de riesgo son características importantes a tomar en cuenta en el momento de estratificar el riesgo de los pacientes con COVID-19.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>)</sup></p>
+			<p>De acuerdo con lo anterior, en investigaciones recientes<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>)</sup> se encontró que los factores más importantes asociados con la mortalidad por COVID-19 fueron la edad avanzada, la hipertensión arterial y la diabetes <italic>mellitus</italic>.</p>
+			<p>Según refieren Sabatino <italic>et al,</italic><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> en un estudio publicado en la revista de acceso abierto <italic>PLOS ONE</italic>, tanto la edad como las comorbilidades o factores de riesgo cardiovasculares preexistentes fueron predictores significativos de muerte. </p>
+			<p>En relación con esto último, la existencia de dichos factores generalmente predispone a que la infección viral dañe el miocito por diferentes mecanismos patogénicos, entre los que se incluyen la acción directa del germen, la respuesta inflamatoria sistémica, la inestabilidad de la placa de ateroma y el agravamiento de la hipoxia atribuible al daño pulmonar.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>
+			</p>
+			<p>Por otra parte, es fundamental dirigir los esfuerzos al diagnóstico y tratamiento temprano para mejorar el pronóstico, así como reducir la mortalidad y las secuelas por COVID- 19, debido a las evidencias que existen de su asociación con enfermedades crónicas como la hipertensión arterial.</p>
+			<p>En ese mismo sentido, en la etapa pos-COVID-19, las políticas de salud en el mundo deben situar los factores de mal pronóstico de la enfermedad en el centro de la discusión, a fin de concentrar en ellos los procesos de intervención y definir políticas de prevención que minimicen el riesgo en este grupo poblacional. </p>
+			<p>Las consideraciones anteriores sirvieron de motivación a los autores para realizar la presente investigación con el objetivo de analizar los factores de riesgo cardiovascular asociados a la mortalidad de adultos mayores con COVID-19 del Policlínico Ramón López Peña de Santiago de Cuba.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio analítico, observacional y retrospectivo, de tipo caso- control, con el objetivo de analizar los factores de riesgo cardiovascular asociados a la mortalidad por COVID-19 entre enero de 2020 e igual mes de 2022. </p>
+			<p>La muestra estuvo constituida por los 25 adultos mayores del Policlínico Ramón López Peña de Santiago de Cuba que fallecieron por COVID 19 (casos) y por 50 que no fallecieron por esa causa (controles), es decir 2 controles por cada uno de los casos, seleccionados mediante muestreo aleatorio simple. </p>
+			<p>Se estudiaron como variables los factores de riesgo cardiovascular como edad, sexo y color de la piel, además de las comorbilidades previamente diagnosticadas, entre las que figuraron: hipertensión arterial (HTA), diabetes <italic>mellitus</italic>, hipercolesterolemia, tabaquismo, alcoholismo, fragilidad, deterioro cognitivo, obesidad, enfermedad renal crónica (ERC) y ancianos solos. </p>
+			<p>Para la recolección del dato primario, por los propios investigadores, se revisaron las historias clínicas individuales, las historias de salud familiar y se interrogó a los médicos y enfermeras de la familia correspondientes, lo que permitió uniformidad y disminución del sesgo del observador. La información se procesó de forma computarizada y los cálculos de los distintos parámetros y pruebas estadísticas se realizaron a través del programa SPSS, versión 24. </p>
+			<p>Los resultados se expusieron en tablas de contingencia de 2x2 y se utilizó el porcentaje como medida de resumen para variables cualitativas. </p>
+			<p>Mediante el análisis de las tablas se obtuvo la razón de productos cruzados (RPC) o riesgo estimado, que es la probabilidad de presentar un suceso o enfermedad siempre que se tenga un factor de riesgo. De igual forma, se calculó el riesgo atribuible en expuesto porcentual (RAe%) o lo que es lo mismo, la fracción etiológica del riesgo (FER), que es la proporción de casos que se presentan en la población atribuido a los efectos del factor. Refleja la reducción que experimentaría la aparición de dicha enfermedad si el factor fuese eliminado. La significación de estos resultados se validó también a través del intervalo de confianza, con 95 % de confiabilidad.</p>
+			<p>El estudio fue aprobado por el comité de ética del área de salud y se mantuvo la confidencialidad de los datos mediante la codificación de las variables. La información no se empleó para otros fines fuera del marco de la investigación. </p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Como se evidencia en la <xref ref-type="table" rid="t1">tabla 1</xref>, la edad resultó ser el factor de riesgo no modificable de mayor asociación estadística con la aparición de enfermedad cerebrovascular, con una RPC de 6,0 y RAe % de 83,3 %; mientras que no ocurrió así con el color de la piel y el sexo (IC pasa por la unidad). </p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Pacientes según factores de riesgo no modificables</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-03-e4083-gt1.png"/>
+				</table-wrap>
+			</p>
+			<p>Entre los factores de riesgo modificables preponderaron la HTA, el tabaquismo y la obesidad, cuyos valores de RPC y RAe % se describen en la <xref ref-type="table" rid="t2">tabla 2</xref>, entre otros aspectos. </p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Pacientes según factores de riesgo modificables</title>
+					</caption>
+					<graphic xlink:href="t2.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Los factores de riesgo de la ECV de mayor prevalencia según RPC y RAe% fueron los llamados factores de riesgo modificables, entre los cuales sobresalieron la HTA, el tabaquismo y la obesidad. En la <xref ref-type="table" rid="t3">tabla 3</xref> se muestran los valores correspondientes a cada uno de ellos.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Factores de riesgo de ECV según RPC, IC y RAE%</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-03-e4083-gt3.png"/>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La identificación de los marcadores de riesgo es importante, pues si bien no es posible adoptar medidas para su eliminación o modificación, ayudan a identificar a los individuos con mayor riesgo de fallecer por COVID-19, mediante el diagnóstico y tratamiento tempranos, lo que en consecuencia justifica la búsqueda de estrategias preventivas más eficaces para proteger a los grupos vulnerables como las intervenciones no farmacológicas (distanciamiento, restricción de movimiento, uso del nasobuco, lavado frecuente de las manos y desinfección de las superficies, entre otros).</p>
+			<p>Como se explicó anteriormente, entre los marcadores de riesgo de mayor significación estadística predominó la edad. En Santiago de Cuba, la letalidad en personas con más de 80 años de edad fue 75,8 veces mayor que en los menores de 50; en los fallecidos con edades entre 70- 79 años, 36,8 veces mayor y en aquellos entre 60-69 años, 16,3 veces más. Cabe destacar que no se registraron fallecidos menores de 20 años.</p>
+			<p>En la investigación de Xu <italic>et al</italic><xref ref-type="bibr" rid="B8"><sup>8</sup></xref> la edad mayor de 65 años fue un predictor independiente de mortalidad a los 60 días del ingreso. De manera similar, otros autores<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> mencionan a la edad entre los factores de riesgo de complicaciones de la COVID 19. </p>
+			<p>Con referencia a lo anterior, debe tenerse en cuenta que conforme aumenta la edad, se eleva la incidencia de enfermedades, lo que se atribuye principalmente al incremento de la carga de factores de riesgo identificados y a la disminución de la capacidad para enfrentarse a ellos, por lo que se espera un mayor impacto de la COVID-19 en los grupos de edades más avanzadas. </p>
+			<p>Durante el intercambio organizado por el Centro de Estudios Demográficos de la Universidad de La Habana y la oficina del Fondo de Población de Naciones Unidas en Cuba, los ponentes señalaron que el riesgo mayor de morir lo tienen las personas con más de 60 años de edad.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>En esta serie, la HTA resultó ser el factor de riesgo modificable predominante. Así, desde los primeros informes provenientes de Wuhan, se reconocía que era más frecuente en aquellos que no sobrevivían a la COVID-19.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Los resultados de este estudio son superiores a los de investigaciones internacionales,<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>)</sup> donde la RPC tuvo valores inferiores. En una investigación similar realizada en Cuba,<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> el antecedente patológico personal más frecuente fue la HTA. </p>
+			<p>A juicio de los autores, estos resultados pueden deberse a que, entre las enfermedades crónicas no transmisibles, la hipertensión arterial tiene la tasa de prevalencia más alta en el país, que según datos del Anuario Estadístico de Salud de 2020,<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>)</sup> era de 230,2 y 202,5 por cada 1 000 habitantes en Cuba y Santiago de Cuba, respectivamente. </p>
+			<p>Por otra parte, el tabaquismo fue la otra comorbilidad de mayor significación estadística; no obstante, su análisis durante la COVID-19 reveló resultados discordantes en otras investigaciones.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+			</p>
+			<p>Se ha descrito que el riesgo de agravamiento de pacientes con neumonía viral es mayor en los obesos; sin embargo, su relación no está clara con la gravedad de la infección por SARS-CoV-2/COVID-19.<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+			</p>
+			<p>En esta casuística, la obesidad constituyó un factor de riesgo de significación estadística, superior a lo descrito por Solano <italic>et al.</italic><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> Estas diferencias pueden obedecer a que los estudios fueron realizados en países diferentes, donde difieren los hábitos nutricionales y, por ende, la prevalencia de obesidad en la población general.</p>
+			<p>Un dato relevante en la investigación fue la asociación encontrada entre el deterioro cognitivo y la mortalidad por COVID 19; hallazgo similar a los de Gutiérrez <italic>et al</italic>,<xref ref-type="bibr" rid="B18"><sup>18</sup></xref> quienes refieren que los pacientes con dependencia funcional severa y deterioro cognitivo presentaron más riesgo de fallecer. </p>
+			<p>Estos resultados confirman una vez más las afirmaciones de la Organización Mundial de la Salud que establecen que en las personas mayores la capacidad funcional es el marcador predictivo ideal a escala individual o que la salud en el anciano como mejor se mide es en términos de función.<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>
+			</p>
+			<p>También se plantea que la dependencia funcional aumenta el riesgo de muerte a cualquier edad y que en actividades de la vida diaria es el mejor predictor de mortalidad en personas mayores, principalmente cuando son expuestas a una situación de máximo estrés como la hospitalización por enfermedad aguda.<xref ref-type="bibr" rid="B19"><sup>19</sup></xref> Durante la COVID-19, dadas las medidas sanitarias implementadas por el sistema de salud cubano, no se permitían familiares acompañantes, de manera que las demandas de estos pacientes, en ocasiones, superaban las capacidades de cuidados. </p>
+			<p>Factores de riesgos como la diabetes mellitus, la ERC y la hipercolesterolemia no fueron las de mayor asociación, lo que difiere de otras investigaciones.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>De los resultados anteriores se deduce que los pacientes con comorbilidades asociadas a la COVID-19 deben extremar las medidas preventivas para evitar el contagio (distanciamiento social, uso del nasobuco y lavado frecuente de las manos), sobre todo en el escenario actual de la nueva normalidad, donde el descenso de los casos puede traer consigo el incumplimiento de dichas medidas; asimismo, se deben mantener estilos de vida saludables, que incluyan una dieta sana, con abundantes frutas y verduras, realizar ejercicios físicos sistemáticamente, abandonar el hábito de fumar y mantener el control de las enfermedades crónicas. </p>
+			<p>Hoy día es de máxima prioridad la prevención y el control de la hipertensión arterial y de otras enfermedades crónicas no trasmisibles, por lo que el médico y la enfermera de la familia deben considerar estos factores de riesgo como potenciales para el agravamiento de los pacientes con COVID-19. </p>
+			<p>Los hallazgos demostraron que deben identificarse los pacientes de edad avanzada, hipertensos, fumadores, obesos y con deterioro cognitivo, así como utilizar un enfoque preventivo que permita el diagnóstico y tratamiento tempranos, para evitar así desenlaces fatales por COVID- 19. </p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Guan WJ, Ni ZY, Hu Y, Liang WH, Ou CQ, He JX, et al. Clinical Characteristics of Coronavirus Disease 2019 in China. N Engl J Med. 2020 [citado 13/01/2022];382(18):1708-20. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32109013/">https://pubmed.ncbi.nlm.nih.gov/32109013/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guan</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Ni</surname>
+							<given-names>ZY</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Ou</surname>
+							<given-names>CQ</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>JX</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical Characteristics of Coronavirus Disease 2019 in China</article-title>
+					<source>N Engl J Med</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-13">13/01/2022</date-in-citation>
+					<volume>382</volume>
+					<issue>18</issue>
+					<fpage>1708</fpage>
+					<lpage>1720</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32109013/">https://pubmed.ncbi.nlm.nih.gov/32109013/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Hierrezuelo N, González P, León A, Cordero F. Caracterización clínico-epidemiológica de pacientes con la COVID-19 en el policlínico Ramón López Peña. Rev. cuba. hig. epidemiol. 2021 [citado 09/02/2022];58. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revepidemiologia.sld.cu/index.php/hie/article/view/1117">http://www.revepidemiologia.sld.cu/index.php/hie/article/view/1117</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hierrezuelo</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>León</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cordero</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Caracterización clínico-epidemiológica de pacientes con la COVID-19 en el policlínico Ramón López Peña</article-title>
+					<source>Rev. cuba. hig. epidemiol</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-09">09/02/2022</date-in-citation>
+					<volume>58</volume>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.revepidemiologia.sld.cu/index.php/hie/article/view/1117">http://www.revepidemiologia.sld.cu/index.php/hie/article/view/1117</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Silverio A, Di Maio M, Citro R, Esposito L, Iuliano G, Bellino M, et al. Cardiovascular risk factors and mortality in hospitalized patients with COVID-19: systematic review and meta-analysis of 45 studies and 18,300 patients. BMC Cardiovasc Disord. 2021 [citado 08/01/2022];21(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7789083/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7789083/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silverio</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Di Maio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Citro</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Esposito</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Iuliano</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bellino</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cardiovascular risk factors and mortality in hospitalized patients with COVID-19: systematic review and meta-analysis of 45 studies and 18,300 patients</article-title>
+					<source>BMC Cardiovasc Disord</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-08">08/01/2022</date-in-citation>
+					<volume>21</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7789083/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7789083/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Hernández DR, González MA, Romo DK, Lima R, Hernández IA, Lumbreras M et al. Increased Risk of Hospitalization and Death in Patients with COVID-19 and Pre-existing Noncommunicable Diseases and Modifiable Risk Factors in Mexico. Arch Med Res. 2020 [citado 05/01/2022];51(7):683-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32747155/">https://pubmed.ncbi.nlm.nih.gov/32747155/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernández</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Romo</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Hernández</surname>
+							<given-names>IA</given-names>
+						</name>
+						<name>
+							<surname>Lumbreras</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Increased Risk of Hospitalization and Death in Patients with COVID-19 and Pre-existing Noncommunicable Diseases and Modifiable Risk Factors in Mexico</article-title>
+					<source>Arch Med Res</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-05">05/01/2022</date-in-citation>
+					<volume>51</volume>
+					<issue>7</issue>
+					<fpage>683</fpage>
+					<lpage>689</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32747155/">https://pubmed.ncbi.nlm.nih.gov/32747155/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Yanyan W, Li H, Zhang Z, Liang W, Zhang T, Tong Z, et al. Risk factors for mortality of coronavirus disease 2019 (COVID-19) patients during the early outbreak of COVID-19: a systematic review and meta-analysis. Ann Palliat Med. 2021 [citado 05/01/2022];10(5)5069-83. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/33894729/">https://pubmed.ncbi.nlm.nih.gov/33894729/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yanyan</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tong</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Risk factors for mortality of coronavirus disease 2019 (COVID-19) patients during the early outbreak of COVID-19: a systematic review and meta-analysis</article-title>
+					<source>Ann Palliat Med</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-05">05/01/2022</date-in-citation>
+					<volume>10</volume>
+					<issue>5</issue>
+					<fpage>5069</fpage>
+					<lpage>5083</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/33894729/">https://pubmed.ncbi.nlm.nih.gov/33894729/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Sabatino J, De Rosa S, Di Salvo G, Indolfi C. Impact of cardiovascular risk profile on COVID-19 outcome. A meta-analysis. PLoS One. 2020 [citado 05/01/2022];15(8). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237131">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237131</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sabatino</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>De Rosa</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Di Salvo</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Indolfi</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of cardiovascular risk profile on COVID-19 outcome</article-title>
+					<source>A meta-analysis. PLoS One</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-05">05/01/2022</date-in-citation>
+					<volume>15</volume>
+					<issue>8</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237131">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237131</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>EUROPA PRESS. Factores de riesgo cardiovascular, asociados a complicaciones por la COVID-19, 2020 [citado 09/02/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.infosalus.com/salud-investigacion/noticia-factores-riesgo-cardiovascular-asociados-complicaciones-covid-19-20200817075434.html">https://www.infosalus.com/salud-investigacion/noticia-factores-riesgo-cardiovascular-asociados-complicaciones-covid-19-20200817075434.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>EUROPA PRESS</collab>
+					</person-group>
+					<source>Factores de riesgo cardiovascular, asociados a complicaciones por la COVID-19</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-09">09/02/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.infosalus.com/salud-investigacion/noticia-factores-riesgo-cardiovascular-asociados-complicaciones-covid-19-20200817075434.html">https://www.infosalus.com/salud-investigacion/noticia-factores-riesgo-cardiovascular-asociados-complicaciones-covid-19-20200817075434.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Xu J, Yang X, Yang L, Zou X, Wang Y, Wu Y, et al. Clinical course and predictors of 60-day mortality in 239 critically ill patients with COVID-19: A multicenter retrospective study from Wuhan, China. Crit Care. 2020 [citado 24/01/2022]; 24(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03098-9">https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03098-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zou</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical course and predictors of 60-day mortality in 239 critically ill patients with COVID-19: A multicenter retrospective study from Wuhan, China</article-title>
+					<source>Crit Care</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-24">24/01/2022</date-in-citation>
+					<volume>24</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03098-9">https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03098-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>González Tabares R, Acosta González FA, Oliva Villa E, Rodríguez Reyes S, Cabeza Echevarría I. Predictores de mal pronóstico en pacientes con la COVID-19. Rev. cuban. med. mil. 2020 [citado 12/02/2022]; 49(4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0138-65572020000400020">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0138-65572020000400020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González Tabares</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Acosta González</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Oliva Villa</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez Reyes</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cabeza Echevarría</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Predictores de mal pronóstico en pacientes con la COVID-19</article-title>
+					<source>Rev. cuban. med. mil</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-12">12/02/2022</date-in-citation>
+					<volume>49</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0138-65572020000400020">http://scielo.sld.cu/scielo.php?script=sci_arttext&amp;pid=S0138-65572020000400020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Caramelo F, Ferreira N, Oliveiros B. Estimation of risk factors for COVID-19 mortality - preliminary results. MedRxiv. 2020 [ citado 04/01/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.02.24.20027268v1.full.pdf">https://www.medrxiv.org/content/10.1101/2020.02.24.20027268v1.full.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caramelo</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Oliveiros</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of risk factors for COVID-19 mortality - preliminary results</article-title>
+					<source>MedRxiv</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-04">04/01/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.02.24.20027268v1.full.pdf">https://www.medrxiv.org/content/10.1101/2020.02.24.20027268v1.full.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Más S. Covid-19 y demografía: claves de una pandemia, 2021 [citado 06/02/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://rebelion.org/covid-19-y-demografia-claves-de-una-pandemia/">https://rebelion.org/covid-19-y-demografia-claves-de-una-pandemia/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Más</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<source>Covid-19 y demografía: claves de una pandemia</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-06">06/02/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://rebelion.org/covid-19-y-demografia-claves-de-una-pandemia/">https://rebelion.org/covid-19-y-demografia-claves-de-una-pandemia/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet. 2020 [citado 04/02/2022];395(10229):1054-62. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32171076/">https://pubmed.ncbi.nlm.nih.gov/32171076/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhou</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Du</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-04">04/02/2022</date-in-citation>
+					<volume>395</volume>
+					<issue>10229</issue>
+					<fpage>1054</fpage>
+					<lpage>1062</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov/32171076/">https://pubmed.ncbi.nlm.nih.gov/32171076/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Solano MA, Coronado AR, Salazar J, Sánchez S, Luria DJ, Ordaz WA et al. Factores de riesgo asociados a la mortalidad en pacientes con COVID-19, en el estado de Oaxaca. Avan Cien Sal Med. 2020 [citado 24/01/2022];7(4):99-110. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.imbiomed.com.mx/articulo.php?id=115352">https://www.imbiomed.com.mx/articulo.php?id=115352</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Solano</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Coronado</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Salazar</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Luria</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Ordaz</surname>
+							<given-names>WA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Factores de riesgo asociados a la mortalidad en pacientes con COVID-19, en el estado de Oaxaca</article-title>
+					<source>Avan Cien Sal Med</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-24">24/01/2022</date-in-citation>
+					<volume>7</volume>
+					<issue>4</issue>
+					<fpage>99</fpage>
+					<lpage>110</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.imbiomed.com.mx/articulo.php?id=115352">https://www.imbiomed.com.mx/articulo.php?id=115352</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Shahriar Z, Habboushe J. Critical Review: Preliminary indicators of mortality in subjects infected with COVID-19 based on data from China and South Korea, 2020 [citado 07/01/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.thennt.com/nnt/preliminary-indicators-mortality-subjects-infected-covid-19-based-data-china-south-korea/">https://www.thennt.com/nnt/preliminary-indicators-mortality-subjects-infected-covid-19-based-data-china-south-korea/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shahriar</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Habboushe</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Critical Review: Preliminary indicators of mortality in subjects infected with COVID-19 based on data from China and South Korea</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-07">07/01/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.thennt.com/nnt/preliminary-indicators-mortality-subjects-infected-covid-19-based-data-china-south-korea/">https://www.thennt.com/nnt/preliminary-indicators-mortality-subjects-infected-covid-19-based-data-china-south-korea/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Cuba. Ministerio de Salud Pública. Dirección Nacional de Registros Médicos y Estadísticas de Salud. Anuario Estadístico de Salud, 2021 [citado 26/05/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estadistico-Espa%C3%B1ol-2020-Definitivo.pdf">https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estadistico-Espa%C3%B1ol-2020-Definitivo.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Cuba. Ministerio de Salud Pública</collab>
+						<collab>Dirección Nacional de Registros Médicos y Estadísticas de Salud</collab>
+					</person-group>
+					<source>Anuario Estadístico de Salud</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-05-26">26/05/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estadistico-Espa%C3%B1ol-2020-Definitivo.pdf">https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estadistico-Espa%C3%B1ol-2020-Definitivo.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Underner M, Peiffer G, Perriot J, Jaafari N. Tabagisme et maladie à coronavirus 2019 (COVID-19). Rev Mal Respir. 2020 [citado 09/01/2022];37(5):433-6. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7141481/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7141481/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Underner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Peiffer</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Perriot</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jaafari</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Tabagisme et maladie à coronavirus 2019 (COVID-19)</article-title>
+					<source>Rev Mal Respir</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-01-09">09/01/2022</date-in-citation>
+					<volume>37</volume>
+					<issue>5</issue>
+					<fpage>433</fpage>
+					<lpage>436</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7141481/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7141481/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Campos Vera NA, Real Cancio RM, Rivas Estany E. Factores de riesgo cardiovasculares, diabetes y COVID-19. Rev. cuba. cardiol. cir. cardiovasc. 2021 [citado 07/02/2022];27(4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revcardiologia.sld.cu/index.php/revcardiologia/article/view/1100/pdf">http://revcardiologia.sld.cu/index.php/revcardiologia/article/view/1100/pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Campos Vera</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Real Cancio</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Rivas Estany</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Factores de riesgo cardiovasculares, diabetes y COVID-19</article-title>
+					<source>Rev. cuba. cardiol. cir. cardiovasc</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-07">07/02/2022</date-in-citation>
+					<volume>27</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://revcardiologia.sld.cu/index.php/revcardiologia/article/view/1100/pdf">http://revcardiologia.sld.cu/index.php/revcardiologia/article/view/1100/pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Gutiérrez Rodríguez J, Montero Muñoz J, Jiménez Muela F, Guirola García Prendes C, Martínez Rivera M, Gómez Armas L. Variables asociadas con mortalidad en una población de pacientes mayores de 80 años y con algún grado de dependencia funcional, hospitalizados por COVID-19 en un Servicio de Geriatría. Rev Esp Geriatr Gerontol. 2020 [citado 08/02/2022]; 55(6): 317-25. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.elsevier.es/es-revista-revista-espanola-geriatria-gerontologia-124-pdf-S0211139X20301098">https://www.elsevier.es/es-revista-revista-espanola-geriatria-gerontologia-124-pdf-S0211139X20301098</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gutiérrez Rodríguez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Montero Muñoz</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jiménez Muela</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Guirola García Prendes</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Martínez Rivera</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gómez Armas</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Variables asociadas con mortalidad en una población de pacientes mayores de 80 años y con algún grado de dependencia funcional, hospitalizados por COVID-19 en un Servicio de Geriatría</article-title>
+					<source>Rev Esp Geriatr Gerontol</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-08">08/02/2022</date-in-citation>
+					<volume>55</volume>
+					<issue>6</issue>
+					<fpage>317</fpage>
+					<lpage>25.</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.elsevier.es/es-revista-revista-espanola-geriatria-gerontologia-124-pdf-S0211139X20301098">https://www.elsevier.es/es-revista-revista-espanola-geriatria-gerontologia-124-pdf-S0211139X20301098</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Organización Mundial de la Salud. Informe mundial sobre el envejecimiento y la salud, 2015 [citado 11/02/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/186463/9789240694811_eng.pdf?sequence=1">https://apps.who.int/iris/bitstream/handle/10665/186463/9789240694811_eng.pdf?sequence=1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Informe mundial sobre el envejecimiento y la salud</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-11">11/02/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/186463/9789240694811_eng.pdf?sequence=1">https://apps.who.int/iris/bitstream/handle/10665/186463/9789240694811_eng.pdf?sequence=1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

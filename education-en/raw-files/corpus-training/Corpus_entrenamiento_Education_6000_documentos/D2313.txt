@@ -1,0 +1,42 @@
+#ITI#A Monte Carlo Study of Confidence Interval Methods for Generalizability Coefficient#FTI#
+#IRE# Computing confidence intervals around generalizability coefficients has long been a challenging task in generalizability theory. This is a serious practical problem because generalizability coefficients are often computed from designs where some facets have small sample sizes, and researchers have little guide regarding the trustworthiness of the coefficients. As generalizability theory can be framed to a linear mixed-effect model (LMM), bootstrap and simulation techniques from LMM paradigm can be used to construct the confidence intervals. The purpose of this research is to examine four different LMM-based methods for computing the confidence intervals that have been proposed and to determine their accuracy under six simulated conditions based on the type of test scores (normal, dichotomous, and polytomous data) and data measurement design (p×i×r and p× [i:r]). A bootstrap technique called “parametric methods with spherical random effects” consistently produced more accurate confidence intervals than the three other LMM-based methods. Furthermore, the selected technique was compared with model-based approach to investigate the performance at the levels of variance components via the second simulation study, where the numbers of examines, raters, and items were varied. We conclude with the recommendation generalizability coefficients, the confidence interval should accompany the point estimate.#FRE#
+#IPC# bootstrap; confidence interval; generalizability; linear mixed-effect model; standard error#FPC#
+#IRF# Almehrizi R., Standard errors of variance components, measurement errors and generalizability coefficients for crossed designs, Journal of Educational Measurement, (2020); 
+Bates D., Maechler M., Bolker B., Walker S., Fitting linear mixed-effects models using lme4, Journal of Statistical Software, 67, 1, pp. 1-48, (2015); 
+Bonett D.G., Sample size requirements for testing and estimating coefficient alpha, Journal of Educational and Behavioral Statistics, 27, 4, pp. 335-340, (2002); 
+Bonett D.G., Wright T.A., Cronbach’s alpha reliability: Interval estimation, hypothesis testing, and sample size planning, Journal of Organizational Behavior, 36, 1, pp. 3-15, (2015); 
+Brennan R.L., Generalizability theory, Educational Measurement: Issues and Practice, 11, 4, pp. 27-34, (1992); 
+Brennan R.L., Generalizability theory, (2001); 
+Brennan R.L., Unbiased estimates of variance components with bootstrap procedures: Detailed results, (2006); 
+Brennan R.L., Unbiased estimates of variance components with bootstrap procedures, Educational and Psychological Measurement, 67, 5, pp. 784-803, (2007); 
+Brennan R.L., Harris D.J., Hanson B.A., The bootstrap and other procedures for examining the variability of estimated variance components in testing contexts, (1987); 
+Cornfield J., Tukey J.W., Average values of mean squares in factorials, Annals of Mathematical Statistics, 27, pp. 907-949, (1956); 
+Cronbach L.J., Rajaratnman N., Gleser G.C., Theory of generalizability: A liberalization of reliability theory, British Journal of Statistical Psychology, 16, 2, pp. 137-163, (1963); 
+Davison A.C., Hinkley D.V., Bootstrap methods and their applications, (1997); 
+Feldt L.S., The approximate sampling distribution of Kuder–Richardson reliability coefficient twenty, Psychometrika, 30, 3, pp. 357-370, (1965); 
+Gao X., Brennan R.L., Variability of estimated variance components and related statistics in a performance assessment, Applied Measurement in Education, 14, 2, pp. 191-203, (2001); 
+Gelman A., Hill J., Data analysis using regression and multilevel/hierarchical models, (2006); 
+Hakstian A.R., Whalen T.E., A k-sample significance test for independent alpha coefficients, Psychometrika, 41, 2, pp. 219-231, (1976); 
+Henderson C.R., Estimation of variance and covariance components, Biometrics, 9, 2, pp. 226-252, (1953); 
+Huebner A., Lucht M., Generalizability theory in R, Practical Assessment, Research & Evaluation, 24, 5, (2019); 
+Jiang Z., Using linear mixed-effect model framework to estimate generalizability variance component in R: A lme4 package application, Methodology, 14, 3, pp. 133-142, (2018); 
+Jiang Z., Skorupski W., A Bayesian approach to estimating variance components within a multivariate generalizability theory framework, Behavior Research Methods, 50, 6, pp. 2193-2214, (2018); 
+Iacobucci D., Duhachek A., Advancing alpha: Measuring reliability with confidence, Journal of Consumer Psychology, 13, 4, pp. 478-487, (2003); 
+Koning A.J., Franses P.H., Confidence intervals for Cronbach‘s coefficient alpha values, (2003); 
+Lane S., Liu M., Ankenmann R.D., Stone C.A., Generalizability and validity of a mathematics performance assessment, Journal of Educational Measurement, 33, 1, pp. 71-92, (1996); 
+LoPilato A.C., Carter N.T., Wang M., Updating generalizability theory in management research: Bayesian estimation of variance components, Journal of Management, 41, 2, pp. 692-717, (2015); 
+Moore J.L., Estimating standard errors of estimated variance components in generalizability theory using bootstrap procedures, (2010); 
+Maydeu-Olivares A., Coffman D.L., Hartmann W.M., Asymptotically distribution free (ADF) interval estimation of coefficient alpha, Psychological Methods, 12, 2, pp. 157-176, (2007); 
+Othman A.R., Examining task sampling variability in science performance assessments, (1995); 
+Padilla M.A., Divers J., Newton M., Coefficient alpha bootstrap confidence interval under nonnormality, Applied Psychological Measurement, 36, 5, pp. 331-348, (2012); 
+R: A language and environment for statistical computing, (2021); 
+Rao C.R., Estimation of heteroscedastic variances in linear models, Journal of the American Statistical Association, 65, 329, pp. 161-172, (1970); 
+Raudenbush S.W., Bryk A.S., Hierarchical linear models: Applications and data analysis methods, (2002); 
+Shang J., Cavanaugh J.E., An assumption for the development of bootstrap variants of the Akaike information criterion in mixed models, Statistics & Probability Letters, 78, 12, pp. 1422-1429, (2008); 
+Shavelson R.J., Webb N.M., Generalizability theory: 1973–1980, British Journal of Mathematical and Statistical Psychology, 34, 2, pp. 133-166, (1981); 
+Smith P.L., A confidence interval approach for variance component estimates in the context of generalizability theory, Educational and Psychological Measurement, 42, 2, pp. 459-465, (1982); 
+Tong Y., Brennan R.L., Bootstrap techniques for estimating variability in generalizability theory, (2006); 
+Tong Y., Brennan R.L., Bootstrap estimates of standard errors in generalizability theory, Educational and Psychological Measurement, 67, 5, pp. 804-817, (2007); 
+Van Zyl J.M., Neudecker H., Nel D.G., On the distribution of the maximum likelihood estimator of Cronbach’s alpha, Psychometrika, 65, 3, pp. 271-280, (2000); 
+Wiley E.W., Bootstrap strategies for variance component estimation: Theoretical and empirical results, (2000); 
+Yuan K., Guarnaccia C.A., Hayslip B., A study of the distribution of sample coefficient alpha with the Hopkins symptom checklist: Bootstrap versus asymptotic, Educational and Psychological Measurement, 63, 1, pp. 5-23, (2003)#FRF#

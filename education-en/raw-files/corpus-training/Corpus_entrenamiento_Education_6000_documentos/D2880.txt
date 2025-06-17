@@ -1,0 +1,35 @@
+#ITI#Exact inference for fixed-effects meta-analysis of proportions#FTI#
+#IRE# Meta-analysis of proportions is conceptually simple: Faced with a binary outcome in multiple studies, we seek inference on some overall proportion of successes/failures. Under common effect models, exact inference has long been available, but is not when we more realistically allow for heterogeneity of the proportions. Instead a wide range of nonexact fixed-effects methods are used, the interpretation of some of which is challenging. In this paper, we present methods for exact statistical tests and confidence intervals for fixed-effects meta-analysis of proportions. These methods retain the interpretability of the underlying parameter of interest, and can be implemented in straightforward software. We also show how our inference on the overall proportion is compatible with exact inference on heterogeneity of proportions. An illustrative example from a recent kidney disease study shows how the method's performance can be assessed in practice#FRE#
+#IPC# binomial; exact methods; fixed effects; meta-analysis; proportion#FPC#
+#IRF# He J., Guo Y., Mao R., Zhang J., Proportion of asymptomatic coronavirus disease 2019: a systematic review and meta-analysis, J Med Virol, 93, 2, pp. 820-830, (2021); 
+Zhang M.W.B., Ho R.C.M., Cheung M.W.L., Fu E., Mak A., Prevalence of depressive symptoms in patients with chronic obstructive pulmonary disease: a systematic review, meta-analysis and meta-regression, Gen Hosp Psychiatry, 33, 3, pp. 217-223, (2011); 
+Agresti A., Categorical Data Analysis, 482, (2003); 
+Clopper C.J., Pearson E.S., The use of confidence or fiducial limits illustrated in the case of the binomial, Biometrika, 26, 4, pp. 404-413, (1934); 
+Blaker H., Confidence curves and improved exact confidence intervals for discrete distributions, Can J Stat, 28, 4, pp. 783-798, (2000); 
+Lu T., Cai T., Pfeffer M.A., Piankov N., Cremieux P.-Y., Wei L.J., Exact and efficient inference procedure for meta-analysis and its application to the analysis of independent 2×2 tables with all available data but without artificial continuity correction, Biostatistics, 10, 2, pp. 275-281, (2009); 
+Liu D., Liu R.Y., Xie M.-G., Exact meta-analysis approach for discrete data and its application to 2× 2 tables with rare events, J Am Stat Assoc, 109, 508, pp. 1450-1465, (2014); 
+Yang G., Liu D., Wang J., Xie M.-G., Meta-analysis framework for exact inferences with application to the analysis of rare events, Biometrics, 72, 4, pp. 1378-1386, (2016); 
+Murray F., Tukey J.W., Transformations related to the angular and the square root, Ann Math Stat, 21, pp. 607-611, (1950); 
+Miller John J., The inverse of the freeman–Tukey double arcsine transformation, Am Stat, 32, 4, (1978); 
+Schwarzer G., Chemaitelly H., Abu-Raddad L.J., Rucker G., Seriously misleading results using inverse of freeman-Tukey double arcsine transformation in meta-analysis of single proportions, Res Synth Methods, 10, 3, pp. 476-483, (2019); 
+Trikalinos T.A., Trow P., Schmid C.H., Simulation-based comparison of methods for meta-analysis of proportions and rates. Agency for healthcare research and quality (US), (2013); 
+Ma Y., Chu H., Mazumdar M., Meta-analysis of proportions of rare events–a comparison of exact likelihood methods with robust variance estimation, Commun Stat-Simulation Comput, 45, 8, pp. 3036-3052, (2016); 
+Higgins J.P.T., Thompson S.G., Spiegelhalter D.J., A re-evaluation of random-effects meta-analysis, J R Stat Soc A Stat Soc, 172, 1, pp. 137-159, (2009); 
+Gronsbell J., Hong C., Nie L., Lu Y., Lu T., Exact inference for the random-effect model for meta-analyses with rare events, Stat Med, 39, 3, pp. 252-264, (2020); 
+Nedelman J., Wallenius T., Bernoulli trials, Poisson trials, surprising variances, and Jensen's inequality, Am Stat, 40, 4, pp. 286-289, (1986); 
+Billingsley P., Probability and Measure, (1995); 
+Hoeffding W., On the distribution of the number of successes in independent trials, Ann Math Stat, 27, 3, pp. 713-721, (1956); 
+Fay M.P., Two-sided exact tests and matching confidence intervals for discrete data, R J, 2, 1, pp. 53-58, (2010); 
+Vos P.W., Hudson S., Problems with binomial two-sided tests and the associated confidence intervals, Aust N Z J Stat, 50, 1, pp. 81-89, (2008); 
+Rice K., Higgins J.P.T., Lumley T., A re-evaluation of fixed effect (s) meta-analysis, J R Stat Soc A Stat Soc, 181, 1, pp. 205-227, (2018); 
+Tocher K.D., Extension of the neyman-Pearson theory of tests to discontinuous variates, Biometrika, 37, 1-2, pp. 130-144, (1950); 
+Mehta C.R., Hilton J.F., Exact power of conditional and unconditional tests: going beyond the 2× 2 contingency table, Am Stat, 47, 2, pp. 91-98, (1993); 
+Routledge R., Fisher's exact test including power and mid-p value, (2014); 
+Parshall C.G., Kromrey J.D., Tests of independence in contingency tables with small samples: a comparison of statistical power, Educ Psychol Meas, 56, 1, pp. 26-44, (1996); 
+Poggio E.D., McClelland R.L., Blank K.N., Et al., Systematic review and meta-analysis of native kidney biopsy complications, Clin J Am Soc Nephrol, 15, 11, pp. 1595-1602, (2020); 
+Viechtbauer W., Conducting meta-analyses in R with the metafor package, J Stat Softw, 36, 3, pp. 1-48, (2010); 
+Lin D.Y., Zeng D., Meta-analysis of genome-wide association studies: no efficiency gain in using individual participant data, Genet Epidemiol Off Publ Int Genet Epidemiol Soc, 34, 1, pp. 60-66, (2010); 
+Higgins J.P.T., Thomas J., Chandler J., Et al., Cochrane handbook for systematic reviews of interventions, (2019); 
+Bailey K.R., Inter-study differences: how should they influence the interpretation and analysis of results?, Stat Med, 6, 3, pp. 351-358, (1987); 
+Konstantopoulos S., Hedges L.V., Analyzing effect sizes: fixed-effects models, pp. 279-294, (2009); 
+Casella G., Berger R.L., Statistical Inference, (2002)#FRF#

@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.6" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00012</article-id>
+			<article-id pub-id-type="doi">10.7705/biomedica.v34i2.3634</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>ARTÍCULO ORIGINAL</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Curvas de fusión de regiones genómicas específicas: una herramienta prometedora para el diagnóstico y tipificación de las especies causantes de la leishmaniasis cutánea en Colombia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>High-resolution melting analysis based on specific genomic regions: A promising tool for the diagnosis and typing of species causing cutaneous leishmaniasis in Colombia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Marín</surname>
+						<given-names>Johana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Urrea</surname>
+						<given-names>Daniel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Muskus</surname>
+						<given-names>Carlos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Echeverry</surname>
+						<given-names>María Clara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Mejía</surname>
+						<given-names>Ana María</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Triana</surname>
+						<given-names>Omar</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<institution content-type="original">Biología y Control de Enfermedades Infecciosas, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv1">Biología y Control de Enfermedades Infecciosas</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Laboratorio de Investigaciones en Parasitología Tropical, Departamento de Biología, Facultad de Ciencias, Universidad del Tolima, Ibagué, Colombia</institution>
+				<institution content-type="normalized">Universidad del Tolima</institution>
+				<institution content-type="orgdiv2">Laboratorio de Investigaciones en Parasitología Tropical, Departamento de Biología</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias</institution>
+				<institution content-type="orgname">Universidad del Tolima</institution>
+				<addr-line>
+					<named-content content-type="city">Ibagué</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Programa de Estudio y Control de Enfermedades Tropicales-PECET, Universidad de Antioquia, Medellín, Colombia</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv1">Programa de Estudio y Control de Enfermedades Tropicales</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Departamento de Salud Pública, Facultad de Medicina, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgdiv2">Departamento de Salud Pública</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">Correspondencia: Omar Triana, Grupo Biología y Control de Enfermedades Infecciosas, Universidad de Antioquia, Calle 70 N° 52-21, Medellín, Colombia Teléfono: (574) 219 6520 <email>omar.triana@udea.edu.co</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<p>Conflicto de intereses Los autores del presente artículo declaramos que no existe conflicto de intereses</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Sep-Dec</season>
+				<year>2017</year>
+			</pub-date>
+			<volume>37</volume>
+			<issue>4</issue>
+			<fpage>538</fpage>
+			<lpage>547</lpage>
+			<history>
+				<date date-type="received">
+					<day>18</day>
+					<month>10</month>
+					<year>2016</year>
+				</date>
+				<date date-type="accepted">
+					<day>26</day>
+					<month>02</month>
+					<year>2017</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción.</title>
+					<p> La leishmaniasis cutánea es una enfermedad causada por parásitos del género <italic>Leishmania</italic> que tiene gran incidencia en Colombia<italic>.</italic> El diagnóstico y la identificación de la especie infecciosa son factores críticos en el momento de escoger e iniciar el tratamiento. Actualmente, los métodos de diagnóstico y tipificación requieren procedimientos complejos, por lo que es necesario validar nuevos marcadores moleculares y métodos que simplifiquen el proceso.</p>
+				</sec>
+				<sec>
+					<title>Objetivo.</title>
+					<p> Desarrollar una herramienta basada en la reacción en cadena de la polimerasa (PCR) con curvas de fusión (<italic>High Resolution Melting;</italic> PCR-HRM) para el diagnóstico y tipificación de las tres especies de <italic>Leishmania</italic> de importancia epidemiológica en casos de leishmaniasis cutánea en Colombia.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Los genomas de <italic>Leishmania panamensis, L. braziliensis</italic> y <italic>L. guyanensis</italic> se compararon mediante métodos bioinformáticos. Las regiones específicas de especie identificadas se validaron mediante PCR. Para los marcadores seleccionados se diseñó una PCR-HRM y se estimaron algunos parámetros de validez y seguridad usando aislamientos de pacientes colombianos caracterizados previamente mediante PCR y análisis de polimorfismos en la longitud de los fragmentos de restricción (<italic>Restriction Fragment Length Polymorphism</italic> - RFLP; PCR-RFLP) del gen <italic>hsp</italic>70.</p>
+				</sec>
+				<sec>
+					<title>Resultados.</title>
+					<p> El análisis genómico comparativo mostró 24 regiones específicas de especie. Sin embargo, la validación mediante PCR solo identificó un marcador específico para cada especie de <italic>Leishmania</italic>. Los otros marcadores mostraron amplificación cruzada. El límite de detección para los tres marcadores seleccionados fue de un parásito, mientras que la sensibilidad, la especificidad, el valor predictivo positivo y el negativo fueron de 91,4, 100, 100 y 75 %, respectivamente.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones.</title>
+					<p> Las tres regiones seleccionadas pueden emplearse como marcadores moleculares en el diagnóstico y tipificación de las especies causantes de la leishmaniasis cutánea en Colombia.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> Cutaneous leishmaniasis, caused by parasites of the genus <italic>Leishmania</italic>, is a disease with high incidence in Colombia. The diagnosis and identification of the infectious species are critical factors</p>
+					<p>when selecting and initiating treatment. Currently, the methods for diagnosing and typing cutaneous leishmaniasis require complicated procedures and there is a need for the validation of new molecular markers and methods to simplify the process.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To develop a tool based in PCR melting curves (PCR-HRM) for the diagnosis and typing of the three <italic>Leishmania</italic> species of epidemiological importance for cutaneous leishmaniasis in Colombia.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p> The genomes of <italic>Leishmania panamensis, L. braziliensis</italic> and <italic>L. guyanensis</italic> were compared with bioinformatic methods. The species-specific regions were then validated using PCR. For the selected markers, a PCR-HRM was designed, and validity and security parameters were estimated using isolates from Colombian patients previously characterized by PCR-RFLP of the <italic>hsp70</italic> gene.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The comparative genomic analysis yielded 24 species-specific regions. However, the PCR validation identified only one marker that was specific to each <italic>Leishmania</italic> species. The other markers showed cross amplification. The detection limit for the three selected markers was one parasite. The sensitivity, specificity, predictive positive and negative values were 91.4%, 100%, 100% and 75%, respectively.</p>
+				</sec>
+				<sec>
+					<title>Conclusions: </title>
+					<p>The three selected regions can be used as molecular markers in the diagnosis and typing of the causative species of cutaneous leishmaniasis in Colombia.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Leishmania</kwd>
+				<kwd>leishmania/diagnóstico</kwd>
+				<kwd>leishmaniasis cutánea</kwd>
+				<kwd>reacción en cadena de la polimerasa</kwd>
+				<kwd>Colombia.</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Leishmania</kwd>
+				<kwd>leishmania/diagnosis</kwd>
+				<kwd>leishmaniasis, cutaneous</kwd>
+				<kwd>polymerase chain reaction</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="5"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="36"/>
+				<page-count count="10"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Se denomina leishmaniasis a un grupo de antropozoonosis causadas por diferentes especies de parásitos del género <italic>Leishmania</italic> y trasmitidas principalmente por la picadura de insectos hematófagos de los géneros <italic>Lutzomyia</italic> spp. para el Nuevo Mundo y <italic>Phlebotomus</italic> spp. para el Viejo Mundo (<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>). Estas enfermedades son endémicas en más de 98 países, y afectan a 12 millones de personas, en tanto que más de 350 millones están en riesgo de infección en el mundo (<xref ref-type="bibr" rid="B3">3</xref>). En Colombia, la leishmaniasis es endémica en casi todo el territorio y representa un problema significativo de salud pública debido a su alta morbilidad. En el país se han estimado alrededor de 10.000 casos por año, y casi 10 millones de personas en riesgo de adquirir la infección, principalmente en áreas rurales (<xref ref-type="bibr" rid="B4">4</xref>).</p>
+		<p>En el Nuevo Mundo se encuentran distribuidas 16 especies de <italic>Leishmania</italic>, las cuales son causantes de una gran diversidad de síntomas clínicos (<xref ref-type="bibr" rid="B3">3</xref>)<italic>.</italic> En Colombia se ha registrado la circulación de las especies <italic>L. panamensis, L. braziliensis, L. amazonensis, L. mexicana, L. guyanensis</italic> y <italic>L. infantum,</italic>siendo las dos primeras las de más alta distribución a lo largo del territorio nacional y, por consiguiente, las principales responsables de la alta prevalencia de la leishmaniasis cutánea en el país (<xref ref-type="bibr" rid="B4">4</xref>).</p>
+		<p>El diagnóstico acertado de la infección con <italic>Leishmania</italic> sp, así como la identificación de la especie infecciosa, son críticos en el momento de escoger e iniciar el tratamiento apropiado. En este sentido, la Organización Mundial de la Salud (OMS) ha recomendado que el tratamiento solo se debe administrar tras la confirmación de la enfermedad, y en algunas regiones del Nuevo Mundo el diagnóstico debe considerar la especie, ya que se ha demostrado que las especies infecciosas y la región geográfica influyen en la eficacia de los tratamientos y, por consiguiente, en las recomendaciones terapéuticas. Esto es de gran importancia debido a la alta toxicidad de los medicamentos disponibles, la resistencia observada en algunas especies, especialmente las causantes de la leishmaniasis cutánea, en la cual parece haber mayor riesgo de selección de parásitos farmacorresistentes, y el uso restringido de los medicamentos en los pacientes confirmados (<xref ref-type="bibr" rid="B3">3</xref>). Asimismo, debido a la gran similitud entre los síntomas causados por <italic>Leishmania</italic> spp. y otros grupos de enfermedades (<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>), y la gran cantidad de especies de <italic>Leishmania</italic> que circulan en el continente americano, el diagnóstico rápido y certero debe mejorarse (<xref ref-type="bibr" rid="B7">7</xref>-<xref ref-type="bibr" rid="B9">9</xref>).</p>
+		<p>En la actualidad no se dispone de un método de gran poder discriminatorio que pueda aplicarse de a lo largo del territorio nacional y, por consiguiente, manera universal al diagnóstico y a la identificación de las especies causantes de la leishmaniasis cutánea (<xref ref-type="bibr" rid="B10">10</xref>). El diagnóstico se basa en la descripción de las características clínicas, además del análisis de los datos epidemiológicos y las pruebas de laboratorio, así como en métodos de observación directa de las formas parasitarias mediante microscopía (<xref ref-type="bibr" rid="B11">11</xref>). En este contexto, los nuevos métodos basados en blancos moleculares han ido cobrando relevancia por sus valores de sensibilidad y especificidad (<xref ref-type="bibr" rid="B12">12</xref>). Tales métodos se basan principalmente en la amplificación de regiones genómicas, como las de los genes <italic>hsp</italic>70 (<xref ref-type="bibr" rid="B13">13</xref>) y del citocromo b (<xref ref-type="bibr" rid="B14">14</xref>), o de espaciadores intergénicos ribosomales como el ITS-1 y el ITS-2 rRNA (2,15), o el ADN del cinetoplasto. Además, se dispone de métodos moleculares adicionales, como la electroforesis de enzimas multilocus (MLEE) o la PCR-RFLP, que también pueden emplearse en la identificación de la especie infecciosa (<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>).</p>
+		<p>Dado lo anterior, se requiere el diseño de estrategias novedosas para la identificación de regiones específicas en las especies de <italic>Leishmania,</italic> que permitan tanto el diagnóstico como la identificación de la especie. En los últimos años se han logrado grandes avances en el conocimiento de la estructura y la composición genómica de los tripanosomátidos gracias al desarrollo de las técnicas de secuenciación masiva (<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref>). Para el género <italic>Leishmania</italic> se han reportado hasta ahora al menos 14 genomas secuenciados (http://tritrypdb.org/tritrypdb/), entre los cuales se encuentran el de <italic>L. panamensis y L. braziliensis,</italic> responsables del mayor número de casos de leishmaniasis cutánea en Colombia. A partir de estas bases de datos es posible comparar la estructura y la composición genómica de estas especies, con el fin de identificar regiones específicas que puedan ser útiles para su diagnóstico e identificación, lo cual puede validarse experimentalmente mediante técnicas de PCR avanzadas de alto poder resolutivo como la HRM. En este sentido, en el presente trabajo se propuso la búsqueda y selección de nuevos marcadores moleculares específicos de especie derivados del análisis genómico comparativo de <italic>L. panamensis, L. braziliensis</italic> y <italic>L. guyanensis</italic>, que permitan el diagnóstico y la identificación de las especies causantes de la enfermedad en nuestro país.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title>Material biológico y extracción del ADN</title>
+				<p>El ADN de las cepas de <italic>L. panamensis</italic> (cepa UA946, Universidad de Antioquia), <italic>L. guyanensis</italic> (MHOM/BR/75/M4147), y <italic>L. braziliensis</italic> (MHOM/ BR/75/M2904) se utilizó para validar los marcadores seleccionados. Se utilizaron muestras del ADN de <italic>L. major (</italic>MHOM/IL/81/FE/BNI<italic>), Trypanosoma cruzi (</italic>MRAT/COL/Gal61<italic>), T. evansi</italic> y <italic>T. rangeli</italic> (2XeqC2) para evaluar las reacciones cruzadas con otros tripanosomátidos. El ADN se extrajo a partir de cultivos <italic>in vitro</italic> siguiendo el protocolo del estuche DNeasy Blood &amp; Tissue (Qiagen). La calidad del ADN obtenido se analizó por electroforesis en geles de agarosa al 0,8 % teñidos con bromuro de etidio, y la concentración se determinó mediante la lectura de la absorbancia a 260 nm en un espectrofotómetro NanoDrop 2000 (Thermo Scientific).</p>
+			</sec>
+			<sec>
+				<title>Identificación de regiones genómicas específicas en Leishmania spp</title>
+				<p>Con el fin de seleccionar regiones genómicas específicas para las tres especies de <italic>Leishmania</italic> causantes de la leishmaniasis cutánea en Colombia, se hizo un análisis comparativo entre los genomas de <italic>L. panamensis</italic> y <italic>L. braziliensis</italic> (publicados en la base de datos de TriTryp: http://tritrypdb.org/tritrypdb/) con los datos crudos del genoma de <italic>L. guyanensis</italic> (número de acceso en el Genbank: PRJEB168). Un esquema general de la metodología empleada se muestra en la <xref ref-type="fig" rid="f1">figura 1</xref>; el alineamiento global de los tres genomas completos ensamblados se realizó usando el programa MUMmer (<xref ref-type="bibr" rid="B18">18</xref>), con el fin de hallar regiones genómicas con identidades mayores de 75 % entre pares de especies. Se seleccionaron las regiones con una identidad menor de 25 % yposteriormente se validaron como regiones específicas de especie mediante BLASTN(r) (blast.ncbi.nlm.nih.gov), contrastándolas con las bases de datos de <italic>Assembly</italic>, <italic>BioProject</italic> y <italic>SRA</italic> del <italic>NationalCenter for Biotechnology Information</italic> (NCBI). Una vez confirmada la ausencia de ortología entre las especies evaluadas, se diseñaron iniciadores paracada región específica usando la herramienta Primer3 (http://bioinfo.ut.ee/primer3-0.4.0/).</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Algoritmo utilizado para la selección y validación de los nuevos marcadores moleculares</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-04-00538-gf1.jpg"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Amplificación de marcadores específicos en L. panamensis, L. braziliensis y L. guyanensis</title>
+				<p>La amplificación por PCR convencional de los marcadores de cada especie se hizo en un volumen final de 25 µl que contenía 1X de solución tampón Taq, 2,5 mM de MgCl2 , 0,2 mM de dNTP, 0,4 µM de cada cebador, 1 U de Taq polimerasa y 10 ng del molde de ADN. La PCR se hizo en un termociclador T1 (Biometra) bajo las siguientes condiciones: 9 5 °C durante 10 minutos, seguido por 35 ciclos de desnaturalización a 95 °C durante 15 segundos, una temperatura de anillamiento desde 58 °C hasta 64 °C durante 15 segundos , y una extensión a 72 °C durante 20 segundos, con una extensión final a 72 °C durante 10 minutos. Los productos amplificados se visualizaron mediante electroforesis en geles de agarosa al 2 % (w/v). Para cada uno de los marcadores analizados por PCR se utilizó el ADN de <italic>L. panamensis, L. guyanensis y L. braziliensis</italic> como control.</p>
+			</sec>
+			<sec>
+				<title>Curvas de fusión en Leishmania spp. de Colombia </title>
+				<p>Los marcadores que amplificaron regiones específicas mediante la PCR convencional se evaluaron seguidamente mediante PCR en tiempo real complementada con curvas de fusión de alta resolución en el equipo para PCR en tiempo real Rotor-Gene Q (Qiagen). Cada reacción se llevó a cabo en un volumen total de 10 µl, el cual contenía 5 µl de HRM PCR master mix Type-it(r) 2X (Qiagen), 0,4 µM de cada cebador y 10 ng de molde de ADN. El perfil térmico consistió de un ciclo de desnaturalización y activación de la enzima a 95°C durante 10 minutos, seguido de 40 ciclos de amplificación incluida la desnaturalización de ADN a 95 °C durante 15 segundos y anillamiento a 64 °C durante 1 minuto. Los productos de PCR se sometieron a un programa de curvas de fusión que consistió en la desnaturalización a 95 °C durante 10 segundos, hibridación de ADN de doble cadena a 64 °C durante 1 minuto, seguida de un aumento gradual de la temperatura hasta 95 °C durante 120 minutos, y unión final de ADN a 64 °C durante 15 segundos. Para determinar las temperaturas medias de fusión (Tm) para cada especie se utilizó el programa Rotor-Gene Q v 2.0.2 (Qiagen).</p>
+			</sec>
+			<sec>
+				<title>Límite de detección de los marcadores</title>
+				<p>Con el fin de estimar el límite de detección de los marcadores seleccionados, cada una de las regiones específicas de especie elegidas se clonó en el vector pTZ57R/T (ThermoFisher Scientific) bajo las condiciones previamente reportadas (<xref ref-type="bibr" rid="B19">19</xref>).</p>
+				<p>A partir de estos, se hicieron diluciones seriadas (1:10) del plásmido que contenía la secuencia blanco de los cebadores de cada una de las especies de <italic>Leishmania</italic> y se estimó la concentración mínima de amplificación. Para ello se utilizaron siete diluciones seriadas por triplicado del ADN de los controles positivos <italic>L. panamensis, L. guyanensis</italic> y <italic>L. braziliensis,</italic> que iban desde 1.000.000 hasta una copia del plásmido que contenía la región de interés. Para determinar la eficiencia de cada ensayo se estimaron las curvas de calibración a partir de los ciclos de umbral (<italic>threshhold cycles</italic>) Ct de las diluciones utilizando el programa Rotor-Gene Q v 2.0.2 (Qiagen).</p>
+			</sec>
+			<sec>
+				<title>Reacciones cruzadas</title>
+				<p>Para corroborar que los marcadores seleccionados no amplificaran en otras especies de tripanosómatidos, el ADN de <italic>L. major, T. cruzi, T. evansi y T. rangeli</italic> se utilizó como molde para la reacción de PCR bajo las mismas condiciones descritas previamente. Este ensayo se realizó por triplicado con 10 ng del ADN de cada especie.</p>
+			</sec>
+			<sec>
+				<title>Utilidad de los marcadores para el diagnóstico de las muestras de los pacientes</title>
+				<p>Para evaluar la utilidad de los marcadores seleccionados, se probaron en total 41 muestras ciegas que contenían ADN de cepas de cultivo o de muestras de ADN aisladas de biopsias de pacientes de Colombia, así como muestras de humanos negativas (nunca habían estado en contacto con el parásito) y muestras de pacientes presuntivas de infección con leishmaniasis, pero que por otros métodos fueron negativas en los distintos análisis. Todas las muestras positivas se caracterizaron previamente mediante PCR-RFLP utilizando el marcador <italic>hsp</italic>70 (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B20">20</xref>-<xref ref-type="bibr" rid="B22">22</xref>). Este conjunto de muestras ciegas se evaluó mediante PCR-HRM por triplicado, utilizando como control en todas las reacciones el ADN de <italic>L. panamensis, L. guyanensis y L. braziliensis</italic>. A partir de esta información y con base en los resultados, se determinó la concordancia entre las pruebas PCRRFLP y la PCR-HRM para las muestras positivas.</p>
+			</sec>
+			<sec>
+				<title>Validez y seguridad de los marcadores</title>
+				<p>A partir de los resultados obtenidos se estimaron la sensibilidad (S), la especificidad (E), el valor predictivo positivo (VPP) y el valor predictivo negativo (VPN), que dan cuenta de la validez y la seguridad de los nuevos marcadores. Estos parámetros se calcularon con el paquete estadístico epiR, del programa R, versión 3.2.2 (<italic>The R Foundation for Statistical Computing Platform</italic>), con intervalos de confianza de 95 % (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title>Identificación de regiones específicas, validación mediante PCR convencional y determinación de la especificidad analítica</title>
+				<p>Las comparaciones pareadas entre el genoma de <italic>L. panamensis</italic> y los de <italic>L. guyanensis</italic> y <italic>L. braziliensis</italic> mostró 4.422 y 10.700 regiones genómicas con identidad menor de 25 %, respectivamente. El 98% de las diferencias entre estas regiones en las especies correspondió a deleciones, y solo 2 % a regiones con diferencias específicas en los nucleósidos. Se seleccionaron 24 regiones como específicas de especie, las cuales se emplearon en el diseño de los cebadores para validar la especificidad mediante PCR. Solo tres pares de cebadores amplificaron únicamente en la especie de <italic>Leishmania</italic> para la cual se diseñaron (<xref ref-type="fig" rid="f2">figura 2</xref>A, <xref ref-type="table" rid="t1">cuadro 1</xref>). Los otros 21 cebadores amplificaron en más de una especie de <italic>Leishmania</italic> (<xref ref-type="fig" rid="f2">figura 2</xref>B; <xref ref-type="app" rid="app1">figura suplementaria 1</xref> disponible en: https://doi.org/10.7705/biomedica.v34i2.3634; <xref ref-type="table" rid="t1">cuadro 1</xref>). </p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>A: Productos de la amplificación de los marcadores seleccionados (Pan081, Guy901 y Bra1C). Se observa la amplificación única en la especie de <italic>Leishmania</italic> para la que el marcador fue diseñado. En los carriles se muestran los siguientes: Lp: <italic>L. panamensis,</italic> Lb: <italic>L. braziliensis,</italic> Lg: <italic>L. guyanensis,</italic> Lm: <italic>L. major,</italic> Tc: <italic>T. cruzi,</italic> Te: <italic>T. evansi,</italic> Tr: <italic>T. rangeli</italic> y Cn: control negativo. B: Gel representativo de los productos de PCR de los marcadores que amplificaron en más de una especie de <italic>Leishmania.</italic> En los carriles se muestran los de Lp: <italic>L. panamensis,</italic> Lb: <italic>L. braziliensis,</italic> Lg: <italic>L. guyanensis,</italic> Lm: <italic>L. major</italic> y Cn: control negativo.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-04-00538-gf2.jpg"/>
+					</fig>
+				</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Regiones genómicas específicas evaluadas para las tres especies. Los marcadores Bra1A, Bra1C, Pan081 y Guy901 fueron los únicos específicos de especie.</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-04-00538-gt1.jpg"/>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec>
+			<title>Límite de detección</title>
+			<p>Los tres marcadores específicos de especie seleccionados se utilizaron en la PCR en tiempo real, con el fin de evaluar su utilidad en el diagnóstico y tipificación en cepas y muestras clínicas. En la <xref ref-type="fig" rid="f3">figura 3</xref> se observa que cada uno de los marcadores fue capaz de detectar hasta una copia de la secuencia blanco. Este ensayo se hizo por triplicado siempre con el mismo resultado. Además, a partir de los valores de Ct de cada una de las diluciones, se estimaron los porcentajes de eficiencia de la amplificación en cada una de las especies evaluadas: 94,33, 95,73 y 90,92 % para <italic>L. panamensis, L. guyanensis y L. braziliensis,</italic> respectivamente (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title>A. Diluciones seriadas del plásmido que contiene la secuencia blanco de <italic>L. panamensis</italic> utilizando el marcador Pan081. B. Gel de agarosa al 2 % con los productos de PCR de cada una de las diluciones</title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-37-04-00538-gf3.jpg"/>
+				</fig>
+			</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Cuadro 2</label>
+					<caption>
+						<title>Valores de temperatura de fusión (Tm), coeficiente de correlación (R 2 ) y porcentajes de eficiencia de <italic>L. panamensis, L.guyanensis y L. braziliensis</italic> en el ensayo de PCR-HRM</title>
+					</caption>
+					<graphic xlink:href="0120-4157-bio-37-04-00538-gt2.jpg"/>
+				</table-wrap>
+			</p>
+			<sec>
+				<title>Curvas de fusión</title>
+				<p>Los tres marcadores que se seleccionaron también se analizaron mediante curvas de fusión. Los resultados indicaron que estos marcadores diferenciaron claramente las especies de <italic>L. panamensis, L. guyanensis y L. braziliensis</italic> (<xref ref-type="fig" rid="f4">figura 4</xref>). Las temperaturas de fusión (Tm) para cada marcador se muestran en el <xref ref-type="table" rid="t2">cuadro 2</xref>; se observa que luego de tres corridas estas fueron altamente reproducibles (no se muestran los datos).</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>A. Temperatura de fusión (Tm) obtenida para cada uno de estos marcadores (Pan081: 86,55 °C para <italic>L. panamensis</italic>, Guy901: 82,21 °C para <italic>L. guyanensis</italic> y Bra1C: 85,68 °C para <italic>L. braziliensis</italic>)<italic>.</italic> B. Curvas de fusión normalizadas para las especies de <italic>Leishmania</italic> analizadas utilizando los marcadores Pan081, Bra1c y Guy901</title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-04-00538-gf4.jpg"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Utilidad de los marcadores en muestras de pacientes</title>
+				<p>De las 32 muestras clasificadas previamente como positivas con otros marcadores, 29 amplificaron con los marcadores seleccionados, lo que significó una concordancia de 90,63 % con la PCR-RFLP del gen <italic>hsp</italic>70 que se utilizó previamente para caracterizar los aislamientos. Las nueve muestras negativas se clasificaron correctamente (cuadro 3). El análisis estadístico mostró valores de sensibilidad de 91,43 % (IC95% : 7 5 - 9 8 % ) y d e e s p e c i fi c i d a d d e 100 % (IC95% : 55-100 %), un valor predictivo positivo de 100 % (IC95% : 83-100 %) y un valor predictivo negativo de 75 % (IC95%: 43-95 %).</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En Colombia la leishmaniasis cutánea es causada principalmente por <italic>L. panamensis, L. braziliensis</italic> y <italic>L. guyanensis</italic>, especies que responden diferencialmente al tratamiento con glucantime, por lo cual el diagnóstico y la tipificación apropiada de su agente causal son aspectos críticos en el momento de decidir el tratamiento de elección, pues evita someter al paciente a tratamientos que podrían ser ineficaces y muy tóxicos (<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B25">25</xref>).</p>
+			<p>El diagnóstico de la leishmaniasis se ha basado tradicionalmente en la clínica y en criterios epidemiológicos, y ciertas manifestaciones clínicas de la enfermedad se han asociado con complejos de especies o especies particulares, aunque se han reportado infecciones atípicas que cuestionan esta afirmación. Por ejemplo, se han registrado nuevas variantes de la leishmaniasis cutánea en Honduras y Nicaragua causadas por <italic>L. infantum</italic>, y hay algunos reportes de leishmaniasis visceral causada por <italic>L. braziliensis</italic> (<xref ref-type="bibr" rid="B26">26</xref>). Dado que estas infecciones atípicas son clínicamente idénticas a las típicas y pueden ocurrir en áreas donde se encuentren varias especies de <italic>Leishmania</italic>, es necesaria la implementación de métodos capaces de distinguir entre varias especies de <italic>Leishmania</italic>.</p>
+			<p>Actualmente, la mayoría de métodos de diagnóstico molecular aplicados a la identificación de especies de <italic>Leishmania</italic> se basan en la técnica de PCR-RFLP, que aunque menos laboriosa que el análisis de isoenzimas (considerado como el método de referencia), presenta problemas de reproducibilidad y su análisis es complejo (<xref ref-type="bibr" rid="B12">12</xref>). Para la PCR-RFLP se han utilizado varios blancos moleculares como el gen <italic>ssu rRNA</italic>, el gen <italic>hsp70</italic>, microsatélites o ADN mitocondrial (kDNA) (<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B28">28</xref>), algunos de los cuales son menos sensibles que otros debido a su bajo número de copias. Se han descrito varios ensayos para la detección de parásitos y la discriminación de especies de <italic>Leishmania</italic> en el Nuevo Mundo (<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref>), sin embargo, ninguno de estos métodos cumple con los dos objetivos de manera simultánea y, en ocasiones, pueden carecer de especificidad (<xref ref-type="bibr" rid="B31">31</xref>). Un diagnóstico molecular rápido específico de especie permite elegir el tratamiento más adecuado y hacer un seguimiento del parásito para fines epidemiológicos (investigación de brotes o seguimiento de cepas de parásitos resistentes a los medicamentos) (<xref ref-type="bibr" rid="B2">2</xref>). El análisis genómico comparativo de estas especies es una herramienta alternativa para la identificación de regiones específicas de especie y para el diseño de nuevos marcadores. En este sentido, el presente trabajo seleccionó regiones ortólogas altamente divergentes en estas tres especies para proponer nuevos marcadores moleculares que permitan el diagnóstico y la tipificación en una prueba simple pero de gran resolución de la PCR, como las curvas de fusión.</p>
+			<p>La PCR-HRM es una herramienta atractiva para el diagnóstico de diferentes enfermedades. Esta técnica puede evitar el aislamiento de los parásitos en grandes cultivos celulares y métodos posteriores a la PCR, como las electroforesis, los cortes con enzimas de restricción, la hibridación y los métodos de secuenciación, lo cual disminuye los tiempos del diagnóstico y las posibilidades de contaminación (<xref ref-type="bibr" rid="B32">32</xref>). Este tipo de prueba también puede arrojar resultados tres veces más rápidamente y cinco veces más económicamente que otro tipo de análisis (<xref ref-type="bibr" rid="B33">33</xref>).</p>
+			<p>En este trabajo se estudiaron una serie de regiones a lo largo del genoma de las diferentes especies de <italic>Leishmania</italic> distribuidas en Colombia para encontrar las que se ajustaran adecuadamente a los parámetros necesarios para el ensayo de PCR-HRM. Se seleccionaron aquellas que cumplían con los criterios requeridos, entre los cuales se destaca el tamaño de la región (156-200 pb), y que se encontraran de manera específica en cada una de las especies. Así, un total de 24 regiones seleccionadas mediante una serie de análisis bioinformáticos se sometieron a diferentes ensayos de PCR para finalmente seleccionar tres regiones que podían ser potenciales blancos moleculares para el diagnóstico y la tipificación. Esto indica que, a pesar de la rigurosidad con la que se seleccionaron dichas regiones mediante análisis bioinformáticos, siempre es necesario confirmarlas experimentalmente. Los marcadores seleccionados fueron altamente específicos, ya que ningún otro tripanosomátido se amplificó utilizando estos cebadores. Esto es importante porque existe la posibilidad de encontrar infecciones mixtas de <italic>Leishmania</italic> y <italic>T. cruzi</italic> (<xref ref-type="bibr" rid="B34">34</xref>).</p>
+			<p>Con los tres marcadores seleccionados se encontró una clara diferencia entre las temperaturas de fusión de las tres especies de <italic>Leishmania</italic>, lo cual permitiría su identificación incluso si no se cuenta con la herramienta de HRM. Además, los perfiles de las curvas de punto de fusión también sirven para diferenciar entre las especies, lo cual facilita el diagnóstico.</p>
+			<p>Para validar la utilidad de la PCR-HRM se hizo el diagnóstico de 33 muestras provenientes de pacientes colombianos, las cuales habían sido identificadas previamente a nivel de especie mediante PCR-RFLP del gen <italic>hsp70</italic>. Los resultados obtenidos mediante las dos técnicas fueron similares en un 90,6 %, lo cual demuestra que los nuevos marcadores son comparables con otro tipo de técnicas utilizadas comúnmente en la actualidad. Es importante resaltar que la prueba que se propone evita el uso de técnicas adicionales como la RFLP para el diagnóstico, lo cual permite que este sea más rápido y facilita la adopción de decisiones. Recientemente se reportó el uso de una nueva prueba molecular para el diagnóstico de leishmaniasis cutánea causada por <italic>Leishmania</italic> (<italic>Viannia</italic>) spp, y aunque los resultados son de utilidad para estudios en campo por su capacidad para diferenciar especies del subgénero <italic>Leishmania</italic>, tiene la limitación de no diferenciar entre las especies del subgénero <italic>Viannia</italic> (<xref ref-type="bibr" rid="B35">35</xref>). La prueba empleada en este estudio tiene la ventaja de ser rápida y diferenciar estas especies, por lo que podría combinarse con la prueba en campo para hacer un diagnóstico diferencial más rápido y beneficioso para el paciente.</p>
+			<p>Por último, la prueba mostró una especificidad de 100 % y una sensibilidad de 91,4 %, lo que lleva a pensar en el mejoramiento de los métodos previos a la PCR, tales como la toma de muestras, la extracción de ADN y su posterior almacenamiento, de manera que se pueda obtener una mayor concentración de material genético y conservarlo durante mucho tiempo para aumentar el porcentaje de muestras positivas y mejorar la prueba.</p>
+			<p>La imposibilidad de tener una mayor cantidad de muestras para el análisis fue una gran limitante investigaciones posteriores se valide la utilización de estos marcadores en la PCR-HRM como una herramienta de diagnóstico directa en una mayor cantidad de muestras, no solo de pacientes sino también de reservorios y vectores del parásito. Además, se podría explorar la posibilidad de la búsqueda de un mayor número de marcadores con mayor número de copias, lo cual mejoraría la sensibilidad del método. Todo ello generaría más información para mejorar el diagnóstico de la enfermedad y proponer estrategias para la prevención y el control de la leishmaniasis. Por otro lado, con la PCR-HRM y los marcadores descritos se podría cuantificar la carga parasitaria en las muestras en futuros estudios, lo que es de gran importancia para la vigilancia de la progresión de la enfermedad y el resultado final después del tratamiento (<xref ref-type="bibr" rid="B36">36</xref>).</p>
+			<p>En conclusión, estos resultados indican que el método permite la identificación de <italic>Leishmania</italic> en muestras clínicas, y es reproducible.</p>
+			<p>La PCR-HRM representa una herramienta alternativa para la identificación de las especies causantes de leishmaniasis cutánea directamente en las muestras clínicas. Hasta donde se sabe, este es el primer estudio en el que se describen nuevos marcadores para la detección e identificación de especies de <italic>Leishmania</italic>, y fue posible discriminar tres especies de <italic>Leishmania</italic> presentes en América. Además, los resultados concordaron con los obtenidos anteriormente mediante la técnica de PCRRFLP, lo que sugiere que esta técnica puede ser de potencial aplicación en la detección de parásitos. No obstante, aún quedan pendientes ensayos queayuden a dilucidar el verdadero poder de diagnóstico y tipificación del método, de manera que se pueda utilizar en los centros de salud de una manera rápida y efectiva y mejorar así el diagnóstico y la administración segura de los tratamientos a los pacientes, disminuyendo su duración, así como los problemas que se puedan presentar por una posible resistencia de los parásitos a los diferentes medicamentos.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Mcgwire BS, Satoskar AR. Leishmaniasis: Clinical syndromes and treatment. QJM. 2014;107:7-14. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1093/qjmed/hct116">https://doi.or/10.1093/qjmed/hct116</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mcgwire</surname>
+							<given-names>BS</given-names>
+						</name>
+						<name>
+							<surname>Satoskar</surname>
+							<given-names>AR</given-names>
+						</name>
+					</person-group>
+					<article-title>Leishmaniasis: Clinical syndromes and treatment</article-title>
+					<source>QJM</source>
+					<year>2014</year>
+					<volume>107</volume>
+					<fpage>7</fpage>
+					<lpage>14</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1093/qjmed/hct116">https://doi.or/10.1093/qjmed/hct116</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Reithinger R, Dujardin JC. Molecular diagnosis of leishmaniasis: Current status and future applications. J Clin Microbiol. 2007;45: 21-5. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/Jcm.02029-06">https://doi.or/10.1128/Jcm.02029-06</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reithinger</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Dujardin</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular diagnosis of leishmaniasis: Current status and future applications</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2007</year>
+					<volume>45</volume>
+					<fpage>21</fpage>
+					<lpage>25</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/Jcm.02029-06">https://doi.or/10.1128/Jcm.02029-06</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. World Health Organization. Control of the leishmaniases. Report of a meeting of the WHO Expert Committee on the Control of Leishmaniases. Geneva: WHO; 2010.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Control of the leishmaniases. Report of a meeting of the WHO Expert Committee on the Control of Leishmaniases</source>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2010</year>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Pigott DM, Bhatt S, Golding N, Duda KA, Battle KE, Brady OJ, et al. Global distribution maps of the Leishmaniases. Elife. 2014;3:e02851 <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.7554/eLife.02851.001">https://doi.or/10.7554/eLife.02851.001</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pigott</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Bhatt</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Golding</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Duda</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Battle</surname>
+							<given-names>KE</given-names>
+						</name>
+						<name>
+							<surname>Brady</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Global distribution maps of the Leishmaniases</article-title>
+					<source>Elife</source>
+					<year>2014</year>
+					<volume>3</volume>
+					<elocation-id>e02851</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.7554/eLife.02851.001">https://doi.or/10.7554/eLife.02851.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Dantas Brito M, Campilho F, Branca R, Pinho Vaz C, Silva C, Sousa T, et al. Visceral leishmaniasis: A differential diagnosis to remember after bone marrow transplantation. Case Rep Hematol. 2014;2014:587912. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1155/2014/587912">https://doi.or/10.1155/2014/587912</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dantas Brito</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Campilho</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Branca</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pinho Vaz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Visceral leishmaniasis: A differential diagnosis to remember after bone marrow transplantation</article-title>
+					<source>Case Rep Hematol</source>
+					<year>2014</year>
+					<year>2014</year>
+					<fpage>587912</fpage>
+					<lpage>587912</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1155/2014/587912">https://doi.or/10.1155/2014/587912</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Rodríguez-Brito S, Camacho E, Mendoza M, Niño Vega GA. Differential identification of <italic>Sporothrix</italic> spp. and <italic>Leishmania</italic> spp. by conventional PCR and qPCR in multiplex format. Med Mycol. 2014;53: 22-7. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1093/mmy/myu065">https://doi.or/10.1093/mmy/myu065</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez-Brito</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Camacho</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Mendoza</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Niño Vega</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>Differential identification of Sporothrix spp. and Leishmania spp. by conventional PCR and qPCR in multiplex format</article-title>
+					<source>Med Mycol</source>
+					<year>2014</year>
+					<volume>53</volume>
+					<fpage>22</fpage>
+					<lpage>27</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1093/mmy/myu065">https://doi.or/10.1093/mmy/myu065</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Fernández OL, Díaz-Toro Y, Ovalle C, Valderrama L, Muvdi S, Rodríguez I, et al. Miltefosine and antimonial drug susceptibility of <italic>Leishmania viannia</italic> species and populations in regions of high transmission in Colombia. PLoS Negl Trop Dis. 2014;8:e2871. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1371/journal.pntd.0002871">https://doi.or/10.1371/journal.pntd.0002871</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernández</surname>
+							<given-names>OL</given-names>
+						</name>
+						<name>
+							<surname>Díaz-Toro</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ovalle</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Valderrama</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Muvdi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Miltefosine and antimonial drug susceptibility of Leishmania viannia species and populations in regions of high transmission in Colombia</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2014</year>
+					<volume>8</volume>
+					<elocation-id>e2871</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1371/journal.pntd.0002871">https://doi.or/10.1371/journal.pntd.0002871</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Aït-Oudhia K, Gazanion E, Vergnes B, Oury B, Sereno D. Leishmania antimony resistance: What we know what we can learn from the field. Parasitol Res. 2011;109: 122532.<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1007/s00436-011-2555-5">https://doi.or/10.1007/s00436-011-2555-5</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aït-Oudhia</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Gazanion</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vergnes</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Oury</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Sereno</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Leishmania antimony resistance: What we know what we can learn from the field</article-title>
+					<source>Parasitol Res</source>
+					<year>2011</year>
+					<volume>109</volume>
+					<fpage>122532</fpage>
+					<lpage>122532</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1007/s00436-011-2555-5">https://doi.or/10.1007/s00436-011-2555-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Tuon F, Amato V, Graf M, Siqueira A. Treatment of New World cutaneous leishmaniasis -a systematic review with a meta-analysis. Int J Dermatol. 2008;47:109-24. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1111/j.1365-4632.2008.03417.x">https://doi.or/10.1111/j.1365-4632.2008.03417.x</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tuon</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Amato</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Graf</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Siqueira</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Treatment of New World cutaneous leishmaniasis -a systematic review with a meta-analysis</article-title>
+					<source>Int J Dermatol</source>
+					<year>2008</year>
+					<volume>47</volume>
+					<fpage>109</fpage>
+					<lpage>124</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1111/j.1365-4632.2008.03417.x">https://doi.or/10.1111/j.1365-4632.2008.03417.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Van der Auwera G, Dujardina JC. Species typing in dermal leishmaniasis. Clin Microbiol Rev. 2015;28:265-94.<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/CMR.00104-14">https://doi.or/10.1128/CMR.00104-14</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Van der Auwera</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Dujardina</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Species typing in dermal leishmaniasis</article-title>
+					<source>Clin Microbiol Rev</source>
+					<year>2015</year>
+					<volume>28</volume>
+					<fpage>265</fpage>
+					<lpage>294</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/CMR.00104-14">https://doi.or/10.1128/CMR.00104-14</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Goto H, Lindoso JA. Current diagnosis and treatment of cutaneous and mucocutaneous leishmaniasis. Expert Rev Anti Infect Ther. 2010;8:419-33. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1586/eri.10.19">https://doi.or/10.1586/eri.10.19</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goto</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lindoso</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Current diagnosis and treatment of cutaneous and mucocutaneous leishmaniasis</article-title>
+					<source>Expert Rev Anti Infect Ther</source>
+					<year>2010</year>
+					<volume>8</volume>
+					<fpage>419</fpage>
+					<lpage>433</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1586/eri.10.19">https://doi.or/10.1586/eri.10.19</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ben Abda I, De Monbrison F, Bousslimi N, Aoun K, Bouratbine A, Picot S. Advantages and limits of realtime PCR assay and PCR-restriction fragment length polymorphism for the identification of cutaneous <italic>Leishmania</italic> species in Tunisia. Trans R Soc Trop Med Hyg. 2011;105:17-22. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.trstmh.2010.09.003">https://doi.or/10.1016/j.trstmh.2010.09.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ben Abda</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>De Monbrison</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bousslimi</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Aoun</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Bouratbine</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Picot</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Advantages and limits of realtime PCR assay and PCR-restriction fragment length polymorphism for the identification of cutaneous Leishmania species in Tunisia</article-title>
+					<source>Trans R Soc Trop Med Hyg</source>
+					<year>2011</year>
+					<volume>105</volume>
+					<fpage>17</fpage>
+					<lpage>22</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.trstmh.2010.09.003">https://doi.or/10.1016/j.trstmh.2010.09.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Montalvo AM, Fraga J, Maes I, Dujardin J-C, Van Der Auwera G. Three new sensitive and specific heat-shock protein 70 PCRs for global <italic>Leishmania</italic> species identification. Eur J Clin Microbiol Infect Dis. 2012;31:1453-61. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1007/s10096-011-1463-z">https://doi.or/10.1007/s10096-011-1463-z</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montalvo</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Fraga</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Maes</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Dujardin</surname>
+							<given-names>J-C</given-names>
+						</name>
+						<name>
+							<surname>Van Der Auwera</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Three new sensitive and specific heat-shock protein 70 PCRs for global Leishmania species identification</article-title>
+					<source>Eur J Clin Microbiol Infect Dis</source>
+					<year>2012</year>
+					<volume>31</volume>
+					<fpage>1453</fpage>
+					<lpage>1461</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1007/s10096-011-1463-z">https://doi.or/10.1007/s10096-011-1463-z</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. González-Marcano E, Kato H, Concepción JL, Márquez ME, Mondolfi AP. Polymerase chain reaction diagnosis of leishmaniasis: A species-specific approach. Methods Mol Biol. 2016;1392:113-24. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1007/978-1-49393360-0_11">https://doi.or/10.1007/978-1-49393360-0_11</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González-Marcano</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Kato</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Concepción</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Márquez</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Mondolfi</surname>
+							<given-names>AP</given-names>
+						</name>
+					</person-group>
+					<article-title>Polymerase chain reaction diagnosis of leishmaniasis: A species-specific approach</article-title>
+					<source>Methods Mol Biol</source>
+					<year>2016</year>
+					<volume>1392</volume>
+					<fpage>113</fpage>
+					<lpage>124</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1007/978-1-49393360-0_11">https://doi.or/10.1007/978-1-49393360-0_11</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Monroy-Ostria A, Nasereddin A, Monteon VM, Guzmán Bracho C, Jaffe CL. ITS1 PCR-RFLP diagnosis and characterization of leishmania in clinical samples and strains from cases of human cutaneous leishmaniasis in states of the Mexican Southeast. Interdiscip Perspect Infect Dis. 2014;2014:607287. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1155/2014/607287">https://doi.or/10.1155/2014/607287</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monroy-Ostria</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nasereddin</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Monteon</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Guzmán Bracho</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Jaffe</surname>
+							<given-names>CL</given-names>
+						</name>
+					</person-group>
+					<article-title>ITS1 PCR-RFLP diagnosis and characterization of leishmania in clinical samples and strains from cases of human cutaneous leishmaniasis in states of the Mexican Southeast</article-title>
+					<source>Interdiscip Perspect Infect Dis</source>
+					<year>2014</year>
+					<volume>2014</volume>
+					<fpage>607287</fpage>
+					<lpage>607287</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1155/2014/607287">https://doi.or/10.1155/2014/607287</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Ivens AC, Peacock CS, Worthey EA, Murphy L, Aggarwal G, Berriman M, et al. The genome of the kinetoplastid parasite, <italic>Leishmania major</italic>. Science. 2005;309:436-42. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1126/science.1112680">https://doi.or/10.1126/science.1112680</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ivens</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Peacock</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Worthey</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Murphy</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Aggarwal</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Berriman</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The genome of the kinetoplastid parasite, Leishmania major</article-title>
+					<source>Science</source>
+					<year>2005</year>
+					<volume>309</volume>
+					<fpage>436</fpage>
+					<lpage>442</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1126/science.1112680">https://doi.or/10.1126/science.1112680</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Parsons M, Worthey EA, Ward PN, Mottram JC. Comparative analysis of the kinomes of three pathogenic trypanosomatids: <italic>Leishmania major, Trypanosoma brucei</italic> and <italic>Trypanosoma cruzi</italic>. BMC Genomics. 2005;6:127. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/1471-2164-6-12">https://doi.or/10.1186/1471-2164-6-12</ext-link>7</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Parsons</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Worthey</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Ward</surname>
+							<given-names>PN</given-names>
+						</name>
+						<name>
+							<surname>Mottram</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparative analysis of the kinomes of three pathogenic trypanosomatids: Leishmania major, Trypanosoma brucei and Trypanosoma cruzi</article-title>
+					<source>BMC Genomics</source>
+					<year>2005</year>
+					<volume>6</volume>
+					<fpage>127</fpage>
+					<lpage>127</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/1471-2164-6-12">https://doi.or/10.1186/1471-2164-6-12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Kurtz S, Phillippy A, Delcher AL, Smoot M, Shumway M, Antonescu C, et al. Versatile and open software for comparing large genomes. Genome Biol. 2004;5:R12. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/gb-2004-5-2-r12">https://doi.or/10.1186/gb-2004-5-2-r12</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kurtz</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Phillippy</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Delcher</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Smoot</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shumway</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Antonescu</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Versatile and open software for comparing large genomes</article-title>
+					<source>Genome Biol</source>
+					<year>2004</year>
+					<volume>5</volume>
+					<fpage>R12</fpage>
+					<lpage>R12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/gb-2004-5-2-r12">https://doi.or/10.1186/gb-2004-5-2-r12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Clark JM, Joyce CM, Beardsley GP. Novel blunt-end addition reactions catalyzed by DNA polymerase I of <italic>Escherichia coli</italic>. J Mol Biol. 1987;198:123-7. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/0022-2836(87)90462-1">https://doi.or/10.1016/0022-2836(87)90462-1</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Clark</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Joyce</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Beardsley</surname>
+							<given-names>GP</given-names>
+						</name>
+					</person-group>
+					<article-title>Novel blunt-end addition reactions catalyzed by DNA polymerase I of Escherichia coli</article-title>
+					<source>J Mol Biol</source>
+					<year>1987</year>
+					<volume>198</volume>
+					<fpage>123</fpage>
+					<lpage>127</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/0022-2836(87)90462-1">https://doi.or/10.1016/0022-2836(87)90462-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Montalvo AM, Fraga J, Monzote L, Montano I, De Doncker S, Dujardin JC, et al. Heat-shock protein 70 PCR-RFLP: A universal simple tool for <italic>Leishmania</italic> species discrimination in the New and Old World. Parasitology. 2010;137:1159-68. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1017/S0031182010000089">https://doi.or/10.1017/S0031182010000089</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montalvo</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Fraga</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Monzote</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Montano</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>De Doncker</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Dujardin</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Heat-shock protein 70 PCR-RFLP: A universal simple tool for Leishmania species discrimination in the New and Old World</article-title>
+					<source>Parasitology</source>
+					<year>2010</year>
+					<volume>137</volume>
+					<fpage>1159</fpage>
+					<lpage>1168</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1017/S0031182010000089">https://doi.or/10.1017/S0031182010000089</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Montalvo AM, Fraga J, El Safi S, Gramiccia M, Jaffe CL, Dujardin JC, et al. Direct <italic>Leishmania</italic> species typing in Old World clinical samples: Evaluation of 3 sensitive methods based on the heat-shock protein 70 gene. Diagn Microbiol Infect Dis. 2014;80:35-9. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.diagmicrobio.2014.05.012">https://doi.or/10.1016/j.diagmicrobio.2014.05.012</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montalvo</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Fraga</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>El Safi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Gramiccia</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Jaffe</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Dujardin</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Direct Leishmania species typing in Old World clinical samples: Evaluation of 3 sensitive methods based on the heat-shock protein 70 gene</article-title>
+					<source>Diagn Microbiol Infect Dis</source>
+					<year>2014</year>
+					<volume>80</volume>
+					<fpage>35</fpage>
+					<lpage>39</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.diagmicrobio.2014.05.012">https://doi.or/10.1016/j.diagmicrobio.2014.05.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Cruz-Barrera ML, Ovalle-Bracho C, Ortegon-Vergara V, Pérez-Franco JE, Echeverry MC. Improving <italic>Leishmania</italic> species identification in different types of samples from cutaneous lesions. J Clin Microbiol. 2015;53:1339-41. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/JCM.02955-14">https://doi.or/10.1128/JCM.02955-14</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cruz-Barrera</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Ovalle-Bracho</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ortegon-Vergara</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Pérez-Franco</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Echeverry</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Improving Leishmania species identification in different types of samples from cutaneous lesions</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2015</year>
+					<volume>53</volume>
+					<fpage>1339</fpage>
+					<lpage>1341</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/JCM.02955-14">https://doi.or/10.1128/JCM.02955-14</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Bangdiwala SI, Haedo AS, Natal ML, Villaveces A. The agreement chart as an alternative to the receiveroperating characteristic curve for diagnostic tests. J Clin Epidemiol. 2008;61:866-74. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.jclinepi.2008.04.002">https://doi.or/10.1016/j.jclinepi.2008.04.002</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bangdiwala</surname>
+							<given-names>SI</given-names>
+						</name>
+						<name>
+							<surname>Haedo</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Natal</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Villaveces</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>The agreement chart as an alternative to the receiveroperating characteristic curve for diagnostic tests</article-title>
+					<source>J Clin Epidemiol</source>
+					<year>2008</year>
+					<volume>61</volume>
+					<fpage>866</fpage>
+					<lpage>874</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.jclinepi.2008.04.002">https://doi.or/10.1016/j.jclinepi.2008.04.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Simel DL, Samsa GP, Matchar DB. Likelihood ratios with confidence: Sample size estimation for diagnostic test studies. J Clin Epidemiol. 1991;44:763-70. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/0895-4356(91)90128-V">https://doi.or/10.1016/0895-4356(91)90128-V</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Simel</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Samsa</surname>
+							<given-names>GP</given-names>
+						</name>
+						<name>
+							<surname>Matchar</surname>
+							<given-names>DB</given-names>
+						</name>
+					</person-group>
+					<article-title>Likelihood ratios with confidence: Sample size estimation for diagnostic test studies</article-title>
+					<source>J Clin Epidemiol</source>
+					<year>1991</year>
+					<volume>44</volume>
+					<fpage>763</fpage>
+					<lpage>770</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/0895-4356(91)90128-V">https://doi.or/10.1016/0895-4356(91)90128-V</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Murray HW, Berman JD, Davies CR, Saravia NG. Advances in leishmaniasis. Lancet. 2005;366:1561-77. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/S0140-6736(05)67629-5">https://doi.or/10.1016/S0140-6736(05)67629-5</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murray</surname>
+							<given-names>HW</given-names>
+						</name>
+						<name>
+							<surname>Berman</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Davies</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Saravia</surname>
+							<given-names>NG</given-names>
+						</name>
+					</person-group>
+					<article-title>Advances in leishmaniasis</article-title>
+					<source>Lancet</source>
+					<year>2005</year>
+					<volume>366</volume>
+					<fpage>1561</fpage>
+					<lpage>1577</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/S0140-6736(05)67629-5">https://doi.or/10.1016/S0140-6736(05)67629-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Ponce C, Ponce E, Cruz A, Kreutzer R, McMahon-Pratt D, Neva F. <italic>Leishmania donovani</italic> chagasi: New clinical variant of cutaneous leishmaniasis in Honduras. Lancet. 1991;337:67-70.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ponce</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ponce</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Cruz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kreutzer</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>McMahon-Pratt</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Neva</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Leishmania donovani chagasi: New clinical variant of cutaneous leishmaniasis in Honduras</article-title>
+					<source>Lancet</source>
+					<year>1991</year>
+					<volume>337</volume>
+					<fpage>67</fpage>
+					<lpage>70</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Kebede N, Oghumu S, Worku A, Hailu A, Varikuti S, Satoskar AR. Multilocus microsatellite signature and identification of specific molecular markers for <italic>Leishmania aethiopica</italic>. Parasit Vectors. 2013;6:160. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/1756-3305-6-160">https://doi.or/10.1186/1756-3305-6-160</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kebede</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Oghumu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Worku</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hailu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Varikuti</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Satoskar</surname>
+							<given-names>AR</given-names>
+						</name>
+					</person-group>
+					<article-title>Multilocus microsatellite signature and identification of specific molecular markers for Leishmania aethiopica</article-title>
+					<source>Parasit Vectors</source>
+					<year>2013</year>
+					<volume>6</volume>
+					<fpage>160</fpage>
+					<lpage>160</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/1756-3305-6-160">https://doi.or/10.1186/1756-3305-6-160</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Leelayoova S, Siripattanapipong S, Hitakarun A, Kato H, Tan-ariya P, Siriyasatien P, et al. Multilocus characterization and phylogenetic analysis of <italic>Leishmania siamensis</italic> isolated from autochthonous visceral leishmaniasis cases, southern Thailand. BMC Microbiol. 2013;13:60. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/1471-2180-13-60">https://doi.or/10.1186/1471-2180-13-60</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leelayoova</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Siripattanapipong</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hitakarun</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kato</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tan-ariya</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Siriyasatien</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Multilocus characterization and phylogenetic analysis of Leishmania siamensis isolated from autochthonous visceral leishmaniasis cases, southern Thailand</article-title>
+					<source>BMC Microbiol</source>
+					<year>2013</year>
+					<volume>13</volume>
+					<fpage>60</fpage>
+					<lpage>60</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1186/1471-2180-13-60">https://doi.or/10.1186/1471-2180-13-60</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Bhattacharyya R, Das K, Sen S, Roy S, Majumder HK. Development of a genus specific primer set for detection of <italic>Leishmania</italic> parasites by polymerase chain reaction. FEMS Microbiol Lett. 1996;135:195-200.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bhattacharyya</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Das</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Sen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Roy</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Majumder</surname>
+							<given-names>HK</given-names>
+						</name>
+					</person-group>
+					<article-title>Development of a genus specific primer set for detection of Leishmania parasites by polymerase chain reaction</article-title>
+					<source>FEMS Microbiol Lett</source>
+					<year>1996</year>
+					<volume>135</volume>
+					<fpage>195</fpage>
+					<lpage>200</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Mathis A, Deplazes P. PCR and <italic>in vitro</italic> cultivation for detection of Leishmania spp. in diagnostic samples from humans and dogs. J Clin Microbiol. 1995;33:1145-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mathis</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Deplazes</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>PCR and in vitro cultivation for detection of Leishmania spp. in diagnostic samples from humans and dogs</article-title>
+					<source>J Clin Microbiol</source>
+					<year>1995</year>
+					<volume>33</volume>
+					<fpage>1145</fpage>
+					<lpage>1149</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Cavalcanti MD, Dantas-Torres F, de Albuquerque SDG, de Morais RC, de Brito ME, Otranto D, et al. Quantitative real time PCR assays for the detection of <italic>Leishmania (Viannia) braziliensis</italic> in animals and humans. Mol Cell Probes. 2013;27:122-8. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.mcp.2013.01.003">https://doi.or/10.1016/j.mcp.2013.01.003</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cavalcanti</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Dantas-Torres</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>de Albuquerque</surname>
+							<given-names>SDG</given-names>
+						</name>
+						<name>
+							<surname>de Morais</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>de Brito</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Otranto</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Quantitative real time PCR assays for the detection of Leishmania (Viannia) braziliensis in animals and humans</article-title>
+					<source>Mol Cell Probes</source>
+					<year>2013</year>
+					<volume>27</volume>
+					<fpage>122</fpage>
+					<lpage>128</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1016/j.mcp.2013.01.003">https://doi.or/10.1016/j.mcp.2013.01.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Liew M, Nelson L, Margraf R, Mitchell S, Erali M, Mao R, et al. Genotyping of human platelet antigens 1 to 6 and 15 by high-resolution amplicon melting and conventional hybridization probes. J Mol Diagn. 2006;8:97-104. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.2353/jmoldx.2006.050053">https://doi.or/10.2353/jmoldx.2006.050053</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liew</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Nelson</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Margraf</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mitchell</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Erali</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mao</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genotyping of human platelet antigens 1 to 6 and 15 by high-resolution amplicon melting and conventional hybridization probes</article-title>
+					<source>J Mol Diagn</source>
+					<year>2006</year>
+					<volume>8</volume>
+					<fpage>97</fpage>
+					<lpage>104</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.2353/jmoldx.2006.050053">https://doi.or/10.2353/jmoldx.2006.050053</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Tsukayama P, Núñez JH, De Los Santos M, Soberón V, Lucas CM, Matlashewski G, et al. A FRET-Based RealTime PCR assay to identify the main causal agents of New World tegumentary leishmaniasis. PLoS Negl Trop Dis. 2013;7:21956. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1371/journal.pntd.0001956">https://doi.or/10.1371/journal.pntd.0001956</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tsukayama</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Núñez</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>De Los Santos</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Soberón</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Lucas</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Matlashewski</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A FRET-Based RealTime PCR assay to identify the main causal agents of New World tegumentary leishmaniasis</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2013</year>
+					<volume>7</volume>
+					<fpage>21956</fpage>
+					<lpage>21956</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1371/journal.pntd.0001956">https://doi.or/10.1371/journal.pntd.0001956</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Chiaramonte MG, Zwirner NW, Caropresi SL, Taranto NJ, Malchiodi EL. <italic>Trypanosoma cruzi</italic> and <italic>Leishmania</italic> spp. human mixed infection. Am J Trop Med Hyg. 1996;54:271-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.1996.54.271">https://doi.org/10.4269/ajtmh.1996.54.271</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chiaramonte</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Zwirner</surname>
+							<given-names>NW</given-names>
+						</name>
+						<name>
+							<surname>Caropresi</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Taranto</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Malchiodi</surname>
+							<given-names>EL</given-names>
+						</name>
+					</person-group>
+					<article-title>Trypanosoma cruzi and Leishmania spp. human mixed infection</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>1996</year>
+					<volume>54</volume>
+					<fpage>271</fpage>
+					<lpage>273</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.1996.54.271">https://doi.org/10.4269/ajtmh.1996.54.271</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Saldarriaga OA, Castellanos-González A, Porrozzi R, Baldeviano GC, Lescano AG, de Los Santos MB, et al. An innovative field-applicable molecular test to diagnose cutaneous <italic>Leishmania viannia</italic> spp. infections. PLoS Negl Trop Dis. 2016;10:e0004638. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1371/journal.pntd.0004638">https://doi.or/10.1371/journal.pntd.0004638</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saldarriaga</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Castellanos-González</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Porrozzi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Baldeviano</surname>
+							<given-names>GC</given-names>
+						</name>
+						<name>
+							<surname>Lescano</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>de Los Santos</surname>
+							<given-names>MB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>An innovative field-applicable molecular test to diagnose cutaneous Leishmania viannia spp. infections</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2016</year>
+					<volume>10</volume>
+					<elocation-id>e0004638</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1371/journal.pntd.0004638">https://doi.or/10.1371/journal.pntd.0004638</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Mary C, Faraut F, Lascombe L, Dumon H. Quantification of <italic>Leishmania infantum</italic> DNA by a real-time PCR assay with high sensitivity. J Clin Microbiol. 2004;42:5249-55. <ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/JCM.42.11.5249-5255.2004">https://doi.or/10.1128/JCM.42.11.5249-5255.2004</ext-link></mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mary</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Faraut</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lascombe</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Dumon</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Quantification of Leishmania infantum DNA by a real-time PCR assay with high sensitivity</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2004</year>
+					<volume>42</volume>
+					<fpage>5249</fpage>
+					<lpage>5255</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.or/10.1128/JCM.42.11.5249-5255.2004">https://doi.or/10.1128/JCM.42.11.5249-5255.2004</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="supported-by" id="fn2">
+				<p>Financiación Este trabajo fue financiado por Colciencias (proyecto 111551929249) y por la Universidad de Antioquia.</p>
+			</fn>
+		</fn-group>
+		<app-group>
+			<app id="app1">
+				<label>Figura suplementaria 1</label>
+				<p>
+					<fig id="f5">
+						<label>Figura suplementaria</label>
+						<caption>
+							<title>1. Geles representativos de algunos de los marcadores utilizados para Diferenciar las tres especies de <italic>Leishmania</italic> del subgénero <italic>Viannia</italic>. MO1 y MO2: marcadores específicos para <italic>L. major;</italic> Pan02, Pan041, Pan17 y Pan19: marcadores específicos de <italic>L. panamensis;</italic> CN: control negativo; LM: ADN genómico de <italic>L. major</italic>; TC: <italic>T. cruzi</italic>; LP: <italic>L. panamensis</italic></title>
+						</caption>
+						<graphic xlink:href="0120-4157-bio-37-04-00538-gf5.jpg"/>
+					</fig>
+				</p>
+			</app>
+		</app-group>
+	</back>
+</article>

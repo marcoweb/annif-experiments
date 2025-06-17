@@ -1,0 +1,2349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<issn pub-type="epub">2590-7379</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00017</article-id>
+			<article-id pub-id-type="doi">10.7705/biomedica.5417</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Caracterización molecular y fenotípica de aislamientos clínicos de <italic>Salmonella</italic> Typhimurium variante monofásica (1,4,[5],12:i:-) recuperados en Colombia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Molecular and phenotypic characterization of <italic>Salmonella</italic> Typhimurium monophasic variant (1,4,[5],12:i:-) from Colombian clinical isolates</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cuenca-Arias</surname>
+						<given-names>Paloma</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Montaño</surname>
+						<given-names>Lucy Angeline</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Villarreal</surname>
+						<given-names>José Miguel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Wiesner</surname>
+						<given-names>Magdalena</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Grupo de Microbiología, Subdirección de Investigación Científica y Tecnológica, Dirección de Investigación en Salud Pública, Instituto Nacional de Salud, Bogotá, D.C., Colombia</institution>
+				<institution content-type="orgdiv1">Grupo de Microbiología</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Grupo de Microbiología, Dirección de Redes en Salud Pública, Instituto Nacional de Salud, Bogotá, D. C., Colombia</institution>
+				<institution content-type="orgdiv1">Grupo de Microbiología</institution>
+				<institution content-type="orgname">Instituto Nacional de Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Departamento de Química, Facultad de Ciencias, Universidad Nacional de Colombia, Bogotá, D. C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgdiv2">Departamento de Química</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Grupo de Investigación en Ciencias Biológicas y Químicas, Facultad de Ciencias, Universidad Antonio Nariño, Bogotá, D. C., Colombia</institution>
+				<institution content-type="normalized">Universidad Antonio Nariño</institution>
+				<institution content-type="orgdiv2">Grupo de Investigación en Ciencias Biológicas y Químicas</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias</institution>
+				<institution content-type="orgname">Universidad Antonio Nariño</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá</named-content>
+					<named-content content-type="state">D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Magdalena Wiesner, Grupo de Microbiología, Subdirección de Investigación Científica y Tecnológica, Dirección de Investigación en Salud Pública, Instituto Nacional de Salud, Avenida Calle 26 N° 51-20, CAN, Bogotá, D.C., Colombia Teléfono: (571) 220 7700, extensión 1558 <email>mwiesner@ins.gov.co</email>; <email>mawire@gmail.com</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date pub-type="epub">
+				<day>11</day>
+				<month>12</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date pub-type="collection">-->
+			<pub-date pub-type="epub-ppub">
+				<season>Oct-Dec</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>40</volume>
+			<issue>4</issue>
+			<fpage>722</fpage>
+			<lpage>733</lpage>
+			<history>
+				<date date-type="received">
+					<day>20</day>
+					<month>02</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>07</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>La variante monofásica (1,4,[5],12:i:-) de <italic>Salmonella</italic> Typhimurium ocupa los primeros lugares en los programas de vigilancia de <italic>Salmonella</italic> a nivel mundial. En Colombia, <italic>Salmonella enterica</italic> variante monofásica alcanza el cuarto lugar en cuanto a los aislamientos clínicos recuperados por medio de la vigilancia por laboratorio del Grupo de Microbiología del Instituto Nacional de Salud, pero se desconoce si dichos aislamientos están relacionados con la variante monofásica de Typhimurium que circula a nivel global, y con sus características genéticas y fenotípicas.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Caracterizar los aislamientos de <italic>Salmonella</italic> monofásica recuperados en Colombia entre el 2015 y el 2018 por el Grupo de Microbiología del Instituto Nacional de Salud. </p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Se analizaron 286 aislamientos clínicos de <italic>Salmonella enterica</italic> variante monofásica mediante PCR o secuenciación del genoma completo <italic>(Whole Genome Sequencing,</italic> WGS) para confirmar si correspondían a <italic>Salmonella</italic> Typhimurium variante monofásica, en tanto que, en 54 aislamientos, se determinó la estructura genética del operón que codifica la segunda fase flagelar y, en 23, se evaluó la motilidad, el crecimiento y la expresión de las proteínas de membrana externa.</p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>El 61 % (n=174) de los aislamientos de <italic>Salmonella</italic> monofásica correspondió a <italic>Salmonella</italic> Typhimurium serovar monofásico. El 64,8 % (n=35/54) se relacionó con el clon europeo-español y, el 13 % (n=7/54), con el estadounidense. En dos aislamientos de orina se encontró una diferencia significativa en la motilidad y el crecimiento, así como ausencia de la porina OmpD en medio mínimo M9.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones. </title>
+					<p>En el periodo de estudio, circuló en Colombia la variante monofásica de <italic>Salmonella</italic> Typhimurium relacionada con el clon europeo-español, y se registró ausencia total del operón <italic>fljAB.</italic> Los resultados evidenciaron cambios fenotípicos en los aislamientos provenientes de muestras de orina que sugieren adaptación en procesos invasivos.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction. </title>
+					<p>The <italic>Salmonella</italic> Typhimurium monophasic variant (1,4,[5],12:i:-) is currently the most commonly detected variant in <italic>Salmonella</italic> surveillance programs worldwide. In Colombia, the <italic>Salmonella enterica</italic> monophasic variant is the fourth most common clinical isolate recovered through the laboratory surveillance of the <italic>Grupo de Microbiología</italic> from the <italic>Instituto Nacional de Salud;</italic> however, it is unknown whether these isolates are closely related to the monophasic Typhimurium variant, which circulates globally, and their genetic and phenotypic characteristics have not been reported.</p>
+				</sec>
+				<sec>
+					<title>Objective. </title>
+					<p>To characterize monophasic <italic>Salmonella enterica</italic> isolates identified in Colombia from 2015 to 2018 by the <italic>Instituto Nacional de Salud.</italic></p>
+				</sec>
+				<sec>
+					<title>Materials and methods. </title>
+					<p>Two hundred eighty-six clinical isolates of the monophasic <italic>Salmonella enterica</italic> variant were analyzed by PCR or whole-genome sequencing to confirm whether they corresponded to the <italic>Salmonella</italic> Typhimurium monophasic variant while the genetic structure of the operon encoding the second flagellar phase was determined in 54 isolates. Motility, growth, and expression of the outer membrane proteins were evaluated in 23 isolates.</p>
+				</sec>
+				<sec>
+					<title>Results. </title>
+					<p>During the study period in Colombia, 61% (n=174) of <italic>Salmonella</italic> monophasic isolates belonged to <italic>Salmonella</italic> Typhimurium serovar monophasic (1,4,[5],12:i-). Of these, 64.8% (n=35/54) were related to the European/Spanish clone and 13% (n=7/54) to the U.S. clone. Two isolates recovered from urine samples showed differences in motility, growth, and the absence of the OmpD porin in M9 minimal medium.</p>
+				</sec>
+				<sec>
+					<title>Conclusions. </title>
+					<p>Most of the monophasic <italic>Salmonella</italic> Typhimurium variants that have circulated in Colombia since 2015 lacked the second phase of operon <italic>fljAB,</italic> which is related to the European/Spanish clone. The results evidenced phenotypic changes in urine samples suggesting bacterial adaptation in the case of these invasive samples.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd><italic>Salmonella</italic> Typhimurium</kwd>
+				<kwd>porinas</kwd>
+				<kwd>flagelos</kwd>
+				<kwd>vigilancia</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd><italic>Salmonella</italic> Typhimurium</kwd>
+				<kwd>porins</kwd>
+				<kwd>flagella</kwd>
+				<kwd>surveillance</kwd>
+				<kwd>Colombia</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="46"/>
+				<page-count count="12"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p><italic>Salmonella</italic> spp. es una de las principales causas de enfermedad diarreica a nivel global; según la Organización Mundial de la Salud (OMS), una de cada diez personas adquiere este agente patógeno por el consumo de agua o comida contaminadas y anualmente se reportan más de 550 millones de casos <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>La clasificación de <italic>Salmonella</italic> spp. se hace con el método de serotipificación siguiendo el esquema de Kauffmann-White-Le Minor, que identifica los antígenos presentes en la superficie bacteriana, como el lipopolisacárido (antígeno somático O), las proteínas flagelares (antígeno H) y las capsulares (antígeno K) <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. La mayoría de los serovares de <italic>Salmonella</italic> spp. son móviles debido a las proteínas flagelares que están codificadas por dos genes cromosómicos diferentes, el <italic>fliC</italic> para la primera fase y el <italic>fljB</italic> para la segunda, los cuales se expresan de manera alternada mediante el mecanismo de variación de fase flagelar. La responsable de este mecanismo es la unidad genética del operón fljAB, compuesta por la enzima ADN invertasa hin, que actúa como un interruptor molecular, seguida del gen <italic>fljA,</italic> que codifica un regulador negativo inhibidor de la expresión de la primera fase flagelar <italic>(fliC),</italic> y el gen <italic>fljB,</italic> que expresa la proteína flagelar de la fase dos <xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Estos serovares son bifásicos, es decir, son capaces de expresar ambos genes flagelares.</p>
+		<p><italic>Salmonella enterica,</italic> subespecie <italic>enterica</italic> serovar Typhimurium (Typhimurium), es el principal serotipo a nivel mundial proveniente de muestras clínicas. La serotipificación de este serovar bifásico incluye el reconocimiento de las dos fases flagelares y su fórmula antigénica 1,4,[5],12:i:1,2. Sin embargo, en Europa y Estados Unidos, la variante de Typhimurium monofásica-STVM (1,[4],5,12:i:-), que se asocia con multirresistencia y no expresa la segunda fase flagelar, se cuenta entre las más frecuentemente recuperadas en los aislamientos clínicos <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. Dado que en la serotipificación solo se identifican las proteínas expresadas, estos aislamientos suelen clasificarse inicialmente como S. <italic>enterica</italic> subsp. <italic>enterica</italic> serovar (1,4,[5],12:i:-), o serovar monofásico, por lo que la confirmación de la variante STVM puede hacerse únicamente mediante técnicas moleculares como la PCR o la secuenciación de genoma completo.</p>
+		<p>En los informes internacionales, y mediante análisis filogenéticos, se han identificado varios clones de STVM con diferentes mecanismos de resistencia, perfiles de electroforesis en gel de campo pulsado (PFGE) y patrones de análisis de repetición en tándem de un número variable de múltiples locus <xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, que se caracterizan por la pérdida de regiones genéticas a lo largo del cromosoma bacteriano o por la adquisición de elementos de resistencia a antibióticos y metales pesados, lo que sugiere la aparición de la STVM por medio de eventos independientes <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Entre ellos, se destacan tres clones descritos por Soyer, <italic>et al.</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>: el clon europeo y el clon español, que son multirresistentes y carecen por completo del operón <italic>fljAB,</italic> pero difieren en el tipo de &quot;secuenciotipo&quot; ST34 y ST19, la ausencia y la presencia del gen <italic>iroB</italic> y el plásmido de virulencia de <italic>Salmonella,</italic> respectivamente, y el clon estadounidense, el cual es sensible a los antibióticos y conserva los genes <italic>hin</italic> e <italic>iroB.</italic></p>
+		<p>Actualmente, el clon europeo es el predominante a nivel global. Todos los clones presentan grandes deleciones en el contenido del genoma. Además de estos clones reportados a nivel internacional, se han descrito clones endémicos en países como Bélgica, Japón y Estados Unidos, los cuales exhiben otros arreglos de genes en el operón <italic>fljAB</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. En Colombia, predomina el serovar Typhimurium según los resultados obtenidos por el Programa de Vigilancia por el Laboratorio de la Enfermedad Diarreica Aguda del Grupo de Microbiología del Instituto Nacional de Salud <xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref> utilizando el esquema de Kauffmann-White-Le Minor <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>Entre el 2015 y el 2017, el serovar identificado como <italic>Salmonella enterica</italic> subsp. <italic>enterica</italic> serovar (1,4,[5],12:i:-) se ubicó en el cuarto lugar de la vigilancia, con 180 aislamientos del total de 12.055. Mediante la caracterización genómica de 209 aislamientos colombianos de Typhimurium recuperados de hemocultivos, se confirmó que 16 de ellos, recuperados entre el 2015 y el 2016 y clasificados como serovar monofásico (1,4,[5],12:i:-), pertenecían a la variante STVM <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, aunque solo representaron, aproximadamente, el 9 % de los aislamientos monofásicos recuperados en el país.</p>
+		<p>Dado el rápido y reciente incremento de este serovar a nivel mundial y local, es importante confirmar si el total de aislamientos colombianos pertenecen a la variante STVM, con el fin de estar alerta ante un posible reemplazo de serovar. El objetivo del presente estudio fue confirmar si los aislamientos de S. <italic>enterica</italic> subsp. <italic>enterica</italic> serovar (1,4,[5],12:i:-) recuperados en el país durante el periodo de estudio correspondían a la STVM y a los clones ampliamente distribuidos, utilizando las pruebas de PCR, secuenciación de genoma completo <italic>(Whole Genome Sequencing,</italic> WGS), el fenotipo de crecimiento y los ensayos de motilidad.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Aislamientos clínicos</italic></title>
+				<p>Se analizaron 286 aislamientos clínicos de S. <italic>enterica</italic> subsp. <italic>enterica</italic> serovar (1,4,[5],12:i:-) recuperados de muestras de materia fecal (n=133), hemocultivo (n=105), orina (n=19), otras muestras (n=18) y aquellas sin datos (n=11) entre el 2015 y el 2018 por medio de la vigilancia por el laboratorio de la enfermedad diarreica aguda que se lleva a cabo en el Instituto Nacional de Salud (<xref ref-type="table" rid="t1">cuadro 1</xref>).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Total de aislamientos de <italic>Salmonella</italic> Typhimurium variante monofásica (1,4,[5],12:i:-), aislamientos positivos para el serovar STVM y porcentaje por año en Colombia</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Año</th>
+									<th align="center">n</th>
+									<th align="center"><bold>Positivas <italic>fliAB</italic>
+</bold></th>
+									<th align="center">(%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">2015</td>
+									<td align="center">58</td>
+									<td align="center">41</td>
+									<td align="center">70,7</td>
+								</tr>
+								<tr>
+									<td align="left">2016</td>
+									<td align="center">72</td>
+									<td align="center">38</td>
+									<td align="center">52,8</td>
+								</tr>
+								<tr>
+									<td align="left">2017</td>
+									<td align="center">52</td>
+									<td align="center">34</td>
+									<td align="center">65,4</td>
+								</tr>
+								<tr>
+									<td align="left">2018</td>
+									<td align="center">104</td>
+									<td align="center">61</td>
+									<td align="center">58,7</td>
+								</tr>
+								<tr>
+									<td align="left">Total</td>
+									<td align="center">286</td>
+									<td align="center">174</td>
+									<td align="center">60,8</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>La serotipificación se realizó siguiendo el esquema de Kauffman-White-Le Minor <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. La sensibilidad antimicrobiana se evaluó frente a ampicilina, ceftazidima, trimetoprim-sulfametoxazol, cefotaxima, cloranfenicol, tetraciclina y ácido nalidíxico mediante la técnica de difusión en disco de Kirby-Bauer y métodos semiautomatizados VITEK™, siguiendo las guías del <italic>Clinical and Laboratory Standards Intitute</italic> (CLSI) <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+				<p>Para las pruebas de PCR, el ADN total se extrajo con el método de ebullición en 272 aislamientos <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. En los restantes 14 aislamientos, se secuenció genoma completo como parte del proyecto &quot;10,000 <italic>Salmonella</italic> Genomes&quot; mediante extracción con el paquete MagAttract™ (Qiagen), y la secuenciación con Illumina HiSeq4000™. Los números de acceso <italic>(Sequence Read Archive Accession Numbers)</italic> de los aislamientos se presentan en el <xref ref-type="table" rid="t2">cuadro 2</xref>
+					<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Se utilizó Typhimurium ATCC 14028 como cepa de referencia <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Aislamientos de <italic>Salmonella</italic> Typhimurium variante monofásica-STVM (1,4,[5],12:i:-) (n=23) seleccionados para curvas de crecimiento, pruebas de motilidad y expresión de OMP</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center">Código</th>
+									<th align="center">Año</th>
+									<th align="center">Muestra</th>
+									<th align="center">Resistencia</th>
+									<th align="center">Linaje clonal</th>
+									<th align="center">Número de acceso SRA</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center">1</td>
+									<td align="center">2015</td>
+									<td align="center">Materia fecal</td>
+									<td align="center">TET</td>
+									<td align="center">Inconsistente</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">2</td>
+									<td align="center">2015</td>
+									<td align="center">Materia fecal</td>
+									<td align="center">TET</td>
+									<td align="center">Variante atípica</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">3</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL, NAL</td>
+									<td align="center">Variante atípica</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">4</td>
+									<td align="center">2016</td>
+									<td align="center">Materia fecal</td>
+									<td align="center">TET</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">5</td>
+									<td align="center">2016</td>
+									<td align="center">Materia fecal</td>
+									<td align="center">TET, CHL, SXT, AMP</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">6</td>
+									<td align="center">2017</td>
+									<td align="center">Materia fecal</td>
+									<td align="center">TET, CHL, AMP</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">7</td>
+									<td align="center">2017</td>
+									<td align="center">Orina</td>
+									<td align="center">Sensible</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">8</td>
+									<td align="center">2018</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">CTX, CAZ</td>
+									<td align="center">Estados Unidos</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">9</td>
+									<td align="center">2018</td>
+									<td align="center">Orina</td>
+									<td align="center">TET, NAL, AMP</td>
+									<td align="center">Estados Unidos</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">10</td>
+									<td align="center">2015</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL, NAL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740456</td>
+								</tr>
+								<tr>
+									<td align="center">11</td>
+									<td align="center">2015</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL, NAL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740455</td>
+								</tr>
+								<tr>
+									<td align="center">12</td>
+									<td align="center">2015</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL, NAL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740452</td>
+								</tr>
+								<tr>
+									<td align="center">13</td>
+									<td align="center">2015</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL, NAL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740488</td>
+								</tr>
+								<tr>
+									<td align="center">14</td>
+									<td align="center">2015</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, NAL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740487</td>
+								</tr>
+								<tr>
+									<td align="center">15</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740503</td>
+								</tr>
+								<tr>
+									<td align="center">16</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL</td>
+									<td align="center">Estados Unidos</td>
+									<td align="center">SRR8740534</td>
+								</tr>
+								<tr>
+									<td align="center">17</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">18</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL, AMP</td>
+									<td align="center">Estados Unidos</td>
+									<td align="center">SRR8740536</td>
+								</tr>
+								<tr>
+									<td align="center">19</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">20</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, CHL</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">No aplica.</td>
+								</tr>
+								<tr>
+									<td align="center">21</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">Sensible</td>
+									<td align="center">Estados Unidos</td>
+									<td align="center">SRR8740431</td>
+								</tr>
+								<tr>
+									<td align="center">22</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, AMP</td>
+									<td align="center">Estados Unidos</td>
+									<td align="center">SRR8740430</td>
+								</tr>
+								<tr>
+									<td align="center">23</td>
+									<td align="center">2016</td>
+									<td align="center">Hemocultivo</td>
+									<td align="center">TET, AMP</td>
+									<td align="center">Europeo-español</td>
+									<td align="center">SRR8740429</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>SRA: <italic>Sequence Read Archive ;</italic> CHL: cloranfenicol; NAL: ácido nalidíxico; TET: tetraciclina; CAZ: ceftazidima; AMP ampicilina; STX: trimetoprim-sulfametoxazol</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Caracterización molecular</italic></title>
+				<p>Para determinar cuáles de los aislamientos identificados como S. <italic>enterica</italic> subsp. <italic>enterica</italic> serovar (1,4,[5],12:i:-) correspondían a la STVM, se utilizó la PCR descrita por Echeita, <italic>et al.</italic><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>, la cual se basa en la amplificación de la región intergénica de los genes del operón que codifica para la primera fase flagelar <italic>fliB-fliA.</italic></p>
+				<p>Los aislamientos de Typhimurium específicamente tienen una inserción de un fragmento IS200 en esta región intergénica, lo que resulta en la amplificación de una banda de 1.000 pb, en tanto que la amplificación de esta región para los otros serovares de <italic>Salmonella</italic> genera un fragmento de 250 pb <xref ref-type="bibr" rid="B20"><sup>20</sup></xref> (<xref ref-type="table" rid="t3">cuadro 3</xref>).</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Oligonucleótidos utilizados en este estudio</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Blanco genético</th>
+									<th align="center">Oligonucleótidos</th>
+									<th align="left">Secuencia 5’-3’</th>
+									<th align="center">Tamaño de amplicón (pb)</th>
+									<th align="center">Referencia</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" rowspan="2">Región entre <italic>fliA</italic> y <italic>fliB</italic></td>
+									<td align="center"><italic>fliA-fliB</italic>-F</td>
+									<td align="left">ctg gcg acg atc tgt cga tg</td>
+									<td align="center">1.000</td>
+									<td align="center">
+										<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>
+									</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>fliA-fliB</italic>-R</td>
+									<td align="left">gcg gta tac agt gaa ttc ac</td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="2"><italic>fljA</italic></td>
+									<td align="center"><italic>fljA</italic>-F</td>
+									<td align="left">ttc att agg tcc cct ccg g</td>
+									<td align="center">1.049</td>
+									<td align="center">
+										<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+									</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>fljAB</italic>-R</td>
+									<td align="left">att cag ccc cgt gaa ttc ggg</td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="2"><italic>fljB</italic></td>
+									<td align="center"><italic>fljBH</italic>-F</td>
+									<td align="left">ttt acc gtc tac gcc acc c</td>
+									<td align="center">551</td>
+									<td align="center">
+										<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+									</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>fljBH</italic>-R</td>
+									<td align="left">ggt act aca ctg gat gta tcg g</td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="2"><italic>hin</italic></td>
+									<td align="center"><italic>hinF</italic>-F</td>
+									<td align="left">tgg cta cta ttg ggt ata ttc ggg</td>
+									<td align="center">473</td>
+									<td align="center">
+										<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+									</td>
+								</tr>
+								<tr>
+									<td align="center"><italic>hinF</italic>-R</td>
+									<td align="left">aat tca ttc gtt ttt tta tgc ggc</td>
+									<td align="center"> </td>
+									<td align="center"> </td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>La secuencia hacia adelante se indica con &quot;F&quot; y la secuencia inversa con &quot;R'.'</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Se seleccionaron 54 aislamientos de los confirmados como STVM (<xref ref-type="table" rid="t4">cuadro 4</xref>) para evaluar la presencia de los genes del operón <italic>fljAB</italic> mediante tres juegos de iniciadores que amplifican las regiones intergénicas comprendidas entre los tres genes del operón (<xref ref-type="table" rid="t3">cuadro 3</xref>), según lo descrito por Soyer, et <italic>al.</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, como se observa en la <xref ref-type="fig" rid="f1">figura 1</xref>. En los 14 aislamientos estudiados con secuenciación de genoma completo, los genes del operón <italic>fljAB</italic> se analizaron <italic>in silico</italic> usando la herramienta bioinformàtica del <italic>Pathosystems Resource Integration Center</italic> (PATRIO: <ext-link ext-link-type="uri" xlink:href="https://www.patricbrc.org/">https://www.patricbrc.org/</ext-link>) <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Identificación de los genes del operón <italic>f¡AB</italic> mediante PCR en 54 aislamientos confirmados como STVM. Se muestran las configuraciones de los genes con relación a los clones descritos y el tipo de muestra clínica del cual fueron recuperados.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col span="3"/>
+								<col/>
+								<col/>
+								<col span="3"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left"> </th>
+									<th align="center" colspan="3"><bold>Estructura del operón <italic>fljAB</italic>
+</bold></th>
+									<th align="left"> </th>
+									<th align="left"> </th>
+									<th align="center" colspan="3">Muestra</th>
+								</tr>
+								<tr>
+									<th align="left">Linaje clonal</th>
+									<th align="center"><italic>fljA</italic></th>
+									<th align="center"><italic>fljB</italic></th>
+									<th align="center"><italic>hin</italic></th>
+									<th align="center">n (%)</th>
+									<th align="center">Materia fecal</th>
+									<th align="center">Hemocultivo</th>
+									<th align="center">Orina</th>
+									<th align="center">Otras muestras</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Europeo-español</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">35 (64,8)</td>
+									<td align="center">16</td>
+									<td align="center">15</td>
+									<td align="center">1</td>
+									<td align="center">3</td>
+								</tr>
+								<tr>
+									<td align="left">Estados Unidos</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">+</td>
+									<td align="center">7(13)</td>
+									<td align="center">1</td>
+									<td align="center">5</td>
+									<td align="center">1</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td align="left">Endémico</td>
+									<td align="center">-</td>
+									<td align="center">+</td>
+									<td align="center">+</td>
+									<td align="center">7(13)</td>
+									<td align="center">4</td>
+									<td align="center">2</td>
+									<td align="center">0</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Inconsistente</td>
+									<td align="center">+</td>
+									<td align="center">+</td>
+									<td align="center">+</td>
+									<td align="center">3 (5,6)</td>
+									<td align="center">3</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td align="left">Variante atípica</td>
+									<td align="center">-</td>
+									<td align="center">+</td>
+									<td align="center">-</td>
+									<td align="center">2 (3,7)</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td align="left"> </td>
+									<td align="center"> </td>
+									<td align="center">Total</td>
+									<td align="center"> </td>
+									<td align="center">54</td>
+									<td align="center">25</td>
+									<td align="center">23</td>
+									<td align="center">2</td>
+									<td align="center">4</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Organización genética del operón <italic>fljAB</italic> en Typhimurium. El tamaño de amplificación (pb) esperado para los genes del operón se encuentra señalado por flechas de color azul flanqueadas por el nombre de los respectivos oligonucléotidos.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-722-gf1.png"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis estadístico</italic></title>
+				<p>Mediante la prueba de ji al cuadrado (estadísticamente significativo: p&lt;0,05), se determinó la relación entre el tipo de muestra (hemocultivo o materia fecal) en el que se recuperó el aislamiento STVM y la identificación del clon europeo-español por ser el predominante.</p>
+			</sec>
+			<sec>
+				<title><italic>Caracterización fenotípica</italic></title>
+				<p>De los 54 aislamientos de STVM caracterizados, se seleccionaron 23 representativos de diferentes tipos de muestra y clones para evaluar la curva de crecimiento y hacer las pruebas de motilidad (<xref ref-type="table" rid="t2">cuadro 2</xref>). Se utilizó el medio Luria Bertani para imitar las condiciones del intestino delgado, donde la bacteria tiene todos los nutrientes a su disposición y una alta osmolaridad <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+				<p>Para simular las condiciones dentro del macròfago, se preparó el medio mínimo M9 con glucosa al 20 % como única fuente de carbono <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Se emplearon los medios nutritivos Luria Bertani y mínimo M9 para las curvas de crecimiento en medio líquido a las 24 horas y las pruebas de motilidad en agar blando al 0,3 % a las 8 y las 24 horas, hechas por triplicado siguiendo a Bogomolnaya, <italic>et al.</italic><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Las proteínas de membrana externa <italic>(Outer Membrane Proteins,</italic> OMP) se obtuvieron de los aislamientos de STVM sembrados en los medios mínimo M9 y nutritivo Luria Bertani hasta una DO<sub>600</sub> de 0,6 y se corrieron en SDS-PAGE con acrilamida/bisacrilamida al 10 %, según lo descrito por Villarreal, <italic>et al.</italic><xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>En Colombia circulan aislamientos de Typhimurium de la variante monofásica (STVM).</italic></title>
+				<p>El 61 % (n=174) de los 286 aislamientos serotipificados como <italic>Salmonella entérica</italic> subsp. <italic>entérica</italic> serovar (1,4,[5],12:¡:-) entre el 2015 y el 2018, correspondieron a STVM (<xref ref-type="table" rid="t1">cuadro 1</xref>); el 39 % (n=112) restante, sin expresión de la segunda fase flagelar, podrían estar relacionados con otros serotipos de fórmula antigénica similar a Typhimurium como el serovar Lagos (4,[5],12:i:1,5), el serovar Agama (4,12:i:1,6), el serovar Tsevie (4,12:i:e,n,z<sub>16</sub>), y el serovar Tumodi (1,4,12:i:z<sub>6</sub>) (11), aunque esto no se confirmó.</p>
+				<p>De los 174 aislamientos confirmados como STVM, 81 (46,5 %) provenían de muestras de materia fecal, 66 (38 %) de hemocultivo, 11 (6,3 %) de orina, 9 (5,2 %) de otras muestras y 7 (4 %) no contaban con información registrada.</p>
+				<p>Se analizó la estructura del operón <italic>fljAB</italic> en 54 de ellos mediante PCR y secuenciación de genoma completo (<xref ref-type="table" rid="t4">cuadro 4</xref>) y se encontró que el 64,8 % (n=35) presentaba una deleción total del operón, similar a la reportada en el clon europeo-español <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Siete (13 %) aislamientos perdieron la parte inicial del operón (ausencia del gen <italic>fljA)</italic> y conservaron los otros dos genes <italic>fljB-hin;</italic> estas modificaciones, que no son muy comunes, se identificaron como clones endémicos. De estos, el 5,6 % (n=3) portaba el operón completo y el restante 3,7 % (n=2) correspondía a las denominadas variantes monofásicas &quot;atípicas&quot; de Typhimurium, según lo descrito por Hopkins, et <italic>al.</italic><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, las cuales portan el gen que codifica para la proteína flagelar de segunda fase <italic>(fljB),</italic> pero no la expresan al no poseer el promotor del operón <italic>fljAB</italic> ni el represor de la proteína FliC (<xref ref-type="table" rid="t4">cuadro 4</xref>, <xref ref-type="fig" rid="f2">figura 2</xref>).</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Esquema que representa los patrones de deleción de genes en el operón <italic>fljAB</italic>. A) Estructura del operón <italic>fljAB</italic> de la cepa de referencia Typhimurium ATCC 14028. B) Deleción completa del operón <italic>fljAB</italic> en el clon europeoespañol. C) Arreglo genético del clon estadounidense. D) Arreglo genético de la variante endémica atípica que conserva el gen <italic>fljB</italic> y el gen <italic>hin</italic>. E) Variante inconsistente que conserva el operón <italic>fljAB</italic> completo. F) Variante atípica que conserva el gen <italic>fljB</italic>. Se indica el porcentaje de cada linaje derivado del <xref ref-type="table" rid="t3">cuadro 3</xref>.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-722-gf2.png"/>
+					</fig>
+				</p>
+				<p>No se observó correlación estadística entre el tipo de muestra del aislamiento (hemocultivo, materia fecal) y el clon europeo-español (p=0,910; OR=0,937) (<xref ref-type="table" rid="t4">cuadro 4</xref>).</p>
+				<p>En los 23 aislamientos seleccionados para las pruebas de curva de crecimiento y motilidad, se observó resistencia a tetraciclina en el 87 % (20/23), a cloranfenicol en el 478 %, a ácido nalidíxico en el 30,4 % y a ampicilina en el 26 %. Nueve aislamientos fueron resistentes a tres antimicrobianos y la combinación predominante fue la de tetraciclina, cloranfenicol y ácido nalidíxico en el 21,7 % de ellos (<xref ref-type="table" rid="t2">cuadro 2</xref>).</p>
+				<p>El crecimiento bacteriano de estos aislamientos, evaluado tanto en medio nutritivo Luria Bertani como en medio mínimo M9, no se vio afectado en comparación con la cepa de referencia ATCC 14028 (no se presentan los datos), con excepción de los aislamientos provenientes de muestras de orina (denominados 7 y 9), los cuales alcanzaron una DO a 600 nm de 0,136 y 0,803, respectivamente, después de 24 horas, lo que sugiere que hubo inhibición del crecimiento en el medio mínimo.</p>
+				<p>Estos dos aislamientos también presentaron motilidad disminuida o nula en el medio Luria Bertani a las 24 horas (<xref ref-type="fig" rid="f3">figura 3</xref>). En el medio mínimo M9, se evidenció una disminución de la motilidad en la mayoría de los aislamientos en estudio; por otra parte, la cepa del aislamiento 1 presentó mayor motilidad comparada con la cepa de control, en tanto que las de los aislamientos 7, 9 y 20 presentaron motilidad disminuida o nula (<xref ref-type="fig" rid="f3">figura 3</xref>).</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Evaluación de la motilidad en aislamientos clínicos de STVM. La motilidad se evaluó a las 8 y 24 horas de incubación a 37 °C en placas con agar blando (0,3 %) y suplemento de LB (fila superior) o medio mínimo M9 (fila inferior). En la figura se muestran los aislamientos 1, 7, 9, 20, los cuales registraron diferencias en la motilidad con respecto a la cepa de control ATCC 14028, y el aislamiento 6 a manera de comparación general del comportamiento de los restantes 17 aislamientos.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-722-gf3.png"/>
+					</fig>
+				</p>
+				<p>No se observó un cambio aparente en la expresión de las principales porinas (OmpC, OmpF, OmpD y OmpA) de las STVM, con excepción de los aislamientos 7, 8 y 9, en los cuales se observó que la porina OmpD desapareció en el medio mínimo M9, y hubo una disminución aparente en la porina OmpA en las muestras 6 y 7 (<xref ref-type="fig" rid="f4">figura 4</xref>).</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>Patrones electroforéticos de preparaciones de proteínas de membrana externa separadas por SDS-PAGE al 10 % y teñidas con azul de Coomassie a partir de los aislamientos que mostraron diferencias en la motilidad (aislamientos 1, 2, 3, 4, 5, 6, 7, 8 y 9) en comparación con la cepa de control ATCC 14028. Se observa una disminución en la expresión de OmpD en el medio mínimo en los aislamientos 7, 8 y 9. Al margen derecho de la imagen, se observa una sección del marcador de peso molecular.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-722-gf4.png"/>
+						<attrib>LB: crecimiento en Luria Bertani; M9: crecimiento en medio mínimo M9</attrib>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La variante monofásica de Typhimurium ha circulado a nivel mundial durante las últimas dos décadas <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, y representa el tercer serovar más aislado en la Unión Europea, en tanto que en Estados Unidos es de los más frecuentes entre los 20 serovares más comunes <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Este serotipo se identificó por primera vez a finales de los 80 en aves de corral de Portugal <xref ref-type="bibr" rid="B28"><sup>28</sup></xref> y, a partir de entonces, se ha convertido en uno de los principales serotipos asociados con la cadena alimentaria porcina, lo que sugiere una transmisión directa de la infección en humanos a partir del consumo de productos contaminados derivados del cerdo en Europa, Estados Unidos y China <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+			<p>Además de Estados Unidos, en países del resto de América como Canadá y Brasil, la STVM también se encuentra en los cinco primeros lugares de aislamientos provenientes de muestras de humanos, en tanto que el 100 % de los aislamientos de animales de engorde en estos países corresponde a dicha variante <xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>, En Argentina solo existe un reporte reciente de su presencia en granjas de cerdos <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. En Colombia, en solo cinco años desde su primera identificación en aislamientos clínicos, la variante monofásica se ubicó en el cuarto lugar de la vigilancia, lo que evidencia su capacidad de diseminación <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. La variante STVM fue confirmada recientemente en aislamientos clínicos recuperados de hemocultivos con los secuenciotipos ST19 y ST34, resistentes a uno o dos antimicrobianos, lo que los diferencia de los clones español y europeo multirresistentes <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+			<p>En el presente estudio, se confirmaron los resultados obtenidos previamente sobre la presencia de esta variante en el país, pues el 61 % de los aislamientos amplificaron el marcador para STVM, así como el predominio de los clones europeo-español. La caracterización por PCR y la secuenciación de genoma completo también evidenciaron que el clon estadounidense y el clon endémico ocuparon el segundo lugar, así como la presencia de clones identificados como variantes inconsistentes y atípicas. La detección de esta gran variedad de clones en el país sugiere múltiples fuentes de infección asociadas, probablemente, con las diferentes cadenas pecuarias. Nuestros resultados concuerdan con el panorama mundial de diseminación del clon europeo de la STVM, el cual ha reemplazado a los otros dos <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>.</p>
+			<p>Desde el punto de vista epidemiológico, la STVM tiene una estrecha relación con la cadena porcícola, principalmente en Europa y Estados Unidos, lo que sugiere una relación directa entre estos productos alimenticios y las infecciones en humanos. También se recupera de otras fuentes, como el ganado y las aves, lo que demuestra que es una variante con un amplio rango de huéspedes <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>Hasta la fecha en el país, no hay estudios que reporten la presencia de STVM en la cadena porcícola; sin embargo, dado que el consumo de alimentos contaminados es una de las fuentes de la enfermedad diarreica aguda, una hipótesis es que estos aislamientos provienen principalmente de cerdos y están asociados con el clon español, cuyo principal reservorio es el cerdo <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. En este sentido, es importante mencionar los múltiples reportes de Typhimurium en comidas rápidas callejeras, en carne de pollo cruda <xref ref-type="bibr" rid="B38"><sup>38</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B39"><sup>39</sup></xref>, carne de cerdo <xref ref-type="bibr" rid="B40"><sup>40</sup></xref> y alimentos listos para el consumo humano <xref ref-type="bibr" rid="B41"><sup>41</sup></xref>, que podrían ser el antecedente para la aparición y rápida diseminación de la STVM, ya que su evolución a partir de aislamientos de Typhimurium ha sido confirmada por varios autores mediante diversas técnicas moleculares y secuenciación de genoma completo en los últimos tiempos <xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B37"><sup>37</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>.</p>
+			<p>Para verificarlo, se requieren estudios de búsqueda de la STVM en granjas, animales o alimentos derivados de cerdos, pues con base en los hallazgos que aquí se presentan, se esperaría una estrecha relación con los aislamientos analizados.</p>
+			<p>En cuanto a las características fenotípicas de los aislamientos de STVM, por lo general, la ausencia de la segunda fase flagelar no altera el crecimiento ni la motilidad de los aislamientos evaluados. Estos resultados concuerdan con lo reportado por Crayford, <italic>et al.,</italic> quienes observaron que los aislamientos monofásicos conservan la habilidad de adherirse e invadir las células epiteliales del intestino de cerdo <italic>in vitro</italic><xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+			<p>Sin embargo, algunas particularidades observadas en este estudio llaman la atención: el aislamiento 1, considerado inconsistente, tuvo una motilidad incrementada en el medio mínimo M9 y, aunque contenía los tres genes del operón <italic>fljAB,</italic> no expresó la segunda fase flagelar, lo cual puede deberse a un bloqueo del promotor que controla la expresión de <italic>fljB</italic> y <italic>fliC</italic> o a mutaciones puntuales en estos genes <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>, en tanto que los aislamientos 7 y 9, provenientes de muestras clínicas de orina, correspondieron a clones diferentes, presentaron motilidad disminuida o nula, así como una disminución en la expresión de OmpD en el medio mínimo M9.</p>
+			<p>Dados los alcances de este estudio, no se pudo establecer una asociación directa entre las características de los aislamientos y el tipo de muestra o infección del cual fueron recuperados, para lo que se requerirán más estudios. Las infecciones urinarias por <italic>Salmonella</italic> no son frecuentes y este tipo de muestra se puede recuperar por colonización directa de la uretra o por diseminación hematógena a partir del aparato gastrointestinal <xref ref-type="bibr" rid="B44"><sup>44</sup></xref>. El papel de la porina OmpD en infecciones urinarias por <italic>Salmonella</italic> se desconoce; sin embargo, se ha demostrado que su represión puede ser necesaria para una eficiente proliferación intracelular de <italic>Salmonella</italic><xref ref-type="bibr" rid="B45"><sup>45</sup></xref>, así como para favorecer la supervivencia dentro del macrófago y aumentar la infección sistémica en modelos en ratón <xref ref-type="bibr" rid="B46"><sup>46</sup></xref>, lo que sugiere que la represión de OmpD en la STVM podría requerirse en infecciones urinarias. Será necesario hacer otros estudios para aclarar este punto.</p>
+			<p>Por último, en el estudio se demostró la circulación de STVM en aislamientos clínicos colombianos relacionados con los clones europeo-español y estadounidense, con una posible fuente de transmisión zoonótica y las características fisiológicas descritas para Typhimurium, excepto en dos aislamientos recuperados de muestras de orina. Estos hallazgos sugerirían una relación entre la STVM y su virulencia, lo cual debe confirmarse en futuros estudios.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimientos</title>
+			<p>Este trabajo fue desarrollado en el laboratorio del Grupo de Microbiología del Instituto Nacional de Salud - Colombia, y en colaboración con el &quot;Proyecto 10.000 genomas de <italic>Salmonella&quot;</italic> de la Universidad de Liverpool. Agradecemos la colaboración de los investigadores Jay C. D. Hinton y Blanca Pérez Sepúlveda de la Universidad de Liverpool, por la secuenciación de los genomas de <italic>Salmonella.</italic></p>
+		</ack>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization. <italic>Salmonella</italic> (no tifoidea). Fecha de consulta: 27 de abril de 2019. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/es/news-room/fact-sheets/detail/salmonella-(non-typhoidal)">https://www.who.int/es/news-room/fact-sheets/detail/salmonella-(non-typhoidal)</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source><italic>Salmonella</italic> (no tifoidea)</source>
+					<date-in-citation content-type="access-date" iso-8601-date="2019-00-00">27 de abril de 2019</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/es/news-room/fact-sheets/detail/salmonella-(non-typhoidal)">https://www.who.int/es/news-room/fact-sheets/detail/salmonella-(non-typhoidal)</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Grimont PA, Weill FX. Antigenic formulae of the <italic>Salmonella</italic> serovars. 9th edition. Paris: Institut Pasteur; 2007. p. 166.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grimont</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Weill</surname>
+							<given-names>FX</given-names>
+						</name>
+					</person-group>
+					<source>Antigenic formulae of the <italic>Salmonella</italic> serovars</source>
+					<edition>9</edition>
+					<publisher-loc>Paris</publisher-loc>
+					<publisher-name>Institut Pasteur</publisher-name>
+					<year>2007</year>
+					<fpage>166</fpage>
+					<lpage>166</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Yamamoto S, Kutsukake K. Fl/A-mediated posttranscriptional control of phase 1 flagellin expression in flagellar phase variation of <italic>Salmonella entérica</italic> serovar Typhimurium. J Bacteriol. 2006;188:958-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JB.188.3.958-967.2006">https://doi.org/10.1128/JB.188.3.958-967.2006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yamamoto</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kutsukake</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Fl/A-mediated posttranscriptional control of phase 1 flagellin expression in flagellar phase variation of Salmonella entérica serovar Typhimurium</article-title>
+					<source>J Bacteriol</source>
+					<year>2006</year>
+					<issue>188</issue>
+					<fpage>958</fpage>
+					<lpage>967</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JB.188.3.958-967.2006">https://doi.org/10.1128/JB.188.3.958-967.2006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Bonifield HR, Hughes KT. Flagellar phase variation in <italic>Salmonella enterica</italic> is mediated by a posttranscriptional control mechanism. J Bacteriol. 2003;185:3567-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JB.185.12.3567-3574.2003">https://doi.org/10.1128/JB.185.12.3567-3574.2003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bonifield</surname>
+							<given-names>HR</given-names>
+						</name>
+						<name>
+							<surname>Hughes</surname>
+							<given-names>KT</given-names>
+						</name>
+					</person-group>
+					<article-title>Flagellar phase variation in Salmonella enterica is mediated by a posttranscriptional control mechanism</article-title>
+					<source>J Bacteriol</source>
+					<year>2003</year>
+					<issue>185</issue>
+					<fpage>3567</fpage>
+					<lpage>3574</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JB.185.12.3567-3574.2003">https://doi.org/10.1128/JB.185.12.3567-3574.2003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Centers for Disease Control and Prevention (CDC). National Enteric Disease Surveillance. Salmonella Annual Report 2016. Atlanta, USA: CDC; 2018.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Centers for Disease Control and Prevention (CDC)</collab>
+					</person-group>
+					<source>National Enteric Disease Surveillance. Salmonella Annual Report 2016</source>
+					<publisher-loc>Atlanta, USA</publisher-loc>
+					<publisher-name>CDC</publisher-name>
+					<year>2018</year>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. European Food Safety Authority and European Centre for Disease Prevention and Control. The European Union One Health 2018 Zoonoses Report. EFSA. 2019;17:e05926. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2903/j.efsa.2019.5926">https://doi.org/10.2903/j.efsa.2019.5926</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>European Food Safety Authority and European Centre for Disease Prevention and Control</collab>
+					</person-group>
+					<article-title>The European Union One Health 2018 Zoonoses Report</article-title>
+					<source>EFSA</source>
+					<year>2019</year>
+					<issue>17</issue>
+					<elocation-id>e05926</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2903/j.efsa.2019.5926">https://doi.org/10.2903/j.efsa.2019.5926</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Arai N, Sekizuka T, Tamamura Y, Tanaka K, Barco L, Izumiya H, <italic>et al</italic>. Phylogenetic characterization of <italic>Salmonella enterica</italic> serovar Typhimurium and its monophasic variant isolated from food animals in japan revealed replacement of major epidemic clones in the last 4 decades. J Clin Microbiol. 2018;56:e01758-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01758-17">https://doi.org/10.1128/JCM.01758-17</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arai</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Sekizuka</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tamamura</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Tanaka</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Barco</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Izumiya</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Phylogenetic characterization of Salmonella enterica serovar Typhimurium and its monophasic variant isolated from food animals in japan revealed replacement of major epidemic clones in the last 4 decades</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2018</year>
+					<issue>56</issue>
+					<fpage>e01717</fpage>
+					<lpage>e01758</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.01758-17">https://doi.org/10.1128/JCM.01758-17</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Mastrorilli E, Pietrucci D, Barco L, Ammendola S, Petrin S, Longo A, <italic>et al</italic>. A comparative genomic analysis provides novel insights into the ecological success of the monophasic salmonella serovar 4,[5],12:i:. Front Microbiol. 2018;9:715. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fmicb.2018.00715">https://doi.org/10.3389/fmicb.2018.00715</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mastrorilli</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Pietrucci</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Barco</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ammendola</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Petrin</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Longo</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A comparative genomic analysis provides novel insights into the ecological success of the monophasic salmonella serovar 4,[5],12:i:</article-title>
+					<source>Front Microbiol</source>
+					<year>2018</year>
+					<issue>9</issue>
+					<fpage>715</fpage>
+					<lpage>715</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fmicb.2018.00715">https://doi.org/10.3389/fmicb.2018.00715</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Sun H, Wan Y, Du P, Bai L. The epidemiology of monophasic <italic>Salmonella typhimurium</italic>. Foodborne Pathog Dis 2020;17:87-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2019.2676">https://doi.org/10.1089/fpd.2019.2676</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sun</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Du</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bai</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>The epidemiology of monophasic Salmonella typhimurium</article-title>
+					<source>Foodborne Pathog Dis</source>
+					<year>2020</year>
+					<issue>17</issue>
+					<fpage>87</fpage>
+					<lpage>97</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2019.2676">https://doi.org/10.1089/fpd.2019.2676</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Hauser E, Tietze E, Helmuth R, Junker E, Blank K, Prager R, <italic>et al</italic>. Pork contaminated with <italic>Salmonella enterica</italic> serovar 4,[5],12:i:-, an emerging health risk for humans. Appl Environ Microbiol. 2010;76:4601-10. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AEM.02991-09">https://doi.org/10.1128/AEM.02991-09</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hauser</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tietze</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Helmuth</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Junker</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Blank</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Prager</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Pork contaminated with Salmonella enterica serovar 4,[5],12:i:-, an emerging health risk for humans</article-title>
+					<source>Appl Environ Microbiol</source>
+					<year>2010</year>
+					<issue>76</issue>
+					<fpage>4601</fpage>
+					<lpage>4610</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AEM.02991-09">https://doi.org/10.1128/AEM.02991-09</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Soyer Y, Moreno-Switt A, Davis MA, Maurer J, McDonough PL, Schoonmaker-Bopp DJ, <italic>et al</italic>. <italic>Salmonella enterica</italic> serotype 4,5,12:i:-, an emerging <italic>Salmonella</italic> serotype that represents multiple distinct clones. J Clin Microbiol. 2009;47:3546-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00546-09">https://doi.org/10.1128/JCM.00546-09</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soyer</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Moreno-Switt</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Maurer</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>McDonough</surname>
+							<given-names>PL</given-names>
+						</name>
+						<name>
+							<surname>Schoonmaker-Bopp</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Salmonella enterica serotype 4,5,12:i:-, an emerging Salmonella serotype that represents multiple distinct clones</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2009</year>
+					<issue>47</issue>
+					<fpage>3546</fpage>
+					<lpage>3556</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.00546-09">https://doi.org/10.1128/JCM.00546-09</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Barco L, Longo A, Lettini AA, Cortini E, Saccardin C, Minorello C, <italic>et al</italic>. Molecular characterization of &quot;inconsistent&quot; variants of <italic>Salmonella</italic> Typhimurium isolated in Italy. Foodborne Pathog Dis. 2014;11:497-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2013.1714">https://doi.org/10.1089/fpd.2013.1714</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barco</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Longo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lettini</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Cortini</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Saccardin</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Minorello</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Molecular characterization of &quot;inconsistent&quot; variants of Salmonella Typhimurium isolated in Italy</article-title>
+					<source>Foodborne Pathog Dis</source>
+					<year>2014</year>
+					<issue>11</issue>
+					<fpage>497</fpage>
+					<lpage>499</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2013.1714">https://doi.org/10.1089/fpd.2013.1714</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Rodríguez EC, Díaz-Guevara P, Moreno J, Bautista A, Montaño L, Realpe ME, <italic>et al</italic>. Laboratory surveillance of <italic>Salmonella enterica</italic> from human clinical cases in Colombia 2005-2011. Enferm Infecc Microbiol Clin. 2017;35:417-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.eimc.2016.02.023">https://doi.org/10.1016/j.eimc.2016.02.023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Díaz-Guevara</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bautista</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Montaño</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Realpe</surname>
+							<given-names>ME</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Laboratory surveillance of Salmonella enterica from human clinical cases in Colombia 2005-2011</article-title>
+					<source>Enferm Infecc Microbiol Clin</source>
+					<year>2017</year>
+					<issue>35</issue>
+					<fpage>417</fpage>
+					<lpage>425</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.eimc.2016.02.023">https://doi.org/10.1016/j.eimc.2016.02.023</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Instituto Nacional de Salud. Vigilancia por laboratorio de <italic>Salmonella</italic> spp. [Internet]. Bogotá: Instituto Nacional de Salud; 2018.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Salud</collab>
+					</person-group>
+					<source>Vigilancia por laboratorio de <italic>Salmonella</italic> spp</source>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Instituto Nacional de Salud</publisher-name>
+					<year>2018</year>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Li Y, Pulford CV, Díaz P, Pérez-Sepúlveda BM, Duarte C, Predeus AV, <italic>et al</italic>. Genomic and phylogenetic analysis of <italic>Salmonella</italic> Typhimurium and its monophasic variants responsible for invasive endemic infections in Colombia. BioRxiv. 2019. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/588608">https://doi.org/10.1101/588608</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Pulford</surname>
+							<given-names>CV</given-names>
+						</name>
+						<name>
+							<surname>Díaz</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Pérez-Sepúlveda</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Predeus</surname>
+							<given-names>AV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Genomic and phylogenetic analysis of Salmonella Typhimurium and its monophasic variants responsible for invasive endemic infections in Colombia</article-title>
+					<source>BioRxiv</source>
+					<year>2019</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/588608">https://doi.org/10.1101/588608</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Clinical and Laboratory Standards Institute. Performance standards for antimicrobial susceptibility testing. 27th edition. CLSI supplement M100. Wayne, PA: CLSI; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Clinical and Laboratory Standards Institute</collab>
+					</person-group>
+					<source>Performance standards for antimicrobial susceptibility testing</source>
+					<edition>27</edition>
+					<comment>CLSI supplement M100</comment>
+					<publisher-loc>Wayne, PA</publisher-loc>
+					<publisher-name>CLSI</publisher-name>
+					<year>2017</year>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Green MR, Michael R, Sambrook J. Molecular cloning: A laboratory manual. 4th edition. Cold Spring Harbor, N.Y.: Cold Spring Harbor Laboratory Press; 2014.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Green</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Michael</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Sambrook</surname>
+							<given-names>J.</given-names>
+						</name>
+					</person-group>
+					<source>Molecular cloning: A laboratory manual</source>
+					<edition>4</edition>
+					<publisher-loc>Cold Spring Harbor, N.Y</publisher-loc>
+					<publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+					<year>2014</year>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Pérez-Sepúlveda BM, Heavens D, Pulford CV, Predeus AV, Low R, Webster H, <italic>et al</italic>. An accessible, efficient and global approach for the large-scale sequencing of bacterial genomes. BioRxiv. 2020. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.07.22.200840">https://doi.org/10.1101/2020.07.22.200840</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez-Sepúlveda</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Heavens</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Pulford</surname>
+							<given-names>CV</given-names>
+						</name>
+						<name>
+							<surname>Predeus</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Low</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Webster</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>An accessible, efficient and global approach for the large-scale sequencing of bacterial genomes</article-title>
+					<source>BioRxiv</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.07.22.200840">https://doi.org/10.1101/2020.07.22.200840</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. McClelland M, Sanderson KE, Spieth J, Clifton SW, Latreille P, Courtney L, <italic>et al</italic>. Complete genome sequence of <italic>Salmonella enterica</italic> serovar Typhimurium LT2. Nature. 2001;413:852-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/35101614">https://doi.org/10.1038/35101614</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McClelland</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sanderson</surname>
+							<given-names>KE</given-names>
+						</name>
+						<name>
+							<surname>Spieth</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Clifton</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Latreille</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Courtney</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Complete genome sequence of Salmonella enterica serovar Typhimurium LT2</article-title>
+					<source>Nature</source>
+					<year>2001</year>
+					<issue>413</issue>
+					<fpage>852</fpage>
+					<lpage>856</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/35101614">https://doi.org/10.1038/35101614</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Echeita MA, Herrera S, Usera MA. Atypical, flB-negative <italic>Salmonella enterica</italic> subsp. <italic>enterica</italic> strain of serovar 4,5,12:i:- appears to be a monophasic variant of serovar Typhimurium. J Clin Microbiol. 2001;39:2981-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.39.8.2981-2983.2001">https://doi.org/10.1128/JCM.39.8.2981-2983.2001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Echeita</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Herrera</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Usera</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Atypical, flB-negative Salmonella enterica subsp. enterica strain of serovar 4,5,12:i:- appears to be a monophasic variant of serovar Typhimurium</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2001</year>
+					<issue>39</issue>
+					<fpage>2981</fpage>
+					<lpage>2983</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.39.8.2981-2983.2001">https://doi.org/10.1128/JCM.39.8.2981-2983.2001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Wattam AR, Davis JJ, Assaf R, Boisvert S, Brettin T, Bun C, <italic>et al</italic>. Improvements to PATRIC, the all-bacterial Bioinformatics Database and Analysis Resource Center. Nucleic Acids Res. 2017;45:D535-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/gkw1017">https://doi.org/10.1093/nar/gkw1017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wattam</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Assaf</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Boisvert</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Brettin</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Bun</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Improvements to PATRIC, the all-bacterial Bioinformatics Database and Analysis Resource Center</article-title>
+					<source>Nucleic Acids Res</source>
+					<year>2017</year>
+					<issue>45</issue>
+					<fpage>D535</fpage>
+					<lpage>D542</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/nar/gkw1017">https://doi.org/10.1093/nar/gkw1017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Bogomolnaya LM, Aldrich L, Ragoza Y, Talamantes M, Andrews KD, McClelland M, <italic>et al</italic>. Identification of novel factors involved in modulating motility of <italic>Salmonella enterica</italic> serotype typhimurium. PLoS ONE. 2014;9:e111513. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0111513">https://doi.org/10.1371/journal.pone.0111513</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bogomolnaya</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Aldrich</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ragoza</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Talamantes</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Andrews</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>McClelland</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identification of novel factors involved in modulating motility of Salmonella enterica serotype typhimurium</article-title>
+					<source>PLoS ONE</source>
+					<year>2014</year>
+					<issue>9</issue>
+					<elocation-id>e111513</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0111513">https://doi.org/10.1371/journal.pone.0111513</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Villarreal JM, Becerra-Lobato N, Rebollar-Flores JE, Medina-Aparicio L, Carbajal-Gómez E, Zavala-García ML, <italic>et al</italic>. The <italic>Salmonella enterica</italic> serovar Typhi ltrR-ompR-ompC-ompF genes are involved in resistance to the bile salt sodium deoxycholate and in bacterial transformation. Mol Microbiol. 2014;92:1005-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mmi.12610">https://doi.org/10.1111/mmi.12610</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villarreal</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Becerra-Lobato</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Rebollar-Flores</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Medina-Aparicio</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Carbajal-Gómez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Zavala-García</surname>
+							<given-names>ML</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The Salmonella enterica serovar Typhi ltrR-ompR-ompC-ompF genes are involved in resistance to the bile salt sodium deoxycholate and in bacterial transformation</article-title>
+					<source>Mol Microbiol</source>
+					<year>2014</year>
+					<issue>92</issue>
+					<fpage>1005</fpage>
+					<lpage>1024</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mmi.12610">https://doi.org/10.1111/mmi.12610</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Echeita-Sarrionandia MA, León SH, Baamonde CS. Invasive gastroenteritis, anything new? Enferm Infecc Microbiol Clin. 2011;29(Suppl.3):55-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0213-005X(11)70029-5">https://doi.org/10.1016/S0213-005X(11)70029-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Echeita-Sarrionandia</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>León</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Baamonde</surname>
+							<given-names>CS</given-names>
+						</name>
+					</person-group>
+					<article-title>Invasive gastroenteritis, anything new?</article-title>
+					<source>Enferm Infecc Microbiol Clin</source>
+					<year>2011</year>
+					<!--<issue>29</issue>-->
+					<issue>3</issue>
+					<fpage>55</fpage>
+					<lpage>60</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0213-005X(11)70029-5">https://doi.org/10.1016/S0213-005X(11)70029-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Hopkins KL, Kirchner M, Guerra B, Granier SA, Lucarelli C, Porrero MC, <italic>et al</italic>. Multiresistant <italic>Salmonella enterica</italic> serovar 4,[5],12:i:- in Europe: A new pandemic strain? Euro Surveill. 2010;15:19580.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hopkins</surname>
+							<given-names>KL</given-names>
+						</name>
+						<name>
+							<surname>Kirchner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Guerra</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Granier</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Lucarelli</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Porrero</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Multiresistant Salmonella enterica serovar 4,[5],12:i:- in Europe: A new pandemic strain?</article-title>
+					<source>Euro Surveill</source>
+					<year>2010</year>
+					<volume>15</volume>
+					<fpage>19580</fpage>
+					<lpage>19580</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Cito F, Baldinelli F, Calistri P, Di Giannatale E, Scavia G, Orsini M, <italic>et al</italic>. Outbreak of unusual <italic>Salmonella enterica</italic> serovar Typhimurium monophasic variant 1,4 [5],12:i:-, Italy, June 2013 to September 2014. Euro Surveill. 2016;21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917.ES.2016.21.15.30194">https://doi.org/10.2807/1560-7917.ES.2016.21.15.30194</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cito</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Baldinelli</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Calistri</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Di Giannatale</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Scavia</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Orsini</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Outbreak of unusual Salmonella enterica serovar Typhimurium monophasic variant 1,4 [5],12:i:-, Italy, June 2013 to September 2014</article-title>
+					<source>Euro Surveill</source>
+					<year>2016</year>
+					<fpage>21</fpage>
+					<lpage>21</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917.ES.2016.21.15.30194">https://doi.org/10.2807/1560-7917.ES.2016.21.15.30194</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. European Food Safety Authority, European Centre for Disease Prevention and Control. The European Union summary report on trends and sources of zoonoses, zoonotic agents and food-borne outbreaks in 2016. EFSA J. 2017;15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2903/j.efsa.2017.5077">https://doi.org/10.2903/j.efsa.2017.5077</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>European Food Safety Authority, European Centre for Disease Prevention and Control</collab>
+					</person-group>
+					<article-title>The European Union summary report on trends and sources of zoonoses, zoonotic agents and food-borne outbreaks in 2016</article-title>
+					<source>EFSA J</source>
+					<year>2017</year>
+					<issue>15</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2903/j.efsa.2017.5077">https://doi.org/10.2903/j.efsa.2017.5077</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Machado J, Bernardo F. Prevalence of <italic>Salmonella</italic> in chicken carcasses in Portugal. J Appl Bacteriol 1990;69:477-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2672.1990.tb01538.x">https://doi.org/10.1111/j.1365-2672.1990.tb01538.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Machado</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bernardo</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of Salmonella in chicken carcasses in Portugal</article-title>
+					<source>J Appl Bacteriol</source>
+					<year>1990</year>
+					<issue>69</issue>
+					<fpage>477</fpage>
+					<lpage>480</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2672.1990.tb01538.x">https://doi.org/10.1111/j.1365-2672.1990.tb01538.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Echeita MA, Aladueña A, Cruchaga S, Usera MA. Emergence and spread of an atypical <italic>Salmonella enterica</italic> subsp. <italic>enterica</italic> serotype 4,5,12:i:- strain in Spain. J Clin Microbiol. 1999;37:3425. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.37.10.3425-3425.1999">https://doi.org/10.1128/JCM.37.10.3425-3425.1999</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Echeita</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Aladueña</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cruchaga</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Usera</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Emergence and spread of an atypical Salmonella enterica subsp. enterica serotype 4,5,12:i:- strain in Spain</article-title>
+					<source>J Clin Microbiol</source>
+					<year>1999</year>
+					<issue>37</issue>
+					<fpage>3425</fpage>
+					<lpage>3425</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.37.10.3425-3425.1999">https://doi.org/10.1128/JCM.37.10.3425-3425.1999</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Helmuth IG, Espenhain L, Ethelberg S, Jensen T, Kjeldgaard J, Litrup E, <italic>et al</italic>. An outbreak of monophasic <italic>Salmonella</italic> Typhimurium associated with raw pork sausage and other pork products, Denmark 2018-19. Epidemiol Infect. 2019;147:e315. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0950268819002073">https://doi.org/10.1017/S0950268819002073</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Helmuth</surname>
+							<given-names>IG</given-names>
+						</name>
+						<name>
+							<surname>Espenhain</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ethelberg</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Jensen</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Kjeldgaard</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Litrup</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>An outbreak of monophasic Salmonella Typhimurium associated with raw pork sausage and other pork products, Denmark 2018-19</article-title>
+					<source>Epidemiol Infect</source>
+					<year>2019</year>
+					<issue>147</issue>
+					<elocation-id>e315</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0950268819002073">https://doi.org/10.1017/S0950268819002073</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Magossi G, Bai J, Cernicchiaro N, Jones C, Porter E, Trinetta V. Seasonal presence of <italic>Salmonella</italic> spp., <italic>Salmonella</italic> Typhimurium and its monophasic variant serotype I 4,[5],12:i:-, in selected United States Swine Feed Mills. Foodborne Pathog Dis 2019;16:276-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2018.2504">https://doi.org/10.1089/fpd.2018.2504</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Magossi</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bai</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cernicchiaro</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Porter</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Trinetta</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Seasonal presence of Salmonella spp., Salmonella Typhimurium and its monophasic variant serotype I 4,[5],12:i:-, in selected United States Swine Feed Mills</article-title>
+					<source>Foodborne Pathog Dis</source>
+					<year>2019</year>
+					<issue>16</issue>
+					<fpage>276</fpage>
+					<lpage>281</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/fpd.2018.2504">https://doi.org/10.1089/fpd.2018.2504</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Yang X, Wu Q, Zhang J, Huang J, Guo W, Cai S. Prevalence and characterization of monophasic <italic>Salmonella</italic> serovar 1,4,[5],12:i:- of food origin in China. PLoS ONE. 2015;10:e0137967. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0137967">https://doi.org/10.1371/journal.pone.0137967</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Cai</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence and characterization of monophasic Salmonella serovar 1,4,[5],12:i:- of food origin in China</article-title>
+					<source>PLoS ONE</source>
+					<year>2015</year>
+					<issue>10</issue>
+					<elocation-id>e0137967</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0137967">https://doi.org/10.1371/journal.pone.0137967</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Mulvey MR, Finley R, Allen V, Ang L, Bekal S, El Bailey S, <italic>et al</italic>. Emergence of multidrug-resistant <italic>Salmonella enterica</italic> serotype 4,[5],12:i:- involving human cases in Canada: Results from the Canadian Integrated Program on Antimicrobial Resistance Surveillance (CIPARS), 2003-10. J Antimicrob Chemother. 2013;68:1982-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jac/dkt149">https://doi.org/10.1093/jac/dkt149</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mulvey</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Finley</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Ang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bekal</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>El Bailey</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Emergence of multidrug-resistant Salmonella enterica serotype 4,[5],12:i:- involving human cases in Canada: Results from the Canadian Integrated Program on Antimicrobial Resistance Surveillance (CIPARS), 2003-10</article-title>
+					<source>J Antimicrob Chemother</source>
+					<year>2013</year>
+					<issue>68</issue>
+					<fpage>1982</fpage>
+					<lpage>1986</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jac/dkt149">https://doi.org/10.1093/jac/dkt149</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Tavechio AT, Fernandes SA, Ghilardi ÂC, Soule G, Ahmed R, Melles CE. Tracing lineage by phenotypic and genotypic markers in <italic>Salmonella enterica</italic> subsp. <italic>enterica</italic> serovar 1,4,[5],12:i:- and <italic>Salmonella</italic> Typhimurium isolated in state of São Paulo, Brazil. Mem Inst Oswaldo Cruz. 2009;104:1042-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762009000700019">https://doi.org/10.1590/S0074-02762009000700019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tavechio</surname>
+							<given-names>AT</given-names>
+						</name>
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Ghilardi</surname>
+							<given-names>ÂC</given-names>
+						</name>
+						<name>
+							<surname>Soule</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Ahmed</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Melles</surname>
+							<given-names>CE</given-names>
+						</name>
+					</person-group>
+					<article-title>Tracing lineage by phenotypic and genotypic markers in Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:- and Salmonella Typhimurium isolated in state of São Paulo, Brazil</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2009</year>
+					<issue>104</issue>
+					<fpage>1042</fpage>
+					<lpage>1046</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762009000700019">https://doi.org/10.1590/S0074-02762009000700019</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Vico JP, Lorenzutti AM, Zogbi AP, Aleu G, Sánchez IC, Caffer MI, <italic>et al</italic>. Prevalence, associated risk factors, and antimicrobial resistance profiles of non-typhoidal <italic>Salmonella</italic> in large scale swine production in Córdoba, Argentina. Res Vet Sci. 2020;130:161-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rvsc.2020.03.003">https://doi.org/10.1016/j.rvsc.2020.03.003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vico</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Lorenzutti</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Zogbi</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Aleu</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Sánchez</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Caffer</surname>
+							<given-names>MI</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Prevalence, associated risk factors, and antimicrobial resistance profiles of non-typhoidal Salmonella in large scale swine production in Córdoba, Argentina</article-title>
+					<source>Res Vet Sci</source>
+					<year>2020</year>
+					<issue>130</issue>
+					<fpage>161</fpage>
+					<lpage>169</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rvsc.2020.03.003">https://doi.org/10.1016/j.rvsc.2020.03.003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Elnekave E, Hong S, Mather AE, Boxrud D, Taylor AJ, Lappi V, <italic>et al</italic>. <italic>Salmonella enterica</italic> serotype 4,[5],12:i:- in Swine in the United States Midwest: An emerging multidrug-resistant clade. Clin Infect Dis. 2018;66:877-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/cix909">https://doi.org/10.1093/cid/cix909</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Elnekave</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mather</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Boxrud</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Taylor</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Lappi</surname>
+							<given-names>V</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Salmonella enterica serotype 4,[5],12:i:- in Swine in the United States Midwest: An emerging multidrug-resistant clade</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2018</year>
+					<issue>66</issue>
+					<fpage>877</fpage>
+					<lpage>885</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/cix909">https://doi.org/10.1093/cid/cix909</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. de la Torre E, Zapata D, Tello M, Mejía W, Frías N, García-Peña FJ, <italic>et al</italic>. Several <italic>Salmonella enterica</italic> subsp. <italic>enterica</italic> serotype 4,5,12:i:- phage types isolated from swine samples originate from serotype typhimurium DT U302. J Clin Microbiol. 2003;41:2395-400. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/jcm.416.2395-2400.2003">https://doi.org/10.1128/jcm.416.2395-2400.2003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>de la Torre</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Zapata</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Tello</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mejía</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Frías</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>García-Peña</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Several Salmonella enterica subsp. enterica serotype 4,5,12:i:- phage types isolated from swine samples originate from serotype typhimurium DT U302</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2003</year>
+					<issue>41</issue>
+					<fpage>2395</fpage>
+					<lpage>2400</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/jcm.416.2395-2400.2003">https://doi.org/10.1128/jcm.416.2395-2400.2003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Donado-Godoy P, Clavijo V, León M, Arévalo A, Castellanos R, Bernal J, <italic>et al</italic>. Counts, serovars, and antimicrobial resistance phenotypes of <italic>Salmonella</italic> on raw chicken meat at retail in Colombia. J Food Prot. 2014;77:227-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4315/0362-028X.JFP-13-276">https://doi.org/10.4315/0362-028X.JFP-13-276</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Donado-Godoy</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Clavijo</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>León</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Arévalo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Castellanos</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bernal</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Counts, serovars, and antimicrobial resistance phenotypes of Salmonella on raw chicken meat at retail in Colombia</article-title>
+					<source>J Food Prot</source>
+					<year>2014</year>
+					<issue>77</issue>
+					<fpage>227</fpage>
+					<lpage>235</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4315/0362-028X.JFP-13-276">https://doi.org/10.4315/0362-028X.JFP-13-276</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Rodríguez JM, Rondón IS, Verjan N. Serotypes of <italic>Salmonella</italic> in broiler carcasses marketed at Ibagué, Colombia. Rev Bras Cienc Avic. 2015;17:545-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-635X1704545-552">https://doi.org/10.1590/1516-635X1704545-552</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Rondón</surname>
+							<given-names>IS</given-names>
+						</name>
+						<name>
+							<surname>Verjan</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Serotypes of Salmonella in broiler carcasses marketed at Ibagué, Colombia</article-title>
+					<source>Rev Bras Cienc Avic</source>
+					<year>2015</year>
+					<issue>17</issue>
+					<fpage>545</fpage>
+					<lpage>552</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-635X1704545-552">https://doi.org/10.1590/1516-635X1704545-552</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Rondón-Barragán IS, Arcos EC, Mora-Cardona L, Fandiño C. Characterization of <italic>Salmonella</italic> species from pork meat in Tolima, Colombia. Revista Colombiana de Ciencias Pecuarias. 2015;28:74-82.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rondón-Barragán</surname>
+							<given-names>IS</given-names>
+						</name>
+						<name>
+							<surname>Arcos</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Mora-Cardona</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Fandiño</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Characterization of Salmonella species from pork meat in Tolima, Colombia</article-title>
+					<source>Revista Colombiana de Ciencias Pecuarias</source>
+					<year>2015</year>
+					<issue>28</issue>
+					<fpage>74</fpage>
+					<lpage>82</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Durango J, Arrieta G, Mattar S. Presencia de <italic>Salmonella</italic> spp. en un área del Caribe colombiano: un riesgo para la salud pública. Biomédica. 2004;24:89-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v24i1.1252">https://doi.org/10.7705/biomedica.v24i1.1252</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Durango</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Arrieta</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mattar</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Presencia de Salmonella spp. en un área del Caribe colombiano: un riesgo para la salud pública</article-title>
+					<source>Biomédica</source>
+					<year>2004</year>
+					<issue>24</issue>
+					<fpage>89</fpage>
+					<lpage>96</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v24i1.1252">https://doi.org/10.7705/biomedica.v24i1.1252</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Petrovska L, Mather AE, AbuOun M, Branchu P, Harris SR, Connor T, <italic>et al</italic>. Microevolution of monophasic <italic>Salmonella</italic> Typhimurium during epidemic, United Kingdom, 2005-2010. Emerging Infect Dis. 2016;22:617-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2204.150531">https://doi.org/10.3201/eid2204.150531</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Petrovska</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mather</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>AbuOun</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Branchu</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Harris</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Connor</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Microevolution of monophasic Salmonella Typhimurium during epidemic, United Kingdom, 2005-2010</article-title>
+					<source>Emerging Infect Dis</source>
+					<year>2016</year>
+					<issue>22</issue>
+					<fpage>617</fpage>
+					<lpage>624</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2204.150531">https://doi.org/10.3201/eid2204.150531</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Crayford G, Coombes JL, Humphrey TJ, Wigley P. Monophasic expression of FliC gen by <italic>Salmonella</italic> 4,[5],12:i:- DT193 does not alter its pathogenicity during infection of porcine intestinal epithelial cells. Microbiology. 2014;160:2507-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1099/mic0.081349-0">https://doi.org/10.1099/mic0.081349-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Crayford</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Coombes</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Humphrey</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Wigley</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Monophasic expression of FliC gen by Salmonella 4,[5],12:i:- DT193 does not alter its pathogenicity during infection of porcine intestinal epithelial cells</article-title>
+					<source>Microbiology</source>
+					<year>2014</year>
+					<issue>160</issue>
+					<fpage>2507</fpage>
+					<lpage>2516</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1099/mic0.081349-0">https://doi.org/10.1099/mic0.081349-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Tena D, González-Praetorius A, Pérez-Pomata MT, Gimeno C, Alén MJ, Robres P, <italic>et al</italic>. Urinary infection caused by non typhi <italic>Salmonella</italic>. Enferm Infecc Microbiol Clin. 2000;18:79-82.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tena</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>González-Praetorius</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pérez-Pomata</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Gimeno</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Alén</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Robres</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Urinary infection caused by non typhi Salmonella</article-title>
+					<source>Enferm Infecc Microbiol Clin</source>
+					<year>2000</year>
+					<issue>18</issue>
+					<fpage>79</fpage>
+					<lpage>82</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Eriksson S, Lucchini S, Thompson A, Rhen M, Hinton JCD. Unravelling the biology of macrophage infection by gene expression profiling of intracellular <italic>Salmonella enterica</italic>. Mol Microbiol. 2003;47:103-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2958.2003.03313.x">https://doi.org/10.1046/j.1365-2958.2003.03313.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Eriksson</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lucchini</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Thompson</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rhen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hinton</surname>
+							<given-names>JCD</given-names>
+						</name>
+					</person-group>
+					<article-title>Unravelling the biology of macrophage infection by gene expression profiling of intracellular Salmonella enterica</article-title>
+					<source>Mol Microbiol</source>
+					<year>2003</year>
+					<issue>47</issue>
+					<fpage>103</fpage>
+					<lpage>118</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2958.2003.03313.x">https://doi.org/10.1046/j.1365-2958.2003.03313.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Ipinza F, Collao B, Monsalva D, Bustamante VH, Luraschi R, Alegría-Arcos M, <italic>et al</italic>. Participation of the <italic>Salmonella</italic> OmpD porin in the infection of RAW264.7 macrophages and BALB/c mice. PLoS ONE 2014;9:e111062. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0111062">https://doi.org/10.1371/journal.pone.0111062</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ipinza</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Collao</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Monsalva</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bustamante</surname>
+							<given-names>VH</given-names>
+						</name>
+						<name>
+							<surname>Luraschi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Alegría-Arcos</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Participation of the Salmonella OmpD porin in the infection of RAW264.7 macrophages and BALB/c mice</article-title>
+					<source>PLoS ONE</source>
+					<year>2014</year>
+					<issue>9</issue>
+					<elocation-id>e111062</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0111062">https://doi.org/10.1371/journal.pone.0111062</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Cuenca-Arias P, Montaño LA, Villarreal JM, Wiesner M. Caracterización molecular y fenotípica de aislamientos clínicos de <italic>Salmonella Typhimurium</italic> variante monofásica 1,4,[5],12:i:- recuperados en Colombia. Biomédica. 2020;40:722-33. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5417">https://doi.org/10.7705/biomedica.5417</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Paloma Cuenca-Arias: desarrollo de los experimentos Lucy Angeline Montaño: caracterización de aislamientos José Miguel Villarreal: diseño de los experimentos y discusión de resultados Magdalena Wiesner: desarrollo y diseño de los experimentos y discusión de resultados Todo los autores participaron en el análisis de los resultados y en la escritura del manuscrito.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p> Esta investigación fue financiada por Colciencias, proyecto SIGP 210471250745, por los fondos internos del Instituto Nacional de Salud de Colombia y por el <italic>Global Challenges Research Fund</italic> (GCRF) (Data <italic>&amp; Resources Grant</italic> BBS/OS/GC/000009D) otorgada al Earlham Institute y a la Universidad de Liverpool, Reino Unido.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Conflicto de intereses:</label>
+				<p> Los autores declaran no tener conflicto de intereses.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

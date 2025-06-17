@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomédica</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.7705/biomedica.4943</article-id>
+			<article-id pub-id-type="publisher-id">00014</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Comparación de la escala qSOFA para evaluar la falla orgánica secuencial y los criterios SIRS para sepsis a la cabecera de pacientes con bacteriemia por <italic>Staphylococcus aureus</italic></article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Comparison of quick SOFA and SIRS scales at the bedside of patients with <italic>Staphylococcus aureus</italic> bacteremia</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>García</surname>
+						<given-names>Óscar</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Álvarez</surname>
+						<given-names>Tatiana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Granados</surname>
+						<given-names>Santiago</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1c"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Garzón</surname>
+						<given-names>Vanessa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1d"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>González</surname>
+						<given-names>Santiago</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1e"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1 </label>
+					<institution content-type="original">Grupo de Investigación en Medicina interna, Universidad Tecnológica de Pereira, Pereira, Colombia</institution>
+					<institution content-type="normalized">Universidad Tecnológica de Pereira</institution>
+					<institution content-type="orgdiv1">Grupo de Investigación en Medicina interna</institution>
+					<institution content-type="orgname">Universidad Tecnológica de Pereira</institution>
+					<addr-line>
+						<named-content content-type="city">Pereira</named-content>
+					</addr-line>
+					<country country="CO">Colombia</country>
+				</aff>
+				<aff id="aff1b">
+					<label>1 </label>
+					<institution content-type="original">Grupo de Investigación en Medicina interna, Universidad Tecnológica de Pereira, Pereira, Colombia</institution>
+					<institution content-type="normalized">Universidad Tecnológica de Pereira</institution>
+					<institution content-type="orgdiv1">Grupo de Investigación en Medicina interna</institution>
+					<institution content-type="orgname">Universidad Tecnológica de Pereira</institution>
+					<addr-line>
+						<named-content content-type="city">Pereira</named-content>
+					</addr-line>
+					<country country="CO">Colombia</country>
+				</aff>
+				<aff id="aff1c">
+					<label>1 </label>
+					<institution content-type="original">Grupo de Investigación en Medicina interna, Universidad Tecnológica de Pereira, Pereira, Colombia</institution>
+					<institution content-type="normalized">Universidad Tecnológica de Pereira</institution>
+					<institution content-type="orgdiv1">Grupo de Investigación en Medicina interna</institution>
+					<institution content-type="orgname">Universidad Tecnológica de Pereira</institution>
+					<addr-line>
+						<named-content content-type="city">Pereira</named-content>
+					</addr-line>
+					<country country="CO">Colombia</country>
+				</aff>
+				<aff id="aff1d">
+					<label>1 </label>
+					<institution content-type="original">Grupo de Investigación en Medicina interna, Universidad Tecnológica de Pereira, Pereira, Colombia</institution>
+					<institution content-type="normalized">Universidad Tecnológica de Pereira</institution>
+					<institution content-type="orgdiv1">Grupo de Investigación en Medicina interna</institution>
+					<institution content-type="orgname">Universidad Tecnológica de Pereira</institution>
+					<addr-line>
+						<named-content content-type="city">Pereira</named-content>
+					</addr-line>
+					<country country="CO">Colombia</country>
+				</aff>
+				<aff id="aff1e">
+					<label>1 </label>
+					<institution content-type="original">Grupo de Investigación en Medicina interna, Universidad Tecnológica de Pereira, Pereira, Colombia</institution>
+					<institution content-type="normalized">Universidad Tecnológica de Pereira</institution>
+					<institution content-type="orgdiv1">Grupo de Investigación en Medicina interna</institution>
+					<institution content-type="orgname">Universidad Tecnológica de Pereira</institution>
+					<addr-line>
+						<named-content content-type="city">Pereira</named-content>
+					</addr-line>
+					<country country="CO">Colombia</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label><bold>Correspondencia:</bold> Óscar García, Calle 10 No 12b-30, torre 1, apto 407, Pereira, Colombia Teléfono: (57) (304) 411 3537 <email>ojgarcia@utp.edu.co</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date pub-type="epub">
+				<day>20</day>
+				<month>08</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date pub-type="collection">-->
+				<pub-date pub-type="epub-ppub">
+				<month>05</month>
+				<year>2020</year>
+			</pub-date>
+			<volume>40</volume>
+			<issue>1</issue>
+			<supplement>Suppl.</supplement>
+			<fpage>125</fpage>
+			<lpage>131</lpage>
+			<history>
+				<date date-type="received">
+					<day>12</day>
+					<month>02</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>20</day>
+					<month>02</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción:</title>
+					<p><italic>Staphylococcus aureus</italic> es una de las principales causas de bacteriemia, adquirida en la comunidad o asociada con la atención en salud, la cual presenta un gran porcentaje de complicaciones y elevadas tasas de morbilidad y mortalidad. Los criterios SRIS (<italic>Systemic Inflammatory Response Syndrome</italic>) se han usado tradicionalmente con el fin de establecer la presencia de sepsis; sin embargo, recientemente se ha cuestionado su valor predictivo dada su baja sensibilidad y especificidad. En el 2016, apareció la escala qSOFA (<italic>quick Sequential Organ Failure Assessment</italic>), como una nueva herramienta para la evaluación rápida de las infecciones en los servicios de urgencias.</p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p>Comparar las herramientas qSOFA y SRIS para la predicción de la bacteriemia por <italic>S. aureus</italic>.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos:</title>
+					<p>Se hizo un estudio observacional sobre el comportamiento clínico de pacientes con bacteriemia por <italic>S. aureus</italic> para evaluar el perfil de resistencia fenotípica, algunas características sociodemográficas, clínicas y de laboratorio, las complicaciones y la mortalidad, así como los resultados de las evaluaciones con la escala qSOFA y los criterios SRIS, para establecer cuál podría predecir mejor la presencia de bacteriemia por <italic>S. aureus</italic>.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p>Se seleccionaron 26 pacientes con bacteriemia, en cuyas muestras <italic>S. aureus</italic> había sido el segundo germen más frecuentemente aislado. Se encontró una mortalidad del 50 % (13 casos) y una prevalencia del 30 % de <italic>S. aureus</italic> resistente a meticilina (SARM). Según los puntajes clínicos obtenidos, la escala qSOFA fue positiva en 30,8 % de los pacientes y los criterios SRIS lo fueron en el 92,3 %.</p>
+				</sec>
+				<sec>
+					<title>Discusión:</title>
+					<p>Se encontró una elevada mortalidad en la población analizada. La escala qSOFA fue menos efectiva para el diagnóstico que los criterios clásicos de reacción inflamatoria sistémica.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction:</title>
+					<p>One of the primary causes of community-acquired bacteremia also associated with nosocomial infections is <italic>Staphylococcus aureus,</italic> which is responsible for a high percentage of complications leading to high morbidity and mortality rates. The systemic inflammatory response syndrome (SIRS) criteria have been traditionally used to evaluate the presence of sepsis; however, recent evidence questions its predictive value due to its low sensitivity and specificity. In 2016, new criteria for sepsis were published and a new tool emerged, quick SOFA (qSOFA), for the rapid evaluation of infection in emergency services.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p>To compare the qSOFA and SRIS tools for the prediction of bacteremia caused by <italic>S. aureus</italic>.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods:</title>
+					<p>We conducted an observational study in patients with <italic>S. aureus</italic> bacteremia to evaluate their phenotypic resistance patterns, some special features (sociodemographic characteristics, clinical and paraclinical values), complications, and mortality. The results of the qSOFA and SIRS scales were analyzed to identify which of them could better predict the presence of <italic>S. aureus</italic> bacteremia.</p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>Twenty-six bacteremic patients were identified. <italic>Staphylococcus aureus</italic> was the second most frequently isolated bacteria. The results evidenced a mortality rate of 50% (13 cases) and a prevalence of 30% of MRSA. For the clinical scores evaluated, the qSOFA scale was positive in 30.8% of the patients, and the SIRS scale, in 92.3%.</p>
+				</sec>
+				<sec>
+					<title>Discussion:</title>
+					<p>The mortality rate for the population under study was high and the qSOFA tool had a lower diagnostic yield compared to the classic criteria for SIRS.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Staphylococcus aureus</kwd>
+				<kwd><italic>Staphylococcus aureus</italic> resistente a meticilina</kwd>
+				<kwd>bacteriemia</kwd>
+				<kwd>infección hospitalaria</kwd>
+				<kwd>puntuaciones en la disfunción de órganos</kwd>
+				<kwd>síndrome de reacción inflamatoria sistémica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Staphylococcus aureus</kwd>
+				<kwd>methicillin-resistant <italic>Staphylococcus aureus</italic></kwd>
+				<kwd>bacteremia</kwd>
+				<kwd>cross infection</kwd>
+				<kwd>organ dysfunction scores</kwd>
+				<kwd>systemic inflammatory response syndrome</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="19"/>
+				<page-count count="7"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>Los criterios diagnósticos para la tamización de los pacientes con sepsis fueron modificados ante la publicación de un estudio de seguimiento epidemiológico a partir de bases de datos de Australia y Nueva Zelanda, en el cual se demostraba que, cuando se cumplían dos de los cuatro criterios clásicos del síndrome de reacción inflamatoria sistémica (SRIS) <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>, se excluía a uno de cada ocho pacientes con infección, falla orgánica y riesgo sustancial de muerte <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>Dicha comunicación obligó a modificar la actitud hacia este síndrome, que constituye un problema de salud pública a nivel mundial <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. El inicio del tratamiento antibiótico afecta la morbimortalidad del paciente infectado <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, lo que exige optimizar la oportunidad del diagnóstico. Esta premisa fue la base para que, en un estudio posterior en el que se utilizaron modelos de regresión logística con información bayesiana, se plantearan nuevos criterios para detectar a los pacientes con cuadros infecciosos. Dicho modelo dio origen a la herramienta conocida como escala qSOFA (<italic>quick Sequential Organ Failure Assessment</italic>) <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>, una herramienta clínica sencilla, especialmente útil en los servicios de urgencias pues, al comparar el área bajo la curva con otros puntajes de tamización, fue el que estuvo más cercano a 1 (0,81: 0,80-0,82), resultado que no se obtuvo en pacientes infectados en el servicio de cuidados intensivos, en donde el área bajo la curva fue de apenas 0,66 (0,64-0,68).</p>
+		<p><italic>Staphylococcus aureus</italic> es un importante germen patógeno en hospitales y en la comunidad <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, y una de las principales fuentes de bacteriemia <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, la cual se cuenta entre las condiciones patológicas más graves debido a su morbimortalidad. La tasa de mortalidad asociada con la bacteriemia por <italic>S. aureus</italic> puede alcanzar el 50 % <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>Para la tamización no existe una prueba de referencia que compruebe la presencia de infección, pues son múltiples las enfermedades que simulan la sepsis <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. En este contexto, se evaluaron dos herramientas para detectarla a la cabecera de los pacientes.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p>Se llevó a cabo un estudio observacional de corte transversal. Cada dos días se recolectó información sobre todos los hemocultivos procedentes de los servicios de medicina interna, urgencias y cuidados intensivos, entre el 1° de junio de 2017 y el 1° de diciembre de 2017, en una institución de salud pública de tercer nivel en Pereira.</p>
+			<p>Se seleccionaron los hemocultivos positivos para <italic>S. aureus</italic> y se hizo el seguimiento clínico a la cabecera de los pacientes, recolectando los datos sobre las variables clínicas en un formato que incluía la escala qSOFA y los criterios SRIS. Se evaluaron, asimismo, las características sociodemográficas, los factores de riesgo, las complicaciones y los resultados finales.</p>
+			<p>El análisis estadístico se hizo con el programa Stata™, la detección microbiológica, con el sistema VITEK 2™ (bioMérieux), y el análisis microbiológico, con WHONET 5.6.</p>
+			<p>El estudio obtuvo el aval ético del Comité de Ética de la Universidad Tecnológica de Pereira (Acta No. 31, punto 03, numeral 3.2.1, del 17 de abril de 2017) y del Comité de Ética del Hospital Universitario San Jorge (radicado No 2017003015 del 18 de mayo de 2017).</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>De los 164 pacientes con hemocultivos positivos en el periodo estudiado, 26 (15,8 %) lo fueron para <italic>S. aureus</italic> y, de este porcentaje, el 96 % tuvo más de un hemocultivo positivo para dicho microorganismo<italic>.</italic> Las características demográficas y clínicas de los pacientes se presentan en el <xref ref-type="table" rid="t1">cuadro 1</xref>. El tratamiento empírico más frecuentemente utilizado fue la combinación de vancomicina y oxacilina (23 %). Otros antibióticos menos usados (7,7 % cada uno) fueron piperacilina-tazobactam, cefepime, cefepime-vancomicina y meropenem-vancomicina. El esquema de tratamiento se ajustó según el antibiograma, en todos los pacientes. En cuanto a las puntuaciones clínicas, el 30,8 % de los pacientes tuvieron un puntaje positivo en la qSOFA, y el 92,3 % cumplieron con dos o más de los criterios SRIS.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Cuadro 1</label>
+					<caption>
+						<title>Características demográficas y clínicas de los pacientes con infección por <italic>Staphylococcus aureus</italic> (N=26)</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col span="4"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="4">Característica</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Sexo, n (%)</td>
+								<td align="left">Hombres: 11 (42,3)</td>
+								<td align="left">Mujeres: 15 (57,7)</td>
+							</tr>
+							<tr>
+								<td align="left">Edad (años)</td>
+								<td align="left">58,1</td>
+								<td align="left">Rango: (20-85)</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Hombres: media: 56,2</td>
+								<td align="left">Rango: (30-76)</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Mujeres: media: 59,5</td>
+								<td align="left">Rango: (20-85)</td>
+							</tr>
+							<tr>
+								<td align="left">Procedencia, n (%)</td>
+								<td align="left">Urbana: 18 (69,2)</td>
+								<td align="left">Rural: 8 (30,8)</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Hombres: 9</td>
+								<td align="left">Hombres: 2</td>
+							</tr>
+							<tr>
+								<td align="left"> </td>
+								<td align="left">Mujeres: 9</td>
+								<td align="left">Mujeres: 6</td>
+							</tr>
+							<tr>
+								<td align="left">Régimen de afiliación al SGSSS, n (%)</td>
+								<td align="left">Subsidiado o vinculado: 23 (88,4)</td>
+								<td align="left">Otros: 3 (11,6)</td>
+							</tr>
+							<tr>
+								<td align="left">Estancia hospitalaria (días)</td>
+								<td align="left">Promedio: 34,3</td>
+								<td align="left">Rango: (5-70)</td>
+							</tr>
+							<tr>
+								<td align="left">Uso previo de antibióticos, n (%)</td>
+								<td align="left">Sí: 10 (38,5)</td>
+								<td align="left">No: 16 (61,5)</td>
+							</tr>
+							<tr>
+								<td align="left">Presencia de catéter central, n (%)</td>
+								<td align="left">Sí: 11 (42,3)</td>
+								<td align="left">No: 15 (57,7)</td>
+							</tr>
+							<tr>
+								<td align="left">Estancia en sitios de cuidado de la salud,</td>
+								<td align="left">Sí: 16 (61,5)</td>
+								<td align="left">No: 10 (38,5)</td>
+							</tr>
+							<tr>
+								<td align="left">n (%)</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left">Historia de diabetes mellitus, n (%)</td>
+								<td align="left">Sí: 11 (42,3)</td>
+								<td align="left">No: 15 (57,7)</td>
+							</tr>
+							<tr>
+								<td align="left">Historia de enfermedad renal crónica ≥3,</td>
+								<td align="left">Sí: 13 (50)</td>
+								<td align="left">No: 13 (50)</td>
+							</tr>
+							<tr>
+								<td align="left">n (%)</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left">Infección asociada con el cuidado de la</td>
+								<td align="left">Sí: 14 (53,8)</td>
+								<td align="left">No: 12 (42,2)</td>
+							</tr>
+							<tr>
+								<td align="left">salud, n (%)</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left">Puntuación en la qSOFA, n (%)</td>
+								<td align="left">Positivo: 8 (30,8)</td>
+								<td align="left">Negativo: 18 (69,2)</td>
+							</tr>
+							<tr>
+								<td align="left">Puntuación en los SRIS, n (%)</td>
+								<td align="left">Positivo: 24 (92,3)</td>
+								<td align="left">Negativo: 2 (7,7)</td>
+							</tr>
+							<tr>
+								<td align="left">Tratamiento antibiótico (días)</td>
+								<td align="left">Promedio: 17,2</td>
+								<td align="left">DE: 15,7</td>
+							</tr>
+							<tr>
+								<td align="left">Complicaciones al egreso</td>
+								<td align="left">Presentes: 11 (42,3)</td>
+								<td align="left">Ausentes: 15 (57,7)</td>
+							</tr>
+							<tr>
+								<td align="left">Tipo de <italic>Staphylococcus aureus</italic></td>
+								<td align="left">SARM: 8 (30)</td>
+								<td align="left">SASM: 18 (70)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>SGSSS: Sistema General de Seguridad Social en Salud; DE: desviación estándar; SARM: <italic>Staphylococcus aureus</italic> resistente a meticilina; SASM: <italic>Staphylococcus aureus</italic> sensible a meticilina</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>La prevalencia de <italic>S. aureus</italic> resistente a la meticilina (SARM) fue del 30,7 % (8 casos). No se encontró relación significativa entre haber recibido antibióticos previamente o presentar una infección asociada con la atención en salud, y la presencia de resistencia a la meticilina (p=0,648 y p=0,683, respectivamente). En este grupo de pacientes, no se incrementó la mortalidad ni se prolongó la hospitalización frente a aquellos con <italic>S. aureus</italic> sensible a la meticilina (SASM).</p>
+			<p>El 50 % de los pacientes tenía enfermedad renal crónica en estadio 3 o mayor y la hemodiálisis fue la terapia de reemplazo renal más frecuente. El 42 % de los pacientes (11 casos) tenía catéter central en el momento de la toma del hemocultivo y en tres de ellos se aisló SARM, aunque no se encontró una relación significativa (p=1,0).</p>
+			<p>La mortalidad general fue del 50 %. En el grupo de pacientes con SARM, la mortalidad fue del 50 % y el 75 % había adquirido la infección en la comunidad. En el caso de SASM, la mortalidad fue también del 50 % y el 66 % lo había adquirido en la comunidad.</p>
+			<p>Se encontró una relación significativa entre la mortalidad y la infección asociada con la atención en salud (75 % de los casos mortales, p=0,047). No hubo diferencias significativas en cuanto a la mortalidad asociada con el sexo o el régimen de seguridad social; sin embargo, sí se encontró una diferencia estadísticamente significativa entre la procedencia urbana (92 % de los pacientes fallecidos) y la rural (p= 0,015).</p>
+			<p>El 73 % de la población estudiada tuvo tres hemocultivos positivos y, de este porcentaje, el 57,9 % murió, aunque la relación no fue significativa (p=0,378). Los resultados del análisis bivariado se presentan en el <xref ref-type="table" rid="t2">cuadro 2</xref>.</p>
+			<p>
+				<table-wrap id="t2">
+					<label><bold>Cuadro 2.</bold></label>
+					<caption>
+						<title>Resultados del análisis bivariado</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variable</th>
+								<th align="left">Sí</th>
+								<th align="left">No</th>
+								<th align="center">p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Mortalidad con aislamiento de SARM</td>
+								<td align="left">4</td>
+								<td align="left">4</td>
+								<td align="left">0,78</td>
+							</tr>
+							<tr>
+								<td align="left">Uso previo de antibióticos y aislamiento de SARM</td>
+								<td align="left">3</td>
+								<td align="left">5</td>
+								<td align="left">0,648</td>
+							</tr>
+							<tr>
+								<td align="left">Infección asociada con la atención en salud y</td>
+								<td align="left">5</td>
+								<td align="left">9</td>
+								<td align="left">0,683</td>
+							</tr>
+							<tr>
+								<td align="left">aislamiento de SARM</td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+								<td align="left"> </td>
+							</tr>
+							<tr>
+								<td align="left">Uso de catéter central y presencia de SARM</td>
+								<td align="left">3</td>
+								<td align="left">8</td>
+								<td align="left">1,0</td>
+							</tr>
+							<tr>
+								<td align="left">Mortalidad y procedencia urbana</td>
+								<td align="left">7</td>
+								<td align="left">1</td>
+								<td align="left">0,015</td>
+							</tr>
+							<tr>
+								<td align="left"><italic>Mortalidad e infección comunitaria</italic></td>
+								<td align="left">6</td>
+								<td align="left">2</td>
+								<td align="left">0,047</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Los pacientes con bacteriemia por <italic>S. aureus</italic> pueden desarrollar una amplia variedad de complicaciones difíciles de reconocer, y que tienen impacto en la morbilidad y la mortalidad. Se han resgistrado tasas de mortalidad del 20 al 40 %, aparentemente mayores cuando se trata de infección con SARM comparada con la de SASM. En este estudio, se encontró una prevalencia de bacteriemia del 15 % y <italic>S. aureus</italic> fue el segundo germen más frecuentemente aislado.</p>
+			<p>Predominó el sexo femenino (57 %) al igual que en otras series publicadas <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, con excepción de otra serie <xref ref-type="bibr" rid="B11"><sup>11</sup></xref> de más de 3.000 pacientes en cinco países y 20 centros, cuyo porcentaje de hombres fue del 64 %; no obstante, esta diferencia entre sexos no tuvo significación estadística en el análisis bivariado. El promedio de edad fue de 58 años, similar al de otras series (60 años) <xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. En cuanto a la procedencia, el 69,2 % de los pacientes procedía del área urbana, hallazgo cuya significación se ve limitada por la distribución de la población en el departamento de Risaralda, ya que la mayoría reside en las ciudades. Además, el Hospital Universitario San Jorge es centro de referencia para todos los municipios de Risaralda, y para pacientes afiliados y vinculados al régimen subsidiado. La estancia hospitalaria fue mayor en los pacientes procedentes de los municipios de Risaralda (34 días en promedio), en comparación con lo registrado por otros autores (16 días en promedio) <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+			<p>En cuanto a los factores de riesgo, se encontraron antecedentes de diabetes mellitus en 42 % de los casos y de enfermedad renal crónica en 50 %, prevalencias más altas que las de estudios con poblaciones más grandes (24,7 y 22 %, respectivamente) <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Se resaltan estas diferencias porque son condiciones que comprometen la reacción inmunológica.</p>
+			<p>En cuanto a la efectividad de las escalas de puntuación para la tamización de los pacientes con sepsis, la qSOFA tuvo un bajo desempeño (resultado positivo en el 30,8 % de los pacientes), en contraste con el puntaje de los criterios SRIS, los cuales presentaron una gran sensibilidad (positivo en 92,3 % de los pacientes). En un metaanálisis de 10 estudios con 229.480 pacientes, se encontraron resultados similares, con una sensibilidad del 84,4 % para los criterios SRIS <xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+			<p>El presente estudio tiene la fortaleza adicional de que todos los pacientes tenían infección comprobada por hemocultivo mientras que, en el estudio poblacional mencionado, se incluyeron cultivos de múltiples muestras y se adoptó una definición propia de infección.</p>
+			<p>En un estudio retrospectivo reciente en 402 pacientes con bacteriemia por <italic>S. aureus</italic>, se encontró que el 98 % de ellos, con 2 o más puntos en la qSOFA, cumplía los criterios SRIS, en tanto que el 74 %, con 2 o menos puntos en esta escala, cumplían con dichos criterios, con una diferencia estadísticamente significativa (p&lt;0,0001), lo cual constituye un hallazgo similar al del presenre estudio <xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			<p>Además, en un estudio en el que se evaluó el rendimiento de las mismas escalas de puntuación aquí analizadas, aunque orientadas a la predicción de mortalidad y no de infección, el área bajo la curva fue de 0,56 para los criterios SIRS, de 0,67 para la escala qSOFA y de 0,73 para la qSOFA sumada a la prueba de procalcitonina, resultados que no reflejan un apropiado rendimiento de la escala para dicho fin. Cabe mencionar que, en este estudio, el 13 % de los pacientes cursaba con bacteriemia, que de ellos solo el 6 % tenía bacteriemia por bacterias Gram positivas y que no había información sobre este subgrupo en cuanto a la predicción de infección en el momento del ingreso <xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. En otro estudio de predicción de la mortalidad con la qSOFA en pacientes geriátricos con influenza, el área bajo la curva fue de 0,81 <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+			<p>En cuanto al uso de tratamiento antibiótico empírico, la combinación más frecuente (23 %) fue la de vancomicina y oxacilina, pero no se pudo establecer si fue apropiada. En el caso del tratamiento antibiótico dirigido, todos los pacientes fueron manejados de forma apropiada según el patrón fenotípico identificado en el antibiograma. En otro estudio en una cohorte de pacientes en 10 hospitales (562 casos), se encontró que solo el 51,8 % de los individuos recibió el tratamiento empírico de forma apropiada <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>; en el análisis multivariado se encontraron algunas variables predictivas del tratamiento antibiótico adecuado, entre ellas, estar en hemodiálisis (<italic>odds ratio</italic>, OR=1,36) y tener un catéter venoso central en el momento del ingreso (OR=1,72).</p>
+			<p>En cuanto a la presencia de complicaciones, se encontró una prevalencia de 42 %, que es un valor esperado dentro del rango reportado en la literatura especializada <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. En algunas series se reportan prevalencias bajas de complicaciones (9,4 %) <xref ref-type="bibr" rid="B12"><sup>12</sup></xref>, lo que debe ajustarse por otras características de la población. En otros estudios, menos de la mitad de los pacientes con complicaciones presentaba diabetes o enfermedad renal crónica. En el presente estudio, la mortalidad fue del 50 %, lo cual debe interpretarse teniendo en cuenta que la población evaluada vivía en condiciones socioeconómicas desfavorables, lo que usualmente implica que las comorbilidades no han sido tratadas adecuadamente.</p>
+			<p>En la presente serie, el 30 % de las cepas de <italic>S. aureus</italic> fueron resistentes a la meticilina, porcentaje menor al de algunas otras series (56,8 %) <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. A pesar de esto, en el análisis bivariado no se incrementó la mortalidad comparada con la de los pacientes con bacteriemia por SASM. Se estableció que el 53 % de los pacientes cursaba con una infección asociada con la atención en salud, pero sin que ello se asociara con la presencia de SARM (p=0,683). En otras series, se ha reportado una tasa de mortalidad por SARM mayor que la de aquella por SASM, con un RR de 1,7 (IC<sub>95%</sub> 1,3-2,4; p&lt;,01) <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			<p>Una fortaleza del presente estudio fue la rigurosidad del seguimiento a los pacientes, a quienes, una vez detectados, se les hacía una evaluación clínica hospitalaria y se les seguía hasta el egreso o el fallecimiento sin limitarse a la evaluación exclusiva de las historias clínicas.</p>
+			<p>Como limitación debe mencionarse el registro de la mortalidad, ya que, debido a las elevadas tasas, no pudo establecerse con precisión si la muerte se debía a la bacteriemia, para lo cual se hubiera requerido un ajuste de variables. El tamaño de la muestra no permitió hacer un análisis estadístico más extenso. No obstante, este es el primer estudio en la ciudad que caracteriza a los pacientes con esta condición, lo que constituye un punto de referencia para futuras investigaciones en otras instituciones de salud de la ciudad y de la región del Eje Cafetero.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>Bone RC, Balk RA, Cerra FB, Dellinger RP, Fein AM, Knaus WA, et al. Definitions for sepsis and organ failure and guidelines for the use of innovative therapies in sepsis. The ACCP/ SCCM Consensus Conference Committee. American College of Chest Physicians/Society of Critical Care Medicine. Chest. 1992;101:1644-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1378/chest.101.6.1644">https://doi.org/10.1378/chest.101.6.1644</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bone</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Balk</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Cerra</surname>
+							<given-names>FB</given-names>
+						</name>
+						<name>
+							<surname>Dellinger</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Fein</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Knaus</surname>
+							<given-names>WA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Definitions for sepsis and organ failure and guidelines for the use of innovative therapies in sepsis. The ACCP/ SCCM Consensus Conference Committee. American College of Chest Physicians/Society of Critical Care Medicine</article-title>
+					<source>Chest</source>
+					<year>1992</year>
+					<volume>101</volume>
+					<fpage>1644</fpage>
+					<lpage>1655</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1378/chest.101.6.1644">https://doi.org/10.1378/chest.101.6.1644</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Kaukonen K, Bailey M, Pilcher D, Cooper J, Bellomo R. Systemic inflammatory response syndrome criteria in defining severe sepsis. N Engl J Med. 2015;372:1629-38. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa1415236">https://doi.org/10.1056/NEJMoa1415236</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaukonen</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Bailey</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pilcher</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Cooper</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bellomo</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Systemic inflammatory response syndrome criteria in defining severe sepsis</article-title>
+					<source>N Engl J Med</source>
+					<year>2015</year>
+					<volume>372</volume>
+					<fpage>1629</fpage>
+					<lpage>1638</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa1415236">https://doi.org/10.1056/NEJMoa1415236</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Álvaro-Meca A, Jiménez-Sousa MA, Micheloud D, Sánchez-López A, Heredia-Rodríguez M, Tamayo E, et al. Epidemiological trends of sepsis in the twenty-first century (2000-2013): An analysis of incidence, mortality, and associated costs in Spain. Popul Health Metr. 2018;16:4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12963-018-0160-x">https://doi.org/10.1186/s12963-018-0160-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Álvaro-Meca</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jiménez-Sousa</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Micheloud</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sánchez-López</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Heredia-Rodríguez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tamayo</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiological trends of sepsis in the twenty-first century (2000-2013): An analysis of incidence, mortality, and associated costs in Spain</article-title>
+					<source>Popul Health Metr</source>
+					<year>2018</year>
+					<volume>16</volume>
+					<issue>4</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12963-018-0160-x">https://doi.org/10.1186/s12963-018-0160-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Kumar A, Roberts D, Wood KE, Light B, Parrillo JE, Sharma S, et al. Duration of hypotension before initiation of effective antimicrobial therapy is the critical determinant of survival in human septic shock. Crit Care Med. 2006,34:1589-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/01.CCM.0000217961.75225.E9">https://doi.org/10.1097/01.CCM.0000217961.75225.E9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kumar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Roberts</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Wood</surname>
+							<given-names>KE</given-names>
+						</name>
+						<name>
+							<surname>Light</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Parrillo</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Sharma</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Duration of hypotension before initiation of effective antimicrobial therapy is the critical determinant of survival in human septic shock</article-title>
+					<source>Crit Care Med</source>
+					<year>2006</year>
+					<volume>34</volume>
+					<fpage>1589</fpage>
+					<lpage>1596</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/01.CCM.0000217961.75225.E9">https://doi.org/10.1097/01.CCM.0000217961.75225.E9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Seymour CW, Liu VX, Iwashyna TJ, Brunkhorst FM, Rea TD, Scherag A, et al. Assessment of clinical criteria for sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315:762-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2016.0288">https://doi.org/10.1001/jama.2016.0288</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seymour</surname>
+							<given-names>CW</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>VX</given-names>
+						</name>
+						<name>
+							<surname>Iwashyna</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Brunkhorst</surname>
+							<given-names>FM</given-names>
+						</name>
+						<name>
+							<surname>Rea</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Scherag</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Assessment of clinical criteria for sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)</article-title>
+					<source>JAMA</source>
+					<year>2016</year>
+					<volume>315</volume>
+					<fpage>762</fpage>
+					<lpage>774</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2016.0288">https://doi.org/10.1001/jama.2016.0288</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Mylotte JM, Tayara A. Staphylococcus aureus bacteremia: Predictors of 30-day mortality in a large cohort. Clin Infect Dis. 2000;31:1170-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/317421">https://doi.org/10.1086/317421</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mylotte</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Tayara</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Staphylococcus aureus bacteremia: Predictors of 30-day mortality in a large cohort</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2000</year>
+					<volume>31</volume>
+					<fpage>1170</fpage>
+					<lpage>1174</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/317421">https://doi.org/10.1086/317421</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Keynan Y, Rubinstein E. Staphylococcus aureus bacteremia, risk factors, complications, and management. Crit Care Clin. 2013;29:547-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ccc.2013.03.008">https://doi.org/10.1016/j.ccc.2013.03.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Keynan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Rubinstein</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Staphylococcus aureus bacteremia, risk factors, complications, and management</article-title>
+					<source>Crit Care Clin</source>
+					<year>2013</year>
+					<volume>29</volume>
+					<fpage>547</fpage>
+					<lpage>562</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ccc.2013.03.008">https://doi.org/10.1016/j.ccc.2013.03.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Tong SY, Davis JS, Eichenberger E, Holland TL, Fowler VG Jr. Staphylococcus aureus infections: Epidemiology, pathophysiology, clinical manifestations, and management. Clin Microbiol Rev. 2015;28:603-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/CMR.00134-14">https://doi.org/10.1128/CMR.00134-14</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tong</surname>
+							<given-names>SY</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Eichenberger</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Holland</surname>
+							<given-names>TL</given-names>
+						</name>
+						<name>
+							<surname>Fowler</surname>
+							<given-names>VG</given-names>
+							<suffix>Jr</suffix>
+						</name>
+					</person-group>
+					<article-title>Staphylococcus aureus infections: Epidemiology, pathophysiology, clinical manifestations, and management</article-title>
+					<source>Clin Microbiol Rev</source>
+					<year>2015</year>
+					<volume>28</volume>
+					<fpage>603</fpage>
+					<lpage>661</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/CMR.00134-14">https://doi.org/10.1128/CMR.00134-14</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Cecconi M, Evans L, Levy M, Rhodes A. Sepsis and septic shock. Lancet. 2018;392:75-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)30696-2">https://doi.org/10.1016/S0140-6736(18)30696-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cecconi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Evans</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Rhodes</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Sepsis and septic shock</article-title>
+					<source>Lancet</source>
+					<year>2018</year>
+					<volume>392</volume>
+					<fpage>75</fpage>
+					<lpage>87</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)30696-2">https://doi.org/10.1016/S0140-6736(18)30696-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Wang J, Hsu L, Lauderdale T, Fan W, Wang F. Comparison of outcomes among adult patients with nosocomial bacteremia caused by methicillin-susceptible and methicillin-resistant Staphylococcus aureus: A retrospective cohort study. PLoS One. 2015;10:e0144710. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0144710">https://doi.org/10.1371/journal.pone.0144710</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hsu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Lauderdale</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of outcomes among adult patients with nosocomial bacteremia caused by methicillin-susceptible and methicillin-resistant Staphylococcus aureus: A retrospective cohort study</article-title>
+					<source>PLoS One</source>
+					<year>2015</year>
+					<volume>10</volume>
+					<elocation-id>e0144710</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0144710">https://doi.org/10.1371/journal.pone.0144710</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Kaasch A, Barlow G, Edgeworth J, Fowler V, Hellmich M, Hopkins S, et al. Staphylococcus aureus bloodstream infection: A pooled analysis of five prospective, observational studies. J Infect. 2014;68:242-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jinf.2013.10.015">https://doi.org/10.1016/j.jinf.2013.10.015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaasch</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Barlow</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Edgeworth</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fowler</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Hellmich</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hopkins</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Staphylococcus aureus bloodstream infection: A pooled analysis of five prospective, observational studies</article-title>
+					<source>J Infect</source>
+					<year>2014</year>
+					<volume>68</volume>
+					<fpage>242</fpage>
+					<lpage>251</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jinf.2013.10.015">https://doi.org/10.1016/j.jinf.2013.10.015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Yilmaz M, Elaldi N, Balkan İ, Arslan F, Batırel A, Bakıcı M, et al. Mortality predictors of Staphylococcus aureus bacteremia: A prospective multicenter study. Ann Clin Microbiol Antimicrob. 2016;15:7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12941-016-0122-8">https://doi.org/10.1186/s12941-016-0122-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yilmaz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Elaldi</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Balkan</surname>
+							<given-names>İ</given-names>
+						</name>
+						<name>
+							<surname>Arslan</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Batırel</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bakıcı</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mortality predictors of Staphylococcus aureus bacteremia: A prospective multicenter study</article-title>
+					<source>Ann Clin Microbiol Antimicrob</source>
+					<year>2016</year>
+					<volume>15</volume>
+					<fpage>7</fpage>
+					<lpage>7</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12941-016-0122-8">https://doi.org/10.1186/s12941-016-0122-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Serafim R, Gomes J, Salluh J, Póvoa P. A comparison of the quick-SOFA and systemic inflammatory response syndrome criteria for the diagnosis of sepsis and prediction of mortality: A systematic review and meta-analysis. Chest. 2018;153:646-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chest.2017.12.015">https://doi.org/10.1016/j.chest.2017.12.015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Serafim</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Salluh</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Póvoa</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>A comparison of the quick-SOFA and systemic inflammatory response syndrome criteria for the diagnosis of sepsis and prediction of mortality: A systematic review and meta-analysis</article-title>
+					<source>Chest</source>
+					<year>2018</year>
+					<volume>153</volume>
+					<fpage>646</fpage>
+					<lpage>655</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.chest.2017.12.015">https://doi.org/10.1016/j.chest.2017.12.015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Minejima E, Delayo V, Lou M, Pamela N, Nieberg P, Rosemary C, et al. Utility of qSOFA score in identifying patients at risk for poor outcome in Staphylococcus aureus bacteremia. BMC Infect Dis. 2019;19:149. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-019-3770-4">https://doi.org/10.1186/s12879-019-3770-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Minejima</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Delayo</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Lou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pamela</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Nieberg</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Rosemary</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Utility of qSOFA score in identifying patients at risk for poor outcome in Staphylococcus aureus bacteremia</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2019</year>
+					<volume>19</volume>
+					<fpage>149</fpage>
+					<lpage>149</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-019-3770-4">https://doi.org/10.1186/s12879-019-3770-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Yu H, Nie L, Liu A, Wu K, Hsein Y, Yen D, et al. Combining procalcitonin with the qSOFA and sepsis mortality prediction. Medicine (Baltimore). 2019;98:e15981. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000015981">https://doi.org/10.1097/MD.0000000000015981</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Nie</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Hsein</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yen</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Combining procalcitonin with the qSOFA and sepsis mortality prediction</article-title>
+					<source>Medicine</source>
+					<publisher-loc>Baltimore</publisher-loc>
+					<year>2019</year>
+					<volume>98</volume>
+					<elocation-id>e15981</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000015981">https://doi.org/10.1097/MD.0000000000015981</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Chang S, Yeh C, Chen Y, Hsu C, Chen J, Chen W, et al. Quick-SOFA score to predict mortality among geriatric patients with influenza in the emergency department. Medicine (Baltimore). 2019;98:e15966. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000015966">https://doi.org/10.1097/MD.0000000000015966</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yeh</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Hsu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Quick-SOFA score to predict mortality among geriatric patients with influenza in the emergency department</article-title>
+					<source>Medicine</source>
+					<publisher-loc>Baltimore</publisher-loc>
+					<year>2019</year>
+					<volume>98</volume>
+					<elocation-id>e15966</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000015966">https://doi.org/10.1097/MD.0000000000015966</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Herzke CA, Chen LF, Anderson DJ, Choi Y, Sexton DJ, Kaye KS. Empirical antimicrobial therapy for bloodstream infection due to methicillin-resistant Staphylococcus aureus: No better than a coin toss. Infect Control Hosp Epidemiol. 2009;30:1057-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/606163">https://doi.org/10.1086/606163</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Herzke</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Choi</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sexton</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Kaye</surname>
+							<given-names>KS</given-names>
+						</name>
+					</person-group>
+					<article-title>Empirical antimicrobial therapy for bloodstream infection due to methicillin-resistant Staphylococcus aureus: No better than a coin toss</article-title>
+					<source>Infect Control Hosp Epidemiol</source>
+					<year>2009</year>
+					<volume>30</volume>
+					<fpage>1057</fpage>
+					<lpage>1061</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/606163">https://doi.org/10.1086/606163</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Carvalho K, Mamizuka E, Gontijo F. Methicillin/oxacillin-resistant Staphylococcus aureus as a hospital and public health threat in Brazil. Braz J Infect Dis. 2010;14:71-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1413-8670(10)70014-3">https://doi.org/10.1016/S1413-8670(10)70014-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Mamizuka</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gontijo</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Methicillin/oxacillin-resistant Staphylococcus aureus as a hospital and public health threat in Brazil</article-title>
+					<source>Braz J Infect Dis</source>
+					<year>2010</year>
+					<volume>14</volume>
+					<fpage>71</fpage>
+					<lpage>76</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1413-8670(10)70014-3">https://doi.org/10.1016/S1413-8670(10)70014-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>Shurland S, Zhan M, Bradham DD, Roghmann MC. Comparison of mortality risk associated with bacteremia due to methicillin-resistant and methicillin-susceptible Staphylococcus aureus. Infect Control Hosp Epidemiol. 2007;28:273-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/512627">https://doi.org/10.1086/512627</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shurland</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zhan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bradham</surname>
+							<given-names>DD</given-names>
+						</name>
+						<name>
+							<surname>Roghmann</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of mortality risk associated with bacteremia due to methicillin-resistant and methicillin-susceptible Staphylococcus aureus</article-title>
+					<source>Infect Control Hosp Epidemiol</source>
+					<year>2007</year>
+					<volume>28</volume>
+					<fpage>273</fpage>
+					<lpage>279</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/512627">https://doi.org/10.1086/512627</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> García Ó, Álvarez T, Granados S, Garzón V, González S. Comparación de la escala qSOFA para evaluar la falla orgánica secuencial y los criterios SIRS para sepsis a la cabecera de pacientes con bacteriemia por Staphylococcus aureus. Biomédica. 2020;40(Supl.1):125-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.4943">https://doi.org/10.7705/biomedica.4943</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Óscar García y Tatiana Álvarez: diseño del estudio Todos los autores participaron en la recolección de datos, el análisis e interpretación de los resultados y la escritura del manuscrito.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p> Ninguna</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Conflicto de intereses:</label>
+				<p> Ninguno</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,18 @@
+#ITI#A REML method for the evidence-splitting model in network meta-analysis#FTI#
+#IRE# Checking for possible inconsistency between direct and indirect evidence is an important task in network meta-analysis. Recently, an evidence-splitting (ES) model has been proposed, that allows separating direct and indirect evidence in a network and hence assessing inconsistency. A salient feature of this model is that the variance for heterogeneity appears in both the mean and the variance structure. Thus, full maximum likelihood (ML) has been proposed for estimating the parameters of this model. Maximum likelihood is known to yield biased variance component estimates in linear mixed models, and this problem is expected to also affect the ES model. The purpose of the present paper, therefore, is to propose a method based on residual (or restricted) maximum likelihood (REML). Our simulation shows that this new method is quite competitive to methods based on full ML in terms of bias and mean squared error. In addition, some limitations of the ES model are discussed. While this model splits direct and indirect evidence, it is not a plausible model for the cause of inconsistency#FRE#
+#IPC# inconsistency; maximum likelihood; mixed treatment comparisons; residual maximum likelihood#FPC#
+#IRF# Shih M.C., Tu Y.K., An evidence-splitting approach to evaluation of direct-indirect evidence inconsistency in network meta-analysis, Res Synth Methods, 12, pp. 226-238, (2021); 
+Tu Y.K., Wu Y.C., Using structural equation modelling for network meta-analysis, BMC Med Res Methodol, 17, (2017); 
+Searle S.R., Casella G., McCulloch C.E., Variance components, (1992); 
+Jackson D., Law M., Stijnen T., Viechtbauer W., White I.R., A comparison of seven random-effects models for meta-analyses that estimate the summary odds ratio, Stat Med, 37, 7, pp. 1059-1085, (2018); 
+Piepho H.P., Madden L.V., Roger J., Payne R., Williams E.R., Estimating the variance for heterogeneity in arm-based network meta-analysis, Pharm Stat, 17, pp. 264-277, (2018); 
+Lu G., Ades A.E., Assessing evidence inconsistency in mixed treatment comparisons, J Am Stat Assoc, 101, pp. 447-459, (2006); 
+Piepho H.P., Williams E.R., Madden L.V., The use of two-way mixed models in multi-treatment meta-analysis, Biometrics, 68, pp. 1269-1277, (2012); 
+Senn S., Hans van Houwelingen and the art of summing up, Biom J, 52, pp. 85-94, (2010); 
+Piepho H.P., Madden L.V., How to observe the principle of concurrent control in an arm-based meta-analysis using SAS procedures GLIMMIX and BGLIMM, Res Synth Methods, 13, pp. 821-828, (2022); 
+Pinheiro J.C., Bates D.M., Approximations to the log-likelihood function in the nonlinear mixed effects model, J Comput Graph Stat, 4, pp. 12-35, (1995); 
+Pagliaro L., D'Amico G., Sorensen T.I., Et al., Prevention of first bleeding in cirrhosis. A meta-analysis of randomized trials of nonsurgical treatment, Ann Intern Med, 117, pp. 59-70, (1992); 
+Cox D.R., Snell E.J., Analysis of Binary Data, 32, (1989); 
+Forkman J., The use of a reference variety for comparisons in incomplete series of crop variety trials, J Appl Statistics, 40, pp. 2681-2698, (2013); 
+Mohring J., Piepho H.P., Comparison of weighting in two-stage analyses of plant breeding trials, Crop Sci, 49, pp. 1977-1988, (2009); 
+Calinski T., Czajka S., Kaczmarek Z., Krajewski P., Pilarczyk W., Analyzing multi-environment variety trials using randomization-derived mixed models, Biometrics, 61, pp. 448-455, (2005)#FRF#

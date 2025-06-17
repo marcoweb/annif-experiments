@@ -1,0 +1,48 @@
+#ITI#The Impact of Markov Chain Convergence on Estimation of Mixture IRT Model Parameters#FTI#
+#IRE# A nonconverged Markov chain can potentially lead to invalid inferences about model parameters. The purpose of this study was to assess the effect of a nonconverged Markov chain on the estimation of parameters for mixture item response theory models using a Markov chain Monte Carlo algorithm. A simulation study was conducted to investigate the accuracy of model parameters estimated with different degree of convergence. Results indicated the accuracy of the estimated model parameters for the mixture item response theory models decreased as the number of iterations of the Markov chain decreased. In particular, increasing the number of burn-in iterations resulted in more accurate estimation of mixture IRT model parameters. In addition, the different methods for monitoring convergence of a Markov chain resulted in different degrees of convergence despite almost identical accuracy of estimation.#FRE#
+#IPC# convergence diagnostics; MCMC algorithm; mixture item response theory models#FPC#
+#IRF# Asparouhov T., Muthen B., Bayesian analysis using Mplus: Technical implementation, (2010); 
+Bacci S., Bartolucci F., Grilli L., Rampichini C., Evaluation of student performance through a multidimensional finite mixture IRT model, Multivariate Behavioral Research, 52, pp. 732-746, (2017); 
+Bolt D.M., Cohen A.S., Wollack J.A., Item parameter estimation under conditions of test speededness: Application of a mixture Rasch model with ordinal constraints, Journal of Educational Measurement, 39, pp. 331-348, (2002); 
+Brooks S.P., Roberts G.O., Convergence assessment techniques for Markov chain Monte Carlo, Statistics and Computing, 8, pp. 319-335, (1998); 
+Cohen A.S., Bolt D.M., A mixture model analysis of differential item functioning, Journal of Educational Measurement, 42, pp. 133-148, (2005); 
+Cowles M.K., Carlin B.P., Markov chain Monte Carlo convergence diagnostics: A comparative review, Journal of the American Statistical Association, 91, pp. 883-904, (1996); 
+De la Torre J., Hong Y., Parameter estimation with small sample size a higher-order IRT model approach, Applied Psychological Measurement, 34, pp. 267-288, (2010); 
+Finch W.H., French B.F., Parameter estimation with mixture item response theory models: A Monte Carlo comparison of maximum likelihood and Bayesian methods, Journal of Modern Applied Statistical Methods, 11, pp. 167-178, (2012); 
+Gamerman D., Lopes H., Markov chain Monte Carlo: Stochastic simulation for Bayesian inference, (2006); 
+Gelman A., Rubin D.B., Inference from iterative simulation using multiple sequences, Statistical Science, 7, pp. 457-472, (1992); 
+Geweke J., Evaluating the accuracy of sampling-based approaches to calculating posterior moments, Bayesian statistics 4, pp. 169-194, (1992); 
+Geyer C.J., Practical Markov chain Monte Carlo, Statistical Science, 7, pp. 473-511, (1992); 
+Gilks W.R., Richardson S., Spiegelhalter D.J., Markov chain Monte Carlo in practice, (1998); 
+Heidelberger P., Welch P., Simulation run length control in the presence of an initial transient, Operations Research, 31, pp. 1109-1144, (1983); 
+Huang H.-Y., Mixture random-effect IRT models for controlling extreme response style on rating scales, Frontiers in Psychology, 7, (2016); 
+Huang H.-Y., Mixture IRT model with higher-order structure for latent traits, Educational and Psychological Measurement, 77, pp. 275-304, (2017); 
+Hulin C.L., Lissak R.I., Drasgow F., Recovery of two- and three-parameter logistic item characteristic curves: A Monte Carlo study, Applied Psychological Measurement, 6, pp. 249-260, (1982); 
+Jackman S., Bayesian analysis for the social sciences, (2009); 
+Jiao H., Lissits B., Macready G., Wang S., Liang S., Exploring levels of performance using the mixture Rasch model for standard setting, Psychological Test and Assessment, 53, pp. 499-522, (2011); 
+Jiao H., Macready G., Liu J., Cho Y., A mixture Rasch model-based computerized adaptive test for latent class identification, Applied Psychological Measurement, 36, pp. 469-493, (2012); 
+Jin K.-Y., Chen H.-F., Wang W.-C., Mixture item response models for inattentive responding behavior, Organizational Research Methods, 21, pp. 197-225, (2017); 
+Jin K.-Y., Wang W.-C., Item response theory model for performance decline during testing, Journal of Educational Measurement, 51, pp. 178-200, (2014); 
+Kadengye D.T., Ceulemans E., Van den Noortgate W., A generalized longitudinal mixture IRT model for measuring differential growth in learning environments, Behavioral Research, 46, pp. 823-840, (2013); 
+Kieftenbeld V., Natesan P., Recovery of graded response model parameters: A comparison of marginal maximum likelihood and Markov chain Monte Carlo estimation, Applied Psychological Measurement, 36, pp. 399-419, (2012); 
+Kim J.-S., Bolt D.M., Estimating item response theory models using Markov chain Monte Carlo methods, Educational Measurement: Issues and Practice, 26, 4, pp. 38-51, (2007); 
+Kim S.-H., An evaluation of a Markov chain Monte Carlo method for the Rasch model, Applied Psychological Measurement, 25, pp. 163-176, (2001); 
+Lesaffre E., Lawson A.B., Bayesian biostatistics, (2012); 
+Li F., Cohen A.S., Kim S.-H., Cho S.-J., Model selection methods for mixture dichotomous IRT models, Applied Psychological Measurement, 33, pp. 353-373, (2009); 
+List M.K., Robitzsch A., Ludtke O., Koller O., Nagy G., Performance decline in low-stakes educational assessments: Different mixture modeling approaches, Large-scale Assessments in Education, 5, (2017); 
+Lunn D., Jackson C., Best N., Thomas A., Spiegelhalter D., The BUGS book: A practical introduction to Bayesian analysis, (2013); 
+Mislevy R.J., Verhelst N., Modeling item responses when different subjects employ different solution strategies, Psychometrika, 55, pp. 195-215, (1990); 
+Mittelhaeuser M.-A., Beguin A.A., Sijtsma K., The effect of differential motivation of IRT linking, Journal of Educational Measurement, 52, pp. 339-358, (2015); 
+Plummer M., Best N., Cowles K., Vines K., CODA: Convergence diagnostics and output analysis for MCMC, R News, 6, pp. 7-11, (2006); 
+Raftery A.E., Lewis S.M., Comment: One long run with diagnostics: Implement strategies for Markov chain Monte Carol, Statistical Science, 7, pp. 493-497, (1992); 
+Raftery A.E., Lewis S.M., How many iterations in the Gibbs sampler, Bayesian statistics 4, pp. 769-773, (1992); 
+Rost J., Rasch models in latent classes: An integration of two approaches to item analysis, Applied Psychological Measurement, 14, pp. 271-282, (1990); 
+Sahlin K., Estimating convergence of Markov chain Monte Carlo simulations, (2011); 
+Samuelsen K., Examining different item functioning from a latent class perspective, (2005); 
+Sen S., Cohen A.S., Kim S.-H., The impact of non-normality on extraction of spurious latent classes in mixture IRT models, Applied Psychological Measurement, 40, pp. 98-113, (2016); 
+Sinharay S., Experiences with Markov chain Monte Carlo convergence assessment in two psychometric examples, Journal of Educational and Behavioral Statistics, 29, pp. 461-488, (2004); 
+Smith B.J., boa: An R package for MCMC output convergence assessment and posterior inference, Journal of Statistical Software, 21, i11, pp. 1-37, (2007); 
+Spiegelhalter D.J., Thomas A., Best N.G., Lunn D., OpenBUGS user manual, Version 3.2.3, (2014); 
+Stone C.A., Recovery of marginal maximum likelihood estimates in the two-parameter logistic response model: An evaluation of MULTILOG, Applied Psychological Measurement, 16, pp. 1-16, (1992); 
+Susanto I., Iriawan N., Kuswanto H., Suhartono F.K., Ulama B.S.S., Pravitasari A.A., On the Markov chain Monte Carlo convergence diagnostic of Bayesian finite mixture model for income distribution, Journal of Physics: Conference Series, 1090, (2018); 
+Woodward P., Bayesian analysis made simple: An Excel GUI for WinBUGS, (2011)#FRF#

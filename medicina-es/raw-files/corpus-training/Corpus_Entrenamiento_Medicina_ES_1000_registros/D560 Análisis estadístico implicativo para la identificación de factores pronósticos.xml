@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">3684</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="es">MEDISAN</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1029-3019</issn>
+<publisher>
+<publisher-name>Centro Provincial de Información de Ciencias Médicas de Santiago de Cuba</publisher-name>
+<publisher-loc>
+<country>Cuba</country>
+<email>comite.medisan@infomed.sld.cu</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">368455138007</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>ARTÍCULOS ORIGINALES</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Análisis estadístico implicativo para la identificación de factores pronósticos de la mortalidad por cáncer de próstata</article-title>
+<trans-title-group>
+<trans-title xml:lang="en">Statistical analysis
+involving mortality prediction factors for the identification of prostate
+cancer</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name name-style="western">
+<surname>Moraga Rodríguez</surname>
+<given-names>Alina</given-names>
+</name>
+<xref ref-type="corresp" rid="corresp1"/>
+<xref ref-type="aff" rid="aff1"/>
+<xref ref-type="fn" rid="fn1"/>
+<email>a.rodriguez@infomed.sld.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Zamora Matamoros</surname>
+<given-names>Larisa</given-names>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<email>a.rodriguez@infomed.sld.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Sagaró del Campo</surname>
+<given-names>Nelsa María</given-names>
+</name>
+<xref ref-type="aff" rid="aff3"/>
+<email>a.rodriguez@infomed.sld.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Moraga Rodríguez</surname>
+<given-names>Annia</given-names>
+</name>
+<xref ref-type="aff" rid="aff4"/>
+<email>a.rodriguez@infomed.sld.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<name name-style="western">
+<surname>Rodríguez Griñán</surname>
+<given-names>Alina</given-names>
+</name>
+<xref ref-type="aff" rid="aff5"/>
+<email>a.rodriguez@infomed.sld.cu</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Facultad de
+Medicina No. 1, Universidad de Ciencias Médicas, Santiago de Cuba, Cuba.</institution>
+<institution content-type="orgname">Facultad de
+Medicina No. 1, Universidad de Ciencias Médicas</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Universidad de Oriente, Santiago de Cuba, Cuba.</institution>
+<institution content-type="orgname">Universidad de Oriente</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Universidad de Ciencias Médicas, Santiago de Cuba, Cuba.</institution>
+<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff4">
+<institution content-type="original">Facultad de
+Medicina No. 1, Universidad de Ciencias Médicas, Santiago de Cuba, Cuba.</institution>
+<institution content-type="orgname">Facultad de
+Medicina No. 1, Universidad de Ciencias Médicas</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff5">
+<institution content-type="original">Hospital Provincial Docente Clinicoquirúrgico "Saturnino
+Lora Torres", Santiago de Cuba, Cuba.</institution>
+<institution content-type="orgname"> Hospital Provincial Docente Clinicoquirúrgico "Saturnino
+Lora Torres"</institution>
+<country country="CU">Cuba</country>
+</aff>
+<author-notes>
+<fn id="fn1" fn-type="current-aff">
+<p>Facultad de Medicina No. 1, avenida de las Américas, entre calles I y E,
+reparto Sueño, Santiago de Cuba, Cuba</p>
+</fn>
+<corresp id="corresp1">
+<email>a.rodriguez@infomed.sld.cu</email>
+</corresp>
+</author-notes>
+<pub-date pub-type="epub-ppub">
+<season>January</season>
+<year>2018</year>
+</pub-date>
+<volume>22</volume>
+<issue>1</issue>
+<fpage>51</fpage>
+<lpage>59</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>16</day>
+<month>12</month>
+<year>2015</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>29</day>
+<month>01</month>
+<year>2016</year>
+</date>
+</history>
+<permissions>
+<ali:free_to_read/>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>  Se efectuó una investigación observacional y analítica, desde septiembre de 2013 hasta igual mes de 2014, con el fin de evaluar la utilidad de una nueva técnica de análisis estadístico implicativo para la identificación de los factores pronósticos de la mortalidad por cáncer de próstata en la provincia de Santiago de Cuba. Según la regresión logística, los factores que empeoraron el pronóstico en los pacientes con cáncer de próstata fueron la afectación ganglionar y el grado III de la diferenciación histológica, y según el análisis estadístico implicativo, lo hicieron la afectación ganglionar, las metástasis y las complicaciones. El análisis estadístico implicativo complementó a la regresión logística en la identificación de los factores pronósticos, con lo cual se logró una mejor comprensión de la causalidad y se elevó la calidad de este tipo de estudio.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>  An observational and analytic investigation was carried out, from September, 2013 to the same month in 2014, with the purpose of evaluating the usefulness of a new technique of involving statistical analysis for the identification of mortality prediction factors for prostate cancer in Santiago de Cuba. According to the logistical regression, the factors that worsened the prediction in the patients with prostate cancer were the ganglionic disorder and the grade III of the histological differentiation, and according to the involving statistical analysis, the ganglionar disorder, the metastasis and complications. The involving statistical analysis supplemented the logistical regression in the identification of the prediction factors, with which a better understanding of the causation was achieved and there was an increase in the quality of this type of study.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>análisis estadístico implicativo</kwd>
+<kwd> cáncer de próstata</kwd>
+<kwd> factores pronósticos</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>involving statistical analysis</kwd>
+<kwd> prostate cancer</kwd>
+<kwd> prediction factors</kwd>
+</kwd-group>
+<counts>
+<fig-count count="3"/>
+<table-count count="2"/>
+<equation-count count="0"/>
+<ref-count count="14"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec sec-type="intro">
+<title>
+<bold>INTRODUCCIÓN</bold>
+</title>
+<p> La identificación de los factores pronósticos es de gran importancia para la prevención secundaria y terciaria de las enfermedades, pues en muchos casos indicarán el tratamiento.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref1">1</xref>
+</sup>
+</p>
+<p> En otro orden de ideas, el cáncer de próstata es la neoplasia maligna más frecuente en varones, y la segunda causa de muerte por cáncer después de las neoplasias broncopulmonares. Actualmente se observa un aumento exponencial de la mortalidad por esta causa a partir de los 64 años.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref2">2</xref>,<xref ref-type="bibr" rid="redalyc_368455138007_ref3">3</xref>
+</sup>
+</p>
+<p> Los factores pronósticos de primera magnitud en el cáncer de próstata son el estadio y el grado de diferenciación.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref4">4</xref>
+</sup>
+</p>
+<p> Al respecto, en la valoración del estadio se requiere un tratamiento adecuado del fragmento hístico extraído, para poder determinar la extensión del tumor, el volumen del tumor o porcentaje de invasión en la próstata, la situación de los márgenes de resección, la invasión de las vesículas seminales o no, el estudio de los ganglios linfáticos con remisión y la clasificación tumor-nódulo-metástasis (TNM) o de Whitmore-Jewett. </p>
+<p> El grado de diferenciación del tumor se realiza con el índice de Gleason, puesto que 90 % de los carcinomas son de tipo acinar. Con este índice se valora la diferenciación estructural y la heterogeneidad del tumor en los grados bajo, medio y alto. </p>
+<p> Actualmente no existen marcadores predictivos con evidencia aplicables a la biopsia de próstata; es decir, al contrario de lo que ocurre en otros carcinomas, como el de mama, en que la expresión cuantitativa de receptores hormonales en la biopsia pronostica la respuesta al tamoxifeno, en el cáncer de próstata no ocurre lo mismo con los receptores de andrógenos y la respuesta a hormonoterapia.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref5">5</xref>,<xref ref-type="bibr" rid="redalyc_368455138007_ref6">6</xref>
+</sup>
+</p>
+<p> Para el estudio de los factores pronósticos se emplean herramientas de la estadística, ciencia que se ocupa de los métodos y procedimientos para recoger, clasificar, resumir, hallar regularidades y analizar los datos -- siempre y cuando la variabilidad e incertidumbre sean una causa intrínseca de estos --, así como realizar inferencias a partir de ellos, con la finalidad de ayudar a tomar decisiones y, en su caso, formular predicciones. Al respecto, tradicionalmente se utilizan las técnicas estadísticas multivariadas, y de ellas, la regresión logística o regresión de Cox.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref7">7</xref>
+</sup>
+</p>
+<p> El análisis estadístico implicativo es un método de análisis no simétrico de datos que permite, partiendo de un conjunto de datos que interrelaciona una población de sujetos u objetos con un conjunto de variables, la extracción y estructuración del conocimiento en forma de normas y reglas generalizadas y, a partir de la contingencia de estas, la explicación y, consecuentemente, una determinada previsión en distintas ramas del saber.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref8">8</xref>,<xref ref-type="bibr" rid="redalyc_368455138007_ref9">9</xref>
+</sup>
+</p>
+<p> Su origen se encuentra en la modelización estadística de la cuasi-implicación: cuando la variable o la conjunción de variables "a" se observa en la población, entonces generalmente la variable "b" también lo está. </p>
+<p> Ahora bien, desde la década de los 70, y gracias al trabajo del francés Régis Gras en el campo del análisis estadístico implicativo (<italic>analyse statistque implicative</italic> -- ASI --), se viene estudiando el fenómeno de la creación de reglas de inferencia imprecisas (o parciales) entre variables binarias (atributos o caracteres) que describían a una población de individuos (sujetos u objetos), o sea, se trata de descubrir reglas inductivas no simétricas para modelar relaciones del tipo "si a, entonces casi b". </p>
+<p> A diferencia de los métodos de análisis simétricos basados, por ejemplo, en una distancia o en una correlación, los conjuntos de reglas obtenidos pueden conducir a hipótesis de causalidad. </p>
+<p> El sistema informático CHIC (<italic>Classification Hiérarchique Implicative et Cohésitive</italic>) es un software de análisis de datos, inicialmente concebido por Regis Gras en relación con las técnicas del Análisis Estadístico Implicativo, el cual ha sido sucesivamente desarrollado para las computadoras personales por Saddo Ag Almouloud, Harrisson Ratsimba-Rajohn y, en su versión actual, por Raphaël Couturie. Se caracteriza por su sencillez de manejo, ser innovador en el tratamiento de la información y proporcionar de forma rápida gran cantidad de cálculos estadísticos y gráficos-árboles, y grafo de clasificación e implicación.</p>
+</sec>
+<sec sec-type="methods">
+<title>
+<bold>MÉTODOS</bold>
+</title>
+<p> Se efectuó una investigación observacional y analítica, desde septiembre de 2013 hasta igual mes de 2014, con el fin de evaluar la utilidad de una nueva técnica de análisis estadístico implicativo para la identificación de los factores pronósticos de la mortalidad por cáncer de próstata en la provincia de Santiago de Cuba. </p>
+<p> El universo de los casos estuvo constituido por todas las personas fallecidas con el diagnóstico clínico e histológico de cáncer de próstata, procedentes de dicha provincia y mayores de 18 años, que asistían a consulta especializada a tal efecto en los hospitales Oncológico Docente Provincial "Conrado Benítez García", Provincial Docente Clinicoquirúrgico "Saturnino Lora Torres" y General Docente "Dr. Juan Bruno Zayas Alfonso", donde se encontraba su historia clínica en el período de estudio; en tanto, el universo de los controles estuvo conformado por las personas vivas con los mismos criterios anteriores. </p>
+<p> Para la selección de los casos y los controles se empleó un muestreo estratificado no proporcional, donde los estratos fueron los 3 hospitales mencionados en la definición del universo, y en cada estrato se realizó un muestreo simple aleatorio, con el programa MS Excel para los números aleatorios -- dada la existencia de un listado de las historias clínicas en los departamentos de Registros Médicos de cada institución hospitalaria --, lo que facilitó la localización de las historias tanto de pacientes vivos (controles) como fallecidos (casos). </p>
+<p> En el procesamiento y la presentación de los resultados se emplearon los sistemas informáticos SPSS (<italic>Statistical Product and Service Solutions</italic>) versión 11.5; CHIC versión 4.1 y EPIDAT versión 3.0. Se confeccionó una base de datos en MS Excel, en formato .cvs como condición necesaria para la aplicación del CHIC, la cual se exportó al SPSS. </p>
+<p> Con vistas a describir los factores pronósticos presentes en la población de estudio se utilizaron como medidas de resumen el número y el porcentaje. Para determinar en qué medida estos factores actúan como causantes y agravantes del cáncer, se emplearon 2 metodologías de análisis estadístico. </p>
+<p> En primer lugar se aplicó la regresión logística binaria luego de verificar el cumplimiento de los supuestos de la prueba, con la identificación de los factores que tuvieron significación estadística, según el intervalo de confianza de la exponencial de beta. Se empleó el método por pasos hacia adelante (razón de verosimilitud), puesto que fue el que demostró un mejor ajuste al modelo, según la prueba de Hosmer y Lemeshow. </p>
+<p> Posteriormente, se aplicó el ASI para identificar las variables que poseían relación causal significativa y, por tanto, constituían factores pronósticos del empeoramiento de la enfermedad. </p>
+<p> Por último, se compararon ambas técnicas tomándolas como "medios diagnósticos" para la identificación de factores pronósticos, a través del empleo de la regresión logística como estándar de oro, y se consideró cada variable como factor pronóstico o no, según los resultados de ambas técnicas. Se calcularon la sensibilidad, la especificidad, los valores predictivos y las razones de verosimilitud del ASI, así como los índices de Youden, de validez y de Kappa para medir la concordancia. También se identificaron las similitudes y diferencias entre estas.</p>
+</sec>
+<sec sec-type="results">
+<title>
+<bold>RESULTADOS</bold>
+</title>
+<p>
+<sc>
+<sc>
+<sc>
+<bold>Con la regresión logística</bold>
+</sc>
+</sc>
+</sc>
+<bold/>
+</p>
+<p> Resultaron ser factores de mal pronóstico la afectación ganglionar y el grado de diferenciación histológica. Los que presentaban afectación ganglionar poseían entre 3,652 y 46,484 más probabilidades de fallecer, con un nivel de confiabilidad de 95 % (<xref ref-type="table" rid="gt1">tabla 1</xref>), incluso este hecho resultó significativo con 99 % de confianza.</p>
+<p>
+<table-wrap id="gt1">
+<graphic xlink:href="368455138007_gt2.png" position="anchor" orientation="portrait"/>
+</table-wrap>
+</p>
+<p>La
+probabilidad de fallecer, con un nivel de confiabilidad de 95 %, se incrementó
+entre 0,151 y 0,756 veces respecto a la de no fallecer, a medida que se pasó de
+un estadio de diferenciación a otro. El valor de la constante en el modelo de regresión
+logística indica que, aún cuando no esté presente ninguno de los factores
+analizados, la probabilidad de fallecer es 4,82 veces mayor que la de no
+fallecer.</p>
+<p>
+<bold> Con el análisis estadístico implicativo </bold>
+</p>
+<p> En el árbol de similaridad se aprecia la formación de dos grupos o clases que engloban a todos los factores pronósticos (<xref ref-type="fig" rid="gf1">figura 1</xref>).</p>
+<p>
+<fig id="gf1">
+<graphic xlink:href="368455138007_gf2.png" position="anchor" orientation="portrait"/>
+</fig>
+</p>
+<p>Al
+efectuar un corte con un índice de similaridad por encima de 90 %, se
+apreciaron los factores más similares, los que formaron 4 grupos:</p>
+<p>
+<list list-type="simple">
+<list-item>
+<p>1) unión
+de los fallecidos con los que presentaron complicaciones,</p>
+</list-item>
+<list-item>
+<p>2) mayor
+cantidad de variables similares (afección ganglionar, metástasis, radioterapia,
+quimioterapia, grado III de diferenciación histológica y valores elevados del
+antígeno PSA--) con tres nodos significativos en los niveles 1, 3 y 6,</p>
+</list-item>
+<list-item>
+<p>3)
+similitud entre los que poseen un grado I de diferenciación histológica y la
+recurrencia, lo que es lógico porque el tumor menos diferenciado tiene más
+tendencia a recidivas.</p>
+</list-item>
+<list-item>
+<p>4)
+similitud de los que se encuentran en estadio avanzado con los que presentan
+tumor de mayor tamaño, lo que es lógico porque el tamaño incide en la
+clasificación en estadios.</p>
+</list-item>
+</list>
+</p>
+<p> Los fallecidos tuvieron factores similares a los que presentaron complicaciones y los vivos a los operados, con índices de similaridad de 9,72 y 89,43, respectivamente. </p>
+<p> El nodo más significativo en el árbol cohesitivo de la <xref ref-type="fig" rid="gf2">figura 2</xref> está en el nivel 1, también hay un nodo significativo en el nivel 4.</p>
+<p>
+<fig id="gf2">
+<graphic xlink:href="368455138007_gf3.png" position="anchor" orientation="portrait"/>
+</fig>
+</p>
+<p>La
+conjunción de estas variables definieron las reglas (<xref ref-type="fig" rid="gf4">figura 3</xref>).
+Con la máxima intensidad se apreciaron las siguientes 4 reglas:</p>
+<p>
+<list list-type="simple">
+<list-item>
+<p>R1:
+(PrEstadio ⇔
+PrTumor), la cual significa que un estadio avanzado de la enfermedad implicó
+siempre una tumoración mayor de 5 cm. Esto es lógico porque el tamaño del tumor
+influye en su estadificación clínica; igualmente los que tuvieron mayor tamaño
+tumoral siempre clasificaron en estadio avanzado.</p>
+</list-item>
+<list-item>
+<p>R2:
+(PrMeta ⇒
+PrGanglio), la cual significa que la presencia de metástasis implicó siempre
+afectación ganglionar.</p>
+</list-item>
+<list-item>
+<p>R3:
+(PrRadio ⇒
+PrQuimio), que significa que haber recibido radioterapia implicó haber recibido
+quimioterapia; signo de que en todos estos pacientes se asoció la combinación
+terapéutica.</p>
+</list-item>
+<list-item>
+<p>R4:
+(R2 ⇒ R1), significa que un estadio
+avanzado de la enfermedad implicó siempre una tumoración mayor de 5 cm y
+viceversa, y esto está determinado siempre por otra regla que es que la
+presencia de metástasis indicó siempre afectación ganglionar.</p>
+</list-item>
+</list>
+</p>
+<p>Con un
+alto nivel de cohesión también se observaron las siguientes reglas:</p>
+<p>
+<list list-type="simple">
+<list-item>
+<p>R5:
+(PrComplica ⇒
+R4); esto significa que la regla 4 es una consecuencia de que el
+paciente haya presentado complicaciones, con un índice de cohesión de 0,966.</p>
+</list-item>
+<list-item>
+<p>R6:
+(PrGrado3 ⇒
+R5), con una confianza de 91,3 %, donde toda la regla R5
+es implicada a su vez por un grado II de diferenciación histológica.</p>
+</list-item>
+<list-item>
+<p>R7:
+[PrPSA Þ (PrRadio ⇒ PrQuimio)], la regla 7 plantea, con 0,878
+de cohesión, que todos los pacientes que recibieron radioterapia necesitaron
+quimioterapia y esto estuvo determinado por tener un valor de PSA elevado.</p>
+</list-item>
+<list-item>
+<p>R8:
+(PrCiru ⇒
+PrVivo); en esta se plantea que con una cohesión de 0,836, los individuos
+operados siguieron con vida.</p>
+</list-item>
+</list>
+</p>
+<p>
+<fig id="gf4">
+<graphic xlink:href="368455138007_gf5.png" position="anchor" orientation="portrait"/>
+</fig>
+</p>
+<p>
+<bold> Análisis comparativo entre ambas técnicas </bold>
+</p>
+<p> Mediante la regresión logística se identificaron como factores de mal pronóstico las variables afectación ganglionar, con 99 % de confianza, y el grado de diferenciación histológica III, con 95 %, mientras que con el ASI fueron la presencia de metástasis, con 93 % de confianza, la presencia de complicaciones, con 91 %, y la afectación ganglionar (<xref ref-type="table" rid="gt2">tabla 2</xref>).</p>
+<p>
+<table-wrap id="gt2">
+<graphic xlink:href="368455138007_gt3.png" position="anchor" orientation="portrait"/>
+</table-wrap>
+</p>
+<p> Con ambas técnicas se logró identificar la afectación ganglionar como factor de mal pronóstico. A través de la regresión logística se identificó un factor que no se determinó con el ASI y con el ASI fueron identificados 2 que no se definieron con la regresión logística. </p>
+<p> Al evaluar la técnica del ASI como identificador de factores pronósticos en el cáncer de próstata, con 95 % de confianza se obtuvo de 24,58 a 75,42 % de capacidad para detectar las variables significativamente asociadas al cáncer, ya sea como factor de buen o de mal pronóstico (sensibilidad). También se demostró entre 74,85 y 85,15 % de capacidad para delimitar las variables que no constituyen factor pronóstico (especificidad). </p>
+<p> Un factor pronóstico identificado por el ASI tiene una probabilidad de 33,33 % de serlo realmente (valor predictivo positivo), así mismo una variable que no constituye un factor pronóstico tienen una probabilidad de 88,89 % de no serlo en realidad (valor predictivo negativo). </p>
+<p> Con esta técnica es 2,5 veces más probable detectar un factor pronóstico entre los verdaderos factores pronósticos que entre las variables que no lo son (razón de verosimilitud positiva). De igual modo, fue 0,63 veces más probable que una variable que no era factor pronóstico fuera clasificada como tal (razón de verosimilitud negativa), y la concordancia entre ambas técnicas fue de 0,25 (índice de Kappa). </p>
+<p> La diferencia entre la tasa de positivos verdaderos y de positivos falsos fue de 30 % (índice de Youden). Con el ASI se clasificó correc­tamente a 75 % de las variables (índice de validez).</p>
+</sec>
+<sec sec-type="discussion">
+<title>
+<bold>DISCUSIÓN</bold>
+</title>
+<p> A pesar de que en este estudio el tratamiento quirúrgico mostró cierta similaridad en los pacientes vivos, no se puede considerar de buen pronóstico. Un seguimiento de 8 años en un hospital de Francia a 1 943 prostatectomizados reveló un pobre pronóstico en más de 40 % de ellos, con recurrencia de la enfermedad y muerte.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref10">10</xref>
+</sup>
+</p>
+<p> Otro estudio retrospectivo en España a 925 prostatectomizados mostró el valor pronóstico de esta al curarse una tercera parte de los más jóvenes, independiente de los casos con metástasis y los valores elevados del PSA.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref11">11</xref>
+</sup>
+</p>
+<p> También en una investigación efectuada en Italia se confirmaron los beneficios del tratamiento quirúrgico, teniendo en cuenta además la afectación ganglionar.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref12">12</xref>
+</sup>
+</p>
+<p> La quimioterapia ha sido un factor discutido, que puede mejorar mucho el pronóstico por los nuevos avances moleculares, sobre todo si se emplea antes de que aparezcan las metástasis, como ha sido notificado por algunos autores.<sup>
+<xref ref-type="bibr" rid="redalyc_368455138007_ref13">13</xref>,<xref ref-type="bibr" rid="redalyc_368455138007_ref14">14</xref>
+</sup>
+</p>
+<p> En esta serie se identificaron los siguientes factores relacionados con el cáncer de próstata:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Según la
+regresión logística, los factores pronósticos de empeoramiento fueron la
+afectación ganglionar y el grado III de diferenciación histológica. No se
+determinó ningún factor pronóstico de mejoría.</p>
+</list-item>
+<list-item>
+<p>Según el
+análisis estadístico implicativo, los factores de empeoramiento fueron la
+afectación ganglionar, las metástasis y las complicaciones. No se obtuvo factor
+pronóstico alguno de mejoría.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>
+<bold>REFERENCIAS
+BIBLIOGRÁFICAS</bold>
+</title>
+<ref id="redalyc_368455138007_ref1">
+<label>1</label>
+<mixed-citation>1. Pita Fernández S, Valdés Cañedo FA. Determinación de factores pronósticos. Cad Aten Primaria. 1997 [citado 23 Ene 2014]; 4: 26-29. Disponible en: https://www.fisterra.com/ mbe/investiga/ 4f_pronosticos/4f_pronosticos2.pdf</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pita Fernández</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>Valdés Cañedo</surname>
+<given-names>FA</given-names>
+</name>
+</person-group>
+<article-title>Determinación de factores pronósticos</article-title>
+<source>Cad Aten Primaria</source>
+<year>1997</year>
+<volume>4</volume>
+<date-in-citation content-type="access-date" iso-8601-date="2014/01/23">2014/01/23</date-in-citation>
+<comment>https://www.fisterra.com/ mbe/investiga/
+4f_pronosticos/4f_pronosticos2.pdf</comment>
+<elocation-id>26-29</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref2">
+<label>2</label>
+<mixed-citation>2. De Torres Ramírez I. Factores pronósticos y predictivos del carcinoma de próstata en la biopsia prostática. Actas Urol Esp. 2007 [citado 23 Ene 2014]; 31(9). Disponible en: http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=s0210-48062007000900010</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>De Torres Ramírez</surname>
+<given-names>I</given-names>
+</name>
+</person-group>
+<article-title>Factores pronósticos y predictivos del carcinoma de próstata
+en la biopsia prostática</article-title>
+<source>Actas Urol Esp</source>
+<year>2007</year>
+<volume>31</volume>
+<issue>9</issue>
+<date-in-citation content-type="access-date" iso-8601-date="2014/01/23">2014/01/23</date-in-citation>
+<comment>http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=s0210-48062007000900010</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref3">
+<label>3</label>
+<mixed-citation>3. Gimeno F, Piñango L. Cáncer de próstata-Diagnóstico precoz. Madrid: Schering-Plough; 1994. p. 11-69</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Gimeno</surname>
+<given-names>F</given-names>
+</name>
+<name>
+<surname>Piñango</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<source>Schering-Plough</source>
+<year>1994</year>
+<publisher-loc>Madrid</publisher-loc>
+<publisher-name>Schering-Plough</publisher-name>
+<series>Cáncer de próstata-Diagnóstico precoz</series>
+<elocation-id>11-69</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref4">
+<label>4</label>
+<mixed-citation>4. Larrínaga B, Córdoba A, Gómez M. Factores pronósticos relacionados con la histología de los tumores. ANALES Sis San Navarra 2000 [citado 23 Ene 2014]; 24 (Supl. 1): 7-15. Disponible en: https://recyt.fecyt.es/index.php/ASSN/article/viewFile/5832/4721</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Larrínaga</surname>
+<given-names>B</given-names>
+</name>
+<name>
+<surname>Córdoba</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Gómez</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>Factores pronósticos relacionados con la
+histología de los tumores</article-title>
+<source>ANALES Sis San Navarra</source>
+<year>2000</year>
+<volume>24</volume>
+<date-in-citation content-type="access-date" iso-8601-date="2014/01/23">2014/01/23</date-in-citation>
+<comment>https://recyt.fecyt.es/index.php/ASSN/article/viewFile/5832/4721</comment>
+<elocation-id>7-15</elocation-id>
+<supplement>1</supplement>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref5">
+<label>5</label>
+<mixed-citation>5. Segarra Tomás J, Millán Rodríguez F, Palou Redorta J, Villavicencio Mavrich H. Factores pronósticos y tablas predictivas del cáncer de próstata clínicamente localizado Servicio de Urología. Actas Urol Esp 2006; 30(6): 567-73.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Segarra Tomás</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Millán Rodríguez</surname>
+<given-names>F</given-names>
+</name>
+<name>
+<surname>Palou Redorta</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Villavicencio Mavrich</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<article-title>Factores
+pronósticos y tablas predictivas del cáncer de próstata clínicamente localizado
+Servicio de Urología</article-title>
+<source>Actas Urol Esp</source>
+<year>2006</year>
+<volume>30</volume>
+<issue>6</issue>
+<elocation-id>567-73</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref6">
+<label>6</label>
+<mixed-citation>6. Lastra Aras E. Cáncer de pulmón. Factores pronósticos. El Médico Interactivo [citado 23 Ene 2014]. Disponible en:http://www.elmedicointeractivo.com/ap1/emiold/aula2001 /tema4/ cancer7. php</mixed-citation>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Lastra Aras</surname>
+<given-names>E</given-names>
+</name>
+</person-group>
+<article-title>Cáncer de pulmón. Factores pronósticos</article-title>
+<source>El Médico Interactivo</source>
+<year>NaN</year>
+<date-in-citation content-type="access-date" iso-8601-date="2014/01/23">2014/01/23</date-in-citation>
+<comment>http://www.elmedicointeractivo.com/ap1/emiold/aula2001 /tema4/
+cancer7. php</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref7">
+<label>7</label>
+<mixed-citation>7. Flores Luna L, Salazar Martínez E, Duarte Torres RM, Torres Mejía G, Alonso Ruiz P, Lazcano Ponce E. Factores pronósticos relacionados con la supervivencia del cáncer de mama. Salud Pública Mex. 2008; 50: 119-25.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Flores Luna</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Salazar Martínez</surname>
+<given-names>E</given-names>
+</name>
+<name>
+<surname>Duarte Torres</surname>
+<given-names>RM</given-names>
+</name>
+<name>
+<surname>Torres Mejía</surname>
+<given-names>G</given-names>
+</name>
+<name>
+<surname>Alonso Ruiz</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>Lazcano Ponce</surname>
+<given-names>E</given-names>
+</name>
+</person-group>
+<article-title>Factores pronósticos relacionados con la supervivencia del
+cáncer de mama</article-title>
+<source>Salud Pública Mex</source>
+<year>2008</year>
+<volume>50</volume>
+<elocation-id>119-25</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref8">
+<label>8</label>
+<mixed-citation>8. Zamora Matamoros L, Orús Bánega P, Díaz Silvera J. El Análisis Estadístico Implicativo, instrumento común de investigación en una experiencia de cooperación multidisciplinar: "Visualizar" una expresión de discontinuidad del rendimiento académico en estudiantes universitarios de Matemática y Computación usando análisis estadístico implicativo. Quaderni di Ricerca di Ricerca in Didattica (Mathematics). 2010; (20 Suppl 1): 451-75.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zamora Matamoros</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Orús Bánega</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>Díaz Silvera</surname>
+<given-names>J</given-names>
+</name>
+</person-group>
+<article-title>El Análisis Estadístico
+Implicativo, instrumento común de investigación en una experiencia de
+cooperación multidisciplinar: "Visualizar" una expresión de
+discontinuidad del rendimiento académico en estudiantes universitarios de
+Matemática y Computación usando análisis estadístico implicativo</article-title>
+<source>Quaderni di Ricerca di Ricerca in Didattica (Mathematics)</source>
+<year>2010</year>
+<issue>20</issue>
+<elocation-id>451-75</elocation-id>
+<supplement>1</supplement>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref9">
+<label>9</label>
+<mixed-citation>9. Orús Báguena P, Zamora Matamoros L, Gregori Huerta P. Trabajos teóricos. Conceptos fundamentales del Análisis Estadístico Implicativo (ASI) y su soporte computacional CHIC. En: Teoría y aplicaciones del Análisis Estadístico Implicativo: primera aproximación en lengua hispana. Castellón: Universitat Jaume I de Castellón; 2009. p. 65-103 [citado 23 Ene 2014]. Disponible en: http://repositori.uji.es/xmlui/bitstream /handle/10234/125568/asi4esp_v18_libro.pdf?sequence=1</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Orús Báguena</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>Zamora Matamoros</surname>
+<given-names>L</given-names>
+</name>
+<name>
+<surname>Gregori Huerta</surname>
+<given-names>P</given-names>
+</name>
+</person-group>
+<source>Universitat Jaume I de Castellón</source>
+<year>2009</year>
+<publisher-loc>Castellón</publisher-loc>
+<publisher-name>Universitat Jaume I de Castellón</publisher-name>
+<chapter-title>Trabajos teóricos. Conceptos fundamentales del Análisis Estadístico Implicativo (ASI) y su soporte computacional CHIC</chapter-title>
+<date-in-citation content-type="access-date" iso-8601-date="2014/01/23">2014/01/23</date-in-citation>
+<comment>http://repositori.uji.es/xmlui/bitstream
+/handle/10234/125568/asi4esp_v18_libro.pdf?sequence=1</comment>
+<series>Teoría y aplicaciones del Análisis Estadístico Implicativo: primera aproximación en lengua hispana</series>
+<elocation-id>65-103</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref10">
+<label>10</label>
+<mixed-citation>10. Ploussard G1, Agamy MA, Alenda O, Allory Y, Mouracade P, Vordos D, et al. Impact of positive surgical margins on prostate-specific antigen failure after radical prostatectomy in adjuvant treatment-naïve patients. BJU Int. 2011; 107(11): 1748-54.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ploussard</surname>
+<given-names>G1</given-names>
+</name>
+<name>
+<surname>Agamy</surname>
+<given-names>MA</given-names>
+</name>
+<name>
+<surname>Alenda</surname>
+<given-names>O</given-names>
+</name>
+<name>
+<surname>Allory</surname>
+<given-names>Y</given-names>
+</name>
+<name>
+<surname>Mouracade</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>Vordos</surname>
+<given-names>D</given-names>
+</name>
+</person-group>
+<article-title>Impact of positive surgical margins on prostate-specific antigen failure after
+radical prostatectomy in adjuvant treatment-naïve patients</article-title>
+<source>BJU Int</source>
+<year>2011</year>
+<volume>107</volume>
+<issue>11</issue>
+<elocation-id>1748-54</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref11">
+<label>11</label>
+<mixed-citation>11. Rubio-Briones J, Iborra I, Trassierra M, Collado A, Casanova J, Gómez-Ferrer A, et al. Metastatic progression, cancer-specific mortality and need for secondary treatments in patients with clinically high-risk prostate cancer treated initially with radical prostatectomy. Actas Urol Esp. 2010; 34(7): 610-7.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rubio-Briones</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Iborra</surname>
+<given-names>I</given-names>
+</name>
+<name>
+<surname>Trassierra</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Collado</surname>
+<given-names>A</given-names>
+</name>
+<name>
+<surname>Casanova</surname>
+<given-names>J</given-names>
+</name>
+<name>
+<surname>Gómez-Ferrer</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<article-title>Metastatic progression, cancer-specific mortality and need for secondary
+treatments in patients with clinically high-risk prostate cancer treated
+initially with radical prostatectomy</article-title>
+<source>Actas Urol Esp</source>
+<year>2010</year>
+<volume>34</volume>
+<issue>7</issue>
+<elocation-id>610-7</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref12">
+<label>12</label>
+<mixed-citation>12. Novara G, Ficarra V, Mocellin S, Ahlering TE, Carroll PR, Graefen M, et al. Systematic review and meta-analysis of studies reporting oncologic outcome after robot-assisted radical prostatectomy. Eur Urol. 2012; 62(3): 382-404.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Novara</surname>
+<given-names>G</given-names>
+</name>
+<name>
+<surname>Ficarra</surname>
+<given-names>V</given-names>
+</name>
+<name>
+<surname>Mocellin</surname>
+<given-names>S</given-names>
+</name>
+<name>
+<surname>Ahlering</surname>
+<given-names>TE</given-names>
+</name>
+<name>
+<surname>Carroll</surname>
+<given-names>PR</given-names>
+</name>
+<name>
+<surname>Graefen</surname>
+<given-names>M</given-names>
+</name>
+</person-group>
+<article-title>Systematic
+review and meta-analysis of studies reporting oncologic outcome after
+robot-assisted radical prostatectomy</article-title>
+<source>Eur Urol</source>
+<year>2012</year>
+<volume>62</volume>
+<issue>3</issue>
+<elocation-id>382-404</elocation-id>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref13">
+<label>13</label>
+<mixed-citation>13. Drouin SJ1, Rouprêt M, Wallerand H, Houédé N. Chemotherapy in early stage of hormone-resistant metastatic prostate cancer: what are the indications? Prog Urol. 2010; 20 Suppl 3: 192-7.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Drouin</surname>
+<given-names>SJ1</given-names>
+</name>
+<name>
+<surname>Rouprêt</surname>
+<given-names>M</given-names>
+</name>
+<name>
+<surname>Wallerand</surname>
+<given-names>H</given-names>
+</name>
+<name>
+<surname>Houédé</surname>
+<given-names>N</given-names>
+</name>
+</person-group>
+<article-title>Chemotherapy in early stage of
+hormone-resistant metastatic prostate cancer: what are the indications?</article-title>
+<source>Prog Urol</source>
+<year>2010</year>
+<volume>20</volume>
+<elocation-id>192-7</elocation-id>
+<supplement>3</supplement>
+</element-citation>
+</ref>
+<ref id="redalyc_368455138007_ref14">
+<label>14</label>
+<mixed-citation>14. Edo Gual PI, Huerta Palau MP. Estudios sobre los problemas ternarios de probabilidad condicional de nivel N0 [tesis doctoral]. Valencia: Universitat de Valencia; 2014.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Edo Gual</surname>
+<given-names>PI</given-names>
+</name>
+<name>
+<surname>Huerta Palau</surname>
+<given-names>MP</given-names>
+</name>
+</person-group>
+<source>Universitat de Valencia</source>
+<year>2014</year>
+<publisher-loc>Valencia</publisher-loc>
+<publisher-name>Universitat de Valencia</publisher-name>
+<comment content-type="degree">Estudios sobre los problemas ternarios de
+probabilidad condicional de nivel N0</comment>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

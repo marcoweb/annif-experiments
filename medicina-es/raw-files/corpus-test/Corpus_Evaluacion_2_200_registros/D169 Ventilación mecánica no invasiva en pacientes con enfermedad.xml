@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00004</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ventilación mecánica no invasiva en pacientes con enfermedad pulmonar obstructiva crónica agudizada en cuidados intensivos: diez años de experiencia</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Non invasive mechanic ventilation in patients with acute chronic obstructive lung disease in intensive cares: ten years of experience</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6320-9547</contrib-id>
+					<name>
+						<surname>Navarro Rodríguez</surname>
+						<given-names>Zadis</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1b"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3914-2631</contrib-id>
+					<name>
+						<surname>González Aguilera</surname>
+						<given-names>Julio César</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3248-3110</contrib-id>
+					<name>
+						<surname>Romero García</surname>
+						<given-names>Lázaro Ibrahim</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5250-222X</contrib-id>
+					<name>
+						<surname>Torres Maceo</surname>
+						<given-names>José Manuel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9699-1117</contrib-id>
+					<name>
+						<surname>Bigñot Favier</surname>
+						<given-names>Liudis</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora</institution>
+				<institution content-type="orgname">Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff1b">
+				<label>1</label>
+				<institution content-type="original">Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora</institution>
+				<institution content-type="orgname">Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+				<email>zadis1975@gmail.com</email>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Hospital Provincial General Carlos Manuel de Céspedes. Granma, Cuba.</institution>
+				<institution content-type="normalized">Hospital Provincial General Carlos Manuel de Céspedes</institution>
+				<institution content-type="orgname">Hospital Provincial General Carlos Manuel de Céspedes</institution>
+				<addr-line>
+					<named-content content-type="city">Granma</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Hospital Provincial Clínico-Quirúrgico Docente Ambrosio Grillo Portuondo. Santiago de Cuba, Cuba.</institution>
+				<institution content-type="normalized">Hospital Provincial Clínico-Quirúrgico Docente Ambrosio Grillo Portuondo</institution>
+				<institution content-type="orgname">Hospital Provincial Clínico-Quirúrgico Docente Ambrosio Grillo Portuondo</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago de Cuba</named-content>
+				</addr-line>
+				<country country="CU">Cuba</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>zadis1975@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<label>Conflicto de intereses</label>
+					<p> Los autores no declaran conflicto de intereses alguno.</p>
+				</fn>
+				<fn fn-type="other" id="fn2">
+					<label>Contribución de los autores</label>
+					<p> 1. Conceptualización: Zadis Navarro Rodríguez</p>
+				</fn>
+				<fn fn-type="other" id="fn3">
+					<p>2. Curación de datos: Julio Cesar González Aguilera</p>
+				</fn>
+				<fn fn-type="other" id="fn4">
+					<p>3. Análisis formal: Zadis Navarro Rodríguez</p>
+				</fn>
+				<fn fn-type="other" id="fn5">
+					<p>5. Investigación: Lázaro Ibrahim Romero García</p>
+				</fn>
+				<fn fn-type="other" id="fn6">
+					<p>6. Metodología: Zadis Navarro Rodríguez</p>
+				</fn>
+				<fn fn-type="other" id="fn7">
+					<p>7. Administración del proyecto: Zadis Navarro Rodríguez</p>
+				</fn>
+				<fn fn-type="other" id="fn8">
+					<p>13. Redacción-borrador original: José Manuel Torres Maceo</p>
+				</fn>
+				<fn fn-type="other" id="fn9">
+					<p>14. Redacción-revisión y edición: Liudis Bigñot Favier</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>07</day>
+				<month>02</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">-->
+				<pub-date pub-type="epub-ppub">
+				<season>Jan-Feb</season>
+				<year>2023</year>
+			</pub-date>
+			<volume>27</volume>
+			<issue>1</issue>
+			<elocation-id>e4387</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>14</day>
+					<month>11</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>24</day>
+					<month>01</month>
+					<year>2023</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> La ventilación no invasiva es un tratamiento efectivo en pacientes con enfermedad pulmonar agudizada. </p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Describir las características demográficas, clínicas, ventilatorias y hemogasométricas en pacientes tratados con ventilación no invasiva. </p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p> Se realizó un estudio observacional, descriptivo, longitudinal y prospectivo de 234 pacientes con enfermedad pulmonar obstructiva crónica agudizada, ventilados de forma no invasiva en la Unidad de Cuidados Intensivos del Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora de Santiago de Cuba de enero de 2011 a septiembre de 2021. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> En la serie predominaron el sexo masculino, la neumonía extrahospitalaria y la insuficiencia cardíaca crónica; mientras que la edad media fue de 71 años y la ventilación no invasiva fracasó en 53,8 % de los afectados. Asimismo, la frecuencia respiratoria disminuyó de 34,3 a 23,5 respiraciones por minuto en la segunda hora y se observó, además, un incremento del pH, así como de la relación presión arterial de O<sub>2</sub>/fracción inspirada de O<sub>2</sub> y saturación de oxígeno a la pulsioximetría/fracción inspiratoria de O<sub>2</sub>. La presión arterial de CO<sub>2</sub> tuvo valores promedio de 61,8 mmHg al inicio y de 60,7 mmHg en la segunda hora. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> Los valores basales de las variables clínicas, hemogasométricas y ventilatorias mejoraron luego del tratamiento con ventilación no invasiva. Entre los parámetros asociados al fracaso del tratamiento figuraron: frecuencia cardiaca, frecuencia respiratoria, presión arterial de CO<sub>2</sub>, escala de coma de Glasgow, pH y presencia de fugas; igualmente, la estadía prolongada, la ventilación por más de 48 horas y la mortalidad estuvieron relacionadas con dicho fracaso.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The non invasive ventilation is an effective treatment in patients with acute lung disease. </p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To describe the demographic, clinical, ventilatory and hemogasometric characteristics in patients treated with non invasive ventilation. </p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> An observational, descriptive, longitudinal and prospective study of 234 patients with chronic obstructive lung disease, non-invasive ventilated in the Intensive Cares Unit of Saturnino Lora Teaching Clinical-Surgical Provincial Hospital in Santiago de Cuba, was carried out, from January, 2011 to September, 2021. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> In the series there was a prevalence of male sex, non hospital acquired pneumonia and chronic heart failure; while the mean age was 71 years and non invasive ventilation failed in 53.8 % of those affected. Also, the respiratory rate decreased from 34.3 to 23.5 breaths per minute in the second hour and an increase in pH was also observed, as well as in the relationship arterial pressure of O<sub>2</sub>/inspired fraction of O<sub>2</sub> and oxygen saturation to the pulsioximetry/inspiratory fraction of O<sub>2</sub>. The arterial pressure of CO<sub>2</sub> had average values of 61.8 mmHg to the beginning and of 60.7 mmHg in the second hour.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The basal values of clinical, hemogasometric and ventilatory variables improved after treatment with non invasive ventilation. Among the parameters associated with the treatment failure there were heart frequency, respiratory frequency, arterial pressure of CO<sub>2</sub>, coma Glasgow scale, pH and leaks; equally, the long stay, the ventilation for more than 48 hours and mortality were related to this failure. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Ventilación no invasiva</kwd>
+				<kwd>enfermedad pulmonar obstructiva crónica</kwd>
+				<kwd>unidad de cuidados intensivos</kwd>
+				<kwd>atención secundaria de salud</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Non invasive ventilation</kwd>
+				<kwd>chronic obstructive lung disease</kwd>
+				<kwd>intensive cares unit</kwd>
+				<kwd>secondary health care</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="15"/>
+				<page-count count="18"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>La enfermedad pulmonar obstructiva crónica (EPOC) agudizada constituye la causa más frecuente de ingreso por insuficiencia respiratoria aguda (IRA) en las unidades de cuidados intensivos. Según datos publicados en el Anuario Estadístico de Salud de 2020, en Cuba se produjeron 3510 fallecimientos por EPOC, que representó la séptima causa de muerte, de los cuales 277 correspondieron a Santiago de Cuba, para una tasa de 26,5 por cada 100 000 habitantes.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>Por otra parte, la ventilación mecánica no invasiva (VNI) es una técnica de tratamiento ventilatorio que no requiere intubación endotraqueal ni dispositivos supraglóticos ni traqueostomía, pues la conexión entre el paciente y el ventilador se realiza a través de una interfase; de ahí que constituye un método seguro y eficaz para corregir las alteraciones del intercambio gaseoso y disminuir el trabajo muscular ventilatorio en los pacientes con IRA.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Las guías españolas de práctica clínica para el diagnóstico y tratamiento de pacientes con enfermedad pulmonar obstructiva crónica (GesEPOC) y la Global Initiative for Chronic Obstructive Lung Disease apoyan con elevada evidencia el uso de la ventilación no invasiva para evitar la neumonía asociada a la ventilación mecánica, así como disminuir las complicaciones y la mortalidad.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>
+			</p>
+			<p>A pesar de los beneficios que aporta, la VNI puede fracasar y se necesita recurrir a la intubación endotraqueal y ventilación invasiva. En Cuba son escasas las investigaciones relacionadas con el uso de la VNI en pacientes con EPOC agudizada y la incidencia del fracaso de esta técnica ventilatoria, lo cual motivó a los autores a realizar el presente estudio.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio observacional, descriptivo, longitudinal y prospectivo en la Unidad de Cuidados Intensivos del Hospital Provincial Clínico-Quirúrgico Docente Saturnino Lora de Santiago de Cuba, desde enero de 2011 hasta septiembre de 2021, con vistas a describir las características demográficas, clínicas, ventilatorias y hemogasométricas en pacientes tratados con ventilación no invasiva.</p>
+			<p>La población estuvo conformada por 590 pacientes con diagnóstico de EPOC agudizada, tratados con ventilación no invasiva, de los cuales fueron escogidos 234 por muestreo aleatorio simple, quienes cumplían los criterios de inclusión y de exclusión. </p>
+			<p>En ausencia de criterios espirométricos, se aceptó como EPOC cuando el paciente presentó diagnóstico primario de posible agudización de esta enfermedad, con disnea habitual en situación de estabilidad clínica; si fumaba más de 10 cajetillas al año y estaba expuesto a biomasa por más de 10 años, o ambos, según se plantea en la <italic>Guía clínica para el diagnóstico y tratamiento de la enfermedad pulmonar obstructiva crónica</italic> de la Sociedad Española de Neumología y Cirugía Torácica.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>Se consideró EPOC agudizada a un episodio en el curso de la enfermedad caracterizado por un cambio en la disnea basal, por tos, expectoración, o ambos síntomas, superior a las variaciones normales del día, de inicio agudo y que requirió un cambio en el tratamiento habitual. Al respecto, los principales síntomas referidos resultaron ser empeoramiento de la disnea, tos, incremento del volumen de la expectoración y cambios en su color o ambos. </p>
+			<p>El diagnóstico de agudización de la EPOC fue confirmado cuando, además de cumplir los 3 criterios previos, existieron otras causas de disnea según lo referido por la GesEPOC. Se incluyó a todos aquellos con el diagnóstico señalado y que recibieron tratamiento con ventilación no invasiva; mientras que se excluyó a los que presentaron contraindicaciones para dicha ventilación. A todos los pacientes escogidos se les aplicó el protocolo establecido de VNI y el tratamiento estandarizado para la EPOC agudizada.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Durante la segunda hora de tratamiento con ventilación no invasiva se realizó gasometría arterial. Se utilizó la máscara nasobucal, además de ventiladores convencionales, con un programa para ventilación no invasiva o sin este; asimismo, la modalidad utilizada fue el soporte de presión, con presión inspiratoria ajustada inicial de 5-8 cm de agua y luego fue aumentando progresivamente de 2-3 cm hasta obtener entre 14-20 cm de agua, de manera que generara una ventilación eficaz (volumen corriente superior a 7 mL/kg, frecuencia respiratoria menor de 20 respiraciones por minuto y disminución de la actividad de los músculos accesorios). La presión espiratoria se inició de 3-5 cm de agua y se aumentó progresivamente hasta observar una adecuada sincronización de la actividad respiratoria del paciente con el ventilador.</p>
+			<p>De igual modo, fueron analizadas variables sociodemográficas, clínicas, ventilatorias, hemogasométricas y evolutivas. Para las variables cualitativas se determinaron las frecuencias absoluta y relativa de las distintas categorías y para las cuantitativas, la media, la mediana y la desviación estándar, así como los valores máximo y mínimo de cada distribución. </p>
+			<p>Para establecer la comparación entre el éxito y el fracaso de la ventilación se calcularon la prueba de la Χ<sup>2</sup> de Pearson para variables cualitativas y la de la t de Student para las cuantitativas, siempre que la distribución fuera normal, según la determinación de la prueba de normalidad de Kolmogorov-Smirnov. En caso de no cumplir el supuesto de la normalidad, fueron empleadas las pruebas equivalentes no paramétricas, como el test de probabilidades exactas de Fisher o el de la U de Mann-Whitney. Se determinó el nivel de significación para cada una de estas. </p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En la serie (<xref ref-type="table" rid="t1">tabla1</xref>) predominaron el sexo masculino (63,7 %), la infección respiratoria como causa desencadenante de agudización de la EPOC (48,7 %), además de la cardiopatía isquémica (9,4 %) y la insuficiencia cardíaca crónica (13,7 %) entre las comorbilidades asociadas. Cabe destacar que en 126 pacientes fracasó la VNI (53,8 %). </p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Caracterización global de la muestra </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-01-e4387-gt1.jpg"/>
+				</table-wrap>
+			</p>
+			<p>La edad media en la serie fue de 71±9,2 años. En general, los valores basales de las variables clínicas, hemogasométricas y ventilatorias mejoraron luego del tratamiento con VNI; en tanto, la frecuencia respiratoria (FR) disminuyó de 34,3 a 23,5 respiraciones por minuto en la segunda hora. También se observó un incremento del pH de 7,27 a 7,29, así como de la relación presión arterial de oxígeno/fracción inspirada de oxígeno (PaO<sub>2</sub>/FiO<sub>2</sub>), con valores de 246,8 a 263,0, y de la saturación de oxígeno a la pulsioximetría/fracción inspirada de oxígeno (SpO<sub>2</sub>/FiO<sub>2</sub>) de 308,4 a 323,7. Por su parte, la presión arterial de CO<sub>2</sub> (PaCO<sub>2</sub>) tuvo un valor promedio de 61,8 mmHg al inicio y de 60,7 mmHg en la segunda hora; mientras que la media del tiempo de inicio de los síntomas fue de 42,4±31,9 horas. De igual modo, para la presión positiva al final de la espiración PEEP/EPAP y la presión sobre PEEP (P/PEEP/IPAP) dichos valores resultaron ser de 4,85.±0,97 cm de agua y 10,24±2,15, respectivamente (<xref ref-type="table" rid="t2">tabla 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Caracterización global de la muestra </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-01-e4387-gt2.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Con respecto al éxito y al fracaso de la VNI (<xref ref-type="table" rid="t3">tabla 3</xref>), hubo diferencias significativas entre ambas categorías en cuanto a las variables cualitativas siguientes: presencia de fugas (p= 0,000), duración de más de 48 horas de la ventilación (p=0,020) y mortalidad (p= 0,000).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Pacientes según éxito o fracaso de la ventilación no invasiva durante la EPOC agudizada </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-01-e4387-gt3.jpg"/>
+				</table-wrap>
+			</p>
+			<p>En cuanto a las variables cuantitativas, en la <xref ref-type="table" rid="t4">tabla 4</xref> se observa que la FR al inicio (p=0,05), la FR, la frecuencia cardíaca (FC) y el electrocardiograma evolutivos, además del pH al inicio y el evolutivo (p=0,000), el tiempo de inicio de los síntomas (p=0,003), el volumen tidálico espirado promedio (p=0,018) y la presión sobre PEEP (p=0,001) mostraron diferencias significativas. La estadía también estuvo relacionada con el fracaso (p=0,010).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Pacientes según éxito o fracaso de la ventilación no invasiva en la EPOC agudizada</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-27-01-e4387-gt4.jpg"/>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>La periodicidad del fracaso de la ventilación no invasiva en pacientes con EPOC agudizada varía en las investigaciones. Al respecto, en algunas series<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> oscila entre 19 y 24,1 %. En cuanto a la edad, Bernabé Vera<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> corroboró en su tesis doctoral que esta no se relacionó con el pronóstico de los enfermos, cuya edad media era de 77±9 años. </p>
+			<p>La mayoría de los pacientes estudiados tenían más de 60 años; de ahí que presentan mayor predisposición a padecer EPOC y al agravamiento de esta, pero al encontrase en el mismo grupo de riesgo, con características anatómicas y fisiológicas similares, no se ha comprobado, desde el punto de vista teórico, que dicha variable influya de manera independiente en el fracaso terapéutico. Algunos autores<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref> refieren que la EPOC es más frecuente en los hombres y la mortalidad en las mujeres; sin embargo, en los últimos años se ha observado un incremento de la incidencia en las féminas, pues el aumento sostenido del hábito de fumar ha ido equiparando las cifras, lo que coincide con la presente investigación. </p>
+			<p>En los pacientes con EPOC agudizada e infección respiratoria como causa desencadenante, la evidencia confirma el uso de la VNI. Al respecto, Shaheen <italic>et al</italic><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>)</sup> refieren que la presencia de neumonía en los integrantes de su estudio no se relacionó con el fracaso de esta técnica (p= 0,289). De manera hipotética se ha planteado que el fracaso en pacientes con neumonía obedece a la dificultad en el aclaramiento de las secreciones respiratorias y a que la condensación inflamatoria no es susceptible a la aplicación de presión positiva al final de la espiración; pero en aquellos con EPOC agudizada puede alcanzar mayor beneficio al disminuir el trabajo respiratorio.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Por su parte, algunos de los autores,<xref ref-type="bibr" rid="B7"><sup>7</sup></xref> ya citados, al analizar la frecuencia respiratoria, observaron mejoría después del tratamiento con ventilación no invasiva. </p>
+			<p>Se plantea que la limitación del flujo espiratorio en las exacerbaciones de la EPOC se produce por la inflamación y broncoconstricción de las vías respiratorias, lo cual conduce al aumento del trabajo respiratorio y a la disfunción de la musculatura respiratoria; asimismo, el patrón respiratorio generado por una carga inspiratoria elevada es rápido y superficial, lo que explica la frecuencia respiratoria como factor fundamental en la evaluación de VNI.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>Varón <italic>et al</italic><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>)</sup> afirman que la frecuencia cardíaca mejora luego del tratamiento con VNI. En el aparato cardiovascular, la hipercapnia produce un efecto neto estimulador mediante la activación del eje simpático-adrenérgico, con un aumento del gasto cardíaco, a través del incremento de la frecuencia cardíaca. Como respuesta a la hipoxia, se producen corrientes tardías de sodio, el potencial de acción se prolonga y se desencadena una nueva actividad eléctrica que provoca taquicardia.<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>
+			</p>
+			<p>En otro orden de ideas, los pacientes con EPOC presentan mayor frecuencia de comorbilidades que la población general, lo que dificulta el diagnóstico, tratamiento y pronóstico; en contraste con lo anterior, otros investigadores<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> encontraron que la presencia de comorbilidad en su casuística no fue significativa en relación con el fracaso terapéutico (p=0,065). La prevalencia de insuficiencia cardíaca aumenta en las personas con EPOC agudizada, de 20 % en pacientes mayores de 65 años con tratamiento ambulatorio a 30 % en los hospitalizados por reagudización.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>Por otro lado, al analizar la escala de coma de Glasgow, Gonçalves <italic>et al</italic><xref ref-type="bibr" rid="B11"><sup>11</sup></xref> señalan que la puntuación de encefalopatía se redujo significativamente con la VNI. También se ha observado que la disminución de la conciencia en pacientes con EPOC agudizada está relacionada con la repercusión de la PaCO<sub>2</sub> y el tono vascular cerebral; es decir, por cada 1 mmHg de cambio de la PaCO<sub>2</sub> se produce un cambio de 1-2 mL/100 g/min de flujo sanguíneo cerebral. </p>
+			<p>Cabe señalar que la hipercapnia dilata las arteriolas precapilares del cerebro y aumenta el flujo sanguíneo cerebral, lo que resulta de particular importancia en el paciente con distensibilidad cerebral disminuida, ya que puede ocasionar hipertensión intracraneal.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+			</p>
+			<p>En cuanto al momento en que se inicia el tratamiento con VNI, Schmitt <italic>et al</italic><xref ref-type="bibr" rid="B12"><sup>12</sup></xref> revelaron en su investigación resultados favorables con la aplicación precoz de esta técnica. Se resalta el hecho de que la VNI debe ser aplicada tempranamente en el curso de la insuficiencia respiratoria, antes de la aparición de acidosis grave, debido a que reduce la mortalidad, evita la intubación endotraqueal, la estadía prolongada y el fracaso terapéutico.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Con referencia a los parámetros hemogasométricos, varios estudios demuestran que durante el período inicial estos predicen el éxito de la terapia, por lo que se propone realizar una gasometría de control en el plazo de 1-2 horas de iniciada la VNI. Por tanto, la mejoría del pH y la PaCO<sub>2</sub> tras 1 hora de VNI está relacionada con una buena respuesta al uso de dicha técnica en pacientes con EPOC e IRA hipercápnica. De acuerdo con lo anterior, la PaCO<sub>2</sub> es el mejor indicador de la ventilación alveolar y de la adecuada respuesta a la VNI. La ventilación alveolar óptima es la que garantiza la excreción de CO<sub>2</sub> según las demandas metabólicas de los tejidos.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>
+			</p>
+			<p>Como es conocido, en la mayoría de las investigaciones, la presencia de fugas es un factor relacionado con el fracaso, debido a la mala tolerancia a la técnica y a la asincronía paciente-ventilador. Con referencia a ello, López Gómez<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> subraya en su tesis doctoral un promedio de fugas de 31,2+8,5 litros por minuto. </p>
+			<p>La característica fundamental de la VNI es que se realiza en presencia de fugas, a pesar de los avances de los actuales equipos para la compensación. En la presente investigación las fugas se presentaron con más frecuencia en quienes fracasó el uso de la VNI.</p>
+			<p>La mayoría de los estudios sobre la importancia o el valor predictivo de la aplicación de niveles elevados de asistencia ventilatoria han sido realizados en pacientes en fase estable -destinada a lograr la normocapnia o los valores de PaCO<sub>2</sub> más bajos posibles- para evitar los efectos desfavorables de la hipercapnia. En ese mismo sentido, Shaheen <italic>et al</italic><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> refieren que la presión de insuflación promedio en su investigación fue de 14,2 + 3,9. La presión inspiratoria positiva en pacientes con EPOC reduce el trabajo respiratorio por la disminución del producto presión-tiempo, correlacionado con el consumo de oxígeno durante la inspiración y la presión transdiafragmática.</p>
+			<p>Con referencia al volumen corriente medio espirado por peso ideal, Bernabé Vera<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> lo considera un parámetro a tener en cuenta en pacientes con insuficiencia respiratoria hipercápnica expuestos a ventilación mecánica no invasiva. En efecto, la VNI tiene particularidades en cuanto al volumen corriente, pues no se programa directamente, sino que es la consecuencia de una presión de soporte programada, de manera que, al estar el paciente en ventilación espontánea, varía en cada ciclo respiratorio y la medición se realiza en el período espiratorio, a diferencia de la ventilación mecánica invasiva, lo que puede llevar a que el objetivo establecido en esta última, con respecto al volumen corriente, no sea el mismo en la VNI.</p>
+			<p>Resulta interesante apuntar que la duración de la VNI se asocia con una disminución de la supervivencia hospitalaria. En la serie de López Gómez<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> la duración fue mayor en los pacientes que fallecieron (p=0,001). En efecto, prolongar la VNI previa a la intubación en pacientes que no mejoran los parámetros clínicos y hemogasométricos se asocia con una disminución de la supervivencia hospitalaria, aun sin enfermedad cardíaca o respiratoria.</p>
+			<p>Asimismo, González <italic>et al</italic><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> observaron que los pacientes en los que la VNI fue exitosa tuvieron menor estancia en la unidad de cuidados intensivos en comparación con otros en los que fracasó.</p>
+			<p>En general, las complicaciones de la VNI son leves y solo en pocos casos interfieren con el éxito de la técnica. Coincidentemente, en la bibliografía consultada<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> se registra lesión cutánea en 27,2 %, irritación ocular en 11,5 % y claustrofobia en 9,8 %; también puede ocurrir congestión nasal, sequedad bucal o nasal, irritación ocular y ulceración del puente nasal, distensión gástrica, vómitos y aspiración. En la actual serie las complicaciones fueron poco frecuentes.</p>
+			<p>El fracaso de la VNI está relacionado con el incremento de la mortalidad. De ese modo, Duan <italic>et al</italic><xref ref-type="bibr" rid="B14"><sup>14</sup></xref> encontraron en su serie 65,2 % de fracaso en pacientes tratados con esta técnica; hallazgo similar al de Ansari <italic>et al</italic>.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>
+			</p>
+			<p>Finalmente, el sexo masculino, la edad avanzada, la neumonía extrahospitalaria como causa desencadenante y la presencia de comorbilidades, como la insuficiencia cardíaca, son muy comunes en pacientes con EPOC agudizada tratados con ventilación no invasiva; asimismo, los valores basales de las variables clínicas, hemogasométricas y ventilatorias mejoraron luego del tratamiento con VNI. Entre los parámetros asociados al fracaso terapéutico figuraron los siguientes: frecuencias cardíaca y respiratoria, presión arterial de CO<sub>2</sub>, escala de coma de Glasgow, pH y presencia de fugas; igualmente, la estadía prolongada, la ventilación por más de 48 horas y la mortalidad estuvieron relacionadas con dicho fracaso.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>República de Cuba. Ministerio de Salud Pública. Dirección de Registros Médicos y Estadísticas de Salud. Anuario Estadístico de Salud. La Habana: MINSAP; 2021 [citado 24/03/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estad-Espa%C3%B1ol-2020-Definitivo.pdf">https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estad-Espa%C3%B1ol-2020-Definitivo.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>República de Cuba. Ministerio de Salud Pública. Dirección de Registros Médicos y Estadísticas de Salud</collab>
+					</person-group>
+					<source>Anuario Estadístico de Salud</source>
+					<year>2021</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>MINSAP</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-03-24">24/03/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estad-Espa%C3%B1ol-2020-Definitivo.pdf">https://files.sld.cu/bvscuba/files/2021/08/Anuario-Estad-Espa%C3%B1ol-2020-Definitivo.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Esquinas AM. Noninvasive Mechanical Ventilation: Theory, Equipment, and Clinical Applications. 2 ed. Geneva: Springer International Publishing; 2016. p. 851 [citado 06/04/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/book/10.1007/978-3-319-21653-9">https://link.springer.com/book/10.1007/978-3-319-21653-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Esquinas</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<source>Noninvasive Mechanical Ventilation: Theory, Equipment, and Clinical Applications.</source>
+					<edition>2 ed </edition>
+					<year>2016</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>Springer International Publishing</publisher-name>
+					<fpage>851</fpage>
+					<lpage>851</lpage>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-04-06">06/04/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/book/10.1007/978-3-319-21653-9">https://link.springer.com/book/10.1007/978-3-319-21653-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Soler Cataluña JJ, Pascual Piñera, Trigueros JA, Calle M, Casanova C, Cosío B. Actualización 2021 de la guía española de la EPOC (GesEPOC). Diagnóstico y tratamiento del síndrome de agudización de la EPOC. Arch Bronconeumol. 2022 [citado 04/03/2022];58:159-70. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.archbronconeumol.org/en-actualizacion-2021-guia-espanola-epoc-articulo-S0300289621001666">https://www.archbronconeumol.org/en-actualizacion-2021-guia-espanola-epoc-articulo-S0300289621001666</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soler Cataluña</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Piñera</surname>
+							<given-names>Pascual</given-names>
+						</name>
+						<name>
+							<surname>Trigueros</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Calle</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cosío</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Actualización 2021 de la guía española de la EPOC (GesEPOC). Diagnóstico y tratamiento del síndrome de agudización de la EPOC</article-title>
+					<source>Arch Bronconeumol</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-03-04">04/03/2022</date-in-citation>
+					<volume>58</volume>
+					<fpage>159</fpage>
+					<lpage>170</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.archbronconeumol.org/en-actualizacion-2021-guia-espanola-epoc-articulo-S0300289621001666">https://www.archbronconeumol.org/en-actualizacion-2021-guia-espanola-epoc-articulo-S0300289621001666</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for Diagnosis, Management and Prevention of Chronic Obstructive Pulmonary Disease. 2021 Report. [s. l.]: GOLD; 2021 [citado 27/06/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://goldcopd.org/wp-content/uploads/2020/11/GOLD-REPORT-2021-v1.0-11Nov20_WMV.pdf">https://goldcopd.org/wp-content/uploads/2020/11/GOLD-REPORT-2021-v1.0-11Nov20_WMV.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for Diagnosis, Management and Prevention of Chronic Obstructive Pulmonary Disease. 2021 Report</source>
+					<publisher-loc>[s. l.]</publisher-loc>
+					<publisher-name>GOLD</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-06-27">27/06/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://goldcopd.org/wp-content/uploads/2020/11/GOLD-REPORT-2021-v1.0-11Nov20_WMV.pdf">https://goldcopd.org/wp-content/uploads/2020/11/GOLD-REPORT-2021-v1.0-11Nov20_WMV.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Miravitlles M, Calle M, Molina J, Almagro P, Gómez JT, Trigueros JA, et al. Actualización 2021 de la Guía Española de la EPOC (GesEPOC). Tratamiento farmacológico de la EPOC estable. Arch Bronconeumol. 2022 [citado 09/03/2022];58(1):69-81. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.archbronconeumol.org/es-pdf-S0300289621001034">https://www.archbronconeumol.org/es-pdf-S0300289621001034</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miravitlles</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Calle</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Molina</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Almagro</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Trigueros</surname>
+							<given-names>JA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Actualización 2021 de la Guía Española de la EPOC (GesEPOC). Tratamiento farmacológico de la EPOC estable</article-title>
+					<source>Arch Bronconeumol</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-03-09">09/03/2022</date-in-citation>
+					<volume>58</volume>
+					<issue>1</issue>
+					<fpage>69</fpage>
+					<lpage>81</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.archbronconeumol.org/es-pdf-S0300289621001034">https://www.archbronconeumol.org/es-pdf-S0300289621001034</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>González F, González Robledo J, Sánchez Hernández F, Moreno García MN, Barreda Mellado I. Efectividad y predictores de fracaso de la ventilación mecánica no invasiva en la insuficiencia respiratoria aguda. Med Intensiva. 2016 [citado 23/03/2022];40(1):9-17. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medintensiva.org/es-efectividad-predictores-fracaso-ventilacion-mecanica-articulo-S021056911500025X">https://www.medintensiva.org/es-efectividad-predictores-fracaso-ventilacion-mecanica-articulo-S021056911500025X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>González</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>González Robledo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sánchez Hernández</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Moreno García</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Barreda Mellado</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Efectividad y predictores de fracaso de la ventilación mecánica no invasiva en la insuficiencia respiratoria aguda</article-title>
+					<source>Med Intensiva</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-03-23">23/03/2022</date-in-citation>
+					<volume>40</volume>
+					<issue>1</issue>
+					<fpage>9</fpage>
+					<lpage>17</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medintensiva.org/es-efectividad-predictores-fracaso-ventilacion-mecanica-articulo-S021056911500025X">https://www.medintensiva.org/es-efectividad-predictores-fracaso-ventilacion-mecanica-articulo-S021056911500025X</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Confalonieri M, Garuti G, Cattaruzza MS Osborn JF, Antonelli M, Conti G. A chart of failure risk for noninvasive ventilation in patients with COPD exacerbation. Eur Respir J. 2005 [citado 22/05/2022];25(2):348-55. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://erj.ersjournals.com/content/25/2/348">https://erj.ersjournals.com/content/25/2/348</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Confalonieri</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Garuti</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Cattaruzza MS Osborn</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Antonelli</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Conti</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>A chart of failure risk for noninvasive ventilation in patients with COPD exacerbation</article-title>
+					<source>Eur Respir J</source>
+					<year>2005</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-05-22">22/05/2022</date-in-citation>
+					<volume>25</volume>
+					<issue>2</issue>
+					<fpage>348</fpage>
+					<lpage>355</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://erj.ersjournals.com/content/25/2/348">https://erj.ersjournals.com/content/25/2/348</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Varón FA, Ali A, Aguirre C, González M, Hernández A, Páez N. Predicción de fracaso en ventilación mecánica no invasiva en falla respiratoria en enfermedad pulmonar obstructiva crónica a grandes alturas. Acta Colombiana de Cuidado Intensivo. 2013 [citado 22/05/2022];13(1):12-7. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/274891326_Prediccion_de_fracaso_en_ventilacion_mecanica_no_invasiva_en_falla_respiratoria_en_enfermedad_pulmonar_obstructiva_cronica_a_grandes_alturas">https://www.researchgate.net/publication/274891326_Prediccion_de_fracaso_en_ventilacion_mecanica_no_invasiva_en_falla_respiratoria_en_enfermedad_pulmonar_obstructiva_cronica_a_grandes_alturas</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Varón</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Ali</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Aguirre</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>González</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hernández</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Páez</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Predicción de fracaso en ventilación mecánica no invasiva en falla respiratoria en enfermedad pulmonar obstructiva crónica a grandes alturas</article-title>
+					<source>Acta Colombiana de Cuidado Intensivo</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-05-22">22/05/2022</date-in-citation>
+					<volume>13</volume>
+					<issue>1</issue>
+					<fpage>12</fpage>
+					<lpage>17</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/274891326_Prediccion_de_fracaso_en_ventilacion_mecanica_no_invasiva_en_falla_respiratoria_en_enfermedad_pulmonar_obstructiva_cronica_a_grandes_alturas">https://www.researchgate.net/publication/274891326_Prediccion_de_fracaso_en_ventilacion_mecanica_no_invasiva_en_falla_respiratoria_en_enfermedad_pulmonar_obstructiva_cronica_a_grandes_alturas</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Shaheen M, Daabisa RG, Elsoucyb H. Outcomes and predictors of success of noninvasive ventilation in acute exacerbation of chronic obstructive pulmonary disease. Egypt J Broconeumol. 2018 [citado 25/04/2022];12(3):329-39. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/content/pdf/10.4103/ejb.ejb_112_17.pdf">https://link.springer.com/content/pdf/10.4103/ejb.ejb_112_17.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shaheen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Daabisa</surname>
+							<given-names>RG</given-names>
+						</name>
+						<name>
+							<surname>Elsoucyb</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Outcomes and predictors of success of noninvasive ventilation in acute exacerbation of chronic obstructive pulmonary disease</article-title>
+					<source>Egypt J Broconeumol</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-04-25">25/04/2022</date-in-citation>
+					<volume>12</volume>
+					<issue>3</issue>
+					<fpage>329</fpage>
+					<lpage>339</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/content/pdf/10.4103/ejb.ejb_112_17.pdf">https://link.springer.com/content/pdf/10.4103/ejb.ejb_112_17.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Bernabe Vera L. ¿Cuál es la relación entre el volumen tidal espiratorio medio y la tasa de aclaramiento de pCO2 en los pacientes sometidos a ventilación mecánica no invasiva? [tesis]. Murcia: Escuela Internacional de Doctorado; 2017 [citado 20/02/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://digitum.um.es/digitum/bitstream/10201/56040/1/3%20-%20Tesis%20Doctoral%20-%20Lorena%20Bernab%c3%a9%20Finalizada.pdf">https://digitum.um.es/digitum/bitstream/10201/56040/1/3%20-%20Tesis%20Doctoral%20-%20Lorena%20Bernab%c3%a9%20Finalizada.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bernabe Vera</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>¿Cuál es la relación entre el volumen tidal espiratorio medio y la tasa de aclaramiento de pCO2 en los pacientes sometidos a ventilación mecánica no invasiva?</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Murcia, Escuela Internacional de Doctorado</publisher-loc>
+					<publisher-loc>Murcia, Escuela Internacional de Doctorado</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-20">20/02/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://digitum.um.es/digitum/bitstream/10201/56040/1/3%20-%20Tesis%20Doctoral%20-%20Lorena%20Bernab%c3%a9%20Finalizada.pdf">https://digitum.um.es/digitum/bitstream/10201/56040/1/3%20-%20Tesis%20Doctoral%20-%20Lorena%20Bernab%c3%a9%20Finalizada.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Gonçalves G, Saeed H, Abdelrahim ME, Hadeer S, Harb HS, Madney YM, et al. Non-invasive ventilation in patients with an altered level of consciousness. A clinical review and practical insights. Adv Respir Med. 2020 [citado 15/02/2022];88(3):233-44. Disponible en <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2543-6031/88/3/233">https://www.mdpi.com/2543-6031/88/3/233</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gonçalves</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Saeed</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Abdelrahim</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Hadeer</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Harb</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Madney</surname>
+							<given-names>YM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Non-invasive ventilation in patients with an altered level of consciousness. A clinical review and practical insights</article-title>
+					<source>Adv Respir Med</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-15">15/02/2022</date-in-citation>
+					<volume>88</volume>
+					<issue>3</issue>
+					<fpage>233</fpage>
+					<lpage>244</lpage>
+					<comment>Disponible en <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2543-6031/88/3/233">https://www.mdpi.com/2543-6031/88/3/233</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Schmitt FC, Gruneberg D, Schneider N, Fögeling JO, Leucht M, Herth F. Non-Invasive Ventilation as a Therapy Option for Acute Exacerbations of Chronic Obstructive Pulmonary Disease and Acute Cardiopulmonary Oedema in Emergency Medical Services. J Clin Med. 2022 [citado 15/02/2022];11(9):2504. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2077-0383/11/9/2504">https://www.mdpi.com/2077-0383/11/9/2504</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schmitt</surname>
+							<given-names>FC</given-names>
+						</name>
+						<name>
+							<surname>Gruneberg</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Schneider</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Fögeling</surname>
+							<given-names>JO</given-names>
+						</name>
+						<name>
+							<surname>Leucht</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Herth</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Non-Invasive Ventilation as a Therapy Option for Acute Exacerbations of Chronic Obstructive Pulmonary Disease and Acute Cardiopulmonary Oedema in Emergency Medical Services</article-title>
+					<source>J Clin Med</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-15">15/02/2022</date-in-citation>
+					<volume>11</volume>
+					<issue>9</issue>
+					<size units="pages">2504</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/2077-0383/11/9/2504">https://www.mdpi.com/2077-0383/11/9/2504</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>López Gómez L. Incremento de mortalidad debido al retraso de la intubación en la insuficiencia respiratoria aguda tratada con ventilación no invasiva [tesis]. Murcia: Escuela Internacional de Doctorado; 2021 [citado 15/02/2022]. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/tesis?codigo=304118">https://dialnet.unirioja.es/servlet/tesis?codigo=304118</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López Gómez</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>Incremento de mortalidad debido al retraso de la intubación en la insuficiencia respiratoria aguda tratada con ventilación no invasiva</source>
+					<comment content-type="degree">tesis</comment>
+					<publisher-loc>Murcia</publisher-loc>
+					<publisher-name>Escuela Internacional de Doctorado</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-02-15">15/02/2022</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/tesis?codigo=304118">https://dialnet.unirioja.es/servlet/tesis?codigo=304118</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Duan J, Han X, Bai L, Zhou L, Huang S. Assessment of heart rate, acidosis, consciousness, oxygenation, and respiratory rate to predict noninvasive ventilation failure in hypoxemic patients. Intensive Care Med. 2017 [citado 23/03/2022];43(2):192-9. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/article/10.1007/s00134-016-4601-3">https://link.springer.com/article/10.1007/s00134-016-4601-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Duan</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Han</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Bai</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Assessment of heart rate, acidosis, consciousness, oxygenation, and respiratory rate to predict noninvasive ventilation failure in hypoxemic patients</article-title>
+					<source>Intensive Care Med</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-03-23">23/03/2022</date-in-citation>
+					<volume>43</volume>
+					<issue>2</issue>
+					<fpage>192</fpage>
+					<lpage>199</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/article/10.1007/s00134-016-4601-3">https://link.springer.com/article/10.1007/s00134-016-4601-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Ansari SF, Memon M, Brohi N, Thair A. Noninvasive Positive Pressure Ventilation in Patients with Acute Respiratory Failure Secondary to Acute Exacerbation of Chronic Obstructive Pulmonary Disease. Cureus. 2019 [citado 22/05/2022];11(10). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.cureus.com/articles/23712-noninvasive-positive-pressure-ventilation-in-patients-with-acute-respiratory-failure-secondary-to-acute-exacerbation-of-chronic-obstructive-pulmonary-disease#!/">https://www.cureus.com/articles/23712-noninvasive-positive-pressure-ventilation-in-patients-with-acute-respiratory-failure-secondary-to-acute-exacerbation-of-chronic-obstructive-pulmonary-disease#!/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ansari</surname>
+							<given-names>SF</given-names>
+						</name>
+						<name>
+							<surname>Memon</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Brohi</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Thair</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Noninvasive Positive Pressure Ventilation in Patients with Acute Respiratory Failure Secondary to Acute Exacerbation of Chronic Obstructive Pulmonary Disease</article-title>
+					<source>Cureus</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-05-22">22/05/2022</date-in-citation>
+					<volume>11</volume>
+					<issue>10</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.cureus.com/articles/23712-noninvasive-positive-pressure-ventilation-in-patients-with-acute-respiratory-failure-secondary-to-acute-exacerbation-of-chronic-obstructive-pulmonary-disease#!/">https://www.cureus.com/articles/23712-noninvasive-positive-pressure-ventilation-in-patients-with-acute-respiratory-failure-secondary-to-acute-exacerbation-of-chronic-obstructive-pulmonary-disease#!/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

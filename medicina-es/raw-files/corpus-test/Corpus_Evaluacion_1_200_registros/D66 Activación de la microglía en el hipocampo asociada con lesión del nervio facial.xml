@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Biomedica</journal-id>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">2590-7379</issn>
+			<issn pub-type="ppub">0120-4157</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00017</article-id>
+			<article-id pub-id-type="doi">10.7705/biomedica.6216</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Comunicación breve</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Activación de la microglía en el hipocampo asociada con lesión del nervio facial</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Facial nerve injury-associated hippocampal microglíal activation</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cerón</surname>
+						<given-names>Jeimmy</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Troncoso</surname>
+						<given-names>Julieta</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Laboratorio de Neurofisiología Comportamental, Departamento de Ciencias Fisiológicas, Facultad de Medicina, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá, D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Departamento de Biología, Facultad de Ciencias, Universidad Nacional de Colombia, Bogotá, D.C., Colombia</institution>
+				<institution content-type="normalized">Universidad Nacional de Colombia</institution>
+				<institution content-type="orgname">Universidad Nacional de Colombia</institution>
+				<addr-line>
+					<named-content content-type="city">Bogotá, D.C.</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>jtroncoso@unal.edu.co</email>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Julieta Troncoso, Departamento de Biología, Facultad de Ciencias, Universidad Nacional de Colombia, Ciudad Universitaria, Carrera 30 No 45-02, Edificio 421, Oficina 225, Bogotá, D.C., Colombia Teléfono: (571) 316 5000, extensión 11331 <email>jtroncoso@unal.edu.co</email>
+				</corresp>
+				<fn fn-type="other" id="fn2">
+					<label>Contribución de los autores:</label>
+					<p> Jeimmy Cerón: cortes en crióstato del tejido cerebral y captura de imágenes fotográficas para su análisis Julieta Troncoso: cirugías de lesión del nervio facial, análisis de resultados y redacción del manuscrito Ambas autoras participaron en las pruebas de inmunohistoquímica.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn4">
+					<label>Conflicto de intereses:</label>
+					<p> Las autoras declaran no tener conflicto de interés alguno.</p>
+				</fn>
+			</author-notes>
+			<!--pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic"-->
+				<pub-date pub-type="epub-ppub">
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>42</volume>
+			<issue>1</issue>
+			<fpage>196</fpage>
+			<lpage>206</lpage>
+			<history>
+				<date date-type="received">
+					<day>08</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+				<date date-type="pub">
+					<day>24</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción</title>
+					<p> Las lesiones del nervio facial afectan la plasticidad a largo plazo en el hipocampo, así como la memoria de reconocimiento de objetos y la memoria espacial, dos procesos dependientes de esta estructura. Si bien se ha descrito una activación de la microglía en la corteza motora primaria asociada con esta lesión, no se conoce si ocurre algo similar en el hipocampo.</p>
+				</sec>
+				<sec>
+					<title>Objetivo</title>
+					<p> Caracterizar en ratas el efecto de la lesión unilateral del nervio facial sobre la activación de células de la microglía en el hipocampo contralateral.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos</title>
+					<p> Se hicieron experimentos de inmunohistoquímica para detectar células de la microglía en el hipocampo de ratas sometidas a lesión irreversible del nervio facial. Los animales se sacrificaron en distintos momentos después de la lesión, para evaluar la evolución de la proliferación (densidad de células) y la activación (área celular) de la microglía en el tejido del hipocampo. Los tejidos cerebrales de los animales de control se compararon con los de animales lesionados sacrificados en los días 1,3, 7, 21 y 35 después de la lesión.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p> Las células de la microglía en el hipocampo de animales con lesión del nervio facial mostraron signos de proliferación y activación a los 3, 7 y 21 días después de la lesión. Sin embargo, al cabo de cinco semanas, estas modificaciones se revirtieron, a pesar de que no hubo recuperación funcional de la parálisis facial.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones</title>
+					<p> La lesión irreversible del nervio facial produce proliferación y activación temprana y transitoria de las células de la microglía en el hipocampo. Estos cambios podrían estar asociados con las modificaciones electrofisiológicas y las alteraciones comportamentales dependientes del hipocampo descritas recientemente.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction</title>
+					<p> Facial nerve injury induces changes in hippocampal long-term synaptic plasticity and affects both object recognition memory and spatial memory consolidation (i.e., hippocampus-dependent tasks). Although facial nerve injury-associated microglíal activation has been described regarding the primary motor cortex, it has not been ascertained whether something similar occurs in the hippocampus. Peripheral nerve injury- associated microglíal changes in hippocampal tissue could explain neuronal changes in the contralateral hippocampus.</p>
+				</sec>
+				<sec>
+					<title>Objective</title>
+					<p> To characterize the effect of unilateral facial nerve injury on microglíal proliferation and activation in the contralateral hippocampus.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods</title>
+					<p> Immunohistochemical experiments detected microglíal cells in the hippocampal tissue of rats that had undergone facial nerve injury. The animals were sacrificed at specific times after injury to evaluate hippocampal microglíal cell proliferation (cell density) and activation (cell area); sham-operated animals were compared to lesioned animals sacrificed 1,3, 7, 21, or 35 days after injury.</p>
+				</sec>
+				<sec>
+					<title>Results</title>
+					<p> Facial nerve-injured rats’ hippocampal microglíal cells proliferated and adopted an activated phenotype 3- to 21-days post-lesion. Such modifications were transient since the microglíal cells returned to their resting state five weeks after injury, despite the injury’s irreversible nature.</p>
+				</sec>
+				<sec>
+					<title>Conclusions</title>
+					<p> Facial nerve injury causes the transient proliferation and activation of microglíal cells in the hippocampus. This finding might partly explain the morphological and electrophysiological changes described for CA1 pyramidal neurons and the impairment of spatial memory consolidation which has previously been observed in facial nerve-injured rats.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>nervio facial</kwd>
+				<kwd>hipocampo</kwd>
+				<kwd>inmunohistoquímica</kwd>
+				<kwd>ratas.</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Facial nerve</kwd>
+				<kwd>hippocampus</kwd>
+				<kwd>immunohistochemistry</kwd>
+				<kwd>rats.</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="35"/>
+				<page-count count="11"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>El Grupo de Investigación de Neurofisiología Comportamental de la Universidad Nacional intenta dilucidar, desde hace ya más de una década, los cambios electrofisiológicos, moleculares y morfológicos que ocurren en el sistema nervioso central cuando hay una lesión de nervio periférico. Para ello, utiliza el modelo de lesión del nervio facial en roedores, por su idoneidad y practicidad <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+		<p>Hace unos años se constató que aparecen modificaciones morfológicas y electrofisiológicas en la <italic>corteza motora primaria de las vibrisas (Vibrisal Motor Cortex, vM1</italic>), cuando hay lesión del nervio facial <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Asimismo, se caracterizó la activación de la microglía que circunda la <italic>corteza motora primaria de las vibrisas</italic>, asociada con dicha lesión <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+		<p>Recientemente, se observó que tras lesiones del nervio facial se producen modificaciones que se extienden más allá de las áreas del cerebro directamente relacionadas con el procesamiento sensitivo-motor en la corteza. Específicamente, se ha establecido que la lesión del nervio facial conduce a una disminución en la potenciación a largo plazo de las sinapsis en el hipocampo de CA3 a CA1 <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Estas modificaciones en la plasticidad del hipocampo se añaden a hallazgos previos que indican que los animales con lesión del nervio facial presentan dificultades para la consolidación de memorias espaciales y, además, presentan elevados niveles de corticosterona plasmática, comparados con los animales de control <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. Además, en estudios recientes se encontró una reducción significativa de la complejidad de los árboles dendríticos de las células piramidales de CA1 y CA3, así como de las espinas dendríticas en esas células, asociadas con la lesión del nervio facial (Troncoso J. Deterioro de la memoria espacial y modificaciones funcionales y estructurales en el hipocampo de ratas sometidas a lesión del nervio facial. Memorias, XII Congreso Nacional - XIII Seminario Internacional de Neurociencias 2021. <ext-link ext-link-type="uri" xlink:href="https://colne.org.co/congreso/#speakers">https://colne.org.co/congreso/#speakers</ext-link>).</p>
+		<p>Las células de la microglía se han considerado tradicionalmente como los macrófagos del sistema nervioso central <xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. En reposo, son células ramificadas que, ante una señal inmunológica provocada por daños tisulares, se activan acortando sus procesos, aumentando el número de ramificaciones y adoptando una forma ameboide fagocítica <xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Además de su función inmunológica, se sabe que cumplen un papel importante en el control de la función sináptica, manteniendo su integridad <xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>. Las células de la microglía son extremadamente sensibles a perturbaciones producidas por una gran cantidad de variables. Por ejemplo, se sabe que el estrés puede alterar la estructura y, por lo tanto, la función de las células de la microglía <xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. En ese sentido, se ha descrito que las hormonas relacionadas con el estrés (la corticosterona y la norepinefrina, entre otras) producen un cambio estructural de las células de la microglía y que estas “remodelaciones” pueden afectar la arquitectura y la función neuronal <xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+		<p>En este contexto, el objetivo del presente estudio fue conocer la dinámica de la activación y proliferación de las células de la microglía que rodean las neuronas del hipocampo después de lesiones irreversibles del nervio facial. Estos cambios podrían explicar, al menos en parte, las modificaciones estructurales y funcionales observadas en esta estructura, así como los impedimentos en tareas de memoria dependientes del hipocampo, tras la lesión.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<sec>
+				<title><italic>Sujetos experimentales</italic></title>
+				<p>Se usaron 24 ratas albinas macho (<italic>Ratus norvegicus</italic>) de la cepa Wistar, de 290 ± 20 g, procedentes del Bioterio del Instituto Nacional de Salud. Los animales se alojaron en grupos de cuatro en cajas de policarbonato (38 x 32 x 18 cm) que contenían una capa de aserrín en el fondo, la cual se cambiaba cada tercer día. Durante el tiempo en que permanecieron en el Laboratorio de Neurociencias de la Universidad Nacional, los animales se mantuvieron con humedad (40 ± 5 %) y temperatura (20 ± 3 °C) controladas, con ciclos de 12 horas de luz y oscuridad (luces encendidas a las 7:00 am), y libre acceso a agua y comida.</p>
+			</sec>
+			<sec>
+				<title><italic>Diseño experimental</italic></title>
+				<p>Los 24 animales experimentales se dividieron aleatoriamente en dos grandes grupos: uno de control (<italic>sham</italic>), con falsa cirugía de lesión (n=4), y uno con lesión irreversible del nervio facial (n=20) (<xref ref-type="fig" rid="f1">figura 1 A</xref>). Los animales del grupo con lesión irreversible se subdividieron a su vez en: 1D, 3D, 7D, 21D y 35 D, los cuales se sacrificaron en los días 1,3, 7, 21 y 35 después de la lesión, respectivamente (n=4 cada uno). Los animales del grupo de control se sacrificaron después de una semana de la falsa cirugía de lesión. Un esquema del diseño experimental se muestra en la <xref ref-type="fig" rid="f1">figura 1B</xref>.</p>
+				<p>
+					<fig id="f1">
+						<label>Figura 1</label>
+						<caption>
+							<title>Metodología, diseño experimental y efectos de la lesión en la función motora. <bold>A.</bold> Esquema del nervio facial en la rata. Al entrar en la cara del animal, el nervio facial (Vil par craneal) se divide en las ramas temporal (T), zigomática (Z), bucal (B) y mandibular (M); la lesión irreversible del nervio facial consiste en el corte de las ramas B y M (tijeras). <bold>B.</bold> Diseño experimental. Los animales se dividieron aleatoriamente en dos grupos: de falsa cirugía de lesión (<italic>sham</italic>, de control) y con lesión irreversible del nervio facial. Los animales lesionados, a su vez, se subdividieron en 5 grupos: 1D, 3D, 7D, 21D y 35D (que se sacrificaron en los días 1,3, 7, 21 y 35 de la lesión). Los cerebros de los animales de los dos grupos se procesaron para tinción inmunohistoquímica con el anticuerpo anti-lba-1, con el fin de detectar células de la microglía. <bold>C.</bold> Evaluación de la función motora. La correcta lesión del nervio facial se corroboró por la ausencia del movimiento activo de las vibrisas del lado lesionado. En los primeros días posteriores a la lesión, las vibrisas se paralizaron y aparecían completamente hacia atrás; una semana después de la lesión, los animales recuperaron tonicidad en las vibrisas del lado lesionado, pero continuaron con parálisis facial durante por lo menos 5 semanas después de lesión.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-42-01-196-gf1.jpg"/>
+						<attrib>Aclim: aclimatación por 7 días; Qx: cirugía; Inmuno: inmunohistoquímica</attrib>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title><italic>Preparaciones experimentales</italic></title>
+				<p><italic>Lesión irreversible de nervio facia</italic>l. Al entrar a la cara, el tronco del nervio facial se divide en múltiples ramas (temporal, cigomática, bucal y mandibular) (<xref ref-type="fig" rid="f1">figura 1 A</xref>). La lesión irreversible del nervio facial se produjo cortando las ramas mandibular y bucal (M y B, <xref ref-type="fig" rid="f1">figura 1 A</xref>). Estas ramas son las que inervan la musculatura intrínseca de las vibrisas, cuya contracción promueve el movimiento activo de estos pelos sensoriales.</p>
+				<p>Para el procedimiento, los animales recibieron anestesia general (ketamina, 100 mg/kg, más xilazina, 10 mg/kg) y se colocaron en decúbito lateral para afeitar la región preauricular del lado derecho. Se hizo una incisión y luego una disección roma por planos hasta aislar las ramas del nervio facial. Las ramas mandibular y bucal se detectaron mediante estimulación eléctrica y se cortaron retirando un segmento de 1 mm de cada una de ellas. La efectividad de la lesión se confirmó por estimulación eléctrica de las regiones proximales y distales de cada rama lesionada. Los bordes de piel se suturaron con puntos discontinuos utilizando seda 4-0.</p>
+				<p><italic>Falsa cirugía de</italic> lesión (grupo de control, <italic>sham</italic>). Los animales se anestesiaron con 100 mg/kg de ketamina más 10 mg/kg de xilazina, se colocaron en decúbito lateral para afeitar la región preauricular del lado derecho y se les hizo una incisión horizontal de un cm por encima del ángulo mandibular derecho. Se disecaron las ramas bucal y mandibular del nervio facial, manteniendo intacta su integridad. La incisión en la piel se suturó con puntos discontinuos utilizando seda 4-0.</p>
+				<p><italic>Inmunohistoquímica</italic>. El procedimiento de inmunohistoquímica se hizo según lo descrito por Moreno, <italic>et al</italic>. <xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, después de anestesiar profundamente a los animales con uretano (1,6 g/kg, intraperitoneal). Se abrió la cavidad torácica para exponer el corazón y se insertó una cánula en el ventrículo izquierdo, con el fin de desangrar al animal mediante perfusión de solución salina al 0,9 % y fijación del tejido cerebral en paraformaldehído al 4 % preparado en 0,1 M de PBS (pH 7,4). Los cerebros se almacenaron a 4 °C en solución fijadora (paraformaldehído al 4 % preparada en 0,1 M de solución tampón PBS) durante 48 horas y luego se transfirieron a una solución de sacarosa al 30 % para su crioprotección. Se obtuvieron cortes coronales de 50 pm de grosor utilizando un criostato a una temperatura de -20 °C. Se recolectaron y almacenaron secciones de tejido cerebral de cada sujeto para un total de cuatro series que comprendían el hipocampo dorsal (coordenadas desde el bregma, AP: -1,5 a -4,3 mm) <xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+				<p>La inmunorreactividad de la proteína Iba1 (Ionized calcium binding adaptor molecule 1), que se expresa de forma específica en macrófagos y microglía <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, se detectó empleando antisuero policlonal producido en conejo: anti-lba1 (Wako, Cat. #019-19741). La unión antígeno-anticuerpo se reveló utilizando el estuche ABC (avidina-biotina peroxidasa) de Vectastain™ (Laboratorios Vector, USA, Ref. PK 6101).</p>
+				<p>Antes del procedimiento, se hicieron lavados para retirar el anticongelante (2x10 minutos, 0,1 M de PB). Posteriormente, se bloqueó la peroxidasa endógena incubando los tejidos en H<sub>2</sub>0<sub>2</sub> al 1 % durante 20 minutos para luego proceder a bloquear los sitios de unión inespecíficos con albúmina de suero bovino (BSA 1 %; Sigma, Ref. A7030-100G) y suero normal de cabra (1 %; Laboratorios Vector, USA, Ref. S-1000).</p>
+				<p>Las secciones se incubaron toda la noche con el anticuerpo primario (anti-lba1) (1:1.000 en la solución de bloqueo) a temperatura ambiente y en agitación. Posteriormente, se inició la incubación con el anticuerpo anticonejo secundario biotinilado producido en cabra (Laboratorios Vector, USA, Ref. PK 6101; 1:250, PB-Tritón, BSA al 0,3 %, suero normal de cabra al 0,3 %) y en agitación durante dos horas a temperatura ambiente.</p>
+				<p>A continuación, las secciones se incubaron con solución de avidina-biotina durante dos horas y se lavaron nuevamente en 0,1 M de PB para iniciar el proceso de revelado empleando una solución de 3,3’-diaminobenzidina (DAB 0,05 %, Laboratorios Vector, USA, Ref. SK-4100). Los cortes de tejido cerebral se montaron con pincel en portaobjetos previamente gelatinizados para evitar su despegue; una vez que los cortes se secaron por completo, se colocó el cubreobjetos (adherido mediante bálsamo de Canadá) para su posterior visualización en el microscopio de luz.</p>
+			</sec>
+			<sec>
+				<title><italic>Análisis de datos y pruebas estadísticas</italic></title>
+				<p>El análisis de las células positivas para Iba1, tanto del conteo como del área, se sometieron a pruebas estadísticas de ANOVA de una vía para establecer diferencias significativas entre grupos. Las células positivas para lba-1, así como su área, se cuantificaron en las fotografías ampliadas de los cortes histológicos observados con microscopía óptica de luz con 400 aumentos, utilizando el programa Image J. Se evaluaron la densidad y el área de las células de la microglía de toda la formación del hipocampo, seleccionando aleatoriamente campos ópticos de cada una de las áreas estudiadas (CA1, CA3 y giro dentado).</p>
+				<p>Antes de los análisis, se calibró el programa configurando la equivalencia de mieras y pixeles mediante imágenes de una escala micrométrica. En las fotografías de interés, se ajustó la profundidad de color a 8 bits y se convirtieron en imágenes pseudobinarias por medio de la función <italic>Threshold</italic>, indicando posteriormente al programa los parámetros por medir. Las comparaciones planeadas se realizaron con el método Holm-Sidak. Se utilizó un valor crítico de significación de 0,05.</p>
+			</sec>
+			<sec>
+				<title><italic>Consideraciones éticas</italic></title>
+				<p>Las condiciones de alojamiento, los procedimientos experimentales y la disposición de los residuos biológicos y químicos se hicieron observando las normativas nacionales e internacionales pertinentes: Resolución N° 008430 de 1993 del Ministerio de Salud y Ley 84 del 27 de diciembre de 1989, además de lo estipulado en la Resolución 2378 de 2008 del Ministerio de Protección Social.</p>
+				<p>Los experimentos fueron avalados por el Comité de Ética de la Facultad de Ciencias de la Universidad Nacional de Colombia. Se hizo un esfuerzo para reducir el número de animales utilizados y evitar su sufrimiento innecesario. También, se tuvieron en cuenta los procedimientos para el manejo y cuidado de animales de laboratorio recomendados por la normativa de la Unión Europea (8616091EU) y los Institutos Nacionales de Salud de los Estados Unidos de América (<italic>National Research Council,</italic> 2010).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Los animales sometidos a lesión de las ramas bucal y mandibular del nervio facial presentaron una parálisis facial del tercio inferior de la cara, tal y como se esperaba. La parálisis se evidenció por ausencia de movimientos activos de las vibrisas del lado lesionado, en comparación con los animales de control con lesión falsa (<xref ref-type="fig" rid="f1">figura 1C</xref>). Durante la primera semana después de lesión, se evidenció en los animales una retracción completa de las vibrisas del lado lesionado (grupos 1D y 3D). Sin embargo, a partir de esa primera semana, las vibrisas recuperaron tonicidad, aunque continuaron paralizadas (grupos 7D, 21 D, 35D), ya que la lesión se realizó cortando y retirando una parte de cada rama del nervio facial, se impidió la reinervación y, por lo tanto, la posibilidad de la recuperación de la función motora (parálisis irreversible) (<xref ref-type="fig" rid="f1">figura 1C</xref>).</p>
+			<p>La <xref ref-type="fig" rid="f2">figura 2A</xref> corresponde a fotografías con distintos aumentos (50X, 100X y 400X) del hipocampo contralateral al lado lesionado de animales representativos de cada grupo experimental, comparados con los animales de control (<italic>sham</italic>). La inmunorreactividad de la proteína Iba1 del hipocampo de los animales con falsa cirugía de lesión, evidenció que las células de la microglía presentaban una morfología típica de células residentes en reposo, caracterizada por un cuerpo celular pequeño acompañado por procesos largos y ramificados (<xref ref-type="fig" rid="f2">figura 2A</xref>, panel superior).</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Modificación de las células de la microglía en el hipocampo asociada con la lesión del nervio facial. <bold>A.</bold> Evolución temporal de los cambios en la microglía hipocampal. Se muestran microfotografías representativas de cada grupo (<italic>sham</italic> y lesionados), sacrificados en distintos momentos después de la lesión, en las que se visualiza la inmunorreactividad frente a lba-1 en el tejido del hipocampo contralateral a la lesión. Aumentos: a la izquierda, 50X; al centro, 100X, y a la derecha, 400X. En las fotografias superiores (grupo de control, <italic>sham</italic>) se observa una microglía típica del reposo, con ramificaciones delgadas y cuerpos celulares pequeños, similares a las encontradas en animales sacrificados el día posterior a la lesión (1D). A los tres días, se evidenciaron una proliferación y activación de la microglía (3D), que se revirtieron a las cinco semanas de la lesión (35D). Barras de calibración, izquierda: 300 mm; centro: 150 mm; derecha: 50 mm. <bold>B.</bold> Densidad de células de la microglía. La cuantificación del número de células por campo evidenció una proliferación significativa de microglías a partir del tercer día de la lesión (3D), que se sostuvo hasta el día 21D. <bold>C.</bold> Activación de las células de la microglía. La cuantificación del área de los somas de las células de la microglía permitió estimar su activación. Se observa un aumento significativo del área de estas células en los días 3, 7 y 21 de la lesión (3D, 7D y 21D), que se revirtió a los 35 días de la lesión (35D).</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-42-01-196-gf2.jpg"/>
+					<attrib>* p&lt;0,001</attrib>
+				</fig>
+			</p>
+			<p>Sin embargo, cuando se analizaron las células de la microglía del hipocampo de animales sacrificados en distintos momentos después de la axotomía del nervio facial, se observaron cambios evidentes tanto en su morfología como en su densidad numérica. Por una parte, es evidente que la lesión irreversible del nervio facial produjo una proliferación de las células de la microglía. El análisis de varianza arrojó diferencias significativas en el número de células positivas para lba-1 con respecto al grupo de control (F<sub>(590)</sub>=21,98; p&lt;0,001). Específicamente, las comparaciones revelaron un mayor número de células de la microglía a los 3 días (<italic>sham Vs</italic>. 3D, t=8,28; p&lt;0,001), a los 7 días (<italic>sham Vs</italic>. 7D, t=4,99; p&lt;0,001) y a los 21 días (<italic>sham Vs</italic>. 21D, t=4,77; p&lt;0,001) de la lesión (<xref ref-type="fig" rid="f2">figura 2B</xref>).</p>
+			<p>Por otra parte, no se encontraron diferencias significativas en el número de células de la microglía en el hipocampo de los animales sacrificados en el día 1 (<italic>sham Vs</italic>. 1D, t=0,80; p=0,42),) ni en el día 35 (<italic>sham Vs</italic>. 35D, t=0,37; p=0,71) de la lesión. Esto indica que el aumento del número de células de la microglía en el hipocampo asociado con la lesión fue de aparición temprana, ya que se manifestó a partir del tercer día de la lesión. Además, esta proliferación es transitoria, ya que 5 semanas después de la lesión, hubo una recuperación en el patrón de distribución de las células de la microglía muy similar a la del grupo control, a pesar de que no se recuperó la función motora.</p>
+			<p>Por otro lado, fue evidente que la forma de las células de la microglía cambió con la axotomía del nervio facial: se presentaron alteraciones morfológicas de engrasamiento y retracción de sus ramificaciones, con cuerpos celulares agrandados evidentes a partir del tercer día de la lesión (<xref ref-type="fig" rid="f2">figura 2A</xref>).</p>
+			<p>En el análisis de varianza, hubo diferencias significativas en el área de los somas de las células de la microglía tras la lesión, en comparación con el grupo de control (F<sub>(5,426)</sub>=276,59; p&lt;0,001). Específicamente, se encontraron aumentos en el área somática microglíal de la formación del hipocampo de los animales sacrificados a los 3 días (<italic>sham</italic> Vs. 3D, t=28,51; p&lt;0,001), a los 7 días (<italic>sham Vs</italic>. 7D, t=15,45; p&lt;0,001) y a los 21 días (<italic>sham Vs</italic>. 21D, t=11,57; p&lt;0,001) de la lesión (<xref ref-type="fig" rid="f2">figura 2C</xref>).</p>
+			<p>Por otra parte, no se encontraron diferencias significativas en el área de las células de la microglía de los animales sacrificados en el día 1 (<italic>sham Vs</italic>. 1D, t=0,28; p=0,35), ni en el día 35 (<italic>sham Vs</italic> 35D, t=0,93; p=0,78) de la lesión, en comparación con el grupo de control. Ello indicaría que hubo una activación temprana de las células de la microglía, con agrandamiento del soma y reducción de los procesos, que se evidenció a partir de los 3 días de la lesión. Esta activación, sin embargo, fue transitoria, ya que la microglía retornó a sus niveles básales de activación y recobró características morfológicas similares a las de los animales sometidos a falsa cirugía a las 5 semanas de la axotomía.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En este estudio se caracterizó la evolución de la proliferación y activación de las células de la microglía del hipocampo asociadas con la lesión del nervio facial. Esta modificación fue de aparición temprana aunque transitoria, dado que se hizo evidente a los tres días de la lesión, pero se revirtió cinco semanas después, aunque no hubo recuperación de la función motora, dada la naturaleza irreversible de la lesión. En estudios previos, se había descrito una activación de la microglía similar en la corteza motora primaria de las vibrisas <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, asociada con modificaciones estructurales y electrofisiológicas de las células piramidales corticales que realizan conexiones monosinápticas directas con el núcleo del facial <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+			<p>Hay abundante evidencia de que el hipocampo de los mamíferos cumple un papel fundamental en la navegación en ambientes familiares y novedosos, así como en el aprendizaje y la memoria de la ubicación de objetos o lugares en el espacio <xref ref-type="bibr" rid="B22"><sup>22</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Las ratas son animales nocturnos que dependen bastante de sus habilidades de navegación para explorar el ambiente; esta navegación requiere del uso activo de las vibrisas faciales, las cuales funcionan como órganos táctiles de gran sensibilidad para la exploración activa de objetos y texturas, así como la detección de la distancia a la que se encuentran los objetos <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Hay evidencia de que el hipocampo recibe y procesa información somatosensorial adquirida mediante el movimiento activo de las vibrisas faciales en la rata <xref ref-type="bibr" rid="B27"><sup>27</sup></xref>.</p>
+			<p>En estudios previos, se ha demostrado que la lesión del nervio facial está relacionada con impedimentos en la consolidación de memorias dependientes del hipocampo (memoria de reconocimiento de objetos y memoria espacial) <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. Esos hallazgos, sumados a recientes descripciones que indican que la potenciación a largo plazo en el hipocampo de animales con lesión del nervio facial es significativamente menor que en los animales de control <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>, indican que el hipocampo es una estructura capaz de sufrir modificaciones funcionales por lesiones periféricas. De hecho, así quedó demostrado hace algunos años con lesiones del nervio ciático <xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Estas modificaciones funcionales, además de los cambios morfológicos caracterizados en las células piramidales de CA1 y CA3 asociados con la lesión del nervio facial (Trancoso J. Deterioro de la memoria espacial y modificaciones funcionales y estructurales en el hipocampo de ratas sometidas a lesión del nervio facial. Memorias, XII Congreso Nacional - XIII Seminario Internacional de Neurociencias 2021. <ext-link ext-link-type="uri" xlink:href="https://colne.org.co/congreso/#speakers">https://colne.org.co/congreso/#speakers</ext-link>), podrían estar mediadas por las alteraciones en la microglía circundante observadas en el presente estudio. De hecho, existe evidencia de que las lesiones de nervios periféricos que producen dolor crónico, por ejemplo, provocan activación de la glia (microglía y astrocitos) y de citocinas proinflamatorias, lo que contribuye a la remodelación estructural del hipocampo y las funciones cognitivas que le subyacen <xref ref-type="bibr" rid="B29"><sup>29</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+			<p>La axotomía del nervio facial provoca una parálisis de las vibrisas que conduce a una modificación del procesamiento de información sensorio-motor, debido a la alteración de la adquisición activa de información sensorial. Si bien es conocido que el hipocampo no tiene conexión directa con las motoneuronas faciales lesionadas, se sabe que la corteza vM1 envía información al núcleo <italic>reuniens</italic><xref ref-type="bibr" rid="B33"><sup>33</sup></xref> y que este, a su vez, proyecta sobre las células piramidales de CA1 del hipocampo <xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. Entonces, la pasividad inducida por la axotomía del nervio facial de las entradas táctiles de las vibrisas, puede causar un desequilibrio crítico en este sistema, no solo por la degradación de las entradas del trigémino a la vM1 y al núcleo <italic>reuniens</italic>, sino también, por la modificación fisiológica y estructural de las neuronas piramidales de la capa 5 de la vM1, como se ha observado en trabajos previos <xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+			<p>El hipocampo es una estructura muy sensible a eventos estresantes. De hecho, se ha informado que el estrés agudo o crónico produce una activación de la microglía en varias estructuras del sistema nervioso central, incluido el hipocampo <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>. Se ha observado que, tras lesiones del nervio facial, se produce un aumento significativo de los niveles plasmáticos de corticosterona <xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, lo que podría relacionarse con el aumento de la proliferación y activación de la microglía descritos en este estudio.</p>
+			<p>Por último, se sabe que la microglía es capaz de remodelar estructuralmente las neuronas y, por lo tanto, modificar su función. Así que los hallazgos descritos aquí podrían explicar, al menos en parte, la disminución en la potenciación a largo plazo, las modificaciones morfológicas neuronales en las células CA3 a CA1 y los impedimentos en la consolidación de tareas dependientes del hipocampo observados previamente <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref> (Troncoso J. Deterioro de la memoria espacial y modificaciones funcionales y estructurales en el hipocampo de ratas sometidas a lesión del nervio facial. Memorias, XII Congreso Nacional - XIII Seminario Internacional de Neurociencias 2021. <ext-link ext-link-type="uri" xlink:href="https://colne.org.co/congreso/#speakers">https://colne.org.co/congreso/#speakers</ext-link>).</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1.</label>
+				<mixed-citation>1. Moran LB, Graeber MB. The facial nerve axotomy model. Brain Res Brain Res Rev. 2004;44:154-78. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.brainresrev.2003.11.004">https://doi.org/10.1016/j.brainresrev.2003.11.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moran</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Graeber</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>The facial nerve axotomy model</article-title>
+					<source>Brain Res Brain Res Rev</source>
+					<year>2004</year>
+					<volume>44</volume>
+					<fpage>154</fpage>
+					<lpage>178</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.brainresrev.2003.11.004">https://doi.org/10.1016/j.brainresrev.2003.11.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2.</label>
+				<mixed-citation>2. Múnera A, Cuestas DM, Troncoso J. Peripheral facial nerve lesions induce changes in the firing properties of primary motor cortex layer 5 pyramidal cells. Neuroscience. 2012;223:140-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2012.07.063">https://doi.org/10.1016/j.neuroscience.2012.07.063</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Múnera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cuestas</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Peripheral facial nerve lesions induce changes in the firing properties of primary motor cortex layer 5 pyramidal cells</article-title>
+					<source>Neuroscience</source>
+					<year>2012</year>
+					<volume>223</volume>
+					<fpage>140</fpage>
+					<lpage>151</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2012.07.063">https://doi.org/10.1016/j.neuroscience.2012.07.063</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3.</label>
+				<mixed-citation>3. Urrego D, Múnera A, Troncoso J. Retracción a largo plazo del árbol dendrítico de neuronas piramidales córtico-faciales por lesiones periféricas del nervio facial. Biomédica. 2011 ;31:560-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v31i4.440">https://doi.org/10.7705/biomedica.v31i4.440</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Urrego</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Múnera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Retracción a largo plazo del árbol dendrítico de neuronas piramidales córtico-faciales por lesiones periféricas del nervio facial</article-title>
+					<source>Biomédica</source>
+					<year>2011</year>
+					<volume>31</volume>
+					<fpage>560</fpage>
+					<lpage>569</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.v31i4.440">https://doi.org/10.7705/biomedica.v31i4.440</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4.</label>
+				<mixed-citation>4. Urrego D, Troncoso J, Múnera A. Layer 5 pyramidal neurons’ dendritic remodeling and increased microglíal density in primary motor cortex in a murine model of facial paralysis. Biomed Res Int. 2015;2015:482023. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2015/482023">https://doi.org/10.1155/2015/482023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Urrego</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Múnera</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Layer 5 pyramidal neurons’ dendritic remodeling and increased microglíal density in primary motor cortex in a murine model of facial paralysis</article-title>
+					<source>Biomed Res Int</source>
+					<year>2015</year>
+					<volume>2015</volume>
+					<issue>482023</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2015/482023">https://doi.org/10.1155/2015/482023</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5.</label>
+				<mixed-citation>5. Torrado-Arévalo R, Troncoso J, Múnera A. Facial nerve axotomy induces changes on hippocampal CA3-to-CA1 long-term synaptic plasticity. Neuroscience. 2021 ;475:197-205. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2021.08.023">https://doi.org/10.1016/j.neuroscience.2021.08.023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torrado-Arévalo</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Múnera</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Facial nerve axotomy induces changes on hippocampal CA3-to-CA1 long-term synaptic plasticity</article-title>
+					<source>Neuroscience</source>
+					<year>2021</year>
+					<volume>475</volume>
+					<fpage>197</fpage>
+					<lpage>205</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2021.08.023">https://doi.org/10.1016/j.neuroscience.2021.08.023</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6.</label>
+				<mixed-citation>6. Moreno C, Vivas O, Lamprea NP, Lamprea MR, Múnera A, Troncoso J. Vibrissal paralysis unveils a preference for textural rather than positional novelty in the one-trial object recognition task in rats. Behav Brain Res. 2010;211:229-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbr.2010.03.044">https://doi.org/10.1016/j.bbr.2010.03.044</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreno</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Vivas</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Lamprea</surname>
+							<given-names>NP</given-names>
+						</name>
+						<name>
+							<surname>Lamprea</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Múnera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Vibrissal paralysis unveils a preference for textural rather than positional novelty in the one-trial object recognition task in rats</article-title>
+					<source>Behav Brain Res</source>
+					<year>2010</year>
+					<volume>211</volume>
+					<fpage>229</fpage>
+					<lpage>235</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbr.2010.03.044">https://doi.org/10.1016/j.bbr.2010.03.044</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7.</label>
+				<mixed-citation>7. Patarroyo WE, García-Pérez M, Lamprea M, Múnera A, Troncoso J. Vibrissal paralysis produces increased corticosterone levels and impairment of spatial memory retrieval. Behav Brain Res. 2017;320:58-66. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbr.2016.11.045">https://doi.org/10.1016/j.bbr.2016.11.045</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Patarroyo</surname>
+							<given-names>WE</given-names>
+						</name>
+						<name>
+							<surname>García-Pérez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lamprea</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Múnera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Vibrissal paralysis produces increased corticosterone levels and impairment of spatial memory retrieval</article-title>
+					<source>Behav Brain Res</source>
+					<year>2017</year>
+					<volume>320</volume>
+					<fpage>58</fpage>
+					<lpage>66</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbr.2016.11.045">https://doi.org/10.1016/j.bbr.2016.11.045</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8.</label>
+				<mixed-citation>8. Nimmerjahn A, Kirchhoff F, Helmchen F. Resting microglíal cells are highly dynamic surveillants of brain parenchyma in vivo. Science. 2005;308:1314-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1110647">https://doi.org/10.1126/science.1110647</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nimmerjahn</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kirchhoff</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Helmchen</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Resting microglíal cells are highly dynamic surveillants of brain parenchyma in vivo</article-title>
+					<source>Science</source>
+					<year>2005</year>
+					<volume>308</volume>
+					<fpage>1314</fpage>
+					<lpage>1318</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1110647">https://doi.org/10.1126/science.1110647</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9.</label>
+				<mixed-citation>9. Dávalos D, Grutzendler J, Yang G, Kim JV, Zuo Y, Jung S, <italic>et al</italic>. ATP mediates rapid microglíal response to local brain injury <italic>in vivo</italic>. Nat Neurosci. 2005;8:752-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nn1472">https://doi.org/10.1038/nn1472</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dávalos</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Grutzendler</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>JV</given-names>
+						</name>
+						<name>
+							<surname>Zuo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Jung</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>ATP mediates rapid microglíal response to local brain injury in vivo</article-title>
+					<source>Nat Neurosci</source>
+					<year>2005</year>
+					<volume>8</volume>
+					<fpage>752</fpage>
+					<lpage>758</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nn1472">https://doi.org/10.1038/nn1472</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10.</label>
+				<mixed-citation>10. Ulland TK, Wang Y, Colonna M. Regulation of microglíal survival and proliferation in health and diseases. Semin Immunol. 2015;27:410-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smim.2016.03.011">https://doi.org/10.1016/j.smim.2016.03.011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ulland</surname>
+							<given-names>TK</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Colonna</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Regulation of microglíal survival and proliferation in health and diseases</article-title>
+					<source>Semin Immunol</source>
+					<year>2015</year>
+					<volume>27</volume>
+					<fpage>410</fpage>
+					<lpage>415</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.smim.2016.03.011">https://doi.org/10.1016/j.smim.2016.03.011</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11.</label>
+				<mixed-citation>11. Colonna M, Butovsky O. Microglía function in the central nervous system during health and neurodegeneration. Annu Rev Immunol. 2017;35:441-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev-immunol-051116-052358">https://doi.org/10.1146/annurev-immunol-051116-052358</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Colonna</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Butovsky</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Microglía function in the central nervous system during health and neurodegeneration</article-title>
+					<source>Annu Rev Immunol</source>
+					<year>2017</year>
+					<volume>35</volume>
+					<fpage>441</fpage>
+					<lpage>468</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev-immunol-051116-052358">https://doi.org/10.1146/annurev-immunol-051116-052358</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12.</label>
+				<mixed-citation>12. Tremblay M-È, Lowery RL, Majewska AK. Microglíal interactions with synapses are modulated by visual experience. PLOS Biol. 2010;8:e1000527. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pbio.1000527">https://doi.org/10.1371/journal.pbio.1000527</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tremblay</surname>
+							<given-names>M-È</given-names>
+						</name>
+						<name>
+							<surname>Lowery</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Majewska</surname>
+							<given-names>AK</given-names>
+						</name>
+					</person-group>
+					<article-title>Microglíal interactions with synapses are modulated by visual experience</article-title>
+					<source>PLOS Biol</source>
+					<year>2010</year>
+					<volume>8</volume>
+					<elocation-id>e1000527</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pbio.1000527">https://doi.org/10.1371/journal.pbio.1000527</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13.</label>
+				<mixed-citation>13. Wake H, Moorhouse AJ, Jinno S, Kohsaka S, Nabekura J. Resting microglía directly monitor the functional state of synapses in vivo and determine the fate of ischemic terminals. J Neurosci. 2009;29:3974-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEURQSCI.4363-08.2009">https://doi.org/10.1523/JNEURQSCI.4363-08.2009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wake</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Moorhouse</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Jinno</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kohsaka</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nabekura</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Resting microglía directly monitor the functional state of synapses in vivo and determine the fate of ischemic terminals</article-title>
+					<source>J Neurosci</source>
+					<year>2009</year>
+					<volume>29</volume>
+					<fpage>3974</fpage>
+					<lpage>3980</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEURQSCI.4363-08.2009">https://doi.org/10.1523/JNEURQSCI.4363-08.2009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14.</label>
+				<mixed-citation>14. Paolicelli RC, Bolasco G, Pagani F, Maggi L, Scianni M, Panzanelli P, <italic>et al</italic>. Synaptic pruning by microglía is necessary for normal brain development. Science. 2011 ;333:1456-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1202529">https://doi.org/10.1126/science.1202529</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paolicelli</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Bolasco</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Pagani</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Maggi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Scianni</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Panzanelli</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Synaptic pruning by microglía is necessary for normal brain development</article-title>
+					<source>Science</source>
+					<year>2011</year>
+					<volume>333</volume>
+					<fpage>1456</fpage>
+					<lpage>1458</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1202529">https://doi.org/10.1126/science.1202529</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15.</label>
+				<mixed-citation>15. Schafer DP, Lehrman EK, Kautzman AG, Koyama R, Mardinly AR, Yamasaki R, <italic>et al</italic>. Microglía sculpt postnatal neural circuits in an activity and complement-dependent manner. Neuron. 2012;74:691-705. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuron.2012.03.026">https://doi.org/10.1016/j.neuron.2012.03.026</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schafer</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Lehrman</surname>
+							<given-names>EK</given-names>
+						</name>
+						<name>
+							<surname>Kautzman</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Koyama</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mardinly</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Yamasaki</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Microglía sculpt postnatal neural circuits in an activity and complement-dependent manner</article-title>
+					<source>Neuron</source>
+					<year>2012</year>
+					<volume>74</volume>
+					<fpage>691</fpage>
+					<lpage>705</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuron.2012.03.026">https://doi.org/10.1016/j.neuron.2012.03.026</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16.</label>
+				<mixed-citation>16. Tynan RJ, Naicker S, Hinwood M, Nalivaiko E, Buller KM, Pow DV, <italic>et al</italic>. Chronic stress alters the density and morphology of microglía in a subset of stress-responsive brain regions. Brain Behav Immun. 2010;24:1058-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2010.02.001">https://doi.org/10.1016/j.bbi.2010.02.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tynan</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Naicker</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hinwood</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Nalivaiko</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Buller</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Pow</surname>
+							<given-names>DV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Chronic stress alters the density and morphology of microglía in a subset of stress-responsive brain regions</article-title>
+					<source>Brain Behav Immun</source>
+					<year>2010</year>
+					<volume>24</volume>
+					<fpage>1058</fpage>
+					<lpage>1068</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2010.02.001">https://doi.org/10.1016/j.bbi.2010.02.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17.</label>
+				<mixed-citation>17. Hinwood M, Tynan RJ, Charnley JL, Beynon SB, Day TA, Walker FR. Chronic stress induced remodeling of the prefrontal cortex: Structural re-organization of microglía and the inhibitory effect of minocycline. Cereb Cortex. 2013;23:1784-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2010.02.001">https://doi.org/10.1016/j.bbi.2010.02.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hinwood</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tynan</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Charnley</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Beynon</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Day</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Walker</surname>
+							<given-names>FR</given-names>
+						</name>
+					</person-group>
+					<article-title>Chronic stress induced remodeling of the prefrontal cortex: Structural re-organization of microglía and the inhibitory effect of minocycline</article-title>
+					<source>Cereb Cortex</source>
+					<year>2013</year>
+					<volume>23</volume>
+					<fpage>1784</fpage>
+					<lpage>1797</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2010.02.001">https://doi.org/10.1016/j.bbi.2010.02.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18.</label>
+				<mixed-citation>18. Jáuregui-Huerta F, Ruvalcaba-Delgadillo Y, González-Castañeda R, García-Estrada J, González-Pérez O, Luquin S. Responses of glial cells to stress and glucocorticoids. Curr Immunol Rev. 2010;6:195-204. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/157339510791823790">https://doi.org/10.2174/157339510791823790</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jáuregui-Huerta</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ruvalcaba-Delgadillo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>González-Castañeda</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>García-Estrada</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>González-Pérez</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Luquin</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Responses of glial cells to stress and glucocorticoids</article-title>
+					<source>Curr Immunol Rev</source>
+					<year>2010</year>
+					<volume>6</volume>
+					<fpage>195</fpage>
+					<lpage>204</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/157339510791823790">https://doi.org/10.2174/157339510791823790</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19.</label>
+				<mixed-citation>19. Walker FR, Nilsson M, Jones K. Acute and chronic stress-induced disturbances of microglíal plasticity, phenotype and function. Curr Drug Targets. 2013;14:1262-76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/13894501113149990208">https://doi.org/10.2174/13894501113149990208</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Walker</surname>
+							<given-names>FR</given-names>
+						</name>
+						<name>
+							<surname>Nilsson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Acute and chronic stress-induced disturbances of microglíal plasticity, phenotype and function</article-title>
+					<source>Curr Drug Targets</source>
+					<year>2013</year>
+					<volume>14</volume>
+					<fpage>1262</fpage>
+					<lpage>1276</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/13894501113149990208">https://doi.org/10.2174/13894501113149990208</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20.</label>
+				<mixed-citation>20. Paxinos G, Watson C. The rat brain in stereotaxic coordinates-The New Coronal Set. 6th edition. London, UK: Academic Press; 2007.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paxinos</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Watson</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>The rat brain in stereotaxic coordinates-The New Coronal Set</source>
+					<edition>6th edition</edition>
+					<publisher-loc>London, UK</publisher-loc>
+					<publisher-name>Academic Press</publisher-name>
+					<year>2007</year>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21.</label>
+				<mixed-citation>21. Ito D, Imai Y, Ohsawa K, Nakajima K, Fukuuchi Y, Kohsaka S. Microglía-specific localisation of a novel calcium binding protein, Ibal. Brain Res Mol Brain Res. 1998;57:1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0169-328x(98)00040-0">https://doi.org/10.1016/s0169-328x(98)00040-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ito</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Imai</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ohsawa</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Nakajima</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Fukuuchi</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kohsaka</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Microglía-specific localisation of a novel calcium binding protein, Ibal.</article-title>
+					<source>Brain Res Mol Brain Res</source>
+					<year>1998</year>
+					<volume>57</volume>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0169-328x(98)00040-0">https://doi.org/10.1016/s0169-328x(98)00040-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22.</label>
+				<mixed-citation>22. Hill AJ. First occurrence of hippocampal spatial firing in a new environment. Exp Neurol. 1978;62:282-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0014-4886(78)90058-4">https://doi.org/10.1016/0014-4886(78)90058-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hill</surname>
+							<given-names>AJ.</given-names>
+						</name>
+					</person-group>
+					<article-title>First occurrence of hippocampal spatial firing in a new environment</article-title>
+					<source>Exp Neurol</source>
+					<year>1978</year>
+					<volume>62</volume>
+					<fpage>282</fpage>
+					<lpage>297</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0014-4886(78)90058-4">https://doi.org/10.1016/0014-4886(78)90058-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23.</label>
+				<mixed-citation>23. Schmajuk NA. Role of the hippocampus in temporal and spatial navigation: An adaptive neural network. Behav Brain Res. 1990;39:205-29. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0166-4328(90)90028-d">https://doi.org/10.1016/0166-4328(90)90028-d</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schmajuk</surname>
+							<given-names>NA.</given-names>
+						</name>
+					</person-group>
+					<article-title>Role of the hippocampus in temporal and spatial navigation: An adaptive neural network.</article-title>
+					<source>Behav Brain Res</source>
+					<year>1990</year>
+					<volume>39</volume>
+					<fpage>205</fpage>
+					<lpage>229</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0166-4328(90)90028-d">https://doi.org/10.1016/0166-4328(90)90028-d</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24.</label>
+				<mixed-citation>24. Gulli RA, Duong LR, Corrigan BW, Doucet G, Williams S, Fusi S, <italic>et al</italic>. Context-dependent representations of objects and space in the primate hippocampus during virtual navigation. Nat Neurosci. 2020;23:103-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41593-019-0548-3">https://doi.org/10.1038/s41593-019-0548-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gulli</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Duong</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Corrigan</surname>
+							<given-names>BW</given-names>
+						</name>
+						<name>
+							<surname>Doucet</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fusi</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Context-dependent representations of objects and space in the primate hippocampus during virtual navigation</article-title>
+					<source>Nat Neurosci</source>
+					<year>2020</year>
+					<volume>23</volume>
+					<fpage>103</fpage>
+					<lpage>112</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41593-019-0548-3">https://doi.org/10.1038/s41593-019-0548-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25.</label>
+				<mixed-citation>25. Bird CM. The role of the hippocampus in recognition memory. Cortex. 2017;93:155-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cortex.2017.05.016">https://doi.org/10.1016/j.cortex.2017.05.016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bird</surname>
+							<given-names>CM.</given-names>
+						</name>
+					</person-group>
+					<article-title>The role of the hippocampus in recognition memory</article-title>
+					<source>Cortex</source>
+					<year>2017</year>
+					<volume>93</volume>
+					<fpage>155</fpage>
+					<lpage>165</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cortex.2017.05.016">https://doi.org/10.1016/j.cortex.2017.05.016</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26.</label>
+				<mixed-citation>26. Hartmann MJ, Johnson NJ, Towal RB, Assad C. Mechanical characteristics of rat vibrissae: Resonant frequencies and damping in isolated whiskers and in the awake behaving animal. J Neurosci. 2003;2:6510-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEUROSCI.23-16-06510.2003">https://doi.org/10.1523/JNEUROSCI.23-16-06510.2003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hartmann</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Towal</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Assad</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Mechanical characteristics of rat vibrissae: Resonant frequencies and damping in isolated whiskers and in the awake behaving animal</article-title>
+					<source>J Neurosci</source>
+					<year>2003</year>
+					<volume>2</volume>
+					<fpage>6510</fpage>
+					<lpage>6519</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEUROSCI.23-16-06510.2003">https://doi.org/10.1523/JNEUROSCI.23-16-06510.2003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27.</label>
+				<mixed-citation>27. Bellistri E, Aguilar J, Brotons-Mas JR, Foffani G, Prida LM de la. Basic properties of somatosensory-evoked responses in the dorsal hippocampus of the rat. J Physiol. 2013;591:2667-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1113/jphysiol.2013.251892">https://doi.org/10.1113/jphysiol.2013.251892</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bellistri</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Aguilar</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Brotons-Mas</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Foffani</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Prida</surname>
+							<given-names>LM de la</given-names>
+						</name>
+					</person-group>
+					<article-title>Basic properties of somatosensory-evoked responses in the dorsal hippocampus of the rat</article-title>
+					<source>J Physiol</source>
+					<year>2013</year>
+					<volume>591</volume>
+					<fpage>2667</fpage>
+					<lpage>2686</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1113/jphysiol.2013.251892">https://doi.org/10.1113/jphysiol.2013.251892</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28.</label>
+				<mixed-citation>28. Ren W-J, Liu Y, Zhou L-J, Li W, Zhong Y, Pang R-P, <italic>et al</italic>. Peripheral nerve injury leads to working memory deficits and dysfunction of the hippocampus by upregulation of TNF-a in rodents. Neuropsychopharmacology. 2011;36:979-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/npp.2010.236">https://doi.org/10.1038/npp.2010.236</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ren</surname>
+							<given-names>W-J</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>L-J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zhong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Pang</surname>
+							<given-names>R-P</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Peripheral nerve injury leads to working memory deficits and dysfunction of the hippocampus by upregulation of TNF-a in rodents</article-title>
+					<source>Neuropsychopharmacology</source>
+					<year>2011</year>
+					<volume>36</volume>
+					<fpage>979</fpage>
+					<lpage>992</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/npp.2010.236">https://doi.org/10.1038/npp.2010.236</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29.</label>
+				<mixed-citation>29. Fasick V, Spengler RN, Samankan S, Nader ND, Ignatowski TA. The hippocampus and TNF: Common links between chronic pain and depression. Neurosci Biobehav Rev. 2015;53:139-59. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2015.03.014">https://doi.org/10.1016/j.neubiorev.2015.03.014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fasick</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Spengler</surname>
+							<given-names>RN</given-names>
+						</name>
+						<name>
+							<surname>Samankan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nader</surname>
+							<given-names>ND</given-names>
+						</name>
+						<name>
+							<surname>Ignatowski</surname>
+							<given-names>TA</given-names>
+						</name>
+					</person-group>
+					<article-title>The hippocampus and TNF: Common links between chronic pain and depression</article-title>
+					<source>Neurosci Biobehav Rev</source>
+					<year>2015</year>
+					<volume>53</volume>
+					<fpage>139</fpage>
+					<lpage>159</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2015.03.014">https://doi.org/10.1016/j.neubiorev.2015.03.014</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30.</label>
+				<mixed-citation>30. Fiore NT, Austin PJ. Peripheral nerve injury triggers neuroinflammation in the medial prefrontal cortex and ventral hippocampus in a subgroup of rats with coincident affective behavioural changes. Neuroscience. 2019;416:147-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2019.08.005">https://doi.org/10.1016/j.neuroscience.2019.08.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fiore</surname>
+							<given-names>NT</given-names>
+						</name>
+						<name>
+							<surname>Austin</surname>
+							<given-names>PJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Peripheral nerve injury triggers neuroinflammation in the medial prefrontal cortex and ventral hippocampus in a subgroup of rats with coincident affective behavioural changes</article-title>
+					<source>Neuroscience</source>
+					<year>2019</year>
+					<volume>416</volume>
+					<fpage>147</fpage>
+					<lpage>167</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neuroscience.2019.08.005">https://doi.org/10.1016/j.neuroscience.2019.08.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31.</label>
+				<mixed-citation>31. Fiore NT, Austin PJ. Are the emergence of affective disturbances in neuropathic pain states contingent on supraspinal neuroinflammation? Brain Behav Immun. 2016;56:397-411. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2016.04.012">https://doi.org/10.1016/j.bbi.2016.04.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fiore</surname>
+							<given-names>NT</given-names>
+						</name>
+						<name>
+							<surname>Austin</surname>
+							<given-names>PJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Are the emergence of affective disturbances in neuropathic pain states contingent on supraspinal neuroinflammation?</article-title>
+					<source>Brain Behav Immun</source>
+					<year>2016</year>
+					<volume>56</volume>
+					<fpage>397</fpage>
+					<lpage>411</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2016.04.012">https://doi.org/10.1016/j.bbi.2016.04.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32.</label>
+				<mixed-citation>32. Liu Y, Zhou L-J, Wang J, Li D, Ren W-J, Peng J, <italic>et al</italic>. TNF-α differentially regulates synaptic plasticity in the hippocampus and spinal cord by microglía-dependent mechanisms after peripheral nerve injury. J Neurosci. 2017;37:871-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEUROSCI.2235-16.2016">https://doi.org/10.1523/JNEUROSCI.2235-16.2016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>L-J</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ren</surname>
+							<given-names>W-J</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>TNF-α differentially regulates synaptic plasticity in the hippocampus and spinal cord by microglía-dependent mechanisms after peripheral nerve injury</article-title>
+					<source>J Neurosci</source>
+					<year>2017</year>
+					<volume>37</volume>
+					<fpage>871</fpage>
+					<lpage>881</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1523/JNEUROSCI.2235-16.2016">https://doi.org/10.1523/JNEUROSCI.2235-16.2016</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33.</label>
+				<mixed-citation>33. McKenna JT, Vertes RP. Afferent projections to nucleus reuniens of the thalamus. J Comp Neurol. 2004;480:115-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cne.20342">https://doi.org/10.1002/cne.20342</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McKenna</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Vertes</surname>
+							<given-names>RP</given-names>
+						</name>
+					</person-group>
+					<article-title>Afferent projections to nucleus reuniens of the thalamus.</article-title>
+					<source>J Comp Neurol</source>
+					<year>2004</year>
+					<volume>480</volume>
+					<fpage>115</fpage>
+					<lpage>142</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cne.20342">https://doi.org/10.1002/cne.20342</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34.</label>
+				<mixed-citation>34. Vertes RP, Hoover WB, Valle ACD, Sherman A, Rodríguez JJ. Efferent projections of reuniens and rhomboid nuclei of the thalamus in the rat. J Comp Neurol. 2006;499:768-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cne.21135">https://doi.org/10.1002/cne.21135</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vertes</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Hoover</surname>
+							<given-names>WB</given-names>
+						</name>
+						<name>
+							<surname>Valle</surname>
+							<given-names>ACD</given-names>
+						</name>
+						<name>
+							<surname>Sherman</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Efferent projections of reuniens and rhomboid nuclei of the thalamus in the rat</article-title>
+					<source>J Comp Neurol</source>
+					<year>2006</year>
+					<volume>499</volume>
+					<fpage>768</fpage>
+					<lpage>796</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/cne.21135">https://doi.org/10.1002/cne.21135</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35.</label>
+				<mixed-citation>35. Wang Y-L, Han Q-Q, Gong W-Q, Pan D-H, Wang L-Z, Hu W, <italic>et al</italic>. Microglíal activation mediates chronic mild stress-induced depressive- and anxiety-like behavior in adult rats. J Neuroinflammation. 2018;15:21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12974-018-1054-3">https://doi.org/10.1186/s12974-018-1054-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y-L</given-names>
+						</name>
+						<name>
+							<surname>Han</surname>
+							<given-names>Q-Q</given-names>
+						</name>
+						<name>
+							<surname>Gong</surname>
+							<given-names>W-Q</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>D-H</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>L-Z</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Microglíal activation mediates chronic mild stress-induced depressive- and anxiety-like behavior in adult rats</article-title>
+					<source>J Neuroinflammation</source>
+					<year>2018</year>
+					<volume>15</volume>
+					<issue>21</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12974-018-1054-3">https://doi.org/10.1186/s12974-018-1054-3</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Cerón J, Troncoso J. Activación de la microglía en el hipocampo asociada con lesión del nervio facial. Biomédica. 2022; 42:196-206. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.6216">https://doi.org/10.7705/biomedica.6216</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="supported-by" id="fn3">
+				<p>Este trabajo ha sido financiado por la Fundación para la promoción de la Investigación y la Tecnología - FITP (proyectos N° 3380 y N°4374) del Banco de la República de Colombia</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,50 @@
+#ITI#The Poor Fit of Model Fit for Selecting Number of Factors in Exploratory Factor Analysis for Scale Evaluation#FTI#
+#IRE# Model fit indices are being increasingly recommended and used to select the number of factors in an exploratory factor analysis. Growing evidence suggests that the recommended cutoff values for common model fit indices are not appropriate for use in an exploratory factor analysis context. A particularly prominent problem in scale evaluation is the ubiquity of correlated residuals and imperfect model specification. Our research focuses on a scale evaluation context and the performance of four standard model fit indices: root mean square error of approximate (RMSEA), standardized root mean square residual (SRMR), comparative fit index (CFI), and Tucker–Lewis index (TLI), and two equivalence test-based model fit indices: RMSEAt and CFIt. We use Monte Carlo simulation to generate and analyze data based on a substantive example using the positive and negative affective schedule (N = 1,000). We systematically vary the number and magnitude of correlated residuals as well as nonspecific misspecification, to evaluate the impact on model fit indices in fitting a two-factor exploratory factor analysis. Our results show that all fit indices, except SRMR, are overly sensitive to correlated residuals and nonspecific error, resulting in solutions that are overfactored. SRMR performed well, consistently selecting the correct number of factors; however, previous research suggests it does not perform well with categorical data. In general, we do not recommend using model fit indices to select number of factors in a scale evaluation framework.#FRE#
+#IPC# exploratory factor analysis; factor analysis; fit indices; latent variable modeling; model fit; Monte Carlo simulation#FPC#
+#IRF# Bentler P.M., Comparative fit indexes in structural models, Psychological Bulletin, 107, 2, pp. 238-246, (1990); 
+Browne M.W., Cudeck R., Alternative ways of assessing model fit, Sociological Methods & Research, 21, 2, pp. 230-258, (1992); 
+Cattell R.B., The scree test for the number of factors, Multivariate Behavioral Research, 1, 2, pp. 245-276, (1966); 
+Cattell R.B., The scientific use of factor analysis in behavioral and life sciences, (1978); 
+Cattell R.B., Vogelmann S., A comprehensive trial of the scree and KG criteria for determining the number of factors, Multivariate Behavioral Research, 12, 3, pp. 289-325, (1977); 
+Chen F., Curran P.J., Bollen K.A., Kirby J., Paxton P., An empirical evaluation of the use of fixed cutoff points in RMSEA test statistic in structural equation models, Sociological Methods & Research, 36, 4, pp. 462-494, (2008); 
+Clark D.A., Bowles R.P., Model fit and item factor analysis: Overfactoring, underfactoring, and a program to guide interpretation, Multivariate Behavioral Research, 53, 4, pp. 544-558, (2018); 
+Cudeck R., Browne M.W., Constructing a covariance matrix that yields a specified minimizer and a specified minimum discrepancy function value, Psychometrika, 57, 3, pp. 357-369, (1992); 
+Dinno A., Exploring the sensitivity of Horn’s parallel analysis to the distributional form of random data, Multivariate Behavioral Research, 44, 3, pp. 362-388, (2009); 
+Fabrigar L.R., Wegener D.T., MacCallum R.C., Strahan E.J., Evaluating the use of exploratory factor analysis in psychological research, Psychological Methods, 4, 3, pp. 272-299, (1999); 
+Fan X., Sivo S.A., Sensitivity of fit indices to model misspecification and model types, Multivariate Behavioral Research, 42, 3, pp. 509-529, (2007); 
+Fava J.L., Velicer W.F., The effects of overextraction on factor and component analysis, Multivariate Behavioral Research, 27, 3, pp. 387-415, (1992); 
+Finch W.H., French B.F., A simulation investigation of the performance of invariance assessment using equivalence testing procedures, Structural Equation Modeling: A Multidisciplinary Journal, 25, 5, pp. 673-686, (2018); 
+Garrido L.E., Abad F.J., Ponsoda V., Are fit indices really fit to estimate the number of factors with categorical variables? Some cautionary findings via Monte Carlo simulation, Psychological Methods, 21, 1, pp. 93-111, (2016); 
+Glorfield L.W., An improvement on Horn’s parallel analysis methodology for selecting the correct number of factors to retain, Educational and Psychological Measurement, 55, 3, pp. 377-393, (1995); 
+Gorsuch R.L., Factor analysis, (1983); 
+Hakstian A.R., Rogers W.T., Cattell R.B., The behavior of number-of-factors rules with simulated data, Multivariate Behavioral Research, 17, 2, pp. 193-219, (1982); 
+Hallquist M.N., Wiley J.F., MplusAutomation: An R package for facilitating large-scale latent variable analyses in Mplus, Structural Equation Modeling, 25, 4, pp. 621-638, (2018); 
+Heene M., Hilbert S., Draxler C., Ziegler M., Buhner M., Masking misfit in confirmatory factor analysis by increasing unique variances: A cautionary note on the usefulness of cutoff values of fit indices, Psychological Methods, 16, 3, pp. 319-336, (2011); 
+Horn J.L., A rationale and test for the number of factors in factor analysis, Psychometrika, 30, 2, pp. 179-185, (1965); 
+Hu L.-T., Bentler P.M., Fit indices in covariance structure modeling: Sensitivity to underparameterized model misspecification, Psychological Methods, 3, 4, pp. 424-453, (1998); 
+Kaiser H.F., The application of electronic computers to factor analysis, Educational and Psychological Measurement, 20, 1, pp. 141-151, (1960); 
+Kenny D.A., McCoach D.B., Effect of the number of variables on measures of fit in structural equation modeling, Structural Equation Modeling: A Multidisciplinary Journal, 10, 3, pp. 333-351, (2003); 
+Lombardi L., Pastore M., Sensitivity of fit indices to fake perturbation of ordinal data: A sample by replacement approach, Multivariate Behavioral Research, 47, 4, pp. 519-546, (2012); 
+Marcoulides K.M., Yuan K.-H., New ways to evaluate goodness of fit: A note on using equivalence testing to assess structural equation models, Structural Equation Modeling: A Multidisciplinary Journal, 24, 1, pp. 148-153, (2017); 
+Marsh H.W., Hau K.-T., Wen Z., Structural Equation Modeling: A Multidisciplinary Journal, 11, 3, pp. 320-341, (2004); 
+McNeish D., An J., Hancock G.R., The thorny relation between measurement quality and fit index cut-offs in latent variable models, Journal of Personality Assessment, 100, 1, pp. 43-52, (2018); 
+Nye C.D., Drasgow F., Assessing goodness of fit: Simple rules of thumb simply do not work, Organizational Research Methods, 14, 3, pp. 548-570, (2011); 
+Ortuno-Sierra J., Santaren-Rosell M., Perez D., Albeniz A., Fonseca-Pedrero E., Dimensional structure of the Spanish version of the Positive and Negative Affect Schedule (PANAS) in adolescents and young adults, Psychological Assessment, 27, 3, pp. e1-e9, (2015); 
+Ozer D.J., Reise S.P., Personality assessment, Annual Review of Psychology, 45, pp. 357-388, (1994); 
+Preacher K.J., MacCallum R.C., Repairing Tom Swift’s electric factor analysis machine, Understanding Statistics, 2, 1, pp. 13-43, (2003); 
+Preacher K.J., Zhang G., Kim C., Mels G., Choosing the optimal number of factors in exploratory factor analysis: A model selection perspective, Multivariate Behavioral Research, 48, 1, pp. 28-56, (2013); 
+Rodgers J.L., The epistemology of mathematical and statistical modeling: A quiet methodological revolution, American Psychologist, 65, 1, pp. 1-12, (2010); 
+Sellbom M., Tellegen A., Factor analysis in psychological assessment research: Common pitfalls and recommendations, Psychological Assessment, 31, 12, pp. 1428-1441, (2019); 
+Sharma S., Mukherjee S., Kumar A., Dillon W.R., A simulation study to investigate the use of cutoff values for assessing model fit in covariance structure models, Journal of Business Research, 58, 7, pp. 935-943, (2004); 
+Shi D., Song H., DiStefano D., Maydeu-Olivares A., McDaniel H.L., Jiang Z., Evaluating factorial invariance: An interval estimation approach using Bayesian structural equation modeling, Multivariate Behavior Research, 54, 2, pp. 224-245, (2019); 
+Stanley L.M., Edwards M.C., Reliability and model fit, Educational and Psychological Measurement, 76, 6, pp. 976-985, (2016); 
+Steiger J.H., Lind J.C., Statistically-based tests for the number of common factors, (1980); 
+Sun Y., Constructing a misspecified item response model that yields a specified estimate and a specified model misfit value, (2015); 
+Tucker L.R., Koopman R.F., Linn R.L., Evaluation of factor analytic research procedures by means of simulated correlation matrices, Psychometrika, 34, 4, (1969); 
+Tucker L.R., Lewis C., A reliability coefficient for maximum likelihood factor analysis, Psychometrika, 38, 1, pp. 1-10, (1973); 
+West S.G., Taylor A.B., Wu W., Model fit and model selection in structural equation modeling, Handbook of structural equation modeling, pp. 209-231, (2014); 
+Wood J.M., Tataryn D.J., Gorsuch R.L., Effects of under- and overextraction on principal axis factor analysis with varimax rotation, Psychological Methods, 1, 4, pp. 354-365, (1996); 
+Yang Y., Xia Y., On the number of factors to retain in exploratory factor analysis for ordered categorical data, Behavioral Research Methods, 47, 3, pp. 756-772, (2015); 
+Yuan K.-H., Chan W., Measurement invariance via multigroup SEM: Issues and solutions with Chi-square-difference tests, Psychological Methods, 21, 3, pp. 405-426, (2016); 
+Yuan K.-H., Chan W., Marcoulides G.A., Bentler P.M., Assessing structural equation models by equivalence testing with adjusted fit indexes, Structural Equation Modeling: A Multidisciplinary Journal, 23, 3, pp. 319-330, (2016); 
+Zevon M.A., Tellegen A., The structure of mood change: An idiographic/nomothetic analysis, Journal of Personality and Social Psychology, 43, 1, pp. 111-122, (1982)#FRF#

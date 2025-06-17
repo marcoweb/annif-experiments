@@ -1,0 +1,21 @@
+#ITI#Graphical tools for visualizing the results of network meta-analysis of multicomponent interventions#FTI#
+#IRE# Network meta-analysis (NMA) is an established method for assessing the comparative efficacy and safety of competing interventions. It is often the case that we deal with interventions that consist of multiple, possibly interacting, components. Examples of interventions' components include characteristics of the intervention, mode (face-to-face, remotely etc.), location (hospital, home etc.), provider (physician, nurse etc.), time of communication (synchronous, asynchronous etc.) and other context related components. Networks of multicomponent interventions are typically sparse and classical NMA inference is not straightforward and prone to confounding. Ideally, we would like to disentangle the effect of each component to find out what works (or does not work). To this aim, we propose novel ways of visualizing the NMA results, describe their use, and illustrate their application in real-life examples. We developed an R package viscomp to produce all the suggested figures#FRE#
+#IPC# multicomponent; network meta-analysis; sparse network; transitivity; visualization#FPC#
+#IRF# Hartmann-Boyce J., Livingstone-Banks J., Ordonez-Mena J.M., Et al., Behavioural interventions for smoking cessation: an overview and network meta-analysis, Cochrane Database Syst Rev, 1, (2021); 
+Pillay J., Armstrong M.J., Butalia S., Et al., Behavioral programs for type 2 diabetes mellitus, Ann Intern Med, 163, 11, pp. 848-860, (2015); 
+Pompoli A., Furukawa T.A., Efthimiou O., Imai H., Tajika A., Salanti G., Dismantling cognitive-behaviour therapy for panic disorder: a systematic review and component network meta-analysis, Psychol Med, 48, 12, pp. 1945-1953, (2018); 
+Ballester M., Orrego C., Heijmans M., Et al., Comparing the effectiveness and cost-effectiveness of self-management interventions in four high-priority chronic conditions in Europe (COMPAR-EU): a research protocol, BMJ Open, 10, 1, (2020); 
+James A., Yavchitz A., Ravaud P., Boutron I., Node-making process in network meta-analysis of nonpharmacological treatment are poorly reported, J Clin Epidemiol, 97, pp. 95-102, (2018); 
+Dautzenberg L., Bretagne L., Koek H.L., Et al., Medication review interventions to reduce hospital readmissions in older people, J Am Geriatr Soc, 69, 6, pp. 1646-1658, (2021); 
+Veroniki A.A., Tsokani S., White I.R., Et al., Prevalence of evidence of inconsistency and its association with network structural characteristics in 201 published networks of interventions, BMC Med Res Methodol, 21, 1, (2021); 
+Kossmeier M., Tran U.S., Voracek M., Charting the landscape of graphical displays for meta-analysis and systematic reviews: a comprehensive review, taxonomy, and feature analysis, BMC Med Res Methodol, 20, 1, (2020); 
+Seitidis G., Tsokani S., Christogiannis C., Et al., viscomp: visualize multi-component interventions in network meta-analysis, (2022); 
+Rucker G., Krahn U., Konig J., Et al., Netmeta: network meta-analysis using frequentist methods, (2022); 
+Welton N.J., Caldwell D.M., Adamopoulos E., Vedhara K., Mixed treatment comparison meta-analysis of complex interventions: psychological interventions in coronary heart disease, Am J Epidemiol, 169, 9, pp. 1158-1165, (2009); 
+Rucker G., Petropoulou M., Schwarzer G., Network meta-analysis of multicomponent interventions, Biom J, 62, 3, pp. 808-821, (2020); 
+Tsokani S., Seitidis G., Mavridis D., Component network meta-analysis in a nutshell, BMJ Evid-Based Med, (2022); 
+Efthimiou O., Seo M., Karyotaki E., Et al., Bayesian models for aggregate and individual patient data component network meta-analysis, Stat Med, 41, 14, pp. 2586-2601, (2022); 
+R: A Language and Environment for Statistical Computing, (2022); 
+Carlsen L., Bruggemann R., Partial order methodology: a valuable tool in chemometrics, J Chemom, 28, 4, pp. 226-234, (2014); 
+Rucker G., Schwarzer G., Resolve conflicting rankings of outcomes in network meta-analysis: partial ordering of treatments, Res Synth Methods, 8, 4, pp. 526-536, (2017); 
+Veroniki A.A., Straus S.E., Fyraridis A., Tricco A.C., The rank-heat plot is a novel way to present the results from a network meta-analysis including multiple outcomes, J Clin Epidemiol, 76, pp. 193-199, (2016)#FRF#

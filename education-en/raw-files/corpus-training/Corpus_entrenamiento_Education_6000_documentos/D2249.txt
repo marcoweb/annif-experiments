@@ -1,0 +1,47 @@
+#ITI#Growth Mixture Modeling With Nonnormal Distributions: Implications for Data Transformation#FTI#
+#IRE# This study investigated the extent to which class-specific parameter estimates are biased by the within-class normality assumption in nonnormal growth mixture modeling (GMM). Monte Carlo simulations for nonnormal GMM were conducted to analyze and compare two strategies for obtaining unbiased parameter estimates: relaxing the within-class normality assumption and using data transformation on repeated measures. Based on unconditional GMM with two latent trajectories, data were generated under different sample sizes (300, 800, and 1500), skewness (0.7, 1.2, and 1.6) and kurtosis (2 and 4) of outcomes, numbers of time points (4 and 8), and class proportions (0.5:0.5 and 0.25:0.75). Of the four distributions, it was found that skew-t GMM had the highest accuracy in terms of parameter estimation. In GMM based on data transformations, the adjusted logarithmic method was more effective in obtaining unbiased parameter estimates than the use of van der Waerden quantile normal scores. Even though adjusted logarithmic transformation in nonnormal GMM reduced computation time, skew-t GMM produced much more accurate estimation and was more robust over a range of simulation conditions. This study is significant in that it considers different levels of kurtosis and class proportions, which has not been investigated in depth in previous studies. The present study is also meaningful in that investigated the applicability of data transformation to nonnormal GMM.#FRE#
+#IPC# data transformation; Monte Carlo simulation study; nonnormal growth mixture modeling; skew-t distribution; unbiased parameter estimate#FPC#
+#IRF# Agresti A., Finlay B., Statistical methods for the social sciences, (2009); 
+Akaike H., A new look at the statistical model identification, IEEE Transactions Automatic Control, 19, 6, pp. 716-723, (1974); 
+Asparouhov T., Muthen B.O., Structural equation models and mixture models with continuous nonnormal skewed distributions, Structural Equation Modeling: A Multidisciplinary Journal, 23, 1, pp. 1-19, (2016); 
+Azzalini A., Valle A.D., The multivariate skew-normal distribution, Biometrika, 83, pp. 715-726, (1996); 
+Bandalos D.L., The use of Monte Carlo studies in structural equation modeling research, Structural equation modeling: A second course, pp. 385-462, (2006); 
+Bauer D.J., Observations on the use of growth mixture models in psychological research, Multivariate Behavioral Research, 42, 4, pp. 757-786, (2007); 
+Bauer D.J., Curran P.J., Distributional assumptions of growth mixture models: Implications for overextraction of latent trajectory classes, Psychological Methods, 8, 3, pp. 338-363, (2003); 
+Bauer D.J., Curran P.J., The integration of continuous and discrete latent variable models: Potential problems and promising opportunities, Psychological Methods, 9, 1, pp. 3-29, (2004); 
+Boers K., Reinecke J., Seddig D., Mariotti L., Explaining the development of adolescent violent delinquency, European Journal of Criminology, 7, 6, pp. 499-520, (2010); 
+Brandt H., Klein A.G., A heterogeneous growth curve model for nonnormal data, Multivariate Behavioral Research, 50, 4, pp. 416-435, (2015); 
+D'Amico E.J., Tucker J.S., Miles J.N., Ewing B.A., Shih R.A., Pedersen E.R., Alcohol and marijuana use trajectories in a diverse longitudinal sample of adolescents: Examining use patterns from age 11 to 17 years, Addiction, 111, 10, pp. 1825-1835, (2016); 
+Depaoli S., Winter S.D., Lai K., Guerra-Pena K., Implementing continuous non-normal skewed distributions in latent growth mixture modeling: An assessment of specification errors and class enumeration, Multivariate Behavioral Research, 54, 6, pp. 795-821, (2019); 
+Fan X., Felsovalyi A., Sivo S.A., Keenan S.C., SAS for Monte Carlo studies: A guide for quantitative researchers, (2002); 
+Feldman B.J., Masyn K.E., Conger R.D., New approaches to studying problem behaviors: A comparision of methods for modeling longitudinal, categorical adolescent drinking data, Developmental Psychology, 45, 3, pp. 652-676, (2009); 
+Feng C., Wang H., Lu N., Tu X.M., Log transformation: Application and interpretation in biomedical research, Statistics in Medicine, 32, 2, pp. 230-239, (2013); 
+Finch J.F., West S.G., MacKinnon D.P., Effects of sample size and nonnormality on the estimation of mediated effects in latent variable models, Structural Equation Modeling, 4, 2, pp. 87-107, (1997); 
+Fleishman A., A method for simulating non-normal distributions, Psychometrika, 43, 4, pp. 521-532, (1978); 
+Flora D.B., Curran P.J., An empirical evaluation of alternative methods of estimation for confirmatory factor analysis with ordinal data, Psychological Methods, 9, 4, pp. 466-491, (2004); 
+Fruhwirth-Schnatter S., Pyne S., Bayesian inference for finite mixtures of univariate and multivariate skew-normal and skew-t distributions, Biostatistics, 11, 2, pp. 317-336, (2010); 
+Guerra-Pena K., Steinley D., Extracting spurious latent classes in growth mixture modeling with nonnormal errors, Educational and Psychological Measurement, 76, 6, pp. 933-953, (2016); 
+Jung T., Wickrama K.A.S., An introduction to latent class growth analysis and growth mixture modeling, Social and Personality Psychology Compass, 2, 1, pp. 302-317, (2008); 
+Kaplan D., The impact of specification error on the estimation, testing and improvement of structural equation models, Multivariate Behavioral Research, 23, 1, pp. 69-86, (1988); 
+Kline R.B., Data preparation and psychometrics review, Principle and practice of structural equation modeling, pp. 64-96, (2016); 
+Kupek E., Log-linear transformation of binary variables: A suitable input for SEM, Structural Equation Modeling, 12, 1, pp. 28-40, (2005); 
+Lee S., McLachlan G.J., Finite mixtures of multivariate skew t-distributions: Some recent and new results, Statistics and Computing, 24, 2, pp. 181-202, (2014); 
+Lin T.I., Lee J.C., Hsieh W.J., Robust mixture modeling using the skew-t distribution, Statistics and Computing, 17, 2, pp. 81-92, (2007); 
+Lo Y., Mendell N.R., Rubin D.B., Testing the number of components in a normal mixture, Biometrika, 88, 3, pp. 767-778, (2001); 
+Lu X., Huang Y., Bayesian analysis of nonlinear mixed-effects mixture models for longitudinal data with heterogeneity and skewness, Statistics in Medicine, 33, 16, pp. 2701-2880, (2014); 
+McLachlan G.J., Peel D., Finite mixture models, (2000); 
+Morgan G.B., Hodge K.J., Baggett A.R., Latent profile analysis with nonnormal mixtures: A Monte Carlo examination of model selection using fit indices, Computational Statistics & Data Analytics, 93, pp. 146-161, (2016); 
+Muthen B.O., Latent variable analysis: Growth mixture modeling and related techniques for longitudinal data, Handbook of quantitative methodology for the social sciences, pp. 345-368, (2004); 
+Muthen B.O., Asparouhov T., Growth mixture modeling with non-normal distributions, Statistics in Medicine, 34, 6, pp. 1041-1058, (2015); 
+Muthen B.O., Muthen L.K., Mplus user’s guide, (1998); 
+Muthen B.O., Muthen L.K., Integrating person-centered and variable-centered analyses: Growth mixture modeling with latent trajectory classes, Alcoholism: Clinical and Experimental Research, 24, 6, pp. 882-891, (2000); 
+National educational longitudinal study of 1998, (1998); 
+Schwartz G., Estimating dimensions of a model, Annals of Statistics, 6, 2, pp. 461-464, (1978); 
+Sclove S.L., Application of model-selection criteria to some problems analysis, Psychometrika, 52, 3, pp. 333-343, (1987); 
+Svolba G., Data mart coding and content, Data preparation for analytics: Using SAS, pp. 105-160, (2006); 
+Son S., Lee H., Jang Y., Yang J., Hong S., A comparison of different nonnormal distributions in growth mixture models, Educational and Psychological Measurement, 79, 3, pp. 577-597, (2019); 
+Stanley L., Kellermanns F.W., Zellweger T.M., Latent profile analysis: Understanding family firm profiles, Family Business Review, 30, 1, pp. 84-102, (2017); 
+Vale C., Maurelli V., Simulating multivariate nonnormal distributions, Psychometrika, 48, 3, pp. 465-471, (1983); 
+van der Waerden B.L., Order tests for the two-sample problem and their power, Indagationes Mathematicae, 14, pp. 453-458, (1952); 
+Wickrama K.A.S., Lee T.K., O'Neal C.W., Lorenz F.O., An introduction to growth mixture models (GMMs), Higher-order growth curves mixture modeling with Mplus: A practical guide, pp. 209-226, (2016); 
+Yuan K.H., Chan W., Bentler P.M., Robust transformation with applications to structural equation modelling, British Journal of Mathematical and Statistical Psychology, 53, 1, pp. 31-50, (2000)#FRF#

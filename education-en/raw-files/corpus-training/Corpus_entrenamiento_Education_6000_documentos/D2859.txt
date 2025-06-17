@@ -1,0 +1,17 @@
+#ITI#Inconsistent results for Peto odds ratios in multi-arm studies, network meta-analysis and indirect comparisons#FTI#
+#IRE# The Peto odds ratio is a well-known effect measure in meta-analysis of binary outcomes. For pairwise comparisons, the Peto odds ratio estimator can be severely biased in the situation of unbalanced sample sizes in the two treatment groups or large treatment effects. In this publication, we evaluate Peto odds ratio estimators in the setting of multi-arm studies and in network meta-analysis using illustrative examples. We observe that Peto odds ratio estimators in a multi-arm study are inconsistent if the observed event probabilities are different or the sample sizes of treatment groups are unbalanced. The same problem emerges in network meta-analysis including only two-arm studies and translates to indirect comparisons of pairwise meta-analyses. We conclude that the Peto odds ratio should not be used as effect measure in network meta-analysis or indirect comparisons of pairwise meta-analyses#FRE#
+#IPC# binary outcome; inconsistency; indirect comparison; multi-arm study; network meta-analysis; Peto odds ratio#FPC#
+#IRF# Yusuf S., Peto R., Lewis J., Collins R., Sleight P., Beta blockade during and after myocardial infarction: an overview of the randomized trials, Prog Cardiovasc Dis, 27, pp. 335-371, (1985); 
+Borenstein M., Hedges L.V., Higgins J.P., Rothstein H.R., A basic introduction to fixed-effect and random-effects models for meta-analysis, Res Synth Methods, 1, pp. 97-111, (2010); 
+Greenland S., Salvan A., Bias in the one-step method for pooling study results, Stat Med, 9, pp. 247-252, (1990); 
+Bradburn M.J., Deeks J.J., Berlin J.A., Localio A.R., Much ado about nothing: a comparison of the performance of meta-analytical methods with rare events, Stat Med, 26, pp. 53-77, (2007); 
+Brockhaus A.C., Bender R., Skipka G., The Peto odds ratio viewed as a new effect measure, Stat Med, 33, pp. 4861-4874, (2014); 
+Brockhaus A.C., Grouven U., Bender R., Performance of the Peto odds ratio compared to the usual odds ratio estimator in the case of rare events, Biom J, 58, pp. 1428-1444, (2016); 
+Sharma T., Gotzsche P.C., Kuss O., The Yusuf-Peto method was not a robust method for meta-analyses of rare events data from antidepressant trials, J Clin Epidemiol, 91, pp. 129-136, (2017); 
+Higgins J.P.T., Thomas J., Chandler J., Et al., Cochrane Handbook for Systematic Reviews of Interventions, (2019); 
+Agresti A., Categorical Data Analysis, (2002); 
+Higgins J.P.T., Whitehead A., Borrowing strength from external trials in a meta-analysis, Stat Med, 15, pp. 2733-2749, (1996); 
+Rucker G., Krahn U., Konig J., Efthimiou O., Schwarzer G., netmeta: network meta-analysis using frequentist methods. CRAN. R package version 1.3-1; 2021; 
+Rucker G., Schwarzer G., Reduce dimension or reduce weights? Comparing two approaches to multi-arm studies in network meta-analysis, Stat Med, 33, pp. 4353-4369, (2014); 
+Dias S., Sutton A.J., Ades A.E., Welton N.J., Evidence synthesis for decision making 2: a generalized linear modeling framework for pairwise and network meta-analysis of randomized controlled trials, Med Decis Making, 33, pp. 607-617, (2013); 
+Efthimiou O., Rucker G., Schwarzer G., Higgins J.P.T., Egger M., Salanti G., Network meta-analysis of rare events using the mantel-Haenszel method, Stat Med, 38, pp. 2992-3012, (2019)#FRF#

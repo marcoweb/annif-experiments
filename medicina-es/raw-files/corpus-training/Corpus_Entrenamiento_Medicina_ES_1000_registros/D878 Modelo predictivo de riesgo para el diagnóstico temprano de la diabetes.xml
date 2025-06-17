@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00001</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Modelo predictivo de riesgo para el diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Predictive model of risk for the early diagnosis of type II diabetes mellitus</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5759-1997</contrib-id>
+					<name>
+						<surname>González Hernández</surname>
+						<given-names>Maurio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Hospital Militar de Ejército Fermín Valdés Domínguez. Holguín, Cuba. </institution>
+			 <institution content-type="normalized">Hospital Militar de Ejército Fermín Valdés Domínguez</institution>
+					<institution content-type="orgname">Hospital Militar de Ejército Fermín Valdés Domínguez</institution>
+					<addr-line>
+						<named-content content-type="city">Holguín</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>maurio.gonzalez07@gmail.com</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>21</day>
+				<month>11</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">!-->
+			<pub-date pub-type="epub-ppub">	
+				<season>Nov-Dec</season>
+				<year>2022</year>
+			</pub-date>
+			<volume>26</volume>
+			<issue>6</issue>
+			<elocation-id>e4301</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>09</day>
+					<month>09</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>31</day>
+					<month>10</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> El diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2 permite al personal de salud implementar estrategias para evitar las complicaciones crónicas que pudieran derivarse. A tales efectos, en las últimas dos décadas se han desarrollado modelos predictivos que incluyen cada día más variables. </p>
+				</sec>
+				<sec>
+					<title>Objetivo:</title>
+					<p> Elaborar un modelo predictivo para el diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2 en una población holguinera. </p>
+				</sec>
+				<sec>
+					<title>Métodos:</title>
+					<p>Se realizó un estudio de cohorte que incluyó a todos los pacientes atendidos en las consultas de endocrinología del área de salud Pedro Díaz Coello y del Hospital Militar Fermín Valdés Domínguez de la provincia de Holguín, para lo cual se tomaron 2 cohortes: una de análisis y otra de validación. Para el procesamiento estadístico se efectuó el análisis univariado y el multivariado; en tanto se determinó la asociación entre variables dependientes e independientes. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> En la serie predominaron el sexo femenino, los pacientes sin antecedentes de diabetes <italic>mellitus</italic> e hipertensión arterial, así como los que presentaban hipotiroidismo, enfermedad periodontal y normopeso, entre otros; asimismo, el modelo resultó significativo estadísticamente (X<sup>2</sup>=31,1 y p=0,000) y explicó 80,9 % de la variable de salida, validada por las variables de análisis. La sensibilidad fue de 96,9 % y la especificidad de 86,6 %; mientras que el área bajo la curva tuvo un rango de 0,725 a 0,833. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> El modelo predictivo elaborado es una herramienta muy útil para el diagnóstico de pacientes con riesgo de presentar diabetes <italic>mellitus</italic> de tipo 2.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> The early diagnosis of the type II diabetes mellitus allows the health staff to implement strategies in order to avoid the chronic complications that could be derived. To such effects, in the last two decades predictive models have been developed that include more variables every day.</p>
+				</sec>
+				<sec>
+					<title>Objective:</title>
+					<p> To elaborate a predictive model for the early diagnosis of type II diabetes mellitus in a population from Holguín. </p>
+				</sec>
+				<sec>
+					<title>Methods:</title>
+					<p> A cohort study was carried out that included all the patients assisted in the endocrinology services of Pedro Díaz Coello health area and Fermín Valdés Domínguez Military Hospital in Holguín province, for which 2 cohorts were taken: one of analysis and another of validation. For the statistical processing the univaried and multivaried analysis were carried out; as long as the association between dependent and independent variables was determined. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p>In the series there was a prevalence of the female sex, patients without history of diabetes mellitus and hypertension, as well as those that presented hypothyroidism, periodontal disease and normal weight, among others; also, the pattern was statistically significant (X<sup>2</sup>=31.1 and p=0.000) and explained 80.9 % of the logout variable validated by the analysis variables. The sensibility was of 96.9 % and the specificity of 86.6 %; while the area under the curve had a range from 0.725 to 0.833.</p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The predictive model elaborated is a very useful tool for the diagnosis of patients with risk of type II diabetes mellitus. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>Diabetes <italic>mellitus</italic> de tipo 2</kwd>
+				<kwd>diagnóstico precoz</kwd>
+				<kwd>modelo predictivo</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>Type II diabetes mellitus</kwd>
+				<kwd>early diagnosis</kwd>
+				<kwd>predictive model</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="18"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2 permite al personal de salud implementar estrategias para evitar las complicaciones crónicas que trae consigo. Por esta razón, en las últimas dos décadas han sido desarrollados modelos predictivos muy útiles para realizar dicho diagnóstico.</p>
+			<p>Según el último informe de la Federación Internacional de Diabetes, existen en el mundo 463 millones de personas con esta enfermedad; en tanto, la cantidad sin diagnosticar varía en dependencia de los países. Entre los que presentan las cifras más elevadas se destacan China (65,2 millones), República de la India (43,9 millones) y Estados Unidos de Norteamérica (11,8 millones).<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>)</sup></p>
+			<p>Por otra parte, en algunos estudios donde han sido empleadas las escalas de FINDRISC<xref ref-type="bibr" rid="B2"><sup>2</sup></xref> y PROCAM<xref ref-type="bibr" rid="B3"><sup>3</sup></xref> se ofrecen herramientas para predecir el riesgo de presentar diabetes <italic>mellitus</italic> de tipo 2.</p>
+			<p>Cada día se utilizan más variables como parte de un modelo predictivo, que difieren de los principales estudios ya citados. Entre los biomarcadores que han demostrado su efectividad en la identificación de pacientes con alto riesgo de padecer diabetes <italic>mellitus</italic> de tipo 2 figuran los siguientes: índice de daño en el ADN (utilizado en la presente investigación), niveles elevados de ácido úrico y proteína C reactiva.<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>
+			</p>
+			<p>También existen variables que se tienen en cuenta en las consultas médicas de cualquier especialidad, por ejemplo:</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Afectación de la sensibilidad en miembros inferiores</p>
+					</list-item>
+					<list-item>
+						<p>Alteraciones en el fondo de ojo</p>
+					</list-item>
+					<list-item>
+						<p>Presencia de enfermedades periodontales</p>
+					</list-item>
+					<list-item>
+						<p>Antecedentes de hipotiroidismo</p>
+					</list-item>
+					<list-item>
+						<p>Aparición de microalbuminuria</p>
+					</list-item>
+					<list-item>
+						<p>Valor elevado de la creatinina</p>
+					</list-item>
+				</list>
+			</p>
+			<p>De igual modo, están las variables que forman parte del examen físico, del interrogatorio y de los exámenes complementarios que se realizan habitualmente, además de otras ya utilizadas en modelos anteriores:</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Sexo</p>
+					</list-item>
+					<list-item>
+						<p>Antecedentes familiares de diabetes <italic>mellitus</italic></p>
+					</list-item>
+					<list-item>
+						<p>Antecedentes personales de hipertensión arterial</p>
+					</list-item>
+					<list-item>
+						<p>Índice de masa corporal</p>
+					</list-item>
+					<list-item>
+						<p>Circunferencia abdominal</p>
+					</list-item>
+					<list-item>
+						<p>Valor de los triglicéridos</p>
+					</list-item>
+					<list-item>
+						<p>Valor del colesterol</p>
+					</list-item>
+					<list-item>
+						<p>Tabaquismo</p>
+					</list-item>
+					<list-item>
+						<p>Índice de triglicéridos-glucemia</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Teniendo en cuenta las consideraciones anteriores, el autor del presente estudio se propuso elaborar un modelo predictivo para el diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2 en una población holguinera mayor de 45 años, en el que empleó nuevos elementos.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio de cohorte que incluyó a todos los pacientes atendidos en las consultas de endocrinología del área de salud Pedro Díaz Coello y del Hospital Militar Fermín Valdés Domínguez de la provincia de Holguín, que cumplían con los criterios de inclusión y exclusión siguientes:</p>
+			<p>( Criterios de inclusión </p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Pacientes atendidos en las consultas de endocrinología del área de salud Pedro Díaz Coello y del Hospital Militar Fermín Valdés Domínguez de la provincia de Holguín.</p>
+					</list-item>
+					<list-item>
+						<p>Pacientes mayores de 45 años.</p>
+					</list-item>
+					<list-item>
+						<p> Disposición a participar en el estudio.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>( Criterios de exclusión </p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Gestantes.</p>
+					</list-item>
+					<list-item>
+						<p>Pacientes con criterios diagnósticos de prediabetes y diabetes <italic>mellitus</italic> según la Asociación Americana de Diabetes.</p>
+					</list-item>
+					<list-item>
+						<p>Pacientes que abandonaron el estudio.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Se tomaron 2 cohortes: una de análisis, conformada por 1121 pacientes, con seguimiento por 3 años (2015- 2018), y otra de validación, con 891 integrantes, para la cual se escogió un período de 6 meses (enero-junio de 2018) y se le aplicó el modelo. Según la puntuación, el riesgo se consideró bajo (0-10), moderado (11-20) y alto (21-37).</p>
+			<p>A los pacientes en las escalas de riesgo moderado y elevado se les indicaron las pruebas diagnósticas para la diabetes <italic>mellitus.</italic></p>
+			<p>En la cohorte de análisis fueron excluidos 100 pacientes durante el seguimiento, debido a muertes prematuras, abandono y cambio de dirección, fundamentalmente. </p>
+			<p>( Variables independientes o de análisis </p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Sexo</p>
+					</list-item>
+					<list-item>
+						<p>Antecedentes familiares de diabetes <italic>mellitus</italic></p>
+					</list-item>
+					<list-item>
+						<p>Antecedentes personales de hipertensión arterial </p>
+					</list-item>
+					<list-item>
+						<p>Índice de masa corporal </p>
+					</list-item>
+					<list-item>
+						<p>Circunferencia abdominal </p>
+					</list-item>
+					<list-item>
+						<p>Valor de triglicéridos</p>
+					</list-item>
+					<list-item>
+						<p>Valor del colesterol</p>
+					</list-item>
+					<list-item>
+						<p>Tabaquismo</p>
+					</list-item>
+					<list-item>
+						<p>Índice de triglicéridos-glucemia: Ln=triglicéridos (mg/dL) y glucemia (mg/dL)/2)</p>
+					</list-item>
+					<list-item>
+						<p>Afectación de la sensibilidad en miembros inferiores</p>
+					</list-item>
+					<list-item>
+						<p>Alteración en el fondo de ojo</p>
+					</list-item>
+					<list-item>
+						<p>Enfermedades periodontales</p>
+					</list-item>
+					<list-item>
+						<p>Antecedentes de hipotiroidismo </p>
+					</list-item>
+					<list-item>
+						<p>Microalbuminuria</p>
+					</list-item>
+					<list-item>
+						<p>Valor de la creatinina</p>
+					</list-item>
+				</list>
+			</p>
+			<p>( Variable dependiente o de salida: pacientes con diagnóstico de diabetes <italic>mellitus</italic> de tipo 2 </p>
+			<p>A todos los participantes se les midieron las variables antropométricas peso, talla y circunferencia abdominal. Durante el interrogatorio se obtuvieron los antecedentes personales, familiares y las variables demográficas edad y sexo.</p>
+			<p>Para evaluar el estado humoral se realizó una extracción de sangre por punción venosa (entre 5-10 mL). La muestra fue depositada en tubos plásticos estériles -previo cumplimiento de las medidas de antisepsia- y procesada en el autoanalizador automático del laboratorio clínico, para determinar los valores de glucemia, colesterol y triglicéridos. </p>
+			<p>Para el análisis estadístico se empleó el programa SPSS, versión 25.0, y fueron aplicadas las técnicas de regresión logística binaria y descriptiva. </p>
+			<p>La asociación entre las variables independientes y la dependiente se determinó mediante la prueba de la Ji al cuadrado (X<sup>2</sup>). Para precisar si el modelo era explicado por las variables en cuestión, se utilizaron las técnicas R<sup>2</sup> de Cox-Snell y R<sup>2</sup> de Nagelkerke; en tanto la bondad de ajuste se obtuvo mediante la prueba de Hosmer y Lemeshow. </p>
+			<p>Por otra parte, se estableció la relación de las variables de análisis con la variable de salida a través del <italic>odd ratio</italic> (OR), el cual fue calculado para cada una de estas, con un índice de coeficiente de 95 %. Durante el análisis se determinó la significancia de cada una y fueron eliminadas las que tenían un valor menor de 0,05. </p>
+			<p>Los valores del exponencial beta fueron tomados del modelo de regresión logística obtenido, con vistas a establecer la puntuación para el modelo predictivo. </p>
+			<p>El modelo obtenido fue analizado en una cohorte de validación externa e interna, para lo cual se utilizó la curva operativa del receptor (ROC), que permitió determinar, a partir de la sensibilidad y especificidad del área bajo la curva (AUC), la capacidad predictiva de este.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>En la cohorte de 1021 integrantes predominaron los pacientes del sexo femenino, sin antecedentes de diabetes <italic>mellitus</italic>, hipertensión arterial e hipotiroidismo, así como los que presentaban hipotiroidismo, enfermedad periodontal y normopeso, entre otros aspectos descritos en la <xref ref-type="table" rid="t1">tabla 1</xref>. Resulta importante señalar que 36,5 % de los pacientes de la cohorte de análisis y 35,6 % de la de validación padecían diabetes <italic>mellitus</italic> de tipo 2.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Caracterización de los pacientes del estudio</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-06-e4301-gt1.jpg"/>
+				</table-wrap>
+			</p>
+			<p>El modelo elaborado fue estadísticamente significativo (X<sup>2</sup>=31,1 y p=0,000) y explicó 80,9 % de la variable dependiente, que fue validada por las variables independientes; en tanto, la sensibilidad resultó ser de 96,9 % y la especificad de 86,6 %, lo cual demostró que dicho modelo presenta alta capacidad para predecir el riesgo de diabetes <italic>mellitus</italic> de tipo 2.</p>
+			<p>Las variables utilizadas (<xref ref-type="table" rid="t2">tabla 2</xref>) presentaron un <italic>odd ratio</italic> mayor que 1, lo que ayudó a identificar a los pacientes con riesgo de padecer esta enfermedad. Cabe destacar que fue eliminada la variable sexo porque no determinó la probabilidad de que se desarrollara la entidad clínica.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Modelo predictivo para la identificación de los pacientes con riesgo de diabetes <italic>mellitus</italic> de tipo 2</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-06-e4301-gt2.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><italic>p</italic> &lt; 0,05; IC=95 %; OR&gt;1</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Al analizar el área bajo la curva (<xref ref-type="table" rid="t3">tabla 3</xref>) y la curva operativa del receptor (<xref ref-type="fig" rid="f1">fig</xref>.), a partir de la sensibilidad y especificidad, se comprobó que el AUC tuvo un rango de 0,725-0,833; de ahí la capacidad de las variables para predecir el riesgo de diabetes <italic>mellitus</italic> de tipo 2, donde sobresalieron las siguientes: valor de insulinorresistencia, índice de triglicéridos-glucosa, triglicéridos y circunferencia abdominal. </p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Análisis del área bajo la curva</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-06-e4301-gt3.jpg"/>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>p &lt; 0,05</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<fig id="f1">
+					<label>Fig</label>
+					<caption>
+						<title>Análisis de la curva operativa del receptor </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-06-e4301-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>En la <xref ref-type="table" rid="t4">tabla 4</xref> se aprecia la puntuación del modelo predictivo de riesgo para cada una de las variables.</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabla 4</label>
+					<caption>
+						<title>Puntuación del modelo </title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-26-06-e4301-gt4.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Al aplicar el modelo en la cohorte de validación, 323 pacientes tuvieron una puntuación alta y 99, moderada; de manera que, al realizarles las pruebas para el diagnóstico de diabetes <italic>mellitus</italic>, 317 padecían la enfermedad. </p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>Cada vez son más las investigaciones relacionadas con el diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2. A tales efectos, se requiere de herramientas eficaces, como los modelos predictivos, que ayuden a identificar a los pacientes con riesgo de padecerla, y así darles el seguimiento correspondiente. </p>
+			<p>En el modelo elaborado se incluyeron variables nunca utilizadas en herramientas diagnósticas de este tipo (examen físico, interrogatorio y exámenes complementarios), que son importantes para la atención integral en las consultas de cualquier especialidad. </p>
+			<p>En la actual serie, al establecer la relación entre las cohortes de análisis y de validación, el número de pacientes con diagnóstico de diabetes <italic>mellitus</italic> de tipo 2 resultó mayor que lo referido por otros autores.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Asimismo, los valores de colesterol, triglicéridos, circunferencia abdominal e hígado graso determinaron, de forma significativa, el riesgo de presentar la enfermedad<italic>.</italic> Lo anterior está relacionado con las características de una población que tiende cada día más a la obesidad y a padecer ciertas complicaciones; hallazgo que concordó con lo planteado en un artículo similar sobre la frecuente asociación entre la diabetes y la obesidad.<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>
+			</p>
+			<p>La escala de FINDRISC es uno de los modelos con mejor aceptación, pues las variables que lo conforman han sido utilizadas en diferentes modelos predictivos como el de la presente investigación. Al respecto, algunos autores<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref> destacan que el AUC tuvo un rango de 0,700- 0,850, lo cual indica la alta capacidad para predecir el riesgo; mientras que en esta serie, al aplicar dicho modelo en la población de validación, tuvo un valor de 0,940, superior al de todos los artículos antes citados, por lo que resultó altamente predictivo.</p>
+			<p>En algunos estudios efectuados en otras regiones del mundo, como en los países árabes,<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref> Europa<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref> y América Latina,<xref ref-type="bibr" rid="B17"><sup>17</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>)</sup> por citar algunos, también han sido empleados modelos con otras variables y buena capacidad predictiva; sin embargo, la sensibilidad y la especificidad han sido menores a las de esta casuística.</p>
+			<p>Los resultados de la actual investigación fueron muy significativos para predecir el riesgo de padecer diabetes <italic>mellitus;</italic> sin embargo, hubo ciertas limitantes, pues solo se escogió una población de Holguín, por lo que es necesario extender el estudio a otras poblaciones de esta misma provincia y de Cuba, a fin de analizar el alcance de este modelo desde el punto de vista diagnóstico.</p>
+			<p>Finalmente, los modelos predictivos son una herramienta importante para el diagnóstico temprano de la diabetes <italic>mellitus</italic> de tipo 2, pues los resultados demuestran cuán necesario y efectivo puede ser su uso y la posibilidad que ofrecen para implementar estrategias a partir de su instrumentación. </p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>International Diabetes Federation. IDF Diabetes Atlas. 9 ed. Brussels: IDF; 2019.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>International Diabetes Federation</collab>
+					</person-group>
+					<source>IDF Diabetes Atlas</source>
+					<edition>9 ed </edition>
+					<year>2019</year>
+					<publisher-loc>Brussels</publisher-loc>
+					<publisher-name>IDF</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>Lindström J, Tuomilehto J. The diabetes risk score: a practical tool to predict type 2 diabetes risk. Diabetes Care. 2003 [citado 12/08/2022];26(3):725-31. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://diabetesjournals.org/care/article/26/3/725/29197/The-Diabetes-Risk-ScoreA-practical-tool-to-predict">https://diabetesjournals.org/care/article/26/3/725/29197/The-Diabetes-Risk-ScoreA-practical-tool-to-predict</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lindström</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Tuomilehto</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The diabetes risk score: a practical tool to predict type 2 diabetes risk</article-title>
+					<source>Diabetes Care</source>
+					<year>2003</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>26</volume>
+					<issue>3</issue>
+					<fpage>725</fpage>
+					<lpage>731</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://diabetesjournals.org/care/article/26/3/725/29197/The-Diabetes-Risk-ScoreA-practical-tool-to-predict">https://diabetesjournals.org/care/article/26/3/725/29197/The-Diabetes-Risk-ScoreA-practical-tool-to-predict</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>Von Eckardstein A, Schulte H, Assmann G. Risk for diabetes mellitus in middle-aged Caucasian male participants of the PROCAM study: implications for the definition of impaired fasting glucose by the American Diabetes Association. Prospective Cardiovascular Munster. J Clin Endocrinol Metab. 2000 [citado 12/08/2022];85(9). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/jcem/article/85/9/3101/2660492">https://academic.oup.com/jcem/article/85/9/3101/2660492</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Von Eckardstein</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Schulte</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Assmann</surname>
+							<given-names>G.</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk for diabetes mellitus in middle-aged Caucasian male participants of the PROCAM study: implications for the definition of impaired fasting glucose by the American Diabetes Association. Prospective Cardiovascular Munster</article-title>
+					<source>J Clin Endocrinol Metab</source>
+					<year>2000</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>85</volume>
+					<issue>9</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://academic.oup.com/jcem/article/85/9/3101/2660492">https://academic.oup.com/jcem/article/85/9/3101/2660492</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>Soliman N, El-Shabrawi M, Omar S. DNA fragmentation damage as a predictive marker for diabetic nephropathy in type II diabetes mellitus. J Endocrinol Metab Diabetes S Afr. 2018 [citado 12/08/2022];23(2):32-5. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://journals.co.za/doi/pdf/10.1080/16089677.2018.1434033">https://journals.co.za/doi/pdf/10.1080/16089677.2018.1434033</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soliman</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>El-Shabrawi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Omar</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>DNA fragmentation damage as a predictive marker for diabetic nephropathy in type II diabetes mellitus</article-title>
+					<source>J Endocrinol Metab Diabetes S Afr</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>23</volume>
+					<issue>2</issue>
+					<fpage>32</fpage>
+					<lpage>35</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://journals.co.za/doi/pdf/10.1080/16089677.2018.1434033">https://journals.co.za/doi/pdf/10.1080/16089677.2018.1434033</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>Abbasi A, Peelen LM, Corpeleijn E, van der Schouw YT, Stolk RP, Spijkerman AM, et al. Prediction models for risk of developing type 2 diabetes: systematic literature search and independent external validation study. BMJ. 2012 [citado 12/08/2022];345:e5900. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bmj.com/content/345/bmj.e5900">https://www.bmj.com/content/345/bmj.e5900</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abbasi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Peelen</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Corpeleijn</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>van der Schouw</surname>
+							<given-names>YT</given-names>
+						</name>
+						<name>
+							<surname>Stolk</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Spijkerman</surname>
+							<given-names>AM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Prediction models for risk of developing type 2 diabetes: systematic literature search and independent external validation study</article-title>
+					<source>BMJ</source>
+					<year>2012</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>345</volume>
+					<elocation-id>e5900</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.bmj.com/content/345/bmj.e5900">https://www.bmj.com/content/345/bmj.e5900</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>Barzilay JI, Abraham L, Heckbert SR, Cushman M, Kuller LH, Resnick HE, et al. The relation of markers of inflammation to the development of glucose disorders in the elderly: the Cardiovascular Health Study. Diabetes. 2001 [citado 12/08/2022];50(10). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://diabetesjournals.org/diabetes/article/50/10/2384/19414/The-Relation-of-Markers-of-Inflammation-to-the">https://diabetesjournals.org/diabetes/article/50/10/2384/19414/The-Relation-of-Markers-of-Inflammation-to-the</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barzilay</surname>
+							<given-names>JI</given-names>
+						</name>
+						<name>
+							<surname>Abraham</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Heckbert</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Cushman</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kuller</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Resnick</surname>
+							<given-names>HE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The relation of markers of inflammation to the development of glucose disorders in the elderly: the Cardiovascular Health Study</article-title>
+					<source>Diabetes</source>
+					<year>2001</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>50</volume>
+					<issue>10</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://diabetesjournals.org/diabetes/article/50/10/2384/19414/The-Relation-of-Markers-of-Inflammation-to-the">https://diabetesjournals.org/diabetes/article/50/10/2384/19414/The-Relation-of-Markers-of-Inflammation-to-the</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>Silvestre MP, Jiang Y, Volkova K, Chisholm H, Lee W, Poppitt SD. Evaluating FINDRISC as a screening tool for type 2 diabetes among overweight adults in the PREVIEW:NZ cohort. Prim Care Diabetes. 2017;11(6):561-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silvestre</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Jiang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Volkova</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Chisholm</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Poppitt</surname>
+							<given-names>SD</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluating FINDRISC as a screening tool for type 2 diabetes among overweight adults in the PREVIEW: NZ cohort</article-title>
+					<source>Prim Care Diabetes</source>
+					<year>2017</year>
+					<volume>11</volume>
+					<issue>6</issue>
+					<fpage>561</fpage>
+					<lpage>569</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>Lim HM, Chia YC, Koay ZL. Performance of the Finnish Diabetes Risk Score (FINDRISC) and Modified Asian FINDRISC (ModAsian FINDRISC) for screening of undiagnosed type 2 diabetes mellitus and dysglycaemia in primary care. Prim Care Diabetes. 2020 [citado 12/08/2022];14(5):494-500. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.primary-care-diabetes.com/article/S1751-9918(18)30186-4/fulltext">https://www.primary-care-diabetes.com/article/S1751-9918(18)30186-4/fulltext</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lim</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Chia</surname>
+							<given-names>YC</given-names>
+						</name>
+						<name>
+							<surname>Koay</surname>
+							<given-names>ZL</given-names>
+						</name>
+					</person-group>
+					<article-title>Performance of the Finnish Diabetes Risk Score (FINDRISC) and Modified Asian FINDRISC (ModAsian FINDRISC) for screening of undiagnosed type 2 diabetes mellitus and dysglycaemia in primary care</article-title>
+					<source>Prim Care Diabetes</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>14</volume>
+					<issue>5</issue>
+					<fpage>494</fpage>
+					<lpage>500</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.primary-care-diabetes.com/article/S1751-9918(18)30186-4/fulltext">https://www.primary-care-diabetes.com/article/S1751-9918(18)30186-4/fulltext</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>Sinn DH, Kang D, Cho SJ, Paik SW, Guallar E, Cho J, et al. Lean non-alcoholic fatty liver disease and development of diabetes: a cohort study. Eur J Endocrinol. 2019 [citado 12/08/2022];181(2):185-92. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://eje.bioscientifica.com/view/journals/eje/181/2/EJE-19-0143.xml">https://eje.bioscientifica.com/view/journals/eje/181/2/EJE-19-0143.xml</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sinn</surname>
+							<given-names>DH</given-names>
+						</name>
+						<name>
+							<surname>Kang</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Cho</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Paik</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Guallar</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Cho</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Lean non-alcoholic fatty liver disease and development of diabetes: a cohort study</article-title>
+					<source>Eur J Endocrinol</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>181</volume>
+					<issue>2</issue>
+					<fpage>185</fpage>
+					<lpage>192</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://eje.bioscientifica.com/view/journals/eje/181/2/EJE-19-0143.xml">https://eje.bioscientifica.com/view/journals/eje/181/2/EJE-19-0143.xml</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>Rokhman MR, Arifin B, Zulkarnain Z, Satibi S, Perwitasari DA, Boersma C, et al. Translation and performance of the Finnish Diabetes Risk Score for detecting undiagnosed diabetes and dysglycaemia in the Indonesian population. PLoSOne. 2022 [citado 12/08/2022];17(7):e0269853. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0269853">https://doi.org/10.1371/journal.pone.0269853</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rokhman</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Arifin</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zulkarnain</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Satibi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Perwitasari</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Boersma</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Translation and performance of the Finnish Diabetes Risk Score for detecting undiagnosed diabetes and dysglycaemia in the Indonesian population</article-title>
+					<source>PLoSOne</source>
+					<year>2022</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>17</volume>
+					<issue>7</issue>
+					<elocation-id>e0269853</elocation-id>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0269853">https://doi.org/10.1371/journal.pone.0269853</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>Abdallah M, Sharbaji S, Sharbaji M, Daher Z, Faour T, Mansour Z, et al. Diagnostic accuracy of the Finnish Diabetes Risk Score for the prediction of undiagnosed type 2 diabetes, prediabetes, and metabolic syndrome in the Lebanese University. Diabetol Metab Syndr. 2020 [citado 12/08/2022];12:84. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://dmsjournal.biomedcentral.com/articles/10.1186/s13098-020-00590-8">https://dmsjournal.biomedcentral.com/articles/10.1186/s13098-020-00590-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abdallah</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sharbaji</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Sharbaji</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Daher</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Faour</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mansour</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Diagnostic accuracy of the Finnish Diabetes Risk Score for the prediction of undiagnosed type 2 diabetes, prediabetes, and metabolic syndrome in the Lebanese University</article-title>
+					<source>Diabetol Metab Syndr</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>12</volume>
+					<size units="pages">84</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://dmsjournal.biomedcentral.com/articles/10.1186/s13098-020-00590-8">https://dmsjournal.biomedcentral.com/articles/10.1186/s13098-020-00590-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>Awad SF, Dargham SR, Toumi AA, Dumit EM, El-Nahas KG, Al-Hamaq AO, et al. A diabetes risk score for Qatar utilizing a novel mathematical modeling approach to identify individuals at high risk for diabetes. Sci Rep. 2021 [citado 12/08/2022];11(1):1811. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/s41598-021-81385-3">https://www.nature.com/articles/s41598-021-81385-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Awad</surname>
+							<given-names>SF</given-names>
+						</name>
+						<name>
+							<surname>Dargham</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Toumi</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Dumit</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>El-Nahas</surname>
+							<given-names>KG</given-names>
+						</name>
+						<name>
+							<surname>Al-Hamaq</surname>
+							<given-names>AO</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A diabetes risk score for Qatar utilizing a novel mathematical modeling approach to identify individuals at high risk for diabetes</article-title>
+					<source>Sci Rep</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>11</volume>
+					<issue>1</issue>
+					<size units="pages">1811</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/s41598-021-81385-3">https://www.nature.com/articles/s41598-021-81385-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>Sulaiman N, Mahmoud I, Hussein A, Elbadawi S, Abusnana S, Zimmet P, et al. Diabetes risk score in the United Arab Emirates: a screening tool for the early detection of type 2 diabetes mellitus. BMJ Open Diabetes Res Care. 2018 [citado 12/08/2022];6(1). Disponible en: <ext-link ext-link-type="uri" xlink:href="https://drc.bmj.com/content/6/1/e000489">https://drc.bmj.com/content/6/1/e000489</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sulaiman</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Mahmoud</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Hussein</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Elbadawi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Abusnana</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zimmet</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>al</surname>
+							<given-names>et</given-names>
+						</name>
+					</person-group>
+					<article-title>Diabetes risk score in the United Arab Emirates: a screening tool for the early detection of type 2 diabetes mellitus</article-title>
+					<source>BMJ Open Diabetes Res Care</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>6</volume>
+					<issue>1</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://drc.bmj.com/content/6/1/e000489">https://drc.bmj.com/content/6/1/e000489</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>Bahijri S, Al-Raddadi R, Ajabnoor G, Jambi H, Al Ahmadi J, Borai A, et al. Dysglycemia risk score in Saudi Arabia: A tool to identify people at high future risk of developing type 2 diabetes. J Diabetes Investig. 2020 [citado 12/08/2022];11(4):844-55. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://onlinelibrary.wiley.com/doi/10.1111/jdi.13213">https://onlinelibrary.wiley.com/doi/10.1111/jdi.13213</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bahijri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Al-Raddadi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ajabnoor</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Jambi</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Al Ahmadi</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Borai</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Dysglycemia risk score in Saudi Arabia: A tool to identify people at high future risk of developing type 2 diabetes</article-title>
+					<source>J Diabetes Investig</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>11</volume>
+					<issue>4</issue>
+					<fpage>844</fpage>
+					<lpage>855</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://onlinelibrary.wiley.com/doi/10.1111/jdi.13213">https://onlinelibrary.wiley.com/doi/10.1111/jdi.13213</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>Stiglic G, Wang F, Sheikh A, Cilar L. Development and validation of the type 2 diabetes mellitus 10-year risk score prediction models from survey data. Prim Care Diabetes. 2021;15(4):699-705. DOI: 10.1016/j.pcd.2021.04.008</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stiglic</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Sheikh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cilar</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Development and validation of the type 2 diabetes mellitus 10-year risk score prediction models from survey data</article-title>
+					<source>Prim Care Diabetes</source>
+					<year>2021</year>
+					<volume>15</volume>
+					<issue>4</issue>
+					<fpage>699</fpage>
+					<lpage>705</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.pcd.2021.04.008</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>Heltberg A, Andersen JS, Sandholdt H, Siersma V, Kragstrup J, Ellervik C. Predictors of undiagnosed prevalent type 2 diabetes - The Danish General Suburban Population Study. Prim Care Diabetes. 2018;12(1):13-22. doi: 10.1016/j.pcd.2017.08.005</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Heltberg</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Andersen</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Sandholdt</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Siersma</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Kragstrup</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ellervik</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Predictors of undiagnosed prevalent type 2 diabetes - The Danish General Suburban Population Study</article-title>
+					<source>Prim Care Diabetes</source>
+					<year>2018</year>
+					<volume>12</volume>
+					<issue>1</issue>
+					<fpage>13</fpage>
+					<lpage>22</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.pcd.2017.08.005</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>Bernabe-Ortiz A, Perel P, Miranda JJ, Smeeth L. Diagnostic accuracy of the Finnish Diabetes Risk Score (FINDRISC) for undiagnosed T2DM in Peruvian population. Prim Care Diabetes. 2018 [citado 12/08/2022];12(6):517-25. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6249987/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6249987/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bernabe-Ortiz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Perel</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Miranda</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Smeeth</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnostic accuracy of the Finnish Diabetes Risk Score (FINDRISC) for undiagnosed T2DM in Peruvian population</article-title>
+					<source>Prim Care Diabetes</source>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>12</volume>
+					<issue>6</issue>
+					<fpage>517</fpage>
+					<lpage>525</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6249987/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6249987/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>Nieto Martínez R, González Rivas JP, Ugel E, Marulanda MI, Durán M, Mechanick JI, et al. External validation of the Finnish diabetes risk score in Venezuela using a national sample: The EVESCAM. Prim Care Diabetes. 2019 [citado 12/08/2022];13(6):574-82. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S1751991818303346">https://www.sciencedirect.com/science/article/abs/pii/S1751991818303346</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nieto Martínez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>González Rivas</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Ugel</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Marulanda</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Durán</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mechanick</surname>
+							<given-names>JI</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>External validation of the Finnish diabetes risk score in Venezuela using a national sample: The EVESCAM</article-title>
+					<source>Prim Care Diabetes</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2022-08-12">12/08/2022</date-in-citation>
+					<volume>13</volume>
+					<issue>6</issue>
+					<fpage>574</fpage>
+					<lpage>582</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/abs/pii/S1751991818303346">https://www.sciencedirect.com/science/article/abs/pii/S1751991818303346</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

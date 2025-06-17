@@ -1,0 +1,39 @@
+#ITI#EvoLogic: Toward an ITS for Teaching Propositional Logic#FTI#
+#IRE# This work presents the intelligent tutoring system, EvoLogic, developed to assist students in problems of natural production in propositional logic. EvoLogic has been modeled as a multiagent system composed of three autonomous agents: interface, pedagogical and specialist agents. It supports pedagogical strategies inspired by the theory of example-based learning based on the use of an automated model tracing mechanism. This mechanism eliminates the necessity of the teacher to manually design every possible interaction between students and EvoLogic. It also includes several examples for each propositional rule. A specific study carried out with a set of 10 exercises taken from a real-world scenario is then presented to evaluate EvoLogic’s performance and compare it to that of an earlier ITS (Heráclito) developed for the same purpose. The study showed that EvoLogic was able to provide different (and correct) solutions for the exercises analyzed. By having these solutions available, the model tracing mechanism was able to follow the students’ steps, providing help that was consistent with the line of reasoning pursued by each student. A direct comparison between EvoLogic and Heráclito, which operates using one single line of reasoning for each theorem proof, showed that the model tracing mechanism of EvoLogic was more accurate in guiding students in the exercises. In addition to this positive outcome, EvoLogic’s model tracing mechanism is novel in its use of genetic algorithms to build solutions on the fly for propositional logic exercises started by the students#FRE#
+#IPC# Intelligent Tutoring System; Model Tracing; Natural Deduction in Propositional Logic#FPC#
+#IRF# Anderson J.R., The Architecture of Cognition, (1983); 
+Anderson J.R., Conrad F.G., Corbett A.T., Skill acquisition and the LISP tutor, Cognitive Science, 13, 4, pp. 467-505, (1989); 
+Anderson J.R., Rules of the Mind, (1993); 
+Anderson J.R., Corbett A.T., Koedinger K.R., Pelletier R., Cognitive tutor: Lesson learned, The Journal of the Learning Sciences, 4, 2, pp. 167-207, (1995); 
+Aleven V., McLaren B.M., Sewall J., Koedinger K.R., A new paradigm for intelligent tutoring systems: Example-tracing tutors, International Journal of Artificial Intelligence in Education (IJAIED), 19, 2, pp. 105-154, (2009); 
+Aleven V., McLaren B.M., Sewall J.A., Example-Tracing Tutors: Intelligent Tutor Development for Non-programmers, International Journal of Artificial Intelligence in Education (IJAIED), 26, pp. 224-269, (2016); 
+Interactive Theorem Proving and Program Development: Coq’Art: The Calculus of Inductive Constructions., (2004); 
+Bornat R., Sufrin B., A Minimal Graphical User Interface for the Jape Proof Calculator, Formal Aspects of Computing, 11, pp. 244-271, (1999); 
+Broda K., Ma J., Sinnadurai G., Summers A., Pandora: A Reasoning Toolbox using Natural Deduction Style, Logic Journal of the IGPL, 15, 4, pp. 293-304, (2007); 
+Dorri A., Kanhere S.S., Jurdak R., Multi-agent systems: A survey, Ieee Access, 6, pp. 28573-28593, (2018); 
+FIPA ACL A., Message Structure Specification, (2002); 
+Galafassi C., Galafassi F.F.P., Reategui E.B., Vicari R.M., EvoLogic: Intelligent Tutoring System to Teach Logic, Intelligent Systems. BRACIS 2020. Lecture Notes in Computer Science, 12319, pp. 110-121, (2020); 
+Galafassi F.F.P., Galafassi C., Gluz J.C., Vicari R.M., Peres R.K., Heráclito: Learning Environment to Teach Logic, Advances in Practical Applications of Cyber-Physical Multi-Agent Systems: The PAAMS Collection. PAAMS 2017. Lecture Notes in Computer Science, 10349, pp. 316-320, (2017); 
+Galafassi F.F.P., Galafassi C., Vicarigluz R.J.C., Identifying Knowledge from the Application of Natural Deduction Rules in Propositional Logic, Advances in Practical Applications of Survivable Agents and Multi-Agent Systems: The PAAMS Collection, pp. 66-77, (2019); 
+Galafassi F.F.P., Galafassi C., Vicari R.M., Gluz J.C., Heráclito: Intelligent Tutoring System for Logic, Advances in Practical Applications of Survivable Agents and Multi-Agent Systems: The PAAMS Collection. PAAMS 2019. Lecture Notes in Computer Science, 11523, pp. 251-254, (2019); 
+Gluz J.C., Penteado F.F., Mossmann M., Gomes L., Vicari R., Heraclito: A Dialectical Tutor for Logic, Portuguese Conference on Artificial Intelligence, EPIA. 16Th Portuguese Conference on Artificial Intelligence, 8154, pp. 1-2, (2013); 
+Holland J.H., Adaptation in Natural and Artificial Systems, (1975); 
+Koedinger K.R., Aleven V., Heffernan N., McLaren B., Hockenberry M., Opening the door to non-programmers: Authoring intelligent tutor behavior by demonstration, .), Proceedings of Seventh International Conference on Intelligent Tutoring Systems, ITS 2004, pp. 162-174, (2004); 
+Lesta L., Yacef K., An Intelligent Teaching Assistant System for Logic, Intelligent Tutoring Systems. Lecture Notes in Computer Science, 2363, pp. 421-431, (2002); 
+Lukins S., Levicki A., Burg J., A Tutorial Program for Propositional Logic with Human/Computer Interactive Learning, Proceedings of the 33rd SIGCSE Technical Symposium on Computer Science Education, pp. 381-385, (2002); 
+Maclellan C., Koedinger K.R., Matsuda N., Authoring tutors with SimStudent: An evaluation of efficiency and model quality, Proceedings of the 12Th International Conference on Intelligent Tutoring Systems, ITS 2014 (Pp, pp. 551-560, (2014); 
+Matsuda N., Cohen W.W., Koedinger K.R., Teaching the teacher: Tutoring SimStudent leads to more effective Cognitive Tutor authoring, International Journal of Artificial Intelligence in Education (IJAIED), 25, 1, pp. 1-34, (2015); 
+McCune W., Prover9 and Mace4 Website., (2005); 
+Nipkow T., Wenzel M., Paulson L.C., Isabelle/HOL: A Proof Assistant for Higher-Order Logic, Berlin, Heidelberg: Springer-Verlag., (2002); 
+Pospesel H., Propositional Logic, Revised Edition, Introduction to Logic, (1999); 
+Renkl A., Instruction based on examples, Handbook of Research on Learning and Instruction., pp. 272-295, (2011); 
+Renkl A., Toward an instructionally oriented theory of example-based learning, Cognitive Science., 38, 1, pp. 1-37, (2014); 
+Ritter S., Blessing S., Wheeler L., User Modeling and Problem-Space Representation in the Tutor Runtime Engine, User Modeling, 2702, (2003); 
+Schulz S., Cruanes S., Vukmirovic P., Faster, Higher, Stronger: E 2.3, Automated Deduction – CADE 27. CADE 2019. Lecture Notes in Computer Science, 11716, pp. 495-507, (2019); 
+Sieg W., The AProS project: Strategic thinking & computational logic, Logic Journal of IGPL, 15, 4, pp. 359-368, (2007); 
+van Gog T., Rummel N., Example-based learning: Integrating cognitive and social-cognitive research perspectives, Educational Psychology Review., 22, 2, pp. 155-174, (2010); 
+Viccari R.M., Coelho H., A Prolog tutor for logic programming, In: Peg-Prolog Education Group- Annual Conference, Exeter., (1987); 
+Viccari R.M., Flores C.D., Silvestre A.M., Seixas L., Ladeira M., Coelho H., A Multi-Agent Intelligent Environment for Medical Knowledge, Artificial Intelligence in Medicine, Elsevier Science, 27, pp. 335-366, (2003); 
+Weidenbach C., Dimova D., Fietzke A., Kumar R., Suda M., Wischnewski P., SPASS Version 3.5, Automated Deduction – CADE-22., 5663, pp. 140-145, (2009); 
+An Interaction Design for Machine Teaching to Develop AI Tutors, . Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems., pp. 1-11, (2020); 
+Yacef K., The Logic-ITA in the classroom: a medium scale experiment, International Journal of Artificial Intelligence in Education (IJAIED), 15, pp. 41-62, (2005)#FRF#

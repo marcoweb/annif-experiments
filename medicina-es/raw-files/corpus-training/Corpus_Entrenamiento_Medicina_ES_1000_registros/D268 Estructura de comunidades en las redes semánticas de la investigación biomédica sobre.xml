@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">bio</journal-id>
+			<journal-title-group>
+				<journal-title>Biomédica</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Biomed.</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0120-4157</issn>
+			<issn pub-type="epub">2590-7379</issn>
+			<publisher>
+				<publisher-name>Instituto Nacional de Salud</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00016</article-id>
+			<article-id pub-id-type="doi">10.7705/biomedica.5182</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Estructura de comunidades en las redes semánticas de la investigación biomédica sobre disparidades en salud y sexismo</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Structure of communities in semantic networks of biomedical research on disparities in health and sexism</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Rivera-Romano</surname>
+						<given-names>Lucero Soledad</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Juárez-Cano</surname>
+						<given-names>Gabriela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Hernández-Lemus</surname>
+						<given-names>Enrique</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Vallejo</surname>
+						<given-names>Maite</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Martínez-García</surname>
+						<given-names>Mireya</given-names>
+					</name>
+					<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Programa de Licenciatura en Promoción de la Salud, Universidad Autónoma de la Ciudad de México, Ciudad de México, México</institution>
+				<institution content-type="normalized">Universidad de la Ciudad de México</institution>
+				<institution content-type="orgname">Universidad Autónoma de la Ciudad de México</institution>
+				<addr-line>
+					<named-content content-type="city">México</named-content>
+				</addr-line>
+				<country country="MX">Mexico</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> División de Genómica Computacional, Instituto Nacional de Medicina Genómica, Ciudad de México, México</institution>
+				<institution content-type="orgname">Instituto Nacional de Medicina Genómica</institution>
+				<addr-line>
+					<named-content content-type="city">México</named-content>
+				</addr-line>
+				<country country="MX">México</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Departamento de Investigación Sociomédica, Instituto Nacional de Cardiología Ignacio Chávez, Ciudad de México, México</institution>
+				<institution content-type="orgname">Instituto Nacional de Cardiología Ignacio Chávez</institution>
+				<addr-line>
+					<named-content content-type="city">México</named-content>
+				</addr-line>
+				<country country="MX">México</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Mireya Martínez-García, Instituto Nacional de Cardiología Ignacio Chávez, Juan Badiano # 1, Sección XVI, Tlalpan, CP 14080, Ciudad de México, México Teléfono: (52) (55) 735 255, extensión 24302 <email>mireya.martinez@cardiologia.org.mx</email>
+				</corresp>
+			</author-notes>
+			<!--<pub-date pub-type="epub">
+				<day>11</day>
+				<month>12</month>
+				<year>2020</year>
+			</pub-date>
+			<pub-date pub-type="collection">-->
+			<pub-date pub-type="epub-ppub">
+				<season>Oct-Dec</season>
+				<year>2020</year>
+			</pub-date>
+			<volume>40</volume>
+			<issue>4</issue>
+			<fpage>702</fpage>
+			<lpage>721</lpage>
+			<history>
+				<date date-type="received">
+					<day>22</day>
+					<month>08</month>
+					<year>2019</year>
+				</date>
+				<date date-type="accepted">
+					<day>03</day>
+					<month>07</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Introducción. </title>
+					<p>Como una iniciativa para mejorar la calidad de la atención sanitaria, en la investigación biomédica se ha incrementado la tendencia centrada en el estudio de las disparidades en salud y sexismo.</p>
+				</sec>
+				<sec>
+					<title>Objetivo. </title>
+					<p>Caracterizar la evidencia científica sobre la disparidad en salud definida como la brecha existente entre la distribución de la salud y el posible sesgo por sexo en el acceso a los servicios médicos.</p>
+				</sec>
+				<sec>
+					<title>Materiales y métodos. </title>
+					<p>Se hizo una búsqueda simultánea de la literatura científica en la base de datos Medline PubMed de dos descriptores fundamentales: <italic>Healthcare disparities</italic> y <italic>Sexism.</italic> Posteriormente, se construyó una red semántica principal y se determinaron algunas subunidades estructurales (comunidades) para el análisis de los patrones de organización de la información. Se utilizó el programa de código abierto Cytoscape para el analisis y la visualización de las redes y el MapEquation, para la detección de comunidades. Asimismo, se desarrolló código ex profeso disponible en un repositorio de acceso público. </p>
+				</sec>
+				<sec>
+					<title>Resultados. </title>
+					<p>El corpus de la red principal mostró que los términos sobre las enfermedades del corazón fueron los descriptores de condiciones médicas más concurrentes. A partir de las subunidades estructurales, se determinaron los patrones de información relacionada con las políticas públicas, los servicios de salud, los factores sociales determinantes y los factores de riesgo, pero con cierta tendencia a mantenerse indirectamente conectados con los nodos relacionados con condiciones médicas.</p>
+				</sec>
+				<sec>
+					<title>Conclusiones. </title>
+					<p>La evidencia científica indica que la disparidad por sexo sí importa para la calidad de la atención de muchas enfermedades, especialmente aquellas relacionadas con el sistema circulatorio. Sin embargo, aún se percibe un distanciamiento entre los factores médicos y los sociales que dan lugar a las posibles disparidades por sexo. </p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>Abstract</title>
+				<sec>
+					<title>Introduction: </title>
+					<p>As an initiative to improve the quality of health care, the trend in biomedical research focused on health disparities and sex has increased.</p>
+				</sec>
+				<sec>
+					<title>Objective: </title>
+					<p>To carry out a characterization of the scientific evidence on health disparity defined as the gap between the distribution of health and the possible gender bias for access to medical services.</p>
+				</sec>
+				<sec>
+					<title>Materials and methods: </title>
+					<p>We conducted a simultaneous search of two fundamental descriptors in the scientific literature in the Medline PubMed database: healthcare disparities and sexism. Subsequently, a main semantic network was built and some structural subunits (communities) were identified for the analysis of information organization patterns. We used open-source software: Cytoscape to analyze and visualize the semantic network, and MapEquation for community detection, as well as an ad hoc code available in a public access repository.</p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>The core network corpus showed that the terms on heart disease were the most common among the descriptors of medical conditions. Patterns of information related to public policies, health services, social determinants, and risk factors were identified from the structural subunits, but with a certain tendency to remain indirectly connected to the nodes of medical conditions.</p>
+				</sec>
+				<sec>
+					<title>Conclusions: </title>
+					<p>Scientific evidence indicates that gender disparity does matter for the care quality in many diseases, especially those related to the circulatory system. However, there is still a gap between the medical and social factors that give rise to possible disparities by sex.</p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>investigación biomédica</kwd>
+				<kwd>calidad de la atención de salud</kwd>
+				<kwd>disparidades en el estado de salud</kwd>
+				<kwd>sexismo</kwd>
+				<kwd>minería de datos</kwd>
+				<kwd>interpretación estadística de datos</kwd>
+				<kwd>web semántica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>Biomedical research</kwd>
+				<kwd>quality of health care</kwd>
+				<kwd>health status disparities</kwd>
+				<kwd>sexism</kwd>
+				<kwd>data mining</kwd>
+				<kwd>data interpretation</kwd>
+				<kwd>statistical</kwd>
+				<kwd>semantic web</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="5"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="61"/>
+				<page-count count="20"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<p>La reducción de las brechas en el conocimiento científico relacionadas con las disparidades por sexo y la equidad en salud, debe ser una prioridad para mejorar la calidad de la atención médica. En la literatura biomédica se ha venido incrementando la comprensión de que el sexo sí importa en el proceso de salud-enfermedad y para la calidad de la atención médica, la cual puede verse afectada desde la perspectiva biológica y por el contexto social <xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. La política y los programas de salud global a menudo son ciegos a las diferencias entre sexos y, sobre todo, a la posición desigual de las mujeres en la sociedad, lo que hace que estas sean &quot;visiblemente invisibles&quot; <xref ref-type="bibr" rid="B2"><sup>2</sup></xref>.</p>
+		<p>Para comenzar, es pertinente definir conceptualmente el sexo y el género para luego abordar las disparidades en salud. Por <italic>sexo</italic> se entiende el conjunto de influencias biológicas, es decir, las diferencias reproductivas, hormonales y genéticas entre mujeres y hombres. El <italic>género,</italic> en cambio, alude a los roles, comportamientos, actividades y atributos socialmente construidos que una sociedad considera apropiados para hombres y mujeres <xref ref-type="bibr" rid="B3"><sup>3</sup></xref>. Para fines de esta investigación, se utilizará el concepto de sexo en el análisis semántico de la información biomédica y el concepto de disparidades en salud según la definición de la <italic>National Library of Medicine of the United States</italic> (Medline) PubMed: diferencias en el acceso o disponibilidad de servicios médicos.</p>
+		<p>El sexo es una característica biológica determinante para la salud y documentar ese efecto es un punto de partida obligado para la investigación de las disparidades como forma de contribuir al desarrollo de intervenciones diseñadas para reducirlas <xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. La inclusión sexual es una cuestión de integridad científica. La brecha en la representación de las mujeres en los estudios de ciencia básica ha sido bien documentada y, hasta hace poco, no se había hecho mucho por mitigarla <xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+		<p>Este hecho ha sido acertadamente abordado en las directrices del reporte <italic>The Sex and Gender Equity in Research</italic> (SAGER), una guía para reportar los resultados de los estudios biomédicos por sexo y género, incorporando esta dimensión desde la planificación y el diseño del estudio, el análisis de los datos y la interpretación de los resultados, con el fin de promover la equidad, la ética, la responsabilidad social y un mayor aprovechamiento de la evidencia científica <xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Por su parte, la Organización Mundial de la Salud (OMS) ha determinado brechas de conocimiento sustanciales en el estudio de la interacción del sexo con otros factores sociales determinantes de la salud, recomendando que los avances en investigación biomédica no se desarticulen de tales factores <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+		<p>Por otro lado, el marco conceptual en el que se encuadra la disparidad en salud mediada por el sexo se relaciona estrechamente con los factores sociales determinantes, ya sea en su configuración estructural (políticas intersectoriales, gobernanza socioeconómica) o mediadora (empoderamiento e inclusión en los sistemas establecidos para mantener la salud), o en ambas, pues sus efectos muchas veces inciden en la distribución desigual de recursos, lo cual genera la estratificación social y las divisiones de clase que contribuyen a modelar las principales inequidades sociales y afectan el estado de salud de hombres y mujeres <xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+		<p>Si bien en las últimas décadas muchos países lograron sensibilizarse y mejorar las condiciones generales de salud, lamentablemente los beneficios de estas acciones no se han apreciado en algunos grupos poblacionales, como en el caso de las mujeres. ¿Por qué? Una suposición es que, a pesar de haber muchos estudios científicos, los datos no son reportados de forma desagregada por sexo y eso distorsiona el efecto en los resultados, por ejemplo, en cuanto al reporte de los factores sociales determinantes o de las disparidades en salud, o el tipo y grado de enfermedad o muerte <xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+		<p>Otra hipótesis es la discrepancia entre la teoría y la práctica en la salud pública, ámbito en el que no se han logrado vincular por completo los conocimientos del paradigma biomédico (muchas veces individualista) y los factores sociales determinantes que subyacen tras el proceso de salud-enfermedad, y que influyen en las elecciones, los conocimientos y los comportamientos de las personas y, por lo tanto, en sus resultados de salud <xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+		<p>La <italic>medicina basada en el sexo</italic> es una rama innovadora de la investigación biomédica y representa una nueva perspectiva para la promoción de la salud y la calidad de la atención médica <xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. Sin embargo, con el continuo aumento en la cantidad de literatura, es difícil para los responsables de las decisiones, los médicos y los investigadores utilizar los recursos disponibles y mantenerse al día de manera rápida y efectiva en este tema <xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+		<p>Aunque los sistemas electrónicos de recuperación de información proporcionan documentos potencialmente útiles, no suelen ayudar a administrar y analizar el gran volumen de información recuperada <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Recientemente se han propuesto diversas metodologías automatizadas para extraer la información de Medline PubMed y visualizarla como un grafo utilizando los términos del vocabulario controlado de los <italic>Medical Subject Headings</italic> (MeSH), términos que se representan como nodos, en tanto que la información compartida entre ellos se representa como enlaces. Este es un método novedoso de abstracción semántica para resumir múltiples textos biomédicos <xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+		<p>El modelo conexionista se ha empleado justamente para explorar las representaciones léxicas mediante las redes semánticas <xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Estas redes permiten la extracción de ideas significativas al establecer grupos de conceptos emergentes o desconocidos de manera inductiva <xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. El análisis de redes revela propiedades de agrupamiento que proporcionan información sobre la estructura del léxico y la semántica, ninguno de los cuales es directamente observable a partir de los datos aislados <xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+		<p>El problema de investigación que nos ocupa en este estudio se basa en la conceptualización de la disparidad en salud definida como la brecha existente entre la distribución de la salud y el posible sesgo por sexo de la evidencia científica reportada, en dos sentidos: 1) aquel relacionado con los mecanismos sociales y el acceso oportuno a los sistemas de salud, muchos de ellos evitables e injustos, y 2) el relacionado con los mecanismos biológicos y el manejo médico y clínico, algunos de los cuales serían inevitables, pero que están igualmente vinculados a las diferentes necesidades específicas de hombres y mujeres.</p>
+		<p>La pregunta planteada en este estudio mediante el uso de redes semánticas es si la información reportada en un corpus de literatura biomédica aborda el tema de la disparidad desagregada por sexo, y si los MeSH sobre temas biomédicos se encuentran vinculados con aquellos sobre factores sociales determinantes relacionados con el acceso y la atención de los servicios de salud.</p>
+		<p>Con ayuda de la minería computacional de la literatura biomédica y la teoría de grafos, el objetivo del presente estudio fue caracterizar la evidencia científica más reciente sobre las disparidades en salud y el sexismo para, posteriormente, estudiar la estructura de 'comunidades' (o módulos) dentro de las redes semánticas y generar evidencia sobre la representación acusadamente expresiva de los principales descriptores relacionados con los patrones de información en el campo de la investigación biomédica.</p>
+		<sec sec-type="materials|methods">
+			<title>Materiales y métodos</title>
+			<p>La <xref ref-type="fig" rid="f1">figura 1</xref> resume los pasos seguidos en la investigación con base en la aplicación de las dos estrategias de consulta bibliográfica. Para el análisis de redes basado en los términos MeSH, el 24 de octubre de 2018 se abordó la literatura científica de la base de datos de Medline PubMed mediante minería computarizada empleando simultáneamente dos descriptores sin ninguna restricción: <italic>Healthcare disparities</italic> y <italic>Sexism.</italic> Por otro lado, se consultaron otros documentos de apoyo para contextualizar el problema planteado y reforzar la discusión.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Flujo de trabajo: una vez terminada la minería computarizada de la literatura, se transformó el corpus de información de texto a lenguaje natural. Posteriormente, se construyeron los mapas de conectividad y las redes semánticas y, por último, se utilizó un algoritmo de agrupación para detectar módulos o comunidades y completar el análisis.</title>
+					</caption>
+					<graphic xlink:href="2590-7379-bio-40-04-702-gf1.png"/>
+				</fig>
+			</p>
+			<p>Si bien PubMed es la mayor base de datos de literatura biomédica del mundo, tiene algunas limitaciones. Por ejemplo, cuando se le solicita la recuperación de las citas consultadas para archivarlas, el registro que entrega (por ejemplo en el formato Medline para programas de generación de bibliografías) no incluye todos los autores que se mencionan en los documentos indexados, y también se omite su afiliación institucional y el país. Por otro lado, aunque PubMed contiene más de 15 millones de referencias bibliográficas provenientes de más de 4.000 revistas internacionales, omite aquellas que no se encuentran indexadas en esta base y que podrían contener evidencia científica relevante para las ciencias de la salud.</p>
+			<sec>
+				<title><italic>Minería computarizada de términos MeSH</italic></title>
+				<p>Los términos MeSH fueron diseñados por un panel de expertos internacionales en un proyecto dirigido por la <italic>National Library of Medicine</italic> de los Estados Unidos como una ontología, lo que tiene importantes consecuencias cuando se usa como sistema de clasificación hemerobibliográfica y para el procesamiento de la minería de textos asistido por computadora. Una <italic>ontología</italic> es, como se sabe, un sistema conceptual informal basado en una teoría lógica, es decir, vocabulario controlado (finito) en el marco de una teoría lógica.</p>
+				<p>La ontología MeSH contiene términos semánticamente relacionados, estructurados jerárquicamente para facilitar la consulta y el análisis computacional de las publicaciones incluidas <xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Cuenta con más de 57.000 descriptores (títulos principales) y más de 80 calificadores (subtítulos temáticos), cada publicación indexada puede contener uno o varios MeSH que son asignados según el contexto del documento <xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+				<p>Esto resulta relevante, ya que un vocabulario controlado evita los sesgos de lenguaje debidos, por ejemplo, a la sinonimia o, más complejo aún, la terminología dependiente del contexto. Por ejemplo, para referirse a un crecimiento anormal de tejido debido al cáncer, algunos autores utilizarían la palabra clave &quot;tumor&quot;, otros &quot;neoplasia&quot;, &quot;cáncer&quot;, &quot;nódulo maligno&quot;, etc. En todos estos casos, la clasificación ontológica de los MeSH utilizaría &quot;neoplasms&quot; como clasificador, evitando así las ambigüedades.</p>
+				<p>Aunque las técnicas modernas de procesamiento computacional del lenguaje natural permiten la generación de diccionarios para desambiguar términos similares, todavía son muy proclives a fallar, especialmente cuando se trata de léxicos muy técnicos como puede ser el caso aquí, e introducir sesgos.</p>
+				<p>Por tanto, la concurrencia de términos MeSH es un recurso muy apreciado para la identificación y la recuperación rápida, precisa y confiable de información <xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Por estas razones, se utilizaron los términos MeSH como referencia bibliométrica para construir un mapa de conectividad y redes semánticas en las que, por lo menos, se registraran dos MeSH conectados mediante uno o más <italic>PubMed Unique Identif'ars</italic> (PMID).</p>
+			</sec>
+			<sec>
+				<title><italic>Estrategia de búsqueda de términos MeSH</italic></title>
+				<p>Para cumplir con el objetivo del estudio, se combinaron dos términos específicos, <italic>Healthcare disparities</italic> y <italic>Sexism,</italic> en la búsqueda de MEDLINE PubMed. Aunque la búsqueda de un solo término MeSH arroja una gran cantidad de resultados, es posible que queden incluidos temas menos específicos. Por otro lado, el uso de otros criterios de búsqueda, como &quot;Title/abstract&quot; o &quot;keywords&quot; puede elevar el número de publicaciones. Sin embargo, la mayoría de las veces este método ya no es necesario, pues el uso combinado de ciertos MeSH permite agrupar la evidencia necesaria y cumplir con el objetivo de la búsqueda, como en este caso.</p>
+			</sec>
+			<sec>
+				<title><italic>Estrategia de selección de los documentos recuperados</italic></title>
+				<p>Los criterios de selección aplicados en la recuperación de los documentos fueron los siguientes.</p>
+				<disp-quote>
+					<p><italic>Criterios de inclusión.</italic> Cada registro bibliográfico debía contener, como mínimo, un término MeSH para establecer la conexión en la red de cada documento; el registro bibliográfico podía ser de cualquier año de publicación, cualquier país de adscripción, y cualquier tipo de literatura científica; el término MeSH podía estar en cualquier idioma, indexado en cualquier nivel de la estructura jerárquica de anotación, e incluido en cualquiera de las categorías biomédicas de Medline PubMed.</p>
+				</disp-quote>
+				<disp-quote>
+					<p><italic>Criterios de exclusión.</italic> Se excluyeron aquellos registros que no contenían título o resumen o cuyo contenido no fuera pertinente para el problema en estudio.</p>
+				</disp-quote>
+			</sec>
+			<sec>
+				<title><italic>Estrategia de curaduría de la información</italic></title>
+				<p>Se hizo un curaduría mediante el escrutinio manual de los términos MeSH recuperados que serían conectados en la red para detectar, y en lo posible eliminar, los términos redundantes y que no aportaran información relevante a la búsqueda por sí mismos, lo que solo sucedió con el MeSH <italic>Humans</italic> (común a todos los registros de investigación en salud en humanos y, por lo tanto, redundante), el cual se eliminó, de hecho, antes de analizar la estructura y la conectividad de la red. Posteriormente, el corpus de información se transformó de texto simple a lenguaje natural utilizando un código en el lenguaje de programación Python previamente desarrollado para la construcción de redes semánticas <xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Construcción de redes semánticas</italic></title>
+				<p>Las redes semánticas son representaciones gráficas de conocimiento basadas en relaciones significativas de ideas o conceptos que se estructuran como una red de palabras relacionadas cognitivamente entre sí. Se utilizan comúnmente para inferir los marcos teóricos o conceptuales utilizados en los textos y muchas veces su análisis contribuye a que surjan nuevos enfoques a partir de los datos explorados <xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+				<p>La construcción de redes semánticas se basa en la teoría conexionista de redes complejas. Una <italic>red</italic> es un conjunto de nodos, elementos o vértices que se conectan mediante aristas o enlaces que pueden ser dirigidos, es decir, siguen una dirección de un nodo a otro, o no la siguen. El objetivo del estudio de redes es encontrar las propiedades estadísticas o topológicas que caracterizan su estructura.</p>
+				<p>A continuación, se describen brevemente algunos de los atributos topológicos o medidas de centralidad utilizados en el presente trabajo.</p>
+				<disp-quote>
+					<p><italic>Centralidad de vector propio:</italic> mide la influencia de un nodo dentro de una red con base en su importancia relativa frente a otros.</p>
+				</disp-quote>
+				<disp-quote>
+					<p><italic>Distribución de grado:</italic> es la característica más simple que puede observarse en una red, es decir, la conectividad entre nodos adyacentes.</p>
+				</disp-quote>
+				<disp-quote>
+					<p><italic>Coeficiente de agrupamiento:</italic> estima la tendencia de agrupamiento de los nodos en una red; es la probabilidad de que dos nodos puedan estar conectados por un tercer nodo y exista mayor cohesión.</p>
+				</disp-quote>
+				<disp-quote>
+					<p><italic>Promedio de caminos</italic> más corto<italic>s:</italic> indica la longitud promedio del camino más corto entre dos nodos.</p>
+				</disp-quote>
+				<disp-quote>
+					<p><italic>Centralidad de intermediación:</italic> es el número de caminos cortos entre dos nodos que pasan a través de otro.</p>
+				</disp-quote>
+				<p>Aunque hay diferentes atributos para determinar los patrones de conectividad de una red, en este estudio se eligieron los parámetros más simples de la teoría de redes para estimar la conexión de los conceptos, como es el caso de la centralidad de grado, el número total de enlaces de un nodo o la suma de las frecuencias o pesos de las interacciones <xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Los nodos con elevada centralidad de grado tienen muchos vecinos y, generalmente, son más frecuentes en la red que los de menor grado <xref ref-type="bibr" rid="B27"><sup>27</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+				<p>Con el fin de discutir similitudes y diferencias con otras medidas de centralidad relevantes, se incluyó un cuadro suplementario (cuadro suplementario 1) con la distribución de las diversas centralidades de los MeSH correspondientes a aquellas enfermedades de interés especial para la discusión posterior. Para visualizar mejor algunos MeSH relacionados con las principales enfermedades encontradas en el corpus de la red, los nodos se marcaron con diferentes colores y tamaños según el número de conexiones con sus principales vecinos. Para analizar y visualizar la red, se utilizó el programa de código abierto Cytoscape <xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title><italic>Red principal</italic></title>
+				<p>Una vez hecha la minería computarizada de la literatura, se construyó una red basada en taxonomías predeterminadas (los términos MeSH), no dirigida ni ponderada. El nodo es la unidad de análisis de la red representada en un mapa de conectividad. Los mapas de conectividad se construyeron de modo que los nodos de origen y destino fueran los MeSH (que representan los conceptos bajo análisis) correspondientes al corpus de los artículos científicos.</p>
+				<p>Cuando, por lo menos, dos artículos detectados con un número único (PMID) compartían ambos MeSH, se trazaba un enlace (arista) entre estos nodos. Los enlaces utilizados en la construcción de la red fueron los PMID de cada publicación. Este enfoque produjo una red que no consideró el peso relativo de las conexiones. Como se discutirá más adelante, dada la distribución de pesos en las redes resultantes, prácticamente idéntica para cada enlace con pocas excepciones (cuadros suplementarios 1 y 2), este hecho no afectó de manera significativa los resultados o conclusiones del estudio.</p>
+			</sec>
+			<sec>
+				<title><italic>Red secundaria de enfermedad cardiovascular</italic></title>
+				<p>Como ejemplo para explorar los patrones de conexión de información en una red secundaria, la principal se dividió usando los términos MeSH relacionados con la enfermedad cardiovascular. Se colorearon en rojo aquellos nodos y enlaces asociados con dicha enfermedad, en amarillo, algunos términos sugerentes de factores sociales determinantes; en azul oscuro, los relacionados con los servicios de salud; en verde, aquellos que evocaban las condiciones biológicas y, en azul claro, los términos alusivos a otros factores de estilos y modos de vida.</p>
+			</sec>
+			<sec>
+				<title><italic>Red emergente de la diferencia entre mujeres y hombres</italic></title>
+				<p>Para inferir posibles patrones de conexión de la información a partir del sexo, también se construyeron redes secundarias de hombres y mujeres, y para garantizar que se pudieran comparar, se filtraron en el programa Cytoscape seleccionando el MeSH relativo al sexo <italic>(&quot;female&quot;</italic> o <italic>&quot;male&quot;)</italic> en todos sus primeros vecinos. A partir de estas redes secundarias, se diferenciaron sus nodos para conocer los términos incluidos en una y no en la otra, y a la red resultante de esta diferencia se le denominó red emergente.</p>
+			</sec>
+			<sec>
+				<title><italic>Modularidad</italic></title>
+				<p>La modularidad permite simplificar y resaltar propiedades estructurales de una red para generar subunidades fuertemente interconectadas, conocidas como módulos o comunidades, que contienen un número mayor de enlaces entre nodos que los nodos fuera de ella <xref ref-type="bibr" rid="B30"><sup>30</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>Hay diversas técnicas de detección de comunidades, pero no hay un método de optimización de la partición modular que funcione en todos los casos <xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. En este estudio, se utilizó un algoritmo de agrupación de comunidades basado en las caminatas aleatorias y en la teoría de la información centrada en la interdependencia de los enlaces (Infomap). Los módulos de estas subunidades se visualizaron con la aplicación en línea MapEquation <xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>.</p>
+				<p>Infomap se basa en la dinámica del flujo de información en la red más que en su estructura topológica simple. La MapEquation captura el flujo de información en la red de manera que las comunidades están conformadas por grupos de nodos entre los cuales el flujo de información persiste. A grandes rasgos, para describir el flujo de información en la red, se recurre a una caminata aleatoria que registra dicho flujo (como aproximación). Por ergodicidad, asintóticamente se llega a una distribución estacionaria cuando se visitan estructuras de la red y cuando se las abandona, estructuras que pueden ser nodos o módulos. Estas distribuciones estacionarias se pueden codificar de forma óptima usando la llamada codificación de Huffman en una cadena binaria. Así, la caminata puede describirse en términos de la teoría de la información a partir de la longitud de la cadena binaría asociada con ella <xref ref-type="bibr" rid="B31"><sup>31</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+				<p>Si se tuviera una partición de la red en <italic>M</italic> en módulos, se podría obtener la descripción de una caminata aleatoria entre los módulos (o estructuras más relevantes), que se puede codificar en una cadena binaria cuya longitud <italic>L(M)</italic> sería mínima en el caso de tener la partición óptima de la red. Esto se puede lograr mediante la aplicación MapEquation, la cual aprovecha la dualidad entre encontrar la mejor estructura modular en una red y minimizar la longitud de la descripción de los movimientos de un caminante aleatorio en dicha red. Es decir, para cada partición modular dada de la red, existe un costo de información asociado con la descripción de los movimientos del caminante aleatorio, o del flujo. Algunas particiones generan longitudes de descripción, unas cortas y otras más largas. La partición con la longitud de descripción más corta es la que mejor captura la estructura modular de la red en cuanto a la dinámica de su flujo de información <xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+				<p>Dado que la idea era encontrar módulos con distancia semántica mínima, es decir, aquellos correspondientes a los términos más estrechamente relacionados de manera local en redes con miles de aristas, la combinación propia de Infomap, con un algoritmo que minimiza la distancia del código y tiene poca complejidad computacional, lo convirtió en la elección apropiada.</p>
+				<p>Por último, los módulos se etiquetaron con el nombre del nodo con el mayor índice PageRank (IPR), lo que constituye, de hecho, un tipo de centralidad de valor propio <xref ref-type="bibr" rid="B35"><sup>35</sup></xref>, medida con base en diversos algoritmos que asignan de forma numérica la relevancia de los documentos indexados por un motor de búsqueda, por lo que las comunidades constituyen unidades semánticas estructuradas de mayor complejidad que los términos MeSH individuales.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<sec>
+				<title><italic>Minería computarizada de los documentos</italic></title>
+				<p>Se obtuvieron 41 artículos científicos publicados entre el 2011 y el 2018. Los lugares registrados por la adscripción, por lo menos, de un artículo fueron Estados Unidos, Europa, China, Brasil, México, Canadá y Sudáfrica.</p>
+			</sec>
+			<sec>
+				<title><italic>Red principal</italic></title>
+				<p>Las principales características topológicas de las redes analizadas se muestran en el <xref ref-type="table" rid="t1">cuadro 1</xref>. La estructura revela una red principal con 301 nodos (o términos) y 3.365 enlaces (o relaciones). Se pudo detectar en ella una aparente tendencia a priorizar la investigación relacionada con las disparidades de sexo y algunas enfermedades, específicamente aquellas que involucran la enfermedad cardiovascular, como se aprecia en los 16 nodos de color rojo de la <xref ref-type="fig" rid="f2">figura 2</xref>. En color rosa, se ven los nodos relacionados con tumores o cáncer de mama o colorrectales (4 nodos y 108 centralidades de grado acumulados); en azul, los relacionados con el dolor y las propiedades de analgesia o narcosis, así como los relacionados con la salud y la enfermedad mental (6 nodos y 68 centralidades de grado acumulados); en verde, los relacionados con las infecciones por el virus de inmunodeficiencia humana (3 nodos y 46 centralidades de grado acumulados), y con menor tamaño se aprecian los nodos en color naranja, amarillo y turquesa relacionados con otros padecimientos o métodos médicos, quirúrgicos y ortopédicos, hernias, desnutrición, prolapso uterino y cálculos uretrales.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Cuadro 1</label>
+						<caption>
+							<title>Características topológicas de las redes analizadas</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Red</th>
+									<th align="center">Nodos</th>
+									<th align="center">Aristas</th>
+									<th align="center">Coeficiente de agrupamiento</th>
+									<th align="center">Longitud de camino</th>
+									<th align="center">Centralidad</th>
+									<th align="center">Número promedio de vecinos</th>
+									<th align="center">Densidad de red</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Principal</td>
+									<td align="center">301</td>
+									<td align="center">3.365</td>
+									<td align="center">0,910</td>
+									<td align="center">1,962</td>
+									<td align="center">0,851</td>
+									<td align="center">22,359</td>
+									<td align="center">0,075</td>
+								</tr>
+								<tr>
+									<td align="left">EVC</td>
+									<td align="center">205</td>
+									<td align="center">518</td>
+									<td align="center">0,194</td>
+									<td align="center">2,766</td>
+									<td align="center">0,480</td>
+									<td align="center">5,054</td>
+									<td align="center">0,025</td>
+								</tr>
+								<tr>
+									<td align="left">Mujeres</td>
+									<td align="center">277</td>
+									<td align="center">3.154</td>
+									<td align="center">0,907</td>
+									<td align="center">1,917</td>
+									<td align="center">0,924</td>
+									<td align="center">22,773</td>
+									<td align="center">0,083</td>
+								</tr>
+								<tr>
+									<td align="left">Hombres</td>
+									<td align="center">237</td>
+									<td align="center">2.834</td>
+									<td align="center">0,902</td>
+									<td align="center">1,899</td>
+									<td align="center">0,906</td>
+									<td align="center">23,916</td>
+									<td align="center">0,101</td>
+								</tr>
+								<tr>
+									<td align="left">Emergente</td>
+									<td align="center">40</td>
+									<td align="center">135</td>
+									<td align="center">0,95</td>
+									<td align="center">1,0</td>
+									<td align="center">0,061</td>
+									<td align="center">6,75</td>
+									<td align="center">0,173</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>EVC: enfermedad cardiovascular</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<fig id="f2">
+						<label>Figura 2</label>
+						<caption>
+							<title>Red principal. Se resaltan los nodos relacionados con algunas enfermedades crónicas, los cuales aparecen con tamaño aumentado y colores brillantes para su mejor distinción.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-702-gf2.png"/>
+					</fig>
+				</p>
+				<p>En la red principal también se aprecian algunos términos cercanos o primeros vecinos asociados con los nodos de los padecimientos y con la calidad de la atención. Por ejemplo, cerca de los nodos en color rojo (enfermedad cardiovascular), se encontraron términos no esperados sobre la relación entre médico y paciente, la adopción de decisiones médicas y el manejo de la enfermedad; por otro lado, también se encontraron términos más comúnmente asociados con la supervivencia, los factores de riesgo y los estilos de vida. Cerca de los de color rosa, se pueden apreciar términos que, aparentemente, están poco vinculados con los tumores o el cáncer, tales como estigma social, características culturales y acceso a los servicios de salud, y cerca de los azules, relacionados con dolor y analgesia, se aprecian términos como salud de la mujer, servicios organizados de atención en salud para mujeres, ofensas sexuales y política de salud, entre otros.</p>
+				<p>En los <xref ref-type="table" rid="t2">cuadros 2</xref> y <xref ref-type="table" rid="t3">3</xref>, se presentan los resultados de la comparación de los valores de las centralidades analizadas en la red principal al considerar los MeSH correspondientes a condiciones médicas patológicas. Por ejemplo, en el <xref ref-type="table" rid="t2">cuadro 2</xref> se aprecia que, aunque hubo diferencias en la distribución de rango de las diferentes medidas de centralidad usadas (centralidad de grado, centralidad de intermediación, centralidad de cercanía), la tendencia reportada con respecto a los padecimientos cardiovasculares se mantuvo.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Cuadro 2</label>
+						<caption>
+							<title>Comparación de las diferentes medidas de centralidad para los nodos asociados con condiciones médicas relacionadas con la enfermedad cardiovascular</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Términos MeSH</th>
+									<th align="center">CVP</th>
+									<th align="center">CG</th>
+									<th align="center">PCMC</th>
+									<th align="center">CI</th>
+									<th align="center">CC</th>
+									<th align="center">CA</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Fibrinolytic Agents/therapeutic use</td>
+									<td align="center">0,056516256</td>
+									<td align="center">23</td>
+									<td align="center">1,92857143</td>
+									<td align="center">0</td>
+									<td align="center">0,51851852</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Myocardial Infarction/drug therapy/<sup>*</sup>epidemiology/therapy</td>
+									<td align="center">0,056516256</td>
+									<td align="center">23</td>
+									<td align="center">1,92857143</td>
+									<td align="center">0</td>
+									<td align="center">0,51851852</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Myocardial Revascularization/utilization</td>
+									<td align="center">0,056516256</td>
+									<td align="center">23</td>
+									<td align="center">1,92857143</td>
+									<td align="center">0</td>
+									<td align="center">0,51851852</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Thrombolytic Therapy/utilization</td>
+									<td align="center">0,056516256</td>
+									<td align="center">23</td>
+									<td align="center">1,92857143</td>
+									<td align="center">0</td>
+									<td align="center">0,51851852</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">&quot;Myocardial Infarction/diagnosis/epidemiology/mortality/therapy</td>
+									<td align="center">0,04928961</td>
+									<td align="center">18</td>
+									<td align="center">1,93877551</td>
+									<td align="center">0</td>
+									<td align="center">0,51578947</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Coronary Angiography/utilization</td>
+									<td align="center">0,049289722</td>
+									<td align="center">18</td>
+									<td align="center">1,93877551</td>
+									<td align="center">0</td>
+									<td align="center">0,51578947</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Percutaneous Coronary Intervention/utilization</td>
+									<td align="center">0,04928957</td>
+									<td align="center">18</td>
+									<td align="center">1,93877551</td>
+									<td align="center">0</td>
+									<td align="center">0,51578947</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Acute Coronary Syndrome/complications/<sup>*</sup>diagnosis</td>
+									<td align="center">0,04531952</td>
+									<td align="center">17</td>
+									<td align="center">1,97619048</td>
+									<td align="center">0</td>
+									<td align="center">0,5060241</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Chest Pain/<sup>*</sup>diagnosis/etiology</td>
+									<td align="center">0,04531952</td>
+									<td align="center">17</td>
+									<td align="center">1,97619048</td>
+									<td align="center">0</td>
+									<td align="center">0,5060241</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Coronary Angiography/<sup>*</sup>utilization</td>
+									<td align="center">0,04531952</td>
+									<td align="center">17</td>
+									<td align="center">1,97619048</td>
+									<td align="center">0</td>
+									<td align="center">0,5060241</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Coronary Artery Disease/complications/<sup>*</sup>diagnosis</td>
+									<td align="center">0,04531952</td>
+									<td align="center">17</td>
+									<td align="center">1,97619048</td>
+									<td align="center">0</td>
+									<td align="center">0,5060241</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">&quot;Cardiac Surgical Procedures/adverse effects/mortality</td>
+									<td align="center">0,036228206</td>
+									<td align="center">15</td>
+									<td align="center">1,95578231</td>
+									<td align="center">0</td>
+									<td align="center">0,51130435</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Acute Coronary Syndrome/<sup>*</sup>diagnosis/<sup>*</sup>therapy</td>
+									<td align="center">0,04339972</td>
+									<td align="center">15</td>
+									<td align="center">1,9829932</td>
+									<td align="center">0</td>
+									<td align="center">0,50428816</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Coronary Angiography/statistics &amp; numerical data/utilization</td>
+									<td align="center">0,043399736</td>
+									<td align="center">15</td>
+									<td align="center">1,9829932</td>
+									<td align="center">0</td>
+									<td align="center">0,50428816</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Myocardial Infarction/diagnosis/therapy</td>
+									<td align="center">0,043399762</td>
+									<td align="center">15</td>
+									<td align="center">1,9829932</td>
+									<td align="center">0</td>
+									<td align="center">0,50428816</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Myocardial Revascularization/statistics &amp; numerical data/utilization 0,04339972</td>
+									<td align="center">0,04339972</td>
+									<td align="center">15</td>
+									<td align="center">1,9829932</td>
+									<td align="center">0</td>
+									<td align="center">0,50428816</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Myocardial Infarction/<sup>*</sup>therapy</td>
+									<td align="center">0,007807993</td>
+									<td align="center">2</td>
+									<td align="center">2,38435374</td>
+									<td align="center">0</td>
+									<td align="center">0,41940086</td>
+									<td align="center">1</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>CVP: centralidad de valor propio; CG: centralidad de grado; PCMC: promedio de caminos más cortos; CI: centralidad de intermediación; CC: centralidad de cercanía; CA: coeficiente de agrupamiento.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Cuadro 3</label>
+						<caption>
+							<title>Comparación de las diferentes medidas de centralidad para los nodos asociados con condiciones médicas relacionados con otras enfermedades</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Términos MeSH</th>
+									<th align="center">CVP</th>
+									<th align="center">CG</th>
+									<th align="center">PCMC</th>
+									<th align="center">CI</th>
+									<th align="center">CC</th>
+									<th align="center">CA</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Breast Neoplasms/diagnosis</td>
+									<td align="center">0,06038379</td>
+									<td align="center">26</td>
+									<td align="center">1,91836735</td>
+									<td align="center">0</td>
+									<td align="center">0,5212766</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Colorectal Neoplasms/diagnosis</td>
+									<td align="center">0,060383793</td>
+									<td align="center">26</td>
+									<td align="center">1,91836735</td>
+									<td align="center">0</td>
+									<td align="center">0,5212766</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Neoplasms/prevention &amp; control/<sup>*</sup>therapy</td>
+									<td align="center">0,06038379</td>
+									<td align="center">26</td>
+									<td align="center">1,91836735</td>
+									<td align="center">0</td>
+									<td align="center">0,5212766</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Hernia, Inguinal/<sup>*</sup>surgery</td>
+									<td align="center">0,05517667</td>
+									<td align="center">20</td>
+									<td align="center">1,96598639</td>
+									<td align="center">0</td>
+									<td align="center">0,50865052</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Arnold-Chiari Malformation/diagnostic imaging/<sup>*</sup>ethnology/<sup>*</sup>therapy </td>
+									<td align="center">0,044969346</td>
+									<td align="center">19</td>
+									<td align="center">2,10544218</td>
+									<td align="center">0</td>
+									<td align="center">0,47495961</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">HIV lnfections/<sup>*</sup>drug therapy</td>
+									<td align="center">0,042333294</td>
+									<td align="center">19</td>
+									<td align="center">1,94217687</td>
+									<td align="center">1.51E-04</td>
+									<td align="center">0,51488616</td>
+									<td align="center">0.74269006</td>
+								</tr>
+								<tr>
+									<td align="left"><sup>*</sup>Pain Measurement</td>
+									<td align="center">0,030480828</td>
+									<td align="center">16</td>
+									<td align="center">1,97278912</td>
+									<td align="center">0</td>
+									<td align="center">0,50689655</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Opioid-Related Disorders/epidemiology</td>
+									<td align="center">0,030480828</td>
+									<td align="center">16</td>
+									<td align="center">1,97278912</td>
+									<td align="center">0</td>
+									<td align="center">0,50689655</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Orthopedics/<sup>*</sup>methods</td>
+									<td align="center">0,030480828</td>
+									<td align="center">16</td>
+									<td align="center">1,97278912</td>
+									<td align="center">0</td>
+									<td align="center">0,50689655</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Pain/<sup>*</sup>diagnosis/physiopathology/prevention &amp; control/psychology</td>
+									<td align="center">0,030480828</td>
+									<td align="center">16</td>
+									<td align="center">1,97278912</td>
+									<td align="center">0</td>
+									<td align="center">0,50689655</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Malnutrition/epidemiology</td>
+									<td align="center">0,029936733</td>
+									<td align="center">15</td>
+									<td align="center">1,95578231</td>
+									<td align="center">0</td>
+									<td align="center">0,51130435</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Mental Disorders/epidemiology</td>
+									<td align="center">0,029936733</td>
+									<td align="center">15</td>
+									<td align="center">1,95578231</td>
+									<td align="center">0</td>
+									<td align="center">0,51130435</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Cerebral Palsy/<sup>*</sup>therapy</td>
+									<td align="center">0,034478564</td>
+									<td align="center">14</td>
+									<td align="center">1,95238095</td>
+									<td align="center">0</td>
+									<td align="center">0,51219512</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Acquired Immunodeficiency Syndrome/drug therapy</td>
+									<td align="center">0,03175653</td>
+									<td align="center">13</td>
+									<td align="center">1,96258503</td>
+									<td align="center">0</td>
+									<td align="center">0,50953206</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Blindness/epidemiology/<sup>*</sup>etiology</td>
+									<td align="center">0,02833061</td>
+									<td align="center">12</td>
+									<td align="center">1,95918367</td>
+									<td align="center">0</td>
+									<td align="center">0,51041667</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Cataract Extraction/<sup>*</sup>adverse effects/standards</td>
+									<td align="center">0,02833061</td>
+									<td align="center">12</td>
+									<td align="center">1,95918367</td>
+									<td align="center">0</td>
+									<td align="center">0,51041667</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Cataract/<sup>*</sup>epidemiology</td>
+									<td align="center">0,02833061</td>
+									<td align="center">12</td>
+									<td align="center">1,95918367</td>
+									<td align="center">0</td>
+									<td align="center">0,51041667</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Disabled Persons</td>
+									<td align="center">0,015048198</td>
+									<td align="center">12</td>
+									<td align="center">2,33333333</td>
+									<td align="center">0</td>
+									<td align="center">0,42857143</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Ureteral Calculi/epidemiology/<sup>*</sup>surgery</td>
+									<td align="center">0,04004379</td>
+									<td align="center">12</td>
+									<td align="center">1,96598639</td>
+									<td align="center">0</td>
+									<td align="center">0,50865052</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Substance-Related Disorders/<sup>*</sup>physiopathology</td>
+									<td align="center">0,022431524</td>
+									<td align="center">11</td>
+									<td align="center">2,02380952</td>
+									<td align="center">0</td>
+									<td align="center">0,49411765</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td align="left">Uterine Prolapse/<sup>*</sup>epidemiology/etiology</td>
+									<td align="center">0,011812069</td>
+									<td align="center">5</td>
+									<td align="center">2,03741497</td>
+									<td align="center">0</td>
+									<td align="center">0,49081803</td>
+									<td align="center">1</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN3">
+								<p>CVP: centralidad de valor propio; CG: centralidad de grado; PCMC: promedio de caminos más cortos; CI: centralidad de intermediación; CC: centralidad de cercanía;.CA: coeficiente de agrupamiento</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>En el <xref ref-type="table" rid="t3">cuadro 3</xref> se evidencia una excepción notable e interesante por sus posibles connotaciones; es el caso del HIV, cuyo rango en las distribuciones ordenadas por centralidad de intermediación fue bastante menor, es decir, de mayor importancia, que su rango en las distribuciones ordenadas por centralidad de grado o de cercanía.</p>
+			</sec>
+			<sec>
+				<title><italic>Red secundaria de enfermedad cardiovascular</italic></title>
+				<p>Como se aprecia en la <xref ref-type="fig" rid="f3">figura 3</xref>, en el caso de las enfermedades cardiovasculares (nodos en color rojo), se obtuvo una red secundaria con 205 nodos y 518 enlaces, que incluye información tanto para el término &quot;femenino&quot; <italic>(female)</italic> (centralidad de grado: 17) como para &quot;masculino&quot; <italic>(male)</italic> (centralidad de grado: 18), en los que no se aprecia una tendencia de conexión particular entre la enfermedad y el sexo.</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 3</label>
+						<caption>
+							<title>Red de enfermedades cardiacas. En esta red se aprecia la agrupación por nodos con colores ordenados para mostrar la conexión indirecta de los términos MeSH relacionados con los padecimientos cardiacos (en rojo) y aquellos que hacen referencia a términos de factores físicos, del sistema de salud, de los factores sociales determinantes y de otros (en colores azul claro, azul oscuro, amarillo o verde).</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-702-gf3.png"/>
+					</fig>
+				</p>
+				<p>Por otro lado, se aprecia un patrón de conexión indirecta, cada vez con una centralidad de grado menor entre los nodos rojos y los de color azul claro, azul oscuro, amarillo y verde, los cuales aluden a los factores de infancia, adolescencia, expectativa de vida, clase social, religión, derechos de las mujeres, derechos humanos, factores socioeconómicos, acceso a servicios de salud, acceso a servicios de salud de mujeres, estigma social, justicia social, características residenciales, políticas de salud, medicina de precisión, investigación biomédica y difusión de innovación.</p>
+				<p>Esta forma de relación indirecta sugiere una brecha entre la información sobre la enfermedad cardiovascular y otros factores que pueden incidir o modificar su manejo médico, como la etiología y el diagnóstico del dolor de pecho, la relación entre médico y paciente, la participación del paciente en lo relacionado con su salud, cuidados posquirúrgicos, manejo de la enfermedad, mortalidad hospitalaria, emergencias, pronóstico, tasa de supervivencia, prevención secundaria, cuidados preoperatorios, complicaciones posoperatorias y efectos adversos.</p>
+			</sec>
+			<sec>
+				<title><italic>Red emergente de la diferencia entre mujeres y hombres</italic></title>
+				<p>Del análisis de las redes semánticas secundarias se desprende que la red de mujeres tenía 277 nodos y 3.154 enlaces, y la de hombres, 237 nodos y 2.834 enlaces. Se determinaron, además, los términos que se encontraban en la red de mujeres y no en la de hombres, lo que evidenció una estructura con seis componentes compuestos de 40 nodos y 135 enlaces (<xref ref-type="fig" rid="f4">figura 4</xref>).</p>
+				<p>
+					<fig id="f4">
+						<label>Figura 4</label>
+						<caption>
+							<title>Red emergente. Esta red agrupa los nodos por colores y centralidades de grado (CG). Se reconstruyó a partir de la diferencia de nodos y vecinos de las redes secundarias de hombres y mujeres para conocer los términos incluidos en una y no en la otra según se aprecian en esta figura.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-702-gf4.png"/>
+					</fig>
+				</p>
+				<p>El componente de color azul con 9 centralidades de grado incluyó algunos términos relacionados con las diferencias culturales, los migrantes y las disparidades en el cuidado de la salud. En rojo, con 8 centralidades de grado, aparecieron términos sobre los derechos de las mujeres, la política pública y las disparidades en salud. En amarillo, con 7 centralidades de grado, se registraron términos relacionados con los servicios de salud para mujeres y la circuncisión femenina. En morado, con 5 centralidades de grado, aparecieron aquellos términos relacionados con África, el síndrome de inmunodeficiencia adquirida y algunos componentes del sistema nacional de atención médica y el acceso a él. En verde, con 4 centralidades de grado, se aprecian los términos relacionados con los centros de salud que brindan terapia o rehabilitación a personas dependientes de sustancias, México, y disparidades en el cuidado de la salud. Por último, en azul cian, con 1 centralidad de grado, solo hay dos términos: Nepal y prolapso uterino, lo que refleja su poca importancia por el reducido grado de conexión.</p>
+			</sec>
+			<sec>
+				<title>Modularidad</title>
+				<p>En la <xref ref-type="fig" rid="f5">figura 5</xref> se presentan los nodos intraconectados representativos de los MeSH. Se aprecian las comunidades de aquellos términos relacionados principalmente con factores de riesgo. Los enlaces y su grosor simbolizan el flujo de información (concurrencia) entre nodos. Las características topológicas de las redes secundarias correspondientes a la partición modular en comunidades se presentan en el <xref ref-type="table" rid="t4">cuadro 4</xref>.</p>
+				<p>
+					<fig id="f5">
+						<label>Figura 5</label>
+						<caption>
+							<title>Visualización modular de las principales comunidades y sus respectivas redes. Los círculos más grandes representan las comunidades que comparten más enlaces de información entre nodos. El nombre de las etiquetas de las comunidades corresponde al del nodo con el mayor PageRank.</title>
+						</caption>
+						<graphic xlink:href="2590-7379-bio-40-04-702-gf5.png"/>
+					</fig>
+				</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Cuadro 4</label>
+						<caption>
+							<title>Características topológicas de las redes secundarias correspondientes a la partición en comunidades</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Red</th>
+									<th align="center">Nodos</th>
+									<th align="center">Aristas</th>
+									<th align="center">Coeficiente de agrupamiento</th>
+									<th align="center">Longitud de camino</th>
+									<th align="center">Centralidad</th>
+									<th align="center">Número promedio de vecinos</th>
+									<th align="center">Densidad de red</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Edad mediana</td>
+									<td align="center">62</td>
+									<td align="center">552</td>
+									<td align="center">0,881</td>
+									<td align="center">1,723</td>
+									<td align="center">0,630</td>
+									<td align="center">17,806</td>
+									<td align="center">0,292</td>
+								</tr>
+								<tr>
+									<td align="left">Mujer</td>
+									<td align="center">19</td>
+									<td align="center">67</td>
+									<td align="center">0,848</td>
+									<td align="center">1,620</td>
+									<td align="center">0,618</td>
+									<td align="center">7,053</td>
+									<td align="center">0,392</td>
+								</tr>
+								<tr>
+									<td align="left">Factores de riesgo</td>
+									<td align="center">18</td>
+									<td align="center">153</td>
+									<td align="center">1,0</td>
+									<td align="center">1,0</td>
+									<td align="center">0,0</td>
+									<td align="center">17</td>
+									<td align="center">1,0</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>El componente más conectado en la <xref ref-type="fig" rid="f5">figura 5</xref>a fue la &quot;edad mediana&quot; con un IPR de 29 % y un flujo de información (FI) de 12 % (debe recordarse que, cuanto mayor el flujo de información de un módulo, mayor la coherencia interna de sus nodos, y que la suma de la información total en las redes implica que FI=1,0). Se registraron 62 nodos que representan los términos más relacionados con la edad y los factores socioeconómicos, la accesibilidad a los servicios de salud, los patrones de práctica médica, y otros conceptos relativos a la planificación de la asignación equitativa de los recursos de salud disponibles. Es interesante señalar que los patrones de conectividad de los nodos de una comunidad son característicos. Para hacerlos explícitos, se determinó un conjunto de medidas de centralidad y otros atributos topológicos de los nodos en el contexto de sus respectivas comunidades (cuadro suplementario 2).</p>
+				<p>En la <xref ref-type="fig" rid="f5">figura 5</xref>b se muestra la comunidad asociada con la condición de ser mujer (IPR=12 % y FI=10 %). Algunos de los 19 términos más relacionados con esta son: disparidad en salud, esperanza de vida, atención médica del parto, calidad de la asistencia sanitaria y HIV, entre otros (cuadro suplementario 3).</p>
+				<p>En la <xref ref-type="fig" rid="f5">figura 5</xref>c se presenta el módulo asociado con los factores de riesgo (IPR=7,9 % y FI=3,3 %) y 18 conceptos relacionados con la justicia social, la identidad de género, los derechos de las mujeres, el paternalismo, y la cultura, entre otros. Resulta interesante el papel poco destacado de estos temas en la literatura biomédica analizada (cuadro suplementario 4).</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<sec>
+				<title><italic>Minería computarizada de términos MeSH</italic></title>
+				<p>En concordancia con lo reportado en otros estudios, la minería computarizada tal como se empleó aquí ofrece métodos poderosos, rápidos y de bajo costo para la exploración masiva de textos científicos. La utilización de la ontología MeSH en lugar del texto completo no solo reduce el tiempo de cálculo matemático en algoritmos de concurrencia, sino que permite un mayor rendimiento en el análisis del conjunto de datos. Si se exploran adecuadamente, los términos MeSH permiten extraer con precisión características representativas de grandes cantidades de datos <xref ref-type="bibr" rid="B36"><sup>36</sup></xref>.</p>
+				<p>El procesamiento de un corpus de texto simple a un lenguaje natural respalda el diseño de mecanismos eficaces de comunicación computacional que son interpretados por programas que simulan el contenido semántico de los conceptos y favorecen la construcción de mapas de conectividad ontológica <xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. En este estudio sobre disparidades en salud, se construyeron redes semánticas para inferir la forma en que se reporta la información en algunos documentos científicos.</p>
+			</sec>
+			<sec>
+				<title><italic>Construcción de redes semánticas primarias y secundarias</italic></title>
+				<p>Como ya se mencionó en la introducción, las causas de las disparidades corresponden a múltiples factores <xref ref-type="bibr" rid="B38"><sup>38</sup></xref>. En la enfermedad cardiovascular, por ejemplo, aunque estas disparidades se han asociado con la atención médica y el manejo clínico, existen otros elementos que interactúan y pueden modificar la expresión de la enfermedad <xref ref-type="bibr" rid="B39"><sup>39</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B42"><sup>42</sup></xref>. Se ha reportado, asimismo, que las estructuras socioeconómicas y los sistemas sanitarios son responsables de algunas disparidades debidas al sexo en varios sentidos: al mostrar apatía para incidir y controlar factores de riesgo modificables, por la indiferencia en el reconocimiento de signos y síntomas, la insensibilidad frente al acceso y el uso de tratamientos químicos o quirúrgicos de última generación, o el desinterés por ayudar a la recuperación, pero, sobre todo, el rezago en la producción de información comprobada sobre el papel del sexo en la adopción de las decisiones clínicas y el desarrollo de políticas de mejoramiento de la calidad y la eficiencia de la atención cardiovascular de las mujeres <xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B44"><sup>44</sup></xref>.</p>
+				<p>Lo que se observó en la red principal sobre disparidades en salud y sexismo evidencia que los MeSH más frecuentes relativos a las condiciones médicas, se relacionaban con la enfermedad cardiovascular. Se determinaron 17 nodos, entre ellos, los siguientes MeSH: <italic>Cardiac Surgical Procedures, Myocardial Infarction, Acute Coronary Syndrome, Coronary Angiography, Coronary Artery Disease, Fibrinolytic Agents, Myocardial Revascularization, Percutaneous Coronary Intervention</italic> y <italic>Thrombolytic Therapy.</italic></p>
+				<p>Estos hallazgos se esperaban dado el incremento de las publicaciones científicas relacionadas con la enfermedad cardiovascular y el sexo femenino, especialmente porque la enfermedad coronaria, tradicionalmente considerada una enfermedad masculina, se ha convertido en una gran amenaza biológica, hormonal y genética para las mujeres <xref ref-type="bibr" rid="B45"><sup>45</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B46"><sup>46</sup></xref>.</p>
+				<p>En las últimas dos décadas, la investigación centrada en mujeres con riesgo de enfermedad isquémica del corazón ha ayudado a aclarar algunos de los factores específicos del sexo importantes en la prevención y detección temprana de disparidades en salud, especialmente en aquellas mujeres que están en desventaja social debido a su nivel de ingresos, su nivel educativo, y los factores ambientales y residenciales <xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+				<p>Por otro lado, la disparidad en la mortalidad por enfermedades cardiovasculares entre mujeres y hombres también ha impulsado la investigación específica por sexo, así como el desarrollo de directrices específicas y el inicio de campañas de sensibilización en Estados Unidos, tanto, que se reportó una sensible disminución del 39 % en las tasas de mortalidad por dichas enfermedades en las mujeres entre 1999 y 2011. A pesar de esta disminución, la carga de la enfermedad, la coexistencia con otras enfermedades y la prevalencia de los factores de riesgo siguen siendo altas <xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+				<p>Con el ejemplo de la red de MeSH relacionados con la enfermedad cardiovascular, se evidenció una aparente disonancia entre aquellos relacionados con la enfermedad y los que describen los factores sociales determinantes, los factores de riesgo, la edad, la actividad física y algunas comorbilidades. Este hecho lleva a pensar que la información sobre disparidades entre los factores biomédicos y el contexto social, continúa presentando vacíos, por lo menos en materia de evidencia científica <xref ref-type="bibr" rid="B43"><sup>43</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B47"><sup>47</sup></xref>.</p>
+				<p>Como se pudo apreciar tanto en la red principal de enfermedad cardiovascular como en la secundaria, coexisten términos asociados con otras enfermedades crónicas también relacionadas con las disparidades de sexo, lo que se suma a la creciente evidencia científica que sugiere que el sexo es un factor independiente que influye en la prevalencia de enfermedades como el cáncer, las enfermedades mentales, el HIV y el sida, así como en los efectos de los medicamentos, los efectos adversos y el manejo del dolor <xref ref-type="bibr" rid="B48"><sup>48</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B49"><sup>49</sup></xref>.</p>
+				<p>En cuanto a los factores de riesgo, se ha demostrado que, aunque los hombres y las mujeres comparten algunas características que aumentan su probabilidad de sufrir una enfermedad coronaria (tabaquismo, colesterol elevado, diabetes, estilo de vida sedentario, hipertensión, obesidad), varias de ellas son más agudas en las mujeres <xref ref-type="bibr" rid="B50"><sup>50</sup></xref>. Además, ciertos factores de riesgo específicos del sexo, como el inicio temprano de la menopausia, enfermedades inflamatorias como el lupus y la artritis reumatoide, y complicaciones del embarazo como la preeclampsia y la diabetes gestacional, se asocian con una mayor incidencia de enfermedades del corazón <xref ref-type="bibr" rid="B51"><sup>51</sup></xref>. Hasta el 50 % de la reducción de la mortalidad por enfermedades cardiovasculares se puede atribuir a la reducción de estos factores de riesgo, aunque el esfuerzo de sensibilización y detección temprana debe ser continuo si se quiere seguir reduciendo las tasas de mortalidad <xref ref-type="bibr" rid="B43"><sup>43</sup></xref>.</p>
+				<p>Los hallazgos de la red emergente de términos que solo se encontraron en la red secundaria de mujeres y no en la de hombres, confirma lo reportado en la literatura especializada: que la salud y el bienestar de las mujeres responden a una combinación de políticas de atención médica que inciden en el tipo de cobertura de los planes de salud y el acceso a servicios preventivos, de detección y tratamiento <xref ref-type="bibr" rid="B52"><sup>52</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B55"><sup>55</sup></xref>. Los resultados se ajustan parcialmente a los postulados del modelo biopsicosocial según el cual las enfermedades crónicas responden a factores biológicos, pero también, a las condiciones psicológicas y sociales <xref ref-type="bibr" rid="B56"><sup>56</sup></xref>.</p>
+				<p>Por otro lado, aunque los nodos de color azul cian de la red emergente parecen ser de poca importancia, el problema que evidencian no es menor. La organización de derechos humanos Amnistía Internacional ha señalado que alrededor del 10 % de las mujeres en Nepal ha experimentado un prolapso uterino debido a la discriminación de sexo. Además, estas mujeres cargan un fuerte estigma social y son señaladas como perezosas cuando están demasiado enfermas para trabajar, en pocas palabras, otra forma de disparidad en el cuidado de la salud <xref ref-type="bibr" rid="B57"><sup>57</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title>Modularidad</title>
+				<p>En cuanto al análisis topológico de la modularidad mediante el algoritmo Infomap, este permitió organizar muchos nodos según su distribución estructural en cada comunidad. Si bien la comunidad más conectada, la de &quot;edad mediana&quot; (IPR=29 % y FI=12 %), contenía dos de los principales términos relacionados con los factores de riesgo (edad y aspectos socioeconómicos), los términos relacionados con la calidad de la atención se destacaron más con este análisis que en el resto de las comunidades, por ejemplo, los relativos a la asignación equitativa de los recursos de salud disponibles, la justicia social y los derechos de las mujeres. Debe señalarse que, al igual que en la red principal, este fenómeno no solo se presenta asociado con los padecimientos cardiacos, sino también con otras comorbilidades.</p>
+				<p>Estos resultados concuerdan con lo informado en la literatura sobre los factores que influyen o modifican la calidad de la atención y las disparidades por sexo, entre los que se incluyen la mala comunicación entre paciente y médico, la cultura, las opiniones holísticas de la mente y el cuerpo, la priorización del manejo de los síntomas frente a la cura de la enfermedad y la participación de la familia en la adopción de decisiones médicas <xref ref-type="bibr" rid="B52"><sup>52</sup></xref>. Asimismo, los factores internos y externos del sistema de prestación de servicios de salud, como la falta de acceso a la atención médica oportuna y la escasa protección financiera, también pueden incidir en su calidad <xref ref-type="bibr" rid="B53"><sup>53</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B54"><sup>54</sup></xref>.</p>
+				<p>En cuanto a la comunidad relativa a la condición de ser mujer, también se observó una relación con términos sobre la calidad asistencial y el HIV, por ejemplo. Desde la aparición del HIV-sida la discriminación en los sistemas de salud sigue estando en el centro de las experiencias negativas de las personas con el virus <xref ref-type="bibr" rid="B58"><sup>58</sup></xref>. Por otro lado, sabemos que los síntomas clínicos y las complicaciones del HIV que experimentan las mujeres son diferentes a las de los hombres. Aun así, en una revisión del 2016 sobre la inclusión de las mujeres en las investigaciones sobre el HIV en los Estados Unidos, se encontró que estas solo representaban el 19,2 % de los participantes en los estudios antirretrovirales, el 38,1 % en los estudios de vacunación y el 11,1 % en aquellos que exploraban tratamientos <xref ref-type="bibr" rid="B59"><sup>59</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B60"><sup>60</sup></xref>. Este es otro ejemplo de disparidad en la atención en salud por actitudes sexistas, que se hizo incluso más evidente en el análisis de comunidades de términos MeSH adelantado en el presente estudio.</p>
+				<p>En conclusión, si se quiere contribuir a corregir las disparidades en salud, deben explorarse integralmente los mecanismos sociales, biológicos y clínicos que afectan a hombres y mujeres. Aunque las diferencias sexuales están cada vez mejor documentadas en la literatura biomédica, como se evidencia en los artículos sobre la prevalencia de los factores de riesgo cardiovascular, las condiciones fisiológicas y psicosociales, así como las manifestaciones clínicas y la incidencia de la enfermedad, los médicos insisten en referirse a la atención médica de la mujer como &quot;medicina de bikini&quot; asumiendo que pueden diagnosticar y tratar a ambos sexos de la misma manera <xref ref-type="bibr" rid="B61"><sup>61</sup></xref>. Esta tendencia también se percibe como una manera de perpetuar la disparidad en la calidad de la atención médica.</p>
+			</sec>
+			<sec>
+				<title><italic>Acerca del análisis de la literatura asistido por computador</italic></title>
+				<p>Dada la abrumadora cantidad de información disponible en las bases biomédicas de datos, es invaluable contar con un recurso que lea automáticamente la información y genere patrones de visualización de los conceptos y las asociaciones, especialmente para los responsables de las decisiones. En este sentido, el presente estudio demuestra la utilidad de un novedoso método basado en la búsqueda rápida y masiva de evidencia científica mediante redes semánticas de términos MeSH.</p>
+				<p>En la práctica, la determinación de módulos o comunidades es fundamental para inferir relaciones entre los MeSH a partir de la topología de redes semánticas, y puede ser una guía confiable para futuros estudios sobre disparidades en salud y sexismo, así como para profundizar en sus implicaciones teóricas. Los análisis hechos aquí revelaron algunos aspectos esenciales del fenómeno estudiado que, aparentemente, se han pasado por alto de manera reiterada, lo que ha profundizado aún más la brecha que hay que cerrar para pasar de la discusión de estas desigualdades a la formulación de políticas de salud pública para atenderlas a partir de un enfoque social centrado en el individuo.</p>
+				<p>Puede decirse que la investigación que examina la información relacionada con los dos sexos en su contexto social amplía la posibilidad de extrapolar los resultados y de aplicarlos en el ámbito médico y clínico <xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Lo contrario llevaría a interpretaciones erróneas en torno a las decisiones y los comportamientos sociales frente a la salud y la enfermedad, con consecuencias negativas para la provisión de los servicios y la formulación de políticas de salud e, incuso, para la lucha contra estructuras de poder (incluidas las jerarquías del conocimiento), que perpetúan la inequidad y la mala salud <xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+			</sec>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Payne S. The health of women and girls: How can we address gender equality and gender equity? Semin Reprod Med. 2015;33:53-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-0034-1395280">https://doi.org/10.1055/s-0034-1395280</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Payne</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>The health of women and girls: How can we address gender equality and gender equity?</article-title>
+					<source>Semin Reprod Med</source>
+					<year>2015</year>
+					<issue>33</issue>
+					<fpage>53</fpage>
+					<lpage>60</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-0034-1395280">https://doi.org/10.1055/s-0034-1395280</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Davies SE, Harman S, Manjoo R, Tanyag M, Wenham C. Why it must be a feminist global health agenda. Lancet. 2019;393:601-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)32472-3">https://doi.org/10.1016/S0140-6736(18)32472-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Davies</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Harman</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Manjoo</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Tanyag</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Wenham</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Why it must be a feminist global health agenda</article-title>
+					<source>Lancet</source>
+					<year>2019</year>
+					<issue>393</issue>
+					<fpage>601</fpage>
+					<lpage>603</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)32472-3">https://doi.org/10.1016/S0140-6736(18)32472-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Schopper M, Irnich D. Gender and its implications for cardiothoracic perioperative care and anesthesia. Thorac Cardiovasc Surg. 2013;61:7-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-0032-1331038">https://doi.org/10.1055/s-0032-1331038</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schopper</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Irnich</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Gender and its implications for cardiothoracic perioperative care and anesthesia</article-title>
+					<source>Thorac Cardiovasc Surg</source>
+					<year>2013</year>
+					<issue>61</issue>
+					<fpage>7</fpage>
+					<lpage>14</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-0032-1331038">https://doi.org/10.1055/s-0032-1331038</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Glymour MM, Spiegelman D. Evaluating public health interventions: 5. Causal inference in public health research - Do sex, race, and biological factors cause health outcomes? Am J Public Health. 2017;107:81-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2016.303539">https://doi.org/10.2105/AJPH.2016.303539</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Glymour</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Spiegelman</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluating public health interventions: 5. Causal inference in public health research - Do sex, race, and biological factors cause health outcomes?</article-title>
+					<source>Am J Public Health</source>
+					<year>2017</year>
+					<issue>107</issue>
+					<fpage>81</fpage>
+					<lpage>85</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2016.303539">https://doi.org/10.2105/AJPH.2016.303539</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Stewart M, Kushner KE, Gray J, Hart DA. Promoting gender equity through health research: Impacts and insights from a Canadian initiative. Glob Health Promot. 2013;20:25-38. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1757975913476903">https://doi.org/10.1177/1757975913476903</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stewart</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kushner</surname>
+							<given-names>KE</given-names>
+						</name>
+						<name>
+							<surname>Gray</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hart</surname>
+							<given-names>DA</given-names>
+						</name>
+					</person-group>
+					<article-title>Promoting gender equity through health research: Impacts and insights from a Canadian initiative</article-title>
+					<source>Glob Health Promot</source>
+					<year>2013</year>
+					<issue>20</issue>
+					<fpage>25</fpage>
+					<lpage>38</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1757975913476903">https://doi.org/10.1177/1757975913476903</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Heidari S, Babor TF, De Castro P, Tort S, Curno M. Sex and gender equity in research: Rationale for the SAGER guidelines and recommended use. Res Integr Peer Rev. 2016;1:2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s41073-016-0007-6">https://doi.org/10.1186/s41073-016-0007-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Heidari</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Babor</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>De Castro</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Tort</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Curno</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Sex and gender equity in research: Rationale for the SAGER guidelines and recommended use</article-title>
+					<source>Res Integr Peer Rev</source>
+					<year>2016</year>
+					<issue>1</issue>
+					<fpage>2</fpage>
+					<lpage>2</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s41073-016-0007-6">https://doi.org/10.1186/s41073-016-0007-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Potterat MM, Monnin Y, Pechére A, Guessous I. Women, forgotten by clinical research. Rev Med Suisse. 2015;11:1733-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Potterat</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Monnin</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Pechére</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Guessous</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Women, forgotten by clinical research</article-title>
+					<source>Rev Med Suisse</source>
+					<year>2015</year>
+					<issue>11</issue>
+					<fpage>1733</fpage>
+					<lpage>1736</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Hamberg K. Gender bias in medicine. Womens Health. 2008;4:237-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2217/17455057.4.3.237">https://doi.org/10.2217/17455057.4.3.237</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hamberg</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Gender bias in medicine</article-title>
+					<source>Womens Health</source>
+					<year>2008</year>
+					<issue>4</issue>
+					<fpage>237</fpage>
+					<lpage>243</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2217/17455057.4.3.237">https://doi.org/10.2217/17455057.4.3.237</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Sugimoto CR, Ahn YY, Smith E, Macaluso B, Lariviére V. Factors affecting sex-related reporting in medical research: A cross-disciplinary bibliometric analysis. Lancet. 2019;393:550-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)32995-7">https://doi.org/10.1016/S0140-6736(18)32995-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sugimoto</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Ahn</surname>
+							<given-names>YY</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Macaluso</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lariviére</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors affecting sex-related reporting in medical research: A cross-disciplinary bibliometric analysis</article-title>
+					<source>Lancet</source>
+					<year>2019</year>
+					<issue>393</issue>
+					<fpage>550</fpage>
+					<lpage>559</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)32995-7">https://doi.org/10.1016/S0140-6736(18)32995-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ward PR, Meyer SB, Verity F, Gill TK, Luong TC. Complex problems require complex solutions: The utility of social quality theory for addressing the Social Determinants of Health. BMC Public Health. 2011;11:630. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-11-630">https://doi.org/10.1186/1471-2458-11-630</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ward</surname>
+							<given-names>PR</given-names>
+						</name>
+						<name>
+							<surname>Meyer</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Verity</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gill</surname>
+							<given-names>TK</given-names>
+						</name>
+						<name>
+							<surname>Luong</surname>
+							<given-names>TC</given-names>
+						</name>
+					</person-group>
+					<article-title>Complex problems require complex solutions: The utility of social quality theory for addressing the Social Determinants of Health</article-title>
+					<source>BMC Public Health</source>
+					<year>2011</year>
+					<issue>11</issue>
+					<fpage>630</fpage>
+					<lpage>630</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-11-630">https://doi.org/10.1186/1471-2458-11-630</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Diderichsen F, Evans T, Whitehead M. Bases sociales de las disparidades en salud. En: Evans T, editor. Desafío a la falta de equidad en la salud. Washington: OPS/Fundación Rockefeller; 2002. p.13-26,185-205.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Diderichsen</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Evans</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Whitehead</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Bases sociales de las disparidades en salud</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Evans</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>Desafío a la falta de equidad en la salud</source>
+					<publisher-loc>Washington</publisher-loc>
+					<publisher-name>OPS/Fundación Rockefeller</publisher-name>
+					<year>2002</year>
+					<fpage>13</fpage>
+					<lpage>185-205</lpage>
+					<page-range>13-26,185-205</page-range>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Sen G, George A, Óstlin P. The case for gender equity in health research. J Health Manag. 2002;4:99-117.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sen</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>George</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Óstlin</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>The case for gender equity in health research</article-title>
+					<source>J Health Manag</source>
+					<year>2002</year>
+					<issue>4</issue>
+					<fpage>99</fpage>
+					<lpage>117</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Sakaguchi AM. Health equities worldwide. J Health Polit Policy Law. 2003;28:552-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sakaguchi</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<article-title>Health equities worldwide</article-title>
+					<source>J Health Polit Policy Law</source>
+					<year>2003</year>
+					<issue>28</issue>
+					<fpage>552</fpage>
+					<lpage>556</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Graham H. Unequal lives: Health and socioeconomic inequalities. Maidenhead: McGraw-Hill Education; 2007. p. 82-113.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Graham</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<source>Unequal lives: Health and socioeconomic inequalities</source>
+					<publisher-loc>Maidenhead</publisher-loc>
+					<publisher-name>McGraw-Hill Education</publisher-name>
+					<year>2007</year>
+					<fpage>82</fpage>
+					<lpage>113</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Golden TL, Wendel ML. Public health's next step in advancing equity: Re-evaluating epistemological assumptions to move social determinants from theory to practice. Front Public Health. 2020;8:131. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpubh.2020.00131">https://doi.org/10.3389/fpubh.2020.00131</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Golden</surname>
+							<given-names>TL</given-names>
+						</name>
+						<name>
+							<surname>Wendel</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Public health's next step in advancing equity: Re-evaluating epistemological assumptions to move social determinants from theory to practice</article-title>
+					<source>Front Public Health</source>
+					<year>2020</year>
+					<issue>8</issue>
+					<fpage>131</fpage>
+					<lpage>131</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpubh.2020.00131">https://doi.org/10.3389/fpubh.2020.00131</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Piccini P, Montagnani C, de Martino M. Gender disparity in pediatrics: A review of the current literature. Ital J Pediatr. 2018;44:1-6 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13052-017-0437-x">https://doi.org/10.1186/s13052-017-0437-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Piccini</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Montagnani</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>de Martino</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Gender disparity in pediatrics: A review of the current literature</article-title>
+					<source>Ital J Pediatr</source>
+					<year>2018</year>
+					<issue>44</issue>
+					<fpage>1</fpage>
+					<lpage>6</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13052-017-0437-x">https://doi.org/10.1186/s13052-017-0437-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Martínez-García M, Salinas-Ortega M, Estrada-Arriaga I, Hernández-Lemus E, García-Herrera R, Vallejo M. A systematic approach to analyze the social determinants of cardiovascular disease. PLoS ONE. 2018;13:e0190960. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0190960">https://doi.org/10.1371/journal.pone.0190960</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martínez-García</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Salinas-Ortega</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Estrada-Arriaga</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Lemus</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>García-Herrera</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Vallejo</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic approach to analyze the social determinants of cardiovascular disease</article-title>
+					<source>PLoS ONE</source>
+					<year>2018</year>
+					<issue>13</issue>
+					<elocation-id>e0190960</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0190960">https://doi.org/10.1371/journal.pone.0190960</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Martínez-García M, Vallejo M, Hernández-Lemus E, Álvarez-Díaz JA. Novel methods of qualitative analysis for health policy research. Health Res Policy Syst. 2019;17:6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12961-018-0404-z">https://doi.org/10.1186/s12961-018-0404-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martínez-García</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Vallejo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Lemus</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Álvarez-Díaz</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Novel methods of qualitative analysis for health policy research</article-title>
+					<source>Health Res Policy Syst</source>
+					<year>2019</year>
+					<issue>17</issue>
+					<fpage>6</fpage>
+					<lpage>6</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12961-018-0404-z">https://doi.org/10.1186/s12961-018-0404-z</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Perl Y, Chen Z, Halper M, Geller J, Zhang L, Peng Y. The cohesive metaschema: A higher-level abstraction of the UMLS Semantic Network. J Biomed Inform. 2002;35:194-212. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s1532-0464(02)00528-2">https://doi.org/10.1016/s1532-0464(02)00528-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Perl</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Halper</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Geller</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>The cohesive metaschema: A higher-level abstraction of the UMLS Semantic Network</article-title>
+					<source>J Biomed Inform</source>
+					<year>2002</year>
+					<issue>35</issue>
+					<fpage>194</fpage>
+					<lpage>212</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s1532-0464(02)00528-2">https://doi.org/10.1016/s1532-0464(02)00528-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Siqueiros-García JM, Hernández-Lemus E, García-Herrera R, Robina-Galatas A. Mapping the structure and dynamics of genomics-related MeSH terms complex networks. PLoS ONE. 2014;9:e92639. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0092639">https://doi.org/10.1371/journal.pone.0092639</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Siqueiros-García</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Lemus</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>García-Herrera</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Robina-Galatas</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Mapping the structure and dynamics of genomics-related MeSH terms complex networks</article-title>
+					<source>PLoS ONE</source>
+					<year>2014</year>
+					<issue>9</issue>
+					<elocation-id>e92639</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0092639">https://doi.org/10.1371/journal.pone.0092639</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Barabási AL. Network science. Cambridge, UK: Cambridge University Press; 2016. p. 45-50.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barabási</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<source>Network science</source>
+					<publisher-loc>Cambridge, UK</publisher-loc>
+					<publisher-name>Cambridge University Press</publisher-name>
+					<year>2016</year>
+					<fpage>45</fpage>
+					<lpage>50</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Tang L, Bie B, Zhi D. Tweeting about measles during stages of an outbreak: A semantic network approach to the framing of an emerging infectious disease. Am J Infect Control. 2018;46:1375-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajic.2018.05.019">https://doi.org/10.1016/j.ajic.2018.05.019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bie</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zhi</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Tweeting about measles during stages of an outbreak: A semantic network approach to the framing of an emerging infectious disease</article-title>
+					<source>Am J Infect Control</source>
+					<year>2018</year>
+					<issue>46</issue>
+					<fpage>1375</fpage>
+					<lpage>1380</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajic.2018.05.019">https://doi.org/10.1016/j.ajic.2018.05.019</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Utsumi A. A complex network approach to distributional semantic models. PLoS ONE. 2015;10:e0136277. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0136277">https://doi.org/10.1371/journal.pone.0136277</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Utsumi</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>A complex network approach to distributional semantic models</article-title>
+					<source>PLoS ONE</source>
+					<year>2015</year>
+					<issue>10</issue>
+					<elocation-id>e0136277</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0136277">https://doi.org/10.1371/journal.pone.0136277</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Theodosiou T, Vizirianakis IS, Angelis L, Tsaftaris A, Darzentas N. MeSHy: Mining unanticipated PubMed information using frequencies of occurrences and concurrences of MeSH terms. J Biomed Inform. 2011;44:919-926. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/|.jbi.2011.05.009">https://doi.org/10.1016/|.jbi.2011.05.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Theodosiou</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Vizirianakis</surname>
+							<given-names>IS</given-names>
+						</name>
+						<name>
+							<surname>Angelis</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tsaftaris</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Darzentas</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>MeSHy: Mining unanticipated PubMed information using frequencies of occurrences and concurrences of MeSH terms</article-title>
+					<source>J Biomed Inform</source>
+					<year>2011</year>
+					<issue>44</issue>
+					<fpage>919</fpage>
+					<lpage>926</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/|.jbi.2011.05.009">https://doi.org/10.1016/|.jbi.2011.05.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Yang H, Lee HJ. Research trend visualization by MeSH terms from PubMed. Int J Environ Res Public Health. 2018;15:11-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph15061113">https://doi.org/10.3390/ijerph15061113</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>HJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Research trend visualization by MeSH terms from PubMed</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2018</year>
+					<issue>15</issue>
+					<fpage>11</fpage>
+					<lpage>13</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph15061113">https://doi.org/10.3390/ijerph15061113</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Zhang H, Fiszman M, Shin D, Miller CM, Rosemblat G, Rindflesch TC. Degree centrality for semantic abstraction summarization of therapeutic studies. J Biomed Inform. 2011;44:830-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jbi.2011.05.001">https://doi.org/10.1016/j.jbi.2011.05.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Fiszman</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Rosemblat</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Rindflesch</surname>
+							<given-names>TC</given-names>
+						</name>
+					</person-group>
+					<article-title>Degree centrality for semantic abstraction summarization of therapeutic studies</article-title>
+					<source>J Biomed Inform</source>
+					<year>2011</year>
+					<issue>44</issue>
+					<fpage>830</fpage>
+					<lpage>838</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jbi.2011.05.001">https://doi.org/10.1016/j.jbi.2011.05.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Ruiz JB, Barnett GA. Exploring the presentation of HPV information online: A semantic network analysis of websites. Vaccine. 2015;33:3354-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vaccine.2015.05.017">https://doi.org/10.1016/j.vaccine.2015.05.017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruiz</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Barnett</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>Exploring the presentation of HPV information online: A semantic network analysis of websites</article-title>
+					<source>Vaccine</source>
+					<year>2015</year>
+					<issue>33</issue>
+					<fpage>3354</fpage>
+					<lpage>3359</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vaccine.2015.05.017">https://doi.org/10.1016/j.vaccine.2015.05.017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Zemla JC, Austerweil JL. Modeling semantic fluency data as search on a semantic network. Cogsci. 2017;2017:3646-51.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zemla</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Austerweil</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<article-title>Modeling semantic fluency data as search on a semantic network</article-title>
+					<source>Cogsci</source>
+					<year>2017</year>
+					<issue>2017</issue>
+					<fpage>3646</fpage>
+					<lpage>3651</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Kohl M, Wiese S, Warscheid B. Cytoscape: Software for visualization and analysis of biological networks. Methods Mol Biol. 2011;696:291-303. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-1-60761-987-118">https://doi.org/10.1007/978-1-60761-987-118</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kohl</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Wiese</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Warscheid</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Cytoscape: Software for visualization and analysis of biological networks</article-title>
+					<source>Methods Mol Biol</source>
+					<year>2011</year>
+					<issue>696</issue>
+					<fpage>291</fpage>
+					<lpage>303</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-1-60761-987-118">https://doi.org/10.1007/978-1-60761-987-118</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Alcalá-Corona SA, Espinal-Enríquez J, de Anda-Jáuregui G, Hernández-Lemus E. The Hierarchical Modular Structure of HER2+ Breast Cancer Network. Front Physiol. 2018;9:1423. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fphys.2018.01423">https://doi.org/10.3389/fphys.2018.01423</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alcalá-Corona</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Espinal-Enríquez</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<name>
+							<surname>de Anda-Jáuregui</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hernández-Lemus</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>The Hierarchical Modular Structure of HER2+ Breast Cancer Network</article-title>
+					<source>Front Physiol</source>
+					<year>2018</year>
+					<issue>9</issue>
+					<fpage>1423</fpage>
+					<lpage>1423</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fphys.2018.01423">https://doi.org/10.3389/fphys.2018.01423</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Alcalá-Corona SA, de Anda-Jáuregui G, Espinal-Enríquez J, Tovar H, Hernández-Lemus E. Network modularity and hierarchical structure in breast cancer molecular subtypes. En: Morales A, Gershenson C, Braha D, Minai A, Bar-Yam Y, editors. Unifying themes in complex systems IX. Springer Proceedings in Complexity. Cambridge: Springer International Publishing; 2018. p. 352-8.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alcalá-Corona</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>de Anda-Jáuregui</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Espinal-Enríquez</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Tovar</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Lemus</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Network modularity and hierarchical structure in breast cancer molecular subtypes</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morales</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gershenson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Braha</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Minai</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bar-Yam</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<source>Unifying themes in complex systems IX. Springer Proceedings in Complexity</source>
+					<publisher-loc>Cambridge</publisher-loc>
+					<publisher-name>Springer International Publishing</publisher-name>
+					<year>2018</year>
+					<fpage>352</fpage>
+					<lpage>358</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Riolo MA, Newman MEJ. Consistency of community structure in complex networks. Physical Review E. 2020;101.5:052306.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Riolo</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Newman</surname>
+							<given-names>MEJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Consistency of community structure in complex networks</article-title>
+					<source>Physical Review E</source>
+					<year>2020</year>
+					<issue>101</issue>
+					<volume>5</volume>
+					<fpage>052306</fpage>
+					<lpage>052306</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Rosvall M, Bergstrom CT. Maps of random walks on complex networks reveal community structure. Proc Natl Acad Sci USA. 2008;105:1118-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.0706851105">https://doi.org/10.1073/pnas.0706851105</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosvall</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bergstrom</surname>
+							<given-names>CT</given-names>
+						</name>
+					</person-group>
+					<article-title>Maps of random walks on complex networks reveal community structure</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<year>2008</year>
+					<issue>105</issue>
+					<fpage>1118</fpage>
+					<lpage>1123</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.0706851105">https://doi.org/10.1073/pnas.0706851105</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Bohlin L, Edler D, Lancichinetti A, Rosvall M. Community detection and visualization of networks with the map equation framework. En: Ding Y, Rousseau R, Wolfram D, editors. Measuring Scholarly Impact. Cambridge: Springer International Publishing ; 2014. p. 3-34.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bohlin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Edler</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lancichinetti</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rosvall</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Community detection and visualization of networks with the map equation framework</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ding</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Rousseau</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Wolfram</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<source>Measuring Scholarly Impact</source>
+					<publisher-loc>Cambridge</publisher-loc>
+					<publisher-name>Springer International Publishing</publisher-name>
+					<year>2014</year>
+					<fpage>3</fpage>
+					<lpage>34</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Rosvall M, Axelsson D, Bergstrom CT. The map equation. Eur Phys J Spec Top. 2009;178:13-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1140/epjst/e2010-01179-1">https://doi.org/10.1140/epjst/e2010-01179-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosvall</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Axelsson</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bergstrom</surname>
+							<given-names>CT</given-names>
+						</name>
+					</person-group>
+					<article-title>The map equation</article-title>
+					<source>Eur Phys J Spec Top</source>
+					<year>2009</year>
+					<issue>178</issue>
+					<fpage>13</fpage>
+					<lpage>23</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1140/epjst/e2010-01179-1">https://doi.org/10.1140/epjst/e2010-01179-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Renganathan V. Text mining in biomedical domain with emphasis on document clustering. Healthc Inform Res. 2017;23:141-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4258/hir.2017.23.3.141">https://doi.org/10.4258/hir.2017.23.3.141</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Renganathan</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Text mining in biomedical domain with emphasis on document clustering</article-title>
+					<source>Healthc Inform Res</source>
+					<year>2017</year>
+					<issue>23</issue>
+					<fpage>141</fpage>
+					<lpage>146</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4258/hir.2017.23.3.141">https://doi.org/10.4258/hir.2017.23.3.141</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Simon C, Davidsen K, Hansen C, Seymour E, Barnkob MB, Olsen LR. BioReader: A text mining tool for performing classification of biomedical literature. BMC Bioinformatics. 2019;19(Suppl.13):57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12859-019-2607-x">https://doi.org/10.1186/s12859-019-2607-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Simon</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Davidsen</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Hansen</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Seymour</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Barnkob</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Olsen</surname>
+							<given-names>LR</given-names>
+						</name>
+					</person-group>
+					<article-title>BioReader: A text mining tool for performing classification of biomedical literature</article-title>
+					<source>BMC Bioinformatics</source>
+					<year>2019</year>
+					<issue>19</issue>
+					<supplement>13</supplement>
+					<fpage>57</fpage>
+					<lpage>57</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12859-019-2607-x">https://doi.org/10.1186/s12859-019-2607-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Araújo C, Pereira M, Laszczyñska O, Dias P, Azevedo A. Sex-related inequalities in management of patients with acute coronary syndrome-results from the EURHOBOP study. Int J Clin Pract. 2018;72:1-10. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ijcp.13049">https://doi.org/10.1111/ijcp.13049</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Araújo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Laszczyñska</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Dias</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Azevedo</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Sex-related inequalities in management of patients with acute coronary syndrome-results from the EURHOBOP study</article-title>
+					<source>Int J Clin Pract</source>
+					<year>2018</year>
+					<issue>72</issue>
+					<fpage>1</fpage>
+					<lpage>10</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ijcp.13049">https://doi.org/10.1111/ijcp.13049</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Nestler DM, Gilani WI, Anderson RT, Bellolio MF, Branda ME, LeBlanc A, <italic>et al</italic>. Does gender bias in cardiac stress testing still exist? A videographic analysis nested in a randomized controlled trial. Am J Emerg Med. 2017;35:29-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajem.2016.09.054">https://doi.org/10.1016/j.ajem.2016.09.054</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nestler</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Gilani</surname>
+							<given-names>WI</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>RT</given-names>
+						</name>
+						<name>
+							<surname>Bellolio</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Branda</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>LeBlanc</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Does gender bias in cardiac stress testing still exist? A videographic analysis nested in a randomized controlled trial</article-title>
+					<source>Am J Emerg Med</source>
+					<year>2017</year>
+					<issue>35</issue>
+					<fpage>29</fpage>
+					<lpage>35</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajem.2016.09.054">https://doi.org/10.1016/j.ajem.2016.09.054</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Jortveit J, Govatsmark RE, Langorgen J, Hole T, Mannsverk J, Olsen S, <italic>et al</italic>. Gender differences in the assessment and treatment of myocardial infarction. Tidsskr Nor Laegeforen. 2016;136:1215-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4045/tidsskr.16.0224">https://doi.org/10.4045/tidsskr.16.0224</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jortveit</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Govatsmark</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Langorgen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hole</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mannsverk</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Olsen</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Gender differences in the assessment and treatment of myocardial infarction</article-title>
+					<source>Tidsskr Nor Laegeforen</source>
+					<year>2016</year>
+					<issue>136</issue>
+					<fpage>1215</fpage>
+					<lpage>1222</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4045/tidsskr.16.0224">https://doi.org/10.4045/tidsskr.16.0224</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Aaberge L. Equal treatment for myocardial infarction patients? Likeverdig behandling ved hjerteinfarkt? Tidsskr Nor Laegeforen. 2016;136:1181. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4045/tidsskr.16.0532">https://doi.org/10.4045/tidsskr.16.0532</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aaberge</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Equal treatment for myocardial infarction patients? Likeverdig behandling ved hjerteinfarkt?</article-title>
+					<source>Tidsskr Nor Laegeforen</source>
+					<year>2016</year>
+					<issue>136</issue>
+					<fpage>1181</fpage>
+					<lpage>1181</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4045/tidsskr.16.0532">https://doi.org/10.4045/tidsskr.16.0532</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Leurent G, Garlantézec R, Auffret V, Hacot JP, Coudert I, Filippi E, <italic>et al</italic>. Gender differences in presentation, management and inhospital outcome in patients with ST-segment elevation myocardial infarction: Data from 5000 patients included in the ORBI prospective French regional registry. Arch Cardiovasc Dis. 2014;107:291-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.acvd.2014.04.005">https://doi.org/10.1016/j.acvd.2014.04.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leurent</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Garlantézec</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Auffret</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Hacot</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Coudert</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Filippi</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Gender differences in presentation, management and inhospital outcome in patients with ST-segment elevation myocardial infarction: Data from 5000 patients included in the ORBI prospective French regional registry</article-title>
+					<source>Arch Cardiovasc Dis</source>
+					<year>2014</year>
+					<issue>107</issue>
+					<fpage>291</fpage>
+					<lpage>298</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.acvd.2014.04.005">https://doi.org/10.1016/j.acvd.2014.04.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Rosen SE, Henry S, Bond R, Pearte C, Mieres JH. Sex-specific disparities in risk factors for coronary heart disease. Curr Atheroscler Rep. 2015;17:49. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11883-015-0523-8">https://doi.org/10.1007/s11883-015-0523-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosen</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Henry</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bond</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pearte</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Mieres</surname>
+							<given-names>JH</given-names>
+						</name>
+					</person-group>
+					<article-title>Sex-specific disparities in risk factors for coronary heart disease</article-title>
+					<source>Curr Atheroscler Rep</source>
+					<year>2015</year>
+					<issue>17</issue>
+					<fpage>49</fpage>
+					<lpage>49</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11883-015-0523-8">https://doi.org/10.1007/s11883-015-0523-8</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Woodward M. Cardiovascular disease and the female disadvantage. Int J Environ Res Public Health . 2019;16:1165. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16071165">https://doi.org/10.3390/ijerph16071165</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Woodward</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Cardiovascular disease and the female disadvantage</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2019</year>
+					<issue>16</issue>
+					<fpage>1165</fpage>
+					<lpage>1165</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16071165">https://doi.org/10.3390/ijerph16071165</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Humphries K, Izadnegahdar M, Sedlak T, Saw J, Johnston N, Schenck-Gustafsson K, <italic>et al</italic>. Sex differences in cardiovascular disease-Impact on care and outcomes. Front Neuroendocrinol. 2017;46:46-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.yfrne.2017.04.001">https://doi.org/10.1016/j.yfrne.2017.04.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Humphries</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Izadnegahdar</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sedlak</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Saw</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Johnston</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Schenck-Gustafsson</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sex differences in cardiovascular disease-Impact on care and outcomes</article-title>
+					<source>Front Neuroendocrinol</source>
+					<year>2017</year>
+					<issue>46</issue>
+					<fpage>46</fpage>
+					<lpage>70</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.yfrne.2017.04.001">https://doi.org/10.1016/j.yfrne.2017.04.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Kane AE, Howlett SE. Differences in cardiovascular aging in men and women. Adv Exp Med Biol. 2018;1065:389-411. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-77932-4 25">https://doi.org/10.1007/978-3-319-77932-4 25</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kane</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Howlett</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<article-title>Differences in cardiovascular aging in men and women</article-title>
+					<source>Adv Exp Med Biol</source>
+					<year>2018</year>
+					<issue>1065</issue>
+					<fpage>389</fpage>
+					<lpage>411</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-77932-4 25">https://doi.org/10.1007/978-3-319-77932-4 25</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Lundberg GP, Mehta LS, Sanghani RM, Patel HN, Aggarwal NR, Aggarwalet NT, <italic>et al</italic>. Heart centers for women: Historical perspective on formation and future strategies to reduce cardiovascular disease. Circulation. 2018;138:1155-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/CIRCULATIONAHA.118.035351">https://doi.org/10.1161/CIRCULATIONAHA.118.035351</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lundberg</surname>
+							<given-names>GP</given-names>
+						</name>
+						<name>
+							<surname>Mehta</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Sanghani</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>HN</given-names>
+						</name>
+						<name>
+							<surname>Aggarwal</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>Aggarwalet</surname>
+							<given-names>NT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Heart centers for women: Historical perspective on formation and future strategies to reduce cardiovascular disease</article-title>
+					<source>Circulation</source>
+					<year>2018</year>
+					<issue>138</issue>
+					<fpage>1155</fpage>
+					<lpage>1165</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/CIRCULATIONAHA.118.035351">https://doi.org/10.1161/CIRCULATIONAHA.118.035351</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Goss PE, Strasser-Weippl K, Lee-Bychkovsky BL, Fan L, Li J, Chavarri-Guerra Y, <italic>et al</italic>. Challenges to effective cancer control in China, India, and Russia. Lancet Oncol. 2014;15:489-538. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(14)70029-4">https://doi.org/10.1016/S1470-2045(14)70029-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goss</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Strasser-Weippl</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Lee-Bychkovsky</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Chavarri-Guerra</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Challenges to effective cancer control in China, India, and Russia</article-title>
+					<source>Lancet Oncol</source>
+					<year>2014</year>
+					<issue>15</issue>
+					<fpage>489</fpage>
+					<lpage>538</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(14)70029-4">https://doi.org/10.1016/S1470-2045(14)70029-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. Thiels CA, Holst KA, Ubl DS, McKenzie TJ, Zielinski MD, Farley DR, <italic>et al</italic>. Gender disparities in the utilization of laparoscopic groin hernia repair. J Surg Res. 2017;210:59-68. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jss.2016.10.028">https://doi.org/10.1016/j.jss.2016.10.028</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thiels</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Holst</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Ubl</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>McKenzie</surname>
+							<given-names>TJ</given-names>
+						</name>
+						<name>
+							<surname>Zielinski</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Farley</surname>
+							<given-names>DR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Gender disparities in the utilization of laparoscopic groin hernia repair</article-title>
+					<source>J Surg Res</source>
+					<year>2017</year>
+					<issue>210</issue>
+					<fpage>59</fpage>
+					<lpage>68</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jss.2016.10.028">https://doi.org/10.1016/j.jss.2016.10.028</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Appelman Y, van Rijn BB, Monique E, Boersma E, Peters SA. Sex differences in cardiovascular risk factors and disease prevention. Atherosclerosis. 2015;241:211-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.atherosclerosis.2015.01.027">https://doi.org/10.1016/j.atherosclerosis.2015.01.027</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Appelman</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>van Rijn</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Monique</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Boersma</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Peters</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>Sex differences in cardiovascular risk factors and disease prevention</article-title>
+					<source>Atherosclerosis</source>
+					<year>2015</year>
+					<issue>241</issue>
+					<fpage>211</fpage>
+					<lpage>218</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.atherosclerosis.2015.01.027">https://doi.org/10.1016/j.atherosclerosis.2015.01.027</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51. Young L, Cho L. Unique cardiovascular risk factors in women. Heart. 2019;105:1656-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/heartjnl-2018-314268">https://doi.org/10.1136/heartjnl-2018-314268</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Young</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Cho</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Unique cardiovascular risk factors in women</article-title>
+					<source>Heart</source>
+					<year>2019</year>
+					<issue>105</issue>
+					<fpage>1656</fpage>
+					<lpage>1660</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/heartjnl-2018-314268">https://doi.org/10.1136/heartjnl-2018-314268</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>52. Mensah GA. Health and health care disparities in cancer and cardiovascular diseases -learning from one to improve the other. Ethn Dis. 2018;28:133-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18865/ed.28.3.133">https://doi.org/10.18865/ed.28.3.133</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mensah</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>Health and health care disparities in cancer and cardiovascular diseases -learning from one to improve the other</article-title>
+					<source>Ethn Dis</source>
+					<year>2018</year>
+					<issue>28</issue>
+					<fpage>133</fpage>
+					<lpage>134</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18865/ed.28.3.133">https://doi.org/10.18865/ed.28.3.133</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>53. Wasserman J, Palmer RC, Gómez MM, Berzon R, Ibrahim SA, Ayanian JZ. Advancing health services research to eliminate health care disparities. Am J Public Health. 2019;109(Supl.1):S64-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2018.304922">https://doi.org/10.2105/AJPH.2018.304922</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wasserman</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Palmer</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Berzon</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ibrahim</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Ayanian</surname>
+							<given-names>JZ</given-names>
+						</name>
+					</person-group>
+					<article-title>Advancing health services research to eliminate health care disparities</article-title>
+					<source>Am J Public Health</source>
+					<year>2019</year>
+					<issue>109</issue>
+					<supplement>1</supplement>
+					<fpage>S64</fpage>
+					<lpage>S69</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2018.304922">https://doi.org/10.2105/AJPH.2018.304922</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>54. Martínez-García M, Vargas-Barrón J, Bañuelos-Téllez F, González-Pacheco H, Fresno C, Hernández-Lemus E, <italic>et al</italic>. Public insurance program impact on catastrophic health expenditure on acute myocardial infarction. Public Health. 2018;158:47-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.puhe.2018.01.025">https://doi.org/10.1016/j.puhe.2018.01.025</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martínez-García</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Vargas-Barrón</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bañuelos-Téllez</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>González-Pacheco</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Fresno</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Lemus</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Public insurance program impact on catastrophic health expenditure on acute myocardial infarction</article-title>
+					<source>Public Health</source>
+					<year>2018</year>
+					<issue>158</issue>
+					<fpage>47</fpage>
+					<lpage>54</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.puhe.2018.01.025">https://doi.org/10.1016/j.puhe.2018.01.025</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation>55. Brindis CD, Freund KM. The ramifications of recent health policy actions for cardiovascular care of women: Progress, threats, and opportunities. Clin Cardiol. 2018;41:173-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/clc.22896">https://doi.org/10.1002/clc.22896</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brindis</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Freund</surname>
+							<given-names>KM</given-names>
+						</name>
+					</person-group>
+					<article-title>The ramifications of recent health policy actions for cardiovascular care of women: Progress, threats, and opportunities</article-title>
+					<source>Clin Cardiol</source>
+					<year>2018</year>
+					<issue>41</issue>
+					<fpage>173</fpage>
+					<lpage>178</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/clc.22896">https://doi.org/10.1002/clc.22896</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B56">
+				<label>56</label>
+				<mixed-citation>56. Fernández-López JA. Towards a better understanding of patients. Semergen. 2013;39,8:403-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.semerg.2013.06.007">https://doi.org/10.1016/j.semerg.2013.06.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernández-López</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Towards a better understanding of patients</article-title>
+					<source>Semergen</source>
+					<year>2013</year>
+					<issue>39</issue>
+					<volume>8</volume>
+					<fpage>403</fpage>
+					<lpage>405</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.semerg.2013.06.007">https://doi.org/10.1016/j.semerg.2013.06.007</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B57">
+				<label>57</label>
+				<mixed-citation>57. Gulland A. Gender discrimination is blamed for high rates of uterine prolapse in Nepal. BMJ. 2014;348. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.g1756">https://doi.org/10.1136/bmj.g1756</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gulland</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Gender discrimination is blamed for high rates of uterine prolapse in Nepal</article-title>
+					<source>BMJ</source>
+					<year>2014</year>
+					<issue>348</issue>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.g1756">https://doi.org/10.1136/bmj.g1756</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B58">
+				<label>58</label>
+				<mixed-citation>58. Castilho JL, Escuder MM, Veloso V, Gomes JO, Jayathilake K, Ribeiro S, <italic>et al</italic>. Trends and predictors of non-communicable disease multimorbidity among adults living with HIV and receiving antiretroviral therapy in Brazil. J Int AIDS Soc. 2019;22:e25233. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jia2.25233">https://doi.org/10.1002/jia2.25233</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castilho</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Escuder</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Veloso</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>JO</given-names>
+						</name>
+						<name>
+							<surname>Jayathilake</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Trends and predictors of non-communicable disease multimorbidity among adults living with HIV and receiving antiretroviral therapy in Brazil</article-title>
+					<source>J Int AIDS Soc</source>
+					<year>2019</year>
+					<issue>22</issue>
+					<elocation-id>e25233</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jia2.25233">https://doi.org/10.1002/jia2.25233</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B59">
+				<label>59</label>
+				<mixed-citation>59. Curno MJ, Rossi S, Hodges-Mameletzis I, Johnston R, Price MA, Heidari S. A systematic review of the inclusion (or exclusion) of women in HIV research: From clinical studies of antiretrovirals and vaccines to cure strategies. J Acquir Immune Defic Syndr. 2016;71:181-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAI.0000000000000842">https://doi.org/10.1097/QAI.0000000000000842</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Curno</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Rossi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hodges-Mameletzis</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Johnston</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Price</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Heidari</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review of the inclusion (or exclusion) of women in HIV research: From clinical studies of antiretrovirals and vaccines to cure strategies</article-title>
+					<source>J Acquir Immune Defic Syndr</source>
+					<year>2016</year>
+					<issue>71</issue>
+					<fpage>181</fpage>
+					<lpage>188</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAI.0000000000000842">https://doi.org/10.1097/QAI.0000000000000842</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B60">
+				<label>60</label>
+				<mixed-citation>60. Pérez CC. Invisible women: Exposing data bias in a world designed for men. New York: Random House; 2019.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez</surname>
+							<given-names>CC</given-names>
+						</name>
+					</person-group>
+					<source>Invisible women: Exposing data bias in a world designed for men</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Random House</publisher-name>
+					<year>2019</year>
+				</element-citation>
+			</ref>
+			<ref id="B61">
+				<label>61</label>
+				<mixed-citation>61. Ouyang P, Wenger NK, Taylor D, Rich-Edwards JW, Steiner M, Shaw LJ, <italic>et al</italic>. Strategies and methods to study female-specific cardiovascular health and disease: A guide for clinical scientists. Biol Sex Differ. 2016;7:19. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13293-016-0073-y">https://doi.org/10.1186/s13293-016-0073-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ouyang</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Wenger</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Taylor</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Rich-Edwards</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Steiner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Strategies and methods to study female-specific cardiovascular health and disease: A guide for clinical scientists</article-title>
+					<source>Biol Sex Differ</source>
+					<year>2016</year>
+					<issue>7</issue>
+					<fpage>19</fpage>
+					<lpage>19</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13293-016-0073-y">https://doi.org/10.1186/s13293-016-0073-y</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>Citación:</label>
+				<p> Rivera-Romano LS, Juárez-Cano G, Hernández-Lemus E, Vallejo M, Martínez-García M. Estructura de comunidades en las redes semánticas de la investigación biomédica sobre disparidades en salud y sexismo. Biomédica. 2020;40:702-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7705/biomedica.5182">https://doi.org/10.7705/biomedica.5182</ext-link>
+				</p>
+			</fn>
+			<fn fn-type="other" id="fn2">
+				<label>Contribución de los autores:</label>
+				<p> Lucero Soledad Rivera-Romano: diseño del estudio Enrique Hernández-Lemus, Maite Vallejo y Mireya Martínez-García: diseño y planificación del estudio y redacción del manuscrito Todos los autores participaron en el análisis e interpretación de los datos.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>Financiación:</label>
+				<p> La presente investigación no ha recibido ayudas específicas provenientes de agencias del sector público o comercial, o de entidades con ánimo de lucro.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>Conflicto de intereses:</label>
+				<p> Los autores declaran no tener ningún conflicto de intereses.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,32 @@
+#ITI#Training sample selection: Impact on screening automation in diagnostic test accuracy reviews#FTI#
+#IRE# When performing a systematic review, researchers screen the articles retrieved after a broad search strategy one by one, which is time-consuming. Computerised support of this screening process has been applied with varying success. This is partly due to the dependency on large amounts of data to develop models that predict inclusion. In this paper, we present an approach to choose which data to use in model training and compare it with established approaches. We used a dataset of 50 Cochrane diagnostic test accuracy reviews, and each was used as a target review. From the remaining 49 reviews, we selected those that most closely resembled the target review's clinical topic using the cosine similarity metric. Included and excluded studies from these selected reviews were then used to develop our prediction models. The performance of models trained on the selected reviews was compared against models trained on studies from all available reviews. The prediction models performed best with a larger number of reviews in the training set and on target reviews that had a research subject similar to other reviews in the dataset. Our approach using cosine similarity may reduce computational costs for model training and the duration of the screening process#FRE#
+#IPC# computerised support; cosine similarity; machine learning; screening automation; training sample selection#FPC#
+#IRF# The Cochrane Collaboration: Cochrane Handbook for Systematic Reviews of Interventions. 51st edition, (2011); 
+Tsafnat G., Glasziou P., Choong M.K., Dunn A., Galgani F., Coiera E., Systematic review automation technologies, Syst Rev, 3, 1, (2014); 
+Allen I.E., Olkin I., Estimating time to conduct a Meta-analysis from number of citations retrieved, JAMA, 282, 7, pp. 634-635, (1999); 
+Korevaar D.A., van Enst W.A., Spijker R., Bossuyt P.M.M., Hooft L., Reporting quality of diagnostic accuracy studies: a systematic review and meta-analysis of investigations on adherence to STARD, BMJ Evidence-Based Med, 19, 2, pp. 47-54, (2014); 
+Diagnostic Test Accuracy Working Group Handbook for DTA reviews, (2013); 
+Petersen H., Poon J., Poon S.K., Loy C., Increased workload for systematic review literature searches of diagnostic tests compared with treatments: challenges and opportunities, JMIR Med Inform, 2, 1, (2014); 
+O'Mara-Eves A., Thomas J., McNaught J., Miwa M., Ananiadou S., Using text mining for study identification in systematic reviews: a systematic review of current approaches, Syst Rev, 4, 1, (2015); 
+Cohen A.M., Hersh W.R., Peterson K., Yen P.-Y., Reducing workload in systematic review preparation using automated citation classification, J Am Med Inform Assoc, 13, 2, pp. 206-219, (2006); 
+Liu J., Timsina P., El-Gayar O., A comparative analysis of semi-supervised learning: the case of article selection for medical systematic reviews, Inform Syst Front, 20, 2, pp. 195-207, (2018); 
+Miwa M., Thomas J., O'Mara-Eves A., Ananiadou S., Reducing systematic review workload through certainty-based screening, J Biomed Inform, 51, pp. 242-253, (2014); 
+Weiss K., Khoshgoftaar T.M., Wang D., A survey on transfer learning, J Big Data, 3, 1, (2016); 
+Kanoulas E., Li D., Azzopardi L., Spijker R., CLEF 2017 technologically assisted reviews in empirical medicine overview, CEUR Workshop Proceedings, 1866, pp. 1-29, (2017); 
+Entrez Programming Utilities Help. Bethesda, MD: National Center for Biotechnology Information (US), (2010); 
+Bird S., Klein E., Loper E., Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, (2009); 
+van Altena A.J., AMCeScience/Feature-Miner, (2020); 
+van Altena A.J., Review metadata, (2019); 
+McInnes M.D.F., Moher D., Thombs B.D., Et al., Preferred reporting items for a systematic review and meta-analysis of diagnostic test accuracy studies: the PRISMA-DTA statement, JAMA, 319, 4, pp. 388-396, (2018); 
+(2018); 
+Pedregosa F., Varoquaux G., Gramfort A., Et al., Scikit-learn: machine learning in Python, J Mach Learn Res, 12, pp. 2825-2830, (2011); 
+Huang A., Similarity measures for text document clustering. In: Proceedings of the Sixth New Zealand Computer Science Research Student Conference (NZC-SRSC2008), Christchurch, New Zealand, pp. 49-56, (2008); 
+Gomaa W.H., Fahmy A.A., A survey of text similarity approaches, Int J Comput Appl, 68, 13, pp. 13-18, (2013); 
+Virtanen P., Gommers R., Et al., SciPy 1.0–fundamental algorithms for scientific computing in Python. In: arXiv e-prints, arXiv:1907.10121, (2019); 
+Seabold S., Perktold J., Statsmodels: econometric and statistical modeling with python’. In: 9th Python in Science Conference, (2010); 
+McKinney W., Pandas: A foundational Python library for data analysis and statistics; 
+Olorisade B.K., Brereton P., Andras P., Reproducibility of studies on text mining for citation screening in systematic reviews: evaluation and checklist, J Biomed Inform, 73, pp. 1-13, (2017); 
+Cohen A.M., Optimizing feature representation for automated systematic review work prioritization, AMIA Annual Symposium Proceedings, Vol. 2008, (2008); 
+Moore R.C., Lewis W., Intelligent selection of language model training data. In: Proceedings of the ACL 2010 Conference Short Papers. ACLShort '10. Uppsala, Sweden: Association for Computational Linguistics, pp. 220-224, (2010); 
+Kubat M., Matwin S., Addressing the Curse of Imbalanced Training Sets: One-sided Selection, Vol. 97, pp. 179-186, (1997); 
+Adeva J.G., Atxa J.P., Carrillo M.U., Zengotitabengoa E.A., Automatic text classification to support systematic reviews in medicine, Exp Syst Appl, 41, pp. 1498-1508, (2014)#FRF#

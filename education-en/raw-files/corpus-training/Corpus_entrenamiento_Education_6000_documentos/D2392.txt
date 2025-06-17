@@ -1,0 +1,53 @@
+#ITI#The Impact of Measurement Model Misspecification on Coefficient Omega Estimates of Composite Reliability#FTI#
+#IRE# Coefficient omega indices are model-based composite reliability estimates that have become increasingly popular. A coefficient omega index estimates how reliably an observed composite score measures a target construct as represented by a factor in a factor-analysis model; as such, the accuracy of omega estimates is likely to depend on correct model specification. The current paper presents a simulation study to investigate the performance of omega-unidimensional (based on the parameters of a one-factor model) and omega-hierarchical (based on a bifactor model) under correct and incorrect model misspecification for high and low reliability composites and different scale lengths. Our results show that coefficient omega estimates are unbiased when calculated from the parameter estimates of a properly specified model. However, omega-unidimensional produced positively biased estimates when the population model was characterized by unmodeled error correlations or multidimensionality, whereas omega-hierarchical was only slightly biased when the population model was either a one-factor model with correlated errors or a higher-order model. These biases were higher when population reliability was lower and increased with scale length. Researchers should carefully evaluate the feasibility of a one-factor model before estimating and reporting omega-unidimensional.#FRE#
+#IPC# coefficient omega; factor reliability; item factor analysis; measurement model; omega-hierarchical; reliability#FPC#
+#IRF# Bentler P.M., Alpha, dimension-free, and model-based internal consistency reliability, Psychometrika, 74, 1, pp. 137-143, (2009); 
+Bollen K.A., Structural equations with latent variables, (1989); 
+Bonifay W., Cai L., On the complexity of item response theory model, Multivariate Behavioral Research, 52, 4, pp. 465-484, (2017); 
+Bonifay W., Lane S.P., Reise S.P., Three concerns with applying a bifactor model as a structure of psychopathology, Clinical Psychological Science, 5, 1, pp. 184-186, (2017); 
+Borsboom D., Measuring the mind: Conceptual issues in contemporary psychometrics, (2005); 
+Borsboom D., Mellenbergh G.J., True scores, latent variables, and constructs: A comment on Schmidt and Hunter, Intelligence, 30, 6, pp. 505-514, (2002); 
+Chalmers R.P., Adkins M.C., Writing effective and reliable Monte Carlo simulations with the SimDesign package, The Quantitative Methods for Psychology, 16, 4, pp. 248-280, (2020); 
+Cho E., Reliability and omega hierarchical in multidimensional data: A comparison of various estimators, Psychological Methods, (2022); 
+Dunn T.J., Baguley T., Brunsden V., From alpha to omega: A practical solution to the pervasive problem of internal consistency estimation, British Journal of Psychology, 105, 3, pp. 399-412, (2013); 
+Ellis J.L., A test can have multiple reliabilities, Psychometrika, 86, 4, pp. 869-876, (2021); 
+Flake J.K., Pek J., Hehman E., Construct validation in social and personality research: Current practice and recommendations, Social Psychological and Personality Science, 8, 4, pp. 370-378, (2017); 
+Flora D.B., Your coefficient alpha is probably wrong, but which coefficient omega is right? A tutorial on using R to obtain better reliability estimates, Advances in Methods and Practices in Psychological Science, 3, 4, pp. 484-501, (2020); 
+Gignac G.E., On the inappropriateness of using items to calculate total scale score reliability via coefficient alpha for multidimensional scales, European Journal of Psychological Assessment, 30, 2, pp. 130-139, (2014); 
+Graham J.M., Congeneric and (essentially) tau-equivalent estimates of score reliability: What they are and how to use them, Educational and Psychological Measurement, 66, 6, pp. 930-944, (2006); 
+Green S.B., Yang Y., Commentary on coefficient alpha: A cautionary tale, Psychometrika, 74, 1, pp. 121-135, (2009); 
+Green S.B., Yang Y., Reliability of summed item scores using structural equation modeling: An alternative to coefficient alpha, Psychometrika, 74, 1, pp. 155-167, (2009); 
+Green S.B., Yang Y., Evaluation of dimensionality in the assessment of internal consistency reliability: Coefficient alpha and omega coefficients, Educational Measurement: Issues and Practice, 34, 4, pp. 14-20, (2015); 
+Hancock G.R., An J., A closed-form alternative for estimating ω reliability under unidimensionality, Measurement: Interdisciplinary Research and Perspectives, 18, pp. 1-14, (2020); 
+Hayes A.F., Coutts J.J., Use omega rather than Cronbach’s alpha for estimating reliability. But…, Communication Methods and Measures, 14, 1, pp. 1-24, (2020); 
+Joreskog K.G., Simultaneous factor analysis in several populations, Psychometrika, 36, 4, pp. 409-426, (1971); 
+Jorgensen T.D., Pornprasertmanit S., Schoemann A.M., Rosseel Y., semTools: Useful tools for structural equation modeling, (2020); 
+Kelley K., MBESS: The MBESS R package, (2022); 
+Kelley K., Pornprasertmanit S., Confidence intervals for population reliability coefficients: Evaluation of methods, recommendations, and software for composite measures, Psychological Methods, 21, 1, pp. 69-92, (2016); 
+Markon K.E., Bifactor and hierarchical models: Specification, inference, and interpretation, Annual Review of Clinical Psychology, 15, pp. 51-69, (2019); 
+Maydeu-Olivares A., Coffman D.L., Random intercept factor analysis, Psychological Methods, 11, 4, pp. 344-362, (2006); 
+McDonald R.P., Test theory: A unified approach, (1999); 
+McNeish D., Thanks coefficient alpha, we’ll take it from here, Psychological Methods, 23, 3, pp. 412-433, (2018); 
+Morgan G.B., Hodge K.J., Wells K.E., Watkins M.W., Are fit indices biased in favor of bi-factor models in cognitive ability research? A comparison of fit in correlated factors, higher-order, and bi-factor models via Monte Carlo simulations, Journal of Intelligence, 3, 1, pp. 2-20, (2015); 
+Murray A.J., Johnson W., The limitations of model fit in comparing the bi-factor versus higher-order models of human cognitive ability structure, Journal of Intelligence, 41, 5, pp. 407-422, (2013); 
+Pfadt J.M., van den Bergh D., Sijtsma K., Moshagen M., Wagenmakers E.J., Bayesian estimation of single-test reliability coefficients, Multivariate Behavioral Research, 57, 4, pp. 620-641, (2022); 
+Pfadt J.M., van den Bergh D., Sijtsma K., Wagenmakers E.J., A tutorial on Bayesian single-test reliability analysis with JASP, Behavior Research Methods, (2022); 
+Raykov T., Marcoulides G.A., Thanks coefficient alpha, we still need you!, Educational and Psychological Measurement, 79, 1, pp. 200-210, (2017); 
+Raykov T., Zinbarg R.E., Proportion of general factor variance in a hierarchical multiple-component measuring instrument: A note on a confidence interval estimation procedure, British Journal of Mathematical and Statistical Psychology, 64, 2, pp. 193-207, (2011); 
+R: A language and environment for statistical computing, (2020); 
+Reise S.P., Bonifay W.E., Haviland M.G., Scoring and modeling psychological measures in the presence of multidimensionality, Journal of Personality Assessment, 95, 2, pp. 129-140, (2013); 
+Reise S.P., Kim D.S., Mansolf M., Widaman K.F., Is the bifactor model a better model or is it just better at modeling implausible responses? Application of iteratively reweighted least squares to the Rosenberg Self-Esteem Scale, Multivariate Behavioral Research, 51, 6, pp. 818-838, (2016); 
+Reise S.P., Moore T.M., Haviland M.G., Bifactor models and rotations: Exploring the extent to which multidimensional data yield univocal scale scores, Journal of Personality Assessment, 92, 6, pp. 544-559, (2010); 
+Revelle W., psych: Procedures for personality and psychological research, (2022); 
+Revelle W., Zinbarg R.E., Coefficients alpha, beta, omega, and the glb: Comments on Sijtsma, Psychometrika, 74, 1, pp. 145-154, (2009); 
+Rindskopf D., Rose T., Some theory and applications of confirmatory second-order factor analysis, Multivariate Behavioral Research, 23, 1, pp. 51-67, (1988); 
+Rodriguez A., Reise S.P., Haviland M.G., Evaluating bifactor models: Calculating and interpreting statistical indices, Psychological Methods, 21, 2, pp. 137-150, (2016); 
+Rosseel Y., lavaan: An R Package for structural equation modeling, Journal of Statistical Software, 48, 2, pp. 1-36, (2012); 
+Savalei V., Reise S.P., Don’t forget the model in your model-based reliability coefficients: A reply to McNeish (2018), Collabra: Psychology, 5, 1, (2019); 
+Schmid J., Leiman J.M., The development of hierarchical factor solutions, Psychometrika, 22, 1, pp. 83-90, (1957); 
+Sijtsma K., Pfadt J.M., Part II: On the use, the misuse, and the very limited usefulness of Cronbach’s alpha: Discussing lower bounds and correlated errors, Psychometrika, 86, 4, pp. 843-860, (2021); 
+Venables W.N., Ripley B.D., Modern applied statistics with S, (2002); 
+Watkins M.W., The reliability of multidimensional neuropsychological measures: From alpha to omega, The Clinical Neuropsychologist, 31, 6-7, pp. 1113-1126, (2017); 
+Yang Y., Green S.B., A note on structural equation modeling estimates of reliability, Structural Equation Modeling, 17, 1, pp. 66-81, (2010); 
+Yung Y.F., Thissen D., McLeod L.D., On the relationship between the higher-order factor model and the hierarchical factor model, Psychometrika, 64, 2, pp. 113-128, (1999); 
+Zinbarg R.E., Yovel I., Revelle W., McDonald R.P., Estimating generalizability to a latent variable common to all of a scale’s indicators: A comparison of estimators for ωh, Applied Psychological Measurement, 30, 2, pp. 121-144, (2006)#FRF#

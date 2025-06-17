@@ -1,0 +1,2431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.0" specific-use="sps-1.7" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">iat</journal-id>
+			<journal-title-group>
+				<journal-title>Iatreia</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Iatreia</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0121-0793</issn>
+			<publisher>
+				<publisher-name>Universidad de Antioquia</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.17533/udea.iatreia.v29n1a05</article-id>
+			<article-id pub-id-type="publisher-id">00005</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículos de revisión</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mecanismos de activación de las células T asesinas naturales invariantes (iNKT)</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Activation mechanisms of invariant natural killer T cells (iNKTs)</trans-title>
+				</trans-title-group>
+				<trans-title-group xml:lang="pt">
+					<trans-title>Mecanismos de ativação das células T assassinas naturais invariantes (iNKT)</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Baena</surname>
+						<given-names>Andrés</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Gomez-Giraldo</surname>
+						<given-names>Lina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Carreño</surname>
+						<given-names>Leandro J</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Grupo de Inmunología Celular e Inmunogenética, Departamento de Microbiología y Parasitología, Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Millennium Institute on Immunology and Immunotherapy, Programa Disciplinario de Inmunología, Facultad de Medicina, Universidad de Chile, Santiago, Chile.</institution>
+				<institution content-type="normalized">Universidad de Chile</institution>
+				<institution content-type="orgdiv1">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad de Chile</institution>
+				<addr-line>
+					<named-content content-type="city">Santiago</named-content>
+				</addr-line>
+				<country country="CL">Chile</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original">Department of Microbiology and Immunology, Albert Einstein College of Medicine. Nueva York, Estados Unidos.</institution>
+				<institution content-type="normalized">Albert Einstein College of Medicine</institution>
+				<institution content-type="orgname">Albert Einstein College of Medicine</institution>
+				<addr-line>
+					<named-content content-type="city">Nueva York</named-content>
+				</addr-line>
+				<country country="US">USA</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Andrés Baena García; <email>andres.baenag@udea.edu.co</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jan-Mar</season>
+				<year>2016</year>
+			</pub-date>
+			<volume>29</volume>
+			<issue>1</issue>
+			<fpage>51</fpage>
+			<lpage>64</lpage>
+			<history>
+				<date date-type="received">
+					<day>04</day>
+					<month>02</month>
+					<year>2015</year>
+				</date>
+				<date date-type="accepted">
+					<day>09</day>
+					<month>04</month>
+					<year>2015</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0;/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>Aunque se ha logrado un conocimiento amplio acerca de las células T asesinas naturales (iNKT), aún no existe consenso sobre sus mecanismos de activación. Dichas células reconocen diferentes antígenos glicolipídicos presentados por medio de la molécula CD1d, los cuales pueden ser endógenos, exógenos derivados de organismos como bacterias y sintéticos desarrollados para aplicaciones clínicas. Existe mucho interés en entender cómo estas distintas variantes glicolipídicas inducen diferentes tipos de polarización, pero ha sido muy difícil llegar a un consenso, debido a que la respuesta depende de varios factores como la naturaleza, la internalización y el procesamiento de los glicolípidos. Además, la activación de las células iNKT la determinan el tipo y estado de activación de la célula presentadora de antígeno, las moléculas coestimuladoras, los mecanismos de transactivación y la localización de los complejos CD1d-glicolípido en distintas microrregiones de la membrana plasmática, como las balsas lipídicas. Esta revisión explora la evidencia sobre los factores que afectan la activación de las células iNKT con el fin de entender su potencial inmunomodulador.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>SUMMARY</title>
+				<p>A great amount of knowledge on natural killer T cells (iNKTs) is now available, but a consensus about their activation mechanisms has not been reached. These cells recognize different glycolipid antigens through the CD1d molecule. Such antigens may be endogenous, derived from bacteria (foreign) and synthetic, the latter have been developed for clinical applications. There exists much interest in understanding how these different glycolipid compounds induce different types of polarization, but it has been difficult to reach a consensus due to the fact that responses depend on different factors such as: the nature of the molecule, the internalization process and the presentation of the glycolipids. Moreover, activation of iNKT cells is determined by the type and state of the antigen presenting cell, the co-stimulatory molecules, the transactivation mechanisms and the location of the glycolipid-CD1d complexes on the plasma membrane, such as the lipid rafts. This review explores the evidence about the factors that affect activation of iNKT cells in order to understand their immune-modulatory potential.</p>
+			</trans-abstract>
+			<trans-abstract xml:lang="pt">
+				<title>RESUMO</title>
+				<p>Mecanismos de ativação das células T assassinas naturais invariantes (iNKT) Ainda que se conseguiu um conhecimento amplo a respeito das células T assassinas naturais (iNKT), ainda não existe consenso sobre seus mecanismos de ativação. Ditas células reconhecem diferentes antígenos glicolipídicos apresentados por meio da molécula CD1d, os quais pode ser: endógenos, exógenos derivados de organismos como bactérias e sintéticos desenvolvidos para aplicações clínicas. Existe muito interesse em entender como estas diferentes variantes glicolipídicas induzem diferentes tipos de polarização, mas foi muito difícil chegar a um consenso, devido a que a resposta depende de vários fatores como a natureza, a internalização e o processamento dos glicolípidos. Ademais, a ativação das células iNKT a determinam o tipo e estado de ativação da célula apresentadora de antígeno, as moléculas co-estimuladoras, os mecanismos de transativação e a localização dos complexos CD1d-glicolípido em diferentes microrregiões da membrana plasmática, como as balsas lipídicas. Esta revisão explora a evidência sobre os fatores que afetam a ativação das células iNKT com o fim de entender seu potencial imunomodulador.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>PALABRAS CLAVE:</title>
+				<kwd>α-Galactosilceramida</kwd>
+				<kwd>Células Inkt</kwd>
+				<kwd>CD1d</kwd>
+				<kwd>Glicolípidos</kwd>
+				<kwd>Presentación Antigénica</kwd>
+				<kwd>TCR</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>KEY WORDS:</title>
+				<kwd>α-Galactosylceramide</kwd>
+				<kwd>Antigen Presentation</kwd>
+				<kwd>CD1d</kwd>
+				<kwd>iNKT Cells</kwd>
+				<kwd>Glycolipids</kwd>
+				<kwd>TCR</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="pt">
+				<title>PALAVRAS CHAVE:</title>
+				<kwd>Apresentação Antigénica</kwd>
+				<kwd>α-Galactosilceramida</kwd>
+				<kwd>Células Inkt</kwd>
+				<kwd>CD1d</kwd>
+				<kwd>Glicolípidos</kwd>
+				<kwd>TCR</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="59"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCCIÓN</title>
+			<p>Las células T asesinas naturales invariantes (iNKT) son una población particular de linfocitos T que expresan un receptor de célula T (TCR) semivariable, ya que está formado por una cadena invariante Vα24Jα18 en humanos y Vα14Jα18 en ratones, que se combina con un conjunto limitado de cadenas β, como la Vβ11 en humanos y las Vβ8.2, Vβ7, Vβ2 en ratones, con el fin de reconocer antígenos lipídicos(<xref ref-type="bibr" rid="B1">1</xref>). Estos antígenos son presentados por la molécula no polimórfica CD1d, que es similar al complejo mayor de histocompatibilidad tipo I, y está presente en diversas células presentadoras de antígeno (APC). Además, estas células iNKT poseen marcadores característicos de células asesinas naturales (NK), como el receptor NK1.1, y un fenotipo similar al de las células T de memoria efectora, expresando altos niveles de CD44 y CD69, además de una baja expresión de CD62L(<xref ref-type="bibr" rid="B2">2</xref>). Las células iNKT se caracterizan por la expresión del factor zinc-promielocítico de leucemia (PLZF, codificado por <italic>Zbtb16</italic>), que es inducido durante el desarrollo tímico y permite la adquisición de un programa efector innato(<xref ref-type="bibr" rid="B1">1</xref>). Tal programa confiere a las iNKT la capacidad de producir citocinas tanto proinflamatorias como antinflamatorias(<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B4">4</xref>-<xref ref-type="bibr" rid="B7">7</xref>).</p>
+			<p>En los últimos años ha aumentado el descubrimiento de nuevos agonistas de las iNKT, pero esto no ha permitido esclarecer a plenitud los principios que determinan la polarización inducida sobre dichas células después de la presentación antigénica. Numerosos estudios publicados han llevado a la identificación de diversos mecanismos involucrados en la activación de las células iNKT, los cuales en conjunto tienen importantes repercusiones en la polarización final de estas células. En este artículo de revisión se presentan las principales evidencias disponibles sobre los mecanismos involucrados en la presentación antigénica de lípidos a las iNKT, con la finalidad de entregar un contexto global e integrado de su importancia e influencia sobre la inducción de su polarización transicional(<xref ref-type="bibr" rid="B8">8</xref>).</p>
+		</sec>
+		<sec>
+			<title>ANTÍGENOS GLICOLIPÍDICOS PRESENTADOS POR CD1d</title>
+			<sec>
+				<title>Antígenos lipídicos propios</title>
+				<p>La identificación de ligandos lipídicos propios o autoantígenos ha sido muy difícil y controversial. Como regla general, estos compuestos presentan menor potencia comparados con la mayoría de los antígenos foráneos, y se propone que son los responsables del desarrollo de las células iNKT en el timo, además de su homeostasis y maduración en la periferia. Sin embargo, no ha sido posible demostrar que ninguno de los antígenos propios propuestos se requiera para la diferenciación de las células iNKT(<xref ref-type="bibr" rid="B9">9</xref>, <xref ref-type="bibr" rid="B10">10</xref>). A pesar de que las moléculas de CD1d humana y de ratón presentan un alto porcentaje de homología, en ambas especies ha sido difícil la identificación de autoantígenos conservados(<xref ref-type="bibr" rid="B2">2</xref>). Por ejemplo, recientemente se ha descrito que la lisofosfatidilcolina (lisoPC), un lisofosfolípido que se encuentra presente en forma natural en el CD1d humano, es el autoantígeno más antigénico aunque solo ocupa un canal del CD1d(<xref ref-type="bibr" rid="B11">11</xref>). Este lípido se puede acumular en condiciones inflamatorias en que hay activación de fosfolipasas. La activación por lisoPC induce la producción de GM-CSF (factor estimulador de colonias de granulocitos y monocitos), pero no la de otras citocinas asociadas a iNKT como el IFN-γ y la IL-4. Notoriamente, la lisoPC no es capaz de activar células iNKT murinas. Por otro lado, solo en ratones se ha podido comprobar la iGb3 (isoglobo-trihexosil-ceramida) como antígeno, debido a la carencia en humanos de la enzima IGb3 sintasa, clave para su biosíntesis(<xref ref-type="bibr" rid="B12">12</xref>). Recientemente se encontró que los extractos lipídicos analizados por cromatografía en capa delgada (TLC-borato) en timo, bazo y células dendríticas derivadas de médula ósea (BMDC) contienen principalmente la β-GlcCer (beta-glucosilceramida) y no la β-GalCer (beta-galactosilceramida) (<xref ref-type="table" rid="t1">Tabla 1</xref>)(<xref ref-type="bibr" rid="B13">13</xref>, <xref ref-type="bibr" rid="B14">14</xref>).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Tabla 1</label>
+						<caption>
+							<title><bold>Ligandos propios, endógenos y exógenos del CD1d con capacidad de estimular las iNKT</bold></title>
+						</caption>
+						<graphic xlink:href="0121-0793-iat-29-01-00051-gt1.jpg"/>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t1b">
+						<label>Tabla 1 (Cont.)</label>
+						<caption>
+							<title><bold>Ligandos propios, endógenos y exógenos del CD1d con capacidad de estimular las iNKT</bold></title>
+						</caption>
+						<graphic xlink:href="0121-0793-iat-29-01-00051-gt1b.jpg"/>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Antígenos lipídicos foráneos</title>
+				<p>El primer reporte de un antígeno lipídico estimulador de iNKT derivado de un patógeno microbiano fue en el 2004 sobre un glicolípido derivado de <italic>Mycobacterium bovis</italic> llamado PIM2 (fosfatidil-mioinositol-manósido 2)(<xref ref-type="bibr" rid="B15">15</xref>). En el 2005 tres grupos independientes reportaron un glicolípido específico activador de iNKT derivado de <italic>Sphingomonas</italic> spp,(<xref ref-type="bibr" rid="B16">16</xref>) identificado como GSL (glicoesfingolípido), que presenta variaciones según la especie de bacteria en que se encuentre (GlcA-GSL-1, PBS-29, GalA-GSL-1, GSL-1’, GSL-3 y GSL-4) (<xref ref-type="table" rid="t1">Tabla 1</xref>)(<xref ref-type="bibr" rid="B17">17</xref>, <xref ref-type="bibr" rid="B18">18</xref>).</p>
+				<p>Posteriormente se aislaron varios glicolípidos de <italic>Borrelia burgdorferi</italic> como: BbGL-I y BbGL-II(<xref ref-type="bibr" rid="B19">19</xref>), tres esfingolípidos producidos por <italic>Bacteroides fragilis</italic> con gran homología con el derivado sintético de αGalCer (<xref ref-type="table" rid="t1">Tabla 1</xref>)(<xref ref-type="bibr" rid="B20">20</xref>) y una glicosilceramida (GSL-Bf717) que inhibe la interacción αGalCer-CD1d-TCR, como mecanismo inmunomodulador para prevenir la colitis inducida por oxazolona(<xref ref-type="bibr" rid="B21">21</xref>).</p>
+				<p>También se identificó el glicolípido PI57 (<xref ref-type="table" rid="t1">Tabla 1</xref>), que proviene de la bacteria gramnegativa Helicobacter pylori y protege a los ratones del desarrollo de hiperreactividad de las vías respiratorias ocasionada por un alérgeno (AHR)(<xref ref-type="bibr" rid="B22">22</xref>). Se han encontrado agonistas de iNKT en bacterias grampositivas como <italic>Streptococcus pneumoniae</italic> que contienen una glucosa en vez de galactosa(<xref ref-type="bibr" rid="B23">23</xref>). Por último, está la asperamida B en la especie <italic>Aspergillus fumigatus</italic> (previamente reportada en <italic>A. niger</italic>)(<xref ref-type="bibr" rid="B24">24</xref>) y uno en <italic>Leishmania donovani</italic>(<xref ref-type="bibr" rid="B25">25</xref>).</p>
+			</sec>
+			<sec>
+				<title>Antígenos lipídicos sintéticos</title>
+				<p>El primer glicolípido sintético capaz de activar las iNKT fue identificado como KRN7000 y tiene algunas modificaciones estructurales como una fitoesfingosina C18 con grupos hidroxilo en los carbonos 3’ y 4’ y un ácido graso C26 (<xref ref-type="table" rid="t1">Tabla 1</xref>)(<xref ref-type="bibr" rid="B1">1</xref>, <xref ref-type="bibr" rid="B5">5</xref>). El azúcar en unión α es una característica importante puesto que las células de mamífero solo pueden sintetizar glicolípidos con unión β-anomérica, y esta última es muy poco estimuladora de las iNKT(<xref ref-type="bibr" rid="B5">5</xref>). A partir de este compuesto se han sintetizado múltiples análogos con modificaciones principalmente en el azúcar y en las colas lipídicas; el azúcar que sobresale de la molécula CD1d es uno de los principales determinantes en el reconocimiento y afinidad del TCR(<xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B8">8</xref>, <xref ref-type="bibr" rid="B26">26</xref>) (<xref ref-type="table" rid="t1">Tabla 1</xref>).</p>
+				<p>El primer análogo funcionalmente distinto de αGalCer fue identificado como OCH, el cual produce una respuesta con tendencia al tipo Th2 similar a otros análogos como C20:2, que tiene una cadena acilada más corta e insaturada(<xref ref-type="bibr" rid="B26">26</xref>, <xref ref-type="bibr" rid="B27">27</xref>). Por otro lado, el compuesto α-C-GalCer (<xref ref-type="table" rid="t1">Tabla 1</xref>), que tiene un remplazo del oxígeno de unión al azúcar por un carbono, produce una respuesta con tendencia al tipo Th1(<xref ref-type="bibr" rid="B28">28</xref>). Un efecto similar se ha observado con el cambio de un oxígeno por un carbono en la galactosa para crear el compuesto llamado carbasugar (RCAI-56)(<xref ref-type="bibr" rid="B17">17</xref>). Un compuesto similar a este último es el llamado HS44, en el que adicionalmente se sustituye el oxígeno de unión al azúcar por un grupo amino y produce una menor respuesta de IFN-γ in vitro, pero niveles comparables in vivo con respecto a αGalCer(<xref ref-type="bibr" rid="B29">29</xref>). Recientemente se describió un análogo llamado 7DW8-5 (<xref ref-type="table" rid="t1">Tabla 1</xref>) que ha mostrado tener una actividad mayor como adyuvante en malaria y VIH, comparado con KRN7000(<xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B30">30</xref>).</p>
+			</sec>
+		</sec>
+		<sec>
+			<title>MECANISMOS DE INTERNALIZACIÓN DE LOS GLICOLÍPIDOS</title>
+			<p>Debido a su hidrofobicidad inherente, los lípidos requieren estar unidos a proteínas o lipoproteínas para ser transportados en el suero y en el ambiente extracelular. Se ha propuesto que el receptor de LDL (LDLR) es la molécula que direcciona los antígenos lipídicos en la célula presentadora de antígenos para la presentación por CD1d(<xref ref-type="bibr" rid="B31">31</xref>). Adicionalmente, los receptores tipo <italic>scavenger</italic> (SR), que son una gran familia de moléculas con diversas funciones, han sido propuestos como moléculas para la captura de lípidos. Entre ellos, se caracterizó inicialmente a los de los tipos SRA y CD36 como receptores de macrófagos para lipoproteínas modificadas(<xref ref-type="bibr" rid="B32">32</xref>). Recientemente se encontró que LDLR, SRA, SRB1 y CD36 están involucrados en la internalización de diferentes glicolípidos. Antígenos como αGalCer y glico-esfingolípidos bacterianos entran por la vía SRA, pero no por LDLR(<xref ref-type="bibr" rid="B33">33</xref>). Sorprendentemente, aunque la presentación del αGalCer involucra tanto a SRA como a LDLR, los requerimientos in vivo cambian sustancialmente. Mientras que los ratones deficientes en LDLR-/- muestran una pequeña reducción en la producción de IL-4 y una activación similar a la de los animales silvestres, la ausencia del SRA-/- elimina completamente la respuesta de citocinas de las iNKT así como los efectos ayudadores de activación de células T(<xref ref-type="bibr" rid="B33">33</xref>) (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title><bold>Factores involucrados en los diferentes mecanismos de activación y polarización de las células iNKT.</bold> A. Antígenos reconocidos por las células iNKT; se diferencian en el tipo de unión de las colas lipídicas con los azúcares. Existen dos tipos principales: esfingosina y diacilglicerol y los azúcares galactosa y glucosa. B, C. Procesamiento e internalización del antígeno; este es reconocido e internalizado por el receptor de lipoproteínas de baja densidad (LDLR) en unión con la apolipoproteína E (Apo E) y con la cooperación de los receptores tipo <italic>scavenger</italic> (SR). Una vez internalizado, el antígeno es reconocido por proteínas adaptadoras (AP) que lo transportan al sistema vesicular-endosomal, donde es procesado y transportado a la membrana celular para ser reconocido por el TCR de la célula iNKT. D. La célula presentadora de antígeno determina la polarización; el marcador CD1d está presente en las células dendríticas, linfocitos B, macrófagos y neutrófilos, que actúan como células presentadoras de antígeno a las iNKT. Se ha demostrado que algunas de estas células pueden polarizar la respuesta inmune: las células dendríticas hacia un perfil Th1 y las células B hacia un perfil Th2. E, F. Balsas lipídicas y señales coestimuladoras: regiones ricas en esfingolípidos y colesterol en la membrana celular se denominan balsas lipídicas, y se ha demostrado la presencia de moléculas CD1d en estas regiones, además de señales coestimuladoras que cooperan a la polarización de la respuesta inmune. Es así como señales coestimuladoras, CD28-B7.1,B7.2, 4-1BB, CD40-CD40L, potencian la producción de anticuerpos tipo Th1 por las células iNKT, y OX40-0X40L y TIM lo hacen hacia un perfil Th2; su presencia varía de acuerdo con las células presentadoras de antígeno. G. efecto de la afinidad CD1d-antígeno-TCR: se ha demostrado que las colas lipídicas median la estabilidad de la interacción entre el antígeno y el TCR. H. Subpoblaciones de iNKT: la presencia/ausencia de marcadores como CD4 y CD8 indica el estado de maduración de las células iNKT. I. La activación de las células iNKT polariza la respuesta hacia perfiles inmunes: tipo Th1 con aumento de IL-12 e IL-18; tipo Th2 con aumento de IL-25; tipo Th17 con aumento de IL-17, además de la participación de otros factores como el tipo de antígeno o de célula presentadora y las señales coestimuladoras, entre otros, para estas diferencias en las respuestas. J. Transactivación: además de la activación de las células iNKT también se activan otras células en respuesta a las citosinas generadas por estas, como las células NK en respuesta a citocinas Th1 y señales coestimuladoras</title>
+					</caption>
+					<graphic xlink:href="0121-0793-iat-29-01-00051-gf1.jpg"/>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>EFECTO DE LAS VÍAS DE TRANSPORTE DE LOS GLICOLÍPIDOS Y LA ACTIVACIÓN DE LAS iNKT</title>
+			<p>La inserción de los lípidos en la cavidad del CD1d requiere proteínas específicas de transferencia como las microsomales, que se encuentran en el retículo endoplásmico, y las saposinas de los lisosomas(<xref ref-type="bibr" rid="B34">34</xref>). La proteína microsomal de transferencia de triglicéridos (MTP) ayuda en el ensamblaje de la apolipoproteína B, y su inhibición farmacológica produce defectos en la presentación antigénica de lípidos(<xref ref-type="bibr" rid="B35">35</xref>). Las moléculas de CD1d son reinternalizadas desde la superficie y se movilizan dentro del sistema vesicular endosomal, mediante la participación de proteínas adaptadoras (AP). Se han descrito cuatro complejos AP (AP-1, 2, 3 y 4); de ellos, AP-2 se une tanto al CD1d humano como al del ratón, y AP-3 solo se puede unir al CD1d del ratón(<xref ref-type="bibr" rid="B36">36</xref>). La principal localización de las moléculas de CD1d del ratón son los compartimentos lisosomales, mientras que las moléculas humanas se distribuyen en una gran variedad de vesículas endosomales con una fracción localizada en los lisosomas(<xref ref-type="bibr" rid="B31">31</xref>). El procesamiento lipídico que ocurre en vesículas, es ayudado por proteínas activadoras de esfingolípidos (saposinas, la proteína activadora G2 y la proteína NPC2), que solubilizan lípidos polares embebidos en las membranas y los presentan a enzimas lisosomales(<xref ref-type="bibr" rid="B31">31</xref>). Además, la molécula CD1e juega un papel importante al facilitar el acoplamiento de los lípidos a moléculas como CD1d y CD1b. Otras de las moléculas involucradas son las catepsinas, en cuya ausencia se presentan defectos en el desarrollo de las iNKT y en la presentación mediada por el CD1d(<xref ref-type="bibr" rid="B37">37</xref>). También se ha observado que el tráfico de las moléculas de CD1d con moléculas del MHC clase II y con li (cadena invariante) incrementa la presentación de antígenos exógenos al asociarse a balsas lipídicas(<xref ref-type="bibr" rid="B38">38</xref>) (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+		</sec>
+		<sec>
+			<title>CITOCINAS INVOLUCRADAS EN LA ACTIVACIÓN DE LAS iNKT</title>
+			<p>Las iNKT se ven influenciadas directamente por el ambiente de citocinas generado en el contexto de su activación. Para la producción de IFN-γ por αGalCer se requiere la producción de IL-12 además de la interacción CD40-CD40L. La IL-12 es una citocina proinflamatoria que en las células iNKT ejerce una función de activación celular y en presencia de antígenos propios amplifica la respuesta. Se puede dar una activación indirecta de las iNKT mediante células dendríticas secretoras de IL-12 e IL-18, en respuesta a componentes bacterianos por unión a los receptores tipo Toll (TLR) junto con el reconocimiento de glicolípidos propios(<xref ref-type="bibr" rid="B2">2</xref>).</p>
+			<p>En la polarización hacia perfiles Th2 la IL-25 induce en el modelo de ratón la secreción de IL-4, IL-5 e IL13; además, su receptor (IL-25R) es altamente expresado en células iNKT. También se ha descrito cómo las células iNKT pueden polarizar el sistema inmune hacia un perfil Th17 en el que están involucradas la IL-17 y la IL-23. Las células iNKT expresan constitutivamente ROR-γt y el receptor para la IL-23, lo que permite una diferenciación hacia un perfil Th17(<xref ref-type="bibr" rid="B1">1</xref>). Adicionalmente, en el mecanismo de ayuda para la potenciación en la producción de anticuerpos, no solo participan las células T CD4+ sino también las células iNKT foliculares (iNKTfh), que usan mecanismos similares a las células T anteriormente mencionadas(<xref ref-type="bibr" rid="B39">39</xref>) (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+		</sec>
+		<sec>
+			<title>EFECTO DE LA UBICACIÓN DE LOS COMPLEJOS CD1d-LÍPIDO EN BALSAS LIPÍDICAS</title>
+			<p>Se ha demostrado que el ensamblaje de los complejos CD1d-lípido dentro de dominios específicos de la membrana plasmática, llamados balsas lipídicas, tiene un efecto en el reconocimiento antigénico(<xref ref-type="bibr" rid="B40">40</xref>). Las balsas lipídicas se definen principalmente como dominios ricos en esfingolípidos y colesterol. Son abundantes en la membrana plasmática, pero también en la vía secretora tardía y en compartimentos endocíticos. Son típicas de las balsas las proteínas ancladas de glicosil-fosfatidil-inositol (GPI) así como las que contienen dominios tirosina-quinasa de la familia Src(<xref ref-type="bibr" rid="B41">41</xref>). Mediante el uso de lípidos análogos al αGalCer, se pudo demostrar que la estructura del glicolípido determina el compartimento celular en que va a ocurrir su unión a la molécula del CD1d, y si el complejo CD1d-lípido va a estar ubicado o no en el interior de una balsa lipídica, determinando la polarización de las iNKT hacia una respuesta tipo Th1 o Th2(<xref ref-type="bibr" rid="B42">42</xref>). Para el caso de los glicolípidos tipo Th2 se observa una cinética de presentación rápida, mediante una asociación directa en la superficie celular por fuera de las balsas lipídicas. Por el contrario, los compuestos que son forzados a formar complejos intracelularmente, como el αGalCer, llevan a un transporte organizado de los complejos con CD1d a las balsas lipídicas ricas en colesterol, lo que facilita el reclutamiento hacia las sinapsis inmunológicas junto con una variedad de moléculas involucradas en la activación celular(<xref ref-type="bibr" rid="B38">38</xref>, <xref ref-type="bibr" rid="B42">42</xref>) (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+		</sec>
+		<sec>
+			<title>SEÑALES COESTIMULADORAS EN LA POLARIZACIÓN DE LAS iNKT</title>
+			<p>Entre las moléculas que polarizan hacia la producción de citocinas Th1 está CD28, que interactúa con B71 (CD80) y B72 (CD86) en células presentadoras de antígeno, y ha sido implicada tanto en la activación como en la regulación de las iNKT(<xref ref-type="bibr" rid="B43">43</xref>). El bloqueo de CD28 inhibe diversas funciones efectoras en respuesta a la estimulación mediada por CD1d, reduciendo los niveles de IFN-γ e IL-4. Por otro lado, la molécula CTLA-4 actúa inhibiendo las células iNKT con el fin de regular una posible respuesta excesiva en procesos inflamatorios(<xref ref-type="bibr" rid="B44">44</xref>). La molécula 4-1BB desempeña un papel clave en la supervivencia, activación y producción de citocinas de las iNKT. Esta coestimulación de iNKT con 4-1BB/4-1BBL aumenta la secreción de IFN-γ, la proliferación celular, la expresión de CD25 y la respuesta a IL-2 (<xref ref-type="fig" rid="f1">Figura 1</xref>)(<xref ref-type="bibr" rid="B45">45</xref>). Entre las moléculas coestimuladoras más importantes que llevan a la producción de citocinas Th2 están OX40-OX40L (OX40 es el CD134) y TIM (receptores de células T con dominios de mucina e inmunoglobulina)(<xref ref-type="bibr" rid="B45">45</xref>). La expresión de OX40L en las iNKT define la respuesta de citocinas tipo Th2 y los niveles de IgE. Por otro lado, las moléculas TIM1 y TIM4 mejoran la producción de IL-4 e inhiben la de IFN-γ, regulando diferencialmente la respuesta inmune. Se ha visto también que el bloqueo de ICOS-ICOSL (ligando coestimulador inducible) lleva a la disminución de citocinas como IL-4, IL-5, IL10, IL-13 e IFN-γ (44). La proteína inducida por glucocorticoides (G1TR) promueve la proliferación de las células T efectoras y la capacidad de producción de citocinas, y regula la función supresora de las células T reguladoras (Treg) (<xref ref-type="fig" rid="f1">Figura 1</xref>)(<xref ref-type="bibr" rid="B45">45</xref>). Además, la coestimulación de CD40 media la expresión de CD80-CD86 y su bloqueo lleva a la polarización inmune hacia un perfil Th2. Finalmente, las moléculas coinhibidoras PD1-PDL1 pueden por otro lado aumentar el estado de anergia de las iNKT(<xref ref-type="bibr" rid="B44">44</xref>).</p>
+		</sec>
+		<sec>
+			<title>EFECTO DE LA AFINIDAD Y DEL TIEMPO MEDIO DE INTERACCIÓN DEL COMPLEJO CD1d-LÍPIDO CON EL DEL TCR-iNKT SOBRE LA POLARIZACIÓN DE LAS iNKT</title>
+			<p>El acople de los complejos CD1d-lípido con el TCR de las iNKT se hace de una forma conservada a diferencia de las moléculas del MHC con sus péptidos y los TCR de las células T tradicionales. El TCR de las iNKT se sitúa lateralmente a la hendidura, lo que permite que solo la cadena α haga contacto con el anillo del azúcar de los glicolípidos, y la cadena β ayude a estabilizar la interacción entre el TCR y el CD1d. Por esto, la pérdida de un contacto con la cadena α del TCR de las iNKT puede ocasionar una tasa de asociación más lenta para un ligando determinado. Para el caso del αGalCer, tanto el CDR1α como el CDR3α del TCR interactúan con el glicolípido y el CD1d, mientras que el CDR2β solo está en contacto con el CD1d (CDR: regiones de complementariedad del TCR)(<xref ref-type="bibr" rid="B46">46</xref>). Por otro lado, modificaciones en los azúcares reducen directamente el tiempo medio (t1/2) de interacción en el que hay mayor sensibilidad por la posición 4’-OH que por la 3’-OH del azúcar. Además de los glicolípidos en conformación α, está el caso de los glicolípidos β anoméricos (como βGalCer y iGb3) cuyos azúcares se acomodan con el fin de parecer en posición α-anomérica. De manera importante, independientemente de si el glicolípido tiene un azúcar en unión α o β, el complejo trimérico (glicolípido-CD1d-TCR) tiene una conformación casi idéntica(<xref ref-type="bibr" rid="B47">47</xref>). Cambios en el tamaño de las colas lipídicas de algunos glicolípidos pueden alterar la afinidad por el TCR de las iNKT. Algunos análogos, como OCH y C20:2, tienen la capacidad de promover una respuesta Th2 mientras que otros, como α-C-GalCer, promueven principalmente la Th1. Para el caso del CD1d, los cambios en las colas lipídicas alteran la potencia mediante variaciones en el procesamiento y presentación de los lípidos, sin modificar la interacción iNKT-TCR-CD1dlípido, las cinéticas de afinidad o las cinéticas de interacción. Por ejemplo, OCH impacta en la afinidad de la interacción debido a una baja tasa cinética de carga (la cinética se refiere al tiempo en que el glicolípido se ensambla en la molécula) lo que ocasiona cambios en la interacción de encaje del lípido. Esto es consistente con lo propuesto para el TCR, el cual primero contacta el azúcar que tiene un efecto sobre la tasa de asociación, y una vez se acomoda, el CD1d afecta principalmente la tasa de disociación(<xref ref-type="bibr" rid="B47">47</xref>) (<xref ref-type="fig" rid="f1">Figura 1</xref>). Otra forma importante en la que los ligandos pueden influenciar la activación de las iNKT es mediante el uso diferencial de cadenas β en sus TCR. Se sabe que el espectro de afinidades para ligandos propios lo determinan las diferentes cadenas β: Vβ2 y Vβ7 están en extremos opuestos del espectro y Vβ8 se encuentra en la mitad del espectro. Las iNKT Th2 tienen mayor representación de las cadenas Vβ2 y Vβ7 que las iNKT Th1 y Th17. Además, se informa que las iNKT Th2 tienen mayor expresión del factor de transcripción Nur77 que sirve como reportero de la señalización del TCR en comparación con las Th1 y Th17(<xref ref-type="bibr" rid="B26">26</xref>). Es interesante que, en estudios llevados a cabo por Mallevaey, Patel y colaboradores(<xref ref-type="bibr" rid="B48">48</xref>, <xref ref-type="bibr" rid="B49">49</xref>) se muestra que el complejo CD1d murino cargado con el glicolípido OCH se une con alta afinidad al TCR de las iNKT que contienen la cadena Vβ8, y con baja afinidad a aquellas que contienen cadenas Vβ2 y Vβ7. Más aún, moléculas de CD1d unidas a KRN7000 son capaces de unirse con alta afinidad a cadenas Vβ2, Vβ7 y Vβ8.</p>
+		</sec>
+		<sec>
+			<title>LA SUBPOBLACIÓN DE iNKT QUE ESTÁ SIENDO ACTIVADA</title>
+			<p>Las células iNKT han sido estudiadas en el bazo y el hígado de ratones en donde representan aproximadamente de 1 % a 2 % y de 20 % a 30 %, respectivamente, del total de células de estos órganos. Sin embargo, en la sangre periférica de los humanos (en donde principalmente se las ha estudiado), las iNKT representan solo de 0,1 % a 0,2 % de las células T(<xref ref-type="bibr" rid="B50">50</xref>). Tanto en humanos como en ratones hay diferentes subpoblaciones de iNKT que se definen por la expresión de CD4+ y CD8+. En la mayoría de las circunstancias las iNKT del ratón no expresan el CD8+, y el CD4+ define parcialmente sus subpoblaciones. La mayoría de los estudios reportan células CD4+ (CD4+CD8β-) y CD4- (CD4-CD8β-) como las principales poblaciones en los ratones. En contraste, para las iNKT humanas se han establecido las subpoblaciones de CD4- como CD4-CD8α-β- (doble-negativas o DN) y CD4-CD8α+ (comprenden las CD8α+β- y las CD4-CD8α+β+). Otros marcadores capaces de establecer subpoblaciones de iNKT en el ratón en combinación con el CD4 son IL-17RB (un componente del receptor de IL-25) y el NK1.1, los cuales también tienen una gran variación entre las diferentes cepas de ratones. La mayor parte de las células iNKT del hígado y el bazo del ratón son de tipo Th1, que producen IFN-γ, expresan CD122 (cadena β de la IL-15), no expresan IL-17RB y pueden ser CD4+ o CD4-(<xref ref-type="bibr" rid="B51">51</xref>).</p>
+			<p>Se han descrito subpoblaciones de iNKT con fenotipos Th1, Th2, Th17, Treg y T foliculares análogas de las células T clásicas. Asimismo, estas células son controladas por los mismos factores de transcripción que gobiernan las células T clásicas, actuando como reguladores maestros, a saber: PLZF en conjunto con T-bet (factor de transcripción que determina la respuesta Th1), el receptor huérfano relacionado con el ácido retinoico (RORγt) y GATA-3, los cuales son adquiridos en el timo y no en la periferia. Las iNKT Th2 son marcadas por la expresión de IL-17RB y CD4+ y después de la activación producen IL-4, IL-9, IL-10 y IL-13; pueden ser activadas por IL-25 y están enriquecidas en los pulmones; no expresan T-bet y no se conoce un factor de transcripción específico para Th2 en las iNKT. GATA-3 se expresa en todas las iNKT y no es exclusivo de las Th2. Es posible que la ausencia de T-bet o RORγt sea el requerimiento para la polarización hacia Th2 (51) (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+			<p>Un marcador fenotípico que ha demostrado ser fiable y específico para el perfil Th17 es el receptor B de IL-17 (IL-17RB), expresado en las células iNKT relacionadas con RORγt, productoras de citocinas Th17 tras la estimulación con IL-23. El fenotipo CD4-NK1.1- IL17RB+ (50 % a 70 % producen citocinas Th17) se ha encontrado en más del 40 % de las células iNKT de los pulmones, nódulos linfáticos inguinales y mesentéricos, mientras que más del 90 % con el fenotipo CD4- IL-17RB- están en el hígado. Las células iNKT productoras de IL-17A están principalmente contenidas en el fenotipo de las CD4- e IL17RB+, y esta subpoblación se superpone con la subpoblación Th17 CD4-NK1.1. La producción tanto de IL-21 como de IL-22 está limitada a esta población. Las iNKT Th17 están restringidas al MHC, expresan el CCR6 y requieren RORyt para su desarrollo, de manera similar a las células T clásicas con fenotipo Th17, pero, a diferencia de estas, las células iNKT-Th17 se desarrollan como una población distinta en el timo. Las células iNKT Th17 están enriquecidas en los nódulos linfáticos periféricos, los pulmones y la piel. En los pulmones, estas células pueden responder a las infecciones y contribuyen al tipo neutrofílico de hiperreactividad de las vías respiratorias. El homólogo del marcador fenotípico NK1.1 para los humanos es el CD161, el cual define una población iNKT CD161+ capaz de diferenciarse en células productoras de IL-17, además de expresar CCR6 y CCR4 como también el receptor para IL23. Más aún, estas células requieren TGF-β, IL-1β e IL-23 para producir el perfil inmune Th17(<xref ref-type="bibr" rid="B52">52</xref>).</p>
+			<p>Se ha descrito una población de iNKT foliculares que expresan PD1 y CXCR5 y pueden inducir la producción de IL-21 en un linfoma de células B. Solamente in vitro se han demostrado iNKT reguladoras que expresan FoxP3; sin embargo, en diferentes procesos fisiológicos y patológicos se han observado células iNKT productoras de IL-10, aunque no se ha confirmado en ellas la expresión de FoxP3(<xref ref-type="bibr" rid="B53">53</xref>). Se ha mostrado que la pérdida del factor de transcripción Th-POK produce una mayor cantidad de células iNKT del tipo Th17 y en ausencia de T-bet se producen más células Th2 y Th17 en el timo lo que sugiere que la polarización depende de un antagonismo específico de factores de transcripción similar a como pasa para las células T CD4. Varias mutaciones tienden a favorecer el linaje Th2 como son las que ocurren en SLP-76, en el factor de transcripción KLF2, las Tec quinasas Itk y Rlk, la transferasa de histonas CBP y el factor de transcripción Id3. El marcador IL-17RB lo expresan selectivamente las iNKT Th2 y Th17 y su deficiencia muestra un defecto en estas células(<xref ref-type="bibr" rid="B52">52</xref>). Por otro lado, mTOR es una quinasa tipo serina/treonina con la capacidad de integrar estímulos ambientales; también promueve la diferenciación de las células T, el metabolismo celular, la supervivencia, el crecimiento y la proliferación celular, mediante la formación de dos complejos, mTORC1 y mTORC2, que tienen distintas propiedades de señalización y sensibilidad a la rapamicina. La formación de estos complejos es dependiente de la proteína de esclerosis tuberosa 1 (TSC1) que se asocia con TSC2 formando un complejo que inhibe la actividad de mTORC1 al disminuir la unión de la GTPasa RHEB a GTP(<xref ref-type="bibr" rid="B54">54</xref>). Se ha reportado que ratones deficientes de TSC1 tienen una disminución en el número de iNKT. En la misma línea, un reporte reciente muestra que TSC1 es crítico para la diferenciación terminal de las iNKT hacia un perfil Th1 sobre el Th17, al inhibir la supresión de T-bet mediada por mTORC1 (complejo 1 del blanco de la rapamicina) y una disminución de la actividad de ICOS. Más aún, ratones que pierden la actividad de T-bet presentan defectos en la maduración de las iNKT mostrando un predominio de las iNKT-Th17 y un incremento en la expresión de ICOS(<xref ref-type="bibr" rid="B1">1</xref>).</p>
+		</sec>
+		<sec>
+			<title>LA CÉLULA PRESENTADORA DE ANTÍGENO Y LOS MECANISMOS DE TRANSACTIVACIÓN</title>
+			<p>Entre las diferentes células presentadoras de antígenos lipídicos se encuentran las siguientes: las células dendríticas, los macrófagos, las células B y los neutrófilos(<xref ref-type="bibr" rid="B5">5</xref>, <xref ref-type="bibr" rid="B31">31</xref>). La activación de las iNKT por las células dendríticas con CD1d-αGalCer da lugar a la expresión de CD69. Los macrófagos presentan antígenos lipídicos a las células iNKT principalmente en el hígado, estimulando la producción de citocinas Th1 y Th2 junto con la expansión celular(<xref ref-type="bibr" rid="B2">2</xref>, <xref ref-type="bibr" rid="B8">8</xref>).</p>
+			<p>Los linfocitos B que expresan CD1d se encuentran en la zona marginal del bazo y expresan diferentes moléculas coestimuladoras. La presentación antigénica por estas células da lugar a la producción de citocinas Th2, debido principalmente a la expresión de moléculas coestimuladoras como ICOS-ICOSL(<xref ref-type="bibr" rid="B55">55</xref>-<xref ref-type="bibr" rid="B57">57</xref>). Reafirmando la hipótesis de las células presentadoras de antígeno como mediadoras en la polarización inmune, se encontró recientemente, mediante el uso de ratones deficientes de CD1d (en macrófagos, células B y células dendríticas), que la presentación de αGalCer estaba estrictamente limitada a las células dendríticas y en menor proporción a los macrófagos(<xref ref-type="bibr" rid="B58"><sup>58</sup></xref>). Se evidenció además que la estimulación de las variantes glicolipídicas tipo Th2 era promiscua, llevada a cabo por células diferentes a las dendríticas que no producen IL-12, las cuales no son capaces de inducir la activación del ciclo IL12-NK e IFN-γ(<xref ref-type="bibr" rid="B58"><sup>58</sup></xref>). Algunos estudios son contradictorios acerca de la importancia de las células B: en el modelo del ratón deficiente <italic>µ</italic>MT se muestra que la depleción de las células B ocasiona un pequeño incremento en la presentación de αGalCer, pero en el modelo de CD19-/- no hay ningún efecto sobre la presentación del αGalCer(<xref ref-type="bibr" rid="B39">39</xref>) (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+			<p>Estudios con el antígeno lipídico prototípico αGalCer han establecido que gran parte de su potencial para activar distintas funciones efectoras en las iNKT se debe a su poder para inducir la transactivación de células como las NK (células asesinas de la inmunidad innata) y las dendríticas. Esta transactivación depende principalmente de la estructura del antígeno, y se ve muy limitada para el caso de los glicolípidos que inducen una respuesta Th2. Por ejemplo, el glicolípido OCH no induce suficientes niveles de mRNA para c-rel y CD40L en las iNKT in vivo, y produce una disminución del IFN-γ secretado por las iNKT, mientras los niveles de IL-4 se conservan(<xref ref-type="bibr" rid="B59"><sup>59</sup></xref>). Mientras que αGalCer induce a otras células como las NK a producir una segunda oleada de citocinas in vivo, OCH falla en reclutar las NK. El IFN-γ producido por las NK es dependiente del CD40 y de la producción de IL-12 proveniente de las células dendríticas lo que ha permitido concluir que una señalización alterada del TCR afecta la secreción directa e indirecta de citocinas Th1. En un estudio reciente se demostró, mediante el uso de anticuerpos específicos para detectar los complejos glicolípido-CD1d (anticuerpo L363), que la subpoblación de células dendríticas CD8+ DEC205+ es la principal presentadora de glicolípidos en el bazo, independientemente de la estructura química y del perfil de polarización que induzca(<xref ref-type="bibr" rid="B50">50</xref>). Se planteó entonces que el tipo de interacción que ocurre entre la DC CD8+ y la iNKT determina en estas células diferentes cambios en la expresión de moléculas coestimuladoras y coinhibidoras, incluyendo una regulación recíproca de CD70 y PDL2 que estaba relacionada con la supresión de la producción de IFN-γ por las células NK transactivadas. Esto sugiere que en vez de que tipos diferentes de APC presenten glicolípidos de manera alternativa, son los cambios rápidos moleculares que ocurren en la superficie celular de las DC CD8+, en respuesta a las diferentes estructuras químicas de los glicolípidos. Se propone entonces que la localización de las moléculas del CD1d en las balsas lipídicas induce la activación de cascadas de señalización intracelular, diferentes a las inducidas por las que no se ubican en las balsas, produciendo entonces cambios divergentes marcados por la expresión de receptores de superficie y moléculas secretadas por las DC CD8+. Los datos muestran que los cambios en la expresión de CD70 inducidos por las células iNKT pueden transactivar células NK por la interacción directa con el CD27. Adicionalmente, el incremento en la expresión de Rae-1 y de CD86 por ciertos glicolípidos que estimulan una respuesta Th1 puede hacer un sinergismo con señales activadoras como CD27-CD70 por la unión de receptores expresados en las células NK como NKG2D y CD28. PDL1 actúa con PD1 y esta interacción reduce la señal de activación del TCR al iniciar una cascada de fosforilación. Estudios previos han encontrado evidencias de efectos sobre las iNKT mediados por PDL1 y 2, pero parece predominar la participación de PDL2(<xref ref-type="bibr" rid="B50">50</xref>). Esto muestra que un incremento en la expresión de PDL2 en APC seguido del reconocimiento de glicolípidos Th2 como C20:2 es el mecanismo que inhibe la transactivación de las NK con supresión del IFN-γ reafirmando el perfil Th2 (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONES</title>
+			<p>Las células iNKT tienen un papel fundamental tanto en la inmunidad innata como en la adaptativa. En los últimos años se ha visto un aumento en las publicaciones que reportan nuevos antígenos lipídicos capaces de estimularlas. A pesar de todo lo que se sabe de estas células, queda mucho por entender acerca de los principios que gobiernan su activación, lo que involucra una gran cantidad de procesos y moléculas sobre los cuales ha versado esta revisión. La contribución relativa de cada uno de estos procesos depende del contexto en que ocurra la activación de las iNKT, lo cual es definido por el tipo de proceso inflamatorio o regulador que esté ocurriendo. El entendimiento de los mecanismos de activación de las iNKT no solo es importante para comprender la biología de estas células, sino también para garantizar el éxito de futuras aplicaciones terapéuticas.</p>
+			<p>Es llamativo que después de tantos años de investigación no se le pueda asignar una polarización específica a un glicolípido nuevo con solo conocer su estructura y que no se haya producido un algoritmo, que retroalimentado con toda la información disponible sobre la interacción entre CD1d y la iNKT, permita hacer predicciones acertadas acerca de la posible polarización en un contexto inmunológico específico. Este fenómeno se puede deber a que aún falte información acerca de la biología de las iNKT, o a que se requieran modelos más avanzados, como los que propone la biología de sistemas, para establecer modelos predictivos de activación para las iNKT. Es imperativo, entonces, tener una mejor comprensión de los mecanismos de activación de las iNKT, que permita diseñar mejores tratamientos y/o estrategias de prevención de muchas enfermedades que aquejan a la humanidad en las que estas células tienen una participación significativa.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCIAS BIBLIOGRÁFICAS</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Brennan PJ, Brigl M, Brenner MB. Invariant natural killer T cells: an innate activation scheme linked to diverse effector functions. Nat Rev Immunol. 2013 Feb;13(2):101-17. DOI 10.1038/nri3369.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brennan</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Brigl</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Brenner</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>Invariant natural killer T cells: an innate activation scheme linked to diverse effector functions</article-title>
+					<source>Nat Rev Immunol</source>
+					<month>02</month>
+					<year>2013</year>
+					<volume>13</volume>
+					<issue>2</issue>
+					<fpage>101</fpage>
+					<lpage>117</lpage>
+					<pub-id pub-id-type="doi">10.1038/nri3369</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Salio M, Silk JD, Jones EY, Cerundolo V. Biology of CD1- and MR1-restricted T cells. Annu Rev Immunol. 2014;32:323-66. DOI 10.1146/annurev-immunol-032713-120243.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Silk</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>EY</given-names>
+						</name>
+						<name>
+							<surname>Cerundolo</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Biology of CD1- and MR1-restricted T cells</article-title>
+					<source>Annu Rev Immunol</source>
+					<year>2014</year>
+					<volume>32</volume>
+					<fpage>323</fpage>
+					<lpage>366</lpage>
+					<pub-id pub-id-type="doi">10.1146/annurev-immunol-032713-120243</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Godfrey DI, Kronenberg M. Going both ways: immune regulation via CD1d-dependent NKT cells. J Clin Invest. 2004 Nov;114(10):1379-88.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Godfrey</surname>
+							<given-names>DI</given-names>
+						</name>
+						<name>
+							<surname>Kronenberg</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Going both ways: immune regulation via CD1d-dependent NKT cells</article-title>
+					<source>J Clin Invest</source>
+					<month>11</month>
+					<year>2004</year>
+					<volume>114</volume>
+					<issue>10</issue>
+					<fpage>1379</fpage>
+					<lpage>1388</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Behar SM, Porcelli SA. CD1-restricted T cells in host defense to infectious diseases. Curr Top Microbiol Immunol. 2007;314:215-50.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Behar</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Porcelli</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>CD1-restricted T cells in host defense to infectious diseases</article-title>
+					<source>Curr Top Microbiol Immunol</source>
+					<year>2007</year>
+					<volume>314</volume>
+					<fpage>215</fpage>
+					<lpage>250</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Bendelac A, Savage PB, Teyton L. The biology of NKT cells. Annu Rev Immunol. 2007;25:297-336. DOI 10.1146/annurev.immunol.25.022106.141711.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bendelac</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Savage</surname>
+							<given-names>PB</given-names>
+						</name>
+						<name>
+							<surname>Teyton</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>The biology of NKT cells</article-title>
+					<source>Annu Rev Immunol</source>
+					<year>2007</year>
+					<volume>25</volume>
+					<fpage>297</fpage>
+					<lpage>336</lpage>
+					<pub-id pub-id-type="doi">10.1146/annurev.immunol.25.022106.141711</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Carreño LJ, Kharkwal SS, Porcelli SA. Optimizing NKT cell ligands as vaccine adjuvants. Immunotherapy. 2014;6(3):309-20. DOI 10.2217/imt.13.175.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carreño</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Kharkwal</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Porcelli</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>Optimizing NKT cell ligands as vaccine adjuvants</article-title>
+					<source>Immunotherapy</source>
+					<year>2014</year>
+					<volume>6</volume>
+					<issue>3</issue>
+					<fpage>309</fpage>
+					<lpage>320</lpage>
+					<pub-id pub-id-type="doi">10.2217/imt.13.175</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Venkataswamy MM, Porcelli SA. Lipid and glycolipid antigens of CD1d-restricted natural killer T cells. Semin Immunol. 2010 Apr;22(2):68-78. DOI 10.1016/j.smim.2009.10.003.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Venkataswamy</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Porcelli</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>Lipid and glycolipid antigens of CD1d-restricted natural killer T cells</article-title>
+					<source>Semin Immunol</source>
+					<month>04</month>
+					<year>2010</year>
+					<volume>22</volume>
+					<issue>2</issue>
+					<fpage>68</fpage>
+					<lpage>78</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.smim.2009.10.003</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Rossjohn J, Pellicci DG, Patel O, Gapin L, Godfrey DI. Recognition of CD1d-restricted antigens by natural killer T cells. Nat Rev Immunol. 2012 Dec;12(12):845-57. DOI 10.1038/nri3328.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rossjohn</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pellicci</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Gapin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Godfrey</surname>
+							<given-names>DI</given-names>
+						</name>
+					</person-group>
+					<article-title>Recognition of CD1d-restricted antigens by natural killer T cells</article-title>
+					<source>Nat Rev Immunol</source>
+					<month>12</month>
+					<year>2012</year>
+					<volume>12</volume>
+					<issue>12</issue>
+					<fpage>845</fpage>
+					<lpage>857</lpage>
+					<pub-id pub-id-type="doi">10.1038/nri3328</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Cox D, Fox L, Tian R, Bardet W, Skaley M, Mojsilovic D, et al. Determination of cellular lipids bound to human CD1d molecules. PLoS One. 2009;4(5):e5325. DOI 10.1371/journal.pone.0005325.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cox</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Fox</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tian</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bardet</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Skaley</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mojsilovic</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Determination of cellular lipids bound to human CD1d molecules</article-title>
+					<source>PLoS One</source>
+					<year>2009</year>
+					<volume>4</volume>
+					<issue>5</issue>
+					<elocation-id>e5325</elocation-id>
+					<pub-id pub-id-type="doi">10.1371/journal.pone.0005325</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Joyce S, Woods AS, Yewdell JW, Bennink JR, De Silva AD, Boesteanu A, et al. Natural ligand of mouse CD1d1: cellular glycosylphosphatidylinositol. Science. 1998 Mar;279(5356):1541-4.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Joyce</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Woods</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Yewdell</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Bennink</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>De Silva</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Boesteanu</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Natural ligand of mouse CD1d1: cellular glycosylphosphatidylinositol</article-title>
+					<source>Science</source>
+					<month>03</month>
+					<year>1998</year>
+					<volume>279</volume>
+					<issue>5356</issue>
+					<fpage>1541</fpage>
+					<lpage>1544</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. López-Sagaseta J, Sibener LV, Kung JE, Gumperz J, Adams EJ. Lysophospholipid presentation by CD1d and recognition by a human Natural Killer T-cell receptor. EMBO J. 2012 Apr;31(8):2047-59. DOI 10.1038/emboj.2012.54.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López-Sagaseta</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sibener</surname>
+							<given-names>LV</given-names>
+						</name>
+						<name>
+							<surname>Kung</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Gumperz</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Adams</surname>
+							<given-names>EJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Lysophospholipid presentation by CD1d and recognition by a human Natural Killer T-cell receptor</article-title>
+					<source>EMBO J</source>
+					<month>04</month>
+					<year>2012</year>
+					<volume>31</volume>
+					<issue>8</issue>
+					<fpage>2047</fpage>
+					<lpage>2059</lpage>
+					<pub-id pub-id-type="doi">10.1038/emboj.2012.54</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Christiansen D, Milland J, Mouhtouris E, Vaughan H, Pellicci DG, McConville MJ, et al. Humans lack iGb3 due to the absence of functional iGb3-synthase: implications for NKT cell development and transplantation. PLoS Biol. 2008 Jul;6(7):e172. DOI 10.1371/journal.pbio.0060172.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Christiansen</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Milland</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mouhtouris</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vaughan</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Pellicci</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>McConville</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Humans lack iGb3 due to the absence of functional iGb3-synthase: implications for NKT cell development and transplantation</article-title>
+					<source>PLoS Biol</source>
+					<month>07</month>
+					<year>2008</year>
+					<volume>6</volume>
+					<issue>7</issue>
+					<elocation-id>e172</elocation-id>
+					<pub-id pub-id-type="doi">10.1371/journal.pbio.0060172</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Brennan PJ, Tatituri RV, Brigl M, Kim EY, Tuli A, Sanderson JP, et al. Invariant natural killer T cells recognize lipid self antigen induced by microbial danger signals. Nat Immunol. 2011 Oct;12(12):1202-11. DOI 10.1038/ni.2143.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brennan</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Tatituri</surname>
+							<given-names>RV</given-names>
+						</name>
+						<name>
+							<surname>Brigl</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>EY</given-names>
+						</name>
+						<name>
+							<surname>Tuli</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sanderson</surname>
+							<given-names>JP</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Invariant natural killer T cells recognize lipid self antigen induced by microbial danger signals</article-title>
+					<source>Nat Immunol</source>
+					<month>10</month>
+					<year>2011</year>
+					<volume>12</volume>
+					<issue>12</issue>
+					<fpage>1202</fpage>
+					<lpage>1211</lpage>
+					<pub-id pub-id-type="doi">10.1038/ni.2143</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Inafuku M, Li C, Kanda Y, Kawamura T, Takeda K, Oku H, et al. Beta-glucosylceramide administration (i.p.) activates natural killer T cells in vivo and prevents tumor metastasis in mice. Lipids. 2012 Jun;47(6):581-91. DOI 10.1007/s11745-012-3666-1.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Inafuku</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kanda</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kawamura</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Takeda</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Oku</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Beta-glucosylceramide administration (i.p.) activates natural killer T cells in vivo and prevents tumor metastasis in mice</article-title>
+					<source>Lipids</source>
+					<month>06</month>
+					<year>2012</year>
+					<volume>47</volume>
+					<issue>6</issue>
+					<fpage>581</fpage>
+					<lpage>591</lpage>
+					<pub-id pub-id-type="doi">10.1007/s11745-012-3666-1</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Fischer K, Scotet E, Niemeyer M, Koebernick H, Zerrahn J, Maillet S, et al. Mycobacterial phosphatidylinositol mannoside is a natural antigen for CD1drestricted T cells. Proc Natl Acad Sci USA. 2004 Jul;101(29):10685-90.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fischer</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Scotet</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Niemeyer</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Koebernick</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zerrahn</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Maillet</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mycobacterial phosphatidylinositol mannoside is a natural antigen for CD1drestricted T cells</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<month>07</month>
+					<year>2004</year>
+					<volume>101</volume>
+					<issue>29</issue>
+					<fpage>10685</fpage>
+					<lpage>10690</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Kinjo Y, Wu D, Kim G, Xing GW, Poles MA, Ho DD, et al. Recognition of bacterial glycosphingolipids by natural killer T cells. Nature. 2005 Mar;434(7032): 520-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kinjo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Xing</surname>
+							<given-names>GW</given-names>
+						</name>
+						<name>
+							<surname>Poles</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Ho</surname>
+							<given-names>DD</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Recognition of bacterial glycosphingolipids by natural killer T cells</article-title>
+					<source>Nature</source>
+					<month>03</month>
+					<year>2005</year>
+					<volume>434</volume>
+					<issue>7032</issue>
+					<fpage>520</fpage>
+					<lpage>525</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Anderson BL, Teyton L, Bendelac A, Savage PB. Stimulation of natural killer T cells by glycolipids. Molecules. 2013 Dec;18(12):15662-88. DOI 10.3390/molecules181215662.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anderson</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Teyton</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bendelac</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Savage</surname>
+							<given-names>PB</given-names>
+						</name>
+					</person-group>
+					<article-title>Stimulation of natural killer T cells by glycolipids</article-title>
+					<source>Molecules</source>
+					<month>12</month>
+					<year>2013</year>
+					<volume>18</volume>
+					<issue>12</issue>
+					<fpage>15662</fpage>
+					<lpage>15688</lpage>
+					<pub-id pub-id-type="doi">10.3390/molecules181215662</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Long X, Deng S, Mattner J, Zang Z, Zhou D, McNary N, et al. Synthesis and evaluation of stimulatory properties of Sphingomonadaceae glycolipids. Nat Chem Biol. 2007 Sep;3(9):559-64.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Long</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Deng</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mattner</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>McNary</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Synthesis and evaluation of stimulatory properties of Sphingomonadaceae glycolipids</article-title>
+					<source>Nat Chem Biol</source>
+					<month>09</month>
+					<year>2007</year>
+					<volume>3</volume>
+					<issue>9</issue>
+					<fpage>559</fpage>
+					<lpage>564</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Kinjo Y, Tupin E, Wu D, Fujio M, Garcia-Navarro R, Benhnia MR, et al. Natural killer T cells recognize diacylglycerol antigens from pathogenic bacteria. Nat Immunol. 2006 Sep;7(9):978-86.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kinjo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Tupin</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Fujio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Garcia-Navarro</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Benhnia</surname>
+							<given-names>MR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Natural killer T cells recognize diacylglycerol antigens from pathogenic bacteria</article-title>
+					<source>Nat Immunol</source>
+					<month>09</month>
+					<year>2006</year>
+					<volume>7</volume>
+					<issue>9</issue>
+					<fpage>978</fpage>
+					<lpage>986</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Wieland Brown LC, Penaranda C, Kashyap PC, Williams BB, Clardy J, Kronenberg M, et al. Production of α-galactosylceramide by a prominent member of the human gut microbiota. PLoS Biol. 2013 Jul;11(7):e1001610. DOI 10.1371/journal.pbio.1001610.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wieland Brown</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Penaranda</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kashyap</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Clardy</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kronenberg</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Production of α-galactosylceramide by a prominent member of the human gut microbiota</article-title>
+					<source>PLoS Biol</source>
+					<month>07</month>
+					<year>2013</year>
+					<volume>11</volume>
+					<issue>7</issue>
+					<elocation-id>e1001610</elocation-id>
+					<pub-id pub-id-type="doi">10.1371/journal.pbio.1001610</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. An D, Oh SF, Olszak T, Neves JF, Avci FY, Erturk-Hasdemir D, et al. Sphingolipids from a symbiotic microbe regulate homeostasis of host intestinal natural killer T cells. Cell. 2014 Jan;156(1-2):123-33. DOI 10.1016/j.cell.2013.11.042.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>An</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Oh</surname>
+							<given-names>SF</given-names>
+						</name>
+						<name>
+							<surname>Olszak</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Neves</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Avci</surname>
+							<given-names>FY</given-names>
+						</name>
+						<name>
+							<surname>Erturk-Hasdemir</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Sphingolipids from a symbiotic microbe regulate homeostasis of host intestinal natural killer T cells</article-title>
+					<source>Cell</source>
+					<month>01</month>
+					<year>2014</year>
+					<volume>156</volume>
+					<issue>1-2</issue>
+					<fpage>123</fpage>
+					<lpage>133</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.cell.2013.11.042</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Ito Y, Vela JL, Matsumura F, Hoshino H, Tyznik A, Lee H, et al. Helicobacter pylori cholesteryl α-glucosides contribute to its pathogenicity and immune response by natural killer T cells. PLoS One. 2013 Dec;8(12):e78191. DOI 10.1371/journal.pone.0078191.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ito</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Vela</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Matsumura</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Hoshino</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tyznik</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Helicobacter pylori cholesteryl α-glucosides contribute to its pathogenicity and immune response by natural killer T cells</article-title>
+					<source>PLoS One</source>
+					<month>12</month>
+					<year>2013</year>
+					<volume>8</volume>
+					<issue>12</issue>
+					<elocation-id>e78191</elocation-id>
+					<pub-id pub-id-type="doi">10.1371/journal.pone.0078191</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Kinjo Y, Illarionov P, Vela JL, Pei B, Girardi E, Li X, et al. Invariant natural killer T cells recognize glycolipids from pathogenic Gram-positive bacteria. Nat Immunol. 2011 Sep;12(10):966-74. DOI 10.1038/ni.2096.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kinjo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Illarionov</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Vela</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Pei</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Girardi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Invariant natural killer T cells recognize glycolipids from pathogenic Gram-positive bacteria</article-title>
+					<source>Nat Immunol</source>
+					<month>09</month>
+					<year>2011</year>
+					<volume>12</volume>
+					<issue>10</issue>
+					<fpage>966</fpage>
+					<lpage>974</lpage>
+					<pub-id pub-id-type="doi">10.1038/ni.2096</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Albacker LA, Chaudhary V, Chang YJ, Kim HY, Chuang YT, Pichavant M, et al. Invariant natural killer T cells recognize a fungal glycosphingolipid that can induce airway hyperreactivity. Nat Med. 2013 Oct;19(10):1297-304. DOI 10.1038/nm.3321.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Albacker</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Chaudhary</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>HY</given-names>
+						</name>
+						<name>
+							<surname>Chuang</surname>
+							<given-names>YT</given-names>
+						</name>
+						<name>
+							<surname>Pichavant</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Invariant natural killer T cells recognize a fungal glycosphingolipid that can induce airway hyperreactivity</article-title>
+					<source>Nat Med</source>
+					<month>10</month>
+					<year>2013</year>
+					<volume>19</volume>
+					<issue>10</issue>
+					<fpage>1297</fpage>
+					<lpage>1304</lpage>
+					<pub-id pub-id-type="doi">10.1038/nm.3321</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Amprey JL, Im JS, Turco SJ, Murray HW, Illarionov PA, Besra GS, et al. A subset of liver NK T cells is activated during Leishmania donovani infection by CD1d-bound lipophosphoglycan. J Exp Med. 2004 Oct;200(7):895-904.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amprey</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Im</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Turco</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Murray</surname>
+							<given-names>HW</given-names>
+						</name>
+						<name>
+							<surname>Illarionov</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Besra</surname>
+							<given-names>GS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A subset of liver NK T cells is activated during Leishmania donovani infection by CD1d-bound lipophosphoglycan</article-title>
+					<source>J Exp Med</source>
+					<month>10</month>
+					<year>2004</year>
+					<volume>200</volume>
+					<issue>7</issue>
+					<fpage>895</fpage>
+					<lpage>904</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Wun KS, Cameron G, Patel O, Pang SS, Pellicci DG, Sullivan LC, et al. A molecular basis for the exquisite CD1d-restricted antigen specificity and functional responses of natural killer T cells. Immunity. 2011 Mar;34(3):327-39. DOI 10.1016/j.immuni.2011.02.001.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wun</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Cameron</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Pang</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Pellicci</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Sullivan</surname>
+							<given-names>LC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A molecular basis for the exquisite CD1d-restricted antigen specificity and functional responses of natural killer T cells</article-title>
+					<source>Immunity</source>
+					<month>03</month>
+					<year>2011</year>
+					<volume>34</volume>
+					<issue>3</issue>
+					<fpage>327</fpage>
+					<lpage>339</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.immuni.2011.02.001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Yu ED, Girardi E, Wang J, Mac TT, Yu KO, Van Calenbergh S, et al. Structural basis for the recognition of C20:2-αGalCer by the invariant natural killer T cell receptor-like antibody L363. J Biol Chem. 2012 Jan;287(2):1269-78. DOI 10.1074/jbc.M111.308783.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yu</surname>
+							<given-names>ED</given-names>
+						</name>
+						<name>
+							<surname>Girardi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mac</surname>
+							<given-names>TT</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>KO</given-names>
+						</name>
+						<name>
+							<surname>Van Calenbergh</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Structural basis for the recognition of C20:2-αGalCer by the invariant natural killer T cell receptor-like antibody L363</article-title>
+					<source>J Biol Chem</source>
+					<month>01</month>
+					<year>2012</year>
+					<volume>287</volume>
+					<issue>2</issue>
+					<fpage>1269</fpage>
+					<lpage>1278</lpage>
+					<pub-id pub-id-type="doi">10.1074/jbc.M111.308783</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Patel O, Cameron G, Pellicci DG, Liu Z, Byun HS, Beddoe T, et al. NKT TCR recognition of CD1d-α-C-galactosylceramide. J Immunol. 2011 Nov;187(9):4705-13. DOI 10.4049/jimmunol.1100794.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Patel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Cameron</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Pellicci</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Byun</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Beddoe</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>NKT TCR recognition of CD1d-α-C-galactosylceramide</article-title>
+					<source>J Immunol</source>
+					<month>11</month>
+					<year>2011</year>
+					<volume>187</volume>
+					<issue>9</issue>
+					<fpage>4705</fpage>
+					<lpage>4713</lpage>
+					<pub-id pub-id-type="doi">10.4049/jimmunol.1100794</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Kerzerho J, Yu ED, Barra CM, Alari-Pahissa E, Girardi E, Harrak Y, et al. Structural and functional characterization of a novel nonglycosidic type I NKT agonist with immunomodulatory properties. J Immunol. 2012 Mar;188(5):2254-65. DOI 10.4049/jimmunol.1103049. Erratum in: J Immunol. 2012 Oct;189(8):4194.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kerzerho</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>ED</given-names>
+						</name>
+						<name>
+							<surname>Barra</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Alari-Pahissa</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Girardi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Harrak</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Structural and functional characterization of a novel nonglycosidic type I NKT agonist with immunomodulatory properties</article-title>
+					<source>J Immunol</source>
+					<month>03</month>
+					<year>2012</year>
+					<volume>188</volume>
+					<issue>5</issue>
+					<fpage>2254</fpage>
+					<lpage>2265</lpage>
+					<pub-id pub-id-type="doi">10.4049/jimmunol.1103049</pub-id>
+					<comment>Erratum in: J Immunol. 2012 Oct;189(8):4194</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Li X, Fujio M, Imamura M, Wu D, Vasan S, Wong CH, et al. Design of a potent CD1d-binding NKT cell ligand as a vaccine adjuvant. Proc Natl Acad Sci USA. 2010 Jul;107(29):13010-5. DOI 10.1073/pnas.1006662107.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Fujio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Imamura</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Vasan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>CH</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Design of a potent CD1d-binding NKT cell ligand as a vaccine adjuvant</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<month>07</month>
+					<year>2010</year>
+					<volume>107</volume>
+					<issue>29</issue>
+					<fpage>13010</fpage>
+					<lpage>13015</lpage>
+					<pub-id pub-id-type="doi">10.1073/pnas.1006662107</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Barral DC, Brenner MB. CD1 antigen presentation: how it works. Nat Rev Immunol. 2007 Dec;7(12):929-41.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barral</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Brenner</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<chapter-title>CD1 antigen presentation: how it works</chapter-title>
+					<source>Nat Rev Immunol</source>
+					<month>12</month>
+					<year>2007</year>
+					<volume>7</volume>
+					<issue>12</issue>
+					<fpage>929</fpage>
+					<lpage>941</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Xia F, Li R, Wang C, Yang S, Tian L, Dong H, et al. IRGM1 regulates oxidized LDL uptake by macrophage via actin-dependent receptor internalization during atherosclerosis. Sci Rep. 2013;3:1867. DOI 10.1038/srep01867.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xia</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tian</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Dong</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>IRGM1 regulates oxidized LDL uptake by macrophage via actin-dependent receptor internalization during atherosclerosis</article-title>
+					<source>Sci Rep</source>
+					<year>2013</year>
+					<volume>3</volume>
+					<fpage>1867</fpage>
+					<lpage>1867</lpage>
+					<pub-id pub-id-type="doi">10.1038/srep01867</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Freigang S, Landais E, Zadorozhny V, Kain L, Yoshida K, Liu Y, et al. Scavenger receptors target glycolipids for natural killer T cell activation. J Clin Invest. 2012 Nov;122(11):3943-54. DOI 10.1172/JCI62267.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Freigang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Landais</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Zadorozhny</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Kain</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Yoshida</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Scavenger receptors target glycolipids for natural killer T cell activation</article-title>
+					<source>J Clin Invest</source>
+					<month>11</month>
+					<year>2012</year>
+					<volume>122</volume>
+					<issue>11</issue>
+					<fpage>3943</fpage>
+					<lpage>3954</lpage>
+					<pub-id pub-id-type="doi">10.1172/JCI62267</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Florence WC, Bhat RK, Joyce S. CD1d-restricted glycolipid antigens: presentation principles, recognition logic and functional consequences. Expert Rev Mol Med. 2008 Jul;10:e20. DOI 10.1017/S1462399408000732.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Florence</surname>
+							<given-names>WC</given-names>
+						</name>
+						<name>
+							<surname>Bhat</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Joyce</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>CD1d-restricted glycolipid antigens: presentation principles, recognition logic and functional consequences</article-title>
+					<source>Expert Rev Mol Med</source>
+					<month>07</month>
+					<year>2008</year>
+					<volume>10</volume>
+					<elocation-id>e20</elocation-id>
+					<pub-id pub-id-type="doi">10.1017/S1462399408000732</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. van den Elzen P, Garg S, León L, Brigl M, Leadbetter EA, Gumperz JE, et al. Apolipoprotein-mediated pathways of lipid antigen presentation. Nature. 2005 Oct;437(7060):906-10.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>van den Elzen</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Garg</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>León</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Brigl</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Leadbetter</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Gumperz</surname>
+							<given-names>JE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Apolipoprotein-mediated pathways of lipid antigen presentation</article-title>
+					<source>Nature</source>
+					<month>10</month>
+					<year>2005</year>
+					<volume>437</volume>
+					<issue>7060</issue>
+					<fpage>906</fpage>
+					<lpage>910</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Chen X, Wang X, Keaton JM, Reddington F, Illarionov PA, Besra GS, et al. Distinct endosomal trafficking requirements for presentation of autoantigens and exogenous lipids by human CD1d molecules. J Immunol. 2007 May;178(10):6181-90.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Keaton</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Reddington</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Illarionov</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Besra</surname>
+							<given-names>GS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Distinct endosomal trafficking requirements for presentation of autoantigens and exogenous lipids by human CD1d molecules</article-title>
+					<source>J Immunol</source>
+					<month>05</month>
+					<year>2007</year>
+					<volume>178</volume>
+					<issue>10</issue>
+					<fpage>6181</fpage>
+					<lpage>6190</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Salio M, Ghadbane H, Dushek O, Shepherd D, Cypen J, Gileadi U, et al. Saposins modulate human invariant Natural Killer T cells self-reactivity and facilitate lipid exchange with CD1d molecules during antigen presentation. Proc Natl Acad Sci USA. 2013 Dec;110(49):E4753-61. DOI 10.1073/pnas.1310050110.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ghadbane</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Dushek</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Shepherd</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Cypen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gileadi</surname>
+							<given-names>U</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Saposins modulate human invariant Natural Killer T cells self-reactivity and facilitate lipid exchange with CD1d molecules during antigen presentation</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<month>12</month>
+					<year>2013</year>
+					<volume>110</volume>
+					<issue>49</issue>
+					<fpage>E4753</fpage>
+					<lpage>E4761</lpage>
+					<pub-id pub-id-type="doi">10.1073/pnas.1310050110</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Kang SJ, Cresswell P. Regulation of intracellular trafficking of human CD1d by association with MHC class II molecules. EMBO J. 2002 Apr;21(7):1650-60.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kang</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Cresswell</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Regulation of intracellular trafficking of human CD1d by association with MHC class II molecule</article-title>
+					<source>EMBO J</source>
+					<month>04</month>
+					<year>2002</year>
+					<volume>21</volume>
+					<issue>7</issue>
+					<fpage>1650</fpage>
+					<lpage>1660</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Vomhof-DeKrey EE, Yates J, Leadbetter EA. Invariant NKT cells provide innate and adaptive help for B cells. Curr Opin Immunol. 2014 Jun;28:12-7. DOI 10.1016/j.coi.2014.01.007.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vomhof-DeKrey</surname>
+							<given-names>EE</given-names>
+						</name>
+						<name>
+							<surname>Yates</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Leadbetter</surname>
+							<given-names>EA</given-names>
+						</name>
+					</person-group>
+					<article-title>Invariant NKT cells provide innate and adaptive help for B cells</article-title>
+					<source>Curr Opin Immunol</source>
+					<month>06</month>
+					<year>2014</year>
+					<volume>28</volume>
+					<fpage>12</fpage>
+					<lpage>17</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.coi.2014.01.007</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Peng W, Martaresche C, Escande-Beillard N, Cedile O, Reynier-Vigouroux A, Boucraut J. Influence of lipid rafts on CD1d presentation by dendritic cells. Mol Membr Biol. 2007 Sep-Dec;24(5-6):475-84.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peng</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Martaresche</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Escande-Beillard</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Cedile</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Reynier-Vigouroux</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Boucraut</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Influence of lipid rafts on CD1d presentation by dendritic cells</article-title>
+					<source>Mol Membr Biol</source>
+					<season>Sep-Dec</season>
+					<year>2007</year>
+					<volume>24</volume>
+					<issue>5-6</issue>
+					<fpage>475</fpage>
+					<lpage>484</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Murai T. The role of lipid rafts in cancer cell adhesion and migration. Int J Cell Biol. 2012;2012:763283. DOI 10.1155/2012/763283.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murai</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>The role of lipid rafts in cancer cell adhesion and migration</article-title>
+					<source>Int J Cell Biol</source>
+					<year>2012</year>
+					<volume>2012</volume>
+					<fpage>763283</fpage>
+					<lpage>763283</lpage>
+					<pub-id pub-id-type="doi">10.1155/2012/763283</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Im JS, Arora P, Bricard G, Molano A, Venkataswamy MM, Baine I, et al. Kinetics and cellular site of glycolipid loading control the outcome of natural killer T cell activation. Immunity. 2009 Jun;30(6):888-98. DOI 10.1016/j.immuni.2009.03.022.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Im</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Arora</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bricard</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Molano</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Venkataswamy</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Baine</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Kinetics and cellular site of glycolipid loading control the outcome of natural killer T cell activation</article-title>
+					<source>Immunity</source>
+					<month>06</month>
+					<year>2009</year>
+					<volume>30</volume>
+					<issue>6</issue>
+					<fpage>888</fpage>
+					<lpage>898</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.immuni.2009.03.022</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Williams JA, Lumsden JM, Yu X, Feigenbaum L, Zhang J, Steinberg SM, et al. Regulation of thymic NKT cell development by the B7-CD28 costimulatory pathway. J Immunol. 2008 Jul;181(2):907-17.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Williams</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Lumsden</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Feigenbaum</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Steinberg</surname>
+							<given-names>SM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Regulation of thymic NKT cell development by the B7-CD28 costimulatory pathway</article-title>
+					<source>J Immunol</source>
+					<month>07</month>
+					<year>2008</year>
+					<volume>181</volume>
+					<issue>2</issue>
+					<fpage>907</fpage>
+					<lpage>917</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. van den Heuvel MJ, Garg N, Van Kaer L, Haeryfar SM. NKT cell costimulation: experimental progress and therapeutic promise. Trends Mol Med. 2011 Feb;17(2):65-77. DOI 10.1016/j.molmed.2010.10.007.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>van den Heuvel</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Garg</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Van Kaer</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Haeryfar</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>NKT cell costimulation: experimental progress and therapeutic promise</article-title>
+					<source>Trends Mol Med</source>
+					<month>02</month>
+					<year>2011</year>
+					<volume>17</volume>
+					<issue>2</issue>
+					<fpage>65</fpage>
+					<lpage>77</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.molmed.2010.10.007</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Singh AK, Gaur P, Das SN. Natural killer T cell anergy, co-stimulatory molecules and immunotherapeutic interventions. Hum Immunol. 2014 Mar;75(3):250-60. DOI 10.1016/j.humimm.2013.12.004.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Singh</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Gaur</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Das</surname>
+							<given-names>SN</given-names>
+						</name>
+					</person-group>
+					<article-title>Natural killer T cell anergy, co-stimulatory molecules and immunotherapeutic interventions</article-title>
+					<source>Hum Immunol</source>
+					<month>03</month>
+					<year>2014</year>
+					<volume>75</volume>
+					<issue>3</issue>
+					<fpage>250</fpage>
+					<lpage>260</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.humimm.2013.12.004</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Adams EJ, López-Sagaseta J. The immutable recognition of CD1d. Immunity. 2011 Mar;34(3):281-3. DOI 10.1016/j.immuni.2011.03.006.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Adams</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>López-Sagaseta</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The immutable recognition of CD1d</article-title>
+					<source>Immunity</source>
+					<month>03</month>
+					<year>2011</year>
+					<volume>34</volume>
+					<issue>3</issue>
+					<fpage>281</fpage>
+					<lpage>283</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.immuni.2011.03.006</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Pei B, Vela JL, Zajonc D, Kronenberg M. Interplay between carbohydrate and lipid in recognition of glycolipid antigens by natural killer T cells. Ann N Y Acad Sci. 2012 Apr;1253:68-79. DOI 10.1111/j.1749-6632.2011.06435.x.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pei</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Vela</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Zajonc</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Kronenberg</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Interplay between carbohydrate and lipid in recognition of glycolipid antigens by natural killer T cells</article-title>
+					<source>Ann N Y Acad Sci</source>
+					<month>04</month>
+					<year>2012</year>
+					<volume>1253</volume>
+					<fpage>68</fpage>
+					<lpage>79</lpage>
+					<pub-id pub-id-type="doi">10.1111/j.1749-6632.2011.06435.x</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Mallevaey T, Clarke AJ, Scott-Browne JP, Young MH, Roisman LC, Pellicci DG, et al. A molecular basis for NKT cell recognition of CD1d-self-antigen. Immunity. 2011 Mar;34(3):315-26. DOI 10.1016/j.immuni.2011.01.013.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mallevaey</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Clarke</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Scott-Browne</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Young</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Roisman</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Pellicci</surname>
+							<given-names>DG</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A molecular basis for NKT cell recognition of CD1d-self-antigen. Immunity</article-title>
+					<month>03</month>
+					<year>2011</year>
+					<volume>34</volume>
+					<issue>3</issue>
+					<fpage>315</fpage>
+					<lpage>326</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.immuni.2011.01.013</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. Patel O, Pellicci DG, Uldrich AP, Sullivan LC, Bhati M, McKnight M, et al. Vβ2 natural killer T cell antigen receptor-mediated recognition of CD1d-glycolipid antigen. Proc Natl Acad Sci USA. 2011 Nov;108(47):19007-12. DOI 10.1073/pnas.1109066108.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Patel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Pellicci</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Uldrich</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Sullivan</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Bhati</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>McKnight</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Vβ2 natural killer T cell antigen receptor-mediated recognition of CD1d-glycolipid antigen</article-title>
+					<source>Proc Natl Acad Sci USA</source>
+					<month>11</month>
+					<year>2011</year>
+					<volume>108</volume>
+					<issue>47</issue>
+					<fpage>19007</fpage>
+					<lpage>19012</lpage>
+					<pub-id pub-id-type="doi">10.1073/pnas.1109066108</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Arora P, Baena A, Yu KO, Saini NK, Kharkwal SS, Goldberg MF, et al. A single subset of dendritic cells controls the cytokine bias of natural killer T cell responses to diverse glycolipid antigens. Immunity. 2014 Jan;40(1):105-16. DOI 10.1016/j.immuni.2013.12.004.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arora</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Baena</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>KO</given-names>
+						</name>
+						<name>
+							<surname>Saini</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Kharkwal</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Goldberg</surname>
+							<given-names>MF</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A single subset of dendritic cells controls the cytokine bias of natural killer T cell responses to diverse glycolipid antigens</article-title>
+					<source>Immunity</source>
+					<month>01</month>
+					<year>2014</year>
+					<volume>40</volume>
+					<issue>1</issue>
+					<fpage>105</fpage>
+					<lpage>116</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.immuni.2013.12.004</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51. Watarai H, Sekine-Kondo E, Shigeura T, Motomura Y, Yasuda T, Satoh R, et al. Development and function of invariant natural killer T cells producing T(h)2- and T(h)17-cytokines. PLoS Biol. 2012 Feb;10(2):e1001255. DOI 10.1371/journal.pbio.1001255.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Watarai</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Sekine-Kondo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Shigeura</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Motomura</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yasuda</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Satoh</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Development and function of invariant natural killer T cells producing T(h)2- and T(h)17-cytokines</article-title>
+					<source>PLoS Biol</source>
+					<month>02</month>
+					<year>2012</year>
+					<volume>10</volume>
+					<issue>2</issue>
+					<elocation-id>e1001255</elocation-id>
+					<pub-id pub-id-type="doi">10.1371/journal.pbio.1001255</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>52. McDonald BD, Constantinides MG, Bendelac A. Polarized effector programs for innate-like thymocytes. Nat Immunol. 2013 Nov;14(11):1110-1. DOI 10.1038/ni.2739.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McDonald</surname>
+							<given-names>BD</given-names>
+						</name>
+						<name>
+							<surname>Constantinides</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Bendelac</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Polarized effector programs for innate-like thymocytes</article-title>
+					<source>Nat Immunol</source>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>53. Venken K, Decruy T, Aspeslagh S, Van Calenbergh S, Lambrecht BN, Elewaut D. Bacterial CD1d-restricted glycolipids induce IL-10 production by human regulatory T cells upon cross-talk with invariant NKT cells. J Immunol. 2013 Sep;191(5):2174-83. DOI 10.4049/jimmunol.1300562.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Venken</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Decruy</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Aspeslagh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Van Calenbergh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lambrecht</surname>
+							<given-names>BN</given-names>
+						</name>
+						<name>
+							<surname>Elewaut</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Bacterial CD1d-restricted glycolipids induce IL-10 production by human regulatory T cells upon cross-talk with invariant NKT cells</article-title>
+					<source>J Immunol</source>
+					<month>09</month>
+					<year>2013</year>
+					<volume>191</volume>
+					<issue>5</issue>
+					<fpage>2174</fpage>
+					<lpage>2183</lpage>
+					<pub-id pub-id-type="doi">10.4049/jimmunol.1300562</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>54. Wu J, Yang J, Yang K, Wang H, Gorentla B, Shin J, et al. iNKT cells require TSC1 for terminal maturation and effector lineage fate decisions. J Clin Invest. 2014 Apr;124(4):1685-98. DOI 10.1172/JCI69780.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gorentla</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Shin</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>iNKT cells require TSC1 for terminal maturation and effector lineage fate decisions</article-title>
+					<source>J Clin Invest</source>
+					<month>04</month>
+					<year>2014</year>
+					<volume>124</volume>
+					<issue>4</issue>
+					<fpage>1685</fpage>
+					<lpage>1698</lpage>
+					<pub-id pub-id-type="doi">10.1172/JCI69780</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation>55. King IL, Fortier A, Tighe M, Dibble J, Watts GF, Veerapen N, et al. Invariant natural killer T cells direct B cell responses to cognate lipid antigen in an IL-21-dependent manner. Nat Immunol. 2011 Nov;13(1):44-50. DOI 10.1038/ni.2172.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>King</surname>
+							<given-names>IL</given-names>
+						</name>
+						<name>
+							<surname>Fortier</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tighe</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Dibble</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Watts</surname>
+							<given-names>GF</given-names>
+						</name>
+						<name>
+							<surname>Veerapen</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Invariant natural killer T cells direct B cell responses to cognate lipid antigen in an IL-21-dependent manner</article-title>
+					<source>Nat Immunol</source>
+					<month>11</month>
+					<year>2011</year>
+					<volume>13</volume>
+					<issue>1</issue>
+					<fpage>44</fpage>
+					<lpage>50</lpage>
+					<pub-id pub-id-type="doi">10.1038/ni.2172</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B56">
+				<label>56</label>
+				<mixed-citation>56. Chang PP, Barral P, Fitch J, Pratama A, Ma CS, Kallies A, et al. Identification of Bcl-6-dependent follicular helper NKT cells that provide cognate help for B cell responses. Nat Immunol. 2011 Nov;13(1):35-43. DOI 10.1038/ni.2166.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>PP</given-names>
+						</name>
+						<name>
+							<surname>Barral</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Fitch</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pratama</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ma</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Kallies</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Identification of Bcl-6-dependent follicular helper NKT cells that provide cognate help for B cell responses</article-title>
+					<source>Nat Immunol</source>
+					<month>11</month>
+					<year>2011</year>
+					<volume>13</volume>
+					<issue>1</issue>
+					<fpage>35</fpage>
+					<lpage>43</lpage>
+					<pub-id pub-id-type="doi">10.1038/ni.2166</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B57">
+				<label>57</label>
+				<mixed-citation>57. De Santo C, Arscott R, Booth S, Karydis I, Jones M, Asher R, et al. Invariant NKT cells modulate the suppressive activity of IL-10-secreting neutrophils differentiated with serum amyloid A. Nat Immunol. 2010 Nov;11(11):1039-46. DOI 10.1038/ni.1942.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Santo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Arscott</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Booth</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Karydis</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Asher</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Invariant NKT cells modulate the suppressive activity of IL-10-secreting neutrophils differentiated with serum amyloid A</article-title>
+					<source>Nat Immunol</source>
+					<month>11</month>
+					<year>2010</year>
+					<volume>11</volume>
+					<issue>11</issue>
+					<fpage>1039</fpage>
+					<lpage>1046</lpage>
+					<pub-id pub-id-type="doi">10.1038/ni.1942</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B58">
+				<label>58</label>
+				<mixed-citation>58. Bai L, Constantinides MG, Thomas SY, Reboulet R, Meng F, Koentgen F, et al. Distinct APCs explain the cytokine bias of α-galactosylceramide variants in vivo. J Immunol. 2012 Apr;188(7):3053-61. DOI 10.4049/jimmunol.1102414.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bai</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Constantinides</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Thomas</surname>
+							<given-names>SY</given-names>
+						</name>
+						<name>
+							<surname>Reboulet</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Meng</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Koentgen</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Distinct APCs explain the cytokine bias of α-galactosylceramide variants in vivo</article-title>
+					<source>J Immunol</source>
+					<month>04</month>
+					<year>2012</year>
+					<volume>188</volume>
+					<issue>7</issue>
+					<fpage>3053</fpage>
+					<lpage>3061</lpage>
+					<pub-id pub-id-type="doi">10.4049/jimmunol.1102414</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B59">
+				<label>59</label>
+				<mixed-citation>59. Oki S, Tomi C, Yamamura T, Miyake S. Preferential T(h)2 polarization by OCH is supported by incompetent NKT cell induction of CD40L and following production of inflammatory cytokines by bystander cells in vivo. Int Immunol. 2005 Dec;17(12):1619-29</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oki</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tomi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Yamamura</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Miyake</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Preferential T(h)2 polarization by OCH is supported by incompetent NKT cell induction of CD40L and following production of inflammatory cytokines by bystander cells in vivo</article-title>
+					<source>Int Immunol</source>
+					<month>12</month>
+					<year>2005</year>
+					<volume>17</volume>
+					<issue>12</issue>
+					<fpage>1619</fpage>
+					<lpage>1629</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

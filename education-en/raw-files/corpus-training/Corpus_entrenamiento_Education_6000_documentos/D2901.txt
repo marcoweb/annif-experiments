@@ -1,0 +1,19 @@
+#ITI#Advice for improving the reproducibility of data extraction in meta-analysis#FTI#
+#IRE# Extracting data from studies is the norm in meta-analyses, enabling researchers to generate effect sizes when raw data are otherwise not available. While there has been a general push for increased reproducibility in meta-analysis, the transparency and reproducibility of the data extraction phase is still lagging behind. Unfortunately, there is little guidance of how to make this process more transparent and shareable. To address this, we provide several steps to help increase the reproducibility of data extraction in meta-analysis. We also provide suggestions of R software that can further help with reproducible data policies: the shinyDigitise and juicr packages. Adopting the guiding principles listed here and using the appropriate software will provide a more transparent form of data extraction in meta-analyses#FRE#
+#IPC# data extraction; juicr; meta-analysis; metaDigitise; reproducibility; shinyDigitise#FPC#
+#IRF# Ihle M., Winney I.S., Krystalli A., Croucher M., Striving for transparent and credible research: practical guidelines for behavioral ecologists, Behav Ecol, 28, pp. 348-354, (2017); 
+Moher D., Altman D.G., Liberati A., Tetzlaff J., PRISMA statement, Epidemiology, 22, (2011); 
+O'Dea R.E., Lagisz M., Jennions M.D., Et al., Preferred reporting items for systematic reviews and meta-analyses in ecology and evolutionary biology: a PRISMA extension, Biol Rev, 96, pp. 1695-1722, (2021); 
+Gotzsche P.C., Hrobjartsson A., Maric K., Tendal B., Data extraction errors in meta-analyses that use standardized mean differences, JAMA, 298, pp. 430-437, (2007); 
+Mathes T., Klassen P., Pieper D., Frequency of data extraction errors and methods to increase data extraction quality: a methodological review, BMC Med Res Methodol, 17, (2017); 
+Wong J.S., Bouchard J., Do meta-analyses of intervention/prevention programs in the field of criminology meet the tests of transparency and reproducibility?, Trauma Violence Abuse, 24, (2022); 
+Buscemi N., Hartling L., Vandermeer B., Tjosvold L., Klassen T.P., Single data extraction generated more errors than double data extraction in systematic reviews, J Clin Epidemiol, 59, pp. 697-703, (2006); 
+Pick J.L., Nakagawa S., Noble D.W.A., Reproducible, flexible and high-throughput data extraction from primary literature: the metaDigitise r package, Methods Ecol Evol, 10, pp. 426-431, (2019); 
+Miyakawa T., No raw data, no science: another possible source of the reproducibility crisis, Mol Brain, 13, (2020); 
+Koricheva J., Gurevitch J., Uses and misuses of meta-analysis in plant ecology, J Ecol, 102, pp. 828-844, (2014); 
+Lopez-Nicolas R., Lopez-Lopez J.A., Rubio-Aparicio M., Sanchez-Meca J., A meta-review of transparency and reproducibility-related reporting practices in published meta-analyses on clinical psychological interventions (2000–2020), Behav Res Methods, 54, pp. 334-349, (2022); 
+Curtis P.S., Mengersen K., Lajeunesse M.J., Rothstein H.R., Stewart G.B., Extraction and critical appraisal of data, Handbook of Meta-Analysis in Ecology and Evolution, pp. 52-60, (2013); 
+Wan X., Wang W., Liu J., Tong T., Estimating the sample mean and standard deviation from the sample size, median, range and/or interquartile range, BMC Med Res Methodol, 14, (2014); 
+Lajeunesse M.J., Squeezing data from scientific images using the juicr package for R. R Package Version 0.1, (2021); 
+Lajeunesse M.J., Facilitating systematic reviews, data extraction and meta-analysis with the metagear package for R, Methods Ecol Evol, 7, pp. 323-330, (2016); 
+Nakagawa S., Ivimey-Cook E.R., Grainger M.J., Et al., Method reporting with initials for transparency (merit) promotes more granularity and accountability for author contributions, Nat Commun, 14, (2023)#FRF#

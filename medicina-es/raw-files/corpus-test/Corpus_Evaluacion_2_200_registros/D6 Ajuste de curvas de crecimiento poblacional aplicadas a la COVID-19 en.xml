@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">rhcm</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Habanera de Ciencias Médicas</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev haban cienc méd</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1729-519X</issn>
+			<publisher>
+				<publisher-name>Universidad de Ciencias Médicas de La Habana</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00013</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Ciencias tecnológicas</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ajuste de curvas de crecimiento poblacional aplicadas a la COVID-19 en Cuba</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Adjustment of population growth curve applied to COVID-19 in Cuba</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0508-9783</contrib-id>
+					<name>
+						<surname>Medina Mendieta</surname>
+						<given-names>Juan Felipe</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9903-3907</contrib-id>
+					<name>
+						<surname>Cortés Cortés</surname>
+						<given-names>Manuel E.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4517-9820</contrib-id>
+					<name>
+						<surname>Cortés Iglesias</surname>
+						<given-names>Manuel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Universidad de Cienfuegos “Carlos Rafael Rodríguez”. Cienfuegos, Cuba.</institution>
+					<institution content-type="orgname">Universidad de Cienfuegos “Carlos Rafael Rodríguez”</institution>
+					<institution content-type="normalized">Universidad de Cienfuegos “Carlos Rafael Rodríguez”</institution>
+					<addr-line>
+						<named-content content-type="city">Cienfuegos</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label><sup>*</sup></label>Autor para la correspondencia: <email>jfelipemm@ucf.edu.cu</email>
+				</corresp>
+				<fn fn-type="conflict" id="fn1">
+					<p>Los autores declaran que no existen conflictos de intereses.</p>
+				</fn>
+				<fn fn-type="equal" id="fn5">
+					<p>Todos los autores participamos en la discusión de los resultados y hemos leído, revisado y aprobado el texto final del artículo.</p>
+				</fn>
+			</author-notes>
+			<!--<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>06</month>
+				<year>2020</year>
+			</pub-date>-->
+			<pub-date pub-type="epub-ppub">
+				<year>2020</year>
+			</pub-date>
+			<volume>19</volume>
+			<issue>1</issue>
+			<supplement>Supl.</supplement>
+			<elocation-id>e3353</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>05</day>
+					<month>05</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>14</day>
+					<month>05</month>
+					<year>2020</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>Introducción:</title>
+					<p> Cuba ha sido afectada por la COVID-19. Todas las provincias del país han presentado casos confirmados de la enfermedad. Se han llevado a cabo medidas por parte del gobierno y el sistema de salud, para contrarrestar el contagio de persona a persona. Es de gran ayuda contar con estimaciones de casos confirmados para las decisiones. </p>
+				</sec>
+				<sec>
+					<title>Objetivos:</title>
+					<p> Obtener predicciones para los picos de casos confirmados y cantidad total de estos para algunas provincias de Cuba y para todo el país. </p>
+				</sec>
+				<sec>
+					<title>Material y Métodos:</title>
+					<p> Estudio de tipo predictivo de curvas de crecimiento poblacional. Se analizan los datos correspondientes a los primeros 52 días de afectación de la enfermedad en el país para estimar los modelos y aplicar el método de los mínimos cuadrados para modelos no lineales con respecto a los parámetros. Se utilizan el coeficiente de determinación ajustado, el criterio de información de Akaike y el error estándar de los residuos para medir la bondad del ajuste de los modelos. Se estudian las provincias del país que presentan una tasa de infectados por cien mil habitantes mayor que 14,71 y el país en su conjunto. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> La bondad de ajuste de los modelos utilizados en las localidades estudiadas y en el país es alta, lo cual permite su confiabilidad para los pronósticos efectuados. </p>
+				</sec>
+				<sec>
+					<title>Conclusiones:</title>
+					<p> Las predicciones plantean que las cinco localidades analizadas presentan su pico de contagio en abril al igual que Cuba.</p>
+				</sec>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<sec>
+					<title>Introduction:</title>
+					<p> Cuba and all its provinces have been affected by COVID-19 disease. The government and the health system have taken measures to avoid contagion from person to person. To take these measures it is important to have estimates of the rate of infection. </p>
+				</sec>
+				<sec>
+					<title>Objectives:</title>
+					<p> To obtain predictions for the peak of infected cases and the total number for some Cuban provinces and the whole country. </p>
+				</sec>
+				<sec>
+					<title>Material and Methods:</title>
+					<p> Predictive study of population growth curves. Data from the first 52 days of the disease in the country are processed to estimate the models and to apply the method of least squares estimation of nonlinear parameters. The adjusted coefficient of determination, the Akaike information criterion and the standard error of the residuals are used to measure the goodness of fit of the models. The provinces that present a rate of infection per 100,000 inhabitants greater than 14,71 and the country as a whole are studied. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> The goodness of fit of the models used in the provinces studied and the country is high, which allows them to be reliable for predictions. </p>
+				</sec>
+				<sec>
+					<title>Conclusions:</title>
+					<p> The predictions suggest that the five provinces analyzed and Cuba show their peak of contagion in April. </p>
+				</sec>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras claves:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>estudio predictivo</kwd>
+				<kwd>curvas de crecimiento poblacional</kwd>
+				<kwd>Cuba</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Keywords:</title>
+				<kwd>COVID-19</kwd>
+				<kwd>predictive study</kwd>
+				<kwd>population growth curves</kwd>
+				<kwd>Cuba</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="24"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El nuevo coronavirus Sars-CoV-2, causante de la enfermedad COVID-19, presenta una rápida propagación y alto porciento de mortalidad, comparado con otros coronavirus.</p>
+			<p>Cuba se encuentra afectada por la COVID-19 y ha adoptado medidas, con el fin de contrarrestar su propagación en la población. Sin embargo, como ha sucedido en otros países afectados por esta enfermedad, se ha manifestado un crecimiento aproximadamente exponencial de casos confirmados en el país; las provincias de occidente presentan mayor número de casos que las de oriente. Entre las provincias con mayor número de casos confirmados destaca La Habana. Este comportamiento es lógico debido a que en ella se concentra aproximadamente la quinta parte de la población nacional y presenta un mayor movimiento interno y externo.</p>
+			<p>La dirección del país ha llevado a cabo medidas de gran magnitud, en coordinación con el Ministerio de Salud Pública, la Defensa Civil y otras entidades. Se han realizado pronósticos de la cantidad de personas que podrán estar en centros de confinamiento, hospitalizadas o con necesidad de cuidados intensivos, así como de personal médico disponible, entre muchas otras cuestiones. Los pronósticos de la cantidad total de personas contagiadas por provincia y el o los días de mayor número de contagios se hace imprescindible en este contexto y para realizarlo se utilizan distintas modelaciones matemáticas.</p>
+			<p>Una modelación clásica aplicada a las epidemias consiste en los modelos SIR de ecuaciones diferenciales, cuyo nombre proviene de: S (población susceptible), I (población infectada) y R (población recuperada o removida del sistema). Esta modelación tiene presente una serie de factores con el fin de expresar lo mejor posible las realidades de las epidemias y ha sido utilizada con éxitos en la epidemia provocada por la COVID-19, en algunas regiones.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B2"><sup>2</sup></xref> Sin embargo, en muchas ocasiones, presenta gran complejidad en la modelación debido a los diferentes factores a tener presente, alto nivel de procesamiento para la obtención de los modelos y alta complejidad en la interpretación de las soluciones obtenidas.</p>
+			<p>Una modelación menos compleja está basada en ajuste de modelos predictivos de crecimiento poblacional del tipo logístico y exponencial. Existen diferentes modelos que describen el crecimiento de poblaciones.<xref ref-type="bibr" rid="B3"><sup>3</sup></xref> Estos pueden ser aplicados al incremento de la cantidad de personas infectadas por una enfermedad de contagio. Entre estos modelos destacan aquellos de crecimiento logístico, de Gompertz, de Weibull. Estos han sido utilizados con éxito en la epidemia de la COVID-19 para los casos de China,<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> Italia,<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> Corea del Sur, Costa Rica <xref ref-type="bibr" rid="B10"><sup>10</sup></xref> y varios países.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>El objetivo de utilizar esta modelación matemática, consiste en obtener los parámetros de los modelos que mejor se ajusten a los datos reales, para utilizar estos en predicciones futuras. Para la obtención de los parámetros, se utiliza el método de los mínimos cuadrados para modelos no lineales con respecto a los parámetros (MCNL).</p>
+			<p>Es importante seleccionar el o aquellos modelos que mejor describan la situación en estudio y presenten validez para realizar pronósticos. Debido a esto se pueden formular las siguientes interrogantes: ¿cuál o cuáles de los modelos de crecimiento poblacional aplicados se ajustan mejor a los datos reales? ¿serán adecuados el o los modelos seleccionados para realizar pronósticos futuros?</p>
+			<p>El <bold>objetivo</bold> de la presente investigación es obtener predicciones para los picos de casos confirmados y cantidad total de estos para algunas provincias de Cuba y para todo el país.</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>Material y métodos</title>
+			<p>El estudio predictivo realizado presenta modelos de crecimiento poblacional con adecuaciones. Fueron utilizados 7 modelos entre variaciones del modelo logístico y los modelos de crecimiento Gompertz y de Weibull. En estos, la variable dependiente está representada por los casos acumulados confirmados a la COVID-19 diariamente y la independiente por el tiempo trascurrido, luego de haberse registrado los primeros casos. La cantidad de parámetros a obtener varía entre 4 y 7 en dependencia del modelo aplicado y ha sido utilizado el método de los MCNL para su obtención. El valor de la significación a priori alfa escogido es 0,05</p>
+			<p>Los modelos utilizados en la presente investigación se exponen a continuación:</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>M1: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i001.png"/>. Modelo logarítmico-logístico de cuatro parámetros.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+						</p>
+					</list-item>
+					<list-item>
+						<p>M2: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i002.png"/>. Modelo logarítmico-logístico de cinco parámetros<sub>
+ <sup>.(<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B14">14</xref>)</sup>
+</sub></p>
+					</list-item>
+					<list-item>
+						<p>M3: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i003.png"/>. Modelo de crecimiento de Gompertz de cuatro parámetros.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>
+						</p>
+					</list-item>
+					<list-item>
+						<p>M4: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i004.png"/>. Modelo de crecimiento de Weibull de cuatro parámetros.<xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B16"><sup>16</sup></xref>
+						</p>
+					</list-item>
+					<list-item>
+						<p>M5: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i005.png"/>. Modelo logístico de Brain and Cousens de cinco parámetros.<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+						</p>
+					</list-item>
+					<list-item>
+						<p>M6: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i006.png"/>. Modelo de dos fases de dosis-respuesta de siete parámetros<sub>
+ <sup>.(<xref ref-type="bibr" rid="B18">18</xref>)</sup>
+</sub></p>
+					</list-item>
+					<list-item>
+						<p>M7: <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i007.png"/>, <inline-graphic xlink:href="1729-519X-rhcm-19-s1-e3353-i008.png"/>. Variación del modelo logístico de cinco parámetros<sub>
+ <sup>.(<xref ref-type="bibr" rid="B19">19</xref>)</sup>
+</sub></p>
+					</list-item>
+				</list>
+			</p>
+			<p>El estudio fue realizado desde mediados de marzo hasta finales de abril, en medio de la afectación de la COVID-19 en Cuba, por un grupo de profesores del Departamento de Matemáticas de la Universidad de Cienfuegos “Carlos Rafael Rodríguez”, en colaboración con el Departamento de Tecnología Educativa de este Centro.</p>
+			<p>Se estudiaron los datos reportados por Cuba referente a la cantidad de casos confirmados a la COVID-19; se comenzó el registro el 11 de marzo, fecha en la que se reportaron los primeros casos positivos de la enfermedad en el país. Los datos fueron estudiados hasta el 2 de mayo de 2020. Estos datos fueron tomados del sitio <ext-link ext-link-type="uri" xlink:href="http://www.covid19cubadata.github.io/">covid19cubadata.github.io</ext-link>, los cuales son actualizados diariamente, por colaboradores del sitio <italic>web</italic>, y compilados en un archivo de datos de extensión csv, a partir de los partes oficiales que, en conferencia de prensa, se ofrecen a todo el país.</p>
+			<p>Para el estudio, y hasta la fecha de escrito este informe de investigación (3 de mayo de 2020), se seleccionaron los 5 territorios más afectadas por la COVID-19, en función de su cantidad de habitantes. Los territorios seleccionados para el estudio fueron aquellos con tasa de infectados por cien mil habitantes mayor que 14,71, debido a que el país, en esta fecha presentaba este índice. En la <xref ref-type="table" rid="t1">tabla 1</xref> se muestra, por provincia, la cantidad de casos confirmados y las respectivas tasas.</p>
+			<p>
+				<table-wrap id="t1">
+					<label><italic>Tabla 1</italic></label>
+					<caption>
+						<title>Cantidad de casos confirmados a la COVID-19 y tasa por cada cien mil habitantes, por cada provincia y el Municipio Especial en Cuba</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gt1.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Los territorios seleccionados para el estudio fueron: Isla de la Juventud (48,93), La Habana (36,41), Villa Clara (24,59), Ciego de Ávila (19,31) y Matanzas (17,35). En la Isla de la Juventud se registraron los primeros casos el 04/04/2020; en La Habana, el 16/03/2020; en Villa Clara, el 13/03/2020; en Ciego de Ávila, el 23/03/2020 y en Matanzas, el 20/03/2020.</p>
+			<p>Las variables cuantitativas discretas, analizadas en la investigación son:</p>
+			<p>Variable independiente: Cantidad de días transcurridos desde que se confirmaron el o los primeros casos positivos a la COVID-19 por localidad y en el país.</p>
+			<p>Variable dependiente: Cantidad de casos acumulados diarios, confirmados a la COVID-19 por localidad o en el país.</p>
+			<p>Para el tratamiento de los datos y el procesamiento computacional se utilizaron <italic>scripts</italic> programados en el lenguaje de programación R 3.6.1, de procesamiento numérico.<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> Los <italic>scripts</italic> pueden ser descargados desde la dirección <ext-link ext-link-type="uri" xlink:href="https://clasesvirtuales.ucf.edu.cu/course/view.php?id=1147">https://clasesvirtuales.ucf.edu.cu/course/view.php?id=1147</ext-link>
+			</p>
+			<p>Para el procesamiento de los modelos utilizados y la implementación del método de los MCNL se empleó la instrucción drm del paquete drc de R. Este paquete presenta herramientas para el análisis y el ajuste de modelos no lineales con respecto a sus parámetros, conocidos como modelos de dosis-respuesta, utilizados en Ciencias Médicas, Biológicas, Agropecuarias, Técnicas y Sociales. Presenta implementación de algoritmos eficientes para la obtención de los parámetros, pruebas de hipótesis para estudiar la bondad de ajuste de estos modelos y el contraste de criterios para selección del mejor o mejores modelos que se ajustan a una serie de datos. Mayor documentación puede ser encontrada en <ext-link ext-link-type="uri" xlink:href="https://www.bioassay.dk/">https://www.bioassay.dk</ext-link>.</p>
+			<p>Para el cálculo de los puntos de inflexión en los modelos M5, M6 y M7 se utilizaron métodos numéricos mediante la instrucción uniroot del paquete stat de R.</p>
+			<p>Para la selección del modelo con mejor ajuste se contrastaron varios criterios:</p>
+			<p>Coeficiente de determinación ajustado (R<sup>2</sup>), adecuado para modelos no lineales. Evalúa la efectividad que presenta la variable independiente para medir la variable dependiente.<xref ref-type="bibr" rid="B21"><sup>21</sup></xref>
+			</p>
+			<p>Criterio de información de Akaike (AIC). Expone una medida de la calidad relativa de un modelo al contrastar la bondad del ajuste con la complejidad del mismo.<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>
+			</p>
+			<p>Error estándar de los residuos (RSE). Presenta una desviación media ponderada del modelo con respecto a los valores experimentales.<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>
+			</p>
+			<p>Para diferentes modelos, valores del coeficiente de determinación ajustados cercanos a 1 y menores valores de AIC y de errores estándares de los residuos, ponen de manifiesto modelos con mayor adecuación.</p>
+			<p>Para verificar la bondad del ajuste, se aplicó la prueba de Neill, mediante la instrucción <italic>neill.test</italic> del paquete drc de R, adecuada para modelos no lineales con respecto a los parámetros y que utiliza técnicas de agrupamiento en caso de no contar con réplicas.<sub>
+ <sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>).</sup>
+</sub></p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Estudio de caso de las provincias y el municipio especial Isla de la Juventud</p>
+			<p>En la <xref ref-type="table" rid="t2">tabla 2</xref> se presentan los resultados del procesamiento realizado para cada uno de los 5 territorios afectados. Se muestran los criterios de ajuste utilizados en la investigación. </p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Criterios de ajuste para cada modelo procesado para los datos de cada territorio</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gt2.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Los criterios de calidad del ajuste estudiados se comportan de forma similar para cada modelo. El modelo logarítmico-logístico de cinco parámetros (M2) es seleccionado, por presentar mejores valores, en la provincia de Villa Clara, mientras que el modelo de dos fases de dosis-respuesta de siete parámetros (M6) se presenta como mejor candidato para la Isla de la Juventud, La Habana, Ciego de Ávila y Matanzas. Sin embargo, no es posible calcular predicciones, con las técnicas utilizadas en esta investigación, para el pico de la provincia Ciego de Ávila, debido a que el tiempo, al emplear el algoritmo para la búsqueda del punto de inflexión, sobrepasa la tolerancia empleada en la investigación sin haber obtenido resultado. En este caso, se selecciona el segundo modelo que proporciona los mejores índices de ajuste: M7.</p>
+			<p>La <xref ref-type="table" rid="t3">tabla 3</xref> presenta la prueba de bondad de ajuste para cada modelo seleccionado, sus coeficientes e inferencias sobre estos y predicciones para picos de mayores contagios y cantidad total de estos, para cada uno de los territorios. Los coeficientes se nombran cuando se presentan sus valores ajustados y luego se muestran sus valores de significación al seguir el mismo orden en que se expusieron inicialmente.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Coeficientes de modelos seleccionados y predicciones del día del pico de casos confirmados y total acumulado para los cinco territorios estudiados</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gt3.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Las pruebas de bondad de ajuste (mediante el Test de Neill), para medir la validez del ajuste, aplicadas a cada territorio con cada uno de los 7 modelos dieron valores de significación mayores de 0,05 lo que significa que ninguno de los modelos se aparta significativamente de los datos empíricos, por lo que los 7 modelos aplicados son válidos para realizar pronósticos. En la <xref ref-type="table" rid="t3">tabla 3</xref> fueron mostrados solo los resultados correspondientes a los modelos seleccionados para cada territorio.</p>
+			<p>La <xref ref-type="fig" rid="f1">figura 1</xref> muestra la representación geométrica de los casos confirmados acumulados y los 7 modelos contrastados para la provincia de La Habana. Los modelos se ajustan de forma que se acercan entre ellos. Esto pone de manifiesto, de forma gráfica, la aproximación entre los mismos y la adecuación hacia los datos.</p>
+			<p>
+				<fig id="f1">
+					<label>Fig. 1</label>
+					<caption>
+						<title>Modelos de crecimiento poblacional ajustados a los casos confirmados acumulados en la provincia de La Habana.</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gf1.jpg"/>
+				</fig>
+			</p>
+			<p>Estudio de caso de Cuba</p>
+			<p>En la <xref ref-type="table" rid="t4">tabla 4</xref> se presentan los resultados del procesamiento realizado para los casos confirmados a la COVID-19 en todo el país. Se muestran los criterios de ajuste obtenidos para cada modelo. </p>
+			<p>
+				<table-wrap id="t4">
+					<label><italic>Tabla 4</italic></label>
+					<caption>
+						<title>Criterios de ajuste para cada modelo procesado para los datos de toda Cuba</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gt4.jpg"/>
+				</table-wrap>
+			</p>
+			<p>Los criterios de calidad del ajuste se comportan de forma similar para cada modelo. Se selecciona el modelo M6 que presenta los mejores valores.</p>
+			<p>La prueba de Neill presenta niveles de significación mayores que 0,05 para cada uno de los 7 modelos aplicados a los datos de Cuba, lo cual pone de manifiesto que los modelos son adecuados para realizar pronósticos. La <xref ref-type="table" rid="t5">tabla 5</xref> presenta los resultados de la prueba de Neill para el modelo M6, sus coeficientes ajustados y nivel de significación y predicciones para picos de mayores contagios y cantidad total de estos.</p>
+			<p>
+				<table-wrap id="t5">
+					<label><italic>Tabla 5</italic></label>
+					<caption>
+						<title>Coeficientes del modelo seleccionado y predicciones del día del pico de casos confirmados y total acumulado de estos para toda Cuba</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gt5.jpg"/>
+				</table-wrap>
+			</p>
+			<p>La <xref ref-type="fig" rid="f2">figura 2</xref> muestra la representación geométrica de los casos confirmados acumulados en toda Cuba y los 7 modelos contrastados. Los modelos se ajustan de forma adecuada a los datos y se aproximan entre ellos.</p>
+			<p>
+				<fig id="f2">
+					<label>Fig. 2</label>
+					<caption>
+						<title>Modelos de crecimiento poblacional ajustados a los casos confirmados acumulados en Cuba.</title>
+					</caption>
+					<graphic xlink:href="1729-519X-rhcm-19-s1-e3353-gf2.jpg"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>En el presente estudio además de exponer predicciones para los días de mayor reporte de casos confirmados a la COVID-19 y cantidad total de estos para diferentes territorios de Cuba, se incluye a todo el país, se profundiza en la técnica utilizada para obtener dichos pronósticos. Investigaciones similares, realizadas, publicadas y revisadas por los autores han aplicado estas técnicas para obtener pronósticos sobre la epidemia provocada por la COVID-19 en otras regiones del planeta, con diferentes niveles de profundización:</p>
+			<p>Dattoli<xref ref-type="bibr" rid="B7"><sup>7</sup></xref> utiliza modelo logístico y Gompertz no aplica criterio para la selección de estos ni pruebas de significación. Jia,<xref ref-type="bibr" rid="B4"><sup>4</sup></xref> Villalobos<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> y Tátrai-Várallyay<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> utilizan, indistintamente, modelos logísticos, de Gompertz y Bertalanffy y un único criterio para medir el ajuste sin aplicar pruebas de significación. Prueban la adecuación de los modelos con el acertado ajuste hacia datos de epidemias ya registrados.</p>
+			<p>Yang<xref ref-type="bibr" rid="B5"><sup>5</sup></xref> contrasta modelos de crecimiento exponencial, modelos estadísticos de estimación y modelos SIR y SEIR; utiliza criterios de selección de modelos como: AIC, RSE e índice de robustez (RB); sin embargo, no presentan pruebas de significación sobre los modelos utilizados, por lo que no se conoce el nivel de confiabilidad de estos modelos, al igual que los casos anteriormente mencionados.</p>
+			<p>Batista <xref ref-type="bibr" rid="B6"><sup>6</sup></xref> utiliza un criterio para evaluar el ajuste (R<sup>2</sup>), utiliza la prueba de significación F para probar la validez pero utiliza un único modelo: logístico.</p>
+			<p>En este estudio se utilizan 7 modelos, tres criterios para la selección del modelo de mejor ajuste y pruebas de significación, aspectos que resumen, de alguna manera, las investigaciones anteriormente mencionadas.</p>
+			<p>Los modelos utilizados en la presente investigación presentaron similares criterios sobre la calidad del ajuste y pasaron la prueba de bondad de ajuste. Esto permite su generalización para describir matemáticamente estas situaciones y pone de manifiesto la validez de cada uno para realizar pronósticos. No se puede decir basado en este estudio, que un modelo estadísticamente haya dado mejores resultados que el resto; sin embargo, se seleccionó uno de ellos para ser utilizado en cada territorio estudiado basado en los mejores valores de R<sup>2</sup>, AIC y RSE.</p>
+			<p>El modelo M6, seleccionado para la Isla de la Juventud, Matanzas y toda Cuba junto con el modelo M7 seleccionado para Ciego de Ávila, presentan el coeficiente c o c1 no significativo. Esto no invalida dichos modelos, el coeficiente c o c1 suele ser utilizado, en este contexto, como la cantidad inicial de casos al comenzar el estudio. Para el cálculo de resultados fueron tomados estos coeficientes, según los valores obtenidos al aplicar el ajuste; no obstante, debido a la función que cumplen en los modelos y que estos valores se acercan a cero, los resultados que se obtienen con estos coeficientes en cero serían muy próximos a los presentados en este estudio.</p>
+			<p>Los modelos utilizados para realizar predicciones describen correctamente los procesos de crecimientos poblacionales; aunque existen muchos factores que pueden influir en la propagación de una epidemia que en ocasiones la relación entre dos variables (dependiente e independiente) no puede expresar.</p>
+			<p>La técnica utilizada está basada en las observaciones ya existentes y la obtención a partir de ellas de los parámetros de modelos ya preestablecidos. Mientras mayor sea el número de observación, mejor aproximación se obtendrá de los mismos; sin embargo, mayor tiempo habrá transcurrido de afectación de la epidemia.</p>
+			<p>Jia<xref ref-type="bibr" rid="B4"><sup>4</sup></xref> ha realizado pronósticos satisfactorios, pasados aproximadamente 40 días luego de los primeros reportes y Villalobos <xref ref-type="bibr" rid="B10"><sup>10</sup></xref> pasados 50 días. Los territorios analizados en esta investigación se encuentran pasados 40 días de haberse registrado los primeros casos a excepción de la Isla de la Juventud donde han transcurrido 29 días. Cuba se encuentra pasados 53 días.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusiones</title>
+			<p>Los modelos de crecimiento poblacional para la obtención de pronósticos de días de mayor afectación y cantidad total de contagios, por la COVID-19 en territorios de Cuba y en todo el país, han sido probados estadísticamente y dan resultados significativos. Los mismos presentan validez y criterios de ajuste similares por lo que se puede concluir que todos los modelos utilizados en el estudio presentan adecuación para realizar pronósticos.</p>
+			<p>En la presente investigación se obtuvieron predicciones al utilizar los modelos M2, M6 y M7, luego de probar la validez del ajuste mediante prueba de bondad de ajuste y de significación sobre sus coeficientes. De esta forma se evidencia la confiabilidad en las predicciones presentadas.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Yang Z, Zeng Z, Wang K, Wong SS, Liang W, Zanin M, et al. Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions. J Thorac Dis. 2020;12(3):165.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Zeng</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zanin</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions</article-title>
+					<source>J Thorac Dis</source>
+					<year>2020</year>
+					<volume>12</volume>
+					<issue>3</issue>
+					<fpage>165</fpage>
+					<lpage>165</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Cagigal MAG, Becario FPU. Modelado y análisis de la evolución de una epidemia vírica mediante filtros de Kalman: el caso de la COVID-19 en España. En: Depósito de investigación de la Universidad de Sevilla [Internet]. España: Universidad de Sevilla; 2020 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://idus.us.es/bitstream/handle/11441/94508/Analisis%20de%20la%20evolucion%20del%20COVID-19%20con%20Filtros%20de%20Kalman%20v1%20%2801-04-2020%29.pdf?sequence=7&amp;isAllowed=yLo guarde pdf">https://idus.us.es/bitstream/handle/11441/94508/Analisis%20de%20la%20evolucion%20del%20COVID-19%20con%20Filtros%20de%20Kalman%20v1%20%2801-04-2020%29.pdf?sequence=7&amp;isAllowed=yLo guarde pdf</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cagigal</surname>
+							<given-names>MAG</given-names>
+						</name>
+						<name>
+							<surname>Becario</surname>
+							<given-names>FPU</given-names>
+						</name>
+					</person-group>
+					<source>Modelado y análisis de la evolución de una epidemia vírica mediante filtros de Kalman: el caso de la COVID-19 en España. En: Depósito de investigación de la Universidad de Sevilla</source>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>Universidad de Sevilla</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://idus.us.es/bitstream/handle/11441/94508/Analisis%20de%20la%20evolucion%20del%20COVID-19%20con%20Filtros%20de%20Kalman%20v1%20%2801-04-2020%29.pdf?sequence=7&amp;isAllowed=yLo guarde pdf">https://idus.us.es/bitstream/handle/11441/94508/Analisis%20de%20la%20evolucion%20del%20COVID-19%20con%20Filtros%20de%20Kalman%20v1%20%2801-04-2020%29.pdf?sequence=7&amp;isAllowed=yLo guarde pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Simón Mínguez F. Procesos de difusión Logístico y Gompertz. Métodos numéricos clásicos en la estimación paramétrica [Tesis de maestría]. España: Universidad de Granada; 2016 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://masteres.ugr.es/moea/pages/curso201516/tfm1516/simon_minguez_tfm/">https://masteres.ugr.es/moea/pages/curso201516/tfm1516/simon_minguez_tfm/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Simón Mínguez</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<source>Procesos de difusión Logístico y Gompertz. Métodos numéricos clásicos en la estimación paramétrica</source>
+					<comment content-type="degree">Tesis de maestría</comment>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>Universidad de Granada</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://masteres.ugr.es/moea/pages/curso201516/tfm1516/simon_minguez_tfm/">https://masteres.ugr.es/moea/pages/curso201516/tfm1516/simon_minguez_tfm/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Jia L, Li K, Jiang Y, Guo X. Prediction and analysis of Coronavirus Disease 2019 [Internet]. Nueva York: ArXiv; 2020 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2003.05447">https://arxiv.org/abs/2003.05447</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jia</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Jiang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>X</given-names>
+						</name>
+					</person-group>
+					<source>Prediction and analysis of Coronavirus Disease 2019</source>
+					<publisher-loc>Nueva York</publisher-loc>
+					<publisher-name>ArXiv</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2003.05447">https://arxiv.org/abs/2003.05447</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Yang W, Zhang D, Peng L, Zhuge C, Hong L. Rational evaluation of various epidemic models based on the COVID-19 data of China [Internet]. Nueva York: ArXiv; 2020 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003.05666">http://arxiv.org/abs/2003.05666</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Zhuge</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>Rational evaluation of various epidemic models based on the COVID-19 data of China</source>
+					<publisher-loc>Nueva York</publisher-loc>
+					<publisher-name>ArXiv</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003.05666">http://arxiv.org/abs/2003.05666</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Batista M. Estimation of the final size of the COVID-19 epidemic [Internet]. Estados Unidos: MedRxiv; 2020 [Citado 13/05/2020].Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.02.16.20023606v5">https://www.medrxiv.org/content/10.1101/2020.02.16.20023606v5</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Batista</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Estimation of the final size of the COVID-19 epidemic</source>
+					<publisher-loc>Estados Unidos</publisher-loc>
+					<publisher-name>MedRxiv</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.02.16.20023606v5">https://www.medrxiv.org/content/10.1101/2020.02.16.20023606v5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Dattoli G, Di Palma E, Licciardi S, Sabia E. A Note on the Evolution of Covid-19 in Italy [Internet]. Nueva York: ArXiv; 2020 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003.08684">http://arxiv.org/abs/2003.08684</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dattoli</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Di Palma</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Licciardi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Sabia</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<source>A Note on the Evolution of Covid-19 in Italy</source>
+					<publisher-loc>Nueva York</publisher-loc>
+					<publisher-name>ArXiv</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003.08684">http://arxiv.org/abs/2003.08684</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Remuzzi A, Remuzzi G. COVID-19 and Italy: what next?. The Lancet [Internet]. 2020 Abr [Citado 13/05/2020];395:1225-8. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.thelancet.com/article/S0140-6736%2820%2930627-9/abstract">https://www.thelancet.com/article/S0140-6736%2820%2930627-9/abstract</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Remuzzi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Remuzzi</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 and Italy: what next?</article-title>
+					<source>The Lancet</source>
+					<month>04</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<volume>395</volume>
+					<fpage>1225</fpage>
+					<lpage>1228</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.thelancet.com/article/S0140-6736%2820%2930627-9/abstract">https://www.thelancet.com/article/S0140-6736%2820%2930627-9/abstract</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Qeadan F, Honda T, Gren LH, Dailey Provost J, Benson LS, Van Derslice JA, et al. Naive Forecast for COVID-19 in Utah Based on the South Korea and Italy Models-the Fluctuation between Two Extremes. Int J Environ Res Public Health [Internet]. 2020 [Citado 13/05/2020];17(8):2750. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/32316165">https://www.ncbi.nlm.nih.gov/pubmed/32316165</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Qeadan</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Honda</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Gren</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Dailey Provost</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Benson</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Van Derslice</surname>
+							<given-names>JA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Naive Forecast for COVID-19 in Utah Based on the South Korea and Italy Models-the Fluctuation between Two Extremes</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<volume>17</volume>
+					<issue>8</issue>
+					<size units="pages">2750</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/32316165">https://www.ncbi.nlm.nih.gov/pubmed/32316165</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Villalobos-Arias M. Estimation of population infected by Covid-19 using regression Generalized logistics and optimization heuristics [Internet]. Nueva York: ArXiv; 2020 [Citado 13/05/2020].Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2004.01207">https://arxiv.org/abs/2004.01207</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villalobos-Arias</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Estimation of population infected by Covid-19 using regression Generalized logistics and optimization heuristics</source>
+					<publisher-loc>Nueva York</publisher-loc>
+					<publisher-name>ArXiv</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2004.01207">https://arxiv.org/abs/2004.01207</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Tátrai D, Várallyay Z. COVID-19 epidemic outcome predictions based on logistic fitting and estimation of its reliability [Internet]. Nueva York: ArXiv; 2020 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/2003.14160">https://arxiv.org/pdf/2003.14160</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tátrai</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Várallyay</surname>
+							<given-names>Z</given-names>
+						</name>
+					</person-group>
+					<source>COVID-19 epidemic outcome predictions based on logistic fitting and estimation of its reliability</source>
+					<publisher-loc>Nueva York</publisher-loc>
+					<publisher-name>ArXiv</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/2003.14160">https://arxiv.org/pdf/2003.14160</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Seber GAF. Nonlinear Regression Models. En su: The Linear Model and Hypothesis: A General Unifying Theory. Cham [Internet]. Nueva York: Springer International Publishing; 2015 p.117-28 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.springer.com">https://www.springer.com</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seber</surname>
+							<given-names>GAF</given-names>
+						</name>
+					</person-group>
+					<source>Nonlinear Regression Models. En su: The Linear Model and Hypothesis: A General Unifying Theory. Cham</source>
+					<publisher-loc>Nueva York</publisher-loc>
+					<publisher-name>Springer International Publishing</publisher-name>
+					<year>2015</year>
+					<fpage>117</fpage>
+					<lpage>128</lpage>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.springer.com">https://www.springer.com</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Moamer S, Baghestani AR, Pourhoseingholi MA, Maboudi AAK, Shahsavari S, Zali MR, et al. Application of the parametric regression model with the four-parameter log-logistic distribution for determining of the effecting factors on the survival rate of colorectal cancer patients in the presence of competing risks. Iran Red Crescent Med J [Internet]. 2017 [Citado 13/05/2020];19(6):[aprox. 2 p.]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://sites.kowsarpub.com/ircmj/articles/13185.html">https://sites.kowsarpub.com/ircmj/articles/13185.html</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moamer</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Baghestani</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Pourhoseingholi</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Maboudi</surname>
+							<given-names>AAK</given-names>
+						</name>
+						<name>
+							<surname>Shahsavari</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zali</surname>
+							<given-names>MR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Application of the parametric regression model with the four-parameter log-logistic distribution for determining of the effecting factors on the survival rate of colorectal cancer patients in the presence of competing risks</article-title>
+					<source>Iran Red Crescent Med J</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<volume>19</volume>
+					<issue>6</issue>
+					<size units="pages">2</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://sites.kowsarpub.com/ircmj/articles/13185.html">https://sites.kowsarpub.com/ircmj/articles/13185.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Finney DJ. Bioassay and the practice of statistical inference. Int Stat Rev Int Stat [Internet]. 1979 [Citado 13/05/2020];47(1):1-12. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/0169260796017257/">https://www.sciencedirect.com/science/article/pii/0169260796017257/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Finney</surname>
+							<given-names>DJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Bioassay and the practice of statistical inference</article-title>
+					<source>Int Stat Rev Int Stat</source>
+					<year>1979</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<volume>47</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/article/pii/0169260796017257/">https://www.sciencedirect.com/science/article/pii/0169260796017257/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Kyurkchiev N, Iliev A. Extension of Gompertz-type Equation in Modern Science: 240 Anniversary of the birth of B. Gompertz. [Internet]. Deutschland: LAP LAMBERT Academic Publishing; 2018 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/327137112_Extension_of_Gompertz-type_Equation_in_Modern_Science_240_Anniversary_of_the_birth_of_B_Gompertz">https://www.researchgate.net/publication/327137112_Extension_of_Gompertz-type_Equation_in_Modern_Science_240_Anniversary_of_the_birth_of_B_Gompertz</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kyurkchiev</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Iliev</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Extension of Gompertz-type Equation in Modern Science: 240 Anniversary of the birth of B. Gompertz.</source>
+					<publisher-loc>Deutschland</publisher-loc>
+					<publisher-name>LAP LAMBERT Academic Publishing</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/327137112_Extension_of_Gompertz-type_Equation_in_Modern_Science_240_Anniversary_of_the_birth_of_B_Gompertz">https://www.researchgate.net/publication/327137112_Extension_of_Gompertz-type_Equation_in_Modern_Science_240_Anniversary_of_the_birth_of_B_Gompertz</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Wais P. A review of Weibull functions in wind sector. Renew Sustain Energy Rev. 2017;70:1099-1107.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wais</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>A review of Weibull functions in wind sector</article-title>
+					<source>Renew Sustain Energy Rev</source>
+					<year>2017</year>
+					<volume>70</volume>
+					<fpage>1099</fpage>
+					<lpage>1107</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Brain P, Cousens R. An equation to describe dose responses where there is stimulation of growth at low doses. Weed Res. 1989;29(2):93-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brain</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Cousens</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>An equation to describe dose responses where there is stimulation of growth at low doses</article-title>
+					<source>Weed Res</source>
+					<year>1989</year>
+					<volume>29</volume>
+					<issue>2</issue>
+					<fpage>93</fpage>
+					<lpage>96</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Groot JCJ, Cone JW, Williams BA, Debersaques FMA, Lantinga EA. Multiphasic analysis of gas production kinetics for in vitro fermentation of ruminant feeds. Anim Feed Sci Technol. 1996;64(1):77-89.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Groot</surname>
+							<given-names>JCJ</given-names>
+						</name>
+						<name>
+							<surname>Cone</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Debersaques</surname>
+							<given-names>FMA</given-names>
+						</name>
+						<name>
+							<surname>Lantinga</surname>
+							<given-names>EA</given-names>
+						</name>
+					</person-group>
+					<article-title>Multiphasic analysis of gas production kinetics for in vitro fermentation of ruminant feeds</article-title>
+					<source>Anim Feed Sci Technol</source>
+					<year>1996</year>
+					<volume>64</volume>
+					<issue>1</issue>
+					<fpage>77</fpage>
+					<lpage>89</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Ricketts JH, Head GA. A five-parameter logistic equation for investigating asymmetry of curvature in baroreflex studies. Am J Physiol-Regul Integr Comp Physiol. 1999;277(2):R441-R454.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ricketts</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Head</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>A five-parameter logistic equation for investigating asymmetry of curvature in baroreflex studies</article-title>
+					<source>Am J Physiol-Regul Integr Comp Physiol</source>
+					<year>1999</year>
+					<volume>277</volume>
+					<issue>2</issue>
+					<fpage>R441</fpage>
+					<lpage>R454</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. R: The R Project for Statistical Computing [Internet]. Austria: R Foundation for Statistical Computing; 2018. [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>R: The R Project for Statistical Computing</collab>
+					</person-group>
+					<publisher-loc>Austria</publisher-loc>
+					<publisher-name>R Foundation for Statistical Computing</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Colin Cameron A, Windmeijer FAG. An R-squared measure of goodness of fit for some common nonlinear regression models. J Econom. 1997;77(2):329-42.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Colin Cameron</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Windmeijer</surname>
+							<given-names>FAG</given-names>
+						</name>
+					</person-group>
+					<article-title>An R-squared measure of goodness of fit for some common nonlinear regression models</article-title>
+					<source>J Econom</source>
+					<year>1997</year>
+					<volume>77</volume>
+					<issue>2</issue>
+					<fpage>329</fpage>
+					<lpage>342</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Osuji GA, Okoro CN, Obubu M, Obiora Llouno HO. Effect of akaike information criterion on model selection in analyzing auto-crash variables. Int J Sci Basic Appl Res. 2016;26(1):98-109.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Osuji</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Okoro</surname>
+							<given-names>CN</given-names>
+						</name>
+						<name>
+							<surname>Obubu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Obiora Llouno</surname>
+							<given-names>HO</given-names>
+						</name>
+					</person-group>
+					<article-title>Effect of akaike information criterion on model selection in analyzing auto-crash variables</article-title>
+					<source>Int J Sci Basic Appl Res</source>
+					<year>2016</year>
+					<volume>26</volume>
+					<issue>1</issue>
+					<fpage>98</fpage>
+					<lpage>109</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Draper NR, Smith H. Applied regression analysis [Internet]. 3ra ed. United States: John Wiley &amp; Sons; 1998 [Citado 13/05/2020]. Disponible en: <comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822">https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Draper</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<source>Applied regression analysis</source>
+					<edition>3ra</edition>
+					<publisher-loc>United States</publisher-loc>
+					<publisher-name>John Wiley &amp; Sons</publisher-name>
+					<year>1998</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-05-13">13/05/2020</date-in-citation>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822">https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Neill JW. Testing for lack of fit in nonlinear regression. Ann Stat. 1988;16(2):733-40.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Neill</surname>
+							<given-names>JW</given-names>
+						</name>
+					</person-group>
+					<article-title>Testing for lack of fit in nonlinear regression</article-title>
+					<source>Ann Stat</source>
+					<year>1988</year>
+					<volume>16</volume>
+					<issue>2</issue>
+					<fpage>733</fpage>
+					<lpage>740</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<title>Contribución de autoría </title>
+			<fn fn-type="other" id="fn2">
+				<label>2</label>
+				<p>JFMM: análisis estadístico, escritura del artículo y cálculo de resultados.</p>
+			</fn>
+			<fn fn-type="other" id="fn3">
+				<label>3</label>
+				<p>MECC: análisis de documentos, escritura del artículo y revisión general.</p>
+			</fn>
+			<fn fn-type="other" id="fn4">
+				<label>4</label>
+				<p>MCI: análisis de documentos, escritura del artículo y revisión general.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

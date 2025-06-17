@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.0" specific-use="sps-1.8" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">san</journal-id>
+			<journal-title-group>
+				<journal-title>MEDISAN</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">MEDISAN</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1029-3019</issn>
+			<publisher>
+				<publisher-name>Centro Provincial de Ciencias Médicas</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="publisher-id">00001</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Factores pronóstico de mortalidad asociados al síndrome de insuficiencia respiratoria aguda por ventilación mecánica</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Mortality prognosis factors associated with the acute respiratory failure due to mechanical ventilation</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Fernández Villasante</surname>
+						<given-names>Frederick</given-names>
+						<prefix>Dr. </prefix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="c1"><sup>*</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Macías Hernández</surname>
+						<given-names>Eneisy</given-names>
+						<prefix>Dr.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Navarro Rodríguez</surname>
+						<given-names>Zadis</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Bignot Favier</surname>
+						<given-names>Liudis</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Pozo Lafargue</surname>
+						<given-names>Tania</given-names>
+						<prefix>Dra.</prefix>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+				<aff id="aff1">
+					<label>1</label>
+					<institution content-type="original">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="orgdiv1">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+					<email>f.fernandez@infomed.sld.cu</email>
+				</aff>
+				<aff id="aff2">
+					<label>1</label>
+					<institution content-type="original">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="orgdiv1">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff3">
+					<label>1</label>
+					<institution content-type="original">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="orgdiv1">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff4">
+					<label>1</label>
+					<institution content-type="original">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="orgdiv1">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+				<aff id="aff5">
+					<label>1</label>
+					<institution content-type="original">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”, Universidad de Ciencias Médicas. Santiago de Cuba, Cuba.</institution>
+					<institution content-type="orgdiv1">Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres”</institution>
+					<institution content-type="orgname">Universidad de Ciencias Médicas</institution>
+					<addr-line>
+						<named-content content-type="city">Santiago de Cuba</named-content>
+					</addr-line>
+					<country country="CU">Cuba</country>
+				</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor para la correspondencia. Correo electrónico: <email>f.fernandez@infomed.sld.cu</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="epub">
+				<season>Nov-Dec</season>
+				<year>2018</year>
+			</pub-date>
+			<volume>22</volume>
+			<issue>9</issue>
+			<fpage>849</fpage>
+			<lpage>862</lpage>
+			<history>
+				<date date-type="received">
+					<day>09</day>
+					<month>10</month>
+					<year>2017</year>
+				</date>
+				<date date-type="accepted">
+					<day>25</day>
+					<month>09</month>
+					<year>2018</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>Se realizó una investigación descriptiva, de serie de casos, de 31 pacientes ingresados en la Unidad de Cuidados Intensivos del Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres” de Santiago de Cuba, de enero de 2014 a igual mes de 2017, quienes presentaron el síndrome de insuficiencia respiratoria aguda, con vistas a describir los factores pronóstico de mortalidad por esta causa. En la serie predominaron el sexo masculino, la edad promedio de 57 años y la hipertensión arterial como enfermedad crónica asociada. La mayoría de los pacientes recibía ventilación mecánica previa al diagnóstico, en la modalidad controlada por volumen, y en un menor número se aplicaron maniobras de incorporación alveolar. La insuficiencia respiratoria moderada de causa extrapulmonar figuró en pacientes con ventilación prolongada, en tanto la complicación más frecuente fue la disfunción multiorgánica, que además resultó la principal causa de muerte. Finalmente, no se encontró relación directa entre la presencia de estos factores pronóstico de mortalidad y la probabilidad de fallecer.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>ABSTRACT</title>
+				<p>A descriptive investigation, of cases series, in 31 patients admitted in the Intensive Care Unit of &quot;Saturnino Lora Torres&quot; Teaching Clinical-Surgical Provincial Hospital in Santiago de Cuba, was carried out from January, 2014 to same month in 2017, who presented acute respiratory failure, with the aim of describing the mortality prognosis factors for this cause. In the series the male sex, the average age 57 year-old and hypertension prevailed as associated chronic diseases. Most of the patients received mechanic ventilation previous to the diagnosis, in the modality controlled through volume, and in a lower number maneuvers of alveolar incorporation were applied. The moderate respiratory failure of extrapulmonar cause was present in patients with prolonged ventilation, as long as the most frequent complication was the multiple organs dysfunction which was also the main cause of death. Finally, there was no direct relationship between the presence of these mortality factors prognosis and the probability of dying. </p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>Palabras clave:</title>
+				<kwd>insuficiencia respiratoria aguda</kwd>
+				<kwd>factores pronóstico de mortalidad</kwd>
+				<kwd>ventilación mecánica</kwd>
+				<kwd>unidades de cuidados intensivos</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>Key words:</title>
+				<kwd>acute respiratory failure</kwd>
+				<kwd>mortality prognosis factors</kwd>
+				<kwd>mechanic ventilation</kwd>
+				<kwd>intensive care units</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="17"/>
+				<page-count count="14"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>Introducción</title>
+			<p>El síndrome de insuficiencia respiratoria aguda (SIRA) es una entidad de elevada mortalidad, cuyo pronóstico se asocia no solo a la gravedad del deterioro de la función pulmonar, sino también a la sistémica. Su incidencia anual es de 1 a 5 por 100 000 habitantes, y se calcula que los afectados por este síndrome conforman hasta 10-15 % de los ingresos en las unidades de cuidados intensivos (UCI) y 20 % de todos los que reciben ventilación mecánica durante más de 24 horas. Sigue constituyendo una causa importante de insuficiencia respiratoria grave, la cual, a pesar de los progresos realizados en el conocimiento de su fisiopatología, presenta un pronóstico sombrío, con una mortalidad que alcanza 30-60 %.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>
+			</p>
+			<p>En varias series<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref> se han descrito los factores que de forma independiente incrementan la probabilidad de morir; sin embargo, estos datos son extremadamente variables y en determinados casos han sido estudiados de manera insuficiente, con resultados contradictorios y no bien definidos, por causas que van desde las dificultades relacionadas con su diagnóstico hasta la gran variabilidad de criterios en cuanto al tratamiento. </p>
+			<p>Contrariamente a los progresos en el conocimiento acerca de dicho síndrome, hoy día aún ocasiona una mortalidad elevada, por lo que se impone la búsqueda de medidas terapéuticas lo suficientemente efectivas como para frenar los daños que produce y describir aquellos factores que pueden ser de peor pronóstico en el paciente, una vez afectado. </p>
+			<p>En Cuba, específicamente en la provincia de Santiago de Cuba, son escasos los estudios, al menos publicados, que aborden esta temática, a pesar de ser una de las entidades clínicas con mayor mortalidad asociada a la ventilación mecánica, por lo cual se decidió realizar esta investigación en una unidad de cuidados intensivos.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Métodos</title>
+			<p>Se realizó un estudio descriptivo, de serie de casos, con vistas a describir los factores predictores de la mortalidad en pacientes con síndrome de insuficiencia respiratoria aguda, ingresados en las unidades de cuidados intensivos, intermedios y de emergencias del Hospital Provincial Docente Clinicoquirúrgico “Saturnino Lora Torres” de Santiago de Cuba, en el período de enero de 2014 a igual mes de 2017.</p>
+			<p>La población de estudio estuvo constituida por todos los pacientes de más de 18 años ingresados en la UCI con los criterios de diagnóstico de SIRA, según la nueva definición de Berlín.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> Se tomó como referencia para su clasificación el peor estadio donde llegó el paciente. Fueron excluidos aquellos con menos de 24 horas de estadía en el servicio.</p>
+			<p>La muestra quedó constituida por 31 pacientes, seleccionados por muestreo simple aleatorio.</p>
+			<p>Para el procesamiento estadístico se extrajo el dato primario de una base de datos elaborada a tales efectos, y luego fue expresado en frecuencias absolutas y relativas.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>La mediana de la edad fue 57 años, con valores máximos de 87 años y mínimos de 19. Respecto al sexo, predominó el masculino, con 71,0 % del total. </p>
+			<p>En cuanto a la mortalidad, falleció 35,5 % de los pacientes con SIRA. La mayoría presentaba ventilación artificial mecánica antes del diagnóstico (83,9 %), con similitud entre los egresados vivos y los fallecidos, para 80,0 y 90,9 %, respectivamente. </p>
+			<p>La modalidad ventilatoria predominante fue la de control por volumen, que se aplicó en aproximadamente un tercio de la muestra, con 65,0 % que correspondió a los pacientes que sobrevivieron. El mayor porcentaje de pacientes (64,5) no recibió maniobras de incorporación alveolar y en este predominó el grupo de los fallecidos (90,9 %). Se identificó una media de tiempo de ventilación de 10 días, con un mínimo de 2 y un máximo de 23 días. No existieron diferencias significativas entre el tiempo de ventilación y la probabilidad de fallecer, mientras que el tiempo de ventilación de 5 a 10 días resultó el más frecuente, con 48,4 % (<xref ref-type="table" rid="t1">tabla 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabla 1</label>
+					<caption>
+						<title>Factores pronóstico de mortalidad relacionados con la ventilación y estado al egreso</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-22-09-849-gt1.jpg"/>
+				</table-wrap>
+			</p>
+			<p>En la serie primó el SIRA moderado, con más incidencia en el grupo de pacientes vivos (75,0 %), seguido de la clasificación de grave, con igual frecuencia de casos vivos y fallecidos. Se observó un mayor número de complicaciones en los pacientes que fallecieron, con predominio de la disfunción multiorgánica y la insuficiencia renal aguda, que representaron 70,0 %. El origen más frecuente de la enfermedad fue el extrapulmonar, con 80,6 % (<xref ref-type="table" rid="t2">tabla 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabla 2</label>
+					<caption>
+						<title>Factores pronóstico de mortalidad relacionados con el paciente y estado al egreso</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-22-09-849-gt2.jpg"/>
+				</table-wrap>
+			</p>
+			<p>La presión arterial de oxígeno (PaO<sub>2</sub>) y fracción inspirada de oxígeno (FiO<sub>2</sub>) mayor o igual que 150 mmHg resultó preponderante en los pacientes que egresaron vivos, lo que representó las tres cuartas partes de la muestra de estudio, mientras que entre los fallecidos más de la mitad presentó una relación por debajo de 150 mmHg. En todos los pacientes se utilizaron niveles de presión positiva al final de la espiración (PEEP) menores de 20 cm de H<sub>2</sub>O (<xref ref-type="table" rid="t3">tabla 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabla 3</label>
+					<caption>
+						<title>Parámetros ventilatorios según estado al egreso</title>
+					</caption>
+					<graphic xlink:href="1029-3019-san-22-09-849-gt3.jpg"/>
+				</table-wrap>
+			</p>
+			<p>De los pacientes ingresados en la UCI con diagnóstico de SIRA predominó la estadía prolongada de más de 10 días, con 77,4 % del total. La principal causa de muerte en esta investigación fue el síndrome de disfunción multiorgánica (63,6 %), seguida del SIRA, con 18,2 %. </p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discusión</title>
+			<p>A pesar de la optimización en la manera en que se aplica la ventilación mecánica en estos pacientes y de otros tratamientos de rescate ensayados, la mortalidad asociada al síndrome de insuficiencia respiratoria aguda continúa siendo muy elevada. Las causas más frecuentes de muerte por esta entidad son el choque séptico, la insuficiencia cardíaca, el fallo multiorgánico y la lesión cerebral. Igualmente se le considera como una de las entidades más graves que pueden presentarse en pacientes con ventilación artificial.<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>En un estudio de cohorte, publicado en el año 2015 por Calderón <italic>et al</italic>,<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>)</sup> se obtuvo que 36 % falleció. La ventilación mecánica ejerce efectos profundos sobre la función tanto del surfactante endógeno como del exógeno, lo que produce un aumento de la tendencia al colapso alveolar, una necesidad de mayor presión en la vía respiratoria para reabrir y mantener abiertos los alvéolos y un incremento en la tensión superficial de la interfase gas-líquido del alvéolo, con un aumentado gradiente de presión transmural capilar, lo que condiciona el movimiento de fluidos en los pulmones.<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Más recientemente se ha comprobado que la ventilación mecánica posee significativos efectos sobre el nivel de células inflamatorias y de mediadores solubles en el pulmón, puede influenciar en la producción de mediadores inflamatorios, tanto en personas sanas como en aquellas previamente afectadas, y puede retardar la curación de un pulmón lesionado; a esto se le ha denominado lesión pulmonar asociada a la ventilación y se caracteriza por la aparición de edema, depleción del surfactante y formación de membranas hialinas.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>
+			</p>
+			<p>Como se comentó previamente, en la actual serie el mayor porcentaje presentó ventilación mecánica antes de que apareciera el síndrome de insuficiencia respiratoria, lo que pudo ser el factor principal para ello; no obstante, no resultó significativa su repercusión sobre la mortalidad ni se encontró relación significativa entre el uso de la ventilación mecánica antes de la aparición del síndrome o no y la probabilidad de morir. </p>
+			<p>En ese orden de ideas, se ha recomendado la ventilación asistocontrolada. Al respecto, en otras series<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>)</sup> la mayoría de los pacientes recibieron inicialmente ventilación controlada en sus distintas modalidades (controladas por volumen, por presión y/o por volumen y regulada por presión).</p>
+			<p>Muchos investigadores plantean que no existe evidencia de que un modo ventilatorio sea superior a otro, de manera que en gran parte de los estudios sobre ventilación mecánica y SIRA se han utilizado modos controlados por volumen para poder aplicar inicialmente la estrategia de ventilación mecánica protectora. El uso de un volumen corriente menor o igual a 6 mL por kg de peso corporal es ideal para mantener una presión meseta menor o igual a 30 cm de H<sub>2</sub>O y se asocia a una disminución de la mortalidad.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>En este estudio la modalidad ventilatoria predominante fue la controlada por volumen, tanto en pacientes vivos como fallecidos, y no se encontraron diferencias significativas entre la modalidad utilizada y la probabilidad de fallecer. </p>
+			<p>Las maniobras de incorporación alveolar consisten en incrementos transitorios de la presión en la vía respiratoria que causan aumentos del volumen pulmonar, dirigidos a provocar la apertura total o parcial de alvéolos colapsados, lo cual produce una mejoría en la oxigenación. Independientemente del efecto sobre la oxigenación, se considera que la incorporación alveolar, al aumentar el tejido aireado, contribuye a minimizar la heterogeneidad del pulmón y evitar la apertura y cierre cíclicos, lo que puede prevenir la lesión pulmonar asociada a ventilación mecánica.<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>
+			</p>
+			<p>Son escasos los estudios con un adecuado rigor metodológico que permita arribar a conclusiones tácitas en cuanto a la repercusión de las maniobras de incorporación sobre la mortalidad; por lo tanto, no se indica como un procedimiento absoluto en estos casos, sino que su uso queda a la evaluación del equipo médico. Existen investigaciones, tanto en animales como en humanos, en las que se aplican distintas técnicas para dichas maniobras, con protocolos muy dispares; son tan heterogéneas en cuanto a las maniobras realizadas, el tipo de paciente, los parámetros, entre otros, que resulta imposible compararlas entre sí.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>
+			</p>
+			<p>Aun así, en la presente serie se observó una menor incidencia de mortalidad en los pacientes a los cuales se les realizó incorporación alveolar, independientemente de la técnica utilizada, aunque esto no fue estadísticamente significativo.</p>
+			<p>En cuanto al tiempo de ventilación, en algunas investigaciones se ha encontrado mayor mortalidad en aquellos con más de 10 días de ventilación. Los autores de este artículo consideran que estos hallazgos pueden estar en relación con que los pacientes en quienes se mantiene la ventilación mecánica poseen una mayor posibilidad de desnutrición, de inmunodepresión y, por tanto, de sepsis; además de que las posibilidades de presentar complicaciones relacionadas con el tubo endotraqueal y con el ventilador son mayores. Después de numerosos intentos por esclarecer la función pronóstica del grado de hipoxemia, las diferencias entre los resultados de disímiles estudios realizados hasta la fecha hacen que todavía se generen ciertas dudas, a lo cual se añaden los múltiples cambios conceptuales para definir el diagnóstico de la enfermedad, con marcadas discrepancias entre las publicaciones a través del tiempo.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>
+			</p>
+			<p>Laffey <italic>et al</italic><xref ref-type="bibr" rid="B13"><sup>13</sup></xref> identificaron que la relación PaO<sub>2</sub>/FiO<sub>2</sub> fue independiente, estadísticamente significativa e importante respecto a la probabilidad de fallecer. Por su parte, Calderón <italic>et al</italic><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> mostraron cómo la mortalidad de los pacientes con lesión pulmonar aguda y SIRA aumentaba a medida que disminuía la relación PaO<sub>2</sub>/FiO<sub>2</sub>; pese a ello no se pudo encontrar un punto de corte que mostrara un claro interés pronóstico. Taborda <italic>et al</italic><xref ref-type="bibr" rid="B12"><sup>12</sup></xref><sup>)</sup> observaron que los pacientes que fallecieron presentaron al inicio del cuadro una relación PaO<sub>2</sub>/FiO<sub>2</sub> media de 93, frente a 195 mmHg en el grupo que logró sobrevivir. </p>
+			<p>En esta serie el grado de hipoxemia analizado como la relación PaO<sub>2</sub>/FiO<sub>2</sub> no resultó un factor relacionado con la mortalidad, puesto que el mayor número de fallecidos figuró en el grupo de hipoxemia moderada. Estos resultados pueden estar en relación con el escaso tamaño de la muestra. La disparidad hallada en los estudios sobre el tema no permitió realizar comparaciones más acertadas. </p>
+			<p>Cabe señalar que el síndrome de insuficiencia respiratoria aguda es una entidad cuyo pronóstico depende no solo del daño pulmonar, sino también del grado de afectación sistémica y de las complicaciones que pueden aparecer en la evolución. En la investigación de Cardinal Fernández <italic>et al</italic><xref ref-type="bibr" rid="B4"><sup>4</sup></xref> la neumonía asociada al ventilador fue la complicación más frecuente, seguida del choque séptico y la insuficiencia renal aguda. Otros autores<xref ref-type="bibr" rid="B12"><sup>12</sup></xref> obtuvieron como complicaciones la inestabilidad hemodinámica, la sepsis intrahospitalaria y la insuficiencia renal aguda.</p>
+			<p>Del mismo modo que se liberan mediadores inflamatorios a la circulación, la hiperinflación durante la ventilación mecánica también puede provocar la traslocación de bacterias o sus productos desde el pulmón a la sangre, lo que condiciona el desarrollo del síndrome de disfunción multiorgánica. Los pacientes con SIRA generalmente mueren por falla pluriparenquimatosa y se ha sugerido que el mayor factor generador de esta podría ser la estrategia ventilatoria utilizada y los mecanismos fisiopatológicos que actúan en la enfermedad; por ello es que el síndrome de insuficiencia respiratoria aguda puede ser el “motor impulsor” de varias complicaciones sistémicas.<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>
+			</p>
+			<p>Pham y Rubenfeld<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> obtuvieron una primacía del SIRA de causa extrapulmonar, lo que se asoció con un mayor número de disfunciones orgánicas y una elevada mortalidad. De igual modo, observaron que el origen extrapulmonar condiciona un peor pronóstico, una mayor tendencia a presentar complicaciones y una mortalidad superior, probablemente debido a que en los de origen pulmonar, el control de la hipoxemia constituye la piedra angular en el tratamiento de estos pacientes; punto sobre el que se ha avanzado más en los últimos años. Sin embargo, en los de origen extrapulmonar el problema es más complejo y únicamente regulando el intercambio pulmonar de gases no se obtiene el control absoluto del problema global que afecta al enfermo. En la presente serie el origen más frecuente fue el extrapulmonar, pero no existieron evidencias significativas sobre la mortalidad.</p>
+			<p>Varias investigaciones han mostrado una asociación directa entre el grado de hipoxemia con diferentes puntos de corte en la relación PaO<sub>2</sub>/FiO<sub>2</sub> y la mortalidad.<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>
+			</p>
+			<p>Roca <italic>et al</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref> constataron que el grado de oxigenación medido como la relación PaO<sub>2</sub>/FiO<sub>2</sub>, tanto al momento del diagnóstico del SIRA como el valor mínimo obtenido durante la evolución, es un factor pronóstico de mortalidad. Estos mostraron, además, como un marcador pronóstico el grado de hipoxemia analizado como la relación PaO<sub>2</sub>/FiO<sub>2</sub> basal de 96 mmHg. En otra publicación<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> se revela cómo la mortalidad de los pacientes con lesión pulmonar aguda y SIRA aumentaba a medida que disminuía la relación PaO<sub>2</sub>/FIO<sub>2</sub>. </p>
+			<p>La media de la presión positiva al final de la espiración hallada en esta serie fue muy similar a las expuestas en la mayoría de las series revisadas. En el SIRA se pueden necesitar valores de PEEP elevados; sin embargo, no se ha llegado a determinar cuánto. Globalmente aunque la PEEP elevada mejora la oxigenación y es segura, no mejora la mortalidad.<xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+			</p>
+			<p>Recientemente la ARDS Network<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> ha publicado un estudio en el cual se comparaban dos estrategias ventilatorias en pacientes con síndrome de insuficiencia respiratoria aguda, una con PEEP alta y la otra con PEEP baja, y los resultados muestran una mortalidad que oscilaba en ambos grupos entre 25-31 %. En los pacientes que recibieron ventilación con elevados niveles de presión positiva al final de la espiración, la gran mayoría sobrevivieron, indistintamente del grado de SIRA; sin embargo, en aquellos cuya ventilación poseía niveles bajos de PEEP, se obtuvo el mayor número de fallecidos. </p>
+			<p>Desde la aparición de las primeras investigaciones en esta temática se conoce que la estrategia de ventilación protectora con el uso de bajos volúmenes tidálicos que permitan, en pacientes con distensibilidad pulmonar disminuida, mantener el control de la presión meseta por debajo de 30 cm de H<sub>2</sub>O, ha repercutido de forma favorable en la mortalidad. Posteriormente la ARDS-Network comprobó la importancia de esta estrategia ventilatoria en pacientes con SIRA. Otras estudiosos del tema tampoco encontraron relación entre el grado de disminución de la distensibilidad y los valores de presión meseta con la posibilidad de fallecer.<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>
+			</p>
+			<p>Combes <italic>et al</italic>,<xref ref-type="bibr" rid="B17"><sup>17</sup></xref> en su estudio sobre la morbilidad, la mortalidad y la calidad de vida en pacientes con ventilación artificial, determinaron que aquellos con más de 14 días de ventilación mecánica presentaron una mayor mortalidad a medida que se prolongaba la estadía en la unidad de cuidados intensivos, lo que estuvo en relación con las causas y las condiciones clínicas del paciente a su ingreso, así como con la presencia de complicaciones en su evolución.</p>
+			<p>De igual forma, Roca <italic>et al</italic><xref ref-type="bibr" rid="B16"><sup>16</sup></xref> evidenciaron que la mortalidad en el día 28 de seguimiento fue de 48 % (92 pacientes de los 191 incluidos en el estudio) y la mortalidad hospitalaria aumentó hasta 58 %. La principal causa de muerte fue la disfunción multiorgánica en 75 % (84 pacientes), mientras que el porcentaje de los fallecidos a causa de hipoxemia resistente al tratamiento estaba en torno a 16.</p>
+			<p>Otros autores<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> encontraron que la mortalidad fue elevada (57 %), fundamentalmente debido a complicaciones que involucraron las funciones de varios órganos, mientras que muchos menos pacientes fallecieron por causa de la propia hipoxemia resistente al tratamiento, tal y como se obtuvo en la presente investigación. De manera global, la insuficiencia renal aguda, la inestabilidad hemodinámica, la presencia de trastornos de la coagulación, un valor de APACHE II alto, el promedio de estadía y los días de hipoxemia, fueron factores asociados a una mala evolución. </p>
+			<p>En general, los resultados de este estudio coincidieron con los de la mayoría de la bibliografía revisada, en la cual se muestra la disfunción multiorgánica como principal causa de muerte, seguida de la hipoxemia resistente en el SIRA. </p>
+			<p>Pudo concluirse que el síndrome de insuficiencia respiratoria es una enfermedad con elevada mortalidad en las unidades de cuidados intensivos. Asimismo, la mayoría de los pacientes había recibido ventilación antes del diagnóstico, sobre todo en la modalidad ventilatoria controlada por volumen, y en un escaso número se realizaron las maniobras de incorporación alveolar. Por otra parte, predominaron la insuficiencia respiratoria moderada, de causa extrapulmonar, y el tiempo de ventilación de más de 5 días; la complicación más frecuente fue el síndrome de disfunción multiorgánica, que además resultó la principal causa de fallecimiento. En los pacientes fallecidos se obtuvieron peores valores de PaO<sub>2</sub>/FiO<sub>2</sub>, presión meseta, PEEP máxima y distensibilidad pulmonar. Por último, no se encontró relación directa entre la presencia de estos factores pronóstico de mortalidad y la probabilidad de fallecer.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referencias bibliográficas</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Morales Larramendi R, Escalona Velázquez NA. Sistemas de valoración pronóstica y escalas evaluadoras en medicina intensiva. En: Caballero López A. Terapia Intensiva. T 1. La Habana: Editorial Ciencias Médicas; 2006. p. 48-71.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morales Larramendi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Escalona Velázquez</surname>
+							<given-names>NA</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Sistemas de valoración pronóstica y escalas evaluadoras en medicina intensiva</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caballero López</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Terapia Intensiva</source>
+					<year>2006</year>
+					<publisher-loc>La Habana</publisher-loc>
+					<publisher-name>Editorial Ciencias Médicas</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Kacmarek RM, Villar J, Sulemanji D, Montiel R, Ferrando C, Blanco J, et al. Open lung approach for the acute respiratory distress syndrome: A Pilot, Randomized Controlled Trial. Crit Care Med. 2016; 44(1): 32-42.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kacmarek</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Villar</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sulemanji</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Montiel</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ferrando</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Blanco</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Open lung approach for the acute respiratory distress syndrome A Pilot, Randomized Controlled Trial</article-title>
+					<source>Crit Care Med</source>
+					<year>2016</year>
+					<volume>44</volume>
+					<issue>1</issue>
+					<fpage>32</fpage>
+					<lpage>42</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Estenssoro E, Dubin A. Síndrome de distrés respiratorio agudo. Medicina. 2016 [citado 14/04/2017]; 76(4): 235-41. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://medicinabuenosaires.com/revistas/vol76-16/n4/235-241-Med76-4-6513-Estenssoro.pdf">https://medicinabuenosaires.com/revistas/vol76-16/n4/235-241-Med76-4-6513-Estenssoro.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Estenssoro</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Dubin</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Síndrome de distrés respiratorio agudo</article-title>
+					<source>Medicina</source>
+					<year>2016</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-04-14">14/04/2017</date-in-citation>
+					<volume>76</volume>
+					<issue>4</issue>
+					<fpage>235</fpage>
+					<lpage>241</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://medicinabuenosaires.com/revistas/vol76-16/n4/235-241-Med76-4-6513-Estenssoro.pdf">https://medicinabuenosaires.com/revistas/vol76-16/n4/235-241-Med76-4-6513-Estenssoro.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Cardinal Fernández P, Bajwa EK, Dominguez Calvo A, Menéndez JM, Papazian L, Thompson BT. The Presence of diffuse alveolar damage on open lung biopsy is associated with mortality in patients with acute respiratory distress syndrome: A Systematic Review and Meta-Analysis. Chest. 2016; 149(5): 1155-64.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cardinal Fernández</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bajwa</surname>
+							<given-names>EK</given-names>
+						</name>
+						<name>
+							<surname>Dominguez Calvo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Menéndez</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Papazian</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Thompson</surname>
+							<given-names>BT</given-names>
+						</name>
+					</person-group>
+					<article-title>The Presence of diffuse alveolar damage on open lung biopsy is associated with mortality in patients with acute respiratory distress syndrome A Systematic Review and Meta-Analysis</article-title>
+					<source>Chest</source>
+					<year>2016</year>
+					<volume>149</volume>
+					<issue>5</issue>
+					<fpage>1155</fpage>
+					<lpage>1164</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Sharif N, Irfan M, Hussain J, Khan J. Factors associated within 28 days inhospital mortality of patients with acute respiratory distress syndrome. Biomed Res Int. 2013 [citado 14/04/2017]; 2013. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708401/pdf/BMRI2013-564547.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708401/pdf/BMRI2013-564547.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sharif</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Irfan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hussain</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors associated within 28 days inhospital mortality of patients with acute respiratory distress syndrome</article-title>
+					<source>Biomed Res Int</source>
+					<year>2013</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-04-14">14/04/2017</date-in-citation>
+					<volume>2013</volume>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708401/pdf/BMRI2013-564547.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708401/pdf/BMRI2013-564547.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Guerin C, Bayle F, Leray V, Debord S, Stoian A, Yonis H, et al. Open lung biopsy in nonresolving ARDS frequently identifies diffuse alveolar damage regardless of the severity stage and may have implications for patient management. Intensive Care Med. 2015; 41(2): 222-30.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guerin</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bayle</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Leray</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Debord</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Stoian</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Yonis</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Open lung biopsy in nonresolving ARDS frequently identifies diffuse alveolar damage regardless of the severity stage and may have implications for patient management</article-title>
+					<source>Intensive Care Med</source>
+					<year>2015</year>
+					<volume>41</volume>
+					<issue>2</issue>
+					<fpage>222</fpage>
+					<lpage>230</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Amato MB, Meade MO, Slutsky AS, Brochard L, Costa EL, Schoenfeld DA, et al. Driving pressure and survival in the acute respiratory distress syndrome. N Engl J Med. 2015; 372(8): 747-55.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amato</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Meade</surname>
+							<given-names>MO</given-names>
+						</name>
+						<name>
+							<surname>Slutsky</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Brochard</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>EL</given-names>
+						</name>
+						<name>
+							<surname>Schoenfeld</surname>
+							<given-names>DA</given-names>
+						</name>
+					</person-group>
+					<article-title>Driving pressure and survival in the acute respiratory distress syndrome</article-title>
+					<source>N Engl J Med</source>
+					<year>2015</year>
+					<volume>372</volume>
+					<issue>8</issue>
+					<fpage>747</fpage>
+					<lpage>755</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Claesson J, Freundlich M, Gunnarsson I, Laake JH, Vandvik PO, Varpula T, et al. Scandinavian clinical practice guideline on mechanical ventilation in adults with the acute respiratory distress syndrome. Acta Anaesthesiol Scand. 2015; 59(3): 286-97.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Claesson</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Freundlich</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gunnarsson</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Laake</surname>
+							<given-names>JH</given-names>
+						</name>
+						<name>
+							<surname>Vandvik</surname>
+							<given-names>PO</given-names>
+						</name>
+						<name>
+							<surname>Varpula</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Scandinavian clinical practice guideline on mechanical ventilation in adults with the acute respiratory distress syndrome</article-title>
+					<source>Acta Anaesthesiol Scand</source>
+					<year>2015</year>
+					<volume>59</volume>
+					<issue>3</issue>
+					<fpage>286</fpage>
+					<lpage>297</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Calderón J, Carvajal C, Giraldo N, Pacheco C, Gómez C, Gallego D, et al. Mortalidad y factores asociados en pacientes con síndrome de dificultad respiratoria agudo (SDRA) en un hospital universitario. Acta Med Colomb. 2015 [citado 14/04/2017]; 40(4). Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-24482015000400007&amp;lng=en&amp;nrm=iso&amp;tlng=es">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-24482015000400007&amp;lng=en&amp;nrm=iso&amp;tlng=es</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Calderón</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Carvajal</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Giraldo</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Pacheco</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gómez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gallego</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Mortalidad y factores asociados en pacientes con síndrome de dificultad respiratoria agudo (SDRA) en un hospital universitario</article-title>
+					<source>Acta Med Colomb</source>
+					<year>2015</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-04-14">14/04/2017</date-in-citation>
+					<volume>40</volume>
+					<issue>4</issue>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-24482015000400007&amp;lng=en&amp;nrm=iso&amp;tlng=es">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0120-24482015000400007&amp;lng=en&amp;nrm=iso&amp;tlng=es</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Schouten LR, Veltkamp F, Bos AP, van Woensel JB, Serpa Neto A, Schultz MJ, et al. Incidence and Mortality of Acute Respiratory Distress Syndrome in Children: A Systematic Review and Meta-Analysis. Crit Care Med. 2016; 44(4): 819-29.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schouten</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Veltkamp</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bos</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>van Woensel</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Serpa</surname>
+							<given-names>A</given-names>
+							<suffix>Neto</suffix>
+						</name>
+						<name>
+							<surname>Schultz</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Incidence and Mortality of Acute Respiratory Distress Syndrome in Children A Systematic Review and Meta-Analysis</article-title>
+					<source>Crit Care Med</source>
+					<year>2016</year>
+					<volume>44</volume>
+					<issue>4</issue>
+					<fpage>819</fpage>
+					<lpage>829</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Brower RG, Lanken PN, MacIntyre N, Matthay MA, Morris A, Ancukiewicz M, et al. Higher versus lower positive end-expiratory pressures in patients with the acute respiratory distress syndrome. N Engl J Med. 2004; 351(4): 327-36.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brower</surname>
+							<given-names>RG</given-names>
+						</name>
+						<name>
+							<surname>Lanken</surname>
+							<given-names>PN</given-names>
+						</name>
+						<name>
+							<surname>MacIntyre</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Matthay</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ancukiewicz</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Higher versus lower positive end-expiratory pressures in patients with the acute respiratory distress syndrome</article-title>
+					<source>N Engl J Med</source>
+					<year>2004</year>
+					<volume>351</volume>
+					<issue>4</issue>
+					<fpage>327</fpage>
+					<lpage>336</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Taborda L, Barros F, Fonseca V, Irimia M, Carvalho R, Diogo C, et al. Acute respiratory distress syndrome: case series, two years at an intensive care unit. Act Med Port. 2014; 27(2): 211-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Taborda</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Fonseca</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Irimia</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Diogo</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Acute respiratory distress syndrome case series, two years at an intensive care unit</article-title>
+					<source>Act Med Port</source>
+					<year>2014</year>
+					<volume>27</volume>
+					<issue>2</issue>
+					<fpage>211</fpage>
+					<lpage>217</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Laffey JG, Bellani G, Pham T, Fan E, Madotto F, Bajwa EK, et al. Potentially modifiable factors contributing to outcome from acute respiratory distress syndrome: the LUNG SAFE study. Intensive Care Med. 2016; 42(12): 1865-76.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laffey</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Bellani</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Pham</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Madotto</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bajwa</surname>
+							<given-names>EK</given-names>
+						</name>
+					</person-group>
+					<article-title>Potentially modifiable factors contributing to outcome from acute respiratory distress syndrome the LUNG SAFE study</article-title>
+					<source>Intensive Care Med</source>
+					<year>2016</year>
+					<volume>42</volume>
+					<issue>12</issue>
+					<fpage>1865</fpage>
+					<lpage>1876</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Pham T, Rubenfeld GD. Fifty years of research in ARDS. The Epidemiology of Acute Respiratory Distress Syndrome. A 50th Birthday Review. Am J Respir Crit Care Med. 2017; 195(7): 860-70.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pham</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Rubenfeld</surname>
+							<given-names>GD</given-names>
+						</name>
+					</person-group>
+					<article-title>Fifty years of research in ARDS The Epidemiology of Acute Respiratory Distress Syndrome. A 50th Birthday Review</article-title>
+					<source>Am J Respir Crit Care Med</source>
+					<year>2017</year>
+					<volume>195</volume>
+					<issue>7</issue>
+					<fpage>860</fpage>
+					<lpage>870</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Richard C, Argaud L, Blet A, Boulain T, Contentin L, Dechartres A, et al. Extracorporeal life support for patients with acute respiratory distress syndrome: report of a Consensus Conference. Ann Intensive Care. 2014 [citado 04/05/2017]; 4: 15. Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4046033/pdf/2110-5820-4-15.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4046033/pdf/2110-5820-4-15.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Richard</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Argaud</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Blet</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Boulain</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Contentin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Dechartres</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Extracorporeal life support for patients with acute respiratory distress syndrome: report of a Consensus Conference</article-title>
+					<source>Ann Intensive Care</source>
+					<year>2014</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-05-04">04/05/2017</date-in-citation>
+					<volume>4</volume>
+					<size units="pages">15</size>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4046033/pdf/2110-5820-4-15.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4046033/pdf/2110-5820-4-15.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Roca O, Sacanell J, Laborde C, Pérez M, Sabater J, Burgueño MJ, et al. Estudio de cohortes sobre incidencia de SDRA en pacientes ingresados en UCI y factores pronósticos de mortalidad. Med Intensiva. 2006 [citado 04/05/2017]; 30(1): 6-12. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S0210-56912006000100002">http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S0210-56912006000100002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roca</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Sacanell</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Laborde</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pérez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sabater</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Burgueño</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Estudio de cohortes sobre incidencia de SDRA en pacientes ingresados en UCI y factores pronósticos de mortalidad</article-title>
+					<source>Med Intensiva</source>
+					<year>2006</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2017-05-04">04/05/2017</date-in-citation>
+					<volume>30</volume>
+					<issue>1</issue>
+					<fpage>6</fpage>
+					<lpage>12</lpage>
+					<comment>Disponible en: <ext-link ext-link-type="uri" xlink:href="http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S0210-56912006000100002">http://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S0210-56912006000100002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Combes A, Costa MA, Trouillet JL, Baudot J, Mokhtari M, Gibert C, et al. Morbility, mortality, and quality of life. Outcomes of patients requiring mayor or =14 days of mechanical ventilation. Crit. Care Med. 2013; 31(5): 1373-81.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Combes</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Trouillet</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Baudot</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mokhtari</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gibert</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Morbility, mortality, and quality of life Outcomes of patients requiring mayor or =14 days of mechanical ventilation. Crit</article-title>
+					<source>Care Med</source>
+					<year>2013</year>
+					<volume>31</volume>
+					<issue>5</issue>
+					<fpage>1373</fpage>
+					<lpage>1381</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

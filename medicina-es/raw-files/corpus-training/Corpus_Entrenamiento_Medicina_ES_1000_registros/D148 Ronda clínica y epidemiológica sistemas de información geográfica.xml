@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.0/JATS-journalpublishing1.dtd">
+<article article-type="other" dtd-version="1.0" specific-use="sps-1.7" xml:lang="es" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher-id">iat</journal-id>
+			<journal-title-group>
+				<journal-title>Iatreia</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Iatreia</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0121-0793</issn>
+			<publisher>
+				<publisher-name>Universidad de Antioquia</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">10.17533/udea.iatreia.v29n1a10</article-id>
+			<article-id pub-id-type="publisher-id">00010</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Actualización crítica</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ronda clínica y epidemiológica: sistemas de información geográfica (SIG) en salud</article-title>
+				<trans-title-group xml:lang="en">
+					<trans-title>Clinical and epidemiological round: Geographic information systems in health</trans-title>
+				</trans-title-group>
+				<trans-title-group xml:lang="pt">
+					<trans-title>Ronda clínica e epidemiológica: sistemas de informação geográfica (sig) na área da saúde</trans-title>
+				</trans-title-group>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Ascuntar-Tello</surname>
+						<given-names>Johana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Jaimes</surname>
+						<given-names>Fabián</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original">Especialista en Sistemas de Información Geográfica, Universidad San Buenaventura, Grupo Académico de Epidemiología Clínica (GRAEPIC), Departamento de Medicina Interna, Facultad de Medicina, Universidad de Antioquia, Medellín, Colombia.</institution>
+				<institution content-type="orgdiv1">Departamento de Medicina Interna</institution>
+				<institution content-type="orgdiv2">Facultad de Medicina</institution>
+				<institution content-type="orgname">Universidad de Antioquia</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original">Profesor Titular, Grupo Académico de Epidemiología Clínica (GRAEPIC), Departamento de Medicina Interna, Facultad de Medicina, Universidad de Antioquia. Medellín, Colombia. Investigador, Unidad de Investigaciones, Hospital Pablo Tobón Uribe, Medellín, Colombia.</institution>
+				<institution content-type="normalized">Universidad de Antioquia</institution>
+				<institution content-type="orgdiv1">Departamento de Medicina Interna</institution>
+				<institution content-type="orgdiv2">Facultad de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">Medellín</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<email>fabian.jaimes@udea.edu.co</email>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label><bold>Correspondencia:</bold> Fabián Jaimes; <email>fabian.jaimes@udea.edu.co</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="epub-ppub">
+				<season>Jan-Mar</season>
+				<year>2016</year>
+			</pub-date>
+			<volume>29</volume>
+			<issue>1</issue>
+			<fpage>97</fpage>
+			<lpage>103</lpage>
+			<history>
+				<date date-type="received">
+					<day>28</day>
+					<month>08</month>
+					<year>2015</year>
+				</date>
+				<date date-type="accepted">
+					<day>08</day>
+					<month>09</month>
+					<year>2015</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0;/" xml:lang="es">
+					<license-p>Este es un artículo publicado en acceso abierto bajo una licencia Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>RESUMEN</title>
+				<p>La estrecha relación que tienen los eventos en salud, el medio ambiente y las condiciones socioeconómicas adversas de las poblaciones ha hecho que los sistemas de información geográfica se incorporen al sector de forma progresiva, brindando la oportunidad de explorar la distribución espacial de los eventos y sirviendo de apoyo para la toma de decisiones médicas, la vigilancia y la implementación de políticas en salud pública. En este artículo se intenta contextualizar el uso de los sistemas de información geográfica en el sector salud, con especial énfasis en su aplicación en la epidemiología y la salud pública.</p>
+			</abstract>
+			<trans-abstract xml:lang="en">
+				<title>SUMMARY</title>
+				<p>The close relationship between health events, environment and adverse socioeconomic conditions has led to the progressive incorporation of geographic information systems into health research, providing the opportunity to explore the spatial distribution of events and helping medical decision, surveillance and implementation of public health policies. This article attempts to contextualize the use of geographic information systems in the health sector, with particular emphasis on its application in epidemiology and public health.</p>
+			</trans-abstract>
+			<trans-abstract xml:lang="pt">
+				<title>RESUMO</title>
+				<p>A estreita relação que eles têm os acontecimentos na área da saúde, do meio ambiente e das condições socioeconômicas adversas da população tem feito que sistemas de informação geográfica sejam incorporados no setor de forma progressiva, proporcionando a oportunidade de explorar a distribuição espacial dos eventos e apoio para a tomada de decisão médica, a vigilância e a implementação de políticas na saúde pública. Este artigo tenta contextualizar a utilização de sistemas de informação geográfica no sector da saúde, com especial ênfase na sua aplicação em epidemiologia e saúde pública.</p>
+			</trans-abstract>
+			<kwd-group xml:lang="es">
+				<title>PALABRAS CLAVE:</title>
+				<kwd>Análisis Espacial</kwd>
+				<kwd>Epidemiología</kwd>
+				<kwd>Salud Pública</kwd>
+				<kwd>Sistemas de Información Geográfica</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="en">
+				<title>KEY WORDS:</title>
+				<kwd>Epidemiology</kwd>
+				<kwd>Geographic Information Systems</kwd>
+				<kwd>Public Health</kwd>
+				<kwd>Spatial Analysis</kwd>
+			</kwd-group>
+			<kwd-group xml:lang="pt">
+				<title>PALAVRAS CHAVE:</title>
+				<kwd>Análise Espacial</kwd>
+				<kwd>Epidemiologia</kwd>
+				<kwd>Saúde Pública</kwd>
+				<kwd>Sistemas de Informação Geográfica</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="25"/>
+				<page-count count="7"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCCIÓN</title>
+			<p>La ocurrencia de los diferentes eventos en salud, como las enfermedades infecciosas o las crónicas no trasmisibles, no se distribuye de forma aleatoria en las poblaciones. Históricamente se ha observado una relación de dichas enfermedades con el medio, con las características socioeconómicas de la población y con la genética, entre otros determinantes, lo que ha definido la importancia de estudiar y determinar sus patrones de ocurrencia en el tiempo y el espacio. Dicha determinación, que se considera un aspecto fundamental de la epidemiología y por ende de la salud pública, permite entender la dinámica del proceso salud-enfermedad con el medio ambiente e identificar las posibles intervenciones sociales y sanitarias que impacten el problema para disminuir o eliminar los riesgos en salud.</p>
+			<p>La geografía médica o de la salud y la cartografía son fundamentales para la descripción y análisis espacial de las condiciones de salud-enfermedad de la población. Es posible, en relación con los elementos ambientales y con el uso de las anteriores herramientas, hacer un trazado de las enfermedades transmisibles por vectores y de otras enfermedades infecciosas, las enfermedades asociadas con la contaminación ambiental, la descripción de patrones espaciales de mortalidad y morbilidad, así como la ubicación y acceso a instituciones de salud. Un artículo reciente publicado en IATREIA acerca de la oferta de programas de salud pública en cuatro ciudades del país es un excelente ejemplo de esta última utilidad(<xref ref-type="bibr" rid="B1">1</xref>).</p>
+			<p>La instrumentación de los anteriores componentes en los sistemas de información geográfica (SIG) permite capturar, almacenar y procesar grandes cantidades de datos de diversas fuentes, logrando un manejo integral de la información que puede generar distintos escenarios para el análisis estratégico en la búsqueda de la mejor alternativa, como apoyo a la toma de decisiones. La implementación de los SIG en el sector salud, como en otros ámbitos, se incrementa con el paso del tiempo a medida que se reconocen sus ventajas y en especial su utilidad en la vigilancia, el control de la salud y el bienestar de la población. En este artículo se intenta contextualizar el uso de los sistemas de información geográfica en el sector salud, con especial énfasis en su aplicación en la epidemiología y la salud pública.</p>
+		</sec>
+		<sec>
+			<title>GENERALIDADES</title>
+			<p>Un sistema de información geográfica (SIG) es “un sistema integrado por equipos, programas, métodos, personas y aspectos institucionales para recolectar, almacenar, analizar datos geográficos y generar información de apoyo a la toma de decisiones”(<xref ref-type="bibr" rid="B2">2</xref>). En la literatura existen diversas definiciones de SIG, que responden a diferentes enfoques, orientaciones o aplicaciones, pero todas convergen en un sistema integrado que trabaja con información espacial, permite realizar análisis, seguimiento de eventos y desarrollar conocimiento para la toma de decisiones.</p>
+			<p>Los SIG representan una herramienta que apoya el análisis de información en diferentes áreas; así mismo, estos sistemas proveen el apoyo analítico para la planeación, programación y evaluación de actividades e intervenciones en diferentes sectores, de acuerdo con el tema que se esté tratando de investigar. Por ello, los SIG pueden considerarse parte de los sistemas de apoyo a la toma de decisiones. Diferentes disciplinas utilizan los SIG para resolver diversas preguntas o situaciones, pero todas ejecutan tareas comunes como las siguientes(<xref ref-type="bibr" rid="B3">3</xref>):</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Organización de datos: almacenar datos con el fin de sustituir mapas físicos en papel por mapas digitales, permitiendo la reducción del espacio físico, evitando el deterioro, facilitando su rápida recuperación y posibilitando producir copias sin pérdida de calidad, entre otras.</p>
+					</list-item>
+					<list-item>
+						<p>Visualización de datos: la posibilidad de seleccionar los niveles de información deseados, de acuerdo con el contexto, permite acoplar los mapas temáticos elegidos y de este modo superar cualquier producto en papel. A pesar de que la capacidad de análisis del ojo humano ha sido subestimada, se considera un elemento esencial para cualquier tipo de estudio que requiera información espacial.</p>
+					</list-item>
+					<list-item>
+						<p>Producción de mapas: en general, los SIG poseen herramientas más completas para la producción de mapas, simplificando bastante la inclusión de rejillas de coordenadas, las escalas gráfica y numérica y la inclusión de leyendas y textos diversos, entre otros, lo que los hace mucho más indicados para la cartografía que los populares sistemas de diseño CAD (<italic>Computer-Aided Design</italic>).</p>
+					</list-item>
+					<list-item>
+						<p>Consulta espacial: posiblemente la función más importante de los SIG es la posibilidad de preguntar cuáles son las propiedades de un determinado objeto, o en qué sitios geográficos tienen tales propiedades. De este modo, la interacción entre el usuario y los datos se convierte en una dinámica poderosa de conocimiento.</p>
+					</list-item>
+					<list-item>
+						<p>Análisis espacial: consiste en el uso de un conjunto de técnicas de combinación entre los niveles de información (capas), con el fin de evidenciar patrones o establecer relaciones dentro de los datos que permanecían anteriormente ocultos al analista. Así se convierte en una manera de inferir significado a partir del cruce de los datos.</p>
+					</list-item>
+					<list-item>
+						<p>Previsión: uno de los propósitos de los SIG es el de verificación de escenarios modificando los parámetros para evaluar cómo los eventos, naturales o no, ocurrirían si las condiciones fuesen diferentes; de este modo se obtiene un conocimiento más general de los objetos o del área en estudio.</p>
+					</list-item>
+					<list-item>
+						<p>Creación de modelos: la capacidad de almacenamiento, recuperación y análisis de datos espaciales convierte a los SIG en plataformas ideales para el desarrollo y aplicación de modelos distribuidos espacialmente y para la validación de escenarios hipotéticos.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Los SIG responden a preguntas de localización, condición, tendencia, rutas, patrones y modelados(<xref ref-type="bibr" rid="B4">4</xref>), como por ejemplo: ¿en qué sectores se localizan las zonas de alto riesgo en el área urbana del municipio?, ¿dónde hay mayor concentración de vectores primarios y secundarios de malaria en el país?, ¿cómo ha variado la mortalidad infantil en el departamento a lo largo del tiempo?, ¿cuál es el trayecto más conveniente para desplazarse de un punto a otro?, ¿qué ocurriría en determinados lugares, si se modificaran ciertas variables?, entre muchas otras. Con las distintas herramientas de análisis espacial podemos dar respuestas a las preguntas anteriores; pero cabe resaltar que el análisis apropiado no recae sobre los algoritmos sino sobre el adecuado razonamiento espacial y el conocimiento previo sobre el tema para plantear las preguntas y seleccionar el método adecuado de análisis(<xref ref-type="bibr" rid="B5">5</xref>).</p>
+			<p>Las funciones de un SIG se pueden agrupar en tres etapas(<xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B7">7</xref>):</p>
+			<p>1. Captura y organización de datos</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Entrada, acceso y edición de datos cartográficos y de atributos en diversos formatos estandarizados y fuentes.</p>
+					</list-item>
+					<list-item>
+						<p>Manejo de múltiples escalas y sistemas de proyección tanto en las capas, es decir, los niveles de información, como en el mapa.</p>
+					</list-item>
+					<list-item>
+						<p>Georreferenciación y geocodificación de datos, la primera entendida como la relación entre las coordenadas de un mapa plano y las coordenadas del mundo real (geográficas o proyectadas), y la segunda, como el proceso de identificación de una ubicación dada su dirección(<xref ref-type="bibr" rid="B8">8</xref>).</p>
+					</list-item>
+					<list-item>
+						<p>Disponibilidad de un sistema de gestión de bases de datos que incluya operaciones de enlace de datos no espaciales con los espaciales.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>2. Manipulación de datos y análisis espacial</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Despliegue y control de múltiples capas cartográficas</p>
+					</list-item>
+					<list-item>
+						<p>Creación de diversos tipos de mapas temáticos; selección y consulta espacial de datos, incluyendo operaciones geográficas sobre una o varias capas cartográficas y atributos de las capas.</p>
+					</list-item>
+					<list-item>
+						<p>Realización de operaciones geográficas como determinación de proximidad y estimación de distancia, entre otras.</p>
+					</list-item>
+					<list-item>
+						<p>Creación de áreas de influencia o amortiguamiento con respecto a los eventos ocurridos.</p>
+					</list-item>
+					<list-item>
+						<p>Medición de distancias sobre el mapa y entre objetos geográficos.</p>
+					</list-item>
+					<list-item>
+						<p>Capacidad para el desarrollo y adición de nuevas funciones y personalización del paquete de programas, por medio del uso de lenguajes de programación.</p>
+					</list-item>
+					<list-item>
+						<p>Capacidad para manejo, administración y almacenamiento de sesiones de trabajo o proyectos.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>3. Visualización y salida de datos</p>
+			<p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Visualización en forma de mapas, tablas, gráficos, diagramas, reportes y presentaciones para impresión.</p>
+					</list-item>
+				</list>
+			</p>
+			<p>Los SIG se han incorporado recientemente, aunque de manera progresiva, al cuerpo de conocimientos en las ciencias de la salud: una búsqueda de términos libres en <italic>PubMed</italic> para <italic>geographic information system</italic> mostró menos de 10 artículos por año a comienzos de los años 80 comparados con 836 en el 2014(<xref ref-type="bibr" rid="B9">9</xref>). Uno de los referentes históricos de información geográfica y medicina fue publicado en 1986 por Gesler(<xref ref-type="bibr" rid="B10">10</xref>), en el que muestra cómo se utiliza el análisis espacial para estudiar patrones de enfermedades y el cuidado de la salud. Los SIG se han constituido paulatinamente en una herramienta de gran apoyo para el análisis de la situación de salud debido a la ventaja del manejo de información georreferenciada en altos volúmenes y con gran rapidez, lo que permite su procesamiento con técnicas estadísticas e informáticas. Los avances tecnológicos en SIG brindan la oportunidad de explorar la distribución espacial de las enfermedades y/o los eventos en salud, así como establecer su asociación con la exposición o el contexto ambiental. Adicionalmente, es posible relacionar diferentes atributos que pueden influir en la ocurrencia del evento, de diversas enfermedades o de situaciones de desigualdad en salud, entre otras(<xref ref-type="bibr" rid="B11">11</xref>). Con esta perspectiva, uno de los primeros paquetes estadísticos desarrollados para este fin es el SIGEpi, un SIG diseñado por la Organización Panamericana de la Salud (OPS) para aplicaciones en Epidemiología y Salud Pública. Entre sus propósitos se describe fortalecer el análisis de la situación y la vigilancia en salud en general, la monitorización y la evaluación de las actividades de promoción y prevención, así como de las desigualdades en salud, la evaluación del impacto de las intervenciones y la identificación de grupos de alto riesgo(<xref ref-type="bibr" rid="B12">12</xref>). En el mismo sentido están Epi Info y Epi Map, desarrollados desde 1985 en respuesta a las necesidades del Centro para el Control de Enfermedades (CDC, por su sigla en inglés) y la Organización Mundial de la Salud. Epi Info proporciona entrada y gestión de datos, gráficos y funciones de análisis estadísticos, mientras que Epi Map muestra los datos geográficos de los archivos de Epi Info o dBASE como colores, patrones o mapas de puntos o densidad(<xref ref-type="bibr" rid="B13">13</xref>). En la actualidad se han desarrollado muchos <italic>software</italic> de SIG, algunos de licencia abierta como Open Jump(<xref ref-type="bibr" rid="B14">14</xref>), Grass(<xref ref-type="bibr" rid="B15">15</xref>), Gv SIG Desktop(<xref ref-type="bibr" rid="B16">16</xref>) y UDIG(<xref ref-type="bibr" rid="B17">17</xref>); y otros de carácter comercial como ArcGIS(<xref ref-type="bibr" rid="B18">18</xref>), los cuales han ido incursionando en el campo de la salud.</p>
+			<p>Cabe resaltar que existen limitaciones para la implementación y el uso de estas herramientas, como lo son el subregistro en la notificación de la información de morbilidad y mortalidad, las proporciones incorrectas de muertes de cierta causa en razón de la mala definición de las mismas, las áreas sin cobertura en salud por el difícil acceso de los profesionales y del Estado y el reporte deficiente de datos en el contexto de la práctica privada, entre otros(<xref ref-type="bibr" rid="B19">19</xref>).</p>
+		</sec>
+		<sec>
+			<title>APLICACIÓN DE LOS SIG EN EPIDEMIOLOGÍA Y SALUD PÚBLICA</title>
+			<p>En esta sección se explicarán algunas investigaciones que hacen uso de los SIG para su desarrollo. Para cada ejemplo se incluye una breve descripción del estudio que sintetiza el objetivo, la población de estudio, el <italic>software</italic> y las técnicas de análisis espacial o de otro tipo, de acuerdo con su aplicación. Los SIG pueden ser utilizados en apoyo a la <italic>vigilancia y la monitorización en salud pública</italic>, como muestran los siguientes ejemplos que con diferentes enfoques de análisis espacial y estadístico tratan de entender la dinámica espacial del dengue y su relación con factores socioeconómicos y ambientales, para fines de prevención, control o priorización de intervención en áreas que presentan mayor riesgo.</p>
+			<p>Una investigación publicada en el año 2003 acerca de la vulnerabilidad espacial al dengue fue llevada a cabo en el municipio de Playa, contiguo a la Habana, e incluyó los casos reportados en un brote del año 2000(<xref ref-type="bibr" rid="B20">20</xref>). La unidad de estudio seleccionada fue la manzana, 1.360 manzanas que conforman el municipio, con base en la cartografía elaborada por GEOCUBA en una escala de 1:25.000. Se categorizaron variables sociales y ambientales que consideraron potencialmente relevantes para la trasmisión de la enfermedad así: densidad de población, abastecimiento de agua, microvertederos habituales, estado técnico de la vivienda, estado de la red vial, terrenos baldíos, focos de insalubridad, hoteles y casas de alquiler (por la alta afluencia turística), focos de <italic>Aedes aegypti</italic> y dirección de residencia de los casos notificados.</p>
+			<p>Para el análisis espacial y la cartografía final utilizaron el <italic>software</italic> Mapinfo 5.0 y se combinaron técnicas de procesamiento estadístico con SigEpi y SPSS. De acuerdo con las variables sociales y ambientales descritas, se identificaron tres agregados de manzanas o tres grupos de espacios relativamente homogéneos, pero con diferencias estadísticamente significativas (p &lt; 0,001) en la infestación por <italic>Aedes aegypti</italic>, el grupo 3 presenta el porcentaje más alto de persistencia de infestación de <italic>Aedes aegypti</italic> (64,3 %) y es el grupo con la más alta densidad poblacional y mayor problema de abastecimiento de agua.</p>
+			<p>Los investigadores estratificaron espacialmente la vulnerabilidad al dengue así: el grupo 1 como el poco vulnerable, el grupo 2 como medianamente vulnerable y el grupo 3 como el más vulnerable, que también es el agregado de manzanas con la más alta densidad poblacional y con mayores problemas de abastecimiento de agua. Comprobaron la validez de sus hallazgos con la distribución de los reportes de casos de dengue del 16 %, 26 % y 58 % para los grupos 1, 2 y 3, respectivamente; y mediante un modelo de regresión logística determinaron que, comparado con el grupo 1, el segundo grupo tiene 3,39 veces más probabilidad de ocurrencia de dengue y el tercer grupo, 5,49 veces más (p &lt; 0,05).</p>
+			<p>En Colombia, una investigación de Restrepo y colaboradores exploró la variación en la distribución espacial de los casos de dengue notificados en el país entre los años 2007 y 2010 y su asociación con factores ambientales de riesgo(<xref ref-type="bibr" rid="B21">21</xref>). La unidad de análisis espacial utilizada fueron los municipios y corregimientos y las variables sobre factores ambientales fueron la temperatura, la precipitación y la elevación, obtenidas del sitio web de datos del clima mundial Worldclim(<xref ref-type="bibr" rid="B22">22</xref>). En el análisis desarrollaron un modelo Bayesiano espacio-temporal autorregresivo para cuantificar la relación entre los casos mensuales de dengue, la temperatura, la precipitación y la elevación por medio del <italic>software</italic> R versión 2.15.2 y el WinBUGS versión 1.4.3 para los modelos de Poisson; y utilizaron Quantum GIS para crear mapas temáticos de las tasas de morbilidad estandarizada para las 1065 áreas administrativas de Colombia del período 2007-2010.</p>
+			<p>De los 304.984 casos de dengue notificados en Colombia el 13,2 % fue reportado en el 2007, el 11 % en el 2008, el 17,5 % en el 2009 y el 58,3 % en el 2010; con un patrón de alta morbilidad en los municipios ubicados en las partes oriental y central del país y una baja morbilidad en el sur, norte y oeste de Colombia. En el modelo espacio-temporal encontraron, comparado con el 2007, una disminución del 18 % (95 % intervalo creíble (CrI): 17 % - 19 %) en el 2008, y aumentos del 30 % (95 % CrI: 28 % - 31 %) y el 326 % (95 % CrI: 322 % - 331 %) en el 2009 y 2010, respectivamente. Adicionalmente, encontraron un efecto significativo de la precipitación mensual media en la frecuencia de presentación de casos dengue en las diversas regiones del país.</p>
+			<p>Un estudio en la ciudad de Medellín por Londoño y colaboradores hizo un modelamiento de los patrones de distribución espacial del dengue con base en los casos reportados por la Secretaria de Salud de Medellín en los años 2008, 2009 y 2011(<xref ref-type="bibr" rid="B23">23</xref>). Para el análisis realizaron un modelo de interpolación mediante distancia inversa ponderada (<italic>Inverse Distance Weighted</italic>: IDW), con el fin de observar la variación espacial del dengue con respecto a sus puntos de ocurrencia. En este caso, los puntos de ocurrencia se asumieron como equivalentes a las direcciones de los casos reportados de dengue (casos geocodificados). Adicionalmente, se exploró un modelo de tipo gradiente para observar las zonas de mayor variabilidad en la ocurrencia de casos de dengue. La unidad de análisis fueron las comunas y corregimientos y para el análisis utilizaron el <italic>software</italic> ArcGis 10. De los 2.393 casos reportados en los años de estudio analizaron el 93,1 % (n = 2.185) en los que fue posible la geocodificación. Se encontraron mayores niveles de concentración de casos y también patrones espaciales de mayor variabilidad del dengue en el sector suroccidental: el corregimiento de Altavista y las comunas de Belén y Guayabal.</p>
+			<p>Otra aplicación de los SIG es la <italic>descripción espacial de la situación de un evento en salud</italic>, como el atlas de mortalidad por cáncer en Colombia(<xref ref-type="bibr" rid="B24">24</xref>). Este documento, por medio de cartografía y modelos estadísticos y matemáticos, presenta la información que posee el país sobre la distribución territorial y por sexo de los principales tipos de cáncer que afectaron a los colombianos en el período del 2000 al 2006. Los datos de mortalidad se obtienen de los certificados de defunción diligenciados en el país y procesados por el Departamento Administrativo Nacional de Estadística (DANE). De cada registro de muerte por cáncer se tomaron la edad, el sexo, la fecha de defunción, el lugar de residencia, la causa básica de muerte y la existencia de certificación médica. La unidad de análisis fueron los 32 departamentos y los 1.122 municipios, cartografía básica suministrada por Instituto Geográfico Agustín Codazzi (IGAC).</p>
+			<p>Entre los años 2000 y 2006 se presentaron 203.907 muertes por cáncer en Colombia, 100.126 en hombres y 103.781 en mujeres; con una tasa de mortalidad ajustada por edad de 83 por 100.000 en los primeros y de 75,6 por 100.000 en las segundas. En los hombres las cinco principales localizaciones fueron cáncer de estómago, de pulmón, de próstata, de colon-recto y leucemias, que representaron el 58,8 % del total de muertes por cáncer. En las mujeres las cinco primeras localizaciones fueron cáncer de cuello de útero, de estómago, de mama, de pulmón y de colon-recto, y representaron el 52,8 %. De acuerdo con la distribución geográfica de la mortalidad general por cáncer en todas las localizaciones anatómicas, se encontró que tanto para hombres como para mujeres las áreas de mayor riesgo están concentradas en la zona central del país, principalmente en los departamentos del Eje Cafetero, Antioquia, Valle del Cauca, Meta, Santander y Norte de Santander, y en Bogotá. La razón estandarizada de mortalidad más alta para hombres estuvo en el departamento de Antioquia, y para mujeres, en Risaralda. Los riesgos más bajos se encontraron en La Guajira, Putumayo, Chocó, Córdoba y Sucre.</p>
+			<p>Otro ejemplo de este tipo es un estudio de Silva y colaboradores para identificar patrones espaciales de distribución de las tasas de mortalidad neonatal en 63 microrregiones del estado de São Paulo entre los años 2006 y 2010(<xref ref-type="bibr" rid="B25">25</xref>). El <italic>software</italic> utilizado para el análisis espacial fue el TerraView versión 4.2.1 y se estimó la autocorrelación espacial de las tasas de mortalidad neonatal. En el período de estudio registraron 3.000.158 nacidos vivos, una mortalidad temprana de 18.448 (6,2/1.000 nacidos vivos) y 7.510 muertes neonatales tardías (2,5/1.000 nacidos vivos). Las menores tasas de mortalidad neonatal general se observaron en las microrregiones del centro y norte del estado; y las mayores, en las regiones del Valle de Paraiba, el sur y el suroeste del estado. Estos resultados, en su contexto, proporcionan información potencialmente útil para la implementación de políticas dirigidas a reducir las tasas de mortalidad neonatal en el estado de São Paulo.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONES</title>
+			<p>El uso e implementación de los SIG permite un mejor conocimiento de la relación existente entre la distribución de la morbilidad o mortalidad de una enfermedad y diversas características del entorno como el desempeño de los servicios de salud, las medidas de prevención, el control de las enfermedades y las características de las diferentes zonas geográficas de una región o país. El análisis basado en la geografía permite hacer diagnósticos de la situación de salud a partir del punto de vista territorial, dado que se pueden tener en cuenta los factores que marcan tendencias regionales como los modos de vida de la población, las variables ambientales de la zona y la cultura, entre otros. Así, estos sistemas proveen un gran apoyo para la planeación y toma de decisiones de las personas encargadas de formular políticas en salud.</p>
+		</sec>
+		<sec>
+			<title>FINANCIACIÓN</title>
+			<p>Trabajo apoyado parcialmente por la Estrategia de Sostenibilidad de la Universidad de Antioquia, 2013-2014.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCIAS BIBLIOGRÁFICAS</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Molina G, Oquendo T, Bastidas D, Rodríguez S, Flórez M. Georreferenciación de la oferta de programas de salud pública en cuatro ciudades en el contexto del mercado competitivo del sistema de salud, Colombia 2014. Iatreia. 2015 Jul-Sep;28(3):223-39. DOI 10.17533/udea.iatreia.v28n3a01.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Molina</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Oquendo</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Bastidas</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Flórez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Georreferenciación de la oferta de programas de salud pública en cuatro ciudades en el contexto del mercado competitivo del sistema de salud, Colombia 2014</article-title>
+					<source>Iatreia</source>
+					<season>Jul-Sep</season>
+					<year>2015</year>
+					<volume>28</volume>
+					<issue>3</issue>
+					<fpage>223</fpage>
+					<lpage>239</lpage>
+					<pub-id pub-id-type="doi">10.17533/udea.iatreia.v28n3a01</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Dueker KJ, Kjerne D. Multipurpose Cadastre: Terms and Definitions. Bethesda MD: ASPRS; 1989.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dueker</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Kjerne</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<source>Multipurpose Cadastre: Terms and Definitions</source>
+					<publisher-loc>Bethesda MD</publisher-loc>
+					<publisher-name>ASPRS</publisher-name>
+					<year>1989</year>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Peña Llopis J. Introducción a los SIG. En: Sistemas de información geográfica aplicados a la gestión del territorio: entrada, manejo, análisis y salida de datos espaciales: teoría general y práctica para ESRI ArcGIS 9. España: Club Universitario; 2006. p. 1-12.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peña Llopis</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Introducción a los SIG. En: Sistemas de información geográfica aplicados a la gestión del territorio: entrada, manejo, análisis y salida de datos espaciales: teoría general y práctica para ESRI ArcGIS 9</source>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>Club Universitario</publisher-name>
+					<year>2006</year>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4 . Garocho C. Los sistemas de información geográfica en la geografía médica. EST. 1998;1(3):597-618.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garocho</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Los sistemas de información geográfica en la geografía médica</article-title>
+					<source>EST</source>
+					<year>1998</year>
+					<volume>1</volume>
+					<issue>3</issue>
+					<fpage>597</fpage>
+					<lpage>618</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Albert DP, Gesler WM. How Spatial Analysis Can be Used in Medical Geography. In: Albert DP, Gesler WM, Levergood B. Spatial Analysis, GIS and Remote Sensing: Applications in the Health Sciences. Texas: Taylor &amp; Francis; 2000. p. 10-37.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Albert</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Gesler</surname>
+							<given-names>WM</given-names>
+						</name>
+					</person-group>
+					<chapter-title>How Spatial Analysis Can be Used in Medical Geography</chapter-title>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Albert</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Gesler</surname>
+							<given-names>WM</given-names>
+						</name>
+						<name>
+							<surname>Levergood</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<source>Spatial Analysis, GIS and Remote Sensing: Applications in the Health Sciences</source>
+					<publisher-loc>Texas</publisher-loc>
+					<publisher-name>Taylor &amp; Francis</publisher-name>
+					<year>2000</year>
+					<fpage>10</fpage>
+					<lpage>37</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Organización Panamericana de la Salud; Martínez R, Loyola E, Vidaurre M, Nájera P. Paquetes de Programas de Mapeo y Análisis Espacial en Epidemiología y Salud Pública. Boletin Epidemiológico. 2004;(25):41-9.</mixed-citation>
+				<element-citation publication-type="journal">
+					<comment>Organización Panamericana de la Salud</comment>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martínez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Loyola</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vidaurre</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Nájera</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Paquetes de Programas de Mapeo y Análisis Espacial en Epidemiología y Salud Pública</article-title>
+					<source>Boletin Epidemiológico</source>
+					<year>2004</year>
+					<issue>25</issue>
+					<fpage>41</fpage>
+					<lpage>49</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. De Elia EA, Elorza CG, Horlent N, Lamaro AA, Lanfri S, Otero J, et al. Sistemas de información Geográfica, Cartografía y GPS. En: Epidemiología panorámica: introducción al uso de herramientas geoespaciales aplicadas a la salud pública. Buenos Aires: Ministerio de salud Nacional; 2014. p. 29-40.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Elia</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Elorza</surname>
+							<given-names>CG</given-names>
+						</name>
+						<name>
+							<surname>Horlent</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Lamaro</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Lanfri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Otero</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Sistemas de información Geográfica, Cartografía y GPS. En: Epidemiología panorámica: introducción al uso de herramientas geoespaciales aplicadas a la salud pública</source>
+					<publisher-loc>Buenos Aires</publisher-loc>
+					<publisher-name>Ministerio de salud Nacional</publisher-name>
+					<year>2014</year>
+					<fpage>29</fpage>
+					<lpage>40</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Organización Panamericana de la Salud. Sistemas de información geográfica aplicados en epidemiología. En: Sistemas de Información Geográfica en Salud: Conceptos Básicos. Washington: OPS; 2002. p. 1-32.</mixed-citation>
+				<element-citation publication-type="book">
+					<comment>Organización Panamericana de la Salud</comment>
+					<chapter-title>Sistemas de información geográfica aplicados en epidemiología</chapter-title>
+					<source>Sistemas de Información Geográfica en Salud: Conceptos Básicos</source>
+					<publisher-loc>Washington</publisher-loc>
+					<publisher-name>OPS</publisher-name>
+					<year>2002</year>
+					<fpage>1</fpage>
+					<lpage>32</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. National Library of Medicine. National Center for Biotechnology Information [Internet]. Bethesda MD: NLM; 1998- [cited 2015 Ago 25]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/">http://www.ncbi.nlm.nih.gov/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<comment>National Library of Medicine</comment>
+					<source>National Center for Biotechnology Information</source>
+					<publisher-loc>Bethesda MD</publisher-loc>
+					<publisher-name>NLM</publisher-name>
+					<year>1998</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/">http://www.ncbi.nlm.nih.gov/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Gesler W. The uses of spatial analysis in medical geography: a review. Soc Sci Med. 1986;23(10):963-73.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gesler</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>The uses of spatial analysis in medical geography: a review</article-title>
+					<source>Soc Sci Med</source>
+					<year>1986</year>
+					<volume>23</volume>
+					<issue>10</issue>
+					<fpage>963</fpage>
+					<lpage>973</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Vine MF, Degnan D, Hanchette C. Geographic information systems: their use in environmental epidemiologic research. Environ Health Perspect. 1997 Jun;105(6):598-605.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vine</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Degnan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hanchette</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Geographic information systems: their use in environmental epidemiologic research</article-title>
+					<source>Environ Health Perspect</source>
+					<month>06</month>
+					<year>1997</year>
+					<volume>105</volume>
+					<issue>6</issue>
+					<fpage>598</fpage>
+					<lpage>605</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Organización Panamericana de la Salud. Uso de los sistemas de información geográfica en epidemiología (SIG-Epi). Boletin Epidemiológico. 1996 Mar;17(1):1-6.</mixed-citation>
+				<element-citation publication-type="journal">
+					<comment>Organización Panamericana de la Salud</comment>
+					<article-title>Uso de los sistemas de información geográfica en epidemiología (SIG-Epi)</article-title>
+					<source>Boletin Epidemiológico</source>
+					<month>03</month>
+					<year>1996</year>
+					<volume>17</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>6</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Dean AG. Epi Info and Epi Map: current status and plans for Epi Info 2000. J Public Health Manag Pract. 1999 Jul;5(4):54-7.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dean</surname>
+							<given-names>AG</given-names>
+						</name>
+					</person-group>
+					<article-title>Epi Info and Epi Map: current status and plans for Epi Info 2000</article-title>
+					<source>J Public Health Manag Pract</source>
+					<month>07</month>
+					<year>1999</year>
+					<volume>5</volume>
+					<issue>4</issue>
+					<fpage>54</fpage>
+					<lpage>57</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Vivid Solutions. Open JUMP GIS. [Internet]. Canada: Vivid Solutions; 2011- [cited 2015 Ago 25]. Available <ext-link ext-link-type="uri" xlink:href="from: http://openjump.org/index.html">from: http://openjump.org/index.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<comment>Vivid Solutions</comment>
+					<source>Open JUMP GIS</source>
+					<publisher-loc>Canada</publisher-loc>
+					<publisher-name>Vivid Solutions</publisher-name>
+					<year>2011</year>
+					<ext-link ext-link-type="uri" xlink:href="from: http://openjump.org/index.html">from: http://openjump.org/index.html</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. GRASS. Geographic Resources Analysis Support System. Geographic Information System-GRASS GIS [Internet]. United States: GRASS; 2015 [cited 2015 Ago 25]. Available from: <ext-link ext-link-type="uri" xlink:href="https://grass.osgeo.org">https://grass.osgeo.org</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<comment>GRASS</comment>
+					<source>Geographic Resources Analysis Support System. Geographic Information System-GRASS GIS</source>
+					<publisher-loc>United States</publisher-loc>
+					<publisher-name>GRASS</publisher-name>
+					<year>2015</year>
+					<ext-link ext-link-type="uri" xlink:href="https://grass.osgeo.org">https://grass.osgeo.org</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Asociación gvSIG . GV SIG Desktop [Internet]. España: gvSIG; 2011. [cited 2015 Ago 25]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.gvsig.com/es/productos/gvsig-desktop">http://www.gvsig.com/es/productos/gvsig-desktop</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<comment>Asociación gvSIG</comment>
+					<source>GV SIG Desktop</source>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>gvSIG</publisher-name>
+					<year>2011</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.gvsig.com/es/productos/gvsig-desktop">http://www.gvsig.com/es/productos/gvsig-desktop</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Refractions Research. UDIG GIS. [Internet]. Canada: Refractions Research; c2011. [cited 2015 Ago 25]. Available from: <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://udig.refractions.net">http://udig.refractions.net</ext-link>
+					</comment>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Refractions Research</collab>
+					</person-group>
+					<source>UDIG GIS</source>
+					<publisher-loc>Canada</publisher-loc>
+					<publisher-name>Refractions Research</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2015-00-00">2015 Ago 25</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://udig.refractions.net">http://udig.refractions.net</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Esri España Soluciones Geoespaciales [Internet]. España: ESRI; c2010. [cited 2015 Ago 25]. ArcGIS. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.esri.es/es/productos/arcgis/">http://www.esri.es/es/productos/arcgis/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<comment>Esri España Soluciones Geoespaciales</comment>
+					<publisher-loc>España</publisher-loc>
+					<publisher-name>ESRI</publisher-name>
+					<year>2010</year>
+					<source>ArcGIS</source>
+					<ext-link ext-link-type="uri" xlink:href="http://www.esri.es/es/productos/arcgis/">http://www.esri.es/es/productos/arcgis/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Íñiguez Rojas L, Barcellos C. Geografía y salud en américa latina: evolución y tendencias. Rev Cubana Salud Pública. 2003 Oct-Dic;29(4):330-43.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Íñiguez Rojas</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Barcellos</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Geografía y salud en américa latina: evolución y tendencias</article-title>
+					<source>Rev Cubana Salud Pública</source>
+					<season>Oct-Dic</season>
+					<year>2003</year>
+					<volume>29</volume>
+					<issue>4</issue>
+					<fpage>330</fpage>
+					<lpage>343</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Pérez Martínez TT, Íñiguez Rojas L, Sánchez Valdés L, Remond Noa R. Vulnerabilidad espacial al dengue. Una aplicación de los sistemas de información geográfica en el municipio Playa de Ciudad de La Habana. Rev Cubana Salud Pública. 2003 Oct-Dic;29(4):353-65.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pérez Martínez</surname>
+							<given-names>TT</given-names>
+						</name>
+						<name>
+							<surname>Íñiguez Rojas</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sánchez Valdés</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Remond Noa</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Vulnerabilidad espacial al dengue. Una aplicación de los sistemas de información geográfica en el municipio Playa de Ciudad de La Habana</article-title>
+					<source>Rev Cubana Salud Pública</source>
+					<season>Oct-Dic</season>
+					<year>2003</year>
+					<volume>29</volume>
+					<issue>4</issue>
+					<fpage>353</fpage>
+					<lpage>365</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Cadavid Restrepo A, Baker P, Clements ACA. National spatial and temporal patterns of notified dengue cases, Colombia 2007-2010. Trop Med Int Health. 2014 Jul;19(7):863-71. DOI: 10.1111/tmi.12325.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cadavid Restrepo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Baker</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Clements</surname>
+							<given-names>ACA</given-names>
+						</name>
+					</person-group>
+					<article-title>National spatial and temporal patterns of notified dengue cases, Colombia 2007-2010</article-title>
+					<source>Trop Med Int Health</source>
+					<month>07</month>
+					<year>2014</year>
+					<volume>19</volume>
+					<issue>7</issue>
+					<fpage>863</fpage>
+					<lpage>871</lpage>
+					<pub-id pub-id-type="doi">10.1111/tmi.12325</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Hijmans RJ, Cameron S, Parra J. Worldclim - Global Climate data. [Internet]. Berkeley: University of California; 2014 [Cited 2015 Ago 25]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.worldclim.org/">http://www.worldclim.org/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hijmans</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Cameron</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Parra</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Worldclim - Global Climate data</source>
+					<publisher-loc>Berkeley</publisher-loc>
+					<publisher-name>University of California</publisher-name>
+					<year>2014</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.worldclim.org/">http://www.worldclim.org/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Londoño LA, Restrepo C, Marulanda E. Distribución espacial del dengue basado en herramientas del Sistema de Información Geográfica. Rev Fac Nac Salud Pública. 2014 Ene-Abr;32(1):7-15.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Londoño</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Restrepo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Marulanda</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Distribución espacial del dengue basado en herramientas del Sistema de Información Geográfica</article-title>
+					<source>Rev Fac Nac Salud Pública</source>
+					<season>Ene-Abr</season>
+					<year>2014</year>
+					<volume>32</volume>
+					<issue>1</issue>
+					<fpage>7</fpage>
+					<lpage>15</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Instituto Nacional de Cancerología E.S.E; Instituto Geográfico Agustín Codazzi. Atlas de mortalidad por cáncer en Colombia. 3<sup>a</sup> ed. [Internet]. Bogotá: Imprenta Nacional de Colombia; 2010 [consultado 2015 Jul 30]. Disponible en: <ext-link ext-link-type="uri" xlink:href="http://www.cancer.gov.co//files/libros/archivos/1fffdea82046e502b0087ea19f964cdf_Atlas%20 de%20Mortalidad%20por%20c%C3%A1ncer%20en%20 Colombia%202010%20-%20comprimido.pdf">http://www.cancer.gov.co//files/libros/archivos/1fffdea82046e502b0087ea19f964cdf_Atlas%20 de%20Mortalidad%20por%20c%C3%A1ncer%20en%20 Colombia%202010%20-%20comprimido.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<comment>Instituto Nacional de Cancerología E.S.E</comment>
+					<source>Instituto Geográfico Agustín Codazzi. Atlas de mortalidad por cáncer en Colombia</source>
+					<edition>3</edition>
+					<publisher-loc>Bogotá</publisher-loc>
+					<publisher-name>Imprenta Nacional de Colombia</publisher-name>
+					<year>2010</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.cancer.gov.co//files/libros/archivos/1fffdea82046e502b0087ea19f964cdf_Atlas%20 de%20Mortalidad%20por%20c%C3%A1ncer%20en%20 Colombia%202010%20-%20comprimido.pdf">http://www.cancer.gov.co//files/libros/archivos/1fffdea82046e502b0087ea19f964cdf_Atlas%20 de%20Mortalidad%20por%20c%C3%A1ncer%20en%20 Colombia%202010%20-%20comprimido.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Almeida MC, Gomes CM, Nascimento LF. [Spatial analysis of neonatal mortality in the state of São Paulo, 2006-2010]. Rev Paul Pediatr. 2014 Dec;32(4):374-80. DOI 10.1016/j.rpped.2014.01.001</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almeida</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>LF</given-names>
+						</name>
+					</person-group>
+					<article-title>Spatial analysis of neonatal mortality in the state of São Paulo, 2006-2010</article-title>
+					<source>Rev Paul Pediatr</source>
+					<month>12</month>
+					<year>2014</year>
+					<volume>32</volume>
+					<issue>4</issue>
+					<fpage>374</fpage>
+					<lpage>380</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.rpped.2014.01.001</pub-id>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>
